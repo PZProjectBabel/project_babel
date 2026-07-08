@@ -8365,6 +8365,9 @@
   "Sandbox_AutoForage_Context_tooltip": "コンテキストで制御したい場合はオンにしてください",
   "Sandbox_AutoForage_UI": "UIオプション",
   "Sandbox_AutoForage_UI_tooltip": "検索マネージャーにUIを追加するにはオンにします",
+  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds": "採取：追加の種を無視",
+  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds_tooltip": "有効にすると、採取で見つけた野生作物から食料アイテムは通常どおり入手できますが、自動生成される追加の種アイテムは無視されます。 マルチプレイ：サーバーの Sandbox 設定で権威的に制御されます。 シングルプレイ：Mod Options がこの Sandbox 設定より優先されます。",
+  "Sandbox_TWF_QoL": "TwisTonFire - QoL",
   "Sandbox_Fol_Take_A_Bath": "fol_Take_A_Bath オプション",
   "Sandbox_TakeOff_Backpack": "バックパックを外す",
   "Sandbox_TakeOff_Backpack_Tooltip": "キャラクターは入浴前にすべてのバックパックとウエストポーチを取り外します。",
@@ -19596,8 +19599,5 @@
   "Sandbox_FanHeater_TempBoostHigh": "温度上昇 (高)",
   "Sandbox_FanHeater_TempBoostHigh_tooltip": "高出力時に部屋に加えられる摂氏温度。",
   "Sandbox_FanHeater_TempBoostLow": "温度上昇（低）",
-  "Sandbox_FanHeater_TempBoostLow_tooltip": "低出力時に部屋に加えられる摂氏温度。",
-  "Sandbox_TWF_QoL": "TwisTonFire - QoL",
-  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds": "採取：追加の種を無視",
-  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds_tooltip": "有効にすると、採取で見つけた野生作物から食料アイテムは通常どおり入手できますが、自動生成される追加の種アイテムは無視されます。 マルチプレイ：サーバーの Sandbox 設定で権威的に制御されます。 シングルプレイ：Mod Options がこの Sandbox 設定より優先されます。"
+  "Sandbox_FanHeater_TempBoostLow_tooltip": "低出力時に部屋に加えられる摂氏温度。"
 }

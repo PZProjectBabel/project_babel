@@ -1,0 +1,986 @@
+[
+  {
+    "mod_id": "3756446993",
+    "translation_key": "ContextMenu_AnimalCage",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "18e036ded2681e5d59b7b9ea7193aecf"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "ContextMenu_FoodCellar",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "5348731e92599ea4a7d5fd6c0322e3f9"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Fluid_Name_Lava",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "0d069c36ba402e2f7d7b02af220f9980"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "IGUI_CraftingWindow_dirtgenerator",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "6b6e56f08e044752ac6759524ec7bd92"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "IGUI_CraftingWindow_skyblockforge",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "0060b669c1b45a112c20e7775931d11d"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "IGUI_CraftingWindow_skyblockfurnace",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "6a4c499aa6e3fd46bc52aef2c935c5dc"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "IGUI_CraftingWindow_skyblockworkbench",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "5afb9287de3a1f81ef360af9bde85dd2"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.BasementKey",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "27c62d599f0100d078b13fbfb73ccce1"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.CrudePickaxe",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "a797ce905ad34bc367c7aa673466de55"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.DesertIslandMap",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "e0733ea09166cb18882aab9a82118ec3"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.FarmIslandMap",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "eb1ec33d2e38cbc5c41836e7270e4603"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.FireTorch",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "3e37095ae1e175f41ae3229934561b01"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.MechIslandMap",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "aaeaf5701a6d5e45971f3496912ed148"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.Mulch",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "33754c729571e57c251faa3ec32890c4"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.PineNuts",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "2052acd2799c65edfe6dcd5b5e92d334"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.PlantFiber",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "4726e2759eb722f31539688b1b3ad988"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.Resin",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "13099aeee4f4ff99511f430bd397babc"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.RoastedPineNuts",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "503af5f1bd83825c2d545cf004c43166"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.SkyblockGuidebook",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "464e5f2620b5818de8c6934275b82a0b"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.StarterIslandMap",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "4f88dfe88f952399df5278eb872f8b3e"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.StoneHacksawBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "22d7b11fab672280c570893259a55ff9"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "MBSB.WormGrunter",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "4015405a402f63fe61a2a9ac7ea71576"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CrackPineCone",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "5ec12100500dab39b7467d14451dcc5b"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftBlacksmithAnvil",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "3ca631ff65248b71f0edb2e38ef0c24b"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftBucket",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "42663ed8341196fedcfc31daef12623c"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftBurlapPiece",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "8c466f0366d945e2023fa8feab9bb50e"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftClawHammerForged",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "680a5e8cc216912310255fc0b69361de"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftClay",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "36c3e17f58b5565a0ee6303051538b3e"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftClayCement",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "b0356d37a2d2b0568b42c107840b1183"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftConcretePowder",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "311ff51f2a508cd3d75567b7ff8b3c3b"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftCrudePickaxe",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "15dc14396c6f1d270dd5801c00e8429d"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftCrudeScissors",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "01f4c2cba03c7212e31e1caeef04ccd5"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftDirt",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "6bbb675fdaee30ce04e7b54c31adb26d"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftDoorHinges",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "f3d3d2d8ed7a085b70c126af9984f76b"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftDoorknob",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "9c0ba01024ab4e3e30b38a9d62d034ab"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftDuctTape",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "fae816284efbfb11a64503f316c26a2c"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftFile",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "8e8760ebb239ae6fa4d9ef1defa23f2d"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftFireTorch",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "1281ebf3003209fee0d6ff6371b61dcf"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftFlaxTow",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "e25502fb99a0ea20b2dc19668b8809a1"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftForgedNeedle",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "6142012a9445f59fcd2867b552c3f7d3"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftGravel",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "a32e49a92356940f6ccb57c512e5737d"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftHacksaw",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "cb91bec1c2921087f27ee40ba7f9957a"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftHacksawBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "e5769e7a13fa6cce94975559560d170c"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftHandDrill",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "be46702694eaee5a1054b5e995314046"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftHeadingTool",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "136ab27a4e7ba4eceb3181b1d4cc6c45"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftIronBar",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "79f7acb3ec7cf2a3fab30ea1a2db4864"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftIronBarHalf",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "9987f4a6e3d69013c65ab1486882fe72"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftIronBarQuarter",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "fa254f9169e8cfa4dabb6a4a5d88d7a7"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftIronBlock",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "1f088b758939b7e71438ac27e49b9158"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftIronChunk",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "04ffb6e781ebfd788705e82d5951cf72"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftIronPipe",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "8ad646a41fc97a036cbce2f36b96f2c5"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftLargeHook",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "410fde5a16dc80515b963c9b4c53289a"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftLongSpearHead",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "436b156f99cccd89c9c683f24d36ca49"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMace",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "dbcb4e605719ef6fcdb2e977aa5e6b6f"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMasonsTrowel",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "1da2ab946755b736524a11f5c6c4f4e3"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMetalBodyArmor",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "2318a3d6889c85e024b78f7aaefb0884"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMetalCodpiece",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "f4346b81908e37cc5eccdf83821f56dc"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMetalForearmArmor",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "b930e7d4f728c8fb5b298f47a86c5890"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMetalMask",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "15e24a818e6e256bf46526080b78fe7a"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMetalNeckGuard",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "8d4adb9b5f15d43901e8a7d97c477520"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMetalShinArmor",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "ff8a84c63066ac686d04bed085b1e766"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMetalShoulderArmor",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "86f1bc23aada0f920b141f809fe22de2"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMetalThighArmor",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "9e0e54ce5858a9de9af1e9fae31e5533"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMetalworkingChisel",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "254fed005d9deca7ea22439722feda16"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMetalworkingPliers",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "cf7bcd0ddff0bf7e5c7e148095c5c2f2"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMetalworkingPunch",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "8fd552dff10f7a27eb41ab0f332dfdcd"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMortarPestle",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "81463b53126f83b46c73069a3f6a7e6b"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftMulch",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "25ebbd945217c424a0c08e6f478f03ed"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftNails",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "3ebd915b7c65b23cd1d67600b773b7db"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftPlantFiber",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "e4ae0948795d1f5a48d1375c3b3aef6b"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftRags",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "3626a09f1944f57d5ed3a3a716f6615d"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftScrapMetal",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "8db9341617105b272233a5af45b3780f"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftScrapMetalSword",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "f56442a92afb71e6dbdf613316a32a5f"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftScrewdriver",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "20404258200e681ffd11098816b7ac5e"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftShortsword",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "2138b26f84042e60944edb0f3b199525"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftSimpleWoodSaw",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "d9b9247c22e9aa397eb113d7ecdad643"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftSmallKnife",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "645e7e14344e86ef016096bb5a606644"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftSmallSteelSheet",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "87a660cf9e20deb3d26179fa7a3490b3"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftSmithingHammer",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "05449f708323c607842d96f56be7f9b1"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftSteelBar",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "2b12d53c3316723601c7eba04c829be0"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftSteelBarHalf",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "5862f9570e38ebb85bcc2621b298ec24"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftSteelBlock",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "97679eafbdd04cf4f2c64eaf8bcd04b2"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftSteelChunk",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "1eaaed85d7ad8d49340d35b5298c720f"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftSteelRod",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "bb54ad77b12c2454d485dceb03c80292"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftSteelSheet",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "917dbbcfadb42d7b9e7239483174ba09"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftStoneHacksawBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "1addca34818c04a70fe941836ba1f5fe"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftTarp",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "b1d1d2c3c3746ebf8dcbc5d6da671549"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftTongs",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "2f061299011e1aa5d0706aff56cfed81"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftTwine",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "20cf3e57bd89800472cf38e75afc49f3"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftWire",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "d1a6761835c757bf15777288b0ba6674"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftWoodAxe",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "8d2777aa7e8a6e91ef5701c640d88ec7"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftWoodGlue",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "b4b7d1a6e4cc7866dae8ca9e9f2e8879"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_CraftWormGrunter",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "8ca0150f53a0387472180107b7f1d48f"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_KnapStones",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "2ccb45c6552b3735e9cc1675c58520d1"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_MakeSheet",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "bb0c6bab11d42d30df694d79041c6a65"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_SmeltCopperOre",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "4f7d9d9391b7cc6fac96699cd782de8f"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_SmeltIronOre",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "ac7ec0523a5b5967b56d32f3aeda8137"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Recipe_SmeltSteelIngot",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "7103eeb8c7ca62983260d2eb121716f8"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_CobblestoneGenerator",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "f9e10462fc66a11f9647193128d9198e"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_DirtGenerator",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "fa505200d8aad2bd77816c72c0d02474"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_FishingPond",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "e419877b7f54d528151995b73bf06eae"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_FoodCellar",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "cb8c208bd4b3f7ca9e8d289114294bae"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_Furnace",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "e4bf5954a9f94b4cd3a34a887e0c0bb9"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_GrassFloor",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "9e34ecf76e82c95fbd43e74b75e9e131"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_SkyblockArmory",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "280bcc35199dee7ddd47130b81450f5f"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_SkyblockForge",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "a0cc1e93baac24a588d4bd381a695a5a"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_SkyblockGroundTorch",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "c56f1f3daa2f8b713bf8cb4fb22fd636"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_SkyblockLoom",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "f0b7115c7d4b15c8124d732f7463ec45"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_SkyblockWorkbench",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "e8b754821c3b091d0095ec370ebd78ab"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_WallMountedTorch",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "cf24de84222142aafa77b2e336d75b23"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_WaterCollector",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "98ce00a3feace38fcb99c296b6fe0312"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_craft_Well",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "7f70ff497e448f52340219fef6faa3c1"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_item_BasementKey",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "2b81237f174011c10728fe87aa5199e3"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_item_CrudePickaxe",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "2d2ba8a28a3a764382a06df10b78bc3e"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_item_FireTorch",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "6196f78fe76b1ac4a2ebb78843e478aa"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_item_Mulch",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "31be1fc9b3ae0e39827b98bfb90a58ad"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_item_PineNuts",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "6fd8afa80175485bea874edaf5061b1c"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_item_PlantFiber",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "68f2be70770be1ff5a1dbd0475c7911e"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_item_Resin",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "d7c14817f1369a93a710285b0031682e"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_item_RoastedPineNuts",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "0c075f495ab95f79880fc89e356d94f1"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_item_StoneHacksawBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "b69142d290b3101d78eee702e231937c"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "Tooltip_item_WormGrunter",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "e1791a8e750d3aa79de5188ab070f2b2"
+  },
+  {
+    "mod_id": "3756446993",
+    "translation_key": "UI_prof_skyblock",
+    "is_active": true,
+    "last_seen_at": "2026-07-08T18:45:06.4495725Z",
+    "last_seen_mod_updated": "2026-07-03T13:33:38.0000000Z",
+    "source_hash": "58df072aeab1f5b96d58bd8a508d791f"
+  }
+]

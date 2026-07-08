@@ -17157,7 +17157,6 @@
   "IGUI_AWS_RepairWear_Requires": "Requires: %1, %2 and %3",
   "IGUI_AWS_RepairWear_XP": "Tailoring XP (scaled by level): +%1",
   "IGUI_RSF_CaffeineKick": "Caffeine kick!",
-  "IGUI_RSF_ClassNotInstalled": "Realistic Strength & Fitness is not properly installed. \nThe file 'ItemContainer.class' is missing from your game directory. \n\nCopy the 'zombie' folder from the RSF mod \n(Workshop/RealisticStrengthFitness/Contents) \ninto your Project Zomboid game folder \n(where ProjectZomboid64.exe is), then restart the game.",
   "IGUI_VehicleName79camaro": "'79 Chevrolet Camaro",
   "IGUI_VehicleName79camaroGhost": "'79 Chevrolet Camaro Ghost",
   "IGUI_VehicleName79camaroRS": "'79 Chevrolet Camaro RS",
@@ -21709,5 +21708,9 @@
   "IGUI_ABP_Screwdriver": "A usable screwdriver is required.",
   "IGUI_ABP_Skill": "Your skills are not high enough.",
   "IGUI_ABP_Surface": "A reachable table or crafting surface is required nearby.",
-  "IGUI_ABP_Unequip": "Unequip the backpack before modifying it."
+  "IGUI_ABP_Unequip": "Unequip the backpack before modifying it.",
+  "IGUI_CraftingWindow_skyblockforge": "Skyblock Forge",
+  "IGUI_CraftingWindow_dirtgenerator": "Dirt Generator",
+  "IGUI_CraftingWindow_skyblockfurnace": "Skyblock Furance",
+  "IGUI_CraftingWindow_skyblockworkbench": "Skyblock Workbench"
 }

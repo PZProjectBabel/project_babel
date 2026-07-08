@@ -8664,6 +8664,9 @@
   "Sandbox_AutoForage_Context_tooltip": "如果您想通过上下文控制，请打开",
   "Sandbox_AutoForage_UI": "UI选项",
   "Sandbox_AutoForage_UI_tooltip": "打开以将UI添加到搜索管理器",
+  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds": "觅食: 忽略附带种子",
+  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds_tooltip": "启用后, 通过觅食找到的野生作物仍会获得食物本体, 但自动额外生成的种子物品会被忽略. 多人游戏: 由服务器的 Sandbox 设置作为权威控制. 单人游戏: Mod Options 会覆盖这个 Sandbox 设置.",
+  "Sandbox_TWF_QoL": "TwisTonFire - QoL",
   "Sandbox_Fol_Take_A_Bath": "fol_Take_A_Bath 选项",
   "Sandbox_TakeOff_Backpack": "卸下背包",
   "Sandbox_TakeOff_Backpack_Tooltip": "角色在洗澡前会卸下所有背包和腰包。",
@@ -20010,8 +20013,5 @@
   "Sandbox_FanHeater_TempBoostHigh": "温度提升 (高)",
   "Sandbox_FanHeater_TempBoostHigh_tooltip": "高功率模式下房间增加的摄氏度",
   "Sandbox_FanHeater_TempBoostLow": "升温 (低功率)",
-  "Sandbox_FanHeater_TempBoostLow_tooltip": "低功率模式下房间增加的摄氏度",
-  "Sandbox_TWF_QoL": "TwisTonFire - QoL",
-  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds": "觅食: 忽略附带种子",
-  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds_tooltip": "启用后, 通过觅食找到的野生作物仍会获得食物本体, 但自动额外生成的种子物品会被忽略. 多人游戏: 由服务器的 Sandbox 设置作为权威控制. 单人游戏: Mod Options 会覆盖这个 Sandbox 设置."
+  "Sandbox_FanHeater_TempBoostLow_tooltip": "低功率模式下房间增加的摄氏度"
 }

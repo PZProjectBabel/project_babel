@@ -8381,6 +8381,9 @@
   "Sandbox_AutoForage_Context_tooltip": "Activez si vous souhaitez contrôler via le contexte",
   "Sandbox_AutoForage_UI": "Options d'interface",
   "Sandbox_AutoForage_UI_tooltip": "Activez pour ajouter l'interface au gestionnaire de recherche",
+  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds": "Recherche de nourriture : ignorer les graines supplémentaires",
+  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds_tooltip": "Lorsque cette option est activée, les cultures sauvages trouvées en cherchant de la nourriture donnent toujours l’aliment, mais les graines supplémentaires générées automatiquement sont ignorées. Multijoueur : contrôlé de façon autoritaire par l'option Sandbox du serveur. Solo : les Mod Options remplacent ce réglage Sandbox.",
+  "Sandbox_TWF_QoL": "TwisTonFire - QoL",
   "Sandbox_Fol_Take_A_Bath": "Options fol_Take_A_Bath",
   "Sandbox_TakeOff_Backpack": "Enlever les sacs à dos",
   "Sandbox_TakeOff_Backpack_Tooltip": "Le personnage enlèvera tous les sacs à dos et les sacs banane avant de prendre un bain.",
@@ -19612,8 +19615,5 @@
   "Sandbox_FanHeater_TempBoostHigh": "Augmentation de température (Hi)",
   "Sandbox_FanHeater_TempBoostHigh_tooltip": "Degrés Celsius ajoutés à la pièce en mode Haute puissance.",
   "Sandbox_FanHeater_TempBoostLow": "Augmentation de température (Faible)",
-  "Sandbox_FanHeater_TempBoostLow_tooltip": "Degrés Celsius ajoutés à la pièce en mode Faible puissance.",
-  "Sandbox_TWF_QoL": "TwisTonFire - QoL",
-  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds": "Recherche de nourriture : ignorer les graines supplémentaires",
-  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds_tooltip": "Lorsque cette option est activée, les cultures sauvages trouvées en cherchant de la nourriture donnent toujours l’aliment, mais les graines supplémentaires générées automatiquement sont ignorées. Multijoueur : contrôlé de façon autoritaire par l'option Sandbox du serveur. Solo : les Mod Options remplacent ce réglage Sandbox."
+  "Sandbox_FanHeater_TempBoostLow_tooltip": "Degrés Celsius ajoutés à la pièce en mode Faible puissance."
 }

@@ -8365,6 +8365,9 @@
   "Sandbox_AutoForage_Context_tooltip": "Aktivieren, um über Kontextmenü zu steuern",
   "Sandbox_AutoForage_UI": "UI-Optionen",
   "Sandbox_AutoForage_UI_tooltip": "Aktivieren, um UI zum Suchmanager hinzuzufügen",
+  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds": "Nahrungssuche: Zusätzliche Samen ignorieren",
+  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds_tooltip": "Wenn aktiviert, erhältst du bei gefundenen Wildpflanzen weiterhin die Nahrung, aber die automatisch zusätzlich erzeugten Samen werden ignoriert. Multiplayer: wird autoritativ über die Sandbox-Einstellung des Servers gesteuert. Einzelspieler: Die Mod-Optionen überschreiben diese Sandbox-Einstellung.",
+  "Sandbox_TWF_QoL": "TwisTonFire - QoL",
   "Sandbox_Fol_Take_A_Bath": "fol_Take_A_Bath Optionen",
   "Sandbox_TakeOff_Backpack": "Rucksäcke abnehmen",
   "Sandbox_TakeOff_Backpack_Tooltip": "Die Figur wird vor dem Baden alle Rucksäcke und Gürteltaschen entfernen.",
@@ -19596,8 +19599,5 @@
   "Sandbox_FanHeater_TempBoostHigh": "Temperaturboost (Hoch)",
   "Sandbox_FanHeater_TempBoostHigh_tooltip": "Grad Celsius, die dem Raum bei hoher Leistung hinzugefügt werden.",
   "Sandbox_FanHeater_TempBoostLow": "Temperaturerhöhung (Niedrig)",
-  "Sandbox_FanHeater_TempBoostLow_tooltip": "Grad Celsius, die dem Raum bei niedriger Leistung hinzugefügt werden.",
-  "Sandbox_TWF_QoL": "TwisTonFire - QoL",
-  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds": "Nahrungssuche: Zusätzliche Samen ignorieren",
-  "Sandbox_TWF_QOL_ForagingIgnoreCollateralSeeds_tooltip": "Wenn aktiviert, erhältst du bei gefundenen Wildpflanzen weiterhin die Nahrung, aber die automatisch zusätzlich erzeugten Samen werden ignoriert. Multiplayer: wird autoritativ über die Sandbox-Einstellung des Servers gesteuert. Einzelspieler: Die Mod-Optionen überschreiben diese Sandbox-Einstellung."
+  "Sandbox_FanHeater_TempBoostLow_tooltip": "Grad Celsius, die dem Raum bei niedriger Leistung hinzugefügt werden."
 }
