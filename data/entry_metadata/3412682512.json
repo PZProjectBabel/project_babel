@@ -1,0 +1,834 @@
+[
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.BaseSpawnHourlyChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "7e7982e00675dfc36535fd3b3a1d1092"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.CarryTorches",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "9b7815bcf4a76ae76e022bc041c8efff"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.DensityScore",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "9cab27afb39f685600bed4349c13fbd7"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.DestroyThumpable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "bb23a2c3ceb5d91145b6b23f5b2d6c96"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.GroupSize",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "22925ffa3ec3c60ebc90c83edc3cc687"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.GroupSizeMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "29901fd2beef6f15b4638f9c9e08aeac"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.GroupSizeMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "ff876c7be1fa27ddc2566e022b323ba3"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.GroupSizeMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "9ea4d4865f9d15062fb0ae7100798349"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.GroupSizeMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "4b1ba38e6b83d61273d8b6e7931b0bef"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.GroupSize_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "12ac34fbf4c177430983bbecbb529d29"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.Loadout",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "6be8526fa43aa283649eaeff44971f9a"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.Loadout_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "d09ab7f1e43daf350e3c5df1fd0b7482"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.Loadout_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "be89743b6cd53d9bdd811b1a12e66687"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.Loadout_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "678c1c2b2090a73ab70d8f22af9fba66"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.Loadout_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "9a627d382c1024699301c74194b003a6"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.Loadout_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "5fb4ada6e6d613ab0a501a51605adc88"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.Loadout_option6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "c3de670187d93189dc1a0d8bc9978d97"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.Loadout_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "d23a11653094013c3b69dadf84ad3eda"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.RandomAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "5e3de3508b4b0034fe54a71bc10e203e"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.RandomAmmo_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "19ff879000aad139e97717a992a510a5"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.RandomHealthMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "3f5c92c3daa824ed948cbf0e0980e7b7"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.RandomHealthMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "1a39b87f504ec6cab56ed6caecadc087"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.RandomHealthMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "3f4dc7e98e709bdd3ce445cb49eef657"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.RandomHealthMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "dd2d1fbb44a3898967c323003967ccd2"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.RemoveBarricade",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "7adb7b68ebf7debc40b34f46630aa8da"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.SabotageVehicles",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "2e266c7e22e922a6188abe6cb284462f"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.SneakAtNight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "5900efc8f539278d226e8b7ca18bf3a4"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.SpecialWeapons",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "96259c8af0121f6ce4603e7d04629f90"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.SpecialWeapons_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "550900b831d840514202649d63fbe544"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.SpecialWeapons_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "26dcd1da621e4c3d3437bc2970023327"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.SpecialWeapons_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "5c86721b63f7bd88f954cfd6175f5c83"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.SpecialWeapons_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "cf27a90003af3fd1585d793795babefb"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.SpecialWeapons_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "c0a5b4dc7e22d26f12ff73eaec3a67cd"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.SpecialWeapons_option6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "cc29f72e7633fc45622c460f2702049c"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits.SpecialWeapons_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "e0289141297fabe4aa22fa6700ce4912"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_BanditsWeekOne.StartRide",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "f720e79d96d02eba87eb0547ba979f63"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "7b3d466a54fe267ecdb03088fd36d727"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.AllowGore",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "54d9c9428be741dabd2fa0d7cbe7833e"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.AllowNeutrals",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "eb75269908052471948a8eee7f99479e"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.AllowNeutrals_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "46718f70b1c735f722d318ead83cb70f"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.AllowNeutrals_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "f1b7ab03940ea7cc13e3b55df40dc7e9"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.AllowNeutrals_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "fe3b252095540c497bfc6fe5d8353f89"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.AllowNeutrals_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "30b54b46646cbc73355fe8eb9ca9996d"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.AllowNeutrals_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "54b22531ad87e96b7c86bf0f7beac72d"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.AllowNeutrals_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "7b35500ece0a1ad2103ed8f0cc7f006c"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.AllowRaiders",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "5957888b20cf7c0750803bd3bb69debe"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.AllowRoadblockCars",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "4cc1fe892a027379cf474b1503fb3ecd"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.AllowRoadblockSandbags",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "969e74e2315cb6b9b21251e4e424187b"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.BaseSpawnRadius",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "557f9d91389e651a8420731ae3fb76d8"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.BaseSpawnRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "eeb03b0131da04c9ef628afcc84e62fc"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.DefenderCooldown",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "5e9a366ff792f1c04e1f97434cf76e27"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.DefenderCooldown_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "1632084c58c77fe384a5283e899435ab"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.GeneratorSettings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "034b799add80cbc69e1d384fdcf09152"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.GeneratorSettings_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "dddfd41b14ebfcfaa8818c710d42f4e1"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.GeneratorSettings_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "7ff1f522b7db6e5036a76a3e280abaa1"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.GeneratorSettings_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "c6cf462814dcb8cfce3847555bc0d44e"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.GeneratorSettings_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "033c01b61173771a5cdfb2a3a209e6cd"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.GeneratorSettings_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "56933a81c42244e6f699392b41920434"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.GeneratorSettings_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "b2319bbba7f61aae17016d28cc651b53"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.Incognito",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "ed09a311154cf8ee78d284f78cf5bf02"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.MaximumDefenders",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "59f5b5ce8b083a7f8f8c8db028e29dae"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.MaximumDefenders_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "c8ffe0c5fd892be49ca1836502265315"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.MeleeBalance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "cdec9fa212ee5b18f40de83ec355791a"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.MeleeBalance_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "745e982bf8c5e868b35889636539d774"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.MeleeBalance_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "00c6741b48399f6a324a6f47aee87c34"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.MeleeBalance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "d499980d17804313f28aca7fa28253cb"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.RandomAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "02b538df4c24a1140c0bfa3a2d491bc8"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.RandomGroupSize",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "8be930db975615ddf09dc93a4b33be92"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.RandomHealth",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "5d308bbfbe7a858167e80b06f6aa1263"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.RandomLoot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "8e9ccdca76b2b776998e6569d9c605ee"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.RandomLoot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "de585fed783fc8eef22ef7a6eef844d3"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.SpawnMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "94b2cbbf6841e159c1977f9860b3dbbf"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.SpawnMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "b330b65be9f5a44a8161e13780fef8c2"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.TimePersists",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "b507414f71c80339fc6ec18fe1a3b3ea"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.VehicleInsertionFX",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "501c8d871c1c84d2df12fc3c25405f43"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.ZoneBoost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "403cda6f5ca612568667f013889ec58b"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptions.ZoneBoost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "85ba61edd1ed702c8556f142c17efa8b"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsDay1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "668cb131e48a2da55349ed7e4786f038"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsDay1.Family",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "11f8068d47689d13e6149079fec5e28e"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsDay1.Family_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "83a7a276712d48354334cc2d8429af22"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsDay1.Family_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "cf90bfd446662056ed09ce5daff1691f"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsDay1.Family_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "96c14222863336dc3faf53dd398c8f69"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsDay1.Family_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "d9278861b7bc2579f1b8580475480146"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsDay1.Family_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "9ea596e21b43bb777f355f12b51815e6"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsDay1.Kaboom",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "0e42a4c61e61e40f4222b622f4568cfe"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsDay1.RandomiseGroups",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "f241cb9568e3d02b4efadd5d3246984d"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsDay1.StartEquip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "a367fab1dfe6dbd1eab902c1f4df6bb4"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "6e520f5bd23c04c02bc907b644f5cb8e"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1.AllowA10",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "8aa6a7b8081746fbbc3a1b57487bad99"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1.AllowBombing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "8eba345c67fee1ca88244beb65861de0"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1.AllowGas",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "afaf346c81d93b5c66d9adfab2b2634b"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1.RandomiseGroups",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "d7ed945fad11721a727831b36b4873da"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1.TrespassTimer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "00fc04a8955efe7aaa71024e206c679e"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1.TrespassTimer_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "682b547ed38a69285e7eb915703a0dc0"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1.TrespassTimer_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "7e1033888ccf627a9ea7c80e9d321cd4"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1.TrespassTimer_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "43d28696fce12f6e96a9bb91c99e7d17"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1.TrespassTimer_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "b77249d620c1dd6161ceb24b570888ec"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1.TrespassTimer_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "de946b7a387a3b8c5553a8a3ee9b862d"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "Sandbox_Bandits_AddOptionsWeek1.TrespassTimer_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "a1d8d4d54f20f5e4290c230affe368aa"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "UI_Doctorfail",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "dd91a1a091d0d561d168e66c279698af"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "UI_Doctorsucceed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "99c4e6b36fdf0a5614ad4a62ff4c3aef"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "UI_options_AllowBanditIcons",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "ef1a06041219a4787e7f74de9126ea2f"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "UI_options_AllowBanditIcons_checkBox_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "d76287d4c81dc624190e0139502ad20b"
+  },
+  {
+    "mod_id": "3412682512",
+    "translation_key": "UI_options_BanditsAddOptions",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-02-28T21:19:16.0000000Z",
+    "source_hash": "1f011b67bd08cbe7fc5bdd17247b87c8"
+  }
+]

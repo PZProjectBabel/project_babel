@@ -1,0 +1,538 @@
+[
+  {
+    "mod_id": "3522009163",
+    "translation_key": "IGUI_DesignationZone_AddZone",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "1529f106c129a60c65a242d5b94a1b12"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "IGUI_DesignationZone_Type_Height",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "1ce8201bcd91c8a1408c9c7d5cc25aa3"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "IGUI_DesignationZone_Type_TotalSize",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "7eac5bc9e4cdccc0ab27fbd50d809277"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "IGUI_DesignationZone_Type_Width",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "1079c6180bce8f63faf15801ca446f95"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_HeaderAll",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "d6da4385bfa20df9507852def4290333"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_HeaderCategory",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "99ba2e2ecce57b5300838088bf206581"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_HeaderContainer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "760a94edc693b557f14e420bf5c3c487"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_HeaderName",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "17bf0ab91f734afbe0433ee60e45c20a"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_HeaderSize",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "e8f12d9409407ffb2074cb52beb00d79"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_HeaderStatus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "4a5950289c3d6dc946522f17ccdf71b8"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_HeaderZone",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "b7765ca002d4cd0ab45880f768546814"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ItemPanelInfo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "f9c0a457c46f48c2460e705650f03677"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ItemPanelTitle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "f4c77d88871639d5fcd9915262f49849"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ManageZonesButton",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "3113e0be2046af8d3c9d346291826964"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_AllowOverlap",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "178330de1219114eea529f49be50c20e"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_AllowOverlap_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "d37ab5b9a1ed646d2ce05f27d93eec2a"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ContainerIcon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "b4e716c6943808e650f1656af33a63dd"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ContainerIconBackground",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "d6579116ad5c8f80a777494bfe502906"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ContainerIconBackground_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "2063407f3686ddf82660109e148d7412"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ContainerIconForce",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "70a1b639d0714886f00d4319d0fe16ec"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ContainerIconForce_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "89e76b6de9492d8e6b4b6b6b0d7bc122"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ContainerIconSize",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "bf0682cb91b76995f92b654553ffcca3"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ContainerIconSize_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "d5499b98eb04f9471318e6ed703e8291"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ContainerIcon_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "d9ca61982a13edd3fc0d93999a490741"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_FocusSearch",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "5f2f8e24a1a6b15f2a765a563f14d1c6"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_FocusSearch_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "bbf977e31c3ab5fe0ffb5e9029709348"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_SearchMethod",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "01e453d3ec47a286efad8ff81e24a867"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_SearchMethod_CharacterSpeech",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "50f22e16e471ad63f4a9a88b5286d2cc"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_SearchMethod_OpenPanel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "9930c8662b06806c5d5f18a8f5ca398d"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_SearchMethod_ShowCount",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "c0cd442309bf684f2d1026d0fd5b4d13"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_SearchMethod_ShowCountMenu",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "72c161e8e6c40b21e523410e000b1f8d"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_SearchMethod_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "d8172ae4bb98aa2629a649a00a6287d7"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_Title",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "560eaa53c8cc18f1bf93301cf74000ed"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_TitleContainer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "14a1e091446a50dca75c372133317b0f"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_TitleZones",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "f186fe113e6ac069851463d22da2d142"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ToggleKey",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "d0b6c6fbcd5effec5a897dacb3694d8c"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ToggleKey_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "22ad3a04850cab8dcff72490d9e83e03"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_WalkClickZone",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "b5a1519eaffb4c21069920fbd3f74a39"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_WalkClickZone_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "3edde5b2a625b7b5b65764d7e49d0c31"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_Zone",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "4bcce5ba9d6c0d11dca5c9797e7d4640"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ZoneBad",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "bc433600fc624ac09f68f574884ec79e"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ZoneBad_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "b520defe63cf4214a258cca8dab2279d"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ZoneCur",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "c53b0092a029265ea41119e08acf15e9"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ZoneCur_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "024298248f3c160fcaeb3b094ae370be"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ZoneNew",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "bf3d6560a9d21d51e4673ba054cd103a"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ZoneNew_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "e99c21fde3ad181a35511beb26f39019"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ZoneOpacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "9d50eead0ccbeeedd5011707ead31b05"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_ZoneOpacity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "ff782368b6c5fe2eee30ba3b2b709ed1"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Option_Zone_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "c673ae8a81359b516a0ae9a1a3b9b5dc"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_Prefix",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "0d0d1c237e55db8a731667159a2ea65c"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_SearchCharacterSpeech",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "d9342390682cde1ac25256e38465486f"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_SearchOpenPanel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "9a27ea46faa868d62c64d3e4a2edb850"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_SearchShowCount",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "8e26904e7a349abe857b8770ac1fc52f"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_SearchShowCountMenu",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "b9d89d6af5cf88be0b2bd732c253149d"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_SearchShowCountMenuZero",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "c789970962dc3e301af3cb93aa854023"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_SearchShowCountZero",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "2c2e37725b0d6ff2ee039aa04e98b3a1"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_SearchSpeech1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "5759b225db9a54173e92238698c070cc"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_SearchSpeechZero1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "87914256352d6bd57060f0bc68ee1caf"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ZoneAddHowTo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "46e3812b69c84bfebfbcad5936c01742"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ZoneOverlapping",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "b52abafceaca35713a4c87bf87b6c57b"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ZonePanelDescription",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "5576a3a23f6a2f97883bb7a75be895be"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ZonePanelHint",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "93cc30309c8ad4ed3889ab874f067fb4"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ZonePanelNotUpdated",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "84e766968b0f7aae1c6fdc5b56256c7f"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ZonePanelTitle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "b114384d2ccd943c293046347205c7b8"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ZonePanelUpdated",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "33990be154f39b1fab5e3b1ecc20d6be"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ZoneRemoveTitle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "56c29ecda10c1fcb967262dfbc92d861"
+  },
+  {
+    "mod_id": "3522009163",
+    "translation_key": "UI_CFN_Home_ZoneRenameTitle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-11-22T07:24:52.0000000Z",
+    "source_hash": "dda10b7336bfae2299869869553da22c"
+  }
+]

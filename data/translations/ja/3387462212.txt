@@ -1,0 +1,6 @@
+Sandbox_ExtendedBatteryLife::en = "Extended Battery Life",
+Sandbox_ExtendedBatteryLife::ja::processed::unverified = "拡張バッテリー寿命",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier::en = "Battery Multiplier",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier::ja::processed::unverified = "バッテリー倍率",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier_tooltip::en = "Multiplier for battery life. Lower values make batteries last longer. Default: 0.5 (2x longer). Does not apply to car batteries.",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier_tooltip::ja::processed::unverified = "バッテリー寿命の倍率。値を低くするとバッテリーの持続時間が長くなります。デフォルト: 0.5 (2倍長持ち)。車のバッテリーには適用されません。",

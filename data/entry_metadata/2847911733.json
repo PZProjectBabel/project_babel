@@ -1,0 +1,986 @@
+[
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_ClosedJacket",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "5a404d8d22f1b217a9c442c8a505e033"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_JacketOpen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "0950812ea294a86b17d11b1a4bec7ecd"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "be4b061a7d7339bdb4ee0d8c1c7cb4d1"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_RollDownSleeves",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "e382b8f18f7b9d55dbec6abbc07fc0f8"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_RollUpSleeves",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "d55e90c025d5458a34cd9eac5a49e6a0"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_SwapSides",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "1f111cc4015bd043320c6920eebdb8b1"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_TieOnWaist",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "88d7e5c159e6d88bb4f8c1ea05a33a9e"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_Tighten",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "957daf1c357efe5e2bf08a8eb0e72271"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_TuckIn",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "775387e04849d04177ce3de917b2be1c"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_TuckOut",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "7d7031063b83ef4931d90ddc5057fa08"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_VestClose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "d24ddb60c44f34848b5536c0ed5cad04"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ContextMenu_VestOpen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "a23236a833c51061b97d4d044dc0ce03"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.ANAT",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "294a698f7333152ab988931c6552a40a"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_ANAT",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "7bfbcd6867fbe2ac30a7c83bceadaa50"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_BOOT_1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "f58ff15ca2cd390fece74f9342d81d6f"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Bomber",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "0ad6ebaabdf0f085bf47c777c4aad7f2"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_CAPARM_1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "3539d92f8486997555913887157696ab"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_CAPARM_2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "76cba5fd00ba9385d7a62ede8c2e3abb"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_CAPARM_3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "56e452b9ef92fda5b9c8f33960bbfb32"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_CAPARM_4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "836350ef89c11588109e3a5fb19d6f20"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_CropTop",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "352db69552dc2c4bcdc9dde96cc10752"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_CropTop_White",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "3014bd580cdf77e4f08f8ca7736f61b3"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Glasses_1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "14b70a6f7d87f0d372bcc884cb9b5e16"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Glasses_2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "39a603ea75f5ee47b64284bf47906d15"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Glasses_3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "eb84703a1eb2e02513cbe9261c3f7cd3"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_HR",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "a2aad867bca9a6eab28a98b4b554b6c8"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_KOF1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "bceab939cde270e2af3959b907d2f56f"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_KOF2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "637ae6bac4b72e151487abb4822bce38"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_KOMB",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "c5d942d4ac912b7140ae0b84b2f2d455"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_KOS",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "e6346b76539c1692fb339d0c45e74bd3"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "da7fdb060fef6149bcd1f780db1fd89e"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_10",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "e56572767636d485867df4dc3fa09bb9"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_10OP",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "33c6525b1b2511480a48f2b07772e59b"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "8cf6acb0f31e4d4d6537b28e4f4c5c3c"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "82ba4fe02e7af3c2a05a1e424a82388d"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "192a4653c1a15d4bee35fa6cc899fddc"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "0867d8ae649e706b4630523111cfd827"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_5OP",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "b1afd0c175a0c7a0e4e8c79356105021"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "72834a8fd88425f580f0fe84ae8fb96b"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_6OP",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "47b6e77e2a40c13a5f58dc601dc09dd3"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "8fbdb28a2132776e347fdc313d5453a1"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_7OP",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "5589e4819cd8f1892ac2d71693828b10"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_7_1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "bd0d66c31f0c78191f8d95d25a8341bb"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_7_1OP",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "b3194b747e6350c51ef951edd6cc0c9a"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "8a43def7b78f9cc241540037cc41e518"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_8OP",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "955c4b73322a22ae0e63d00c4561cff9"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "d58b5ea1a15378d5ade323f60c8e457d"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Kurtk_9OP",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "bc70f45c5dcbf7c4c203c1dd7eeaece7"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_LIF1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "fb5a7de5b74bd18ce2b4d43fad7c99e2"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_LIF1_1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "6b2c8f30f05e3df87d86c38d1d617106"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_LIF2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "a619c4ed237cd9ea6ea059a6b59ade6d"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_LIF3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "e080afdaf4acc47daba6f1b4c5cc865b"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_OHI_1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "fb49e244927629635c455e35d4487afd"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_OHI_2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "d3536df42998ac44ecd3de11fa9346f0"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_OHI_3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "ca034ce2b866cc0e64d6e0d935bd4986"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_OHI_4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "2092c6096a297e1276e97a6bf620a021"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_OHI_5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "8188a514d7049020d48c785785eece53"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_OHI_6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "15a864ed9172c464eb9a2a6185825bf5"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_OHI_7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "315493f954dc7b503314a3c27542f868"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_OHI_8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "1310f6a7401c02d346171d5f08db0719"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_PAN",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "824bd3d9095ab997024157cc9ae73495"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_PAN_2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "1af722f9205db5176157418ab7f19cf8"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_PAN_3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "fd08aab269f9a45517e1666e4aeb5805"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_PAN_4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "21c8f2faefea64163be2a0b7673c6c0e"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_PAN_5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "f0e54cb6516a89ac805224c685fdd920"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_PAN_6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "3ad8e6bbf24dc18625d87cb8c30181b0"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_PAN_7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "d8fcf708be786fd5a321a77f8d0e5e0d"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_RUB",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "a439006531d96105dd222fd82d07c927"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_RUBOP",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "0fbfe913670ca257238ba70e6686cc1d"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_RUKSAK",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "fdab7103f28199dd340fc0ee94912b62"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_RUKSAK1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "ec38650ae1b4b64a46e66d414142136f"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_RUKSAK2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "e88a5bc56665da858bf95fe4ae9dde3f"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Ras_army",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "5aa04d0a80b434c23d0fe9712abab226"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Ras_ohota",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "975938d2985c0b8afc42f7e24a38be11"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_SHO1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "319920879244dcf040308c16d7940d30"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_SK1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "e15c83a3acf03b0f8f36b9b8376c6bea"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_SP1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "980dfcc27569382a318683ea48080a9e"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_SP1OP",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "86758ec952fd762e242dfcc308624f11"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_SP2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "d45ad3fb713abdeecb468da2e2f310f8"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_ST2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "b912ea71c8f4550806a37e1b0144fd3f"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_ST3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "16c2b95365ca5e264812254e941e1cf6"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_ST4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "b2bffb1ae83c953cd6d542d15e6e6eba"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_ST5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "e409cb55829948788963a1100b1530a8"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_1M_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "b177045fa02c12100982d309c3f07346"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_1M_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "2c33e99a5dfc2ec5b0f7d8285c7c9d0e"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_1_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "6d59bfbf571ad13f5d0687b0a98e37fd"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_1_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "ecc985a49eaca8f47862d086717b6119"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_2_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "a82e7e26f6ec6e58b3a477b578bee9c4"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_2_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "dc71452256c5e059122fe1bd75687268"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_3_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "0e4c9a9914b9e9db3706c45c87ecdd28"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_3_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "636385c71f6d33b21a13bc1999d6b61c"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_4_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "caf054a589df4d7b3319ad0d8c03e04a"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_4_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "47fd0629c6c791d3a6463ef4b63831ac"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_5_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "951951f0058482800ae744d44e445f44"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_5_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "4834b475ea955c017cdea3341d29ebb9"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "39e023e8607a27f44081c95ca5dd9d3f"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_7_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "701eb67c1cec436a8f73b7372022da06"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_7_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "6d7b50a10a0e38078c46c29360b39527"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "d2a2eb781b1df7e9c4de0b42742a45bb"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Sumk_8P",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "b3aeeb18115cd085fbca026d45a6be27"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Trousers_CamoDesert",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "8068b6512f79955c4d005d0af2974e12"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Trousers_CamoDesert2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "d8c44c9ee6dc3ecf78cd816f086a79f8"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Trousers_CamoGreen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "4b2b2fb7d720f16e41cdec70a78befd6"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Trousers_CamoGreen2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "246f67bda551e4a8f09c220c2529419e"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Trousers_CamoUrban",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "0d2314d7bc1b5e1130c29f8f9c2d2637"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Trousers_CamoUrban2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "b032ce03df47b7de97efd7b291ed0e66"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Trousers_Worker",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "d22331689673c4745c17511c15edd03c"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_Foreman",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "844e39c893407fb1a4c1b1b241e66b95"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_ForemanOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "d9056fc36b554b95c2c88d91ab978fcd"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_HighViz",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "ef0233eb7517a917a3adc0f0dee62e21"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_HighVizOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "3005ddf4852faa8dfe9f9c714f17c5d5"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_Hunting_Camo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "2421f5391c417958473d0ebf8f35a1b4"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_Hunting_CamoGreen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "fcf9fe86ab2a245016f6c65ddf7d453a"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_Hunting_CamoGreenOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "eb509b0b73ebe45c2dfc7e57dab52184"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_Hunting_CamoOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "120b5c2f50e0c8599a0b7b5d3a7f0b78"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_Hunting_Grey",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "3ff94a38f2a21fdc3609ad83cf4b5f20"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_Hunting_GreyOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "c9c2a2107cfd08214748ca567946ebff"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_Hunting_Orange",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "0e5af7d132db5fc9cc5d4d2cf2072309"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Vest_Hunting_OrangeOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "3eabe9c1bd4a8fdb082f5aa0ae03294e"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_Waterproof",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "4d9888feaf78e8f6295b853016366fb3"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_kupalnuk",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "18b65f9d2399c42dc0ea3cb87d3365cb"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_tanktops",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "aedd979eda982f6ac598952fd3ef1752"
+  },
+  {
+    "mod_id": "2847911733",
+    "translation_key": "ItemName_Base.CBX_tanktops1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2025-12-19T23:49:05.0000000Z",
+    "source_hash": "b4a872d3cdc6ff5c795de1f9d2d06a4b"
+  }
+]

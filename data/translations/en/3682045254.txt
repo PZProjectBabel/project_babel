@@ -1,0 +1,5 @@
+Sandbox_UnifiedCarryWeightFramework::en = "Unified Carry Weight Framework",
+Sandbox_UnifiedCarryWeightFramework_CapWeight::en = "Cap max weight at 50",
+Sandbox_UnifiedCarryWeightFramework_CapWeight_tooltip::en = "PZ hardcoded on java-side to not allow player to carry more than 50kg/lb of items. If you run java mod that removes this limit, then you don't have to cap max weight at 50 and you should uncheck this box.",
+Sandbox_UnifiedCarryWeightFramework_GatherDetailedDebug::en = "Gather Detailed Debug Information",
+Sandbox_UnifiedCarryWeightFramework_GatherDetailedDebug_tooltip::en = "Enables prints into console. Useful for debug purposes. You generally don't want to have this enabled during normal gameplay as it provides no useful information for players and just bloats the console file.",

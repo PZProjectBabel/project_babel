@@ -1,0 +1,602 @@
+[
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_BathroomNeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "b1095e8d2724d7ba3d964dc66e0aa61f"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Beautiful",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "7b7d8b166f600e444203079e6445c424"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_BeautyNeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "f0af719bdacd90655d94502b6d5c4618"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Boredom",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "de89d6cd0b6cd2b831fb6993c3f12c04"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_CarryWeight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "454b37d72bf02ea6d5abbbf9436c61d8"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Clean",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "53c9352f1f939a1456403980d42ed9fa"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_ComfortNeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "af8e68200040aa11878b88b661c94c90"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Dirty",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "458ab72a198269da928cc1afb18f28f4"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Drunkenness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "de5624cd77bf057f10be8d61b5bd3a28"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Endurance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "ef82e463b55b89981d480d4e143b5e72"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Fatigue",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "d46e20a92640b2d88c2dcd4a3f43a327"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Fitness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "6248ea30f045c190c17252d9c5f0e481"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Health",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "efcc9317ea8cb6b121e2d063b3b11f55"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Hunger",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "00aae67cffc2679d55b9a33d2e024c5c"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_HygieneNeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "da33ecf2336d7b0bdbced6d727321f18"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Pain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "32de1008e47814c68861a078a2652acb"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Panic",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "e1b9fe44c61614e8411d21754ff950a5"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Sanity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "f61fb079cf2dae630ac9e2567c8e918c"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Sickness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "b3452df3ef2016c8261f502a13d3f528"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Stress",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "3b36e8b6ce3aea061aba45d4f126e46b"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Temperature",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "72dbf041a632eb995747e9adfd406573"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Temperature_Units",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "8a2236fea373c08a4f35bd3b0ddcb5c1"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Thirst",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "b715816f07b7d7a8796e8f48d299104c"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Ugly",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "f7b155040a030a3bdbe42fd5f0de2eda"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Uncomfortable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "b895fd736f3ec95b182943ec5ce273d9"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Urgent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "0a4f7dd5d3f99924cde9915ff2d39328"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_VeryComfortable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "2222bba75283cb346ac7958606099290"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "df606b6c5f699931c7b5974a110a50cf"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "IGUI_Weight_Units",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "8ed56f8ba349573fb1a4115a8dfebae3"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_Foot_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "7cee16494a84c319f629a39d45314e2c"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_Foot_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "1ab7ff3d6de009b157cc514df6511404"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_ForeArm_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "3bb130c3abdc9bb1b6803a03dee9b163"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_ForeArm_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "8944af5a902f3ca027848ec8482051e9"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_Hand_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "72a5cbcae0db6434aa3681c0c8a6f091"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_Hand_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "097eac9795e6e6cc4c148983b737db31"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_Head",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "b1b0657e01bccd935ade768634b9fff2"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_LowerLeg_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "1e3265bffd226fa0b5e3480db9fe4a96"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_LowerLeg_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "a1149ae2c4ebbcb87cc941822c4ba342"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_Neck",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "e08c784658f5c82bced2175020186466"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_Torso_Lower",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "f0326e953da7033b943ea4f9d94b91a8"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_Torso_Upper",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "987fdd31120cd401d3354a7958ab710d"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_UpperArm_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "d6aa068e6e1d211b853bd0a05f33b285"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_UpperArm_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "8a992e8df74c769915b2d2eb17b93741"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_UpperLeg_L",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "778064b6f1728143b0eab2d00d62d00f"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "Stiffness_UpperLeg_R",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "4e8655ec44f43e96b969f642df38c42a"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_Cancel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "2a93b841a5bea8cea21d2c9210be1ac7"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Color_Black",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "e8b01589a68f2ebf5c2151c24b912091"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Color_Blue",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "6b8f13174d4cdf3e60d6de504d6b62db"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Color_Green",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "be9cb4f136169489b62181a311688fd7"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Color_Red",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "9b3f094d6aea0bb94cf892c4d1070d68"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Color_White",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "f54c9bbe56d3fcc329efc166f5e5fed7"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Color_Yellow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "76d93635a2a665af7483f686a8565e16"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_ConfigureKey",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "f986b5c2b48968d4bfcdff9fa6cf56e8"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_DisableFade",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "3a175b2369c7dfa2ad82fcf668e6d2b0"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_DisableOutline",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "bfc14a85e5bb071411b808f4907eeb6c"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_EnableFade",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "8d63848b176eda36aaab9e0273cf17f6"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_EnableOutline",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "0a196d9def16f88a0ca6184a8e396542"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_FontSize",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "8cf2364f687504918c8534fc7d2fd60a"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Hide",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "5b9d44c7459da11df93183c8ecec03b5"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_HideAll",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "a0b424ff7a5c4f5237db0ccbdf1db8ae"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Lock",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "8d4599a2983b80d645560c9896abab55"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_ManageBars",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "6af54db447f818b1f41b219f76990673"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_OutlineColor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "29e81cb2738810a7bedbfc1008b03959"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_OutlineSettings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "139235bcce17bf882be444a244bb706f"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_OutlineThickness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "e9544686b5c22df59c7b7eac14e88a7d"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_PressKey",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "205587a649df367af84b48fd816eefef"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Presskey",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "8a0d725e7a52c7afa6a24a09dad74624"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_RestoreAll",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "6c9968c238dcc3e0f070f577c47f4512"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_RestoreThis",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "33ab2a89e71f8166d226deec19b6b3ce"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Separate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "4c987882d6e1e10405703f09e7434b50"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Show",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "f3a5310887be19d4975beaec67a5ea50"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_ShowAll",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "65f9863fe5000cc7b3f64556832eefc0"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_ToggleVisibility",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "b52f7372ca7f0481986a75ceb6e14f5c"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_Unlock",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "5a3c2c8c0d5077550fc0f96d6ea701b9"
+  },
+  {
+    "mod_id": "3399292171",
+    "translation_key": "UI_StatsMenu_VisibilityOptions",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-07-11T01:55:41.0000000Z",
+    "source_hash": "0362b722a4025122a918977c7c5aa467"
+  }
+]

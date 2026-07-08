@@ -1,0 +1,8 @@
+UI_DeleteItem_ConfirmMany::en = "Delete %1 items? This cannot be undone.",
+UI_DeleteItem_ConfirmMany::de::processed::unverified = "%1 Gegenstände löschen? Dies kann nicht rückgängig gemacht werden.",
+UI_DeleteItem_ConfirmOne::en = "Delete '%1'? This cannot be undone.",
+UI_DeleteItem_ConfirmOne::de::processed::unverified = "'%1' löschen? Dies kann nicht rückgängig gemacht werden.",
+UI_DeleteItem_Menu::en = "Delete Item",
+UI_DeleteItem_Menu::de::processed::unverified = "Gegenstand löschen",
+UI_DeleteItem_Tooltip::en = "Permanently remove the selected item(s). This cannot be undone.",
+UI_DeleteItem_Tooltip::de::processed::unverified = "Entfernen Sie die ausgewählten Gegenstände dauerhaft. Dies kann nicht rückgängig gemacht werden.",

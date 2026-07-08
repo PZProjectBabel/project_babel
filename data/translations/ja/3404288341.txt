@@ -1,0 +1,6 @@
+Sandbox_ChairBarricade::en = "Chair Barricade",
+Sandbox_ChairBarricade::ja::processed::unverified = "椅子バリケード",
+Sandbox_ChairBarricade_DoorHealthMultiplier::en = "Door Health Multiplier",
+Sandbox_ChairBarricade_DoorHealthMultiplier::ja::processed::unverified = "ドア耐久倍率",
+Sandbox_ChairBarricade_DoorHealthMultiplier_tooltip::en = "Sets how much stronger a door becomes when barricaded with a chair (1.0 = no change, 2.0 = double health, etc)",
+Sandbox_ChairBarricade_DoorHealthMultiplier_tooltip::ja::processed::unverified = "椅子でバリケードされた際にドアがどれだけ強くなるかを設定します（1.0=変化なし、2.0=耐久力2倍など）",

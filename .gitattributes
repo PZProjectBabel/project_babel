@@ -1,0 +1,2 @@
+# prompt模板中的tab为LLM输出分隔符，禁止Git自动转换
+src/prompt_templates/*.md text eol=lf

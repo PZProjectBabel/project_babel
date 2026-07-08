@@ -1,0 +1,858 @@
+[
+  {
+    "mod_id": "3597471949",
+    "translation_key": "ContextMenu_InstallLightswitch",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "f7c2b3ca843ffd55599f3730690d6d31"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Active",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "44bd88a38797b7921f38e5d7fb123e68"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Barrel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "1f3e0f5b2504af56c1353ab1ec1b3a9e"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_BarrelFuel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "c0450d3af6819cd0f072eec907d9c477"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_BarrelHasLiquid",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "6f254cbc8c795dbd41d8d5208c24b6de"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_BarrelLinkFailed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "cc9b586f4bb341e3ccd5fb001c8e05af"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_BarrelLinked",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "6035192f9832bcc8d7c194c152020fd5"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_BarrelUnlinked",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "1e307882338412ab0a9be56ba7c4650b"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Barrels",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "9267b5123097cc0f11966d7edbfc1bc8"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_BuildingCoverage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "5d0b0f4f48e405d68f94f37b84ccd1c7"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_BuildingNeedsGenerators",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "12e3f919342397c9b7c3620c40c82532"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_BuildingPowerInfo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "9a36f51af52e4d4d629bd25b1774d827"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_BuildingPowerInfoMenu",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "bb6bf8762404f1631ae89a9bfc09e450"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_BuildingPowerPool",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "2927b348bd27641687d074a22bdad7b8"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "28794a81cc39a5f6e9aa7e3ac8955593"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_ConnectRequiresKnowledge",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "d7b4a6a94b13808096d7e5adefb2d030"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_ConnectToBuilding",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "031a296c83e056c93bd1a51dac7ff2ed"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_ConnectedToBuilding",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "81d9fbfc1f71f2b6f48b33f4f5ef7b6e"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_ConnectedToBuildingCount",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "b0814b0b622883b7af3bd31be0f8126c"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_DisconnectFromBuilding",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "8a2554772ec368130b5259d745cf514b"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_DisconnectedFromBuilding",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "d0b06b00bf4d19f7107b811ce7fec7a0"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Empty",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "7a65c78e2ed047c5b54b4cf7a4f0c760"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_EmptyAutoRefuel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "bb37f89e480e0a6d33d95e55ea2e93a5"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_EstRuntime",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "a244afc21bee3c45f5023e7eadd248c8"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Fuel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "83accbc1d051cdb8e62ceeefb54f5ece"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_FuelEfficiencyBlocked",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "fdd1bba5785bc76b236dca51d7e51d68"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_FuelEfficiencyBlockedTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "20bab60549ee893e458d7a39a2b31c5f"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_FuelEfficiencyBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "afea8bedba7021ebee5c6ef21b62a021"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Generator",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "75c3bce93f1456b6eda367b2491004ed"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_GeneratorConditions",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "4adf1c5e954419f4379f9cd23627bb24"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_GeneratorInfo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "7dd18af6ffbb548d87ed1d5c9bf5d9dd"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Generator_Info",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "9ae730034efc1235efb6e8e59dba338e"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Generator_NoFuel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "18b82994f0aea59828c7e7347c02faf2"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_GeneratorsSharing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "be261a18035489adf5e6be5a3ba8bbdd"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_GridSquaresPowered",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "a88a10d23e46ffb201cc7f00b7f7d34c"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_HeatSources",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "67eeef2ea42aa87a27e58a4a8904e054"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_HeatingOff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "cf99df28b7ed90f9d487c4ca6afb4260"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_HeatingOn",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "4b8e30d431822a514c173b9cd7edf8cc"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_HideCoverage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "48b497fc7d920d2aaaaa301600c66961"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Lights",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "414fe465bef480d9a618d8dccd240dd0"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_LinkToGeneratorPool",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "71a0818452e1ed891979468755594c24"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_ModDataCleared",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "a25ed74cda4ebfd7b851178c8019e544"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_NeedGenerators",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "3651c049d393984bcfb356e4c64bb7ce"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_NoBuildingFoundNearby",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "7bf915b4ee9a14aa0bfc2643bbcb0747"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_NoBuildingNearby",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "6a056135c72e0efd592e3dcad47ebe41"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_NoBuildingNearby_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "ce242a9962e0f11253935b0889e9fc68"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_NoGeneratorsConnected",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "79e6016ef8bad77f81dcb40db077eaa6"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_NotConnectedToBuilding",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "213b8af6888bd12232bab1cfa22452a2"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_Appliances",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "b0bed66eb47d31d068caa6ed96d99864"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_Barrel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "0ca2a130bb6d65950eac2dc9a43b7e6c"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_BarrelLinked",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "b8234dac5b3940dd8f53f6b18a2f9611"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_BarrelNoBuildingNearby",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "52d5ef0399902239f09be9bd0a977f98"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_BarrelUnlinked",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "aa73be4cff2de5dccbaab68c3d6a38bc"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_Barrels",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "0102737361f759fed26300887f6f538a"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "37bd6f05546dab73714702bd3086b733"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_Consumers",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "c98c3da0b8f7f1f22aa47acf57dc5e49"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_Fuel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "082a764e4bcefd2e23daee22bb4d4456"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_FuelRate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "a05ef5843967a56e4d6b7a13a14893f7"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_HeatingNA",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "1eb3062f394251bdcf53b3803d44912a"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_HeatingOff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "ced943bde747774f10b057d987b53449"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_HeatingOn",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "307cb40df9c3938258359ce8b386a5ce"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_Lamps",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "a5203c5660ed058672491f454f34e99f"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_LinkBarrel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "b6d4a3a2781208129c8249155072ef41"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_NoBarrels",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "c3e44dc410f99a82e4454a13c314950a"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_Off",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "9bb0033281086a0c3664170061c4e69b"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_On",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "609cb6eb8a2751744be458a53f1420ca"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_PowerDraw",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "105521b5fb3a6320edcb51f953fbc9f4"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_Powered",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "9c7ff6747f81156e4cfdf449e5062c7b"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_SectionBarrels",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "7a57755b7031a4f6fd7681efd8b255e8"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_SectionBuilding",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "87fdc38e71c9c65fd389390e22db5090"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_SectionGenerator",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "4b4e5ada77b1a8f2de77f2c84c18c543"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_SectionHeating",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "13e4208f61d32dbe714d7802c0eb9a5d"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_TargetTemp",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "d896f45d3987ef98e0990f919f354b08"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_UnlinkBarrel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "78fd6f4158e4e4ec7f43d37a30c89b9f"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PB_Unpowered",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "1e33966dda20102bcf34664d9f06665e"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PickUpBarrel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "8bad05ab06d75c2b00ea7a5385312bce"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PoolFull",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "f8a818c885744fc6ca89b7f1cc9c14f0"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_PowerConsumption",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "34da5bde3565e43b7e2cf6ecaa4d09d8"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_RequireAdmin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "8d84e82edd33de3a59f9c08a1484cd20"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_ShowCoverage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "734cf69904183edd60eacb38036502fe"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Strain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "765d962892498c809e2e8f4b0c75f90f"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_StrainWarning",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "399684cea17809e3dd79d95f3d8b2bf4"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_StrainWarning2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "6344c8b7334e2b75f9b673d2f8098fc2"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_StrainWarning_Overload",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "99d294a92ece581bbcd339bd6c433449"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_SystemStrain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "0b30465af4deaa16cd6750f899e603f9"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_TotalFuel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "5bb795c600e02a286bf92c9318c73d47"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_TotalGenerators",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "016e14dd99a8f6f61c8cd34235dcdc3d"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_TurnOnModded",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "c9c363d8f8c2f98c6faa005e385f9c76"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Turn_Off_2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "e22ae6da26e178e61b4caa8119da2534"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_Units",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "a09ec6526ea11ecc2bdcf5323cc42687"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_UnitsPetrol",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "4a42720d33b2a13fdda3b9bd74192e9c"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "IGUI_UnlinkFromGeneratorPool",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "70380127fbd801ebf7c3ca98f42a645c"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "14de9fb5a51fc21461c63a1aa115863c"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_BaseLoadCapacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "c74f3eb06a7f4546df36dcb61701fe2b"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_BaseLoadCapacity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "626ab2e11c6de1de3ea243f4eeb6f7c4"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_HeatRadius",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "db56e7a79bcdd03d2591878cac5b6f03"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_HeatRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "5ca28350128f0ceeb7a88f4bf11b6195"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_HeatingFuelMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "71b6c4b999eef275c5c01c3f8272441c"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_HeatingFuelMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "20e70143dad08e9d6215761af766b6bf"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_HeatingSystemEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "b720f74e99da8a694711eb668e90dad0"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_HeatingSystemEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "854ea40e4e0e2d0bd6e324ee9143089b"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_MaxConsumersPerBuilding",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "d6def9b4f1eb62f25133abd42b960717"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_MaxConsumersPerBuilding_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "37cccdd6297ee0a45c4103497b56fda2"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_MaxGeneratorsPerBuilding",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "a982774a7729b4dccaff5652fc3ef279"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_MaxGeneratorsPerBuilding_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "262ef216fe9edf848737c6b62bd2e0b6"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_StrainDamageEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "dc807a8c2163d604c01135b9243c4db1"
+  },
+  {
+    "mod_id": "3597471949",
+    "translation_key": "Sandbox_GeneratorPoweredBuildings_StrainDamageEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-14T15:31:22.0000000Z",
+    "source_hash": "f5e76033b4ac2e616a22960fac4000d0"
+  }
+]

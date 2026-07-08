@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build .NET
+        run: dotnet build src/TranslationPipeline.slnx
+
+      - name: Test .NET
+        run: dotnet test src/TranslationPipeline.slnx --verbosity normal
+
+      - name: Test Python
+        run: python -m unittest discover -s test -v
+
+      - name: Integration Test (PrePipeline)
+        run: python src/scripts/test_prepipeline.py
+
+      - name: Integration Test (RAG Service)
+        run: python test/test_rag_service.py
+
+      - name: Integration Test (Translation Merge)
+        run: python test/test_translation_merge.py
+
+      - name: Integration Test (Full Pipeline)
+        run: python test/run_all_tests.py

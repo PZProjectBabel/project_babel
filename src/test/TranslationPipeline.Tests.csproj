@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TranslationPipeline.csproj" />
+    <ProjectReference Include="..\ModIdCollector\ModIdCollector.csproj" />
+    <ProjectReference Include="..\ConfigReader\ConfigReader.csproj" />
+    <ProjectReference Include="..\ModInfoFetcher\ModInfoFetcher.csproj" />
+    <ProjectReference Include="..\ModDownloader\ModDownloader.csproj" />
+    <ProjectReference Include="..\ContentExtractor\ContentExtractor.csproj" />
+    <ProjectReference Include="..\TranslationBatcher\TranslationBatcher.csproj" />
+    <ProjectReference Include="..\EmbeddingFetcher\EmbeddingFetcher.csproj" />
+    <ProjectReference Include="..\RepoDataLoader\RepoDataLoader.csproj" />
+    <ProjectReference Include="..\RagContextRetriever\RagContextRetriever.csproj" />
+    <ProjectReference Include="..\ContentChecker\ContentChecker.csproj" />
+    <ProjectReference Include="..\LLMTranslator\LLMTranslator.csproj" />
+    <ProjectReference Include="..\ResultWriter\ResultWriter.csproj" />
+  </ItemGroup>
+
+</Project>

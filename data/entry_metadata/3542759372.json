@@ -1,0 +1,578 @@
+[
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "a5f37b543ade21e66b39680caee99152"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChopFruits",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "e9c1fd113b6ce5597e79ffb3cc83e32b"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_AutoToGroundWhenHeavy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "26d03c86f6e040ffa6b9eb95f95618a0"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_AutoToGroundWhenHeavy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "214d0fb0598bf6df8e4515aa0f4360ea"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_AutumnAcornEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "92c7f87bb39275bcdaadd5f48b3d7b18"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_AutumnAppleEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "8c0c90ee7b027525f39a5370465782c5"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_AutumnBlackberryEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "65884ccf820b2506327ddb247ecaf5b0"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_AutumnGrapefruitEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "8900a7f1a8e3b370de7028a682c2235f"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_AutumnGrapesEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "8e7fd4572d6b302148d342e5a743e315"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_AutumnPeachEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "9054e513213e216dbb1f636781148e17"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_AutumnPearEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "64f8144e93282c1c155446e9b0ed4837"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_AutumnWinterBerryEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "f0da043b2b40b1fd96443b66aa94f6e1"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_BeehiveChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "26d1d29f061e90dbaeec1bfe8d7cedf1"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_BeehiveChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "8fae6352a4a954522afbf9c277de55e9"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_DropToInventory",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "1fbe58269ff022f6d903f14b369502d0"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_DropToInventory_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "e1cb810806bf2c58acdca84c72c9670d"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_EggsChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "625080bcbafc50bf7ce79cee81422ec3"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_EggsChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "57feb67264127b2132526eb2ca0e46d4"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FriutMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "488ddc178a306d9967b603d5817ffa8d"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FriutMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "064e1a47af2be298d2f928ceca594639"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitChanceAutumn",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "13646ac5612776897a0d0147e1d27838"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitChanceAutumn_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "cedd45225e668f533cc04294841401f1"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitChanceMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "05b70907ba07c92ac695fa131fadaaed"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitChanceMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "d592677ae952e19e2039f2b061f0433e"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitChanceSpring",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "f8f3c12b086214552a6e39a58e162990"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitChanceSpring_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "d0feecfaf4fa2cedad35ec6c5b8e0361"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitChanceSummer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "e8687a8c00c0121f20cd7ff34953cab8"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitChanceSummer_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "a3662e916642443255ebb484dd68bb32"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitChanceWinter",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "9780e236e1495f30731321074501292b"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitChanceWinter_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "bd8e233ec273161d6753372ee86bae65"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "2f5c93312e431a0582f7176eca978661"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_FruitMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "bdf9544bc5bb49bd4aaf9160a2279802"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_HeavyThreshouldPercent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "c6c23be6eb50e572024d8590af20746c"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_HeavyThreshouldPercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "6b6c6917f9792d1594ea195fa928c615"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_InsectChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "f50ee7e90c0c1651329fa4f621a82974"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_InsectChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "4b9801e78a4f797ca7916fa6ca6b579f"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_MaxDropCap",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "0fdd7b969d7285e2852b17c162b8dd8c"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_MaxDropCap_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "f534538677feb23e82ffc04b59663c33"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_NestChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "6e33561c02994eb3d464718b87b711bf"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_NestChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "eba531b846a12bcff822bc5ebc0acf89"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SpringAcornEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "7d084fbaba33a433c71337fef2f90a60"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SpringBlackberryEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "6f0240f70b3116b598dd7a129d76983b"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SpringBlueberryEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "4619d0e59bab24a2e80c119b53f21fd0"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SpringCherryEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "705bf31c91e250753498cfacfb22d95b"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SpringGenericBerry1Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "a8ef45bf6ba48d9ceec52b5523df3307"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SpringGenericBerry2Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "99d51c60bf57398de7e2378daab25e7b"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SpringGenericBerry3Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "be1c94d1fbc0c59cc95ccba99919c525"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SpringGrapefruitEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "dbc138b2a297ebc0eeccff1334958f78"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SpringPeachEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "979222a567f351b38660b0c87e02d987"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SpringStrawberryEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "845d5656bca21b807faa48c43ae6cf2e"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SummerAcornEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "e71ede0901c75f551efcbd68f1b96619"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SummerAppleEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "a4b2bccd2e45e0234c0e98dfeec91bba"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SummerBlackberryEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "8e3a74828356937c06b9be2bc6d1b996"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SummerBlueberryEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "5d102aefdf11d3878e89df730e7873c5"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SummerGrapesEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "5f861a7dd38b5ea6a28110e80ac6d6f5"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SummerPeachEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "5f975fd7ce53cf829dcc27cd69639b54"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_SummerPearEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "b8aa7f20da3288f07837c129f56bbc79"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_WinterAcornEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "2c47117bbe84c1be599e15b31d821343"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_WinterButtonMushroomEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "d9843da80b19543f5097722e96030676"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_WinterMushroomGeneric1Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "65fc1d504e0d5af7a0baab0304059edc"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_WinterMushroomGeneric2Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "9e8730b6254f7190492f6b9088bc3799"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_WinterMushroomGeneric3Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "d8348dd48f2161cc193fc6a027a54164"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_WinterMushroomGeneric4Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "3345ce34c18a70a776fc4ae83bae5e85"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_WinterMushroomGeneric5Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "8238f5e8e3e2b5ad289e1f8d30fa0340"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_WinterMushroomGeneric6Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "05e0f7c817654b615609ad4b9e561eee"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_WinterMushroomGeneric7Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "3b294a5b1c3d22ea2c2660a6a7dfd115"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_WinterPeanutsEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "52e5d89eb1a90aea1253854d5f4c8339"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_FruitTreeChop_WinterWinterBerryEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "2f607e0a676118386c3a8675f987d400"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_Title_FTCAutumn",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "0aed77411f7f1bab9f322a528c79a68a"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_Title_FTCSpring",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "496449aaf43dea28619dfc381ea2eae2"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_Title_FTCSummer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "97eac5147fb171d7f0eb795eb9e80c63"
+  },
+  {
+    "mod_id": "3542759372",
+    "translation_key": "Sandbox_Title_FTCWinter",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-30T22:28:43.0000000Z",
+    "source_hash": "f73081c145cc2465ea71c87f98b43738"
+  }
+]

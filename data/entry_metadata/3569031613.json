@@ -1,0 +1,426 @@
+[
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_ContextMenu_KatanaSharpen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "d786c36e079a4017fbaae87035fd5ce3"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_ContextTooltip_KatanaSharpen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "7a6d8c1b8715413bca614827ede67a47"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_BladeExcellent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "84bdf1e8f75f80f27b21d4a3fd0b9c31"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_CleanPart",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "c9be13f30d01a6f633c188ce22adf622"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_DrainUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "1087f7d777b0f48136299fa31ca0fab5"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_FluidRequireTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "415e2d3f0494ae3ab669c16e3dab8160"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_HandleExcellent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "985a2f402114d2550604d93d54143c95"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_Label_Bit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "32465e9a63ff0745fde166cc6458e6e5"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_Label_Blade",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "99cc16f500573f9f170e4d9fc59cde5e"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_Label_Combine",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "cb47aa8b74602fc7afd0b176a998a202"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_Label_Dismantle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "b527627150f4fda277630d84e6b2faee"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_Label_Handle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "a3d4d8764771e3a8ea00ea5e87abf946"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_Label_ViewParts",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "e4b95e2d8dde693a07de1b685dede1a9"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_NeedScrapCount",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "6538e9726d44277dc5dea72b2331b70d"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_NeedsRag",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "d56906caba572d8961331b95e1949f81"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_NoPlanksAvailable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "970584533ed7695efb63750648104f2f"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_NoScrap",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "3719b90a1d5472b4dbf78b4661433904"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_NoUsefulLiquids",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "a9430d247bba7fb1f24f3a2803119429"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_NoWorkNeeded",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "c37b78469a48f317e24ae9b5e2fa1a12"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_NotAvailable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "b6dbe6598723867e2c0195779160f23c"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_NotEnoughLiquid",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "4774d3747752dcfaaf768f56b3ecd224"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_NotEnoughLiquidSelected",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "ee2440121cd661c85958bd2000b812a0"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_Planks",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "efee98d0c4c8494f19d9d67e88cf1eda"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_PlanksNeeded",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "562adfcb565a77d3ca151c1e1420a6d8"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_Repair",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "a63fbc8a3cc32b10f1730c2500f67550"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_RepairBladeScrap",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "00a908e16fd4973accaf8e981f817de3"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_RepairBladeScrapTool",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "4594b3c9406cbd16b5ce3d83fd73e285"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_RepairHandlePlank",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "d9661f3c9800b199787bd9f791eaf2fc"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_RepairPart",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "02d8194a53673e4c591841e90ec1f2a6"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_ReplacePart",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "e0139e876c33f5fc1b8ecae38dd3f597"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_ReplacedPart",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "a10e69519bcaeed02d9d8f0548de817e"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_Req_Plank",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "d08a8be212458a043566babc25de13c7"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_Req_ScrapMetal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "352b6b8db5b439018688c620d984e1e2"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_Req_ScrapTool",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "3566eb10348e72f176430f1626aea857"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_HMR_TotalCondFmt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "813a580fcb2f6ba5af4d723b07090edc"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_Job_Sharpen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "377426294453646debb434c56f55d172"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "IGUI_SharpenMessUp",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "2752587aa451574d3abc9b43c51fdbd1"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "e35b266fdfa27c22ef88a22b25b91033"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_DegradeEveryNHits",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "089bb1afd679f907634011cdaf8c39cc"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_DegradeEveryNHits_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "c0a090324a702d263af3837defd42709"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_PageTitle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "9c08cefbf8aebd1cf332b1100f992f9f"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_PartDegradeMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "5ab7d6562a802fa3cf9da717ce7d968a"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_PartDegradeMult_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "16e9bb7ab06709e7bb5a97c8b11a1764"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_RandomizeInitialCondition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "2471991ac66d0b79ce886b07066b939c"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_RandomizeInitialCondition_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "ac2b9f1db46b3cf3d2832e0987071393"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_TimeMult_Clean",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "1ab8e4a7f73e3eeced51728a9436ae44"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_TimeMult_Clean_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "15d649650ddaf1972d65ddde52c5048e"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_TimeMult_Dismantle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "a13da6dca989e8466cfd65d2db83056b"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_TimeMult_Dismantle_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "6b78723072493cbff2bef5fc6157ad86"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_TimeMult_Repair",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "f7bcb766aa5b25542a9faa98014f05ac"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_TimeMult_Repair_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "6385aebe7ea062639bc6a19d69e37b65"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_TimeMult_Replace",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "7680f4cc662e036309894cab24e5458b"
+  },
+  {
+    "mod_id": "3569031613",
+    "translation_key": "Sandbox_HMR_TimeMult_Replace_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-03-12T00:33:40.0000000Z",
+    "source_hash": "e2f73830e6b142c8044663394ec9e611"
+  }
+]

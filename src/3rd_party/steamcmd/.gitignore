@@ -1,0 +1,24 @@
+# cache file
+appcache/
+depotcache/
+package/
+logs/
+
+# runtime configuration files
+config/
+
+# downloaded mods, games
+steamapps/
+
+# user data
+userdata/
+
+# unknown UI related directories, localization files
+siteserverui/
+public/
+
+# custom library folder configuration file
+libraryfolder.vdf
+
+# backup files
+*.old

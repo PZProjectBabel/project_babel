@@ -1,0 +1,21 @@
+<Solution>
+  <Project Path="Common/Common.csproj" />
+  <Project Path="TranslationPipeline.csproj" />
+  <Folder Name="/test/">
+    <Project Path="test/TranslationPipeline.Tests.csproj" />
+  </Folder>
+  <Project Path="ConfigReader/ConfigReader.csproj" />
+  <Project Path="ContentChecker/ContentChecker.csproj" />
+  <Project Path="ContentExtractor/ContentExtractor.csproj" />
+  <Project Path="EmbeddingFetcher/EmbeddingFetcher.csproj" />
+  <Project Path="LLMTranslator/LLMTranslator.csproj" />
+  <Project Path="ModDownloader/ModDownloader.csproj" />
+  <Project Path="ModIdCollector/ModIdCollector.csproj" />
+  <Project Path="ModInfoFetcher/ModInfoFetcher.csproj" />
+  <Project Path="ProgressReporter/ProgressReporter.csproj" />
+  <Project Path="RagContextRetriever/RagContextRetriever.csproj" />
+  <Project Path="RepoDataLoader/RepoDataLoader.csproj" />
+  <Project Path="ResultWriter/ResultWriter.csproj" />
+  <Project Path="FinalOutputWriter/FinalOutputWriter.csproj" />
+  <Project Path="TranslationBatcher/TranslationBatcher.csproj" />
+</Solution>

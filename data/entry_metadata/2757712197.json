@@ -1,0 +1,602 @@
+[
+  {
+    "mod_id": "2757712197",
+    "translation_key": "ContextMenu_SalvageVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "c3ce83e3e11449023f2856ed5bc4d9e7"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "IGUI_CraftCategory_Salvage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "f1bbb2d9061865df23605653fb4d7ebf"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "IGUI_EER_RebuildEngine",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "0b98daf76296cb0830623068a4f32b26"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "ItemName_FixAFlat.FixAFlat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "29a148d5c81abd89a8d21ad86d947c95"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "ItemName_TW.MetalParts",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "4af1904fb1e719780f2c50ceebd18aa4"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "ItemName_TW.Spring",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "468dfb60eeb664d1a80cb623bcc77e75"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "ItemName_VRO.FixAFlat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "8236684706c5064a0eea672af002bcbf"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "ItemName_VRO.recipefiller",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "1184becd5eaae2527f686f48e6f5ba81"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Large_Container_Tanks",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "3162173e416cf7484e172b3f8fd89d56"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Armour",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "2d4eb1c77645771fda70aa74e7939f44"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Bars",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "d580159a8483095094cf432ea12323ec"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Brakes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "39244f6d9c498b611d0ceb3e819a743d"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Doors",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "f8978e8ab91d03331589003ddc97d3d3"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Electrics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "f2c6707872c76c867db33f9648c146eb"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Gas_Tanks",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "8a7dea50f21dbb74224eee755e2442f6"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Gas_Tanks_Small",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "cfb9c94994ed5baea7d5abbc0e15fe12"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_GloveBox",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "39c89ebb1b7d06cf0d76052ea9161329"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Hoods",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "4bf9db59c3c11784fede487c54a30b19"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Hoods_Large",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "4b19b5c3a1699e88d604887619421e05"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Lids",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "79dc68c0f464f4ce8e9e71afa8c56ac6"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Mufflers",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "153a3e549859420a422674403053a0f9"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Panels",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "bb23eea208bfdca11b28ca3bbac4b6c3"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Saddlebags",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "6816992febee05f961e9655ecc57bbcc"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Saddlebags_Hard",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "e2cc5670833542f03771fd48990ede97"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Seats",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "795d34b7d31ab31c252178e1ce63a71d"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_SoftTops",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "dd01be4d145130b699b00cd7bb6e5171"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Suspension",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "aa5ab944b9e3a71311e6619401f93b81"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Tires",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "ddde3e0e45520da505f014057307fbc2"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Trunk_Doors",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "4006ed5186155628288e25b22c5863af"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Trunks",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "aa1fdb2b29ab63f0c183478d9fefd6da"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Trunks_Large",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "77a612bd2929a7756c9894a6d5d652fa"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Trunks_Small",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "39b94f8a893dac2090d9f7320b8d58d5"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Recipe_Salvage_Vehicle_Wheels",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "3596d9af78905d3995ed6056da00c938"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Large_Container_Tanks",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "62ea351ef50e446fe5620cf01d9c574c"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Armour",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "c6d0d26f571ffbe4351391ba504859c5"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Bars",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "536fa511613b97235ff3b8050df36f59"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Brakes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "55d74e3620b93ed3516cc42638e2ff74"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Doors",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "a77851c6c45298ec31e36935d5ca4cfe"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Electrics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "02fe5eb46b18058e8e1d57fe8f3f155d"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Gas_Tanks",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "185d40e11a7545f8e53cf7feea1dfa6f"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Gas_Tanks_Small",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "b821069d61947df6853b090b6c681e29"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_GloveBox",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "5296fdedb8e27331a7be6723fa0e7b61"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Hoods",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "e44675b91770691f461f91a2f5d6e358"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Hoods_Large",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "98e4b23590ccfdeef3293d4778428b30"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Lids",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "a0e938940880071b391e463f097ca99a"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Mufflers",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "e40a82fe0b4776e4ff32a5e8f5752f9a"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Panels",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "718fe1ef1ff29818b9e30ddcc7a891e2"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Saddlebags",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "59efbf2382d50f6379495e49f1b7387b"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Saddlebags_Hard",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "6fdb31f4ba039c272a2349190eb4eb2e"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Seats",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "0d52f44c86ec8c19d4fecfd6f98be1f2"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_SoftTops",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "945a3ab431d0f7619d9f6053f6c4381c"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Suspension",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "f2c9b49a3411335375721f22a93d3ae4"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Tires",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "0383ef961ee1ad4a0016953aba7411a3"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Trunk_Doors",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "02ddc8d6f39fd53079a7da8a79c93edb"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Trunks",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "bef7bef8c07552e184952c29b2cdc4f9"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Trunks_Large",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "74fad576ec32e0da92a1a668fb6053af"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Trunks_Small",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "586d167288ed0e790586e0636af45b28"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Salvage_Vehicle_Wheels",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "753855beb743be08a2ed1e265f9212bd"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Sandbox_DisableVehicleSalvage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "e91282596ea01b446b906c738a8848de"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Sandbox_VRO",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "bf2f14c350ec1975b0fdbbfa21df0f10"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Sandbox_VRO_EnableEngineRebuild",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "d91b7d3331200707da0e94aea1760408"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Sandbox_VRO_EnableEngineRebuild_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "b6e5018ff9274688c96fcc4d9afd3bf9"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Sandbox_VRO_EnableFullVehicleSalvaging",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "1db47fe04094dca7d6b8965f73fb3678"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Sandbox_VRO_UseVanillaFixingRecipes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "4cc5ef3b6922b5b4c06e13973d810662"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Sandbox_VRO_UseVanillaFixingRecipes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "c40d63319d057447f65d19709581d8c7"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Sandbox_VehicleRepairOverhaul",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "ed96fe8dd82af657fd18d2c3e5b4f567"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "TW.MetalParts",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "593c10a14e86d84e6d54fbb8373f3c79"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "TW.Spring",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "2df7760c2eefdd15d43be9446e4106ca"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Tooltip_EHR_NewCondition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "b09d5e3c3ad1c582dcfc16baea4c44d3"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Tooltip_ELR_NewCondition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "3b216301788b3ef840a58ae888aacb25"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Tooltip_FixAFlat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "84ba2a5201756ae1b7a103c28d977884"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Tooltip_SalvageVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "6172a5ebbc60fd46d045ebcc22759702"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "Tooltip_eer_RebuildEngine",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "4ebb3eef0688cde00e32e3beb343eb70"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "VRO.FixAFlat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "60b10567a4111f2bb58cc223437dfdc5"
+  },
+  {
+    "mod_id": "2757712197",
+    "translation_key": "VRO.recipefiller",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-04-11T11:01:42.0000000Z",
+    "source_hash": "528b1458e8c4f1397fd004c368e7baff"
+  }
+]

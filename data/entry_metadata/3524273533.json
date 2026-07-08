@@ -1,0 +1,754 @@
+[
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Base.DuplicateTentKey",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "cb6e00fd475f3b2e6a1e1318138e678d"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Base.TentKey",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "c88998b1f4d2235b54c00ef9993214c5"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "ContextMenu_Enter_Tent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "18151a6f9fc64bf8fdd3bbcb047dc22b"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "ContextMenu_Exit_Tent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "e72c7eaf4e1a69c927f934956ee93194"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "ContextMenu_RealTent_Generator",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "25153c42debbe46fcd0b2cc336ecc7b2"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "ItemName_Base.DuplicateTentKey",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "ec08ee41afe8f567ded9ac055ade866a"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "ItemName_Base.TentKey",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "0874740a46401d2c84996f6637a5264d"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "MakeDuplicateTentKey",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "41a229c444e12f79fd1ffe855613d5f8"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "40fa19fdb5e56051b5b71c85934575b8"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress10",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "036dce6f401454e42f9cc0d71583b165"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress11",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "00b28e0f27b7f736983af6597c5ba595"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress12",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "2966794f8e6136c742488c6744b99042"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress13",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "a17ba9d453cf85823f06fa20662eaac8"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress14",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "9c56b3b54c755850b167a587d0889162"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress15",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "ae40177d75e6beef2818a2488b4c52ae"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress16",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "123c0534f9a79c6c279cc74bfa950d60"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress17",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "fd011be45facca54f67e7ca9942c2cdd"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress18",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "521df2f2eefa5f58122064ea0a4e29ac"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress19",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "3cc3d2372d6de8f2677058c3f81fc64e"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "fcdfc65d235283e012b446277040acad"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress20",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "811fff2e0130c4ddfa55ec68ed3e0399"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress21",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "2a02129356f67f41f4951612090a0def"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress22",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "13ac849937090292694461e474ec7fce"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress23",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "a186cac32db1ad9b46e5559d7d87c2c6"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress24",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "cfab9fa5f36ec3188920952eab6b642c"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "ac5e063e3353f746c029b6d5e374fede"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "8e7174d1080897ecdbbb8163abf6ddf9"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "efdda77e33f274f8368e7605a5b051d8"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "47c78874880c26fb7f77e2173d75e07a"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "8ba5658a373e627ad680549461d5fabe"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "5bf744b44851dc6d0ca4f13e44a9cf2f"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "RealTent_Mattress9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "2199e317997da9623b3dab6cbbc2a365"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Recipe_Make Duplicate Tent Key",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "cf3b20ba7249fe8bf5a13eebc0963f38"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "12cb2bb1142d8ae2307b3d75894d1853"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_BedType",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "769f0f5ba27b69dcb4b92a01aba5f16a"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_BedType_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "4dd2c332062f6d138b20faa8d651da74"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_BedType_value_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "ea3a2da5cd782ffd23da0546d677a2f3"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_BedType_value_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "39dd10d0076ade9436413cbc6a9cb813"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_BedType_value_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "d8ecf655dc290436ef062bba23b637d8"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_ChangeTentWeight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "ea64934305d237a2497f7524a451f7e1"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_ChangeTentWeight_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "e7d96acfd2a45c5a50a392f01e1e1479"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_CreateBed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "617367b10c23961450e48be742113cb0"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_CreateCeiling1More",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "27dd98f942063b6629f9d4150763ba2e"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_CreateCeiling1More_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "e286e8f8ad1ddab566551e884ab14166"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_CreateLight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "8a36e0a854eb26130b64d80eefe1ac1b"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_CreateLight_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "b1f5e91063a26951fca7335f42e6c5c5"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_GeneratorControl",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "d636b1d5982d791fef651aad8ff1422d"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_GeneratorControl_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "657c984eabf5c21c1d913ea8a390f6e2"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_Horizontal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "bad0befe160e79c4b21826c5de008d41"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_RainCollector",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "79787fbdac3d4f9b14ffe75276a6e264"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_RainCollector_value_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "855ad5ebdbc412a92aaec0403f4a0dda"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_RainCollector_value_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "f1b4d9f4ccb259aa97be0b7055b8a2e1"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_RainCollector_value_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "c13cf8646cb1520e8f4d425515693c05"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_RemoveDistanceLimit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "154f54a9771bd9348e7233e168ce0ef1"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_RemoveDistanceLimit_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "4b14fa6296fdb77290c3ad5ffcc7c42b"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_RemoveWallWindow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "60ee95dc49bb473ec2ef52933a3ec0ee"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_RemoveWallWindow_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "4b182b02b9d93931559b4d91f87239a6"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "f5954ed4c5d78c997b6c0a460a35c651"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "12086ab24848d693df3e5c9ffb3f2d4f"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option10",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "c37a0ccc6b9af0ad31eccb96591c59bd"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option11",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "7a112abe648ed5ba9d181627b445115f"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option12",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "3fe9c75a7d29929d64c5a49f0c7ee889"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "9405160021f02b77c3e37c3e3eefa0ad"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "b1181f31ebd00641fd49cb68b20bdaf2"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "9c0a7aa8583b8d1f1fadddb04093d1a5"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "c767a1ee0a2b57fa07eed6e18de91797"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "d61ae864d830d8eb88ce2b06180a7f40"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "9277e2324679a2127d7eb6f6bcd0ec45"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "ec5e08acf1ccb2b2846f0df804c95340"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_SelectBed_value_option9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "fd7ba5b257ad138f8f2a7f2c14b3f821"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentDir",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "e5a17f9f26eabbb0752296986db403fb"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentDir_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "7fd126a37bc2c89661728bbb003b0386"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentDir_value_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "cddafb882c578a0b219ba0e069360728"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentDir_value_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "5b318d0579abedd3c2a1663e523bb25f"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentDir_value_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "723169e8057c9c101ed00430e5212513"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentDir_value_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "a893c1b1bf9d66eea2c67942a1e427c5"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentItems",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "454352d7c9d46cb3110839058e1697e0"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentItems_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "cd8f0a2aed755a8a9295db83b9979d3d"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentType",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "bd24ee28fd53ef7ebab5620f2901f1cc"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentType_value_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "873c3cb3744cb794cf66d0bcd928d2a0"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentType_value_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "e812bbcfdd1ef0014899c6d7d616d1c7"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentType_value_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "b5fec70a9091183ebac08103a9282389"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentType_value_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "1c6e569094ac1c00a627a0a8e963eaba"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentType_value_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "2ef0ac13447e0932f97a021800c7bc26"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentType_value_option6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "f33f2546b97523e8a301b7829dff0020"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentType_value_option7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "98156c219412d6498c1ee5c5caecdcf9"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentType_value_option8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "620e3af2d07d5005eeed3cb8385eb41f"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_TentType_value_option9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "d82fbce8ff235ec7a54ae0daba4ef0db"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_Tent_Invincible",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "baa772fde605b859f213fcba008d911e"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_Tent_Invincible_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "8c41298642072f386eb429d243070321"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_Vertical",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "713c683bc4a46ad7241216ec19828dcc"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_WallHealth",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "9d9c1a069cd6b2dd91470da3665a8947"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Sandbox_RealTent_WallHealth_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "1aa03387c053a17851560724debd1ceb"
+  },
+  {
+    "mod_id": "3524273533",
+    "translation_key": "Tooltip_MakeDuplicateTentKey",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-25T13:34:51.0000000Z",
+    "source_hash": "c6961fcb64a45f10b9144c6d5c156d62"
+  }
+]

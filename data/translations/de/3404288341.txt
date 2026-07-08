@@ -1,0 +1,6 @@
+Sandbox_ChairBarricade::en = "Chair Barricade",
+Sandbox_ChairBarricade::de::processed::unverified = "Stuhlbarrikade",
+Sandbox_ChairBarricade_DoorHealthMultiplier::en = "Door Health Multiplier",
+Sandbox_ChairBarricade_DoorHealthMultiplier::de::processed::unverified = "Türgesundheitsmultiplikator",
+Sandbox_ChairBarricade_DoorHealthMultiplier_tooltip::en = "Sets how much stronger a door becomes when barricaded with a chair (1.0 = no change, 2.0 = double health, etc)",
+Sandbox_ChairBarricade_DoorHealthMultiplier_tooltip::de::processed::unverified = "Bestimmt, wie viel stärker eine Tür wird, wenn sie mit einem Stuhl verbarrikadiert wird (1.0 = keine Änderung, 2.0 = doppelte Gesundheit usw.)",

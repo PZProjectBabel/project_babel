@@ -1,0 +1,3162 @@
+[
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_AspergilliosisEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "2fc8e723fcd694b5b81acfe351add6fa"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_AspergilliosisEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ca50a782bead3118794f3600f5dc8b30"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BlackoutChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a90f2ad79644506d83312d7d5b894b8e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BlackoutChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4a7be727bd6c4a6564f39b5c6a573884"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BlackoutCooldownHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e4440b4c7684d86e4ccec4d6f8b17ba0"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BlackoutCooldownHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b47c166f28e1cad01e9f94ed5b52bb11"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BlackoutEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "16b50f4092c1194d1fff8b6f879c8d58"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BlackoutEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "aa89c75dc40304caa21d6d682afb7b63"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_Blood",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "650eead1ca49bb1c03a0e7c09cbd8372"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodLossMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "265ec327a7f10433298492c49188ccd4"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodLossMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c2208fe4d0cec1e7220bc74eb8a5c81d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodRegenDelayHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "20e96b679c2fe1f56a2df41c8309398d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodRegenDelayHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "67610af6e5cec9b29f77f99d8e827892"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodRegenEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "68340520a67b7aa252c05308b4d39629"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodRegenEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "aa602dfbee9dc8cb375af9484f87829d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodRegenMinimumPercent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c0296a83e6e1730ba943f26bf656b813"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodRegenMinimumPercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "eaa41b7598948a29a59dd2fe3106bcf5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodRegenRatePerHour",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a8038b6da1e7447e24dfe269cbdb1180"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodRegenRatePerHour_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "272239997ffa5bc2452a92c9836263db"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodThresholdHealthy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "88d99dfee168fc6a57748d8907ce5bd6"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodThresholdHealthy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "34367b7c43b0ec8ac8e72d298f86557f"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodThresholdMild",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d261f9893e970bb5ba51b704e88c9b33"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodThresholdMild_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "cbc4d86cc6d0708c8f48a44522813a00"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodThresholdModerate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c455d804fda826619dba7e73e30409b2"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BloodThresholdModerate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ffe619dafac5407dad1e75befbc21c4e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BodyTemperatureEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "425c2619a8d34fa91e4f7138870a9517"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_BodyTemperatureEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d38d7d78d40ab676d535b22f4585cffa"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_CommonColdEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "9d61f9c2dc4b6a9685ac4afc454db6c3"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_CommonColdEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "1036980ee7d9d6e7562c4a5c1629db7f"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_Comp",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "fada767d37a8df0b5762d6ed5d7b49b5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_CorpseDiseaseSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c6f42c3170318045840a2e8edc871199"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_CorpseDiseaseSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c75c68198af9bae09a54fdf441c49856"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_Debug",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "2ba261b7c49fb3700ffcfc1b93fdb745"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DebugMode",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "1efd9a87a849cc0046041976d7d069c0"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DebugMode_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d87728affea851ec2502b8c57869ba3b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DialogueFrequency",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e7db0c100da73ce8465d53acbe6fd950"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DialogueFrequency_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "09dcaf529b38193ded1680d25c21fdee"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DialogueFrequency_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e9f69dfc3907fc23814c47ea6c16c435"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DialogueFrequency_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0ad7ce240887e16f15535a909ed807a5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DialogueFrequency_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "850c73f345b65a9c8e91a2f2aeb2fe7e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DialogueFrequency_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "94bc4abd546d6f975d4b38a50a54f3df"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_Disease",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5dea2c173633e21fe94ff0c5404b2edc"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DiseaseEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5700ea7c0c801ff5426c5ab3b84c53b2"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DiseaseEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "9fe3c4a52b5efed6bf6d16c4ec8ff3a1"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DiseaseSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "2bec5cc968d44ba72deabf5b93ae60b3"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DiseaseSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "10e29a8961a569740d91a67b459d0c86"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DysenteryEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "eaa85db7a21ce02ae8b4c9011232115c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_DysenteryEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a34a63f4821b6c8e65d38321a9649937"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_EnvironmentalDiseaseSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "064be675adda4b2d99b5d2cf88af95e5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_EnvironmentalDiseaseSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "781b065f1afa3576f2cec407b48f9d10"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_FirstAidXPEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c0f51057f5dc876dfd2277c7499dd8a7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_FirstAidXPEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "35f896bc559430301d34ec9b9c776d35"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_FirstAidXPMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "48fa75ab3155ad2c3394badd63bf5379"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_FirstAidXPMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "aa37cc04d44f3802950deaf369a98a7e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_FoodPoisoningEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "6a208e27b65bdaab7819aaa1f44d7d52"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_FoodPoisoningEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5d76657df1fbba4e3a0ec49e18e448f2"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_GastroenteritisEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4513da427d1c0568fecda2efdf18cfe8"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_GastroenteritisEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3af651c84147ee124b6dc81196cb5bd6"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HealingRequiresCalm",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3cf05f78d89bd0150dced11e5186099a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HealingRequiresCalm_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ad7a8e6dbeb30b2351524319a1972495"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HealingRequiresFed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ac397463b931f30762c273c8f46f20c7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HealingRequiresFed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ec5720046ba8d96cfd8bf4c5e1b06363"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HealingRequiresHydrated",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "7d26e8e246a804be36a060edb4e1aed8"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HealingRequiresHydrated_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "74fe1e1f2e736e6f9d5ac6972044cf56"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HealingRequiresNoPain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "82c3d0880a5c3b61383dc1d7cdc52b8a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HealingRequiresNoPain_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d30ad6ad9d26dea3b7358c292eec0369"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HealingRequiresRested",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "cb07c0083883c2bc85087c3d7c9407e2"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HealingRequiresRested_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c2f906981e0d802c841982a5fc848b5e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HeatExhaustionEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3c3eeb44b712faf138b263eeec587a5e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HeatExhaustionEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c77c7133a1e925d04e6bd295a480865e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HypothermiaEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a2eb5e1856810ee4ecf61f014c0b09d9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_HypothermiaEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "21d7d51e53f87dfcce25364b025e79f8"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_KnoxCureItemsEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "15d2d71e2465c110c1bf763a777b8c71"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_KnoxCureItemsEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ca024ddcae6ef662ed1bd80c54a4b95e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_Loot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0ed92a7c35d3118e81e88bdd638a50bc"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_MisdiagnosisConsequences",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "677f1139d9575d8f2616c0a19a6626ab"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_MisdiagnosisConsequences_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "97378933992e6a3d36698d6d10a73791"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_NnCCompatEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ef23a032d2a4b897e3413bc6c8d5f11e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_NnCCompatEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "726f44b0fc153f7b38103586b67f8acd"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_NnCOpioidInfectionReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4c9fc3538047dd5a081321ec62e21a88"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_NnCOpioidInfectionReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "2bdad76cffa2a4b4789220cf766b5fc9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_NnCOverdoseTriggersDisease",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "9d3532c63437b1cc3c6c44cacc519b7d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_NnCOverdoseTriggersDisease_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a9520a36a9a1226e23bc1b01d87447fa"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_NnCStimulantBloodLoss",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "cea41f1425f833efc4cdcfc453b421a9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_NnCStimulantBloodLoss_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "069ea7e3747d34d7b8f6517e36b12c97"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_NnCWithdrawalBlocksHealing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ea1322b6b393bb60fa090934f3d54f76"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_NnCWithdrawalBlocksHealing_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3f4f01221b4d5324ad89af72cfef117c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_Other",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "543732f35d6cb31294f38ca47e0f0749"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_PainSoundCooldown",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d7182adf81b9c18a7c52f6d91e07722c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_PainSoundCooldown_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "be29265fbeeaf7975d3e520fc64a6107"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_PainSoundsEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "eb75b441ccb43cb43de470054e6c71d0"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_PainSoundsEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "bf158b54f26d30d643c5c20c56f1fc34"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_PneumoniaEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "73ef82902ca3041e4c04f02addeaf14a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_PneumoniaEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0651fa881e68db34c5f0e4f685c3d3eb"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_PreDiseaseEffectsEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "03b428d39fabf57bed683fa2faa9f19e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_PreDiseaseEffectsEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d5a5029a81fe4b63b7dbe0af594c0b74"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_PutrefactionSicknessEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "969715ecc9fe40e8c56cc5f60eea654c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_PutrefactionSicknessEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "00650b2e628fc29339fd671985fcb9e1"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_SepsisEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "441549fd18f538e15b729b9edd32abe0"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_SepsisEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "8f344a81b6968c4532d756df77658a7e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_SepsisSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0a4c400e24dc6ea88a297664ce6f1219"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_SepsisSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "6d7f95566b24c13e9e937eaaf24daea9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_Temperature",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "73d0e3e5b0adffebc64e93bed12385f2"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_TemperatureChangeSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "499b1cf7c07e20445a62c89d3823b440"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_TemperatureChangeSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4a0ad957c4d8dd2a0277d101fdc1dd3e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_TetanusEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "953131503e7cf737f5d4db4546b72fb6"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_TetanusEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a5fce5fc952ff83f8a422f6c5925f86d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_TrichinosisEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0ba88585d1bc15abf1186c8e67a80db9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_TrichinosisEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ea38967324ada1c516b42fee4fe2770e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_TuberculosisEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "436cfb5e69cd5ac69870ba8b38e3fc21"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_TuberculosisEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3c33d406c07a200b66c00a01bbd34726"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_WoundInfectionEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ddcdecb60a5fd08cfb06cedfa100b267"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_WoundInfectionEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e485f54f7fab85b64e3b9fa9c52c3fe4"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_WoundInfectionSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d92e5f9dae6f9c71e711bbc54db43b67"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_WoundInfectionSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3645741d33123f5a69c2abaca5fd3589"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_ZombieAttractionRadius",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "cf061e175bc386a249d59cef427d736e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_EHR_ZombieAttractionRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "22e847f4a44fb44ca0b692b7878c5e4c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Sandbox_ExtensiveHealthRework",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "eb0bfc706bdb93e1ab9f4a4e5764e2f8"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_ActivatedCharcoal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "18e4b35a2e87d4d10c5fe55f42f1aa57"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_AlbendazoleInjection",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4910cbbefd3952790858e43edf09176a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_AntiDiarrheal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "cc98e6f00faa5af9f92a5841165291d8"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_AntiInflammatory",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "67f716fa155248884ece447f423f5a98"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_AntiNauseaTablets",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "25914e3f5fe4f2d0508083881a27ab10"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_AntibioticOintment",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "f11ce350896b58e23baf6b6329141e6e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_AntibodyTestKit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5b2f2d03f9a88fb7c0bb6ab4bd93241b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_AntifungalTablets",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "1f9aaad3a2858c81ef8d3f7cfc8ce09a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_AntiparasiticPills",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ba0a7ee37ff7bc2213232871202603a4"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_AntisepticCream",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "03c5b7fd889949b4288deb27d1163048"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_AntiviralCapsules",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e9487c259e07d9ffca88067dcbf0d8a4"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_BloodBagABNeg",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a5ecccb782186467e683f83081090369"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_BloodBagABPos",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a518089a5f607f154d22a58920d7e0b5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_BloodBagANeg",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "28d690cda882b46f4601ff730192b46c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_BloodBagAPos",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "57094b70969b4a73cdd3c1279659eede"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_BloodBagBNeg",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "39d32cb806942727811dda60195ad80e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_BloodBagBPos",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "7a629785bb7566cde90564371b4d9a20"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_BloodBagONeg",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d22cc976ee73d5930f5e65867b4c10e1"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_BloodBagOPos",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a42e01c5cdeb7768a594b84cab1e29d0"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_BroadSpectrumAntibiotics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e362db0b52e4bb00b9c09b05f1cae59b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_BronchodilatorInhaler",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0e1febc3de15bd0a66b2789223ff4d9d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_ChelationKit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "2ed43958853b1298b5998871bb319491"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_ColdFluTablets",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "277ee265245148fb59a0ddf5108df275"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_CorticosteroidInjection",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "28b9fa1cad34bd4068067490e94ffac3"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_CoughSuppressant",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "10d5dda8fad42988ec9b04f0894eaa7d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_CoughSyrup",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "58cba8880aa05c3fbac3fffbc8a828b5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_ElectrolytePowder",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b986a6e84ce62f34f009b3769a428db3"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_EmergencySepsisKit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "2f3b792f98ccd874c0dc68a8fbda7830"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_EmptyBloodBag",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3e14c52010a13bf72dfdf53cc0335c0e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_Epinephrine",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "26b863b551c54d2284b8357be514daca"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_GeneTherapyKit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "574e865afb3aea6e9dc720c2583ab5e7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_IVAmphotericin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "cf09e0dbfabf82a2d09bec00a5baba85"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_IVAntibiotics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d3d437129853806561e5e80b9211a173"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_IVCiprofloxacin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "cd2878358c480b6533d216bc58e72cf3"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_IVKit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "25128f04ebe76c228cd514ba383e77b4"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_IVMetronidazole",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "cb52dcee3584bdf91160109fcf36f8ff"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_IVVancomycin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "2e6ad9b7ac71702f8ad553c784df08f1"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_ImmunoboosterShot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "442cd6c0b531e893a06b60fb59454a86"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_MuscleRelaxants",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b4959e323be4d03833a4f75215b5809d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_OralRehydrationKit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "8516e0beaa5d262fd2101c3ac72a15d5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_PhalanxPills",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "563fe47e694313fa91d04226f62f8e4f"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_PrescriptionAntibiotics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b0c70eb6fd175ea477bf6d595c625207"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_RifampicinComboPack",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "12f2014587271f45d7c473288fa8d49b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_SalineBag",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "855333813c74f7f32ed39d91ac2d4adb"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_Syringe",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "be92a5bdffef09abf57e721d69e92460"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_TBAntibiotics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e112251e40f62322320463771446fbc7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_TetanusAntitoxin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "1f3f0bdb1303aecbba0098cbaabcf9a7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "Tooltip_TetanusImmunoglobulin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "8b3baa35a7654f42580b46ed6bea374a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ActiveConditions",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3cfbc664e50d614d3668a39cb4e4f027"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ActiveMedications",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "43a9e5edb8ad720a2103e7c613941f59"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ActiveSubstances",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "94089bdf5db244dee51fdfd0786e0120"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_BathBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "84b620a06e7e95be6ac7d34a79aa72c8"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_BlocksHealing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b35a797f4de291b22c6098b34c4a5125"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_BloodComposition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "de8e83af304e52c89c219eb8cd888b6b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_BloodVolume",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "55dacc77988a489374c6d914745e75de"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_BonusNote",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d1953ee98ad937981a1d16cf6ee5a371"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Close",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "86a2a637c75a588cd7283bd0a8575725"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ComfortBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "72e48ecbf8c8ab37af82124b5c191f27"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Compact_ClickExpand",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "7018baa8022c0ad7ffe261208833457e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Compact_DrugInteractions",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "8bba82d90f7d69da89ed21f8137408ff"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Compact_HealingActive",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5b9c6525068d8ff1e656b8efcb8f3ab8"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Compact_HealingSlowed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a0a8c72d897423cf612047d2e70aaf53"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Context_ExamineHealth",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "7aa288a0c81be9ada65cbb1431ad42a5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Context_ExamineHealthDesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "f0f7287163004e15b4b5d78d4de3c19e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Context_OpenMonitor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c43646199d38a47f615f2403e964f1e0"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Context_TooFar",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e17862dade089c6604a8aad9578ad643"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Context_TooFarDesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "2b1b16ee67203046224d87dba17176d2"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Context_UseBloodBag",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "63b66bd414ad638aa4ccd22173a02de4"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Context_UseSaline",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e4936e19cb36a7dc4a41ad943e2f3721"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_CorpseExposure",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "da65c6a7f1fe27718ed6b67f00565751"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Blackout_Start",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "8681811638b2255412cb1f0ac3528086"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Blackout_Wake",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "11e8d57f566ecaafb7b9f7a7c17bff1c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Blood_Collapse",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a1b28b4b483dbbb6fa9dc0ce3e1e100a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Blood_HeartStops",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "9093bf66a8973d4ad7f137ae4abdc04a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Blood_Lightheaded",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "775d6c94d2d5729f65e7bc3cffb0c59d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Blood_Stage1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d163109098b5ea34ef9c78ea9a03c1ef"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Blood_Stage2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "fdc9eedcc5bdb3e652344c715fb9e277"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Blood_Stage3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4598fe64d7025e71dea9529e89491cd0"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Blood_Unconscious",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "bab0a1d508a9235ff12bf59d71179285"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Saline_Good",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0608fdb0ff94265fcfe3464a2a8398a1"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Saline_Warning",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "f1db60271a5743ca8b63333203bd5245"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Transfusion_Bad",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a6fc4aa4e59f377f4229b8956247351b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Dialogue_Transfusion_Good",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5f919b12e4bc3d1c4d313a7c17d6f9fc"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_DiseaseRequiresFlyer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "7de4a102a588d6ebd4c9a6d08a0de88a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_DiseaseUnknown",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "10f51e78bf8c3188fbf2818388d3ba0a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Disease_Healthy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b0b7e74e70a25b8b12e001cb1c5175a6"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Disease_None",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "eae90881b3e5002ffc0a682f6363d51d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Disease_Unknown",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "58270ba261b55db0fb04d3ea5fc19435"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_DoseAlerts",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a8f46abb291cba3d439f6d4974613361"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_DoseCount",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "f597fcfd60acb85ba56be44a6960c282"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_DrawBlood_Complete",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ed93367a540655f46d48623908b51804"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_DrawBlood_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4f5f3a59f24d49ed3e138c526613b8a3"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_DrawBlood_Option",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e187a242828ee44bf2aab9b75aad2a25"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_DrawBlood_Title",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "59c0e257074d34bbe4bd1011b7399b14"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_DrugInteractions",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "fcb3f968a4317723e3901d2fd7d8e52c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Exam_DataReceived",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "29cafbd65dcc57e469249b7db7193576"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Exam_Failed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "039107bc6fcf4707f119a1fdbf1481d1"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Exam_Requesting",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b6ec570256dc9759f954edd8ed7a731e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ExamineButton",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "29aef1032d11ba1929d1a8a100e65455"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ExamineButton_tt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "906c4bd6d4c6e0e88a0ccf833f5ce6b9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_BloodCritical",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "6bf4d4f86fdb830aacbe685e6ec92933"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_BloodDetailed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "de62eb3bc91bde7a9deb78cfedc34321"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_BloodLow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "95ac4ff6c7aae6f37618e0ca96a0cae9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_DiseaseDetailed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "58d3889d66732df8a0f0f684af4b8f6b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_DiseaseIdentified",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "acc192b676f03972d4838d549ddb140e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_DiseaseVague",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a4a8f06e1f17718992cc103a2960cdb7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_FeelSick",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a12c03227c880a9c153ed29e3344ee89"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_Healthy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5473f8b9980307a26d4aa54bbc43d370"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_HealthyDetailed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "49b7155715cd5fc951cb5c59ecd0e15e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_MultipleIssues",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c3b10a6d8e96b9fc1fc6744bc4e09185"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_SepsisDetailed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "77f0163f0fde7a738db889cf1eceaeed"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_SepsisIdentified",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "392fa02169bd3305dbfc3bdb70888ea9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_SepsisVague",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3434bfaa854bf1613c663e3490d87306"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_SomethingWrong",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e0bd9584698115d063f789154e69acd1"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examine_WoundInfection",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "bbf2167cb48ee17947f1db0efcb7fc4f"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Examining",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b11923d3105a82b032fef1294179bf66"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_FlyerAlreadyKnown",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3b2a75661ff842a8536ff0b763ff4860"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_FlyerLearned",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "1a73cf76cb86ba72928a63aed1450961"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Food_Cooling",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "8fff0cff8e440b01157cf1a9f510f1df"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Food_Frozen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3b87cf745d1a0076c2db37e8faf768b5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Food_Scalding",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5b94c7bc48d48a248e4a37b2d13b7478"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Food_Warming",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "33e347e7765d3e4de6105182072bd05e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_HealingActive",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "566252872eaae6eb78b854b7a68e61c7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_HealingBlocked",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0b4342aa274bebc0f358e59fc16136d5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_HealingBonuses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "509d66c31430481a50a338f3dc688212"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_HealingStatus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "f493e3d6dd15df7635cfdae77292ed84"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_HygienePenalty",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "cd65771daad754ace0cd2df1b3a4bdb4"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Correct",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "968887018232ec7a829519d856c7e3d1"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_ExamResult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "71eee980c1cb6b309643461104973400"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Examination",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "397fecfe0e05294fe150b7117fb9af97"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Filter_All",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0b209ef3f7f46f4a45d2c4b94ce6dc90"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Filter_Correct",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "66924391c0bf3def8bed9face7914ea7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Filter_Wrong",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "65c04d7887211106657fd8b93f03850c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Healthy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "99bbb37a6ed26b3fb33b7aa4a894d5b7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_NoIssues",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "20ab535368dce841cb58d2225f8b8b40"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Stat_Accuracy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "f1e0963fe7af22a46b31dd986c9c54ef"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Stat_Contracted",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "aed83f72704e00f22ed46ee1383c46a9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Stat_Correct",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "585926979aab46b92638cc6446572f49"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Stat_Cured",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d259088357cc4e758b701e75c4bc20c7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Stat_Total",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "2bdbe322fce27455d1cae5fd08755ea9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Stat_Wrong",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0827d2dfc18df5d59367366b25fbb28d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Stats_Diseases",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "90e546d66187d8a9f6ba6fed0fd935f5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Stats_Title",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "07aa91be0c65f5bb83dbcc2109101fec"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Tab_Entries",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "26a4cf2e0de1a07f49cbd0aa388ad840"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Tab_Statistics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ca4883c7c3dd820e122b18884a60d0b6"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Journal_Wrong",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5b2613c190daca4f14691b0f39486702"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_ActivatedCharcoal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0a888dd4a85a5bb82815b77b8c7c1be6"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_AlbendazoleInjection",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "f97ed3507ff317475777c3de11dc0909"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_AntiDiarrhealTablets",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "115cfc42779794dcefb6a47d26176af0"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_AntiInflammatoryPills",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "33ee04d3a9124fa302b59da66b9cf8da"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_AntiNauseaTablets",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "eb529c195c44450e4ca1892fbaa49c3d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_AntibioticOintment",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "79e96295c00958223ffd2fbbd9ad9495"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_Antibiotics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "1f9bc72b14ef9b9f42c846a015c70cab"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_AntifungalTablets",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "07db4441dd9bc24d03e2950136fe5ec5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_AntiparasiticPills",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d78e27b541611bed4d19b8a492f6b97e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_AntisepticCream",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "28bdefd40f6ad6b033de62a7857472a5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_AntiviralCapsules",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4be4111530f0b73c0e389ccf51f4a30b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_BetaBlockers",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "53cbeda6f6ed6bb19c87bf5e4e28967b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_BroadSpectrumAntibiotics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "8bcd9654595412f922f50acfab1505cc"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_BronchodilatorInhaler",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e811fda935c34a4c00afdb816e8dca05"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_ChelationTherapyKit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c2c035159301285c70b3d214736b8cd2"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_ColdFluTablets",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a557f106acb99e99c2cba9a3fd954ca3"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_CorticosteroidInjection",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "78f7d249f8c8bcaea75cd00bd70ad799"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_CoughSuppressant",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0423dcdf3b68811310f220d7cfdc941d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_CoughSyrup",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "424a09c311793be403a24825d58efe6b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_ElectrolytePowder",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c1f1c368390bd1d8e8ef54f2857d4a58"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_EmergencySepsisKit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e0f9dea09591f709eccd40c2ae4566b6"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_EpinephrineAutoInjector",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b4e91ef1e01ae09c0741572c16248525"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_IVAmphotericinB",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a6ab6e033f5268c32a1d45707ba16d83"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_IVAntibiotics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a98c2a28e16aafe11b1f35887aca7732"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_IVCiprofloxacin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "8e46141aa8d62a840207951d2652ff93"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_IVMetronidazole",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4eb469619a80ab97c516db728bb381fb"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_IVVancomycin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "be9e4512c689246a9cb85380fcdcb922"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_MuscleRelaxants",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "979d8769210194843ddaf076863ae5e3"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_OralRehydrationKit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "728597dfe97d02900c548f23445da2a3"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_Painkillers",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "aef67fd1a03113f8aa22a7c6e163a044"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_PrescriptionAntibiotics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "857654800f3db1d20c9618dd59a7d0d9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_RifampicinComboPack",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "20cd37781676689d9e6c8aef46fba427"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_TBAntibiotics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "bc948c87ccc2a979decb45ccc0d7522e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_TetanusAntitoxin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a7d4761e7ddfa006a257300376b5eaab"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_TetanusImmunoglobulin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "f3618c0f0cb91eb423a155261934b45e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Med_Vitamins",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "51933f78f8de555346afb9daa0713165"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_MedicalJournal_Title",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "af72dc90cf728c710471184d6c07d880"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_MonitorTitle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "227b0255ece311edc33e1c198c493bf4"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_NextDose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "87a27da6db393918832ef7c1534dfa2b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_NoBonuses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e6f6ef821bd77e90167a0fb62a9f4faf"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_NoConditions",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "779d00ded3774494137dd60b46c47c5e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_NoInteractions",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ce04fd865af053bee1e8663f7993c266"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_NoMedications",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b7efe7aaeef906973a3d799564143ebb"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_NotBound",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "2d55b6a1f95931fb2fbf1be65d3605a2"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_OtherSubstances",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ad583703a71184744843ec00fc48a87b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Reason",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "615bb7be4424411186665215456ce2e2"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Refresh",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ec357e9ad2727e45b31aafa571921fe8"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_RetakeIn",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "bbf29d37bd2af8edf4b751689550204b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_RetakeOverdueHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "1c9a15c741a1a706cd6ef20f27648da5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_RetakeOverdueMinutes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "1070532b4fa70accd97c10e85f6bbdbf"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_SalineStatus_Danger",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "fe21e2ae5b88450f9534d1a97615366f"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_SalineStatus_Lethal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a7be64a70f4297ef7038d7a8db6dcacc"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_SalineStatus_Safe",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "332bc78a78f4afa1a07fe0f3ae8e64f8"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_SalineStatus_Warning",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "75d7e558b83e47c1eeeba3ff1940a192"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_SalineVolume",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "1f8053f3f12aecd4428790dfd76df555"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Severity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4f06aad283c3264e5a7323221dd31412"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_SideEffects",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4a88000066c627ebff3b36028baf9ebb"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Skill_Clueless",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "757919e1c4adeff341fc4fa657db6b28"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Skill_Expert",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "df15195c6a70c3be7cb99e584db033c9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Skill_Intermediate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "78f00d4c55e1cb52200a70fd4aefa66a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Skill_Master",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "efc993e62fb8f63b9d3af95b2fcc0490"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Skill_Novice",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3da6c85011a0b1f6c1bdfcf375cc410e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_SomethingWrong",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d11af72514d4fc92642969b2dcf95ce5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_SymptomRelief",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "05e4b8888db43c645d2cb4f9174897cd"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Symptoms",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b18e6ba02d89ccfffb965d948d5598a4"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Chilly",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "75bfc5b3a295a8627a1e44b6e2717807"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Chilly1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "948b9a7fac5ecd51ce93f796d80d4bac"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Chilly2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3b23ec815d3700168c323de2035fc84d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_ChillyDesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c6dc0482b9778a69a640cc9fbd32180b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Cold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "be52e224b9950ddf234f4e920a52a797"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Cold1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "852141004d9c263e52e90b7efb85c6ab"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Cold2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "61d98becd97053f14502c7c655ae2491"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_ColdDesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "91ecfeb83e4bdfd5cca901ae3069d0ed"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Freezing1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c04d2b8eebf642a19631e0b3d020fac8"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Freezing2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c574ad51b5e47214e7cbeda7aa8fffe1"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_HeatRisk",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "7166971200fe881a68e9310508ba3dfa"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_HeatRiskDesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5f2dd71bc8cf022ab4d6899271d92de2"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Hot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "1e70c25f5ba8fbb492baeb6acf3c8129"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Hot1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c5c5b18bc9e36df137278e7acdb30e59"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Hot2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "fb8dac4752139505a108b7532500c619"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_HotDesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e02f24589268a357454d1dcef46bb798"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_HypoRisk",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "132c101cdcf3d02399baf106725310a0"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_HypoRiskDesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a16932d3640b5e04c70325dc969840d9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Overheating1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "11b082d04f407d516c1ca8a82c325d03"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Overheating2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "60ed6d652b3a1b4d73f592a13ebce649"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_VeryCold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "e0c03234a4b62f316de4a26b529837d9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_VeryCold1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "6f8ecd53dd93b4205a53cf84376deb39"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_VeryCold2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3f134a2008beee19559832fd0234650a"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_VeryColdDesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c50b4ae98a9a6ec516043252ae02fce5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_VeryHot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "bf33f86f2f51b56dae3a93f99c19c366"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_VeryHot1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "748ca4247524096b3618133b77321da8"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_VeryHot2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "82f30e345dec6aeec6822f3a10ad8f6c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_VeryHotDesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "fe8389557fdbdb0dabdf66157d07bf4e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Warm",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "6f6f00e845c89c9a4796cd15b0603ab3"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Warm1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c15fac7dd0c8bbebf10afce74ac23756"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_Warm2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0bd13364ecb0a2521d28c4e9bcedba0d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Temp_WarmDesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b01d9914d4215eec970982d97a66a7e0"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_TierBasic",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "767866056dbfb8060dcf4540dc21c273"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_TierClinical",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "1a9b98ddb1cdd6d4284a55f6a4bee0c6"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_TierOTC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "a36fe1fcd5a56953e8b2723b3e86caad"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_TierRx",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "134365c761051969b091d4c4e5f65b3d"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_TimeLeft",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "2e12eda257a3941fa78c43912dc61f0e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ToggleDebugMenu",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "28a256827bb3ff9c0db0fea38749ca98"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ToggleDebugMenu_tt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "b266f176a54d0fb917bc5409f34e4ad4"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ToggleMedicalJournal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "22e78be841e45aea191e9e96935c6134"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ToggleMedicalJournal_tt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "c7bc6a77ca5797b62e75b937615efbc4"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ToggleMedicalMonitor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "63d63ce0822fa81e33b0935e443880e5"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_ToggleMedicalMonitor_tt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d202e0ccce294c55aee35ed54f924b5c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_TotalBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "87adfe6ceb33e66a2e06ca70abc9a6a7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Trend_Improving",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "cce6720ba875835acad7cc00b14de643"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Trend_Stable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d668031002dc2470a4c4112fe04f5f7b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Trend_Worsening",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "faca26b797040e3b1033cbc3f234c536"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_UnknownCondition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "be5f06f2fb5eae47dfc1f731048bf1bd"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_UnknownSeverity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d55481ead455e61c844fb329e4745627"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_EHR_Withdrawal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "8189e6f9d4eb9644f292fc23563d77a6"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_AbdominalPain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "4d94760679c999e0c2550b89c6ce590f"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_Dizziness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "0baf84d8131f1c600024933b820351f2"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_Fatigue",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "df8cf4c963b9d5faeff3ac034199d3f9"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_Fever",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "240ab069d6613298f6fd0212571e85ac"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_Headache",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5ca88ad9ceb131fd5759e3f53fbd7d7b"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_Immunosuppression",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "f82eb7bf08ced4a5ff579ce208ac4658"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_InjectionPain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3a14dd7ed520a40702d178ed8baa374c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_Insomnia",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "ea882caf05b5fed45fd501f0d7f800cf"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_KidneyStress",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "af9e14959900f4b338fb95af4bb3a58f"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_LiverStress",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "90bf696661986b66e92140f86d8ef13e"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_MetallicTaste",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "556d18b05bab9878f01f8f47d1cd53bb"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_Nausea",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5a6c824721fefd7fac5071b2b676cb3c"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_OrangeUrine",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "d4a6a06cb23ab677795156ede1d481b7"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_RedManSyndrome",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "5a9e631e8d71cc65489ca60e432b24a3"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_SevereFatigue",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "8a0e36c3518740a159531e5c08f8c744"
+  },
+  {
+    "mod_id": "3638633196",
+    "translation_key": "UI_SideEffect_TendonWeakness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T21:48:40.0000000Z",
+    "source_hash": "3b17a39de80439f2cdc9d91c1d52671f"
+  }
+]

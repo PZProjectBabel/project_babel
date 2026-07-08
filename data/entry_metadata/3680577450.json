@@ -1,0 +1,442 @@
+[
+  {
+    "mod_id": "3680577450",
+    "translation_key": "Base.SolarLampItem",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "892ab60ead0c0792b6c2de4143e14a96"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "CraftSolarLamp",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "f998c1b962b4cda7bdfc9c64ad6d624e"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "DisplayName_SolarLampItem",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "330c29c169c05460561ea6a4f8cd6877"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_AlreadyRemoved",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "9c0b5ad61afb0f32dedb8f27ecee11b4"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_BattHealth_Bad",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "0d203909c090b60b5e1a3750b43e5d2e"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_BattHealth_Critical",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "cda79eff4ead799b544f2da14c26b8cf"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_BattHealth_Good",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "f43ab972f6cea93d99758f5165a45481"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_BattHealth_Worn",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "e5d5000565e2b7ad9cc3f5a2caf3b149"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_BatterySlotHint",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "4b605bb6942254bc93ab490861424c96"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_BatterySlotTitle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "f3acc65491a57010d7d0cfeda92dd99a"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_CapacityLabel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "f8d78e8bfee93b385489db41688fbd1d"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_Charging",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "32386e4c97bccd9c046776f27e2754f1"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ChargingLow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "adb86d9408540416f2a2f4c89037dcd4"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ChargingNight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "055d95576ae042666eaa5f096c87cc30"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ChargingNo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "0043f63c82bd980425b95fc3c13be637"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ChargingYes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "8815d87111bd0917d92abba6095512e2"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_Close",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "08960d73c48d0b1a1966c898d1eb2aca"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_Dash",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "ab1f472f51fde74c75b209132576c6c7"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ErrorNoObject",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "38932cec01aa31a2ee4ad610fc11a77f"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ErrorPickup",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "6ba3bad7a1d5789c4acd5751e87149f7"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ErrorPrefix",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "44d6b5a8a57d62a5ae73ce4eabb33eb1"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ErrorToggle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "9ac9eed937fb369ef304cce69f62992a"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_HoursFmt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "a29c209645fdddcf8e7dcb613e834475"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_HoursMinutesFmt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "095712844bef5cf33f73d2d74610f222"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_Light",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "5f37e3113b4470d5fb9fae63766ca5c4"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_MinutesFmt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "b5407bcfb5bf0d2d83cb45af74aff597"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_Mode",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "034fe459deadfd696ca3f14fbefd8800"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ModeAuto",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "35bf9cf69240e20f1f9a96d50d789721"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ModeButton",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "f4eecda7f5994e10a9f087e7202c6c59"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ModeButtonFmt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "71331efaade998505dacb57976f64502"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ModeOff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "fd5ca841b79d5e9d52bf89ef00a89c9a"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_ModeOn",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "226afd6aea6d373e23789728bc5d5f66"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_Off",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "6d4c1b6cdb946651feaa15ac33f1611e"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_On",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "a97615f4559316526931c1c560a57108"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_PercentFmt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "9a078083e66c25768ed1706bc4499df7"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_Phase",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "57b935ad66bdd01babb103bc2eb4ac57"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_PhaseDay",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "d3491722c0a2a946ecfc83056e76ed42"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_PhaseNight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "8ff55b23670a1271baa5f1a6925e492c"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_PhaseTwilight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "f8a889ad2fe6e7b116eb42b1ebbf7b0d"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_PickUp",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "43f771ec8bbfe2c2ade3fe8ee56a588a"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_Place",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "0db4f66ec4f1290b5368775eb24a2e49"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_RateDay",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "01bbc010b71f76c4c1bfbf8fc14818cb"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_RateNight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "a61095e6c56b544ebfd9e406b10de1bc"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_RatePerHourFmt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "f52e2f0b5ec31b3332f00afb43114bb8"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_Settings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "757bf8b867961bfe0b8d6d8bf2254466"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_StateUpdating",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "38bddd94a408fed6191d6c1c81eccfb2"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_TabGeneral",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "36e1f91fc9feda5890fb79707c8e459e"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_TabPower",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "1afb58bf9dee4942fac489917fb2c205"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_TimeLeft",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "2a1f24bc45a884c81e4e1743f34d2f30"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_Title",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "bccea9650c61df858f655624aaf68958"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "IGUI_SolarLamp_Unknown",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "e7d5ba90deb04e9babbb66176aefa650"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "ItemName_Base.SolarLampItem",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "cfad29d77489a7de3676da0b46473942"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "RecipeName_CraftSolarLamp",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "a053ecccda51c107e0147d56b1c0efa5"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "Recipe_CraftSolarLamp",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "e9886d52addcfd8f26d0f6a993b0053c"
+  },
+  {
+    "mod_id": "3680577450",
+    "translation_key": "SolarLampItem_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-02T12:31:26.0000000Z",
+    "source_hash": "51517496b1d8aa061665ecf2cd585538"
+  }
+]

@@ -1,0 +1,2682 @@
+[
+  {
+    "mod_id": "3710711246",
+    "translation_key": "AssembleArmingSword",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "7a8d8ef79eb88d3d7b670200d4dd769f"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "AssembleBastardSword",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "df2fb75d557a64b0368c0c4db830d8b7"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "AssembleDagger",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "dc6e13d26294b0dd24183cd4bd8b3ca3"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "AssembleLongSword",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ed115338b4548e5744b7995c5c3220d7"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "AssembleMedievalSpear",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "f40d31a59ae682e66c82c7168c933ad0"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "AssembleWarhammer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3dd548517c5aad911dfacf3dddc83d46"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ContextMenu_ArmingSwordSheath",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "90b63d3bc806d529908179197a9f7722"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ContextMenu_BastardSwordSheath",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "a1ea37cb93109c3f4b56943eca50f6a9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ContextMenu_Closed",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e057ef4620c60e2b618441f7166a4c56"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ContextMenu_DaggerSheath",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "bee80e845686fec8e69d236c670e942e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ContextMenu_HoodUpHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2b70dc16372667e9970309a79c8b48c6"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ContextMenu_LongSwordBackSheath",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "1f27f7f9929e6f02eebbaec7c604b50a"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ContextMenu_LongSwordSheath",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "62d926a9edddd92e14d53be0b96b2764"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ContextMenu_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "a2509d431d36e49f99b1fe963bbe801f"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ContextMenu_Open",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "86368c023fe7f48659caa5cba061fa17"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ContextMenu_OpenVisorOnly",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "0e908720e7ec7601ed37529996d6f170"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ContextMenu_Tight",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "6d951663f6bc2437b28b1ab5d135527c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ForgeArmingSwordBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "98be38a9086efadcb5c9b98d1247cbc3"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ForgeBastardSwordBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "880f46f6d4ad0e1a842f7c6242bcfa80"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ForgeDaggerBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9acd14240f57c05d25da4b4419234087"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ForgeLongSwordBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2b63077cad5039c2be3090996e503cb3"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ForgeMedievalSpearHead",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "023657e517372667f0bf8189aeaced8d"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ForgeWarHammerHead",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "0e952a53d6cf59d1bdc6034b20416edb"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "Forge_ArmetHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "14c403afd6df940a7efe8a9d808583fb"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "Forge_BarbuteHelmEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b8244651a5a440a09aa0e497910b4389"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "Forge_BarbuteHelmVisored",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b1d359bb173f43015f1c9ba91ac606dd"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "Forge_BascinetHelmEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "6e27be4922ae563c7cfc8430768e6508"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "Forge_BascinetHelmHound",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b0f5ff255513e3af56651371db8250ff"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "Forge_BascinetHelmVisored",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e029ecb45b4fd756b3a064a5b6ba4282"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "Forge_FlatHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2ee244b13110de0b0f0e80ae67aae993"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "Forge_MetalCuirass1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "1bc0afa83c535c2169c392688cb02b7f"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "Forge_MetalCuirass2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "639d1245ef3f821a44032a58ae8639ec"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "Forge_MetalCuirass3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "f2df66fe562acb0374969edfd773617b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmetHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "c8c73ae924daaba0c4ae2341c4c7e0a4"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmetHelm_Open",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "75378edb54f0b6e50e2f9878162b34f7"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmetHelm_OpenVisor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "c3b64d20b77d41752137f2e423c55815"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSword",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "31dde13db9610b630c64eef16366d075"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSword1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "cc10258b788d8e527786d9875fa98df8"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSword1Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "efe23f614ff83cbf796f5696bb01f60c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSword2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "f176303165f2dfe6f4e4f7078836f561"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSword2Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "a583e89bd2e3c6adbace1b23717c57fe"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSword3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "78c4dc552cfb8f191386a8add660fe27"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSword3Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "50ded3019cf5f1645a80ca4d4ba1884b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSword4",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "38afca841760a0a2ffee4eac87e3e35e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSword4Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ca8c11057718a51e5ea96fa66f4f96e6"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSwordBelt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "fb326b10ed3fb805b146b109ea0e997d"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSwordBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "fc7236a78638da034ac2977d5495a2d0"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ArmingSwordHalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "c6afd006adf83cdd6219f5885005ac25"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BarbuteHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "8c03d0bfd72ff8c790fec246277f1bc5"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BarbuteHelmClosed",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "693f000341d9e38965040942c5e01ab2"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BarbuteHelmOpen",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "497245f45951fb99d28f3d0a1d46d08b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BascinetHelmEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "36723cf8c25b3dbea53b764890dd4278"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BascinetHelmHound",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "748c31d4c620236ae28f460a0542e9c1"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BascinetHelmHound_Open",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "80ffd0494c2e0d1913fc24c7de350aa7"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BascinetHelmVisored",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "77eb0dcad005f7d91ecae01baaea4f4c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BascinetHelmVisored_Open",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "57762024dae8951e02c421e36975d21e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "557e2312de11339e0d872c7177df6fc9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9bc2ca5e5c37fb9eae2f271360fc1e86"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword1HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "a7aa7f600779c9e08c861638cffaf7e4"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword1Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "efc0abeaea30435c9c4d798343019945"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "51e89a532e39313355782722c25fd00d"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword2HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e698976e083a622a742d9715a400a1c9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword2Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "71d1c529234884959dd595f4175f60dd"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9594360d92bb1f01724daadaf650c547"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword3HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "7177928fc96e2db3a577fe38d9d1ab21"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword3Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9cc6f491911058c0ff22279467291cd3"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword4",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3067f2dec236fc62f9e9bb2f948e122b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword4HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ad2ce11f307982c0c19af112494e5558"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword4Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "c783e9db3426afd15f3155f23a15cd92"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSwordBelt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "c2b7a278e6a7b13875e4ecce2ba294d6"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSwordBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "5a4e4a18e9600709bdc44c9184d3840b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSwordHalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "03631fb315c437c7f659593693888323"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.BastardSword_Blade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "d8b80c79c90ae9b3813411f0156275e7"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ChainmailFull",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "02a202ecb30eb61fb32cb30ba87127a9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ChainmailGorgetDown",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "6987609041d29184b7338631a22fc811"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ChainmailGorgetUp",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b924305879706031672675a3bd6f2d4c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ChainmailSleveless",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e74712e1ab153a51b16a8c50f1ed6cfb"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Cloak_Down",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "0b3cd39b818a419d077b190a8be73dcd"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Cloak_Up",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "893afaee9f8ee712519f8b34658d38ec"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Cloak_UpHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "90f41c2d0f8aead0057cf8e788917f79"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Cuisse_left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "0072bc4b1c30c6cd2b656c11abe77259"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Cuisse_left_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b9255ee36b1de6404e27ba4dc8104183"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Cuisse_right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "27836502046843d2b536f15be5d12605"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Cuisse_right_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "039a9db0b9534d93e1158309e3dace64"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Dagger",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ed9415364ac128253785f1f7a4600e6c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.DaggerBelt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e964095bb43dc7101bd9b680bf7cd5d4"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.DaggerBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "7f41e35094224f78a535cbacf4577d1c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.DaggerHandle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "f3cae4637e4e23c6099b204b012749e7"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.FlatHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9cf42941cce51f3ea8969d2f38750d40"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.FurCloak_Down",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "d9d89a39b0055d6855616d158ad81aed"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.FurCloak_Up",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "1b241ab7af6a59830fd726289bc52ed2"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.FurCloak_UpHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "7f9bae5d779d080395e67c798495863f"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Greave_left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "d0c79c7ed7539f52eb427375b6f9ae2a"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Greave_left_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9f84fbe19bc320a1d3e91d5f2b0bb6aa"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Greave_right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b763e55dcb67cd53e4fe68cc9ab70a23"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Greave_right_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "68b7012813ceb93105b9ef78dbe48271"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.KiteShield",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b9b49d4becfe5f9de55246030e46cc1a"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Knee_left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "299572b3f02bd79d8b8cdee7760c0b5c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Knee_left_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "fd58689d88c6b5876e4b48decc1f3baf"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Knee_right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "bcb415f19361dba2f6fd7225ebac6cf2"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Knee_right_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "8b7fa5307badcf2e43e97ce0a8912877"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LeatherGloves",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "0e2d2244d470b604b8fd180c1f065767"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LeatherJerkin",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2a1f5618cd866e1408d2d65cfe3b0218"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LeatherShoes",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3772cfc32308990808dffa8c90168535"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LeftArmArmorSleeve",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "37861c8f75c1902ec3644d37bda50a63"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LeftLeatherVambrace",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "a4f8e1e6ac0d032d4d0fd224f5f59b33"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LeftLeatherVambraceThick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e931bd0d9b02c2e04ab78a5889dccaa5"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LeftMetalGlove",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "1e50a2bf601a31ba499c939b02882d20"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LeftMetalVambrace",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "aea2bbf8b2fb571f9ee4723d34708699"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LeftMetalVambraceThick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "1c1180fa2ab0263cfece4d895da17c8e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "66e1be8874e03476b0569d81b95c8fc3"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword1HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "55922e25701694596872711fbddca166"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword1Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "7d35e6772cdac938ba59cc1af645565e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "398371421b133ec63469af185f9b918d"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword2HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "cc06118f09e8e952e27d0ace10f6ddd3"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword2Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "7fce25bf5cd45139c2508c77587b5405"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "336b99352e71db48e8c10f042d9d9ced"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword3HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "c0323f9fd761d5f12995f740cdf88e75"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword3Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "8adb92f6923681bbbdf96874dd81a8ce"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword4",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b3efbcb491db3e6c23176034d5a7cf7f"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword4HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "65deed8773d095ef824b7b2c9c5fec70"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSword4Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ab2891ed4fa83e22a274a54e74afea1b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSwordBack",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "8b235e8c5c6c22dfcb52fd0eeccfa49d"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSwordBelt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "6a1437d20242a2aec3c36aad0cc1d007"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.LongSwordBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "4cf5bef8081e89b369aab7fff2a4c7ae"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.MZArmorMag",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "497c4a6229023fae47d35d38d8621502"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.MZClothesMag",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2087b9420c256c61d72b90f921ec50fa"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.MZWeaponsMag",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3cb22a8b969dc8b53844c4948f59382b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.MedievalSpear",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "5cc0d72c098a65567a613b7fe4b759d1"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.MedievalSpearHead",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "abd596b8d1a0172126b46b332410b923"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.MedievalSpear_Broken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "318a01e5e53c0dde450e443612b4bebd"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.MetalCuirass1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "62541fe19302632a971459fab269dca4"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.MetalCuirass2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "cc762ca2729f788f779d9ebdba3f237c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.MetalCuirass3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "82bac63869f22a331c1df92970d4efdc"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.MetalSabatons",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ea8fff6b6040e5ed28283de0bcd38917"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.PointedHeaterShield",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "51be1cc77d9ca998f299b1cf08ce3af9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.RightArmArmorSleeve",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "bcf8dc2710334d17997c92e4f5d1f921"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.RightLeatherVambrace",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "8b82d2311fc759e5bbdd62143462afd6"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.RightLeatherVambraceThick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "270ab3e418e190cbd5d5d5dddb85322a"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.RightMetalGlove",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9fab9c59f639d73b96115c3bf2e446cc"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.RightMetalVambrace",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b7b3304704a3552f7035f731d025d1d8"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.RightMetalVambraceThick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2951ad039d7ed87a61fb3349d67d97db"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ShoulderArmor1Left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9586d5da2a40430f599f7d84feeaa3c8"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ShoulderArmor1Right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "4011bf90161a55c2493f832586dfa478"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ShoulderArmor2Left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e6c19ab06379b3c24c5fa635aa69fe27"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ShoulderArmor2Right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "191f599490d5ee52c9cc90a190ffb039"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ShoulderArmor3Left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3fcff932d136487a560149b7bc90d34d"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.ShoulderArmor3Right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "26cde278d9c5e6d780266392c5ed268b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Tabard1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e39ffb36274d1df7108c9c9fd6ebffd1"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Tabard2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9b484cdc7323f048361cb463caaf362c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Tabard3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3d49915bbf0537239d60994bfeb4fbf6"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Tabard4",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "979aea8f5b3b132d1c56a9bab3675670"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.Warhammer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "4aa99512838dafd79ae894e17b97b8f4"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.WarhammerHandle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "5df5c784b4c97a8faf423582f8e5fc1e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.WarhammerHead",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "35ee34fde0836fd7bcc2c9243f97bb8b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.WoolHood_Down",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "06d69fe112b05965bfda7c4c095f77e2"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.WoolHood_Up",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "819b417457f06eda23d04312abd939b7"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.WoolPants",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "1324546960258615720a1796df24bad9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.WoolPantsThick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "4a20b447b05c485785b53842c39e4102"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.WoolSkirt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "47b1646d81d027df7c8962875f67c5fb"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.WoolTunic1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "a7cccd87bdc25e0edec1dd8e0f9d9a40"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.WoolTunic2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b1a3875b7e19f5a1420d7e02efaa9a22"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "ItemName_MZ.WoolTunic3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "901e4b93862d4431b581bf91281ffb37"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "KnitCloak",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "797aa95c9e0a46dcf47f22a9dd566961"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "KnitCloakFur",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "f0b6c45e880cb10c30becb47ff296220"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "KnitWoolPants",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3edcb434f6d6e52b8c78103cf1b54ab1"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "KnitWoolTabard",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "853e77d37e0c60e9d82835a8409620a9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "KnitWoolTunic1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "1c86d751eec259d49217c9956518474a"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "KnitWoolTunic2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "6b1f13fbae62ef1e612d435482c7c9c9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "KnitWoolTunic3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "a7372c77f07655423ea4e6ad43557e42"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmetHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "7258664cfd7ea94248a7e901b3491403"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmetHelm_Open",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "97154e71ee3f198bae8d9891f97c1f4d"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmetHelm_OpenVisor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "801d1168df822ece3db30ab69e6a2c56"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSword",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "82f23a8119da1d86274ade6281758c4a"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSword1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "32bff5f05847cf886b0dff3d87a20772"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSword1Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "fb5ee386e47a76ba31c98b6eeab6f3b2"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSword2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b368d50b2cb6b1251dd3c03516b57e4e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSword2Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "293f429d380d03142f47ee64487a5f9b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSword3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "00eb4f72f99e242b2c9d0f6c5c4a2d2e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSword3Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "caba99e09bead1464116ed2e3eed52d4"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSword4",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e93122cfa089469610e7d891c5358f80"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSword4Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9fe4ceda5be746a907623a23510bcfd0"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSwordBelt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "df49a2aa25354dd393eed7d22f0fd772"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSwordBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "1bda50d43f679299237bb0d2a833c4c2"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ArmingSwordHalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "7716c9012b7aafe7fd832bf8e49c9e58"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BarbuteHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "5efaad17fac36fb1ae277a244fd4fc18"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BarbuteHelmClosed",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "74af9d52d53bbf438e52af8da629d0cc"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BarbuteHelmOpen",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "8cc72da33a1f3e66a446209e6d07f5b1"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BascinetHelmEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ab3da68e69628829632f09bf0dbeaaf5"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BascinetHelmHound",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "4b1dea64680b323010643692fc7c8e63"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BascinetHelmHound_Open",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ad6e478545a71fcb5ff08b6cf79c5e5e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BascinetHelmVisored",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "35a99a9518ab1a6e6a9c87003cbfa148"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BascinetHelmVisored_Open",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "0a147943ea8caddfff4775c7939e8664"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e95fef6fe117e35de658d05f3744eb22"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9fd5efa9a766dce6001b401b501f0d83"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword1HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3eea17e9029fed1b3223d1b2b3fb80cc"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword1Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "155b4d257ef075d9363a9f04bb3588c7"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "efb2dcb2f4aa6d4dc98c00cf36d1112e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword2HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "616934706af20c3040f2e59ea62e5a42"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword2Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "f70d9e92d9676592ac1ee4d8f67ac327"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "042b6053f3df137b778d04dd1026fc06"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword3HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "171321747570795a6bc50e29949819ee"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword3Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b7b1241fc2b2053e0a37d1def455b1ce"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword4",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "6139a6aabc0c8b01b438fe56770091dd"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword4HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "8bea5cfdba1f8f4ecd67926fc5fa7d0b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword4Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "c937d79f29c598f74602b98b179fe710"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSwordBelt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "58217c2e9a69694c71d335d599803f23"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSwordBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "a0fdabd629b5e1320dd901a7740f5348"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSwordHalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "d2d58fa9f97d7bae5313be67471092cf"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.BastardSword_Blade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "991bd0c91e5b6d9e6a8fe83342b56a81"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ChainmailFull",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b4d7477a2395d240ce3cba47ef1a23e9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ChainmailGorgetDown",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "f16a79f7ac404de2c9df86217447f8c5"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ChainmailGorgetUp",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "077310fad1bf0501e32f3357679a8f11"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ChainmailSleveless",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "633d10a4994dda1181f9510a6d302394"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Cloak_Down",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "12084b32c66d745cf0853a5a0d9ac7a6"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Cloak_Up",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "7f8dae6f658774a4ad0475ae3ac83f2c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Cloak_UpHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "052e5a066d80e9942fc725758ba827e8"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Cuisse_left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b06530f28b67afaab89fd994eb138fcb"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Cuisse_left_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "eb3cebd980ff536a030b928b68785003"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Cuisse_right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ccfc51f40504647767952c0b57bc52a5"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Cuisse_right_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "626c48873c9f6549b086bf5e84ac36c5"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Dagger",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e3a2e9a0fb6920660fc816f13c253255"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.DaggerBelt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "bcb84481f8f778b7034cf04b83df4fe0"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.DaggerBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "787348a7d5f37f5dd56bd6a37b111917"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.DaggerHandle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b326ac274d588289e33f042e27f2b636"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.FlatHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "50a81eec44ef2814b10faf8dc533e4a6"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.FurCloak_Down",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3fdf9fbeda98a3591cb9ee84848898cc"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.FurCloak_Up",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2d6c139e36c0f7e3a70b4bed00841a35"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.FurCloak_UpHelm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "99a941a31060bbd8e954aae89d5ad258"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Greave_left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "4b2042e1c4fd33073e0eb6f058c6ecc2"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Greave_left_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "037a0c01ab14f64daa91015fc9ef3668"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Greave_right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "085e6e9fc72baf4560fb294d19f3224e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Greave_right_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "597c72410344d73880a771871b74a270"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.KiteShield",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e21258227d31a0777c87bc3a519be4ae"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Knee_left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3fa50788a3828e6846124af8318fdc52"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Knee_left_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "7868df8494edb35512cd008e0c5a6e78"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Knee_right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "61f82a4150f9196fdadc995d1196342c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Knee_right_thick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "062c0b8e5b787db6d12b51b128975353"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LeatherGloves",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "90a2e3a40dd881c08323f388e7a69538"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LeatherJerkin",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e069112ee7eb566ea4a31a79d738c7cc"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LeatherShoes",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "77210d07890bd296a9a06641228efa6d"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LeftArmArmorSleeve",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "5378db7b1624f5d5f2c860db788af144"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LeftLeatherVambrace",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "dbfad394ee2d6692c035ab63d3dede42"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LeftLeatherVambraceThick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2d13cec854f63e318dcc469eab6927a7"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LeftMetalGlove",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "450eb167601508aab906bc32afb9aa14"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LeftMetalVambrace",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "039e217606714f83167c8d99d8f0af3c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LeftMetalVambraceThick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ad439072bb585046c747e63059d92051"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "7ea2701b6c24472c575ecc30a89076a9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword1HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "20b72124b4dc68c7b4c4e394a78eec49"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword1Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9d285ccfebcaf39efa2be97d7a0ff485"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "13ccb214b01d0ca856fa47564c6e9595"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword2HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ccc7637e10fc979ff685ee049c542de5"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword2Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "101e99213ac7261129c6db5eff0088c2"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9740f5c33b3133a689a1d2db53340d77"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword3HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ccba8dd289bb2d9d6de30bcfa19d05a9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword3Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b4d611f674dfb6217e26caadb16f9264"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword4",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b7f5a4a50cb4949f5b636849a0991029"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword4HalfBroken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ae83c1566789e56c668dc61ca67d4d5a"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSword4Handle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "08038705087f233832b70eee80bb49d8"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSwordBack",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "314d9a7ec548d4c1771c52c599324410"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSwordBelt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "27e42528efb0455243c183a5b173f0e5"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.LongSwordBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "71a5cd81445b028553f556014b9ac223"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.MZArmorMag",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "30d3f50e13b540242c5164d0eb068f3e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.MZClothesMag",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9a0c37f5add9d2da4daf76d0172980ef"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.MZWeaponsMag",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e1a9ee49d1ee2a421ddde08ea388cac6"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.MedievalSpear",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "513c5f0a89bc07edcbc2caa2ee8a70f8"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.MedievalSpearHead",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2842df4670a316f96014b1d862447ad9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.MedievalSpear_Broken",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "c5ca6b10fd0a700c52a089fa9f97e524"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.MetalCuirass1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "678d018ecd6f738f4bc31314570d77fe"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.MetalCuirass2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "c81ee82491b72e3c4a4048a510cdf309"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.MetalCuirass3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "49f07e2434e99f61252809cd69659d48"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.MetalSabatons",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "48917b1e887ec87d513a618d7fe92618"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.PointedHeaterShield",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "23c67ed787275136ad16aa033231ac61"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.RightArmArmorSleeve",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e22d468e5c6e4c1868bd7d72e4856555"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.RightLeatherVambrace",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "d8fa61bd59e4ae1788550a53147977ae"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.RightLeatherVambraceThick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "da036f89e8502992df45342938367ff9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.RightMetalGlove",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "a4e67f4fea3904312256033e2d7b6fc2"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.RightMetalVambrace",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "0039ed8d32c800f5a08a76dd1093bc91"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.RightMetalVambraceThick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "599917b57272ed0869e7cd718ad3b7be"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ShoulderArmor1Left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "65a9be900eba7426561b2aaf4f0da667"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ShoulderArmor1Right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "38411c6409cee5f739e14bb6ebc45025"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ShoulderArmor2Left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9e3c12448628f7ac71cb4f7f1ba3dba1"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ShoulderArmor2Right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "44ccb9bb4020afe7bba4fd76a0e00374"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ShoulderArmor3Left",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "8fe5a79c70c08d151726ada1bf947e86"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.ShoulderArmor3Right",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "993a00b9f1498052dc67d34b80269893"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Tabard1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3e3f5e32f366f7fd8bc9c414b9d61318"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Tabard2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "463e6f5a0637b4c6a5feca1b9cb6b5c3"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Tabard3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9c419e3358b20df88ba160690e405ed9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Tabard4",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9db1385919507fa34798141eeab10442"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.Warhammer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "90def715095b9a27ca8396e40cab3b1c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.WarhammerHandle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "86985a6023f57d197e8fc6bfb30cea02"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.WarhammerHead",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "8b222c0733b8b9bc9816430b90ef69d2"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.WoolHood_Down",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9a2418739a3a7b1dd89c80b43ae233bc"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.WoolHood_Up",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "05b942ee886ac9154d417fcc25f5747c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.WoolPants",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "673135cbae4e7af633501064d0c20173"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.WoolPantsThick",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "411224f7db8cd23636bf7b53bec5ef55"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.WoolSkirt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "d14bc105c040a9f2b79ca2ee2c7ff341"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.WoolTunic1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "19daee0eae9effae627d80e642110afc"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.WoolTunic2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "48d31a39eacb81e75f818ed6d3c85610"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZ.WoolTunic3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "daf07caf1d55dca3dda843a1dd0f7c6c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_CuisseLeft",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "c89486fc6cdb52d2ab634d5679ee3693"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_CuisseRight",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "939805b38ededff3feb92cc28531015b"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_GreaveLeft",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "54587db8e346f6a34ad3af15c240678e"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_GreaveRight",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "aa7ca6280e5ea6f9d80a0e23ff425d82"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_KneeLeft",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "45c9e016c52617f79fa980a916a05ebe"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_KneeRight",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "f755e7a66ab9908b3e5c2fc43169532c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_LeftMetalGlove",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "5ff91b02fbda271848de699460fab22d"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_MetalForearm_ArmorLeft",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "38f63df72a0e234b2d2a7cfa5e72b96d"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_MetalForearm_ArmorRight",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2df5870c45e100432b85cbe2bd3eccbe"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_RightMetalGlove",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "9b8252f63623355dc49ff123dc80e690"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_ShoulderArmorLeft1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "6b16e6a21976cc11778cb3201be323a6"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_ShoulderArmorLeft2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "ca3b982facacc2591b2bff5d993b4bf9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_ShoulderArmorLeft3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3b0966709560146d09d7bd9fa9651170"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_ShoulderArmorRight1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "29946251e022b1135f1b30161a5c6b74"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_ShoulderArmorRight2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "dafd458c4cfbba9b213e3e12b5b6df5a"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZAssemble_ShoulderArmorRight3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "c94c032e787c8270ed2409a92b941748"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MZKnitWoolSkirt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "178479e5fe7fa309118924d81e71b777"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeArmingSwordHandle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "86abf41727debb14e54d9ab2a2ecdb11"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeBastardSwordHandle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "3bb78bab902489c76b7d5b4b686e09c9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeChainmailGorget",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "d3d1d7a7d01d84a0560c72b21763532a"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeDaggerHandle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2332d04168067b3ce07c3d10f6290240"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeFullChainmail",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e60a3b3c030c8b72ac0f5724d0c556e9"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeKiteShield",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "6d9ee64b1adac483e508dfe49fd466e0"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeLongSwordHandle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "15e8725ddf6b25662e1245c20891a7ec"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeMetalSabatons",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "6f6007e593e0d3b68e52d28205a5861c"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakePointHeaterShield",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "aab062519ceaac4c95505dfa4e3ae122"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeSimpleLeatherBoots",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "994b437f2336bccbc23cc0209263cd17"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeSlevelessChainmail",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b50a18d0ab61ae20be283274b196f471"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeSwordSheath",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "e947e4dee38001876771194a570480e0"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "MakeWarHammerHandle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "85058059a0d29c54a021055fc050b726"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "RemoveBrokenBlade",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "942b952cf024119d23e962381db017f3"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "SewKnightsLeatherGloves",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "17c9dce3fe87a98027b87bb0af7e55e0"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "SewLeatherJerkin",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "b40889dbd3dbfbae371055d3f8d32f6a"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "SewMZLeatherVambraceLeft",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "534970c50cc5fcc163cf341358f9eb40"
+  },
+  {
+    "mod_id": "3710711246",
+    "translation_key": "SewMZLeatherVambraceRight",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-04-20T11:18:22.0000000Z",
+    "source_hash": "2a84f2532f3ee10691eb1bff5bf6d234"
+  }
+]

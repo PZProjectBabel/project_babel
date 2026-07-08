@@ -1,0 +1,2826 @@
+[
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Base.CompanionDogsBowl",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "aee5f7097b2fc1911e0ba6f38659e360"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Base.CompanionDogsSaddlebag",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "95bc72813e02631e63bf261f69c89dc0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Fluid_Container_CompanionDogsBowl",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "fdea113142a5e56820ba38dc85e214ee"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Fluid_Name_CompanionDogsBowlWater",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "bf8336b7983d57f7a13e56f376aa2c72"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Fluid_Name_CompanionDogsKibble",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d87cdb1a09a4011cea38201625c67936"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_dogfemale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "780dada5555d1836cdabdc10f9202c07"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_dogmale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ec110b620f96936bd191e1a7df972288"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_dogpup",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "808be4c74d02f8d61c5db70ddfeac635"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_gsfemale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "f4586c7e1eef6d6a4af71b2fc985f532"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_gsmale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "59c40642529441f21913e1b9456e37f7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_gspup",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b51e6aede287d8a06feb36018d02edb7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_huskyfemale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "2aa34d657f77c881cb50d8d421626359"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_huskymale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "3128c15606e53ef63b070f5974fad9b3"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_huskypup",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "f2dba1d5504eab547c3668bbaf6b80dc"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_retrieverfemale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b5b448a52dd58d3d9460824735c7222b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_retrievermale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "2d22fef8f86dac9759a2fdbb772e9a25"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_AnimalType_retrieverpup",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7e32c8f2cd036de80dc483930b2bdf44"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_Animal_Group_dog",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c5ebc446a74e41b49611b5df9cd50c54"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_Animal_Group_gs",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "0912bdd26feb28cfab07396b298f4fb2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_Breed_brown",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "38af83a0db28c4b2e6864deb81a3af1b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_Breed_germanshepherd",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "4df58ae8e51bc02bed1e03435d793d83"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_Breed_husky",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "21c6c67d3ae7e1b46921e23a0d8e278d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ActionsLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "be7d1b771b4cae6d77785b4690e0b330"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AddBowlFood",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e5c6308ee840d50bf58021f8bcdceae3"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AddBowlWater",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "8b25d8c98d0086546de7199cbbad0a1b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Adult",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "786c58cd7b2d460ff4d1e44d5e770bea"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AlertAlarm",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e624e8c427016b9c21d92534ec4245a0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AlertAware",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d256618750d1f6536e0dce62db1c6879"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AlertFullDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "06d21c2898e00a910c571485ef8d2557"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AlertOn",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e72537a2ffd991e75fb226760203e94c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AlertQuiet",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "64e79ebb5fc3e35fbe11335d35c372cf"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AlertQuietDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "4f1e6d610140d16c4b4197bec648cbdc"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AlertSilent",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c43a8686621bad7c5221f62728c80493"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AlertSilentDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "196440712c619a443d2c18cfd58465a2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Attacking",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ec20cbb014e532eb1a81ad3d23b0d976"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AutoFeedDrinking",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "bf8b1188c9729aef2a256ac9c2d231f8"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AutoFeedEating",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ddf87aa12935b5c92d404f92633b83b8"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AutoFeedGoing",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "cd0ffd04074c0c11c7cb7554a5b6cc9e"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AutoFeedGoingDrink",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "6e6c698afd7bd19127fabe3a95d972fb"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AutoFeedLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "5c63270d40859e577b392b6035465559"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AutoFeedTrigger",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d6fa4a769e6e0835ae12c999a9f5ab0d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AutoProtect",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "15b927e3e516261ac138a03ad7c13573"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AutoProtectDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "11851c7e543f2003505417a43e99cd59"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AutoProtectLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "529f58e3b38c2161bb05d2ece4f10be9"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AutoProtectOff",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e765975f93c750cd57518499c0a31a93"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_AutoProtectOn",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "082692f328143290a9b262ed564ad27f"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BadFood",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "68f01e75150e4dde027804af7619ceb3"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BagAlready",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a69857ca5fc4fa5182824127419c912d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BagCapacity",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "78de5cbae83123e181852d8a665542f6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BagEquipped",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a97fee77296a80346dba26123d2393e2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BagFull",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "86677539515de9affa0c7769a230371d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BagMapNoAnnot",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "48f23368bba2b4d285ccc5c317d02ced"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BagStored",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "99a55a628c852a24ef51dd4894e039a3"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BagTaken",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "961f8f97b36cc4a7244f706213723efc"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BagUnequipped",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a6c19dcd1cfd052d97900cec0830bc23"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BagWindowTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a2d8458139319f1a7c4b16f79e45f3e2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BagYours",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "58df39e5ba83bd89fb54348f29a5275f"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BowlEmptied",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7e3a615503ff3a65a393ed0f791824d3"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BowlHasFood",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "709c057544743ac3fe9becd24e7bde44"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BowlHasWater",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "361cab54fdd863c3e6bb1ba2a6bba9b9"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BowlNeedFood",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "3ba627ae0a3e999ce379848d74214ae0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BowlStatusEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "27006d0d60ffc21fe1e5056bc09498db"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BowlStatusFood",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d0492046c32686195bcf1d4b35406449"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BowlStatusWater",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ca1b68171c5c30f349351985443cf0c0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Bred",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "8a29a2a240fd8078ace466c98067f4db"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BreedDesc_caramelo",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ffc1da344a1412ac014ff0b9a8c85109"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BreedDesc_germanshepherd",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "241586c8d8121932f51005a10674695c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BreedDesc_husky",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a929d516600b24e254c86c3ea294ef04"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BreedDesc_retriever",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "cc8ec7db21528cd68da2adf163282ca2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BreedLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "f6566439eddb6a8a1fffb8cf921790dc"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Breed_caramelo",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d173d8788403968aa6505bb883d3495a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Breed_germanshepherd",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c013702b38b91766372d437757245a3c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Breed_husky",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "22de066b10d4de50d25d0f0cb86de54f"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Breed_retriever",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ce5b45b0763e0c641b65d1a5ced81762"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BreedingDisable",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7a495b6ef5f9101972c428368f9db86c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BreedingEnable",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "5af769fd6684c1c93a908cf3d585c6b9"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BtnRelease",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d3555cd349d77c0b2c9521c35032dff1"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BtnReleaseDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "5ccf42c5a937bb51dc3d112dddf29966"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BtnRename",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c7e938220e24e18f252e2355cc2d284a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_BtnRenameDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "3e6016c5cb35197d7fa8fd95796b7e95"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Carry",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "f354916053e2df3ba07015b3340b9312"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdAttack",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "cb0cfe1346282e6c44e4490fdc951eef"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdCome",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "970279ccda2fd27dd9967558b32dd49f"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdFetch",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "fb61753c80a4189ea26b82ae3bd6129f"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdFetchDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "797ada666b695116c1cb6b2b918806d7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdFollow",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "48a5b4f6aabd65a34481310584f52809"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdFollowDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "cbc44bf7160bd0b6eb7aa6042409c3f1"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdGuard",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "bc8e4fcf1627cba0e5b796a3c6803646"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdGuardDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b283abdbb011fba15f9019154f6b84b7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdHunt",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "809e4325596ca9736b49b70606b270bb"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdHuntOff",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "dfeedd91937fbdad036e3313cce1e758"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdStay",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "af45b991756b5d23279dab5ee54a11de"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_CmdStayDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "304479de652a26ba09fbd2f7dbc53ad2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ConfigsBtn",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e72ab251ee616731219e76781f4ab114"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DebugAllNeeds",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "0f3d6f4e6f0be05db0efc2c6a7db1d3a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DebugHunger",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "340c72d8001960f84494f526e22a6ec6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DebugNeeds",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "618e141cf508c3efccae9a0ce3a66f55"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DebugRoot",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b52c311b43527af45fc0b2ad6c85cad6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DebugStress",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "5e4f3212f78b7ca995defbab2a5e799c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DebugThirst",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "0b48ccb086e76b2d44baf9e185921510"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Died",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "2584f7ee94162435782f073ec300ab01"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DishFilled",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "82c0e629846348c5f2363ed3e1157508"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DishFull",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "422a135fc629791afdbfffe7d826f67a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DishGone",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "97643c19c64329e619ce0fa0553e4b2d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DishNoSpace",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ffcb68f26622655d1aad569284d30be7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DishNoWater",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "9e24ef7d5cf3042adccca6c459f7a5d1"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DishPlaced",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "db77d84dcd72e9cc9b958b07c55eeca6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DishWatered",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "0e39e3688c172dbabb0571fd2005929c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Disloyal",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ce759e7cdc350b92230db74c0205eb4a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DisplayLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "df87b750436393f1c6473e65fe0478dd"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DogDefaultName",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b1500f9325638239e484e240b67f3cc0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DogLost",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "9e906bfadbe42e3a8c81705182effd3d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_DrivingDisabledTip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "57b35dde47f3ddbdefaff9cdb5446e5f"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_EmptyBowl",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "1afb589632ca7b75ce187804f32285e7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_EquipBag",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "93d9ffd9b8c39ca5bf937dcf26e14662"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Fed",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "8036a0de28f01721e3360186b399bb98"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Feed",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "fbd93e71e8551dc13806758165345eaf"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_FeedCompanion",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c7bbdaa67da6e5de0fceffc0d8b91617"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_FeedLimit",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "338e0ed86821326be1b420e1dd99eff3"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Follow",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "1dafc13ab789b7ef13384906eb8dc759"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ForageFound",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e2dfc5ecbdb90f194034fe58afca82c0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_GeneDesc_aggressiveness",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "1aa8a6285b9ca5c76a457b3e98c49886"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_GeneDesc_resistance",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "39db4f9d3aa05a5f4477d416360f3876"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_GeneDesc_strength",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "0306f752ff1e2c2648b3c04a2dcb0fd4"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Gene_aggressiveness",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "df22f9546c2678bfd9be88f8200d95c5"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Gene_resistance",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "73196875c5bd828274d4ddbc5a8b9614"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Gene_strength",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "15a97ad3ddbc95a5fbcb9a331fed5a69"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_GenomeDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "0a59c2772aa8da7a94e41673b2d7b97b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_GenomeLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "4b9e0db4408386891d2f355a51c892f4"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_GoingToMate",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "19936551d67d2bbdcd01f3261f6b3e4c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HUDTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "33639e065fa9a9682bf14d5dec614ea0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Hungry",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "484170f8e472668e04cdf869ac94c1fb"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntChasing",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "61db016c0874fbc57627e0ced7c2adab"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntDelivered",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "f6b177d584fd22d462148b1c6eba5e30"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntForaging",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7ac5598f2e07256c021d2708e5b2f1c4"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntHolding",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "252a534949b998079c127c65c49f3e03"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntKill",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "282a16e8c3a057a87f4183e9ea13d047"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "71e1eef2d8dd96905437213a501275c6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntMode",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "04e4b8fda96b90abf80a24baa57b152e"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntModeDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "589c67c61663cc106c986178783fee8d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntModeOff",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "3abca104e142baa66615eca86725f6f2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntModeOffMsg",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "267de9222767d9558e010fbc5b8294ba"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntModeOn",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "eda50029fdfe08c5ad9ff3b736f6b334"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntModeOnMsg",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e0d85b1951f089e6c1c17439cc3ebd12"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntPoint",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "9f02eb826b57319e1d4b8b5447a3f500"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntRetrieving",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c1c71c278f280c160b828b765be4cc16"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntTrackWounded",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "465b70d379a671529e3fe0a5a224d757"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntTracking",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "55aed7827fab96649161ebdc491e9b41"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_HuntWoundedDeer",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e1f5ffdd53042ebdbe7a17fb0f5625ee"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Ignored",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "054ddcf81ba34fbb864435a26498f236"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_InVehicleBanner",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "bdae6ce6fb35848ab2cc7a22848d6fb5"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Inherited",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "fc2bf21c041e2ab6d74213cfb2462187"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Inspect",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "725b88416e1f4853b277e1c2eff0fcba"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelActive",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "572e2af6c874086cb5e4a8f89aee00b0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelBtnSelect",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "3ab47060de79ff9d67631242bb993a18"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "26a91217ad6cfbcde0bf39a8331dcfd9"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelLastSeen",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "8e4a76773cf839c114d400627352902c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelLastSeenDays",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "8d4a55ffdb19910ee5f8510913d76dd7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelRecallConfirm",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "2d4b2f3f77d94533c99b34eea2aaa46d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelRecallIn",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "8c0c5e3fbbe0f940600506a724bf76b2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelStatusCarried",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "62cb4ccd8a1d52345d48793cf5b57b47"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelStatusFar",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7aea0c5ffb2e0ad11f02f8853c54e5e0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelStatusLost",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "4686ab7e16f2b479e66b08d306c15614"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelStatusNear",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c5e297aaffdace5a2085cd36e729ee6d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelStatusNoData",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "665b60b3bcb9081e84859073c67da3b5"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "2e99caf9c72d5140e6bcc03c70a500ec"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KennelTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c747170cc07e5828d69fe2e83037dd23"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KeyClear",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "9c81dc603b8c813755fccdd2fb7a20b2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KeyConflict",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "0534464c6ccd1e42264253548f507b81"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KeyPressPrompt",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "70c1cd34423439a456365cdb51942a40"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KeyRebind",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "eb47a2536a650dc5e9a413e402a14e57"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KeyUnbound",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e9fa7d468b086913561fe85e12a32597"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_KeybindsLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "250d77aa5ecb2eaa38d56f79a5d5361d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_LoyaltyDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "35a3d0681d3396596107ffa5bf8de4d8"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_LoyaltyLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7458a1438447d7f1f38351a4d7725e42"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Matured",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e1557af9f5eeb4b8d601cf576c38e098"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Mestico",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7e2922ad7ce7c2f052716539c82e9bfd"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ModeLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d91710b6ad8ebe18c536645082fc3c0a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_BreedHappy",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a251008e30a61bacab2d2b2f9212a03b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_BreedHappy_desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "9e2e3f4ce3b5ffc3283b89d87b18ae1e"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_GSCourage",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "bc35b4bf72602cd3db7962089c90743d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_GSCourage_desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d7fb2a3c9d38ed07f8fc963167fbca1c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_GoldenNose",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a04e50f6e6be47bd2cc78e97e6ca847f"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_GoldenNose_desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "20fead1a916e8b411465b893c2b801a3"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_Hunger",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "88515c963a0c5920ba2558581341fe2c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_Hunger_desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "9473de9cc51084d156411bb339a33358"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_Rested",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "04cbb3bee52663183069701113a2644d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_Rested_desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b7f02c578a81f1de8aaad2a249ead08e"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_Sick",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b53c621a4f78812d7c1053175354fdf9"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_Sick_desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c55a9fdf34138015cb4091713813a962"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_Thirst",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "3eed8dc9a1bfebc8755e9043a3e175a1"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_Thirst_desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "954721d72b82e9aa640e9db342025869"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_Warmed",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b58750baf806981dec8cfc834d022edf"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Moodle_Warmed_desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "4723bef121796a48a136ab890764106a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_MuteOff",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b89d99302d21e14270ffee4dd16a01b3"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_MuteOn",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e807b6de25573254198df028af81fddf"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NameTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "1c1d6edee846bd663a83082c4cf72fb2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NearTerm",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "09f866dd6cf972e74515963e171dda12"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NeedDesc_health",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7531d39b53deac3c235e7a5ca4974d77"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NeedDesc_hunger",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "733fa8e956378b75e6d89f6f657c4f7a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NeedDesc_stress",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "4ecf9d797fd44a942cfdee9ad1f2f3a4"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NeedDesc_thirst",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "fc0a6e145bda70140e08e653a2dd5944"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NeedFood",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "6802064a325c54a4ae103f90fdaa7364"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NeedWater",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "6f287f711062ce5c19d199f5cf34c9b0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Need_health",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d19e0b379f1b7342c4d4ccdc3fedc4d8"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Need_hunger",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c1a7b02f1a242724b87c96e790301eb7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Need_stress",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "413903ea66b5f09fb860958d2c3531c7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Need_thirst",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c36d60731a9ef077c176c98c9337c197"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NeedsLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "26cef82d1f32b8fff5892005c872f316"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NoCarryOther",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a41616231e3a9309fdf2f56eff9b8131"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NoCompanionNear",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "4e817fe2a664acdc9a8fa980f2c46fee"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NoTarget",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "46098201629083daff5b21ece94f3d9a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_NotYourDog",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "50a89b7d9631cca99d1688cc7db5cfa5"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_OpenBag",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "422cad318b0768ec80dbee627c90eca1"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_OwnerTag",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d4fd69ea64248962d08efd9772109f61"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_PanicWarn",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "6256ea5180c500d56dd7bba368ea245d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_PauseGrowth",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "da4326da730e50d7e657c9516fac3eee"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_PauseGrowthTip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "84933d891133ee5ab39f03c439e3f13d"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Pet",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "02debddd68152fd8d0e20c9fafee7304"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_PetCooldown",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "2e0884dc8397ca3bc612627b678cefc1"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Petted",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "5684875663be47386e5ce50dd5e063a3"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_PlaceDish",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "76b682011a6bc1021effa3f9958b2b81"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Pregnant",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ca3a2c34bd78246d15b4fa7f264a8138"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Puppy",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "85905ec170732968739c51690ee456f5"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_RadialCategory",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "10f1b6f75f6c1f2787fa31b30590b36b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Recovered",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d90bb8e71a9f4e494984e6d99b8c73af"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Refused_carried",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "9cf2d82b903375733da882439b3a60b1"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Refused_disloyal",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "1c61dc52274b70d7552430c9f33aad09"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Refused_invehicle",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "90ddd5035194d04555e750e6ba1a3b69"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Refused_nodata",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "14e89fce1551112d635c95ce2b8b0308"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Refused_panicked",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "88d4ba999ae2c71fae354f0e66e8d55f"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Refused_recallcd",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ee42ce2d391d904a5ae8609ed8dd1fe7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Refused_wounded",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "27c5758f0159fc006cfa692b10186eca"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Release",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "32e184208a2a833fbabe4c2e31d20c59"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ReleaseConfirm",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7db9e9749d242f9ae11bfd7262c51bf6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Released",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b5286b83cd61f49707f26761c3289beb"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Rename",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "094ef66f252b12eedf66075bce738b77"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_RenameTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e4774eb1e99143f4923ff1a8d5a281cc"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ResetSpawns",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a288d601d9bd0d5b37f3f7b82c09c303"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ResetSpawnsTip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e40cf53c16bc53de1f71f7ecd78b3566"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ResumeGrowth",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d2ea5f6d79cd37b3ad6eccbcc6ca09c7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Select",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "4a57ba76bd049abf8f6cd64e3c341089"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Selected",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "5615654aef3fa9b083003289c44478e6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SentinelLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a1575d4b2ceffe58bdc65cb34b141b54"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SettingsTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "41de478742ccd590f2e894258903fef6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Sex_Female",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "567b99fcd6d35c4daaf73790387dd4e2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Sex_Male",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "6c4aa27576a1e28dcc1909bb57113f34"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ShowMoodlesOff",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "86139269ce1e7a1e882becf0fb783cdd"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ShowMoodlesOn",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "cf85bb53534383624dc7c4b593292f54"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ShowTextsOff",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "aba2f72145fb6fb7b2e4edd9daf216e7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_ShowTextsOn",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a22e9c953c1c9da0828cf1f10216ccd9"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Sick",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "840c6857d31e4a44fa6bab6c19cd36fa"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SkillDesc_combat",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "aaadbbb75a4081bc4732b8534d4f6938"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SkillDesc_hunt",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b3e291fd2bfd5a4adf059a110e9a947b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SkillDesc_obedience",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "f3bd5c7765cc8af96580af2a9a7d0fc0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SkillDesc_scent",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "cf95dc133f9ea84667cd8e0a19d30d4c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SkillLevelFmt",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "0af79e9557dd6b25b5854d2ada52e09c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Skill_combat",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "bd6933709966ddbfba6efd4326d476d2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Skill_hunt",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "22a004906f8bc6bfde9c4ccc6e6d8945"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Skill_obedience",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "6eca149c2796dc4e3e4637a2cd66348a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Skill_scent",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "18bec081d8fbee468ef52936989b5d1e"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SkillsLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "738cd363e8a858b60ff1e8d79e672feb"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SleptWithDog",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "f1d5d2a83498a987322fdaad9fb3a06b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SoundLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "17174ddf8fea8545b4597e051a7a45e1"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SpawnFemale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "73e9461b721e4bdcffaade4de39a083f"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SpawnGSFemale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "009b0f327dde85faeb0269451f344de6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SpawnGSMale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "18330580ee601f6a085fdb4b93efd528"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SpawnHuskyFemale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a195b5ba85df1f9b47f2c75c2e76b387"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SpawnHuskyMale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "2201519e833fbf7effdd3513c2c0baf6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SpawnMale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "0f92aabd8be02a6bb06153344d0ac795"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SpawnRetrieverFemale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "2c7356bd4292abbc3d90764c62c52fcd"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SpawnRetrieverMale",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7395b01456f985adc59956f5a3a9016b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_SpawnsReset",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "96c640702360fb7d454665cf82235c24"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_StatusDisloyal",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "4da2fcffdd9317dc7640d508232c5557"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_StatusNervous",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "527abc2116acceb6af6416e0678df80e"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_StatusPanicked",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b30dad33580948d1de76535c525534f7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_StatusTerrified",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d7acf1d76f0b02ff03499b1d136fdd32"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_StatusWounded",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "398dbfcf99ad3350b26547b6706eebc3"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_StatusWoundedCritical",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "87f3d62fcf4ac98498cbfbf93239a3af"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Stay",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c56dc28550f1e42d8b310ebbc9263ed0"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_TabCommands",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "652292129b73b14ac0d0da4c2fa8e1e8"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Tamed",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "6435469c203fad99049e1d2b4edbbbe2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Teleported",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "cedfe07c54cdfbfe35cdae81998620f4"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Thirsty",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7b7b0cd28975df9c5d09898c283d2118"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_TraitAvg",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "cb239ac732be9aac7d629c23649f54a8"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_TraitHigh",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "f35a4f049f29b9c4186317c08fc4600c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_TraitLow",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c7a6ca6b52f6d70fc20e5e9b8e274825"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Trust",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d5cddc3fbc234060f5ba496842859bba"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_UnequipBag",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d25fe966c46ed599b367a6912ceba418"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_VolumeLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "bb065bd22267f9ad7bae51c9eb5c627b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Water",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "16e7e116d522d7394303296c24557038"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Watered",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "bd244bb1e12e69c5f236f726a004c8fc"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Whelped",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "42b3c55a85233bf1e2bd1211c76b17dd"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_Wounded",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "1fe7ed5f1b6b814b5fbbb5e6ef82cbb3"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "IGUI_PD_WoundedCritical",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "6bb13c5e2321b1bb1252cd4cfe420ad7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "MakeCompanionDogsBowlFromCookware",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7162b390448f381b160a1012e336f170"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "MakeCompanionDogsBowlFromPetDish",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d0e9c44afb77445a4080cfd7a31b1257"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "MakeCompanionDogsSaddlebag",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "50fd4b14591996da4c4a4ecacb37be0f"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "42011f098631ae895a41610e65d0b119"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_AllowDebugSpawn",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "81580c3f84156aa9d6915facc8f52464"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_AllowDebugSpawn_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "65e370b1cc5737658395171b26244391"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_AutoProtectEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ce35dd9eaa9cb92fac690717327a98c7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_AutoProtectEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "69ca028ba444ea4254c4502c7c97ebb5"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_BondingEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "4107b2f6364dd4bac81548a5fd151e73"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_BondingEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c122e4e3c83a031457bda05878eb217a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_BreedChancePerDay",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "5cb4fbad4821379842b51fe14d9f6b74"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_BreedChancePerDay_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a68584d414d3806298645ee2ac93c249"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_BreedingEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "cd5ac679a544d1763c22283bbcf72f91"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_BreedingEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ad2e450c4199787b2d93b161a9abdebd"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_CargoCapacityBase",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "a70c8e3e3ab00e2e383ba6b8623688dc"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_CargoCapacityBase_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e13c0579dca56ee641700c984c6311e8"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_CargoCapacitySpan",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "fc12254ca56e184063e2271470ea0f8a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_CargoCapacitySpan_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "14bffd98805f28433be0dfc07705574b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_CombatEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "873f77d4920feedf116763c9e57ff16c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_CombatEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "bf40b07fbedb05d3356072c04048fc14"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_DespawnOnOwnerOffline",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "06fc85ff8d66f58f4800e726ba651174"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_DespawnOnOwnerOffline_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "764629e8634f0ca2765a68ce34334238"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_DogNoiseAttractsZombies",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c3d1bfc408b28ee0d28d34793970f0c9"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_DogNoiseAttractsZombies_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "40f612552db455cc26cb724747078762"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_DogSpawnMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "154228436c1d1e3360a11d925a891ea5"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_DogSpawnMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "8eae1069b13283bd7e78d2cda833c14c"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_GestationDays",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b97b0ba39f29ee77617a5813722b4d60"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_GestationDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b60798c67101a9e22d1026ff81a90b30"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_HuntEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "241f56e5e8348e70db63ee7a1e3f9ed7"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_HuntEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "d24f80cf70403845c75cfd68d7b572c9"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_LoyaltyDecayPerDay",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "410d00591d8025c312d9364dd5e773f4"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_LoyaltyDecayPerDay_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "342e3374b7f20f4985a9032670f46175"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_MaturityDays",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c9bf9b92c11184009bd2c9a37bead6a9"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_MaturityDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "37a68ff6a1c457f4b15acefc07aca5ee"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_MaxCompanions",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7f83b5e7a37246a91e8b2f72965777d8"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_MaxCompanions_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7d8e81ebe79de49e79d239593d5a73e6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_RestedBuffEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "2acd2434a1ad4a03712c8fbea5c81215"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_RestedBuffEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "b5d35481c56245739ad6be966074218e"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_RestedBuffHours",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "68bb0395ffdd37910a511571bd5f7e50"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_RestedBuffHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e98249cc4584e473394fa3e37cce0d14"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_SentinelEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "fcf9620a5c8a6d5493229047e94752f4"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_SentinelEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "3194b7804adaaf39f86e2f5f9f44c246"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_ShowMapMarker",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "45b0dc1e566f843e03412b1706b20358"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_ShowMapMarker_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "41290d21baabb43a6a8c32adad0e3f47"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_ShowNameTags",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "ed3e8fe6c15271d03b0b5bb2eb5c997a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_ShowNameTags_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "1410f0a1c8bbf3947b9303b9b89fca3b"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_SkillXPRate",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "c29d07f033f0c331a479ebce4c6fe442"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_SkillXPRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e14a2ccdeb278919a4715380d975baa8"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_SkillsEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "e23615b0c19af80b978c0f1b14855faa"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_SkillsEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "929069bbbd818ee0c3e28f1a553e04a2"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_TameThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "af90ef461a3b58e4c0669445e5295047"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_TameThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "cf06ff38fd1ee88fa5466fbf2828086a"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_UpkeepEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "7c3b954ecb7b3e3034a96d889c3f81b4"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_UpkeepEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "df707c2013c794c60e19e6d3658a1c32"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_UrbanSpawnEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "3aa320010df96c3c3b40de1ec58940c8"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_UrbanSpawnEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "f115c856904bfa9d6df6193d5381f1c8"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_WildDogsInvincible",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "3728160ca1075f3399d82b8e9ccc23c6"
+  },
+  {
+    "mod_id": "3740052292",
+    "translation_key": "Sandbox_CompanionDogs_WildDogsInvincible_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-05T18:54:35.3266299Z",
+    "last_seen_mod_updated": "2026-07-04T05:08:33.0000000Z",
+    "source_hash": "6fb8822c2c034c11cc1b13456b3a9f8e"
+  }
+]

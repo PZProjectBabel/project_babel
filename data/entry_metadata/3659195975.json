@@ -1,0 +1,426 @@
+[
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ContextMenu_ResearchAll",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "137e5cb8eae9c6685c1cd283c5763f58"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ContextMenu_ResearchPerk",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "e214d739f643f83544580f5ad9dfcd3a"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ContextMenu_ResearchSpecimen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "aa42fc24d716a84e3517759d9a6754cb"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_AlreadyResearched",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "97aaca208f119317cde1b53b9da9b006"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_Researchable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "9b555762725b8394757d470f355cd6e5"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_TraitResearchRemaining",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "c70cfef5c62f1608faacc03a60bc3e8f"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_TraitResearchRemaining1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "b7b895e96e5a6d5cb21e0864dcded756"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_TraitResearch_blacksmith_plural",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "a82cfdf01c78eb72c673407b83633980"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_TraitResearch_blacksmith_singular",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "fab14f94ca7cf98c268db49e85c47539"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_TraitResearch_gardener_plural",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "96d58491cbb0852d9fb1e634c06fb23c"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_TraitResearch_gardener_singular",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "66addd5dce218f8d6a31ebf5d0ab567b"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_TraitResearch_herbalist_plural",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "86dc9c7f3d240f3d9e06c613cb2c9cd5"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_TraitResearch_herbalist_singular",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "c603a1b0369772a08126e2946b424727"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_TraitResearch_plural",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "7ca1eb6af97cc2fdf8fff5d5b6d539f2"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_TraitResearch_singular",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "148ac7a622b1ccb544fb858c28eaa5ee"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_TraitUnlockedByResearch",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "b0977380c39a47344c5bb6932234771b"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_ZScienceSkill_ShowOverlay",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "7cdac143a695d36fe8561504cc201a34"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_ZScienceSkill_ShowOverlay_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "92463ed47bf1aff9aba10731f59b5ad1"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_ZScienceSkill_ShowResearchedCheckmark",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "df84b3433f2e4be535bad56491fed5ab"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_ZScienceSkill_ShowResearchedCheckmark_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "58978302c5d8ec3bea4b6d37337f341e"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_ZScienceSkill_ShowTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "b5e801fca5e3f938b064dd20fc4628b3"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_ZScienceSkill_ShowTooltip_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "a765dada258d91e06337571c1024c042"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "4642981e6eb0fefe4ed31ee8030d750c"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science_Description",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "b3f4f616b49160a9ea95c265a23f0e95"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science_Description1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "3347a8cbd28dff9f04e5773e8b61a5e2"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science_Description10",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "ab139f4f0214795cf1a28b6f3c5c6b39"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science_Description2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "f2ac3dca29146620e8d24efdbf252267"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science_Description3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "1c47a14ab7bf0d9383984cfad6f39916"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science_Description4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "a54682a7a33b738e2581e6cc3b6e0b88"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science_Description5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "e5c8a9086b07c7b3666be9d1e474b868"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science_Description6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "47b6b6cc85ba6f375f0c6382d95cc774"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science_Description7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "7725a58bd4536c16156e7dd211bedd8a"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science_Description8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "debcd9a4ee670fd40c79122dc0b3bbeb"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Science_Description9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "f3e087e8289d76f31a84fb1771ce0c02"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "IGUI_perks_Technology",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "c40ac7b21ae7dd1af6109dc74592ba89"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ItemName_ZScienceSkill.BookScience1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "f93cbb1413c403a0daec6deb8786e993"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ItemName_ZScienceSkill.BookScience2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "8e4bca35d53e669d11d0f39a48ea10e1"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ItemName_ZScienceSkill.BookScience3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "7b54c7beda593ebee689e79fd579f0a2"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ItemName_ZScienceSkill.BookScience4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "1b8958d7e10e732c12e23834cb2a63db"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ItemName_ZScienceSkill.BookScience5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "70de7d683b614eaaf001ca4bc21263e6"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ItemName_ZScienceSkill.FloppyDiskSciencePublisher",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "4b675b178d41ef6a83f3e8766099571f"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "Sandbox_ZScienceSkill_XPMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "426ca7404c63420143a0639e6df09c36"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "Tooltip_AlreadyResearched",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "b07cb874402895724b9a1b303686039f"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "Tooltip_BookTitle_Science",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "5c20ccb6065f07a2801ea8ef4c50a4e3"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "Tooltip_NeedMicroscope",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "50b8c760f2c832ac7646738093f8de48"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "Tooltip_NoSpecimens",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "e2343fe7cab07e9770750d3b4cba99ae"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "Tooltip_ResearchAllDesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "e6df848f6659af0d8f57de1f1a933cfa"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ZScienceSkill.BookScience1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "6734991bbbc765ed4851d20c17bd5db0"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ZScienceSkill.BookScience2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "78e6dbceeb250bd713461b2f9bf27a41"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ZScienceSkill.BookScience3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "bd3700a0fd140bf51c4511b11b40c0d9"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ZScienceSkill.BookScience4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "6bd2786c75634f1bc57a2e7586da3ad6"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ZScienceSkill.BookScience5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "a61511c786b522f8c1680f8c27958cb7"
+  },
+  {
+    "mod_id": "3659195975",
+    "translation_key": "ZScienceSkill.FloppyDiskSciencePublisher",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-16T12:53:30.0000000Z",
+    "source_hash": "f32d798558c257dddb0253be080bfd7a"
+  }
+]

@@ -1,0 +1,858 @@
+[
+  {
+    "mod_id": "3600401184",
+    "translation_key": "ContextMenu_NeedPropaneTank",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "691efdb2879ab3a87667ecca36b9513c"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "ContextMenu_RCAttachPropaneTank",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "77903cf71b0f9de308ed6543e0ebf1f6"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "ContextMenu_RCDetachPropaneTank",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "cd099fc9c43497e50af3444de4953c05"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "ContextMenu_RCHeaterSettings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "318ebf618a2fef8eec02a076502be606"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "ContextMenu_RCNeedsElectricity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "b1e0db00194abf893061b23d4f04fcd5"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "ContextMenu_RCTurnOffHeater",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "3af0f3ff5364aa0f3a8f66d151420cc1"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "ContextMenu_RCTurnOnHeater",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "80b3c71cb0f9116c0088532af5c28d94"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_BodyTempDisableSimulation",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "221885a9016a6e7f8c22c228f715f7de"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_ClientCanSync",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "32472ef43f4c78dd9184e02470b4ea74"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_DisableBodyTempEnforce",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "101d64563ede322930e7b60be1c844a3"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_DisableBuildingTempSyncClient",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "4fd1794d0a63dfb3735ddad727144af3"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_DisableFoodFreezing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "dfc47c883df65e1947ac4d3572bb528f"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_DisableOutsideLogic",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "5c7d3555ce52fdf70a19a8fce2bcd4c7"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_DisablePlayerBuildingRebuild",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "fa4e04f188ad5b6ddc4c51b0fa653d7c"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_DisableProximityWarmScan",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "90a9d310f5fc64d250dbe58e750f061d"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_DisableServerMinuteBuildingSync",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "c140f58c5a633a4d359752b26178b0e3"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_DisableThermalSummary",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "78e7ac7f0a8487c2be15881238317257"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_DisableVehicleHeaterAir",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "7b7be8a238881ad01aee7076f6f932d5"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_DisableWatchTempSampling",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "21a357db7bad644b40d41a2ff446cfbe"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_HotkeyHint",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "06cfc72980c9989358e73fe0b8579953"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_LocalOnly",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "821bde9e2b587bfcbb005f7f3a038429"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_Off",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "45c289bfe96ad3c197617b04931a4d06"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_On",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "d88f0547fcdebf4e2475bca4b15a8c14"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_OpenPanel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "9d17efb084dfc40c429dc0ed777993c1"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_ServerContext",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "86243c07b97c3b1f541913e4e470b919"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_SyncToServer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "74d7ce7c2e0ffc0b90721d3459eb1555"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_SyncedToServer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "fef69f4d1c3556113d3b54c5e21b9e0d"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCDebugToggle_Title",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "54ccbb25af3aa1eb0351c6b983657a40"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCGeneratorHeaterEntry",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "34d1299f7d696c602af2cab377e4ff0a"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCGeneratorHeaterLoad",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "c44b5e7d433503f5eb9a0e1aaa8d7605"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCGeneratorHeaterSubtotal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "12b245d5791456954843a526e84fb2dd"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCHeatSettingHigh",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "8fc05fd7b7c5bd160197da68efb0a5de"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCHeatSettingLow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "8d09b25b1544aa2a05a7904f5e68e887"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCHeatSettingMedium",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "6a4a384c54d88ea275bbb47dd1728f91"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCPropaneLevel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "fd7bb206e540aa0ce9e02e56abe64915"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCPropaneLevelNoTank",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "08a33fe578f72403ef7c3027866acef0"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "IGUI_RCPropanePercent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "2b47604fd2365d3d4a4261505f4e6a71"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "RC_TempSimMod.Mov_RCElectricHeater1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "85cee3c97ba71af9495ff1123227fa6f"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "RC_TempSimMod.Mov_RCElectricHeater2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "2b0aca41aea0efaca9b9b87141a3acd8"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "RC_TempSimMod.Mov_RCGasHeater",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "03a5f7554f04fcf0bea71f37a2f837be"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "RC_TempSimMod.Mov_RCIndustrialHeater",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "0e37c63b64ac5bdfd37ed25a2d6688ba"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "ca3a4a020e41283017aee8d903ced0b9"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_Body",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "cffbd6fca97cdac9b748827b50e22b49"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_BreachWeightCurtain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "4848e60b4f25e60484bd4a03431c6d5f"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_BreachWeightCurtain_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "e9d6b47fde8ee03f1b0084d31b748821"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_BreachWeightDoor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "f9a0c9b8a0f5c6c1fc53f894e7f8a36c"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_BreachWeightDoor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "1e7f26b14ec9805ca803eeb26228080b"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_BreachWeightGap",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "fd584ad5cdbffb9e0a9a980489587a60"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_BreachWeightGap_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "cab5746673b41c40baf9931dfa3ad1e3"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_BreachWeightWindow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "72a571e25caae25ea73f76c86fe1d86a"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_BreachWeightWindow_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "d14f8ae2534dac0cbdf0b5eac7eb8160"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_CatchColdRateMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "e1e9afff937bc9b26cc8b39656ad3e23"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_CatchColdRateMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "db81c87a46edaf44777193b959f9eb18"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_CatchColdThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "c7bffbb93492fe9cc4c0f6d7b0954650"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_CatchColdThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "ac5562434387bbc1a9d93eb83c64c60e"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ChillyAirThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "1e7311e5cf27f933ab59fee35e1c8c98"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ChillyAirThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "4876034e772b5bb782c1b7ae1393f065"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ChillyCoolingMultiplierThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "8644a8d45b3c63a30aefdf53a339d347"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ChillyCoolingMultiplierThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "4559e9ae2e989e224d2cf97421c195c9"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ChillyInsulationThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "76fe6cc59c18c40058e2682174ea0e9d"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ChillyInsulationThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "ad5b16f11204a0183702730cfa9efd5f"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ClothingCoolingMultiplierMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "3e58f529e44807fa50e6830928a53f05"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ClothingCoolingMultiplierMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "ff1bebd08e7e6cfc60549bfaab83a790"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ClothingCoolingMultiplierMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "6d08b0eb9fa89cedd9ce10ed9b988ad1"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ClothingCoolingMultiplierMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "67ee04e991bc655d835fbe054b1cb3fc"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ClothingInsulationScale",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "a9b4163a491ba4a5209f3baa5ae8a7aa"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ClothingInsulationScale_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "ab574e9e8cd16e70cd46305a661832e3"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ColdMedicineDecayPerHour",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "cdba2c163c624f3ac1e6a56c1b5c2303"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ColdMedicineDecayPerHour_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "c6b86926bb6cf64b498dd42af4707ddf"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ColdRecoverPerHour",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "1dea29fc6e2bc7130db8559bb23d2d9e"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ColdRecoverPerHour_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "e6b30015c217d93be7d2c03fd8bccf7e"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ColdSicknessMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "e962a96c5a96f9fb7d664aa5ddf9f995"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ColdSicknessMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "e6fd293434491c021a672a18b7e0e145"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ColdWorsenPerHour",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "2ae05c5421825aa0fd3e06640323cea4"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ColdWorsenPerHour_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "766d49677402b3690518115f1f65fd4a"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ConvectiveBridgeStrength",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "3e63b734c05aa2d8c8b2182c9456e18c"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ConvectiveBridgeStrength_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "5ee724d46f47da91c6dad2aa3a555117"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_EnableFoodFreezingExperimental",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "8f0f1ad7c72845a540a8d0d630160895"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_EnableFoodFreezingExperimental_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "e01c9a3802200c207cdf909871f0de54"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_EvapCoolingStrength",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "2c9dd5a1c26bf0b8ca3dc92b9678e30f"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_EvapCoolingStrength_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "3fb68cc1792d6b736bbd7aea36462809"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ExposureCap",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "5dd0cbcf1877e534d0bc16b994021bb6"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_ExposureCap_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "ee1b81e2a7f49e687e88af91bcd9fc94"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_Feedback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "e20188157f927a930161e08a4dbed8a2"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_General",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "1d2512ffbdd8ff3be7f98e66ac59755a"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_HeatDistanceExponent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "81f86b0ceda774fecfba94fcb48f84ce"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_HeatDistanceExponent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "d9da78f3b3cc7cfddbdb918f029a7afc"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_HeatTargetMaximum",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "6af4ba5971c0e90ff773c9330abf6d0d"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_HeatTargetMaximum_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "5670471f3afa7e007312b9b33e9ed76e"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_HypothermiaDamageIntervalMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "8b301918ebcd910e9fc84b09e77f5a9d"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_HypothermiaDamageIntervalMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "5ce1883dfc27df1889d7e7c56fbfb116"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_HypothermiaDamagePerTick",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "fcd21e24545c91288a9494aff92bd7fa"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_HypothermiaDamagePerTick_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "7953593e897ad8812e7e484913ae5f12"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_Indoor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "0f16d8ce2abb29b07945d15ce8ce621c"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_IndustrialHeaterSpawnRate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "e74add88d4669673891f63cfb0e6ddd7"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_IndustrialHeaterSpawnRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "6d7e7323c778ff10b5f7c061cab501dd"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_InsulationSpreadBias",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "892f3a8f5e16b206a95d38ed8dd80930"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_InsulationSpreadBias_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "b86604d37c6f520a926502eca0adfca6"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_SealedPassiveTransferStrength",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "43ff354a8801a20b0cda7dc5aad62e6b"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_SealedPassiveTransferStrength_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "443aa0aa268d357adf4bfc3de75fc2d4"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_Sickness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "21532520278bf57d19df867f7c9f69e7"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_SweatRateMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "78d504226dc34c04845cfb29e7944298"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_SweatRateMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "d974edb8ed2ae371f855e34e3e3e3346"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_VehicleHeaterMaxDelta",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "a66c63227f039097d6c1f826513e2cf6"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_VehicleHeaterMaxDelta_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "eec142133638d27fae9c6414ad6d2233"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_WarmingRateCapCPM",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "58d9b7bb0ba7c2a5686bb7ea374bac52"
+  },
+  {
+    "mod_id": "3600401184",
+    "translation_key": "Sandbox_RealisticCold_WarmingRateCapCPM_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-10T11:29:52.0000000Z",
+    "source_hash": "868576dff0e0d0e2ff581b24d7bfcca4"
+  }
+]

@@ -1,0 +1,586 @@
+[
+  {
+    "mod_id": "3728891451",
+    "translation_key": "AutoLightTimers.IndoorMotionSensor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "d24ffc67018a81429b3ced8231208063"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "AutoLightTimers.LightTimer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "38928058170b3d3af9c65678ae038f87"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "AutoLightTimers.NightOutdoorMotionSensor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "9b8e27a9b5ee609061730e41aab041ce"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "AutoLightTimers.OutdoorMotionSensor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "e6b3a45a75c5fb1987a6ea34facf0a99"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "AutoLightTimers_MakeIndoorMotionSensor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "d99562c381a10d75c889e18d9fc84609"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "AutoLightTimers_MakeLightTimer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "ec42989f706a3181a881fb53e8819b42"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "AutoLightTimers_MakeNightOutdoorMotionSensor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "3e06c30d87249f1f0d6d0150a7ea2919"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "AutoLightTimers_MakeOutdoorMotionSensor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "97cf4685e00e25765115ee9c1684d48b"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "ContextMenu_AutoLightTimers_Configure",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "a62f0b09871a089555c91933ce4104d1"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "ContextMenu_AutoLightTimers_ConfigureMotion",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "19a8f8f86e1b05d7a2ff56a9163b273a"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "ContextMenu_AutoLightTimers_Configure_NoBulb",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "7aa47060e013e5a5849f50395fa9f4c3"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "ContextMenu_AutoLightTimers_Install",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "3ab588e189cab8a1f1d0e448f97fdcbe"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "ContextMenu_AutoLightTimers_InstallIndoor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "5191a69ded7a0d7b07e40cd63b43c3a3"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "ContextMenu_AutoLightTimers_InstallNightOutdoor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "7003f982241e31b8b6b853bb390a71a8"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "ContextMenu_AutoLightTimers_InstallOutdoor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "c970aefd5d2fafa14c1aaf8edf2382e3"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "ContextMenu_AutoLightTimers_Remove",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "48bbbcd3a787367e6b71a811bd166891"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "ContextMenu_AutoLightTimers_RemoveIndoor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "a45c5322125ce75d28e6f0d4032c199b"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "ContextMenu_AutoLightTimers_RemoveNightOutdoor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "27ddff2ae089332df996eed145159003"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "ContextMenu_AutoLightTimers_RemoveOutdoor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "06ef2f2c025f268d0aca91c3942fefda"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_Cancel",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "f41e8d2e86df8d590b40e4818e735afe"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_IdleMinutes",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "f1371f63866a3a0afb8fc4dfada4d8c5"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_MotionEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "ca5ad4c9e364cbacef6751ab1bee369f"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_MotionStatusActive",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "5396990050dcef8ca0a472d86e4ea735"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_MotionStatusDisabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "999ff88fb03693b2f5d6383e66cf7be6"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_MotionTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "a50636710722b440eda6d994c94a87cd"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_NoBulbTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "3873068e5ad3fe4b674e5fb153e8a1aa"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_NoIndoorSensorTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "2fbb4ea5016641c0dfe0e3ffb8c603c6"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_NoNightOutdoorSensorTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "a3df82c666be811202150f4d51467a81"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_NoOutdoorSensorTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "2515b998a6d5d7e17146445c93b188bb"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_NoTimerTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "3b78c7839f107544c29dbdd776a01451"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_OK",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "7751776e931804df844b8b80b9e6d67f"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_OffAt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "9312a6ec1d71bee19cd4caa4b755b833"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_OnAt",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "ceaa69c0b5a57dfbabad45c63f0a4a08"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_StatusBoth",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "1cbb7b220ffc2c231082f64a7935c891"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_StatusNone",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "f215b8f8889eec4aa68c55ec98d19cbb"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_StatusOff",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "7b3b6d3b8429123d14df3ea979256bd7"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_StatusOn",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "6c75c8adc23900816a7578a4f7c69fdb"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "IGUI_AutoLightTimers_Title",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "694e6058b3ab2076f93af064d7a95b54"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "8ab7aff50878733954049ba9d9a568ce"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_CatchUpOnChunkLoad",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "81e7bc3c3e355ac32c0e1c736cc1a489"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_CatchUpOnChunkLoad_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "cf2027824f0b1acd3909b334a6f8e017"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_DefaultOffHour",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "6f9d0bf3db96f20ae11090cd5fa35b93"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_DefaultOffHour_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "b95409d07d597db71b72aa94807a55cf"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_DefaultOffMin",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "98ad79da881c60f66bf2fb7ee02b0fd1"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_DefaultOffMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "6361061e2343742d04fb8a1718a4e72b"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_DefaultOnHour",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "3f140fabaa5a4381ca8bf5a3a2f9a83e"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_DefaultOnHour_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "632b466bc33c97bd7d003054a4a63889"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_DefaultOnMin",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "d0596b034fb7e377a8de8bfd90d7e9e4"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_DefaultOnMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "643c1c729baaa36372289bafc338d42b"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "d1a91b6c1e1fb9e26fbdfa5c0898b75b"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_Enabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "0a81dc58299560ae874a4e46af14cc09"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_MotionSensorDefaultIdleMinutes",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "647ccb507e941d8da8c329d1cd66f490"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_MotionSensorDefaultIdleMinutes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "6ce0f413ba207a865e8257ee2feda850"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_MotionSensorDetectZombies",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "7fa1b57918d7487a0833a73afec0ee9c"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_MotionSensorDetectZombies_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "744c51b4c992794f4c200a541b0c2ad4"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_MotionSensorEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "4bc1e837a319f85aef0e934ec4e75125"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_MotionSensorEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "4ea5ded9932443ef4733a39611031b9b"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_MotionSensorPollFrames",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "470ca3937af78829e3f81f58556bdb5e"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_MotionSensorPollFrames_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "216f973872f9559f2469dcea82ae215e"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_MotionSensorSkillLevel",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "72c07ab5fd56b3ecffcd17a91dd1e17f"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_MotionSensorSkillLevel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "adad6fedd088e7c7d332fe56d66f1e1b"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_OutdoorMotionSensorRadius",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "dcb18af594308fa1198fbc124074f1e2"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_OutdoorMotionSensorRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "789ca051612a57f93c548c131a5c2f34"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_RequireMotionSensorItem",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "3c08bff6887ea9cabded16125eb04bdb"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_RequireMotionSensorItem_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "48ebd3378adef7c0e36d6f119e67107f"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_RequireTimerItem",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "097b25d3cf514ecfd5656a52cb057881"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_RequireTimerItem_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "207f3cd70c882c1af471dc53f826b838"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_RequiredElectricalSkill",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "4ccf9a307f39b0b87e1469f3cf7e881d"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Sandbox_AutoLightTimers_RequiredElectricalSkill_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "cef20623b8adabfa6c7190c52c75b248"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Tooltip_AutoLightTimers_IndoorMotionSensor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "f3ec2435b97dc934c2c3cdf01468b1c7"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Tooltip_AutoLightTimers_LightTimer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "da98e55239db28b1ab28fd61d137449f"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Tooltip_AutoLightTimers_NightOutdoorMotionSensor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "0861744d338e9375ea7ed7a6e8d78b96"
+  },
+  {
+    "mod_id": "3728891451",
+    "translation_key": "Tooltip_AutoLightTimers_OutdoorMotionSensor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-10T02:44:57.0000000Z",
+    "source_hash": "18b389988f0556b224c08ff96d7b79b5"
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ContextMenu_UGRClean",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "a194c2728a51b716662b30cf1c25b7a6"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ContextMenu_UGRDisassemble",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "748cfc2be5544d6e4632e868c1d57297"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ContextMenu_UGRFull",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "a781168dabdb498740aa7d42891e38eb"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ContextMenu_UGRNormal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "e418e923f33310fef6c8a56ef03a456f"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ContextMenu_UGRNotSkilledEnough",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "ccae756ed953a6aeae254ed470b3af55"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ContextMenu_UGRReassemble",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "07898a2c48a0c5b963238265478c6e30"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ContextMenu_UGRRepair",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "54102af8ac11b843912bc55ed0ae173b"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ContextMenu_UGRTooDamagedCleaning",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "64b88834b139c45303fb0fd2fda1682f"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ContextMenu_UGRTooDamagedRepairing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "c043126d5720dcb043b1b26aa04b1bc4"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "IGUI_JobType_UGRClean",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "35bf6548682b9b3613d1cd388d49b4de"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "IGUI_JobType_UGRDisassemble",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "f6cfbda715025aa181240ca7cf5f239e"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "IGUI_JobType_UGRReassemble",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "d4209490dba0d9a23b539101a6035fcd"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "IGUI_JobType_UGRRepair",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "4e30dfb5a82f3c736defdf8d41fd5255"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "IGUI_UGRParts",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "9820f561870c89a811e4a6b772d42de6"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_Base.CleaningSolvent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "c46e7e6b421e17a8387bdf0ae32b95ce"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_Base.CleaningSolventBlackLabel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "f822cc460ab33d580caa0af84db7a618"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_Base.DisassembledGunPartsLarge",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "137d0a876662f0fdb53148846657d7ad"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_Base.DisassembledGunPartsSmall",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "92f6c2cd4baae22c446d222095e3d651"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_Base.FirearmLubricant",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "a9fb2b1abcc9e67c05339f9ad6f947ab"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_Base.FirearmMaintenanceKit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "e5bab97b13eb574a78267922e1a6c1c2"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_Base.GunsmithingTools",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "82051e04473229ba51606358e44a8b43"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_UGR.CleaningSolvent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "95f12a68256ff9fab150b29a37ffec0b"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_UGR.CleaningSolventBlackLabel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "94263f43a6383fc00f84b88879afeb84"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_UGR.DisassembledGunPartsLarge",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "9835bf0c91f6d9b839a07d9b348ae9bd"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_UGR.DisassembledGunPartsSmall",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "c5ce00f46da3b27273d8907bf0ca85e8"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_UGR.FirearmLubricant",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "2883819b3a6124b41e222ef5cb93ceb0"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_UGR.FirearmMaintenanceKit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "534e54fe54fba9ec3011d76b393270eb"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "ItemName_UGR.GunsmithingTools",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "c81801ab79cda1cd398199715558c023"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_ContextCompatibility",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "8498641d92f94e4a018f540dfad97336"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_ContextCompatibility_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "ddbb720af3306fab40588d8120c00deb"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_ContextCompatibility_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "34f2ad42a4353665f70b09fcebf681b6"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_ContextCompatibility_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "df96aae0050554ed33291ab87bfa3a1e"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_ContextCompatibility_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "d1b0d6f1faec21df20d655bed0febf5d"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_GunsmithingToolsRarity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "73f0e3457920fde82579efe06b6e7e34"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_GunsmithingToolsRarity_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "1ff97a8775e461932fd581f14eeb12cb"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_GunsmithingToolsRarity_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "4c8d92314fe6a0e918d79e727eb26a41"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_GunsmithingToolsRarity_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "c6ef3f76c01255cfe53c47467a296020"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_GunsmithingToolsRarity_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "8cb413e90a0269d27f71a87ed0902315"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_GunsmithingToolsRarity_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "878d32d5dbcffc46af5db1244e4aad99"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_GunsmithingToolsRarity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "9c8154f90bfbac61abaf73d9cc2490e7"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_LubricantRarity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "756cd0f7cc68c9c04ce8075fd6ae0653"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_LubricantRarity_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "51ddb2787cfc0bc810d3571d0b341f17"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_LubricantRarity_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "075171abcd35b8030efbccf906e95555"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_LubricantRarity_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "4467d6256d447786ee394b82a2105397"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_LubricantRarity_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "55288f6a7c02e722fd9bb31fbb416f53"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_LubricantRarity_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "692722a25de30d04208e4cb21a17aa61"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_LubricantRarity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "7f4a38b011fd8a115426732be0d8e756"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MaintenanceKitRarity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "7733f0f7a9645a48fcf782262cf69e1a"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MaintenanceKitRarity_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "16750d1ab1a0e98441c51336fea70f2e"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MaintenanceKitRarity_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "694a8420e3fd395853e11604817e9b6a"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MaintenanceKitRarity_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "2f74ff7a969b8076d79af8ab236d0b17"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MaintenanceKitRarity_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "a0afe9566c85bb6202e72b836ca5bc08"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MaintenanceKitRarity_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "db0254d84b7b26af65f1b59e40987434"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MaintenanceKitRarity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "46b2b27cd7f3d56fc4b39de21576adf5"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MinimumCleanThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "bd3f59e4f174fe03fbbfd24bf76db2aa"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MinimumCleanThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "4b8164790ab29d2547be2a9bd6d44945"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MinimumFirearmSkill",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "6189660991d9d37d9116818fe5c43360"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MinimumFirearmSkill_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "86c1c12966090fae5cbadecd5662f2c7"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MinimumRepairThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "cb9780b4d89defa103da3ea2e959c3f7"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_MinimumRepairThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "24c194db121d828d70e87302de591931"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_NormalCleaningEfficacy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "8d39cb29c312fc830b655b56de088ecc"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_NormalCleaningEfficacy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "f371e3fa2bf77916369b0880a0eb45e8"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_SolventRarity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "600fe46b3682bbc6083167a1e0cb131e"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_SolventRarity_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "aaa8819d69acb744173dc07f30b499d6"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_SolventRarity_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "4268315d94e1545a5aa7595e310cf52f"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_SolventRarity_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "5254e0ea3c18710afe65639fcc2b427c"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_SolventRarity_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "bc875b30714e6a019169e0eb9ab01de7"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_SolventRarity_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "0151c225b592ebbd84ee10904c89bc13"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_SolventRarity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "d632f767c39dc7b27aae55cd7ddd1551"
+  },
+  {
+    "mod_id": "2899457928",
+    "translation_key": "Sandbox_UniversalGunRepair",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-19T21:23:47.0000000Z",
+    "source_hash": "22fa49e342dd2c62be26e8d203826570"
+  }
+]

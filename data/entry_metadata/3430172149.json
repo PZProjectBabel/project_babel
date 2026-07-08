@@ -1,0 +1,746 @@
+[
+  {
+    "mod_id": "3430172149",
+    "translation_key": "ContextMenu_FlipThatShit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "7347d2f2ab57ef5e7fe5922e1dbec749"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "7b546da6c2b80a4dd423bbd94e99a00a"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_AllowFlipInside",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "9cc063072b33b2ac81f1f905fa5e12a8"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_AllowFlipInside_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "0bd56ec50e5f9a105ebf76fbc53b2bba"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_DisableFatigue",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "0f2cd015d740b7bf5122fac6ca218677"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_DisableFatigue_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "5f8b8a5fd8917bbb24ad35fd32a86ece"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_DisableStrain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "b61fc6a1a8fb1a1eb5a898b112c21c31"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_DisableStrain_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "ea1e06c50d9d622be8188a17b72d93b9"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_FlipSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "f636cd770b1aa9332b0ae71767250872"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_FlipSpeed_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "dda7a75184d708124e62fe59a22cee9b"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_FlipSpeed_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "b6ab547b98fd1a3ca65ff311e1cfa34c"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_FlipSpeed_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "531b6c466e53b311f09f7c9493fe077c"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_FlipSpeed_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "6bbb4aba328b39cd83597c7b0d5de0e8"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_FlipSpeed_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "5538e096e350017233a223d81318802b"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_FlipSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "fc3050c5d815344c18145e0f76d3216c"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_RequireDetach",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "5441d9709a4c735728fca82028de6a55"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_RequireDetach_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "6c28d734f6225fa35d8dd1b8f8145e73"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_RequireJack",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "8e33930c7776127c5711dc5d45a6452e"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_RequireJack_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "8e6af2a082d74add4affb9ce054ccb60"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_RequireStrength",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "386ec3b0518c9eadb96134a6a2c582b2"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "Sandbox_FlipVehiclePlusTrailer_RequireStrength_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "eb8a2f62d97474802092c880b7205181"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_DetachFirst",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "94903ff9f9248f67c7d34fd04d4ae621"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_DetachFirst2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "93b30b4983b19eaeeae215c51075b43a"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_DetachFirst3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "ea8fc940a67ac87d51f7d6a365acec89"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_DetachFirst4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "c42c17f6327bb4835938deb2fa541d70"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_DetachFirst5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "525167c0e4d91998868e7e67aa5899b8"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_DetachFirst6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "9a73cbbaacaef743c4f83469ef1bf57c"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_DetachFirst7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "a9963b8993ee18ec268619eaa589665a"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_DetachFirst8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "584f0ee70312e097703b41627268e185"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_DetachFirst9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "b9feff62c4fb269fc8ed011a1a9f1c20"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_ExitVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "8a4ec361edfb3477ad6035d103dfe0ef"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_ExitVehicle2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "111a1dfbb94396f452504713a3fe8961"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_ExitVehicle3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "4d1e69527188733d8724026eb2830283"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_ExitVehicle4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "fbed38cdd080ac4c6c040a27ce7b79e3"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_ExitVehicle5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "33c036b4d4e399c47aa493c685c9b8cb"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_ExitVehicle6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "190309e25785c1ad77bb2487a049e32b"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_ExitVehicle7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "2eb42da6f584d54a477e1f150dfed999"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_ExitVehicle8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "4f533804d67990e444e7906a735b4686"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_ExitVehicle9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "34f7fb60a617b152130b90719c09599a"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipStart",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "6993134122952db36a2a82f4680da77f"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipStart2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "88bebb5979877958d60d97a5c86e652f"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipStart3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "d5b3618fd6746028d417650ccfaec4cf"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipStart4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "c895d9f59357edc174b97cb320f86a03"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipStart5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "92425f140e349391102c3056ebd40503"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipStart6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "849ee4d28884300c78364be67d1a34b3"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipStart7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "b220448ada727b6c26314caf45791529"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipStart8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "7a0f42a8d866ac412d9fecf99d732f79"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipStart9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "8ea956b95da5a690a776de16107d2013"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipSuccess",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "1e6a7755bb19732d2840211d1880cd26"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipSuccess2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "1db3de164d80090cff32cef22236a8ea"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipSuccess3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "26fbd2931ec26197af79a3f11ff136ae"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipSuccess4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "643afd30015ba669f7eaa618c9d03daf"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipSuccess5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "f78501ad454910b1bff999b6a4606aee"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipSuccess6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "21cc19a3b4c4d2d16ce81297a7b87848"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipSuccess7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "94600387effa354275e269c761def2a7"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipSuccess8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "cf076f1e38b7bdcfde768c60511c761b"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_FlipSuccess9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "9c927225e742ce0295bf929657a53bf6"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_Grunt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "7695510ac7a736bedfd0464646f6c5f6"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_Grunt2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "1f1cfaa9cf488e034e8769e2c2c13984"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_Grunt3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "75ca9aa01fd0db7685a668845b82faed"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_Grunt4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "814f1ded2e98603f0cea186e3d9e7642"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_Grunt5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "5ec7a4ff313af4e8a3659d4108237de2"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_Grunt6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "44e84bdfdf8846a65827d02947c4f4ad"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_Grunt7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "229e25e4b99effabe312de9c2dbb52fa"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_Grunt8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "74839b9f161ce57d00452172b4942ce8"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_Grunt9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "901074c11915167f9b7acf9af7bc2d8b"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoJack",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "41303be0e0be666340419e0f749392eb"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoJack2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "f38cc674892f920304a39f5d1d8beac9"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoJack3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "12d41ed1819fb5788ecd13952fd6cdd4"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoJack4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "169f31ade6df22a75540cf234d07d8a2"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoJack5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "8a6e5466c1fec3b6812f891621eb7a0c"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoJack6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "f5104871bd1b6ad2e617a4a17ba09c1e"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoJack7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "66818e9ed2599bb7873e679fc8d5fcd4"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoJack8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "b91584bbeee5a918dd1c6a0c601857ab"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoJack9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "2c6c48294ce3369ba56de52ee2a9f257"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoNeedToFlip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "b458a6777e2cf316a4017273370c0702"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoNeedToFlip2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "5ed62c500d609eb8adaf34ee38f62fe0"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoNeedToFlip3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "40f5214d6d0b0a3c84dbed64ae7ccc39"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoNeedToFlip4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "1ba7891749fd66ba7761267b044ed6d4"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoNeedToFlip5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "b2e7a169f07615a044859fe5e7980a20"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoNeedToFlip6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "66927da0cd329432a9b6f24567dd79d6"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoNeedToFlip7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "e123e47ba0d6ce5fb366296bd8c3527f"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoNeedToFlip8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "1a582c68f08e1d054fbf32db84ab82aa"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_NoNeedToFlip9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "6c0aac8a9f5de506320c6c1aa6cb6351"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_TooWeak",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "41a4adfb339873715f393424d133270f"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_TooWeak2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "805bf171101a2d02868ed1273f333fc3"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_TooWeak3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "832dcd58475617cb6c87654a8771433c"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_TooWeak4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "4729be358bff46d9ade413bd699e95d9"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_TooWeak5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "14dcee48e8a023dff786f5a534fe8e96"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_TooWeak6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "6fd77e339219167b9801550181709b06"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_TooWeak7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "be603612cc300fe5c98a705bd5fc3333"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_TooWeak8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "252793f68e7f30d5465c1369b435fa14"
+  },
+  {
+    "mod_id": "3430172149",
+    "translation_key": "UI_FVPT_TooWeak9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-12-22T14:00:01.0000000Z",
+    "source_hash": "e971a12eb85692bca47a24f42e41641d"
+  }
+]

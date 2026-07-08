@@ -1,0 +1,802 @@
+[
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "8e80584ea658330114e9e3840e1372d1"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AdrenalineJunkieCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "472acafcd3fdd0e275c7346c768973e1"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AdrenalineJunkieGainKills",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "e44a708c3fffd50fb97a3daaa3113008"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AdrenalineJunkieGainKills_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "340a7b909f1492ef6670782f7d0554e3"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AgoraphobicCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "70782399897ce6fe558fb3f15400a4eb"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AgoraphobicLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "eb353a2f3f06888a869a59ce424582eb"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AgoraphobicLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "397d75f70fbe9a29cc7e72cb599d822d"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AllThumbsCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "05a7c43f9f47eca01886c53d9678d746"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AllThumbsLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "6f6dab792bbfafde52db99623a7c99eb"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AllThumbsLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "d2f7ab02c8855e483bd996b082d2fd2f"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AxemanCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "6ca80a525977ec4d8a1d13cbb136117c"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AxemanGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "3a009c66c778b317da261c8a9eef8302"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_AxemanGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "a52858e956445411eb067754e61f18d0"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_BraveCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "36b0a73352103b7352fa66bd6851c4dc"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_BraveGainKills",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "6dd3df9faa4d3c8228143439e83425f3"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_BraveGainKills_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "44166165e6c1bc2d99d5970bd6fa13b4"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_CatEyesCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "a8e81128771a1df96e84e42e4ce09031"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_CatEyesGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "66b53af52742e191ed9d00347a41a0b3"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_CatEyesGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "a6450b3ca8e52cb4e07189e151c518e2"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_ClaustrophobicCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "4bff2fc923d3ac5db9a05e784f923d07"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_ClaustrophobicLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "7e4233d59b8aee42a5b0a7cf6168fdb6"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_ClaustrophobicLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "d0c2db7e06893d24aeeeee2fe17e768a"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_ClumsyCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "f0c864719f2deb6db833b936bfe12dd4"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_ClumsyLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "e54906f0be1325092000e98ee72d05b8"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_ClumsyLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "176386e664526173b22127d551bccd06"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_ConspicuousCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "b1ea60da84b55398e806de448302ff45"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_ConspicuousLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "19e5e1e5b371e2d2e90d184254a8b1db"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_ConspicuousLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "d8598a26f0a6e5f445b1c151721e055b"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_CowardlyCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "d4af9f66df1a1113330f8183d057dc16"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_CowardlyLoseKills",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "7f49f8484ed124d4b06bedfb9e041f71"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_CowardlyLoseKills_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "3d4abe37584a32dc87c7b03c9b9d06f2"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_DesensitizedCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "a8d9e66e5b227e6ac987fbb54d42a3a8"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_DesensitizedGainKills",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "692e6f619700f7b84efaac2f5d9698dc"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_DesensitizedGainKills_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "aca4ac4b7f380cac68177f9588bff70a"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_DextrousCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "94a62fbb2bca8879e81b9d2a0464522e"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_DextrousGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "3c573ce0001f998f9d9007e9c04b7a54"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_DextrousGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "a854d9c5e5dc5d1bb56528309bb01577"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_DisorganizedCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "3db6c0dbf16949e05eb7ae4332a210ce"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_DisorganizedLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "5a7b0ffd7e06fa2b269d338b1b03ca9a"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_DisorganizedLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "a1540c389ea5e336bc2322df95356207"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_FastHealerCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "02597d703eb9710d5e7fa0d13849a61f"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_FastHealerGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "c866f07097c39768a3c4e40d84ab1b32"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_FastHealerGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "cebcf6739a9c87dc0226e3754c15692e"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_FastReaderCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "471e8f45461d0b215f66807399e076ee"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_FastReaderGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "c3a1259cffe71b12c01155ad93e9b1f4"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_FastReaderGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "309871a810eb4403e9235e434f7bd6eb"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_FearOfBloodCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "0e9daead4722e7d5a448280231237014"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_FearOfBloodLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "d97bc448f9570ff0bdd0d6126319be06"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_FearOfBloodLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "02c13be643685efc7ff44be26d5ab0df"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_GracefulCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "6b9399196b4f7d75f91beafb7b80d7ab"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_GracefulGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "ee1fcfe81b56346c48e6df83f3e55f0e"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_GracefulGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "72c2cec8b16a4a8e38e33ffcb097f1a4"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_HighThirstCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "7baf177a3e2c4987f80c6cd083edf345"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_HighThirstCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "056fdf6bc1889e19519dd6a03a222500"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_HighThirstGainCarbs",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "7c641d335fa9d5091a3661d390688593"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_HighThirstGainCarbs_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "579dea24b0238ba690aa5ef23b192e8b"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_HighThirstLoseCarbs",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "3173f07e3e91f956a4c3e88517bf8a4a"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_HighThirstLoseCarbs_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "965f7e8667d002b4f5d269024e8cec76"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_HikerCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "6809ed2dcbe9d12d99d5ede98fbb3cbe"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_HikerGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "b7e33dd692e1daa95ffd7a573649f4de"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_HikerGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "6e362205f669cce98755f35711ac1ee3"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_InconspicuousCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "6231207c57e94c39079587b5e76d7234"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_InconspicuousGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "c497dcc6deeac2330f4c6baa96fb073a"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_InconspicuousGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "6c5385910c2046f2a482586a5afbedd8"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_LowThirstCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "cd992a1703c95b1e9624af7baaa682bc"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_LowThirstCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "9d5b0f37328d6c8dffdb89c6f5cd8a74"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_LowThirstGainCarbs",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "746b9a9dc8e43c4c9a8eb119bdf22adb"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_LowThirstGainCarbs_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "75bc545b56a142f3b450cdf8252089af"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_LowThirstLoseCarbs",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "6507aff0dc2411dce3b766e9c34dd857"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_LowThirstLoseCarbs_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "5ba20262670e1d2f06993e10269deaf0"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_MotionSensitiveCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "982de51b950b65c768777479096d9f73"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_MotionSensitiveLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "fa0717ae28ac06d95d8e15b58f3e6509"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_MotionSensitiveLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "4ca49856be36d77c22b2caed24ee2cd7"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_NightOwlCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "fcfa5da6b48db37cba403978f65a1966"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_NightOwlGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "c8c94aa019f2d39d51a63205c7dc08e4"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_NightOwlGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "223d935e2c08b1faf338ab5d4dcb64aa"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_OrganizedCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "ed9f14c339eb6eca6b8f1733d362f156"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_OrganizedGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "819361fe51fb2518f33aefbb183eb9af"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_OrganizedGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "06e82c37e1258f50466757c6b980143b"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_OutdoorsyCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "37c5c65ced76aaf0615299a725818257"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_OutdoorsyGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "cc960b2eb3a270f7d9c27e6c21f5a6bc"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_OutdoorsyGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "48b9b74eb4f91935e831d09d52482faf"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_RunnerCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "85a43199ca325ce74f6dea21b1a2916f"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_RunnerGainHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "fd7bf60c4e0fa0d3994e9c9ddb10a1e3"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_RunnerGainHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "0f24766bedb34c604eeac1e40bedb92f"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SlowHealerCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "6808976dc2749a99acc226c741b9ff45"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SlowHealerLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "2c644dbc7cc5be3a0904be31fb373e50"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SlowHealerLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "b85d08128c8e7888b4b0f268298e6a2e"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SlowReaderCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "5748b6d2456d4244708c5b3074e3eaf4"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SlowReaderLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "6d2e99abef50b840f6c862b1f154838c"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SlowReaderLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "ec0414137c63d34da31594258597885e"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SmokerCanGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "c9176dbc353d54d728c41a4a6fda25ce"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SmokerCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "ed4141cef62caff2dba12ac6d046ddb2"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SmokerGainCount",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "3e2697ac377d7eb0d8903ace85744173"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SmokerGainCount_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "e74916efebbf98cf2d1e25870131e0c8"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SmokerLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "44561d34cae2f9dfb07c4eda3a253629"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SmokerLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "2ee14d736eaef75e271d69b02689dd16"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SundayDriverCanLose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "bc96cfa23cd002ec74a2d3f7f1b5ef10"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SundayDriverLoseHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "866c91871628af3bfa6b091933ce3593"
+  },
+  {
+    "mod_id": "3622328997",
+    "translation_key": "Sandbox_AdaptiveTraits_SundayDriverLoseHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-01-21T02:09:59.0000000Z",
+    "source_hash": "bfeaabc943ee9110919576d02bde013e"
+  }
+]

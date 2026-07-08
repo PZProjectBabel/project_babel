@@ -1,0 +1,882 @@
+[
+  {
+    "mod_id": "3407791878",
+    "translation_key": "IGUI_perks_Driving",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "57fa9b80b4ee6ec85cc9adcffc3bbd37"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "IGUI_perks_Driving_Description",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "e7fb6274716e4298c12e5cc5693b9338"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "IGUI_perks_Vehicle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "1699f4866ef38bcd0b302eae1c141b5a"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "ItemName_DrivingSkill.DrivingSkill_BookDriving1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "b3efe54351ef797af3a7cc7891376bc9"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "ItemName_DrivingSkill.DrivingSkill_BookDriving2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "ceeaf2f6c0aad9ee60794ed70e708f05"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "ItemName_DrivingSkill.DrivingSkill_BookDriving3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "cea04721a591a409cfa2ffdc076879dd"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "ItemName_DrivingSkill.DrivingSkill_BookDriving4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "820dde5ac75730974472a7e66d3f00db"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "ItemName_DrivingSkill.DrivingSkill_BookDriving5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "be06be52448fbb621d8ea648d24cf3b5"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "f9bef14f040a01b26e0a12a85a6a322f"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level0brakeForceMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "b75974dbf051f5f24f415d17f364b02c"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level0brakeForceMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "64adf3402ad7efd95e2907f0048bb97d"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level0damageReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "648bc677b88ec25ac4c6226ad0d7bce2"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level0damageReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "33d364a1e26a3713b40d7d51e8846172"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level0engineLoudnessMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "ccfb5b591711f55dad4b8df9bd1b1f0e"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level0engineLoudnessMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "aa6b5173e4d00d5882dfcefa0236458c"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level0maxSpeedMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "7a5fa343f245616d331917a222e529b7"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level0maxSpeedMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "bcbc116480e92e4c07c8a28679a78aba"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level10brakeForceMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "39b5be9a5c08e042e3a74dbe5db568f9"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level10brakeForceMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "5b3b9d0dfe21dbd3906b86602dfa3f60"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level10damageReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "5d46016c1892991f71d21dc419a6af04"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level10damageReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "48a522e1fee26e6941fc3f5721abdd23"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level10engineLoudnessMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "9357e326cc66ac657ae8950266000f8f"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level10engineLoudnessMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "3cc41f8df4d922aa9ce20b5b8fd8f435"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level10maxSpeedMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "ac422cad9d749132166a0cb8ae3dfe69"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level10maxSpeedMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "42254e2b7367566f0b1c048ad8427f97"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level1brakeForceMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "52df9c08074b9d3d1a04c9ae8e3df5ae"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level1brakeForceMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "35661f680f99a5589af70cf5658c8fb1"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level1damageReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "79d62834165bca85c93820d1376ec5e7"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level1damageReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "6f8f3cf5fd066eedbe65fd1dcfcc0a91"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level1engineLoudnessMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "260d2ce798474a2e7e67fe57fbeb0dc8"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level1engineLoudnessMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "518fd2fefa502b09334ef3422c5a8858"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level1maxSpeedMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "407bbf0349b839457633e1aed1dee33a"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level1maxSpeedMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "90f57d85ed7b9a5945a809a30a863bd5"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level2brakeForceMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "99f7242bd64e975edfd3d9e119c7793b"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level2brakeForceMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "af2cd1505390052efeb172cc0bdccfd8"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level2damageReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "a64994e124bf8e9be2bf73d876b1f914"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level2damageReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "aaf25b2b8e2ea2bddaaa6e832b557d57"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level2engineLoudnessMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "be8f328b037b25e7bebdbccc538aa8c7"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level2engineLoudnessMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "db1c64a88dcf391afdc277c60c09b393"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level2maxSpeedMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "b2d8d2ce6509ee5eb5b6a33356883b24"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level2maxSpeedMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "a0324ab1e0db961e68c5f19d526d2404"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level3brakeForceMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "2b0e1783e5c661b21c5726cab15adcc1"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level3brakeForceMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "666037a447a70f94b8013c5dc85a8977"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level3damageReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "613e7deadd51d9e49cbf56f442c5d6d3"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level3damageReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "20e78dd98b7e99e3e6b9b33087081ef4"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level3engineLoudnessMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "566102fa3a8b4fab9035012c56c3a25c"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level3engineLoudnessMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "cf9567eff1333208e5f510d27c404fa4"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level3maxSpeedMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "b068cec5690714cb3e4eead7850dc0f5"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level3maxSpeedMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "435a98a122dfc6aeb24e6ce78e9be13c"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level4brakeForceMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "acffef344fee486f249dc55afc9b0244"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level4brakeForceMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "673522a3e19d8391d0ba17711c309870"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level4damageReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "358eb4e7ab667fe2a7895b200bf302b7"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level4damageReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "90dcf2713b8cd58f2dfcd86e62cb81d4"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level4engineLoudnessMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "4542ccc4bb5647980a18f6e55317b588"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level4engineLoudnessMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "7d6aa4418259045334f008c6832b6547"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level4maxSpeedMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "fc1280d7b2cb4efcb5479f9e995df371"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level4maxSpeedMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "1f7971d089b07ebdd2fbd08295fec0f3"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level5brakeForceMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "efbced044ecced4c4b996dc25880da9d"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level5brakeForceMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "420adcf9209cca4f24d8cd48bb9d93cb"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level5damageReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "e4327d20825c2f3ae77c57bd26a3dcf3"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level5damageReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "01f854dc4d4f144befd7f6a2ae38e830"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level5engineLoudnessMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "6065b9415c7537bd138ff725b9268dac"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level5engineLoudnessMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "d3e90725ed4c999162613c4ed380a197"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level5maxSpeedMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "737df1c8d40eafacacf1c60af188656c"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level5maxSpeedMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "c9ef805d7d60da07e043c2bb0eaf4b92"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level6brakeForceMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "ae13c69b6358b6a7a5d45a03f0883120"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level6brakeForceMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "b330dcf6a2df232161830d4bf2137518"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level6damageReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "99ff1bc312d89cdf47b554474a7a46d0"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level6damageReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "3ea2dbda3eba382ee7fdbdefa3601aa6"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level6engineLoudnessMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "7b583b88a54fc955ec109d49cc27ec0c"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level6engineLoudnessMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "394bf0b11049eea4753b679c13faafaf"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level6maxSpeedMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "0ba5fcf6893665aa0f365271d6e51f6d"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level6maxSpeedMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "befb45c399c6b8521cea57772cdede4b"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level7brakeForceMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "b24f66a693d02a0f44ac6e5e7814cd85"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level7brakeForceMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "9cd352c2b9591fed472ab00eb21c9882"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level7damageReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "5fee4c3cc99abdef130d7df6876ccdff"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level7damageReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "a6c80d4e116fd505fb602b05a2892d0b"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level7engineLoudnessMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "e9c3494bd758710865c7bf29c9436ae0"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level7engineLoudnessMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "8d576f7de5c553089782ebb1972bdce6"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level7maxSpeedMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "1b495ee2dd142a13fc7d754ba01f790b"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level7maxSpeedMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "147435bf86b846f412b71d2da4af6d88"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level8brakeForceMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "1061e4aff5dc0af851408a14263d3c1e"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level8brakeForceMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "371ce50bb12313fd4618e46ed8e10c69"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level8damageReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "b91c44203c1e2da36e0605c32279cd51"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level8damageReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "565091d3bb6ffd75aeaea3453fdf6122"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level8engineLoudnessMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "af2b182d4941b8265d513b3de5fde760"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level8engineLoudnessMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "ba458044bdca8470fba17d8334d2316c"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level8maxSpeedMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "89992840665bf864786da37781a389b1"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level8maxSpeedMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "19cc4176d1b627fd599e123899893c8e"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level9brakeForceMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "36e4ce36071457893de94940895fb721"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level9brakeForceMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "a6d433d47b01d15d1de3ca16ad4e45ce"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level9damageReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "ccb62a25fc6ea37daa9603a976b3468b"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level9damageReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "7916d1d07c16f49c96f57093191ccb2f"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level9engineLoudnessMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "a046573f814068172d0e590c05e48842"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level9engineLoudnessMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "04574bebddd45c38c4be01972426963b"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level9maxSpeedMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "d0410315352c73b370cb40667e1d72a9"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_Level9maxSpeedMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "f9bf7e6b781906438401ff7e311b0b0c"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_MultiplierConfig",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "99f54ff8f82936e6b7b12390142f992d"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_MultiplierConfig_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "aaff40e08739487916acc1fc8bfb2e5e"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_XPRate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "59ee66b7698e420bece4339ec2654064"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_XPRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "14a1ace177936f76a3f7b6d203df602b"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_XPgainChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "1f5ecd4eafe192cba6b08739b0a93843"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_XPgainChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "d1bf48ce69ffe6d877c70dda5885e05b"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_XPindicator",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "bfb268fbad14fb4d501f53d3cbd826e3"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "Sandbox_DrivingSkill_XPindicator_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "177979eb3e16c384ad60e939957e8e4f"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "UI_DrivingGainSkill",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "654cdfa3389b55348b66427236c20c74"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "UI_prof_cabdriver",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "4ae0c55a8185c08a977903f2cad946db"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "UI_prof_cabdriverdesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "a31c81629e6c8dfd6d6f085ebb47e4f7"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "UI_trait_driver",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "3c16b01d02db8a9ddbfeef3b973d43a7"
+  },
+  {
+    "mod_id": "3407791878",
+    "translation_key": "UI_trait_driverdesc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2025-01-17T22:20:47.0000000Z",
+    "source_hash": "fe79ebca03ef57ba94d4c6639e7322b1"
+  }
+]

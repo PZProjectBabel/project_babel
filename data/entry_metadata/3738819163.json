@@ -1,0 +1,714 @@
+[
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "2b05d35f43d5147f803dc9792b811915"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowAmmoLoot",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "9da7f4eaa5155303689e6be1829e7e3a"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowAmmoLoot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "5b2b5bcef4ef9ad9029c84b2a97cb221"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowFoodLoot",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "18b4d64ead213e7c491ca206821225c0"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowFoodLoot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "c08e5f04d3e5f25d66726072c2d363cf"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowMedicalLoot",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "35ce49b1115e660dcfed5a7a5e94ef8a"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowMedicalLoot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "c26c60c48d368ce717ba254b162710c0"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowMilitaryLoot",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "176f007b079788311f385878eb4fdf10"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowMilitaryLoot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "7f79bc3e33b5b4525a76826375eedd32"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowRareLoot",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "0d5005d4ec9656e1a5e8094280c3dc78"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowRareLoot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "77da27190184f76170fa99c5e803ed9f"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowSurvivalLoot",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "edeb85280bbfe1273f72c4bf76ddd1f1"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowSurvivalLoot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "081ab3d70121cd34ee268ba5b250f14a"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowToolsLoot",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "b6f0c77250b07798465aa5bd5948a51a"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropAllowToolsLoot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "9ed49e7d5636c97b9d972daf3b3488f8"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropCraterDecorations",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "214c33868abb7a952dba0d5c259a5081"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropCraterDecorations_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "747ea6e3c60e8f399e512d3005cb6281"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropDeadBodyMax",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "770678bf97d1058721b069a345fa39bd"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropDeadBodyMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "329f83e2851add3522c05d3f21c1d7d2"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropDeadBodyMin",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "68a1008e283ceddd24c6965a774b8a8a"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropDeadBodyMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "9f727e63501cfa1bc3196886eb8d6d18"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropFixedPointSearchRadius",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "5765df5d352f1463f1bf4593889962c9"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropFixedPointSearchRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "8414bf240de9bff18a9178c6e61d4a0a"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropIntervalHours",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "1f2795fe227e085af87ec25fece403df"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropIntervalHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "9303b43d16337a3e1a83a0e4d8d610bd"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLifetimeMinutes",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "14b1f1601b8cd6285ea0a59345bf80ce"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLifetimeMinutes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "3c26a7c5c5fb57cc9d27a4f62f1784f4"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLocationMaxAttempts",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "eabd504b2a7de0d793bac6ecd1141ab7"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLocationMaxAttempts_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "f889b2301f4a29f36dac01c513ed4bee"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLootDifficultyMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "ce2aa3d5584b981e74602ad067e665c3"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLootDifficultyMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "a56baf5377f2cc513376e03ed5bdd4d9"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLootLevel",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "016ead6beea8d5e15a717208550de9ea"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLootLevel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "e918597744131bb49b3c79d2363009d0"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLootLevel_value_option1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "97422ff1e4d406e0c06e0ef4b2289ade"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLootLevel_value_option2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "0af670bd86a2692f461af245abdef04a"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLootLevel_value_option3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "cebb4ec9c6c4b38c5cef17053b0822fd"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLootLevel_value_option4",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "b805759bdd7776959e0213fad6453337"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropLootLevel_value_option5",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "3db1d246293a63fffc998da7f0d62c88"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerApproxRadius",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "4b526cb82644735d6e5e98599574dd1a"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerApproxRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "e90ea042e9bcb784e94d71a0cc94bb89"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerColor",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "dbac8395ff02ce0138b8d487f5793934"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerColor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "842c6c861314d17f793e93682dee027d"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerColor_value_option1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "1941391dcb2edfe1e86f724103e20652"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerColor_value_option2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "217d8e7c9b62d1fc47a6159a58614618"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerColor_value_option3",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "56e381675fceecb287ae6e6678262c0f"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerColor_value_option4",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "833c02059ae67aa31e75c52903de683b"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerColor_value_option5",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "882a7de62d2d555d6226aa2d1551169c"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerColor_value_option6",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "8bba0febbd4ad47c94943ee9b9343686"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerColor_value_option7",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "c47d32de88fa0b14a87eab10e6a7e6c6"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMarkerColor_value_option8",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "0f7bcd751f9aa9c1426240064c79dd81"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMaxActiveEvents",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "dd29d9a36e738485596df48da2d6c856"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMaxActiveEvents_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "895a45c30771f9122506079c9d455085"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMaxDistanceFromPlayer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "4f05ef0474a06b5aa5d6b440edca45f8"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMaxDistanceFromPlayer_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "496001e19059bac1dbc91b64588d3665"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMaxItems",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "cc35ac4dbe5ec8039b75bcc19348cf48"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMaxItems_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "2ba7a5081bd54772c099e565d71d6354"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMaxSameItemRepeats",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "29ac39df3d0ad3f38d1a98c5693e7502"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMaxSameItemRepeats_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "656d918bb124e31aaf270fc1d8e33bcc"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMinDistanceFromPlayer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "fedf4d4512081a15b02685faadba71b0"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMinDistanceFromPlayer_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "453b3cdf4c9016cc9c5d2da02f81969d"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMode",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "0cf0637051ea76422dd5423faf7c3b5e"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMode_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "77c4ccd13711891b92393c2eb26a36a8"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMode_value_option1",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "398d1d026d778201a8b099b3da95a7e8"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropMode_value_option2",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "24468ffc67d1b9fcc27c3630073527be"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropShowDirectionArrow",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "26bc0be744ca48899ee6e1a8cecf7d8d"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropShowDirectionArrow_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "ea2228bbc8631b3d5055648bd6f0cd89"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropShowMapMarker",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "699597e40399dcded43b887bb8e7689b"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropShowMapMarker_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "69f0642b8a804548c05d332818fdad46"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropSpawnDecorations",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "654c3907745cd8c2fd4b303a40b1a6ff"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropSpawnDecorations_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "bae81d6ed31fe29b978a1f9d29cc0983"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropTriggerChopper",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "3d5de2279ba8bd8eb2abdf5d03f71ef6"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropTriggerChopper_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "756b9d2bf25a9b27e07cc7c9f75527d7"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropUseLootLevelDefaults",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "626f907b2d1d76c3e37f0f8552242c01"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropUseLootLevelDefaults_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "4d50c1378d8006af5af8d31fac7da83e"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropZombieMax",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "672a990cccc3669d1d78fc2029692e08"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropZombieMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "a760f19532c349fe2995900d44e44868"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropZombieMin",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "f007ecb6f92a1166e9b0ed739a0c0c4d"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropZombieMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "9e99d7f8b8b92796f48c0bc938dd2ffd"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropZombieSpawnRadius",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "8f37f58b9f8a529dd06a08f00f1be539"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_AirdropZombieSpawnRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "cbccf0d819caad42fbb9943ea86f92cf"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_Debug",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "bfc91be8e0d1da555548c96aec36b1be"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_Debug_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "440ea6b9739bdf2360af8ad90a8d6971"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "4dae96c65761c96b1a31c15a8f3949bd"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "Sandbox_AirdropMod_Enabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "7b3b7b3cdf1cf365e1257da957efb2ff"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "UI_AirdropMod_CommandClientOnly",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "be407a0c0f3c6c1d82a77f567c87af1a"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "UI_AirdropMod_RequestForced",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "598a81b485b48b3b38b33dfa6fdeeef5"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "UI_AirdropMod_RequestForcedLevel",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "6aca8f5ba0e1093eccd98a7992996238"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "UI_AirdropMod_RequestNoDrop",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "343842a36b3a3af37de4f7f1ab247e55"
+  },
+  {
+    "mod_id": "3738819163",
+    "translation_key": "UI_AirdropMod_Timer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-18T03:48:24.0000000Z",
+    "source_hash": "18325d43920b0befc8e9d16880e9825d"
+  }
+]

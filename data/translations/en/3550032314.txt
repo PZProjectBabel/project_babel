@@ -1,0 +1,8 @@
+ContextMenu_DigMoats::en = "Dig Moats",
+Sandbox_Moats::en = "Mod Moats",
+Sandbox_Moats_DigEverywhere::en = "Dig Everywhere",
+Sandbox_Moats_DigEverywhere_tooltip::en = "Disable vanilla floor digging conditions. <LINE>USE AT YOUR OWN RISKS.",
+Sandbox_Moats_FloodingSpeed::en = "Moats Filling speed",
+Sandbox_Moats_FloodingSpeed_tooltip::en = "Gain to apply if you wanna change the speed at which moats fill from rain and contiguous water tile.",
+Sandbox_Moats_RemoveShores::en = "Hide Shores",
+Sandbox_Moats_RemoveShores_tooltip::en = "<IMAGE:media/ui/SBOMoatsHideShore.png> <LINE>River-like (left picture) default, shows shores, hides paths between two water tiles, allows fishing. <LINE>Swimming pool-like (right picture) hides shores around moats, inhibits fishing. <LINE> Quit and reload for a change to take effect.",

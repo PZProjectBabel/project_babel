@@ -1,0 +1,1778 @@
+[
+  {
+    "mod_id": "3025679944",
+    "translation_key": "IGUI_AT_FeralPoison",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "e698b842bffba1b746e23de4dcd02f9a"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "IGUI_AT_LessNutritous",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "d4979ef52cc16c0a23476039a4372eb1"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "IGUI_AT_Lonely_Comment",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "895b0e1b60364087bf115dc7c9db19e4"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "IGUI_AT_MoreNutritous",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "05a27c9047b24be1ab37cb099bb3a123"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "IGUI_AT_Stinky_Comment",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "f64e394afe83fc97cfdde79a5cdb7b36"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "IGUI_ExclaimerPhrases_AnthroTraits:AT_VoiceAvian",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b772777367fc455d8d69ffca4d3850ea"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "IGUI_ExclaimerPhrases_AnthroTraits:AT_VoiceFeline",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "445ce9591fbbed320495835d74fc6528"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "IGUI_ExclaimerPhrases_AnthroTraits:AT_VoiceSheep",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b90fbd0996a0dbd38a6646788c6878b0"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "404b3ec9bdbfe8359205bbb948e37d49"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunityBiteGetsRegularInfectionOnDefense",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "fe1d1f48a3f05151602c4f0964c430be"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunityBiteGetsRegularInfectionOnDefense_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "18cdb0b7beef89a415f7e8c634cfb65e"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunityBiteInfectionChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "a61337c3f012d2b804975d6bed6f0e87"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunityBiteInfectionChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "1ae9f080d08afad81a4e0c982aa35462"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunityIgnoredByAnthroZombies",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "9c7c74dd945e21dd17d472f9c72f867a"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunityIgnoredByAnthroZombies_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4bbcd233f787fd68a9881c6f482cd525"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "0af79dd9e06afb367bd0f98856b1b1f0"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "ebce225455fb50c44479f02280eff140"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunityScratchInfectionChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "d2cd7c8382d8b1e702d972b8410b3305"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunityScratchInfectionChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "5f3c8d22fda5492fbb8575081729e009"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunity_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "9b8d4cf4fd751285e7a663cccb912588"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_AnthroImmunity_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "5dc7b2d036793ec350d289e79fbba9a2"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_BeastOfBurdenPctIncrease",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "0604b961ab964030b492dd1b5c7a588d"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_BeastOfBurdenPctIncrease_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "bd97ad3ab6d134f6b8176ce7370dc9fd"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_BeastOfBurden_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "66fbe5ff21c749e0e193190eb79e5fdb"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_BeastOfBurden_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "42911f59f2ebb87ecd0cbbdf283f565d"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Bug_o_ssieurBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "470251e1b5451d3ebf120dd8e3ec0f23"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Bug_o_ssieurBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "2e17d2abbbd6488a208ef28085c4f5f8"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Bug_o_ssieurForageBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "61a5871563a5dd4a7ef07a1e183b5163"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Bug_o_ssieurForageBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "dc359d85e5437a6faf83a30b8651301b"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Bug_o_ssieurHungerBonusMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b3421cf9b888fa948d8f05729a4fc11e"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Bug_o_ssieurHungerBonusMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4bfa185240c3a2e02a115fc6feb39104"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Bug_o_ssieurItems",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "98032b47132ee66b9bd68ee5a16425ea"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Bug_o_ssieurItems_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b63411020645df0d7ae4f391920d6cd6"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Bug_o_ssieur_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "364cef04bba3dec6338341c4091ac709"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Bug_o_ssieur_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "086a5487565d9c19ed28d4f4a6997ced"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_BullRushKnockdownCostMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "88e00b3d87d5904b2c021067ab675684"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_BullRushKnockdownCostMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "689bdce00025435d9922f9ce480dd24e"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_BullRushKnockdownEndCost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "e4a79dea66f96977e82c5f1a61bf0c2f"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_BullRushKnockdownEndCost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "c2e00b0ec01f0bb5ed4544e28db55068"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_BullRush_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "73cba1fefee15c58ac50183daff9f02f"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_BullRush_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "5f15eec3a8f4e32951eeba57f9e41d1c"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarnivoreBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "5d3c3c8b94504f82c4c2598caa072684"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarnivoreBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "d6cf60239ac59763256b8f248c0b1b3e"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarnivoreForageBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "26e2f3a898773148a721a566f8a80ffd"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarnivoreForageBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "ce21fac5733cdba43ca96465296672a2"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarnivoreItems",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "2eccfcae36ff4f8d64c036d639043fb9"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarnivoreItems_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "f6a80ce1605b3c1a0aef288b6208062e"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarnivoreMalus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "cc7f7d06480829489654537d97386857"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarnivoreMalus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b3ccc42ac6c807829b04b3249c0dcf45"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Carnivore_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "a9e41e5cad071119d56eb66cd1ec230f"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Carnivore_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "eb1e600367710a40d9579cf0e192f69c"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarrionEaterBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "edf45cd7ffe1718d0f33e4fd8e75ea7d"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarrionEaterBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "bfb69b75c499de4b15f50883cda0243c"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarrionEaterForageBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b7e815f2bf0ec47fbcbbdddb77367925"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarrionEaterForageBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "5c2873c2e48887ed015290ef9f055642"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarrionEater_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "c29c249a288d2b18c36f684cedfb9522"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_CarrionEater_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "311d3afa8a10a6147ae42167e0642dcc"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_DigitigradeCarryWeightMalus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "05bba2905f10bbed0e1622cf6fe603f4"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_DigitigradeCarryWeightMalus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "a57a21c368036a2ad105cdc8450d1021"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_DigitigradeStompDmgPctIncrease",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "2490607efc7fb6f3d1209c4b0d03ed6a"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_DigitigradeStompDmgPctIncrease_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "2bddbe8d5344d90bcce0b62466bfb1f4"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_DigitigradeStompPowerPctIncrease",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "974ec6c1743a5b62ea27dabd040dcf38"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_DigitigradeStompPowerPctIncrease_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "14230ac786436a00aef3f59f191f5bb6"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Digitigrade_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "06627ecae42df835c4bd555ec1f27eaa"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Digitigrade_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "74c3992036933ea5dedf95dc5e23e635"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ExclaimerAnthroVoiceMitigation",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "bc6095758ccd81f32f19dfbb41f0e059"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ExclaimerAnthroVoiceMitigation_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b3898b1382090a7022a6d65dde5224ec"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ExclaimerExclaimThresholdMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "bfb6b83a7f4c95c91c3432da10483cdd"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ExclaimerExclaimThresholdMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "a961b9062748e19775c866fd6de5bbc3"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Exclaimer_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "75b0edc56d1b652679a2d7e892720d23"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Exclaimer_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "c76ccb9c37555dadecf610d4e38cc9ea"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBodyDiscomfortArmourMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "a812b538caedc38077d51671e7d2807d"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBodyDiscomfortArmourMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "9aad799770972fd25c572c6a369fc643"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBodyDiscomfortArmourThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "fb0adfa8a1611d5e2cb59210fce1d621"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBodyDiscomfortArmourThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "0a9d1ed3fe956654396cb144adeb9240"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBodyDiscomfortPerSlot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "0be6ee6de844f94590bb1947c00ad9fa"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBodyDiscomfortPerSlot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "2bd0e4db0682e2cd259da546cacec3de"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBodyLocations",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "80454c966c9fa7fe5ea4313273cf5094"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBodyLocations_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "95804afafbc50ab96c1933286a7e5ee4"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBodySpeedMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "04a9958807054e0e0cada13d5a5e8785"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBodySpeedMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "df76afc3bccb2b02f7d729f08c7d1167"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBody_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "2fa671e4fac832b013208a0aa7bc6cd3"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralBody_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "aef8d0b5e3117ce867c2e633432213c3"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralDigestionItems",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4a96710770c69368e30f636664ecfbad"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralDigestionItems_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4940edab16f65557b3793f469849b662"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralDigestionPoisonAmt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4a067e8a409f8cf6522cfc4edec20f3a"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralDigestionPoisonAmt_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "93b70578844bc8b244224afdbb6962a5"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralDigestion_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "2796b4006bf07a1f6549e66650d71f89"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FeralDigestion_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "24a2a32e53d4717e837fcfa13312bcb2"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FoodMotivatedBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "9c11d05a0ca7312826ad1fc3378c4988"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FoodMotivatedBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "6041dccabe72a41899b25f70fd51d244"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FoodMotivatedItems",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "8fc6a5f547b9352ca1e28ede1a5b8ff0"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FoodMotivatedItems_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "16b0d806c645ee48322318fc053212a0"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FoodMotivated_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "7d39d40688ef8e14036bdcec4f6d11a9"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_FoodMotivated_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4ed7275c5e4467acd24ae86083a7e4ed"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_HerbivoreBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "5aaa7ca65950b5ecd1c986e303e711ec"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_HerbivoreBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "52d81818cc8d1173848ac7a3cb6275b3"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_HerbivoreForageBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "50bd40a39cbcd50d103305e03ecf8ce6"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_HerbivoreForageBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "3da9175512859d96687c3cd77e0d9523"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_HerbivoreItems",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "ffb181edee4d6d1590565cd0960d1a5a"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_HerbivoreItems_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "1aed2bff3e7927c3236372c34a88d4a0"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_HerbivoreMalus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "563d813a50960b322db864ba77f3acef"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_HerbivoreMalus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "1a7a97d26824a697ae4688b412a8564f"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Herbivore_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "652399f227d47dd167a1c775534589bc"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Herbivore_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "2a6124e4a0e6eb729914be98d33efadf"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Hooves_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "acb9b30c009410867a083962026d86f6"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Hooves_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "416d97d7f6b027866a55361b43a06718"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ImmunityBiteGetsRegularInfectionOnDefense",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4f9a2f178e67ebe0eac99e5c9eb69134"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ImmunityBiteGetsRegularInfectionOnDefense_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "cc9da50a6456cdfb913cb681674d3b05"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ImmunityBiteInfectionChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "38ec8e06996b04d84d6d748a105b67ca"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ImmunityBiteInfectionChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "15607ac1f29d334a1275dcfc50492bef"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ImmunityLacerationInfectionChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "7ab82ad18e423d16f112ed8e2927385b"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ImmunityLacerationInfectionChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b447cb6d2a1a3c82a6042b7154a419a3"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ImmunityScratchInfectionChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "cf932addd922272b13846fde32e51775"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_ImmunityScratchInfectionChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b4c04fb90fb7a209005b1e6b8c7c153e"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Immunity_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "7fa4ff9c9af03f8c964890c3e9d961a5"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Immunity_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "bbee827096a61af03fb68017d53e86ee"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_LonelyHourlyUnhappyIncrease",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4cd65b81cd404d84a9b241abe57210e1"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_LonelyHourlyUnhappyIncrease_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "80aa89c543494a581d3e1fb51b89648a"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_LonelyHoursToAffect",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "c8421c743c04e7990a86695a48d75ac8"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_LonelyHoursToAffect_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "d566e10e30c4eca1b78d13a230c6a1d3"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Lonely_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "1079c39d4aff396a1a29962f4b61f039"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Lonely_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "a822d871f20655c190c35adb799dad79"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_LowEndHunterEndRecoMalus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "c4971f4232d7396d9440a741a99a88ca"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_LowEndHunterEndRecoMalus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "801490c36024bb82ab4052aef0d232de"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_LowEndHunter_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b1515e9cfccb93498d76a562f404a1d9"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_LowEndHunter_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "9cf34f53df7f31d8982dd688f2371405"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_NaturalTumblerFallTimeMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4a7c1ea78b2fa8d71d99b18751eab0b9"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_NaturalTumblerFallTimeMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "f7fbf23f51af56a65282b498035e2f2e"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_NaturalTumbler_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "a58713b47ee46e3605e919c18cb71478"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_NaturalTumbler_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "6d8ab70e3d245edfe88c30de4286b807"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Paws_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "ee7393f668ba121ff608305f9a4e3ffb"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Paws_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "3a2da51e685d90182dabb2496b85f27b"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_StinkyCommentChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "06d2123a89a672ea94a9fbf0e9dd0b79"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_StinkyCommentChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "aafe1095d0a71e7032638630827426b5"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_StinkyDistance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "797da38a96fe6f4337f3bcb47a384d65"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_StinkyDistance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "bca79144e0abba479d6ef090fee57721"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_StinkyLoudness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "cf51bfdad3a249e3c84c179e4bffaa4d"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_StinkyLoudness_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b71ec4ffdf7c9ff280eba35aac073359"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_StinkyThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "096d5a8d56a223acabc978d235ba5d29"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_StinkyThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "cbf6d3558c094f962af7b75f34cad455"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Stinky_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "e4f23bbb861a088a7db8889f50d14e0e"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Stinky_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "715b7bb777e5fa270e01c09ced3f6149"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_TailTripReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4310c5dc34a2cdd10dab31328ecd0000"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_TailTripReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "062f653d777d0e2fd9bcc7ef7a5a29e6"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Tail_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "5b148ce00da7144dd1a00e6581e7f078"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Tail_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "9af1ba929f7d80ccbbe4b459750a7e4a"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_TorporEnduranceDecrease",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "0912b2539812bc05315788357963ca75"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_TorporEnduranceDecrease_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "ed1dc93e8eaef55f83c548fde66d5b3c"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Torpor_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "6107c8328e62cafd0eae6c17f04121f2"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Torpor_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "d935fdc2521771396022a39f5acc8906"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_TraitsRestrictSpeciesChoices",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "8b1e07e2c46b3effbbc0d8fafd5ef328"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_TraitsRestrictSpeciesChoices_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "f296c3c3648ea012098468dcd834a5b7"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_UnguligradeCarryWeightMalus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "8a6b7696b4e8b2329d230801818d3e16"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_UnguligradeCarryWeightMalus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "d749b29387119a503b5ac6632f3cb92b"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_UnguligradeStompDmgPctIncrease",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "1dc107dc35f2b10bca96ab3a69541c58"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_UnguligradeStompDmgPctIncrease_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "996efdd939d974e4cbc9487fe75a8480"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Unguligrade_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4e32bae46c307c5eda8a6cc22cf56eb5"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_Unguligrade_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "8690bd7c5d25936c499faa6f1c799fc3"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_UnwieldyHandsTimeIncrease",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "9740c03daad474666b795730c62ccc82"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_UnwieldyHandsTimeIncrease_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "161477991e01645c369279a0ba843c41"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_UnwieldyHands_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "5dfc98eaf1c0d1966d6aaa05c9eaa38e"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_UnwieldyHands_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "0932b9cdde2f0f3dbd269399996aae6b"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_VestigialWings_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "176dcc20576bc7cc9389503b86af96fc"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_VestigialWings_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "3a7600567b2b3a804435883d221a34e8"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_VoiceAnimal_Cost",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "64d3f73d0aa481e6d50952ca27780cff"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "Sandbox_AnthroTraits_VoiceAnimal_Cost_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "404c4f4bdac9efd60cce0953de75d7ef"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_AnthroImmunity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "98e6d1f0ea4b72c6f290c58fff855e63"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_AnthroImmunity_anthro_addendum",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "0b91772055470d69240ebd1c22e0c6e4"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_AnthroImmunity_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "97065d35b7c7389ac91d8cfab9256d78"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_BeastOfBurden",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "0c147b4b8f085ca9a5a7d68ef7314fd1"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_BeastOfBurden_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "c4229d0c2ff418ad0071a713e5d2b849"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Bug_o_ssieur",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "66ac840b95cf6b6def1e27fc8ae85b66"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Bug_o_ssieur_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "a3001c1a6d66925de031317bb1319c29"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_BullRush",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "875a88b9a7d667b3e2b13bb7bf3b8f98"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_BullRush_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b5bc201613497a0cdb694ebd3536e5e3"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Carnivore",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "cc4e4b605c1a64ed92d860a97de8ca80"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Carnivore_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "d2346ece1d739dd1a706a7cbecffa7a0"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_CarrionEater",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4b1baaaec40fe4564f0d3c08120dc78a"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_CarrionEater_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "201cc656e17b4176461a3e71f7614227"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Digitigrade",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "4fbc0b832b64fbd79f54afae404793ca"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Digitigrade_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "6d2c57d994cfaddb17786d0ff6118786"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Exclaimer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "80cc0c57dcc80e2fd32e0bc96d94ac14"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Exclaimer_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "55931a291a57a264cc51ca496da418b7"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_FeralBody",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "71c38cdeaf9f720b94efceafd3d3cf62"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_FeralBody_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "a02cefcb407659d54e11e742ac05af2d"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_FeralDigestion",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "dd1d8f031039334799890195ba6f2f79"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_FeralDigestion_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "72dd302300b0c048a5b5a59b38717d44"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_FoodMotivated",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "f3388b4b66c6f54618868f2f41db02b5"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_FoodMotivated_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b7421cb8ae897c9378e6c36cbdd70cc0"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Herbivore",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "7f8771e612b27b4a65828d835082bc1c"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Herbivore_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "b577aa1490301006dc4ad4860bbbf0b1"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Hooves",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "c3fcdca45deb838c961d36fce019fb5c"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Hooves_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "98c769f3e1ae2cc87cd65a154aa14715"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Immunity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "35ce2ba88b1d910b0b5586000c6a4adf"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Immunity_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "8ef741684ad4de7a97abd3600346e28f"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Lonely",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "5c4c8e53428b766888ddbc29a4368659"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Lonely_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "3cb8c18f5e9eb14ee12c33f44e8bf353"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_LowEndHunter",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "824127734886d28b539060be86b65b1c"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_LowEndHunter_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "f7d37ed3a5d86d8cdcf6a06ec1645245"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_NaturalTumbler",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "c367056a21bddcc604cd829afae1c820"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_NaturalTumbler_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "3d3a36f76f7c8aef27ddbc6795bfb71e"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Paws",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "c30b0a99d174d28a15cd36e80ff70ead"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Paws_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "7041ba31b80c5b7f86ed870568295189"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Stinky",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "d5823fec7d2b72a7aac5bcf1295dc4f6"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Stinky_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "d4a9a6ea8d955e32504ac5ea2088058c"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Tail",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "85bf1d54ff74d8566968c09e8b2a45ac"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Tail_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "183f1543e2eb5cadb6f5048d1f56195c"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Torpor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "89e4399e74c4a452d225361b6c61fe01"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Torpor_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "c10e00c85f8a3be93b9eb202b5b9ca30"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Unguligrade",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "8650cb06dc76c9558e536b13c141df25"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_Unguligrade_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "8c4fd77da8d0c54fcd2f768d013987c0"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_UnwieldyHands",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "e7a880dcb191b851038379a25796f461"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_UnwieldyHands_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "63ebbaf6fb242eb5f84162ddc77408d4"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_VestigialWings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "cf2c5f1a805bfedbce9494c7955d0841"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_VestigialWings_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "c59f086fecca91cc87a3ec8ee1eb0776"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_VoiceAvian",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "3d310924c54632c4f154bbd453cb0048"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_VoiceAvian_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "904b9fbcc2888a4a482d0e19c37ab966"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_VoiceFeline",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "3283c3b1475059dd94c9ab4ccbafeb4e"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_VoiceFeline_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "1b26597efc2d204d723d72f65989b9f7"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_VoiceSheep",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "8ea6c28a5b1bb77dd1278d077f2c24a4"
+  },
+  {
+    "mod_id": "3025679944",
+    "translation_key": "UI_trait_AT_VoiceSheep_desc",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-26T23:26:48.0000000Z",
+    "source_hash": "3d10cb0c64282b89a8a5098be9ba5634"
+  }
+]

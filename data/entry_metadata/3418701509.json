@@ -1,0 +1,586 @@
+[
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ContextMenu_ElectricWeapon_ActivateMode",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "881adb1c0270dc2798ee1f5a9fd1d678"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ContextMenu_ElectricWeapon_AddBattery",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "4ce7d22fd91c1089904e2d3f084fca5b"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ContextMenu_ElectricWeapon_DeactivateMode",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "4d7e052c2a88732f6b8f7a618e4afe84"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ContextMenu_ElectricWeapon_NoBattery",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "d8124bc75a417eb3b4334de33259d8c3"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ContextMenu_ElectricWeapon_RemoveBattery",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "8a499bbe6e78d3719f4db3bc3358447d"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ContextMenu_ElectricWeapon_Repair",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "b93b4f08d3dd33007b824beef685d78d"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "IGUI_ElectricWeapon_Circuit_Repairing",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "9294c240a63728ecc807e1b24ed4a2a0"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "IGUI_ElectricWeapon_Inserting_Battery",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "276cb3cb0da065614440e3168ddaf51c"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "IGUI_ElectricWeapon_Lock",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "bf19353dbe13a1bd1e01a08542de5054"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "IGUI_ElectricWeapon_RemovingBattery",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "d6f5167f20c4a54a38ba18f995ba27ec"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "IGUI_ElectricWeapon_Unlock",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "8fb95ffde24e36041b02dbfff9fb8bc9"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Car_Battery_Sledge",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "a6d73d71ee0d85051dfb0b073c4bb317"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Cleaver_Axe",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "4d0192ded12f945529a27a85047f75b4"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Dagger_HandAxe",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "36bc685a9a45b1193fc2f7b2be17dac5"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Dagger_Trident",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "78562487fa1d3427eef738089a5e8b05"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Electric_Axe",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "af31a8052c9c3ff52b2a2664ea65f9f2"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Electric_Baseball_Bat",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "d3901a14d5d5fcafd6df93529b3a157f"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Electric_Machete",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "f0166c88f6ef51d2f2246228474a2bee"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Electric_Mosquito_Swatter",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "9ef9d5c572cfa5d2b2feb0b8775dd562"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Electric_RailSpike_Spear",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "d9e69431b8ae9b39e690d6125a68d53d"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Electric_Shovel",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "82c338b67aaaba4bf069d92fd48ba9b2"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Electric_Sword",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "92f0ce3d2dce0d15dbd2be923e9fab92"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Fire_Extinguisher_Sledge",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "f3ba5a4cd01e83ff32d8748441f7db05"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Keychain_Screwdriver",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "18d85080a6058cbfb33d659b98177373"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.MadEngineerMag",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "dc43b55339d489a3bff666e75053603a"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Nail_ShortSword",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "9540c867ce6f27f9891165ca883c1f51"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Pipe_Wrench_Axe",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "792720f3e26cdd9b6ff3e9a1919f52d1"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.RailSpike_Spear",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "574050dfc4fa03a19c8dd02f433a0337"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Saw_Blade_Claw",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "f6f841726ac02ecd7355a9bd88ec4ded"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Saw_Bolt_Cutters",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "7ea4da20e9a99ce34b8211e088711885"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.WeaponsEncyclopediaMag",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "5afea0649d26a3cb9ce6dcf143c93001"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Wrench_Knife",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "5d2984420b4bcf4171e9d34b10c7efbc"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "ItemName_Base.Zulu_Short_Spear",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "5126e85ef719387e2d09c74b9345dea6"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeCarBatterySledge",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "30bf719166da5865aaeefcd37ba63146"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeCleaverAxe",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "a1cfc238103f5c80336dffa0098bf6a9"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeDaggerHandAxe",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "ab07756ddcd403399c0876f6aa2de0a6"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeDaggerTrident",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "8e1eff2977e76045fdbaec5b00cc7df0"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeElectricAxe",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "954a69d14a0d076197bf29f64d36527b"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeElectricBaseballBat",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "4770245003e672a5dd11db0db2f739b6"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeElectricMachete",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "7a85d06d24f00ddf1cd3dbf3267ff602"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeElectricMosquitoSwatter",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "3949400cabc7ca681d584db466c1efe8"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeElectricRailSpikeSpear",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "0d8b7601d7d6eb29a1b5e55ffe1cc20a"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeElectricShovel",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "78fbc0077fa8e1c8bf89312117e15108"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeElectricSword",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "cfcaf9b8f3e426f0f2fd6db563ab69e7"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeFireExtinguisherSledge",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "dbaf5eab15e480a1ec8bb2f6cbd82078"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeKeychainScrewdriver",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "cac6d62c77af8426263d4332b898381a"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeNailShortSword",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "530a8eff4a72cf1aae0e20b8492cc48a"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakePipeWrenchAxe",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "96fa8aaefd6443398fab48093e0d4627"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeRailSpikeSpear",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "a9a56c9fe696d02a5ca19d9837fa30b1"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeSawBladeClaw",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "b09b5894f217369c29d7505b3cfa9cec"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeSawBoltCutters",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "c509ce1e07ec901d7151c772dbc478f1"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeWrenchKnife",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "9578ecc8bf3cce17857a6c70d323aeb6"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Recipe_MakeZuluShortSpear",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "c3e660bac062dcf983cbf7bda9aa2df3"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Sandbox_ElectricWeapon",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "c660120ae100a2f5f7144d2d1d557a3b"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Sandbox_ElectricWeapon_MalfunctionFactor",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "95d25d0c6bff37bbe3ddf8f226677942"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Sandbox_ElectricWeapon_MalfunctionFactor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "3b7e0d6eeab10b0deed307ff4d29ca15"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Sandbox_ElectricWeapon_PowerConsumptionFactor",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "677f65e7c7ad9a7d9f1a4d6991684a7f"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Sandbox_ElectricWeapon_PowerConsumptionFactor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "8693469d1b48d3f0e300189d41aff4a9"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Tooltip_ElectricWeapon_Charge",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "74a5707f33888dd299f8ce07ea978c8f"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Tooltip_ElectricWeapon_MalfunctionRisk",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "52101e4caf36b7d426c1b0edf0295513"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Tooltip_ElectricWeapon_NeedEquipped",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "8deff488a82968d2df1cdf7aaeb4d445"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "Tooltip_ElectricWeapon_Status_Malfunctioning",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "7c4344b2d3fd263c4a52c3d343e810f6"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "UI_ElectricWeapon_BatteryInstalled_WithCharge",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "4e82d6b8442b7575c8d651ae788ee3fe"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "UI_ElectricWeapon_BatteryRemoved_WithCharge",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "115301d02346f27cb407efa02ba54b54"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "UI_ElectricWeapon_Battery_Empty",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "5ee0e3dcf50ee30e0af58f60f0e1e4f6"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "UI_ElectricWeapon_Malfunction",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "109bc57144f17d671bbef3eae0587bd9"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "UI_ElectricWeapon_Mode_Off",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "cfb459824badd49ffb88af7acc77082f"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "UI_ElectricWeapon_Mode_On",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "a6106d1996dc149c05b5d2e3d6052e4f"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "UI_ElectricWeapon_Need_Repair",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "07e6cdf10d4042402f3df3139baa2aeb"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "UI_ElectricWeapon_No_Battery",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "eb01d7a4aef4824f5246c62fd3d8a8ce"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "UI_ElectricWeapon_Repaired",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "2d0638d3aa5021a1d49fc3fa5b1c48f1"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "UI_optionscreen_binding_ElectricWeapon",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "c7fc860c12dfda82c73edda1a261b424"
+  },
+  {
+    "mod_id": "3418701509",
+    "translation_key": "UI_optionscreen_binding_ElectricWeapon_ToggleMode",
+    "is_active": true,
+    "last_seen_at": "2026-07-06T17:11:00.4796875Z",
+    "last_seen_mod_updated": "2026-05-11T16:02:46.0000000Z",
+    "source_hash": "2e2a1afeeb0093bf1e6a26ed062d72a0"
+  }
+]

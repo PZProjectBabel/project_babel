@@ -1,0 +1,5 @@
+Sandbox_ForagingLightFix::en = "Foraging Light Tuning",
+Sandbox_ForagingLightFix_MinLightWithActive::en = "Min Light (Flashlight)",
+Sandbox_ForagingLightFix_MinLightWithActive_tooltip::en = "Minimum computed light while carrying an equipped, switched-on flashlight (only applies if 'Minimum-Light Mode' is ON). Higher values reduce the 'Darkness Effect' penalty more. Other light sources may raise the final light above this value.",
+Sandbox_ForagingLightFix_SmoothMode::en = "Minimum-Light Mode",
+Sandbox_ForagingLightFix_SmoothMode_tooltip::en = "ON: When using a flashlight, the computed light used for the 'Darkness Effect' has a floor set by 'Min Light (Flashlight)'. <LINE> OFF: When using a flashlight, the computed light is forced to 1.0 (no 'Darkness Effect' penalty). <LINE> In both cases, light is stabilized to prevent flicker in the Search Radius.",

@@ -1,0 +1,8 @@
+Sandbox_DrinkSmart::en = "Drink Smart",
+Sandbox_DrinkSmart::ja::processed::unverified = "ドリンクスマート",
+Sandbox_DrinkSmart_AllowWaterDrinkLowThirst::en = "Allow drinking water when not thirsty",
+Sandbox_DrinkSmart_AllowWaterDrinkLowThirst::ja::processed::unverified = "喉が渇いていないときの水飲みを許可",
+Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip::en = "If enabled, water sources will show the Drink menu even when thirst is below 10% (inventory/containers/ground panel).",
+Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip::ja::processed::unverified = "有効にすると、喉の渇きが10%未満でも水源に「飲む」メニューが表示されます（インベントリ/コンテナ/地面パネル）。",
+Tooltip_Not_enough_drink::en = "Not enough drink",
+Tooltip_Not_enough_drink::ja::processed::unverified = "飲み物が足りません",

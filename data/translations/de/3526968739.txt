@@ -1,0 +1,8 @@
+ContextMenu_AutomaticStoveShutoffOnOff::en = "Automatic Stove Shutoff Off",
+ContextMenu_AutomaticStoveShutoffOnOff::de::processed::unverified = "Automatische Herdabschaltung Aus",
+IGUI_AutomaticStoveShutoff_Say1::en = "You’ve moved out of range of the tracked oven.<br>Oven tracking has been disabled.<br>You should run back and turn it off immediately.",
+IGUI_AutomaticStoveShutoff_Say1::de::processed::unverified = "Du hast die Reichweite des verfolgten Ofens verlassen.<br>Die Ofenverfolgung wurde deaktiviert.<br>Du solltest sofort zurücklaufen und ihn ausschalten.",
+IGUI_AutomaticStoveShutoff_Say2::en = "There is metal inside the microwave.",
+IGUI_AutomaticStoveShutoff_Say2::de::processed::unverified = "Es befindet sich Metall in der Mikrowelle.",
+IGUI_AutomaticStoveShutoff_Say3::en = "There is burnt food inside.",
+IGUI_AutomaticStoveShutoff_Say3::de::processed::unverified = "Da ist verbranntes Essen drin.",

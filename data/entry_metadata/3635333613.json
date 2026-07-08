@@ -1,0 +1,1090 @@
+[
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "877a293f6bf06fde9c7071e3bed33a7b"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.AllowHardcoreEvents",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "01c782cfa9abefff52a67648544d64ed"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.AllowHardcoreEvents_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "39d4a428b1a263f2b4381f2d8b43c7c5"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.AllowMetaEvents",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "c9688a15073e42c2edd63f2bb9d920de"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.AllowMetaEvents_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "d23b1e5bda58a313cf0bf4491354236c"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.AllowSeasonalEvents",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "7754d92179094c31a5c06e80e2695b13"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.AllowSeasonalEvents_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "623c64843a911df679c5f26c0d560e8c"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditAmbushChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "9f25058381d76cb39adc2e36de1e5e26"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditAmbushChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "080a5c7c80485057abcd20fdc943a09a"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditAmbushCooldownHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "229c9acb3abd83dd4b38866ad4cf856d"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditAmbushCooldownHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "38c4ffdbd623451022e13293045e6e75"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditAmbushDifficulty",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "f6319d5577caa8c60f97a5a2d70cbf95"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditAmbushDifficulty_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "33109ccd46baf88304cdb17ec988a44a"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "5d04dcedfdd273d00b853193c0c95454"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "7d759bbdf95bb85c300b7c23178563f7"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerEligiblePercent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "0100d264a15c3ab46591be768263a65d"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerEligiblePercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "1342d2ac11c51f743669784e54c809cf"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerPopPercent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "9d13767b98901057e46e6660bfde0127"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerPopPercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "a089de2af26489492cffa3be07327f13"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerRadiusMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "3b5ca5e56b559ec0bf4a67532186d2f5"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerRadiusMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "72c3c86bf3a959d5f3b3a275d04eaf2c"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerRadiusMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "276e1b7083e7a8bd2c7ce1dbb052f0ed"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerRadiusMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "86ee8c22bd0380538f02355af53aa167"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerStayHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "f5d32776865eb140dd0ba528b7787917"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerStayHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "2033cab85e9812350ed33977d77169c7"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerTravelHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "b02e68d2ea4daaea7cab0097946ab731"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditHouseRoamerTravelHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "8309410c97147b5a454d33a787fb0f7d"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditRaidPartyPercent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "a576d5854a71e46ebc4927f18b0f787e"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BanditRaidPartyPercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "b6650925c6dd505ed99f869857871936"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BuildingMaterialMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "af86d5e24a3412b04a0748cd2b90c115"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.BuildingMaterialMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "a45969532b69fe738a88135cffc684c5"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.CategoryInflation",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "0fb07a01aba1564254cc2d9e1ca195b5"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.CategoryInflation_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "fccb39f48e2f788fa2ddd9ae95a720b3"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.ColonyWealth",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "b3a72587981220e33ba106c7daf69e22"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.ColonyWealth_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "26052e86304e102a83894d056eb5e277"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.DisableNightScanGate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "7a64711627231b8115768e28cc0e8623"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.DisableNightScanGate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "0821c72b49e3868f168d72bdd5a30f48"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.EnableBanditAmbushes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "d01f3b814035994d41d7c686fbf257b5"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.EnableBanditAmbushes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "13a7300a61c4f2476854675f83460df2"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.EnableBanditHouseRoamers",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "07ae6b26889dbe823338421ff2b87a2b"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.EnableBanditHouseRoamers_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "fa1a2ff08eb0dc69bff102d487b9ff56"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.EventChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "311326fbb945aa7aeca77e623c914f49"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.EventChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "bb198d2b14e8f66ed5c017263209a5b1"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionConsumptionMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "1639a51feaf0f3bdaf22d834101d28e4"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionConsumptionMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "a398e13eb95fbb5ab70941f425117313"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionDailyConsumption",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "3fe1561bf618a25cb759111bb7384cf2"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionDailyConsumption_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "69c13c39a30235a827b12e9117956b58"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionDeathThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "7495dcd893bc5bc6282488a7948a29fc"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionDeathThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "28064356d2f6034ea8d062fd9eade852"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionFlashMaxActive",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "5da549f697c5dbca503a8f599add91e9"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionFlashMaxActive_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "4f4691079fd3137475c4b0ffad2a54c0"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionFlashMinActive",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "d88f191dc640bc43ff0a3e446868a7d5"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionFlashMinActive_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "918edca432d185dcebf154706c99cf57"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionGrowthChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "cb1258556ca0723cc7895a51d0161338"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionGrowthChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "7069ef46dc6c253d9db9a0965254becb"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionRespawnChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "3115e0c903608d2d954aaff7c7484346"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionRespawnChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "b6c2481ebf69f94af46bda78c013e406"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionStartPop",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "6b6d78addb77454f69f0f31a2c9c2e57"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.FactionStartPop_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "3a9a1e13d8fad5e0ac7e21feeb3f5e19"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.GlobalRecruitCount",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "a05fc8fbd3b3b75a2ac6d5befd0b1642"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.GlobalRecruitCount_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "a7075964665cd6979010866eaa525827"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.IndependentSpawnRadiusMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "fcf44d8b3c06b8a4e0b74dae4d696421"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.IndependentSpawnRadiusMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "7f65290934b2598ecc8e6a05d9661558"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.IndependentSpawnRadiusMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "c9df51b9feac8a0ec4bec31516a6f48e"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.IndependentSpawnRadiusMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "facb6e569ac85daf9c4613423b63da7a"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.InflationDecay",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "2f2ffea5c4c4e48680d75dee73f33da0"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.InflationDecay_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "d8c7c97d57ddc3c08c2902ae74f4c2e3"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.MaxFactionsPerTown",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "d07c020495d320cf2b59440e55b6243c"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.MaxFactionsPerTown_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "84842cc6d60b2c036598feec5c55c9a3"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.MaxGameplayLogs",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "d3db45f7c7edeca1cff83bd74a1ddf84"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.MaxGameplayLogs_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "eb2ee4077c280cd6ce3756f487fa46f4"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.MaxLogs",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "55190867d1c62798690f3a840ab790cd"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.MaxLogs_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "c753e202086d2cffab6a35da498f994d"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCBaseHealthMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "37810a34e16d50f1a7f26eccffe56809"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCBaseHealthMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "197e8d2d6079bbfe9825d856e8d047e0"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCDepartureVisibleHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "ccd9a7087febf357d1be5927aa4a4d7f"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCDepartureVisibleHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "cb80b7b9f83791f02db45d5c704b5d15"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCTradeEligiblePercent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "8202d21190ff27a64a1efcde64f68a81"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCTradeEligiblePercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "efa6c7b7c5f038b76cf77b44f60e2873"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCTradePopPercent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "d5a87b8b88170d354deedb2abf7d6035"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCTradePopPercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "8f6005a7eaf99a7e4259d2eb384363f2"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCTradingStayHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "6bf8355096e46705ab4176313b7e883d"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCTradingStayHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "c1366787be7ea8fc5f9605d8537dd538"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCTradingWalkHours",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "abd1dd7726a1a041edcc3e6539fed612"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCTradingWalkHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "37fb005e203f784ee0ab861f3792cc63"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCWeaponDurability",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "aef59344b42ce5cbbdddc7a9067412d8"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.NPCWeaponDurability_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "5264f55e8bcce87f081ff7aad2502668"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.PriceBuyMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "7038e1c308a1070f33561bd239b5fda7"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.PriceBuyMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "aa5e3312ceb0bb6adb32acf933cb8fb8"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.PriceSellMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "4e491a7a790b5bb49944a4793c8b9421"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.PriceSellMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "47b8e261edd2abf3d4b9c979b4522404"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.ProductionMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "b1b0cab8bb53b8f506e9aab5f16ad1ff"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.ProductionMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "6ebdee8bdcc3d3eb294768d214e3e9ab"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.PublicNetwork",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "f450b5f37134b98b31579c8c6ed1a64d"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.PublicNetwork_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "e32adec58d67559b7596d7fa63c459ac"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.RadarScanElectricityXP",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "007921793388b5de36f576ee2a0b2770"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.RadarScanElectricityXP_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "44ae4f87ff9805070747b3e494d978ad"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.RarityBonus",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "263038e5004fa0648442d221fdc56693"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.RarityBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "0c0c905579a405515dacb29e25888ed6"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.RestockInterval",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "f0f4c79080fcee3bd7c17f3c5c1b4ddf"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.RestockInterval_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "6570c87bbea9e4c1671d82af447bec8f"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.ScanCooldown",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "26d5d004f7d40c1633b363381ac8ef17"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.ScanCooldown_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "e778d5abe970a0eb2c8bd3935b260f44"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.SeasonImpact",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "b14e6931e379625e7d0bab6b53ee9ba3"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.SeasonImpact_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "eb111135ad9e53f300e7e5135623c5bc"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.StockMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "ca30e8805ffd7857526bb9e7c02ae646"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.StockMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "bcd93edb230feaaee56d25148c4f8d88"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.TownTraderWanderChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "dfb5dca6b3cef3afc40c1ade183508d2"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.TownTraderWanderChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "3fa8c1dd2e34e1737c06e9c2b6c40514"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.TraderBudgetPercent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "f3dcb828cbf2ee6aff4a957af7027b45"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.TraderBudgetPercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "7a0b5743ac8a5f2f30862c8774437c88"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.TraderStayHoursMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "33cb03e4b8490756886640da02b9afd9"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.TraderStayHoursMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "c4be24b8ba90689167d1070f4f8482b7"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.TraderStayHoursMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "a3428ab608f07359e37d492f1c3d2a90"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.TraderStayHoursMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "00c777d04a9f8367d6c1a1814dada389"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.V2_FlashEventMaxDuration",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "4895dcd9f889c5eea16043dc1299b92d"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.V2_FlashEventMaxDuration_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "b1acc6516d69251e2e9b48ab920cbd0e"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.V2_FlashEventMinDuration",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "66472819ed915c5f7c1c1d608f126f14"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.V2_FlashEventMinDuration_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "0ad612222ec6e0a38239ba57c95252bd"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.WalkieDropChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "694a11d4c6e41dd1726d0a086f5cca62"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.WalkieDropChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "4bf54b5589de42d7d54846f9a50a95ab"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.WalletEmptyChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "2a17e06e2b986843276fc0688168a531"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.WalletEmptyChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "0fdffb051daa9aeaba1b29515f266ee6"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.WalletJackpotChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "eb565ee52aed7dc69822b96da0dfc289"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.WalletJackpotChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "91c42102a2d24dccda6e05bc43752722"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.WalletMaxCash",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "1a02b948bc86b4d3f05ef51bf539c59f"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.WalletMaxCash_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "0b029bf330d64927d88fc51e5c192f16"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.WalletMinCash",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "4e9f449736d81c7d5e630c22d436efe2"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.WalletMinCash_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "f3da5c6be30d9757cd96803cd27d4a77"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.ZombieThreatMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "2d6090c9c560d486b1bb5da181464464"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTrading.ZombieThreatMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "9821f1abd5ca36bd7503914917fa1248"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTradingEconomy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "db6045387c961324d5ab98aa3fcd293f"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTradingEvents",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "bd6d924946ba4e3bfcde3873a7a160c3"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTradingNPC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "94bec13bdeddbdce5f57c5d4d4713e0f"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTradingRadio",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "e9b9981ecdcfd0a0bafb9b7ba11bd53d"
+  },
+  {
+    "mod_id": "3635333613",
+    "translation_key": "Sandbox_DynamicTradingSimulation",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-01T23:30:21.0000000Z",
+    "source_hash": "1fb8d226da213046d08911ded56af511"
+  }
+]

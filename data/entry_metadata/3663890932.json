@@ -1,0 +1,778 @@
+[
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Base.XNSaplingApple",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "86861bb5731a2227146fd5268e7ea52f"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Base.XNSaplingBanana",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "0da38bae60180b28ef0a02a2f14e1d9d"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Base.XNSaplingCherry",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "b927de37c30009c4ee585223e0f6e431"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Base.XNSaplingLemon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "30aec7462c4f560147365a40374e563f"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Base.XNSaplingOrange",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "61e244198239c0323fd91015cb59393d"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Base.XNSaplingPeach",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "b4bcb4ae5858740d7327fa460d95871b"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Base.XNSaplingPineapple",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "ba55fe89c80dd376c19009f326dc8548"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Base.XNTreeRecipes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "22c615160e3652db71cf0de06e1ace75"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "CollectTreeSeeds",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "da4bb3859b559bdf3d80c05291338175"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "DisplayName_XNSaplingApple",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "144d8a35f98d794f5dc7a07b4fdff418"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "DisplayName_XNSaplingBanana",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "bf1f58f48896930b41b9f40cb3e95153"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "DisplayName_XNSaplingCherry",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "c579e5de51822895d57f4276285f0e7f"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "DisplayName_XNSaplingLemon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "20764fe5d48a8b5d805e98a7a5ee44c4"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "DisplayName_XNSaplingOrange",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "089a699ae33843a96fafc781b3f2e302"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "DisplayName_XNSaplingPeach",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "485e2bd3440d97bb5924c40b084d0eed"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "DisplayName_XNSaplingPineapple",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "ca0cb455904663f164d6406647224d34"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "DisplayName_XNTreeRecipes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "1391fc6a1ccba683ce07aadcf5821531"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_Tree-XNSaplingApple",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "23a9bc2d2cdf84825eb88c5928e86184"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_Tree-XNSaplingBanana",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "c75b11e25a84fc3a2e979fced682b35c"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_Tree-XNSaplingCherry",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "76ba1a5f78657525e541b58290f7b2ed"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_Tree-XNSaplingLemon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "000d77748b1ef17bc568b40ed848dbab"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_Tree-XNSaplingOrange",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "e779848818c765fb4683720085bf537f"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_Tree-XNSaplingPeach",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "dd140c588665351199f1371e8aaec081"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_Tree-XNSaplingPineapple",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "bf4620dbefd040b0eba9e0af6ac6af8b"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_XNSaplingApple",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "bdfcaade12270e350a40fcc3bb871cdc"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_XNSaplingBanana",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "e54f49eee85ed9283c6630deb24fdefc"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_XNSaplingCherry",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "eba7c23e7d7094cd651cfc1f336d1be3"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_XNSaplingLemon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "e2f8c4815681de2a9edce9856cef86d0"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_XNSaplingOrange",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "722c049bb673156270ed7af541ede58a"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_XNSaplingPeach",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "61abd8c2136e1eda103596e072b64967"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_XNSaplingPineapple",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "f72933875c5d452150f1c750cc003227"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_xnBlooming",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "df093dd01eb8d6dea1ed52965ebf6415"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_xnFruit-bearing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "f6d0c2a5b1ceed3acb19dd6dcf81ae0c"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_xnMature",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "2fa29f42f118b5c3f8d07edc802a7472"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_xnOld",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "1ea513d4979957e7d1c04e316f18fc9d"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_xnSeed-bearing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "c461256e373bbc32a4b4ad65ec22dd55"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_xnSeedling",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "2d8dae5c862f8b21425e8039469e7e36"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Farming_xnYoung",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "37cbed23d0590417a295c5f9f5a1521b"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "ItemName_Base.XNSaplingApple",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "38dbb4d159795bb73940acbca253b825"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "ItemName_Base.XNSaplingBanana",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "ae5ddb1e9274aa62a284c42cc6ab372b"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "ItemName_Base.XNSaplingCherry",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "92f91f0535746ccb320d3ad929a55193"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "ItemName_Base.XNSaplingLemon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "a66b0d7b7701c50b60a617da08dc849a"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "ItemName_Base.XNSaplingOrange",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "2266368a52c16ae3ea75a3a8804b5426"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "ItemName_Base.XNSaplingPeach",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "8d51ee09e78f58ae8cac046887dab9e6"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "ItemName_Base.XNSaplingPineapple",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "a31c73b3414c0037f20a9dc100d1f462"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "ItemName_Base.XNTreeRecipes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "3ad6c32d3dc5af8c4427b2d5385ef091"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Recipe_CollectTreeSeeds",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "9904f45a737aa0ee20888e93a959b25a"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Recipe_base:apple tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "826e45576557a9fce95a4be20f43c8ea"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Recipe_base:banana tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "ec99b203640f07f2b684ae7e66db2177"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Recipe_base:cherry tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "f89b19c1759ba6405ceaa0cc50b7bf97"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Recipe_base:lemon tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "0584999f6b8121824bbbd6dd318e051f"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Recipe_base:orange tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "feec94302c3a11d0846876e260c4892f"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Recipe_base:peach tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "9d775d9caad62092d607586b5f81c013"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Recipe_base:pineapple growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "c031901bb552da7cf921119a2a3552af"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "67874847d0239e167d0d595f8c737f82"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_AppleGrowTime",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "6a0a13aa352a98a30dc4279fd846865a"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_AppleGrowTime_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "8f72241f8bf1d22b3f68b24dbb680e74"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_BananaGrowTime",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "ce1d02dfe3e94372506f8a7a298925eb"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_BananaGrowTime_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "b98f9c3a28e4c0851df942b81e721305"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_CherryGrowTime",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "359b5e65ff17d2bc6c8ebef498f3c191"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_CherryGrowTime_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "6f094a34c1a267d14c0a91ed68ec0053"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_GrowthSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "d1879b52d1df18025ce9c84ce6b8b26b"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_GrowthSpeed_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "76b2853d601e50fa84b343fab545026c"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_GrowthSpeed_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "11eb0573c7af6800091e7dda1fb042c5"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_GrowthSpeed_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "0b0e21c1c7765a77fd482f846acc9bda"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_GrowthSpeed_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "a6019dab83d44131340d8ac6ff28e485"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_GrowthSpeed_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "064bfa7f16147685e7b08a3afadf1db9"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_GrowthSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "203f341fd74caba488b5bdff6a435983"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_HarvestYield",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "d613a207aee93c872777399c632d0f0c"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_HarvestYield_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "a7dc4f4ba6b31785cf1bb705290dd538"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_HarvestYield_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "397b4936e3abef6271c24a72635e4b84"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_HarvestYield_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "b7aa15b473dff2efb8ff41a1cb22de49"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_HarvestYield_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "b4f15cf35a913eac86d2bf518ddbde36"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_HarvestYield_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "38984a61ba9409f3f20c9135ea87d373"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_HarvestYield_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "6d780c6e69a915d77a23f6275902255e"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_LemonGrowTime",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "b2c12dbecc75722cbc08be8e69fc8f79"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_LemonGrowTime_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "b7132949ab21268ba46e82e39ad58b81"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_OrangeGrowTime",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "4b4a8323e6ac1d52a6c1a4c1a5240bde"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_OrangeGrowTime_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "76552ab68ee6b221813cccd3c171090b"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_PeachGrowTime",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "d6bbc1641c51dede0c140c2a134efcf3"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_PeachGrowTime_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "03b25ad3e6220e9ea2d89c20973abba9"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_PineappleGrowTime",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "39f85f36409ddd242a25c4ffe90c9f6c"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_PineappleGrowTime_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "1b984b0431777d9f938e0c774a7df7c4"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_WaterConsumption",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "6478937287c04a5fbf501aa5d0946b24"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_WaterConsumption_option1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "9bc76b45809157388d74c24dbc3fd834"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_WaterConsumption_option2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "aa9f6e41ab3cccad5bf8824f249dfdf7"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_WaterConsumption_option3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "62ff480e953632598b93c18deb738969"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_WaterConsumption_option4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "dddcc45971c563d7fb350c63d377242b"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_WaterConsumption_option5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "0b5b42d434ba696834ec7ea0e99d036a"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "Sandbox_XNTrees_WaterConsumption_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "49e10a87c4bdcaf4756960affae6056b"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "base:apple tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "47f3251806f084b2096ce5f5b166c6c5"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "base:banana tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "e8c7cf8e08af0b70f52a9e3a6e44a139"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "base:cherry tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "cdf255614d0c5394e5bd5b88402076cd"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "base:lemon tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "36f9d0f6672898e02b3e34614dd2d3ca"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "base:orange tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "ff9aa75fd858e2a0bb3c2088d0fe5535"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "base:peach tree growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "d8b0a25643e9245cd17a01a7d40da5d6"
+  },
+  {
+    "mod_id": "3663890932",
+    "translation_key": "base:pineapple growing season",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-04-20T17:21:47.0000000Z",
+    "source_hash": "943f8a91cabf158639da431d4458bf0f"
+  }
+]

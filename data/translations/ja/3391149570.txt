@@ -1,0 +1,8 @@
+Sandbox_Roll::en = "Mod Roll",
+Sandbox_Roll::ja::processed::unverified = "Modロール",
+Sandbox_Roll_ExtinguishFireChances::en = "Extinguish Fire Chances",
+Sandbox_Roll_ExtinguishFireChances::ja::processed::unverified = "消火確率",
+Sandbox_Roll_ExtinguishFireChances_tooltip::en = "Chances to remove the fire on character with each roll. <LINE>0 -> never <LINE>100 -> always",
+Sandbox_Roll_ExtinguishFireChances_tooltip::ja::processed::unverified = "各ロールでキャラクターの火を消す確率。<LINE>0 -> なし<LINE>100 -> 常に",
+UI_optionscreen_binding_Roll_Key::en = "Roll",
+UI_optionscreen_binding_Roll_Key::ja::processed::unverified = "ロール",
