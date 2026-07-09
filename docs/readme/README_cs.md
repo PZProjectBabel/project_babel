@@ -27,33 +27,33 @@
 
 | Jazyk | Místní název | ISO kód | Kód ve hře | Podporováno | Poznámka |
 |------|------|------|------|------|------|
-| Arabština | العربية | `ar` | `AR` | ❌ | Nedostatek financí |
-| Katalánština | català | `ca` | `CA` | ❌ | Nedostatek financí |
-| Tradiční čínština | 繁體中文 | `zh-hant` | `CH` | ❌ | Nedostatek financí |
+| Arabština | العربية | `ar` | `AR` | ❌ | Nedostatek token kreditů |
+| Katalánština | català | `ca` | `CA` | ❌ | Nedostatek token kreditů |
+| Tradiční čínština | 繁體中文 | `zh-hant` | `CH` | ❌ | Nedostatek token kreditů |
 | Zjednodušená čínština | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Čeština | čeština | `cs` | `CS` | ❌ | Nedostatek financí |
-| Dánština | dansk | `da` | `DA` | ❌ | Nedostatek financí |
+| Čeština | čeština | `cs` | `CS` | ❌ | Nedostatek token kreditů |
+| Dánština | dansk | `da` | `DA` | ❌ | Nedostatek token kreditů |
 | Němčina | Deutsch | `de` | `DE` | ✅ | |
 | Angličtina | English | `en` | `EN` | ✅ | |
-| Španělština | español | `es` | `ES` | ❌ | Nedostatek financí |
-| Finština | suomi | `fi` | `FI` | ❌ | Nedostatek financí |
+| Španělština | español | `es` | `ES` | ❌ | Nedostatek token kreditů |
+| Finština | suomi | `fi` | `FI` | ❌ | Nedostatek token kreditů |
 | Francouzština | français | `fr` | `FR` | ✅ | |
-| Maďarština | magyar | `hu` | `HU` | ❌ | Nedostatek financí |
-| Indonéština | Bahasa Indonesia | `id` | `ID` | ❌ | Nedostatek financí |
-| Italština | italiano | `it` | `IT` | ❌ | Nedostatek financí |
+| Maďarština | magyar | `hu` | `HU` | ❌ | Nedostatek token kreditů |
+| Indonéština | Bahasa Indonesia | `id` | `ID` | ❌ | Nedostatek token kreditů |
+| Italština | italiano | `it` | `IT` | ❌ | Nedostatek token kreditů |
 | Japonština | 日本語 | `ja` | `JP` | ✅ | |
-| Korejština | 한국어 | `ko` | `KO` | ❌ | Nedostatek financí |
-| Nizozemština | Nederlands | `nl` | `NL` | ❌ | Nedostatek financí |
-| Norština | norsk | `no` | `NO` | ❌ | Nedostatek financí |
-| Tagalština | Tagalog | `tl` | `PH` | ❌ | Nedostatek financí |
-| Polština | polski | `pl` | `PL` | ❌ | Nedostatek financí |
-| Portugalština (Portugalsko) | português | `pt` | `PT` | ❌ | Nedostatek financí |
-| Portugalština (Brazílie) | português do Brasil | `pt-br` | `PTBR` | ❌ | Nedostatek financí |
-| Rumunština | română | `ro` | `RO` | ❌ | Nedostatek financí |
-| Ruština | русский | `ru` | `RU` | ❌ | Nedostatek financí |
-| Thajština | ภาษาไทย | `th` | `TH` | ❌ | Nedostatek financí |
-| Turečtina | Türkçe | `tr` | `TR` | ❌ | Nedostatek financí |
-| Ukrajinština | українська | `uk` | `UA` | ❌ | Nedostatek financí |
+| Korejština | 한국어 | `ko` | `KO` | ❌ | Nedostatek token kreditů |
+| Nizozemština | Nederlands | `nl` | `NL` | ❌ | Nedostatek token kreditů |
+| Norština | norsk | `no` | `NO` | ❌ | Nedostatek token kreditů |
+| Tagalština | Tagalog | `tl` | `PH` | ❌ | Nedostatek token kreditů |
+| Polština | polski | `pl` | `PL` | ❌ | Nedostatek token kreditů |
+| Portugalština (Portugalsko) | português | `pt` | `PT` | ❌ | Nedostatek token kreditů |
+| Portugalština (Brazílie) | português do Brasil | `pt-br` | `PTBR` | ❌ | Nedostatek token kreditů |
+| Rumunština | română | `ro` | `RO` | ❌ | Nedostatek token kreditů |
+| Ruština | русский | `ru` | `RU` | ❌ | Nedostatek token kreditů |
+| Thajština | ภาษาไทย | `th` | `TH` | ❌ | Nedostatek token kreditů |
+| Turečtina | Türkçe | `tr` | `TR` | ❌ | Nedostatek token kreditů |
+| Ukrajinština | українська | `uk` | `UA` | ❌ | Nedostatek token kreditů |
 
 **Celkem**: 27 plánovaných jazyků | **Podporováno**: 5 | **Čeká**: 22
 
@@ -82,6 +82,8 @@ Průvodce pro hráče, kteří chtějí používat překladový balíček ve hř
 Vítáme příspěvky! Opravy překladů, nové funkce, šablony promptů nebo referenční překlady.
 
 Volání LLM API pro překlad vyžaduje placení tokenů. Vaše podpora pomáhá projektu dlouhodobě fungovat!
+
+Read the [Contributing Guide](../contributing/contributing_cs.md) for details.
 
 ---
 

@@ -25,33 +25,33 @@
 
 | Sprache | Lokaler Name | ISO-Code | In-Game-Code | Unterstützt | Anmerkung |
 |------|------|------|------|------|------|
-| Arabisch | العربية | `ar` | `AR` | ❌ | Finanzierungsmangel |
-| Katalanisch | català | `ca` | `CA` | ❌ | Finanzierungsmangel |
-| Traditionelles Chinesisch | 繁體中文 | `zh-hant` | `CH` | ❌ | Finanzierungsmangel |
+| Arabisch | العربية | `ar` | `AR` | ❌ | Token-Guthaben unzureichend |
+| Katalanisch | català | `ca` | `CA` | ❌ | Token-Guthaben unzureichend |
+| Traditionelles Chinesisch | 繁體中文 | `zh-hant` | `CH` | ❌ | Token-Guthaben unzureichend |
 | Vereinfachtes Chinesisch | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Tschechisch | čeština | `cs` | `CS` | ❌ | Finanzierungsmangel |
-| Dänisch | dansk | `da` | `DA` | ❌ | Finanzierungsmangel |
+| Tschechisch | čeština | `cs` | `CS` | ❌ | Token-Guthaben unzureichend |
+| Dänisch | dansk | `da` | `DA` | ❌ | Token-Guthaben unzureichend |
 | Deutsch | Deutsch | `de` | `DE` | ✅ | |
 | Englisch | English | `en` | `EN` | ✅ | |
-| Spanisch | español | `es` | `ES` | ❌ | Finanzierungsmangel |
-| Finnisch | suomi | `fi` | `FI` | ❌ | Finanzierungsmangel |
+| Spanisch | español | `es` | `ES` | ❌ | Token-Guthaben unzureichend |
+| Finnisch | suomi | `fi` | `FI` | ❌ | Token-Guthaben unzureichend |
 | Französisch | français | `fr` | `FR` | ✅ | |
-| Ungarisch | magyar | `hu` | `HU` | ❌ | Finanzierungsmangel |
-| Indonesisch | Bahasa Indonesia | `id` | `ID` | ❌ | Finanzierungsmangel |
-| Italienisch | italiano | `it` | `IT` | ❌ | Finanzierungsmangel |
+| Ungarisch | magyar | `hu` | `HU` | ❌ | Token-Guthaben unzureichend |
+| Indonesisch | Bahasa Indonesia | `id` | `ID` | ❌ | Token-Guthaben unzureichend |
+| Italienisch | italiano | `it` | `IT` | ❌ | Token-Guthaben unzureichend |
 | Japanisch | 日本語 | `ja` | `JP` | ✅ | |
-| Koreanisch | 한국어 | `ko` | `KO` | ❌ | Finanzierungsmangel |
-| Niederländisch | Nederlands | `nl` | `NL` | ❌ | Finanzierungsmangel |
-| Norwegisch | norsk | `no` | `NO` | ❌ | Finanzierungsmangel |
-| Tagalog | Tagalog | `tl` | `PH` | ❌ | Finanzierungsmangel |
-| Polnisch | polski | `pl` | `PL` | ❌ | Finanzierungsmangel |
-| Portugiesisch (Portugal) | português | `pt` | `PT` | ❌ | Finanzierungsmangel |
-| Portugiesisch (Brasilien) | português do Brasil | `pt-br` | `PTBR` | ❌ | Finanzierungsmangel |
-| Rumänisch | română | `ro` | `RO` | ❌ | Finanzierungsmangel |
-| Russisch | русский | `ru` | `RU` | ❌ | Finanzierungsmangel |
-| Thailändisch | ภาษาไทย | `th` | `TH` | ❌ | Finanzierungsmangel |
-| Türkisch | Türkçe | `tr` | `TR` | ❌ | Finanzierungsmangel |
-| Ukrainisch | українська | `uk` | `UA` | ❌ | Finanzierungsmangel |
+| Koreanisch | 한국어 | `ko` | `KO` | ❌ | Token-Guthaben unzureichend |
+| Niederländisch | Nederlands | `nl` | `NL` | ❌ | Token-Guthaben unzureichend |
+| Norwegisch | norsk | `no` | `NO` | ❌ | Token-Guthaben unzureichend |
+| Tagalog | Tagalog | `tl` | `PH` | ❌ | Token-Guthaben unzureichend |
+| Polnisch | polski | `pl` | `PL` | ❌ | Token-Guthaben unzureichend |
+| Portugiesisch (Portugal) | português | `pt` | `PT` | ❌ | Token-Guthaben unzureichend |
+| Portugiesisch (Brasilien) | português do Brasil | `pt-br` | `PTBR` | ❌ | Token-Guthaben unzureichend |
+| Rumänisch | română | `ro` | `RO` | ❌ | Token-Guthaben unzureichend |
+| Russisch | русский | `ru` | `RU` | ❌ | Token-Guthaben unzureichend |
+| Thailändisch | ภาษาไทย | `th` | `TH` | ❌ | Token-Guthaben unzureichend |
+| Türkisch | Türkçe | `tr` | `TR` | ❌ | Token-Guthaben unzureichend |
+| Ukrainisch | українська | `uk` | `UA` | ❌ | Token-Guthaben unzureichend |
 
 **Gesamt**: 27 geplante Sprachen | **Unterstützt**: 5 | **Ausstehend**: 22
 
@@ -80,6 +80,8 @@ Eine Anleitung für Spieler, die das Übersetzungspaket im Spiel verwenden möch
 Wir freuen uns über Beiträge – ob Fehlerkorrekturen, neue Funktionen, Prompt-Vorlagen oder Referenzübersetzungen!
 
 Der Aufruf von LLM-APIs für Übersetzungen verursacht Token-Kosten. Ihre Unterstützung hilft dem Projekt, langfristig zu bestehen!
+
+Weitere Details im [Mitwirkungsleitfaden](../contributing/contributing_de.md).
 
 ---
 

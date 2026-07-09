@@ -27,33 +27,33 @@
 
 | Nyelv | Helyi név | ISO kód | Játékbeli kód | Támogatott | Megjegyzés |
 |------|------|------|------|------|------|
-| Arab | العربية | `ar` | `AR` | ❌ | Finanszírozás hiánya |
-| Katalán | català | `ca` | `CA` | ❌ | Finanszírozás hiánya |
-| Hagyományos kínai | 繁體中文 | `zh-hant` | `CH` | ❌ | Finanszírozás hiánya |
+| Arab | العربية | `ar` | `AR` | ❌ | Token keret elégtelen |
+| Katalán | català | `ca` | `CA` | ❌ | Token keret elégtelen |
+| Hagyományos kínai | 繁體中文 | `zh-hant` | `CH` | ❌ | Token keret elégtelen |
 | Egyszerűsített kínai | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Cseh | čeština | `cs` | `CS` | ❌ | Finanszírozás hiánya |
-| Dán | dansk | `da` | `DA` | ❌ | Finanszírozás hiánya |
+| Cseh | čeština | `cs` | `CS` | ❌ | Token keret elégtelen |
+| Dán | dansk | `da` | `DA` | ❌ | Token keret elégtelen |
 | Német | Deutsch | `de` | `DE` | ✅ | |
 | Angol | English | `en` | `EN` | ✅ | |
-| Spanyol | español | `es` | `ES` | ❌ | Finanszírozás hiánya |
-| Finn | suomi | `fi` | `FI` | ❌ | Finanszírozás hiánya |
+| Spanyol | español | `es` | `ES` | ❌ | Token keret elégtelen |
+| Finn | suomi | `fi` | `FI` | ❌ | Token keret elégtelen |
 | Francia | français | `fr` | `FR` | ✅ | |
-| Magyar | magyar | `hu` | `HU` | ❌ | Finanszírozás hiánya |
-| Indonéz | Bahasa Indonesia | `id` | `ID` | ❌ | Finanszírozás hiánya |
-| Olasz | italiano | `it` | `IT` | ❌ | Finanszírozás hiánya |
+| Magyar | magyar | `hu` | `HU` | ❌ | Token keret elégtelen |
+| Indonéz | Bahasa Indonesia | `id` | `ID` | ❌ | Token keret elégtelen |
+| Olasz | italiano | `it` | `IT` | ❌ | Token keret elégtelen |
 | Japán | 日本語 | `ja` | `JP` | ✅ | |
-| Koreai | 한국어 | `ko` | `KO` | ❌ | Finanszírozás hiánya |
-| Holland | Nederlands | `nl` | `NL` | ❌ | Finanszírozás hiánya |
-| Norvég | norsk | `no` | `NO` | ❌ | Finanszírozás hiánya |
-| Tagalog | Tagalog | `tl` | `PH` | ❌ | Finanszírozás hiánya |
-| Lengyel | polski | `pl` | `PL` | ❌ | Finanszírozás hiánya |
-| Portugál (Portugália) | português | `pt` | `PT` | ❌ | Finanszírozás hiánya |
-| Portugál (Brazília) | português do Brasil | `pt-br` | `PTBR` | ❌ | Finanszírozás hiánya |
-| Román | română | `ro` | `RO` | ❌ | Finanszírozás hiánya |
-| Orosz | русский | `ru` | `RU` | ❌ | Finanszírozás hiánya |
-| Thai | ภาษาไทย | `th` | `TH` | ❌ | Finanszírozás hiánya |
-| Török | Türkçe | `tr` | `TR` | ❌ | Finanszírozás hiánya |
-| Ukrán | українська | `uk` | `UA` | ❌ | Finanszírozás hiánya |
+| Koreai | 한국어 | `ko` | `KO` | ❌ | Token keret elégtelen |
+| Holland | Nederlands | `nl` | `NL` | ❌ | Token keret elégtelen |
+| Norvég | norsk | `no` | `NO` | ❌ | Token keret elégtelen |
+| Tagalog | Tagalog | `tl` | `PH` | ❌ | Token keret elégtelen |
+| Lengyel | polski | `pl` | `PL` | ❌ | Token keret elégtelen |
+| Portugál (Portugália) | português | `pt` | `PT` | ❌ | Token keret elégtelen |
+| Portugál (Brazília) | português do Brasil | `pt-br` | `PTBR` | ❌ | Token keret elégtelen |
+| Román | română | `ro` | `RO` | ❌ | Token keret elégtelen |
+| Orosz | русский | `ru` | `RU` | ❌ | Token keret elégtelen |
+| Thai | ภาษาไทย | `th` | `TH` | ❌ | Token keret elégtelen |
+| Török | Türkçe | `tr` | `TR` | ❌ | Token keret elégtelen |
+| Ukrán | українська | `uk` | `UA` | ❌ | Token keret elégtelen |
 
 **Összesen**: 27 tervezett nyelv | **Támogatott**: 5 | **Függőben**: 22
 
@@ -82,6 +82,8 @@
 Várjuk a hozzájárulásokat! Fordítási javítások, új funkciók, promptsablonok vagy referenciafordítások.
 
 Az LLM API-hívások fordításra tokenköltséggel járnak. Támogatása segíti a projekt fenntartható működését!
+
+Read the [Contributing Guide](../contributing/contributing_hu.md) for details.
 
 ---
 

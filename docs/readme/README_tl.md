@@ -27,33 +27,33 @@
 
 | Wika | Lokal na Pangalan | ISO Code | In-Game Code | Suportado | Tala |
 |------|------|------|------|------|------|
-| Arabe | العربية | `ar` | `AR` | ❌ | Kulang sa pondo |
-| Katalan | català | `ca` | `CA` | ❌ | Kulang sa pondo |
-| Tradisyonal na Tsino | 繁體中文 | `zh-hant` | `CH` | ❌ | Kulang sa pondo |
+| Arabe | العربية | `ar` | `AR` | ❌ | Kulang sa token credits |
+| Katalan | català | `ca` | `CA` | ❌ | Kulang sa token credits |
+| Tradisyonal na Tsino | 繁體中文 | `zh-hant` | `CH` | ❌ | Kulang sa token credits |
 | Pinasimpleng Tsino | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Tseko | čeština | `cs` | `CS` | ❌ | Kulang sa pondo |
-| Danes | dansk | `da` | `DA` | ❌ | Kulang sa pondo |
+| Tseko | čeština | `cs` | `CS` | ❌ | Kulang sa token credits |
+| Danes | dansk | `da` | `DA` | ❌ | Kulang sa token credits |
 | Aleman | Deutsch | `de` | `DE` | ✅ | |
 | Ingles | English | `en` | `EN` | ✅ | |
-| Espanyol | español | `es` | `ES` | ❌ | Kulang sa pondo |
-| Pinlandes | suomi | `fi` | `FI` | ❌ | Kulang sa pondo |
+| Espanyol | español | `es` | `ES` | ❌ | Kulang sa token credits |
+| Pinlandes | suomi | `fi` | `FI` | ❌ | Kulang sa token credits |
 | Pranses | français | `fr` | `FR` | ✅ | |
-| Unggaro | magyar | `hu` | `HU` | ❌ | Kulang sa pondo |
-| Indones | Bahasa Indonesia | `id` | `ID` | ❌ | Kulang sa pondo |
-| Italyano | italiano | `it` | `IT` | ❌ | Kulang sa pondo |
+| Unggaro | magyar | `hu` | `HU` | ❌ | Kulang sa token credits |
+| Indones | Bahasa Indonesia | `id` | `ID` | ❌ | Kulang sa token credits |
+| Italyano | italiano | `it` | `IT` | ❌ | Kulang sa token credits |
 | Hapones | 日本語 | `ja` | `JP` | ✅ | |
-| Koreano | 한국어 | `ko` | `KO` | ❌ | Kulang sa pondo |
-| Olandes | Nederlands | `nl` | `NL` | ❌ | Kulang sa pondo |
-| Norwego | norsk | `no` | `NO` | ❌ | Kulang sa pondo |
-| Tagalog | Tagalog | `tl` | `PH` | ❌ | Kulang sa pondo |
-| Polako | polski | `pl` | `PL` | ❌ | Kulang sa pondo |
-| Portuges (Portugal) | português | `pt` | `PT` | ❌ | Kulang sa pondo |
-| Portuges (Brazil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Kulang sa pondo |
-| Rumano | română | `ro` | `RO` | ❌ | Kulang sa pondo |
-| Ruso | русский | `ru` | `RU` | ❌ | Kulang sa pondo |
-| Thai | ภาษาไทย | `th` | `TH` | ❌ | Kulang sa pondo |
-| Turko | Türkçe | `tr` | `TR` | ❌ | Kulang sa pondo |
-| Ukranyano | українська | `uk` | `UA` | ❌ | Kulang sa pondo |
+| Koreano | 한국어 | `ko` | `KO` | ❌ | Kulang sa token credits |
+| Olandes | Nederlands | `nl` | `NL` | ❌ | Kulang sa token credits |
+| Norwego | norsk | `no` | `NO` | ❌ | Kulang sa token credits |
+| Tagalog | Tagalog | `tl` | `PH` | ❌ | Kulang sa token credits |
+| Polako | polski | `pl` | `PL` | ❌ | Kulang sa token credits |
+| Portuges (Portugal) | português | `pt` | `PT` | ❌ | Kulang sa token credits |
+| Portuges (Brazil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Kulang sa token credits |
+| Rumano | română | `ro` | `RO` | ❌ | Kulang sa token credits |
+| Ruso | русский | `ru` | `RU` | ❌ | Kulang sa token credits |
+| Thai | ภาษาไทย | `th` | `TH` | ❌ | Kulang sa token credits |
+| Turko | Türkçe | `tr` | `TR` | ❌ | Kulang sa token credits |
+| Ukranyano | українська | `uk` | `UA` | ❌ | Kulang sa token credits |
 
 **Kabuuan**: 27 nakaplanong wika | **Suportado**: 5 | **Nakabinbin**: 22
 
@@ -82,6 +82,8 @@ Gabay para sa mga manlalaro na gustong gamitin ang translation pack sa laro.
 Tinatanggap namin ang mga ambag! Pag-aayos ng pagsasalin, bagong feature, prompt template, o sangguniang pagsasalin.
 
 Ang mga tawag sa LLM API para sa pagsasalin ay may gastos sa token. Ang iyong suporta ay tumutulong sa proyekto na tumakbo nang tuluy-tuloy!
+
+Read the [Contributing Guide](../contributing/contributing_tl.md) for details.
 
 ---
 

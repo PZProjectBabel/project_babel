@@ -27,33 +27,33 @@
 
 | Lingua | Nome locale | Codice ISO | Codice in gioco | Supportata | Note |
 |------|------|------|------|------|------|
-| Arabo | العربية | `ar` | `AR` | ❌ | Mancanza di fondi |
-| Catalano | català | `ca` | `CA` | ❌ | Mancanza di fondi |
-| Cinese tradizionale | 繁體中文 | `zh-hant` | `CH` | ❌ | Mancanza di fondi |
+| Arabo | العربية | `ar` | `AR` | ❌ | Crediti token insufficienti |
+| Catalano | català | `ca` | `CA` | ❌ | Crediti token insufficienti |
+| Cinese tradizionale | 繁體中文 | `zh-hant` | `CH` | ❌ | Crediti token insufficienti |
 | Cinese semplificato | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Ceco | čeština | `cs` | `CS` | ❌ | Mancanza di fondi |
-| Danese | dansk | `da` | `DA` | ❌ | Mancanza di fondi |
+| Ceco | čeština | `cs` | `CS` | ❌ | Crediti token insufficienti |
+| Danese | dansk | `da` | `DA` | ❌ | Crediti token insufficienti |
 | Tedesco | Deutsch | `de` | `DE` | ✅ | |
 | Inglese | English | `en` | `EN` | ✅ | |
-| Spagnolo | español | `es` | `ES` | ❌ | Mancanza di fondi |
-| Finlandese | suomi | `fi` | `FI` | ❌ | Mancanza di fondi |
+| Spagnolo | español | `es` | `ES` | ❌ | Crediti token insufficienti |
+| Finlandese | suomi | `fi` | `FI` | ❌ | Crediti token insufficienti |
 | Francese | français | `fr` | `FR` | ✅ | |
-| Ungherese | magyar | `hu` | `HU` | ❌ | Mancanza di fondi |
-| Indonesiano | Bahasa Indonesia | `id` | `ID` | ❌ | Mancanza di fondi |
-| Italiano | italiano | `it` | `IT` | ❌ | Mancanza di fondi |
+| Ungherese | magyar | `hu` | `HU` | ❌ | Crediti token insufficienti |
+| Indonesiano | Bahasa Indonesia | `id` | `ID` | ❌ | Crediti token insufficienti |
+| Italiano | italiano | `it` | `IT` | ❌ | Crediti token insufficienti |
 | Giapponese | 日本語 | `ja` | `JP` | ✅ | |
-| Coreano | 한국어 | `ko` | `KO` | ❌ | Mancanza di fondi |
-| Olandese | Nederlands | `nl` | `NL` | ❌ | Mancanza di fondi |
-| Norvegese | norsk | `no` | `NO` | ❌ | Mancanza di fondi |
-| Tagalog | Tagalog | `tl` | `PH` | ❌ | Mancanza di fondi |
-| Polacco | polski | `pl` | `PL` | ❌ | Mancanza di fondi |
-| Portoghese (Portogallo) | português | `pt` | `PT` | ❌ | Mancanza di fondi |
-| Portoghese (Brasile) | português do Brasil | `pt-br` | `PTBR` | ❌ | Mancanza di fondi |
-| Rumeno | română | `ro` | `RO` | ❌ | Mancanza di fondi |
-| Russo | русский | `ru` | `RU` | ❌ | Mancanza di fondi |
-| Thailandese | ภาษาไทย | `th` | `TH` | ❌ | Mancanza di fondi |
-| Turco | Türkçe | `tr` | `TR` | ❌ | Mancanza di fondi |
-| Ucraino | українська | `uk` | `UA` | ❌ | Mancanza di fondi |
+| Coreano | 한국어 | `ko` | `KO` | ❌ | Crediti token insufficienti |
+| Olandese | Nederlands | `nl` | `NL` | ❌ | Crediti token insufficienti |
+| Norvegese | norsk | `no` | `NO` | ❌ | Crediti token insufficienti |
+| Tagalog | Tagalog | `tl` | `PH` | ❌ | Crediti token insufficienti |
+| Polacco | polski | `pl` | `PL` | ❌ | Crediti token insufficienti |
+| Portoghese (Portogallo) | português | `pt` | `PT` | ❌ | Crediti token insufficienti |
+| Portoghese (Brasile) | português do Brasil | `pt-br` | `PTBR` | ❌ | Crediti token insufficienti |
+| Rumeno | română | `ro` | `RO` | ❌ | Crediti token insufficienti |
+| Russo | русский | `ru` | `RU` | ❌ | Crediti token insufficienti |
+| Thailandese | ภาษาไทย | `th` | `TH` | ❌ | Crediti token insufficienti |
+| Turco | Türkçe | `tr` | `TR` | ❌ | Crediti token insufficienti |
+| Ucraino | українська | `uk` | `UA` | ❌ | Crediti token insufficienti |
 
 **Totale**: 27 lingue pianificate | **Supportate**: 5 | **In attesa**: 22
 
@@ -82,6 +82,8 @@ Guida per i giocatori che vogliono usare il pacchetto di traduzione in gioco.
 Accettiamo contributi! Correzioni di traduzione, nuove funzionalità, modelli di prompt o traduzioni di riferimento.
 
 Le chiamate API LLM per la traduzione comportano costi in token. Il tuo supporto aiuta il progetto a funzionare in modo sostenibile!
+
+Leggi la [Guida al Contributo](../contributing/contributing_it.md) per i dettagli.
 
 ---
 

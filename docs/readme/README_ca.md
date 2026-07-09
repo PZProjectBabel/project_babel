@@ -27,33 +27,33 @@
 
 | Llengua | Nom local | Codi ISO | Codi al joc | Suport | Comentaris |
 |------|------|------|------|------|------|
-| Àrab | العربية | `ar` | `AR` | ❌ | Falta de finançament |
-| Català | català | `ca` | `CA` | ❌ | Falta de finançament |
-| Xinès tradicional | 繁體中文 | `zh-hant` | `CH` | ❌ | Falta de finançament |
+| Àrab | العربية | `ar` | `AR` | ❌ | Falta de crèdits de token |
+| Català | català | `ca` | `CA` | ❌ | Falta de crèdits de token |
+| Xinès tradicional | 繁體中文 | `zh-hant` | `CH` | ❌ | Falta de crèdits de token |
 | Xinès simplificat | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Txec | čeština | `cs` | `CS` | ❌ | Falta de finançament |
-| Danès | dansk | `da` | `DA` | ❌ | Falta de finançament |
+| Txec | čeština | `cs` | `CS` | ❌ | Falta de crèdits de token |
+| Danès | dansk | `da` | `DA` | ❌ | Falta de crèdits de token |
 | Alemany | Deutsch | `de` | `DE` | ✅ | |
 | Anglès | English | `en` | `EN` | ✅ | |
-| Espanyol | español | `es` | `ES` | ❌ | Falta de finançament |
-| Finès | suomi | `fi` | `FI` | ❌ | Falta de finançament |
+| Espanyol | español | `es` | `ES` | ❌ | Falta de crèdits de token |
+| Finès | suomi | `fi` | `FI` | ❌ | Falta de crèdits de token |
 | Francès | français | `fr` | `FR` | ✅ | |
-| Hongarès | magyar | `hu` | `HU` | ❌ | Falta de finançament |
-| Indonesi | Bahasa Indonesia | `id` | `ID` | ❌ | Falta de finançament |
-| Italià | italiano | `it` | `IT` | ❌ | Falta de finançament |
+| Hongarès | magyar | `hu` | `HU` | ❌ | Falta de crèdits de token |
+| Indonesi | Bahasa Indonesia | `id` | `ID` | ❌ | Falta de crèdits de token |
+| Italià | italiano | `it` | `IT` | ❌ | Falta de crèdits de token |
 | Japonès | 日本語 | `ja` | `JP` | ✅ | |
-| Coreà | 한국어 | `ko` | `KO` | ❌ | Falta de finançament |
-| Neerlandès | Nederlands | `nl` | `NL` | ❌ | Falta de finançament |
-| Noruec | norsk | `no` | `NO` | ❌ | Falta de finançament |
-| Tagal | Tagalog | `tl` | `PH` | ❌ | Falta de finançament |
-| Polonès | polski | `pl` | `PL` | ❌ | Falta de finançament |
-| Portuguès (Portugal) | português | `pt` | `PT` | ❌ | Falta de finançament |
-| Portuguès (Brasil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Falta de finançament |
-| Romanès | română | `ro` | `RO` | ❌ | Falta de finançament |
-| Rus | русский | `ru` | `RU` | ❌ | Falta de finançament |
-| Tailandès | ภาษาไทย | `th` | `TH` | ❌ | Falta de finançament |
-| Turc | Türkçe | `tr` | `TR` | ❌ | Falta de finançament |
-| Ucraïnès | українська | `uk` | `UA` | ❌ | Falta de finançament |
+| Coreà | 한국어 | `ko` | `KO` | ❌ | Falta de crèdits de token |
+| Neerlandès | Nederlands | `nl` | `NL` | ❌ | Falta de crèdits de token |
+| Noruec | norsk | `no` | `NO` | ❌ | Falta de crèdits de token |
+| Tagal | Tagalog | `tl` | `PH` | ❌ | Falta de crèdits de token |
+| Polonès | polski | `pl` | `PL` | ❌ | Falta de crèdits de token |
+| Portuguès (Portugal) | português | `pt` | `PT` | ❌ | Falta de crèdits de token |
+| Portuguès (Brasil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Falta de crèdits de token |
+| Romanès | română | `ro` | `RO` | ❌ | Falta de crèdits de token |
+| Rus | русский | `ru` | `RU` | ❌ | Falta de crèdits de token |
+| Tailandès | ภาษาไทย | `th` | `TH` | ❌ | Falta de crèdits de token |
+| Turc | Türkçe | `tr` | `TR` | ❌ | Falta de crèdits de token |
+| Ucraïnès | українська | `uk` | `UA` | ❌ | Falta de crèdits de token |
 
 **Total**: 27 idiomes planificats | **Suportats**: 5 | **Pendents**: 22
 
@@ -82,6 +82,8 @@ Guia per a jugadors que volen utilitzar el paquet de traducció dins del joc.
 Acceptem contribucions! Correccions de traducció, noves funcionalitats, plantilles o traduccions de referència.
 
 Les crides a l'API LLM per a traduccions tenen costos de tokens. El vostre suport ajuda el projecte a funcionar de manera sostenible!
+
+Read the [Contributing Guide](../contributing/contributing_ca.md) for details.
 
 ---
 

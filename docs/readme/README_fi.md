@@ -27,33 +27,33 @@
 
 | Kieli | Paikallinen nimi | ISO-koodi | Pelin koodi | Tuettu | Huomautus |
 |------|------|------|------|------|------|
-| Arabia | العربية | `ar` | `AR` | ❌ | Rahoituksen puute |
-| Katalaani | català | `ca` | `CA` | ❌ | Rahoituksen puute |
-| Perinteinen kiina | 繁體中文 | `zh-hant` | `CH` | ❌ | Rahoituksen puute |
+| Arabia | العربية | `ar` | `AR` | ❌ | Token-kiintiö riittämätön |
+| Katalaani | català | `ca` | `CA` | ❌ | Token-kiintiö riittämätön |
+| Perinteinen kiina | 繁體中文 | `zh-hant` | `CH` | ❌ | Token-kiintiö riittämätön |
 | Yksinkertaistettu kiina | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Tšekki | čeština | `cs` | `CS` | ❌ | Rahoituksen puute |
-| Tanska | dansk | `da` | `DA` | ❌ | Rahoituksen puute |
+| Tšekki | čeština | `cs` | `CS` | ❌ | Token-kiintiö riittämätön |
+| Tanska | dansk | `da` | `DA` | ❌ | Token-kiintiö riittämätön |
 | Saksa | Deutsch | `de` | `DE` | ✅ | |
 | Englanti | English | `en` | `EN` | ✅ | |
-| Espanja | español | `es` | `ES` | ❌ | Rahoituksen puute |
-| Suomi | suomi | `fi` | `FI` | ❌ | Rahoituksen puute |
+| Espanja | español | `es` | `ES` | ❌ | Token-kiintiö riittämätön |
+| Suomi | suomi | `fi` | `FI` | ❌ | Token-kiintiö riittämätön |
 | Ranska | français | `fr` | `FR` | ✅ | |
-| Unkari | magyar | `hu` | `HU` | ❌ | Rahoituksen puute |
-| Indonesia | Bahasa Indonesia | `id` | `ID` | ❌ | Rahoituksen puute |
-| Italia | italiano | `it` | `IT` | ❌ | Rahoituksen puute |
+| Unkari | magyar | `hu` | `HU` | ❌ | Token-kiintiö riittämätön |
+| Indonesia | Bahasa Indonesia | `id` | `ID` | ❌ | Token-kiintiö riittämätön |
+| Italia | italiano | `it` | `IT` | ❌ | Token-kiintiö riittämätön |
 | Japani | 日本語 | `ja` | `JP` | ✅ | |
-| Korea | 한국어 | `ko` | `KO` | ❌ | Rahoituksen puute |
-| Hollanti | Nederlands | `nl` | `NL` | ❌ | Rahoituksen puute |
-| Norja | norsk | `no` | `NO` | ❌ | Rahoituksen puute |
-| Tagalog | Tagalog | `tl` | `PH` | ❌ | Rahoituksen puute |
-| Puola | polski | `pl` | `PL` | ❌ | Rahoituksen puute |
-| Portugali (Portugali) | português | `pt` | `PT` | ❌ | Rahoituksen puute |
-| Portugali (Brasilia) | português do Brasil | `pt-br` | `PTBR` | ❌ | Rahoituksen puute |
-| Romania | română | `ro` | `RO` | ❌ | Rahoituksen puute |
-| Venäjä | русский | `ru` | `RU` | ❌ | Rahoituksen puute |
-| Thai | ภาษาไทย | `th` | `TH` | ❌ | Rahoituksen puute |
-| Turkki | Türkçe | `tr` | `TR` | ❌ | Rahoituksen puute |
-| Ukraina | українська | `uk` | `UA` | ❌ | Rahoituksen puute |
+| Korea | 한국어 | `ko` | `KO` | ❌ | Token-kiintiö riittämätön |
+| Hollanti | Nederlands | `nl` | `NL` | ❌ | Token-kiintiö riittämätön |
+| Norja | norsk | `no` | `NO` | ❌ | Token-kiintiö riittämätön |
+| Tagalog | Tagalog | `tl` | `PH` | ❌ | Token-kiintiö riittämätön |
+| Puola | polski | `pl` | `PL` | ❌ | Token-kiintiö riittämätön |
+| Portugali (Portugali) | português | `pt` | `PT` | ❌ | Token-kiintiö riittämätön |
+| Portugali (Brasilia) | português do Brasil | `pt-br` | `PTBR` | ❌ | Token-kiintiö riittämätön |
+| Romania | română | `ro` | `RO` | ❌ | Token-kiintiö riittämätön |
+| Venäjä | русский | `ru` | `RU` | ❌ | Token-kiintiö riittämätön |
+| Thai | ภาษาไทย | `th` | `TH` | ❌ | Token-kiintiö riittämätön |
+| Turkki | Türkçe | `tr` | `TR` | ❌ | Token-kiintiö riittämätön |
+| Ukraina | українська | `uk` | `UA` | ❌ | Token-kiintiö riittämätön |
 
 **Yhteensä**: 27 suunniteltua kieltä | **Tuettu**: 5 | **Odottaa**: 22
 
@@ -82,6 +82,8 @@ Opas pelaajille, jotka haluavat käyttää käännöspakettia pelissä.
 Otamme vastaan avustuksia! Käännöskorjauksia, uusia ominaisuuksia, kehotemalleja tai viitekäännöksiä.
 
 LLM API -kutsut käännöksiin aiheuttavat token-kustannuksia. Tukesi auttaa projektia toimimaan kestävästi!
+
+Read the [Contributing Guide](../contributing/contributing_fi.md) for details.
 
 ---
 

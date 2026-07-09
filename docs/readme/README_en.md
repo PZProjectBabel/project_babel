@@ -25,33 +25,33 @@
 
 | Language | Native Name | ISO Code | In-Game Code | Supported | Notes |
 |------|------|------|------|------|------|
-| Arabic | العربية | `ar` | `AR` | ❌ | Insufficient funding |
-| Catalan | català | `ca` | `CA` | ❌ | Insufficient funding |
-| Traditional Chinese | 繁體中文 | `zh-hant` | `CH` | ❌ | Insufficient funding |
+| Arabic | العربية | `ar` | `AR` | ❌ | Insufficient token credits |
+| Catalan | català | `ca` | `CA` | ❌ | Insufficient token credits |
+| Traditional Chinese | 繁體中文 | `zh-hant` | `CH` | ❌ | Insufficient token credits |
 | Simplified Chinese | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Czech | čeština | `cs` | `CS` | ❌ | Insufficient funding |
-| Danish | dansk | `da` | `DA` | ❌ | Insufficient funding |
+| Czech | čeština | `cs` | `CS` | ❌ | Insufficient token credits |
+| Danish | dansk | `da` | `DA` | ❌ | Insufficient token credits |
 | German | Deutsch | `de` | `DE` | ✅ | |
 | English | English | `en` | `EN` | ✅ | |
-| Spanish | español | `es` | `ES` | ❌ | Insufficient funding |
-| Finnish | suomi | `fi` | `FI` | ❌ | Insufficient funding |
+| Spanish | español | `es` | `ES` | ❌ | Insufficient token credits |
+| Finnish | suomi | `fi` | `FI` | ❌ | Insufficient token credits |
 | French | français | `fr` | `FR` | ✅ | |
-| Hungarian | magyar | `hu` | `HU` | ❌ | Insufficient funding |
-| Indonesian | Bahasa Indonesia | `id` | `ID` | ❌ | Insufficient funding |
-| Italian | italiano | `it` | `IT` | ❌ | Insufficient funding |
+| Hungarian | magyar | `hu` | `HU` | ❌ | Insufficient token credits |
+| Indonesian | Bahasa Indonesia | `id` | `ID` | ❌ | Insufficient token credits |
+| Italian | italiano | `it` | `IT` | ❌ | Insufficient token credits |
 | Japanese | 日本語 | `ja` | `JP` | ✅ | |
-| Korean | 한국어 | `ko` | `KO` | ❌ | Insufficient funding |
-| Dutch | Nederlands | `nl` | `NL` | ❌ | Insufficient funding |
-| Norwegian | norsk | `no` | `NO` | ❌ | Insufficient funding |
-| Tagalog | Tagalog | `tl` | `PH` | ❌ | Insufficient funding |
-| Polish | polski | `pl` | `PL` | ❌ | Insufficient funding |
-| Portuguese (Portugal) | português | `pt` | `PT` | ❌ | Insufficient funding |
-| Portuguese (Brazil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Insufficient funding |
-| Romanian | română | `ro` | `RO` | ❌ | Insufficient funding |
-| Russian | русский | `ru` | `RU` | ❌ | Insufficient funding |
-| Thai | ภาษาไทย | `th` | `TH` | ❌ | Insufficient funding |
-| Turkish | Türkçe | `tr` | `TR` | ❌ | Insufficient funding |
-| Ukrainian | українська | `uk` | `UA` | ❌ | Insufficient funding |
+| Korean | 한국어 | `ko` | `KO` | ❌ | Insufficient token credits |
+| Dutch | Nederlands | `nl` | `NL` | ❌ | Insufficient token credits |
+| Norwegian | norsk | `no` | `NO` | ❌ | Insufficient token credits |
+| Tagalog | Tagalog | `tl` | `PH` | ❌ | Insufficient token credits |
+| Polish | polski | `pl` | `PL` | ❌ | Insufficient token credits |
+| Portuguese (Portugal) | português | `pt` | `PT` | ❌ | Insufficient token credits |
+| Portuguese (Brazil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Insufficient token credits |
+| Romanian | română | `ro` | `RO` | ❌ | Insufficient token credits |
+| Russian | русский | `ru` | `RU` | ❌ | Insufficient token credits |
+| Thai | ภาษาไทย | `th` | `TH` | ❌ | Insufficient token credits |
+| Turkish | Türkçe | `tr` | `TR` | ❌ | Insufficient token credits |
+| Ukrainian | українська | `uk` | `UA` | ❌ | Insufficient token credits |
 
 **Total**: 27 planned languages | **Supported**: 5 | **Pending**: 22
 
@@ -80,6 +80,8 @@ For players who want to use the translation pack in-game:
 We welcome contributions: translation fixes, new features, prompt templates, or reference translations!
 
 LLM API calls cost tokens. Your support helps the project run sustainably!
+
+Read the [Contributing Guide](../contributing/contributing_en.md) for details.
 
 ---
 

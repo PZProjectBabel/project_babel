@@ -27,33 +27,33 @@
 
 | Limbă | Nume local | Cod ISO | Cod în joc | Acceptată | Note |
 |------|------|------|------|------|------|
-| Arabă | العربية | `ar` | `AR` | ❌ | Lipsă de finanțare |
-| Catalană | català | `ca` | `CA` | ❌ | Lipsă de finanțare |
-| Chineză tradițională | 繁體中文 | `zh-hant` | `CH` | ❌ | Lipsă de finanțare |
+| Arabă | العربية | `ar` | `AR` | ❌ | Credite token insuficiente |
+| Catalană | català | `ca` | `CA` | ❌ | Credite token insuficiente |
+| Chineză tradițională | 繁體中文 | `zh-hant` | `CH` | ❌ | Credite token insuficiente |
 | Chineză simplificată | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Cehă | čeština | `cs` | `CS` | ❌ | Lipsă de finanțare |
-| Daneză | dansk | `da` | `DA` | ❌ | Lipsă de finanțare |
+| Cehă | čeština | `cs` | `CS` | ❌ | Credite token insuficiente |
+| Daneză | dansk | `da` | `DA` | ❌ | Credite token insuficiente |
 | Germană | Deutsch | `de` | `DE` | ✅ | |
 | Engleză | English | `en` | `EN` | ✅ | |
-| Spaniolă | español | `es` | `ES` | ❌ | Lipsă de finanțare |
-| Finlandeză | suomi | `fi` | `FI` | ❌ | Lipsă de finanțare |
+| Spaniolă | español | `es` | `ES` | ❌ | Credite token insuficiente |
+| Finlandeză | suomi | `fi` | `FI` | ❌ | Credite token insuficiente |
 | Franceză | français | `fr` | `FR` | ✅ | |
-| Maghiară | magyar | `hu` | `HU` | ❌ | Lipsă de finanțare |
-| Indoneziană | Bahasa Indonesia | `id` | `ID` | ❌ | Lipsă de finanțare |
-| Italiană | italiano | `it` | `IT` | ❌ | Lipsă de finanțare |
+| Maghiară | magyar | `hu` | `HU` | ❌ | Credite token insuficiente |
+| Indoneziană | Bahasa Indonesia | `id` | `ID` | ❌ | Credite token insuficiente |
+| Italiană | italiano | `it` | `IT` | ❌ | Credite token insuficiente |
 | Japoneză | 日本語 | `ja` | `JP` | ✅ | |
-| Coreeană | 한국어 | `ko` | `KO` | ❌ | Lipsă de finanțare |
-| Olandeză | Nederlands | `nl` | `NL` | ❌ | Lipsă de finanțare |
-| Norvegiană | norsk | `no` | `NO` | ❌ | Lipsă de finanțare |
-| Tagalog | Tagalog | `tl` | `PH` | ❌ | Lipsă de finanțare |
-| Poloneză | polski | `pl` | `PL` | ❌ | Lipsă de finanțare |
-| Portugheză (Portugalia) | português | `pt` | `PT` | ❌ | Lipsă de finanțare |
-| Portugheză (Brazilia) | português do Brasil | `pt-br` | `PTBR` | ❌ | Lipsă de finanțare |
-| Română | română | `ro` | `RO` | ❌ | Lipsă de finanțare |
-| Rusă | русский | `ru` | `RU` | ❌ | Lipsă de finanțare |
-| Thailandeză | ภาษาไทย | `th` | `TH` | ❌ | Lipsă de finanțare |
-| Turcă | Türkçe | `tr` | `TR` | ❌ | Lipsă de finanțare |
-| Ucraineană | українська | `uk` | `UA` | ❌ | Lipsă de finanțare |
+| Coreeană | 한국어 | `ko` | `KO` | ❌ | Credite token insuficiente |
+| Olandeză | Nederlands | `nl` | `NL` | ❌ | Credite token insuficiente |
+| Norvegiană | norsk | `no` | `NO` | ❌ | Credite token insuficiente |
+| Tagalog | Tagalog | `tl` | `PH` | ❌ | Credite token insuficiente |
+| Poloneză | polski | `pl` | `PL` | ❌ | Credite token insuficiente |
+| Portugheză (Portugalia) | português | `pt` | `PT` | ❌ | Credite token insuficiente |
+| Portugheză (Brazilia) | português do Brasil | `pt-br` | `PTBR` | ❌ | Credite token insuficiente |
+| Română | română | `ro` | `RO` | ❌ | Credite token insuficiente |
+| Rusă | русский | `ru` | `RU` | ❌ | Credite token insuficiente |
+| Thailandeză | ภาษาไทย | `th` | `TH` | ❌ | Credite token insuficiente |
+| Turcă | Türkçe | `tr` | `TR` | ❌ | Credite token insuficiente |
+| Ucraineană | українська | `uk` | `UA` | ❌ | Credite token insuficiente |
 
 **Total**: 27 de limbi planificate | **Acceptate**: 5 | **În așteptare**: 22
 
@@ -82,6 +82,8 @@ Ghid pentru jucătorii care doresc să folosească pachetul de traducere în joc
 Acceptăm contribuții! Corecturi de traducere, funcții noi, șabloane de prompt sau traduceri de referință.
 
 Apelurile API LLM pentru traducere implică costuri de tokeni. Sprijinul dumneavoastră ajută proiectul să funcționeze sustenabil!
+
+Read the [Contributing Guide](../contributing/contributing_ro.md) for details.
 
 ---
 

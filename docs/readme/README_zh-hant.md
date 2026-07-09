@@ -27,33 +27,33 @@
 
 | 語言 | 本地名 | 國際代碼 | 遊戲內代碼 | 是否支援 | 備註 |
 |------|------|------|------|------|------|
-| 阿拉伯語 | العربية | `ar` | `AR` | ❌ | 經費不足 |
-| 加泰隆尼亞語 | català | `ca` | `CA` | ❌ | 經費不足 |
-| 繁體中文 | 繁體中文 | `zh-hant` | `CH` | ❌ | 經費不足 |
+| 阿拉伯語 | العربية | `ar` | `AR` | ❌ | Token額度不足 |
+| 加泰隆尼亞語 | català | `ca` | `CA` | ❌ | Token額度不足 |
+| 繁體中文 | 繁體中文 | `zh-hant` | `CH` | ❌ | Token額度不足 |
 | 簡體中文 | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| 捷克語 | čeština | `cs` | `CS` | ❌ | 經費不足 |
-| 丹麥語 | dansk | `da` | `DA` | ❌ | 經費不足 |
+| 捷克語 | čeština | `cs` | `CS` | ❌ | Token額度不足 |
+| 丹麥語 | dansk | `da` | `DA` | ❌ | Token額度不足 |
 | 德語 | Deutsch | `de` | `DE` | ✅ | |
 | 英語 | English | `en` | `EN` | ✅ | |
-| 西班牙語 | español | `es` | `ES` | ❌ | 經費不足 |
-| 芬蘭語 | suomi | `fi` | `FI` | ❌ | 經費不足 |
+| 西班牙語 | español | `es` | `ES` | ❌ | Token額度不足 |
+| 芬蘭語 | suomi | `fi` | `FI` | ❌ | Token額度不足 |
 | 法語 | français | `fr` | `FR` | ✅ | |
-| 匈牙利語 | magyar | `hu` | `HU` | ❌ | 經費不足 |
-| 印尼語 | Bahasa Indonesia | `id` | `ID` | ❌ | 經費不足 |
-| 義大利語 | italiano | `it` | `IT` | ❌ | 經費不足 |
+| 匈牙利語 | magyar | `hu` | `HU` | ❌ | Token額度不足 |
+| 印尼語 | Bahasa Indonesia | `id` | `ID` | ❌ | Token額度不足 |
+| 義大利語 | italiano | `it` | `IT` | ❌ | Token額度不足 |
 | 日語 | 日本語 | `ja` | `JP` | ✅ | |
-| 韓語 | 한국어 | `ko` | `KO` | ❌ | 經費不足 |
-| 荷蘭語 | Nederlands | `nl` | `NL` | ❌ | 經費不足 |
-| 挪威語 | norsk | `no` | `NO` | ❌ | 經費不足 |
-| 他加祿語 | Tagalog | `tl` | `PH` | ❌ | 經費不足 |
-| 波蘭語 | polski | `pl` | `PL` | ❌ | 經費不足 |
-| 葡萄牙語（葡萄牙） | português | `pt` | `PT` | ❌ | 經費不足 |
-| 葡萄牙語（巴西） | português do Brasil | `pt-br` | `PTBR` | ❌ | 經費不足 |
-| 羅馬尼亞語 | română | `ro` | `RO` | ❌ | 經費不足 |
-| 俄語 | русский | `ru` | `RU` | ❌ | 經費不足 |
-| 泰語 | ภาษาไทย | `th` | `TH` | ❌ | 經費不足 |
-| 土耳其語 | Türkçe | `tr` | `TR` | ❌ | 經費不足 |
-| 烏克蘭語 | українська | `uk` | `UA` | ❌ | 經費不足 |
+| 韓語 | 한국어 | `ko` | `KO` | ❌ | Token額度不足 |
+| 荷蘭語 | Nederlands | `nl` | `NL` | ❌ | Token額度不足 |
+| 挪威語 | norsk | `no` | `NO` | ❌ | Token額度不足 |
+| 他加祿語 | Tagalog | `tl` | `PH` | ❌ | Token額度不足 |
+| 波蘭語 | polski | `pl` | `PL` | ❌ | Token額度不足 |
+| 葡萄牙語（葡萄牙） | português | `pt` | `PT` | ❌ | Token額度不足 |
+| 葡萄牙語（巴西） | português do Brasil | `pt-br` | `PTBR` | ❌ | Token額度不足 |
+| 羅馬尼亞語 | română | `ro` | `RO` | ❌ | Token額度不足 |
+| 俄語 | русский | `ru` | `RU` | ❌ | Token額度不足 |
+| 泰語 | ภาษาไทย | `th` | `TH` | ❌ | Token額度不足 |
+| 土耳其語 | Türkçe | `tr` | `TR` | ❌ | Token額度不足 |
+| 烏克蘭語 | українська | `uk` | `UA` | ❌ | Token額度不足 |
 
 **總計**：27 種計劃語言 | **已支援**：5 種 | **待支援**：22 種
 
@@ -82,6 +82,8 @@
 歡迎貢獻！翻譯修正、新功能、提示模板或參考翻譯。
 
 呼叫 LLM API 進行翻譯需要支付詞元費用，為了專案能夠長期穩定運作，希望您能慷慨相助！
+
+詳情請閱讀 [貢獻指南](../contributing/contributing_zh-hant.md)
 
 ---
 

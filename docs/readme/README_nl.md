@@ -27,33 +27,33 @@
 
 | Taal | Lokale naam | ISO-code | In-game code | Ondersteund | Opmerking |
 |------|------|------|------|------|------|
-| Arabisch | العربية | `ar` | `AR` | ❌ | Financieringstekort |
-| Catalaans | català | `ca` | `CA` | ❌ | Financieringstekort |
-| Traditioneel Chinees | 繁體中文 | `zh-hant` | `CH` | ❌ | Financieringstekort |
+| Arabisch | العربية | `ar` | `AR` | ❌ | Onvoldoende token-tegoed |
+| Catalaans | català | `ca` | `CA` | ❌ | Onvoldoende token-tegoed |
+| Traditioneel Chinees | 繁體中文 | `zh-hant` | `CH` | ❌ | Onvoldoende token-tegoed |
 | Vereenvoudigd Chinees | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Tsjechisch | čeština | `cs` | `CS` | ❌ | Financieringstekort |
-| Deens | dansk | `da` | `DA` | ❌ | Financieringstekort |
+| Tsjechisch | čeština | `cs` | `CS` | ❌ | Onvoldoende token-tegoed |
+| Deens | dansk | `da` | `DA` | ❌ | Onvoldoende token-tegoed |
 | Duits | Deutsch | `de` | `DE` | ✅ | |
 | Engels | English | `en` | `EN` | ✅ | |
-| Spaans | español | `es` | `ES` | ❌ | Financieringstekort |
-| Fins | suomi | `fi` | `FI` | ❌ | Financieringstekort |
+| Spaans | español | `es` | `ES` | ❌ | Onvoldoende token-tegoed |
+| Fins | suomi | `fi` | `FI` | ❌ | Onvoldoende token-tegoed |
 | Frans | français | `fr` | `FR` | ✅ | |
-| Hongaars | magyar | `hu` | `HU` | ❌ | Financieringstekort |
-| Indonesisch | Bahasa Indonesia | `id` | `ID` | ❌ | Financieringstekort |
-| Italiaans | italiano | `it` | `IT` | ❌ | Financieringstekort |
+| Hongaars | magyar | `hu` | `HU` | ❌ | Onvoldoende token-tegoed |
+| Indonesisch | Bahasa Indonesia | `id` | `ID` | ❌ | Onvoldoende token-tegoed |
+| Italiaans | italiano | `it` | `IT` | ❌ | Onvoldoende token-tegoed |
 | Japans | 日本語 | `ja` | `JP` | ✅ | |
-| Koreaans | 한국어 | `ko` | `KO` | ❌ | Financieringstekort |
-| Nederlands | Nederlands | `nl` | `NL` | ❌ | Financieringstekort |
-| Noors | norsk | `no` | `NO` | ❌ | Financieringstekort |
-| Tagalog | Tagalog | `tl` | `PH` | ❌ | Financieringstekort |
-| Pools | polski | `pl` | `PL` | ❌ | Financieringstekort |
-| Portugees (Portugal) | português | `pt` | `PT` | ❌ | Financieringstekort |
-| Portugees (Brazilië) | português do Brasil | `pt-br` | `PTBR` | ❌ | Financieringstekort |
-| Roemeens | română | `ro` | `RO` | ❌ | Financieringstekort |
-| Russisch | русский | `ru` | `RU` | ❌ | Financieringstekort |
-| Thais | ภาษาไทย | `th` | `TH` | ❌ | Financieringstekort |
-| Turks | Türkçe | `tr` | `TR` | ❌ | Financieringstekort |
-| Oekraïens | українська | `uk` | `UA` | ❌ | Financieringstekort |
+| Koreaans | 한국어 | `ko` | `KO` | ❌ | Onvoldoende token-tegoed |
+| Nederlands | Nederlands | `nl` | `NL` | ❌ | Onvoldoende token-tegoed |
+| Noors | norsk | `no` | `NO` | ❌ | Onvoldoende token-tegoed |
+| Tagalog | Tagalog | `tl` | `PH` | ❌ | Onvoldoende token-tegoed |
+| Pools | polski | `pl` | `PL` | ❌ | Onvoldoende token-tegoed |
+| Portugees (Portugal) | português | `pt` | `PT` | ❌ | Onvoldoende token-tegoed |
+| Portugees (Brazilië) | português do Brasil | `pt-br` | `PTBR` | ❌ | Onvoldoende token-tegoed |
+| Roemeens | română | `ro` | `RO` | ❌ | Onvoldoende token-tegoed |
+| Russisch | русский | `ru` | `RU` | ❌ | Onvoldoende token-tegoed |
+| Thais | ภาษาไทย | `th` | `TH` | ❌ | Onvoldoende token-tegoed |
+| Turks | Türkçe | `tr` | `TR` | ❌ | Onvoldoende token-tegoed |
+| Oekraïens | українська | `uk` | `UA` | ❌ | Onvoldoende token-tegoed |
 
 **Totaal**: 27 geplande talen | **Ondersteund**: 5 | **In afwachting**: 22
 
@@ -82,6 +82,8 @@ Een handleiding voor spelers die het vertaalpakket in de game willen gebruiken.
 We verwelkomen bijdragen! Vertaalcorrecties, nieuwe functies, promptsjablonen of referentievertalingen.
 
 LLM API-aanroepen voor vertaling brengen tokenkosten met zich mee. Uw steun helpt het project duurzaam te draaien!
+
+Read the [Contributing Guide](../contributing/contributing_nl.md) for details.
 
 ---
 

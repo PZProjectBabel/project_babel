@@ -27,33 +27,33 @@
 
 | Dil | Yerel Adı | ISO Kodu | Oyun İçi Kodu | Destekleniyor | Not |
 |------|------|------|------|------|------|
-| Arapça | العربية | `ar` | `AR` | ❌ | Fon eksikliği |
-| Katalanca | català | `ca` | `CA` | ❌ | Fon eksikliği |
-| Geleneksel Çince | 繁體中文 | `zh-hant` | `CH` | ❌ | Fon eksikliği |
+| Arapça | العربية | `ar` | `AR` | ❌ | Token kredisi yetersiz |
+| Katalanca | català | `ca` | `CA` | ❌ | Token kredisi yetersiz |
+| Geleneksel Çince | 繁體中文 | `zh-hant` | `CH` | ❌ | Token kredisi yetersiz |
 | Basitleştirilmiş Çince | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Çekçe | čeština | `cs` | `CS` | ❌ | Fon eksikliği |
-| Danca | dansk | `da` | `DA` | ❌ | Fon eksikliği |
+| Çekçe | čeština | `cs` | `CS` | ❌ | Token kredisi yetersiz |
+| Danca | dansk | `da` | `DA` | ❌ | Token kredisi yetersiz |
 | Almanca | Deutsch | `de` | `DE` | ✅ | |
 | İngilizce | English | `en` | `EN` | ✅ | |
-| İspanyolca | español | `es` | `ES` | ❌ | Fon eksikliği |
-| Fince | suomi | `fi` | `FI` | ❌ | Fon eksikliği |
+| İspanyolca | español | `es` | `ES` | ❌ | Token kredisi yetersiz |
+| Fince | suomi | `fi` | `FI` | ❌ | Token kredisi yetersiz |
 | Fransızca | français | `fr` | `FR` | ✅ | |
-| Macarca | magyar | `hu` | `HU` | ❌ | Fon eksikliği |
-| Endonezce | Bahasa Indonesia | `id` | `ID` | ❌ | Fon eksikliği |
-| İtalyanca | italiano | `it` | `IT` | ❌ | Fon eksikliği |
+| Macarca | magyar | `hu` | `HU` | ❌ | Token kredisi yetersiz |
+| Endonezce | Bahasa Indonesia | `id` | `ID` | ❌ | Token kredisi yetersiz |
+| İtalyanca | italiano | `it` | `IT` | ❌ | Token kredisi yetersiz |
 | Japonca | 日本語 | `ja` | `JP` | ✅ | |
-| Korece | 한국어 | `ko` | `KO` | ❌ | Fon eksikliği |
-| Felemenkçe | Nederlands | `nl` | `NL` | ❌ | Fon eksikliği |
-| Norveççe | norsk | `no` | `NO` | ❌ | Fon eksikliği |
-| Tagalogca | Tagalog | `tl` | `PH` | ❌ | Fon eksikliği |
-| Lehçe | polski | `pl` | `PL` | ❌ | Fon eksikliği |
-| Portekizce (Portekiz) | português | `pt` | `PT` | ❌ | Fon eksikliği |
-| Portekizce (Brezilya) | português do Brasil | `pt-br` | `PTBR` | ❌ | Fon eksikliği |
-| Romence | română | `ro` | `RO` | ❌ | Fon eksikliği |
-| Rusça | русский | `ru` | `RU` | ❌ | Fon eksikliği |
-| Tayca | ภาษาไทย | `th` | `TH` | ❌ | Fon eksikliği |
-| Türkçe | Türkçe | `tr` | `TR` | ❌ | Fon eksikliği |
-| Ukraynaca | українська | `uk` | `UA` | ❌ | Fon eksikliği |
+| Korece | 한국어 | `ko` | `KO` | ❌ | Token kredisi yetersiz |
+| Felemenkçe | Nederlands | `nl` | `NL` | ❌ | Token kredisi yetersiz |
+| Norveççe | norsk | `no` | `NO` | ❌ | Token kredisi yetersiz |
+| Tagalogca | Tagalog | `tl` | `PH` | ❌ | Token kredisi yetersiz |
+| Lehçe | polski | `pl` | `PL` | ❌ | Token kredisi yetersiz |
+| Portekizce (Portekiz) | português | `pt` | `PT` | ❌ | Token kredisi yetersiz |
+| Portekizce (Brezilya) | português do Brasil | `pt-br` | `PTBR` | ❌ | Token kredisi yetersiz |
+| Romence | română | `ro` | `RO` | ❌ | Token kredisi yetersiz |
+| Rusça | русский | `ru` | `RU` | ❌ | Token kredisi yetersiz |
+| Tayca | ภาษาไทย | `th` | `TH` | ❌ | Token kredisi yetersiz |
+| Türkçe | Türkçe | `tr` | `TR` | ❌ | Token kredisi yetersiz |
+| Ukraynaca | українська | `uk` | `UA` | ❌ | Token kredisi yetersiz |
 
 **Toplam**: 27 planlanan dil | **Desteklenen**: 5 | **Beklemede**: 22
 
@@ -82,6 +82,8 @@ Oyun içinde çeviri paketini kullanmak isteyen oyuncular için bir rehber.
 Katkılarınızı bekliyoruz! Çeviri düzeltmeleri, yeni özellikler, istem şablonları veya referans çeviriler.
 
 LLM API çeviri çağrıları token maliyeti gerektirir. Desteğiniz projenin sürdürülebilir şekilde çalışmasına yardımcı olur!
+
+Read the [Contributing Guide](../contributing/contributing_tr.md) for details.
 
 ---
 

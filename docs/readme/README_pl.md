@@ -27,33 +27,33 @@
 
 | Język | Nazwa lokalna | Kod ISO | Kod w grze | Obsługiwany | Uwagi |
 |------|------|------|------|------|------|
-| Arabski | العربية | `ar` | `AR` | ❌ | Brak funduszy |
-| Kataloński | català | `ca` | `CA` | ❌ | Brak funduszy |
-| Tradycyjny chiński | 繁體中文 | `zh-hant` | `CH` | ❌ | Brak funduszy |
+| Arabski | العربية | `ar` | `AR` | ❌ | Niewystarczające tokeny |
+| Kataloński | català | `ca` | `CA` | ❌ | Niewystarczające tokeny |
+| Tradycyjny chiński | 繁體中文 | `zh-hant` | `CH` | ❌ | Niewystarczające tokeny |
 | Uproszczony chiński | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Czeski | čeština | `cs` | `CS` | ❌ | Brak funduszy |
-| Duński | dansk | `da` | `DA` | ❌ | Brak funduszy |
+| Czeski | čeština | `cs` | `CS` | ❌ | Niewystarczające tokeny |
+| Duński | dansk | `da` | `DA` | ❌ | Niewystarczające tokeny |
 | Niemiecki | Deutsch | `de` | `DE` | ✅ | |
 | Angielski | English | `en` | `EN` | ✅ | |
-| Hiszpański | español | `es` | `ES` | ❌ | Brak funduszy |
-| Fiński | suomi | `fi` | `FI` | ❌ | Brak funduszy |
+| Hiszpański | español | `es` | `ES` | ❌ | Niewystarczające tokeny |
+| Fiński | suomi | `fi` | `FI` | ❌ | Niewystarczające tokeny |
 | Francuski | français | `fr` | `FR` | ✅ | |
-| Węgierski | magyar | `hu` | `HU` | ❌ | Brak funduszy |
-| Indonezyjski | Bahasa Indonesia | `id` | `ID` | ❌ | Brak funduszy |
-| Włoski | italiano | `it` | `IT` | ❌ | Brak funduszy |
+| Węgierski | magyar | `hu` | `HU` | ❌ | Niewystarczające tokeny |
+| Indonezyjski | Bahasa Indonesia | `id` | `ID` | ❌ | Niewystarczające tokeny |
+| Włoski | italiano | `it` | `IT` | ❌ | Niewystarczające tokeny |
 | Japoński | 日本語 | `ja` | `JP` | ✅ | |
-| Koreański | 한국어 | `ko` | `KO` | ❌ | Brak funduszy |
-| Holenderski | Nederlands | `nl` | `NL` | ❌ | Brak funduszy |
-| Norweski | norsk | `no` | `NO` | ❌ | Brak funduszy |
-| Tagalski | Tagalog | `tl` | `PH` | ❌ | Brak funduszy |
-| Polski | polski | `pl` | `PL` | ❌ | Brak funduszy |
-| Portugalski (Portugalia) | português | `pt` | `PT` | ❌ | Brak funduszy |
-| Portugalski (Brazylia) | português do Brasil | `pt-br` | `PTBR` | ❌ | Brak funduszy |
-| Rumuński | română | `ro` | `RO` | ❌ | Brak funduszy |
-| Rosyjski | русский | `ru` | `RU` | ❌ | Brak funduszy |
-| Tajski | ภาษาไทย | `th` | `TH` | ❌ | Brak funduszy |
-| Turecki | Türkçe | `tr` | `TR` | ❌ | Brak funduszy |
-| Ukraiński | українська | `uk` | `UA` | ❌ | Brak funduszy |
+| Koreański | 한국어 | `ko` | `KO` | ❌ | Niewystarczające tokeny |
+| Holenderski | Nederlands | `nl` | `NL` | ❌ | Niewystarczające tokeny |
+| Norweski | norsk | `no` | `NO` | ❌ | Niewystarczające tokeny |
+| Tagalski | Tagalog | `tl` | `PH` | ❌ | Niewystarczające tokeny |
+| Polski | polski | `pl` | `PL` | ❌ | Niewystarczające tokeny |
+| Portugalski (Portugalia) | português | `pt` | `PT` | ❌ | Niewystarczające tokeny |
+| Portugalski (Brazylia) | português do Brasil | `pt-br` | `PTBR` | ❌ | Niewystarczające tokeny |
+| Rumuński | română | `ro` | `RO` | ❌ | Niewystarczające tokeny |
+| Rosyjski | русский | `ru` | `RU` | ❌ | Niewystarczające tokeny |
+| Tajski | ภาษาไทย | `th` | `TH` | ❌ | Niewystarczające tokeny |
+| Turecki | Türkçe | `tr` | `TR` | ❌ | Niewystarczające tokeny |
+| Ukraiński | українська | `uk` | `UA` | ❌ | Niewystarczające tokeny |
 
 **Łącznie**: 27 planowanych języków | **Obsługiwane**: 5 | **Oczekujące**: 22
 
@@ -82,6 +82,8 @@ Przewodnik dla graczy, którzy chcą używać pakietu tłumaczeniowego w grze.
 Zapraszamy do współpracy! Poprawki tłumaczeń, nowe funkcje, szablony promptów lub tłumaczenia referencyjne.
 
 Wywołania API LLM do tłumaczenia wiążą się z kosztami tokenów. Twoje wsparcie pomaga projektowi działać w sposób zrównoważony!
+
+Read the [Contributing Guide](../contributing/contributing_pl.md) for details.
 
 ---
 

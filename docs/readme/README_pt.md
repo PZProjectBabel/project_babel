@@ -27,33 +27,33 @@
 
 | Língua | Nome local | Código ISO | Código no jogo | Suportada | Notas |
 |------|------|------|------|------|------|
-| Árabe | العربية | `ar` | `AR` | ❌ | Falta de financiamento |
-| Catalão | català | `ca` | `CA` | ❌ | Falta de financiamento |
-| Chinês tradicional | 繁體中文 | `zh-hant` | `CH` | ❌ | Falta de financiamento |
+| Árabe | العربية | `ar` | `AR` | ❌ | Créditos de tokens insuficientes |
+| Catalão | català | `ca` | `CA` | ❌ | Créditos de tokens insuficientes |
+| Chinês tradicional | 繁體中文 | `zh-hant` | `CH` | ❌ | Créditos de tokens insuficientes |
 | Chinês simplificado | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Checo | čeština | `cs` | `CS` | ❌ | Falta de financiamento |
-| Dinamarquês | dansk | `da` | `DA` | ❌ | Falta de financiamento |
+| Checo | čeština | `cs` | `CS` | ❌ | Créditos de tokens insuficientes |
+| Dinamarquês | dansk | `da` | `DA` | ❌ | Créditos de tokens insuficientes |
 | Alemão | Deutsch | `de` | `DE` | ✅ | |
 | Inglês | English | `en` | `EN` | ✅ | |
-| Espanhol | español | `es` | `ES` | ❌ | Falta de financiamento |
-| Finlandês | suomi | `fi` | `FI` | ❌ | Falta de financiamento |
+| Espanhol | español | `es` | `ES` | ❌ | Créditos de tokens insuficientes |
+| Finlandês | suomi | `fi` | `FI` | ❌ | Créditos de tokens insuficientes |
 | Francês | français | `fr` | `FR` | ✅ | |
-| Húngaro | magyar | `hu` | `HU` | ❌ | Falta de financiamento |
-| Indonésio | Bahasa Indonesia | `id` | `ID` | ❌ | Falta de financiamento |
-| Italiano | italiano | `it` | `IT` | ❌ | Falta de financiamento |
+| Húngaro | magyar | `hu` | `HU` | ❌ | Créditos de tokens insuficientes |
+| Indonésio | Bahasa Indonesia | `id` | `ID` | ❌ | Créditos de tokens insuficientes |
+| Italiano | italiano | `it` | `IT` | ❌ | Créditos de tokens insuficientes |
 | Japonês | 日本語 | `ja` | `JP` | ✅ | |
-| Coreano | 한국어 | `ko` | `KO` | ❌ | Falta de financiamento |
-| Neerlandês | Nederlands | `nl` | `NL` | ❌ | Falta de financiamento |
-| Norueguês | norsk | `no` | `NO` | ❌ | Falta de financiamento |
-| Tagalo | Tagalog | `tl` | `PH` | ❌ | Falta de financiamento |
-| Polaco | polski | `pl` | `PL` | ❌ | Falta de financiamento |
-| Português (Portugal) | português | `pt` | `PT` | ❌ | Falta de financiamento |
-| Português (Brasil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Falta de financiamento |
-| Romeno | română | `ro` | `RO` | ❌ | Falta de financiamento |
-| Russo | русский | `ru` | `RU` | ❌ | Falta de financiamento |
-| Tailandês | ภาษาไทย | `th` | `TH` | ❌ | Falta de financiamento |
-| Turco | Türkçe | `tr` | `TR` | ❌ | Falta de financiamento |
-| Ucraniano | українська | `uk` | `UA` | ❌ | Falta de financiamento |
+| Coreano | 한국어 | `ko` | `KO` | ❌ | Créditos de tokens insuficientes |
+| Neerlandês | Nederlands | `nl` | `NL` | ❌ | Créditos de tokens insuficientes |
+| Norueguês | norsk | `no` | `NO` | ❌ | Créditos de tokens insuficientes |
+| Tagalo | Tagalog | `tl` | `PH` | ❌ | Créditos de tokens insuficientes |
+| Polaco | polski | `pl` | `PL` | ❌ | Créditos de tokens insuficientes |
+| Português (Portugal) | português | `pt` | `PT` | ❌ | Créditos de tokens insuficientes |
+| Português (Brasil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Créditos de tokens insuficientes |
+| Romeno | română | `ro` | `RO` | ❌ | Créditos de tokens insuficientes |
+| Russo | русский | `ru` | `RU` | ❌ | Créditos de tokens insuficientes |
+| Tailandês | ภาษาไทย | `th` | `TH` | ❌ | Créditos de tokens insuficientes |
+| Turco | Türkçe | `tr` | `TR` | ❌ | Créditos de tokens insuficientes |
+| Ucraniano | українська | `uk` | `UA` | ❌ | Créditos de tokens insuficientes |
 
 **Total**: 27 línguas planeadas | **Suportadas**: 5 | **Pendentes**: 22
 
@@ -82,6 +82,8 @@ Guia para jogadores que desejam usar o pacote de tradução no jogo.
 Aceitamos contribuições! Correções de tradução, novas funcionalidades, modelos de prompt ou traduções de referência.
 
 As chamadas à API LLM para tradução geram custos de tokens. O seu apoio ajuda o projeto a funcionar de forma sustentável!
+
+Read the [Contributing Guide](../contributing/contributing_pt.md) for details.
 
 ---
 

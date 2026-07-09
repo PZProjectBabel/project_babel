@@ -27,33 +27,33 @@
 
 | Bahasa | Nama Lokal | Kode ISO | Kode Dalam Game | Didukung | Catatan |
 |------|------|------|------|------|------|
-| Arab | العربية | `ar` | `AR` | ❌ | Kekurangan dana |
-| Katalan | català | `ca` | `CA` | ❌ | Kekurangan dana |
-| Tionghoa Tradisional | 繁體中文 | `zh-hant` | `CH` | ❌ | Kekurangan dana |
+| Arab | العربية | `ar` | `AR` | ❌ | Kredit token tidak mencukupi |
+| Katalan | català | `ca` | `CA` | ❌ | Kredit token tidak mencukupi |
+| Tionghoa Tradisional | 繁體中文 | `zh-hant` | `CH` | ❌ | Kredit token tidak mencukupi |
 | Tionghoa Sederhana | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Ceko | čeština | `cs` | `CS` | ❌ | Kekurangan dana |
-| Denmark | dansk | `da` | `DA` | ❌ | Kekurangan dana |
+| Ceko | čeština | `cs` | `CS` | ❌ | Kredit token tidak mencukupi |
+| Denmark | dansk | `da` | `DA` | ❌ | Kredit token tidak mencukupi |
 | Jerman | Deutsch | `de` | `DE` | ✅ | |
 | Inggris | English | `en` | `EN` | ✅ | |
-| Spanyol | español | `es` | `ES` | ❌ | Kekurangan dana |
-| Finlandia | suomi | `fi` | `FI` | ❌ | Kekurangan dana |
+| Spanyol | español | `es` | `ES` | ❌ | Kredit token tidak mencukupi |
+| Finlandia | suomi | `fi` | `FI` | ❌ | Kredit token tidak mencukupi |
 | Prancis | français | `fr` | `FR` | ✅ | |
-| Hungaria | magyar | `hu` | `HU` | ❌ | Kekurangan dana |
-| Indonesia | Bahasa Indonesia | `id` | `ID` | ❌ | Kekurangan dana |
-| Italia | italiano | `it` | `IT` | ❌ | Kekurangan dana |
+| Hungaria | magyar | `hu` | `HU` | ❌ | Kredit token tidak mencukupi |
+| Indonesia | Bahasa Indonesia | `id` | `ID` | ❌ | Kredit token tidak mencukupi |
+| Italia | italiano | `it` | `IT` | ❌ | Kredit token tidak mencukupi |
 | Jepang | 日本語 | `ja` | `JP` | ✅ | |
-| Korea | 한국어 | `ko` | `KO` | ❌ | Kekurangan dana |
-| Belanda | Nederlands | `nl` | `NL` | ❌ | Kekurangan dana |
-| Norwegia | norsk | `no` | `NO` | ❌ | Kekurangan dana |
-| Tagalog | Tagalog | `tl` | `PH` | ❌ | Kekurangan dana |
-| Polandia | polski | `pl` | `PL` | ❌ | Kekurangan dana |
-| Portugis (Portugal) | português | `pt` | `PT` | ❌ | Kekurangan dana |
-| Portugis (Brasil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Kekurangan dana |
-| Rumania | română | `ro` | `RO` | ❌ | Kekurangan dana |
-| Rusia | русский | `ru` | `RU` | ❌ | Kekurangan dana |
-| Thailand | ภาษาไทย | `th` | `TH` | ❌ | Kekurangan dana |
-| Turki | Türkçe | `tr` | `TR` | ❌ | Kekurangan dana |
-| Ukraina | українська | `uk` | `UA` | ❌ | Kekurangan dana |
+| Korea | 한국어 | `ko` | `KO` | ❌ | Kredit token tidak mencukupi |
+| Belanda | Nederlands | `nl` | `NL` | ❌ | Kredit token tidak mencukupi |
+| Norwegia | norsk | `no` | `NO` | ❌ | Kredit token tidak mencukupi |
+| Tagalog | Tagalog | `tl` | `PH` | ❌ | Kredit token tidak mencukupi |
+| Polandia | polski | `pl` | `PL` | ❌ | Kredit token tidak mencukupi |
+| Portugis (Portugal) | português | `pt` | `PT` | ❌ | Kredit token tidak mencukupi |
+| Portugis (Brasil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Kredit token tidak mencukupi |
+| Rumania | română | `ro` | `RO` | ❌ | Kredit token tidak mencukupi |
+| Rusia | русский | `ru` | `RU` | ❌ | Kredit token tidak mencukupi |
+| Thailand | ภาษาไทย | `th` | `TH` | ❌ | Kredit token tidak mencukupi |
+| Turki | Türkçe | `tr` | `TR` | ❌ | Kredit token tidak mencukupi |
+| Ukraina | українська | `uk` | `UA` | ❌ | Kredit token tidak mencukupi |
 
 **Total**: 27 bahasa yang direncanakan | **Didukung**: 5 | **Tertunda**: 22
 
@@ -82,6 +82,8 @@ Panduan untuk pemain yang ingin menggunakan paket terjemahan dalam game.
 Kami menerima kontribusi: perbaikan terjemahan, fitur baru, templat prompt, atau terjemahan referensi.
 
 Panggilan API LLM untuk terjemahan memerlukan biaya token. Dukungan Anda membantu proyek berjalan berkelanjutan!
+
+Read the [Contributing Guide](../contributing/contributing_id.md) for details.
 
 ---
 

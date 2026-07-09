@@ -27,33 +27,33 @@
 
 | Sprog | Lokalt navn | ISO-kode | Kode i spillet | Understøttet | Bemærkning |
 |------|------|------|------|------|------|
-| Arabisk | العربية | `ar` | `AR` | ❌ | Manglende finansiering |
-| Catalansk | català | `ca` | `CA` | ❌ | Manglende finansiering |
-| Traditionelt kinesisk | 繁體中文 | `zh-hant` | `CH` | ❌ | Manglende finansiering |
+| Arabisk | العربية | `ar` | `AR` | ❌ | Manglende token-kreditter |
+| Catalansk | català | `ca` | `CA` | ❌ | Manglende token-kreditter |
+| Traditionelt kinesisk | 繁體中文 | `zh-hant` | `CH` | ❌ | Manglende token-kreditter |
 | Forenklet kinesisk | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Tjekkisk | čeština | `cs` | `CS` | ❌ | Manglende finansiering |
-| Dansk | dansk | `da` | `DA` | ❌ | Manglende finansiering |
+| Tjekkisk | čeština | `cs` | `CS` | ❌ | Manglende token-kreditter |
+| Dansk | dansk | `da` | `DA` | ❌ | Manglende token-kreditter |
 | Tysk | Deutsch | `de` | `DE` | ✅ | |
 | Engelsk | English | `en` | `EN` | ✅ | |
-| Spansk | español | `es` | `ES` | ❌ | Manglende finansiering |
-| Finsk | suomi | `fi` | `FI` | ❌ | Manglende finansiering |
+| Spansk | español | `es` | `ES` | ❌ | Manglende token-kreditter |
+| Finsk | suomi | `fi` | `FI` | ❌ | Manglende token-kreditter |
 | Fransk | français | `fr` | `FR` | ✅ | |
-| Ungarsk | magyar | `hu` | `HU` | ❌ | Manglende finansiering |
-| Indonesisk | Bahasa Indonesia | `id` | `ID` | ❌ | Manglende finansiering |
-| Italiensk | italiano | `it` | `IT` | ❌ | Manglende finansiering |
+| Ungarsk | magyar | `hu` | `HU` | ❌ | Manglende token-kreditter |
+| Indonesisk | Bahasa Indonesia | `id` | `ID` | ❌ | Manglende token-kreditter |
+| Italiensk | italiano | `it` | `IT` | ❌ | Manglende token-kreditter |
 | Japansk | 日本語 | `ja` | `JP` | ✅ | |
-| Koreansk | 한국어 | `ko` | `KO` | ❌ | Manglende finansiering |
-| Nederlandsk | Nederlands | `nl` | `NL` | ❌ | Manglende finansiering |
-| Norsk | norsk | `no` | `NO` | ❌ | Manglende finansiering |
-| Tagalog | Tagalog | `tl` | `PH` | ❌ | Manglende finansiering |
-| Polsk | polski | `pl` | `PL` | ❌ | Manglende finansiering |
-| Portugisisk (Portugal) | português | `pt` | `PT` | ❌ | Manglende finansiering |
-| Portugisisk (Brasilien) | português do Brasil | `pt-br` | `PTBR` | ❌ | Manglende finansiering |
-| Rumænsk | română | `ro` | `RO` | ❌ | Manglende finansiering |
-| Russisk | русский | `ru` | `RU` | ❌ | Manglende finansiering |
-| Thailandsk | ภาษาไทย | `th` | `TH` | ❌ | Manglende finansiering |
-| Tyrkisk | Türkçe | `tr` | `TR` | ❌ | Manglende finansiering |
-| Ukrainsk | українська | `uk` | `UA` | ❌ | Manglende finansiering |
+| Koreansk | 한국어 | `ko` | `KO` | ❌ | Manglende token-kreditter |
+| Nederlandsk | Nederlands | `nl` | `NL` | ❌ | Manglende token-kreditter |
+| Norsk | norsk | `no` | `NO` | ❌ | Manglende token-kreditter |
+| Tagalog | Tagalog | `tl` | `PH` | ❌ | Manglende token-kreditter |
+| Polsk | polski | `pl` | `PL` | ❌ | Manglende token-kreditter |
+| Portugisisk (Portugal) | português | `pt` | `PT` | ❌ | Manglende token-kreditter |
+| Portugisisk (Brasilien) | português do Brasil | `pt-br` | `PTBR` | ❌ | Manglende token-kreditter |
+| Rumænsk | română | `ro` | `RO` | ❌ | Manglende token-kreditter |
+| Russisk | русский | `ru` | `RU` | ❌ | Manglende token-kreditter |
+| Thailandsk | ภาษาไทย | `th` | `TH` | ❌ | Manglende token-kreditter |
+| Tyrkisk | Türkçe | `tr` | `TR` | ❌ | Manglende token-kreditter |
+| Ukrainsk | українська | `uk` | `UA` | ❌ | Manglende token-kreditter |
 
 **I alt**: 27 planlagte sprog | **Understøttet**: 5 | **Afventer**: 22
 
@@ -82,6 +82,8 @@ En guide til spillere, der vil bruge oversættelsespakken i spillet.
 Vi byder bidrag velkommen! Oversættelsesrettelser, nye funktioner, promptskabeloner eller referenceoversættelser.
 
 LLM API-kald til oversættelse medfører token-omkostninger. Din støtte hjælper projektet med at køre bæredygtigt!
+
+Read the [Contributing Guide](../contributing/contributing_da.md) for details.
 
 ---
 

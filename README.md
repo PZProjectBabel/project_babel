@@ -25,33 +25,33 @@
 
 | 语言 | 本地名 | 国际代码 | 游戏内代码 | 是否支持 | 备注 |
 |------|------|------|------|------|------|
-| 阿拉伯语 | العربية | `ar` | `AR` | ❌ | 经费不足 |
-| 加泰罗尼亚语 | català | `ca` | `CA` | ❌ | 经费不足 |
-| 繁体中文 | 繁體中文 | `zh-hant` | `CH` | ❌ | 经费不足 |
+| 阿拉伯语 | العربية | `ar` | `AR` | ❌ | Token额度不足 |
+| 加泰罗尼亚语 | català | `ca` | `CA` | ❌ | Token额度不足 |
+| 繁体中文 | 繁體中文 | `zh-hant` | `CH` | ❌ | Token额度不足 |
 | 简体中文 | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| 捷克语 | čeština | `cs` | `CS` | ❌ | 经费不足 |
-| 丹麦语 | dansk | `da` | `DA` | ❌ | 经费不足 |
+| 捷克语 | čeština | `cs` | `CS` | ❌ | Token额度不足 |
+| 丹麦语 | dansk | `da` | `DA` | ❌ | Token额度不足 |
 | 德语 | Deutsch | `de` | `DE` | ✅ | |
 | 英语 | English | `en` | `EN` | ✅ | |
-| 西班牙语 | español | `es` | `ES` | ❌ | 经费不足 |
-| 芬兰语 | suomi | `fi` | `FI` | ❌ | 经费不足 |
+| 西班牙语 | español | `es` | `ES` | ❌ | Token额度不足 |
+| 芬兰语 | suomi | `fi` | `FI` | ❌ | Token额度不足 |
 | 法语 | français | `fr` | `FR` | ✅ | |
-| 匈牙利语 | magyar | `hu` | `HU` | ❌ | 经费不足 |
-| 印尼语 | Bahasa Indonesia | `id` | `ID` | ❌ | 经费不足 |
-| 意大利语 | italiano | `it` | `IT` | ❌ | 经费不足 |
+| 匈牙利语 | magyar | `hu` | `HU` | ❌ | Token额度不足 |
+| 印尼语 | Bahasa Indonesia | `id` | `ID` | ❌ | Token额度不足 |
+| 意大利语 | italiano | `it` | `IT` | ❌ | Token额度不足 |
 | 日语 | 日本語 | `ja` | `JP` | ✅ | |
-| 韩语 | 한국어 | `ko` | `KO` | ❌ | 经费不足 |
-| 荷兰语 | Nederlands | `nl` | `NL` | ❌ | 经费不足 |
-| 挪威语 | norsk | `no` | `NO` | ❌ | 经费不足 |
-| 他加禄语 | Tagalog | `tl` | `PH` | ❌ | 经费不足 |
-| 波兰语 | polski | `pl` | `PL` | ❌ | 经费不足 |
-| 葡萄牙语（葡萄牙） | português | `pt` | `PT` | ❌ | 经费不足 |
-| 葡萄牙语（巴西） | português do Brasil | `pt-br` | `PTBR` | ❌ | 经费不足 |
-| 罗马尼亚语 | română | `ro` | `RO` | ❌ | 经费不足 |
-| 俄语 | русский | `ru` | `RU` | ❌ | 经费不足 |
-| 泰语 | ภาษาไทย | `th` | `TH` | ❌ | 经费不足 |
-| 土耳其语 | Türkçe | `tr` | `TR` | ❌ | 经费不足 |
-| 乌克兰语 | українська | `uk` | `UA` | ❌ | 经费不足 |
+| 韩语 | 한국어 | `ko` | `KO` | ❌ | Token额度不足 |
+| 荷兰语 | Nederlands | `nl` | `NL` | ❌ | Token额度不足 |
+| 挪威语 | norsk | `no` | `NO` | ❌ | Token额度不足 |
+| 他加禄语 | Tagalog | `tl` | `PH` | ❌ | Token额度不足 |
+| 波兰语 | polski | `pl` | `PL` | ❌ | Token额度不足 |
+| 葡萄牙语（葡萄牙） | português | `pt` | `PT` | ❌ | Token额度不足 |
+| 葡萄牙语（巴西） | português do Brasil | `pt-br` | `PTBR` | ❌ | Token额度不足 |
+| 罗马尼亚语 | română | `ro` | `RO` | ❌ | Token额度不足 |
+| 俄语 | русский | `ru` | `RU` | ❌ | Token额度不足 |
+| 泰语 | ภาษาไทย | `th` | `TH` | ❌ | Token额度不足 |
+| 土耳其语 | Türkçe | `tr` | `TR` | ❌ | Token额度不足 |
+| 乌克兰语 | українська | `uk` | `UA` | ❌ | Token额度不足 |
 
 **总计**：27 种计划语言 | **已支持**：5 种 | **待支持**：22 种
 

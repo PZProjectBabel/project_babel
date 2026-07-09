@@ -25,33 +25,33 @@
 
 | Langue | Nom local | Code ISO | Code en jeu | Prise en charge | Remarque |
 |------|------|------|------|------|------|
-| Arabe | العربية | `ar` | `AR` | ❌ | Manque de financement |
-| Catalan | català | `ca` | `CA` | ❌ | Manque de financement |
-| Chinois traditionnel | 繁體中文 | `zh-hant` | `CH` | ❌ | Manque de financement |
+| Arabe | العربية | `ar` | `AR` | ❌ | Crédits de tokens insuffisants |
+| Catalan | català | `ca` | `CA` | ❌ | Crédits de tokens insuffisants |
+| Chinois traditionnel | 繁體中文 | `zh-hant` | `CH` | ❌ | Crédits de tokens insuffisants |
 | Chinois simplifié | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Tchèque | čeština | `cs` | `CS` | ❌ | Manque de financement |
-| Danois | dansk | `da` | `DA` | ❌ | Manque de financement |
+| Tchèque | čeština | `cs` | `CS` | ❌ | Crédits de tokens insuffisants |
+| Danois | dansk | `da` | `DA` | ❌ | Crédits de tokens insuffisants |
 | Allemand | Deutsch | `de` | `DE` | ✅ | |
 | Anglais | English | `en` | `EN` | ✅ | |
-| Espagnol | español | `es` | `ES` | ❌ | Manque de financement |
-| Finnois | suomi | `fi` | `FI` | ❌ | Manque de financement |
+| Espagnol | español | `es` | `ES` | ❌ | Crédits de tokens insuffisants |
+| Finnois | suomi | `fi` | `FI` | ❌ | Crédits de tokens insuffisants |
 | Français | français | `fr` | `FR` | ✅ | |
-| Hongrois | magyar | `hu` | `HU` | ❌ | Manque de financement |
-| Indonésien | Bahasa Indonesia | `id` | `ID` | ❌ | Manque de financement |
-| Italien | italiano | `it` | `IT` | ❌ | Manque de financement |
+| Hongrois | magyar | `hu` | `HU` | ❌ | Crédits de tokens insuffisants |
+| Indonésien | Bahasa Indonesia | `id` | `ID` | ❌ | Crédits de tokens insuffisants |
+| Italien | italiano | `it` | `IT` | ❌ | Crédits de tokens insuffisants |
 | Japonais | 日本語 | `ja` | `JP` | ✅ | |
-| Coréen | 한국어 | `ko` | `KO` | ❌ | Manque de financement |
-| Néerlandais | Nederlands | `nl` | `NL` | ❌ | Manque de financement |
-| Norvégien | norsk | `no` | `NO` | ❌ | Manque de financement |
-| Tagalog | Tagalog | `tl` | `PH` | ❌ | Manque de financement |
-| Polonais | polski | `pl` | `PL` | ❌ | Manque de financement |
-| Portugais (Portugal) | português | `pt` | `PT` | ❌ | Manque de financement |
-| Portugais (Brésil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Manque de financement |
-| Roumain | română | `ro` | `RO` | ❌ | Manque de financement |
-| Russe | русский | `ru` | `RU` | ❌ | Manque de financement |
-| Thaï | ภาษาไทย | `th` | `TH` | ❌ | Manque de financement |
-| Turc | Türkçe | `tr` | `TR` | ❌ | Manque de financement |
-| Ukrainien | українська | `uk` | `UA` | ❌ | Manque de financement |
+| Coréen | 한국어 | `ko` | `KO` | ❌ | Crédits de tokens insuffisants |
+| Néerlandais | Nederlands | `nl` | `NL` | ❌ | Crédits de tokens insuffisants |
+| Norvégien | norsk | `no` | `NO` | ❌ | Crédits de tokens insuffisants |
+| Tagalog | Tagalog | `tl` | `PH` | ❌ | Crédits de tokens insuffisants |
+| Polonais | polski | `pl` | `PL` | ❌ | Crédits de tokens insuffisants |
+| Portugais (Portugal) | português | `pt` | `PT` | ❌ | Crédits de tokens insuffisants |
+| Portugais (Brésil) | português do Brasil | `pt-br` | `PTBR` | ❌ | Crédits de tokens insuffisants |
+| Roumain | română | `ro` | `RO` | ❌ | Crédits de tokens insuffisants |
+| Russe | русский | `ru` | `RU` | ❌ | Crédits de tokens insuffisants |
+| Thaï | ภาษาไทย | `th` | `TH` | ❌ | Crédits de tokens insuffisants |
+| Turc | Türkçe | `tr` | `TR` | ❌ | Crédits de tokens insuffisants |
+| Ukrainien | українська | `uk` | `UA` | ❌ | Crédits de tokens insuffisants |
 
 **Total** : 27 langues planifiées | **Prises en charge** : 5 | **En attente** : 22
 
@@ -80,6 +80,8 @@ Guide pour les joueurs souhaitant utiliser le pack de traduction en jeu.
 Nous acceptons les contributions : corrections de traduction, nouvelles fonctionnalités, modèles de prompts ou traductions de référence !
 
 L'appel aux API LLM pour la traduction génère des coûts de tokens. Votre soutien aide le projet à fonctionner durablement !
+
+Lisez le [Guide de Contribution](../contributing/contributing_fr.md) pour plus de détails.
 
 ---
 
