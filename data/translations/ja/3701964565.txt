@@ -1,6 +1,12 @@
 IGUI_RSF_CaffeineKick::en = "Caffeine kick!",
 IGUI_RSF_CaffeineKick::ja::processed::unverified = "カフェインキック！",
-IGUI_RSF_ClassNotInstalled::en = "",
+IGUI_RSF_ClassNotInstalled::en = "Realistic Strength & Fitness is not properly installed. 
+The file 'ItemContainer.class' is missing from your game directory. 
+
+Copy the 'zombie' folder from the RSF mod 
+(Workshop/RealisticStrengthFitness/Contents) 
+into your Project Zomboid game folder 
+(where ProjectZomboid64.exe is), then restart the game.",
 IGUI_RSF_ClassNotInstalled::ja::processed::unverified = "現実的な筋力と体力（Realistic Strength & Fitness）が正しくインストールされていません。ファイル 'ItemContainer.class' がゲームディレクトリに見つかりません。RSF mod の 'zombie' フォルダを (Workshop/RealisticStrengthFitness/Contents) から Project Zomboid のゲームフォルダ (ProjectZomboid64.exe がある場所) にコピーし、ゲームを再起動してください。",
 ItemName_PZCh.Flamespray::en = "Flamespray (Improvised)",
 ItemName_PZCh.Flamespray::ja::processed::unverified = "即席火炎スプレー",

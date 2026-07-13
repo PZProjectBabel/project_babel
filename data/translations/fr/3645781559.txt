@@ -178,22 +178,196 @@ UI_VorpallySauced_Bonding_oftheWielder::en = "of the Wielder",
 UI_VorpallySauced_Bonding_oftheWielder::fr::processed::unverified = "du Manieur",
 UI_VorpallySauced_ButtonClose::en = "Close",
 UI_VorpallySauced_ButtonClose::fr::processed::unverified = "Fermer",
-UI_VorpallySauced_CompIntro_I::en = "",
-UI_VorpallySauced_CompIntro_I::fr::processed::unverified = "",
-UI_VorpallySauced_CompIntro_II::en = "",
-UI_VorpallySauced_CompIntro_II::fr::processed::unverified = "",
-UI_VorpallySauced_CompIntro_III::en = "",
-UI_VorpallySauced_CompIntro_III::fr::processed::unverified = "",
-UI_VorpallySauced_CompIntro_IV::en = "",
-UI_VorpallySauced_CompIntro_IV::fr::processed::unverified = "",
-UI_VorpallySauced_CompIntro_V::en = "",
-UI_VorpallySauced_CompIntro_V::fr::processed::unverified = "",
-UI_VorpallySauced_CompIntro_VI::en = "",
-UI_VorpallySauced_CompIntro_VI::fr::processed::unverified = "",
-UI_VorpallySauced_CompIntro_VII::en = "",
-UI_VorpallySauced_CompIntro_VII::fr::processed::unverified = "",
-UI_VorpallySauced_CompIntro_VIII::en = "",
-UI_VorpallySauced_CompIntro_VIII::fr::processed::unverified = "",
+UI_VorpallySauced_CompIntro_I::en = "FOUND NEAR MULDRAUGH - [date smudged] 
+ 
+I don't know who's gonna read this. Maybe nobody. But someone's gotta write it down before we all forget what's real and what ain't. 
+ 
+It started maybe a week after the blockade. Tommy Culver - you know Tommy, works at the Zippee Mart - he'd been using his granddaddy's hatchet to put down the dead ones. Said he noticed it first around kill thirty or so. The blade felt different. Lighter. Like it WANTED to swing. 
+ 
+We thought he was losing it. Stress'll do that. But then Mary Chen said the same thing about her kitchen knife. And old Harlan with his splitting maul. 
+ 
+The weapons are waking up. 
+ 
+Pastor Mike says it's the souls of the dead, trapped in the metal. Revenge or something. The Wilkins boy - the one who watches all them horror tapes - he says it's like Evil Dead. The blood's doing something. 
+ 
+All I know is this: you kill enough of them with the same tool, something STIRS inside it. We're calling it \"The Stir\" for now. First stage, the weapon gets a little something extra. Folks been calling these early changes \"Marks.\" 
+ 
+What follows is what we've documented so far. God help us all. 
+ 
+- R.L. Morrison, Muldraugh Survivors Coalition",
+UI_VorpallySauced_CompIntro_I::fr::processed::unverified = "Trouvé près de Muldraugh - [date maculée] Je ne sais pas qui lira ça. Peut-être personne. Mais quelqu'un doit l'écrire avant qu'on oublie ce qui est réel et ce qui ne l'est pas. Tout a commencé environ une semaine après le blocus. Tommy Culver - vous connaissez Tommy, il travaille au Zippee Mart - utilisait la hache de son grand-père pour abattre les morts. Il a dit avoir remarqué quelque chose aux alentours de la trentième mise à mort. La lame semblait différente. Plus légère. Comme si elle VOULAIT frapper. On pensait qu'il perdait la tête. Le stress fait ça. Mais ensuite Mary Chen a dit la même chose à propos de son couteau de cuisine. Et le vieux Harlan avec sa masse fendeuse. Les armes s'éveillent. Le pasteur Mike dit que ce sont les âmes des morts, piégées dans le métal. La vengeance, ou quelque chose du genre. Le jeune Wilkins - celui qui regarde toutes ces cassettes d'horreur - dit que c'est comme Evil Dead. Le sang fait quelque chose. Tout ce que je sais, c'est ça : si tu en tues assez avec le même outil, quelque chose SE RÉVEILLE à l'intérieur. On appelle ça \"l'Éveil\" pour l'instant. Au premier stade, l'arme reçoit un petit quelque chose en plus. Les gens appellent ces premiers changements des \"Marques.\" Ce qui suit est ce que nous avons documenté jusqu'à présent. Que Dieu nous aide tous. - R.L. Morrison, Coalition des Survivants de Muldraugh",
+UI_VorpallySauced_CompIntro_II::en = "RECOVERED FROM WEST POINT SAFEHOUSE - FIELD NOTES, UNDATED 
+ 
+Continued observations on the phenomenon locally designated \"The Stir.\" 
+ 
+Subject weapons that have accumulated significant termination counts (est. 40-80 confirmed kills) exhibit measurable changes that I cannot explain within any existing framework. 
+ 
+I have performed Rockwell hardness testing on three subject blades. Civilian hatchet (\"Tommy's hatchet\" per local designation): initial reading 56 HRC, consistent with standard carbon steel. Current reading: 63 HRC. This is metallurgically impossible without rehardening. No heat source was applied. I tested twice. The numbers are correct. 
+ 
+Edge retention on subject blades has increased approximately 340% over baseline. One machete has maintained its factory edge through an estimated 200+ impacts with bone and cartilage. I resharpened my control blade four times in the same period. 
+ 
+Weight measurements are inconsistent. The same axe reads differently on the same scale taken minutes apart. Variance of +/- 0.3kg with no material added or removed. The old coal miner (civilian, name withheld) observed me struggling with this and said: \"The hills have always known. You can't weigh something that's waking up.\" 
+ 
+I am a scientist. I do not have a theory for this. I have measurements that should not exist. 
+ 
+PRACTICAL OBSERVATION: Weapons exhibiting these enhanced properties demonstrate approximately 2-3x the performance gains of initial Marks. Survivors should be encouraged to maintain and develop their affected weapons rather than switching to fresh equipment. The bond appears cumulative and irreversible. 
+ 
+- Dr. Sarah Chen, CDC Field Team 7 
+- [Note in different handwriting: \"Found her notes. Didn't find her.\"]",
+UI_VorpallySauced_CompIntro_II::fr::processed::unverified = "RÉCUPÉRÉ DE LA CACHETTE DE WEST POINT - NOTES DE TERRAIN, NON DATÉES Observations continues sur le phénomène localement désigné \"l'Éveil.\" Les armes sujettes ayant accumulé un nombre significatif de mises à mort (estimé entre 40 et 80 confirmés) présentent des changements mesurables que je ne peux expliquer dans aucun cadre existant. J'ai effectué des tests de dureté Rockwell sur trois lames sujettes. Hache civile (\"la hache de Tommy\" selon la désignation locale) : lecture initiale 56 HRC, conforme à l'acier au carbone standard. Lecture actuelle : 63 HRC. C'est métallurgiquement impossible sans une nouvelle trempe. Aucune source de chaleur n'a été appliquée. J'ai testé deux fois. Les chiffres sont corrects. La rétention du fil des lames sujettes a augmenté d'environ 340 % par rapport à la base. Une machette a conservé son fil d'usine après environ 200 impacts avec de l'os et du cartilage. J'ai réaffûté ma lame de contrôle quatre fois durant la même période. Les mesures de poids sont incohérentes. La même hache donne des lectures différentes sur la même balance à quelques minutes d'intervalle. Variance de +/- 0,3 kg sans ajout ni retrait de matière. Le vieux mineur de charbon (civil, nom non divulgué) m'a observé luttant avec cela et a dit : \"Les collines ont toujours su. On ne peut pas peser quelque chose qui s'éveille.\" Je suis un scientifique. Je n'ai pas de théorie pour cela. J'ai des mesures qui ne devraient pas exister. OBSERVATION PRATIQUE : Les armes présentant ces propriétés améliorées démontrent environ 2 à 3 fois les gains de performance des Marques initiales. Les survivants devraient être encouragés à entretenir et développer leurs armes affectées plutôt que de passer à un équipement neuf. Le lien semble cumulatif et irréversible. - Dr Sarah Chen, Équipe de Terrain CDC 7 - [Note d'une écriture différente : \"J'ai trouvé ses notes. Je ne l'ai pas trouvée.\"]",
+UI_VorpallySauced_CompIntro_III::en = "JOURNAL FRAGMENT - WATER DAMAGED - DATE UNKNOWN 
+ 
+[Previous pages missing or illegible] 
+ 
+...and that's when I knew it wasn't just in my head. 
+ 
+I set the machete down on the kitchen counter last night. Blade pointing left, same as always. Woke up and it was turned around. Handle toward my hand. Like it was ready for me. 
+ 
+Could've been the wind. Could've been anything. But the balance is different now too. It used to pull to the right - cheap blade, always did. Now it sits perfectly in my grip. I didn't adjust anything. It adjusted to ME. 
+ 
+Old Harlan says his maul is the same way. Says the head feels heavier on the downswing, lighter on the return. \"Like it knows which direction the dead ones are,\" he said. He won't look at it when he's not using it. 
+ 
+The Wilkins boy calls these the \"Violent\" ones. Says the weapon's changing faster now. Adapting. He showed me his VHS of Hellraiser and said \"that's what we're dealing with, man. Blood and pain and something that LIKES it.\" 
+ 
+He might be crazy but he ain't wrong. 
+ 
+The blade hasn't done anything I'd call scary. Not yet. But when I hold it, I can feel something in the metal. Something patient. Something that wasn't there before. 
+ 
+If you're reading this and you got a weapon that's gone Violent - don't abandon it. Don't let it go. It chose you. For better or worse. 
+ 
+[Remaining pages torn out]",
+UI_VorpallySauced_CompIntro_III::fr::processed::unverified = "FRAGMENT DE JOURNAL - ENDOMMAGÉ PAR L'EAU - DATE INCONNUE [Pages précédentes manquantes ou illisibles] ...et c'est là que j'ai su que ce n'était pas juste dans ma tête. J'ai posé la machette sur le comptoir de la cuisine hier soir. Lame pointant vers la gauche, comme toujours. Je me suis réveillé et elle avait été tournée. Le manche vers ma main. Comme si elle était prête pour moi. Ça aurait pu être le vent. Ça aurait pu être n'importe quoi. Mais l'équilibre est aussi différent maintenant. Avant, elle tirait vers la droite - lame bon marché, toujours fait ça. Maintenant elle repose parfaitement dans ma main. Je n'ai rien ajusté. Elle s'est ajustée à MOI. Le vieux Harlan dit que sa masse est pareille. Il dit que la tête semble plus lourde à la descente, plus légère au retour. \"Comme si elle savait dans quelle direction sont les morts,\" a-t-il dit. Il ne la regarde pas quand il ne l'utilise pas. Le jeune Wilkins appelle ça les armes \"Violentes.\" Il dit que l'arme change plus vite maintenant. Elle s'adapte. Il m'a montré sa cassette VHS d'Hellraiser et a dit \"c'est à ça qu'on a affaire, mec. Du sang et de la douleur et quelque chose qui AIME ça.\" Il est peut-être fou, mais il n'a pas tort. La lame n'a encore rien fait que j'appellerais effrayant. Pas encore. Mais quand je la tiens, je sens quelque chose dans le métal. Quelque chose de patient. Quelque chose qui n'était pas là avant. Si tu lis ceci et que tu as une arme devenue Violente - ne l'abandonne pas. Ne la laisse pas partir. Elle t'a choisi. Pour le meilleur ou pour le pire. [Pages restantes arrachées]",
+UI_VorpallySauced_CompIntro_IV::en = "PRIVATE JOURNAL - PASTOR MICHAEL REEVES - ROSEWOOD 
+ 
+The Lord tests us in ways I no longer understand. 
+ 
+I blessed Brother Thompson's crowbar tonight. He asked me to. Said it felt wrong and he wanted God's hand on it. I held it and said the words and I felt... I don't know what I felt. Warmth. Not from the metal - from INSIDE the metal. Like holding a sleeping animal. 
+ 
+I told him it was fine. I told him God's grace covered all things. 
+ 
+I lied. 
+ 
+Sister Martinez's fire axe burns cold to the touch now. COLD. And yet it cleaves through bone like butter left in the sun. She killed nine of the risen dead in a single sweep yesterday. Nine. I counted the bodies. 
+ 
+These weapons they call \"Consuming\" - they are no longer tools. When Thompson swings that crowbar, the air itself seems to scream. When Martinez holds her axe, her eyes go somewhere else. Somewhere I can't follow. 
+ 
+The Sauced. The Vampiric. The Reaper's blade. 
+ 
+These are not names we gave them. These are names they TOLD us. 
+ 
+I do not know if God has armed us for the final battle or if we have merely traded our souls for survival. What I know is that when I held Thompson's crowbar and said my blessing, something in the metal heard me. 
+ 
+And I am not certain it was God that answered. 
+ 
+(Margin note, later date: \"Tommy Culver's hatchet finally talked to him last night. He won't say what it said. He hasn't stopped crying.\")",
+UI_VorpallySauced_CompIntro_IV::fr::processed::unverified = "JOURNAL PRIVÉ - PASTEUR MICHAEL REEVES - ROSEWOOD Le Seigneur nous éprouve de façons que je ne comprends plus. J'ai béni le pied-de-biche du Frère Thompson ce soir. Il me l'a demandé. Il a dit qu'il se sentait mal et qu'il voulait la main de Dieu dessus. Je l'ai tenu et j'ai dit les paroles et j'ai ressenti... je ne sais pas ce que j'ai ressenti. De la chaleur. Pas du métal - de l'INTÉRIEUR du métal. Comme tenir un animal endormi. Je lui ai dit que tout allait bien. Je lui ai dit que la grâce de Dieu couvrait toutes choses. J'ai menti. La hache d'incendie de Sœur Martinez brûle froide au toucher maintenant. FROIDE. Et pourtant, elle fend les os comme du beurre laissé au soleil. Elle a tué neuf des morts-vivants en un seul coup hier. Neuf. J'ai compté les corps. Ces armes qu'ils appellent \"Dévorantes\" - ce ne sont plus des outils. Quand Thompson balance son pied-de-biche, l'air lui-même semble hurler. Quand Martinez tient sa hache, ses yeux partent ailleurs. Quelque part où je ne peux pas suivre. Les Saoulées. Les Vampiriques. La lame du Faucheur. Ce ne sont pas des noms que nous leur avons donnés. Ce sont des noms qu'elles nous ont DITS. Je ne sais pas si Dieu nous a armés pour la bataille finale ou si nous avons simplement échangé nos âmes pour survivre. Ce que je sais, c'est que quand j'ai tenu le pied-de-biche de Thompson et dit ma bénédiction, quelque chose dans le métal m'a entendu. Et je ne suis pas certain que ce soit Dieu qui ait répondu. (Note en marge, date ultérieure : \"La hache de Tommy Culver lui a enfin parlé la nuit dernière. Il ne veut pas dire ce qu'elle a dit. Il n'a pas arrêté de pleurer.\")",
+UI_VorpallySauced_CompIntro_V::en = "HANDWRITTEN ON MOTEL STATIONERY - DIXIE BOY MOTOR LODGE 
+ 
+Okay so nobody believed me about this for like three weeks but I finally got proof. 
+ 
+After a weapon gets its Mark - after the Stir takes hold - there's something ELSE that can happen. Something deeper. We're calling it \"The Bond.\" 
+ 
+You know those old ghost stories where a samurai's sword contains his soul? It's like that but REAL and also way more messed up. 
+ 
+Once you've killed enough with a Marked weapon - and I mean A LOT more, we're talking triple digits easy - the weapon doesn't just wake up more. It bonds to YOU. It becomes part of you somehow. 
+ 
+The Bonds are different from the Marks. Marks change how the weapon fights. Bonds change what the weapon IS. Some get tougher. Like, WAY tougher - the Eternal ones basically don't break anymore. Some get lighter, faster. Some just... refuse to stop. 
+ 
+And here's the creepy part: you can't really give away a Bonded weapon. I mean you CAN, but it feels wrong. Like leaving part of yourself behind. And the new person says it doesn't work as good for them. 
+ 
+We're not just using these weapons anymore. 
+ 
+We're BECOMING them. 
+ 
+- Jamie Wilkins, Age 17 
+  Muldraugh Horror Club (membership: 1)",
+UI_VorpallySauced_CompIntro_V::fr::processed::unverified = "ÉCRIT À LA MAIN SUR DU PAPIER À LETTRES DE MOTEL - DIXIE BOY MOTOR LODGE OK, donc personne ne m'a cru à propos de ça pendant environ trois semaines, mais j'ai enfin une preuve. Après qu'une arme a reçu sa Marque - après que l'Éveil s'est emparé d'elle - il y a quelque chose d'AUTRE qui peut arriver. Quelque chose de plus profond. On appelle ça \"le Lien.\" Vous connaissez ces vieilles histoires de fantômes où l'épée d'un samouraï contient son âme ? C'est comme ça, mais RÉEL et en plus beaucoup plus tordu. Une fois que vous avez tué assez avec une arme Marquée - et je veux dire BEAUCOUP plus, on parle facilement de trois chiffres - l'arme ne se réveille pas seulement davantage. Elle se lie à VOUS. Elle devient une partie de vous, d'une certaine manière. Les Liens sont différents des Marques. Les Marques changent la façon dont l'arme combat. Les Liens changent ce que l'arme EST. Certaines deviennent plus résistantes. Genre, BEAUCOUP plus résistantes - les Éternelles ne se cassent pratiquement plus. Certaines deviennent plus légères, plus rapides. Certaines... refusent juste de s'arrêter. Et voici la partie flippante : vous ne pouvez pas vraiment donner une arme Liée. Je veux dire, vous POUVEZ, mais ça semble faux. Comme laisser une partie de vous-même derrière. Et la nouvelle personne dit que ça ne fonctionne pas aussi bien pour elle. Nous n'utilisons plus seulement ces armes. Nous DEVENONS elles. - Jamie Wilkins, 17 ans Club d'Horreur de Muldraugh (membres : 1)",
+UI_VorpallySauced_CompIntro_VI::en = "FIELD REPORT - KNOX NATIONAL GUARD OUTPOST ECHO 
+ 
+I'm not writing this for the scientists. The scientists are dead. 
+ 
+I'm writing this because whoever finds this outpost needs to know what their weapons can do. The phenomenon the civilians call \"The Stir\" - it affects firearms too. If you've been using the same weapon since the outbreak, you already know. If you haven't, start now. 
+ 
+What I've observed in my unit: 
+ 
+Corporal Webb's M16 auto-corrects. Not mechanically - there's no computer in a '92 Colt. But it tracks center mass like it knows where the target is. Webb says he stopped aiming two weeks ago. He just points and the rifle does the rest. 
+ 
+Sergeant Delgado's shotgun cycles faster than the action should physically allow. I've timed it. The mechanism moves quicker than the spring tension should permit. It shouldn't be possible. It is. 
+ 
+My sidearm hasn't jammed in three hundred kills. It's a twenty-year-old Beretta that used to stovepipe every other magazine. Now it runs like it just left the factory. Better than the factory. 
+ 
+I don't care WHY this is happening. I care that it IS. 
+ 
+STANDING ORDERS: Do NOT discard a weapon that's exhibiting. Maintain it. Use it. It will keep you alive longer than any replacement off the rack. What follows is a catalog of observed manifestations in affected firearms. 
+ 
+- Gunnery Sergeant Marcus Cole 
+  Kentucky National Guard (Dissolved)",
+UI_VorpallySauced_CompIntro_VI::fr::processed::unverified = "Rapport de terrain — Avant-poste Écho de la Garde nationale de Knox. Je n’écris pas ceci pour les scientifiques. Les scientifiques sont morts. Je l’écris parce que celui qui trouvera cet avant-poste doit savoir ce que ses armes peuvent faire. Le phénomène que les civils appellent « l’Éveil » affecte aussi les armes à feu. Si vous utilisez la même arme depuis le début de l’épidémie, vous le savez déjà. Sinon, commencez maintenant. Ce que j’ai observé dans mon unité : le M16 du caporal Webb se corrige tout seul. Pas mécaniquement — il n’y a pas d’ordinateur dans un Colt de 1992. Mais il suit le centre de la masse comme s’il savait où est la cible. Webb dit qu’il a arrêté de viser il y a deux semaines. Il pointe et le fusil fait le reste. Le fusil à pompe du sergent Delgado cycle plus vite que l’action ne le permet physiquement. Je l’ai chronométré. Le mécanisme bouge plus vite que la tension du ressort ne le devrait. Ce ne devrait pas être possible. Ça l’est. Mon arme de poing n’a pas enrayé en trois cents tués. C’est un Beretta de vingt ans qui avait l’habitude de s’enrayer un chargeur sur deux. Maintenant il fonctionne comme s’il sortait de l’usine. Mieux que l’usine. Peu m’importe POURQUOI cela arrive. Ce qui compte, c’est que ÇA ARRIVE. ORDRE PERMANENT : Ne PAS jeter une arme qui manifeste. Entretenez-la. Utilisez-la. Elle vous gardera en vie plus longtemps que n’importe quel remplacement en rayon. Ce qui suit est un catalogue des manifestations observées sur les armes à feu affectées. — Sergent-chef Marcus Cole, Garde nationale du Kentucky (dissoute)",
+UI_VorpallySauced_CompIntro_VII::en = "AUDIO TRANSCRIPT - RECOVERED TAPE RECORDER - WEST POINT 
+ 
+[Recording begins mid-sentence] 
+ 
+...don't even need to reload sometimes. I know that sounds insane. I KNOW. But I'm telling you, I've been carrying this Colt since the third day and something's changed. 
+ 
+It holds more rounds now. I counted. Counted twice. Six rounds in a cylinder that only FITS six rounds. Except now it's eight. Then it was ten. I stopped counting after that. 
+ 
+[Sound of distant gunfire] 
+ 
+The gun dreams. I know how that sounds but I'm not - I'm NOT crazy. When I sleep, I can feel it. Dreaming next to me. Hungry. Eager for morning. 
+ 
+Terri's rifle is the same way. Reloads in half the time now. Not because she's faster - because the gun is. Like it's helping. Like it wants to get back in the fight. 
+ 
+[Long pause] 
+ 
+There's a guy came through from Fort Knox. Said before everything went dark, the eggheads were talking about \"sympathetic metallurgy.\" Said the infection might have some kind of... I don't know... some kind of ability to imprint on inorganic matter. Make it part of the hive mind or whatever. 
+ 
+I don't think that's it though. I think it's simpler. I think the guns are just learning. 
+ 
+Learning to kill. 
+ 
+And they're getting REALLY good at it. 
+ 
+[Recording ends] 
+ 
+NOTE: Speaker unidentified. Recorder found in abandoned vehicle on Route 31.",
+UI_VorpallySauced_CompIntro_VII::fr::processed::unverified = "Transcription audio — Magnétophone récupéré — West Point. [L’enregistrement commence en milieu de phrase] …je n’ai même pas besoin de recharger parfois. Je sais que ça a l’air dingue. Je SAIS. Mais je vous jure, je porte ce Colt depuis le troisième jour et quelque chose a changé. Il contient plus de balles maintenant. J’ai compté. Compté deux fois. Six balles dans un barillet qui ne peut EN contenir que six. Sauf que maintenant c’est huit. Puis dix. J’ai arrêté de compter après ça. [Bruit de coups de feu lointains] Le fusil rêve. Je sais comment ça sonne mais je ne suis pas — je ne suis PAS fou. Quand je dors, je le sens. Rêvant à côté de moi. Affamé. Impatient d’être au matin. Le fusil de Terri est pareil. Recharge en deux fois moins de temps maintenant. Pas parce qu’elle est plus rapide — parce que le fusil l’est. Comme s’il aidait. Comme s’il voulait retourner au combat. [Longue pause] Un gars est passé de Fort Knox. Il a dit qu’avant que tout ne s’éteigne, les intellos parlaient de « métallurgie sympathique ». Il a dit que l’infection avait peut-être une sorte de… je ne sais pas… une capacité à s’imprimer sur la matière inorganique. En faire partie de l’esprit de la ruche ou je ne sais quoi. Mais je ne pense pas que ce soit ça. Je pense que c’est plus simple. Je pense que les fusils apprennent juste. À tuer. Et ils deviennent VRAIMENT bons à ça. [Fin de l’enregistrement] NOTE : Locuteur non identifié. Magnétophone trouvé dans un véhicule abandonné sur la route 31.",
+UI_VorpallySauced_CompIntro_VIII::en = "FINAL ENTRY - CHARRED PAGES - LOCATION UNKNOWN 
+ 
+[Most of the journal is burned. Only fragments remain.] 
+ 
+...finally understood what the old miner meant. \"The hills have always known.\" 
+ 
+My machete stopped wearing down around kill one-fifty. By two hundred, the blade actually started to HEAL. I watched a chip fill itself in overnight. Metal doesn't do that. Metal CAN'T do that. 
+ 
+But it did. 
+ 
+[Several pages missing] 
+ 
+...called it \"becoming Blooded.\" Said his granddaddy's hunting rifle did the same thing back in '18. During the Spanish flu. Said weapons that drink enough death eventually refuse to die themselves. 
+ 
+I thought he was crazy. Now I understand. 
+ 
+The weapon doesn't just bond to you at that point. It becomes you. Your heartbeat syncs with its weight. Your dreams are its dreams. When you swing it, you don't think about swinging anymore than you think about breathing. 
+ 
+[Burn marks obscure several lines] 
+ 
+...Tommy Culver finally stopped crying. His hatchet talked to him, he said. Told him its name. He won't share what it said, but he's different now. Calmer. Steadier. He holds the hatchet everywhere he goes now. Sleeps with it. 
+ 
+The other day someone asked if they could borrow it. Tommy just smiled and said no. Not angry. Not scared. Just... sure. 
+ 
+That scares me more than anything. 
+ 
+[Final readable section] 
+ 
+If you're reading this and you've got a weapon that's gone Blooded - congratulations. You've done something impossible. You've killed enough of them that the boundary between you and your weapon has dissolved. 
+ 
+You're not a survivor anymore. 
+ 
+You're something else entirely. 
+ 
+- R.L. Morrison, Muldraugh 
+  [Date burned away]",
+UI_VorpallySauced_CompIntro_VIII::fr::processed::unverified = "Dernière entrée — Pages brûlées — Lieu inconnu. [La majeure partie du journal est brûlée. Il ne reste que des fragments.] …j’ai enfin compris ce que voulait dire le vieux mineur. « Les collines ont toujours su. » Ma machette a cessé de s’user vers le cent cinquantième tué. À deux cents, la lame a commencé à GUÉRIR. J’ai vu un éclat se remplir de lui-même en une nuit. Le métal ne fait pas ça. Le métal ne PEUT PAS faire ça. Mais ça l’a fait. [Plusieurs pages manquantes] …il a appelé ça « devenir Ensanglanté ». Il a dit que le fusil de chasse de son grand-père avait fait la même chose en 1918. Pendant la grippe espagnole. Il a dit que les armes qui boivent assez de mort refusent finalement de mourir elles-mêmes. Je le croyais fou. Maintenant je comprends. L’arme ne se lie pas seulement à vous à ce stade. Elle devient vous. Votre rythme cardiaque se synchronise avec son poids. Vos rêves sont ses rêves. Quand vous la maniez, vous ne pensez plus à manier plus que vous ne pensez à respirer. [Des traces de brûlure obscurcissent plusieurs lignes] …Tommy Culver a enfin arrêté de pleurer. Sa hache lui parlait, a-t-il dit. Lui a dit son nom. Il ne partagera pas ce qu’elle a dit, mais il est différent maintenant. Plus calme. Plus stable. Il porte la hache partout maintenant. Dort avec. L’autre jour, quelqu’un a demandé s’il pouvait l’emprunter. Tommy a juste souri et a dit non. Pas en colère. Pas effrayé. Juste… sûr. Cela me fait plus peur que tout. [Dernière section lisible] Si vous lisez ceci et que vous avez une arme devenue Ensanglantée — félicitations. Vous avez fait quelque chose d’impossible. Vous en avez tué assez pour que la frontière entre vous et votre arme se soit dissoute. Vous n’êtes plus un survivant. Vous êtes quelque chose d’entièrement différent. — R.L. Morrison, Muldraugh [Date brûlée]",
 UI_VorpallySauced_CompTitle_I::en = "The Stir",
 UI_VorpallySauced_CompTitle_I::fr::processed::unverified = "L'Éveil",
 UI_VorpallySauced_CompTitle_II::en = "Blood Remembers",
@@ -210,8 +384,9 @@ UI_VorpallySauced_CompTitle_VII::en = "The Gun Dreams",
 UI_VorpallySauced_CompTitle_VII::fr::processed::unverified = "Le Rêve de l'Arme",
 UI_VorpallySauced_CompTitle_VIII::en = "The Blooded",
 UI_VorpallySauced_CompTitle_VIII::fr::processed::unverified = "Le Sanglant",
-UI_VorpallySauced_CompendiumDesc::en = "",
-UI_VorpallySauced_CompendiumDesc::fr::processed::unverified = "",
+UI_VorpallySauced_CompendiumDesc::en = "Field observations on %1 %2.
+What we've seen. What we can't explain.",
+UI_VorpallySauced_CompendiumDesc::fr::processed::unverified = "Observations de terrain sur %1 %2. Ce que nous avons vu. Ce que nous ne pouvons pas expliquer.",
 UI_VorpallySauced_CompendiumVolume::en = "The Stir — Vol. %1",
 UI_VorpallySauced_CompendiumVolume::fr::processed::unverified = "L'Éveil — Vol. %1",
 UI_VorpallySauced_ConversionRecovered::en = "The weapon remembers.",
@@ -1054,8 +1229,12 @@ UI_VorpallySauced_NotifyShardGranted::en = "Something fell from the weapon. Shar
 UI_VorpallySauced_NotifyShardGranted::fr::processed::unverified = "Quelque chose est tombé de l'arme. Tranchant. Chaud.",
 UI_VorpallySauced_NotifySuffix::en = "Bond: %1",
 UI_VorpallySauced_NotifySuffix::fr::processed::unverified = "Lien : %1",
-UI_VorpallySauced_NotifyTooltipLib::en = "",
-UI_VorpallySauced_NotifyTooltipLib::fr::processed::unverified = "",
+UI_VorpallySauced_NotifyTooltipLib::en = "VorpallySauced: Enhanced Tooltips Available 
+
+Install 'TooltipLib' from the Steam Workshop for detailed weapon progression tooltips with stat breakdowns, kill progress, and tier colors.
+
+Your weapons work normally without it, but legacy tooltips will be removed in a future update.",
+UI_VorpallySauced_NotifyTooltipLib::fr::processed::unverified = "VorpallySauced : Info-bulles améliorées disponibles Installez 'TooltipLib' depuis le Steam Workshop pour obtenir des info-bulles détaillées sur la progression des armes, avec les statistiques, la progression des éliminations et les couleurs de palier. Vos armes fonctionnent normalement sans cela, mais les info-bulles héritées seront supprimées dans une future mise à jour.",
 UI_VorpallySauced_Opt_AffixPoolDesc::en = "Single-player only. Choose which affixes can take hold on your weapons. In multiplayer, the server's sandbox settings decide.",
 UI_VorpallySauced_Opt_AffixPoolDesc::fr::processed::unverified = "Uniquement en solo. Choisissez quels affixes peuvent s'appliquer à vos armes. En multijoueur, les paramètres sandbox du serveur décident.",
 UI_VorpallySauced_Opt_AffixPoolTitle::en = "Affix Pool",
