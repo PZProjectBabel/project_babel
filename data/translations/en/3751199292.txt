@@ -223,13 +223,7 @@ UI_BN_Dbg_RaiseNeed::en = "Debug - raise a need:",
 UI_BN_Dbg_SendSpot::en = "Debug - send to spot now:",
 UI_BN_Dbg_SetProfession::en = "[DEBUG] Set profession:",
 UI_BN_Dismiss::en = "Dismiss companion",
-UI_BN_DismissConfirm::en = "Dismiss %s?
-
-They will stop taking orders, stop using their assigned spots,
-wander off on their own and no longer be protected.
-
-(Routines and schedules run AUTOMATICALLY while they stay
-recruited - you never need to dismiss them for that.)",
+UI_BN_DismissConfirm::en = "",
 UI_BN_Equip::en = "Equip",
 UI_BN_ExpertiseList::en = "Expertise: %s",
 UI_BN_Female::en = "Female",

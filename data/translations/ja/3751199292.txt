@@ -448,13 +448,7 @@ UI_BN_Dbg_SetProfession::en = "[DEBUG] Set profession:",
 UI_BN_Dbg_SetProfession::ja::processed::unverified = "[DEBUG] 職業を設定:",
 UI_BN_Dismiss::en = "Dismiss companion",
 UI_BN_Dismiss::ja::processed::unverified = "仲間を解雇",
-UI_BN_DismissConfirm::en = "Dismiss %s?
-
-They will stop taking orders, stop using their assigned spots,
-wander off on their own and no longer be protected.
-
-(Routines and schedules run AUTOMATICALLY while they stay
-recruited - you never need to dismiss them for that.)",
+UI_BN_DismissConfirm::en = "",
 UI_BN_DismissConfirm::ja::processed::unverified = "%sを解雇しますか？\\n\\n彼らは命令を受け付けなくなり、割り当てられたスポットの使用を停止し、\\n自分でさまよい、保護されなくなります。\\n\\n（採用中はルーティンとスケジュールが自動的に実行されます-\\n解雇する必要はありません。）",
 UI_BN_Equip::en = "Equip",
 UI_BN_Equip::ja::processed::unverified = "装備",

@@ -448,13 +448,7 @@ UI_BN_Dbg_SetProfession::en = "[DEBUG] Set profession:",
 UI_BN_Dbg_SetProfession::zh-hans::processed::unverified = "[DEBUG] 设置职业:",
 UI_BN_Dismiss::en = "Dismiss companion",
 UI_BN_Dismiss::zh-hans::processed::unverified = "遣散同伴",
-UI_BN_DismissConfirm::en = "Dismiss %s?
-
-They will stop taking orders, stop using their assigned spots,
-wander off on their own and no longer be protected.
-
-(Routines and schedules run AUTOMATICALLY while they stay
-recruited - you never need to dismiss them for that.)",
+UI_BN_DismissConfirm::en = "",
 UI_BN_DismissConfirm::zh-hans::processed::unverified = "遣散 %s?\\n\\n他们将不再接受指令, 不再使用已指派位置,\\n独自游荡并不再受保护.\\n\\n(招募期间常规任务和日程会自动运行 - 你无需为此遣散他们.)",
 UI_BN_Equip::en = "Equip",
 UI_BN_Equip::zh-hans::processed::unverified = "装备",
