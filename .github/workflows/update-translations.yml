@@ -47,17 +47,16 @@ jobs:
         id: push
         if: ${{ steps.changes.outputs.has_changes == 'true' }}
         run: |
-          BRANCH="update-translation-${{ github.run_id }}"
+          BRANCH="update-translation-$(date +%s)"
           echo "branch=$BRANCH" >> $GITHUB_OUTPUT
 
-          git config user.name "translation-bot"
-          git config user.email "translation-bot@users.noreply.github.com"
+          git config user.name "project-babel-actions"
+          git config user.email "actions@github.com"
 
           git checkout -b "$BRANCH"
           git add -A
           git commit -m "[skip ci] auto: update translations ($(date -u +%Y-%m-%d))"
           git push origin "$BRANCH"
-          echo "head_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Create PR
         id: create-pr
@@ -69,41 +68,11 @@ jobs:
           PR_URL=$(gh pr create \
             --base master \
             --head "$BRANCH" \
-            --title "[skip ci] Auto translation update ($(date -u +%Y-%m-%d))" \
-            --body "Automated translation update by CI pipeline.")
+            --title "auto: update translations" \
+            --body "Generated automatically by translation workflow.")
 
           PR_NUM=$(echo "$PR_URL" | grep -oP '\d+$' || echo "$PR_URL" | awk -F'/' '{print $NF}')
           echo "number=$PR_NUM" >> "$GITHUB_OUTPUT"
-          echo "author=$(gh api user --jq .login)" >> "$GITHUB_OUTPUT"
-
-      - name: Verify and approve PR
-        if: ${{ steps.changes.outputs.has_changes == 'true' }}
-        env:
-          GH_TOKEN: ${{ secrets.TRANSLATION_APPROVER_TOKEN }}
-          PR_NUMBER: ${{ steps.create-pr.outputs.number }}
-          EXPECTED_BRANCH: ${{ steps.push.outputs.branch }}
-          EXPECTED_AUTHOR: ${{ steps.create-pr.outputs.author }}
-          EXPECTED_HEAD_SHA: ${{ steps.push.outputs.head_sha }}
-        run: |
-          gh api "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" > pr.json
-          jq -e \
-            --arg repository "$GITHUB_REPOSITORY" \
-            --arg branch "$EXPECTED_BRANCH" \
-            --arg author "$EXPECTED_AUTHOR" \
-            --arg head_sha "$EXPECTED_HEAD_SHA" \
-            '.state == "open"
-              and .base.repo.full_name == $repository
-              and .base.ref == "master"
-              and .head.repo.full_name == $repository
-              and .head.ref == $branch
-              and .head.sha == $head_sha
-              and .user.login == $author' \
-            pr.json
-          for attempt in {1..10}; do
-            gh pr review "$PR_NUMBER" --approve && exit 0
-            sleep 3
-          done
-          exit 1
 
       - name: Enable squash auto-merge
         if: ${{ steps.changes.outputs.has_changes == 'true' }}
