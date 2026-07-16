@@ -1,5 +1,4 @@
 using System.Diagnostics;
-using System.IO.Compression;
 using System.Runtime.InteropServices;
 using Common;
 
@@ -10,7 +9,6 @@ public class SteamCmdBootstrapperService
     private readonly PipelineConfig _config;
     private static readonly HttpClient HttpClient = new() { Timeout = TimeSpan.FromSeconds(120) };
 
-    private const string WindowsUrl = "https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip";
     private const string LinuxUrl = "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz";
     private const int MaxRetries = 3;
 
@@ -26,27 +24,26 @@ public class SteamCmdBootstrapperService
         string executablePath = Path.Combine(destinationDirectory, executableName);
 
         Console.WriteLine($"[steamcmd] Bootstrapping for {RuntimeInformation.RuntimeIdentifier}...");
+
+        if (OperatingSystem.IsWindows())
+        {
+            await UpdateBundledWindowsSteamCmdAsync(destinationDirectory, executablePath);
+            return;
+        }
+
         RecreateDestinationDirectory(destinationDirectory);
 
-        string url = OperatingSystem.IsWindows() ? WindowsUrl : LinuxUrl;
         string temporaryFile = Path.GetTempFileName();
         try
         {
-            await DownloadWithRetryAsync(url, temporaryFile);
+            await DownloadWithRetryAsync(LinuxUrl, temporaryFile);
             Console.WriteLine($"  [steamcmd] Downloaded {new FileInfo(temporaryFile).Length / 1024} KB");
 
-            if (OperatingSystem.IsWindows())
-            {
-                ZipFile.ExtractToDirectory(temporaryFile, destinationDirectory, overwriteFiles: true);
-            }
-            else
-            {
-                await ExtractLinuxArchiveAsync(temporaryFile, destinationDirectory);
-                ChmodIfLinux(Path.Combine(destinationDirectory, "steamcmd.sh"));
-                string linux32Steamcmd = Path.Combine(destinationDirectory, "linux32", "steamcmd");
-                if (File.Exists(linux32Steamcmd))
-                    ChmodIfLinux(linux32Steamcmd);
-            }
+            await ExtractLinuxArchiveAsync(temporaryFile, destinationDirectory);
+            ChmodIfLinux(Path.Combine(destinationDirectory, "steamcmd.sh"));
+            string linux32Steamcmd = Path.Combine(destinationDirectory, "linux32", "steamcmd");
+            if (File.Exists(linux32Steamcmd))
+                ChmodIfLinux(linux32Steamcmd);
 
             if (!File.Exists(executablePath))
                 throw new FileNotFoundException($"steamcmd executable missing after extract: {executablePath}");
@@ -58,6 +55,27 @@ public class SteamCmdBootstrapperService
             if (File.Exists(temporaryFile))
                 File.Delete(temporaryFile);
         }
+    }
+
+    private static async Task UpdateBundledWindowsSteamCmdAsync(string destinationDirectory, string executablePath)
+    {
+        if (!File.Exists(executablePath))
+            throw new FileNotFoundException($"Bundled Windows steamcmd executable not found: {executablePath}");
+
+        using var process = Process.Start(new ProcessStartInfo
+        {
+            FileName = executablePath,
+            WorkingDirectory = destinationDirectory,
+            UseShellExecute = false,
+            CreateNoWindow = true,
+            ArgumentList = { "+quit" }
+        }) ?? throw new InvalidOperationException($"Failed to start bundled steamcmd: {executablePath}");
+
+        await process.WaitForExitAsync();
+        if (process.ExitCode != 0)
+            throw new InvalidOperationException($"Bundled steamcmd update failed with exit code {process.ExitCode}.");
+
+        Console.WriteLine($"  [OK] bundled steamcmd updated: {executablePath}");
     }
 
     private static void RecreateDestinationDirectory(string destinationDirectory)

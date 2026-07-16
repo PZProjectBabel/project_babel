@@ -1,0 +1,8 @@
+Sandbox_StorageWorks::en = "StorageWorks",
+Sandbox_StorageWorks_ScaledUpgradeCost::en = "Scaled Upgrade Cost",
+Sandbox_StorageWorks_ScaledUpgradeCost_tooltip::en = "When enabled, upgrade material costs scale with container capacity. Larger containers require more materials. When disabled, all containers use the same base material cost per tier.",
+UI_SW_ContainerIndex::en = "[%1]",
+UI_SW_Storage::en = "Storage",
+UI_SW_Tier::en = "Tier %1: +%2",
+UI_SW_Upgrade::en = "Upgrade %1",
+UI_SW_UpgradeCount::en = "(+%1)",
