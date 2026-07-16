@@ -10908,10 +10908,6 @@ IGUI_HDX_S_They_tried_That_s_a_9cdd06::en = "They tried. That's all any of us ca
 IGUI_HDX_S_They_tried_That_s_a_9cdd06::ja::unprocessed::unverified = "They tried. That's all any of us can do.",
 IGUI_HDX_S_They_weren_t_Just_s_e45adf::en = "They weren't. Just scared like me.",
 IGUI_HDX_S_They_weren_t_Just_s_e45adf::ja::unprocessed::unverified = "They weren't. Just scared like me.",
-IGUI_HDX_S_They_will_leave_yo_9017ea::en = "?
-They will leave your service and walk off.",
-IGUI_HDX_S_They_will_leave_yo_9017ea::ja::unprocessed::unverified = "?
-They will leave your service and walk off.",
 IGUI_HDX_S_Third_grade_Kid_gav_3f2f71::en = "Third grade. Kid gave me half his sandwich.",
 IGUI_HDX_S_Third_grade_Kid_gav_3f2f71::ja::unprocessed::unverified = "Third grade. Kid gave me half his sandwich.",
 IGUI_HDX_S_This_aint_good_This_aint_good_6ef364::en = "This ain't good. This ain't good.",
@@ -12564,12 +12560,6 @@ IGUI_HDX_S_electric_wire_4f7b88::en = "electric wire",
 IGUI_HDX_S_electric_wire_4f7b88::ja::unprocessed::unverified = "電線",
 IGUI_HDX_S_electronic_scrap_82d383::en = "electronic scrap",
 IGUI_HDX_S_electronic_scrap_82d383::ja::unprocessed::unverified = "電子部品のスクラップ",
-IGUI_HDX_S_end_36ff4f::en = "end
-
-",
-IGUI_HDX_S_end_36ff4f::ja::unprocessed::unverified = "end
-
-",
 IGUI_HDX_S_engage_only_when_a_aaf024::en = " (engage only when attacked)",
 IGUI_HDX_S_engage_only_when_a_aaf024::ja::unprocessed::unverified = " (engage only when attacked)",
 IGUI_HDX_S_entries_brain_skin_ed3ff2::en = " entries, brain.skin=",
@@ -12596,10 +12586,6 @@ IGUI_HDX_S_fuel_cans_196fa8::en = "fuel cans",
 IGUI_HDX_S_fuel_cans_196fa8::ja::unprocessed::unverified = "燃料缶",
 IGUI_HDX_S_full_d58c78::en = "% full).",
 IGUI_HDX_S_full_d58c78::ja::unprocessed::unverified = "% 満)。",
-IGUI_HDX_S_function_ProcMedical_752a10::en = "function ProcMedicalTent (sx, sy, sz)
-",
-IGUI_HDX_S_function_ProcMedical_752a10::ja::unprocessed::unverified = "function ProcMedicalTent (sx, sy, sz)
-",
 IGUI_HDX_S_gets_critical_70_c47d80::en = " gets critical (>=70%).",
 IGUI_HDX_S_gets_critical_70_c47d80::ja::unprocessed::unverified = " が危険域に (70%以上)。",
 IGUI_HDX_S_go_there_1c6ee9::en = "go there",
@@ -13616,10 +13602,6 @@ IGUI_HDX_S_relation_fb61b7::en = "  (relation ",
 IGUI_HDX_S_relation_fb61b7::ja::unprocessed::unverified = "  (関係 ",
 IGUI_HDX_S_relation_tier_f723d7::en = ") + relation tier (",
 IGUI_HDX_S_relation_tier_f723d7::ja::unprocessed::unverified = ") + relation tier (",
-IGUI_HDX_S_require_MysteryPlac_faabec::en = "require \"MysteryPlacements\"
-",
-IGUI_HDX_S_require_MysteryPlac_faabec::ja::unprocessed::unverified = "require \"MysteryPlacements\"
-",
 IGUI_HDX_S_rounds_60e5f6::en = " rounds.",
 IGUI_HDX_S_rounds_60e5f6::ja::unprocessed::unverified = " 発。",
 IGUI_HDX_S_s_01a665::en = "----------",
@@ -13656,8 +13638,6 @@ IGUI_HDX_S_s_90d769::en = "^.-%.",
 IGUI_HDX_S_s_90d769::ja::unprocessed::unverified = "^.-%.",
 IGUI_HDX_S_s_ba0629::en = " / ",
 IGUI_HDX_S_s_ba0629::ja::unprocessed::unverified = " / ",
-IGUI_HDX_S_s_c2f23c::en = "] = ",
-IGUI_HDX_S_s_c2f23c::ja::unprocessed::unverified = "] = ",
 IGUI_HDX_S_s_companion_eee771::en = "'s companion.",
 IGUI_HDX_S_s_companion_eee771::ja::unprocessed::unverified = "の仲間。",
 IGUI_HDX_S_s_d_d_s_0890f9::en = "%s: %d/%d %s",
@@ -13670,8 +13650,6 @@ IGUI_HDX_S_s_f322c0::en = " -> ",
 IGUI_HDX_S_s_f322c0::ja::unprocessed::unverified = " -> ",
 IGUI_HDX_S_s_f574aa::en = " - ",
 IGUI_HDX_S_s_f574aa::ja::unprocessed::unverified = " - ",
-IGUI_HDX_S_s_fcacca::en = " = ",
-IGUI_HDX_S_s_fcacca::ja::unprocessed::unverified = " = ",
 IGUI_HDX_S_s_fdab5b::en = "^[^:]+:",
 IGUI_HDX_S_s_fdab5b::ja::unprocessed::unverified = "^[^:]+:",
 IGUI_HDX_S_s_s_c03e35::en = "%s[^%s]*$",
@@ -23832,70 +23810,6 @@ Sandbox_Bandits.GeneratorCutoff_tooltip::en = "When ON, hostiles may turn off yo
 Sandbox_Bandits.GeneratorCutoff_tooltip::ja::unprocessed::unverified = "When ON, hostiles may turn off your generator during a raid (leaving base dark/without power). When OFF, generator is safe.",
 Sandbox_Bandits.GroupName::en = "Group Type",
 Sandbox_Bandits.GroupName::ja::unprocessed::unverified = "Group Type",
-Sandbox_Bandits.GroupName_option1::en = "Desperate Citizens                                                     
- First survivors of the apocalypse. They they owe their lives more to chance than to skill.",
-Sandbox_Bandits.GroupName_option1::ja::unprocessed::unverified = "Desperate Citizens                                                     
- First survivors of the apocalypse. They they owe their lives more to chance than to skill.",
-Sandbox_Bandits.GroupName_option10::en = "Hunters                                                                          
- A group that welcomed the new hunting season with pleasure, with no need for hunters license.",
-Sandbox_Bandits.GroupName_option10::ja::unprocessed::unverified = "Hunters                                                                          
- A group that welcomed the new hunting season with pleasure, with no need for hunters license.",
-Sandbox_Bandits.GroupName_option11::en = "Holy Reclaimers                                                          
- A religious sect with a brand new set of 10 commandments.",
-Sandbox_Bandits.GroupName_option11::ja::unprocessed::unverified = "Holy Reclaimers                                                          
- A religious sect with a brand new set of 10 commandments.",
-Sandbox_Bandits.GroupName_option12::en = "Government Scientists                                              
- Survived thanks to access to retroviral drugs and specialized protective clothing, acting without any desire to heal anyone anymore.",
-Sandbox_Bandits.GroupName_option12::ja::unprocessed::unverified = "Government Scientists                                              
- Survived thanks to access to retroviral drugs and specialized protective clothing, acting without any desire to heal anyone anymore.",
-Sandbox_Bandits.GroupName_option13::en = "Doomrider Clan                                                            
- A well-organized gang focused on mainly looting, with no remorse if someone dies along the way.",
-Sandbox_Bandits.GroupName_option13::ja::unprocessed::unverified = "Doomrider Clan                                                            
- A well-organized gang focused on mainly looting, with no remorse if someone dies along the way.",
-Sandbox_Bandits.GroupName_option14::en = "Private Militia                                                          
- Deserted from the army just before the government collapse, with access to unlimited weapons and ammo.",
-Sandbox_Bandits.GroupName_option14::ja::unprocessed::unverified = "Private Militia                                                          
- Deserted from the army just before the government collapse, with access to unlimited weapons and ammo.",
-Sandbox_Bandits.GroupName_option15::en = "Death's Legion                                                            
- The most numerous, danegerous and best equipped clan around, supported by the richest man in Louisville.",
-Sandbox_Bandits.GroupName_option15::ja::unprocessed::unverified = "Death's Legion                                                            
- The most numerous, danegerous and best equipped clan around, supported by the richest man in Louisville.",
-Sandbox_Bandits.GroupName_option16::en = "New Hope Order                                                            
- A New World Government initiative to rebuild and restore order.",
-Sandbox_Bandits.GroupName_option16::ja::unprocessed::unverified = "New Hope Order                                                            
- A New World Government initiative to rebuild and restore order.",
-Sandbox_Bandits.GroupName_option2::en = "Psychopaths                                                                   
- Incapable of feeling any fear or pain, simply left the Louisville hospital while others died in panic.",
-Sandbox_Bandits.GroupName_option2::ja::unprocessed::unverified = "Psychopaths                                                                   
- Incapable of feeling any fear or pain, simply left the Louisville hospital while others died in panic.",
-Sandbox_Bandits.GroupName_option3::en = "Cannibals                                                                       
- Survived mainly by having high skill in wielding a cleaver, later by having access to high-protein food.",
-Sandbox_Bandits.GroupName_option3::ja::unprocessed::unverified = "Cannibals                                                                       
- Survived mainly by having high skill in wielding a cleaver, later by having access to high-protein food.",
-Sandbox_Bandits.GroupName_option4::en = "Criminals                                                                       
- Without unnecessary conscience nor moral constraints, easily adapted to the new conditions after the outbreak of the pandemic.",
-Sandbox_Bandits.GroupName_option4::ja::unprocessed::unverified = "Criminals                                                                       
- Without unnecessary conscience nor moral constraints, easily adapted to the new conditions after the outbreak of the pandemic.",
-Sandbox_Bandits.GroupName_option5::en = "Inmates                                                                           
- After the outbreak in Knox prison they managed to flee and resocialize with the new community.",
-Sandbox_Bandits.GroupName_option5::ja::unprocessed::unverified = "Inmates                                                                           
- After the outbreak in Knox prison they managed to flee and resocialize with the new community.",
-Sandbox_Bandits.GroupName_option6::en = "Police                                                                             
- Called to serve and protect, having access to weapons from the first day, quickly seized the opportunity to form a gang.",
-Sandbox_Bandits.GroupName_option6::ja::unprocessed::unverified = "Police                                                                             
- Called to serve and protect, having access to weapons from the first day, quickly seized the opportunity to form a gang.",
-Sandbox_Bandits.GroupName_option7::en = "Preppers                                                                         
- Lunatics who apparently were right about the end of the world, actually welcomed the first day of the apocalypse.",
-Sandbox_Bandits.GroupName_option7::ja::unprocessed::unverified = "Preppers                                                                         
- Lunatics who apparently were right about the end of the world, actually welcomed the first day of the apocalypse.",
-Sandbox_Bandits.GroupName_option8::en = "Veterans                                                                         
- The patriots, hardened by war, knew how to deal with the new enemy, and how not to lose their honor.",
-Sandbox_Bandits.GroupName_option8::ja::unprocessed::unverified = "Veterans                                                                         
- The patriots, hardened by war, knew how to deal with the new enemy, and how not to lose their honor.",
-Sandbox_Bandits.GroupName_option9::en = "Boozehounds Brigade                                                   
- Daily visits to the local tavern cemented their friendship, survived by being together and working as a group.",
-Sandbox_Bandits.GroupName_option9::ja::unprocessed::unverified = "Boozehounds Brigade                                                   
- Daily visits to the local tavern cemented their friendship, survived by being together and working as a group.",
 Sandbox_Bandits.GroupName_tooltip::en = "Character of the group",
 Sandbox_Bandits.GroupName_tooltip::ja::unprocessed::unverified = "Character of the group",
 Sandbox_Bandits.GroupSize::en = "Group Size",
