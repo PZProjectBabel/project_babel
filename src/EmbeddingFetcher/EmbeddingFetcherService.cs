@@ -20,6 +20,7 @@ public class EmbeddingFetcherService
     private static readonly TimeSpan ProgressLogInterval = TimeSpan.FromSeconds(30);
     private const int MaxConsecutiveFailedBatches = 3;
     private const int EndpointProbeTimeoutSeconds = 3;
+    private const int RequestTimeoutSeconds = 300;
 
     private const int BackfillLimit = 10000000;
 
@@ -110,7 +111,7 @@ public class EmbeddingFetcherService
         using var ownedClient = _httpClient == null ? new HttpClient() : null;
         var client = _httpClient ?? ownedClient!;
         if (ownedClient != null)
-            client.Timeout = TimeSpan.FromSeconds(Math.Max(1, _config.steamRequestTimeoutSeconds));
+            client.Timeout = TimeSpan.FromSeconds(RequestTimeoutSeconds);
 
         var totalBatches = (candidates.Count + BatchSize - 1) / BatchSize;
         Console.WriteLine($"  Embedding queue: {candidates.Count} item(s), {totalBatches} batch(es), batchSize={BatchSize}");

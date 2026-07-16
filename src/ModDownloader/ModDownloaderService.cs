@@ -67,6 +67,7 @@ public class ModDownloaderService
 
         var succeeded = new HashSet<string>(StringComparer.Ordinal);
         string workshopContent = Path.Combine(steamcmdDst, "steamapps", "workshop", "content", AppId.ToString());
+        var downloadedPaths = new Dictionary<string, string>(StringComparer.Ordinal);
         foreach (var modId in requestedIds)
         {
             string dstModDir = Path.Combine(_config.downloadedModsTempDir, modId);
@@ -87,16 +88,16 @@ public class ModDownloaderService
             string args = $"+force_install_dir \"{steamcmdDst}\" +login anonymous {dlCmds} +quit";
             string output = await RunSteamCmdAsync(steamcmdExe, args, steamcmdDst, pending, requestedIds.Count);
 
-            foreach (var modId in ParseDownloadResults(output, pending))
-                succeeded.Add(modId);
+            foreach (var (modId, path) in ParseDownloadPaths(output, pending))
+                downloadedPaths[modId] = path;
 
-            // Also parse steamcmd log files — newer steamcmd writes download results to logs, not stdout.
-            foreach (var modId in ParseDownloadResultsFromLogs(steamcmdDst, pending))
-                succeeded.Add(modId);
+            // Newer steamcmd versions write completion paths to logs rather than stdout.
+            foreach (var (modId, path) in ParseDownloadPathsFromLogs(steamcmdDst, pending))
+                downloadedPaths[modId] = path;
 
             foreach (var modId in pending)
             {
-                string srcModDir = Path.Combine(workshopContent, modId);
+                string srcModDir = GetDownloadedModPath(modId, workshopContent, downloadedPaths);
                 if (Directory.Exists(srcModDir) && Directory.EnumerateFileSystemEntries(srcModDir).Any())
                     succeeded.Add(modId);
             }
@@ -109,7 +110,7 @@ public class ModDownloaderService
         // 3. Move downloaded mods from steamcmd output dir to final dir.
         foreach (var modId in requestedIds)
         {
-            string srcModDir = Path.Combine(workshopContent, modId);
+            string srcModDir = GetDownloadedModPath(modId, workshopContent, downloadedPaths);
             string dstModDir = Path.Combine(_config.downloadedModsTempDir, modId);
 
             if (Directory.Exists(srcModDir))
@@ -438,17 +439,33 @@ public class ModDownloaderService
         return succeeded;
     }
 
+    public static Dictionary<string, string> ParseDownloadPaths(string output, IReadOnlyList<string> expectedIds)
+    {
+        var expected = expectedIds.ToHashSet(StringComparer.Ordinal);
+        var paths = new Dictionary<string, string>(StringComparer.Ordinal);
+        foreach (var line in output.Split('\n'))
+        {
+            var match = Regex.Match(
+                line,
+                @"Success\.\s+Downloaded item\s+(?<id>\d+)\s+to\s+""(?<path>.+?)""",
+                RegexOptions.IgnoreCase);
+            if (match.Success && expected.Contains(match.Groups["id"].Value))
+                paths[match.Groups["id"].Value] = match.Groups["path"].Value;
+        }
+        return paths;
+    }
+
     /// <summary>
-    /// Reads steamcmd log files for "Success. Downloaded item" lines.
+    /// Reads steamcmd log files for SteamCMD completion paths.
     /// Newer steamcmd versions write download results to log files rather than stdout.
     /// </summary>
-    private static HashSet<string> ParseDownloadResultsFromLogs(string steamcmdDir, IReadOnlyList<string> expectedIds)
+    private static Dictionary<string, string> ParseDownloadPathsFromLogs(string steamcmdDir, IReadOnlyList<string> expectedIds)
     {
         var logsDir = Path.Combine(steamcmdDir, "logs");
         if (!Directory.Exists(logsDir))
-            return new HashSet<string>();
+            return new Dictionary<string, string>(StringComparer.Ordinal);
 
-        var succeeded = new HashSet<string>(StringComparer.Ordinal);
+        var paths = new Dictionary<string, string>(StringComparer.Ordinal);
         foreach (var logFile in Directory.EnumerateFiles(logsDir, "*.*", SearchOption.AllDirectories))
         {
             var ext = Path.GetExtension(logFile);
@@ -459,8 +476,8 @@ public class ModDownloaderService
             try
             {
                 var content = File.ReadAllText(logFile);
-                foreach (var modId in ParseDownloadResults(content, expectedIds))
-                    succeeded.Add(modId);
+                foreach (var (modId, path) in ParseDownloadPaths(content, expectedIds))
+                    paths[modId] = path;
             }
             catch
             {
@@ -468,7 +485,18 @@ public class ModDownloaderService
             }
         }
 
-        return succeeded;
+        return paths;
+    }
+
+    private static string GetDownloadedModPath(
+        string modId,
+        string workshopContent,
+        IReadOnlyDictionary<string, string> downloadedPaths)
+    {
+        string defaultPath = Path.Combine(workshopContent, modId);
+        return downloadedPaths.TryGetValue(modId, out var reportedPath) && Directory.Exists(reportedPath)
+            ? reportedPath
+            : defaultPath;
     }
 
     private void CreateDownloadedPathRecords(

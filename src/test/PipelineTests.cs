@@ -683,6 +683,17 @@ public class ModDownloaderTests
     }
 
     [Fact]
+    public void ParseDownloadPaths_ShouldReturnReportedPathForExpectedId()
+    {
+        const string output = "Success. Downloaded item 1234567890 to \"/home/runner/.steam/steam/steamapps/workshop/content/108600/1234567890\" (2048 bytes)";
+
+        var paths = ModDownloaderService.ParseDownloadPaths(output, ["1234567890", "2222222222"]);
+
+        Assert.Equal("/home/runner/.steam/steam/steamapps/workshop/content/108600/1234567890", paths["1234567890"]);
+        Assert.DoesNotContain("2222222222", paths);
+    }
+
+    [Fact]
     public void ParseDownloadProgressEvents_ShouldReadSteamCmdLogLines()
     {
         const string log = """
@@ -1367,6 +1378,21 @@ public class PlaceholderServiceTests
         Assert.Equal(3, handler.RequestCount);
         Assert.Equal(97, result.warningCount);
         Assert.All(entries.Values, entry => Assert.Empty(entry.embeddingValues));
+    }
+
+    [Fact]
+    public async Task EmbeddingFetcher_ShouldRetryCanceledRequests()
+    {
+        var config = TestConfig.Create();
+        var entries = TestTranslations.Entries("text");
+        var handler = new TimeoutHttpMessageHandler();
+
+        var result = await new EmbeddingFetcherService(config, new HttpClient(handler))
+            .FetchEmbeddingsAsync([], entries, entries, [], []);
+
+        Assert.True(result.isSuccess);
+        Assert.Equal(3, handler.RequestCount);
+        Assert.Equal(1, result.warningCount);
     }
 
     private static string ComputeSha256(string text)
