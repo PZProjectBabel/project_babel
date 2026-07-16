@@ -27,6 +27,12 @@ jobs:
 
       - name: Run translation pipeline
         id: pipeline
+        env:
+          EMBEDDING_HOST: ${{ secrets.EMBEDDING_HOST }}
+          EMBEDDING_PORT: ${{ secrets.EMBEDDING_PORT }}
+          EMBEDDING_KEY: ${{ secrets.EMBEDDING_KEY }}
+          LLM_KEY: ${{ secrets.LLM_KEY }}
+          STEAM_KEY: ${{ secrets.STEAM_KEY }}
         run: dotnet run --project src/TranslationPipeline.csproj
 
       - name: Commit & push changes
