@@ -25,18 +25,6 @@ jobs:
         with:
           dotnet-version: '10.0.x'
 
-      - name: Create secrets.json
-        run: |
-          cat > config/secrets.json << 'JSONEOF'
-          {
-            "EMBEDDING_HOST": "${{ secrets.EMBEDDING_HOST }}",
-            "EMBEDDING_PORT": "${{ secrets.EMBEDDING_PORT }}",
-            "EMBEDDING_KEY": "${{ secrets.EMBEDDING_KEY }}",
-            "LLM_KEY": "${{ secrets.LLM_KEY }}",
-            "STEAM_KEY": "${{ secrets.STEAM_KEY }}"
-          }
-          JSONEOF
-
       - name: Run translation pipeline
         id: pipeline
         run: dotnet run --project src/TranslationPipeline.csproj
