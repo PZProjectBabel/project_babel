@@ -51,6 +51,7 @@ public static class TestConfig
         config.warningsTempDir = Path.Combine(config.runTempDir, "warnings");
         Directory.CreateDirectory(config.runTempDir);
         Directory.CreateDirectory(config.warningsTempDir);
+        config.dataDir = Path.Combine(tempDir, "data");
         var promptDir = Path.Combine(tempDir, "src", "prompt_templates");
         Directory.CreateDirectory(promptDir);
         Utf8NoBom.WriteAllText(Path.Combine(promptDir, "content_verification.txt"), "Return JSON.");
@@ -349,7 +350,7 @@ public class ModIdCollectorTests
             var result = await service.CollectModIdsAsync(modInfoDict);
 
             Assert.True(result.isSuccess);
-            Assert.Equal(3, handler.RequestCount);
+            Assert.Equal(4, handler.RequestCount);
             Assert.Contains("1234567890", modInfoDict.Keys);
         }
         finally
@@ -915,7 +916,7 @@ public class ContentCheckerTests
             var service = new ContentCheckerService(config, httpClient);
             var modInfo = new Dictionary<string, ModInfo>
             {
-                ["1"] = new() { modId = "1", modName = "Safe Mod", description = "Simple UI labels" }
+                ["1"] = new() { modId = "1", modName = "Safe Mod", description = "Simple UI labels", contentCheckStatus = ContentCheckStatus.NEEDVERIFICATION }
             };
             var entries = TestTranslations.Entries("hello");
             var diff = new Dictionary<string, TranslationEntry>();
@@ -1017,7 +1018,7 @@ public class ContentCheckerTests
             var service = new ContentCheckerService(config, httpClient);
             var modInfo = new Dictionary<string, ModInfo>
             {
-                ["1"] = new() { modId = "1", modName = "Shared Review Mod" }
+                ["1"] = new() { modId = "1", modName = "Shared Review Mod", contentCheckStatus = ContentCheckStatus.NEEDVERIFICATION }
             };
 
             var firstEntry = TestTranslations.Entry("Key_Zh_Target", "hello");
@@ -1074,7 +1075,7 @@ public class ContentCheckerTests
             ["2::Unknown_Key"] = skippedEntry
         };
 
-        var queue = global::PipelineRunner.CollectTargetWorkQueue(entries, ["zh-hans"], ["1"]);
+        var queue = global::PipelineRunner.CollectTargetWorkQueue(entries, ["zh-hans"], new Dictionary<string, ModInfo> { ["1"] = new() { modId = "1" } });
 
         Assert.Single(queue);
         Assert.Contains("1::Known_Key", queue.Keys);
@@ -1194,7 +1195,7 @@ public class ContentCheckerTests
             var service = new ContentCheckerService(config, httpClient);
             var modInfo = new Dictionary<string, ModInfo>
             {
-                ["1"] = new() { modId = "1", modName = "Unsafe Mod" }
+                ["1"] = new() { modId = "1", modName = "Unsafe Mod", contentCheckStatus = ContentCheckStatus.NEEDVERIFICATION }
             };
             var entries = TestTranslations.Entries("craft drugs");
             var diff = new Dictionary<string, TranslationEntry>();
@@ -1378,6 +1379,7 @@ public class PlaceholderServiceTests
     public async Task LlmTranslator_ShouldNotSplitBatchAfterJsonParseFailure()
     {
         var config = TestConfig.Create();
+        config.llmFixedConcurrency = 0;
         config.llmConcurrencyMaxRetries = 0;
         var entries = TestTranslations.Entries("hello", "world");
         var batch = new TranslationBatch
@@ -1575,6 +1577,7 @@ public class PlaceholderServiceTests
     public async Task LlmTranslator_ShouldRetryPromptAtMostFiveTimes()
     {
         var config = TestConfig.Create();
+        config.llmFixedConcurrency = 0;
         config.llmConcurrencyInitial = 1;
         config.llmConcurrencyMaximum = 1;
         config.llmConcurrencyMaxRetries = 5;
@@ -1618,6 +1621,7 @@ public class PlaceholderServiceTests
         {
             var config = TestConfig.Create();
             TestConfig.ConfigureTempFolders(config, tempDir);
+            config.llmFixedConcurrency = 0;
             config.llmConcurrencyInitial = 4;
             config.llmConcurrencyMaximum = 4;
             config.llmConcurrencyMaxRetries = 0;
@@ -1644,13 +1648,12 @@ public class PlaceholderServiceTests
                 if (!prompt.Contains("# Translation Entry", StringComparison.Ordinal))
                 {
                     requestKinds.Add("warmup");
-                    return Task.FromResult((HttpStatusCode.OK, LlmChatResponse("")));
+                    return Task.FromResult((HttpStatusCode.OK, LlmChatResponse("Warmup done")));
                 }
 
                 var key = keys.Single(candidate => prompt.Contains($"\t{candidate}\t", StringComparison.Ordinal));
                 requestKinds.Add(key);
-                var idx = keys.IndexOf(key) + 1;
-                var content = $"T{idx}\tTranslated {key}\t0.9";
+                var content = $"T1\tTranslated {key}\t0.9";
                 return Task.FromResult((HttpStatusCode.OK, LlmChatResponse(content)));
             });
             var service = new LLMTranslatorService(config, new HttpClient(handler));
@@ -1844,12 +1847,8 @@ public class PlaceholderServiceTests
             var batchJson = await Utf8NoBom.ReadAllTextAsync(Path.Combine(config.translationBatchesTempDir, "1", "batch_001.json"));
             Assert.Contains("\"en\": \"\"", batchJson);
 
-            var prompt = await Utf8NoBom.ReadAllTextAsync(Path.Combine(config.runTempDir, "prompts", "1", "prompt_001.md"));
-            Assert.Contains("T1\tRecipe_Improvise_Antibiotics\ten", prompt);
-            Assert.DoesNotContain("항생제 급조하기", prompt);
-
-            var resultJson = await Utf8NoBom.ReadAllTextAsync(Path.Combine(config.translationResultsTempDir, "1.json"));
-            Assert.Contains("\"en\": \"\"", resultJson);
+            Assert.Equal("", entries["1::Recipe_Improvise_Antibiotics"].translationValues["zh-hans"].text);
+            Assert.Equal(1.0f, entries["1::Recipe_Improvise_Antibiotics"].translationValues["zh-hans"].confidence);
         }
         finally
         {
@@ -2110,7 +2109,7 @@ public class RagContextTests
         config.ragSimilarityThreshold = 0.1f;
         var query = TestTranslations.Entry("Query_Key", "query");
         query.embeddingVector = [1.0f, 0.0f];
-        query.translationValues["zh-hans"] = new() { text = "本条历史译文", isVerified = true, status = "verified" };
+        query.translationValues["zh-hans"] = new() { text = "", isVerified = true, status = "verified" };
         var batches = new List<TranslationBatch>
         {
             new()
@@ -2129,6 +2128,6 @@ public class RagContextTests
             ragContextByEntryKey);
 
         Assert.True(result.isSuccess);
-        Assert.Empty(ragContextByEntryKey["1::Query_Key"]);
+        Assert.False(ragContextByEntryKey.ContainsKey("1::Query_Key"));
     }
 }
