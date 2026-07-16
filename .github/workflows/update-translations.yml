@@ -1,0 +1,78 @@
+name: Update Translations
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every Friday at 22:00 Beijing (UTC+8) = 14:00 UTC
+    - cron: '0 14 * * 5'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate-and-merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Create secrets.json
+        run: |
+          cat > config/secrets.json << 'JSONEOF'
+          {
+            "EMBEDDING_HOST": "${{ secrets.EMBEDDING_HOST }}",
+            "EMBEDDING_PORT": "${{ secrets.EMBEDDING_PORT }}",
+            "EMBEDDING_KEY": "${{ secrets.EMBEDDING_KEY }}",
+            "LLM_KEY": "${{ secrets.LLM_KEY }}",
+            "STEAM_KEY": "${{ secrets.STEAM_KEY }}"
+          }
+          JSONEOF
+
+      - name: Run translation pipeline
+        id: pipeline
+        run: dotnet run --project src/TranslationPipeline.csproj
+
+      - name: Commit & push changes
+        id: push
+        run: |
+          BRANCH="update-translation-${{ github.run_id }}"
+          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -m "[skip ci] auto: update translations ($(date -u +%Y-%m-%d))" || echo "no_changes=true" >> $GITHUB_OUTPUT
+          git push origin "$BRANCH"
+
+      - name: Create PR & auto-merge
+        if: ${{ steps.push.outputs.no_changes != 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="${{ steps.push.outputs.branch }}"
+          PR_URL=$(gh pr create \
+            --base master \
+            --head "$BRANCH" \
+            --title "[skip ci] Auto translation update ($(date -u +%Y-%m-%d))" \
+            --body "Automated translation update by CI pipeline.")
+
+          PR_NUM=$(echo "$PR_URL" | grep -oP '\d+$' || echo "$PR_URL" | awk -F'/' '{print $NF}')
+
+          gh pr review "$PR_NUM" --approve
+          gh pr merge "$PR_NUM" --squash --delete-branch --admin
+
+      - name: Cleanup branch (fallback)
+        if: ${{ always() && steps.push.outputs.no_changes != 'true' }}
+        run: |
+          git push origin --delete "${{ steps.push.outputs.branch }}" 2>/dev/null || true
