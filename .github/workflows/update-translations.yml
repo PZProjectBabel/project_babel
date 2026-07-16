@@ -7,8 +7,7 @@ on:
     - cron: '0 14 * * 5'
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
 jobs:
   translate-and-merge:
@@ -18,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TRANSLATION_BOT_TOKEN }}
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
@@ -35,24 +34,36 @@ jobs:
           STEAM_KEY: ${{ secrets.STEAM_KEY }}
         run: dotnet run --project src/TranslationPipeline.csproj
 
+      - name: Check for changes
+        id: changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Commit & push changes
         id: push
+        if: ${{ steps.changes.outputs.has_changes == 'true' }}
         run: |
           BRANCH="update-translation-${{ github.run_id }}"
           echo "branch=$BRANCH" >> $GITHUB_OUTPUT
 
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "translation-bot"
+          git config user.email "translation-bot@users.noreply.github.com"
 
           git checkout -b "$BRANCH"
           git add -A
-          git commit -m "[skip ci] auto: update translations ($(date -u +%Y-%m-%d))" || echo "no_changes=true" >> $GITHUB_OUTPUT
+          git commit -m "[skip ci] auto: update translations ($(date -u +%Y-%m-%d))"
           git push origin "$BRANCH"
+          echo "head_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - name: Create PR & auto-merge
-        if: ${{ steps.push.outputs.no_changes != 'true' }}
+      - name: Create PR
+        id: create-pr
+        if: ${{ steps.changes.outputs.has_changes == 'true' }}
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.TRANSLATION_BOT_TOKEN }}
         run: |
           BRANCH="${{ steps.push.outputs.branch }}"
           PR_URL=$(gh pr create \
@@ -62,10 +73,45 @@ jobs:
             --body "Automated translation update by CI pipeline.")
 
           PR_NUM=$(echo "$PR_URL" | grep -oP '\d+$' || echo "$PR_URL" | awk -F'/' '{print $NF}')
+          echo "number=$PR_NUM" >> "$GITHUB_OUTPUT"
+          echo "author=$(gh api user --jq .login)" >> "$GITHUB_OUTPUT"
 
-          gh pr merge "$PR_NUM" --squash --delete-branch --admin
-
-      - name: Cleanup branch (fallback)
-        if: ${{ always() && steps.push.outputs.no_changes != 'true' }}
+      - name: Verify and approve PR
+        if: ${{ steps.changes.outputs.has_changes == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.TRANSLATION_APPROVER_TOKEN }}
+          PR_NUMBER: ${{ steps.create-pr.outputs.number }}
+          EXPECTED_BRANCH: ${{ steps.push.outputs.branch }}
+          EXPECTED_AUTHOR: ${{ steps.create-pr.outputs.author }}
+          EXPECTED_HEAD_SHA: ${{ steps.push.outputs.head_sha }}
         run: |
-          git push origin --delete "${{ steps.push.outputs.branch }}" 2>/dev/null || true
+          gh api "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" > pr.json
+          jq -e \
+            --arg repository "$GITHUB_REPOSITORY" \
+            --arg branch "$EXPECTED_BRANCH" \
+            --arg author "$EXPECTED_AUTHOR" \
+            --arg head_sha "$EXPECTED_HEAD_SHA" \
+            '.state == "open"
+              and .base.repo.full_name == $repository
+              and .base.ref == "master"
+              and .head.repo.full_name == $repository
+              and .head.ref == $branch
+              and .head.sha == $head_sha
+              and .user.login == $author' \
+            pr.json
+          for attempt in {1..10}; do
+            gh pr review "$PR_NUMBER" --approve && exit 0
+            sleep 3
+          done
+          exit 1
+
+      - name: Enable squash auto-merge
+        if: ${{ steps.changes.outputs.has_changes == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.TRANSLATION_BOT_TOKEN }}
+        run: |
+          for attempt in {1..10}; do
+            gh pr merge "${{ steps.create-pr.outputs.number }}" --auto --squash --delete-branch && exit 0
+            sleep 3
+          done
+          exit 1
