@@ -61,12 +61,13 @@ public class PipelineRunner
                 ApplyDebugSupportedLanguageSubset(config, DebugAdditionalTargetLanguageCount);
             var targetLanguages = GetTargetLanguages(config);
             Console.WriteLine($"  [OK] Configuration ready: model={config.llmModel}, base={config.baseLanguage}, targets={string.Join(", ", targetLanguages.Select(lang => lang.isoCode))}");
+
+            var steamCmdBootstrapper = new SteamCmdBootstrapper.SteamCmdBootstrapperService(config);
+            await steamCmdBootstrapper.BootstrapAsync();
         }
         catch (Exception ex)
         {
-            GitHubActions.Error(ex.Message, "Configuration failed");
-            Environment.Exit(1);
-            return;
+            throw new InvalidOperationException("Configuration failed.", ex);
         }
         var enabledTargetLanguages = GetTargetLanguages(config);
         var outputLanguages = GetOutputLanguages(config);

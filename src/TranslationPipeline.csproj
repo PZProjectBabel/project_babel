@@ -20,6 +20,7 @@
     <Compile Remove="RagContextRetriever\**" />
     <Compile Remove="ResultWriter\**" />
     <Compile Remove="FinalOutputWriter\**" />
+    <Compile Remove="SteamCmdBootstrapper\**" />
     <Compile Remove="TranslationBatcher\**" />
     <Compile Remove="test\**" />
     <Compile Remove="obj\**" />
@@ -42,6 +43,7 @@
     <ProjectReference Include="ProgressReporter\ProgressReporter.csproj" />
     <ProjectReference Include="RagContextRetriever\RagContextRetriever.csproj" />
     <ProjectReference Include="RepoDataLoader\RepoDataLoader.csproj" />
+    <ProjectReference Include="SteamCmdBootstrapper\SteamCmdBootstrapper.csproj" />
     <ProjectReference Include="ContentChecker\ContentChecker.csproj" />
     <ProjectReference Include="LLMTranslator\LLMTranslator.csproj" />
     <ProjectReference Include="ResultWriter\ResultWriter.csproj" />

@@ -5,6 +5,7 @@ Structure: .NET solution with one entry project plus module projects. `Translati
 Entry:
 - `Program.cs`: pipeline runner, debug mod/language subset controls, known-mod filtered target work queue, persisted modinfo merge before write-back, stage numbering, per-target RAG/LLM short-circuit for languages with no pending entries, and per-language output loops.
 - `TranslationPipeline.csproj`: entry project references all modules; module folders own their service classes.
+- `SteamCmdBootstrapper/`: refreshes the platform-specific SteamCMD runtime before mod downloads.
 
 Support folders:
 - `prompt_templates/`: content-check and translation prompt templates/dictionaries.
@@ -16,16 +17,17 @@ Pipeline order:
 2. `RepoDataLoader`: load cached ref/translation data, diff entries, persist merge.
 3. `ModIdCollector`: merge remote/local/cache mod IDs.
 4. `ModInfoFetcher`: fetch Steam metadata.
-5. `ModDownloader`: copy/run steamcmd and download Workshop content.
-6. `ContentExtractor`: parse mod translation files into shared `TranslationEntry` dictionaries.
-7. `ContentChecker`: review normal mods and filter queued entries.
-8. `EmbeddingFetcher`: embed normal base/key-only and ref target text by source kind.
-9. `TranslationBatcher`: create target-independent batches from checked target work queues; inactive work lowest priority.
-10. `RagContextRetriever`: per-target exact key + embedding RAG contexts.
-11. `LLMTranslator`: skip processed targets, build cacheable per-target prompts, warm up large target queues, execute LLM calls serially per language.
-12. `ResultWriter`: write history stores to `data/`/`translation_ref/`.
-13. `FinalOutputWriter`: generate PZ mod-format translation output.
-14. `ProgressReporter`: generate progress reports in `docs/progress/`.
+5. `SteamCmdBootstrapper`: refresh platform-specific SteamCMD runtime.
+6. `ModDownloader`: copy/run steamcmd and download Workshop content.
+7. `ContentExtractor`: parse mod translation files into shared `TranslationEntry` dictionaries.
+8. `ContentChecker`: review normal mods and filter queued entries.
+9. `EmbeddingFetcher`: embed normal base/key-only and ref target text by source kind.
+10. `TranslationBatcher`: create target-independent batches from checked target work queues; inactive work lowest priority.
+11. `RagContextRetriever`: per-target exact key + embedding RAG contexts.
+12. `LLMTranslator`: skip processed targets, build cacheable per-target prompts, warm up large target queues, execute LLM calls serially per language.
+13. `ResultWriter`: write history stores to `data/`/`translation_ref/`.
+14. `FinalOutputWriter`: generate PZ mod-format translation output.
+15. `ProgressReporter`: generate progress reports in `docs/progress/`.
 
 Shared data:
 - `Dictionary<string, ModInfo>`: mod metadata and local downloaded paths.
