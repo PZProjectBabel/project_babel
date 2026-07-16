@@ -84,10 +84,14 @@ public class ModDownloaderService
 
             Console.WriteLine($"  download attempt [{attempt}/{maxAttempts}] pending {pending.Count}/{requestedIds.Count} mod(s)...");
             var dlCmds = string.Join(" ", pending.Select(id => $"+workshop_download_item {AppId} {id}"));
-            string args = $"+login anonymous {dlCmds} +quit";
+            string args = $"+force_install_dir \"{steamcmdDst}\" +login anonymous {dlCmds} +quit";
             string output = await RunSteamCmdAsync(steamcmdExe, args, steamcmdDst, pending, requestedIds.Count);
 
             foreach (var modId in ParseDownloadResults(output, pending))
+                succeeded.Add(modId);
+
+            // Also parse steamcmd log files — newer steamcmd writes download results to logs, not stdout.
+            foreach (var modId in ParseDownloadResultsFromLogs(steamcmdDst, pending))
                 succeeded.Add(modId);
 
             foreach (var modId in pending)
@@ -431,6 +435,39 @@ public class ModDownloaderService
                     succeeded.Add(parts[3]);
             }
         }
+        return succeeded;
+    }
+
+    /// <summary>
+    /// Reads steamcmd log files for "Success. Downloaded item" lines.
+    /// Newer steamcmd versions write download results to log files rather than stdout.
+    /// </summary>
+    private static HashSet<string> ParseDownloadResultsFromLogs(string steamcmdDir, IReadOnlyList<string> expectedIds)
+    {
+        var logsDir = Path.Combine(steamcmdDir, "logs");
+        if (!Directory.Exists(logsDir))
+            return new HashSet<string>();
+
+        var succeeded = new HashSet<string>(StringComparer.Ordinal);
+        foreach (var logFile in Directory.EnumerateFiles(logsDir, "*.*", SearchOption.AllDirectories))
+        {
+            var ext = Path.GetExtension(logFile);
+            if (!string.Equals(ext, ".txt", StringComparison.OrdinalIgnoreCase)
+                && !string.Equals(ext, ".log", StringComparison.OrdinalIgnoreCase))
+                continue;
+
+            try
+            {
+                var content = File.ReadAllText(logFile);
+                foreach (var modId in ParseDownloadResults(content, expectedIds))
+                    succeeded.Add(modId);
+            }
+            catch
+            {
+                // Log file may be locked or deleted; ignore.
+            }
+        }
+
         return succeeded;
     }
 

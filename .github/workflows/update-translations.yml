@@ -69,7 +69,6 @@ jobs:
 
           PR_NUM=$(echo "$PR_URL" | grep -oP '\d+$' || echo "$PR_URL" | awk -F'/' '{print $NF}')
 
-          gh pr review "$PR_NUM" --approve
           gh pr merge "$PR_NUM" --squash --delete-branch --admin
 
       - name: Cleanup branch (fallback)
