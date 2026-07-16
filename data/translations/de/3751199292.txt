@@ -448,13 +448,7 @@ UI_BN_Dbg_SetProfession::en = "[DEBUG] Set profession:",
 UI_BN_Dbg_SetProfession::de::processed::unverified = "[DEBUG] Beruf festlegen:",
 UI_BN_Dismiss::en = "Dismiss companion",
 UI_BN_Dismiss::de::processed::unverified = "Gefährten entlassen",
-UI_BN_DismissConfirm::en = "Dismiss %s?
-
-They will stop taking orders, stop using their assigned spots,
-wander off on their own and no longer be protected.
-
-(Routines and schedules run AUTOMATICALLY while they stay
-recruited - you never need to dismiss them for that.)",
+UI_BN_DismissConfirm::en = "",
 UI_BN_DismissConfirm::de::processed::unverified = "%s entlassen?\\n\\nSie werden keine Befehle mehr annehmen, keine zugewiesenen Plätze mehr nutzen,\\nauf eigene Faust umherwandern und nicht mehr beschützt sein.\\n\\n(Routinen und Zeitpläne laufen AUTOMATISCH, während sie rekrutiert\\nbleiben - du musst sie dafür nie entlassen.)",
 UI_BN_Equip::en = "Equip",
 UI_BN_Equip::de::processed::unverified = "Ausrüsten",

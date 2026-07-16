@@ -448,13 +448,7 @@ UI_BN_Dbg_SetProfession::en = "[DEBUG] Set profession:",
 UI_BN_Dbg_SetProfession::fr::processed::unverified = "[DÉBOGAGE] Définir la profession :",
 UI_BN_Dismiss::en = "Dismiss companion",
 UI_BN_Dismiss::fr::processed::unverified = "Renvoyer le compagnon",
-UI_BN_DismissConfirm::en = "Dismiss %s?
-
-They will stop taking orders, stop using their assigned spots,
-wander off on their own and no longer be protected.
-
-(Routines and schedules run AUTOMATICALLY while they stay
-recruited - you never need to dismiss them for that.)",
+UI_BN_DismissConfirm::en = "",
 UI_BN_DismissConfirm::fr::processed::unverified = "Renvoyer %s ?\\n\\nIls cesseront de prendre des ordres, cesseront d'utiliser leurs emplacements assignés, erreront seuls et ne seront plus protégés.\\n\\n(Les routines et horaires s'exécutent AUTOMATIQUEMENT pendant qu'ils restent recrutés - vous n'avez jamais besoin de les renvoyer pour cela.)",
 UI_BN_Equip::en = "Equip",
 UI_BN_Equip::fr::processed::unverified = "Équiper",
