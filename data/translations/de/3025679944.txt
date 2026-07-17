@@ -32,6 +32,10 @@ Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance::en = "Anthro Immun
 Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance::de::processed::unverified = "Anthro-Immunität: Lazeration-Wahrscheinlichkeit",
 Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance_tooltip::en = "Chance to actually be infected after being infected from a laceration.<br>'Stacks' with vanilla infection chance.",
 Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance_tooltip::de::processed::unverified = "Wahrscheinlichkeit, nach einer Lazeration tatsächlich infiziert zu werden.<br>Stapelt sich mit der Vanilla-Infektionswahrscheinlichkeit.",
+Sandbox_AnthroTraits_AnthroImmunityOtherInfectionChance::en = "Anthro Immunity Other Chance",
+Sandbox_AnthroTraits_AnthroImmunityOtherInfectionChance::de::processed::unverified = "Anthro-Immunität: Sonstige Wahrscheinlichkeit",
+Sandbox_AnthroTraits_AnthroImmunityOtherInfectionChance_tooltip::en = "Chance to actually be infected from some other source (other mods).",
+Sandbox_AnthroTraits_AnthroImmunityOtherInfectionChance_tooltip::de::processed::unverified = "Wahrscheinlichkeit, tatsächlich von einer anderen Quelle (anderen Mods) infiziert zu werden.",
 Sandbox_AnthroTraits_AnthroImmunityScratchInfectionChance::en = "Anthro Immunity Scratch Chance",
 Sandbox_AnthroTraits_AnthroImmunityScratchInfectionChance::de::processed::unverified = "Anthro-Immunität: Kratz-Wahrscheinlichkeit",
 Sandbox_AnthroTraits_AnthroImmunityScratchInfectionChance_tooltip::en = "Chance to actually be infected after being infected from a scratch.<br>'Stacks' with vanilla infection chance.",
@@ -278,8 +282,12 @@ Sandbox_AnthroTraits_StinkyLoudness_tooltip::en = "Stinky makes a 'noise' every 
 Sandbox_AnthroTraits_StinkyLoudness_tooltip::de::processed::unverified = "Stinky erzeugt jede Minute ein 'Geräusch', um Zombies anzulocken. Dies bestimmt, wie laut dieses 'Geräusch' ist.",
 Sandbox_AnthroTraits_StinkyThreshold::en = "Stinky Threshold",
 Sandbox_AnthroTraits_StinkyThreshold::de::processed::unverified = "Stinky Schwellenwert",
-Sandbox_AnthroTraits_StinkyThreshold_tooltip::en = "",
-Sandbox_AnthroTraits_StinkyThreshold_tooltip::de::processed::unverified = "",
+Sandbox_AnthroTraits_StinkyThreshold_tooltip::en = "How dirty a player needs to be before activating the Stinky trait.
+There are 17 body parts, each with a dirtiness rating from 0-1.
+0.01 is any dirtiness on the body at all, 17 is very hard to achieve
+with full dirtiness on every body part.
+Does not factor in clothing dirtiness.",
+Sandbox_AnthroTraits_StinkyThreshold_tooltip::de::processed::unverified = "Wie schmutzig ein Spieler sein muss, bevor das Stinky-Merkmal aktiviert wird. Es gibt 17 Körperteile, jedes mit einem Schmutzigkeitsgrad von 0-1. 0,01 bedeutet irgendeine Verschmutzung am Körper, 17 ist sehr schwer zu erreichen mit vollständiger Verschmutzung an jedem Körperteil. Die Kleidungsschmutz wird nicht berücksichtigt.",
 Sandbox_AnthroTraits_Stinky_Cost::en = "Stinky Cost",
 Sandbox_AnthroTraits_Stinky_Cost::de::processed::unverified = "Kosten für Stinky",
 Sandbox_AnthroTraits_Stinky_Cost_tooltip::en = "The cost of this trait at character creation.",

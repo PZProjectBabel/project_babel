@@ -15,6 +15,8 @@ Sandbox_AnthroTraits_AnthroImmunityIgnoredByAnthroZombies::en = "Anthro Immunity
 Sandbox_AnthroTraits_AnthroImmunityIgnoredByAnthroZombies_tooltip::en = "If enabled, risk of Knox Infection from anthro zombies is the same as vanilla.",
 Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance::en = "Anthro Immunity Laceration Chance",
 Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance_tooltip::en = "Chance to actually be infected after being infected from a laceration.<br>'Stacks' with vanilla infection chance.",
+Sandbox_AnthroTraits_AnthroImmunityOtherInfectionChance::en = "Anthro Immunity Other Chance",
+Sandbox_AnthroTraits_AnthroImmunityOtherInfectionChance_tooltip::en = "Chance to actually be infected from some other source (other mods).",
 Sandbox_AnthroTraits_AnthroImmunityScratchInfectionChance::en = "Anthro Immunity Scratch Chance",
 Sandbox_AnthroTraits_AnthroImmunityScratchInfectionChance_tooltip::en = "Chance to actually be infected after being infected from a scratch.<br>'Stacks' with vanilla infection chance.",
 Sandbox_AnthroTraits_AnthroImmunity_Cost::en = "Anthro Immunity Cost",
@@ -138,7 +140,11 @@ Sandbox_AnthroTraits_StinkyDistance_tooltip::en = "The distance in tiles that a 
 Sandbox_AnthroTraits_StinkyLoudness::en = "Stinky Attraction Strength",
 Sandbox_AnthroTraits_StinkyLoudness_tooltip::en = "Stinky makes a 'noise' every minute to attract zombies. This determines how loud that 'noise' is.",
 Sandbox_AnthroTraits_StinkyThreshold::en = "Stinky Threshold",
-Sandbox_AnthroTraits_StinkyThreshold_tooltip::en = "",
+Sandbox_AnthroTraits_StinkyThreshold_tooltip::en = "How dirty a player needs to be before activating the Stinky trait.
+There are 17 body parts, each with a dirtiness rating from 0-1.
+0.01 is any dirtiness on the body at all, 17 is very hard to achieve
+with full dirtiness on every body part.
+Does not factor in clothing dirtiness.",
 Sandbox_AnthroTraits_Stinky_Cost::en = "Stinky Cost",
 Sandbox_AnthroTraits_Stinky_Cost_tooltip::en = "The cost of this trait at character creation.",
 Sandbox_AnthroTraits_TailTripReduction::en = "Tailed Trip Save Chance",

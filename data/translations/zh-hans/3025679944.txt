@@ -32,6 +32,10 @@ Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance::en = "Anthro Immun
 Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance::zh-hans::processed::unverified = "动物免疫撕裂伤几率",
 Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance_tooltip::en = "Chance to actually be infected after being infected from a laceration.<br>'Stacks' with vanilla infection chance.",
 Sandbox_AnthroTraits_AnthroImmunityLacerationInfectionChance_tooltip::zh-hans::processed::unverified = "被撕裂伤感染后实际感染的几率.<br>与原版感染几率叠加.",
+Sandbox_AnthroTraits_AnthroImmunityOtherInfectionChance::en = "Anthro Immunity Other Chance",
+Sandbox_AnthroTraits_AnthroImmunityOtherInfectionChance::zh-hans::processed::unverified = "动物免疫其他感染几率",
+Sandbox_AnthroTraits_AnthroImmunityOtherInfectionChance_tooltip::en = "Chance to actually be infected from some other source (other mods).",
+Sandbox_AnthroTraits_AnthroImmunityOtherInfectionChance_tooltip::zh-hans::processed::unverified = "从其他来源 (其他模组) 实际感染的几率.",
 Sandbox_AnthroTraits_AnthroImmunityScratchInfectionChance::en = "Anthro Immunity Scratch Chance",
 Sandbox_AnthroTraits_AnthroImmunityScratchInfectionChance::zh-hans::processed::unverified = "动物免疫抓伤几率",
 Sandbox_AnthroTraits_AnthroImmunityScratchInfectionChance_tooltip::en = "Chance to actually be infected after being infected from a scratch.<br>'Stacks' with vanilla infection chance.",
@@ -278,7 +282,11 @@ Sandbox_AnthroTraits_StinkyLoudness_tooltip::en = "Stinky makes a 'noise' every 
 Sandbox_AnthroTraits_StinkyLoudness_tooltip::zh-hans::processed::unverified = "臭气特质每分钟发出‘噪音’吸引僵尸。这决定了该‘噪音’的音量。",
 Sandbox_AnthroTraits_StinkyThreshold::en = "Stinky Threshold",
 Sandbox_AnthroTraits_StinkyThreshold::zh-hans::processed::unverified = "臭气阈值",
-Sandbox_AnthroTraits_StinkyThreshold_tooltip::en = "",
+Sandbox_AnthroTraits_StinkyThreshold_tooltip::en = "How dirty a player needs to be before activating the Stinky trait.
+There are 17 body parts, each with a dirtiness rating from 0-1.
+0.01 is any dirtiness on the body at all, 17 is very hard to achieve
+with full dirtiness on every body part.
+Does not factor in clothing dirtiness.",
 Sandbox_AnthroTraits_StinkyThreshold_tooltip::zh-hans::processed::unverified = "玩家需要多脏才会激活臭气特质。身体有17个部位，每个部位污秽度0-1。0.01表示身体有任何污秽，17表示每个部位都完全污秽，很难达到。不计算衣物污秽。",
 Sandbox_AnthroTraits_Stinky_Cost::en = "Stinky Cost",
 Sandbox_AnthroTraits_Stinky_Cost::zh-hans::processed::unverified = "臭气花费",
