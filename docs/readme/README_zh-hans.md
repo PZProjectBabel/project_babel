@@ -175,7 +175,7 @@
 （例如 `src/` 目录下的程序代码），
 采用 **GNU 通用公共许可证第 3 版（GPL-3.0）** 进行授权。
 
-完整条款请参见本仓库根目录下的 `LICENSE-GPL-3.0` 文件，
+完整条款请参见本仓库根目录下的 `LICENSE` 文件（GPL-3.0），
 或访问 GNU 官网：<https://www.gnu.org/licenses/gpl-3.0.html>。
 
 ---

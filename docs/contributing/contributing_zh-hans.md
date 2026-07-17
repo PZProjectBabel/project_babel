@@ -1,6 +1,23 @@
 # 贡献指南 (CONTRIBUTING)
 
-> [English](contributing_en.md) <details><summary>其它语言</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
+> [English](docs/readme/contributing_en.md) <details><summary>其它语言</summary>[العربية](docs/readme/contributing_ar.md) | [català](docs/readme/contributing_ca.md) | [繁體中文](docs/readme/contributing_zh-hant.md) | [čeština](docs/readme/contributing_cs.md) | [dansk](docs/readme/contributing_da.md) | [Deutsch](docs/readme/contributing_de.md) | [español](docs/readme/contributing_es.md) | [suomi](docs/readme/contributing_fi.md) | [français](docs/readme/contributing_fr.md) | [magyar](docs/readme/contributing_hu.md) | [Bahasa Indonesia](docs/readme/contributing_id.md) | [italiano](docs/readme/contributing_it.md) | [日本語](docs/readme/contributing_ja.md) | [한국어](docs/readme/contributing_ko.md) | [Nederlands](docs/readme/contributing_nl.md) | [norsk](docs/readme/contributing_no.md) | [Tagalog](docs/readme/contributing_tl.md) | [polski](docs/readme/contributing_pl.md) | [português](docs/readme/contributing_pt.md) | [português do Brasil](docs/readme/contributing_pt-br.md) | [română](docs/readme/contributing_ro.md) | [русский](docs/readme/contributing_ru.md) | [ภาษาไทย](docs/readme/contributing_th.md) | [Türkçe](docs/readme/contributing_tr.md) | [українська](docs/readme/contributing_uk.md)</details>
+
+---
+
+## 目录
+
+- [1. 在开始之前](#1-在开始之前)
+- [2. 我可以如何贡献？](#2-我可以如何贡献)
+- [3. 提供翻译规则、术语词典、改进系统提示词](#3-提供翻译规则术语词典改进系统提示词)
+- [4. 提供人工校对语料](#4-提供人工校对语料)
+- [5. 流水线与工具开发贡献](#5-流水线与工具开发贡献)
+- [6. 版权与授权约定](#6-版权与授权约定)
+  - [6.1 基本原则：你保留版权，同时授权项目使用](#61-基本原则你保留版权同时授权项目使用)
+  - [6.2 文本与图片等内容的授权（CC BY-NC-SA 4.0）](#62-文本与图片等内容的授权cc-by-nc-sa-40)
+  - [6.3 脚本与工具代码的授权（GPL-3.0）](#63-脚本与工具代码的授权gpl-30)
+  - [6.4 上游作品与原游戏版权](#64-上游作品与原游戏版权)
+- [7. 沟通与协作](#7-沟通与协作)
+- [8. 资金支持](#8-资金支持)
 
 ---
 
@@ -14,7 +31,7 @@
 
 ---
 
-## 在开始之前
+## 1. 在开始之前
 
 请先阅读项目 `README.md`，了解：
 - 本项目的整体目标与当前状态；
@@ -23,7 +40,7 @@
 
 ---
 
-## 我可以如何贡献？
+## 2. 我可以如何贡献？
 
 你可以根据自己的兴趣和技能，选择一种或多种方式参与：
 
@@ -39,7 +56,7 @@
 
 ---
 
-## 提供翻译规则、术语词典、改进系统提示词
+## 3. 提供翻译规则、术语词典、改进系统提示词
 
 流水线的提示词模板位于 `src/prompt_templates/`，结构如下：
 
@@ -56,7 +73,7 @@
 
 ---
 
-## 提供人工校对语料
+## 4. 提供人工校对语料
 
 如果你是翻译模组制作者，并且愿意提供你的翻译语料作为 LLM 翻译参考，请在 Issue 中发起申请。你需要提供以下资料：
 
@@ -70,7 +87,7 @@
 
 ---
 
-## 流水线与工具开发贡献
+## 5. 流水线与工具开发贡献
 
 本项目的自动化分为两部分：
 
@@ -106,24 +123,23 @@
 
 ---
 
-## 版权与授权约定
+## 6. 版权与授权约定
 
 > **温馨提示：**
 > 版权与授权约定是为了保护项目、作者、贡献者以及玩家的合法权益，避免因为“默契”或“默认”产生误解。请务必认真阅读。
 > 版权与授权以README.md文件中的内容为准，本节仅提供更通俗易懂的描述。
 
-### 1. 基本原则：你保留版权，同时授权项目使用
+### 6.1 基本原则：你保留版权，同时授权项目使用
 
 * 你对自己创作的内容（翻译、图片、脚本/程序等）仍然享有著作权；
-* 但在将这些内容提交到本项目并被采纳（合并）后，
-  你同意按照本项目采用的开源/共享许可协议，对外授权他人使用这些内容。
+* 但在将这些内容提交到本项目并被采纳（合并）后，你同意按照本项目采用的开源/共享许可协议，对外授权他人使用这些内容。
 
 这意味着：
 
 * 你 **仍可以** 在其他地方继续使用、展示自己的作品；
 * 但你 **不能** 在贡献被合并后要求本项目或其他已经合法获取作品的用户“撤回授权”或“删除历史版本”。
 
-### 2. 文本与图片等内容的授权（CC BY-NC-SA 4.0）
+### 6.2 文本与图片等内容的授权（CC BY-NC-SA 4.0）
 
 对于你提交的以下内容：
 
@@ -133,10 +149,8 @@
 
 一旦被本仓库采纳并合并，即视为你同意：
 
-1. 这些内容以 **署名-非商业性使用-相同方式共享 4.0 国际**
-   （Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International，简称 **CC BY-NC-SA 4.0**）协议授权；
+1. 这些内容以 **署名-非商业性使用-相同方式共享 4.0 国际**（Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International，简称 **CC BY-NC-SA 4.0**）协议授权；
 2. Project Babel 及所有获得该内容的用户，可以在 **遵守 CC BY-NC-SA 4.0 条款** 的前提下：
-
    * 分享、复制、再分发这些内容；
    * 在非商业用途下对其进行修改与再创作；
 3. 你同意在适用法律允许的范围内，该授权为 **非独占、全球性、免版税且不可撤销** 的许可；
@@ -145,7 +159,7 @@
 > 若你不接受上述授权方式，请不要向本项目提交文本或图片类贡献，
 > 或事先与项目维护者沟通，确认是否可以以其它方式协作。
 
-### 3. 脚本与工具代码的授权（GPL-3.0）
+### 6.3 脚本与工具代码的授权（GPL-3.0）
 
 对于你提交并被采纳的：
 
@@ -164,20 +178,19 @@
 * 不要在未经确认的情况下，引入 **与 GPL-3.0 不兼容** 的第三方代码；
 * 若确需引用第三方库，请在 PR 中清晰说明其来源与许可证，并确认其兼容性。
 
-### 4. 上游作品与原游戏版权
+### 6.4 上游作品与原游戏版权
 
 本项目为《僵尸毁灭工程》（Project Zomboid）相关模组的**非官方翻译**项目：
 
 * 原游戏及各模组本身的版权归属其各自的作者/发行方所有；
 * 本项目仅针对文本翻译、润色调整和部分配套资源进行创作与整理；
 * 贡献者在提交内容时，应确保：
-
   * 不直接复制未获授权的第三方汉化文本或美术资源；
   * 尊重原作者与模组作者的权利，不进行侵权转载。
 
 ---
 
-## 沟通与协作
+## 7. 沟通与协作
 
 如果你对：
 
@@ -194,7 +207,7 @@
 
 ---
 
-## 资金支持
+## 8. 资金支持
 
 项目运行中，由于新增模组、旧模组更新文本内容等，需要持续调用LLM API进行翻译。而为了约束LLM行为，除了基础的模组文本外，还需要提供大量的提示词内容（包括基础提示词、翻译规则、术语表、输入输出约束、语义查询结果等），这些内容会消耗远超原始文本的词元。因此，项目需要资金的支持。
 

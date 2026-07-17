@@ -7,7 +7,84 @@
 
 ---
 
-> [English](technical_reference_en.md) <details><summary>Other Languages</summary>[العربية](technical_reference_ar.md) | [català](technical_reference_ca.md) | [繁體中文](technical_reference_zh-hant.md) | [čeština](technical_reference_cs.md) | [dansk](technical_reference_da.md) | [Deutsch](technical_reference_de.md) | [español](technical_reference_es.md) | [suomi](technical_reference_fi.md) | [français](technical_reference_fr.md) | [magyar](technical_reference_hu.md) | [Bahasa Indonesia](technical_reference_id.md) | [italiano](technical_reference_it.md) | [日本語](technical_reference_ja.md) | [한국어](technical_reference_ko.md) | [Nederlands](technical_reference_nl.md) | [norsk](technical_reference_no.md) | [Tagalog](technical_reference_tl.md) | [polski](technical_reference_pl.md) | [português](technical_reference_pt.md) | [português do Brasil](technical_reference_pt-br.md) | [română](technical_reference_ro.md) | [русский](technical_reference_ru.md) | [ภาษาไทย](technical_reference_th.md) | [Türkçe](technical_reference_tr.md) | [українська](technical_reference_uk.md)</details>
+> [English](docs/readme/technical_reference_en.md) <details><summary>其它语言</summary>[العربية](docs/readme/technical_reference_ar.md) | [català](docs/readme/technical_reference_ca.md) | [繁體中文](docs/readme/technical_reference_zh-hant.md) | [čeština](docs/readme/technical_reference_cs.md) | [dansk](docs/readme/technical_reference_da.md) | [Deutsch](docs/readme/technical_reference_de.md) | [español](docs/readme/technical_reference_es.md) | [suomi](docs/readme/technical_reference_fi.md) | [français](docs/readme/technical_reference_fr.md) | [magyar](docs/readme/technical_reference_hu.md) | [Bahasa Indonesia](docs/readme/technical_reference_id.md) | [italiano](docs/readme/technical_reference_it.md) | [日本語](docs/readme/technical_reference_ja.md) | [한국어](docs/readme/technical_reference_ko.md) | [Nederlands](docs/readme/technical_reference_nl.md) | [norsk](docs/readme/technical_reference_no.md) | [Tagalog](docs/readme/technical_reference_tl.md) | [polski](docs/readme/technical_reference_pl.md) | [português](docs/readme/technical_reference_pt.md) | [português do Brasil](docs/readme/technical_reference_pt-br.md) | [română](docs/readme/technical_reference_ro.md) | [русский](docs/readme/technical_reference_ru.md) | [ภาษาไทย](docs/readme/technical_reference_th.md) | [Türkçe](docs/readme/technical_reference_tr.md) | [українська](docs/readme/technical_reference_uk.md)</details>
+
+---
+
+## 目录
+
+- [项目概述](#项目概述)
+  - [背景与动机](#背景与动机)
+  - [核心能力](#核心能力)
+  - [文档用途](#文档用途)
+- [1. 系统架构](#1-系统架构)
+  - [整体架构](#整体架构)
+  - [两大处理阶段](#两大处理阶段)
+  - [核心数据流](#核心数据流)
+- [2. 管线工作流程](#2-管线工作流程)
+  - [Phase 1: 配置加载与 SteamCMD 初始化](#phase-1-配置加载与-steamcmd-初始化)
+  - [Phase 2: 参考翻译同步 (Steps 2-3)](#phase-2-参考翻译同步-steps-2-3)
+  - [Phase 3: 主翻译循环 (Steps 4-14)](#phase-3-主翻译循环-steps-4-14)
+  - [Phase 4: 输出与报告 (Steps 15-20)](#phase-4-输出与报告-steps-15-20)
+- [3. 各模块原理与技术细节](#3-各模块原理与技术细节)
+  - [3.1 ConfigReader (`ConfigReaderService`)](#31-configreader-configreaderservice)
+  - [3.2 RepoDataLoader (`RepoDataLoaderService`)](#32-repodataloader-repodataloaderservice)
+  - [3.3 ModIdCollector (`ModIdCollectorService`)](#33-modidcollector-modidcollectorservice)
+  - [3.4 ModInfoFetcher (`ModInfoFetcherService`)](#34-modinfofetcher-modinfofetcherservice)
+  - [3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)](#35-steamcmdbootstrapper-steamcmdbootstrapperservice)
+  - [3.5.1 ModDownloader (`ModDownloaderService`)](#351-moddownloader-moddownloaderservice)
+  - [3.6 ContentExtractor (`ContentExtractorService`)](#36-contentextractor-contentextractorservice)
+  - [3.7 ContentChecker (`ContentCheckerService`)](#37-contentchecker-contentcheckerservice)
+  - [3.8 EmbeddingFetcher (`EmbeddingFetcherService`)](#38-embeddingfetcher-embeddingfetcherservice)
+  - [3.9 TranslationBatcher (`TranslationBatcherService`)](#39-translationbatcher-translationbatcherservice)
+  - [3.10 RagContextRetriever (`RagContextRetrieverService`)](#310-ragcontextretriever-ragcontextretrieverservice)
+  - [3.11 LLMTranslator (`LLMTranslatorService`)](#311-llmtranslator-llmtranslatorservice)
+  - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
+  - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
+  - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [4. 数据约定](#4-数据约定)
+  - [4.1 核心类型](#41-核心类型)
+    - [`TranslationEntry` — 翻译条目](#translationentry-翻译条目)
+    - [`TranslationData` — 翻译数据](#translationdata-翻译数据)
+    - [`ModInfo` — Mod 元数据](#modinfo-mod-元数据)
+    - [`TranslationBatch` — 翻译批次](#translationbatch-翻译批次)
+    - [`LangInfoData` — 语言信息](#langinfodata-语言信息)
+  - [4.2 文件格式](#42-文件格式)
+    - [提取输出（ContentExtractor 产出）](#提取输出contentextractor-产出)
+    - [键映射文件](#键映射文件)
+    - [翻译缓存（data/translations/）](#翻译缓存datatranslations)
+    - [最终输出（final_outputs/）](#最终输出final_outputs)
+    - [嵌入向量（data/embeddings/*.bin）](#嵌入向量dataembeddingsbin)
+  - [4.3 索引键约定](#43-索引键约定)
+  - [4.4 状态机](#44-状态机)
+    - [ContentCheck 内容审查状态](#contentcheck-内容审查状态)
+    - [TranslationData 翻译验证状态](#translationdata-翻译验证状态)
+    - [ModInfo.needsUpdate 更新判定](#modinfoneedsupdate-更新判定)
+- [5. 配置说明](#5-配置说明)
+  - [5.1 `config/config.json` — 管线主配置](#51-configconfigjson-管线主配置)
+    - [5.1.1 `LLM` — 大语言模型配置](#511-llm-大语言模型配置)
+    - [5.1.2 `RAG` — 检索增强生成配置](#512-rag-检索增强生成配置)
+    - [5.1.3 `AsOne` — 远程 Mod 列表源](#513-asone-远程-mod-列表源)
+    - [5.1.4 `Steam` — Steam Web API 配置](#514-steam-steam-web-api-配置)
+    - [5.1.5 `Pipeline` — 管线通用配置](#515-pipeline-管线通用配置)
+    - [5.1.6 `ContentCheck` — 内容安全审查配置](#516-contentcheck-内容安全审查配置)
+    - [5.1.7 `Settings` — 管线基础设置](#517-settings-管线基础设置)
+    - [5.1.8 `Embedding` — 嵌入服务配置](#518-embedding-嵌入服务配置)
+    - [5.1.9 `Workflow` — 工作流配置](#519-workflow-工作流配置)
+  - [5.2 `config/secrets.json` — 密钥配置](#52-configsecretsjson-密钥配置)
+  - [5.3 `config/supported_languages.json` — 支持语言列表](#53-configsupported_languagesjson-支持语言列表)
+  - [5.4 `config/ref_translation_mods.json` — 参考翻译模组](#54-configref_translation_modsjson-参考翻译模组)
+  - [5.5 `config/request_for_translation.txt` — 本地翻译请求](#55-configrequest_for_translationtxt-本地翻译请求)
+  - [5.6 配置加载流程](#56-配置加载流程)
+- [6. 目录结构](#6-目录结构)
+- [7. 运行方式](#7-运行方式)
+  - [本地运行（Windows x64）](#本地运行windows-x64)
+  - [CI 运行（GitHub Actions，Linux x64）](#ci-运行github-actionslinux-x64)
+  - [运行结果判断](#运行结果判断)
+- [8. 关键设计决策](#8-关键设计决策)
+
+---
+
 ## 项目概述
 
 **Project Babel** 是一个自动化的翻译管线，专门为游戏《Project Zomboid》的 Steam Workshop 模组（Mod）提供多语言 AI 翻译。
@@ -15,7 +92,6 @@
 ### 背景与动机
 
 Project Zomboid 拥有庞大的模组生态，Steam Workshop 上存在数万个玩家自制模组。绝大多数模组仅提供英文文本，非英语玩家在使用这些模组时会遇到语言障碍。传统的人工翻译方式面临两个核心难题：
-
 1. **规模巨大**：模组数量多、文本量大，人工翻译成本极高且进度缓慢。
 2. **持续更新**：模组作者频繁更新内容，翻译需要持续跟进，否则会过时失效。
 
@@ -33,58 +109,10 @@ Project Babel 通过构建一条全自动化的 AI 翻译管线来解决这些�
 ### 文档用途
 
 本文档面向希望理解、部署或贡献 Project Babel 管线的开发者。阅读本文档可以帮助你：
-
 - 理解管线的整体架构和数据流向。
 - 掌握每个处理模块的职责和内部原理。
 - 了解配置文件的结构和各项参数的含义。
 - 具备在本地或 CI 环境中运行管线的能力。
-
----
-
-## 目录
-
-- [1. 系统架构](#1-系统架构)
-- [2. 管线工作流程](#2-管线工作流程)
-- [3. 各模块原理与技术细节](#3-各模块原理与技术细节)
-  - [3.1 ConfigReader](#31-configreader-configreaderservice)
-  - [3.2 RepoDataLoader](#32-repodataloader-repodataloaderservice)
-  - [3.3 ModIdCollector](#33-modidcollector-modidcollectorservice)
-  - [3.4 ModInfoFetcher](#34-modinfofetcher-modinfofetcherservice)
-  - [3.5 SteamCmdBootstrapper](#35-steamcmdbootstrapper-steamcmdbootstrapperservice)
-  - [3.5.1 ModDownloader](#351-moddownloader-moddownloaderservice)
-  - [3.6 ContentExtractor](#36-contentextractor-contentextractorservice)
-  - [3.7 ContentChecker](#37-contentchecker-contentcheckerservice)
-  - [3.8 EmbeddingFetcher](#38-embeddingfetcher-embeddingfetcherservice)
-  - [3.9 TranslationBatcher](#39-translationbatcher-translationbatcherservice)
-  - [3.10 RagContextRetriever](#310-ragcontextretriever-ragcontextretrieverservice)
-  - [3.11 LLMTranslator](#311-llmtranslator-llmtranslatorservice)
-  - [3.12 ResultWriter](#312-resultwriter-resultwriterservice)
-  - [3.13 FinalOutputWriter](#313-finaloutputwriter-finaloutputwriterservice)
-  - [3.14 ProgressReporter](#314-progressreporter-progressreporterservice)
-- [4. 数据约定](#4-数据约定)
-  - [4.1 核心类型](#41-核心类型)
-  - [4.2 文件格式](#42-文件格式)
-  - [4.3 索引键约定](#43-索引键约定)
-  - [4.4 状态机](#44-状态机)
-- [5. 配置说明](#5-配置说明)
-  - [5.1 config.json — 管线主配置](#51-configconfigjson--管线主配置)
-    - [5.1.1 LLM — 大语言模型配置](#511-llm--大语言模型配置)
-    - [5.1.2 RAG — 检索增强生成配置](#512-rag--检索增强生成配置)
-    - [5.1.3 AsOne — 远程 Mod 列表源](#513-asone--远程-mod-列表源)
-    - [5.1.4 Steam — Steam Web API 配置](#514-steam--steam-web-api-配置)
-    - [5.1.5 Pipeline — 管线通用配置](#515-pipeline--管线通用配置)
-    - [5.1.6 ContentCheck — 内容安全审查配置](#516-contentcheck--内容安全审查配置)
-  - [5.1.7 Settings — 管线基础设置](#517-settings--管线基础设置)
-  - [5.1.8 Embedding — 嵌入服务配置](#518-embedding--嵌入服务配置)
-  - [5.1.9 Workflow — 工作流配置](#519-workflow--工作流配置)
-  - [5.2 secrets.json — 密钥配置](#52-configsecretsjson--密钥配置)
-  - [5.3 supported_languages.json — 支持语言列表](#53-configsupported_languagesjson--支持语言列表)
-  - [5.4 ref_translation_mods.json — 参考翻译模组](#54-configref_translation_modsjson--参考翻译模组)
-  - [5.5 request_for_translation.txt — 本地翻译请求](#55-configrequest_for_translationtxt--本地翻译请求)
-  - [5.6 配置加载流程](#56-配置加载流程)
-- [6. 目录结构](#6-目录结构)
-- [7. 运行方式](#7-运行方式)
-- [8. 关键设计决策](#8-关键设计决策)
 
 ---
 
@@ -138,7 +166,6 @@ flowchart TD
 ### 核心数据流
 
 从宏观视角看，数据在管线中的流转路径如下：
-
 ```
 config.json / secrets.json
     → Mod ID 收集（AsOne 社区 + 本地请求）
@@ -180,7 +207,6 @@ config.json / secrets.json
 **什么是参考翻译？** 参考翻译是指由社区人工精心翻译的高质量汉化模组。这些模组的译文准确、术语统一，是宝贵的语料资源。管线不直接使用参考翻译的文本作为最终输出（那会侵犯原作者的权益），而是将其作为 RAG（检索增强生成）的知识库——当 LLM 翻译某个文本时，管线会从参考语料库中检索语义相似的翻译作为"参考样例"，帮助 LLM 理解上下文、统一术语风格，从而生成质量更高的译文。
 
 这一阶段的具体步骤：
-
 1. **加载缓存**：`RepoDataLoader` 从 `translation_ref/` 目录加载上一次运行保存的参考数据，包括模组元信息、已提取的翻译条目和嵌入向量。这些缓存可以避免每次运行时都重新下载和解析所有参考模组。
 2. **同步 Steam 元数据**：`ModInfoFetcher` 向 Steam Web API 查询每个参考模组的最新信息（主要是 `time_updated` 字段），与缓存中的 `timeModUpdated` 比较，标记出内容有变化的模组（`needsUpdate = true`）。
 3. **增量更新**：仅对那些被标记为 `needsUpdate` 的参考模组执行"下载 → 文本提取 → 嵌入计算"的完整流程。未变化的模组直接复用缓存，大幅节省时间和带宽。
@@ -227,7 +253,6 @@ config.json / secrets.json
 `ConfigReader` 是管线启动后第一个运行的模块。它的核心职责是读取 `config/` 目录下的所有配置文件，将它们反序列化为强类型的 `PipelineConfig` 对象，并在加载完成后执行完整性校验。
 
 具体工作包括：
-
 - **解析主配置**：读取 `config/config.json`，反序列化为 `PipelineConfig` 对象。这个对象包含了 LLM 参数、并发策略、RAG 阈值、Steam API 参数等所有运行时设置。
 - **解析密钥**：读取 `config/secrets.json`，提取 LLM API Key、Steam Web API Key、嵌入服务密钥和地址等敏感信息。
 - **关键校验**：检查 `LLM_KEY`、`STEAM_KEY`、`EMBEDDING_KEY` 三个必填密钥是否为空。任一为空则抛出异常终止管线。密钥可以从 `secrets.json` 或环境变量中获取（环境变量优先级更高）。
@@ -253,7 +278,6 @@ config.json / secrets.json
 | 条目元数据 | `data/entry_metadata/*.json` | 记录每个条目的 `sourceHash`、`isActive` 等状态信息 |
 
 **三个核心方法**：
-
 - `DiffTranslationEntries()`：将新提取的条目与缓存中的条目逐条对比。根据 `sourceHash`（基准文本的 SHA256 哈希）判断每条文本是新增（new）、修改（changed）还是未变（unchanged）。只有 new 和 changed 条目才需要进入后续的嵌入计算和翻译流程，unchanged 条目直接复用缓存。
 - `ComputeSourceHash()`：对基准文本计算 SHA256 哈希值，作为文本内容的"指纹"。哈希碰撞概率极低，可以可靠地用于变更检测。
 - `MarkMissingFreshEntriesInactive()`：如果某条缓存中的旧条目在新提取结果中找不到（说明模组作者删除了这条文本），则将其标记为 `isActive = false`，保留历史记录但不再参与翻译。
@@ -263,13 +287,10 @@ config.json / secrets.json
 **功能**: 从多个来源收集所有待翻译的 Steam Workshop Mod ID，合并去重后形成统一的待处理列表。
 
 管线需要知道"哪些模组需要翻译"。这个信息来自两个渠道：
-
 **来源 1 — AsOne 远程社区列表**：
-
 [AsOne](https://www.asone.fun/) 是一个 Project Zomboid 中文汉化组的翻译平台，维护了一份公开的模组列表。管线通过 HTTP GET 请求其 API（`api/Home/GetAllModinfo`）获取所有已登记的模组 ID。请求以匿名方式发送，连续超时 3 次则跳过远程列表。
 
 **来源 2 — 本地翻译请求文件**：
-
 `config/request_for_translation.txt` 是一个手动维护的模组 ID 列表，每行一个纯数字的 Workshop ID。以 `#` 开头的行为注释，空白行自动跳过。这个文件用于补充 AsOne 列表中未覆盖但社区有翻译需求的模组。
 
 **合并策略**：两个来源的 ID 列表合并时，以 AsOne 远程列表为主，本地请求文件中不在远程列表中的 ID 作为补充加入。已存在的 ID 不会重复添加。最终输出一个去重后的完整 ID 列表。
@@ -281,7 +302,6 @@ config.json / secrets.json
 拿到 Mod ID 列表后，管线需要知道每个模组的基本信息——名称、作者、最后更新时间等。这些信息通过 Steam 官方的 `ISteamRemoteStorage/GetPublishedFileDetails/v1/` 接口获取。
 
 **工作细节**：
-
 - **分块请求**：Steam API 每次调用有数量限制，因此管线按 `steamApiChunkSize`（默认 100）分批发送请求。每批之间适当间隔，避免触发限流。
 - **容错机制**：如果连续 5 个批次全部失败（可能是网络问题或 API 临时不可用），管线会终止查询并保留已成功获取的部分数据，而不是丢弃所有结果。
 - **关键字段映射**：
@@ -305,7 +325,6 @@ config.json / secrets.json
 [steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD) 是 Valve 官方提供的命令行版 Steam 客户端，支持匿名登录并下载 Workshop 内容。管线通过调用 steamcmd 来实现模组文件的批量下载。
 
 **下载流程**：
-
 1. **复制 steamcmd**：将 `src/3rd_party/steamcmd/` 复制到批次专属的临时目录。这是因为每个下载批次会启动独立的 steamcmd 进程，如果多个进程共享同一份文件可能导致冲突。
 2. **执行下载命令**：运行 `steamcmd +login anonymous +workshop_download_item 108600 <modId> +quit`。其中 `108600` 是 Project Zomboid 的 App ID，`anonymous` 表示匿名登录（Workshop 下载不需要账号）。
 3. **验证结果**：解析 steamcmd 的标准输出与日志，确定 Workshop 实际输出目录后再移动下载结果；失败时按 Steam 下载重试策略重试。
@@ -320,7 +339,6 @@ config.json / secrets.json
 Project Zomboid 的模组将翻译文本存放在特定目录下。`ContentExtractor` 的任务是遍历这些目录，解析 TXT（Lua 格式）和 JSON 两种文件格式，抽取出每一条"原文 → 译文"的键值对。
 
 **扫描路径**：
-
 ```
 <mod_root>/**/Translate/<game_code>/*.txt|*.json
 ```
@@ -338,9 +356,7 @@ Project Zomboid 的模组将翻译文本存放在特定目录下。`ContentExtra
 | ... | ... | ... |
 
 **TXT 解析（PZ Lua 格式）**：
-
 PZ 的传统翻译文件采用类似 Lua table 的格式。解析过程如下：
-
 1. **过滤非翻译文件**：跳过 `TranslationNotes`、`TranslationBy`、`Code - TXT`、`Credits`、`Language` 等元信息文件，这些文件不包含实际翻译内容。
 2. **定位主键（masterKey）**：用正则匹配如 `UI_NewCharScreen = {` 这样的块声明，提取出 masterKey。masterKey 是翻译键的第一部分，对应于 PZ 游戏中的 UI 模块名称。
 3. **逐行解析**：在每个 masterKey 块内，按 `key = "value"` 的格式解析每一条翻译。完整的 translationKey 由 `masterKey_key` 拼接而成（如 `UI_NewCharScreen_Start`）。
@@ -349,19 +365,15 @@ PZ 的传统翻译文件采用类似 Lua table 的格式。解析过程如下：
 6. **异常处理**：无法解析的行会写入 `fuck.txt` 日志文件，供人工排查和修复解析器 bug。
 
 **JSON 解析**：
-
 PZ 的新版本（Build 42+）开始支持 JSON 格式的翻译文件。解析器会递归展开嵌套的 JSON 对象，将其扁平化为扁平的 key-value 对。同时兼容尾逗号和注释等非标准 JSON 语法，以应对模组作者的各种写法。
 
 **合并规则**：
-
 当同一个翻译键在多个文件中出现时（例如同一模组同时提供了 42 版本和 42.19 版本的翻译文件），需要决定保留哪一个。规则如下：
-
 - **格式优先级**：JSON 覆盖 TXT。原因在于 JSON 是 PZ 的新标准格式，应优先采用。内部用 `SourceKind` 枚举区分（JSON = 1, TXT = 0）。
 - **版本优先级**：同种格式下，保留游戏版本号最高的那份。版本号解析规则见下方。
 - **完整记录**：`containingFileInfos` 字段会记录所有源文件的信息（包括被丢弃的），确保可追溯。
 
 **版本号解析规则**：
-
 ```
 无版本号 → 0.0
 common   → 1.0
@@ -384,7 +396,6 @@ common   → 1.0
 | **强奸** | 描述或美化非自愿性行为，包括暴力胁迫、药物迷奸等 |
 
 **审查机制**：
-
 - **采样策略**：每个模组最多抽取 1000 条基准文本作为审查样本，所有样本的总字符数不超过 60,000。这样既能覆盖模组的主要内容，又不会超出 LLM 的上下文窗口。
 - **文本截断**：单条超过 1600 字符的文本会被截断，保留前 1600 字符用于审查。极端长的文本通常是配置数据而非自然语言，截断不影响判断。
 - **LLM 审查**：调用 `deepseek-v4-flash` 模型，使用 JSON Mode 输出结构化的审查结论（含判定结果和置信度）。
@@ -402,7 +413,6 @@ common   → 1.0
 **为什么使用远程服务？** 嵌入模型（如 `bge-small-en-v1.5`）虽然体积不大，但在本地运行时仍需要加载模型权重到内存中。考虑到 GitHub Actions 运行器的内存限制（通常 7GB），以及管线本身已经需要大量内存处理翻译任务，将嵌入计算移至远程专用服务是更合理的选择。
 
 **通信协议**：
-
 嵌入服务采用了一个轻量级的无状态鉴权方案：
 1. **UDP 敲门**：先向服务发送一个 UDP 数据包作为敲门信号。
 2. **AES-256-GCM 加密**：后续的 HTTP 通信使用 AES-256-GCM 进行加密，密钥由 `secrets.json` 中的 `EMBEDDING_KEY` 经 SHA256 派生。
@@ -421,7 +431,6 @@ common   → 1.0
 | 存储格式 | Zstd 压缩二进制 | 压缩比约 4:1，显著节省磁盘空间 |
 
 **处理流程**：
-
 1. **收集候选**（`BuildCandidates`）：收集所有缺少嵌入向量的条目，包括本次运行发现的新增/修改条目（diff）、参考翻译条目、以及需要回填（backfill）的历史条目。
 2. **哈希去重**：相同文本内容的条目必然产生相同的哈希值，这种情况下直接复用已有的嵌入向量，避免重复计算。
 3. **分批发送**：将候选条目按每批 32 条打包，逐批发送至嵌入服务。连续失败 ≥3 批则终止嵌入阶段。
@@ -436,7 +445,6 @@ common   → 1.0
 直接逐条翻译效率低下——每次 API 调用的网络往返延迟远大于模型推理时间。`TranslationBatcher` 将多条待翻译文本打包成批次，使每次 API 调用能处理多条文本，显著提升吞吐量。
 
 **打包策略**：
-
 1. **优先级排序**：模组按优先级降序排列。优先级由订阅数（subscription）和收藏数（favorite）加权计算——越受欢迎的模组越先翻译。
 2. **双重约束**：每个批次受两个上限同时约束：
    - `batch_size`（条目数上限，默认 30）：一个批次最多包含 30 条翻译条目。
@@ -455,7 +463,6 @@ common   → 1.0
 RAG（Retrieval-Augmented Generation，检索增强生成）是本管线翻译质量的**核心保障**。其基本思路是：让 LLM 在翻译每条文本时，能够"看到"社区人工翻译的相似例句，从而学习其风格、术语和表达方式。
 
 **检索流程**：
-
 1. **构建参考索引**（`BuildReferences`）：从参考翻译条目和已有翻译中，筛选出与当前翻译方向匹配的条目（即 `embeddingKey = "en:zh-hans"` 这类"从英文到目标语言"的条目），将其嵌入向量加载到内存中作为检索索引。
 2. **精确匹配查找**（`BuildExactReferenceLookup`）：对于 translationKey 完全相同的条目，直接建立映射关系——相同的 key 意味着翻译的是同一段文本，这是最强的参考信号。
 3. **余弦相似度计算**：对每条待译文本的查询向量（query embedding），遍历参考索引中的所有参考向量（reference embedding），计算两者之间的余弦相似度。余弦相似度取值范围为 [-1, 1]，越接近 1 表示语义越相近。
@@ -473,9 +480,7 @@ RAG（Retrieval-Augmented Generation，检索增强生成）是本管线翻译�
 `LLMTranslator` 不仅负责构造 Prompt 和解析响应，还包含预热探测（warmup）、动态并发控制、内存保护和错误重试等完整的工程化机制。
 
 **总体架构**：
-
 翻译分为两个阶段——**准备阶段**和**执行阶段**：
-
 ```
 PrepareTranslationPlanAsync  → 构建翻译计划（LlmTranslationPlan）
     ├── 过滤空文本（直接写入 EmptyWrites，无需调用 LLM）
@@ -492,9 +497,7 @@ ExecuteTranslationPlansAsync  → 串行执行所有翻译计划
 ```
 
 **动态并发控制**（`ExecuteWorkItemsAsync`）：
-
 DeepSeek API 的速率限制（rate limit）策略并不完全透明，固定的并发数可能导致两种问题——太保守则吞吐量不足，太激进则触发 429 限流错误。为此，管线实现了一套自适应并发控制算法：
-
 ```
 初始并发 = auto(profile) 或配置值
    ↓
@@ -509,7 +512,6 @@ DeepSeek API 的速率限制（rate limit）策略并不完全透明，固定的
 核心思路是"踮脚效应"——逐步试探 API 的并发上限，成功则向上试探，失败则迅速收缩。
 
 **并发 Profile 自动检测**：
-
 当配置中 `initial=0` 或 `maximum=0` 时，管线根据运行环境和模型名称自动选择合适的并发参数。**检测优先级**：先判断 `GITHUB_ACTIONS` 环境变量（CI 环境强制使用低并发），再根据模型名称匹配：
 
 | 检测条件 | Initial | Maximum | 适用场景 |
@@ -520,13 +522,10 @@ DeepSeek API 的速率限制（rate limit）策略并不完全透明，固定的
 | 其他模型 | 16 | 128 | 未知模型的保守默认值 |
 
 **固定窗口模式**（`llmFixedConcurrency > 0`）：
-
 对于已经明确知道 API 并发上限的环境，可以启用固定窗口模式。该模式将 work items 按固定大小窗口分组，窗口内的条目并发执行，窗口之间严格串行。这种确定性行为消除了动态调整的不确定性，适合生产环境的稳定运行。
 
 **翻译 Prompt 的构成**：
-
 每个翻译请求的 Prompt 由以下四层内容拼接而成：
-
 1. **System Prompt**（`system_prompt_translate_engine.txt`）：定义翻译任务的基本规则，包括：
    - 使用 Tab 分隔的输入输出格式（便于程序解析）。
    - 严格保留原文中的占位符（`%1`、`{}`、`<>`等），这些是游戏运行时动态替换的变量。
@@ -545,7 +544,6 @@ DeepSeek API 的速率限制（rate limit）策略并不完全透明，固定的
 4. **RAG 上下文**：由 `RagContextRetriever` 检索到的参考翻译例句，嵌入在 Prompt 中作为翻译参考。
 
 **输入输出格式**：
-
 输入（每条待翻译条目）：
 ```
 T1\t<source_text>\t<multi_lang_context>\t<rag_context>\t<mod_info>
@@ -559,9 +557,7 @@ T1\t<translation>\t<confidence>\t[comment]
 使用 Tab 分隔的格式是为了让 LLM 的输出可以被程序精确解析——逗号或空格分隔容易与文本内容本身混淆。
 
 **Warmup 预热机制**：
-
 当翻译批次数超过 5 个时，管线会先发送一个预热请求（包含少量简单翻译任务）。预热的目的有三：
-
 1. **检测 API 连通性**：确认网络可达、API Key 有效。
 2. **检测账户状态**：如果 API 返回 `AccountFatal` 错误（余额不足或账户被封禁），则终止全部后续翻译任务，避免无意义的重复失败。
 3. **提高缓存命中率**：预热请求会发送与正式批次共用的 Prompt 头部（system prompt + 规则），使得 LLM 服务端的 KV Cache 在正式翻译时可以直接复用，从而降低推理成本和延迟。
@@ -599,7 +595,6 @@ ContextMenu_PickUp::zh-hans::unverified = "拾起",
 `ResultWriter` 将翻译存储为管线内部格式（便于增量处理和状态追踪），但这种格式不能直接被 Project Zomboid 游戏加载。`FinalOutputWriter` 负责将内部格式转换为符合 PZ mod 规范的最终分发文件。
 
 **输出目录结构**：
-
 ```
 final_outputs/project_babel/contents/mods/project_babel/
 ├── 42/media/lua/shared/Translate/<gameCode>/*.json
@@ -610,7 +605,6 @@ final_outputs/project_babel/contents/mods/project_babel/
 - 两个目录的内容完全相同——管线先写入 42.19 版本，然后复制到 42 目录。
 
 **核心处理逻辑**：
-
 1. **排除原版文本**：加载 `base_game_keys/` 目录下的所有 JSON 文件，构建原版游戏已经包含的翻译键（translationKey）集合。这些键对应的文本在原版游戏中已有官方翻译，管线不需要重新翻译。任何匹配到的条目都不会写入最终输出。
 
 2. **排除参考模组条目**：参考翻译模组的条目是人工翻译的，管线不会将这些条目写入最终分发文件（避免版权争议）。
@@ -631,7 +625,6 @@ final_outputs/project_babel/contents/mods/project_babel/
 进度报告以 Markdown 格式输出，存放在 `docs/progress/` 目录下。每种语言生成一份独立的报告文件（如 `progress_zh-hans.md`、`progress_ja.md`）。
 
 **生成流程**：
-
 1. **加载模板**：读取 `src/prompt_templates/progress/progress_template_<lang>.md`。每种语言可以使用独立的模板，模板中包含 `{{PLACEHOLDER}}` 风格的占位变量。
 2. **统计计算**：遍历所有翻译条目的缓存，统计每个目标语言的以下指标：
    - `total`：该语言的待翻译条目总数。
@@ -674,7 +667,6 @@ class TranslationEntry {
 **全局唯一标识**：每个 `TranslationEntry` 由 `modId::translationKey` 唯一确定。例如 `1234567890::IG_UI_NewGame` 表示模组 `1234567890` 中的 `IG_UI_NewGame` 这条文本。
 
 **关键方法**：
-
 - `GetBaseTextStrict()`：严格使用 `baseLang`（通常为 `en`）获取基准文本。这是翻译的输入源。
 - `GetSourceText()`：带 fallback 链的文本获取方法。按优先级依次尝试：请求的语言 → 基准语言 → 任意已验证的翻译 → 任意有文本的翻译。这个方法在基准文本缺失时提供了容错能力。
 
@@ -731,7 +723,6 @@ struct ModInfo {
 ```
 
 **关键状态字段**：
-
 - `needsUpdate`：当 Steam 记录的 `time_updated` 晚于缓存的 `timeModUpdated` 时设为 `true`，表示模组作者更新了内容。
 - `isAvailable`：如果 Steam API 返回的 `consumer_app_id` 不是 `108600`（Project Zomboid），或模组已下架，则设为 `false`，后续模块将跳过该 mod。
 - `contentCheckStatus`：内容安全审查的状态，详见 4.4 节的状态机说明。
@@ -775,7 +766,6 @@ class LangInfoData {
 #### 提取输出（ContentExtractor 产出）
 
 `ContentExtractor` 从模组文件中提取文本后，以如下格式输出到 `extracted_contents/<iso>/<modId>.txt`：
-
 ```
 <translationKey>::en = "original text",
 <translationKey>::<iso>::unverified = "translated text",
@@ -786,7 +776,6 @@ class LangInfoData {
 #### 键映射文件
 
 `extracted_contents/translation_key_to_file_mapping/<modId>.json`：
-
 ```json
 {
   "IG_UI_SomeKey": "IG_UI.json",
@@ -799,7 +788,6 @@ class LangInfoData {
 #### 翻译缓存（data/translations/）
 
 持久化的翻译缓存，存储在 `data/translations/<iso>/<modId>.txt`，格式与提取输出一致：
-
 ```
 <translationKey>::en = "source text",
 <translationKey>::<iso>::unverified = "translation",
@@ -810,7 +798,6 @@ class LangInfoData {
 #### 最终输出（final_outputs/）
 
 玩家可直接使用的翻译文件，以 JSON 格式输出：
-
 ```json
 {
   "IG_UI_SomeKey": "翻译文本",
@@ -823,7 +810,6 @@ class LangInfoData {
 #### 嵌入向量（data/embeddings/*.bin）
 
 使用 Zstd 压缩的二进制格式，由 `BinaryEmbeddingSerializer` 序列化。文件结构如下：
-
 - **Header**：条目数量（int32）
 - **每条记录**：key 长度（varint）+ key 字符串（UTF-8）+ SHA256 哈希（32 bytes）+ 向量数据（384 × float32）
 
@@ -844,7 +830,6 @@ Zstd 压缩在 384 维向量的场景下可以提供约 4:1 的压缩比，显�
 #### ContentCheck 内容审查状态
 
 内容审查的完整状态流转如下：
-
 ```
 UNKNOWN ──(新 mod 首次检查)──→ NEEDVERIFICATION
                                   ├──(LLM 审查: 安全)──→ ACCEPTED
@@ -872,7 +857,6 @@ ACCEPTED ──(超过 90 天缓存期)──→ NEEDVERIFICATION (定期重新�
 #### ModInfo.needsUpdate 更新判定
 
 模组是否需要重新提取和翻译，由以下规则判定：
-
 - Steam 的 `time_updated` 晚于缓存的 `timeModUpdated` → `needsUpdate = true`（模组作者发布了更新）。
 - 缓存中不存在任何翻译条目的可访问 mod → `needsUpdate = true`（首次处理该模组）。
 - 模组提取后包含 0 条翻译条目 → 内容审查状态直接设为 `ACCEPTED`（该模组没有可翻译的文本内容，无需翻译）。
@@ -913,7 +897,6 @@ ACCEPTED ──(超过 90 天缓存期)──→ NEEDVERIFICATION (定期重新�
 | `fixed_concurrency` | int | `128` | **>0 时启用固定窗口模式**：窗口内并发、窗口间串行，不使用动态调整。设为 0 则用动态模式 |
 
 **并发模式说明**:
-
 - **动态模式** (`fixed_concurrency=0`): 根据成功/失败自动增减并发。适用于 API 限流策略不透明的场景
 - **固定窗口模式** (`fixed_concurrency>0`): 确定性的并发行为。适用于已知 API 并发上限的场景。窗口间有完成日志输出
 
@@ -1180,7 +1163,6 @@ dotnet run
 ```
 
 在 GitHub Actions 环境中运行时，管线会自动检测 CI 环境并调整行为：
-
 - `GITHUB_ACTIONS=true`：自动降低并发上限（初始 4，最大 32），适配 CI 运行器的有限资源。
 - `RUNNER_OS=Linux`：适配 Linux 路径和进程管理方式。
 

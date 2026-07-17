@@ -82,6 +82,62 @@ public sealed partial class DocGeneratorService
         }
 
         Console.WriteLine("\n[DocGen] All templates processed.");
+
+        // ── Step 6: Copy outputs to final locations ──
+        CopyOutputsToDocs();
+    }
+
+    /// <summary>
+    /// Copy generated docs from temp/docgen/ to final locations.
+    /// readme_zh-hans.md → README.md (repo root);
+    /// readme_{lang}.md → docs/readme/README_{lang}.md;
+    /// {name}_{lang}.md → docs/{name}/{name}_{lang}.md.
+    /// </summary>
+    private void CopyOutputsToDocs()
+    {
+        if (!Directory.Exists(_outputDir))
+        {
+            Console.WriteLine("  [Step 6] Output dir not found, skip copy.");
+            return;
+        }
+
+        var files = Directory.GetFiles(_outputDir, "*_*.md");
+        Console.WriteLine($"  [Step 6] Copying {files.Length} output(s) to docs/ ...");
+
+        foreach (var src in files)
+        {
+            var fileName = Path.GetFileName(src);
+            // Parse: {templateName}_{lang}.md
+            var lastUnderscore = fileName.LastIndexOf('_');
+            if (lastUnderscore < 0) continue;
+            var templateName = fileName[..lastUnderscore];
+            var lang = fileName[(lastUnderscore + 1)..^3]; // strip .md
+
+            string destPath;
+            if (templateName == "readme" && lang == "zh-hans")
+            {
+                // Chinese README → repository root.
+                destPath = Path.Combine(_repoRoot, "README.md");
+            }
+            else if (templateName == "readme")
+            {
+                // Other readme → docs/readme/README_{lang}.md (uppercase README).
+                destPath = Path.Combine(_repoRoot, "docs", "readme",
+                    $"README_{lang}.md");
+            }
+            else
+            {
+                // Other docs → docs/{name}/{name}_{lang}.md.
+                destPath = Path.Combine(_repoRoot, "docs", templateName,
+                    $"{templateName}_{lang}.md");
+            }
+
+            Directory.CreateDirectory(Path.GetDirectoryName(destPath)!);
+            File.Copy(src, destPath, overwrite: true);
+            Console.WriteLine($"    {fileName} → {Path.GetRelativePath(_repoRoot, destPath)}");
+        }
+
+        Console.WriteLine("  [Step 6] Copy done.");
     }
 
     /// <summary>
@@ -1088,9 +1144,20 @@ public sealed partial class DocGeneratorService
     /// - English doc → primary link shows [简体中文] pointing to Chinese (zh-hans).
     /// - Chinese doc → primary link shows [English] pointing to English (en).
     /// - Other languages → primary links show both [English] and [简体中文].
+    /// - zh-hans doc lives at repo root (README.md), others at docs/readme/README_{lang}.md.
+    ///   URLs in mapping are relative to docs/readme/; for zh-hans root doc, prepend docs/readme/.
     /// </summary>
     private static string BuildMultiLangLinksBlock(MultiLangBlock block, string currentLang)
     {
+        // zh-hans README is at repo root; all other readme files are under docs/readme/.
+        // Mapping URLs are relative to docs/readme/. For root README, prepend docs/readme/.
+        string ResolveUrl(string url)
+        {
+            if (currentLang == "zh-hans" && !url.StartsWith("http") && !url.StartsWith("../"))
+                return "docs/readme/" + url;
+            return url;
+        }
+
         var sb = new StringBuilder();
         sb.Append("> ");
 
@@ -1103,14 +1170,14 @@ public sealed partial class DocGeneratorService
         {
             // English doc: show [简体中文] → link to Chinese.
             sb.Append("[简体中文](");
-            sb.Append(zhPrimary?.url ?? "");
+            sb.Append(ResolveUrl(zhPrimary?.url ?? ""));
             sb.Append(")");
         }
         else if (currentLang == "zh-hans")
         {
             // Chinese doc: show [English] → link to English.
             sb.Append("[English](");
-            sb.Append(enPrimary?.url ?? "");
+            sb.Append(ResolveUrl(enPrimary?.url ?? ""));
             sb.Append(")");
         }
         else
@@ -1119,7 +1186,7 @@ public sealed partial class DocGeneratorService
             if (enPrimary != null)
             {
                 sb.Append("[English](");
-                sb.Append(enPrimary.url);
+                sb.Append(ResolveUrl(enPrimary.url));
                 sb.Append(")");
             }
             if (enPrimary != null && zhPrimary != null)
@@ -1129,7 +1196,7 @@ public sealed partial class DocGeneratorService
             if (zhPrimary != null)
             {
                 sb.Append("[简体中文](");
-                sb.Append(zhPrimary.url);
+                sb.Append(ResolveUrl(zhPrimary.url));
                 sb.Append(")");
             }
         }
@@ -1148,7 +1215,7 @@ public sealed partial class DocGeneratorService
                 sb.Append('[');
                 sb.Append(link.text);
                 sb.Append("](");
-                sb.Append(link.url);
+                sb.Append(ResolveUrl(link.url));
                 sb.Append(") | ");
             }
             // Remove trailing " | ".

@@ -1,6 +1,6 @@
-# Project Babel - 《僵尸毁灭工程》模组LLM自动翻译项目
+# Project Babel — 《僵尸毁灭工程》模组LLM自动翻译项目
 
-> [English](./docs/readme/README_en.md)  <details><summary>其它语言</summary>[العربية](./docs/readme/README_ar.md) | [català](./docs/readme/README_ca.md) | [繁體中文](./docs/readme/README_zh-hant.md) | [čeština](./docs/readme/README_cs.md) | [dansk](./docs/readme/README_da.md) | [Deutsch](./docs/readme/README_de.md) | [español](./docs/readme/README_es.md) | [suomi](./docs/readme/README_fi.md) | [français](./docs/readme/README_fr.md) | [magyar](./docs/readme/README_hu.md) | [Bahasa Indonesia](./docs/readme/README_id.md) | [italiano](./docs/readme/README_it.md) | [日本語](./docs/readme/README_ja.md) | [한국어](./docs/readme/README_ko.md) | [Nederlands](./docs/readme/README_nl.md) | [norsk](./docs/readme/README_no.md) | [Tagalog](./docs/readme/README_tl.md) | [polski](./docs/readme/README_pl.md) | [português](./docs/readme/README_pt.md) | [português do Brasil](./docs/readme/README_pt-br.md) | [română](./docs/readme/README_ro.md) | [русский](./docs/readme/README_ru.md) | [ภาษาไทย](./docs/readme/README_th.md) | [Türkçe](./docs/readme/README_tr.md) | [українська](./docs/readme/README_uk.md)</details>
+> [English](docs/readme/README_en.md) <details><summary>其它语言</summary>[العربية](docs/readme/README_ar.md) | [català](docs/readme/README_ca.md) | [繁體中文](docs/readme/README_zh-hant.md) | [čeština](docs/readme/README_cs.md) | [dansk](docs/readme/README_da.md) | [Deutsch](docs/readme/README_de.md) | [español](docs/readme/README_es.md) | [suomi](docs/readme/README_fi.md) | [français](docs/readme/README_fr.md) | [magyar](docs/readme/README_hu.md) | [Bahasa Indonesia](docs/readme/README_id.md) | [italiano](docs/readme/README_it.md) | [日本語](docs/readme/README_ja.md) | [한국어](docs/readme/README_ko.md) | [Nederlands](docs/readme/README_nl.md) | [norsk](docs/readme/README_no.md) | [Tagalog](docs/readme/README_tl.md) | [polski](docs/readme/README_pl.md) | [português](docs/readme/README_pt.md) | [português do Brasil](docs/readme/README_pt-br.md) | [română](docs/readme/README_ro.md) | [русский](docs/readme/README_ru.md) | [ภาษาไทย](docs/readme/README_th.md) | [Türkçe](docs/readme/README_tr.md) | [українська](docs/readme/README_uk.md)</details>
 
 ---
 
@@ -15,7 +15,12 @@
 - [翻译进度](#翻译进度)
 - [如何贡献](#如何贡献)
 - [工具与目录结构 (面向开发者)](#工具与目录结构-面向开发者)
+  - [项目目录](#项目目录)
+  - [流水线模块 (按执行顺序)](#流水线模块-按执行顺序)
+  - [技术栈](#技术栈)
 - [版权与授权](#版权与授权)
+  - [1. 文本与图片等内容](#1-文本与图片等内容)
+  - [2. 程序、脚本与其他开发内容](#2-程序脚本与其他开发内容)
 - [致谢](#致谢)
 - [第三方程序](#第三方程序)
 
@@ -136,7 +141,7 @@
 
 ---
 
-## 版权与授权 (Copyright and License)
+## 版权与授权
 
 本翻译项目的翻译文本内容与相关图片，由 **Project Babel** 与各参与者基于原游戏模组创作或二次创作完成。
 
@@ -150,16 +155,12 @@
 - 项目说明文档、模组内文本翻译；
 - 本项目专门制作的图片、美术资源
 
-均采用 **署名-非商业性使用-相同方式共享 4.0 国际**
-（Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International，简称 **CC BY-NC-SA 4.0**）协议授权。
+均采用 **署名-非商业性使用-相同方式共享 4.0 国际**（Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International，简称 **CC BY-NC-SA 4.0**）协议授权。
 
 这意味着，在遵守以下条件的前提下，您可以自由分享与改编这些内容：
 
-- **署名（BY）**：在明显位置注明“本翻译项目基于『Project Babel』的工作成果进行修改”，并附上本仓库和 Steam 创意工坊链接  
-`https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080`
-
-- **非商业性使用（NC）**：不得将本项目内容或其改编作品用于任何直接或间接的商业用途
-  （包括但不限于付费整合包、付费下载、广告分成等）；
+- **署名（BY）**：在明显位置注明“本翻译项目基于『Project Babel』的工作成果进行修改”，并附上本仓库和 Steam 创意工坊链接   `https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080`
+- **非商业性使用（NC）**：不得将本项目内容或其改编作品用于任何直接或间接的商业用途  （包括但不限于付费整合包、付费下载、广告分成等）；
 - **相同方式共享（SA）**：若您基于本项目内容进行修改或再创作，必须以 **同样的 CC BY-NC-SA 4.0 协议** 公开发布您的改动版本。
 
 有关本协议的更多信息，请参见：
@@ -171,12 +172,9 @@
 
 ### 2. 程序、脚本与其他开发内容
 
-除非源码文件或目录中另有特别声明，本仓库中用于制作/打包/处理汉化内容的程序代码
-（例如 `src/` 目录下的程序代码），
-采用 **GNU 通用公共许可证第 3 版（GPL-3.0）** 进行授权。
+除非源码文件或目录中另有特别声明，本仓库中用于制作/打包/处理汉化内容的程序代码（例如 `src/` 目录下的程序代码），采用 **GNU 通用公共许可证第 3 版（GPL-3.0）** 进行授权。
 
-完整条款请参见本仓库根目录下的 `LICENSE-GPL-3.0` 文件，
-或访问 GNU 官网：<https://www.gnu.org/licenses/gpl-3.0.html>。
+完整条款请参见本仓库根目录下的 `LICENSE` 文件（GPL-3.0），或访问 GNU 官网：<https://www.gnu.org/licenses/gpl-3.0.html>。
 
 ---
 
