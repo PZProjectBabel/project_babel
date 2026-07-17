@@ -18,4 +18,5 @@
   <Project Path="ResultWriter/ResultWriter.csproj" />
   <Project Path="FinalOutputWriter/FinalOutputWriter.csproj" />
   <Project Path="TranslationBatcher/TranslationBatcher.csproj" />
+  <Project Path="DocGenerator/DocGenerator.csproj" />
 </Solution>
