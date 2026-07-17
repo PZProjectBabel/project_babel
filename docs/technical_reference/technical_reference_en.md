@@ -287,7 +287,15 @@ Once the Mod ID list is obtained, the pipeline needs basic information about eac
   - `title` → maps to `modName`.
   - `creator` → obtains creator nickname via Steam user interface.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Function**: Prepare the current platform's steamcmd runtime before any download operations begin.
+
+- **Linux**: Clean old runtime files in `src/3rd_party/steamcmd/`, download and extract the official `steamcmd_linux.tar.gz`, and set executable permission on `steamcmd.sh`.
+- **Windows**: No archive download; directly execute the repo-provided `steamcmd.exe +quit` under `src/3rd_party/steamcmd/` to let SteamCMD self-update.
+- **Failure handling**: Download, extraction, or executable validation failure will abort the pipeline to prevent using an incomplete runtime during the download phase.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Function**: Use the steamcmd command-line tool to download mod files from Steam Workshop.
 

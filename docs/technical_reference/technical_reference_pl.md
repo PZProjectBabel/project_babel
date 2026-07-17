@@ -287,7 +287,15 @@ Po uzyskaniu listy identyfikatorów modów, potok musi poznać podstawowe inform
   - `title` → mapowane na `modName` (nazwa moda).
   - `creator` → pobierane przez interfejs użytkownika Steama w celu uzyskania nazwy twórcy.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Funkcja**: Przygotowuje środowisko uruchomieniowe steamcmd dla bieżącej platformy przed rozpoczęciem operacji pobierania.
+
+- **Linux**: Czyści stare pliki środowiska uruchomieniowego w `src/3rd_party/steamcmd/`, pobiera i rozpakowuje oficjalne archiwum `steamcmd_linux.tar.gz` oraz nadaje uprawnienia do wykonywania plikowi `steamcmd.sh`.
+- **Windows**: Bez pobierania archiwum; bezpośrednio wykonuje dostarczone w repozytorium `steamcmd.exe +quit` w `src/3rd_party/steamcmd/`, aby SteamCMD sam się zaktualizował.
+- **Obsługa błędów**: Niepowodzenie pobierania, rozpakowywania lub walidacji pliku wykonywalnego przerywa potok, aby zapobiec użyciu niekompletnego środowiska uruchomieniowego podczas fazy pobierania.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Funkcja**: Pobiera pliki modów z Steam Workshop za pomocą narzędzia wiersza poleceń steamcmd.
 

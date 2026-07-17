@@ -287,7 +287,15 @@ Una vez que se tiene la lista de IDs de mods, la canalización necesita conocer 
   - `title` → se mapea a `modName` (nombre del mod).
   - `creator` → se obtiene el nombre del creador a través de la interfaz de usuario de Steam.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Función**: Prepara el entorno de ejecución de steamcmd para la plataforma actual antes de cualquier operación de descarga.
+
+- **Linux**: Limpia los archivos de ejecución antiguos en `src/3rd_party/steamcmd/`, descarga y extrae el `steamcmd_linux.tar.gz` oficial, y establece el permiso de ejecución en `steamcmd.sh`.
+- **Windows**: Sin descarga de archivo; ejecuta directamente `steamcmd.exe +quit` proporcionado en el repositorio bajo `src/3rd_party/steamcmd/` para que SteamCMD se autoactualice.
+- **Manejo de errores**: Cualquier fallo de descarga, extracción o validación del ejecutable aborta la canalización para evitar usar un entorno de ejecución incompleto durante la fase de descarga.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Función**: Utiliza la herramienta de línea de comandos steamcmd para descargar los archivos de los mods desde Steam Workshop.
 

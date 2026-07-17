@@ -287,7 +287,15 @@ Després d'obtenir la llista d'IDs de mods, el pipeline necessita conèixer info
   - `title` → mapejat a `modName` (nom del mod).
   - `creator` → s'obté el sobrenom del creador a través de la interfície d'usuari de Steam.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Funció**: Prepara l'entorn d'execució de steamcmd per a la plataforma actual abans de qualsevol operació de descàrrega.
+
+- **Linux**: Neteja els fitxers d'execució antics a `src/3rd_party/steamcmd/`, descarrega i extreu l'oficial `steamcmd_linux.tar.gz`, i estableix el permís d'execució a `steamcmd.sh`.
+- **Windows**: Sense descàrrega d'arxiu; executa directament `steamcmd.exe +quit` proporcionat al repositori a `src/3rd_party/steamcmd/` perquè SteamCMD s'autoactualitzi.
+- **Gestió d'errors**: Qualsevol fallada de descàrrega, extracció o validació de l'executable avorta el pipeline per evitar l'ús d'un entorn d'execució incomplet durant la fase de descàrrega.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Funció**: Utilitzar l'eina de línia d'ordres steamcmd per descarregar fitxers de mods del Steam Workshop.
 

@@ -86,9 +86,10 @@ def check_family(family):
                 f"[{family['label']}] [{iso}] 段落数不一致: "
                 f"zh={len(zh_segs)} tgt={len(tgt_segs)}"
             )
-        n = min(len(zh_segs), len(tgt_segs))
+            # 段落数不一致可能导致后续全错位，只输出这一项，跳下一个文件
+            continue
 
-        for i in range(n):
+        for i in range(len(zh_segs)):
             zh_lvl = zh_segs[i][1]
             tgt_lvl = tgt_segs[i][1]
             if zh_lvl != tgt_lvl:
@@ -98,6 +99,8 @@ def check_family(family):
                     f"[{family['label']}] [{iso}] seg[{i:03d}] 标题级别不一致 | "
                     f"zh(L{zh_lvl}): {zh_h[:60]} | tgt(L{tgt_lvl}): {tgt_h[:60]}"
                 )
+                # 第一个不一致跳出，避免级联误报，跳下一个文件
+                break
 
     return issues
 

@@ -287,7 +287,15 @@ După obținerea listei de ID-uri, pipeline-ul are nevoie de informațiile de ba
   - `title` → mapat la `modName` (numele mod-ului).
   - `creator` → obținut prin interogarea interfeței utilizator Steam pentru a afla pseudonimul creatorului.
 
-### 3.5 ModDownloader (Serviciul `ModDownloader`)
+### 3.5 SteamCmdBootstrapper (Serviciul `SteamCmdBootstrapper`)
+
+**Funcție**: Pregătește mediul de execuție steamcmd specific platformei înainte de începerea operațiunilor de descărcare.
+
+- **Linux**: Curăță fișierele vechi de execuție din `src/3rd_party/steamcmd/`, descarcă și extrage arhiva oficială `steamcmd_linux.tar.gz` și setează permisiunea de execuție pentru `steamcmd.sh`.
+- **Windows**: Fără descărcare de arhivă; execută direct `steamcmd.exe +quit` furnizat în repository în `src/3rd_party/steamcmd/` pentru ca SteamCMD să se auto-actualizeze.
+- **Gestionarea erorilor**: Eșecul descărcării, extragerii sau validării fișierului executabil va întrerupe pipeline-ul pentru a preveni utilizarea unui mediu de execuție incomplet în faza de descărcare.
+
+### 3.5.1 ModDownloader (Serviciul `ModDownloader`)
 
 **Funcție**: Utilizează instrumentul de linie de comandă `steamcmd` pentru a descărca fișierele mod-urilor din Steam Workshop.
 

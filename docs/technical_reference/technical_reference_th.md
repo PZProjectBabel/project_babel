@@ -287,7 +287,15 @@ config.json / secrets.json
   - `title` → แมปเป็น `modName` (ชื่อม็อด)
   - `creator` → รับชื่อผู้สร้างผ่านอินเทอร์เฟซผู้ใช้ Steam
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**หน้าที่**: เตรียมสภาพแวดล้อมรันไทม์ steamcmd สำหรับแพลตฟอร์มปัจจุบันก่อนเริ่มการดาวน์โหลด
+
+- **Linux**: ล้างไฟล์รันไทม์เก่าใน `src/3rd_party/steamcmd/` ดาวน์โหลดและแตกไฟล์ `steamcmd_linux.tar.gz` ทางการ และตั้งสิทธิ์ดำเนินการให้ `steamcmd.sh`
+- **Windows**: ไม่ต้องดาวน์โหลดไฟล์บีบอัด เรียกใช้ `steamcmd.exe +quit` ที่มาพร้อมกับรีโปใน `src/3rd_party/steamcmd/` โดยตรง เพื่อให้ SteamCMD อัปเดตตัวเอง
+- **การจัดการข้อผิดพลาด**: หากการดาวน์โหลด การแตกไฟล์ หรือการตรวจสอบไฟล์ปฏิบัติการล้มเหลว จะหยุดไปป์ไลน์เพื่อป้องกันการใช้รันไทม์ที่ไม่สมบูรณ์ในขั้นตอนการดาวน์โหลด
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **หน้าที่**: ใช้เครื่องมือบรรทัดคำสั่ง steamcmd ดาวน์โหลดไฟล์ม็อดจาก Steam Workshop
 

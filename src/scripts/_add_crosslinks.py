@@ -86,7 +86,7 @@ def process_file(filepath: Path, prefix: str, overrides: dict | None = None, che
     text = filepath.read_text(encoding="utf-8")
     iso = filepath.stem.replace(prefix, "")
 
-    if "<details><summary>Other Languages</summary>" in text:
+    if "<details><summary>" in text:
         return None  # 已有, 无问题
 
     if check_only:

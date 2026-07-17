@@ -287,7 +287,15 @@ A mod-azonosítók birtokában a csővezetéknek ismernie kell az egyes modok al
   - `title` → `modName` (mod neve) leképzése.
   - `creator` → A készítő becenevének lekérése a Steam felhasználói felületén keresztül.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Funkció**: Előkészíti a platform-specifikus steamcmd futtatókörnyezetet a letöltési műveletek megkezdése előtt.
+
+- **Linux**: Törli a régi futtatókörnyezeti fájlokat a `src/3rd_party/steamcmd/` könyvtárból, letölti és kicsomagolja a hivatalos `steamcmd_linux.tar.gz` fájlt, és végrehajtási jogot ad a `steamcmd.sh` fájlra.
+- **Windows**: Nincs archívum letöltés; közvetlenül futtatja a repo által biztosított `steamcmd.exe +quit` parancsot a `src/3rd_party/steamcmd/` könyvtárban, hogy a SteamCMD frissítse önmagát.
+- **Hibakezelés**: A letöltés, kicsomagolás vagy a futtatható fájl ellenőrzésének sikertelensége leállítja a csővezetéket, hogy a letöltési fázisban ne használjon hiányos futtatókörnyezetet.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Funkció**: A steamcmd parancssori eszköz segítségével tölti le a modfájlokat a Steam Workshopról.
 

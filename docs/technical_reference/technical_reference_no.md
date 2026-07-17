@@ -287,7 +287,15 @@ Etter at Mod ID-listen er hentet, trenger rørledningen grunnleggende informasjo
   - `title` → mappes til `modName`.
   - `creator` → forfatternavn hentes via Steam-brukergrensesnitt.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Funksjon**: Forbereder den plattformspesifikke steamcmd-kjøretiden før noen nedlastingsoperasjoner starter.
+
+- **Linux**: Rydder gamle kjøretidsfiler i `src/3rd_party/steamcmd/`, laster ned og pakker ut den offisielle `steamcmd_linux.tar.gz`, og setter kjøretillatelse på `steamcmd.sh`.
+- **Windows**: Ingen arkivnedlasting; kjører direkte den repo-leverte `steamcmd.exe +quit` under `src/3rd_party/steamcmd/` for å la SteamCMD oppdatere seg selv.
+- **Feilhåndtering**: Nedlastings-, utpakkings- eller valideringsfeil avbryter rørledningen for å forhindre bruk av en ufullstendig kjøretid under nedlastingsfasen.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Funksjon**: Bruker kommandolinjeverktøyet steamcmd til å laste ned mod-filer fra Steam Workshop.
 

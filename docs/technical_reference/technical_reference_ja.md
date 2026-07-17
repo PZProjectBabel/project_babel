@@ -287,7 +287,15 @@ Mod IDリストを入手した後、パイプラインは各Modの基本情報�
     -   `title` → `modName`（Mod名）にマッピングされます。
     -   `creator` → Steamユーザーインターフェースを通じて作成者のニックネームが取得されます。
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**機能**: ダウンロード操作を開始する前に、現在のプラットフォームで利用可能な steamcmd ランタイムを準備します。
+
+- **Linux**: `src/3rd_party/steamcmd/` 内の古いランタイムファイルを削除し、公式の `steamcmd_linux.tar.gz` をダウンロード・展開し、`steamcmd.sh` に実行権限を付与します。
+- **Windows**: アーカイブのダウンロードは行わず、リポジトリ提供の `steamcmd.exe +quit` を `src/3rd_party/steamcmd/` で直接実行し、SteamCMD を自己更新させます。
+- **失敗処理**: ダウンロード、展開、または実行ファイルの検証に失敗した場合、不完全なランタイムでのダウンロードを防ぐためパイプラインを停止します。
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **機能**: steamcmd コマンドラインツールを使用して、Steam WorkshopからModファイルをダウンロードします。
 

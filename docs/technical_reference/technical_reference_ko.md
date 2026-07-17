@@ -287,7 +287,15 @@ Mod ID 목록을 확보한 후, 파이프라인은 각 모드의 기본 정보(�
     -   `title` → `modName`(모드 이름)으로 매핑됩니다.
     -   `creator` → Steam 사용자 인터페이스를 통해 생성자 닉네임을 가져옵니다.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**기능**: 다운로드 작업을 시작하기 전에 현재 플랫폼에 맞는 steamcmd 런타임을 준비합니다.
+
+- **Linux**: `src/3rd_party/steamcmd/`의 오래된 런타임 파일을 정리하고, 공식 `steamcmd_linux.tar.gz`를 다운로드 및 압축 해제한 후 `steamcmd.sh`에 실행 권한을 부여합니다.
+- **Windows**: 아카이브 다운로드 없이, 저장소에 포함된 `steamcmd.exe +quit`를 `src/3rd_party/steamcmd/`에서 직접 실행하여 SteamCMD가 자체 업데이트되도록 합니다.
+- **실패 처리**: 다운로드, 압축 해제 또는 실행 파일 검증에 실패하면, 불완전한 런타임으로 다운로드 단계를 진행하지 않도록 파이프라인을 중단합니다.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **기능**: steamcmd 명령줄 도구를 사용하여 Steam Workshop에서 모드 파일을 다운로드합니다.
 

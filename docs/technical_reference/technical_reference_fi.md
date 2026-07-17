@@ -287,7 +287,15 @@ Kun Mod ID -lista on saatu, putkilinja tarvitsee kunkin modin perustiedot – ni
   - `title` → yhdistetään `modName`-kenttään (modin nimi).
   - `creator` → haetaan Steam-käyttäjärajapinnan kautta tekijän nimimerkki.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Toiminto**: Valmistelee alustakohtaisen steamcmd-ajoympäristön ennen lataustoimintojen aloittamista.
+
+- **Linux**: Puhdistaa vanhat ajonaikaiset tiedostot kansiosta `src/3rd_party/steamcmd/`, lataa ja purkaa virallisen `steamcmd_linux.tar.gz`-paketin ja asettaa suoritusoikeuden tiedostolle `steamcmd.sh`.
+- **Windows**: Ei arkiston latausta; suorittaa suoraan repositorion mukana tulevan `steamcmd.exe +quit`-komennon kansiossa `src/3rd_party/steamcmd/`, jotta SteamCMD päivittyy itsestään.
+- **Virheenkäsittely**: Latauksen, purkamisen tai suoritettavan tiedoston vahvistuksen epäonnistuminen keskeyttää putkilinjan, jotta latausvaiheessa ei käytetä epätäydellistä ajoympäristöä.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Toiminto**: Lataa moditiedostot Steam Workshopista käyttämällä steamcmd-komentorivityökalua.
 

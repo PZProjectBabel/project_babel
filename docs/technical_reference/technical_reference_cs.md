@@ -287,7 +287,15 @@ Po získání seznamu ID modů potřebuje pipeline znát základní informace o 
   - `title` → mapováno na `modName` (název modu).
   - `creator` → přezdívka tvůrce získána přes Steam uživatelské rozhraní.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Funkce**: Připraví běhové prostředí steamcmd pro aktuální platformu před zahájením jakýchkoli operací stahování.
+
+- **Linux**: Vyčistí staré běhové soubory v `src/3rd_party/steamcmd/`, stáhne a rozbalí oficiální `steamcmd_linux.tar.gz` a nastaví oprávnění ke spuštění pro `steamcmd.sh`.
+- **Windows**: Žádné stahování archivu; přímo spustí `steamcmd.exe +quit` dodaný s repozitářem v `src/3rd_party/steamcmd/`, aby se SteamCMD sám aktualizoval.
+- **Zpracování chyb**: Selhání stahování, rozbalení nebo ověření spustitelného souboru přeruší pipeline, aby se zabránilo použití neúplného běhového prostředí během fáze stahování.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Funkce**: Používá nástroj příkazové řádky steamcmd ke stahování souborů Steam Workshop modů.
 

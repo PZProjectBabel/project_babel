@@ -287,7 +287,15 @@ Una volta ottenuto l'elenco degli ID delle mod, la pipeline deve conoscere le in
   - `title` → Mappato a `modName` (nome della mod).
   - `creator` → Il nickname del creatore viene ottenuto tramite l'interfaccia utente di Steam.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Funzione**: Prepara l'ambiente di esecuzione steamcmd specifico per la piattaforma prima di qualsiasi operazione di download.
+
+- **Linux**: Pulisce i vecchi file di runtime in `src/3rd_party/steamcmd/`, scarica ed estrae l'archivio ufficiale `steamcmd_linux.tar.gz` e imposta il permesso di esecuzione su `steamcmd.sh`.
+- **Windows**: Nessun download di archivio; esegue direttamente `steamcmd.exe +quit` fornito con il repository in `src/3rd_party/steamcmd/` per consentire a SteamCMD di auto-aggiornarsi.
+- **Gestione degli errori**: Il fallimento del download, dell'estrazione o della convalida dell'eseguibile interrompe la pipeline per evitare l'uso di un ambiente di esecuzione incompleto durante la fase di download.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Funzione**: Scarica i file delle mod da Steam Workshop utilizzando lo strumento a riga di comando steamcmd.
 

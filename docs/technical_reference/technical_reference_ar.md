@@ -287,7 +287,15 @@ config.json / secrets.json
   - `title` → يعين إلى `modName` (اسم النموذج).
   - `creator` → يتم الحصول على اسم المنشئ عبر واجهة مستخدم Steam.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**الوظيفة**: تجهيز بيئة تشغيل steamcmd الخاصة بالمنصة الحالية قبل بدء أي عمليات تنزيل.
+
+- **Linux**: تنظيف ملفات وقت التشغيل القديمة في `src/3rd_party/steamcmd/`، وتنزيل وفك ضغط `steamcmd_linux.tar.gz` الرسمي، وتعيين صلاحية التنفيذ لـ `steamcmd.sh`.
+- **Windows**: لا حاجة لتنزيل حزمة؛ يتم تشغيل `steamcmd.exe +quit` الموجود في `src/3rd_party/steamcmd/` مباشرة ليُحدث SteamCMD نفسه تلقائياً.
+- **معالجة الفشل**: سيؤدي فشل التنزيل أو فك الضغط أو التحقق من الملف التنفيذي إلى إيقاف المسار لمنع استخدام بيئة تشغيل غير مكتملة أثناء مرحلة التنزيل.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **الوظيفة**: استخدام أداة سطر الأوامر steamcmd لتنزيل ملفات نماذج Steam Workshop.
 

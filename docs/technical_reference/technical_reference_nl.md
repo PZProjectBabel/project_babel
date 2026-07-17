@@ -287,7 +287,15 @@ Met de lijst van mod-ID's moet de pijplijn basisinformatie over elke mod weten: 
   - `title` → wordt `modName`.
   - `creator` → wordt via de Steam-gebruikersinterface opgehaald als de weergavenaam van de maker.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Functie**: Bereidt de platformspecifieke steamcmd-runtime voor voordat er downloadoperaties worden gestart.
+
+- **Linux**: Verwijdert oude runtime-bestanden in `src/3rd_party/steamcmd/`, downloadt en pakt de officiële `steamcmd_linux.tar.gz` uit, en geeft uitvoerrechten aan `steamcmd.sh`.
+- **Windows**: Geen archiefdownload; voert direct het in de repo meegeleverde `steamcmd.exe +quit` uit onder `src/3rd_party/steamcmd/` zodat SteamCMD zichzelf bijwerkt.
+- **Foutafhandeling**: Een fout bij downloaden, uitpakken of valideren van het uitvoerbare bestand breekt de pijplijn af om het gebruik van een onvolledige runtime tijdens de downloadfase te voorkomen.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Functie**: Gebruikt het command-line-programma `steamcmd` om modbestanden van Steam Workshop te downloaden.
 

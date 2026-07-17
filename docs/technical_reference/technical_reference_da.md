@@ -287,7 +287,15 @@ Når ID-listen er klar, skal rørledningen kende grundlæggende oplysninger om h
   - `title` → kortlægges til `modName` (mod-navn).
   - `creator` → forfatternavn hentes via Steam-brugerendpoint.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Funktion**: Forbereder den platformspecifikke steamcmd-runtime før nogen download-operationer påbegyndes.
+
+- **Linux**: Rydder gamle runtime-filer i `src/3rd_party/steamcmd/`, downloader og udpakker den officielle `steamcmd_linux.tar.gz` og sætter eksekveringstilladelse på `steamcmd.sh`.
+- **Windows**: Ingen arkiv-download; udfører direkte det repo-leverede `steamcmd.exe +quit` under `src/3rd_party/steamcmd/` for at lade SteamCMD selvopdatere.
+- **Fejlhåndtering**: Download-, udpaknings- eller valideringsfejl afbryder pipelinen for at forhindre brug af en ufuldstændig runtime under download-fasen.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Funktion**: Bruger steamcmd-kommandolinjeværktøjet til at downloade mod-filer fra Steam Workshop.
 

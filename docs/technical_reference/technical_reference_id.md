@@ -287,7 +287,15 @@ Setelah mendapatkan daftar ID Mod, pipa perlu mengetahui informasi dasar setiap 
     - `title` → dipetakan ke `modName` (nama mod).
     - `creator` → mendapatkan nama panggilan pembuat melalui antarmuka pengguna Steam.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Fungsi**: Mempersiapkan runtime steamcmd khusus platform sebelum operasi pengunduhan dimulai.
+
+- **Linux**: Membersihkan file runtime lama di `src/3rd_party/steamcmd/`, mengunduh dan mengekstrak `steamcmd_linux.tar.gz` resmi, dan mengatur izin eksekusi pada `steamcmd.sh`.
+- **Windows**: Tidak ada pengunduhan arsip; langsung menjalankan `steamcmd.exe +quit` yang disediakan repo di `src/3rd_party/steamcmd/` agar SteamCMD memperbarui dirinya sendiri.
+- **Penanganan kegagalan**: Kegagalan pengunduhan, ekstraksi, atau validasi file yang dapat dieksekusi akan menghentikan pipeline untuk mencegah penggunaan runtime yang tidak lengkap selama fase pengunduhan.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Fungsi**: Mengunduh berkas mod dari Steam Workshop menggunakan alat baris perintah steamcmd.
 

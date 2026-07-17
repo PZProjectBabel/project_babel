@@ -287,7 +287,15 @@ Matapos makuha ang Mod ID list, kailangan malaman ng pipeline ang basic na impor
   - `title` → i-map sa `modName` (pangalan ng mod).
   - `creator` → kunin ang creator nickname sa pamamagitan ng Steam user interface.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**Function**: Ihanda ang steamcmd runtime para sa kasalukuyang platform bago magsimula ang anumang download operation.
+
+- **Linux**: Linisin ang mga lumang runtime file sa `src/3rd_party/steamcmd/`, i-download at i-extract ang opisyal na `steamcmd_linux.tar.gz`, at itakda ang executable permission sa `steamcmd.sh`.
+- **Windows**: Walang archive download; direktang patakbuhin ang repo-provided na `steamcmd.exe +quit` sa `src/3rd_party/steamcmd/` upang hayaang mag-self-update ang SteamCMD.
+- **Failure handling**: Ang pagkabigo sa pag-download, pag-extract, o pag-validate ng executable ay mag-aabort sa pipeline upang maiwasan ang paggamit ng hindi kumpletong runtime sa download phase.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **Function**: Gamit ang steamcmd command-line tool, i-download ang mod files mula sa Steam Workshop.
 

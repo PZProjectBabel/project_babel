@@ -287,7 +287,15 @@ Mod ID listesi alındıktan sonra, boru hattının her modun temel bilgilerini -
   - `title` → `modName` (mod adı) alanına eşlenir.
   - `creator` → Steam kullanıcı arayüzü üzerinden oluşturucunun takma adı alınır.
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**İşlev**: Herhangi bir indirme işlemi başlamadan önce mevcut platformun steamcmd çalışma zamanını hazırlar.
+
+- **Linux**: `src/3rd_party/steamcmd/` içindeki eski çalışma zamanı dosyalarını temizler, resmi `steamcmd_linux.tar.gz` dosyasını indirip çıkarır ve `steamcmd.sh` için çalıştırma izni ayarlar.
+- **Windows**: Arşiv indirme yok; repo ile sağlanan `steamcmd.exe +quit` komutunu `src/3rd_party/steamcmd/` altında doğrudan çalıştırarak SteamCMD'nin kendi kendini güncellemesini sağlar.
+- **Hata yönetimi**: İndirme, çıkarma veya çalıştırılabilir dosya doğrulama başarısızlığı, indirme aşamasında eksik bir çalışma zamanı kullanılmasını önlemek için boru hattını durdurur.
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **İşlev**: steamcmd komut satırı aracını kullanarak Steam Workshop'tan mod dosyalarını indirir.
 

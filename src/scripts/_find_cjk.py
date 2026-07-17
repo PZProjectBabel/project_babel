@@ -18,19 +18,19 @@ FAMILIES = [
     {
         "dir": BASE_DIR / "docs" / "technical_reference",
         "glob": "technical_reference_*.md",
-        "skip": {"technical_reference_zh-hans.md", "technical_reference_zh-hant.md"},
+        "skip": {"technical_reference_zh-hans.md", "technical_reference_zh-hant.md", "technical_reference_ja.md"},
         "label": "技术文档",
     },
     {
         "dir": BASE_DIR / "docs" / "readme",
         "glob": "README_*.md",
-        "skip": {"README_zh-hans.md", "README_zh-hant.md"},
+        "skip": {"README_zh-hans.md", "README_zh-hant.md", "README_ja.md"},
         "label": "README",
     },
     {
         "dir": BASE_DIR / "docs" / "contributing",
         "glob": "contributing_*.md",
-        "skip": {"contributing_zh-hans.md", "contributing_zh-hant.md"},
+        "skip": {"contributing_zh-hans.md", "contributing_zh-hant.md", "contributing_ja.md"},
         "label": "贡献指南",
     },
 ]
@@ -48,8 +48,8 @@ for family in FAMILIES:
         in_crosslink_block = False
         for i, line in enumerate(lines, 1):
             stripped = line.strip()
-            # 跳过交叉连接块 (含 Other Languages)
-            if '<details><summary>Other Languages</summary>' in stripped:
+            # 跳过交叉连接块 (含 <details><summary>...Languages... 或 ...Sprachen... 等)
+            if '<details><summary>' in stripped:
                 in_crosslink_block = True
                 continue
             if in_crosslink_block and '</details>' in stripped:
