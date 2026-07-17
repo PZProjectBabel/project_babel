@@ -14,7 +14,7 @@ public static partial class DocChecker
     // ── Doc families ──────────────────────────────────────────
     private static readonly List<DocFamily> Families =
     [
-        new("technical_reference", "技术文档",
+        new("technical_reference", "Technical Reference",
             Path.Combine(BaseDir, "docs", "technical_reference"),
             "technical_reference_zh-hans.md",
             "technical_reference_*.md",
@@ -26,7 +26,7 @@ public static partial class DocChecker
             "README_*.md",
             ["README_zh-hans.md", "README_zh-hant.md"],
             "README_", Path.Combine(BaseDir, "README.md")),
-        new("contributing", "贡献指南",
+        new("contributing", "Contributing",
             Path.Combine(BaseDir, "docs", "contributing"),
             "contributing_zh-hans.md",
             "contributing_*.md",
@@ -196,12 +196,12 @@ public static partial class DocChecker
         foreach (var famName in familyList)
         {
             var fam = GetFamily(famName);
-            if (fam is null) { Console.WriteLine($"[WARN] 未知家族: {famName}"); continue; }
+            if (fam is null) { Console.WriteLine($"[WARN] Unknown family: {famName}"); continue; }
             allIssues.AddRange(CheckFamilySegments(fam));
         }
         if (allIssues.Count > 0)
         {
-            Console.WriteLine($"\n=== 结构不一致 ({allIssues.Count} 项) ===");
+            Console.WriteLine($"\n=== Structure mismatch ({allIssues.Count} item(s)) ===");
             foreach (var i in allIssues) Console.WriteLine($"  {i}");
             Console.WriteLine("--- 1/3 Segment Structure: FAILED (exit=1) ---");
             return (false, allIssues);
@@ -216,7 +216,7 @@ public static partial class DocChecker
         var baseFile = fam.BasePath ?? Path.Combine(fam.Dir, fam.Base);
         if (!File.Exists(baseFile))
         {
-            issues.Add($"[{fam.Label}] 基准文件缺失: {baseFile}");
+            issues.Add($"[{fam.Label}] Base file missing: {baseFile}");
             return issues;
         }
         var zhText = File.ReadAllText(baseFile, Utf8NoBom.Encoding);
@@ -234,7 +234,7 @@ public static partial class DocChecker
 
             if (zhSegs.Count != tgtSegs.Count)
             {
-                issues.Add($"[{fam.Label}] [{iso}] 段落数不一致: zh={zhSegs.Count} tgt={tgtSegs.Count}");
+                issues.Add($"[{fam.Label}] [{iso}] Segment count mismatch: zh={zhSegs.Count} tgt={tgtSegs.Count}");
                 continue;
             }
 
@@ -247,7 +247,7 @@ public static partial class DocChecker
                 var tgtLvl = tgtH.Length - tgtH.TrimStart('#').Length;
                 if (zhLvl != tgtLvl)
                 {
-                    issues.Add($"[{fam.Label}] [{iso}] seg[{i:D3}] 标题级别不一致 | zh(L{zhLvl}): {zhH[..Math.Min(60, zhH.Length)]} | tgt(L{tgtLvl}): {tgtH[..Math.Min(60, tgtH.Length)]}");
+                    issues.Add($"[{fam.Label}] [{iso}] seg[{i:D3}] Heading level mismatch | zh(L{zhLvl}): {zhH[..Math.Min(60, zhH.Length)]} | tgt(L{tgtLvl}): {tgtH[..Math.Min(60, tgtH.Length)]}");
                     anyHeadingMismatch = true;
                 }
             }
@@ -361,7 +361,7 @@ public static partial class DocChecker
                 }
             }
         }
-        if (total > 0) Console.WriteLine($"\n=== CJK 残留: {total} 处 ===");
+        if (total > 0) Console.WriteLine($"\n=== CJK residue: {total} instance(s) ===");
         Console.WriteLine("--- 2/3 CJK Residue Scan: PASSED (non-blocking, warnings above) ---");
         return (true, allIssues); // non-blocking
     }
@@ -383,12 +383,12 @@ public static partial class DocChecker
                 var text = await File.ReadAllTextAsync(f, Utf8NoBom.Encoding);
                 if (text.Contains("<details><summary>")) continue;
                 var iso = Path.GetFileNameWithoutExtension(f).Replace(fam.Prefix, "");
-                allIssues.Add($"[{fam.Label}] [{iso}] 缺少交叉连接");
+                allIssues.Add($"[{fam.Label}] [{iso}] Missing crosslinks");
             }
         }
         if (allIssues.Count > 0)
         {
-            Console.WriteLine($"\n=== 交叉连接缺失 ({allIssues.Count} 项) ===");
+            Console.WriteLine($"\n=== Crosslinks missing ({allIssues.Count} item(s)) ===");
             foreach (var i in allIssues) Console.WriteLine($"  {i}");
             Console.WriteLine("--- 3/3 Crosslink Check: WARNINGS (non-blocking) ---");
             return (false, allIssues);
@@ -406,10 +406,10 @@ public static partial class DocChecker
         foreach (var famName in familyList)
         {
             var fam = GetFamily(famName);
-            if (fam is null) { Console.WriteLine($"[WARN] 未知文档家族: {famName}，跳过"); continue; }
+            if (fam is null) { Console.WriteLine($"[WARN] Unknown doc family: {famName}, skipping"); continue; }
 
             Console.WriteLine($"\n{"=".PadRight(70, '=')}");
-            Console.WriteLine($"  文档家族: {fam.Label} ({fam.Name})");
+            Console.WriteLine($"  Doc family: {fam.Label} ({fam.Name})");
             Console.WriteLine($"{"=".PadRight(70, '=')}");
 
             var allFiles = Directory.GetFiles(fam.Dir, fam.Glob).OrderBy(x => x).ToList();
@@ -430,15 +430,15 @@ public static partial class DocChecker
             }
 
             var baseFile = fam.BasePath ?? Path.Combine(fam.Dir, fam.Base);
-            Console.WriteLine($"基准: {Path.GetFileName(baseFile)}");
-            Console.WriteLine($"目标: {targets.Count} 个语种");
+            Console.WriteLine($"Base: {Path.GetFileName(baseFile)}");
+            Console.WriteLine($"Targets: {targets.Count} language(s)");
 
             if (dryRun)
             {
-                Console.WriteLine("\n[Dry-run] 段落切分预览\n");
+                Console.WriteLine("\n[Dry-run] Segment split preview\n");
                 var zhText = await File.ReadAllTextAsync(baseFile, Utf8NoBom.Encoding);
                 var zhSegs = SplitByHeadings(zhText);
-                Console.WriteLine($"{Path.GetFileName(baseFile)} → {zhSegs.Count} 段:");
+                Console.WriteLine($"{Path.GetFileName(baseFile)} → {zhSegs.Count} seg(s):");
                 foreach (var (i, s, e, txt) in zhSegs.Select((v, i) => (i, v.Start, v.End, v.Text)))
                     Console.WriteLine($"  [{i:D3}] L{s}-L{e} | {txt.Split('\n')[0][..Math.Min(70, txt.Split('\n')[0].Length)]}");
                 foreach (var tf in targets)
@@ -446,7 +446,7 @@ public static partial class DocChecker
                     var iso = IsoFromFilename(Path.GetFileName(tf), fam.Prefix);
                     var txt = await File.ReadAllTextAsync(tf, Utf8NoBom.Encoding);
                     var segs = SplitByHeadings(txt);
-                    Console.WriteLine($"\n{iso} → {segs.Count} 段:");
+                    Console.WriteLine($"\n{iso} → {segs.Count} seg(s):");
                     foreach (var (i, s, e, t) in segs.Select((v, i) => (i, v.Start, v.End, v.Text)))
                         Console.WriteLine($"  [{i:D3}] L{s}-L{e} | {t.Split('\n')[0][..Math.Min(70, t.Split('\n')[0].Length)]}");
                 }
@@ -456,10 +456,10 @@ public static partial class DocChecker
             // Phase 1: file-level structure pre-check
             var (structOk, fileStructIssues) = await CheckFileStructuresAsync(fam, targets);
             if (fileStructIssues.Count == 0)
-                Console.WriteLine("  文件结构: 全部一致 ✓");
+                Console.WriteLine("  File structure: all consistent ✓");
             else
             {
-                Console.WriteLine($"\n=== 文件结构不一致 ({fileStructIssues.Count} 项) — 跳过 LLM 比对 ===");
+                Console.WriteLine($"\n=== File structure mismatch ({fileStructIssues.Count} item(s)) — skipping LLM comparison ===");
                 foreach (var i in fileStructIssues) Console.WriteLine($"  {i}");
                 exitCode = 1;
                 continue;
@@ -473,7 +473,7 @@ public static partial class DocChecker
                 var (iso, name, segs) = await PrepareLangSegments(tf, fam, baseFile);
                 allSegments.AddRange(segs);
             }
-            Console.WriteLine($"  总任务数: {allSegments.Count} LLM调用 (并发={MaxConcur}, 重试={MaxRetries}次)");
+            Console.WriteLine($"  Total tasks: {allSegments.Count} LLM calls (concurrency={MaxConcur}, retries={MaxRetries})");
 
             // Phase 3: parallel LLM calls
             var rawResults = new ConcurrentBag<SegTask>();
@@ -508,7 +508,7 @@ public static partial class DocChecker
 
                 if (structIssues.Count > 0)
                 {
-                    Console.WriteLine($"\n--- [{iso}] {name} 段落结构问题 ({structIssues.Count} 段) ---");
+                    Console.WriteLine($"\n--- [{iso}] {name} Segment structure issues ({structIssues.Count} seg(s)) ---");
                     foreach (var r in structIssues)
                     {
                         var tags = new List<string>();
@@ -520,7 +520,7 @@ public static partial class DocChecker
                 }
                 if (semanticIssues.Count > 0)
                 {
-                    Console.WriteLine($"\n--- [{iso}] {name} 语义问题 ({semanticIssues.Count} 段) ---");
+                    Console.WriteLine($"\n--- [{iso}] {name} Semantic issues ({semanticIssues.Count} seg(s)) ---");
                     foreach (var r in semanticIssues)
                     {
                         var tag = r.LlmSemantic is null ? "LLM_parse_fail" : "semantic_diff";
@@ -546,7 +546,7 @@ public static partial class DocChecker
             var tgtText = await File.ReadAllTextAsync(tf, Utf8NoBom.Encoding);
             var tgtSegs = SplitByHeadings(tgtText);
             if (zhSegs.Count != tgtSegs.Count)
-                issues.Add($"[{iso}] 段落数不一致: zh={zhSegs.Count} tgt={tgtSegs.Count}");
+                issues.Add($"[{iso}] Segment count mismatch: zh={zhSegs.Count} tgt={tgtSegs.Count}");
 
             var n = Math.Min(zhSegs.Count, tgtSegs.Count);
             for (int i = 0; i < n; i++)
@@ -556,7 +556,7 @@ public static partial class DocChecker
                 var zhLvl = zhH.Length - zhH.TrimStart('#').Length;
                 var tgtLvl = tgtH.Length - tgtH.TrimStart('#').Length;
                 if (zhLvl != tgtLvl)
-                    issues.Add($"[{iso}] seg[{i:D3}] 标题级别不一致 | zh(L{zhLvl}): {zhH[..Math.Min(60, zhH.Length)]} | tgt(L{tgtLvl}): {tgtH[..Math.Min(60, tgtH.Length)]}");
+                    issues.Add($"[{iso}] seg[{i:D3}] Heading level mismatch | zh(L{zhLvl}): {zhH[..Math.Min(60, zhH.Length)]} | tgt(L{tgtLvl}): {tgtH[..Math.Min(60, tgtH.Length)]}");
             }
         }
         return (issues.Count == 0, issues);
@@ -710,16 +710,16 @@ B. 目标语言段落中是否有未翻译的其它语言残留 (注意区分: �
         var ts = now.ToString("yyyyMMdd_HHmmss");
         var l = new List<string>
         {
-            "# Phase 1 结构检查报告",
-            $"生成时间: {now:yyyy-MM-dd HH:mm:ss}",
-            $"状态: {(hasHardErrors ? "失败 (阻塞性)" : hasSoftWarnings ? "通过 (有非阻塞警告)" : "全部通过")}",
+            "# Phase 1 Structure Check Report",
+            $"Generated: {now:yyyy-MM-dd HH:mm:ss}",
+            $"Status: {(hasHardErrors ? "FAILED (blocking)" : hasSoftWarnings ? "PASSED (with non-blocking warnings)" : "ALL PASSED")}",
             "",
             "---",
             "",
-            "## 1/3 段落结构",
+            "## 1/3 Segment Structure",
             segIssues.Count > 0
-                ? $"发现 {segIssues.Count} 个问题"
-                : "全部一致 ✓",
+                ? $"Found {segIssues.Count} issue(s)"
+                : "All consistent ✓",
         };
         if (segIssues.Count > 0)
         {
@@ -730,10 +730,10 @@ B. 目标语言段落中是否有未翻译的其它语言残留 (注意区分: �
         l.Add("");
         l.Add("---");
         l.Add("");
-        l.Add("## 2/3 CJK 残留扫描");
+        l.Add("## 2/3 CJK Residue Scan");
         l.Add(cjkIssues.Count > 0
-            ? $"发现 {cjkIssues.Count} 处"
-            : "未发现 ✓");
+            ? $"Found {cjkIssues.Count} instance(s)"
+            : "None found ✓");
 
         if (cjkIssues.Count > 0)
         {
@@ -744,10 +744,10 @@ B. 目标语言段落中是否有未翻译的其它语言残留 (注意区分: �
         l.Add("");
         l.Add("---");
         l.Add("");
-        l.Add("## 3/3 交叉连接检查");
+        l.Add("## 3/3 Crosslink Check");
         l.Add(xlIssues.Count > 0
-            ? $"发现 {xlIssues.Count} 项缺失"
-            : "全部通过 ✓");
+            ? $"Found {xlIssues.Count} missing"
+            : "All passed ✓");
 
         if (xlIssues.Count > 0)
         {
@@ -760,8 +760,8 @@ B. 目标语言段落中是否有未翻译的其它语言残留 (注意区分: �
         var logPath = TimestampedPath(Path.Combine(BaseDir, "log"), "_phase1_report", ".md");
         File.WriteAllText(tempPath, content, Utf8NoBom.Encoding);
         File.WriteAllText(logPath, content, Utf8NoBom.Encoding);
-        Console.WriteLine($"\nPhase 1 报告: {tempPath}");
-        Console.WriteLine($"日志副本: {logPath}");
+        Console.WriteLine($"\nPhase 1 report: {tempPath}");
+        Console.WriteLine($"Log copy: {logPath}");
     }
 
     private static void WritePhase2SkippedReport()
@@ -769,19 +769,19 @@ B. 目标语言段落中是否有未翻译的其它语言残留 (注意区分: �
         var now = DateTime.Now;
         var l = new List<string>
         {
-            "# Phase 2 LLM 语义对比报告",
-            $"生成时间: {now:yyyy-MM-dd HH:mm:ss}",
-            $"状态: 未执行 (仅运行了 Phase 1 结构检查)",
+            "# Phase 2 LLM Semantic Comparison Report",
+            $"Generated: {now:yyyy-MM-dd HH:mm:ss}",
+            $"Status: Not executed (only Phase 1 structure check was run)",
             "",
-            "使用 `--full` 以启用 Phase 2。",
+            "Use `--full` to enable Phase 2.",
         };
         var content = string.Join("\n", l);
         var tempPath = TimestampedPath(Path.Combine(BaseDir, "temp"), "_phase2_report_skipped", ".md");
         var logPath = TimestampedPath(Path.Combine(BaseDir, "log"), "_phase2_report_skipped", ".md");
         File.WriteAllText(tempPath, content, Utf8NoBom.Encoding);
         File.WriteAllText(logPath, content, Utf8NoBom.Encoding);
-        Console.WriteLine($"\nPhase 2 跳过日志: {tempPath}");
-        Console.WriteLine($"日志副本: {logPath}");
+        Console.WriteLine($"\nPhase 2 skipped log: {tempPath}");
+        Console.WriteLine($"Log copy: {logPath}");
     }
 
     private static void WriteReport(List<(string Iso, string Name, List<SegTask> StructIssues, List<SegTask> SemanticIssues)> allResults, string familyLabel, string baseFile)
@@ -790,34 +790,34 @@ B. 目标语言段落中是否有未翻译的其它语言残留 (注意区分: �
         var outPath = TimestampedPath(Path.Combine(BaseDir, "temp"), "_compare_report", ".md");
         var l = new List<string>
         {
-            "# 多语种文档对比报告",
-            $"生成时间: {DateTime.Now:yyyy-MM-dd HH:mm:ss}",
-            $"文档家族: {familyLabel}",
-            $"基准: {baseFile}",
+            "# Multi-language Doc Comparison Report",
+            $"Generated: {DateTime.Now:yyyy-MM-dd HH:mm:ss}",
+            $"Doc family: {familyLabel}",
+            $"Base: {baseFile}",
             "",
         };
         var totalStruct = allResults.Sum(r => r.StructIssues.Count);
         var totalSemantic = allResults.Sum(r => r.SemanticIssues.Count);
-        l.Insert(4, $"**结构问题: {totalStruct} / 语义问题: {totalSemantic}**");
+        l.Insert(4, $"**Structure issues: {totalStruct} / Semantic issues: {totalSemantic}**");
         l.Insert(5, "");
 
-        l.Add("## 结构不一致\n");
+        l.Add("## Structure Mismatches\n");
         foreach (var (iso, name, structIssues, _) in allResults.Where(r => r.StructIssues.Count > 0))
         {
-            l.Add($"### {iso} — {name} ({structIssues.Count} 段)\n");
+            l.Add($"### {iso} — {name} ({structIssues.Count} seg(s))\n");
             foreach (var s in structIssues)
             {
                 l.Add($"- seg[{s.SegIdx:D3}] `{s.ZhHeading[..Math.Min(60, s.ZhHeading.Length)]}`");
-                l.Add($"  - 行数: zh={s.ZhContent.Split('\n').Length} tgt={s.TgtContent.Split('\n').Length} match={s.LineMatch}");
+                l.Add($"  - Lines: zh={s.ZhContent.Split('\n').Length} tgt={s.TgtContent.Split('\n').Length} match={s.LineMatch}");
                 if (s.StructDiffs?.Count > 0)
                     foreach (var d in s.StructDiffs) l.Add($"  - {d}");
                 l.Add("");
             }
         }
-        l.Add("## 语义不一致\n");
+        l.Add("## Semantic Mismatches\n");
         foreach (var (iso, name, _, semanticIssues) in allResults.Where(r => r.SemanticIssues.Count > 0))
         {
-            l.Add($"### {iso} — {name} ({semanticIssues.Count} 段)\n");
+            l.Add($"### {iso} — {name} ({semanticIssues.Count} seg(s))\n");
             foreach (var s in semanticIssues)
             {
                 l.Add($"- seg[{s.SegIdx:D3}] `{s.ZhHeading[..Math.Min(60, s.ZhHeading.Length)]}`");
@@ -829,8 +829,8 @@ B. 目标语言段落中是否有未翻译的其它语言残留 (注意区分: �
         File.WriteAllText(outPath, content, Utf8NoBom.Encoding);
         var logPath = TimestampedPath(Path.Combine(BaseDir, "log"), "_compare_report", ".md");
         File.WriteAllText(logPath, content, Utf8NoBom.Encoding);
-        Console.WriteLine($"\n报告: {outPath}");
-        Console.WriteLine($"日志副本: {logPath}");
+        Console.WriteLine($"\nReport: {outPath}");
+        Console.WriteLine($"Log copy: {logPath}");
     }
 }
 

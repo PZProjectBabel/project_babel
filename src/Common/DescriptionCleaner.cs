@@ -75,7 +75,7 @@ public static partial class DescriptionCleaner
         text = EmptyUrl().Replace(text, "");
 
         // 5. Convert [quote=author]...[/quote]
-        text = QuoteOpen().Replace(text, "引用自 $1：\n");
+        text = QuoteOpen().Replace(text, "Quoted from $1:\n");
         text = QuoteClose().Replace(text, "");
 
         // 6. Remove [url=...] and [/url], keep display text
