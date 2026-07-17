@@ -13,6 +13,7 @@ Support folders:
 - `prompt_templates/`: content-check and translation prompt templates/dictionaries.
 - `3rd_party/`: bundled steamcmd template copied by `ModDownloader`.
 - `test/`: xUnit regression tests.
+- `DocGenerator/`: LLM-powered multi-language doc generator from Chinese templates with translation cache.
 
 Pipeline order:
 1. `ConfigReader`: load config/secrets/supported languages and temp folders.

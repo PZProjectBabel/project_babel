@@ -29,7 +29,6 @@
     <Compile Remove="ConfigReader\**" />
     <Compile Remove="RepoDataLoader\**" />
     <Compile Remove="3rd_party\**" />
-    <Compile Remove="DocChecker\**" />
     <Compile Remove="DocGenerator\**" />
   </ItemGroup>
 

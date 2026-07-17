@@ -97,7 +97,7 @@
 2. 基于最新分支创建新分支；
 3. 在对应目录中修改或新增文件：
    - 流水线模块修改 → `src/<模块名>/`；
-   - 脚本修改 → `scripts/`；
+   - CI 工作流修改 → `.github/workflows/`；
    - Prompt 模板修改 → `src/prompt_templates/`；
 4. 提交前请尽量：
 
