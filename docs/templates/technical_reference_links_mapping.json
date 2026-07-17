@@ -123,5 +123,9 @@
   },
   "url_blocks": {
     "0": "https://steamcommunity.com/dev/apikey"
+  },
+  "named_links": {
+    "url_deepseek_api": "https://api.deepseek.com/chat/completions",
+    "url_asone": "https://www.asone.fun/"
   }
 }

@@ -135,5 +135,13 @@
     "2": "https://steamcommunity.com/sharedfiles/filedetails/?id=3732061188",
     "3": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.{cc_locale}",
     "4": "https://www.gnu.org/licenses/gpl-3.0.html"
+  },
+  "named_links": {
+    "progress_link": "./docs/progress/progress_{lang}.md",
+    "contributing_link": "./docs/contributing/contributing_{lang}.md",
+    "technical_reference_link": "./docs/technical_reference/technical_reference_{lang}.md",
+    "steam_workshop_link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080",
+    "cc_license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.{cc_locale}",
+    "gpl_license_link": "https://www.gnu.org/licenses/gpl-3.0.html"
   }
 }
