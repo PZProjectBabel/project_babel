@@ -77,7 +77,7 @@ Met jouw toestemming zal het project je mod toevoegen aan de referentievertaling
 
 De automatisering in dit project is opgedeeld in twee delen:
 
-**Pijplijnmodules (`src/`, C# / .NET 10)**: Bevat 15 sequentieel uitgevoerde modules, verantwoordelijk voor de volledige workflow van mod-downloaden, tekstextractie, inhoudscontrole, embedding-berekening, RAG-ophaling tot LLM-vertaling en uiteindelijke output. Zie de [technische documentatie](../translation_entry_pipeline_zh-hans.md) voor details.
+**Pijplijnmodules (`src/`, C# / .NET 10)**: Bevat 15 sequentieel uitgevoerde modules, verantwoordelijk voor de volledige workflow van mod-downloaden, tekstextractie, inhoudscontrole, embedding-berekening, RAG-ophaling tot LLM-vertaling en uiteindelijke output. Zie de [technische referentie](../technical_reference/technical_reference_nl.md) voor details.
 
 **Hulpscripts (`.github/`)**: Gebruikt voor GitHub-automatisering.
 

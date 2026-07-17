@@ -98,7 +98,7 @@
 | `data/` | 运行时数据：模组元数据、embedding、翻译缓存 |
 | `translation_ref/` | 参考翻译数据，为 LLM 提供翻译参考 |
 | `base_game_keys/` | 游戏本体翻译键，用于去重 |
-| `final_outputs/` | 最终输出的 PZ 模组格式翻译包 |
+| `final_outputs/` | 最终输出：`project_babel/` 模组包、`icons/` 图标与 `workshop_descriptions/` 创意工坊描述 |
 | `docs/` | 项目文档：进度报告、贡献指南、流水线说明 |
 | `temp/` | 流水线临时文件 |
 | `src/prompt_templates/` | LLM 提示词模板 |
@@ -111,16 +111,17 @@
 | 2 | `RepoDataLoader` | 加载参考翻译与翻译缓存 |
 | 3 | `ModIdCollector` | 收集 Workshop 模组 ID |
 | 4 | `ModInfoFetcher` | 获取 Steam 元数据 |
-| 5 | `ModDownloader` | 通过 steamcmd 下载模组 |
-| 6 | `ContentExtractor` | 解析模组翻译文件 → `TranslationEntry` |
-| 7 | `ContentChecker` | 内容安全审查 |
-| 8 | `EmbeddingFetcher` | 计算文本 embedding 向量 |
-| 9 | `TranslationBatcher` | 创建翻译批次 |
-| 10 | `RagContextRetriever` | 检索 RAG 上下文 |
-| 11 | `LLMTranslator` | 调用 LLM 执行翻译 |
-| 12 | `ResultWriter` | 写入 data/ 与 translation_ref/ |
-| 13 | `FinalOutputWriter` | 生成最终 PZ 模组格式输出 |
-| 14 | `ProgressReporter` | 生成进度报告 |
+| 5 | `SteamCmdBootstrapper` | 准备当前平台的 steamcmd 运行时 |
+| 6 | `ModDownloader` | 通过 steamcmd 下载模组 |
+| 7 | `ContentExtractor` | 解析模组翻译文件 → `TranslationEntry` |
+| 8 | `ContentChecker` | 内容安全审查 |
+| 9 | `EmbeddingFetcher` | 计算文本 embedding 向量 |
+| 10 | `TranslationBatcher` | 创建翻译批次 |
+| 11 | `RagContextRetriever` | 检索 RAG 上下文 |
+| 12 | `LLMTranslator` | 调用 LLM 执行翻译 |
+| 13 | `ResultWriter` | 写入 data/ 与 translation_ref/ |
+| 14 | `FinalOutputWriter` | 生成最终 PZ 模组格式输出 |
+| 15 | `ProgressReporter` | 生成进度报告 |
 
 ### 技术栈
 
@@ -131,7 +132,7 @@
 - **Embedding**: 文本向量化用于 RAG 相似检索
 - **内容审查**: LLM 驱动的多级安全审核
 
-详细技术文档：[TranslationEntry 流水线](../pipeline/translation_entry_pipeline_zh-hans.md)
+详细技术文档：[技术参考](../technical_reference/technical_reference_zh-hans.md)
 
 ---
 

@@ -77,7 +77,7 @@ Amb la teva autorització, el projecte afegirà el teu mod a la llista de mods d
 
 L''automatització d''aquest projecte es divideix en dues parts:
 
-**Mòduls del pipeline (`src/`, C# / .NET 10)**: Conté 15 mòduls executats seqüencialment, responsables del flux complet des de la descàrrega de mods, extracció de text, revisió de contingut, càlcul d''embeddings, recuperació RAG fins a la traducció LLM i la sortida final. Consulta la [documentació tècnica](../translation_entry_pipeline_zh-hans.md) per a més detalls.
+**Mòduls del pipeline (`src/`, C# / .NET 10)**: Conté 15 mòduls executats seqüencialment, responsables del flux complet des de la descàrrega de mods, extracció de text, revisió de contingut, càlcul d''embeddings, recuperació RAG fins a la traducció LLM i la sortida final. Consulta la [referència tècnica](../technical_reference/technical_reference_ca.md) per a més detalls.
 
 **Scripts auxiliars (`.github/`)**: Utilitzats per a l''automatització de GitHub.
 

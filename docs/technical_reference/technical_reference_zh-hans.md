@@ -50,7 +50,8 @@ Project Babel 通过构建一条全自动化的 AI 翻译管线来解决这些�
   - [3.2 RepoDataLoader](#32-repodataloader-repodataloaderservice)
   - [3.3 ModIdCollector](#33-modidcollector-modidcollectorservice)
   - [3.4 ModInfoFetcher](#34-modinfofetcher-modinfofetcherservice)
-  - [3.5 ModDownloader](#35-moddownloader-moddownloaderservice)
+  - [3.5 SteamCmdBootstrapper](#35-steamcmdbootstrapper-steamcmdbootstrapperservice)
+  - [3.5.1 ModDownloader](#351-moddownloader-moddownloaderservice)
   - [3.6 ContentExtractor](#36-contentextractor-contentextractorservice)
   - [3.7 ContentChecker](#37-contentchecker-contentcheckerservice)
   - [3.8 EmbeddingFetcher](#38-embeddingfetcher-embeddingfetcherservice)
@@ -91,30 +92,31 @@ Project Babel 通过构建一条全自动化的 AI 翻译管线来解决这些�
 
 ### 整体架构
 
-管线采用经典的"流水线"（Pipeline）架构，由 14 个独立模块按顺序串联而成。每个模块只负责一个明确的子任务，模块之间通过内存中的数据结构传递数据，最终产出可发布的翻译文件。
+管线采用经典的"流水线"（Pipeline）架构，由 15 个独立模块按顺序串联而成。每个模块只负责一个明确的子任务，模块之间通过内存中的数据结构传递数据，最终产出可发布的翻译文件。
 
 ```mermaid
 flowchart TD
-    A[ConfigReader] --> B[RepoDataLoader]
-    B --> C[ModIdCollector]
-    C --> D[ModInfoFetcher]
-    D --> E[ModDownloader]
-    E --> F[ContentExtractor]
-    F --> G[ContentChecker]
-    G --> H[EmbeddingFetcher]
-    H --> I[TranslationBatcher]
-    I --> J[RagContextRetriever]
-    J --> K[LLMTranslator]
-    K --> L[ResultWriter]
-    L --> M[FinalOutputWriter]
-    M --> N[ProgressReporter]
+  A[ConfigReader] --> B[SteamCmdBootstrapper]
+  B --> C[RepoDataLoader]
+  C --> D[ModIdCollector]
+  D --> E[ModInfoFetcher]
+  E --> F[ModDownloader]
+  F --> G[ContentExtractor]
+  G --> H[ContentChecker]
+  H --> I[EmbeddingFetcher]
+  I --> J[TranslationBatcher]
+  J --> K[RagContextRetriever]
+  K --> L[LLMTranslator]
+  L --> M[ResultWriter]
+  M --> N[FinalOutputWriter]
+  N --> O[ProgressReporter]
 
     subgraph 参考翻译同步
-        B2[RepoDataLoader-ref] --> D2[ModInfoFetcher-ref]
-        D2 --> E2[ModDownloader-ref]
-        E2 --> F2[ContentExtractor-ref]
-        F2 --> H2[EmbeddingFetcher-ref]
-        H2 --> L
+        C2[RepoDataLoader-ref] --> E2[ModInfoFetcher-ref]
+        E2 --> F2[ModDownloader-ref]
+        F2 --> G2[ContentExtractor-ref]
+        G2 --> I2[EmbeddingFetcher-ref]
+        I2 --> M
     end
 ```
 
@@ -160,13 +162,14 @@ config.json / secrets.json
 
 管线的全部逻辑由 `Program.cs` 中的 `PipelineRunner.RunAsync()` 方法统一编排，共包含约 20 多个处理步骤。为了便于理解，我们将这些步骤按职责划分为四个阶段。下面逐一说明每个阶段的工作内容和设计意图。
 
-### Phase 1: 配置加载 (Step 1)
+### Phase 1: 配置加载与 SteamCMD 初始化
 
 一切工作的起点是加载和校验配置文件。这一阶段虽然简单，却是整个管线稳定运行的基础——任何配置错误都应尽早发现、立即终止，避免浪费计算资源。
 
 - `ConfigReader.LoadConfig()` 负责读取 `config/config.json`（管线参数）和 `config/secrets.json`（敏感密钥）。
 - 加载完成后立即校验所有必填项：如果 LLM API Key 为空，说明无法调用翻译服务，此时直接调用 `Environment.Exit(1)` 终止进程，避免进入后续无意义的处理步骤。
 - 同时解析 `config/supported_languages.json`，将 27 种语言的定义加载为 `List<LangInfoData>`，供后续所有模块查询语言代码映射。
+- `SteamCmdBootstrapper` 随后准备下载器所需的运行时：Linux 下载并解压官方 `steamcmd_linux.tar.gz`；Windows 原地执行仓库中已存在的 `src/3rd_party/steamcmd/steamcmd.exe +quit` 自更新，缺失该可执行文件会立即失败。
 
 详细的配置字段说明请参见第 5 节。
 
@@ -287,7 +290,15 @@ config.json / secrets.json
   - `title` → 映射为 `modName`（模组名称）。
   - `creator` → 通过 Steam 用户接口获取创建者昵称。
 
-### 3.5 ModDownloader (`ModDownloaderService`)
+### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+
+**功能**: 在所有下载操作开始前准备当前平台可用的 steamcmd 运行时。
+
+- **Linux**：清理 `src/3rd_party/steamcmd/` 中旧的运行时文件，下载并解压官方 `steamcmd_linux.tar.gz`，并为 `steamcmd.sh` 设置可执行权限。
+- **Windows**：不下载压缩包；直接在 `src/3rd_party/steamcmd/` 执行已随仓库提供的 `steamcmd.exe +quit`，让 SteamCMD 自更新。
+- **失败处理**：下载、解压或可执行文件校验失败都会终止管线，避免下载阶段使用不完整的运行时。
+
+### 3.5.1 ModDownloader (`ModDownloaderService`)
 
 **功能**: 使用 steamcmd 命令行工具从 Steam Workshop 下载模组文件。
 
@@ -297,14 +308,10 @@ config.json / secrets.json
 
 1. **复制 steamcmd**：将 `src/3rd_party/steamcmd/` 复制到批次专属的临时目录。这是因为每个下载批次会启动独立的 steamcmd 进程，如果多个进程共享同一份文件可能导致冲突。
 2. **执行下载命令**：运行 `steamcmd +login anonymous +workshop_download_item 108600 <modId> +quit`。其中 `108600` 是 Project Zomboid 的 App ID，`anonymous` 表示匿名登录（Workshop 下载不需要账号）。
-3. **验证结果**：解析 steamcmd 的输出日志，确认下载是否成功。如果失败，根据配置的重试次数（`steamMaxRetries + 1`）自动重试。
+3. **验证结果**：解析 steamcmd 的标准输出与日志，确定 Workshop 实际输出目录后再移动下载结果；失败时按 Steam 下载重试策略重试。
 4. **断点续传**：已成功下载的模组会自动跳过，不会重复下载。
 
-**进程管理细节**：
-
-- 使用全局 `ConcurrentDictionary` 追踪所有活跃的 steamcmd 进程。
-- 注册 `Ctrl+C` 和 `ProcessExit` 回调，确保管线被手动中断或异常退出时能清理所有子进程（`Kill(entireProcessTree: true)`），防止僵尸进程残留。
-- steamcmd 进程通过 `WaitForExitAsync()` 异步等待完成，未设置超时——进程若卡死需通过上述回调手动终止管线来清理。
+**运行时来源**：每个下载批次从 `src/3rd_party/steamcmd/` 复制已由 `SteamCmdBootstrapper` 准备好的运行时，以避免并行批次共享同一工作目录。
 
 ### 3.6 ContentExtractor (`ContentExtractorService`)
 

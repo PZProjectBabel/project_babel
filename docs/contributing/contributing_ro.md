@@ -77,7 +77,7 @@ Cu autorizația dumneavoastră, proiectul va adăuga modul dumneavoastră în li
 
 Automatizarea din acest proiect este împărțită în două părți:
 
-**Module pipeline (`src/`, C# / .NET 10)**: Conține 15 module executate secvențial, responsabile pentru fluxul complet de la descărcarea modurilor, extragerea textului, revizuirea conținutului, calculul embedding-urilor, regăsirea RAG până la traducerea LLM și ieșirea finală. Consultați [documentația tehnică](../translation_entry_pipeline_zh-hans.md) pentru detalii.
+**Module pipeline (`src/`, C# / .NET 10)**: Conține 15 module executate secvențial, responsabile pentru fluxul complet de la descărcarea modurilor, extragerea textului, revizuirea conținutului, calculul embedding-urilor, regăsirea RAG până la traducerea LLM și ieșirea finală. Consultați [referința tehnică](../technical_reference/technical_reference_ro.md) pentru detalii.
 
 **Scripturi auxiliare (`.github/`)**: Utilizate pentru automatizarea GitHub.
 

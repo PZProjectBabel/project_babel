@@ -77,7 +77,7 @@ Med din tilladelse vil projektet tilføje dit mod til referencelisten for overs�
 
 Automatiseringen i dette projekt er opdelt i to dele:
 
-**Pipeline-moduler (`src/`, C# / .NET 10)**: Indeholder 15 sekventielt udførte moduler, der er ansvarlige for den komplette arbejdsgang fra mod-download, tekstekstraktion, indholdsgennemgang, embedding-beregning, RAG-hentning til LLM-oversættelse og endelig output. Se den [tekniske dokumentation](../translation_entry_pipeline_zh-hans.md) for detaljer.
+**Pipeline-moduler (`src/`, C# / .NET 10)**: Indeholder 15 sekventielt udførte moduler, der er ansvarlige for den komplette arbejdsgang fra mod-download, tekstekstraktion, indholdsgennemgang, embedding-beregning, RAG-hentning til LLM-oversættelse og endelig output. Se den [tekniske reference](../technical_reference/technical_reference_da.md) for detaljer.
 
 **Hjælpescripts (`.github/`)**: Anvendes til GitHub-automatisering.
 

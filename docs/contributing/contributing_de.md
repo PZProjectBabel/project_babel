@@ -77,7 +77,7 @@ Mit deiner Genehmigung wird das Projekt deinen Mod in die Referenzübersetzungs-
 
 Die Automatisierung in diesem Projekt ist in zwei Teile gegliedert:
 
-**Pipeline-Module (src/, C# / .NET 10)**: Enthält 15 sequenziell ausgeführte Module, die den gesamten Workflow vom Mod-Download, der Textextraktion, Inhaltsprüfung, Embedding-Berechnung, RAG-Abruf bis zur LLM-Übersetzung und Endausgabe abdecken. Siehe die [technische Dokumentation](../translation_entry_pipeline_zh-hans.md) für Details.
+**Pipeline-Module (src/, C# / .NET 10)**: Enthält 15 sequenziell ausgeführte Module, die den gesamten Workflow vom Mod-Download, der Textextraktion, Inhaltsprüfung, Embedding-Berechnung, RAG-Abruf bis zur LLM-Übersetzung und Endausgabe abdecken. Siehe die [technische Referenz](../technical_reference/technical_reference_de.md) für Details.
 
 **Hilfsskripte (.github/)**: Werden für die GitHub-Automatisierung verwendet.
 

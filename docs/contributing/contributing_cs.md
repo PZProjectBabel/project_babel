@@ -77,7 +77,7 @@ S vaším svolením projekt přidá váš mód do seznamu referenčních překla
 
 Automatizace v tomto projektu je rozdělena do dvou částí:
 
-**Moduly pipeline (`src/`, C# / .NET 10)**: Obsahuje 15 sekvenčně prováděných modulů odpovědných za kompletní pracovní postup od stahování módů, extrakce textu, kontroly obsahu, výpočtu embeddingů, vyhledávání RAG až po překlad LLM a finální výstup. Podrobnosti viz [technická dokumentace](../translation_entry_pipeline_zh-hans.md).
+**Moduly pipeline (`src/`, C# / .NET 10)**: Obsahuje 15 sekvenčně prováděných modulů odpovědných za kompletní pracovní postup od stahování módů, extrakce textu, kontroly obsahu, výpočtu embeddingů, vyhledávání RAG až po překlad LLM a finální výstup. Podrobnosti viz [technická reference](../technical_reference/technical_reference_cs.md).
 
 **Pomocné skripty (`.github/`)**: Používají se pro automatizaci GitHubu.
 

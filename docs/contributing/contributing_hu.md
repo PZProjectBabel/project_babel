@@ -77,7 +77,7 @@ Az Ön engedélyével a projekt hozzáadja a modját a referenciafordítási mod
 
 A projekt automatizálása két részre oszlik:
 
-**Pipeline modulok (`src/`, C# / .NET 10)**: 15 szekvenciálisan végrehajtott modult tartalmaz, amelyek a modok letöltésétől, a szöveg kinyerésétől, a tartalom ellenőrzésétől, az embedding számítástól, a RAG visszakereséstől az LLM fordításig és a végső kimenetig terjedő teljes munkafolyamatért felelnek. A részletekért lásd a [műszaki dokumentációt](../translation_entry_pipeline_zh-hans.md).
+**Pipeline modulok (`src/`, C# / .NET 10)**: 15 szekvenciálisan végrehajtott modult tartalmaz, amelyek a modok letöltésétől, a szöveg kinyerésétől, a tartalom ellenőrzésétől, az embedding számítástól, a RAG visszakereséstől az LLM fordításig és a végső kimenetig terjedő teljes munkafolyamatért felelnek. A részletekért lásd a [műszaki referenciát](../technical_reference/technical_reference_hu.md).
 
 **Segéd szkriptek (`.github/`)**: A GitHub automatizáláshoz használatosak.
 

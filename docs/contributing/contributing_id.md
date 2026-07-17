@@ -77,7 +77,7 @@ Dengan otorisasi Anda, proyek akan menambahkan mod Anda ke daftar mod terjemahan
 
 Otomatisasi dalam proyek ini dibagi menjadi dua bagian:
 
-**Modul pipeline (`src/`, C# / .NET 10)**: Berisi 15 modul yang dieksekusi secara berurutan, bertanggung jawab atas alur kerja lengkap dari pengunduhan mod, ekstraksi teks, peninjauan konten, perhitungan embedding, pengambilan RAG hingga terjemahan LLM dan output akhir. Lihat [dokumentasi teknis](../translation_entry_pipeline_zh-hans.md) untuk detailnya.
+**Modul pipeline (`src/`, C# / .NET 10)**: Berisi 15 modul yang dieksekusi secara berurutan, bertanggung jawab atas alur kerja lengkap dari pengunduhan mod, ekstraksi teks, peninjauan konten, perhitungan embedding, pengambilan RAG hingga terjemahan LLM dan output akhir. Lihat [referensi teknis](../technical_reference/technical_reference_id.md) untuk detailnya.
 
 **Skrip bantuan (`.github/`)**: Digunakan untuk otomatisasi GitHub.
 

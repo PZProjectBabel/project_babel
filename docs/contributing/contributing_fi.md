@@ -77,7 +77,7 @@ Valtuutuksellasi projekti lisää modisi viitekäännösmodien luetteloon `confi
 
 Tämän projektin automaatio on jaettu kahteen osaan:
 
-**Putkimoduulit (`src/`, C# / .NET 10)**: Sisältää 15 peräkkäin suoritettavaa moduulia, jotka vastaavat koko työnkulusta modien lataamisesta, tekstin purkamisesta, sisällöntarkistuksesta, upotuslaskennasta, RAG-hausta LLM-käännökseen ja lopulliseen tulosteeseen. Katso [tekninen dokumentaatio](../translation_entry_pipeline_zh-hans.md) lisätietoja varten.
+**Putkimoduulit (`src/`, C# / .NET 10)**: Sisältää 15 peräkkäin suoritettavaa moduulia, jotka vastaavat koko työnkulusta modien lataamisesta, tekstin purkamisesta, sisällöntarkistuksesta, upotuslaskennasta, RAG-hausta LLM-käännökseen ja lopulliseen tulosteeseen. Katso [tekninen viite](../technical_reference/technical_reference_fi.md) lisätietoja varten.
 
 **Apuskriptit (`.github/`)**: Käytetään GitHub-automaatioon.
 

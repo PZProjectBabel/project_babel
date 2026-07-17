@@ -77,7 +77,7 @@ Med din tillatelse vil prosjektet legge til moden din i referanseoversettelsesmo
 
 Automatiseringen i dette prosjektet er delt inn i to deler:
 
-**Pipeline-moduler (`src/`, C# / .NET 10)**: Inneholder 15 sekvensielt utførte moduler som er ansvarlige for hele arbeidsflyten fra mod-nedlasting, tekstutvinning, innholdsgjennomgang, embedding-beregning, RAG-henting til LLM-oversettelse og endelig utdata. Se den [tekniske dokumentasjonen](../translation_entry_pipeline_zh-hans.md) for detaljer.
+**Pipeline-moduler (`src/`, C# / .NET 10)**: Inneholder 15 sekvensielt utførte moduler som er ansvarlige for hele arbeidsflyten fra mod-nedlasting, tekstutvinning, innholdsgjennomgang, embedding-beregning, RAG-henting til LLM-oversettelse og endelig utdata. Se den [tekniske referansen](../technical_reference/technical_reference_no.md) for detaljer.
 
 **Hjelpeskript (`.github/`)**: Brukes til GitHub-automatisering.
 

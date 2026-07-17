@@ -77,7 +77,7 @@ Za Twoją zgodą projekt doda Twój mod do listy referencyjnych modów tłumacze
 
 Automatyzacja w tym projekcie dzieli się na dwie części:
 
-**Moduły potoku (`src/`, C# / .NET 10)**: Zawiera 15 sekwencyjnie wykonywanych modułów, odpowiedzialnych za kompletny proces od pobierania modów, ekstrakcji tekstu, przeglądu treści, obliczania embeddingów, wyszukiwania RAG po tłumaczenie LLM i końcowe wyjście. Szczegóły w [dokumentacji technicznej](../translation_entry_pipeline_zh-hans.md).
+**Moduły potoku (`src/`, C# / .NET 10)**: Zawiera 15 sekwencyjnie wykonywanych modułów, odpowiedzialnych za kompletny proces od pobierania modów, ekstrakcji tekstu, przeglądu treści, obliczania embeddingów, wyszukiwania RAG po tłumaczenie LLM i końcowe wyjście. Szczegóły w [dokumentacji technicznej](../technical_reference/technical_reference_pl.md).
 
 **Skrypty pomocnicze (`.github/`)**: Używane do automatyzacji GitHub.
 

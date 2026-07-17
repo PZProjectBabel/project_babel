@@ -77,7 +77,7 @@ Sa iyong pahintulot, idaragdag ng proyekto ang iyong mod sa listahan ng mga sang
 
 Ang awtomatisasyon sa proyektong ito ay nahahati sa dalawang bahagi:
 
-**Mga module ng pipeline (`src/`, C# / .NET 10)**: Naglalaman ng 15 sunud-sunod na isinasagawang module, na responsable para sa kumpletong daloy ng trabaho mula sa pag-download ng mod, pagkuha ng teksto, pagsusuri ng nilalaman, pagkalkula ng embedding, pagkuha ng RAG hanggang sa pagsasalin ng LLM at panghuling output. Tingnan ang [dokumentasyong teknikal](../translation_entry_pipeline_zh-hans.md) para sa mga detalye.
+**Mga module ng pipeline (`src/`, C# / .NET 10)**: Naglalaman ng 15 sunud-sunod na isinasagawang module, na responsable para sa kumpletong daloy ng trabaho mula sa pag-download ng mod, pagkuha ng teksto, pagsusuri ng nilalaman, pagkalkula ng embedding, pagkuha ng RAG hanggang sa pagsasalin ng LLM at panghuling output. Tingnan ang [sangguniang teknikal](../technical_reference/technical_reference_tl.md) para sa mga detalye.
 
 **Mga pantulong na script (`.github/`)**: Ginagamit para sa awtomatisasyon ng GitHub.
 

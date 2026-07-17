@@ -75,7 +75,7 @@ With your authorization, the project will add your mod to the `config/ref_transl
 
 The automation in this project is divided into two parts:
 
-**Pipeline modules (`src/`, C# / .NET 10)**: Contains 15 sequentially executed modules, responsible for the complete workflow from mod downloading, text extraction, content review, embedding computation, RAG retrieval, to LLM translation and final output. See the [technical documentation](../translation_entry_pipeline_zh-hans.md) for details.
+**Pipeline modules (`src/`, C# / .NET 10)**: Contains 15 sequentially executed modules, responsible for the complete workflow from mod downloading, text extraction, content review, embedding computation, RAG retrieval, to LLM translation and final output. See the [technical reference](../technical_reference/technical_reference_en.md) for details.
 
 **Auxiliary scripts (`.github/`)**: Used for GitHub automation.
 

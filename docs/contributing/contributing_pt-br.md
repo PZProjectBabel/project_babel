@@ -77,7 +77,7 @@ Com sua autorização, o projeto adicionará seu mod à lista de mods de traduç
 
 A automação neste projeto é dividida em duas partes:
 
-**Módulos do pipeline (src/, C# / .NET 10)**: Contém 15 módulos executados sequencialmente, responsáveis pelo fluxo completo desde o download de mods, extração de texto, revisão de conteúdo, cálculo de embeddings, recuperação RAG até a tradução LLM e saída final. Consulte a [documentação técnica](../translation_entry_pipeline_zh-hans.md) para detalhes.
+**Módulos do pipeline (src/, C# / .NET 10)**: Contém 15 módulos executados sequencialmente, responsáveis pelo fluxo completo desde o download de mods, extração de texto, revisão de conteúdo, cálculo de embeddings, recuperação RAG até a tradução LLM e saída final. Consulte a [referência técnica](../technical_reference/technical_reference_pt-br.md) para detalhes.
 
 **Scripts auxiliares (.github/)**: Usados para automação do GitHub.
 

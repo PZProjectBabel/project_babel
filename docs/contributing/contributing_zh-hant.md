@@ -77,7 +77,7 @@
 
 本專案的自動化分為兩部分：
 
-**管線模組（`src/`，C# / .NET 10）**：包含 15 個按序執行的模組，負責從模組下載、文字擷取、內容審查、Embedding 計算、RAG 檢索到 LLM 翻譯與最終輸出的完整流程。詳見 [技術文件](../translation_entry_pipeline_zh-hans.md)。
+**管線模組（`src/`，C# / .NET 10）**：包含 15 個按序執行的模組，負責從模組下載、文字擷取、內容審查、Embedding 計算、RAG 檢索到 LLM 翻譯與最終輸出的完整流程。詳見 [技術參考](../technical_reference/technical_reference_zh-hant.md)。
 
 **輔助指令碼（`.github/`）**：用於 GitHub 的自動化。
 

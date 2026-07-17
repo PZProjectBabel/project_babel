@@ -77,7 +77,7 @@ Yetkinizle, proje modunuzu `config/ref_translation_mods.json` referans çeviri m
 
 Bu projedeki otomasyon iki bölüme ayrılmıştır:
 
-**Pipeline modülleri (`src/`, C# / .NET 10)**: Mod indirme, metin çıkarma, içerik incelemesi, embedding hesaplama, RAG getirme işleminden LLM çevirisine ve nihai çıktıya kadar tüm iş akışından sorumlu, sıralı olarak yürütülen 15 modül içerir. Ayrıntılar için [teknik dokümantasyona](../translation_entry_pipeline_zh-hans.md) bakın.
+**Pipeline modülleri (`src/`, C# / .NET 10)**: Mod indirme, metin çıkarma, içerik incelemesi, embedding hesaplama, RAG getirme işleminden LLM çevirisine ve nihai çıktıya kadar tüm iş akışından sorumlu, sıralı olarak yürütülen 15 modül içerir. Ayrıntılar için [teknik referansa](../technical_reference/technical_reference_tr.md) bakın.
 
 **Yardımcı betikler (`.github/`)**: GitHub otomasyonu için kullanılır.
 
