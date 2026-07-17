@@ -11,7 +11,9 @@
 7. 严禁翻译或修改占位符({{...}})
 
 # 全部正文参考
+<full_text>
 {{FULL_TEXT}}
+</full_text>
 
 # 输入输出约定
 ========CRITICAL INPUT RULES========
