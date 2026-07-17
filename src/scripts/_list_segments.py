@@ -1,21 +1,112 @@
 #!/usr/bin/env python3
 """
-src/scripts/_list_segments.py — 列出技术文档的 Markdown 段落映射
-按标题切分文档，输出每个段落的索引、行范围和标题。
-用法: python src/scripts/_list_segments.py [filepath]
-      python src/scripts/_list_segments.py docs/technical_reference/technical_reference_hu.md
+src/scripts/_list_segments.py — 文档段落结构对比
+默认: 比较各语种与 zh-hans 基准的段落数量/标题, 只输出不一致
+--file <path>: 列出单文件段落(兼容旧用法)
+--family <name>: 限定文档家族
 """
 
 import re, sys
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent.parent  # project_babel root
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
-def list_segments(filepath):
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+DOC_FAMILIES = {
+    "technical_reference": {
+        "dir": BASE_DIR / "docs" / "technical_reference",
+        "base": "technical_reference_zh-hans.md",
+        "glob": "technical_reference_*.md",
+        "skip": {"technical_reference_zh-hans.md", "technical_reference_zh-hant.md"},
+        "prefix": "technical_reference_",
+        "label": "技术文档",
+    },
+    "readme": {
+        "dir": BASE_DIR / "docs" / "readme",
+        "base": "README_zh-hans.md",
+        "glob": "README_*.md",
+        "skip": {"README_zh-hans.md", "README_zh-hant.md"},
+        "prefix": "README_",
+        "label": "README",
+    },
+    "contributing": {
+        "dir": BASE_DIR / "docs" / "contributing",
+        "base": "contributing_zh-hans.md",
+        "glob": "contributing_*.md",
+        "skip": {"contributing_zh-hans.md", "contributing_zh-hant.md"},
+        "prefix": "contributing_",
+        "label": "贡献指南",
+    },
+}
+
+HEADING_RE = re.compile(r'^(#{1,6}\s)', re.MULTILINE)
+
+
+def get_segments(filepath):
+    """返回 [(line_1based, heading_level, heading_text), ...]"""
     text = Path(filepath).read_text(encoding='utf-8')
     lines = text.split('\n')
-    HEADING_RE = re.compile(r'^(#{1,6}\s)', re.MULTILINE)
+    heading_indices = []
+    in_fence = False
+    for i, ln in enumerate(lines):
+        stripped = ln.strip()
+        if stripped.startswith('```'):
+            in_fence = not in_fence
+            continue
+        if not in_fence and HEADING_RE.match(ln):
+            heading_indices.append(i)
 
+    segments = []
+    for h_idx in heading_indices:
+        heading = lines[h_idx].strip()
+        level = len(heading) - len(heading.lstrip('#'))
+        segments.append((h_idx + 1, level, heading))
+    return segments
+
+
+def check_family(family):
+    """比较家族内所有目标文件 vs zh-hans, 返回不一致列表"""
+    base_file = family["dir"] / family["base"]
+    if not base_file.exists():
+        return [f"[{family['label']}] 基准文件缺失: {base_file}"]
+
+    zh_segs = get_segments(base_file)
+    targets = sorted([f for f in family["dir"].glob(family["glob"])
+                      if f.name not in family["skip"]])
+
+    issues = []
+    for tf in targets:
+        iso = tf.stem.replace(family["prefix"], "")
+        tgt_segs = get_segments(tf)
+
+        if len(zh_segs) != len(tgt_segs):
+            issues.append(
+                f"[{family['label']}] [{iso}] 段落数不一致: "
+                f"zh={len(zh_segs)} tgt={len(tgt_segs)}"
+            )
+        n = min(len(zh_segs), len(tgt_segs))
+
+        for i in range(n):
+            zh_lvl = zh_segs[i][1]
+            tgt_lvl = tgt_segs[i][1]
+            if zh_lvl != tgt_lvl:
+                zh_h = zh_segs[i][2]
+                tgt_h = tgt_segs[i][2]
+                issues.append(
+                    f"[{family['label']}] [{iso}] seg[{i:03d}] 标题级别不一致 | "
+                    f"zh(L{zh_lvl}): {zh_h[:60]} | tgt(L{tgt_lvl}): {tgt_h[:60]}"
+                )
+
+    return issues
+
+
+def list_single_file(filepath):
+    """旧行为: 列出单文件段落"""
+    segs = get_segments(filepath)
+    text = Path(filepath).read_text(encoding='utf-8')
+    lines = text.split('\n')
     heading_indices = []
     in_fence = False
     for i, ln in enumerate(lines):
@@ -35,17 +126,33 @@ def list_segments(filepath):
         lcount = end - start + 1
         print(f'seg[{j:03d}] L{start+1}-L{end+1} ({lcount} lines) | {heading}')
 
+
 if __name__ == '__main__':
-    if len(sys.argv) > 1:
-        list_segments(sys.argv[1])
-    else:
-        bases = [
-            ('技术文档', BASE_DIR / 'docs' / 'technical_reference' / 'technical_reference_zh-hans.md'),
-            ('README',   BASE_DIR / 'README.md'),
-            ('贡献指南',  BASE_DIR / 'docs' / 'contributing' / 'contributing_zh-hans.md'),
-        ]
-        for label, path in bases:
-            print(f'\n{"="*60}')
-            print(f'  {label}: {path.name}')
-            print(f'{"="*60}')
-            list_segments(path)
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--family", type=str, default="",
+                        help="逗号分隔的文档家族")
+    parser.add_argument("--file", type=str, default="",
+                        help="单文件路径(兼容旧用法, 列出段落)")
+    args = parser.parse_args()
+
+    if args.file:
+        list_single_file(args.file)
+        sys.exit(0)
+
+    families = (args.family.split(",") if args.family
+                else list(DOC_FAMILIES.keys()))
+
+    all_issues = []
+    for fam_name in families:
+        if fam_name not in DOC_FAMILIES:
+            print(f"[WARN] 未知家族: {fam_name}")
+            continue
+        all_issues.extend(check_family(DOC_FAMILIES[fam_name]))
+
+    if all_issues:
+        print(f"\n=== 结构不一致 ({len(all_issues)} 项) ===")
+        for issue in all_issues:
+            print(f"  {issue}")
+        sys.exit(1)
+    # else: 无输出 = 全部一致

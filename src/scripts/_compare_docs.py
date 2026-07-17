@@ -10,6 +10,9 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
 # ── config ──────────────────────────────────────────────────
 BASE_DIR    = Path(__file__).resolve().parent.parent.parent  # project_babel root
 DOC_FAMILIES = {
@@ -123,6 +126,36 @@ def structural_landmarks(text: str):
             out["brace_line"].append(ln1)
     return out
 
+# ── file-level structural pre-check ────────────────────────
+def check_structures(fam: dict, targets: list) -> tuple:
+    """
+    检查所有目标文件与 zh-hans 的段落数/标题是否一致.
+    返回 (all_ok: bool, issues: list[str])
+    """
+    base_file = fam.get("base_path", fam["dir"] / fam["base"])
+    zh_segs = split_by_headings(base_file.read_text(encoding="utf-8"))
+    issues = []
+    for tf in targets:
+        iso = iso_from_filename(tf.name, fam["prefix"])
+        tgt_segs = split_by_headings(tf.read_text(encoding="utf-8"))
+        if len(zh_segs) != len(tgt_segs):
+            issues.append(
+                f"[{iso}] 段落数不一致: zh={len(zh_segs)} tgt={len(tgt_segs)}"
+            )
+        n = min(len(zh_segs), len(tgt_segs))
+        for i in range(n):
+            # 只比较标题级别(#数量), 不比较翻译文本
+            zh_h = zh_segs[i][2].split("\n")[0].strip()
+            tgt_h = tgt_segs[i][2].split("\n")[0].strip()
+            zh_lvl = len(zh_h) - len(zh_h.lstrip('#'))
+            tgt_lvl = len(tgt_h) - len(tgt_h.lstrip('#'))
+            if zh_lvl != tgt_lvl:
+                issues.append(
+                    f"[{iso}] seg[{i:03d}] 标题级别不一致 | "
+                    f"zh(L{zh_lvl}): {zh_h[:60]} | tgt(L{tgt_lvl}): {tgt_h[:60]}"
+                )
+    return len(issues) == 0, issues
+
 # ── LLM call ────────────────────────────────────────────────
 PROMPT_TMPL = """\
 你是语义对比机。只输出两行：
@@ -231,12 +264,6 @@ def process_lang(target_file: Path, family: dict):
     zh_segs = split_by_headings(zh_text)
     tgt_segs = split_by_headings(tgt_text)
 
-    print(f"\n{'='*60}")
-    print(f"  [{iso}] {name}  — {target_file.name}  ({family['label']})")
-    print(f"  zh segments: {len(zh_segs)}  tgt segments: {len(tgt_segs)}")
-    print(f"{'='*60}")
-
-    results = []
     n = max(len(zh_segs), len(tgt_segs))
 
     def do_one(i):
@@ -266,26 +293,26 @@ def process_lang(target_file: Path, family: dict):
 
     with ThreadPoolExecutor(max_workers=MAX_CONCUR) as pool:
         futures = {pool.submit(do_one, i): i for i in range(n)}
-        for fut in as_completed(futures):
-            r = fut.result()
-            results.append(r)
-            ok = r["line_verdict"] == "OK" and r["struct_match"] and r["llm_semantic"] is not False
-            if not ok:
-                tags = []
-                if r["line_verdict"] != "OK": tags.append(f"line:{r['line_verdict']}")
-                if not r["struct_match"]: tags.append("struct_diff")
-                if r["llm_semantic"] is False: tags.append("semantic_diff")
-                if r["llm_semantic"] is None: tags.append("LLM_parse_fail")
-                print(f"  seg[{r['seg_idx']:03d}] FAIL | {r['zh_heading'][:60]} | {' '.join(tags)}")
+        results = [fut.result() for fut in as_completed(futures)]
 
     results.sort(key=lambda x: x["seg_idx"])
-    fail_count = sum(1 for r in results if not (r["line_verdict"] == "OK" and r["struct_match"] and r["llm_semantic"] is not False))
-    print(f"  >>> {len(results)} segments, {len(results) - fail_count} OK, {fail_count} FAIL")
-    return iso, name, results
+
+    # 分类: 结构 vs 语义
+    struct_issues = []
+    semantic_issues = []
+    for r in results:
+        is_struct_fail = (r["line_verdict"] != "OK" or not r["struct_match"])
+        is_semantic_fail = (r["llm_semantic"] is False or r["llm_semantic"] is None)
+        if is_struct_fail:
+            struct_issues.append(r)
+        elif is_semantic_fail:
+            semantic_issues.append(r)
+
+    return iso, name, struct_issues, semantic_issues
 
 # ── report ──────────────────────────────────────────────────
 def write_report(all_results: list, family_label: str, base_file: str):
-    """all_results: [(iso, name, [seg_results]), ...]"""
+    """all_results: [(iso, name, struct_issues, semantic_issues), ...]"""
     out_path = BASE_DIR / "temp" / "_compare_report.md"
     lines = []
     lines.append("# 多语种文档对比报告")
@@ -294,40 +321,43 @@ def write_report(all_results: list, family_label: str, base_file: str):
     lines.append(f"基准: {base_file}")
     lines.append("")
 
-    total_ok = 0
-    total_fail = 0
+    total_struct = 0
+    total_semantic = 0
 
-    for iso, name, segs in all_results:
-        lines.append(f"## {iso} — {name}")
-        lines.append("")
-        ok = sum(1 for s in segs if s["line_verdict"] == "OK" and s["struct_match"] and s["llm_semantic"] is not False)
-        fail = len(segs) - ok
-        total_ok += ok
-        total_fail += fail
-        lines.append(f"**通过: {ok} / 失败: {fail} / 总计: {len(segs)}**")
-        lines.append("")
-
-        for s in segs:
-            if not (s["line_verdict"] == "OK" and s["struct_match"] and s["llm_semantic"] is not False):
-                lines.append(f"### seg[{s['seg_idx']:03d}] ❌")
-                lines.append(f"- zh: `{s['zh_range']}` — `{s['zh_heading']}`")
-                lines.append(f"- tgt: `{s['tgt_range']}` — `{s['tgt_heading']}`")
-                lines.append(f"- 行数: zh={s['zh_lines']} tgt={s['tgt_lines']} match={s['line_match']}")
-                lines.append(f"- LLM语义: `{s['llm_semantic']}` reason=`{s['llm_raw'][:200]}`")
+    # ── 结构问题 ──
+    lines.append("## 结构不一致")
+    lines.append("")
+    for iso, name, struct_issues, _semantic_issues in all_results:
+        if struct_issues:
+            lines.append(f"### {iso} — {name} ({len(struct_issues)} 段)")
+            lines.append("")
+            for s in struct_issues:
+                lines.append(f"- seg[{s['seg_idx']:03d}] `{s['zh_heading'][:60]}`")
+                lines.append(f"  - 行数: zh={s['zh_lines']} tgt={s['tgt_lines']} match={s['line_match']}")
                 if s["struct_diffs"]:
-                    lines.append(f"- 结构差异:")
                     for d in s["struct_diffs"]:
                         lines.append(f"  - {d}")
                 lines.append("")
+            total_struct += len(struct_issues)
 
-        lines.append(f"---")
-        lines.append("")
+    # ── 语义问题 ──
+    lines.append("## 语义不一致")
+    lines.append("")
+    for iso, name, _struct_issues, semantic_issues in all_results:
+        if semantic_issues:
+            lines.append(f"### {iso} — {name} ({len(semantic_issues)} 段)")
+            lines.append("")
+            for s in semantic_issues:
+                lines.append(f"- seg[{s['seg_idx']:03d}] `{s['zh_heading'][:60]}`")
+                lines.append(f"  - LLM: `{s['llm_semantic']}` reason=`{s['llm_raw'][:200]}`")
+                lines.append("")
+            total_semantic += len(semantic_issues)
 
-    lines.insert(4, f"**总通过: {total_ok} / 总失败: {total_fail}**")
+    lines.insert(4, f"**结构问题: {total_struct} / 语义问题: {total_semantic}**")
     lines.insert(5, "")
 
     out_path.write_text("\n".join(lines), encoding="utf-8")
-    print(f"\n报告已写入: {out_path}")
+    print(f"\n报告: {out_path}")
 
 # ── main ────────────────────────────────────────────────────
 def main():
@@ -336,10 +366,11 @@ def main():
     parser.add_argument("--lang", type=str, default="", help="逗号分隔的iso码, 默认全部")
     parser.add_argument("--from", type=str, default="", dest="from_iso", help="起始iso (含)")
     parser.add_argument("--to", type=str, default="", dest="to_iso", help="结束iso (含)")
-    parser.add_argument("--family", type=str, default="", help="逗号分隔的文档家族 (technical_reference,readme,contributing), 默认全部")
+    parser.add_argument("--family", type=str, default="", help="逗号分隔的文档家族, 默认全部")
     args = parser.parse_args()
 
     families_to_run = args.family.split(",") if args.family else list(DOC_FAMILIES.keys())
+    exit_code = 0
 
     for fam_name in families_to_run:
         if fam_name not in DOC_FAMILIES:
@@ -365,15 +396,13 @@ def main():
 
         print(f"基准: {fam['base']}")
         print(f"目标: {len(targets)} 个语种")
-        for t in targets:
-            print(f"  - {t.name}")
 
         if args.dry_run:
-            print("\n[Dry-run] 只展示切分结果\n")
+            print("\n[Dry-run] 段落切分预览\n")
             base_file = fam.get("base_path", fam["dir"] / fam["base"])
             zh_text = base_file.read_text(encoding="utf-8")
             zh_segs = split_by_headings(zh_text)
-            print(f"{fam['base']} 切分为 {len(zh_segs)} 段:")
+            print(f"{fam['base']} → {len(zh_segs)} 段:")
             for i, (s, e, txt) in enumerate(zh_segs):
                 h = txt.split("\n")[0][:70]
                 print(f"  [{i:03d}] L{s}-L{e} | {h}")
@@ -381,18 +410,54 @@ def main():
                 iso = iso_from_filename(tf.name, fam["prefix"])
                 txt = tf.read_text(encoding="utf-8")
                 segs = split_by_headings(txt)
-                print(f"\n{iso} 切分为 {len(segs)} 段:")
+                print(f"\n{iso} → {len(segs)} 段:")
                 for i, (s, e, txt2) in enumerate(segs):
                     h = txt2.split("\n")[0][:70]
                     print(f"  [{i:03d}] L{s}-L{e} | {h}")
             continue
 
+        # ── 阶段1: 文件级结构预检 ──
+        struct_ok, file_struct_issues = check_structures(fam, targets)
+        if not file_struct_issues:
+            print("  文件结构: 全部一致 ✓")
+        else:
+            print(f"\n=== 文件结构不一致 ({len(file_struct_issues)} 项) — 跳过 LLM 比对 ===")
+            for issue in file_struct_issues:
+                print(f"  {issue}")
+            exit_code = 1
+            continue  # 跳过 LLM
+
+        if not struct_ok:
+            continue
+
+        # ── 阶段2: LLM 段落比对 ──
         all_results = []
         for tf in targets:
-            iso, name, segs = process_lang(tf, fam)
-            all_results.append((iso, name, segs))
+            iso, name, struct_issues, semantic_issues = process_lang(tf, fam)
+            all_results.append((iso, name, struct_issues, semantic_issues))
+
+            # 分类输出
+            if struct_issues:
+                print(f"\n--- [{iso}] {name} 段落结构问题 ({len(struct_issues)} 段) ---")
+                for r in struct_issues:
+                    tags = []
+                    if r["line_verdict"] != "OK":
+                        tags.append(f"line:{r['line_verdict']}")
+                    if not r["struct_match"]:
+                        tags.append("struct_diff")
+                    print(f"  seg[{r['seg_idx']:03d}] {r['zh_heading'][:60]} | {' '.join(tags)}")
+                    exit_code = 1
+
+            if semantic_issues:
+                print(f"\n--- [{iso}] {name} 语义问题 ({len(semantic_issues)} 段) ---")
+                for r in semantic_issues:
+                    tag = "LLM_parse_fail" if r["llm_semantic"] is None else "semantic_diff"
+                    print(f"  seg[{r['seg_idx']:03d}] {r['zh_heading'][:60]} | {tag} | {r['llm_raw'][:120]}")
+                    exit_code = 1
 
         write_report(all_results, fam["label"], fam["base"])
+
+    sys.exit(exit_code)
 
 if __name__ == "__main__":
     main()
