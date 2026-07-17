@@ -71,7 +71,7 @@
 
 ## 翻译进度
 
-**[➡️ 点击此处查看翻译进度](./docs/progress/progress_zh-hans.md)**
+**[➡️ 点击此处查看翻译进度]({{progress_link}})**
 
 ---
 
@@ -81,7 +81,7 @@
 
 调用LLM API进行翻译是需要为词元付费的，为了项目能够长期稳定运行，希望您能慷慨相助！
 
-详情请阅读 [贡献指南](./docs/contributing/contributing_zh-hans.md)
+详情请阅读 [贡献指南]({{contributing_link}})
 
 ---
 
@@ -132,7 +132,7 @@
 - **Embedding**: 文本向量化用于 RAG 相似检索
 - **内容审查**: LLM 驱动的多级安全审核
 
-详细的 [技术参考](./docs/technical_reference/technical_reference_zh-hans.md)。
+详细的 [技术参考]({{technical_reference_link}})。
 
 ---
 
@@ -156,14 +156,14 @@
 这意味着，在遵守以下条件的前提下，您可以自由分享与改编这些内容：
 
 - **署名（BY）**：在明显位置注明“本翻译项目基于『Project Babel』的工作成果进行修改”，并附上本仓库和 Steam 创意工坊链接  
-`https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080`
+`{{steam_workshop_link}}`
 
 - **非商业性使用（NC）**：不得将本项目内容或其改编作品用于任何直接或间接的商业用途
   （包括但不限于付费整合包、付费下载、广告分成等）；
 - **相同方式共享（SA）**：若您基于本项目内容进行修改或再创作，必须以 **同样的 CC BY-NC-SA 4.0 协议** 公开发布您的改动版本。
 
 有关本协议的更多信息，请参见：
-<https://creativecommons.org/licenses/by-nc-sa/4.0/deed>
+{{cc_license_link}}
 
 *特殊说明：*
 - *base_game_keys文件夹内容来自游戏本体，版权归游戏开发商所有！内容用于防止翻译键覆盖游戏键(去重)*
@@ -176,7 +176,7 @@
 采用 **GNU 通用公共许可证第 3 版（GPL-3.0）** 进行授权。
 
 完整条款请参见本仓库根目录下的 `LICENSE-GPL-3.0` 文件，
-或访问 GNU 官网：<https://www.gnu.org/licenses/gpl-3.0.html>。
+或访问 GNU 官网：{{gpl_license_link}}。
 
 ---
 

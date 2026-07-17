@@ -891,7 +891,7 @@ ACCEPTED ──(超过 90 天缓存期)──→ NEEDVERIFICATION (定期重新�
 
 | 字段 | 类型 | 默认值 | 说明 |
 |------|------|--------|------|
-| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API 地址，兼容 OpenAI Chat Completions 协议 |
+| `api_endpoint` | string | `{{url_deepseek_api}}` | LLM API 地址，兼容 OpenAI Chat Completions 协议 |
 | `model` | string | `deepseek-v4-flash` | 模型名称。值含 `v4-flash` 或 `v4-pro` 会触发对应的自动并发 profile |
 | `temperature` | float | `0.1` | 采样温度 (0~2)。越低输出越确定，翻译任务建议 ≤0.3 |
 | `max_tokens` | int | `380000` | 单次 API 响应的最大 token 数。需大于 batch 输出总量 |
@@ -934,7 +934,7 @@ ACCEPTED ──(超过 90 天缓存期)──→ NEEDVERIFICATION (定期重新�
 | 字段 | 类型 | 默认值 | 说明 |
 |------|------|--------|------|
 | `enabled` | bool | `true` | 是否启用 AsOne 远程收集。`false` 时仅用本地请求文件 |
-| `base_url` | string | `https://www.asone.fun/` | AsOne 平台基础 URL |
+| `base_url` | string | `{{url_asone}}` | AsOne 平台基础 URL |
 | `public_mod_list_path` | string | `api/Home/GetAllModinfo` | 获取全部 Mod 信息的 API 路径 |
 | `mod_info_file_name` | string | `modInfo.txt` | Mod 信息文件名 (预留) |
 | `auth_secret_name` | string | `ASONE_AUTH_TOKEN` | 鉴权 Token 在 secrets.json 中的键名 |
