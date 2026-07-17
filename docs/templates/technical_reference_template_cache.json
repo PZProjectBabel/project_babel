@@ -303,7 +303,7 @@
     "Sha256": "a3d27ba5ee895011ffbdc9d1f782a009e5ea4df40a8cdcd7a1346ab3802937c4",
     "SourceText": "flowchart TD",
     "Translations": {
-      "en": ""
+      "en": "flowchart TD"
     },
     "NeedsTranslation": {
       "en": true
@@ -316,7 +316,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -326,7 +326,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -336,7 +336,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -346,7 +346,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -356,7 +356,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -366,7 +366,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -376,7 +376,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -386,7 +386,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -396,7 +396,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -406,7 +406,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -416,7 +416,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -426,7 +426,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -436,7 +436,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -446,7 +446,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -463,7 +463,7 @@
     "Sha256": "41e985d5d6115ea44779e12b90c537d03934d8cb70a3f824b8a654de0a0ba375",
     "SourceText": "        C2[RepoDataLoader-ref] --> E2[ModInfoFetcher-ref]",
     "Translations": {
-      "en": ""
+      "en": "C2[RepoDataLoader-ref] --> E2[ModInfoFetcher-ref]"
     },
     "NeedsTranslation": {
       "en": true
@@ -473,7 +473,7 @@
     "Sha256": "3d587a8875c3dd46d81d6a0b9bdec11c41f94e51bcded2c0c6d5522cd35622fd",
     "SourceText": "        E2 --> F2[ModDownloader-ref]",
     "Translations": {
-      "en": ""
+      "en": "E2 --> F2[ModDownloader-ref]"
     },
     "NeedsTranslation": {
       "en": true
@@ -483,7 +483,7 @@
     "Sha256": "09986f98360688d30cf1e5b59d9e10d934c8332f3eaa435fbf4b356d32f05b4d",
     "SourceText": "        F2 --> G2[ContentExtractor-ref]",
     "Translations": {
-      "en": ""
+      "en": "F2 --> G2[ContentExtractor-ref]"
     },
     "NeedsTranslation": {
       "en": true
@@ -493,7 +493,7 @@
     "Sha256": "ac25856616de26f265e06f3707bf9b6a5831017b8509e16aeff2412fe6a24be4",
     "SourceText": "        G2 --> I2[EmbeddingFetcher-ref]",
     "Translations": {
-      "en": ""
+      "en": "G2 --> I2[EmbeddingFetcher-ref]"
     },
     "NeedsTranslation": {
       "en": true
@@ -503,7 +503,7 @@
     "Sha256": "5104e1d3c71b68857ea54646a3f90e09c79572ddc42e4fa13b6052230953fae4",
     "SourceText": "        I2 --> M",
     "Translations": {
-      "en": ""
+      "en": "I2 --> M"
     },
     "NeedsTranslation": {
       "en": true
@@ -513,7 +513,7 @@
     "Sha256": "82fa15c472f9739642153065794e2620b50324a20570ffacf81423c799d85e2c",
     "SourceText": "    end",
     "Translations": {
-      "en": ""
+      "en": "end"
     },
     "NeedsTranslation": {
       "en": true
@@ -526,7 +526,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -1273,7 +1273,7 @@
     "Sha256": "eea10bc2e40c89d1f7253f4286af270aa83ae16e20b70265b4175a59c02d272f",
     "SourceText": "### 3.2 RepoDataLoader (`RepoDataLoaderService`)",
     "Translations": {
-      "en": ""
+      "en": "### 3.2 RepoDataLoader (`RepoDataLoaderService`)"
     },
     "NeedsTranslation": {
       "en": true
@@ -1403,7 +1403,7 @@
     "Sha256": "37063f0d0b09f8d558d81ccbf95b7d149951deea099d5f6f1cb77e8642be8d79",
     "SourceText": "### 3.3 ModIdCollector (`ModIdCollectorService`)",
     "Translations": {
-      "en": ""
+      "en": "### 3.3 ModIdCollector (`ModIdCollectorService`)"
     },
     "NeedsTranslation": {
       "en": true
@@ -1483,7 +1483,7 @@
     "Sha256": "80af7d401a889ab83d1248b5abc0c1406cf1893960f94073567db2f62e58974d",
     "SourceText": "### 3.4 ModInfoFetcher (`ModInfoFetcherService`)",
     "Translations": {
-      "en": ""
+      "en": "### 3.4 ModInfoFetcher (`ModInfoFetcherService`)"
     },
     "NeedsTranslation": {
       "en": true
@@ -1593,7 +1593,7 @@
     "Sha256": "54c76715f423aac3e7c891eea919c9dd6ada4345f05149d08dcb131f2d435d49",
     "SourceText": "### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)",
     "Translations": {
-      "en": ""
+      "en": "### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)"
     },
     "NeedsTranslation": {
       "en": true
@@ -1643,7 +1643,7 @@
     "Sha256": "219006137a1b7fafea782fff8b2677a8518dfa246301d110ddeacba0bfb4ee4c",
     "SourceText": "### 3.5.1 ModDownloader (`ModDownloaderService`)",
     "Translations": {
-      "en": ""
+      "en": "### 3.5.1 ModDownloader (`ModDownloaderService`)"
     },
     "NeedsTranslation": {
       "en": true
@@ -1733,7 +1733,7 @@
     "Sha256": "36db51b949b21d35993ff352b52349509e2d508e37e7e6284224a56d777bfaa5",
     "SourceText": "### 3.6 ContentExtractor (`ContentExtractorService`)",
     "Translations": {
-      "en": ""
+      "en": "### 3.6 ContentExtractor (`ContentExtractorService`)"
     },
     "NeedsTranslation": {
       "en": true
@@ -1773,7 +1773,7 @@
     "Sha256": "79a72688488ba1001bc378135ef484524fe90176fb5685b32cf70ef3054cbb1a",
     "SourceText": "<mod_root>/**/Translate/<game_code>/*.txt|*.json",
     "Translations": {
-      "en": ""
+      "en": "<mod_root>/**/Translate/<game_code>/*.txt|*.json"
     },
     "NeedsTranslation": {
       "en": true
@@ -2063,7 +2063,7 @@
     "Sha256": "b5aecf16fa04ede4e80142f97867f01aff63fda02786a25ab3199a3cbe2d8cbe",
     "SourceText": "### 3.7 ContentChecker (`ContentCheckerService`)",
     "Translations": {
-      "en": ""
+      "en": "### 3.7 ContentChecker (`ContentCheckerService`)"
     },
     "NeedsTranslation": {
       "en": true
@@ -2213,7 +2213,7 @@
     "Sha256": "2cfc847ac6d82186312e1fb1e67d9cbe2a6433a912922cb40a461d88a941d0be",
     "SourceText": "### 3.8 EmbeddingFetcher (`EmbeddingFetcherService`)",
     "Translations": {
-      "en": ""
+      "en": "### 3.8 EmbeddingFetcher (`EmbeddingFetcherService`)"
     },
     "NeedsTranslation": {
       "en": true
@@ -2673,7 +2673,7 @@
     "Sha256": "53e257b243439f2a781f48d9ebb97e6c82a195eec9c46fab5ff29d6f5ec654be",
     "SourceText": "### 3.11 LLMTranslator (`LLMTranslatorService`)",
     "Translations": {
-      "en": ""
+      "en": "### 3.11 LLMTranslator (`LLMTranslatorService`)"
     },
     "NeedsTranslation": {
       "en": true
@@ -3206,7 +3206,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -3226,7 +3226,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -3396,7 +3396,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -3406,7 +3406,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -3486,7 +3486,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -3496,7 +3496,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -3506,7 +3506,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -3796,7 +3796,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -3806,7 +3806,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -3906,7 +3906,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -3916,7 +3916,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -3946,7 +3946,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4016,14 +4016,14 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
     "Sha256": "ea9c8ef76db4b9b61fb1b2199d38d900e1a3cf2a39202c41aeb4b1af74e49ef1",
     "SourceText": "    string text;           // 译文",
     "Translations": {
-      "en": ""
+      "en": "string text;           // translation"
     },
     "NeedsTranslation": {
       "en": true
@@ -4033,7 +4033,7 @@
     "Sha256": "071403855b900ed82036c4b7f003b373cebcb2a14f7974727d329a0b6c8beb6f",
     "SourceText": "    bool isVerified;       // 是否已验证 (参考翻译为 true)",
     "Translations": {
-      "en": ""
+      "en": "bool isVerified;       // whether verified (reference translation is true)"
     },
     "NeedsTranslation": {
       "en": true
@@ -4043,7 +4043,7 @@
     "Sha256": "92a5d5ba3a2da13a44a41c69a82a8acd9e2996e87a2acd6ff1a0bf0741f99b16",
     "SourceText": "    float? confidence;     // LLM 翻译置信度 (0.0~1.0)",
     "Translations": {
-      "en": ""
+      "en": "float? confidence;     // LLM translation confidence (0.0~1.0)"
     },
     "NeedsTranslation": {
       "en": true
@@ -4053,7 +4053,7 @@
     "Sha256": "5524b99e1fb233af043ac16602568bb10e54cefdc14ff3f6f8f1d13d02e28d2f",
     "SourceText": "    string status;         // 验证状态: \"verified\" 或 \"unverified\"",
     "Translations": {
-      "en": ""
+      "en": "string status;         // Verification status: \\\"verified\\\" or \\\"unverified\\\""
     },
     "NeedsTranslation": {
       "en": true
@@ -4063,7 +4063,7 @@
     "Sha256": "efdb2df978112fa9de1de45dca6db97891a13c5e8c597a67bd8f4366daba1f3c",
     "SourceText": "    string processStatus;  // 处理状态: \"processed\" 或 \"unprocessed\"",
     "Translations": {
-      "en": ""
+      "en": "string processStatus;  // Processing status: \\\"processed\\\" or \\\"unprocessed\\\""
     },
     "NeedsTranslation": {
       "en": true
@@ -4073,7 +4073,7 @@
     "Sha256": "35e957d251b409422dadacf3b9ed97ca97fd0aa9cb15fe5f01eee368e50e111b",
     "SourceText": "    List<string> comments; // 注释列表",
     "Translations": {
-      "en": ""
+      "en": "List<string> comments; // comment list"
     },
     "NeedsTranslation": {
       "en": true
@@ -4146,7 +4146,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4156,7 +4156,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4166,7 +4166,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4176,7 +4176,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4186,7 +4186,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4196,14 +4196,14 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
     "Sha256": "714cdb4729fd24e940784f8093edbf93a8957774fcd78489efdc0e7fabe2f518",
     "SourceText": "    DateTime timeModUpdated;       // Steam 记录的最后更新时间",
     "Translations": {
-      "en": ""
+      "en": "DateTime timeModUpdated;       // Last update time recorded by Steam"
     },
     "NeedsTranslation": {
       "en": true
@@ -4213,7 +4213,7 @@
     "Sha256": "20a07ba021969bc9b373c3098901f7afce769db0e2d0dfc09b1aa76a08bff932",
     "SourceText": "    DateTime timeModCreated;       // Steam 记录的首次发布时间",
     "Translations": {
-      "en": ""
+      "en": "DateTime timeModCreated;       // First publish time recorded by Steam"
     },
     "NeedsTranslation": {
       "en": true
@@ -4223,7 +4223,7 @@
     "Sha256": "5e798a0681314886cacb3fc283c554f7b0d85a2d1d8c6eb74ea159523f6e6acb",
     "SourceText": "    DateTime timeLastChecked;      // 管线最后一次检查该 mod 的时间",
     "Translations": {
-      "en": ""
+      "en": "DateTime timeLastChecked;      // Time the pipeline last checked this mod"
     },
     "NeedsTranslation": {
       "en": true
@@ -4233,7 +4233,7 @@
     "Sha256": "9d87fc5b54859ae9574dcc170ce45a1b2401faded657ceb256bf9b5f1e864fef",
     "SourceText": "    int subscription;              // 订阅数（来自 Steam）",
     "Translations": {
-      "en": ""
+      "en": "int subscription;              // Number of subscriptions (from Steam)"
     },
     "NeedsTranslation": {
       "en": true
@@ -4243,7 +4243,7 @@
     "Sha256": "0b5b8027a2b6d1bcca6099f99fe98982c0fdfe95b20b2993c62572bb9c99d260",
     "SourceText": "    int favorite;                  // 收藏数（来自 Steam）",
     "Translations": {
-      "en": ""
+      "en": "int favorite;                  // Number of favorites (from Steam)"
     },
     "NeedsTranslation": {
       "en": true
@@ -4253,7 +4253,7 @@
     "Sha256": "5ddb93a24088eaf09a84c4fcc8ea6bb71c01101ad3ef648257c5443952e2767c",
     "SourceText": "    string description;            // Steam 模组描述文本",
     "Translations": {
-      "en": ""
+      "en": "string description;            // Steam mod description text"
     },
     "NeedsTranslation": {
       "en": true
@@ -4263,7 +4263,7 @@
     "Sha256": "9208402f9a8c6cf9dc1a773abe105d2611c6f8dc270f6fded7ff2773a269b9b6",
     "SourceText": "    int consumerAppId;             // Steam 消费者 App ID (108600 = PZ)",
     "Translations": {
-      "en": ""
+      "en": "int consumerAppId;             // Steam consumer App ID (108600 = PZ)"
     },
     "NeedsTranslation": {
       "en": true
@@ -4446,7 +4446,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4456,7 +4456,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4476,7 +4476,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4546,7 +4546,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4646,7 +4646,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4656,7 +4656,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4683,7 +4683,7 @@
     "Sha256": "510872a9a4ac4be6950bd7ef5b6012c701c2afd37272444bf3f217ff6f417830",
     "SourceText": "`extracted_contents/translation_key_to_file_mapping/<modId>.json`：",
     "Translations": {
-      "en": ""
+      "en": "`extracted_contents/translation_key_to_file_mapping/<modId>.json`:"
     },
     "NeedsTranslation": {
       "en": true
@@ -4696,7 +4696,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4706,7 +4706,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4716,7 +4716,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4726,7 +4726,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4766,7 +4766,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4776,7 +4776,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4816,7 +4816,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -4826,7 +4826,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -5946,7 +5946,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -5956,7 +5956,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -5966,7 +5966,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -5976,7 +5976,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -5986,7 +5986,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6006,7 +6006,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6306,7 +6306,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6326,7 +6326,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6336,7 +6336,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6416,7 +6416,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6626,7 +6626,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6646,7 +6646,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6656,7 +6656,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6666,7 +6666,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6676,7 +6676,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6806,7 +6806,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6816,7 +6816,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -6826,7 +6826,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -7076,7 +7076,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -7086,7 +7086,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -7096,7 +7096,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -7106,7 +7106,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -7307,6 +7307,46 @@
     },
     "NeedsTranslation": {
       "en": true
+    }
+  },
+  {
+    "Sha256": "ba8167adcbea669a22475f67dadd154494b5eb55f856f86959aef502990f590e",
+    "SourceText": "在本地运行时，管线会使用 `config/` 目录下的配置文件。首次使用前请确保已经正确配置了 `secrets.json`（参考 `secrets_example.json`）。",
+    "Translations": {
+      "en": "When running locally, the pipeline uses configuration files in the `config/` directory. Before first use, ensure that `secrets.json` has been correctly configured (refer to `secrets_example.json`)."
+    },
+    "NeedsTranslation": {
+      "en": true
+    }
+  },
+  {
+    "Sha256": "401beb98928f70929c89465b737b5f30a52940787e8c5dab767720acb2a5b672",
+    "SourceText": "### CI 运行（GitHub Actions，Linux x64）",
+    "Translations": {
+      "en": "### CI Run (GitHub Actions, Linux x64)"
+    },
+    "NeedsTranslation": {
+      "en": true
+    }
+  },
+  {
+    "Sha256": "8f8e0b1e2de94ab6346f8c33cb1a442a1b6209fe8a34e5a3a38d2b2209a84fc6",
+    "SourceText": "```yaml",
+    "Translations": {
+      "en": ""
+    },
+    "NeedsTranslation": {
+      "en": false
+    }
+  },
+  {
+    "Sha256": "0fce64bba73d9ed10c67688836f9acb66782654d7ea238924b634874f68b5cd1",
+    "SourceText": "- name: Run Translation Pipeline",
+    "Translations": {
+      "en": ""
+    },
+    "NeedsTranslation": {
+      "en": false
     }
   }
 ]

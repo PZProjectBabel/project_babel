@@ -252,6 +252,10 @@ public sealed partial class DocGeneratorService
 
                     if (!string.IsNullOrWhiteSpace(lineResult.TranslatedText))
                         translatedCount++;
+                    else
+                        // LLM returned no usable translation — mark as skipped so we
+                        // don't keep re-sending this line on every pipeline run.
+                        cacheEntry.NeedsTranslation[lang] = false;
                 }
             }
 
@@ -1080,26 +1084,57 @@ public sealed partial class DocGeneratorService
 
     /// <summary>
     /// Build the multi-language file links block for top-of-document language switcher.
+    /// Rules:
+    /// - English doc → primary link shows [简体中文] pointing to Chinese (zh-hans).
+    /// - Chinese doc → primary link shows [English] pointing to English (en).
+    /// - Other languages → primary links show both [English] and [简体中文].
     /// </summary>
     private static string BuildMultiLangLinksBlock(MultiLangBlock block, string currentLang)
     {
         var sb = new StringBuilder();
+        sb.Append("> ");
 
-        // Determine primary link: prefer current language as the "primary" shown outside details.
-        string primaryText = "English";
-        string primaryUrl = "";
-        if (block.primary_links != null
-            && block.primary_links.TryGetValue(currentLang, out var currentPrimary))
+        // Get both primary link URLs from the mapping.
+        block.primary_links ??= new Dictionary<string, LangLinkDef>();
+        block.primary_links.TryGetValue("en", out var enPrimary);
+        block.primary_links.TryGetValue("zh-hans", out var zhPrimary);
+
+        if (currentLang == "en")
         {
-            primaryText = currentPrimary.text;
-            primaryUrl = currentPrimary.url;
+            // English doc: show [简体中文] → link to Chinese.
+            sb.Append("[简体中文](");
+            sb.Append(zhPrimary?.url ?? "");
+            sb.Append(")");
+        }
+        else if (currentLang == "zh-hans")
+        {
+            // Chinese doc: show [English] → link to English.
+            sb.Append("[English](");
+            sb.Append(enPrimary?.url ?? "");
+            sb.Append(")");
+        }
+        else
+        {
+            // Other languages: show both [English] and [简体中文] as primary links.
+            if (enPrimary != null)
+            {
+                sb.Append("[English](");
+                sb.Append(enPrimary.url);
+                sb.Append(")");
+            }
+            if (enPrimary != null && zhPrimary != null)
+            {
+                sb.Append(" | ");
+            }
+            if (zhPrimary != null)
+            {
+                sb.Append("[简体中文](");
+                sb.Append(zhPrimary.url);
+                sb.Append(")");
+            }
         }
 
-        sb.Append("> [");
-        sb.Append(primaryText);
-        sb.Append("](");
-        sb.Append(primaryUrl);
-        sb.Append(") <details><summary>");
+        sb.Append(" <details><summary>");
 
         // Summary text: "其它语言" for zh-hans source, "Other Languages" otherwise.
         var summaryText = currentLang == "zh-hans" ? "其它语言" : "Other Languages";

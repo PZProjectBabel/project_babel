@@ -966,7 +966,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -1016,7 +1016,7 @@
       "en": ""
     },
     "NeedsTranslation": {
-      "en": true
+      "en": false
     }
   },
   {
@@ -1194,6 +1194,56 @@
     "SourceText": "本项目使用了第三方程序、库，这些第三方程序的版权归对应开发者所有。",
     "Translations": {
       "en": "This project uses third-party programs and libraries, whose copyrights belong to their respective developers."
+    },
+    "NeedsTranslation": {
+      "en": true
+    }
+  },
+  {
+    "Sha256": "3e49a6c6607ae84f52f70d67a6f2a11d00de45efad73a015fdab595bac443d4f",
+    "SourceText": "均采用 **署名-非商业性使用-相同方式共享 4.0 国际**（Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International，简称 **CC BY-NC-SA 4.0**）协议授权。",
+    "Translations": {
+      "en": "All are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** (abbreviated as **CC BY-NC-SA 4.0**) license."
+    },
+    "NeedsTranslation": {
+      "en": true
+    }
+  },
+  {
+    "Sha256": "694b04acc9f7c3fded3f58983d7d647762e67aa6c72cf691154bb2501c3cf26d",
+    "SourceText": "- **署名（BY）**：在明显位置注明“本翻译项目基于『Project Babel』的工作成果进行修改”，并附上本仓库和 Steam 创意工坊链接   `{{steam_workshop_link}}`",
+    "Translations": {
+      "en": "- **Attribution (BY)**: Indicate in a prominent location that \"This translation project is based on the work of 'Project Babel'\" and include a link to this repository and Steam Workshop link   `{{steam_workshop_link}}`"
+    },
+    "NeedsTranslation": {
+      "en": true
+    }
+  },
+  {
+    "Sha256": "37043f5cd07a337f94c900f21acd49ec8bcaac5b68a8badcfe4ed78a5148cd3a",
+    "SourceText": "- **非商业性使用（NC）**：不得将本项目内容或其改编作品用于任何直接或间接的商业用途  （包括但不限于付费整合包、付费下载、广告分成等）；",
+    "Translations": {
+      "en": "- **NonCommercial (NC)**: You may not use the content of this project or its derivative works for any direct or indirect commercial purposes  (including but not limited to paid integration packs, paid downloads, ad revenue sharing, etc.);"
+    },
+    "NeedsTranslation": {
+      "en": true
+    }
+  },
+  {
+    "Sha256": "14507e07c1308feed2f4c8312db39f07046d602e7277dc832e05973a5148561f",
+    "SourceText": "除非源码文件或目录中另有特别声明，本仓库中用于制作/打包/处理汉化内容的程序代码（例如 `src/` 目录下的程序代码），采用 **GNU 通用公共许可证第 3 版（GPL-3.0）** 进行授权。",
+    "Translations": {
+      "en": "Unless otherwise stated in the source files or directories, the program code used for creating/packaging/handling localization content in this repository (e.g., the code in the `src/` directory) is licensed under the **GNU General Public License version 3 (GPL-3.0)**."
+    },
+    "NeedsTranslation": {
+      "en": true
+    }
+  },
+  {
+    "Sha256": "5e650e205e7b3fd7720cb35780cea5df28276bf45d196a05347df7837339d67e",
+    "SourceText": "完整条款请参见本仓库根目录下的 `LICENSE-GPL-3.0` 文件，或访问 GNU 官网：<{{gpl_license_link}}>。",
+    "Translations": {
+      "en": "For the full terms, please see the `LICENSE-GPL-3.0` file in the root directory of this repository, or visit the GNU website: <{{gpl_license_link}}>"
     },
     "NeedsTranslation": {
       "en": true
