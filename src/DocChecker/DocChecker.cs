@@ -112,16 +112,22 @@ public static partial class DocChecker
         var softWarnings = 0;
 
         // 1a — segment structure
-        if (!await RunListSegments(familyList))
+        var (segPassed, segIssues) = RunListSegments(familyList);
+        if (!segPassed)
             phase1Fail++;
 
         // 1b — CJK residue
-        if (!await RunFindCjk())
+        var (cjkPassed, cjkIssues) = await RunFindCjk();
+        if (!cjkPassed)
             softWarnings++;
 
         // 1c — crosslinks
-        if (!await RunCrosslinks(familyList))
+        var (xlPassed, xlIssues) = await RunCrosslinks(familyList);
+        if (!xlPassed)
             softWarnings++;
+
+        // Always write Phase 1 report (regardless of pass/fail or --full flag)
+        WritePhase1Report(segIssues, cjkIssues, xlIssues, phase1Fail > 0, softWarnings > 0);
 
         Console.WriteLine();
         if (phase1Fail > 0)
@@ -139,6 +145,10 @@ public static partial class DocChecker
         if (!full)
         {
             Console.WriteLine("Dry-run complete. Use --full to enable Phase 2 (LLM semantic comparison).");
+
+            // Also write a Phase 2 empty report to record that Phase 2 was skipped
+            WritePhase2SkippedReport();
+
             return 0;
         }
 
@@ -179,7 +189,7 @@ public static partial class DocChecker
     // ══════════════════════════════════════════════════════════
     //  1a — _list_segments.cs
     // ══════════════════════════════════════════════════════════
-    private static async Task<bool> RunListSegments(string[] familyList)
+    private static (bool Passed, List<string> Issues) RunListSegments(string[] familyList)
     {
         Console.WriteLine("\n--- 1/3 Segment Structure ---");
         var allIssues = new List<string>();
@@ -187,29 +197,30 @@ public static partial class DocChecker
         {
             var fam = GetFamily(famName);
             if (fam is null) { Console.WriteLine($"[WARN] 未知家族: {famName}"); continue; }
-            allIssues.AddRange(await CheckFamilySegments(fam));
+            allIssues.AddRange(CheckFamilySegments(fam));
         }
         if (allIssues.Count > 0)
         {
             Console.WriteLine($"\n=== 结构不一致 ({allIssues.Count} 项) ===");
             foreach (var i in allIssues) Console.WriteLine($"  {i}");
             Console.WriteLine("--- 1/3 Segment Structure: FAILED (exit=1) ---");
-            return false;
+            return (false, allIssues);
         }
         Console.WriteLine("--- 1/3 Segment Structure: PASSED ---");
-        return true;
+        return (true, allIssues);
     }
 
-    private static Task<List<string>> CheckFamilySegments(DocFamily fam)
+    private static List<string> CheckFamilySegments(DocFamily fam)
     {
         var issues = new List<string>();
         var baseFile = fam.BasePath ?? Path.Combine(fam.Dir, fam.Base);
         if (!File.Exists(baseFile))
         {
             issues.Add($"[{fam.Label}] 基准文件缺失: {baseFile}");
-            return Task.FromResult(issues);
+            return issues;
         }
-        var zhSegs = GetSegments(baseFile);
+        var zhText = File.ReadAllText(baseFile, Utf8NoBom.Encoding);
+        var zhSegs = SplitByHeadings(zhText);
         var targets = Directory.GetFiles(fam.Dir, fam.Glob)
             .Select(f => (File: f, Name: Path.GetFileName(f)))
             .Where(x => !fam.Skip.Contains(x.Name))
@@ -218,22 +229,45 @@ public static partial class DocChecker
         foreach (var (tf, name) in targets)
         {
             var iso = name.Replace(fam.Prefix, "").Replace(".md", "");
-            var tgtSegs = GetSegments(tf);
+            var tgtText = File.ReadAllText(tf, Utf8NoBom.Encoding);
+            var tgtSegs = SplitByHeadings(tgtText);
+
             if (zhSegs.Count != tgtSegs.Count)
             {
                 issues.Add($"[{fam.Label}] [{iso}] 段落数不一致: zh={zhSegs.Count} tgt={tgtSegs.Count}");
                 continue;
             }
+
+            var anyHeadingMismatch = false;
             for (int i = 0; i < zhSegs.Count; i++)
             {
-                if (zhSegs[i].Level != tgtSegs[i].Level)
+                var zhH = zhSegs[i].Text.Split('\n')[0].Trim();
+                var tgtH = tgtSegs[i].Text.Split('\n')[0].Trim();
+                var zhLvl = zhH.Length - zhH.TrimStart('#').Length;
+                var tgtLvl = tgtH.Length - tgtH.TrimStart('#').Length;
+                if (zhLvl != tgtLvl)
                 {
-                    issues.Add($"[{fam.Label}] [{iso}] seg[{i:D3}] 标题级别不一致 | zh(L{zhSegs[i].Level}): {zhSegs[i].Heading[..Math.Min(60, zhSegs[i].Heading.Length)]} | tgt(L{tgtSegs[i].Level}): {tgtSegs[i].Heading[..Math.Min(60, tgtSegs[i].Heading.Length)]}");
-                    break;
+                    issues.Add($"[{fam.Label}] [{iso}] seg[{i:D3}] 标题级别不一致 | zh(L{zhLvl}): {zhH[..Math.Min(60, zhH.Length)]} | tgt(L{tgtLvl}): {tgtH[..Math.Min(60, tgtH.Length)]}");
+                    anyHeadingMismatch = true;
+                }
+            }
+            if (anyHeadingMismatch) continue;
+
+            // Per-segment structure checks (line count, blank lines) — consistent with VerifySegment in Phase 2
+            for (int i = 0; i < zhSegs.Count; i++)
+            {
+                var (_, lineVerdict, _, structDiffs) = VerifySegment(zhSegs[i].Text, tgtSegs[i].Text);
+                if (lineVerdict != "OK" || structDiffs.Count > 0)
+                {
+                    var zhH = zhSegs[i].Text.Split('\n')[0].Trim();
+                    var segIssues = new List<string> { $"[{fam.Label}] [{iso}] seg[{i:D3}] {zhH[..Math.Min(60, zhH.Length)]}" };
+                    if (lineVerdict != "OK") segIssues.Add($"    line: {lineVerdict}");
+                    foreach (var d in structDiffs) segIssues.Add($"    {d}");
+                    issues.AddRange(segIssues);
                 }
             }
         }
-        return Task.FromResult(issues);
+        return issues;
     }
 
     public static List<SegmentInfo> GetSegments(string filepath)
@@ -285,9 +319,10 @@ public static partial class DocChecker
     // ══════════════════════════════════════════════════════════
     //  1b — _find_cjk.cs
     // ══════════════════════════════════════════════════════════
-    private static async Task<bool> RunFindCjk()
+    private static async Task<(bool Passed, List<string> Issues)> RunFindCjk()
     {
         Console.WriteLine("\n--- 2/3 CJK Residue Scan (non-blocking) ---");
+        var allIssues = new List<string>();
         var total = 0;
         foreach (var fam in Families)
         {
@@ -318,20 +353,23 @@ public static partial class DocChecker
                         if (stem.StartsWith(p)) { stem = stem[p.Length..]; break; }
                     Console.WriteLine($"\n[{fam.Label}] [{stem}] {issues.Count} line(s) with CJK:");
                     foreach (var (ln, chars, ctx) in issues.Take(20))
+                    {
                         Console.WriteLine($"  L{ln}: [{chars}] {ctx}");
+                        allIssues.Add($"[{fam.Label}] [{stem}] L{ln}: [{chars}] {ctx}");
+                    }
                     total += issues.Count;
                 }
             }
         }
         if (total > 0) Console.WriteLine($"\n=== CJK 残留: {total} 处 ===");
         Console.WriteLine("--- 2/3 CJK Residue Scan: PASSED (non-blocking, warnings above) ---");
-        return true; // non-blocking
+        return (true, allIssues); // non-blocking
     }
 
     // ══════════════════════════════════════════════════════════
     //  1c — _add_crosslinks.cs
     // ══════════════════════════════════════════════════════════
-    private static async Task<bool> RunCrosslinks(string[] familyList)
+    private static async Task<(bool Passed, List<string> Issues)> RunCrosslinks(string[] familyList)
     {
         Console.WriteLine("\n--- 3/3 Crosslink Check (non-blocking) ---");
         var allIssues = new List<string>();
@@ -353,10 +391,10 @@ public static partial class DocChecker
             Console.WriteLine($"\n=== 交叉连接缺失 ({allIssues.Count} 项) ===");
             foreach (var i in allIssues) Console.WriteLine($"  {i}");
             Console.WriteLine("--- 3/3 Crosslink Check: WARNINGS (non-blocking) ---");
-            return false;
+            return (false, allIssues);
         }
         Console.WriteLine("--- 3/3 Crosslink Check: PASSED ---");
-        return true;
+        return (true, allIssues);
     }
 
     // ══════════════════════════════════════════════════════════
@@ -660,9 +698,96 @@ B. 目标语言段落中是否有未翻译的其它语言残留 (注意区分: �
         return new() { ["blank"] = blank, ["code_fence"] = codeFence, ["brace_line"] = braceLine };
     }
 
+    private static string TimestampedPath(string dir, string prefix, string suffix)
+    {
+        var ts = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+        return Path.Combine(dir, $"{prefix}_{ts}{suffix}");
+    }
+
+    private static void WritePhase1Report(List<string> segIssues, List<string> cjkIssues, List<string> xlIssues, bool hasHardErrors, bool hasSoftWarnings)
+    {
+        var now = DateTime.Now;
+        var ts = now.ToString("yyyyMMdd_HHmmss");
+        var l = new List<string>
+        {
+            "# Phase 1 结构检查报告",
+            $"生成时间: {now:yyyy-MM-dd HH:mm:ss}",
+            $"状态: {(hasHardErrors ? "失败 (阻塞性)" : hasSoftWarnings ? "通过 (有非阻塞警告)" : "全部通过")}",
+            "",
+            "---",
+            "",
+            "## 1/3 段落结构",
+            segIssues.Count > 0
+                ? $"发现 {segIssues.Count} 个问题"
+                : "全部一致 ✓",
+        };
+        if (segIssues.Count > 0)
+        {
+            l.Add("");
+            foreach (var i in segIssues) l.Add($"- {i}");
+        }
+
+        l.Add("");
+        l.Add("---");
+        l.Add("");
+        l.Add("## 2/3 CJK 残留扫描");
+        l.Add(cjkIssues.Count > 0
+            ? $"发现 {cjkIssues.Count} 处"
+            : "未发现 ✓");
+
+        if (cjkIssues.Count > 0)
+        {
+            l.Add("");
+            foreach (var i in cjkIssues) l.Add($"- {i}");
+        }
+
+        l.Add("");
+        l.Add("---");
+        l.Add("");
+        l.Add("## 3/3 交叉连接检查");
+        l.Add(xlIssues.Count > 0
+            ? $"发现 {xlIssues.Count} 项缺失"
+            : "全部通过 ✓");
+
+        if (xlIssues.Count > 0)
+        {
+            l.Add("");
+            foreach (var i in xlIssues) l.Add($"- {i}");
+        }
+
+        var content = string.Join("\n", l);
+        var tempPath = TimestampedPath(Path.Combine(BaseDir, "temp"), "_phase1_report", ".md");
+        var logPath = TimestampedPath(Path.Combine(BaseDir, "log"), "_phase1_report", ".md");
+        File.WriteAllText(tempPath, content, Utf8NoBom.Encoding);
+        File.WriteAllText(logPath, content, Utf8NoBom.Encoding);
+        Console.WriteLine($"\nPhase 1 报告: {tempPath}");
+        Console.WriteLine($"日志副本: {logPath}");
+    }
+
+    private static void WritePhase2SkippedReport()
+    {
+        var now = DateTime.Now;
+        var l = new List<string>
+        {
+            "# Phase 2 LLM 语义对比报告",
+            $"生成时间: {now:yyyy-MM-dd HH:mm:ss}",
+            $"状态: 未执行 (仅运行了 Phase 1 结构检查)",
+            "",
+            "使用 `--full` 以启用 Phase 2。",
+        };
+        var content = string.Join("\n", l);
+        var tempPath = TimestampedPath(Path.Combine(BaseDir, "temp"), "_phase2_report_skipped", ".md");
+        var logPath = TimestampedPath(Path.Combine(BaseDir, "log"), "_phase2_report_skipped", ".md");
+        File.WriteAllText(tempPath, content, Utf8NoBom.Encoding);
+        File.WriteAllText(logPath, content, Utf8NoBom.Encoding);
+        Console.WriteLine($"\nPhase 2 跳过日志: {tempPath}");
+        Console.WriteLine($"日志副本: {logPath}");
+    }
+
     private static void WriteReport(List<(string Iso, string Name, List<SegTask> StructIssues, List<SegTask> SemanticIssues)> allResults, string familyLabel, string baseFile)
     {
-        var outPath = Path.Combine(BaseDir, "temp", "_compare_report.md");
+        var ts = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+        var outPath = TimestampedPath(Path.Combine(BaseDir, "temp"), "_compare_report", ".md");
         var l = new List<string>
         {
             "# 多语种文档对比报告",
@@ -700,8 +825,12 @@ B. 目标语言段落中是否有未翻译的其它语言残留 (注意区分: �
                 l.Add("");
             }
         }
-        File.WriteAllText(outPath, string.Join("\n", l), Utf8NoBom.Encoding);
+        var content = string.Join("\n", l);
+        File.WriteAllText(outPath, content, Utf8NoBom.Encoding);
+        var logPath = TimestampedPath(Path.Combine(BaseDir, "log"), "_compare_report", ".md");
+        File.WriteAllText(logPath, content, Utf8NoBom.Encoding);
         Console.WriteLine($"\n报告: {outPath}");
+        Console.WriteLine($"日志副本: {logPath}");
     }
 }
 
