@@ -1,0 +1,147 @@
+{
+  "multi_lang_file_links_block": {
+    "primary_links": {
+      "zh-hans": { "text": "简体中文", "url": "../../README.md" },
+      "en": { "text": "English", "url": "README_en.md" }
+    },
+    "language_links": [
+      {
+        "text": "العربية",
+        "url": "README_ar.md"
+      },
+      {
+        "text": "català",
+        "url": "README_ca.md"
+      },
+      {
+        "text": "繁體中文",
+        "url": "README_zh-hant.md"
+      },
+      {
+        "text": "čeština",
+        "url": "README_cs.md"
+      },
+      {
+        "text": "dansk",
+        "url": "README_da.md"
+      },
+      {
+        "text": "Deutsch",
+        "url": "README_de.md"
+      },
+      {
+        "text": "español",
+        "url": "README_es.md"
+      },
+      {
+        "text": "suomi",
+        "url": "README_fi.md"
+      },
+      {
+        "text": "français",
+        "url": "README_fr.md"
+      },
+      {
+        "text": "magyar",
+        "url": "README_hu.md"
+      },
+      {
+        "text": "Bahasa Indonesia",
+        "url": "README_id.md"
+      },
+      {
+        "text": "italiano",
+        "url": "README_it.md"
+      },
+      {
+        "text": "日本語",
+        "url": "README_ja.md"
+      },
+      {
+        "text": "한국어",
+        "url": "README_ko.md"
+      },
+      {
+        "text": "Nederlands",
+        "url": "README_nl.md"
+      },
+      {
+        "text": "norsk",
+        "url": "README_no.md"
+      },
+      {
+        "text": "Tagalog",
+        "url": "README_tl.md"
+      },
+      {
+        "text": "polski",
+        "url": "README_pl.md"
+      },
+      {
+        "text": "português",
+        "url": "README_pt.md"
+      },
+      {
+        "text": "português do Brasil",
+        "url": "README_pt-br.md"
+      },
+      {
+        "text": "română",
+        "url": "README_ro.md"
+      },
+      {
+        "text": "русский",
+        "url": "README_ru.md"
+      },
+      {
+        "text": "ภาษาไทย",
+        "url": "README_th.md"
+      },
+      {
+        "text": "Türkçe",
+        "url": "README_tr.md"
+      },
+      {
+        "text": "українська",
+        "url": "README_uk.md"
+      }
+    ]
+  },
+  "md_file_links_blocks": {
+    "0": {
+      "text": "Project Babel",
+      "url": "https://github.com/PZProjectBabel/project_babel"
+    },
+    "1": {
+      "text": "[B42]Project Babel",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3759583822"
+    },
+    "2": {
+      "text": "➡️ 点击此处查看翻译进度",
+      "url": "./docs/progress/progress_{lang}.md"
+    },
+    "3": {
+      "text": "贡献指南",
+      "url": "./docs/contributing/contributing_{lang}.md"
+    },
+    "4": {
+      "text": "技术参考",
+      "url": "./docs/technical_reference/technical_reference_{lang}.md"
+    }
+  },
+  "url_blocks": {
+    "0": "https://steamcommunity.com/sharedfiles/filedetails/?id=3556544454",
+    "1": "https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080",
+    "2": "https://steamcommunity.com/sharedfiles/filedetails/?id=3732061188",
+    "3": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.{cc_locale}",
+    "4": "https://www.gnu.org/licenses/gpl-3.0.html"
+  },
+  "named_links": {
+    "progress_link": "./docs/progress/progress_{lang}.md",
+    "contributing_link": "./docs/contributing/contributing_{lang}.md",
+    "technical_reference_link": "./docs/technical_reference/technical_reference_{lang}.md",
+    "steam_workshop_link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080",
+    "cc_license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.{cc_locale}",
+    "gpl_license_link": "https://www.gnu.org/licenses/gpl-3.0.html"
+  }
+}

@@ -1,0 +1,1906 @@
+[
+  {
+    "mod_id": "3036878362",
+    "translation_key": "IGUI_ATRO_enableOgCrosshair",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "d7947b61bb863e595a6ee05600c6b835"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "IGUI_ATRO_enableOgCrosshair_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "43facc01155d5dfc5136f587a2db7d97"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "IGUI_ATRO_hideTracer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "0dc07c5690db9db055d2ec5584afb742"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "IGUI_ATRO_hideTracer_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "d01bfbca8739e9e8bf6212312fc983ec"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "IGUI_ATRO_showOutlines",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "bac4d6a47e171ab8220b770c66ad0bf1"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "IGUI_ATRO_showOutlines_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6d889b2b9369f0d4d74633c74997ba7f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "IGUI_Bodyshot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8ea0332965bd9282b575975ec2c50ca5"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "IGUI_Footshot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "40a743e24a8fc8bcd0e7558cb8f43868"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "IGUI_Headshot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "7dce539053e59f09e710ede16960ad13"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_ATY_damagedisplay",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "3ff27a0089feff0225e911f9ae10ed48"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_ATY_nonpvp_protect",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "df267c9a727ddffaed643f3300f858f5"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_ATY_safezone_protect",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6b3ff78b78611d117ca92a2f5f8094b8"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_ATblood",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "9822aa394b100752e14fb3d714ef8fed"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_ATvd",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "05157a06ab0b69f1916242774a08b968"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_ATvdenable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "0facc15f32e5d18bc8bae2a8e68e4577"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectory",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "1228f7f911957122ed1d151e958eb6dc"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryATY_damage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6a74dfd0ccaa73ef8ab550778c7d1a28"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryATY_damage_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8187e7acf6be7784496ec6ce71ddb747"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryEnablerange",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "ec79601abf3a69ad77be7394b49f3721"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryEnablethrow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "2b77184e6e8ae78df74e568358c660db"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryIgnorePVPSafety",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "66a0edc401fd5e3b20d49760cbd847d2"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryIgnorePVPSafety_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "1b049cbcbf495720b605ae31cdc72d00"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryMaxProjCone",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "003f6797d0b737b65f9fabf9ffceeee3"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryXPHitModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "d3740ad64ca9611d7349dfe0232c5353"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryXPKillModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "ce5c9782ccfcc6d3f12c0625c9d47a77"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectory_XP",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "fa5df956f865d88148cd6cbaef94104f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectory_crosshair",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "7fc0ed071d60fde079cf9643dd1d1e67"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectory_damage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "f0c75a4031eae5b5d643df286d0a129b"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectory_debug",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e7047bc6dc64977312bd2272308e6b1a"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectory_hitOrMiss",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "a97fd5015cb61d0665a55971022d42a0"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectory_moodles",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "695030bedca0f001d2192edfea0be31c"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectory_movement",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "ec6f191b0e89a568dcb8a38b06f28113"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectory_recoil",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "174982683879ee50d4bacc248aa50fa7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectory_shotgun",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "b9daad2722e58a08b81f1415da1ed167"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryaimpoint",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "bec4bbf5b8d7b5fdafbf13217627cd48"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryaimpoint_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "4e1767178c2f649bc929fd4f02dd4b6e"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryannounceHitOrMiss",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e384fa7a565f452f446a8e52e724bccd"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryannounceHitOrMiss_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "0fbdffd1d79653027ced2600c6bb8a5d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorybodyShotDmgPlayerMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "b6eb8e607b08f167bb0c50bddb6cf891"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorybodyShotDmgPlayerMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8dbc33a8aaeb331e628ad45756d8684b"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorybodyShotDmgZomMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "2ed0d6b1d0649f534b48f58b8c4c9eb6"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorybodyShotDmgZomMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8395c0f8205c8111c2eaa795d66d3816"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorybowBreakChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e4fdffe78a1eae62665f82235e144158"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorybulletdistance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "34d628fbdbf3a258145fd5f293128626"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorybulletspeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "a5ca8832e771e21f537c3cafd7ed0c17"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycallshot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "9232440ecb3836f7e748ec708ed75d55"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycallshot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8f1fcf9ee2fd0742a14d65587a061923"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycoughModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "035a70b3b0fb48f6b2883ba43577fbf3"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycoughModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e0c0bcd40641b6dd257fd71596ac147a"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycritChanceModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "293b0120dc313bae030505f0431d7f69"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycritChanceModifierShotgunsOnly",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "af3ae825f8d717499de1261602a6c05f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycritChanceModifierShotgunsOnly_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6378e6eaccff168c8070a65bd3b8b3f8"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycritChanceModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "7c5d8ff84b74246dc9f2bda51e8d6438"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairBlue",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "d4d68dba0b47a6c59a0e08191ed03f47"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairBlueLimit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "b191fedd0d93a642d689c72801dc691a"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairBlueLimit_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "4ad36296e5517a4cbfe717b1cee8cf94"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairBlueMain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "01f272f572b141328b6f17092f58c781"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairBlueMain_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "88bf5538db5d6ffcbdca6cebb42be8cf"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairBlue_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "5a65a123ca504a4b65cefa0941f9b942"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairGreen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6f472638d920fdb57b0b1bf622806982"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairGreenLimit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8c2faaac4eed70e101c71274bb4aa0ce"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairGreenLimit_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8cfb756f481b6c511f230424da70822b"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairGreenMain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "fb05f2a75084633ad082453f132cb146"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairGreenMain_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "d0e9c5d4da5aef1a89a67d44567d427e"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairGreen_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "ad2c77ab8ec32e920f8b782110f2121f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairMaxTransparency",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "5ac5291eb1d730bd4b45e24c44e629a9"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairRed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6be3f5747d56a06801f6ee2256ea7e1f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairRedLimit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "ce6fcc6f2e510b95fafda04268e66477"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairRedLimit_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "2f949c297856ffd6ba26ce4bea42d2e9"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairRedMain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "2071e7b821fc28e1455696fc4dc34762"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairRedMain_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "4b02edac8655f9119ea44bcfcf6fb2dc"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrosshairRed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "871973e6b66e6f55f458380a1ae35d99"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrouchCounterSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "86066c03333f77ec5cc8393a6d1fbef1"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrouchExpoRecoilBuff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "9c710a724021f33707e42a8919eabc05"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrouchExpoRecoilBuff_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "de9eb535b8ec9657bc0365c02ad38dd1"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrouchFocusLimitBuff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8f64644574b10f968dbaae7aa47e20f3"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrouchFocusLimitBuff_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "24105f08366801aa3237cd271d34ca2e"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrouchPenaltyModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "46afff4c10dd48e26c055ca93b1019ca"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrouchRecoilBuff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "af1e833336c6cc8d666f1a8092919e36"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrouchRecoilBuff_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "d1cab4ecce1deb6be2c30f477c8de2e1"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrouchReduceSpeedBuff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "b170bd623e30ea912bd86ea055afb991"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrouchReduceSpeedBuff_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "ab490ee95d5aeedff497f0eaad2301ec"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorycrouchTurnEffect",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "390a2e6c5ce28702e0b72a49cfd1ef68"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorydistanceFocusPenalty",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "3df68e94305ca495c41b4b8f020cb5ab"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorydistanceFocusPenalty_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e144a8a61a07fbacc16d2f4dbd434e4c"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorydrunkActionEffectModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "07bb8ab1ad2ff69497eee627f9802940"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorydrunkActionEffectModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8f30862b6b6806645d42d1627125e52f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorydrunkMaxBloomModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8eb1be3a476db2d7f1de9bf941581c5d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorydrunkMaxBloomModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "9ad925dd9a87bf93d2201d8f9ffed55a"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableAutoAimZLevel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "df59e60cfb8d6a8b82ea8af2f07af9b8"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableAutoAimZLevel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "dfbe44c78418f31c4a41bbb545b5889c"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableBulletIgnoreCarFromHighLevel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "3e94ccc2bbefa4bfafb3983d2efb7add"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableBulletIgnoreCarFromHighLevel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "608200aae27ab89e306f73c50207481b"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableBulletPenFlesh",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "9c7e60db5f408c92b75587d36a15f751"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableCarAimLimit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "81af2c4d1846dc67bb79bc9c7ef51377"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableCarAimLimit_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "4561a50d449c122865293f40d506e50d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableDistanceLimitPenalty",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "d42556910500784d82d6f70f32a9d5af"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableDistanceLimitPenalty_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "62eeda8ce559092feb2cca6a0eb5ab73"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableHitOrMiss",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "0ed3b860ae9d52ea2f41602229ae95a9"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableHitOrMiss_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "f5e01cc128edab7736256900c6980e59"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenableOgCrosshair",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "4b49f541cb75ecd85b16cba134e55783"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenduranceBreathModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "bcdf3e7a4c73986430a81fbf69728408"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryenduranceBreathModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "a37de5f745623d97663f8c9484854187"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryexhaleModifier1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "f0c41864353df4fb0b65b8949b579723"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryexhaleModifier1_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "990cc1f75ee6ccb280b3f00063becda7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryexhaleModifier2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "5ffaee993f9719a74a4a3a7215a78601"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryexhaleModifier3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "598edbae0667903f09bcf949687abaf7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryexhaleModifier4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "413d3d3d925556a29c8f0312693982a8"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfocusCounterSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6a9e76c634a5c48a35ec45e9ccdf5517"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfocusCounterSpeedScaleModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "1412c412c2ace638d64c6d462fbe0518"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfocusCounterSpeedScaleModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "90775e120d29423282390a0a9f62349f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfocusCounterSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "f17b344dab16d4f736e75daf02387eee"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfocusLevel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "b8d2adb80dca02fc8ef8f040cc7f0a3e"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfocusLevel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "b016f4b2a574946d0b96c443cec88871"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfootShotDmgPlayerMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "f7ad90cbb1d1f83cb57c74a8f7918c19"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfootShotDmgPlayerMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "71c999f3e924eab492f4b0aa5e59d716"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfootShotDmgZomMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e71d4f3db4226e199323bff86a5d5eee"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfootShotDmgZomMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6b09726024896210a86c27ecacbbc46f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfootShotIncChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "a947660e6c8b171d082a0ce78bdd4396"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfootShotIncChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "4458b4841e96105c4579145fd021b46d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfractureChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "d1b7e4c7001166eb9219641a8cc3ca11"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryfractureChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "444c185e150eb13f52cb10c1e524c76b"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheadShotDmgPlayerMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6c6725479788846d986e8cc2c15eca7f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheadShotDmgPlayerMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "cddd06d764297f84d9636b98037b20e2"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheadShotDmgZomMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "07da5b8128a0300268019c659c7a58bd"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheadShotDmgZomMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "2fa0f4297aa1a551716d9eb481de01ca"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheadShotIncChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "59298023b621f838b4da7442043ae97f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheadShotIncChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "0897e546d05cf9a84ffd0ed0ea2c489d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheavyLoadModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "287a7b18edbd57598d6560f07fd5a077"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheavyLoadModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "cbb34b7bab9a33a0d4c0d64279dbfaf4"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheavyMaxBloomModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "9c7b25ec6b80c0d88858728135e6014e"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheavyMaxBloomModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "ca8fa45223d06f873a9b7bf42a0e9c41"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheavyTurnEffectModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6ea50f5990ca4a3289173fa819553b05"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryheavyTurnEffectModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "acdb24feb33eff75b37810478c5596f7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryhideTracer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "1eaf176173eca07913c11479e424c82f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryhitLevelScaling",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "b1c1ee3dd727b8b6cfc18c565eaa3cc1"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryhitLevelScaling_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "573212b0c27ce25f6019ff077ff67309"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryhyperHypoModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "ec825fdff3306abf1da0e2f795dc01ec"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryhyperHypoModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "dca23a158c7de6cf17519a4a94eb48ae"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryinhaleModifier1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "9f8b39aed40d4bf90f48d4126fa3a6b7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryinhaleModifier1_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "d1f6d77a58b38a1200460c99d2ceeb60"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryinhaleModifier2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "219359b87603da7f910450697b7cfae7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryinhaleModifier3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "9678296732cd8b1b946772b4428c6b03"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryinhaleModifier4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "fd416adf1fa9e9335cca45c1a05c10c2"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryisoCursorBlue",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "5a3c40ad4e640c7fcc46e5988501fd83"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryisoCursorBlue_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "75e2539755f204e1f1b945c05807fb2c"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryisoCursorGreen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "50c8cc96d3991cd7a01efabbb46b3ac7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryisoCursorGreen_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "bbdfa4014e53558d8d2089cc7c06126d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryisoCursorRed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "86f4a0d646ac6468ed1d7881438fb61a"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryisoCursorRed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "7f6a481e1e752c203ee472c9c1f39183"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryisoCursorTransparency",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "b1e1dd958a9e14012154990502369f43"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryisoCursorTransparency_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "733636678eb2a72afc1c1ae0d779dccb"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymaxBulletDist",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "931ca7c1d6f8aa8a2c8c134cc89ac54c"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymaxBulletDist_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "195311e0c1656046e975ef515b2e43ac"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymaxDefenseReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "311515a330a0daab6ba125daae27e559"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymaxDefenseReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "cf7ff82d854d8dc4bc3321da7578acb6"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymaxFocusSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "4b795eada56f510de03657a5f53e467a"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymaxFocusSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e4f6ee51c4d303088378de7e984017d6"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymaxShotgunProjCone",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "81ba12c9c9f702f7a3a01c0d92b44004"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymaxShotgunProjCone_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "f7cdc6a4f687f0cd68fb36a10f8f3559"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymaxaimnum",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "7031c33fbb411d657a84faa21450b493"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymaxaimnum_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "5ff6785922f03e6953e3b74387fe2aa6"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryminDamageToGetHitReaction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "5cb62190433408867d369728645cc0c7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryminDamageToGetHitReaction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "f776a319f9d1b9c57bbf22884a05e765"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryminaimnumModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "d4a2c8e889dac5e89d60715e7cf7d5b2"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryminaimnumModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "07730822813e4959e6f9ac5650bcf94d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymissMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "0ab8dc333bf0114edb04dbff7ddd8656"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymissMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6ea97224072b62e558ccc0a7fda3f21d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymissMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "028a742d6cca2acdfc034e008c3ecdac"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymissMinTransparency",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "07fec98fc79c4f9c169fca0343659107"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymissMinTransparency_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "870a2a3bbb468ddb065067557d35c0f4"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymissMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e8c91f0418d0196d1ba2878f5d5e0144"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymoveeffect",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "1e984207b48ac8edaad92fdde8c7ae0a"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorymoveeffect_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "b85c7aff2297cfb713098a4effbc1a43"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypainModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "30cf70e6545e31da678c8485a1012033"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypainModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "d12ac857affeca076eaaeebe6c0da20d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypainVisualModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "36686b40ca2d9649b5fd5bef13e6ecca"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypainVisualModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "b82672ba9238fcda805a0edb375ad0d6"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypanicPenaltyModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8726912d81b429948e507edc7efbe8ee"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypanicPenaltyModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "3ff519b9fced063412e93ebe391aa014"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypanicVisualModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "69bbf5b48b29c3b500504b0b008039ad"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypanicVisualModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "21a8afa397c38ed11c34699013b86a95"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypenDamageReductionMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "4b7a8b6df600ca38dfd738fa0012c6fb"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypenDamageReductionMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "daf432a600f27816b2a5eb745c9dfd23"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypointBlankMaxDistance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "0c023633886a822e204ebefcd8ae50c7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorypointBlankMaxDistance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "9f01a3257863bf892fca19e044c43c94"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryproneExpoRecoilBuff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "9e4be2debf58283fcc633d9a7394c1d8"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryproneExpoRecoilBuff_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e78768da5272fd9be7063f75a1c1a4ee"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryproneFocusCounterSpeedBuff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "3a0fb358cbe4e7bd6ebce0cd9c277758"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryproneFocusCounterSpeedBuff_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "bf87ae28f9b6ec9ff3e83797009dc0aa"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryproneFocusLimitBuff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "bbe35b29d4d5101937c5493bb000e827"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryproneFocusLimitBuff_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "937d08e338f73104a47358ea01d8501c"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryproneRecoilBuff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "699c07f610e6084628aae289cf3cd68c"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryproneRecoilBuff_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "3464a5e723d3f4c0a2192218bd88a598"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryproneReduceSpeedBuff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "a4b5ef99fee20f9a18239ee6850f49f9"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryproneReduceSpeedBuff_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "b304fe964d39ab07e297ebed74e69435"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryproneTurnEffect",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "ade525ab73095282ee794f9fa95bad7b"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryrecoilDelayModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6ded87d736f8191a5f66840f73d6df39"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryrecoilDelayModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "359b1ef6d591e2327aeff1d6d99cac43"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryrecoilModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "50e5076a3afdd5688a1d48924eb16a16"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryrecoilModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "aeb2993c6fb450ca5a065fc9ad51d2fd"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryrecoilScaleModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "47a1c19f165030cdf8e7f7fe35e95478"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryrecoilScaleModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "f14733986ce966818dea7b049e8e721a"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryreducespeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "0d2992fdb87bc81d62aaf3f62f4083c6"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryreducespeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "24105b36158a1a99bd908300d7303d03"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryreloadEffectModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "978b908892bc5b14e0940107d899b1c0"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryreloadEffectModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "9a7e2fa1c53e7b63f0c832ca053211b1"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryrunNGunBuff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "4fb634eaebe74ea1ca8298273397427b"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryrunNGunBuff_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8da5bbd374fa6e37e16d09dbd3c711d5"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryrunNGunLv",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e540831782842e1afa728cdc1fcc767f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryrunNGunLv_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "bc75b9da5ff055b4ca74b384872d04f7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryshotgunDamageMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e556a26fd2d11fa6568ad54ca5ac81ed"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryshotgunDistanceModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "1a683469a1830b79e2d892341a6cea86"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryshotgunDistanceModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "8693fd3121d9e3ea90550ddb8c6e338a"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryshotgunHitBuff",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e75e65414ada86d28599849c27cc28b6"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryshotgunHitBuff_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e9d99a7a1257dcf14139c413de722be9"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryshotgundivision",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "5949c6ef3deab3353924f7deff1a75a0"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryshotgundivision_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "febd552eeadf814d2c48e8dc84b1412e"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryshotgunnum",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "6d5ec84ab5438de79fc0ba38c140b421"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryshotgunnum_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "58bc63364dff6271811266f164b6dd69"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryshowOutlines",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "e46ca59c34fd0afa7bf6a1cf607a048d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorystaminaCrawlScale",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "faf478ebadc5eff9822f3ef4c9b48fe7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorystaminaCrouchScale",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "a74302fc92b98044963f5286e0fb441d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorystaminaHeavyCrawlScale",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "71704c676bf07692881f020c58d1fa16"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorystaminaHeavyCrawlScale_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "70ed663565420cc00d73fba8caae36d7"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorystaminaHeavyCrouchScale",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "659d62d4bdaa54faf679cd28adfc9412"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorystaminaHeavyCrouchScale_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "340b173bae45201028253593878e8439"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorystressBloomModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "868775e5ae86abbf8bd84127aa5a69e5"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorystressBloomModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "2b2eef20155fd22eeae45ab964930cfa"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorystressVisualModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "7d707df2117bf0c1879ecfb3fa41bdf0"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorystressVisualModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "bdcff65b9b552748f0159a34767e6e66"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorythroughChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "35f726531d4623ac85a48b80ae965b9d"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorythroughChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "29a221c994d41321f56552c79f511de3"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorytiredModifier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "4cbc5afce73aa91239ecf04b92715c2f"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectorytiredModifier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "89e93691908a1cea3802a8be1704b2d6"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryturningeffect",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "94b4b3d89c494d83c788bf00be825854"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "Sandbox_Advanced_trajectoryturningeffect_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "1c322327fc701cc41d5e46b83e2e9e15"
+  },
+  {
+    "mod_id": "3036878362",
+    "translation_key": "UI_optionscreen_binding_Change_Z_Level_Key",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-22T23:01:58.0000000Z",
+    "source_hash": "ea2540b64dfc39fc6744703a94917613"
+  }
+]

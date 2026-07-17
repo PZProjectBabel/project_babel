@@ -1,0 +1,5 @@
+Sandbox_NEPCappedStressDebugMode::en = "Enable debug mode",
+Sandbox_NEPCappedStressDebugMode_tooltip::en = "Prints additional debug information to console",
+Sandbox_NEPCappedStressMaxPerTick::en = "Max stress gain from sound",
+Sandbox_NEPCappedStressMaxPerTick_tooltip::en = "Default = 15, which is equivilent to standing right next to a zombie thumping on a door",
+Sandbox_NepCappedStress::en = "Capped Stress Gain",

@@ -1,0 +1,4 @@
+IGUI_MiniHealth_UpdateNotes::en = "<CENTRE> <SIZE:medium> Mini Health Panel update 1.6.1 (B42 only) <LINE> <LEFT> <SIZE:small> - Fixed errors introduced in B42.13.0 (the multiplayer update). <LINE>   - - Fixed Lua errors occurring after being injured. <LINE> - - Fixed broken context menu. <LINE> - - Added item icons from the vanilla health panel context menu. <LINE> <LINE> This was not tested in multiplayer. This update has not been tested in multiplayer. Please report any errors you encounter in the Steam Workshop comments.",
+IGUI_MiniHealth_UpdateNotes::zh-hans::processed::unverified = "<CENTRE> <SIZE:medium> 迷你健康面板 1.6.1 更新 (仅B42) <LINE> <LEFT> <SIZE:small> - 修复了 B42.13.0 (多人游戏更新) 中引入的错误. <LINE>   - - 修复了受伤后出现的 Lua 错误. <LINE> - - 修复了损坏的上下文菜单. <LINE> - - 从原版健康面板上下文菜单中添加了物品图标. <LINE> <LINE> 此更新尚未在多人游戏中测试. 请在 Steam 创意工坊评论中报告您遇到的任何错误.",
+UI_MiniHealth_Enable::en = "Enable Mini Health Panel",
+UI_MiniHealth_Enable::zh-hans::processed::unverified = "启用迷你健康面板",

@@ -1,0 +1,866 @@
+[
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehicleName68firebird350",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "bcbf5dc8e0ade4c1183e0cd299d1bb0f"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehicleName68firebird400",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "c3d6c059d466f3da50009bb4a2d733f3"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehicleName68firebirdRamAir",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "e01671c8dbb3eaeced3bff83fe39094c"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehicleName68firebirdRamAirCustom",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "d73e6cb122e1bd6d0312f0fcabb3c8e8"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68BumperFront",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "acec00ecfc297d363ebf41d3947cfbc5"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68BumperRear",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "552cb9a7b3108edca6312218fbbdbd77"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68CenterConsole",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "df2dfc5c73d77c4da51f8a4e52c68c85"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68FoamSeal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "8eb7841c4cb38075271dd13ccd5c2567"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68FrontLeftArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "21137e521187b09d2caa987b43be65f7"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68FrontLip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "557306955ea9499dc35fd1e835cddb2a"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68FrontRightArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "8cfd9ee8c6380b3b2dfcb5c57e5615e0"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68RearLeftArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "04cee7587317e18dece85e7e26499c76"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68RearRightArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "807a4e32ab847b83f6178a7c5f12541c"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68Roofrack",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "61d36672adbe89c61ea572d5983b88f1"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68SpareTire",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "4ddbebf5a0527d8d203db3598f2facf1"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68Spoiler",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "0135f3ddce4290493993538c63317cc3"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68Trunk",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "3a148f4a28638560fad82b4e39454b24"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68WindshieldArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "33ffdf066c7732b70f1e50aafb33098d"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "IGUI_VehiclePartFRB68WindshieldRearArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "1df38dd7599ebd83500e483c9da28a30"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdBumperFront",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "0495ec87d4c6fa0976422d221cb6e109"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdBumperFrontA",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "88500679c36b8e7eb1d952a8f4fe988f"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdBumperRear",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "2816a2af15259be013061c4bce39c064"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdBumperRearA",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "9275008e567bc194192a81667bfa8378"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdEngineDoor3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "3a866f3b33d7802a5b850b5f21cc5bef"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdFoamSeal1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "93096334d76eac89beacbca00373f6d7"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdFoamSeal3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "c9cade869d200eda8479b56478f9a6d8"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdFrontDoor3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "6662e72025b6c2e2f53fd53a9ec9e60e"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdFrontLip3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "f0b3a583c31e0d7b550ea6a6891f543f"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdFrontSideWindow3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "75c237e31127514f330a7410cc3721e4"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdFrontSplitLip3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "2d2e0f807fbd5dcd4b7c15485d12e245"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdFrontWindowArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "f1bf3b9742eb147c1dd0504dd47a56b1"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdRamAirCustomEngineDoor3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "b6bd421a7a749f5b0028eedfc7d19d9d"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdRamAirEngineDoor3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "d5838a940b7ea2b45e5055205089e06b"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdRearWindshield3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "e51746e40af0fc28ce4ca6f1bf0b1538"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdSeatFront3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "d84fca579e26092b6a35198ad2ae1991"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdSeatRear3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "8e034ff2e47db6c4e96c7c99b6b029f3"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdSpoilerA3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "1538dd6765ea2dce60933197785b6406"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdSpoilerB3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "e75f641fb396b2c2dec8a822c9c6cca4"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdTrunk3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "e30a05fa6933f4a0d70b06c14a4f5b52"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdTrunkDoor3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "7fd34f9c7f86aeebc3be1938f5a73f68"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdWindshield3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "956935f0a4ded479f4fd0a0b04e0f098"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdWindshieldArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "00f4a038998cb999784df0273cc8a73e"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "ItemName_Base.68firebirdWindshieldRearArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "6393dba904d0e785ef9c78df90faa327"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeFoamSeal1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "32b8c9435b57a5e89bc21f2c54439935"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeFoamSeal3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "c69ef7d2c3ea918bc6cb76d9237d4b61"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeFrontBumper",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "6627dcacf4982546fd71f83ca8f7359c"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeFrontDoor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "1c3ca138da93b4ec6337cc26eefb19e9"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeFrontSeat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "f4aa145a364a53630d8015168e88bd8f"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeFrontSideWindow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "211540c0f265a059618a805f9a67d786"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeFrontWindowArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "4fc9e5a02d475bee56194fff01800d4f"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeFrontWindshield",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "c49fdd7a67cdc6b47714a065479c9445"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeFrontWindshieldArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "8556702650c8b65f6ddf2c07e0732941"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeHood1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "56920ad200db70d7ee0c12df11b09df7"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeHood2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "06370a6825fc225b705de7593d9cff38"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeHood3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "4cc201518aab2f861524018099719816"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeRearBumper",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "a8c17e2534688f1348b29194b9787cc1"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeRearSeat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "62832a825d3d93da7534d857c7665a2c"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeRearSideWindow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "e2d2bb74796ad27857be986771bbd88f"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeRearWindshield",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "70634a665a9e9ad7c33c37a11d4effc4"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeRearWindshieldArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "12423bb9d9a0b99dcefa764b28005056"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeReinforcedFrontBumper",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "baa9da3664dfd70d31f06f4b7718bc74"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeReinforcedRearBumper",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "90f0371b63fae93fc2c2b6ec049c9202"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeSmallVintageRoofrack",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "ec3b45dee9f48a13a7097580d582a309"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebird.MakeTrunkLid",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "1494f616ee66077e4dd84c807e1cb1bf"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeFoamSeal1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "6e65c3e47c8c7df2a984f1c4f6f8fbbf"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeFoamSeal3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "221d7093e8c07548184f053c8ec0bcda"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeFrontBumper",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "0e17429f638e01ded6c71915066edb82"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeFrontDoor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "8f2916e1386fae74dd04a10c835ece72"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeFrontSeat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "49ab0f7b9707d9d697af1b0e0afefedb"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeFrontSideWindow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "675344f09207cf1ecd18fb9ebe2ec42e"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeFrontWindowArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "b28316821d3b9a520aa8e0231d37016d"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeFrontWindshield",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "7c0ca00dfcfc2d51086f33b3ecc10897"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeFrontWindshieldArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "4dcd3ff7614d82132f512204e6b9f718"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeHood1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "16695e1fa50f2855fbf046b6f4bbe425"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeHood2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "8788a1a482bef072dbdfd3300c043a8c"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeHood3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "c95f7ae88a79fa46fbc829ed5e37bb63"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeRearBumper",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "f9f84d22f61589ea9f5ef14ebbe3fd6b"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeRearSeat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "e54bf74bbcf368197fb77cdf23df6882"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeRearSideWindow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "6ef73472424330fb0c7068e43c00a576"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeRearWindshield",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "c5b0fd7e906702e2c4fcca6712673920"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeRearWindshieldArmor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "4e99dcd4f3101bdc072df597f6a0a344"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeReinforcedFrontBumper",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "2250667f8e4bf19f62567d275be2d296"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeReinforcedRearBumper",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "175b793ab4d2e6f56fb043a21bcc98e5"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeSmallVintageRoofrack",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "3fba7e884ee1071cff3ff4db9d81ca80"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_68firebirdMakeTrunkLid",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "973397be37f2a0450a33d8dc1bc549f8"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Dismantle_68_Pontiac_Firebird_Armor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "c1b5a912ae294882a0ccbec945743801"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Dismantle_68_Pontiac_Firebird_Door",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "f3d21e354aad1f780aba6c502151bc64"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Dismantle_68_Pontiac_Firebird_Lid",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "c370409607640dc6157fa927e9c29cee"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Dismantle_68_Pontiac_Firebird_Seat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "33a7f1fd759b221b8b3b7f6fc442868c"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Dismantle_Pontiac_Tire",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "a654a0d264a8ed2d14a603a657249270"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Dismantle_Small_Vintage_Roofrack",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "eb0239ce8a93e4559e8353d40e14bd58"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_68_Pontiac_Firebird_Bumper",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "55e63eb2d3b3750db2ce9e56e7547575"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_68_Pontiac_Firebird_Door",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "6aea76ce6fc33cb9a26f5e956bc9dc6d"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_68_Pontiac_Firebird_Foam_Seal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "c52425a23af0bcd8c1087f89468c6a48"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_68_Pontiac_Firebird_Front_Window_Armor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "b4c88051f3b53e9ceacc5591f43a589a"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_68_Pontiac_Firebird_Hood",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "0e0b705f6e9da751db18f9186668d90a"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_68_Pontiac_Firebird_Rear_Windshield_Armor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "0d49f26afb45b67a9761e15e26dd084d"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_68_Pontiac_Firebird_Seat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "368915b3183cc10144e7c5088a2eb20c"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_68_Pontiac_Firebird_Trunk_Lid",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "a428c8e76263cf7eee09062746437e7c"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_68_Pontiac_Firebird_Window",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "d2d6c5311f0383f5d925ebb30fd6439d"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_68_Pontiac_Firebird_Windshield",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "3059b7d0d925d8610314e78b33f5b39f"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_68_Pontiac_Firebird_Windshield_Armor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "04ccc788546bc759d96e8f65dd0843ab"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_Pontiac_Tire",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "504111d71cc2e56eaa3947e3c9e7823d"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_Make_Small_Vintage_Roofrack",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "3c642841168c8d432d2af4f6fb78c843"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_xxpontiac.MakeTire1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "c545c8b2c8af7d3201eb839c26a1c6d6"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_xxpontiac.MakeTire3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "51edb1ce09444d48378e68b20306b8fd"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_xxpontiacMakeTire1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "c2f8a29f835bf1eb0f4ca65bb2ff89ba"
+  },
+  {
+    "mod_id": "3258343790",
+    "translation_key": "Recipe_xxpontiacMakeTire3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-02-19T19:00:58.0000000Z",
+    "source_hash": "e69cfce943eba8c771c626267d879d54"
+  }
+]

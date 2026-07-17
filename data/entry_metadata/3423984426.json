@@ -1,0 +1,2042 @@
+[
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_ALWAYS_SHOW_MOODLE",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c8e84d4a994993b3e90880b2532c2733"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_ALWAYS_SHOW_MOODLE_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "d276189d9b57e1984da19b91cef19cdb"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_AUTO_PUT_OUT",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "0b8b34ea23c651bb11c7e17a10441bdb"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_AUTO_PUT_OUT_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "dc290d9b75015cbdbe0a8a67ca35136b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_CAN_HK",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4607b889bc3a2b4ed25c07ae1c2db079"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_CIGARILLO_HK",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "e2b392e913a8e538af5fd86634ea3af4"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_CIGAR_HK",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "b67280c6510aabcc54eb715540c1b4bf"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_CIG_HK",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4e16f86fed73f32cefdb416fea453f12"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_DEBUG_MOODLES",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "147a349dc061be9f3cf0925f4a5cf3d8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_DEBUG_MOODLES_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1ea43368afb04138e0d801dcb1e2ca4a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_FIND_SMOKE",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4693e57d1fe897cb2c016b214b69c882"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_FIND_SMOKE_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1f49432980b464e5a5cd2651eb0337cb"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_HIDE_ADDICTION_MOODLE",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ba6de822ec4e46d64cb68197f002f548"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_HIDE_ADDICTION_MOODLE_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "cad9593d3c173cfdc15b10e372b907e7"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_HIDE_ALL_ACTION_BARS",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "cf01dcb789e75cf1a6dec9f327088297"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_HIDE_ALL_ACTION_BARS_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "cf02c9c26568cf36ca2c8a13f5922d6d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_HIDE_MOODLES",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "32947a7998f1fc25a5d60064c7dc2cff"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_HIDE_MOODLES_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "24b456751988eb38f3ea99f70ab3be6e"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_HIDE_PUFF_ACTION_BAR",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "6953a57b84016a883d032e6c06bd637e"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_HIDE_PUFF_ACTION_BAR_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "a243e5f10c9b4bdb2484868bcdfc366c"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_KEEP_LIT",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "fbfa17331279a116dac855ab26994727"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_KEEP_LIT_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "f417181ec54d66c449db6cc370d13765"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_KEY_SMOKE",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "82bb58fd1c461596b5c2f3d829a8ce57"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_KEY_SMOKE_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "e313ec42926ba3b010e207e129f829d7"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_KEY_STOP_SMOKE",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "b5e61b9ee8d4db26f7bba9b862c0c0b9"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_KEY_STOP_SMOKE_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c9552045d9c11fb92a9b662ef27091e0"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_PASSIVE_MAX_TIME",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4c70c834794f92e4e769756dac2c478d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_PASSIVE_MAX_TIME_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "e1e2c47322e01d5b2431c5a2e10ac2f0"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_PASSIVE_MIN_TIME",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "e4d4fc0ec3fee204d9d5b2d75a2e1aae"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_PASSIVE_MIN_TIME_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "7b9d73b098b3117ab6eb442708fe5170"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_PASSIVE_SMOKING",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "8e57dc11c1b116473e8a86ebac33a93a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_PASSIVE_SMOKING_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "36e9af0d6e4daa8760215308931a7b44"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_PIPE_HK",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "7fa547ed40927bd16492c9e517b0c1d8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_ROLLED_HK",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "40bed7504480eba223e7cb0c0ad1e908"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_SHOW_DAYS_REMAINING",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "6284a57f013c13da1b2b60b102e187cf"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_SHOW_DAYS_REMAINING_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "669578be143937610d4679de229e576d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_SHOW_SMOKE_PERCENT",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ce9f20047c575ad12c141e77a109bc99"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_SHOW_SMOKE_PERCENT_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "0ce62f83851418476b932b1c5ae28e66"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_SMOKE_KEYS",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "be9fd800e7c26aee96c25119342f1dcd"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_WITHDRAWAL_TEXT",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "b3d919711b59e03973811ff54055627b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "IGUI_TRUESMOKING_WITHDRAWAL_TEXT_DESC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "d86df556077929245b7b3f7bd9a1f085"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4d53ddcbd85d4b5d09a5e957b7de4f04"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "8155b236ce4f1b03d1b881766d553db0"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ef4f99e0b4e488a793e8b7e2d522436c"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "16d9bbd05221aedfd1877211bb706f68"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "56e6fb0dea2dfdf43c398d57d1287b48"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "b73b03ea032d4aee14082e27057742b6"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "5bd3d75d5e3e5ef6ca22c9568ae54818"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "fe21bd8537c0bf2da56e5432502a807e"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Old_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "5644eb05a14c1cab4cf51b6682233f0f"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Old_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c19db21239b55f129758b44b7b279ecb"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Old_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4647408a73c7f34ca5102575c485abd0"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Old_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "f659c76676b0f8e0d2b1281b0ed7797b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Old_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "7459d23740a959257b4df8001cbc6548"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Old_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4d3a491b6fccc2beb986352c31d9752f"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Old_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "35decb7880898e5e318af320bc8e3895"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_Old_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "8d602489f58c75aa26e8587081af875f"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_addiction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "2653cc7b4a842e8ebc84d3143c70bea3"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_no_addiction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "d6818a96707b5280f1bfe33aacc3b5b1"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_withdrawal_0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "75bd03253ee622133410faecd91bfb54"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_withdrawal_1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "7a908affe11d26a7bf5c197a07350574"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_withdrawal_2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "9256909ace43398a6bcdf52217db3688"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_withdrawal_3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "7ab0a6643337440a1fdc0bf12766ef83"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Nicotine_withdrawal_4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "83aef45380d15d20517e7c4332c4e579"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_New_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "bea926fba9c4dbb1f786aca6669ed9af"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_New_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "3e6a3f35e77b538edb14cbf6be4066dd"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_New_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "340b6f09f5f18aff0ac7bb2d0864925f"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_New_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c037351953e7c17fb7ad4b996b450696"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_New_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "cf787c1826ea9f03629fdc68d1b8e0ba"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_New_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "cdffb8a9281cf9f1f453a8c76cb2b93c"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_New_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "5cca112182c80c760354d1c2ec501c96"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_New_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "d0ef0cc767979424228a6f4b56b0fd9f"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_Old_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "462dc37493de5754d22bfc34b21b2748"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_Old_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "69cfde160a260f4e752aacb370aa807f"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_Old_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "5b2626eb9e2ed818470dd08487643560"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_Old_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c203e88f6585d57992c5d00af56886c4"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_Old_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1e064295e465209f67c6ef3d436662eb"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_Old_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "38ef5a9f6e61d2489037eeafdd5157ab"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_Old_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "2fb60fe723b337f98c261df32441f755"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_TS_Smoking_Old_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "d234ffc86842e5b6f69a324dd6bd2be8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "49402441f50b9be1a4601db2da226c4d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "78f97421904ad66d2cbe50aa49e1d32e"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "df24c31e581aeebadbec39701cb6fb4c"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "68a8d2c2d31981676d0e7ec36aea7b82"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "3e5f9f531a4555d6d5d57b3ee584620b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4eec423f2109fa378053dd442ac08cd7"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1cd82e851ec59539a39dc710831485be"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "bff419c55c7c4887ddf4d0cc1427559b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_addiction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "b431e0f2c11d24801031ca08209793ae"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_no_addiction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "cbe5be85c2679110a71b1feea994db82"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_withdrawal_0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "777489131ef357e22cbc33b6971cd54c"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_withdrawal_1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "d69ed13ff68dba91d7759c59d87c8918"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_withdrawal_2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ac12e9ada4cdb00cb055e3622f647ffa"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_withdrawal_3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "69966a6aee97b88a8258bb117370bc5d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_nicotine_withdrawal_4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "33397577cd8c9a8dda45a70554fc4cfa"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_Custom",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1fbe3d70ff5fe2ddc371cd6e2e84d4c5"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_new_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "55771870b8a70e2ad1ccaef2b901d8d5"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_new_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "2a44ae53d87154a22b49ab90e6d68cd8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_new_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "fadf9c2aec422bb30e371e14ef4a150f"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_new_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "59ec595af29190babd2160bfdd47e088"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_new_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "28e88523efeba5317428608bc510896e"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_new_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "6a92357fa1d31e90e39ff9a15f29673b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_new_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "cfdc5a78658b9065724a74413e8522e4"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_new_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "0ca9f49c389b1c31f75c6d596d7adff8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_old_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "2f950594767d1787d92b53fae102b435"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_old_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "2764da8cfe8d879ae9c1ff5d537e1b64"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_old_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "087a86e8c005b67d3c5fbd5b0a350739"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_old_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1d561b2c3dc35897ace9f752c64ac6c1"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_old_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "f165b8350dc44694a73dd9282c7976ad"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_old_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ed78e9477bc9fd42f497c38271c7eb6a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_old_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "3fb267007bfe407bb81fa07dcab8d6d8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Moodles_smoking_old_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "a648743bb0b0d0a8987d90df276808b2"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "8f22b91e4405b280e2a0df418a183d64"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmokingNicotine",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "75513774ac906078452b8a8d71a0d813"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmokingSmokables",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "9a1417959fd6b33eeb15e61ea435240f"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionActiveSmoking",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c310830bb036b5ae1cfb3a2ad86ea985"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionActiveSmoking_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "363586dd18405029bdb97aba08a76cd8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionCap",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "6aed45fafe799df7ad0054c2237bcfaa"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionCap_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "a4b3d41f6b3bda04feda4e56a5a9d3c3"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionCureThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4a7a24b4b9027229628a64765d22c0af"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionCureThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "215d5ab9209e4c9ede3c11733e2ffe1e"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionCurveExponent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "dbd5fac0c59cd2af3c1fb3eb124caa7b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionCurveExponent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "499d1151ba643a4a10f4e4d923b364b1"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionCurveMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "8d89c21ac3f81d17fd9ded9e25ff2518"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionCurveMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ca2b6f764eb792fc6b5c2852b428844a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionDecayRate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ecbe1cb3667a3c49c150a12af5db9f7d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionDecayRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "70186cf1fae05d984649bc52bf4bbb83"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionGainRate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "b998b18d962447e784b9101b9fb3c6c8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionGainRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "295a4d03ffb37913d8f86973b3ce675d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionGrowthThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "dab84bfb7ee4b79e44ebd75e51e1cdaa"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionGrowthThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "387a283517f2fea5785a53a7eed6460e"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionIntakeConversion",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "d49dfa4445aed8a325b877f72d91c9c5"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionIntakeConversion_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "2b96fe47f63323c7f7234053fcba4d11"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionMinDecay",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "5e342f3e9f1cb0df8e2c100b958c3745"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionMinDecay_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "a61d6a2fd943500e653754419e25ed49"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionTraitThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "20b065c41c3afb7cc261e60decd2a3cc"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_AddictionTraitThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c2cd2076d875eec8ae907c9c20f7bf17"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BoredomGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "dd2dd40904ba39236f8b8ff1d63cb53a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BoredomGain_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "68a3e2688abffb842d2cf471cd6a2892"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BoredomMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "65f38bda62e7c2b7dd8c703e38921225"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BoredomMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "a520846e8587f1fd0d08353da8bfdf37"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BurnMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "b3c34d5cb955c1732aca4f98cba92697"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BurnMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c7ed651b62659be41b2fbcfcae3e553b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BurnMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "bee82af885680ee03b30e841771c057d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BurnMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "edfac5d249fbc2aef6507e6b31265fd5"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BurnSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "558601be95d2d5ca826818bfb0869472"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BurnSpeedDecay",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ac440c4ccff6321a850b3aae9db9e39f"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BurnSpeedDecay_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "6a7fbdc06ec6c4929402ce83b909ca27"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_BurnSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "48ae455f40b73bef849d75e9bf2176e4"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CanSettings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "e129eb86fe905a015e790498cfbc92d4"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CanSettings_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ac83c9984142787b91c047ea0005f364"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CigarSettings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "912187831b75f84c329c0924b38b5695"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CigarSettings_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1be13459f57e576f51bc43b4df2ea233"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CigaretteSettings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1b2d5b22b49eca88623b474fd4541750"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CigaretteSettings_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "8538252eb210d7df7ba66ef46979cdd6"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CigarilloSettings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "0d3ac24cb972081dab22dad56d0538bf"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CigarilloSettings_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c37dda1e93faaa53e62d84c838d9fcef"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_Coughing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "6a77977cbd675989317c1b3682e4b0f2"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CoughingChanceNonSmoker",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "5c0d770a8738c7c2fc18a9d54a260545"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CoughingChanceNonSmoker_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "b7e9e006d89d7748c7fcd93b4e1cbec3"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CoughingChanceSmoker",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "212932d58e49c932b72d03161560d45d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_CoughingChanceSmoker_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1bd627183f5bf399b8819203191976f3"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_Coughing_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "a46749dd02d804731784e5d99f20ab90"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DaysToAddiction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "cb23418131f02083285a1176822051f1"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DaysToAddiction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "18dc859f2e29889a1c46c792be5ffcb3"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DaysToDetox",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "48cfb71d0ae5a195603fbb691c6f58d3"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DaysToDetox_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "52b477c1ce6f55eb14ff8aef121603f9"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DaysToPeakWithdrawal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "5d21a22b1bc413ab0e3005066f3c23fa"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DaysToPeakWithdrawal_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "f29c17e9e9a6f0011cb608a2ebb1e6e2"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DebugMode",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "304169143294144254c6e3286e8afa81"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DebugMode_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "5c12aeb491f908127ded81fa3617aa8b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DecayRate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "b53c18bf9edf0926478b3e7ccdc029c5"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DecayRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1b1cc2081be809c13eb31d577902020a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DropChanceNonSmoker",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ba133cdc2c19ee16ef5e28ca5f23364b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DropChanceNonSmoker_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "eeb4b901c5938e787af0f78ca803b8a8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DropChanceSmoker",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "d129af4c7de2eacaa54beea457ce6e4c"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DropChanceSmoker_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "98d56825398076159e082fc467639d3e"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_Dropping",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "d669699536c0760a7a35e95e2c1c65cb"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DroppingChanceNonSmoker",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "8151956f4dce067dff2d0e35369bcbe8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DroppingChanceNonSmoker_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "2cd9975c69f425c68ce48ac360d6ec69"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DroppingChanceSmoker",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "2746a6970050fbab931d97e9c1b40548"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DroppingChanceSmoker_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "fc31a5562f888547975866ccd54d79db"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_Dropping_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "b3dec64ac73c53bf8947a8949cd377b3"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DynamicSmokerTrait",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "99dfc65fc2d9731c27f89acc1f4823ba"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_DynamicSmokerTrait_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "980905de091d513de31f04d22445e1f8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_EffectMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c165cb7dc23b80de64e5995c53d4f365"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_EffectMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "d732c7554375183ab7a5e72a3d71e06a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_FatigueReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4a99443ef463315293f3853418f27b65"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_FatigueReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "96b12f75868df69c23e85c94d04d7bf1"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_HungerReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "6bc985d73e1e8d17338315c8b550d7ce"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_HungerReduction_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "41eafd2c0de27997830d322a28e444ff"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_IdleBurnOut",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1ad11f90a48a4f6089baa6e964ae2b90"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_IdleBurnOut_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "39b819dfd286d2fb1aaff7d04c19dc53"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_Length",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ec6dd7b0ad720ba0dfbb8eec4ad4948b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_Length_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ea1444e6574d6cbf6d0ca2adb1ec5779"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_ManageHeadGear",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "e21db4dda502a39fe86037d4d44836d4"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_ManageHeadGear_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "6d0e381bdab4098f12983cf1346e1bba"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_MetabolismBaseDecayRate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "5dc9d2cb562edf8b32ab22619b931a06"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_MetabolismBaseDecayRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "cef82ef06c118b2fad5ac9bc51d7b54d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_MovementBurn",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "6af6015b0038c1dbc6bad7ad539c64d7"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_MovementBurn_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "8bbeae6a55d225557ecefcfb55104521"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_OverrideSmokeLength",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "38f79781e0a6a05dea608b18b826d634"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_OverrideSmokeLength_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c57962c124544e89b68eeaefc964c4f5"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_PipeSettings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "7d1bb09f06d18a24f2fd976a721d80c8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_PipeSettings_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "47b3a7c6d7028a9cafaaef00a7d40f82"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_PuffFactor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "0abfd2c7e0bf25023ba4c9a3fc3dad29"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_PuffFactor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "f10e9cca241a21451a0507c94dec3588"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_PuffStrength",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "335777ea1d2e44fb8a7d878c7da92d8a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_PuffStrength_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "55efb1cc06332ec668ac559251a05c55"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_RolledCigaretteSettings",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "5589a8c7ddb1d42cc6bcdbcb9f34c40c"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_RolledCigaretteSettings_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "bbe13107218a4c24d8bdc57775fc7e0f"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_RunningFactor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "efbba522f55df9a6a8aff787a0b2fe43"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_RunningFactor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "acc5604d02bbfd12d92205347a96d16a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_SmokeLength",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "2880d233910393cd8b10bec4d4cb6840"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_SmokeLength_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "69845d1451ba5a02e122ea91006ec0fa"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_SmokeRelighting",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "7a363b6248cc85a73df86c1685b3785b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_SmokeRelighting_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "8819257cef389dfe16305b3fa4ecccb8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_SmokerTraitDecayMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "fd15b17cee500631e6a8fd5b4cc1f967"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_SmokerTraitDecayMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "0bef49a6c4450034140cc510c4bab647"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_SmokingSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "3ab2dd807a1f10cdf1e6abae5c83f8dd"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_SmokingSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "9fa0be312e5665f2607858529aeee998"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_SprintingFactor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "3f151bda3c8146d1d9bf2e06aa391607"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_SprintingFactor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ed1fd11dce6392629aec7dd3c1809870"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_StressGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1e8664b8392674140de7d81091d8dcf5"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_StressGain_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "5f45cb1c0eda7b3158fc85657637ea34"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_StressMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "f2c733aa05f39ca41689346b5d70dcb5"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_StressMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "08f0987a7a28d7e3f8fd23dc69c3dec8"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_UnhappinessGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ffa0d902ebe137d19d03594feba53c61"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_UnhappinessGain_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "e70c827fa5841196dfb2a735fb43b7ef"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_UnhappinessMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4ad013ed1e5a19972a4a91b394c3828d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_UnhappinessMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "802cd6722d50fb203e9b7fe1eb0da2c5"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_UseMoodle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "561aac8c64fde68b087b18f51acaafbb"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_UseMoodle_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "2e9732d70306020a111d298677208269"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_UseNewMoodle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "792bee75baa1577f6584c053f1a57ff4"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_UseNewMoodle_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "26631bffe6465a40a3c23bbe15a6f940"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_UseNicotineSystem",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1309f7da08411d8b796a929450b96c46"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_UseNicotineSystem_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "33bc05839716b875fcf33e6b64f2932a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_WalkingFactor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "643aa75e38e265f92cc83cbb1027a716"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "Sandbox_TrueSmoking_WalkingFactor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "0556d061837613c70488778837a4bd8d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_BECAME_SMOKER",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "2b27e518af31e84bc02066e5456720c1"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_GET_SMOKE",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "979ed0ad7015d5c99efce8b94018c3ba"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_PUFF",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "a1a9cd980bae7c0e485c14e0f9cf1be7"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_PUT_OUT",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "c1bfff7a1ed1c0979f5f8168217842d2"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_QUIT_SMOKING",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "0875d7708514553f90460224c7f0f7cd"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_RELIGHT",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "72e42a5e98c55b95a056d2e99f93e80c"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_WITHDRAWAL_SYMPTOM_1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "320158f85b33fa6384a59c7c0a4d2381"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_WITHDRAWAL_SYMPTOM_10",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "f1469e48f99433a4a826f47e41563b7d"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_WITHDRAWAL_SYMPTOM_2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1f8a07bd71e7750c2e935d64375b276b"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_WITHDRAWAL_SYMPTOM_3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "4a6b5d70246ed9e27381b580b26cecd3"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_WITHDRAWAL_SYMPTOM_4",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "cdf7351c73d361519067c1b6040c6264"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_WITHDRAWAL_SYMPTOM_5",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1aabf0c820cdd2f323ba1af7dda54b3a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_WITHDRAWAL_SYMPTOM_6",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "1e7ec3cc702a9bec6f237a01d0388a50"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_WITHDRAWAL_SYMPTOM_7",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ddfa317d1456bc8e95df43e2cd87db8a"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_WITHDRAWAL_SYMPTOM_8",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "17c03d3d5f133ffe07cbd3f49657799c"
+  },
+  {
+    "mod_id": "3423984426",
+    "translation_key": "UI_TRUESMOKING_WITHDRAWAL_SYMPTOM_9",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-03-16T17:14:05.0000000Z",
+    "source_hash": "ba33627014f0d8071938b8736d8cc7da"
+  }
+]

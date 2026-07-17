@@ -1,0 +1,650 @@
+[
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ContextMenu_DestroyBoulder",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "62274f64bec457c9f01aea0d8d0f4da4"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "IGUI_CraftCategory_BBRSmithing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "1d11a1beba8214717c015a4a8524c530"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "a7c96c0183abd7c0e2ba80236218b7bc"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "0ecdd6892bdf9bcfc0e73df0bb5a3fd2"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "6710bec0dc9b16173d2698a510127439"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "60cb87a3f6115fc549887153ba05c8ee"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "4bddc373f7f9ccc8f023f3d20a2be8b5"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "7072b3f810afd75152c93f856014d614"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "07ce57463b3ffdc651c6cc63078d0acf"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_CopperOreChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "d3ecbc8d668e2dbc9e4a2f4615b9b74c"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_CopperOreChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "0c867a98d420039c1a96c46ad17e865a"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_CopperOreMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "cd0f3e1e7285a24793453c3f14d69b5e"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_CopperOreMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "2fc4f45ce9556d6ad7ff6ca31f014beb"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_CopperOreMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "a5b2f6e606cd6a4351f62214412b607b"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_CopperOreMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "dad99c2f65980acf7207a7e6053a6ff0"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlatStoneChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "943e973d6c888ad4028ac716cc050c17"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlatStoneChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "1bafe8c05ed84dd3d2af6e5348080317"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlatStoneMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "f001839d44332e1e4b1ab6a10b920cff"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlatStoneMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "4aeaefbb8c5e82b60112ef3540a4706a"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlatStoneMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "d78dd3a34a688cc7572f703d9e26277a"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlatStoneMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "2d809de2a068fb19d00e78c2e72f963e"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlintChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "f4ec476b183ee2b425c864d065f51f21"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlintChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "9147749aa564c123974009e37a46c7f8"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlintMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "744d1966cc75e98ad618f212da22bc3c"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlintMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "89490c97e0bdd7996a8b13b18fb9dd27"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlintMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "d26abed84fe624b8f7789a48227faaaf"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_FlintMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "783c0d613068f8ebdc6946c13038203b"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronBloomChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "e6b6f129abb15406c38b363411e8cae2"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronBloomChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "f2802f6c52d50d140ebbeb391e0b2a2f"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronBloomMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "1a209a39767b38fcab7f19af2d6c781a"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronBloomMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "19f7239604997fac90609be23ba8538e"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronBloomMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "55f8cbabded53abb625ee32a626534d5"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronBloomMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "a4b89b6984d8a05b55b26e7239cd9cfb"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronOreChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "e787c9af38e18a8174ce31312e48c00a"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronOreChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "b7da8736640e4c7275a543d01185afa9"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronOreMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "a845964ccd8cd3e4153aa2d5bbda6af5"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronOreMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "b256b54ced303422f642c1fc36668ff8"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronOreMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "db62467653e3c68c92662d1aafd2bcc8"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_IronOreMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "93593ebfed04a3c4e80f67979245c6c9"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_LargeStoneChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "a1f0f0d0899f564e5d5d3792983bc1be"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_LargeStoneChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "c379bfe9e3b2385deaf6e4469cb8b989"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_LargeStoneMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "32f5aa42ce400e1231cb4738047f4109"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_LargeStoneMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "de36882df50130aad9f9e46de5404793"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_LargeStoneMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "04b8fe6c7601f70c31149c2cdf68038a"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_LargeStoneMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "10c3640a6afc24991964edfc1b4b2799"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_RocksMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "7004fa0194d7478fc62f8e08d7118eed"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_RocksMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "a10c13b7e2dff25cfd930edb599d34c0"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_RocksMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "4690989b3ebc333dc424bfb8cff0ddc0"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_RocksMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "574b9d9082faa757944e561cb8c6d974"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SharpenStoneChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "e58b9829aaa232733179d817fe8735cc"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SharpenStoneChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "6bf4627e8c0b94111146bdaf5a5442af"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SharpenStoneMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "0595fc4e38fc9de8fc821701751e5106"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SharpenStoneMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "f1bad7a3a6356564d144d972d3cfcde3"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SharpenStoneMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "15e4d324e8b02541fcee87aa005a4f2e"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SharpenStoneMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "88a4ed2b8ad9c6951fe4ddd9b6289a17"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelBlockChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "de5b43cec87ad654d6ca0f81f3d472e3"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelBlockChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "099bf15c73a15db09324db0011c2f1ab"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelBlockMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "3374b5148c73de62b6663f98a27147a1"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelBlockMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "3f35e2ce38a766b84c3ffa2fcec308a0"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelBlockMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "30feb7456896a3a291cae4e1e47090c5"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelBlockMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "b7a1dded55763376012a7067e5f7e594"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelPieceChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "0b144637c79a06d03e5a11ea6bf8e8bc"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelPieceChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "16d989f5bd12ac474948c7b55cbeed9a"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelPieceMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "f92be1200cca5f9aa52d52f8af7e4a13"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelPieceMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "6ff312a0b960e1b914abe1b58f873524"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelPieceMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "9575a6150b065c51ccf0e80d31f65bec"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelPieceMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "864787ad9ea7567fea551c92c0c79ef3"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelSlugChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "0687143ca96fca33a7050bfeeb987c7d"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelSlugChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "58d597ff010b303e9fafa4bf7d05a2f9"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelSlugMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "818b660ae94715eb2b03560a2e005db4"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelSlugMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "628f8d9785639ce031d0038f66c8c416"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelSlugMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "9450b71de545770a28c3b59483933dd7"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_SteelSlugMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "0ed061481881c04dc6ffd6816d8724e7"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_StoneBlockChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "148b46da2dea7c76343e72f4b8dd728e"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_StoneBlockChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "be893aa6d6ae20e2d22bc0987e453088"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_StoneBlockMax",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "094262cc95235eec27c7f213dd0f796b"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_StoneBlockMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "3fe74327b8215832aace66383ac2553c"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_StoneBlockMin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "d9b79b18f3a30d120fdd19bf1da5c3d8"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_StoneBlockMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "31f647b1d8d9a482c4c5475db76cacb4"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_ToolUsesPerConditionLoss",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "db2b53aaeabeb58570a0f4273c9bab6e"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Sandbox_DestroyBoulder_ToolUsesPerConditionLoss_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-06-11T12:22:07.0000000Z",
+    "source_hash": "29c48020d2aeb4e820043f133a9dd464"
+  }
+]

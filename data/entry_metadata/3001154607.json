@@ -1,0 +1,618 @@
+[
+  {
+    "mod_id": "3001154607",
+    "translation_key": "ContextMenu_CGUIData_Equipped",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "e438d3948e532558c85373eeeac69200"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "ContextMenu_CGUIData_Hide",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "53d2858f5d8bf60f8652fae50200b12c"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "ContextMenu_CGUIData_Show",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "6b27868dcd31b60ab2efc2b374a7453a"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_category",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "801bd5036edf50e154fe532c0c9dca36"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_centerBottom",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "4b6b7a4558efe62b8e1200100a7b3806"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_centerTop",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "e1dad5865841e3675d88ebbb38f75e4c"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_default",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "708791547c1daaade3319550fdd71bef"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_disabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "304ce3cb459f98503de976adbf16f711"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_doResetLayout",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "5dc13768688cfc5d55ac87cb241184d7"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_doResetLayout_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "f4c2ac54c44174cba1b41246eae505e8"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_doubleClickWithStart",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "741c237ef821dbb02a897c4f6ffd7723"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_doubleClickWithStart_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "7fe9d9f8fa18386afeb6ef78992e50a4"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_focusCombat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "2d6d02cf287c25131cc28aa4cc054601"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_focusCombat_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "25c7784bd36df419884795516229ccfc"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_hideEquipment",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "962deadee80449659b89a3988be390bd"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_hideEquipment_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "8334616debe73beda9b42a38dc000f2d"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_hideUIElements",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "9a6b66614f6ad48428b464932c348df7"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_hideUIElements_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "92c711dc633d50621c786fa47bf1e079"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_invHeight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "8b38f80b43b4d1d7407945395b2f962c"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_invHeight_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "c198ed7218c97a1adeab410703f96dc5"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_invLootPosition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "c143735e9c6ed079e3dea16a9b08c88f"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_invLootPosition_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "354fc8ba758769ff9800672e6cb7f071"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_invLootWidth",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "abfbd968cd3f5e2cb925b9d2df509bca"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_invLootWidth_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "7018c36de68264506e41aff497eb3459"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_left",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "655d5a41ada5317b096d370c7e4c433a"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_lootHeight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "2950f29b10ce548e8c0e7796d3eade69"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_lootHeight_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "ba45c0a534d7d07b93b78b078a97e611"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_name",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "6d8e5c0bbc0bb70add60f6dfe7324a66"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_offsetAndExpandMechanicsUI",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "134d8b99e5702b44cc1a01eabc3934be"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_offsetAndExpandMechanicsUI_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "fe78ce57846fad51ff5caf7bbb8c0d61"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_rackReload",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "07f9ca523fb126e1a819ab6bf11ac9ef"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_rackReload_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "6cc4f5fe8c37d0bf1e8ad556556767eb"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_right",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "6e01f41eba64e85cd88ea782847429c9"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_sortBy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "3a989e0d7038317ba9beed804f34d46c"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_sortBy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "17cf0db7a71282be761a2467b99cd544"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_tileRadialMenu",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "152abf6494fb69f3fa7e9df6bdb73006"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_tileRadialMenu_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "e3e5f8ce01160a53c76dc082acf1326e"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "IGUI_CGUI_weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "2bfb78dc856eb92a2a8cbe11794911a4"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_category",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "f5a455a642a646057a946cd240a162e7"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_centerBottom",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "0b82b656c028cc527b8a3968b15ca90c"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_centerTop",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "137c6a0f7aa9a39265abf9b31b64b2f7"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_default",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "fe1b1a45df1330cf51348d75825577c7"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_disabled",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "4db5b76f66b8fd464ee33c4f97eb5bf1"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_doResetLayout",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "6531318fb6bd90d8a5af0f27774cfd29"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_doResetLayout_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "52b7a978caf828cddc1aecf5aeb109c7"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_doubleClickWithStart",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "2970da142a5b6c8afeff5d38b076f6dd"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_doubleClickWithStart_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "b2e352a0832b435e1a8d6e0fb7e0dbb2"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_extras",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "5c7a4c83e4f4499769a904fac3922f42"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_fixMaxUISize",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "592ada506d9a55fea6ac60193a7f4a4b"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_fixMaxUISize_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "305bf51ad98f232a6d1dd9cc9c87ad33"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_focusCombat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "60d19e5cbaffa3a180c28787840e99ba"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_focusCombat_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "55c24c8c6c7cb4adacffc70aa11733d9"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_hideEquipment",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "644fb9f9bb504f403c0942771b7a8c58"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_hideEquipment_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "f1a3282f0053086b351685bf3d926f9b"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_hideUIElements",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "d9447a266a7bf7d2113b2022baf8fc39"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_hideUIElements_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "ad6db7db30169422c4a6a4bae8731445"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_invHeight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "0373453976600f8c0ffeeb1edd67301a"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_invHeight_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "4349fee98f7df5729815b996d225f2aa"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_invLoot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "64dffa4fdb24fc189191e6999c42b8ce"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_invLootPosition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "8ae7b7fd01e54385b3e28060dcee4cae"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_invLootPosition_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "42dee516fa2202d788e19d2b2ee346dd"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_invLootWidth",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "bf972031634345c6c0e8896235a29972"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_invLootWidth_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "77bdbe76182e4e504808bc594c188221"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_left",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "7847d45817bb126f3cbc54db95c1ae24"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_lootHeight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "eb78f74a67858bbd203d84e60b290597"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_lootHeight_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "fff474291b7a67a40bbf9eeb4072ebd1"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_name",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "b83c4cc4d9b1d6fb618aebf9080e2eb8"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_offsetAndExpandMechanicsUI",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "71374f6a2e6e95158a936462da034285"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_offsetAndExpandMechanicsUI_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "dbb408f1e0fa422d8b817e9441b5386a"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_rackReload",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "55c65b98a9c85be6f355bab3f6f86a68"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_rackReload_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "e64bcf3858bcc3acabaff7e34d839454"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_right",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "b624b3628435b6e7d9e22447c7f9311c"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_sortBy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "6893115d82d2872ad51b9e96f522a1ef"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_sortBy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "047ea2ef3cfa08696588b40459763ae5"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_tileRadialMenu",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "0fa39e9a0e547c37d6dceb8070d4cdad"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_tileRadialMenu_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "c691cd42b3fb71b0325744bac56364bf"
+  },
+  {
+    "mod_id": "3001154607",
+    "translation_key": "UI_CGUI_weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
+    "last_seen_mod_updated": "2026-06-15T16:42:03.0000000Z",
+    "source_hash": "23bb51e13690dd8bf79ee54ee896adcf"
+  }
+]

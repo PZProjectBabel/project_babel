@@ -1,0 +1,698 @@
+[
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Hint_Fit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "c677b229c9371d9bbe8551843135bf9e"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Hint_Loose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "8ca96aa103e823d9aecea3c30c1bc2a4"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Hint_Tight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "f11a659b53de95f395221f5601ecd928"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Hint_Very_Loose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "12fc381649bb8fcf437b6bbce7737f36"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Hint_Very_Tight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "758a5d125e23c461f4449462377bdf72"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_JobType_CheckClothesSize",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "48b65dfcae5ae86480b0c009074c020e"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_JobType_ChooseClothesSize",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "64f5f4f60ea67f75ea968aacf30f6bb5"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_JobType_DownsizeClothes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "355d1189f6428749af365c80ca770092"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_JobType_ReconditionClothes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "0e97983c32d1a9cada9524e1378ce864"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_JobType_Recondition_RepairedTimes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "f2492553f2e7a92763753eb7246198ff"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_JobType_Recondition_UseSpare",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "f9ec5b055bcc915169da1b25f05bb3e1"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_JobType_Recondition_UseStrip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "a43019d2b99733cf9306dc9f72aa8d9e"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_JobType_ResizeClothes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "e5465a2d179e3d75a267bd32ab111745"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_JobType_ResizeClothesTo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "3cf048ea365295118fbf9c4b020debc5"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_JobType_ToSize",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "77fcff7f4041a972355469d75227315b"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_JobType_UpsizeClothes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "67ef5d4ee1b813e6366a7a734a8a881d"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_RealisticClothes_BarelyDegrading",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "dc110f18eba4aa360c8583df1e114b6c"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_RealisticClothes_DaysRemaining",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "c23345afbcdae82d0f107291232bb722"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_RealisticClothes_FastDegrading",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "1a6fbb9480f06c30f0fd522eab9fdcf1"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_RealisticClothes_NoSize",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "aff87afbab10834b8dd3d8bdd3811754"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_RealisticClothes_NormallyDegrading",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "617df7d9156584d00ab4d8e256f1c201"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_RealisticClothes_RapidDegrading",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "9605acf363ddc3fa316f15607c10b4fa"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_RealisticClothes_SlowlyDegrading",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "e764684fd0335bb6f66aac9884d92a5e"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Dropped_Pants0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "ef68e1cc901335df4756bcb4fb7521f7"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Dropped_Pants1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "43851b81d4cd2035c05973476d7d62f9"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Dropped_Skirt0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "23ab9d6043f09001e7ab7040696e4bf7"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Dropped_Skirt1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "e16338dc42d6feb7f6689eb6e9aeda6b"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Hint_Fit0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "0dfa3904c834e7878471bc3b126fcb58"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Hint_Fit1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "bb8952474b790f4d2de67eb5fac5bde2"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Hint_Loose0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "7ee25ea346d8dc2cada324346e58a30e"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Hint_Loose1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "0f7cc7ddeefb5f88932cb3c2288a4d21"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Hint_Tight0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "172c8ad590b5cd9aa4b50b05227383fe"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Hint_Tight1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "90116984df886786265ab0289eacbf97"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Hint_Very_Loose0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "1623af44fc21fe8a9c1f69a605db03bc"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Hint_Very_Loose1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "cd31b0034251dac51b7945915233144b"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Hint_Very_Tight0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "547b35c90b4500b99088dae8e3d65c46"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Hint_Very_Tight1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "a84d1c51a95b50c2148dd89fd57ba963"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Label_Fit0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "8160ac5e4673fd16604ec7eefbc81c38"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Label_Fit1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "5b567acd80df43fe4a049a24555116a9"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Label_Loose0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "203e1edcd8cdf2f9fa6246479e2168ea"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Label_Loose1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "fe4bb8e92e22d99fbc1f286fb377a3a4"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Label_Tight0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "b3a64f5a3d35c5b6c5e516dd05341c13"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Label_Tight1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "7fd94a6f6c73a07b1b83c189694ee2c0"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Label_Very_Loose0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "a5cd5c03ba65172bc890f0f182b83541"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Label_Very_Loose1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "908c9a8cec85574724a36de321967b0a"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Label_Very_Tight0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "7d9100040d05235a82b034d8d1695768"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Label_Very_Tight1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "cdfdf772c0880a8d4a711504b03a1ce2"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Nofit_Clothes0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "d18bf9606da96f159c1d40cff0c29b55"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Nofit_Clothes1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "c0ff4259a6cc5bc469af7ed1a3ffed66"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Ripped_Clothes0",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "2be3db2a334f320ced5b978afe078ee7"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Ripped_Clothes1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "6a1f34d5d7ef2b008ae0a490c210d07f"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "IGUI_Say_Unchosen_Clothes_Size",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "e5fbe786c32ce37fb4d3b9ed75f90093"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "8fa2890475db1906d040a7816a8bdbda"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_ActionTimeMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "4800f9d95cad95e3f661d42729fe8948"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_ActionTimeMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "c1430f7216e7bcb1657d6b558567b27f"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_ChanceToDegradeOnFailure",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "24bd6b1a5fdd28069d5b1435520a88e8"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_ChanceToDegradeOnFailure_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "dcf15f3e9cd5be335d7a69f169f28745"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_CombatSpeedReduceMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "f58560d4fec80983e4486b72099320d3"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_CombatSpeedReduceMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "d3a0bed254d3f74b70ea65094d1e1836"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_DropChanceMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "457d3ba042a26f04498eb9766d7750b9"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_DropChanceMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "6d8096ce05486fe4b61d068b53a1963a"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_EnableClothesDegrading",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "6a4d503f9e9af1c5e95410e4abc4e264"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_EnableClothesDegrading_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "3ce0fc2fcdb677eae1aa0ef85600d12c"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_IncreaseStiffnessMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "7b5e12ea1abfedb507d64c31f6ab371a"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_IncreaseStiffnessMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "e4c4b7e9dd9637c1d8a42b113e838b57"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_IncreaseTripChanceMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "57120948326a4bc3d87cbe99409ea717"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_IncreaseTripChanceMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "7e710254749c008c2b5edef04081cfd6"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_InsulationReduceMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "ef5826ac3c05c36dbf259fff287e5a53"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_InsulationReduceMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "76fc87cdea99f4448b7ea96bb49773bf"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_ListCustomClothes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "952177565c368409e3e831872a509bfa"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_ListCustomClothes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "ce9911bebe0f6afb5af8171fc0ecd5b6"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_MaxDaysToDegrade",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "ef94f22278be10b4a8b7f066b0d9ec78"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_MaxDaysToDegrade_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "f156fef569fb164c314a16fe7f92523e"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_MinDaysToDegrade",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "16b132e4342080d6547a06149b0c9b15"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_MinDaysToDegrade_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "386b9d47c521d5378e181efa0204bb28"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_NeedTailoringLevel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "fd34248fd388a8a8e9c6c6f9a521e696"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_NeedTailoringLevel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "d32513b5184d319c27ac4498e1bbc98a"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_OnlyDegradeRepairableClothes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "5b1f8278b2297a9f0bfa5d735196e5f2"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_OnlyDegradeRepairableClothes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "deb4d4621c83a2585b28a10c939f405f"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_ProtectionLossEachCondition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "0ee6dae15709daf5fe6319711bc71414"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_ProtectionLossEachCondition_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "98c01d752a5329c18f22b91364ec2d27"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_ResistanceLossEachCondition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "37f38d9ca469ae70c66a39d98ab8af09"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_ResistanceLossEachCondition_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "39d48fa690da9cc38137d0f743b1564c"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_RipChanceMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "feee0031280bee7300fc4032ec0e4aab"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_RipChanceMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "2676fde475cd5ff4c274b2804085e88a"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_TailoringXpMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "12f58485081005d81918c482b2f1e678"
+  },
+  {
+    "mod_id": "3491510356",
+    "translation_key": "Sandbox_RealisticClothes_TailoringXpMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2025-07-02T04:38:16.0000000Z",
+    "source_hash": "75bce6aa739dfd4d8f577e4772b3b76c"
+  }
+]

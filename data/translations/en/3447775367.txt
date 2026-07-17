@@ -1,0 +1,4 @@
+Sandbox_DrinkSmart::en = "Drink Smart",
+Sandbox_DrinkSmart_AllowWaterDrinkLowThirst::en = "Allow drinking water when not thirsty",
+Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip::en = "If enabled, water sources will show the Drink menu even when thirst is below 10% (inventory/containers/ground panel).",
+Tooltip_Not_enough_drink::en = "Not enough drink",

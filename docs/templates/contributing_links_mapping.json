@@ -1,0 +1,116 @@
+{
+  "multi_lang_file_links_block": {
+    "primary_links": {
+      "zh-hans": { "text": "简体中文", "url": "contributing_zh-hans.md" },
+      "en": { "text": "English", "url": "contributing_en.md" }
+    },
+    "language_links": [
+      {
+        "text": "العربية",
+        "url": "contributing_ar.md"
+      },
+      {
+        "text": "català",
+        "url": "contributing_ca.md"
+      },
+      {
+        "text": "繁體中文",
+        "url": "contributing_zh-hant.md"
+      },
+      {
+        "text": "čeština",
+        "url": "contributing_cs.md"
+      },
+      {
+        "text": "dansk",
+        "url": "contributing_da.md"
+      },
+      {
+        "text": "Deutsch",
+        "url": "contributing_de.md"
+      },
+      {
+        "text": "español",
+        "url": "contributing_es.md"
+      },
+      {
+        "text": "suomi",
+        "url": "contributing_fi.md"
+      },
+      {
+        "text": "français",
+        "url": "contributing_fr.md"
+      },
+      {
+        "text": "magyar",
+        "url": "contributing_hu.md"
+      },
+      {
+        "text": "Bahasa Indonesia",
+        "url": "contributing_id.md"
+      },
+      {
+        "text": "italiano",
+        "url": "contributing_it.md"
+      },
+      {
+        "text": "日本語",
+        "url": "contributing_ja.md"
+      },
+      {
+        "text": "한국어",
+        "url": "contributing_ko.md"
+      },
+      {
+        "text": "Nederlands",
+        "url": "contributing_nl.md"
+      },
+      {
+        "text": "norsk",
+        "url": "contributing_no.md"
+      },
+      {
+        "text": "Tagalog",
+        "url": "contributing_tl.md"
+      },
+      {
+        "text": "polski",
+        "url": "contributing_pl.md"
+      },
+      {
+        "text": "português",
+        "url": "contributing_pt.md"
+      },
+      {
+        "text": "português do Brasil",
+        "url": "contributing_pt-br.md"
+      },
+      {
+        "text": "română",
+        "url": "contributing_ro.md"
+      },
+      {
+        "text": "русский",
+        "url": "contributing_ru.md"
+      },
+      {
+        "text": "ภาษาไทย",
+        "url": "contributing_th.md"
+      },
+      {
+        "text": "Türkçe",
+        "url": "contributing_tr.md"
+      },
+      {
+        "text": "українська",
+        "url": "contributing_uk.md"
+      }
+    ]
+  },
+  "md_file_links_blocks": {
+    "0": "../technical_reference/technical_reference_{lang}.md"
+  },
+  "named_links": {
+    "technical_reference_link": "../technical_reference/technical_reference_{lang}.md"
+  }
+}

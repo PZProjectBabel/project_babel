@@ -1,0 +1,770 @@
+[
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_AcceptInvite",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "08f4f1577e084d79f5ac66a1c7cc2c2e"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_AddPlayer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "abb1f5a6f14a130d6063ca66fe1cc601"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_BlendTile",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "28316d1048a9cf41344e483c464747e1"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Cancel",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "3be17066c8679a5c62c1343b058d5b60"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_CannotClaimHere",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "7c604f9d9ba401be505ade4e90e75724"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ChangeTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "55049eeff857fd95bfddf00b9160842f"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimNew",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "89d63902765d80ecd89d1200f08911e2"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_Buffer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "a7dfa8319620d78b742dde07207ed358"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_BuildingDefMissing",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "2184c34e5815fe65ac91975808e03bc6"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_InvalidBuilding",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "75088a77f40dcf2e4c476a1d165431f1"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_MapNotLoaded",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "397b8b617d9ce4b6dc19d9aea59ddd0a"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_MultipleBuildings",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "5f28dfa4144e54142674ce085845e7ee"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_MustCoverBuilding",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "ae962fc5a1d052f0cbbf8fc81b524846"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_NoResidential",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "462b6d0bd79af7011fe4f15d1a42b78c"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_NonAllowedRoom",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "e45f770c216e07fd938c2cb710b2a2d9"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_NonResidential",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "63107372624413f89b96058091ca0dca"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_RoomMissing",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "2222f7ff1520aabd4d25cd5d9d2af058"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_StreetBuffer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "a67a6071c29862090371a5ab0d981014"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimReason_VanillaBlocked",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "b1749dcfe5dc3977653bd1fafb19d7cc"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ClaimSafehouse",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "42335a21993976830d040fae539adbc6"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Claimed",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "b6c2a04a67bc2ee777390c8c42ef5129"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Close",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "76409ca1ee50bc60bb5598b342d9ee4f"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Confirm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "7ec0dd212987acb6982b8bb714fc4f63"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ConfirmInstruction",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "0ba36e02b766a00c48cc250813444a13"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_CustomSize",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "d212f25224fb6710bb1ca7594e8fd2b6"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_DragInstruction",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "1f5161d0f64888b02a2f9df6c9015f69"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_EnterName",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "6ec4fdcac86d4db3c737b2de2a213a3c"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_EscCancel",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "be8eb2721e9fa7eabf0b4ddfdb3a1689"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_InvalidSize",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "3918a9133ac89f16110a447dd87aae8d"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_InviteAccepted",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "ba9d58e33c2ddac61dfd2b2812d6c2bc"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_InvitePending",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "ea3ec9e4bc5b933b47ae1d89b55250b5"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_InviteRejected",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "ec93f0ff3915d4398e1f80841631a07a"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_InviteStoredPending",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "952b990660324cfe58dfac6b7cb24d7f"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_LeaveConfirm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "e69e7174f23d96afdca52643200d13e4"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_LeaveSafehouse",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "cef610133413d3fe2cc34417f0211cdf"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_LogEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "a21eb92978f77c1027dbc3d073cd8346"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_LogWindowTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "38210568089b20bcb8ec8a23aa26251c"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ManageSelected",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "bc8b0ac480056c67e0e5a4d3a8a51550"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_MaxMemberSafehouses",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "08bd5b751e95fc7ab1bc5dd1c281bd1c"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_MaxReached",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "2b0e1ccaeb4a1957814091f7ab3b2a20"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_MaxSafehouses",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "89b148a0e98b82c431b65b01c8dc6236"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Member",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "98f150a8e6fbd3e9004d7c0ba9402f27"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Members",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "946326cae1f979424043c85e6d443833"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_MySafehouses",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "179dd3ed7d3aba0a103f7bb133759e47"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_NoSafehouseSelected",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "c1be33bcd16f8372d8a81a9dcba1e687"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_NotEnoughDays",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "11714a1b6eb56af92c31d01606ff0e3d"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_OfflineLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "640ec08cd844c9176cd45bca09a1254d"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_OfflineTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "631a4008de898ef4ab6e4fd0f5f9e2ed"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_OrganizeDone",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "3f846aa921f25df3aa7c8d3eee4b91b5"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_OrganizeSafehouse",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "5058d8e34fd54445489633951b72db8b"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Overlap",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "b5d8b3ddab56a361a598faf50daeb11d"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Owner",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "912ad1cf958cc5e2645f43306c02e6dc"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Pending",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "3bf6f077f070ff97c397d98e629eb0cf"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_PlayerAlreadyMember",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "6daa046ec8dc61bd0dfd68438bb23f76"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_PlayerOffline",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "83372b61989c4630dcc24d8e09133a08"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Position",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "4c06e0c009804c45768195b7460f6b03"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_PresetLarge",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "121bf6beb44f02ac991d18226cca79c0"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_PresetMedium",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "a7039b56dc72f8e68e518116f6225ab8"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_PresetSmall",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "25381a169de1d2951616043837b62005"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Refresh",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "774a50f779237f5b5525c1b2c1c2b38a"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_RejectInvite",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "4989dd7b63e936840caa55401d7f9c28"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ReleaseConfirm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "a115a84f65ad6d777bb374d72257deb0"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ReleaseSafehouse",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "9cf9f0b74a775585d73622ddcc3ee020"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_RemoveConfirm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "5da6a3e97ad71455302781d911b6fa27"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_RemovePlayer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "9265e8440bac6c8a5c3299c013530b23"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_RespawnOriginal",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "3f312c1f376e40ce6f295876ad1e9e12"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_RespawnThisSafehouse",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "eb8112ff7619313c6ac84e87fa7cfa52"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_SafehouseDefault",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "dfec0966efa8ed0f434246fe5311d756"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_SearchPlayers",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "0cb26edd1d1da1617a616e59ee0470ca"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_SizeLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "b751f07f675662dbb2a57667ae323fee"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_TargetMaxSafehouses",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "c6b5c4584c346937edacc69c0d384527"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Tiles",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "f8198b2c318cade744487d78e20a9545"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_Title",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "d7a7b2bc0af38c15680aa1b2d5a5749a"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_TooLarge",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "27ccda6beeb3dd8c5c227924904c12d1"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_TooSmall",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "e2b0b78998ec51bdf8161f30f413c11c"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_TransferConfirm",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "044d106011cf4eed8a68a4bbfdc0349c"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_TransferOwnership",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "42b842bbfaf7aaedee929eeaad3911de"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ViewArea",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "bc74ab3e3919e0df4935e571225edd0b"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ViewLogs",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "7d6dd527076eca40233f1edccd2c6475"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ViewerDisabledByServer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "23469d7991a7622b88b972c389181cbf"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ViewerToggle",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "373846fb5c8ec03d76edbdce8cb9750d"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "IGUI_CSZ_ViewerTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "89f3eec2dc66c3285a363b669190b3f2"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_AllowRoomOnlyClaim",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "e277c3f46a8e32307609cdee808ac6ef"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_AllowedNonResidentialRooms",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "b3fb527f27df14ae5263b61f5586bdeb"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_BlockStreetTiles",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "e1f8900a6aa58a282aac2f39de0f7347"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_BlockedTiles",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "78f9022888233a99b2f41ba9428161d9"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_DrawAreaBufferTiles",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "a043dee3441079844295714e38aeabf5"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_DrawAreaStreetBufferTiles",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "880e3bcd8816ea70cec02cd0422edec6"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_EnableSafehouseViewer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "7a9a3005544c98f84bc8b7bec66f84f1"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_MaxBuildingsPerClaim",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "9f6062d00783e9d4e02c30dc5d4a5de5"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_MaxMemberSafehousesPerPlayer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "b3331ed613eb5816c356878b2920b18d"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_MaxSafehouseSize",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "4d6548b7ad428843669f654a9312dbef"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_MaxSafehousesPerPlayer",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "d2d826001c64250da2c5509de06ac697"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_MinSafehouseSize",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "814899d9ac6fe5e643b92bd289a2bfe8"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_CSZ_Option_MinSurvivedDays",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "6d06dc423422c800e54e470a7dad90c0"
+  },
+  {
+    "mod_id": "3696841989",
+    "translation_key": "Sandbox_ClaimSafezone",
+    "is_active": true,
+    "last_seen_at": "2026-07-03T17:00:38.9360417Z",
+    "last_seen_mod_updated": "2026-06-15T07:00:55.0000000Z",
+    "source_hash": "a76b9292d8025b0c73982a6c01db9791"
+  }
+]

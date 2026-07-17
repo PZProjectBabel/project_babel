@@ -1,0 +1,6 @@
+Sandbox_ExtendedBatteryLife::en = "Extended Battery Life",
+Sandbox_ExtendedBatteryLife::de::processed::unverified = "Verlängerte Batterielebensdauer",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier::en = "Battery Multiplier",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier::de::processed::unverified = "Batteriemultiplikator",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier_tooltip::en = "Multiplier for battery life. Lower values make batteries last longer. Default: 0.5 (2x longer). Does not apply to car batteries.",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier_tooltip::de::processed::unverified = "Multiplikator für die Batterielebensdauer. Niedrigere Werte lassen Batterien länger halten. Standard: 0,5 (2x länger). Gilt nicht für Autobatterien.",

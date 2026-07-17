@@ -1,0 +1,47 @@
+{
+  "LLM": {
+    "api_endpoint": "https://api.deepseek.com/chat/completions",
+    "model": "deepseek-v4-flash",
+    "temperature": 0.1,
+    "max_tokens": 380000,
+    "batch_size": 30,
+    "batch_token_budget": 2000,
+    "request_timeout_seconds": 300,
+    "concurrency": {
+      "initial": 0,
+      "maximum": 0,
+      "minimum": 1,
+      "max_retries": 5,
+      "failure_streak_to_decrease": 3,
+      "retry_base_delay_ms": 1000,
+      "retry_max_delay_ms": 60000,
+      "fixed_concurrency": 128
+    }
+  },
+  "RAG": {
+    "similarity_threshold": 0.8,
+    "top_k": 3,
+    "index_dir": "data/rag_index"
+  },
+  "AsOne": {
+    "enabled": true,
+    "base_url": "https://www.asone.fun/",
+    "public_mod_list_path": "api/Home/GetAllModinfo",
+    "mod_info_file_name": "modInfo.txt",
+    "auth_secret_name": "ASONE_AUTH_TOKEN",
+    "timeout_seconds": 30,
+    "rate_limit_per_minute": 30
+  },
+  "Steam": {
+    "api_chunk_size": 100,
+    "request_timeout_seconds": 10,
+    "max_retries": 3
+  },
+  "Pipeline": {
+    "batch_size": 20
+  },
+  "ContentCheck": {
+    "enabled": true,
+    "check_interval_days": 90
+  }
+}

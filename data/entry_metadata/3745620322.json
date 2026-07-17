@@ -1,0 +1,1834 @@
+[
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_BanditRaidMarker",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "1fd5ad500f90648769d3daa3fcc24430"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_DebugGrantDenied",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "6dd07b8e19478a6ac7d6f3117a8160d5"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_DebugGrantFriendlyTrade",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "ca080f3f5c3de85b50151f18c879470a"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_DebugGrantFriendlyTradeDone",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "d9e3b2ed5a1253e888cc2242d16cb78a"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_DiscoveredFriendlyOutposts",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e71c38cd37bb8d57b4d43e6e85bd8411"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlyDeliver",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "7bf6f2682aa27c40ce27e430ba02118c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlyNetworkOnline",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "2884198c38da09915dde69f3b62cebe6"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlyNetworkRadio",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "44ab732a81138c4dbb57f682ae9ec7e5"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlyNetworkStatus",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "45877a104809fa8a2e561e7cac1d16b6"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlyNetworkTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "4e2b1f2a67d0fbc54555b1347bcd1a71"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlyOutposts",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "84cbb5a321d187ce6556ad506bcb4624"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlyRadioRequired",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "f38dd8ca37a2080f1c98d7a8c772138b"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlyReputation",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "f393fe5af7760a2eefbf753c55581579"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlyRequestSupport",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "7b9ad671e027d6459c5d4b5557f25787"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportAlreadyCalled",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "6823ac85194b24af339c34b45de1a4cf"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportAvailable",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "0c0347c31d46c6e08dd400d877362baf"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportCalled",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "672c75d8e62c1f87a02bfe28abf50f48"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportCooldown",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e2f39346ec6526f124c2356bf8cefa7d"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportCooldownLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "b3842c3fd1defcea9e25fe3cd31e3628"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportCost",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "ca9cd954a049a0d0bf1faf036f3bd5f2"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportFailed",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e43b80a48e6ceb09f753357c1e40cd5f"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportLowRep",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "6e0574d25b1c451dacf06145caffba2c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportLowReputation",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "778c302fbe872f5441d7c4f7f426cc2f"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportNoAttack",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "3cb7a59b655c2cf795447ebb22236f57"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportNoSignal",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "f44a8a959f20ea32da170092c9b37fb3"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportReady",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "0a7cea0f1452811d2feff9656fba1c9f"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportReputation",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "9ae2055c21b73158636ca524332a67ec"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportReputationCost",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e02f557b9e45f4815c93c633480ea048"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportSignalDetected",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "9ea6cd4420fb2de57d15ed2fcb512741"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_FriendlySupportUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "39dbd52bbd0ef5958145de06c5ef3a52"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_InfoBandits",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "9633a36a217a11f7f5d8757beb58d550"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_InfoFriendlySurvivors",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "17cbe29d27fbeffbd79bf6a5859ede41"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_MenuRecruit",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e47eb20070b30a710727382260970788"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_MenuTrade",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "c747993332c1aa525df53002deca4ec5"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_MsgFriendlyOutpostOccupied",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "194c5cc3df22f85d2fc2fd6b09fa38eb"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_MsgOutpostOccupied",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "62775d5c2192530b8951f02c1a25d628"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_NetworkDescription",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "a54a28c6d75e669add359c319ed5f0f4"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_ReputationTier",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "665d70c2e1411725e1eac7ff5e93b0d0"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_ReputationTierAllied",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "831cfd98f9a4ffbb7331dab40a7b1783"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_ReputationTierNeutral",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "3bd7db5e7ab3c0f52f97a203d66e0b1e"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_ReputationTierRespected",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "37a3aa5956d47e0ea3bc3b7c5c29d986"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_StatusFriendlyOutpost",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "a90300b2250e48d370381b4932e3cf94"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_StatusRaid",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "511601b7b2d1d06ad7dfb9ce2e930636"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_StatusTerritory",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "6da5364f7370be6cc67906597c7f4686"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_SupportDispatch",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "0ccf0ecdef7e6f5b7f070ff52e460352"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeBought",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "0700b2f0d8250717257be92663673d79"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeBudget",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "93ef78ae207896a46608bcaced9d12f0"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeBuy",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "acc85b8d6ae3a1d1a32cf50bdf3568e5"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeClose",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "b3cd59a8e6f2d5a97a90ed6b5c9b34db"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeDelivered",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "334222b5913be98345308b0ec89e21cb"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeDemand",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "05bd75e6651877488faee9f80d9095b7"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeDetails",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "cb82a5b1650e4b19fe6ce5039633d9f9"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeInvalidOffer",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "6ddda9053007371797865dc9a9f57b90"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeMarket",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "86952d8226d59a2d4fd19278874c5e0d"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeMissingItems",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e46849c8c791ea1d606e2c8375351ce0"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeNotEnoughScrip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "79144c7258bb110169e3e25bc027400d"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeOffers",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "52148a6cecc76c6b323c95b1274e6d85"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeOutOfStock",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "eb286e9d227fb0475f642feef77b53b0"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradePrice",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "b26d7bf2e5a16a2f9d81b091e3c9edcd"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeReceive",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "67a05473899b72b89ed316a8ea402442"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeRequired",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "286e239ec4a3a9f623b7b125fad13a50"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeScrip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "b1034b7567d028c97ad76df2dac660a7"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeSelectOffer",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "78e14b0f31f19c37e3c65a1c681ce255"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeSell",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "3ce7ba0bc0680000b6a18cccbc057e89"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeSold",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "93bcbe4877057ceff97051dc6e42dd56"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeStock",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "98b81bbf899a1a568b7f9de1887c7eb4"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "649f30e9e2901404f7eac55b9ca92008"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "d2314dde72cb45296f55dbe02130e8c1"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeYouBuy",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "ce2a7008ec6e33737c011e38dd40f5db"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Bandits_TradeYouSell",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "9954f37fbd53b558a19525e9b8c1545c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_InfoActive",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "825938a30d7180c1135c24b496d774d8"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_InfoClaimed",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e827e5cab58b8ac68a71d72a9c0023d2"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_InfoCrate",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "25e2669ca97ebba081e51fbeacb62528"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_InfoGenerator",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "f9697380dc8fa83f51176cdb2afaf399"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_InfoInfestedLocations",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "b706e5468d8d802e870c5e3e48791da6"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_InfoStatus",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "331dd5feb2072d0c7fad0cc3d8738f45"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_InfoThreatLevel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "1d582b3ad00b1f0fe32b66d093ab3aa9"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_InfoType",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "d293658fb41aa9d688475d7112341c24"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_InfoZombies",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "7cd332e89e1656e381d32c9169f62e97"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_LocationNumber",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "22468a266b449f9818cf08e5b1e43b79"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MenuAbandonOutpost",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "491c4d280fc9ba425cbb761d06a8074a"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MenuClaimOutpost",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "fffafaf52642e7812bf2bd96e4092ca4"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MenuClaimOutpostUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "8d5ac2bd7434012e4b144f041ba81f05"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MenuClearInfestedLocation",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "41a2d4a91b12bec54d770b23ae3a6823"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MenuClearInfestedLocationZombies",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "ed22f1dda954ee4b893c0040e4b4777d"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MenuOutpostInfo",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "07b2f2a1930243ed5bc1f95d3ee1d3e5"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MenuOutpostUnderAttack",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "6a7e7e156df9f8d920a35a45f6fb0102"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MenuReconnectAlreadyActive",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "b719b6048091cfc47a49ba5407cdacd3"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MenuReconnectGenerator",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e66ed7a14c3004471ecae83fe8f0f79b"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MenuReconnectUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "70e97a5ac8cc095919b51da8a2f2d271"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MoodleBanditAttack",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "d0b80853a4547a07f4a316c89e6de2ab"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MoodleBanditAttackCount",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "a63b396223fadd4e14c012034e3de3c0"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MoodleBanditAttackCountOne",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e63ad56a2e5367982defe82ff584b0ff"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MoodleHordeAttack",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "081a8529aeb0665235e4f16f9d466958"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MoodleHordeAttackCount",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "d75e86d4440de36c6ae665936f63ada6"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MoodleHordeAttackCountOne",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "7255178478d6a3082f12d929f89879c2"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MoodleHordeAttackDesc",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "adcfaba3a1e56beac9bc5ca4edae79b5"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgAbandonFailed",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "1261abb09ae08793738c503d70b3bc8b"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgAlreadyActive",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e4cea8dd855d7511df2ebfad29e047f0"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgAlreadyClaimedInactive",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "47e9f05abaf6a8c4d0f9be1f54848f8c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgAlreadySecured",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "9abd2e60e2dadf8f55c4d45e6f82f965"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgAreaNotClear",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "ef2ed7b29d03e030deff12955b49a50c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgCannotReadGeneratorPosition",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "39e5cb8b2a089c789d8d75055e0331df"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgClaimLimitReached",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "60022c89874d5571b745e0a53ac88793"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgGeneratorNoFuel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "be89cdc4badec8e7be2c5f98ab9d5b3f"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgGeneratorReconnected",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "4dbc106f4267c5e865c9025673c72afb"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgHordeArrivedNear",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "dcbc7258f8d5582763a56abd5ec82b0f"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgHordeAttacking",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e8beaadc38a650490cee831840a73a1a"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgHordeCleared",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "a566e2eceb7b3d170edac13ea2165e68"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgHordeDispersed",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "9e8f278f47d1ea58454fdb98603111c6"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgHordeSpottedNear",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "5f55b2bbf84878c5997bc4728507e55c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgInfestationPointNotFound",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "45c5f0a7916d9c6186a2c6a7378b3cb6"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgInfestationSpreading",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "1e1d9f7b18df68d3727bbb3877b68bea"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgInfestedLocationCleared",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "070c82fde20526ebc6a3156723f4dab4"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgInfestedLocationNotClear",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "83ee19e8d9c85791e64f98d076082735"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgInvalidInfestationPoint",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "22a29642f82c234261a0710b2090a086"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgLocationAlreadyClear",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "a903a27b14e7284d135800697989481b"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgNoCrate",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "c740f0148bc25a4bcb99e0900d1017bf"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgNoGenerator",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "4c14089ccabb3009746fd12a9a2853d6"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgNoOutpost",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "f5fa6262b5e02977314db1d2d661c499"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgNoPlayer",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "79a97cb34d7cf5b08fc9df95d4ffad2c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgNotInsideOutpostArea",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "13c7a1513e0fcf4dfa4a921a5fb615a9"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgOutpostAbandoned",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "eda56332a16cce53183991bf8a194241"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgOutpostAlreadyActive",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "b84c610d538afb4e089667d41d8bb722"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgOutpostLostToHorde",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "b7873b03389d007083e3d1e1759cd5fe"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgOutpostLostToHordeAbandon",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "31ee70f398e1e06cf554ae7f9d600fcd"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgOutpostNotClaimed",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "98707ab765b5e7e6d45a80c95158f7ea"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgOutpostNotFound",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "52d76c921ed52a7ad97dea7486e6217a"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgOutpostSecured",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "70aa255c145a32a2b6146942d139216a"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgOutpostUnderAttack",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "d65e6b693c48e1aca4a0905b5d19418b"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgReadyToClaim",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "778ba2b32a2643e07f9a923a1c308320"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgReadyToReconnect",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "2629794de02ad8f9f451a50671386d0b"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgReadyToRequestClaim",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "cb2fdb79c4b256efaffe926d27fd41dd"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgReadyToRequestReconnect",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "0766d757040d9dc6ac0ade4b31aa1803"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgReconnectFailed",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "f4ce09ae5c62e98de4d3714e1ccf6ca6"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgSuppliesDelivered",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "70e632dfb8e31c1383a9c70fdef751df"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgSupplyCrateMissingAbandon",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "6fda44fd39c8625c0850eac10c775b66"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgTooFarFromInfestedLocation",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "539b47c2be5c5e47e148d2d736935e55"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_MsgTooFarFromOutpost",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "5cffbaba06ea7af780a85bdd8f8f9579"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_No",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "dbae96de9c5deaa0f318887c073480fc"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StateAssigned",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "86fb92380e102d77c84586c48b427ca6"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StateMissing",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "7615585c41390a9266cfe4c175274731"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StateMissingNoFuel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "29ab74108c75b58b81ba747a811865ca"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StateNearby",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "8c2807df8d2d2fa5eebf964ffbffc093"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StateOK",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "fff5dd13b9a20434e5fa953d1a67c7cd"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StateRequired",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "9997b9c6782c59b872ebb5dd992c296a"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusActiveOutpost",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "6af500773a759399edc6f18634cbda50"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusClearCrate",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "0637fa535015ce9117f06575428254dd"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusClearGenerator",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "8875f5d60b07d549e2dd9c3bec34fc2e"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusClearReady",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e6f2844e08e2155cfdb60bfdd57cf988"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusHordeNearby",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "80654ea6a22b8b61faa68a4061059f7c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusInactiveCrate",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "07d35689d56de0a16100ff5887abe3e2"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusInactiveGenerator",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "62b52a698a57035e0c569d04eaac63f3"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusInactiveHorde",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "49123bc6b26829c44f73e06edc012bed"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusInfested",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "909e2a984627b59d92861c3c801280b1"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusSyncing",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "86878a9f7cbb4ad0e65ae910e00bf9f2"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusUnderAttack",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "57c407acb0a465b8fcdcc35a5f43f9c1"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_StatusUnknown",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "12ef020aaaf0db2e3056865a9ba814eb"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_TypeAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "07953df1ba6113d688e95c566c5c944c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_TypeFood",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "0c4e481b882bc7518a0ebb25bd9868e5"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_TypeFuel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "fd58b98910afb9852d75624c5d92b8f0"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_TypeMedical",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "acd7c67f7f52a3c55b10e8f44e6ce78f"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_WaitingForServerState",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e387caec3d41e4c79a16b1df235cb4af"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "IGUI_CO_Yes",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "91fe377ae4f005dee1125559e99e7cab"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "cd13bec4b0878078ba223d0638e22e12"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_banditOutpostBandits",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "212021cdbeff88e9aac1fdf842892f67"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_banditRaidIntervalDays",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "7cd76a51c12bc6d4b7ac8de2268aafee"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_banditRaiders",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "24fc64f504d6aa63705d89f37ef5896a"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_friendlyOutpostNpcs",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "9aa23e2f6616d156330f1e55495fb599"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_hordeDaysThreat0",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "c77118ad8b8a396a07dac29ed1cf54b1"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_hordeDaysThreat1",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "68caa1751217111fbb9852a32b01dc53"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_hordeDaysThreat2",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "ebd6df1af8e7abae9e6588445c490aab"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_hordeDaysThreat3",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "5c788a24adc382daa04b7482358e8182"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_hordeDaysThreat4",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "7648dfda2fde39a19d3103c1b1fa02da"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_infestationDaysThreat0",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "bfc5287f11a33f4d0bf70436ce546138"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_infestationDaysThreat1",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "fa62512a8dd80eddfd558a597e8b8cf0"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_infestationDaysThreat2",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "8d466b6ba4bda25093124ed382b94a38"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_infestationDaysThreat3",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "07d4422ccfa377003471e622858c80cf"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_lootDays_ammo",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "4c3090d43e699e68b4cc489fb6d0ad45"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_lootDays_food",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "fb0cc8c8809269e04751951d3a402541"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_lootDays_fuel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "35be5a07c001e50a89aa82d657cffb40"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "Sandbox_ClaimableOutposts_lootDays_medical",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "2f3eb1d5d77c36a1d8d83cbe6d22d5c4"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_attackMoodles",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "1b3963ea91569d4d602d315db7b38b91"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_attackMoodles_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "3b66c3752f52242ed7636958380820c3"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_banditOutpostBandits",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "cde3e646b2d983dd7a84a8a0488921b9"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_banditOutpostBandits_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "8ae1beb5398aae12c8d8bb0cb24bd8a5"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_banditRaidIntervalDays",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "9b1885d39949e6cac24feb877ca998e0"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_banditRaidIntervalDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "949e8f13099f02794e9d4783a74c9b1b"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_banditRaiders",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "646a40576408551f580b94bfd889a44c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_banditRaiders_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "f53bd99417cd811cfc1d7ae58a805354"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_friendlyNetworkKey",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "d0541d28ef128f2db579da0d704e7519"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_friendlyNetworkKey_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "4b5d67c2040758c5ba57f8a8393ea348"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_friendlyOutpostNpcs",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "87fb85294f3e4f763c6b29abe1acd820"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_friendlyOutpostNpcs_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "a30b305d84f7b2e8a6a3e595c2b2bba5"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_gameplay_note",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "4ee96f33b000a6fd56108d7e8bedad22"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_homingPoints",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "eb335f1a5537c0c322b59fe8f68b276e"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_homingPoints_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e270a46f2fe262ca70b91d92d8e7340e"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_hordeDaysThreat0",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "97b39c58668f2cfb66683350d2452368"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_hordeDaysThreat1",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "de6169df10e84b621eded9aa1952c641"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_hordeDaysThreat2",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "d830a690563ab11e35e844773f3c3a35"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_hordeDaysThreat3",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "d1d2e8dc92d3a539ce879101585a2028"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_hordeDaysThreat4",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "307fe702233fb3e8883e7d46b6f6c7b7"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_hordeDaysThreat_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "50303798a3e26ddb639a9e4b4d55fa65"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_infestationDaysThreat0",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "fda34cecc326bdeb01084ba4af66c2e1"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_infestationDaysThreat1",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "7992ace093a333de7605fa21b486863a"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_infestationDaysThreat2",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "79e3ffb92a0219d7b1f9c66801e853c2"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_infestationDaysThreat3",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "bd140fbd6fea72e5a76fd5dd4adad2e6"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_infestationDaysThreat_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "4ef2be0c176567cb34aa2c2dab844a90"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_lootDays_ammo",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "7be2ea645143742cf647a736a623da21"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_lootDays_food",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "89940871212c83a8d9835ff1dec211a7"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_lootDays_fuel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "cff57c991abc718fff427d4a2f8c5db2"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_lootDays_medical",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "69f751d35addcfdffc9a1ff084e4f744"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_lootDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "feb11c0ec445014df1355e6dc33a4931"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_mapIcons",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "cf7bd6f233e375af77ebcb16ab4c781a"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_mapIconsShowAll",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "fe494c0ff21f4adf819a1260931d3e83"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_mapIconsShowAll_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "671c3dad529284654c4263c276b4ef19"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_mapIcons_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "7fb1aaaf367c91a54f3fc60c84e7818c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_name",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "e095110ef75b7c3260fc697b6b9774c0"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_threatDifficulty",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "385d2aa08090d6521d1e345d63863e25"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_threatDifficulty_easy",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "17ef43d5a6f696ab69b78589075edcee"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_threatDifficulty_hard",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "74a7268686ce5ca93ad3152bdb79b158"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_threatDifficulty_normal",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "b57ff0c27f01573f67dfdbd02b473841"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_threatDifficulty_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "ff02de079fc9611f5042dce78cbc9c11"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_title_controls",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "6156053934dc61c445e0da6f18ff85b6"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_title_gameplay",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "a79557e098899708916891505cb2d9d5"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_title_horde",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "d4bb7053be8e96bb2ffef613f3937b2c"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_title_infestation",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "c1881382d0bf30ee2cb9b7812512a9cb"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_title_loot",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "506c83a3b0aac01eddbd640ad16d49bc"
+  },
+  {
+    "mod_id": "3745620322",
+    "translation_key": "UI_options_claimableoutposts_title_visual",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-07-11T14:32:21.0000000Z",
+    "source_hash": "4801725320f8e59092eee909115a292a"
+  }
+]

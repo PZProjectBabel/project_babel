@@ -1,0 +1,8 @@
+ContextMenu_P4AlarmSyndrome_UnsetAlarm::en = "Unset Alarm",
+ContextMenu_P4AlarmSyndrome_UnsetAllAlarm::en = "All of the above",
+UI_P4AlarmSyndrome_Options_AutoUnset_Name::en = "Auto Unset",
+UI_P4AlarmSyndrome_Options_AutoUnset_Tooltip::en = "Automatically unsets the alarm when an item is picked up.",
+UI_P4AlarmSyndrome_Options_ShowIcon_Name::en = "Show Icon",
+UI_P4AlarmSyndrome_Options_ShowIcon_Tooltip::en = "Displays an icon on items with an alarm set.",
+UI_P4AlarmSyndrome_Options_ShowMenu_Name::en = "Show Unset Menu",
+UI_P4AlarmSyndrome_Options_ShowMenu_Tooltip::en = "Adds a menu in the context menu to unset alarms directly without displaying the alarm setting panel.",

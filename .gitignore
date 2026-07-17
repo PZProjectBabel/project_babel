@@ -1,0 +1,50 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+TestResults/
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+*.cache
+
+# IDE and editor files
+.vs/
+.vscode/
+.idea/
+.agents/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.editorconfig
+
+# Python/cache/runtime
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and local environment
+config/secrets.json
+!config/secrets_example.json
+
+# Pipeline runtime data
+temp/*
+!temp/.gitkeep
+
+# Local downloads and archives
+*.zip
+*.7z
+*.rar
+
+# Local reference snapshots
+project_babel_ref/
+
+# Keep steamcmd binaries
+!src/3rd_party/steamcmd/**

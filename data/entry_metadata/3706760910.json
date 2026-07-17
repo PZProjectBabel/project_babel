@@ -1,0 +1,738 @@
+[
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_AgeLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "437994acabc92853363d23304268213c"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Age_Adult",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "a4251360653734eba8008d33ffd5da98"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Age_Elderly",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "bd9cc090cb34f16187c48ec63c5acf97"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Age_Young",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "6a06b324a46439c6aa06129ec39fa04b"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Alert1",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "872eddf67b7b55d13547b6e3b7ed7944"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Alert2",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "224f64519a278f3369d0c51924daa0e5"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Alert3",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "a134eb98f4b607291ca491cda8e76870"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Alert4",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "4ce4a63a534e77fbeaaa874c621a038e"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_AlertSettings_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "a7cadabbc16057692d6edc8616874e42"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_AlertSettings_Title",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "f27511752ce154243ca7f58dbe209aa6"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_AnimalFilters_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "c99540d7f7f236e341a579b8d814d68e"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_AnimalFilters_Title",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "b2d8411ccab3b15f6eb42b81f5fa18bc"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_boar",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "c5002a7815670ed3321845a4aead39d5"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_buck",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "7d3c2b1dd53927bbc012c733f3b46a8d"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_bull",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "bb4f7aeb12869e05fd555a932334c787"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_chick",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "795d1d8ef3ddd319729f3957977337a8"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_chicken",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "adb0d686b66ac2cb04b5588f9a7e0815"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_cow",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "25fae187c2c86de109cb5b41431d5d28"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_cowcalf",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "f0b153e8351293e5cda5037fea6fa402"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_deer",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "756efd00f74937be813ac690cc451935"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_doe",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "d41db563554ca02e0819ddf4ec9933bd"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_fawn",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "68371bd82fb429246145b45eaf232fef"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_filly",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "eb7508ae7ac791dde80386af2929d504"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_horse",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "408b62fcbdb3458a79ff53e46a980d4f"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_lamb",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "770064456a0ecd0c696ec4c551016dd9"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_mare",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "7df0ba075752245e716e7a30eba69bfc"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_mouse",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "cc1d7048bc28ffd19c78f179b3192cb3"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_pig",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "c42fbdd17df320dc42d8dda4ed2d947a"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_piglet",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "2960e8652e96f9e9eb4e890cf5e9ab51"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_rabbit",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "51d3306e261f7f234598027de82fd594"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_rabkitten",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "80a69360563775f3689d02b22cda8821"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_raccoon",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "72d5e547df59868b0822dbc90e33d21a"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_ram",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "9b2481fce6b21f186e4599f8fd099ca2"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_rat",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "478b4beb1c8d5c9faadf175b617b1e08"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_rooster",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "2e2d71d51339d6b38f852bec921eef8d"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_sheep",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "02a42755f234dc5ca8f85a7865659a73"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_stallion",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "e1f36ceb6c4b6e6ac2ec8f31abc5c76e"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Animal_turkey",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "df5f644f5d2557d3c23200b6705a5d15"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_AppLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "69feaf849b608dba81f0efc385ed8e6c"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_App_Normal",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "9f3fef53d31a739299b5781d5de9592a"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_App_NotThirsty",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "e4a53c1171fd1e78e908dff8226dc897"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_App_Thirsty",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "9d01bb027cdc29f5a132267320dfaffa"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_App_WellFed",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "5777c187e709739fb1c980979c6205d4"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_AttLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "d3b498bc3daa5d90976f2b6c2da93e2d"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Att_Calm",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "f2f0aed002806da401e7abb4edb3015b"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Att_Stressed",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "ece0543b1ad69703520697db77da5865"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_BtnOFF",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "b345dd225d9525e0d7152452feb05290"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_BtnON",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "358b15a39484f91576fcb88710e17d05"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Details",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "b4002ea84b77cc2a3f4ee023f85b7833"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_EnableVocalAlerts",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "de1a6c1e7cc2e48260b4c17e333220ef"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_EnableVocalAlerts_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "8692aca93363bafd66d98a1f03568a9a"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Gen_Female",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "e33c8aca71450808df5de63881beb83b"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Gen_Male",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "30fbd78615740868528def757a46baba"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_GenderLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "6ba29c1abd1aa95b31b8242879821791"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_HealthLabel",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "2a4c0d3a8e5560c3099a2c2474dea73f"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Health_Critical",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "6493137e2eab3f7325b03669de01ead1"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Health_Healthy",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "25669ea910b5be79d87bb5a509a5e34c"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Health_Injured",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "018444bc549c12aa5eb04d452ad6fc5c"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_MapSettings_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "08599c8ea5d24e7c8063b7436e3a6b75"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_MapSettings_Title",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "28e97b95a96070378f9bcd630ff6f917"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ModName",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "a3d791911b500f07d68399ba185d6910"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ScanRadius",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "8d95623fa4200c8219c127edc025842a"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ScanRadius_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "8754749efb1acbd0b4c10726e2afc46e"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowChickens",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "42955e0212f48b65dd78ebb7bf514a62"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowChickens_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "6f4ff28b7a0c67372138aff6839ae07b"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowCows",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "f0ab5b080d1a3ea2509d17eb89ca4637"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowCows_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "ed3ac401bb08ac1fa461e44bc646a5bd"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowDeer",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "a93fa0197ddcbeecc98bda486a08609c"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowDeer_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "15a0a9a1ada9c856a774ae9d942fe468"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowGender",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "51b33633b4cd742db39fd1235186ad86"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowGender_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "31f667adf4e47e4beff08e9116d777ad"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowHorses",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "0db87c8ab2b20c4cb0efe5e4f0ab3b7b"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowHorses_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "553f2a6631f6a2ba50c90eba2f4bd22c"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowMice",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "0a9d66a8534e72f6d71182aad3fc04d8"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowMice_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "0f8d7b63d245e397294f5979d87334e0"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowPigs",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "353101aa5d59ba770af64bc06eb5d19c"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowPigs_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "81c0d20aab7c85843bb09954c30b341e"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowRabbits",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "48be940a1b7944679686c902ba91de30"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowRabbits_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "42ad1c3aabfdbd335e031bc8726dae8d"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowRaccoons",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "6c1333d945df1f328b3a6ed2eb55ad51"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowRaccoons_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "9e4c7cfb88dde7c1c5c641de52858d06"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowRats",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "902f920c98e6f95f069d924cfeb568db"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowRats_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "60862faa4e637de4b7d54eccad6c7f2c"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowSheep",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "5455dbfe16367bc180687d76abd6029b"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowSheep_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "52d4b7b133c76fc3b9853801d72f1386"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowTurkeys",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "864914130c1361bd25a2f6e22ebda0aa"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_ShowTurkeys_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "72fb4e30a61da9ebe2c8e599bd97dbeb"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_StatusActive",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "d46286fec7103219fa3b0cf59f8c2407"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_StatusLastSeen",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "13dca8e8678e7b0f180f5bb1575b1b02"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_Unknown",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "d22cf8d6e7de8bdb1b6ff24fafdab535"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_UpdateInterval",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "004011225ee5cc80e10cf8351a480fad"
+  },
+  {
+    "mod_id": "3706760910",
+    "translation_key": "UI_AnimalTracker_UpdateInterval_TT",
+    "is_active": true,
+    "last_seen_at": "2026-07-13T15:39:19.2725977Z",
+    "last_seen_mod_updated": "2026-04-21T11:55:22.0000000Z",
+    "source_hash": "ddf00e7489795f682ee6d2cd63562149"
+  }
+]

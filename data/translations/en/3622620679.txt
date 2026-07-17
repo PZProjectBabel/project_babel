@@ -1,0 +1,5 @@
+Sandbox_HideUnseenRooms::en = "Hide Unseen Rooms",
+Sandbox_HideUnseenRooms_Blackness::en = "Darkness Level",
+Sandbox_HideUnseenRooms_Blackness_tooltip::en = "How dark unseen rooms become (0.0 = visible, 1.0 = completely black). Recommended: 1.0",
+Sandbox_HideUnseenRooms_FadeSeconds::en = "Fade Duration",
+Sandbox_HideUnseenRooms_FadeSeconds_tooltip::en = "Time in seconds for rooms to fade to black (0.0 = instant, 1.0 = 1 second fade). Recommended: 0.3",

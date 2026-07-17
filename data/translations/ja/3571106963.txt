@@ -1,0 +1,8 @@
+UI_DeleteItem_ConfirmMany::en = "Delete %1 items? This cannot be undone.",
+UI_DeleteItem_ConfirmMany::ja::processed::unverified = "%1個のアイテムを削除しますか？この操作は元に戻せません。",
+UI_DeleteItem_ConfirmOne::en = "Delete '%1'? This cannot be undone.",
+UI_DeleteItem_ConfirmOne::ja::processed::unverified = "'%1'を削除しますか？この操作は元に戻せません。",
+UI_DeleteItem_Menu::en = "Delete Item",
+UI_DeleteItem_Menu::ja::processed::unverified = "アイテム削除",
+UI_DeleteItem_Tooltip::en = "Permanently remove the selected item(s). This cannot be undone.",
+UI_DeleteItem_Tooltip::ja::processed::unverified = "選択したアイテムを完全に削除します。この操作は元に戻せません。",

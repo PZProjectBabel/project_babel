@@ -1,0 +1,4466 @@
+[
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_ContextMenu_InspectItem",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5c61ebddaa0ad6ba9fc2e3105e14939c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_AmmoBox_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8a1c259f77617d99cf6e13bf7770d2e4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_AmmoBox_Count",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "fe94645f6ebc008efa8869d711921f71"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_AmmoBox_Description",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4a6debfec9c244e41772c9c7e93e2976"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_AmmoCarton_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8e57dc9d8e8270726057b9e9d7e3d9d5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_AmmoCarton_Count",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "393081e4c7ab309b91a91478a3f17297"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_AmmoCarton_Description",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d74fd20da67c672700fdaa4cbd5956ac"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_AmmoContainer_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "829c7cb7c1fe6e7cee56789bdec17e5a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Base_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ce30b5371631df7321fa1e3faf0dfb90"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Base_ImprovisedAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f35527c392a8654d2606944b487b5f29"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Base_PistolAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "bf11f54eb31ba78862750429cd5c55a3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Base_RifleAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "94b100196e86d25aab671e107098df72"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Base_SMGAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7c09dbf130a0ae24167ef56de676d99d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Base_ShotgunShell",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b1f5598e18cf54f2786a8b6e97248b6e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Base_SniperAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a0de4bff9376e87f9efb71fecb010f7d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Description_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d35adabe205e704d8095c2a131d1611c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Description_Caliber",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1fff2f08b2a063eeb05e0590d8da5000"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Description_Count",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "37dfe1716a219cad3263b7227be2399d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Stat_AccuracyMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "015fd02aab0927e2fa8719a3dd300a53"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Stat_Caliber",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f027eba634bfdc6b5dd2a13dca2c1c5a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Stat_DamageMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2b964f94905fc411caabba3645d4902a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Stat_Grain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "fd856c99ce30d28b25153e09c099e43d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Stat_NoiseMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3cf471cd25ee0dce8883f268a066d6b7"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Stat_Penetration",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d8f16b807746f944b6462f4022737056"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Stat_ProjectileType",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "da01e7475122c4b9a300b00fa0ef179d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Stat_RangeMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "bd5b6e559d01b263512f1dd692e4faf6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ammo_Stat_RecoilMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "20410be9edd241fab6fa03a4f2c3c446"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_BiteDefense",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b4b8d21ee4a085e69b7a4af66a79ba88"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Book_Boredom",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6711b8787f4fea8ef71fa7626fb58473"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Book_Description_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "635b79ca933a5d5e13488fbae151c4dd"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Book_Description_Pages",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3bb34c970dcb8791d5021a9dfc6575af"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Book_Description_PagesLeft",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "84572762bfcb9170fa84a4f5985489c1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Book_Description_Skill",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e9a0e03de379e86070e2de31506f5ba9"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Book_Stress",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c2eb0afcfd75b7c33773a371f17e2762"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_BurnTime",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "af261e287345d375022c5d20c3e6ee11"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Burned",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5848be449174e4833d5db4c6f5147f55"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Calories",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4c8c7596fd61986be45c12ed24ebf8a3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Category",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "03d000c7aa26a24a1f799b800684a3c5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Base_Accessory",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e65da73390a02441e046ef4b7d0bbad7"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Base_Armor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "23f016ade1e853c6161823b42104d15d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Base_Bottoms",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4286cd33e521b242fc82dc5b591f6ad1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Base_Facewear",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "217b570f74009d231dcefb1eca11ce31"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Base_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e70ffd960c56e676c27d7e092d2a7d89"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Base_Footwear",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1247275faebf27681510122415421b17"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Base_FullBody",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "50b96cea2d68fa0d9f234466659d9254"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Base_Gloves",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "997c071f95153fead6ff0b775362064f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Base_Headwear",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b2ca9407765a6a1b91e0b44949ab15c5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Base_Special",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8826438c34dcb0e2f013aa0f87a7b9fb"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Base_Tops",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "30378f624b626340fcc435731d4553eb"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_Armor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3656bfdd16787411a4bd3a3d3b0f5a4f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0db210a033b4a3d86e249fe75dfe1fa5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_Bite",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "afc8784317e5ae72407fd5e6c7140768"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_Fluid",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9ecd6c4d4f2e11eae80ce2e0fee5809d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_Insulation",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3b29c14abe396b250633aad3a3474d5d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_Layer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7b2202caf3f9298c386c6eb171ce8621"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_RunSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7fcdeae6835eb0cf96108e491797908e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_Scratch",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3ce9975872198b79435a8853dbadfe23"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_Water",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8c800c1cc31f2b2407c3f85b2a53f631"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_WaterRes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "064a33d793007159519224666a62dbf5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_Wind",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e421c7be66df27cb39df7b5fc5304af5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Description_WindRes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e5992cf54e1b5e77f23818211ef3001d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Stat_Bite",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9790367bc1099d6407e5e7b94275291f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Stat_Insulation",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "270cf5772dfae4af01acc1d0ccbb162e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Stat_RunSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4bcd41b147cee5ae9b7f09aa77cc6264"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Stat_Scratch",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8f2b6d399ab5adbf0cd94bd656fcfce2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Stat_WaterRes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2db7215c72678549bebe6be4cc3935ef"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "55709c3efb1c2c10f7b148f57c831220"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Clothing_Stat_WindRes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3bffbbb3ff8eff0d443b22284989fd7e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "68d657ab4af9b5d28b0da1bcba8ef3c3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_CorpsePart_Base_Line1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2ef5251dbdaac151d5f9b4ac9bcad890"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_CorpsePart_Base_Line2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3359e3ddb39c4a80f5d40f67520393f2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_CorpsePart_Base_Line3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "bdc50fe34ad1caa6d2be1fd04f19909d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Base_Line1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6ac709a40e3383b1c99ba2f4ca2a3586"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Base_Line2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "23ef1f6aa44836d1bbf659f5488cd27e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Base_Line3",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8ba9ec69d6c8ac6ac004bdbcbad0b378"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_DeadAnimal_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0b99a6fb83d044900cdc38200e3bf7b1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_DeadAnimal_Hazard",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6d1b429ec841d5deed4a2fb730114b08"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_DeadAnimal_Use",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6b04e86cb50a7380454d8991e48fc82c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_SpeciesFallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e7e1c52db1cbfd45cda9591761d60792"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_boar",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1b5574b5f449ec30a00d557c6aba5808"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_buck",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "227f476ccdb0d62f92618bdf7c7d0157"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_bull",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f98dfe7f40f17ffec2cf788f2a49a1ce"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_calf",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "44f44056864c56e6d0884e9490c25c06"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_chick",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f65e276f5cbe507fd5a0721258ca1c16"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_cockerel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "461f5fe948dc49388bda7837deb705d0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_cow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "df69b599d8efa895b5edd537404d3c1c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_doe",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ec5d599a55087ec8beede26269c8232b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_ewe",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1d9a2f38233b8bf6bbb6f7d8bb275455"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_fawn",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "68716c31ddabc3db51d76402d177ef87"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_hen",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c1e2fad9932b8acb1defd58729640337"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_lamb",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ac5416ce99f49345ddf1c5e1f1f4eec3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_mouse",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "bacb053ecee2b89e612cbf17ff2ed0b5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_piglet",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e636f6b5d1d636af7d4d1739223276ee"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_rabbit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3590c60a8a242aaceabc0620064805a8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_raccoon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "59b442aa6570ae940b3a0f06e57a68ae"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_ram",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "820e38aa597e34cef6144377d514e397"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Corpse_Species_rat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ed4ceb10769af6dd9d2f4211cc2dc057"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_CritChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f1e261e1c70f8abdcc4e63a840752b47"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Damage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "34fb08612d9d2b66f88139394be2bb0c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_DamageType",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ec11d5aed2cca962d26a290fedb5fad2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_DisplayCategory",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7d320ee47e71b5ce84e24e7ced07465b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Durability",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "57901b57dd4349dcbfcd21d58f7bbad0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Audio_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6eb1871746f6766ebf3f3611a1fd1c88"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Audio_Use",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "264165c8af18b9c23acc96101134a290"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Battery_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "28ee29e7cad40e05759f7fbb10e36bc0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Battery_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "005d5c37e7ce5d69513865bafcad258b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Ent_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e4a5870c5ca25094af5036232b25a9a5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Ent_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3f5c7af3cacf31560649cb320e5b5b3f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Generator_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "24e10219a2f12a9121818af0b8f5a2ff"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Generator_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "bf895deed3b4905910935fdde869b444"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Generator_Warning",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7a43becb1b92598e6cb234bc9d383bf1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_LightBulb_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9701798a5a93512b5cdf2ee5b9517ca3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_LightBulb_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9173b0f96b050619c745a96c76e04ad9"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_LightBulb_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "49e0832ec239846f12641052d88d7a94"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Part_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2f94ee8187d3b5260ebf166a1a892f3f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Part_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "994d3e00b61b4a7898f727d29370dc21"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Radio_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0db685b67a53d1d45a3e7e4d64cdaa5d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Radio_Info",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a4905a9752577555f4136af253b282b1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Radio_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3f2cdf905928cef8b0bc749ff0e5add7"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Remote_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7960517863473d5c76097456af7c6c99"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Remote_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ab0ee071fa6e6eccbe0b2056cd896c87"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Tool_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2e8af79c624a0f9f8f2efeb6ee0215d1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Elec_Tool_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "89ab7822ca9117043db81e276c734ae0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_AudioDevice",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "58c0a968d2a11da9a185d657505303bd"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_Battery",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "88ac270f3b99dd9a9b3a638f3546b877"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_ElectronicPart",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4bd2201d2b924acb63e68b8bb12488c3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_ElectronicTool",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "15e53202e45cebe600d93eeaa4661fba"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_EntertainmentDevice",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b3b6764c196f82e5012e4c908a7404e6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8c2930488b739cc9000027f4d95c25e8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_Generator",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7f1cb8f74fc2f8ef886bae8b8f68943a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_LightBulb",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c80db4a6a7039422c8f3981aa58ff185"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_LightSource",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2cc0aa4ff4ba62ac6c4110fc67d271d2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_RadioReceiver",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3ff6510cd06b167d62e9c7de3d895ba8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_RadioTransceiver",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "01db149a00e52b1f657e05ed45ec903b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Base_RemoteController",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ed593eb0de8e2e8610ee8a16c83a6866"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_AudioGain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "467aeffdffd8a2824b1a69230c91fbe0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_BatteryDrainRate",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "08c90ec078e93b5536e11aa5ccbf21f3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_BeamDistance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "fbf5c08bb0c0791d492fd84d280d548e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_ChannelCount",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5a24cc33fe074eeba6c7cb208993bfb6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2ed584adb54a1a6ee536583d7c05bb32"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_FrequencySupport",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "59ea7c82d87f46153ba01744c0d99a5b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_HeatOutput",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c55e53582799805186654286217a8d12"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_Lumens",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a983f2fa69297e31c9c4a5d4cbf83c15"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_MemoryCapacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "996ae48d9238e40b0de9519e9b9e8cf3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_NoiseFilter",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "297a7693dcd5321ac6889cf306e7b477"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_PowerConsumption",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "86928fa18473fffdcf1e6b4cb62a9bd3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_PowerOutput",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "03a90fd060d30a9f6657aa6cb99104ba"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_RiskRating",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6acf1964d64ca479db3b61e764812fdb"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_SignalClarity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a9d56ff09283db83071d6fd075bfdfda"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_SignalRange",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8991f7b400f27c47cb0693416a4f365e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_UsesLeft",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "98d19ac8bc79bc9747f1db013b844520"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Electronics_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ccd39751136a5ad9a23d13020025325c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Backpack_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4ad70932ec5c6743f2c0e259b6eae29e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Backpack_Capacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e894f3350b5f039a7534da06fc41c048"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Backpack_WR",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c42c6313ee420cbb0f53f24589e6e686"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Box_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "969a4d87f3a1251b21858e953e7000e7"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Camping_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4298568a0b08df804bf53d0560e48793"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Camping_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ffabae9ab9d75e8e4c605967375383a2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Container_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5af0365b1d9be34ecc16cebd8a5b3fd4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Container_Capacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0e675618cffaaf3df3af9b0c9b0e7e95"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Cooking_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8a01a0aa551ca0212f49466b9580b85d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Fishing_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1774616958f2592ed74ebf7d0a0c7a4d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_GardeningWeapon_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d6c383842f4a5d7c5a66bfe84d360999"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_GardeningWeapon_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0c20abb34cc97705799b0ee1c5dad540"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Gardening_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0c8c14236e16fe3822d540ba4c7b0087"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Household_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "391cb0c95a792d1cbc2fd3c241b712e4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_InstrumentWeapon_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4cbfb034f1cf9dfe67456229c072a76f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_InstrumentWeapon_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "fbb82d164cfa1667356ae8ef4656bd6e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Instrument_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2854b60f8d7b6f1210a22dcb56ff7364"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Keyring_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "dc33346a150f399f15dac14b6e3891a0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Keyring_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1d20a30868abccf56fd448e53906d894"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Opener_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b7c94cc6813d6ba6bce5191309b30fc8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Opener_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d45bfd895ce5f3e01d1348ed56b4c80b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Paint_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "32db3195e7274cbfbe8da20c180e8dd1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Paint_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "eff8e0bca5a0fc5324311d0195906fa9"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Paint_Warning",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9fc9ca80b2f45cdf0ecbe75b5b10cdb6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Security_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "20d96436f09b93a6202f7e6e6d3b5e04"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_SleepingBag_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "967192084850927a5a5e2ce31252f7c2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Sports_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f5491ad8e224e99ee308ba4044c6857c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Tent_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f687fda1d38d9886494c01bcd74da539"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Toolbox_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2237a3e13b749b452d3034b4243efd1b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Toolbox_Capacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "80e9f437ff0c33126a2ff1c70c3e9e0e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Toy_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f79576f15bfedc8165f1397016bffe7a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Toy_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4ab2cc86a31cee5b89bd2ea5054f6bd6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Trapping_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7927846c5bbd018e505e6b1d2fe27306"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Trapping_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9f260e403dcc440dee6051bd5bc8772b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_VehiclePart_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2d19049d430090fee3f259aa939b3866"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Wallet_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "bff5afb58fd7a6fd39f84d7b4542a01d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Wallet_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3aa63001598c96d3fb571c1843f0b53b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Writing_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "778fd5d39d6426d15eb304316402058c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equip_Writing_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2aeffcd4e70b91f88ef6a7a20018353e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Backpack",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "30207fadace8e0cb3f7955e17bd283c0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Belt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3bd9d5e09d6d15b6fb2227630f54207f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Box",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ab3d57e3590fbd0286096803d474ba7a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_CampingGear",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2adc65de1743b495214202daf9b690ef"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Container",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8d2cdd482ada986ed5053e39117feb36"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_CookingTool",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "11bd6583a6fc1d2b1e641756b560427b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "cc67dc646671c74e3f4db17a71873100"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Fishing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "efb0b5fae988a5a5a3c49d546b71fe0b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_GardeningTool",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3824b3a577fbc0fa284e77399f428dde"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_HouseholdContainer",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "72c46d719a3ae9f87647f8a6e50a3b3d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Instrument",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c96edc5937e10d999d0c9512890ca57a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_InstrumentTool",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f1a605eb02bb5a790be22f9d81811f76"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Keyring",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0f36c800c470308a7788e5caeece65b3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Paint",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6a0dd817bcc43f5592520bfed1f283da"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Pouch",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2bb4c39fe83f483a7cbeb7d988139612"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Security",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "afd8d751c57d6e448af033f19a6295ca"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_SleepingBag",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "aecc3e9405125ac6764b827665596196"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Sports",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8df9c96691cec4ae28c0481336778da6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Tent",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9452c9d9771b16f9e96c67043eef5c97"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Toolbox",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "87955602e140570f5985c4fe109afb66"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Toy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d85e5bf1414e48e35d2cd7d93ad0f02c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Trapping",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "100dc89ed6e477e21773ad9a17697884"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_VehiclePart",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "11ffda649ba703b3b0b3efaf5068a702"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Base_Wallet",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6d4d751f59db1fa75b4b153dd7448cc6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Stat_Capacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "902168b1861e080090ba6965b3d642c1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "63c990044faabce3ee809f5ff20e03c3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Stat_Liters",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a43cf0f513560341dfccc62fba1aa4b8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Stat_UsesLeft",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "51f2928e61460546255f3d5c5f70b70f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Stat_WaterCapacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "365c59770cd6cfb922a9406d5bd61663"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Equipment_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d04800dc2e93f7dbe57a8e172070a380"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Explosive_Description_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "855044f9370601393328e06ad4a362a9"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Explosive_Description_Damage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8b8bb67da0bab3690f88ace0cbd18309"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Explosive_Description_Noise",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f96120a8abe38c98950c9208dcc2390f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Explosive_Description_Range",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4e9917131b4668cbb97f1e8757c65e85"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Dynamic_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "68122d5ae371d179b570300172c0f166"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Dynamic_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "928ee07d9cd78b215d43cc8c7b9adcc2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Primary",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b1e5c86de61710c604fd01b918675714"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_StatOnly_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4a397a06720d2b4aed9bd2a3ba9fccfe"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_StatOnly_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e6aeb70ced1d72e81087e5ab98650981"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Stat_Capacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "34e6904e2b505feef1689b89e63b4d57"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "df224bea8e8ddcb8b643f46093c5036e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Stat_Energy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4df63b596b6e7c469cdaf308b1d56b89"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Stat_Fluid",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "360229881d508862747bb89fc3d19513"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Stat_Integrity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7105921ae85c036cc77f393e031cdd2f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Stat_Radiation",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5e509c06765d1ec2faaca2b2e81d23c3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Stat_Signal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4945f7dd1cea165626beb8e7b4f73901"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Stat_Temperature",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c5931efeb5d1bd0c671621e5bb7259f5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Stat_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2fcf6902cfa40df8163b0adc7b4bfe44"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fallback_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8b11d5dbb7115c845a6302a56ccd938c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Base_AssaultRifle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0b321c4fc92fa687d98fd0c17ce11d93"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Base_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4384c9cc7ea8ac4a4ada3c4a2e3ba0cb"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Base_Improvised",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "27dddef0c9a598c566f0f93dcd303536"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Base_Pistol",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "259d83756f40ee11736b50c97219973d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Base_Revolver",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "561a5a03d12af18e99f74b3f0e0793c6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Base_Rifle",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d033577e8f8c4b8bc16cd5bc25c8d2de"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Base_SMG",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a36c314d3f7fddfb9efcf09ab6f70d8d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Base_Shotgun",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "10223f89f218aef825b052151011cddf"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Base_Sniper",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6e69cd338a8cebe550fc62b611aafd68"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Description_Accuracy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "482cf6fb6d35718ce5328fec99dfb300"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Description_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3b068227374a65f2a4a3290174584666"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Description_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9e5a4ff7049b65b3174189d17b76a1df"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Description_Crit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4d7817aa36622e8de800fa12f200a135"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Description_Damage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "fee422311bc52987e067c539b7d22c2b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Description_Noise",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "40b48f9594ca018db230d0b3e347857a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Description_Range",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "86e89411d748141ba908fd5789acf554"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_Accuracy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2201f478c39d38db45d6cb93081618c0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_Aim",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9b6134becd7a48868bbc5588e3e7d128"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "70108f24a9adc2c0f1bc9e3777677851"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_Damage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "031edbf4bacb1ffc923e7eed7b0bf5be"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_FireMode",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "eafca1bf9c1436f3913a818149fd5faf"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_Magazine",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "257216b68315c2e5b5baa1bc3e647f70"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_Noise",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "50ff04bc9136faeb2be5eb67e1e12983"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_Range",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e66bbdfe26c821195427a2864f41523e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_Recoil",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d0fedef2d5ec014aec26f37c404c0dc4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_Reload",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9c544a5e0d2e3ff91b1b1cdb45c933ff"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_Spread",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ad20dcae622f81f4becdac45b9f44f61"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Firearm_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5b310c7680d357177b4d7c3071559024"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fluid_Base_Container",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "edcce10195a227d0aaefeec819ae54b6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fluid_Description_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "cb2888c10e9b60b8fb6b5558ad90fc9e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fluid_Description_Capacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "bd581e98d7363b008799b7b532bea959"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fluid_Description_Rain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e5899e04f4f2b8abca0687ac74f6a1d6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fluid_Description_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7a84f0f6f581d384d5d400dbce44f626"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fluid_Stat_Capacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0d341f86bdc4a1f173459dfba8e87640"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fluid_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6d929d51abfbf4873bb094da6efab6dc"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fluid_Stat_Rain",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c7029d80488a9cd52793065b3e2b11f4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fluid_Stat_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d10d81fa65c335f9a971b02d5bc2e15f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fluid_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "56b8758440a05ecab8714f003feaec70"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Base_Drink",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "67aace1318c0f2c000f980cce89037c8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Base_Fruit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f0b791bacb5e2f700dc0478d15a16144"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Base_Liquor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "511f8a5c7b4ed15c9d76620f2c593951"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Base_Meat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e689414dc8283ee3d5ded243f5a4d7d5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Base_NonPerishable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "91d635b80440b2055a9b7210efeedae5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Base_Perishable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "382db70eecfad7ab23abb261c2b01cf4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Base_Prepared",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9d1a21f1b8143b3f1bc0d6015dbb4a1d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Base_Spice",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "fd9c872a3f57aa78cad17ce097e57199"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Base_Vegetable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "cf04be8b857a727335dd6f41b9552dc6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "eadf75c68a1d9971e5a823f442d4e7b6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_BaseFood",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3fb46346fc2a65d073bf80facba0d35e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Burnt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0a9b8d8cadb06e08d2dadc057f07af17"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Calories",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d2b548c7982abe0baec54bb5f8a10f29"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Carbs",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a8b6be1b3b6c91029d43d8e634e6e74f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Cooked",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "fbd5435659647e6a01231e9db2802383"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Fat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "950042a7c61aed7ff57eda06ac5b7aef"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Fresh",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d83ad8960e833571636db03539e61507"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_FreshRot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c5e93d83dff3127e037ea9235b5bb928"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Hunger",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "aa703cd7e2b1a11adc6ee27542b83597"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_HungerIncrease",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "11546e6bb552ff136b187d1e7eec7550"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Poison",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "91a062dc48a3d920dc31611f93c3d441"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Proteins",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c367407a56acae0be4025dbbf032137f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Rot",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "315ad52caada11338df9081e6c4a1f5e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_Thirst",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a00a70eae0a01422d2e81d0a35567781"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Food_Description_ThirstIncrease",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "bc28583b16df4b1721529632292f248a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Fresh",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1594c69b29be7575effa1f9bed8da110"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Freshness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "37c345ffc35eca903f05a69b275c753e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Freshness_Days",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c6bd9c0e865a4296e995edbb68086faa"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Garden_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b32a2e0f6387c2547cd9ee6b08188764"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Garden_Plant_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f0987881d0de7ec2fc59d024fff0f1ab"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Garden_Plant_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6ba2f5dec62bb63969115b2b3f46568d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Garden_SeedPacket_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1ac097636fdee5862c88f99ad111165e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Garden_SeedPacket_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3853b598d585b496f2a154e61a8b7c75"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Garden_Seed_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c5fd013f9c7edbb23338dd92ee890d5e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Garden_Seed_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "19a1f555476fffee65c1dc3641cf3cca"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Hands",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "18011a167c2bdc1d43519d75716b8335"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Hunger",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e49335adbe98848bcd439f37858d3600"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Insulation",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "07844ccb96b96d6b6e503696618cc0d4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Junk_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b9a994647d26987da4652e8422bee4c0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Junk_Broken_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c0c3cb5407b68ae19202b6682252e7d6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Junk_Broken_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "364d056a373c766a3ca1f71c48398529"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Junk_Dung_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6df1c66174e69b4006adcc9155dadb5e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Junk_Dung_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "675059b7e816e4bcf502b60e2e63a9be"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Junk_Smoking_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "92b7d4aa85e4424f5b2f84af3db4cb34"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Junk_Smoking_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6475281f7b1fa42aeaf098e48e43c666"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Light_Description_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "61d05f0f6bf40596d9630e03ad330c29"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Light_Description_Distance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "87cebb014058b6c6fe8ac8a7d73dda32"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Light_Description_FireSource",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "dd373b622240d5a950a33b9d42050f15"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Light_Description_Strength",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f236fc44cb36a603fbc69d7dcab0db4f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Light_Description_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "eeda13ad0bf78705ffedb56b730ff3e8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Lit_Card_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9e235bcf90a4b4233e1fd870a55db764"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Lit_Magazine_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7b155ec5cb2aba61ae3cd1c99a61927a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Lit_Magazine_Pages",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "178152c62ba43b49ba68f8eafb75ce51"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Lit_Magazine_Skill",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8f25fc3a4e3061c65718f1705310c75b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Lit_Map_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4f08be493cdc81139d827923ce6e27e7"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Lit_Map_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d120cec0612d189038a505c99d076041"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_LooseRound_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e54d1a85e8626fe64486f85ccb6db57e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_LooseRound_Description",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "cc915c260131ee53635056e85395d1af"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mag_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7c4d07e17fbe61128ede7760bcfa2706"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mag_Capacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "35c0a2c1bfca8bc6a45687b741bf7289"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mag_Description",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "96e251f4fc5a532cab56ee347d0c45da"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mag_Stat_AmmoType",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1667355152ad771b60cafeb9463afb77"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mag_Stat_Capacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e23955a617ac120b5a22f4968652ffb5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mag_Stat_Count",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f07d2d1ed0f0c01d7c77c91ba51303c0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Aluminium_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a73a846aab9bd4bbfa084fc8ca8fafac"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Bone_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ab88747b7dcb36d07d52f26214cb1065"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_BookItem_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "eee3ed336c5eb783b873bf08e8c09b91"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Book_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "69ef235887ea6601da66be443ec33e62"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Book_Pages",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "bb2229e9c54ee9983cf3bdd17e795c81"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Brass_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1f8952d10257e8bb65d26ccefc37a3ca"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Charcoal_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3de9689d8c335f051821224a4a4536b4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Chemical_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c6f4e022a7264bfae96593bef931a8e2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Clay_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "22a63f83cd9a5152cc3d95e256068903"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Copper_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6a383e1ed28affe894a477f876e9e711"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Cotton_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "436d20fba19b794d9203befbc131e23a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Crafting_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5ef04c943d119e2d0130343082b4d864"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Fabric_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "eb634de3ae98feea7cf57672db0471be"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "80d95c7dbf7318da944bb7f93ff0747a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Fibre_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c137a4e90a30bbac4ff53560e7f21068"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Fuel_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4d4d41e38f9399050b89e2cbc61a1bde"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Glass_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9e2a87631e26fac272c5be0a2418242b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Gold_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9541bdc3fdea57f3c60829d234c26df9"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Iron_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "306b66730eec6432d7c3367c827b8898"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Leather_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a9ea226884a650ed60883f1965eaebfb"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Metal_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e59bb393accdd1ba668e816b63f54122"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Misc_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8f9d69f70117ae794349f99110362cb7"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Silver_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "712ed81d4a69f5aa5ded68dc75df5cc8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "60ce240748ff817220650b945aad43b2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Stat_Fuel",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "44dd79ec0379c1fe02910b88400e0d29"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Stat_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2da0f0def5b2e80eadc4705da42dea28"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "305bcf491eb7b25d17e2f74dfb6f00ef"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Steel_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7cc6022c43e5489bd27d207853292410"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_ToolHead_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "089667b4710d7b9d33b8cbb96c928d0e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Wallpaper_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3d8d67871825ef963a04b5d260df7280"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_Wood_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6f4245cd9ca3b929f34019826c177867"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Mat_WorldItem_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9c1af7c556ad7331a3d771665fbba852"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_MaxHitCount",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1800f1666c9fd79a09af5dab0067f659"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Antibiotic_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "192ea59879ad446647cf5bd03b9993fb"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Antibiotic_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "eb368333a2c2423e76f7f1f587cc630e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Bandage_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5af6fb747aec1eabb2b794429acac52b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Bandage_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8a754e1ea248f8c95bac79e225724cd4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Disinfectant_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2ac02327af0cff7c214d4d2f285674a6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Disinfectant_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a95550921c3e361b2ce3bc44b31c49c4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "bb707095f0a5cb7ea3e0013f5123eaa6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Herbal_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2a02cba04dcf7bc3710f0a8bde776154"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Herbal_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f1e118021af434d4cf42b5555915c113"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Painkiller_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f92f88220e9f8863464c0388abc2eca4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Painkiller_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f23559f2977f4afd539d7ce56abf76c7"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Purifier_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "61238d0173c497b9038a7ba301ed4898"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Purifier_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e946288444eb4c219c550a071a2acd29"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Sedative_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b47d821c8f3ee07f232185a8757a3c68"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Sedative_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "aeb896e9f229ece606b2d093a5dd52a4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Stat_Calming",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d5a6d0af5858dd01f8dc559ea2821aee"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4af0bcb2b6ac28a90519348c45a53baa"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Stat_Healing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3753c4f859c4a2b5c6e6eb00f493533c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Stat_InfectionReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "74d8c0b9a7b61d5ae67fcce0d82f5d4a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Stat_PainReduction",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a7372dbe7ea8922a7df9add911961350"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Stat_Purification",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ec13b422bb600201f56dbc726832a595"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Stat_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b3c31a219a44308b6108914c0a5dd583"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1344cadf0408ea2583097ed671022293"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Tool_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f148f11b9308f145517693f2c26165a1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Med_Tool_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "68a696c847107ed2fbb856fda6aba7e5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_BaseSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0d46930b18263e30523a3b8c7b254ca3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Base_Axe",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8385c7383e9597c955e6cac4df25f53f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Base_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9b22449ec874b7f8b34caa30305d3726"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Base_Improvised",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b4f9b4c358fef494f1e63200db4a0488"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Base_LongBlade",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5ab85080c71d6dc586204a30ad1866c7"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Base_LongBlunt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3d2b49aba0008c53ea947c6112a5ec07"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Base_ShortBlade",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "afe4d6c45c7de103878f8cef5191435d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Base_ShortBlunt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3ce91b217a09dea7c5e8a6c8aa2d6efe"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Base_Spear",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "cbf939954b914ddca3b387b5b15dd0bb"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_ConditionLower",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a3ca42f163e90f0736f5822590596ef9"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Cooking_Note",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2416716b878cb95091b42db5a3ae51ca"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_CriticalChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2eb80ee5869b4c0151d1f81a5d4ad802"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Description_Accuracy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f2b6d78fe50b8b54fed3e30bd1bc1b8c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Description_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "87c5b5501ed4bb344ee2253ca91822ec"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Description_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "84619b7573a109a44c4e301f0af5369e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Description_Crit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b55e75577786404cc981ff9c903dcd4a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Description_Damage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0bc20dd26ed71eb51ad753d481057890"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Description_Knockback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "69ad5a94e8c582360730eacb4a78e4cd"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Description_MultiHit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1ea90baf689b76e657128dbb2490adcd"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Description_Noise",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b9dc5f398b0b60b9e3bce25ceb2e7187"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Description_Range",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "17a0eeab3dad36bab6fcc404ba32796b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Description_TwoHanded",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "87c71c74e3d32b621579c197e19fc60c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_DoorConditionLower",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7e4723319f48ba07d6a55907577b52c8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_DoorDamage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2b0b846121dd91f8a3e625e5097358e1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Household_Note",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7559729f131962b8cd58e9ba0b02dac2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Knockback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "fe42983389756440d2ec0170eb4986e5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_MaxDamage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6337b1169045d4c6271d6108e157fd96"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_MaxHitCount",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1ee172b5c99ce823155d660cfcce4d82"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_MinDamage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6ca8c43a2fa00b7d5dcf066fb21eb9ad"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Range",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "53fcee69ce5046e84f4ee1c1dc617947"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_Accuracy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "abdee0740d1a28c1a9b10b87ca79758d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f1ee02abb111eb36631ede362af419aa"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_Crit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f2f7b0de0fed87d631ec7ac2bfac2316"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_CritMult",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3672ac64eab7002dd79348c48e146076"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_Damage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7503f4d44989a169a27306c567046d5b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_Knockback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3e9766e8601fa4289c5e6820e749d346"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_Knockdown",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f704dd1ee10d8fcb84377ca9e72e0369"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_MultiHit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7fe037f7817b69639e7db38386c03f76"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_Range",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "23f23430f6536dfa5c1e2010058059c4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_Recovery",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d898c0f5ba911f3350105d10cc8dc8eb"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_Swing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a5ef8bfb63e97d05911d976a7abdec10"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_TwoHanded",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1a3b8d1901815918590c5093468641ae"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "16894a362d09901aea75453c2017dec3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_Tool_Note",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "43ab8f79e9f77558ffb5b856597a85f4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_TreeConditionLower",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "07d98f4f11212e55408ea33c9c1764d8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Melee_TreeDamage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "10c20881f649e351721ec230be736062"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Moveable_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "53165ae3644e836dfff7014d55c36d6b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Moveable_Furniture_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2685e63e04fca0be344cd8e2d2856ec0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Moveable_Furniture_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d0765c7cae511dd82aba15ca537ff869"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Moveable_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7a12416fbe9e432b32b91eca74145cff"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Moveable_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2ee764008395e04ebd4f27b25779561a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_No",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "04ca145a6e28c82fbbd6c872aa3bb707"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_NoAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "267b4a7534946328a7861ecab9e2e8d9"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_NoDescription",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "19180f5162bba138ce47f10eb70efc78"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_NoSprite",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b0edd397e9cc96db8419936873955f16"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_OneHanded",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c6914da975b03dc697d93c0f9c02bbdc"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_PagesLeft",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e2d0d79f4f181664bd589f056c8a489f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_PagesTotal",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e8218d46cf69d95430b78af250e94b28"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Photo",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "39122229f84c6edaaa2dfd989a984d1c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Photo_View",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "24bc2e4595c4cfa9b3a7848cca429c96"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Proteins",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "55d805875c2b7f382763646a007bc51c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Radio_Description_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "10d9addf15ecc858e2b3908eaefff82b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Radio_Description_Info",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3d35221e48b85614d0dbd29da8f8d4b4"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Radio_Description_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e1cb2e2da1d27f3226619cbc4182b554"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Range",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7248562d776461f4a17deda5b7f5e9a8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_AimAccuracy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "77fdf651d15234133846a9997e3d486c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_AimTime",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "021eec48ed5a5c18388c110efa19def6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_CritChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "80e0b14774e09b2a3fab43958fc8c47d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_HitChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "686909b4d5c4839fb44b4d9a95f66585"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_JamChance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "699a844073666d20511cf7b8c7862d0c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_MaxRange",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2183e9c9ea27df2865061ad9b18ef85f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_MinRange",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4f01c3267aaebfa9a024ed043cbefffe"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_ProjDamage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "258730d21a3a8c1ad33ec9bea58dba4d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_ProjSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "62a3d0a0692f17cd311a3ab244d7fd73"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_Recoil",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a41654adad03259e11544088e86dbdf2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_Reload",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9bf6547f74a7907e142afd8058adba17"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Ranged_SoundRadius",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c2f842c77c7d6437cac4ea4706244085"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Rotten",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c34726f55085bda428e07f9412bf501c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_ScratchDefense",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "0e30bbe78d8c237acb4c4585a2a9ed5b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stale",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6bcd090703c7e700cc6a069fa285f6ce"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Accuracy",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8b448cb216d1b9ff92a07ce9afba6bc2"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Bite",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b6f5db7173ca9d1b4e3ec15a2969aa35"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Bloodiness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "351ceecce022b903ca640fa8991085c5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Caliber",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6527b398980075150c3605e3ad7b33f3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Carbs",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "ed51a90c5d46787aab8810135d447aad"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Category",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1274e937ffe52d24d712701ee1bc7ac1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Clothing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7e0ea8873a118312d9dd1e99b3d4e8f3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e63cee3d40fb47ce2af3d9c923249a38"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Craftable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "dbdcfc55261b63681d5092b2872c1edc"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_DaysFresh",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "eed27bf77dc150ec2e200f0800b42143"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_DaysRotten",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a0029d550366fea87be01b567bdbd5c3"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Dirtiness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6243a732e4bfdcf0796c43f6323d756c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_DisplayCategory",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "63bb5d7b345c24f0bb02f17c2fdf09e8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Durability",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "54e07fef243b8f5206dedfe4c0f28f5a"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Electronics",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5deae684fcdb7617a7af4b1be31e233e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Fat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "595302dc4269d06b520e0bba3143159b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_FirstAid",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a021a7995d83f785a3a4f263ea4636af"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_FluidAmount",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5d71f8ecc764e502e1cdc475b1d5454f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_FluidCapacity",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "25d9eecb68068c2ddb5f262c3f311480"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Food",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "01d7c08a3e9538c9945d0af81112f15d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Forageable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "525c87bab533d5d82a6bdd9ba523a259"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Hands",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "80fef949f6b10ab378d1822e1bea4cf9"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Hunger",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "52dbe647058ee39b7d15caf7cb656a1e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Insulation",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d5a0db68e668c8d0f6adc3ff820c00fc"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Knockback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5718446f31b5fbf63d9144754b348e86"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_LightDistance",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "d21cc72f3729bcf90caf442375d8b5db"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_LightStrength",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9728429e7d4f561338862f933fdecb54"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Materials",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a15c52f78bef9ed02d9ced0fdf516c8c"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Melee",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c4084b403abb6182439465a4d41c4a93"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_NoiseRadius",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "12e2f0a1ce1c128c332b01ab4ef749a5"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Poison",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "35368c4c03263919ed937908416f4751"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Proteins",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "81ba74bfb77d3c12e65c044044a5c80e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_RainFactor",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6d61cf6def08bcab27f657ebf7565d3d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Reading",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e5b461d8dc2cd0141d01cad874df048f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Reload",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1890ea89a8fe0030e3d63f0dd313dcbd"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_RunSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "18443cfbd7b61fbb045c539db453859d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Scratch",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "2aa5fc32e2fccdf899a413b06d976901"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_SkillBook",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c4695477e80507391ec7cc9616b22248"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Skills",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "94a0ad045ae60d852ba57054b7a3fb9e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Tainted",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "7b7c86114e820fea0bacdde6b87f5299"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Thirst",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "885592d28906742849897a1201e62d87"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Uses",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "20a02976e6d4b1150dea6d0ecb67b4d6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_WaterRes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4ed961aa2d8831247267de1167b17f79"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Weapon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "89ead810749c4ee3405171cc011d58b6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "5d80613de1d9ab01a8909851193d135e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Stat_WindRes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b567a06fa3d35652489d5c65e39087e8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Thirst",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "a16a85b5ae5c02f508cb4b3c048d41de"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Title",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "df2770fcc39af71a6ddb0ba5b329cddc"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Tool_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "caeef40a4d4d07bd35edc3122480d3b1"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Tool_Hybrid_Note",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "be072e87a7359ea020d1dd944c412340"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Tool_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "cee4a6527f99a899fb323443bea078f0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Tool_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "272221dd88a603e6bf46de3a5904e3d0"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Tool_Utility_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "b511c98a486955e7dbf01248a1fde02b"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Tool_Utility_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "de86000e80d76a5bac9987b918dbd7ec"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_TwoHanded",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9b1bc1352b0e22066771ff50550cf73e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Unhappiness",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4f67e6193f4f1c1a195365edf56ff97e"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_UsesLeft",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e9e321bfabcfb7cdd05cd97d7aa03af8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WaterRes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "501c12c4d0edfbc56db746942aa7e392"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponPart_Base",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3a0e982aacf9380a4c7d1b9048d0769f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponPart_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3f775ed5c74a1c14848cfadaa952fb00"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponSubtype",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "83ac09d827fc1f819f94917479a78b59"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Base_CookingWeapon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9448944ddc8ef65a3d59deae4ba4fe6f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Base_Explosive",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "c71a957d95a734b17008ab008ab89159"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Base_Fallback",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "3e88e7cab11bb67a0e521641c48fc369"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Base_GardeningWeapon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "90b5967d895975775f4bd2ce29777812"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Base_HouseholdWeapon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "f43a40c09b8e01cbc90ae331f4034852"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Base_InstrumentWeapon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "543a1b6804b9bcee05acce52742ecbaa"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Base_WeaponPart",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1bf278e68639c754c209fc22359f0a9f"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Base_WritingWeapon",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "6cddae7ee22247add536143051ef7de8"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Stat_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "1f69d3aa1b48c43a2025c1e31f113cc7"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Stat_Crit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "03042a9aead2b02736506f51698f5a90"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Stat_Damage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "9210087ab582aa8978ad4e8e77981abb"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Stat_Range",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "39bea44eb0fc85d601ff32e1e075a32d"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Stat_SwingTime",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "8f3e4116515055e70d7ad52c1cbb2847"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WeaponUtil_Stat_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "80a493ae9ba3344985c95c469777cb81"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Weight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "24ab15e01f9931e7c373eaf0f42721e6"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_WindRes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "4a2cd7ee6e42257d5ace234ef6c41432"
+  },
+  {
+    "mod_id": "3617732907",
+    "translation_key": "IGUI_Inspect_Yes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_mod_updated": "2026-05-16T08:50:21.0000000Z",
+    "source_hash": "e26da046db12a22ff38d32dc94cf8b41"
+  }
+]

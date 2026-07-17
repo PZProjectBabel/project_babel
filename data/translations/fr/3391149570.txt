@@ -1,0 +1,8 @@
+Sandbox_Roll::en = "Mod Roll",
+Sandbox_Roll::fr::processed::unverified = "Roulade",
+Sandbox_Roll_ExtinguishFireChances::en = "Extinguish Fire Chances",
+Sandbox_Roll_ExtinguishFireChances::fr::processed::unverified = "Chances d'extinction du feu",
+Sandbox_Roll_ExtinguishFireChances_tooltip::en = "Chances to remove the fire on character with each roll. <LINE>0 -> never <LINE>100 -> always",
+Sandbox_Roll_ExtinguishFireChances_tooltip::fr::processed::unverified = "Chances de retirer le feu du personnage à chaque roulade. <LINE>0 -> jamais <LINE>100 -> toujours",
+UI_optionscreen_binding_Roll_Key::en = "Roll",
+UI_optionscreen_binding_Roll_Key::fr::processed::unverified = "Roulade",

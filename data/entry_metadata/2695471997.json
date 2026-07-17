@@ -1,0 +1,826 @@
+[
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Display_slot_label",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "474851b0e763d1d1bfac8c05e202bd76"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Display_slot_label_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "3ed4141bb44ef1dd8b49283f963a38ab"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Reset_defaults",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "c78be7f3b65d338a1fcc709601708f96"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Reset_defaults_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "4c2bff4e5ae48e7c791659d94d8e9628"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Settings_info",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "be7d9eec514068f3384f8404a21025a9"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Slot_button_size",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "9b246284b6bb4c1cc19162e5ec41c42d"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Slot_button_size_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "642d7cf06c932e6b361deff50332a8e5"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Slot_horizontal_spacing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "a52ab328cc9c7bd4955f54eb60fa4f45"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Slot_horizontal_spacing_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "e723e39e28134c23f2dacc60bcfb78ab"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Slot_label_margin",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "abb39fabd9be8e0681f225ec08c7b601"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Slot_label_margin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "c306c743beac67a80b16638d36294822"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Slot_vertical_spacing",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "6acb930502aa4719cb5ba9b28d89a58c"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "IGUI_CUI_Slot_vertical_spacing_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "ce686453e6858749e84cfc4abb310df1"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_AmmoStrap",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "1ce6599a5f6766f1f7b2adeee8a52777"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Bandage",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "68682fc200b64a5f81c8632d55256c00"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_BathRobe",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "bbc3cedcb209f20fa4fc9ebb949d9b50"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_BellyButton",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "76505baa30db4ea5d35e0a0a24a509f6"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Belt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "275abec9d043f9db32921ce15eded58f"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_BeltExtra",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "e268045cf6a837ef170214d7857fe445"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Category_ACC",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "fe22d1746ddaa0091c18f0aa07347fd0"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Category_BODY",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "000fa3dbc082d8c9b20e1a90433c9de2"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Category_FEET",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "c4ec953c052da66ca584b24a91d9d597"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Category_HANDS",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "4ff77171e789ba5e96ed0b8c2252f992"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Category_HEAD",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "01bacf88d31b295a1bf2bb48233bc3bd"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Category_LEGS",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "4440a4d5a626dc35bba066fdbcb643ed"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Category_TRINKET",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "e8b9eec81646aeb7f35a1306cae7d2c5"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Category_UNDIES",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "f210df89f5a3d5813949142de3e2ebe2"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Dress",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "e5c78dd8e4c0ef1bdabfee5898532c55"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_EarTop",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "19f99b8ed6371dfb8fc7cf0c0934fd94"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Ears",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "64fe677c4cf7e7930e1fccb702e578d5"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Eyes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "3205003753367f8f32f84a51507b1c34"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_FannyPackBack",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "af01799fb373263028e1745eb147ae20"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_FannyPackFront",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "4e21cffcf9ef6e479b81d33f43fda5c8"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_FullHat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "3c87ecd8c04160b7081c34fad42b093d"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_FullHelmet",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "4f2c4b659449163375f325f83a0fc267"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_FullSuit",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "f5ce370eb7a5097263d7423fd9ec1d58"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_FullSuitHead",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "b1ea4db92cdd903a97d0c7f713f0526d"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_FullTop",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "1f63382d36fc4f45f85e6e2861d82351"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_HandPlateLeft",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "4537800f3c580e7b90d232dfa0ba32e8"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_HandPlateRight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "7cda8c531c39a5a6bea5e7071163703c"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Hands",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "ffe29226adbd4fb21fc486b044605827"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Hat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "f05fab8a2acd6eb564063ed78c627758"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Jacket",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "c0be81650d3c653563c8a29a119fa2a9"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_JacketHat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "9d807560967b85227970ba469f6049f5"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_LeftEye",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "4bebbbeb595ee6d108c0231d74feebb1"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_LeftWrist",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "8c6215faf2877d881a7d30febb51f523"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Left_MiddleFinger",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "25a37d5989f4355688e4a8ab4d4d1736"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Left_RingFinger",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "d0d56717bd1c0f59774dcc0f91334b13"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Legs1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "180dbb06e7cc5f26bef3307f945be22e"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_LowerBody",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "1ca4ac168664e95ae4f09187693fb8e3"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_MakeUp_Eyes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "475b6a18a783998b2f2b81706fc9c23e"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_MakeUp_EyesShadow",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "f899bc873e797786c6f888153ccdaa8f"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_MakeUp_FullFace",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "3167c1ada8299c7e81587f7a8d203845"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_MakeUp_Lips",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "251f859b4de762d7a1c21e5a9c2db848"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Mask",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "789bab1c1cd0ff5daca939ee29c16ae5"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_MaskEyes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "112fa8838b887cbf5db6b67835487848"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_MaskFull",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "404d9852f83471c444fdfe9da6fec70d"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Neck",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "d0c1dc1f2273a876fa0b57d1ad15b125"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Necklace",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "1cc0572f94087812998b7e56da9c1fc1"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Necklace_Long",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "da2168fbcac3d44ba8d9c73b10573e1f"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Nose",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "a0c1502d73b2cd8f51ed6495c95df3d5"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Pants",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "725e8ac7647ceec4ef63f4128db33bed"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Pauldrons",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "c3f852c473457183f470792255c2e58b"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_RightEye",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "2748f1da3b11910d4f0df49b6cfe9795"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_RightWrist",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "f85c1ea2d63517452be226949fa84e15"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Right_MiddleFinger",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "650ab330b95080c6a692517b1300a12f"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Right_RingFinger",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "4fee3071ca118975e3f981eb2676ce6e"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Scarf",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "24e647a86dfd08b16ebda31d0a7d5309"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_ShinPlateLeft",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "c57516c3090b7e4b839f04d956932f0c"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_ShinPlateRight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "64543414ab1dfd235a9eb61d5550eb9a"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Shirt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "14000860a6b65a8a5b7c247970f89f26"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Shoes",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "bb2f20f6da16112fa1d60e178f41c67f"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_ShortSleeveShirt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "0c99e5abdfe4a06013e6b6a56a9a5a64"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Skirt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "a78da1e3fb92f7b2096feed322864b16"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Socks",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "716d080ba46cf1229c9e224de63f7032"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_SpecialBelt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "b1d5bde89278d26181ed2ac47f3b528d"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_SpecialMask",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "448adb1d768fd7b348b3966359fe9a03"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Sweater",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "efb9f83d8286dddcbc3adf179578cd94"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_SweaterHat",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "2db281688bb55bb2b3c01cc4da4d6897"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_SwordSheath",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "d1e29b8abef5c3d2b7b6fb7a4df6cedd"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Tail",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "74ee3e33802882d189b8aaaf8b4efba7"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_TankTop",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "a0621c5279e85cc2caef8111e0a9ce8d"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_ThighLeft",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "71ef691cb7b425287bf88ef51b2c80cc"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_ThighRight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "7cdf9a93848a4df8bfc487eb44f69f82"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Torso1Legs1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "18addeb6b42acc8c78d5340096fbdc1c"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_TorsoExtra",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "eaa4f8d016cef742cbb256dfdfe00f17"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_TorsoRig",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "15fd563333c3bfb06fb7fa1916d3303d"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_TorsoRig2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "9fec37c678b437c726aa0b5e8a1f9b02"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Tshirt",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "f6171e656a522e1c8530dbf17f5277b7"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_UndInn",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "dce60be7acd15fb617410a6b06816ccc"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Underwear",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "43fea16f94ba739da78e49c41ea164a4"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_UnderwearBottom",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "a6a21d9a7e915880e4b75f7e2406f17c"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_UnderwearExtra1",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "3db4298d2c3239b8596cadbbc5e5e39d"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_UnderwearExtra2",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "68faa63ae44f6ea63a635bb147afcbaa"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_UnderwearInner",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "9122c2a32f51a83de0dbe9671a7ae9b2"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_UnderwearTop",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "ce7ec52aa3781797da1176c932329bae"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_UpperArmLeft",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "e2de495ad920f3536001b37e595ae002"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_UpperArmRight",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "9ef166294dfdddc236d060a5572c5d42"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_Wound",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "aca275e8d2a56b5cefa8846c220e8505"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_ZedDmg",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "e80fc7512c143cd829371f9dd385ab0b"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_no_items_avaliable",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "ab4d37458456bc009868fd5de9fe448d"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_waistbags",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "b544b7cfaab796c4461b0e0a81307a22"
+  },
+  {
+    "mod_id": "2695471997",
+    "translation_key": "UI_CUI_window_title",
+    "is_active": true,
+    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
+    "last_seen_mod_updated": "2026-03-17T17:16:37.0000000Z",
+    "source_hash": "ed3af9a3e224402171f53d466a3fddb5"
+  }
+]

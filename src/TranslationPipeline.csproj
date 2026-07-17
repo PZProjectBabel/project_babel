@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Exclude child project sources so they are not compiled twice. -->
+  <ItemGroup>
+    <Compile Remove="ContentChecker\**" />
+    <Compile Remove="ContentExtractor\**" />
+    <Compile Remove="EmbeddingFetcher\**" />
+    <Compile Remove="LLMTranslator\**" />
+    <Compile Remove="ModDownloader\**" />
+    <Compile Remove="ModIdCollector\**" />
+    <Compile Remove="ModInfoFetcher\**" />
+    <Compile Remove="ProgressReporter\**" />
+    <Compile Remove="RagContextRetriever\**" />
+    <Compile Remove="ResultWriter\**" />
+    <Compile Remove="FinalOutputWriter\**" />
+    <Compile Remove="SteamCmdBootstrapper\**" />
+    <Compile Remove="TranslationBatcher\**" />
+    <Compile Remove="test\**" />
+    <Compile Remove="obj\**" />
+    <Compile Remove="bin\**" />
+    <Compile Remove="Common\**" />
+    <Compile Remove="ConfigReader\**" />
+    <Compile Remove="RepoDataLoader\**" />
+    <Compile Remove="3rd_party\**" />
+    <Compile Remove="DocGenerator\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Common\Common.csproj" />
+    <ProjectReference Include="ConfigReader\ConfigReader.csproj" />
+    <ProjectReference Include="ModIdCollector\ModIdCollector.csproj" />
+    <ProjectReference Include="ModInfoFetcher\ModInfoFetcher.csproj" />
+    <ProjectReference Include="ModDownloader\ModDownloader.csproj" />
+    <ProjectReference Include="ContentExtractor\ContentExtractor.csproj" />
+    <ProjectReference Include="TranslationBatcher\TranslationBatcher.csproj" />
+    <ProjectReference Include="EmbeddingFetcher\EmbeddingFetcher.csproj" />
+    <ProjectReference Include="ProgressReporter\ProgressReporter.csproj" />
+    <ProjectReference Include="RagContextRetriever\RagContextRetriever.csproj" />
+    <ProjectReference Include="RepoDataLoader\RepoDataLoader.csproj" />
+    <ProjectReference Include="SteamCmdBootstrapper\SteamCmdBootstrapper.csproj" />
+    <ProjectReference Include="ContentChecker\ContentChecker.csproj" />
+    <ProjectReference Include="LLMTranslator\LLMTranslator.csproj" />
+    <ProjectReference Include="ResultWriter\ResultWriter.csproj" />
+    <ProjectReference Include="FinalOutputWriter\FinalOutputWriter.csproj" />
+  </ItemGroup>
+
+</Project>

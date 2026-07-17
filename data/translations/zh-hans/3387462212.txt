@@ -1,0 +1,6 @@
+Sandbox_ExtendedBatteryLife::en = "Extended Battery Life",
+Sandbox_ExtendedBatteryLife::zh-hans::processed::unverified = "延长电池寿命",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier::en = "Battery Multiplier",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier::zh-hans::processed::unverified = "电池倍率",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier_tooltip::en = "Multiplier for battery life. Lower values make batteries last longer. Default: 0.5 (2x longer). Does not apply to car batteries.",
+Sandbox_ExtendedBatteryLife_BatteryMultiplier_tooltip::zh-hans::processed::unverified = "电池寿命倍率. 值越低, 电池续航时间越长. 默认: 0.5 (2倍时长). 不适用于汽车电池.",
