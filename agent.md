@@ -11,9 +11,12 @@ Navigation:
 - `src/Common/`: shared DTOs/helpers.
 - `src/test/`: xUnit tests.
 - `docs/`: design notes, progress reports, contributing guide.
+- `src/scripts/`: Python doc quality scripts (segment listing, CJK scan, cross-link sync, LLM comparison).
+- `run_doc_checks.bat`: one-click runner for all doc check scripts.
 
 Commands:
 - `dotnet test src/TranslationPipeline.slnx`
 - `dotnet run --project src/TranslationPipeline.csproj`
+- `run_doc_checks.bat` (doc consistency checks)
 
 Notes: Keep edits surgical. Runtime warnings/errors use `Common.GitHubActions`. Update nearby `agent.md` when module behavior changes.

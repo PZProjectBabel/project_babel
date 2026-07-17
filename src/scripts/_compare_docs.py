@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-src/scripts/_compare_docs.py — 自动切分+LLM对比+二次核对 技术文档多语种差异
-基准: technical_reference_zh-hans.md
-目标: 同目录下其他语种文件
-用法: python src/scripts/_compare_docs.py [--dry-run] [--lang hu,ja,ko]
+src/scripts/_compare_docs.py — 自动切分+LLM对比+二次核对 多文档多语种差异
+支持文档家族: technical_reference, readme, contributing
+用法: python src/scripts/_compare_docs.py [--dry-run] [--lang hu,ja,ko] [--family technical_reference,readme]
 """
 
 import re, json, os, sys, time, argparse
@@ -13,8 +12,33 @@ import requests
 
 # ── config ──────────────────────────────────────────────────
 BASE_DIR    = Path(__file__).resolve().parent.parent.parent  # project_babel root
-DOC_DIR     = BASE_DIR / "docs" / "technical_reference"
-BASE_FILE   = "technical_reference_zh-hans.md"
+DOC_FAMILIES = {
+    "technical_reference": {
+        "dir": BASE_DIR / "docs" / "technical_reference",
+        "base": "technical_reference_zh-hans.md",
+        "glob": "technical_reference_*.md",
+        "skip": {"technical_reference_zh-hans.md", "technical_reference_zh-hant.md"},
+        "prefix": "technical_reference_",
+        "label": "技术文档",
+    },
+    "readme": {
+        "dir": BASE_DIR / "docs" / "readme",
+        "base": "README_zh-hans.md",
+        "base_path": BASE_DIR / "README.md",
+        "glob": "README_*.md",
+        "skip": {"README_zh-hans.md", "README_zh-hant.md"},
+        "prefix": "README_",
+        "label": "README",
+    },
+    "contributing": {
+        "dir": BASE_DIR / "docs" / "contributing",
+        "base": "contributing_zh-hans.md",
+        "glob": "contributing_*.md",
+        "skip": {"contributing_zh-hans.md", "contributing_zh-hant.md"},
+        "prefix": "contributing_",
+        "label": "贡献指南",
+    },
+}
 SECRETS     = json.loads((BASE_DIR / "config" / "secrets.json").read_text(encoding="utf-8"))
 CONFIG      = json.loads((BASE_DIR / "config" / "config.json").read_text(encoding="utf-8"))
 
@@ -35,9 +59,9 @@ LANG_NAMES = {
 }
 
 # ── util ────────────────────────────────────────────────────
-def iso_from_filename(fname: str) -> str:
-    """technical_reference_hu.md → hu"""
-    return fname.replace("technical_reference_", "").replace(".md", "")
+def iso_from_filename(fname: str, prefix: str) -> str:
+    """去掉前缀和扩展名得到iso码"""
+    return fname.replace(prefix, "").replace(".md", "")
 
 def lang_name(iso: str) -> str:
     return LANG_NAMES.get(iso, iso)
@@ -197,17 +221,18 @@ def verify_segment(zh_text: str, tgt_text: str, llm_semantic: bool | None):
     }
 
 # ── process one target lang ─────────────────────────────────
-def process_lang(target_file: Path):
-    iso = iso_from_filename(target_file.name)
+def process_lang(target_file: Path, family: dict):
+    iso = iso_from_filename(target_file.name, family["prefix"])
     name = lang_name(iso)
-    zh_text = (DOC_DIR / BASE_FILE).read_text(encoding="utf-8")
+    base_file = family.get("base_path", family["dir"] / family["base"])
+    zh_text = base_file.read_text(encoding="utf-8")
     tgt_text = target_file.read_text(encoding="utf-8")
 
     zh_segs = split_by_headings(zh_text)
     tgt_segs = split_by_headings(tgt_text)
 
     print(f"\n{'='*60}")
-    print(f"  [{iso}] {name}  — {target_file.name}")
+    print(f"  [{iso}] {name}  — {target_file.name}  ({family['label']})")
     print(f"  zh segments: {len(zh_segs)}  tgt segments: {len(tgt_segs)}")
     print(f"{'='*60}")
 
@@ -259,13 +284,14 @@ def process_lang(target_file: Path):
     return iso, name, results
 
 # ── report ──────────────────────────────────────────────────
-def write_report(all_results: list):
+def write_report(all_results: list, family_label: str, base_file: str):
     """all_results: [(iso, name, [seg_results]), ...]"""
     out_path = BASE_DIR / "temp" / "_compare_report.md"
     lines = []
-    lines.append("# 多语种技术文档对比报告")
+    lines.append("# 多语种文档对比报告")
     lines.append(f"生成时间: {time.strftime('%Y-%m-%d %H:%M:%S')}")
-    lines.append(f"基准: {BASE_FILE}")
+    lines.append(f"文档家族: {family_label}")
+    lines.append(f"基准: {base_file}")
     lines.append("")
 
     total_ok = 0
@@ -310,49 +336,63 @@ def main():
     parser.add_argument("--lang", type=str, default="", help="逗号分隔的iso码, 默认全部")
     parser.add_argument("--from", type=str, default="", dest="from_iso", help="起始iso (含)")
     parser.add_argument("--to", type=str, default="", dest="to_iso", help="结束iso (含)")
+    parser.add_argument("--family", type=str, default="", help="逗号分隔的文档家族 (technical_reference,readme,contributing), 默认全部")
     args = parser.parse_args()
 
-    all_md = sorted(DOC_DIR.glob("technical_reference_*.md"))
-    targets = [f for f in all_md if f.name != BASE_FILE]
+    families_to_run = args.family.split(",") if args.family else list(DOC_FAMILIES.keys())
 
-    if args.lang:
-        wanted = set(args.lang.split(","))
-        targets = [f for f in targets if iso_from_filename(f.name) in wanted]
+    for fam_name in families_to_run:
+        if fam_name not in DOC_FAMILIES:
+            print(f"[WARN] 未知文档家族: {fam_name}，跳过")
+            continue
+        fam = DOC_FAMILIES[fam_name]
+        print(f"\n{'='*70}")
+        print(f"  文档家族: {fam['label']} ({fam_name})")
+        print(f"{'='*70}")
 
-    if args.from_iso or args.to_iso:
-        from_i = next((i for i, f in enumerate(targets) if iso_from_filename(f.name) == args.from_iso), 0) if args.from_iso else 0
-        to_i = next((i for i, f in enumerate(targets) if iso_from_filename(f.name) == args.to_iso), len(targets)-1) if args.to_iso else len(targets)-1
-        targets = targets[from_i:to_i+1]
+        all_md = sorted(fam["dir"].glob(fam["glob"]))
+        targets = [f for f in all_md if f.name not in fam["skip"]]
 
-    print(f"基准: {BASE_FILE}")
-    print(f"目标: {len(targets)} 个语种")
-    for t in targets:
-        print(f"  - {t.name}")
+        if args.lang:
+            wanted = set(args.lang.split(","))
+            targets = [f for f in targets if iso_from_filename(f.name, fam["prefix"]) in wanted]
 
-    if args.dry_run:
-        print("\n[Dry-run] 只展示切分结果\n")
-        zh_text = (DOC_DIR / BASE_FILE).read_text(encoding="utf-8")
-        zh_segs = split_by_headings(zh_text)
-        print(f"zh-hans 切分为 {len(zh_segs)} 段:")
-        for i, (s, e, txt) in enumerate(zh_segs):
-            h = txt.split("\n")[0][:70]
-            print(f"  [{i:03d}] L{s}-L{e} | {h}")
-        for tf in targets:
-            iso = iso_from_filename(tf.name)
-            txt = tf.read_text(encoding="utf-8")
-            segs = split_by_headings(txt)
-            print(f"\n{iso} 切分为 {len(segs)} 段:")
-            for i, (s, e, txt2) in enumerate(segs):
-                h = txt2.split("\n")[0][:70]
+        if args.from_iso or args.to_iso:
+            names = [iso_from_filename(f.name, fam["prefix"]) for f in targets]
+            from_i = next((i for i, n in enumerate(names) if n == args.from_iso), 0) if args.from_iso else 0
+            to_i = next((i for i, n in enumerate(names) if n == args.to_iso), len(targets)-1) if args.to_iso else len(targets)-1
+            targets = targets[from_i:to_i+1]
+
+        print(f"基准: {fam['base']}")
+        print(f"目标: {len(targets)} 个语种")
+        for t in targets:
+            print(f"  - {t.name}")
+
+        if args.dry_run:
+            print("\n[Dry-run] 只展示切分结果\n")
+            base_file = fam.get("base_path", fam["dir"] / fam["base"])
+            zh_text = base_file.read_text(encoding="utf-8")
+            zh_segs = split_by_headings(zh_text)
+            print(f"{fam['base']} 切分为 {len(zh_segs)} 段:")
+            for i, (s, e, txt) in enumerate(zh_segs):
+                h = txt.split("\n")[0][:70]
                 print(f"  [{i:03d}] L{s}-L{e} | {h}")
-        return
+            for tf in targets:
+                iso = iso_from_filename(tf.name, fam["prefix"])
+                txt = tf.read_text(encoding="utf-8")
+                segs = split_by_headings(txt)
+                print(f"\n{iso} 切分为 {len(segs)} 段:")
+                for i, (s, e, txt2) in enumerate(segs):
+                    h = txt2.split("\n")[0][:70]
+                    print(f"  [{i:03d}] L{s}-L{e} | {h}")
+            continue
 
-    all_results = []
-    for tf in targets:
-        iso, name, segs = process_lang(tf)
-        all_results.append((iso, name, segs))
+        all_results = []
+        for tf in targets:
+            iso, name, segs = process_lang(tf, fam)
+            all_results.append((iso, name, segs))
 
-    write_report(all_results)
+        write_report(all_results, fam["label"], fam["base"])
 
 if __name__ == "__main__":
     main()

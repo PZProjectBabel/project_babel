@@ -1,31 +1,33 @@
 # src/scripts
 
-Python utility scripts for technical reference documentation quality assurance. Located at `src/scripts/`, run from the repository root.
+Python utility scripts for project-wide documentation quality assurance. Located at `src/scripts/`, run from the repository root.
+Covers three doc families: **technical_reference**, **readme**, **contributing**.
 
 ## Scripts
 
-### `_compare_docs.py` — Multi-language Technical Reference Comparison
+### `_compare_docs.py` — Multi-family Multi-language LLM Comparison
 
-Automatically splits Chinese reference doc (`docs/technical_reference/technical_reference_zh-hans.md`) and all translated versions by heading, then uses an LLM to check each segment pair for semantic consistency, untranslated residue, and Markdown structure integrity.
+Automatically splits Chinese base docs and all translated versions by heading, then uses an LLM to check each segment pair for semantic consistency, untranslated residue, and Markdown structure integrity.
 
 **Usage:**
 ```bash
-# Full comparison (all languages, requires LLM API)
+# Full comparison (all families, all languages, requires LLM API)
 python src/scripts/_compare_docs.py
 
 # Dry-run: only show segment splits without calling LLM
 python src/scripts/_compare_docs.py --dry-run
 
-# Compare specific languages
+# Compare specific languages across all families
 python src/scripts/_compare_docs.py --lang hu,ja,ko
 
-# Compare a range of languages (alphabetical by ISO code)
-python src/scripts/_compare_docs.py --from ar --to id
+# Compare a specific doc family only
+python src/scripts/_compare_docs.py --family readme
+python src/scripts/_compare_docs.py --family technical_reference,contributing
 ```
 
 **Output:**
-- Console: per-language PASS/FAIL summary with segment-level failure details
-- Report file: `temp/_compare_report.md` with full diff details
+- Console: per-family, per-language PASS/FAIL summary with segment-level failure details
+- Report file: `temp/_compare_report.md` with full diff details (last family processed)
 
 **Dependencies:** `requests` (for LLM API), reads `config/secrets.json` and `config/config.json`
 
@@ -35,9 +37,9 @@ python src/scripts/_compare_docs.py --from ar --to id
 - `semantic_diff` — LLM flag (may include false positives for low-resource languages)
 - `LLM_parse_fail` — LLM response unparseable
 
-### `_find_cjk.py` — CJK Character Residue Scanner
+### `_find_cjk.py` — CJK Character Residue Scanner (Multi-family)
 
-Scans all non-Chinese technical reference translations for stray Chinese characters in the main text (outside code blocks and table separators).
+Scans all non-Chinese translations across technical_reference, readme, and contributing for stray Chinese characters in the main text (outside code blocks and table separators).
 
 **Usage:**
 ```bash
@@ -52,11 +54,20 @@ Lists all heading-based segments of a markdown file with index, line range, line
 
 **Usage:**
 ```bash
-# Default: Chinese reference
+# Default: lists zh-hans base files for all 3 families
 python src/scripts/_list_segments.py
 
 # Specific file
 python src/scripts/_list_segments.py docs/technical_reference/technical_reference_hu.md
+```
+
+### `_add_crosslinks.py` — Multi-language Cross-link Sync (Multi-family)
+
+Ensures all technical_reference, readme, and contributing files have the cross-language link bar inserted after the `---` metadata separator.
+
+**Usage:**
+```bash
+python src/scripts/_add_crosslinks.py
 ```
 
 ## QA Workflow

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-src/scripts/_add_crosslinks.py — 为所有技术文档添加多语言交叉连接
+src/scripts/_add_crosslinks.py — 为所有文档添加多语言交叉连接
+覆盖 technical_reference, readme, contributing 三个文档家族。
 在 `---` 分隔线和第一个 `##` 标题之间插入语言跳转栏。
 """
 
@@ -8,7 +9,6 @@ import re
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
-DOC_DIR = BASE_DIR / "docs" / "technical_reference"
 
 # iso → native name
 LANG_NAMES = {
@@ -29,51 +29,70 @@ LINK_ORDER = [
     "pt-br", "ro", "ru", "th", "tr", "uk", "zh-hans",
 ]
 
-def build_other_langs(exclude: set) -> str:
+# ── doc families ────────────────────────────────────────────
+FAMILIES = [
+    {
+        "dir": BASE_DIR / "docs" / "technical_reference",
+        "glob": "technical_reference_*.md",
+        "prefix": "technical_reference_",
+        "label": "技术文档",
+    },
+    {
+        "dir": BASE_DIR / "docs" / "readme",
+        "glob": "README_*.md",
+        "prefix": "README_",
+        "label": "README",
+        "crosslink_overrides": {"zh-hans": "../README.md"},
+    },
+    {
+        "dir": BASE_DIR / "docs" / "contributing",
+        "glob": "contributing_*.md",
+        "prefix": "contributing_",
+        "label": "贡献指南",
+    },
+]
+
+def build_other_langs(exclude: set, prefix: str, overrides: dict | None = None) -> str:
     """Build the | separated link list for <details>, excluding given isos."""
     parts = []
     for iso in LINK_ORDER:
         if iso in exclude:
             continue
-        fname = f"technical_reference_{iso}.md"
+        fname = overrides.get(iso) if overrides else None
+        if fname is None:
+            fname = f"{prefix}{iso}.md"
         native = LANG_NAMES[iso]
         parts.append(f"[{native}]({fname})")
     return " | ".join(parts)
 
-def build_crosslink(current_iso: str) -> str:
+def build_crosslink(current_iso: str, prefix: str, overrides: dict | None = None) -> str:
     """Build the full cross-link block for a given language file."""
     primary_parts = []
 
-    # zh-hans: primary link to en only
-    # en: primary link to zh-hans only
-    # other: primary links to both zh-hans and en
-    exclude = {current_iso}
-
     if current_iso != "zh-hans":
-        primary_parts.append(f"[简体中文](technical_reference_zh-hans.md)")
+        zh_link = overrides.get("zh-hans") if overrides else None
+        if zh_link is None:
+            zh_link = f"{prefix}zh-hans.md"
+        primary_parts.append(f"[简体中文]({zh_link})")
     if current_iso != "en":
-        primary_parts.append(f"[English](technical_reference_en.md)")
+        primary_parts.append(f"[English]({prefix}en.md)")
 
-    # Other Languages excludes zh-hans, en, and self
     other_exclude = {"zh-hans", "en", current_iso}
-    others = build_other_langs(other_exclude)
+    others = build_other_langs(other_exclude, prefix, overrides)
 
     primary = " ".join(primary_parts)
     return f"> {primary} <details><summary>Other Languages</summary>{others}</details>\n"
 
-def process_file(filepath: Path):
+def process_file(filepath: Path, prefix: str, overrides: dict | None = None):
     text = filepath.read_text(encoding="utf-8")
-    iso = filepath.stem.replace("technical_reference_", "")
+    iso = filepath.stem.replace(prefix, "")
 
-    crosslink = build_crosslink(iso)
+    crosslink = build_crosslink(iso, prefix, overrides)
 
-    # Check if cross-link already exists
     if "<details><summary>Other Languages</summary>" in text:
         print(f"  [{iso}] SKIP (already has cross-links)")
         return
 
-    # Insert after the first `---\n` that follows the metadata block
-    # Pattern: # Title\n> meta...\n---\n## First heading
     m = re.search(r"\n---\n\n", text)
     if not m:
         print(f"  [{iso}] SKIP (no --- separator found)")
@@ -86,11 +105,14 @@ def process_file(filepath: Path):
     print(f"  [{iso}] DONE")
 
 def main():
-    files = sorted(DOC_DIR.glob("technical_reference_*.md"))
-    print(f"Processing {len(files)} files...")
-    for f in files:
-        process_file(f)
-    print("Done.")
+    for family in FAMILIES:
+        files = sorted(family["dir"].glob(family["glob"]))
+        overrides = family.get("crosslink_overrides")
+        print(f"\n--- {family['label']} ({family['dir'].name}) ---")
+        print(f"  {len(files)} file(s)")
+        for f in files:
+            process_file(f, family["prefix"], overrides)
+    print("\nDone.")
 
 if __name__ == "__main__":
     main()

@@ -39,4 +39,13 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         list_segments(sys.argv[1])
     else:
-        list_segments(BASE_DIR / 'docs' / 'technical_reference' / 'technical_reference_zh-hans.md')
+        bases = [
+            ('技术文档', BASE_DIR / 'docs' / 'technical_reference' / 'technical_reference_zh-hans.md'),
+            ('README',   BASE_DIR / 'README.md'),
+            ('贡献指南',  BASE_DIR / 'docs' / 'contributing' / 'contributing_zh-hans.md'),
+        ]
+        for label, path in bases:
+            print(f'\n{"="*60}')
+            print(f'  {label}: {path.name}')
+            print(f'{"="*60}')
+            list_segments(path)
