@@ -48,8 +48,9 @@ CONFIG      = json.loads((BASE_DIR / "config" / "config.json").read_text(encodin
 LLM_KEY      = SECRETS["LLM_KEY"]
 LLM_ENDPOINT = CONFIG["LLM"]["api_endpoint"]
 LLM_MODEL    = "deepseek-v4-flash"
-LLM_TIMEOUT  = 120
-MAX_CONCUR   = 16
+LLM_TIMEOUT  = 300
+MAX_CONCUR   = 256
+MAX_RETRIES  = 3
 
 # ── lang name mapping (iso→native) ──────────────────────────
 LANG_NAMES = {
@@ -164,8 +165,7 @@ PROMPT_TMPL = """\
 
 检查项(任一不通过则false):
 A. 整体语义是否与中文原文一致
-B. 目标语言段落中是否有未翻译的英文/中文残留 (注意区分: 代码块内容/变量名/函数名/类名/文件名/路径/URL/Steam ID/专有名词/API字段名 不算残留)
-C. Markdown结构是否完整 (代码块```是否成对, 表格列数是否一致)
+B. 目标语言段落中是否有未翻译的其它语言残留 (注意区分: 代码块内容/变量名/函数名/类名/文件名/路径/URL/Steam ID/专有名词/API字段名 不算残留)
 
 对比: 中文(原文) vs {target_lang}(目标语言)
 
@@ -201,6 +201,16 @@ def call_llm(zh_text: str, tgt_text: str, target_iso: str):
         return raw
     except Exception as e:
         return f"ERROR:{e}"
+
+def call_llm_with_retry(zh_text: str, tgt_text: str, target_iso: str) -> str:
+    """调用LLM，失败最多重试MAX_RETRIES次"""
+    for attempt in range(MAX_RETRIES):
+        raw = call_llm(zh_text, tgt_text, target_iso)
+        if not raw.startswith("ERROR:"):
+            return raw
+        if attempt < MAX_RETRIES - 1:
+            time.sleep(1)
+    return raw
 
 def parse_llm(raw: str, debug_label: str = ""):
     """解析LLM返回的true/false. 全文搜索."""
@@ -253,8 +263,9 @@ def verify_segment(zh_text: str, tgt_text: str, llm_semantic: bool | None):
         "struct_diffs": struct_diffs,
     }
 
-# ── process one target lang ─────────────────────────────────
-def process_lang(target_file: Path, family: dict):
+# ── prepare segments per lang (不含LLM调用) ──────────────────
+def prepare_lang_segments(target_file: Path, family: dict) -> tuple:
+    """读取并切分文件，返回 (iso, name, list[seg_dict])"""
     iso = iso_from_filename(target_file.name, family["prefix"])
     name = lang_name(iso)
     base_file = family.get("base_path", family["dir"] / family["base"])
@@ -263,52 +274,34 @@ def process_lang(target_file: Path, family: dict):
 
     zh_segs = split_by_headings(zh_text)
     tgt_segs = split_by_headings(tgt_text)
-
     n = max(len(zh_segs), len(tgt_segs))
 
-    def do_one(i):
+    segments = []
+    for i in range(n):
         zh_s = zh_segs[i] if i < len(zh_segs) else (0, 0, "")
         tgt_s = tgt_segs[i] if i < len(tgt_segs) else (0, 0, "")
         zh_start, zh_end, zh_content = zh_s
         tgt_start, tgt_end, tgt_content = tgt_s
-
         heading_zh = zh_content.split("\n")[0].strip() if zh_content else "N/A"
-        heading_tgt = tgt_content.split("\n")[0].strip() if tgt_content else "N/A"
-
-        raw = call_llm(zh_content, tgt_content, iso)
-        llm_ok, llm_raw = parse_llm(raw, f"{iso}[{i}]")
-
-        verify = verify_segment(zh_content, tgt_content, llm_ok)
-
-        return {
+        segments.append({
             "seg_idx": i,
+            "iso": iso,
+            "name": name,
             "zh_range": f"L{zh_start}-L{zh_end}",
             "tgt_range": f"L{tgt_start}-L{tgt_end}",
             "zh_heading": heading_zh,
-            "tgt_heading": heading_tgt,
-            "llm_semantic": llm_ok,
-            "llm_raw": llm_raw,
-            **verify,
-        }
+            "zh_content": zh_content,
+            "tgt_content": tgt_content,
+        })
+    return iso, name, segments
 
-    with ThreadPoolExecutor(max_workers=MAX_CONCUR) as pool:
-        futures = {pool.submit(do_one, i): i for i in range(n)}
-        results = [fut.result() for fut in as_completed(futures)]
-
-    results.sort(key=lambda x: x["seg_idx"])
-
-    # 分类: 结构 vs 语义
-    struct_issues = []
-    semantic_issues = []
-    for r in results:
-        is_struct_fail = (r["line_verdict"] != "OK" or not r["struct_match"])
-        is_semantic_fail = (r["llm_semantic"] is False or r["llm_semantic"] is None)
-        if is_struct_fail:
-            struct_issues.append(r)
-        elif is_semantic_fail:
-            semantic_issues.append(r)
-
-    return iso, name, struct_issues, semantic_issues
+# ── process one segment task ────────────────────────────────
+def process_one_task(seg: dict) -> dict:
+    """单个分片: LLM调用(含重试)+校验，返回合并结果"""
+    raw = call_llm_with_retry(seg["zh_content"], seg["tgt_content"], seg["iso"])
+    llm_ok, llm_raw = parse_llm(raw, f"{seg['iso']}[{seg['seg_idx']}]")
+    verify = verify_segment(seg["zh_content"], seg["tgt_content"], llm_ok)
+    return {**seg, "llm_semantic": llm_ok, "llm_raw": llm_raw, **verify}
 
 # ── report ──────────────────────────────────────────────────
 def write_report(all_results: list, family_label: str, base_file: str):
@@ -430,13 +423,48 @@ def main():
         if not struct_ok:
             continue
 
-        # ── 阶段2: LLM 段落比对 ──
+        # ── 阶段2: 批量准备所有分片 ──
+        all_segments = []
+        for tf in targets:
+            _iso, _name, segs = prepare_lang_segments(tf, fam)
+            all_segments.extend(segs)
+
+        print(f"  总任务数: {len(all_segments)} LLM调用 (并发={MAX_CONCUR}, 重试={MAX_RETRIES}次)")
+
+        # ── 阶段3: 全量并行LLM调用(含重试) ──
+        raw_results = []
+        with ThreadPoolExecutor(max_workers=MAX_CONCUR) as pool:
+            futures = {pool.submit(process_one_task, seg): seg for seg in all_segments}
+            for fut in as_completed(futures):
+                raw_results.append(fut.result())
+
+        # 按iso分组并按seg_idx排序
+        from collections import defaultdict
+        by_iso = defaultdict(list)
+        for r in raw_results:
+            by_iso[r["iso"]].append(r)
+        for iso in by_iso:
+            by_iso[iso].sort(key=lambda x: x["seg_idx"])
+
+        # ── 阶段4: 分类输出 ──
         all_results = []
         for tf in targets:
-            iso, name, struct_issues, semantic_issues = process_lang(tf, fam)
+            iso = iso_from_filename(tf.name, fam["prefix"])
+            name = lang_name(iso)
+            seg_results = by_iso.get(iso, [])
+
+            struct_issues = []
+            semantic_issues = []
+            for r in seg_results:
+                is_struct = (r["line_verdict"] != "OK" or not r["struct_match"])
+                is_semantic = (r["llm_semantic"] is False or r["llm_semantic"] is None)
+                if is_struct:
+                    struct_issues.append(r)
+                elif is_semantic:
+                    semantic_issues.append(r)
+
             all_results.append((iso, name, struct_issues, semantic_issues))
 
-            # 分类输出
             if struct_issues:
                 print(f"\n--- [{iso}] {name} 段落结构问题 ({len(struct_issues)} 段) ---")
                 for r in struct_issues:

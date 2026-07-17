@@ -19,15 +19,11 @@ if %FULL_MODE%==1 (
 )
 echo.
 
-:: venv
-set PYTHON=.venv\Scripts\python.exe
-if not exist .venv\Scripts\activate.bat set PYTHON=python
-
 :: ── Phase 1: 结构检查 ──
 echo [Phase 1/2] 结构检查...
-set STRUCT_FAIL=0
-%PYTHON% src/scripts/_check_all.py %FAMILY_ARG%
-if %errorlevel% neq 0 (set STRUCT_FAIL=1)
+dotnet run --project src/DocChecker -- --full %FAMILY_ARG%
+set STRUCT_FAIL=%errorlevel%
+if %STRUCT_FAIL% neq 0 set STRUCT_FAIL=1
 
 :: ── Phase 2: LLM (gate) ──
 echo.
@@ -44,7 +40,7 @@ if !STRUCT_FAIL! neq 0 (
     echo [Phase 2/2] LLM 语义对比...
     echo ============================================
     echo.
-    %PYTHON% src/scripts/_compare_docs.py %FAMILY_ARG%
+    dotnet run --project src/DocChecker -- --family %2
     if %errorlevel% neq 0 (
         echo [!] 发现语义不一致
     ) else (
