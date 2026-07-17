@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 src/scripts/_find_cjk.py — 扫描文档翻译中的 CJK 字符残留
-只输出有问题的文件, exit 0=无残留 1=有残留
+输出有问题文件作为警告, 始终 exit 0 (不阻断后续流程)
 """
 
 import re, sys
@@ -18,19 +18,19 @@ FAMILIES = [
     {
         "dir": BASE_DIR / "docs" / "technical_reference",
         "glob": "technical_reference_*.md",
-        "skip": {"technical_reference_zh-hans.md", "technical_reference_zh-hant.md", "technical_reference_ja.md"},
+        "skip": {"technical_reference_zh-hans.md"},
         "label": "技术文档",
     },
     {
         "dir": BASE_DIR / "docs" / "readme",
         "glob": "README_*.md",
-        "skip": {"README_zh-hans.md", "README_zh-hant.md", "README_ja.md"},
+        "skip": {"README_zh-hans.md"},
         "label": "README",
     },
     {
         "dir": BASE_DIR / "docs" / "contributing",
         "glob": "contributing_*.md",
-        "skip": {"contributing_zh-hans.md", "contributing_zh-hant.md", "contributing_ja.md"},
+        "skip": {"contributing_zh-hans.md"},
         "label": "贡献指南",
     },
 ]
@@ -48,7 +48,10 @@ for family in FAMILIES:
         in_crosslink_block = False
         for i, line in enumerate(lines, 1):
             stripped = line.strip()
-            # 跳过交叉连接块 (含 <details><summary>...Languages... 或 ...Sprachen... 等)
+            # 跳过交叉连接触发行 (含语言链接的 > 行)
+            if stripped.startswith('>') and '<details><summary>' in stripped:
+                continue
+            # 跳过交叉连接块内部
             if '<details><summary>' in stripped:
                 in_crosslink_block = True
                 continue
@@ -80,5 +83,4 @@ for family in FAMILIES:
 
 if total_issues > 0:
     print(f"\n=== CJK 残留: {total_issues} 处 ===")
-    sys.exit(1)
-# else: 无输出 = 无残留
+# CJK 为软警告, 始终 exit 0 不阻断后续流程

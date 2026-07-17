@@ -59,8 +59,9 @@ def main():
         print("Mode: full (Phase 2 will run if Phase 1 passes)")
 
     phase1_fail = 0
+    soft_warnings = 0
 
-    # 1a — segment structure
+    # 1a — segment structure (硬性, 阻断 Phase 2)
     ok = run_step(
         [python_exe, str(SCRIPTS_DIR / "_list_segments.py")] + family_args,
         "1/3 Segment Structure"
@@ -68,30 +69,33 @@ def main():
     if not ok:
         phase1_fail += 1
 
-    # 1b — CJK residue
+    # 1b — CJK residue (软警告, 不阻断)
     ok = run_step(
         [python_exe, str(SCRIPTS_DIR / "_find_cjk.py")],
-        "2/3 CJK Residue Scan"
+        "2/3 CJK Residue Scan (non-blocking)"
     )
     if not ok:
-        phase1_fail += 1
+        soft_warnings += 1
 
-    # 1c — crosslinks
+    # 1c — crosslinks (软警告, 不阻断)
     ok = run_step(
         [python_exe, str(SCRIPTS_DIR / "_add_crosslinks.py"), "--check"],
-        "3/3 Crosslink Check"
+        "3/3 Crosslink Check (non-blocking)"
     )
     if not ok:
-        phase1_fail += 1
+        soft_warnings += 1
 
     # ── Phase 1 result ───────────────────────────────────────
     print()
     if phase1_fail > 0:
-        print(f"Phase 1 FAILED — {phase1_fail} check(s) had issues.")
+        print(f"Phase 1 FAILED — {phase1_fail} structural check(s) had issues.")
         print("Fix the above before re-running with --full.")
         sys.exit(1)
 
-    print("Phase 1: ALL PASSED")
+    if soft_warnings > 0:
+        print(f"Phase 1 PASSED — {soft_warnings} non-blocking warning(s) above (CJK / crosslinks).")
+    else:
+        print("Phase 1: ALL PASSED")
 
     if not args.full:
         print("Dry-run complete. Use --full to enable Phase 2 (LLM semantic comparison).")

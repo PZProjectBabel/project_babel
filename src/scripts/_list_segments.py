@@ -26,6 +26,7 @@ DOC_FAMILIES = {
     "readme": {
         "dir": BASE_DIR / "docs" / "readme",
         "base": "README_zh-hans.md",
+        "base_path": BASE_DIR / "README.md",  # 中文 README 在仓库根目录
         "glob": "README_*.md",
         "skip": {"README_zh-hans.md", "README_zh-hant.md"},
         "prefix": "README_",
@@ -68,7 +69,7 @@ def get_segments(filepath):
 
 def check_family(family):
     """比较家族内所有目标文件 vs zh-hans, 返回不一致列表"""
-    base_file = family["dir"] / family["base"]
+    base_file = family.get("base_path") or (family["dir"] / family["base"])
     if not base_file.exists():
         return [f"[{family['label']}] 基准文件缺失: {base_file}"]
 
