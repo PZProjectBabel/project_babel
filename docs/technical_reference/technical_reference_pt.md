@@ -1,89 +1,118 @@
 # Documentação Técnica do Project Babel
 
-> **Objetivo**: Pipeline de tradução por IA para múltiplos mods do Project Zomboid  
-> **Linguagem**: C# / .NET 10  
-> **Ambiente de Execução**: GitHub Actions (Linux x64) / Local (Windows x64)  
+> **Objetivo**: Pipeline de tradução de IA para múltiplos mods do Project Zomboid
+> **Linguagem**: C# / .NET 10
+> **Ambiente de execução**: GitHub Actions (Linux x64) / Local (Windows x64)
 > **Repositório**: [PZProjectBabel/project_babel](https://github.com/PZProjectBabel/project_babel)
 
 ---
 
-> [简体中文](technical_reference_zh-hans.md) [English](technical_reference_en.md) <details><summary>Other Languages</summary>[العربية](technical_reference_ar.md) | [català](technical_reference_ca.md) | [繁體中文](technical_reference_zh-hant.md) | [čeština](technical_reference_cs.md) | [dansk](technical_reference_da.md) | [Deutsch](technical_reference_de.md) | [español](technical_reference_es.md) | [suomi](technical_reference_fi.md) | [français](technical_reference_fr.md) | [magyar](technical_reference_hu.md) | [Bahasa Indonesia](technical_reference_id.md) | [italiano](technical_reference_it.md) | [日本語](technical_reference_ja.md) | [한국어](technical_reference_ko.md) | [Nederlands](technical_reference_nl.md) | [norsk](technical_reference_no.md) | [Tagalog](technical_reference_tl.md) | [polski](technical_reference_pl.md) | [português do Brasil](technical_reference_pt-br.md) | [română](technical_reference_ro.md) | [русский](technical_reference_ru.md) | [ภาษาไทย](technical_reference_th.md) | [Türkçe](technical_reference_tr.md) | [українська](technical_reference_uk.md)</details>
-## Visão Geral do Projeto
-
-**Project Babel** é um pipeline de tradução automatizado, projetado especificamente para fornecer traduções por IA em múltiplos idiomas para os mods da Steam Workshop do jogo *Project Zomboid*.
-
-### Contexto e Motivação
-
-O Project Zomboid possui um extenso ecossistema de mods, com dezenas de milhares de mods criados por usuários disponíveis na Steam Workshop. A grande maioria desses mods é disponibilizada apenas em inglês, o que cria uma barreira linguística significativa para jogadores não anglófonos. Os métodos tradicionais de tradução manual enfrentam dois desafios principais:
-
-1.  **Escala Massiva**: O grande número de mods e o volume de texto envolvido tornam a tradução manual extremamente custosa e lenta.
-2.  **Atualizações Constantes**: Os autores de mods atualizam seu conteúdo com frequência, exigindo que as traduções sejam continuamente atualizadas para não ficarem desatualizadas.
-
-O Project Babel resolve esses problemas construindo um pipeline de tradução por IA totalmente automatizado. Ele é capaz de descobrir automaticamente novos mods, baixar seus arquivos, extrair o texto a ser traduzido, utilizar Modelos de Linguagem de Grande Escala (LLMs) para gerar traduções de alta qualidade e, finalmente, produzir pacotes de tradução prontos para uso pelos jogadores.
-
-### Capacidades Principais
-
-- **Descoberta Automática**: Coleta automática de IDs de mods a serem traduzidos a partir de plataformas da comunidade (AsOne) e de listas de solicitação locais.
-- **Tradução Inteligente**: Utiliza um LLM combinado com um corpus de referência (via busca RAG) e um glossário para gerar traduções cientes do contexto.
-- **Atualizações Incrementais**: Detecta mudanças no conteúdo dos mods e traduz apenas o texto novo ou modificado, evitando retrabalho desnecessário.
-- **Revisão de Segurança**: Detecta e filtra automaticamente mods que contenham conteúdo impróprio (drogas, conteúdo sexual, etc.).
-- **Suporte a Múltiplos Idiomas**: A arquitetura do pipeline suporta 27 idiomas de destino, atualmente servindo principalmente o Chinês Simplificado (zh-hans).
-- **Operação Contínua**: Acionado por agendamento no GitHub Actions, permitindo atualizações de tradução sem intervenção manual.
-
-### Finalidade do Documento
-
-Este documento é direcionado a desenvolvedores que desejam entender, implantar ou contribuir para o pipeline do Project Babel. A leitura deste documento ajudará você a:
-
-- Compreender a arquitetura geral do pipeline e o fluxo de dados.
-- Dominar as responsabilidades e os princípios internos de cada módulo de processamento.
-- Entender a estrutura dos arquivos de configuração e o significado de cada parâmetro.
-- Ser capaz de executar o pipeline em ambientes locais ou de integração contínua (CI).
+> [English](technical_reference_en.md) | [简体中文](technical_reference_zh-hans.md) <details><summary>Other Languages</summary>[العربية](technical_reference_ar.md) | [català](technical_reference_ca.md) | [繁體中文](technical_reference_zh-hant.md) | [čeština](technical_reference_cs.md) | [dansk](technical_reference_da.md) | [Deutsch](technical_reference_de.md) | [español](technical_reference_es.md) | [suomi](technical_reference_fi.md) | [français](technical_reference_fr.md) | [magyar](technical_reference_hu.md) | [Bahasa Indonesia](technical_reference_id.md) | [italiano](technical_reference_it.md) | [日本語](technical_reference_ja.md) | [한국어](technical_reference_ko.md) | [Nederlands](technical_reference_nl.md) | [norsk](technical_reference_no.md) | [Tagalog](technical_reference_tl.md) | [polski](technical_reference_pl.md) | [português](technical_reference_pt.md) | [português do Brasil](technical_reference_pt-br.md) | [română](technical_reference_ro.md) | [русский](technical_reference_ru.md) | [ภาษาไทย](technical_reference_th.md) | [Türkçe](technical_reference_tr.md) | [українська](technical_reference_uk.md)</details>
 
 ---
 
 ## Índice
 
+- [Visão Geral do Projeto](#visão-geral-do-projeto)
+  - [Contexto e Motivação](#contexto-e-motivação)
+  - [Capacidades Principais](#capacidades-principais)
+  - [Propósito do Documento](#propósito-do-documento)
 - [1. Arquitetura do Sistema](#1-arquitetura-do-sistema)
+  - [Arquitetura Geral](#arquitetura-geral)
+  - [Duas Grandes Fases de Processamento](#duas-grandes-fases-de-processamento)
+  - [Fluxo de Dados Principal](#fluxo-de-dados-principal)
 - [2. Fluxo de Trabalho do Pipeline](#2-fluxo-de-trabalho-do-pipeline)
-- [3. Princípios e Detalhes Técnicos dos Módulos](#3-princípios-e-detalhes-técnicos-dos-módulos)
-  - [3.1 ConfigReader](#31-configreader-configreaderservice)
-  - [3.2 RepoDataLoader](#32-repodataloader-repodataloaderservice)
-  - [3.3 ModIdCollector](#33-modidcollector-modidcollectorservice)
-  - [3.4 ModInfoFetcher](#34-modinfofetcher-modinfofetcherservice)
-  - [3.5 ModDownloader](#35-moddownloader-moddownloaderservice)
-  - [3.6 ContentExtractor](#36-contentextractor-contentextractorservice)
-  - [3.7 ContentChecker](#37-contentchecker-contentcheckerservice)
-  - [3.8 EmbeddingFetcher](#38-embeddingfetcher-embeddingfetcherservice)
-  - [3.9 TranslationBatcher](#39-translationbatcher-translationbatcherservice)
-  - [3.10 RagContextRetriever](#310-ragcontextretriever-ragcontextretrieverservice)
-  - [3.11 LLMTranslator](#311-llmtranslator-llmtranslatorservice)
-  - [3.12 ResultWriter](#312-resultwriter-resultwriterservice)
-  - [3.13 FinalOutputWriter](#313-finaloutputwriter-finaloutputwriterservice)
-  - [3.14 ProgressReporter](#314-progressreporter-progressreporterservice)
+  - [Fase 1: Carregamento de Configuração e Inicialização do SteamCMD](#fase-1-carregamento-de-configuração-e-inicialização-do-steamcmd)
+  - [Fase 2: Sincronização de Tradução de Referência (Etapas 2-3)](#fase-2-sincronização-de-tradução-de-referência-etapas-2-3)
+  - [Fase 3: Ciclo de Tradução Principal (Etapas 4-14)](#fase-3-ciclo-de-tradução-principal-etapas-4-14)
+  - [Fase 4: Saída e Relatório (Etapas 15-20)](#fase-4-saída-e-relatório-etapas-15-20)
+- [3. Princípios dos Módulos e Detalhes Técnicos](#3-princípios-dos-módulos-e-detalhes-técnicos)
+  - [3.1 ConfigReader (`ConfigReaderService`)](#31-configreader-configreaderservice)
+  - [3.2 RepoDataLoader (`RepoDataLoaderService`)](#32-repodataloader-repodataloaderservice)
+  - [3.3 ModIdCollector (`ModIdCollectorService`)](#33-modidcollector-modidcollectorservice)
+  - [3.4 ModInfoFetcher (`ModInfoFetcherService`)](#34-modinfofetcher-modinfofetcherservice)
+  - [3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)](#35-steamcmdbootstrapper-steamcmdbootstrapperservice)
+  - [3.5.1 ModDownloader (`ModDownloaderService`)](#351-moddownloader-moddownloaderservice)
+  - [3.6 ContentExtractor (`ContentExtractorService`)](#36-contentextractor-contentextractorservice)
+  - [3.7 ContentChecker (`ContentCheckerService`)](#37-contentchecker-contentcheckerservice)
+  - [3.8 EmbeddingFetcher (`EmbeddingFetcherService`)](#38-embeddingfetcher-embeddingfetcherservice)
+  - [3.9 TranslationBatcher (`TranslationBatcherService`)](#39-translationbatcher-translationbatcherservice)
+  - [3.10 RagContextRetriever (`RagContextRetrieverService`)](#310-ragcontextretriever-ragcontextretrieverservice)
+  - [3.11 LLMTranslator (`LLMTranslatorService`)](#311-llmtranslator-llmtranslatorservice)
+  - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
+  - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
+  - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
 - [4. Convenções de Dados](#4-convenções-de-dados)
   - [4.1 Tipos Principais](#41-tipos-principais)
-  - [4.2 Formatos de Arquivo](#42-formatos-de-arquivo)
-  - [4.3 Convenções de Chave de Índice](#43-convenções-de-chave-de-índice)
-  - [4.4 Máquinas de Estado](#44-máquinas-de-estado)
-- [5. Guia de Configuração](#5-guia-de-configuração)
-  - [5.1 config.json — Configuração Principal do Pipeline](#51-configconfigjson--configuração-principal-do-pipeline)
-    - [5.1.1 LLM — Configuração do Modelo de Linguagem](#511-llm--configuração-do-modelo-de-linguagem)
-    - [5.1.2 RAG — Configuração de Geração Aumentada por Recuperação](#512-rag--configuração-de-geração-aumentada-por-recuperação)
-    - [5.1.3 AsOne — Fonte de Lista de Mods Remota](#513-asone--fonte-de-lista-de-mods-remota)
-    - [5.1.4 Steam — Configuração da Steam Web API](#514-steam--configuração-da-steam-web-api)
-    - [5.1.5 Pipeline — Configuração Geral do Pipeline](#515-pipeline--configuração-geral-do-pipeline)
-    - [5.1.6 ContentCheck — Configuração de Revisão de Segurança de Conteúdo](#516-contentcheck--configuração-de-revisão-de-segurança-de-conteúdo)
-  - [5.1.7 Settings — Configurações Básicas do Pipeline](#517-settings--configurações-básicas-do-pipeline)
-  - [5.1.8 Embedding — Configuração do Serviço de Embedding](#518-embedding--configuração-do-serviço-de-embedding)
-  - [5.1.9 Workflow — Configuração do Fluxo de Trabalho](#519-workflow--configuração-do-fluxo-de-trabalho)
-  - [5.2 secrets.json — Configuração de Chaves](#52-configsecretsjson--configuração-de-chaves)
-  - [5.3 supported_languages.json — Lista de Idiomas Suportados](#53-configsupported_languagesjson--lista-de-idiomas-suportados)
-  - [5.4 ref_translation_mods.json — Mods de Tradução de Referência](#54-configref_translation_modsjson--mods-de-tradução-de-referência)
-  - [5.5 request_for_translation.txt — Solicitações de Tradução Locais](#55-configrequest_for_translationtxt--solicitações-de-tradução-locais)
-  - [5.6 Fluxo de Carregamento da Configuração](#56-fluxo-de-carregamento-da-configuração)
-- [6. Estrutura de Diretórios](#6-estrutura-de-diretórios)
-- [7. Modos de Execução](#7-modos-de-execução)
-- [8. Decisões de Design Críticas](#8-decisões-de-design-críticas)
+    - [`TranslationEntry` — Entrada de Tradução](#translationentry-entrada-de-tradução)
+    - [`TranslationData` — Dados de Tradução](#translationdata-dados-de-tradução)
+    - [`ModInfo` — Metadados de Mod](#modinfo-metadados-de-mod)
+    - [`TranslationBatch` — Lote de tradução](#translationbatch-lote-de-tradução)
+    - [`LangInfoData` — Informações de idioma](#langinfodata-informações-de-idioma)
+  - [4.2 Formatos de arquivo](#42-formatos-de-arquivo)
+    - [Saída da extração (produzida pelo ContentExtractor)](#saída-da-extração-produzida-pelo-contentextractor)
+    - [Arquivo de mapeamento de chaves](#arquivo-de-mapeamento-de-chaves)
+    - [Cache de tradução (data/translations/)](#cache-de-tradução-datatranslations)
+    - [Saída final (final_outputs/)](#saída-final-final_outputs)
+    - [Vetores de incorporação (data/embeddings/*.bin)](#vetores-de-incorporação-dataembeddingsbin)
+  - [4.3 Convenções de chave de índice](#43-convenções-de-chave-de-índice)
+  - [4.4 Máquina de estados](#44-máquina-de-estados)
+    - [Estado de verificação de conteúdo (ContentCheck)](#estado-de-verificação-de-conteúdo-contentcheck)
+    - [Estado de Verificação de Tradução TranslationData](#estado-de-verificação-de-tradução-translationdata)
+    - [Determinação de atualização ModInfo.needsUpdate](#determinação-de-atualização-modinfoneedsupdate)
+- [5. Instruções de Configuração](#5-instruções-de-configuração)
+  - [5.1 `config/config.json` — Configuração Principal do Pipeline](#51-configconfigjson-configuração-principal-do-pipeline)
+    - [5.1.1 `LLM` — Configuração do Modelo de Linguagem Grande](#511-llm-configuração-do-modelo-de-linguagem-grande)
+    - [5.1.2 `RAG` — Configuração de Geração Aumentada por Recuperação](#512-rag-configuração-de-geração-aumentada-por-recuperação)
+    - [5.1.3 `AsOne` — Fonte de lista de Mods remota](#513-asone-fonte-de-lista-de-mods-remota)
+    - [5.1.4 `Steam` — configuração da API Web do Steam](#514-steam-configuração-da-api-web-do-steam)
+    - [5.1.5 `Pipeline` — Configuração geral do pipeline](#515-pipeline-configuração-geral-do-pipeline)
+    - [5.1.6 `ContentCheck` — Configuração de revisão de segurança de conteúdo](#516-contentcheck-configuração-de-revisão-de-segurança-de-conteúdo)
+    - [5.1.7 `Settings` — Configurações básicas do pipeline](#517-settings-configurações-básicas-do-pipeline)
+    - [5.1.8 `Embedding` — Configuração do serviço de embeddings](#518-embedding-configuração-do-serviço-de-embeddings)
+    - [5.1.9 `Workflow` — Configuração do fluxo de trabalho](#519-workflow-configuração-do-fluxo-de-trabalho)
+  - [5.2 `config/secrets.json` — 密钥配置](#52-configsecretsjson-密钥配置)
+  - [5.3 `config/supported_languages.json` — Lista de idiomas suportados](#53-configsupported_languagesjson-lista-de-idiomas-suportados)
+  - [5.4 `config/ref_translation_mods.json` — Módulos de tradução de referência](#54-configref_translation_modsjson-módulos-de-tradução-de-referência)
+  - [5.5 `config/request_for_translation.txt` — Solicitações de tradução locais](#55-configrequest_for_translationtxt-solicitações-de-tradução-locais)
+  - [5.6 Fluxo de Carregamento de Configuração](#56-fluxo-de-carregamento-de-configuração)
+- [6. Estrutura do Diretório](#6-estrutura-do-diretório)
+- [7. Modo de Execução](#7-modo-de-execução)
+  - [Execução Local (Windows x64)](#execução-local-windows-x64)
+  - [Execução CI (GitHub Actions, Linux x64)](#execução-ci-github-actions-linux-x64)
+  - [Julgamento de resultados de execução](#julgamento-de-resultados-de-execução)
+- [8. Decisões de design importantes](#8-decisões-de-design-importantes)
+
+---
+
+## Visão Geral do Projeto
+
+**Project Babel** é um pipeline de tradução automatizado, projetado especificamente para fornecer tradução de IA multilíngue para os mods (Mods) do Workshop do Steam do jogo Project Zomboid.
+
+### Contexto e Motivação
+
+Project Zomboid possui um vasto ecossistema de mods, com dezenas de milhares de mods criados por jogadores no Workshop do Steam. A grande maioria dos mods oferece apenas texto em inglês, e jogadores não falantes de inglês encontram barreiras linguísticas ao usar esses mods. Os métodos tradicionais de tradução manual enfrentam dois desafios centrais:
+1. **Escala massiva**: Com um grande número de mods e grande volume de texto, a tradução manual tem custos extremamente altos e progresso lento.
+2. **Atualizações contínuas**: Os autores de mods atualizam o conteúdo com frequência, exigindo que as traduções sejam acompanhadas continuamente, caso contrário, tornar-se-ão desatualizadas.
+
+O Project Babel resolve esses problemas construindo um pipeline de tradução de IA totalmente automatizado. Ele pode descobrir automaticamente novos mods, baixar arquivos de mods, extrair texto a ser traduzido e usar Modelos de Linguagem de Grande Escala (LLM) para gerar traduções de alta qualidade, produzindo, em última análise, patches de localização que os jogadores podem usar diretamente.
+
+### Capacidades Principais
+
+- **Descoberta automática**: Coleta automaticamente IDs de mods a serem traduzidos da plataforma comunitária (AsOne) e da lista de solicitações local.
+- **Tradução inteligente**: Combina corpus de referência (recuperação RAG) e glossário, gerando traduções sensíveis ao contexto via LLM.
+- **Atualizações incrementais**: Detecta mudanças no conteúdo do mod, traduzindo apenas textos novos ou modificados para evitar trabalho repetitivo.
+- **Revisão de segurança**: Detecta e filtra automaticamente mods com conteúdo impróprio (drogas, pornografia, etc.).
+- **Suporte a vários idiomas**: A arquitetura do pipeline suporta 27 idiomas de destino, atualmente servindo principalmente o Chinês Simplificado (zh-hans).
+- **Operação contínua**: Acionado por cronograma via GitHub Actions, realizando atualizações de tradução sem supervisão.
+
+### Propósito do Documento
+
+Este documento é destinado a desenvolvedores que desejam entender, implantar ou contribuir com o pipeline do Project Babel. Ler este documento pode ajudá-lo a:
+- Entender a arquitetura geral do pipeline e o fluxo de dados.
+- Dominar as responsabilidades e princípios internos de cada módulo de processamento.
+- Conhecer a estrutura dos arquivos de configuração e o significado de cada parâmetro.
+- Ter a capacidade de executar o pipeline em ambientes locais ou de CI.
 
 ---
 
@@ -91,617 +120,579 @@ Este documento é direcionado a desenvolvedores que desejam entender, implantar 
 
 ### Arquitetura Geral
 
-O pipeline adota a arquitetura clássica de "linha de montagem" (Pipeline), composta por 14 módulos independentes conectados em sequência. Cada módulo é responsável por uma subtarefa bem definida, e a comunicação entre eles ocorre por meio de estruturas de dados em memória, produzindo, ao final, os arquivos de tradução prontos para distribuição.
+O pipeline adota a clássica arquitetura de 'Pipeline', composta por 15 módulos independentes conectados em sequência. Cada módulo é responsável por uma subtarefa clara, e os módulos transmitem dados por meio de estruturas de dados em memória, produzindo, em última análise, arquivos de tradução publicáveis.
 
 ```mermaid
 flowchart TD
-    A[ConfigReader] --> B[RepoDataLoader]
-    B --> C[ModIdCollector]
-    C --> D[ModInfoFetcher]
-    D --> E[ModDownloader]
-    E --> F[ContentExtractor]
-    F --> G[ContentChecker]
-    G --> H[EmbeddingFetcher]
-    H --> I[TranslationBatcher]
-    I --> J[RagContextRetriever]
-    J --> K[LLMTranslator]
-    K --> L[ResultWriter]
-    L --> M[FinalOutputWriter]
-    M --> N[ProgressReporter]
+  A[ConfigReader] --> B[SteamCmdBootstrapper]
+  B --> C[RepoDataLoader]
+  C --> D[ModIdCollector]
+  D --> E[ModInfoFetcher]
+  E --> F[ModDownloader]
+  F --> G[ContentExtractor]
+  G --> H[ContentChecker]
+  H --> I[EmbeddingFetcher]
+  I --> J[TranslationBatcher]
+  J --> K[RagContextRetriever]
+  K --> L[LLMTranslator]
+  L --> M[ResultWriter]
+  M --> N[FinalOutputWriter]
+  N --> O[ProgressReporter]
 
-    subgraph Sincronização de Tradução de Referência
-        B2[RepoDataLoader-ref] --> D2[ModInfoFetcher-ref]
-        D2 --> E2[ModDownloader-ref]
-        E2 --> F2[ContentExtractor-ref]
-        F2 --> H2[EmbeddingFetcher-ref]
-        H2 --> L
+subgraph Sincronização de Tradução de Referência
+        C2[RepoDataLoader-ref] --> E2[ModInfoFetcher-ref]
+        E2 --> F2[ModDownloader-ref]
+        F2 --> G2[ContentExtractor-ref]
+        G2 --> I2[EmbeddingFetcher-ref]
+        I2 --> M
     end
 ```
 
-> **Nota**: No caminho de sincronização da tradução de referência, o `RepoDataLoader-ref` carrega os dados em cache do diretório `translation_ref/` como ponto de partida, em vez de receber entrada do `ConfigReader`.
+> **Nota**: No caminho de sincronização de tradução de referência, o `RepoDataLoader-ref` carrega dados de cache do diretório `translation_ref/` como ponto de partida, em vez de obter entrada do `ConfigReader`.
 
-### Duas Fases Principais de Processamento
+### Duas Grandes Fases de Processamento
 
-O pipeline contém dois caminhos de processamento paralelos, servindo a propósitos distintos:
+O pipeline contém dois caminhos de processamento paralelos, cada um servindo a propósitos diferentes:
 
-| Fase | Caminho | Objeto de Processamento | Objetivo |
-|------|---------|-------------------------|----------|
-| **Sincronização de Tradução de Referência** | Subgrafo inferior no diagrama | Mods de tradução existentes e de alta qualidade (`translation_ref/`) | Construir o corpus de referência para busca RAG |
-| **Loop Principal de Tradução** | Cadeia principal superior no diagrama | Mods comuns a serem traduzidos (`data/`) | Executar a tradução por IA propriamente dita |
+| Fase | Caminho | Objeto de Processamento | Propósito |
+|------|------|----------|------|
+| **Sincronização de Tradução de Referência** | Subgrafo inferior no diagrama | Mods de tradução chinesa existentes de alta qualidade (`translation_ref/`) | Construir o corpus de referência para recuperação RAG |
+| **Ciclo de Tradução Principal** | Caminho principal superior no diagrama | Mods comuns a serem traduzidos (`data/`) | Executar a tradução real por IA |
 
-Ambos os caminhos convergem para o `ResultWriter` e o `FinalOutputWriter`, que geram os arquivos de distribuição de forma unificada.
+两条路径最终汇入 `ResultWriter` 和 `FinalOutputWriter`，统一生成分发文件。
 
-A vantagem deste design separado é que os mods de tradução de referência, geralmente traduzidos manualmente com alta qualidade, devem ser mantidos de forma independente e sincronizados com prioridade. Já o loop de tradução principal lida com um grande volume de mods para tradução por IA. Como as frequências de atualização e a lógica de processamento são diferentes, gerenciá-los separadamente evita interferências mútuas.
+A vantagem desse design separado é que os mods de tradução de referência geralmente são traduzidos manualmente com cuidado, devendo ser mantidos de forma independente e sincronizados com prioridade; enquanto o loop de tradução principal lida com grandes lotes de mods a serem traduzidos por IA. As frequências de alteração e a lógica de processamento são diferentes, e gerenciá-los separadamente evita interferências mútuas.
 
 ### Fluxo de Dados Principal
 
-De uma perspectiva macro, o caminho dos dados através do pipeline é o seguinte:
-
+De uma perspectiva macro, o fluxo dos dados no pipeline é o seguinte:
 ```
 config.json / secrets.json
-    → Coleta de IDs de Mods (comunidade AsOne + solicitações locais)
-    → Consulta de metadados Steam (nome, autor, data de atualização, etc.)
-    → Download dos arquivos do mod via steamcmd
-    → Extração de texto (parse para objetos TranslationEntry)
-    → Revisão de segurança de conteúdo (filtragem de conteúdo impróprio)
-    → Cálculo de embeddings vetoriais (preparação para busca RAG)
-    → Agrupamento em lotes (TranslationBatch, com controle de orçamento de tokens)
-    → Busca por similaridade RAG (correspondência com traduções de referência como contexto)
-    → Tradução por LLM (chamada à API do modelo de linguagem para gerar a tradução)
-    → Escrita dos resultados no cache (data/translations/)
-    → Saída final (final_outputs/project_babel/)
+→ Coleta de IDs de Mod (Comunidade AsOne + Solicitações Locais)
+→ Consulta de Metadados do Steam (Nome, Autor, Data de Atualização, etc.)
+→ Download de Arquivos de Mod via steamcmd
+→ Extração de Texto (Analisado em Objetos TranslationEntry)
+→ Revisão de Segurança de Conteúdo (Filtrar Conteúdo Inapropriado)
+→ Cálculo de Embeddings de Vetores (Preparação para Recuperação RAG)
+→ Empacotamento em Lotes (TranslationBatch, com Controle de Orçamento de Tokens)
+→ Recuperação de Similaridade RAG (Corresponder Traduções de Referência como Contexto)
+→ Tradução por LLM (Chamar o Modelo de Linguagem Grande para Gerar Tradução)
+→ Escrita do Resultado em Cache (data/translations/)
+→ Saída Final (final_outputs/project_babel/)
 ```
 
-A saída de cada etapa é a entrada da próxima, formando uma "linha de processamento de dados" completa. Cada módulo do pipeline será detalhado na Seção 3.
+A saída de cada etapa é a entrada da próxima, formando uma "linha de processamento de dados" completa. Cada módulo no pipeline será detalhado na Seção 3.
 
 ---
 
 ## 2. Fluxo de Trabalho do Pipeline
 
-Toda a lógica do pipeline é orquestrada pelo método `PipelineRunner.RunAsync()` em `Program.cs`, compreendendo cerca de 20 etapas de processamento. Para facilitar o entendimento, dividimos essas etapas em quatro fases, com base em suas responsabilidades. Descrevemos o conteúdo e as intenções de design de cada fase abaixo.
+Toda a lógica do pipeline é orquestrada pelo método `PipelineRunner.RunAsync()` em `Program.cs`, compreendendo cerca de 20 etapas de processamento. Para facilitar a compreensão, dividimos essas etapas em quatro fases de acordo com suas responsabilidades. A seguir, explicamos o conteúdo do trabalho e a intenção do design de cada fase.
 
-### Fase 1: Carregamento da Configuração (Passo 1)
+### Fase 1: Carregamento de Configuração e Inicialização do SteamCMD
 
-O ponto de partida de todo o trabalho é o carregamento e a validação dos arquivos de configuração. Embora simples, esta fase é a base para a operação estável de todo o pipeline – qualquer erro de configuração deve ser detectado e interrompido imediatamente para evitar o desperdício de recursos computacionais.
+O ponto de partida de todo o trabalho é carregar e validar os arquivos de configuração. Embora esta fase seja simples, é a base para a operação estável de todo o pipeline — qualquer erro de configuração deve ser descoberto e interrompido o mais rápido possível para evitar o desperdício de recursos computacionais.
 
 - `ConfigReader.LoadConfig()` é responsável por ler `config/config.json` (parâmetros do pipeline) e `config/secrets.json` (chaves sensíveis).
-- Após o carregamento, todos os campos obrigatórios são validados: se a LLM API Key estiver vazia, significa que o serviço de tradução não pode ser chamado, e o processo é imediatamente encerrado com `Environment.Exit(1)`, evitando etapas de processamento seguintes e sem sentido.
-- Simultaneamente, o arquivo `config/supported_languages.json` é interpretado, carregando a definição dos 27 idiomas como uma `List<LangInfoData>`, que será usada por todos os módulos subsequentes para consultar o mapeamento de códigos de idioma.
+- Imediatamente após o carregamento, todos os campos obrigatórios são validados: se a chave da API LLM estiver vazia, significa que o serviço de tradução não pode ser chamado; nesse caso, o processo é encerrado diretamente com `Environment.Exit(1)`, evitando entrar em etapas subsequentes sem sentido.
+- Simultaneamente, o arquivo `config/supported_languages.json` é analisado para carregar as definições de 27 idiomas como `List<LangInfoData>`, fornecendo mapeamento de códigos de idioma para todos os módulos subsequentes.
+- Em seguida, o `SteamCmdBootstrapper` prepara o runtime necessário para o downloader: no Linux, baixa e descompacta o oficial `steamcmd_linux.tar.gz`; no Windows, executa a auto-atualização do arquivo já existente no repositório `src/3rd_party/steamcmd/steamcmd.exe +quit`, e a falta do executável causa falha imediata.
 
-Para uma descrição detalhada dos campos de configuração, consulte a Seção 5.
+Consulte a Seção 5 para descrições detalhadas dos campos de configuração.
 
-### Fase 2: Sincronização da Tradução de Referência (Passos 2-3)
+### Fase 2: Sincronização de Tradução de Referência (Etapas 2-3)
 
-Antes de iniciar o loop principal de tradução, o pipeline sincroniza os dados da **Tradução de Referência** (Reference Translation).
+Antes de iniciar o loop principal de tradução, o pipeline sincroniza primeiro os dados de **Tradução de Referência** (Reference Translation).
 
-**O que é a Tradução de Referência?** São mods de tradução para o chinês, de alta qualidade, traduzidos manualmente pela comunidade. As traduções desses mods são precisas, com terminologia consistente, constituindo um valioso recurso de corpus. O pipeline não usa o texto dessas traduções de referência como saída final (isso violaria os direitos dos autores originais), mas sim como uma base de conhecimento para RAG (Geração Aumentada por Recuperação). Quando o LLM traduz um texto, o pipeline busca no corpus de referência exemplos de traduções semanticamente semelhantes para servir como "exemplos de referência", ajudando o LLM a entender o contexto, unificar o estilo da terminologia e, assim, gerar traduções de maior qualidade.
+**O que é tradução de referência?** Tradução de referência refere-se a mods de tradução de alta qualidade feitos manualmente pela comunidade. As traduções desses mods são precisas e possuem terminologia uniforme, sendo recursos linguísticos valiosos. O pipeline não usa diretamente o texto das traduções de referência como saída final (isso violaria os direitos dos autores originais), mas sim como uma base de conhecimento para RAG (Geração Aumentada por Recuperação) — quando o LLM traduz um texto, o pipeline recupera traduções semanticamente semelhantes do corpus de referência para servir como "exemplos de referência", ajudando o LLM a entender o contexto e unificar o estilo de terminologia, gerando assim traduções de maior qualidade.
 
-As etapas específicas desta fase são:
+Etapas específicas desta fase:
+1. **Carregar cache**: `RepoDataLoader` carrega do diretório `translation_ref/` os dados de referência salvos na última execução, incluindo metadados de mods, entradas de tradução extraídas e vetores de embedding. Esse cache evita baixar e analisar todos os mods de referência a cada execução.
+2. **Sincronizar metadados do Steam**: `ModInfoFetcher` consulta a Steam Web API para obter as informações mais recentes de cada mod de referência (principalmente o campo `time_updated`), compara com `timeModUpdated` no cache e marca os mods cujo conteúdo mudou (`needsUpdate = true`).
+3. **Atualização incremental**: Apenas para os mods de referência marcados como `needsUpdate` é executado o fluxo completo de "download → extração de texto → cálculo de embedding". Mods inalterados reutilizam o cache, economizando tempo e largura de banda.
+4. **Escrita persistente**: `ResultWriter.WriteRefDataAsync()` escreve os dados de referência atualizados de volta para `translation_ref/` para uso na próxima execução.
 
-1.  **Carregamento do Cache**: O `RepoDataLoader` carrega os dados de referência salvos da execução anterior a partir do diretório `translation_ref/`, incluindo metainformações dos mods, entradas de tradução extraídas e vetores de embedding. Este cache evita o re-download e o re-processamento de todos os mods de referência a cada execução.
-2.  **Sincronização de Metadados Steam**: O `ModInfoFetcher` consulta a Steam Web API para obter as informações mais recentes de cada mod de referência (principalmente o campo `time_updated`), comparando-as com o `timeModUpdated` em cache para identificar os mods cujo conteúdo foi alterado (`needsUpdate = true`).
-3.  **Atualização Incremental**: Apenas os mods de referência marcados como `needsUpdate` passam pelo ciclo completo de "download → extração de texto → cálculo de embedding". Os modos inalterados reutilizam o cache, economizando significativamente tempo e largura de banda.
-4.  **Persistência**: O `ResultWriter.WriteRefDataAsync()` escreve os dados de referência atualizados de volta no diretório `translation_ref/` para uso na próxima execução.
+### Fase 3: Ciclo de Tradução Principal (Etapas 4-14)
 
-### Fase 3: Loop Principal de Tradução (Passos 4-14)
+Esta é a fase central do pipeline, executando o fluxo completo desde "descoberta de mods" até "geração de traduções". Após a conclusão da sincronização das traduções de referência, o pipeline já possui um corpus de referência de alta qualidade; agora ele processará todos os mods comuns a serem traduzidos da mesma forma, utilizando plenamente esses corpora de referência nas etapas finais de tradução.
 
-Esta é a fase central do pipeline, executando o processo completo desde a "descoberta dos mods" até a "geração da tradução". Após a sincronização da tradução de referência, o pipeline já possui um corpus de referência de alta qualidade; ele agora aplicará o mesmo processamento a todos os mods comuns a serem traduzidos, utilizando este corpus de referência na etapa final de tradução.
+| Etapa | Módulo | Função |
+|------|------|------|
+| 4 | RepoDataLoader | Carrega os dados em cache do diretório `data/` (metadados de mods, traduções existentes, vetores de embedding), restaurando o estado da última execução |
+| 5 | ModIdCollector | Coleta todos os IDs de mod a serem traduzidos da plataforma comunitária AsOne e do arquivo local `request_for_translation.txt`, mesclando e removendo duplicatas |
+| 6 | ModInfoFetcher | Consulta em lote os metadados mais recentes de cada mod (nome, autor, data de atualização etc.) via Steam Web API |
+| 7 | ModDownloader | Usa a ferramenta steamcmd para baixar arquivos de mod do Workshop em lotes para um diretório temporário local |
+| 8 | ContentExtractor | Analisa os arquivos de mod baixados, extraindo todas as entradas de texto a serem traduzidas do diretório `Translate/` (`TranslationEntry`) |
+| 9 | — | 📊 **Comparação de diferenças**: Compara as entradas recém-extraídas com o cache uma a uma, identificando entradas novas, modificadas e inalteradas; apenas as duas primeiras entram no fluxo de tradução subsequente |
+| 10 | ContentChecker | Usa LLM para realizar verificação de segurança no conteúdo do mod, identificando conteúdo proibido (drogas, pornografia etc.) e marcando mods não conformes |
+| 11 | EmbeddingFetcher | Chama o serviço de embedding remoto para gerar vetores de embedding (384 dimensões) para cada texto a ser traduzido, usados posteriormente na recuperação de similaridade semântica |
+| 12 | TranslationBatcher | Agrupa as entradas a serem traduzidas por mod e as empacota em lotes (TranslationBatch), cada lote sujeito a restrições duplas de `batch_size` e `batch_token_budget` |
+| 13 | RagContextRetriever | Para cada entrada a ser traduzida, recupera do corpus de referência as traduções existentes semanticamente mais semelhantes, servindo como contexto de referência para a tradução do LLM |
+| 14 | LLMTranslator | Chama a API do modelo de linguagem grande para executar a tradução, incluindo warmup e controle dinâmico de concorrência; é o módulo mais complexo de todo o pipeline |
 
-| Passo | Módulo | Função |
-|-------|--------|--------|
-| 4 | RepoDataLoader | Carrega os dados em cache do diretório `data/` (metainformações dos mods, traduções existentes, vetores de embedding) para restaurar o estado da execução anterior. |
-| 5 | ModIdCollector | Coleta todos os IDs de mods a serem traduzidos da plataforma da comunidade AsOne e do arquivo local `request_for_translation.txt`, mesclando e removendo duplicatas. |
-| 6 | ModInfoFetcher | Consulta em lote os metadados mais recentes (nome, autor, data de atualização, etc.) de cada mod através da Steam Web API. |
-| 7 | ModDownloader | Usa a ferramenta steamcmd para baixar os arquivos dos mods da Workshop em lotes para um diretório temporário local. |
-| 8 | ContentExtractor | Interpreta os arquivos dos mods baixados, extraindo todas as entradas de texto a serem traduzidas do diretório `Translate/` (como objetos `TranslationEntry`). |
-| 9 | — | 📊 **Comparação de Diferenças**: Compara as entradas recém-extraídas com o cache, identificando entradas novas, modificadas e inalteradas. Apenas as duas primeiras progridem para as etapas seguintes de tradução. |
-| 10 | ContentChecker | Usa o LLM para realizar uma revisão de segurança do conteúdo do mod, identificando violações como drogas ou conteúdo sexual, e marcando mods não conformes. |
-| 11 | EmbeddingFetcher | Chama um serviço de embedding remoto para gerar vetores de embedding (384 dimensões) para cada texto a ser traduzido, que serão usados para a busca por similaridade semântica. |
-| 12 | TranslationBatcher | Agrupa as entradas a serem traduzidas por mod e as empacota em lotes (`TranslationBatch`), cada um sujeito a restrições duplas de `batch_size` e `batch_token_budget`. |
-| 13 | RagContextRetriever | Para cada entrada a ser traduzida, busca no corpus de referência a tradução existente mais semanticamente semelhante, para servir como contexto de referência durante a tradução pelo LLM. |
-| 14 | LLMTranslator | Chama a API do Modelo de Linguagem de Grande Escala para executar a tradução, incluindo mecanismos de warmup e controle de concorrência dinâmico, sendo o módulo mais complexo de todo o pipeline. |
+### Fase 4: Saída e Relatório (Etapas 15-20)
 
-### Fase 4: Saída e Relatório (Passos 15-20)
+Após a conclusão de todo o trabalho de tradução, o pipeline entra na fase final — persistir os resultados no sistema de arquivos e gerar os arquivos de distribuição finais prontos para uso pelos jogadores.
 
-Após a conclusão de todo o trabalho de tradução, o pipeline entra em sua fase final – persistindo os resultados no sistema de arquivos e gerando os arquivos de distribuição finais prontos para uso pelos jogadores.
-
-| Passo | Módulo | Saída |
-|-------|--------|-------|
-| 15 | ResultWriter | Escreve as metainformações dos mods de volta em `data/modinfos.json`, as entradas de tradução em `data/translations/<iso>/` e os vetores de embedding em `data/embeddings/`. |
-| 16 | ResultWriter | Escreve os resultados da tradução para cada idioma-alvo, no formato `translationKey::lang::status = "value"`. |
-| 17 | FinalOutputWriter | Gera os arquivos de distribuição finais conforme a estrutura de diretórios de mods do Project Zomboid, prontos para serem colocados no diretório `Mods` do jogo pelos jogadores. |
-| 18 | — | Agrega todos os avisos gerados durante a execução e os escreve em `temp/run_*/warnings/` para inspeção manual. |
-| 19 | ProgressReporter | Calcula a cobertura de tradução para cada idioma e gera relatórios de progresso multilíngue (`docs/progress/progress_*.md`). |
+| Etapa | Módulo | Saída |
+|------|------|------|
+| 15 | ResultWriter | Escreve os metadados dos mods de volta em `data/modinfos.json`, as entradas de tradução em `data/translations/<iso>/` e os vetores de embedding em `data/embeddings/` |
+| 16 | ResultWriter | Escreve os resultados da tradução separadamente para cada idioma alvo, no formato `translationKey::lang::status = "value"` |
+| 17 | FinalOutputWriter | Gera os arquivos de distribuição finais que seguem a estrutura de diretório de mods do Project Zomboid, que os jogadores podem colocar diretamente no diretório Mods do jogo |
+| 18 | — | Consolida todas as mensagens de aviso geradas durante a execução, escrevendo em `temp/run_*/warnings/` para inspeção manual |
+| 19 | ProgressReporter | Calcula a cobertura de tradução para cada idioma, gerando relatórios de progresso multilíngues (`docs/progress/progress_*.md`) |
 
 ---
 
-## 3. Princípios e Detalhes Técnicos dos Módulos
+## 3. Princípios dos Módulos e Detalhes Técnicos
 
 ### 3.1 ConfigReader (`ConfigReaderService`)
 
-**Função**: Carregar e validar todos os arquivos de configuração; é o módulo de entrada de todo o pipeline.
+**Função**: Carrega e valida todos os arquivos de configuração, sendo o módulo de entrada de todo o pipeline.
 
-O `ConfigReader` é o primeiro módulo a ser executado após a inicialização do pipeline. Sua responsabilidade principal é ler todos os arquivos de configuração no diretório `config/`, desserializá-los em um objeto fortemente tipado `PipelineConfig` e, após o carregamento, realizar uma validação de integridade.
+O `ConfigReader` é o primeiro módulo a ser executado quando o pipeline é iniciado. Sua responsabilidade principal é ler todos os arquivos de configuração no diretório `config/`, desserializá-los em um objeto `PipelineConfig` fortemente tipado e realizar a validação de integridade após o carregamento.
 
-As tarefas específicas incluem:
+O trabalho específico inclui:
+- **Analisar configuração principal**: Lê `config/config.json` e desserializa em um objeto `PipelineConfig`. Este objeto contém todos os parâmetros de tempo de execução, como parâmetros LLM, estratégia de concorrência, limites RAG, parâmetros da API Steam, etc.
+- **Analisar chaves**: Lê `config/secrets.json` e extrai informações sensíveis como LLM API Key, Steam Web API Key, chave e endereço do serviço de embedding.
+- **Validação crítica**: Verifica se as três chaves obrigatórias `LLM_KEY`, `STEAM_KEY` e `EMBEDDING_KEY` estão vazias. Se alguma estiver vazia, lança uma exceção e encerra o pipeline. As chaves podem ser obtidas de `secrets.json` ou de variáveis de ambiente (variáveis de ambiente têm maior prioridade).
+- **Analisar lista de idiomas**: Lê `config/supported_languages.json` e constrói uma `List<LangInfoData>`. Esta lista define todos os idiomas alvo que o pipeline precisa processar (27 no total), dos quais dependem os módulos subsequentes de tradução, saída e relatório.
+- **Analisar lista de mods de referência**: Lê `config/ref_translation_mods.json` e obtém a lista de mods de tradução de referência a serem usados como corpus RAG.
+- **Inicializar diretórios temporários**: Cria a estrutura de diretórios temporários necessária para esta execução (por exemplo, `runTempDir` para armazenar arquivos intermediários, `downloadedModsTempDir` para armazenar arquivos de mod baixados), garantindo que os módulos subsequentes tenham onde escrever.
 
-- **Interpretar a Configuração Principal**: Lê `config/config.json` e o desserializa em um objeto `PipelineConfig`. Este objeto contém todas as configurações de tempo de execução, como parâmetros do LLM, estratégias de concorrência, limiares do RAG, parâmetros da API Steam, etc.
-- **Interpretar as Chaves**: Lê `config/secrets.json` e extrai informações sensíveis como LLM API Key, Steam Web API Key, chave e endereço do serviço de embedding.
-- **Validação Crítica**: Verifica se as três chaves obrigatórias (`LLM_KEY`, `STEAM_KEY`, `EMBEDDING_KEY`) não estão vazias. Se alguma estiver vazia, uma exceção é lançada, encerrando o pipeline. As chaves podem ser obtidas de `secrets.json` ou de variáveis de ambiente (estas últimas têm precedência).
-- **Interpretar a Lista de Idiomas**: Lê `config/supported_languages.json` e constrói uma `List<LangInfoData>`. Esta lista define todos os idiomas-alvo que o pipeline deve processar (totalizando 27), e é utilizada pelos módulos de tradução, saída e relatórios subsequentes.
-- **Interpretar a Lista de Mods de Referência**: Lê `config/ref_translation_mods.json` para obter a lista de mods de tradução de referência que serão usados como corpus para o RAG.
-- **Inicializar Diretórios Temporários**: Cria a estrutura de diretórios temporários necessária para a execução atual (por exemplo, `runTempDir` para arquivos intermediários, `downloadedModsTempDir` para arquivos de mods baixados), garantindo que os módulos subsequentes tenham onde escrever.
-
-Para uma descrição detalhada dos campos de configuração e seus significados, consulte a Seção 5.
+Consulte a Seção 5 para obter descrições detalhadas dos campos e seus significados.
 
 ### 3.2 RepoDataLoader (`RepoDataLoaderService`)
 
-**Função**: Gerenciar o carregamento, comparação e manutenção do estado de todos os dados em cache locais.
+**Função**: Gerenciar o carregamento, comparação e manutenção de estado de todos os dados em cache local.
 
-O `RepoDataLoader` é o "sistema de memória" do pipeline. A cada execução, ele carrega todos os dados salvos da execução anterior a partir do sistema de arquivos local (cache de traduções, vetores de embedding, metainformações de mods, etc.), permitindo que o pipeline identifique quais conteúdos são novos, quais já foram processados e quais sofreram alterações. Sem este módulo, o pipeline precisaria processar todos os mods do zero a cada execução, o que seria extremamente ineficiente.
+O `RepoDataLoader` é o "sistema de memória" do pipeline. Cada vez que o pipeline é executado, ele carrega do sistema de arquivos local todos os dados salvos da execução anterior (cache de tradução, vetores de embedding, metadados de mod, etc.), permitindo que o pipeline identifique quais conteúdos são novos, quais já foram processados e quais sofreram alterações. Sem este módulo, o pipeline precisaria processar todos os mods do zero a cada execução, sendo extremamente ineficiente.
 
-**Tipos de Dados Carregados**:
+**Tipos de dados carregados**:
 
-| Dado | Local de Armazenamento | Uso Após Carregamento |
-|------|------------------------|------------------------|
-| Metainformações de Mods | `data/modinfos.json` | Determinar quais mods precisam ser atualizados e quais são novos. |
-| Cache de Traduções | `data/translations/<iso>/*.txt` | Preencher `TranslationEntry.translationValues`, evitando retraduzir textos já existentes. |
-| Vetores de Embedding | `data/embeddings/*.bin` | Dados binários de vetores compactados com Zstd; preencher `embeddingValues`, reutilizando vetores se o texto não tiver mudado. |
-| Metadados de Entrada | `data/entry_metadata/*.json` | Registrar o `sourceHash` e o estado `isActive` de cada entrada. |
+| Dados | Local de armazenamento | Utilização após carregamento |
+|------|----------|-------------|
+| Metadados do Mod | `data/modinfos.json` | Determinar quais mods precisam de atualização e quais são processados pela primeira vez |
+| Cache de tradução | `data/translations/<iso>/*.txt` | Preencher `TranslationEntry.translationValues`, evitando traduzir novamente textos já existentes |
+| Vetores de embedding | `data/embeddings/*.bin` | Dados binários compactados em Zstd, preenchendo `embeddingValues`; quando o texto não muda, o vetor pode ser reutilizado |
+| Metadados de entrada | `data/entry_metadata/*.json` | Registrar informações de estado como `sourceHash`, `isActive` de cada entrada |
 
-**Três Métodos Principais**:
-
-- `DiffTranslationEntries()`: Compara as entradas recém-extraídas com as do cache, item por item. Com base no `sourceHash` (hash SHA256 do texto base), determina se cada entrada é nova (new), modificada (changed) ou inalterada (unchanged). Apenas as entradas `new` e `changed` precisam prosseguir para o cálculo de embedding e tradução; as `unchanged` reutilizam o cache.
-- `ComputeSourceHash()`: Calcula o hash SHA256 do texto base, servindo como uma "impressão digital" do conteúdo. A probabilidade de colisão é extremamente baixa, sendo confiável para detecção de alterações.
-- `MarkMissingFreshEntriesInactive()`: Se uma entrada antiga do cache não for encontrada no novo conjunto extraído (indicando que o autor do mod a removeu), ela é marcada como `isActive = false`, mantendo o histórico, mas deixando de participar da tradução.
+**Três métodos principais**:
+- `DiffTranslationEntries()`: Compara as entradas recém-extraídas com as entradas em cache, uma a uma. Com base em `sourceHash` (hash SHA256 do texto base), determina se cada texto é novo (new), modificado (changed) ou inalterado (unchanged). Apenas entradas new e changed precisam entrar nos processos subsequentes de cálculo de embedding e tradução; entradas unchanged reutilizam diretamente o cache.
+- `ComputeSourceHash()`: Calcula o hash SHA256 do texto base, servindo como "impressão digital" do conteúdo do texto. A probabilidade de colisão de hash é extremamente baixa, permitindo detecção confiável de alterações.
+- `MarkMissingFreshEntriesInactive()`: Se uma entrada antiga em cache não for encontrada nos resultados recém-extraídos (indicando que o autor do mod removeu este texto), ela é marcada como `isActive = false`, preservando o histórico, mas não participando mais da tradução.
 
 ### 3.3 ModIdCollector (`ModIdCollectorService`)
 
-**Função**: Coletar todos os IDs de mods da Steam Workshop a serem traduzidos a partir de múltiplas fontes, mesclando-os e removendo duplicatas para formar uma lista unificada de processamento.
+**Função**: Coletar todos os IDs de Mod da Steam Workshop a serem traduzidos de várias fontes, uni-los e deduplicá-los para formar uma lista unificada de processamento.
 
-O pipeline precisa saber "quais mods precisam ser traduzidos". Essas informações vêm de dois canais:
+O pipeline precisa saber "quais mods precisam ser traduzidos". Esta informação vem de dois canais:
+**Fonte 1 — Lista remota da comunidade AsOne**:
+[AsOne](https://www.asone.fun/) é uma plataforma de tradução do grupo de tradução chinês de Project Zomboid, mantendo uma lista pública de mods. O pipeline obtém todos os IDs de mod registrados por meio de uma requisição HTTP GET à sua API (`api/Home/GetAllModinfo`). A requisição é enviada anonimamente, e após 3 timeouts consecutivos, a lista remota é ignorada.
 
-**Fonte 1 — Lista Remota da Comunidade AsOne**:
+**Fonte 2 — Arquivo local de solicitação de tradução**:
+`config/request_for_translation.txt` é uma lista de IDs de mod mantida manualmente, com um ID Workshhop puramente numérico por linha. Linhas começando com `#` são comentários, linhas em branco são ignoradas automaticamente. Este arquivo é usado para complementar mods que não estão na lista AsOne, mas que a comunidade precisa de tradução.
 
-[AsOne](https://www.asone.fun/) é uma plataforma de tradução do grupo de tradução para chinês do Project Zomboid, que mantém uma lista pública de mods. O pipeline obtém todos os IDs de mods registrados fazendo uma requisição HTTP GET à sua API (`api/Home/GetAllModinfo`). As requisições são feitas de forma anônima; se houver 3 tentativas de conexão com tempo limite consecutivas, a lista remota é ignorada.
-
-**Fonte 2 — Arquivo Local de Solicitação de Tradução**:
-
-`config/request_for_translation.txt` é uma lista mantida manualmente de IDs de mods, um por linha, contendo apenas o ID numérico da Workshop. Linhas começando com `#` são tratadas como comentários e ignoradas, assim como linhas em branco. Este arquivo é usado para complementar mods que não estão na lista do AsOne, mas que a comunidade deseja traduzir.
-
-**Estratégia de Mesclagem**: Ao mesclar as listas das duas fontes, a lista remota do AsOne tem prioridade. IDs do arquivo de solicitação local que não estão na lista remota são adicionados como complemento. IDs já existentes não são adicionados novamente. O resultado final é uma lista completa e sem duplicatas de todos os IDs.
+**Estratégia de mesclagem**: Ao mesclar as listas de IDs das duas fontes, a lista remota AsOne é a principal. IDs do arquivo de solicitação local que não estão na lista remota são adicionados como complemento. IDs já existentes não são adicionados novamente. O resultado final é uma lista completa de IDs deduplicada.
 
 ### 3.4 ModInfoFetcher (`ModInfoFetcherService`)
 
-**Função**: Consultar em lote os metadados detalhados dos mods através da Steam Web API, determinando quais mods precisam ser atualizados.
+**Função**: Consulta em lote os metadados detalhados dos mods através da Steam Web API, determinando quais mods precisam ser atualizados.
 
-De posse da lista de IDs de mods, o pipeline precisa de informações básicas sobre cada um – nome, autor, data da última atualização, etc. Essas informações são obtidas através da interface oficial da Steam, `ISteamRemoteStorage/GetPublishedFileDetails/v1/`.
+Após obter a lista de IDs de mods, o pipeline precisa saber as informações básicas de cada mod—nome, autor, última atualização etc. Essas informações são obtidas através da interface oficial da Steam `ISteamRemoteStorage/GetPublishedFileDetails/v1/`.
 
-**Detalhes da Operação**:
-
-- **Requisições em Lotes**: A API Steam tem um limite por chamada, portanto, o pipeline envia as solicitações em lotes de acordo com `steamApiChunkSize` (padrão 100). Um intervalo adequado é respeitado entre os lotes para evitar atingir os limites de taxa.
-- **Mecanismo de Tolerância a Falhas**: Se 5 lotes consecutivos falharem completamente (possivelmente devido a problemas de rede ou indisponibilidade temporária da API), o pipeline interrompe as consultas, mantendo os dados já obtidos com sucesso, em vez de descartar todos os resultados.
-- **Mapeamento de Campos Chave**:
-  - `consumer_app_id`: Determina se o item pertence ao Project Zomboid (App ID = `108600`). Mods que não são do PZ são marcados com `isAvailable = false` e ignorados nas etapas subsequentes.
-  - `time_updated`: Data da última atualização registrada pela Steam. Comparada com o `timeModUpdated` em cache; se a data for mais recente, o mod é marcado como `needsUpdate = true`, indicando que o conteúdo pode ter mudado e precisa ser reextraído e retraduzido.
-  - `title` → mapeado para `modName` (nome do mod).
-  - `creator` → o nome do criador é obtido através da interface de usuário da Steam.
+**Detalhes de funcionamento**:
+- **Requisições em blocos**: A API da Steam tem limite de quantidade por chamada, portanto o pipeline envia requisições em lotes baseados em `steamApiChunkSize` (padrão 100). Intervalos adequados entre os lotes para evitar limitação de taxa.
+- **Mecanismo de tolerância a falhas**: Se 5 lotes consecutivos falharem (possivelmente devido a problemas de rede ou indisponibilidade temporária da API), o pipeline encerra a consulta e mantém os dados já obtidos com sucesso, em vez de descartar todos os resultados.
+- **Mapeamento de campos-chave**:
+- `consumer_app_id`: Determina se o item pertence ao Project Zomboid (App ID = `108600`). Mods que não pertencem ao PZ são marcados como `isAvailable = false` e pulados no download.
+- `time_updated`: Última data de atualização registrada pela Steam. Comparado com `timeModUpdated` no cache; se o primeiro for mais recente, marca `needsUpdate = true`, indicando que o conteúdo do mod pode ter mudado e precisa ser reextraído e traduzido.
+- `title` → Mapeado para `modName` (nome do mod).
+- `creator` → Obtém o apelido do criador através da interface de usuário Steam.
 
 ### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
 
-**Função**: Prepara o ambiente de execução steamcmd para a plataforma atual antes de qualquer operação de download.
+**Função**: Prepara o runtime do steamcmd disponível para a plataforma atual antes de todas as operações de download.
 
-- **Linux**: Limpa os ficheiros de runtime antigos em `src/3rd_party/steamcmd/`, transfere e extrai o `steamcmd_linux.tar.gz` oficial e define permissão de execução no `steamcmd.sh`.
-- **Windows**: Sem download de arquivo; executa diretamente o `steamcmd.exe +quit` fornecido no repositório em `src/3rd_party/steamcmd/` para que o SteamCMD se auto-atualize.
-- **Tratamento de falhas**: Falhas no download, extração ou validação do executável interrompem o pipeline para evitar o uso de um runtime incompleto durante a fase de download.
+- **Linux**: Limpa os arquivos de runtime antigos em `src/3rd_party/steamcmd/`, baixa e extrai o oficial `steamcmd_linux.tar.gz`, e define permissão de execução para `steamcmd.sh`.
+- **Windows**: Não baixa arquivo compactado; executa diretamente `steamcmd.exe +quit` já presente no repositório em `src/3rd_party/steamcmd/`, permitindo que o SteamCMD se atualize automaticamente.
+- **Tratamento de falhas**: Falhas no download, extração ou verificação do executável encerram o pipeline para evitar o uso de runtime incompleto durante a fase de download.
 
 ### 3.5.1 ModDownloader (`ModDownloaderService`)
 
-**Função**: Usar a ferramenta de linha de comando steamcmd para baixar os arquivos dos mods da Steam Workshop.
+**Função**: Usa a ferramenta de linha de comando steamcmd para baixar arquivos de mods da Steam Workshop.
 
-O [steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD) é o cliente Steam oficial em modo de linha de comando, fornecido pela Valve, que suporta login anônimo e download de conteúdo da Workshop. O pipeline o utiliza para realizar o download em lote dos arquivos dos mods.
+[steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD) é o cliente Steam de linha de comando fornecido oficialmente pela Valve, que suporta login anônimo e download de conteúdo da Workshop. O pipeline chama o steamcmd para realizar o download em lote dos arquivos de mods.
 
-**Fluxo de Download**:
+**Fluxo de download**:
+1. **Copiar steamcmd**: Copia `src/3rd_party/steamcmd/` para um diretório temporário exclusivo do lote. Isso porque cada lote de download inicia um processo steamcmd independente; se múltiplos processos compartilhassem o mesmo arquivo, poderia causar conflitos.
+2. **Executar comando de download**: Executa `steamcmd +login anonymous +workshop_download_item 108600 <modId> +quit`. Onde `108600` é o App ID do Project Zomboid, e `anonymous` indica login anônimo (download da Workshop não requer conta).
+3. **Verificar resultado**: Analisa a saída padrão e logs do steamcmd, determina o diretório real de saída do Workshop antes de mover o resultado do download; em caso de falha, tenta novamente conforme a estratégia de retry de download da Steam.
+4. **Retomada de download**: Mods já baixados com sucesso são automaticamente ignorados, evitando download duplicado.
 
-1.  **Copiar steamcmd**: Copia o conteúdo de `src/3rd_party/steamcmd/` para um diretório temporário exclusivo do lote. Isso é feito porque cada lote de download inicia um processo steamcmd independente; compartilhar os mesmos arquivos entre vários processos pode causar conflitos.
-2.  **Executar o Comando de Download**: Executa `steamcmd +login anonymous +workshop_download_item 108600 <modId> +quit`. Aqui, `108600` é o App ID do Project Zomboid, e `anonymous` indica login anônimo (o download da Workshop não requer uma conta).
-3.  **Verificar o Resultado**: Interpreta o log de saída do steamcmd para confirmar se o download foi bem-sucedido. Se falhar, as tentativas são automaticamente repetidas de acordo com o número de tentativas configurado (`steamMaxRetries + 1`).
-4.  **Resumo de Download**: Mods já baixados com sucesso são automaticamente ignorados, evitando re-downloads desnecessários.
-
-**Detalhes do Gerenciamento de Processos**:
-
-- Um `ConcurrentDictionary` global é usado para rastrear todos os processos steamcmd ativos.
-- Callbacks para `Ctrl+C` e `ProcessExit` são registrados para garantir que, se o pipeline for interrompido manualmente ou sair anormalmente, todos os processos filhos sejam encerrados (`Kill(entireProcessTree: true)`), evitando a criação de processos zumbis.
-- O processo steamcmd é aguardado de forma assíncrona com `WaitForExitAsync()`, sem tempo limite definido – se o processo travar, ele deve ser encerrado manualmente via callback para limpar o pipeline.
+**Origem do runtime**: Cada lote de download copia o runtime já preparado pelo `SteamCmdBootstrapper` de `src/3rd_party/steamcmd/`, para evitar que lotes paralelos compartilhem o mesmo diretório de trabalho.
 
 ### 3.6 ContentExtractor (`ContentExtractorService`)
 
-**Função**: Interpretar e extrair todo o conteúdo de texto traduzível dos arquivos de mod baixados. Esta é a etapa chave para "entender" o mod.
+**Função**: Analisa e extrai todo o conteúdo textual traduzível dos arquivos de mod baixados, sendo a etapa chave para "entender o mod" no pipeline.
 
-Os mods do Project Zomboid armazenam os textos de tradução em diretórios específicos. O `ContentExtractor` percorre esses diretórios, interpretando arquivos nos formatos TXT (formato Lua) e JSON, e extrai cada par chave-valor de "texto original → tradução".
+Os mods do Project Zomboid armazenam textos de tradução em diretórios específicos. A tarefa do `ContentExtractor` é percorrer esses diretórios, analisar os formatos de arquivo TXT (formato Lua) e JSON, extraindo cada par chave-valor de "texto original → tradução".
 
-**Caminho de Escaneamento**:
-
+**Caminho de varredura**:
 ```
 <mod_root>/**/Translate/<game_code>/*.txt|*.json
 ```
 
-Ou seja, em qualquer profundidade abaixo do diretório raiz do mod, procura por arquivos `.txt` ou `.json` dentro de pastas `Translate/<código_do_idioma>/`.
+Ou seja, em qualquer profundidade no diretório raiz do mod, procure por arquivos `.txt` ou `.json` na pasta `Translate/<语言代码>/`.
 
-**Mapeamento de Códigos de Idioma** (código no jogo → código ISO):
+**Mapeamento de códigos de idioma** (código do jogo → código ISO padrão):
 
-| Código no Jogo | ISO | Idioma |
-|----------------|-----|--------|
+| Código do jogo | ISO | Idioma |
+|----------|-----|------|
 | CN | zh-hans | Chinês Simplificado |
 | CH | zh-hant | Chinês Tradicional |
 | EN | en | Inglês |
 | JP | ja | Japonês |
 | ... | ... | ... |
 
-**Interpretação de TXT (formato Lua do PZ)**:
+**Análise TXT (formato PZ Lua):**
+Os arquivos de tradução tradicionais do PZ usam um formato semelhante a uma tabela Lua. O processo de análise é o seguinte:
+1. **Filtrar arquivos não relacionados à tradução**: Pular arquivos de metainformação como `TranslationNotes`, `TranslationBy`, `Code - TXT`, `Credits`, `Language`, etc., pois esses arquivos não contêm conteúdo de tradução real.
+2. **Localizar a chave principal (masterKey)**: Use expressões regulares para corresponder a declarações de bloco como `UI_NewCharScreen = {`, extraindo o masterKey. O masterKey é a primeira parte da chave de tradução, correspondendo ao nome do módulo UI no jogo PZ.
+3. **Análise linha por linha**: Dentro de cada bloco masterKey, analise cada tradução no formato `key = "value"`. A translationKey completa é formada pela concatenação de `masterKey_key` (por exemplo, `UI_NewCharScreen_Start`).
+4. **Concatenação de strings**: Os arquivos Lua do PZ suportam o operador `..` para concatenação de strings (por exemplo, `"Hello " .. "World"`), e o analisador calculará o resultado da concatenação.
+5. **Compatibilidade com estilo JSON**: Alguns mods misturam a notação estilo JSON `"key": "value"` em arquivos TXT, e o analisador também suporta isso.
+6. **Tratamento de exceções**: As linhas que não podem ser analisadas serão gravadas no arquivo de log `fuck.txt` para inspeção manual e correção de bugs do analisador.
 
-Arquivos de tradução tradicionais do PZ usam um formato semelhante a tabelas Lua. O processo de interpretação é o seguinte:
+**Análise JSON:**
+As versões mais recentes do PZ (Build 42+) começaram a suportar arquivos de tradução no formato JSON. O analisador irá expandir recursivamente objetos JSON aninhados, achatando-os em pares chave-valor. Também é compatível com sintaxe JSON não padrão, como vírgulas finais e comentários, para lidar com várias formas de escrever dos autores de mods.
 
-1.  **Filtragem de Arquivos Não-Tradução**: Ignora arquivos com nomes como `TranslationNotes`, `TranslationBy`, `Code - TXT`, `Credits`, `Language`, que não contêm conteúdo de tradução propriamente dito.
-2.  **Localização da Chave Mestra (masterKey)**: Usa expressões regulares para encontrar declarações de bloco como `UI_NewCharScreen = {`, extraindo a masterKey. A masterKey é a primeira parte da chave de tradução, correspondente ao nome do módulo da interface no jogo.
-3.  **Interpretação Linha por Linha**: Dentro de cada bloco de masterKey, interpreta cada entrada no formato `key = "value"`. A chave de tradução completa é formada pela concatenação `masterKey_key` (ex: `UI_NewCharScreen_Start`).
-4.  **Concatenação de Strings**: Arquivos Lua do PZ suportam o operador `..` para concatenação de strings (ex: `"Hello " .. "World"`). O interpretador calcula o resultado da concatenação.
-5.  **Compatibilidade com Estilo JSON**: Alguns mods usam a sintaxe `"key": "value"` (estilo JSON) dentro de arquivos TXT; o interpretador também suporta este formato.
-6.  **Tratamento de Erros**: Linhas que não podem ser interpretadas são registradas em um arquivo de log `fuck.txt` para inspeção manual e correção de possíveis bugs no interpretador.
+**Regras de mesclagem:**
+Quando a mesma chave de tradução aparece em vários arquivos (por exemplo, o mesmo mod fornece arquivos de tradução para as versões 42 e 42.19), é necessário decidir qual manter. As regras são as seguintes:
+- **Prioridade de formato**: JSON substitui TXT. A razão é que JSON é o novo formato padrão do PZ e deve ser priorizado. Internamente, a enumeração `SourceKind` é usada para distinguir (JSON = 1, TXT = 0).
+- **Prioridade de versão**: No mesmo formato, mantenha a versão com o número de versão do jogo mais alto. As regras de análise de número de versão estão abaixo.
+- **Registro completo**: O campo `containingFileInfos` registrará informações de todos os arquivos de origem (incluindo os descartados), garantindo rastreabilidade.
 
-**Interpretação de JSON**:
-
-Versões mais recentes do PZ (Build 42+) começaram a suportar arquivos de tradução em formato JSON. O interpretador expande objetos JSON aninhados recursivamente, achatando-os em pares chave-valor simples. Também é compatível com vírgulas finais e comentários, que são sintaxes não padrão em JSON, mas frequentemente usadas por autores de mods.
-
-**Regras de Mesclagem**:
-
-Quando a mesma chave de tradução aparece em vários arquivos (por exemplo, um mod que fornece arquivos de tradução para as versões 42 e 42.19 do jogo), é necessário decidir qual manter. As regras são:
-
-- **Prioridade de Formato**: JSON tem precedência sobre TXT. A razão é que o JSON é o novo formato padrão do PZ e deve ser priorizado. Internamente, isso é diferenciado pelo enum `SourceKind` (JSON = 1, TXT = 0).
-- **Prioridade de Versão**: Para o mesmo formato, a entrada com o maior número de versão do jogo é mantida. As regras de interpretação do número de versão estão descritas abaixo.
-- **Registro Completo**: O campo `containingFileInfos` registra informações de todos os arquivos de origem (incluindo os descartados), garantindo a rastreabilidade.
-
-**Regras de Interpretação do Número de Versão**:
-
+**Regras de análise de número de versão:**
 ```
-Sem número de versão → 0.0
-common             → 1.0
-42                 → 42.0
-42.19              → 42.19
+无版本号 → 0.0
+common   → 1.0
+42       → 42.0
+42.19    → 42.19
 ```
 
 ### 3.7 ContentChecker (`ContentCheckerService`)
 
-**Função**: Realizar uma revisão de segurança do texto do mod antes da tradução, filtrando mods que contenham conteúdo impróprio.
+**Função**: Realizar uma verificação de segurança no texto do mod antes da tradução, filtrando mods que contenham conteúdo inadequado.
 
-O pipeline de tradução automatizada precisa processar conteúdo arbitrário da internet, que pode incluir texto que viole termos de serviço ou leis. O `ContentChecker` usa um LLM para revisar automaticamente o conteúdo do mod, garantindo que as traduções geradas pelo pipeline não incluam material proibido.
+O pipeline de tradução automática precisa lidar com qualquer conteúdo de mod da internet, que pode incluir textos que violam as regras da plataforma ou leis/regulamentos. O `ContentChecker` usa LLM para revisar automaticamente o conteúdo do mod, garantindo que as traduções geradas pelo pipeline não contenham conteúdo inadequado.
 
-**Dimensões da Revisão** (Três Linhas Vermelhas):
+**Dimensões de revisão** (três linhas vermelhas):
 
-| Categoria | Critério de Avaliação |
-|-----------|------------------------|
-| **Drogas** | Descrever o uso, injeção, produção ou comércio de drogas; glorificar ou induzir ao uso de drogas; fazer metáforas virtuais para drogas reais. |
-| **Abuso Sexual Infantil** | Qualquer conteúdo de conotação sexual envolvendo menores de 14 anos. |
-| **Estupro** | Descrever ou glorificar atos sexuais não consensuais, incluindo coerção violenta, estupro sob efeito de drogas, etc. |
+| Categoria | Critério de julgamento |
+|------|---------|
+| **Drogas** | Descrever uso de drogas, injeção, fabricação, tráfico; glorificar ou induzir ao uso de drogas; metáforas virtuais para drogas reais |
+| **Conduta sexual infantil** | Qualquer conteúdo de conotação sexual envolvendo menores de 14 anos |
+| **Estupro** | Descrever ou glorificar atos sexuais não consensuais, incluindo coerção violenta, estupro induzido por drogas, etc. |
 
-**Mecanismo de Revisão**:
+**Mecanismo de revisão**:
+- **Estratégia de amostragem**: Cada mod extrai no máximo 1000 textos de base como amostras de revisão, com o total de caracteres de todas as amostras não excedendo 60.000. Isso cobre o conteúdo principal do mod sem exceder a janela de contexto do LLM.
+- **Truncamento de texto**: Textos com mais de 1600 caracteres são truncados, mantendo os primeiros 1600 caracteres para revisão. Textos extremamente longos geralmente são dados de configuração, não linguagem natural, então o truncamento não afeta o julgamento.
+- **Revisão por LLM**: Chama o modelo `deepseek-v4-flash`, usando JSON Mode para gerar conclusões estruturadas da revisão (incluindo resultado do julgamento e confiança).
+- **Estratégia de cache**: Os resultados da revisão são armazenados em cache por 90 dias (controlado por `contentCheckIntervalDays`). Durante o período de validade do cache, o mesmo mod não é revisado novamente.
+- **Fluxo de estados**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
-- **Estratégia de Amostragem**: Para cada mod, no máximo 1000 textos base são extraídos como amostra para revisão, com um limite total de 60.000 caracteres. Isso garante uma cobertura do conteúdo principal do mod sem exceder a janela de contexto do LLM.
-- **Truncamento de Texto**: Textos individuais com mais de 1600 caracteres são truncados, mantendo os primeiros 1600 caracteres para revisão. Textos extremamente longos geralmente são dados de configuração, não linguagem natural, e o truncamento não afeta o julgamento.
-- **Revisão por LLM**: Utiliza o modelo `deepseek-v4-flash` com modo JSON para gerar uma conclusão estruturada da revisão (incluindo resultado e nível de confiança).
-- **Estratégia de Cache**: Os resultados da revisão são armazenados em cache por 90 dias (controlado por `contentCheckIntervalDays`). Dentro deste período, um mesmo mod não é revisado novamente.
-- **Transição de Estado**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
-
-**Mecanismo de Revisão Manual**: Quando o nível de confiança retornado pelo LLM é inferior a 0.7, o resultado da revisão é considerado não confiável, e o estado do mod permanece como `NEEDVERIFICATION`, aguardando julgamento humano. Isso evita que mods válidos sejam erroneamente filtrados devido a erros do LLM.
+**Mecanismo de revisão manual**: Quando a confiança retornada pelo LLM é inferior a 0,7, o resultado da revisão é considerado não confiável, e o estado do mod permanece como `NEEDVERIFICATION`, aguardando julgamento manual. Isso evita que mods normais sejam filtrados incorretamente devido a erros do LLM.
 
 ### 3.8 EmbeddingFetcher (`EmbeddingFetcherService`)
 
-**Função**: Chamar um serviço de embedding remoto para gerar vetores de embedding para cada texto a ser traduzido, que serão usados para a busca RAG.
+**Função**: Chama o serviço de embeddings remoto para gerar embeddings vetoriais para cada texto a ser traduzido, para uso na recuperação RAG.
 
-Vetores de embedding são ferramentas matemáticas na PNL moderna para representar a semântica de textos – textos com significado semelhante têm vetores que estão próximos no espaço vetorial. O pipeline utiliza vetores de embedding para encontrar, para o texto a ser traduzido, a tradução de referência semanticamente mais semelhante.
+Embeddings vetoriais são ferramentas matemáticas na PNL moderna para representar a semântica do texto — textos com semântica próxima têm vetores com distância próxima no espaço. O pipeline usa embeddings vetoriais para implementar a função principal de "encontrar a tradução de referência mais semanticamente similar ao texto a ser traduzido".
 
-**Por que usar um serviço remoto?** Embora modelos de embedding (como o `bge-small-en-v1.5`) não sejam muito grandes, carregar seus pesos na memória localmente ainda consome recursos. Considerando as limitações de memória dos runners do GitHub Actions (geralmente 7GB) e que o pipeline já demanda muita memória para as tarefas de tradução, mover o cálculo de embedding para um serviço remoto dedicado é uma escolha mais racional.
+**Por que usar um serviço remoto?** Embora o modelo de embedding (como `bge-small-en-v1.5`) não seja grande, ainda precisa carregar os pesos do modelo na memória ao executar localmente. Considerando as limitações de memória dos runners do GitHub Actions (geralmente 7GB) e que o próprio pipeline já precisa de muita memória para tarefas de tradução, mover o cálculo de embeddings para um serviço remoto dedicado é uma escolha mais razoável.
 
-**Protocolo de Comunicação**:
+**Protocolo de comunicação**:
+O serviço de embedding adota um esquema de autenticação leve e sem estado:
+1. **Batida UDP**: Envia um pacote UDP para o serviço como sinal de batida.
+2. **Criptografia AES-256-GCM**: A comunicação HTTP subsequente é criptografada com AES-256-GCM, com a chave derivada do `EMBEDDING_KEY` em `secrets.json` via SHA256.
+3. **HTTP POST**: A transferência real de dados é feita via HTTP POST.
 
-O serviço de embedding utiliza um esquema de autenticação leve e sem estado:
-1.  **UDP Knock**: Um pacote UDP é enviado ao serviço como um sinal de "batida" inicial.
-2.  **Criptografia AES-256-GCM**: A comunicação HTTP subsequente é criptografada usando AES-256-GCM. A chave é derivada via SHA256 da `EMBEDDING_KEY` em `secrets.json`.
-3.  **HTTP POST**: A transferência de dados propriamente dita é feita via HTTP POST.
+Esse design evita o risco de transmitir a chave API em texto claro no cabeçalho HTTP, ao mesmo tempo que mantém a característica sem estado do servidor.
 
-Este design evita o risco de transmitir a chave da API em texto plano no cabeçalho HTTP, mantendo o servidor sem estado.
-
-**Parâmetros Técnicos**:
+**Parâmetros técnicos**:
 
 | Parâmetro | Valor | Descrição |
-|-----------|-------|-----------|
-| Modelo de Embedding | `bge-small-en-v1.5` | Modelo de embedding leve em inglês, publicado pelo BAAI. |
-| Dimensão do Vetor | 384 | Cada texto é mapeado para um vetor de 384 valores float32. |
-| Truncamento de Entrada | 500 caracteres UTF-8 | Textos com mais caracteres são truncados antes de serem enviados ao modelo. |
-| Tamanho do Lote | 32 | Cada requisição envia 32 textos, equilibrando vazão e latência. |
-| Formato de Armazenamento | Binário compactado com Zstd | Taxa de compressão de cerca de 4:1, economizando espaço em disco. |
+|------|-----|------|
+| Modelo de embedding | `bge-small-en-v1.5` | Modelo de embedding leve em inglês lançado pela BAAI |
+| Dimensão do vetor | 384 | Cada texto é mapeado para 384 valores float32 |
+| Truncamento de entrada | 500 caracteres UTF-8 | Textos com mais de 500 caracteres são truncados antes de serem enviados ao modelo |
+| Tamanho do lote | 32 | Envia 32 textos por requisição, equilibrando taxa de transferência e latência |
+| Formato de armazenamento | Binário comprimido com Zstd | Taxa de compressão de aproximadamente 4:1, economizando significativamente espaço em disco |
 
-**Fluxo de Processamento**:
+**Fluxo de processamento**:
+1. **Coleta de candidatos** (`BuildCandidates`): Coleta todas as entradas que não possuem vetores de embedding, incluindo entradas novas/modificadas (diff) desta execução, entradas de tradução de referência e entradas históricas que precisam de preenchimento retroativo (backfill).
+2. **Deduplicação por hash**: Entradas com o mesmo conteúdo textual produzem o mesmo valor de hash, então reutilizamos diretamente os vetores de embedding existentes para evitar cálculos repetidos.
+3. **Envio em lotes**: As entradas candidatas são agrupadas em lotes de 32 e enviadas ao serviço de embedding sequencialmente. Se houver 3 ou mais falhas consecutivas, a fase de embedding é interrompida.
+4. **Armazenamento persistente**: Os vetores obtidos são gravados no formato comprimido Zstd em `data/embeddings/<modId>.bin`.
 
-1.  **Coleta de Candidatos** (`BuildCandidates`): Coleta todas as entradas que não possuem vetores de embedding, incluindo entradas novas/modificadas da comparação (diff), entradas de tradução de referência e entradas históricas que precisam de retroalimentação (backfill).
-2.  **Dedução por Hash**: Entradas com o mesmo conteúdo de texto produzem o mesmo hash. Neste caso, o vetor de embedding existente é reutilizado, evitando cálculos repetidos.
-3.  **Envio em Lotes**: As entradas candidatas são agrupadas em lotes de 32 e enviadas ao serviço de embedding. Se 3 lotes consecutivos falharem, a fase de embedding é interrompida.
-4.  **Armazenamento Persistente**: Os vetores obtidos são escritos em `data/embeddings/<modId>.bin` no formato compactado com Zstd.
-
-**Mecanismo de Backfill (Retroalimentação)**: Quando o pipeline adiciona suporte a um novo idioma, pode haver um grande número de entradas no cache histórico sem o vetor de embedding para esse idioma. Calcular embeddings para todas essas entradas de uma só vez sobrecarregaria o serviço e levaria muito tempo. O mecanismo de backfill limita o número de embeddings ausentes a serem preenchidos por execução (máximo de 10.000.000), distribuindo a carga ao longo de várias execuções.
+**Mecanismo de preenchimento retroativo (Backfill)**: Quando o pipeline suporta um novo idioma pela primeira vez, pode haver muitas entradas no cache histórico sem vetores de embedding para esse idioma. Calcular embeddings para todas essas entradas de uma só vez sobrecarregaria o serviço e levaria muito tempo. O mecanismo de backfill limita o preenchimento a no máximo 10.000.000 embeddings ausentes por execução, distribuindo o trabalho ao longo de várias execuções.
 
 ### 3.9 TranslationBatcher (`TranslationBatcherService`)
 
-**Função**: Agrupar as entradas a serem traduzidas por mod e orçamento de tokens em lotes de tradução (`TranslationBatch`), que são a unidade básica para a tradução pelo LLM.
+**Função**: Empacota as entradas a serem traduzidas em lotes de tradução (`TranslationBatch`) de acordo com o mod e o orçamento de tokens, servindo como unidade básica para a tradução LLM.
 
-Traduzir entrada por entrada é ineficiente – a latência de ida e volta de cada chamada de API é muito maior que o tempo de inferência do modelo. O `TranslationBatcher` agrupa várias entradas em lotes, permitindo que cada chamada de API processe várias entradas, aumentando significativamente a vazão.
+Traduzir diretamente item por item é ineficiente — a latência de ida e volta da rede para cada chamada de API é muito maior que o tempo de inferência do modelo. O `TranslationBatcher` agrupa múltiplos textos a serem traduzidos em lotes, permitindo que cada chamada de API processe vários textos, aumentando significativamente a taxa de transferência.
 
-**Estratégia de Agrupamento**:
+**Estratégia de empacotamento**:
+1. **Ordenação por prioridade**: Os mods são classificados em ordem decrescente de prioridade. A prioridade é calculada ponderando o número de inscrições (subscription) e favoritos (favorite) — mods mais populares são traduzidos primeiro.
+2. **Restrição dupla**: Cada lote é restrito por dois limites superiores simultaneamente:
+- `batch_size` (limite máximo de entradas, padrão 30): Um lote pode conter no máximo 30 entradas de tradução.
+- `batch_token_budget` (orçamento de tokens, padrão 2000): A quantidade total de tokens do texto de entrada de um lote não pode exceder 2000. Mesmo que o número de entradas não atinja o limite, o lote será truncado se o orçamento de tokens for esgotado.
+3. **Agrupamento por mod**: As entradas do mesmo mod são preferencialmente empacotadas no mesmo lote. Isso ajuda o LLM a entender a consistência terminológica dentro do mesmo mod, evitando fragmentação de contexto.
+4. **Marcação de idioma**: Cada `TranslationBatch` possui um campo `targetLang` indicando o idioma de destino da tradução para aquele lote. Entradas de diferentes idiomas de destino nunca são misturadas no mesmo lote.
 
-1.  **Ordenação por Prioridade**: Os mods são ordenados em ordem decrescente de prioridade. A prioridade é calculada como uma média ponderada do número de inscrições (subscription) e favoritos (favorite) – mods mais populares são traduzidos primeiro.
-2.  **Restrições Duplas**: Cada lote é limitado simultaneamente por dois limites:
-    - `batch_size` (limite de entradas, padrão 30): Um lote pode conter no máximo 30 entradas.
-    - `batch_token_budget` (orçamento de tokens, padrão 2000): O total de tokens de entrada em um lote não pode exceder 2000. Mesmo que o número de entradas não atinja o limite, o lote é fechado se o orçamento de tokens se esgotar.
-3.  **Agrupamento por Mod**: As entradas do mesmo mod são agrupadas no mesmo lote tanto quanto possível. Isso ajuda o LLM a manter a consistência terminológica dentro do mesmo mod, evitando a fragmentação do contexto.
-4.  **Marcação de Idioma**: Cada `TranslationBatch` possui um campo `targetLang` indicando o idioma-alvo da tradução daquele lote. Entradas com diferentes idiomas-alvo nunca são misturadas no mesmo lote.
+**Método de estimativa de tokens**: Como o pipeline não depende de uma biblioteca específica de tokenizer (para evitar dependências extras), utiliza um método simplificado — textos em inglês são segmentados por espaços e pontuação para estimar aproximadamente o número de tokens. Esse valor estimado é usado para controle de orçamento e não precisa ser absolutamente preciso.
 
-**Método de Estimativa de Tokens**: Como o pipeline não depende de bibliotecas de tokenização específicas (para evitar dependências adicionais), uma estimativa simplificada é usada – o texto em inglês é tokenizado aproximadamente com base em espaços e pontuação. Esta estimativa é usada para o controle de orçamento e não precisa ser absolutamente precisa.
-
-**Intenção de Design — Agrupamento por Mod**: O objetivo de agrupar entradas do mesmo mod no mesmo lote, em vez de misturar mods para maximizar a taxa de preenchimento do lote, é que o LLM usa o contexto dentro do lote para manter a consistência terminológica. Textos do mesmo mod compartilham o mesmo sistema de terminologia e estilo narrativo; traduzi-los juntos ajuda o LLM a produzir uma tradução com estilo unificado.
+**Intenção de design — Agrupamento por mod**: As entradas do mesmo mod são empacotadas no mesmo lote, em vez de misturar mods diferentes para buscar maior taxa de preenchimento do lote. Isso ocorre porque o LLM utiliza informações de contexto dentro do mesmo lote para manter a consistência terminológica durante a tradução — textos do mesmo mod compartilham o mesmo sistema de termos e estilo narrativo, e traduzi-los juntos ajuda o LLM a produzir traduções com estilo unificado.
 
 ### 3.10 RagContextRetriever (`RagContextRetrieverService`)
 
-**Função**: Com base na similaridade de vetores, buscar no corpus de traduções de referência as traduções existentes mais semanticamente semelhantes ao texto a ser traduzido, para servir como contexto de referência durante a tradução pelo LLM.
+**Função**: Com base na similaridade de vetores, recupera do corpus de tradução de referência as traduções existentes mais semelhantes ao texto a ser traduzido, servindo como referência de contexto para a tradução LLM.
 
-O RAG (Retrieval-Augmented Generation, Geração Aumentada por Recuperação) é a **garantia central** da qualidade da tradução neste pipeline. A ideia básica é: ao traduzir cada texto, o LLM pode "ver" exemplos de frases traduzidas manualmente pela comunidade, aprendendo seu estilo, terminologia e expressões.
+RAG (Geração Aumentada por Recuperação) é a **garantia central** da qualidade de tradução deste pipeline. A ideia básica é: permitir que o LLM, ao traduzir cada texto, "veja" exemplos semelhantes traduzidos manualmente pela comunidade, aprendendo seu estilo, terminologia e forma de expressão.
 
-**Fluxo da Busca**:
+**Fluxo de recuperação**:
+1. **Construção do índice de referência** (`BuildReferences`): A partir das entradas de tradução de referência e traduções existentes, filtra as entradas que correspondem à direção de tradução atual (ou seja, entradas do tipo `embeddingKey = "en:zh-hans"` — "do inglês para o idioma de destino"), carregando seus vetores de embedding na memória como índice de recuperação.
+2. **Busca de correspondência exata** (`BuildExactReferenceLookup`): Para entradas com o mesmo `translationKey`, estabelece diretamente uma relação de mapeamento — a mesma chave significa que é a tradução do mesmo texto, sendo o sinal de referência mais forte.
+3. **Cálculo de similaridade cosseno**: Para cada vetor de consulta (query embedding) do texto a ser traduzido, percorre todos os vetores de referência (reference embedding) no índice de referência e calcula a similaridade cosseno entre eles. A similaridade cosseno varia de [-1, 1], sendo que valores mais próximos de 1 indicam maior semelhança semântica.
+4. **Filtragem por limiar**: Resultados de referência com similaridade abaixo de `similarity_threshold` (padrão 0.8) são descartados. Esse limiar garante que apenas traduções de referência altamente relevantes sejam adotadas.
+5. **Truncamento Top-K**: Selecionar os K itens de maior similaridade (padrão 3) dos candidatos que passaram no limiar, como contexto de referência para a tradução do LLM.
 
-1.  **Construção do Índice de Referência** (`BuildReferences`): A partir das entradas de tradução de referência e das traduções existentes, filtra as entradas que correspondem ao par de idiomas da tradução atual (ou seja, entradas com `embeddingKey = "en:zh-hans"`, como "do inglês para o chinês simplificado") e carrega seus vetores de embedding na memória como índice de busca.
-2.  **Busca por Correspondência Exata** (`BuildExactReferenceLookup`): Para entradas com a mesma `translationKey`, estabelece um mapeamento direto – a mesma chave significa que o texto traduzido é o mesmo, representando o sinal de referência mais forte.
-3.  **Cálculo de Similaridade por Cosseno**: Para cada vetor de consulta (query embedding) do texto a ser traduzido, percorre todos os vetores de referência no índice, calculando a similaridade por cosseno entre eles. A similaridade por cosseno varia de [-1, 1]; quanto mais próximo de 1, mais semanticamente semelhantes são os textos.
-4.  **Filtragem por Limiar**: Resultados de referência com similaridade abaixo de `similarity_threshold` (padrão 0.8) são descartados. Este limiar garante que apenas referências altamente relevantes sejam usadas.
-5.  **Top-K**: Dos candidatos que passaram pelo limiar, seleciona os K com maior similaridade (padrão 3), que servirão como contexto de referência para a tradução pelo LLM.
+**Otimização de desempenho**: A recuperação envolve um grande número de operações de produto escalar de vetores (384 dimensões × dezenas de milhares de referências × dezenas de milhares de consultas), com enorme carga computacional. O pipeline usa `Parallel.For` para computação paralela multithread e, nos loops internos, instruções SIMD `Vector128` para acelerar o produto escalar, aproveitando ao máximo a capacidade de computação vetorial das CPUs modernas.
 
-**Otimização de Desempenho**: A busca envolve um grande número de operações de produto escalar de vetores (384 dimensões × dezenas de milhares de referências × dezenas de milhares de consultas), o que é computacionalmente intensivo. O pipeline usa `Parallel.For` para processamento paralelo com múltiplas threads, e no loop interno usa instruções SIMD `Vector128` para acelerar as operações de produto escalar, aproveitando ao máximo a capacidade de computação vetorial das CPUs modernas.
-
-**Integração com o LLMTranslator**: Após a busca, as referências Top-K para cada texto a ser traduzido são escritas no campo de contexto RAG correspondente a cada entrada no `TranslationBatch`. O `LLMTranslator`, ao construir o Prompt de tradução (ver Seção 3.11, `BuildPromptItems`), injeta essas referências como contexto no Prompt para que o LLM possa consultá-las.
+**Integração com LLMTranslator**: Após a recuperação, as traduções de referência Top-K para cada texto a ser traduzido são escritas nos campos de contexto RAG correspondentes a cada entrada em `TranslationBatch`. Ao construir o Prompt de tradução (consulte a seção 3.11 `BuildPromptItems`), o `LLMTranslator` injeta essas traduções de referência como contexto no Prompt para referência do LLM.
 
 ### 3.11 LLMTranslator (`LLMTranslatorService`)
 
-**Função**: Chamar a API do Modelo de Linguagem de Grande Escala para executar a tarefa de tradução. Este é o módulo mais complexo de todo o pipeline.
+**Função**: Chama a API do modelo de linguagem grande para executar a tarefa real de tradução, sendo o módulo mais complexo de todo o pipeline.
 
-O `LLMTranslator` não é apenas responsável por construir o Prompt e interpretar a resposta, mas também incorpora mecanismos completos de engenharia, como warmup, controle de concorrência dinâmico, proteção de memória e repetição de tentativas em caso de erro.
+`LLMTranslator` não só é responsável por construir o Prompt e analisar as respostas, mas também inclui mecanismos completos de engenharia, como aquecimento (warmup), controle dinâmico de concorrência, proteção de memória e repetição de erros.
 
-**Arquitetura Geral**:
-
-A tradução é dividida em duas fases — **Fase de Preparação** e **Fase de Execução**:
-
+**Arquitetura geral**:
+A tradução é dividida em duas fases — **fase de preparação** e **fase de execução**:
 ```
-PrepareTranslationPlanAsync  → Constrói o plano de tradução (LlmTranslationPlan)
-    ├── Filtragem de textos vazios (escrita direta como EmptyWrites, sem chamar o LLM)
-    ├── BuildPromptItems (injeção de contexto RAG e glossário para cada texto)
-    ├── BuildPrompt (concatenação do system prompt + regras de tradução + lista de entradas)
-    └── Se o número de lotes for > 5, gera um prompt de warmup
+PrepareTranslationPlanAsync  → 构建翻译计划（LlmTranslationPlan）
+├── 过滤空文本（直接写入 EmptyWrites，无需调用 LLM）
+├── BuildPromptItems（为每条文本注入 RAG 上下文和术语表）
+├── BuildPrompt（拼接 system prompt + 翻译规则 + 条目列表）
+└── 批次数 >5 时生成 warmup prompt（用于预热探测）
 
-ExecuteTranslationPlansAsync  → Executa todos os planos de tradução em série
-    ├── Escrita dos EmptyWrites (resultados placeholder para textos vazios)
-    ├── ExecuteWarmupAsync (fase de aquecimento: baixa concorrência, requisição única)
-    │   └── AccountFatal → interrompe todos os planos subsequentes
-    ├── ExecuteWorkItemsAsync / ExecuteWorkItemsFixedWindowAsync (fase principal de tradução)
-    └── ApplyTargetWrite (escrita dos resultados da tradução em entry.translationValues)
+ExecuteTranslationPlansAsync  → 串行执行所有翻译计划
+├── 写入 EmptyWrites（空文本的占位结果）
+├── ExecuteWarmupAsync（预热阶段：低并发单次请求）
+│   └── AccountFatal → 终止所有后续计划
+├── ExecuteWorkItemsAsync / ExecuteWorkItemsFixedWindowAsync（主翻译阶段）
+└── ApplyTargetWrite（将翻译结果写入 entry.translationValues）
 ```
 
-**Controle de Concorrência Dinâmico** (`ExecuteWorkItemsAsync`):
-
-A política de limite de taxa (rate limit) da API DeepSeek não é completamente transparente. Um número fixo de concorrência pode levar a dois problemas – ser muito conservador e não aproveitar a vazão, ou ser muito agressivo e disparar erros 429 (limite de taxa excedido). Para isso, o pipeline implementa um algoritmo de controle de concorrência adaptativo:
-
+**Controle dinâmico de concorrência** (`ExecuteWorkItemsAsync`):
+A política de limite de taxa (rate limit) da API DeepSeek não é totalmente transparente, e um número fixo de concorrência pode levar a dois problemas — muito conservador resulta em baixa taxa de transferência, muito agressivo desencadeia erros de limitação 429. Para isso, o pipeline implementa um algoritmo adaptativo de controle de concorrência:
 ```
-Concorrência inicial = auto(profile) ou valor configurado
-   ↓
-Avalia a cada tarefa concluída:
-    Sucesso → successStreak++ (incrementa contador de sucessos)
-    Sucesso && streak ≥ min(currentLimit, 100) → tenta +25% de concorrência
-    Falha && há sinal de pressão → pressureFailureStreak++
-    Sinal de pressão consecutivo ≥ 3 → reduz a concorrência pela metade (scale-in)
-    AccountFatal (saldo insuficiente/conta bloqueada) → marca stopScheduling, interrompe todas as tarefas subsequentes
+初始并发 = auto(profile) 或配置值
+↓
+每完成一个任务时评估:
+成功 → successStreak++（成功计数器递增）
+成功 && streak ≥ min(currentLimit, 100) → 尝试 +25% 并发
+失败 && 有压力信号 → pressureFailureStreak++
+Sinais de pressão contínua ≥ 3 → concorrência reduzida pela metade (contração)
+AccountFatal (saldo insuficiente/conta banida) → marca stopScheduling, encerra todas as tarefas subsequentes
 ```
 
-A ideia central é o "efeito de tentativa" – testar gradualmente o limite superior de concorrência da API, aumentando a concorrência em caso de sucesso e reduzindo rapidamente em caso de falha.
+A ideia central é o "efeito ponta dos pés" — testar gradualmente o limite de concorrência da API, subir se bem-sucedido, recuar rapidamente se falhar.
 
-**Detecção Automática de Perfil de Concorrência**:
+**Detecção automática de Perfil de Concorrência**:
+Quando na configuração `initial=0` ou `maximum=0`, o pipeline seleciona automaticamente parâmetros de concorrência adequados com base no ambiente de execução e no nome do modelo. **Prioridade de detecção**: primeiro verifica a variável de ambiente `GITHUB_ACTIONS` (ambiente CI força baixa concorrência), depois corresponde pelo nome do modelo:
 
-Quando `initial=0` ou `maximum=0` na configuração, o pipeline seleciona automaticamente os parâmetros de concorrência apropriados com base no ambiente de execução e no nome do modelo. **Prioridade de Detecção**: Primeiro, verifica a variável de ambiente `GITHUB_ACTIONS` (no CI, a concorrência baixa é forçada). Depois, faz a correspondência com base no nome do modelo:
+| Condição de detecção | Initial | Maximum | Cenário aplicável |
+|------|---------|---------|------|
+| `GITHUB_ACTIONS=true` (prioritário) | 4 | 32 | Recursos do executor CI (CPU/memória) limitados |
+| modelo contém `v4-flash` | 128 | 2000 | Capacidade de alta concorrência DeepSeek V4 Flash |
+| modelo contém `v4-pro` | 64 | 400 | Capacidade de concorrência média DeepSeek V4 Pro |
+| Outros modelos | 16 | 128 | Valor padrão conservador para modelos desconhecidos |
 
-| Condição de Detecção | Initial | Maximum | Cenário de Uso |
-|----------------------|---------|---------|----------------|
-| `GITHUB_ACTIONS=true` (prioritário) | 4 | 32 | Recursos (CPU/memória) limitados do runner do CI |
-| model contém `v4-flash` | 128 | 2000 | Alta capacidade de concorrência do DeepSeek V4 Flash |
-| model contém `v4-pro` | 64 | 400 | Capacidade de concorrência média do DeepSeek V4 Pro |
-| Outros modelos | 16 | 128 | Valor conservador padrão para modelos desconhecidos |
+**Modo de janela fixa** (`llmFixedConcurrency > 0`):
+Para ambientes onde o limite máximo de concorrência da API é claramente conhecido, é possível ativar o modo de janela fixa. Esse modo agrupa os work items em janelas de tamanho fixo, executando os itens dentro da janela concorrentemente e estritamente em série entre as janelas. Esse comportamento determinístico elimina a incerteza dos ajustes dinâmicos, sendo adequado para operação estável em ambientes de produção.
 
-**Modo de Janela Fixa** (`llmFixedConcurrency > 0`):
+**Composição do Prompt de tradução**:
+O prompt de cada solicitação de tradução é composto pela concatenação dos seguintes quatro níveis de conteúdo:
+1. **System Prompt** (`system_prompt_translate_engine.txt`): define as regras básicas da tarefa de tradução, incluindo:
+- Use formato de entrada/saída separado por Tab (para facilitar a análise pelo programa).
+- Preserve estritamente os placeholders no texto original (`%1`, `{}`, `<>`, etc.), estes são variáveis substituídas dinamicamente em tempo de execução do jogo.
+- Prioridade de autoridade: tradução verificada manualmente na língua alvo > glossário > referência RAG > julgamento próprio do LLM.
+- Cada tradução deve incluir uma pontuação de confiança (1.0 totalmente certo ~ 0.1 palpite).
+- Exige que o LLM minimize o consumo de tokens durante o raciocínio para reduzir os custos da API.
 
-Para ambientes onde o limite superior de concorrência da API é conhecido, pode-se ativar o modo de janela fixa. Neste modo, os work items são agrupados em janelas de tamanho fixo; as entradas dentro da janela são executadas concorrentemente, e as janelas são executadas estritamente em série. Este comportamento determinístico elimina a incerteza dos ajustes dinâmicos, sendo adequado para operações estáveis em ambientes de produção.
+2. **Schema de tradução** (`translation_schema_zh-hans.md`): define as normas de formatação para tradução em chinês, por exemplo:
+- Pontuação: usar uniformemente pontuação em inglês de meia largura, exceto as específicas do chinês: `、` `...` `《》`.
+- Nomeação de itens: `Nome do item (cor, qualidade, descrição)`.
+- Nomeação de armas: `marca+modelo+tipo`.
+- Nomeação de veículos: `ano+marca+modelo+observação especial+tipo de veículo`.
 
-**Composição do Prompt de Tradução**:
+3. **Glossário** (`translation_dictionary_zh-hans.json`): tabela de mapeamento de termos obrigatória. Quando um termo do glossário aparecer no texto original, o LLM deve usar a tradução chinesa correspondente, não podendo improvisar.
 
-O Prompt de cada solicitação de tradução é composto pela concatenação das seguintes quatro camadas:
+4. **Contexto RAG**: exemplos de tradução de referência recuperados pelo `RagContextRetriever`, incorporados no Prompt como referência de tradução.
 
-1.  **System Prompt** (`system_prompt_translate_engine.txt`): Define as regras básicas da tarefa de tradução, incluindo:
-    - Uso de formato de entrada/saída separado por Tab (para facilitar a interpretação programática).
-    - Manter estritamente os placeholders no texto original (ex: `%1`, `{}`, `<>`), que são variáveis substituídas dinamicamente durante a execução do jogo.
-    - Prioridade de autoridade: Tradução no idioma-alvo verificada manualmente > Glossário > Referência RAG > Julgamento do LLM.
-    - Cada tradução deve incluir uma pontuação de confiança (1.0 totalmente certo ~ 0.1 suposição).
-    - Solicita que o LLM minimize o consumo de tokens durante o raciocínio para reduzir os custos da API.
-
-2.  **Schema de Tradução** (`translation_schema_zh-hans.md`): Define as especificações de formato para a tradução em chinês, por exemplo:
-    - Pontuação: Uso uniforme de pontuação ocidental (meia-largura), exceto para pontuações específicas do chinês como `、` `...` `《》`.
-    - Nomenclatura de Itens: `Nome do Item (Cor, Qualidade, Descrição)`.
-    - Nomenclatura de Armas de Fogo: `Marca+Modelo+Tipo`.
-    - Nomenclatura de Veículos: `Ano+Marca+Modelo+Descrição Especial+Tipo de Veículo`.
-
-3.  **Glossário** (`translation_dictionary_zh-hans.json`): Tabela de mapeamento terminológico obrigatória. Quando uma palavra do glossário aparece no texto original, o LLM deve usar a tradução chinesa correspondente, sem improvisar.
-
-4.  **Contexto RAG**: Os exemplos de frases de referência recuperados pelo `RagContextRetriever`, incorporados ao Prompt como referência para a tradução.
-
-**Formato de Entrada e Saída**:
-
-Entrada (cada entrada a ser traduzida):
+**Formato de entrada e saída**:
+Entrada (para cada item a ser traduzido):
 ```
-T1\t<texto_original>\t<contexto_multilíngue>\t<contexto_rag>\t<info_mod>
+T1\t<source_text>\t<multi_lang_context>\t<rag_context>\t<mod_info>
 ```
 
-Saída (cada resultado de tradução):
+Output (for each translation result):
 ```
-T1\t<tradução>\t<confiança>\t[comentário]
+T1\t<translation>\t<confidence>\t[comment]
 ```
 
-O uso do separador Tab visa permitir que a saída do LLM seja interpretada com precisão pelo programa – separadores como vírgula ou espaço podem se confundir com o conteúdo textual.
+Using Tab-separated format allows the LLM's output to be precisely parsed by the program—comma or space separation can easily be confused with the text content itself.
 
-**Mecanismo de Warmup (Aquecimento)**:
-
-Quando o número de lotes de tradução é superior a 5, o pipeline envia uma solicitação de aquecimento (contendo algumas tarefas de tradução simples). Os objetivos do aquecimento são:
-
-1.  **Verificar a Conectividade da API**: Confirmar se a rede está acessível e a chave da API é válida.
-2.  **Verificar o Status da Conta**: Se a API retornar um erro `AccountFatal` (saldo insuficiente ou conta bloqueada), interrompe todas as tarefas de tradução subsequentes, evitando tentativas repetidas e sem sentido.
-3.  **Aumentar a Taxa de Acerto do Cache**: A solicitação de aquecimento envia o cabeçalho do Prompt (system prompt + regras) que é compartilhado com os lotes formais, permitindo que o cache KV do lado do servidor LLM seja reutilizado nas traduções formais, reduzindo o custo de inferência e a latência.
+**Warmup Mechanism**:
+When the number of translation batches exceeds 5, the pipeline first sends a warmup request (containing a small number of simple translation tasks). The warmup serves three purposes:
+1. **Detect API connectivity**: Confirm network reachability and API Key validity.
+2. **Detect account status**: If the API returns an `AccountFatal` error (insufficient balance or account banned), all subsequent translation tasks are terminated to avoid meaningless repeated failures.
+3. **Improve cache hit rate**: The warmup request sends the same Prompt header (system prompt + rules) as the official batches, allowing the LLM server's KV Cache to be directly reused during formal translation, thereby reducing inference cost and latency.
 
 ### 3.12 ResultWriter (`ResultWriterService`)
 
-**Função**: Persistir todos os dados gerados pelo pipeline (resultados de tradução, vetores de embedding, metadados, etc.) de volta ao sistema de arquivos para reutilização na próxima execução.
+**Function**: Persistently write all data generated by the pipeline (translation results, embedding vectors, metadata, etc.) back to the file system for reuse in the next run.
 
-O `ResultWriter` é o "módulo de arquivamento" do pipeline. Os resultados da tradução produzidos em cada execução precisam ser salvos; caso contrário, a próxima execução não saberá quais textos já foram traduzidos, resultando em muito retrabalho.
+`ResultWriter` is the "archive module" of the pipeline. Each run's translation results must be saved; otherwise, the next run cannot identify which texts have already been translated, leading to massive redundant work.
 
-**Destinos e Formatos de Saída**:
+**Output targets and formats**:
 
-| Tipo de Dado | Caminho de Armazenamento | Formato |
-|--------------|--------------------------|---------|
-| Metadados de Mods | `data/modinfos.json` | Array JSON, registra informações de todos os mods processados. |
-| Entradas de Tradução | `data/translations/<iso>/<modId>.txt` | Linhas de tradução no formato PZ: `key::lang::status = "value"` |
-| Vetores de Embedding | `data/embeddings/<modId>.bin` | Formato binário compactado com Zstd (economiza espaço em disco). |
-| Metadados de Entrada | `data/entry_metadata/<bucket>/<modId>.json` | Formato JSON, registra `sourceHash`, `isActive`, etc. |
+| Data Type | Storage Path | Format |
+|----------|------|------|
+| Mod metadata | `data/modinfos.json` | JSON array, records information of all processed mods |
+| Translation entries | `data/translations/<iso>/<modId>.txt` | PZ translation line format: `key::lang::status = "value"` |
+| Embedding vectors | `data/embeddings/<modId>.bin` | Zstd compressed binary format (saves disk space) |
+| Entry metadata | `data/entry_metadata/<bucket>/<modId>.json` | JSON format, records statuses such as sourceHash, isActive |
 
-**Descrição do Formato da Linha de Tradução**:
+**Translation line format description**:
 ```
 ContextMenu_PickUp::en = "Pick Up",
-ContextMenu_PickUp::zh-hans::unverified = "Pegar",
+ContextMenu_PickUp::zh-hans::unverified = "拾起",
 ```
 
-- A primeira linha é a **linha do idioma base** (`::en`), registrando o texto original em inglês.
-- A segunda linha é a **linha do idioma-alvo** (`::zh-hans::unverified`), registrando o resultado da tradução. `unverified` indica que a tradução foi gerada automaticamente pelo LLM e não foi verificada manualmente. Se posteriormente verificada, o status pode ser atualizado para `verified`.
+- The first line is the **base language line** (`::en`), recording the English source text.
+- The second line is the **target language line** (`::zh-hans::unverified`), recording the translation result. `unverified` indicates it is an LLM auto-translation, not yet manually verified. If later confirmed by manual review, the status can be updated to `verified`.
 
-**Intenção de Design — Formato de Cache Interno**: A escolha do formato `key::lang::status = "value"` em vez de JSON como formato de cache interno se deve à sua alta densidade de informação, permitindo que mais contexto seja exibido em uma única tela ao inspecionar manualmente o conteúdo traduzido.
+**Design intent — Internal cache format**: Choosing `key::lang::status = "value"` over JSON as the internal cache format is because this format has higher information density, allowing more context to be displayed on screen when manually reviewing translation content.
 
 ### 3.13 FinalOutputWriter (`FinalOutputWriterService`)
 
-**Função**: Converter o cache de traduções acumulado pelo pipeline no formato de arquivo de mod do Project Zomboid, pronto para uso pelos jogadores.
+**Função**: Converter o cache de tradução acumulado pelo pipeline em arquivos de formato PZ mod que os jogadores podem usar diretamente.
 
-O `ResultWriter` armazena as traduções em um formato interno do pipeline (para facilitar o processamento incremental e o rastreamento de estado), mas este formato não pode ser carregado diretamente pelo jogo Project Zomboid. O `FinalOutputWriter` é responsável por converter o formato interno para os arquivos de distribuição finais, compatíveis com a especificação de mods do PZ.
+O `ResultWriter` armazena as traduções no formato interno do pipeline (para facilitar o processamento incremental e o rastreamento de estado), mas esse formato não pode ser carregado diretamente pelo jogo Project Zomboid. O `FinalOutputWriter` é responsável por converter o formato interno nos arquivos de distribuição final que atendem às especificações do PZ mod.
 
-**Estrutura do Diretório de Saída**:
-
+**Estrutura do diretório de saída**:
 ```
 final_outputs/project_babel/contents/mods/project_babel/
 ├── 42/media/lua/shared/Translate/<gameCode>/*.json
 └── 42.19/media/lua/shared/Translate/<gameCode>/*.json
 ```
 
-- `42` e `42.19` correspondem a duas versões principais do jogo PZ (Build 42 e Build 42.19). Diferentes versões carregam arquivos de tradução de diretórios diferentes.
-- O conteúdo dos dois diretórios é idêntico – o pipeline escreve primeiro na versão 42.19 e depois copia para o diretório 42.
+- `42` e `42.19` correspondem respectivamente às duas versões principais do jogo PZ (Build 42 e Build 42.19). Versões diferentes carregam arquivos de tradução de diretórios diferentes.
+- O conteúdo dos dois diretórios é idêntico — o pipeline escreve primeiro na versão 42.19 e depois copia para o diretório 42.
 
-**Lógica de Processamento Principal**:
+**Lógica principal de processamento**:
+1. **Excluir texto original**: Carregar todos os arquivos JSON no diretório `base_game_keys/`, construindo o conjunto de chaves de tradução (translationKey) já contidas no jogo original. O texto correspondente a essas chaves já possui tradução oficial no jogo original, e o pipeline não precisa retraduzir. Qualquer entrada correspondente não será escrita na saída final.
 
-1.  **Exclusão de Texto do Jogo Base**: Carrega todos os arquivos JSON do diretório `base_game_keys/` para construir um conjunto de chaves de tradução (translationKey) que já estão incluídas na tradução oficial do jogo base. Chaves correspondentes a estas entradas não precisam ser retraduzidas pelo pipeline, portanto, não são incluídas na saída final.
+2. **Excluir entradas de mods de referência**: As entradas dos mods de tradução de referência são traduzidas manualmente; o pipeline não as escreverá nos arquivos de distribuição final (para evitar controvérsias de direitos autorais).
 
-2.  **Exclusão de Entradas de Mods de Referência**: As entradas dos mods de tradução de referência são de autoria humana e não são incluídas nos arquivos de distribuição finais para evitar questões de direitos autorais.
+3. **Roteamento por prefixo para arquivos**: O prefixo da chave de tradução (translationKey) determina em qual arquivo de saída ela deve ser escrita. Por exemplo:
+- Chaves começando com `IG_UI_` → escrever em `IG_UI.json`
+- Chaves começando com `ContextMenu_` → escrever em `ContextMenu.json`
+- Chaves começando com `Tooltip_` → escrever em `Tooltip.json`
+   
+Esse mapeamento é fornecido pelo `translation_key_to_file_mapping` registrado na fase `ContentExtractor`.
 
-3.  **Roteamento por Prefixo para Arquivos**: O prefixo da chave de tradução (translationKey) determina em qual arquivo de saída ela será escrita. Por exemplo:
-    - Chaves começando com `IG_UI_` → escritas em `IG_UI.json`
-    - Chaves começando com `ContextMenu_` → escritas em `ContextMenu.json`
-    - Chaves começando com `Tooltip_` → escritas em `Tooltip.json`
-
-    Este mapeamento é fornecido pelo `translation_key_to_file_mapping` registrado durante a fase do `ContentExtractor`.
-
-4.  **Escrita Atômica**: Todos os arquivos de saída seguem a estratégia de "escrever primeiro em um arquivo temporário, depois mover atomicamente" – escreve primeiro em `<filename>.tmp` e, após o sucesso da escrita, substitui o arquivo de destino via `File.Move`. Isso garante que, mesmo se houver uma falha ou queda de energia durante a escrita, os arquivos existentes não sejam corrompidos.
+4. **Escrita atômica**: Todos os arquivos de saída adotam a estratégia de "escrever primeiro em um arquivo temporário, depois mover atomicamente" — primeiro escrever em `<filename>.tmp`, após a escrita bem-sucedida, usar `File.Move` para substituir o arquivo de destino. Essa abordagem garante que, mesmo em caso de falha ou queda de energia durante a gravação, os arquivos existentes não sejam corrompidos.
 
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
-**Função**: Calcular a cobertura de tradução para cada idioma e gerar relatórios de progresso multilíngue, para que a comunidade possa acompanhar o andamento das traduções.
+**Função**: Estatísticas da cobertura de tradução de cada idioma e geração de relatórios de progresso multilíngues, facilitando o acompanhamento do progresso da tradução pela comunidade.
 
-Os relatórios de progresso são gerados em formato Markdown e armazenados no diretório `docs/progress/`. Um relatório independente é gerado para cada idioma (ex: `progress_zh-hans.md`, `progress_ja.md`).
+Os relatórios de progresso são gerados no formato Markdown e armazenados no diretório `docs/progress/`. Cada idioma gera um arquivo de relatório independente (por exemplo, `progress_zh-hans.md`, `progress_ja.md`).
 
-**Fluxo de Geração**:
-
-1.  **Carregamento do Template**: Lê o arquivo `src/prompt_templates/progress/progress_template_<lang>.md`. Cada idioma pode ter um template independente, contendo placeholders no estilo `{{PLACEHOLDER}}`.
-2.  **Cálculo de Estatísticas**: Percorre o cache de todas as entradas de tradução e calcula as seguintes métricas para cada idioma-alvo:
-    - `total`: Número total de entradas a serem traduzidas para aquele idioma.
-    - `translated`: Número de entradas já traduzidas.
-    - `pending`: Número de entradas ainda não traduzidas.
-    - `untranslatable`: Número de entradas marcadas como intraduzíveis devido à revisão de conteúdo.
-3.  **Substituição de Placeholders**: Substitui os `{{PLACEHOLDER}}` no template pelos valores estatísticos calculados.
-4.  **Escrita do Arquivo**: Escreve o conteúdo substituído em `docs/progress/progress_<iso>.md`.
+**Fluxo de geração**:
+1. **Carregar modelo**: Ler `src/prompt_templates/progress/progress_template_<lang>.md`. Cada idioma pode usar um modelo independente, que contém variáveis de espaço reservado no estilo `{{PLACEHOLDER}}`.
+2. **Cálculo de estatísticas**: Percorrer o cache de todas as entradas de tradução e calcular os seguintes indicadores para cada idioma de destino:
+- `total`: Número total de entradas a serem traduzidas para esse idioma.
+- `translated`: Número de entradas já traduzidas.
+- `pending`: Número de entradas ainda não traduzidas.
+- `untranslatable`: Número de entradas marcadas como intraduzíveis devido à revisão de conteúdo.
+3. **Substituir placeholders**: Substituir `{{PLACEHOLDER}}` no modelo pelos dados estatísticos reais.
+4. **Escrever arquivo**: Escrever o conteúdo substituído em `docs/progress/progress_<iso>.md`.
 
 ---
 
 ## 4. Convenções de Dados
 
-Esta seção descreve em detalhe as estruturas de dados centrais, os formatos de arquivo e as convenções de chave de índice usadas no pipeline. Estas definições são a base para entender como os dados são transmitidos entre os módulos.
+Esta secção detalha as estruturas de dados centrais, formatos de ficheiro e convenções de chave de índice utilizadas no pipeline. Estas definições são a base para compreender como os dados são passados entre os módulos.
 
 ### 4.1 Tipos Principais
 
 #### `TranslationEntry` — Entrada de Tradução
 
-`TranslationEntry` é a estrutura de dados mais central do pipeline, representando **um texto a ser traduzido**. Cada `TranslationEntry` corresponde a uma chave de tradução (translationKey) em um mod, contendo informações completas como texto original, tradução, vetor de embedding, etc.
+`TranslationEntry` é a estrutura de dados mais central no pipeline, representando **um texto a ser traduzido**. Cada TranslationEntry corresponde a uma chave de tradução (translationKey) num mod, contendo informação completa como texto original, tradução, vetores de incorporação, etc.
 
 ```csharp
 class TranslationEntry {
-    string modId;                                          // ID do Mod na Steam Workshop
-    string masterKey;                                      // Chave mestre Lua do PZ (ex: "IG_UI")
-    string translationKey;                                 // Chave de tradução completa
-    Dictionary<string, TranslationData> translationValues; // ISO → Dados de tradução
-    string baseLang;                                       // Idioma base (padrão "en")
-    string embeddingHash;                                  // Hash do texto atual para embedding
-    float[] embeddingVector;                               // [Obsoleto] Vetor único (substituído por embeddingValues)
-    Dictionary<string, TranslationEmbedding> embeddingValues; // embeddingKey → vetor+hash (substitui embeddingVector)
-    bool isActive;                                         // Indica se ainda existe no arquivo fonte
-    DateTime lastSeenAt;
-    DateTime lastSeenModUpdated;
-    string sourceHash;                                     // SHA256 do texto base
-    List<ContainingFileInfo> containingFileInfos;          // Informações de todos os arquivos fonte
+string modId;                                          // Steam Workshop Mod ID
+string masterKey;                                      // PZ Lua 主键 (如 "IG_UI")
+string translationKey;                                 // 完整翻译键
+Dictionary<string, TranslationData> translationValues; // ISO → 译文数据
+string baseLang;                                       // 基准语言 (默认 "en")
+string embeddingHash;                                  // 当前嵌入文本的 hash
+float[] embeddingVector;                               // [旧] 单向量 (已废弃，改为 embeddingValues 支持多语言嵌入)
+Dictionary<string, TranslationEmbedding> embeddingValues; // embeddingKey → 向量+hash (替代 embeddingVector)
+bool isActive;                                         // 是否仍存在于源文件中
+DateTime lastSeenAt;
+DateTime lastSeenModUpdated;
+string sourceHash;                                     // 基准文本 SHA256
+List<ContainingFileInfo> containingFileInfos;          // 所有源文件信息
 }
 ```
 
-**Identificador Único Global**: Cada `TranslationEntry` é unicamente identificado por `modId::translationKey`. Por exemplo, `1234567890::IG_UI_NewGame` refere-se ao texto `IG_UI_NewGame` no mod `1234567890`.
+**Identificador único global**: Cada `TranslationEntry` é unicamente identificado por `modId::translationKey`. Por exemplo, `1234567890::IG_UI_NewGame` representa o texto `IG_UI_NewGame` no mod `1234567890`.
 
-**Métodos Principais**:
-
-- `GetBaseTextStrict()`: Obtém o texto base estritamente usando `baseLang` (geralmente `en`). Esta é a fonte de entrada para a tradução.
-- `GetSourceText()`: Obtém o texto com uma cadeia de fallback. Tenta, por ordem de prioridade: o idioma solicitado → o idioma base → qualquer tradução verificada → qualquer tradução com texto. Este método oferece tolerância a falhas quando o texto base está ausente.
+**Métodos-chave**:
+- `GetBaseTextStrict()`: Obtém o texto base estritamente usando `baseLang` (normalmente `en`). Esta é a fonte de entrada para tradução.
+- `GetSourceText()`: Método de obtenção de texto com cadeia de fallback. Tenta sequencialmente por prioridade: idioma solicitado → idioma base → qualquer tradução verificada → qualquer tradução com texto. Este método fornece tolerância a falhas quando o texto base está em falta.
 
 #### `TranslationData` — Dados de Tradução
 
-`TranslationData` armazena a tradução de uma única entrada e suas metainformações.
+`TranslationData` armazena a tradução e metainformação de uma única entrada de tradução.
 
 ```csharp
 class TranslationData {
-    string text;           // Tradução
-    bool isVerified;       // Se é verificada (referências são true)
-    float? confidence;     // Confiança da tradução pelo LLM (0.0~1.0)
-    string status;         // Status de verificação: "verified" ou "unverified"
-    string processStatus;  // Status de processamento: "processed" ou "unprocessed"
-    List<string> comments; // Lista de comentários
+string text;           // Tradução
+bool isVerified;       // Se é verificado (tradução de referência é true)
+float? confidence;     // Confiança da tradução LLM (0.0~1.0)
+string status;         // Estado de verificação: "verified" ou "unverified"
+string processStatus;  // Estado de processamento: "processed" ou "unprocessed"
+List<string> comments; // Lista de comentários
 }
 ```
 
-- `isVerified = true`: Indica que a tradução vem de um mod de referência, traduzido manualmente e de qualidade confiável.
-- `isVerified = false`: Indica que a tradução foi gerada pelo LLM, marcada como `unverified`, e ainda não foi verificada manualmente.
-- `confidence`: Pontuação de confiança retornada pelo LLM ao gerar a tradução. `null` para traduções não geradas por LLM.
-- `processStatus`: Se a entrada já foi processada pelo pipeline do LLM (`processed` ou `unprocessed`).
+- `isVerified = true`: Indica que a tradução veio de um mod de tradução de referência feita por humanos, de qualidade confiável.
+- `isVerified = false`: Indica que a tradução veio da tradução LLM, marcada como `unverified`, ainda não verificada manualmente.
+- `confidence`: A pontuação de confiança retornada pela LLM ao gerar a tradução. `null` significa que não é tradução LLM.
+- `processStatus`: Se já foi processado pelo pipeline LLM (`processed` ou `unprocessed`).
 
-#### `ModInfo` — Metadados do Mod
+#### `ModInfo` — Metadados de Mod
 
-`ModInfo` armazena as metainformações completas de um mod da Steam Workshop, rastreando seu status e atualizações.
+`ModInfo` armazena as informações completas de metadados de um mod do Steam Workshop, rastreando seu estado e situação de atualização.
 
 ```csharp
 struct ModInfo {
@@ -710,84 +701,81 @@ struct ModInfo {
     string creator;
     string? language;
     string localDownloadedPath;
-    DateTime timeModUpdated;       // Última atualização registrada pela Steam
-    DateTime timeModCreated;       // Data de publicação inicial na Steam
-    DateTime timeLastChecked;      // Última verificação do mod pelo pipeline
-    int subscription;              // Número de inscrições (da Steam)
-    int favorite;                  // Número de favoritos (da Steam)
-    string description;            // Descrição do mod na Steam
-    int consumerAppId;             // App ID do consumidor Steam (108600 = PZ)
-    ContentCheckStatus contentCheckStatus; // Status da revisão de conteúdo
-    bool needsUpdate;              // Se precisa ser reextraído e retraduzido
-    bool needsContentCheck;        // Se precisa ser revisado novamente
-    bool isAvailable;              // Se o mod está acessível (false = não é mod PZ ou foi removido)
-    DateTime timeNextContentCheck; // Data agendada para a próxima revisão
-    string lastFetchStatus;        // Status da última consulta à Steam
-    double contentCheckConfidence; // Confiança da revisão de conteúdo (0.0~1.0)
-    bool contentCheckNeedHumanReview; // Se precisa de revisão manual
-    string contentCheckRiskLevel;  // Nível de risco (safe/low/medium/high)
-    string contentCheckReason;     // Motivo da conclusão da revisão
-    string contentCheckViolatedRulesJson; // Lista de regras violadas (JSON)
+DateTime timeModUpdated;       // Última hora de atualização registrada pelo Steam
+DateTime timeModCreated;       // Primeira hora de publicação registrada pelo Steam
+DateTime timeLastChecked;      // Última vez que o pipeline verificou este mod
+int subscription;              // Número de inscrições (do Steam)
+int favorite;                  // Número de favoritos (do Steam)
+string description;            // Texto de descrição do mod no Steam
+int consumerAppId;             // ID do aplicativo consumidor do Steam (108600 = PZ)
+ContentCheckStatus contentCheckStatus; // Estado da verificação de conteúdo
+bool needsUpdate; // Se precisa reextrair e traduzir
+bool needsContentCheck; // Se precisa reverificar o conteúdo
+bool isAvailable; // Se o mod está acessível (false = não é mod PZ ou foi removido)
+DateTime timeNextContentCheck; // Próxima hora agendada para verificação de conteúdo
+string lastFetchStatus; // Status da última consulta ao Steam
+double contentCheckConfidence; // Confiança da verificação de conteúdo (0.0~1.0)
+bool contentCheckNeedHumanReview; // Se precisa de revisão humana
+string contentCheckRiskLevel; // Nível de risco (safe/low/medium/high)
+string contentCheckReason; // Motivo da conclusão da verificação
+string contentCheckViolatedRulesJson; // Lista de regras violadas (JSON)
 }
 ```
 
-**Campos de Status Chave**:
+**Campos de status chave**:
+- `needsUpdate`: Definido como `true` quando o `time_updated` registrado pelo Steam é posterior ao `timeModUpdated` em cache, indicando que o autor do mod atualizou o conteúdo.
+- `isAvailable`: Definido como `false` se o `consumer_app_id` retornado pela API do Steam não for `108600` (Project Zomboid), ou se o mod foi removido. Os módulos subsequentes pularão este mod.
+- `contentCheckStatus`: Estado da verificação de segurança do conteúdo. Veja a descrição da máquina de estados na seção 4.4.
 
-- `needsUpdate`: Definido como `true` quando o `time_updated` registrado pela Steam é mais recente que o `timeModUpdated` em cache, indicando que o autor do mod atualizou o conteúdo.
-- `isAvailable`: Se o `consumer_app_id` retornado pela API Steam não for `108600` (Project Zomboid), ou se o mod foi removido, é definido como `false`, e os módulos subsequentes ignorarão este mod.
-- `contentCheckStatus`: Status da revisão de segurança de conteúdo, detalhado na Seção 4.4.
+#### `TranslationBatch` — Lote de tradução
 
-#### `TranslationBatch` — Lote de Tradução
-
-`TranslationBatch` é a unidade básica para a tradução pelo LLM, contendo um lote de entradas a serem traduzidas do mesmo mod e para o mesmo idioma-alvo.
+`TranslationBatch` é a unidade básica da tradução LLM, contendo um lote de entradas a serem traduzidas do mesmo mod e para o mesmo idioma de destino.
 
 ```csharp
 class TranslationBatch {
     int batchId;
-    int priority;                    // Prioridade (ponderada por subscription + favorite)
+int priority;                    // Prioridade (ponderada por subscrições + favoritos)
     string modId;
     List<TranslationEntry> translationEntries;
-    string baseLang;                 // "en"
-    string targetLang;               // Código ISO do idioma-alvo, ex: "zh-hans"
+string baseLang;                 // "en"
+string targetLang;               // Código ISO do idioma de destino, ex: "zh-hans"
 }
 ```
 
-- `priority`: Calculado a partir do número de inscrições e favoritos do mod. Mods mais populares têm seus lotes traduzidos primeiro.
-- Todas as entradas em um lote são do mesmo mod, evitando confusão de contexto entre mods diferentes.
+- `priority`: Calculado pela ponderação das subscrições e favoritos do mod. Lotes de mods populares são traduzidos primeiro.
+Todos os itens de um lote vêm do mesmo mod, evitando confusão de contexto entre mods.
 
-#### `LangInfoData` — Informações de Idioma
+#### `LangInfoData` — Informações de idioma
 
-`LangInfoData` define um idioma suportado, contendo o mapeamento entre o código usado no jogo e o código ISO padrão.
+`LangInfoData` define um idioma suportado, contendo o mapeamento entre o código no jogo e o código ISO padrão.
 
 ```csharp
 class LangInfoData {
-    string ingameCode;    // Código no jogo (CN, EN, JP...)
-    string chineseName;   // Nome em Chinês
-    string englishName;   // Nome em Inglês
-    string nativeName;    // Nome no idioma nativo (日本語, 한국어...)
-    string isoCode;       // Código ISO 639-1 ou BCP 47 (zh-hans, en, ja...)
+string ingameCode;    // Código no jogo (CN, EN, JP...)
+string chineseName;   // Nome em chinês
+string englishName;   // Nome em inglês
+string nativeName;    // Nome nativo (日本語, 한국어...)
+string isoCode;       // Código de idioma ISO (zh-hans, en, ja...)
 }
 ```
 
-### 4.2 Formatos de Arquivo
+### 4.2 Formatos de arquivo
 
-O pipeline usa diferentes formatos de arquivo em diferentes fases de processamento. A seguir, descrevemos cada um deles na ordem em que os dados fluem pelo pipeline.
+O pipeline usa diferentes formatos de arquivo em diferentes estágios de processamento. Abaixo, são explicados na ordem de fluxo dos dados no pipeline.
 
-#### Saída da Extração (Produzida pelo ContentExtractor)
+#### Saída da extração (produzida pelo ContentExtractor)
 
-Após extrair o texto dos arquivos do mod, o `ContentExtractor` o escreve no seguinte formato em `extracted_contents/<iso>/<modId>.txt`:
-
+Após extrair o texto dos arquivos do mod, o `ContentExtractor` produz a saída no seguinte formato em `extracted_contents/<iso>/<modId>.txt`:
 ```
-<translationKey>::en = "original text",
-<translationKey>::<iso>::unverified = "translated text",
+<translationKey>::en = "texto original",
+<translationKey>::<iso>::unverified = "texto traduzido",
 ```
 
-A primeira linha é a linha do idioma base (texto original em inglês), e a segunda é a linha do idioma-alvo. Se um texto no mod estiver sem o texto original em inglês (caso extremo), a linha base é omitida, mas a linha do idioma-alvo ainda é escrita.
+A primeira linha é a linha do idioma de base (texto original em inglês), a segunda linha é a linha do idioma alvo. Se um texto no mod não tiver o original em inglês (caso extremo), a linha base é omitida, mas a linha alvo ainda é escrita.
 
-#### Arquivo de Mapeamento de Chaves
+#### Arquivo de mapeamento de chaves
 
 `extracted_contents/translation_key_to_file_mapping/<modId>.json`:
-
 ```json
 {
   "IG_UI_SomeKey": "IG_UI.json",
@@ -795,227 +783,221 @@ A primeira linha é a linha do idioma base (texto original em inglês), e a segu
 }
 ```
 
-Este mapeamento registra de qual arquivo fonte cada `translationKey` foi extraída. Na fase de saída final, o `FinalOutputWriter` usa este mapeamento para rotear as chaves de tradução para o arquivo JSON de saída correto.
+Este mapeamento registra de qual arquivo fonte cada `translationKey` veio. Na fase de saída final, o `FinalOutputWriter` usa este mapeamento para rotear as chaves de tradução para os arquivos JSON corretos.
 
-#### Cache de Tradução (data/translations/)
+#### Cache de tradução (data/translations/)
 
-O cache persistente de traduções, armazenado em `data/translations/<iso>/<modId>.txt`, tem o mesmo formato da saída da extração:
-
+O cache de tradução persistente, armazenado em `data/translations/<iso>/<modId>.txt`, com formato consistente com a saída de extração:
 ```
 <translationKey>::en = "source text",
 <translationKey>::<iso>::unverified = "translation",
 ```
 
-O cache é o núcleo da "memória" do pipeline – a cada execução, o `RepoDataLoader` restaura os resultados de tradução existentes a partir daqui.
+O cache é o núcleo da "memória" do pipeline — cada execução, `RepoDataLoader` restaura os resultados de tradução existentes a partir daqui.
 
-#### Saída Final (final_outputs/)
+#### Saída final (final_outputs/)
 
-Arquivos de tradução prontos para uso pelos jogadores, no formato JSON:
-
+Arquivos de tradução prontos para uso pelos jogadores, gerados no formato JSON:
 ```json
 {
-  "IG_UI_SomeKey": "Texto traduzido",
-  "ContextMenu_SomeKey": "Texto traduzido"
+  "IG_UI_SomeKey": "翻译文本",
+  "ContextMenu_SomeKey": "翻译文本"
 }
 ```
 
-Codificação UTF-8 sem BOM, indentação de 2 espaços, conforme as especificações dos arquivos de tradução do Project Zomboid.
+Usando codificação UTF-8 sem BOM, indentação de 2 espaços, conforme as especificações dos arquivos de tradução do Project Zomboid.
 
-#### Vetores de Embedding (data/embeddings/*.bin)
+#### Vetores de incorporação (data/embeddings/*.bin)
 
-Formato binário compactado com Zstd, serializado pelo `BinaryEmbeddingSerializer`. A estrutura do arquivo é:
+Formato binário comprimido com Zstd, serializado por `BinaryEmbeddingSerializer`. A estrutura do arquivo é a seguinte:
+- **Header**: número de entradas (int32)
+- **Cada registro**: comprimento da chave (varint) + string da chave (UTF-8) + hash SHA256 (32 bytes) + dados do vetor (384 × float32)
 
-- **Cabeçalho**: Número de entradas (int32)
-- **Cada Registro**: Comprimento da chave (varint) + string da chave (UTF-8) + hash SHA256 (32 bytes) + dados do vetor (384 × float32)
+A compressão Zstd pode fornecer uma taxa de compressão de aproximadamente 4:1 para vetores de 384 dimensões, reduzindo significativamente o uso de disco.
 
-A compactação Zstd oferece uma taxa de compressão de cerca de 4:1 para vetores de 384 dimensões, reduzindo significativamente o uso de espaço em disco.
-
-### 4.3 Convenções de Chave de Índice
+### 4.3 Convenções de chave de índice
 
 | Cenário | Formato | Exemplo |
-|---------|---------|---------|
-| Chave única global da TranslationEntry | `modId::translationKey` | `1234567890::IG_UI_NewGame` |
-| Chave de Embedding | `base:targetLang` | `en:zh-hans` |
-| Chave de Contexto RAG | `modId::translationKey` | Mesmo que TranslationEntry |
+|------|------|------|
+| Chave única global do TranslationEntry | `modId::translationKey` | `1234567890::IG_UI_NewGame` |
+| EmbeddingKey | `base:targetLang` | `en:zh-hans` |
+| Chave de contexto RAG | `modId::translationKey` | Mesmo que TranslationEntry |
 
-### 4.4 Máquinas de Estado
+### 4.4 Máquina de estados
 
-O pipeline possui três fluxos de transição de estado importantes, que controlam a revisão de conteúdo, a qualidade da tradução e a atualização dos mods.
+O pipeline possui três conjuntos importantes de lógica de transição de estado, controlando respectivamente a revisão de conteúdo, a qualidade da tradução e a atualização de mods.
 
-#### Status da Revisão de Conteúdo (ContentCheck)
+#### Estado de verificação de conteúdo (ContentCheck)
 
-O fluxo completo do status da revisão de conteúdo é o seguinte:
-
+A transição completa do estado de verificação de conteúdo é a seguinte:
 ```
-UNKNOWN ──(mod novo, primeira verificação)──→ NEEDVERIFICATION
-                                  ├──(Revisão LLM: seguro)──→ ACCEPTED
-                                  ├──(Revisão LLM: violação)──→ REJECTED
-                                  └──(Revisão LLM: incerto, confiança<0.7)──→ NEEDVERIFICATION (aguardando revisão manual)
+UNKNOWN ──(novo mod primeira verificação)──→ NEEDVERIFICATION
+├──(Revisão LLM: Seguro)──→ ACCEPTED
+├──(Revisão LLM: Violação)──→ REJECTED
+└──(Revisão LLM: Incerteza, confiança<0.7)──→ NEEDVERIFICATION (Aguardando revisão manual)
 
-ACCEPTED ──(após 90 dias de cache)──→ NEEDVERIFICATION (revisão periódica)
+ACCEPTED ──(Excedeu 90 dias de cache)──→ NEEDVERIFICATION (Revisão periódica)
 ```
 
-- **UNKNOWN**: Mod recém-descoberto, ainda não revisado.
-- **NEEDVERIFICATION**: Precisa ser revisado (ou re-revisado). O pipeline chama o LLM para escanear o conteúdo do mod.
-- **ACCEPTED**: Aprovado na revisão. O conteúdo do mod é seguro e pode ser traduzido normalmente.
-- **REJECTED**: Reprovado na revisão. O mod contém conteúdo impróprio e a tradução é ignorada.
+- **UNKNOWN**: Mod recém-descoberto, ainda não passou por revisão de conteúdo.
+- **NEEDVERIFICATION**: Precisa de revisão (ou re-revisão). O pipeline chamará o LLM para escanear a segurança do conteúdo do mod.
+- **ACCEPTED**: Revisão aprovada, o conteúdo do mod é seguro, pode ser traduzido normalmente.
+- **REJECTED**: Revisão reprovada, o mod contém conteúdo violador, ignora a tradução.
 
-#### Status de Verificação da Tradução (TranslationData)
+#### Estado de Verificação de Tradução TranslationData
 
-A confiabilidade de cada dado de tradução é diferenciada pelo campo `isVerified`:
+A confiabilidade de cada dado de tradução é distinguida pela marcação `isVerified`:
 
-| Status | `isVerified` | Significado |
-|--------|--------------|-------------|
-| Verificado (Tradução Manual) | `true` | Vem de um mod de referência, traduzido e confirmado por humanos. |
-| Não Verificado (Tradução por IA) | `false` | Gerada pelo LLM, marcada como `unverified`, aguardando verificação manual. |
-| Pendente | Sem texto | Ainda não traduzida, `translationValues` não contém a tradução correspondente. |
+| Estado | `isVerified` | Significado |
+|------|-------------|------|
+| Verificado (tradução manual) | `true` | Vem de mods de referência, traduzido e confirmado manualmente |
+| Não verificado (tradução AI) | `false` | Traduzido automaticamente pelo LLM, marcado como `unverified`, sem verificação manual |
+| A traduzir | Sem texto | Ainda não traduzido, nenhuma tradução correspondente em `translationValues` |
 
-#### Determinação de `needsUpdate` em `ModInfo`
+#### Determinação de atualização ModInfo.needsUpdate
 
-Se um mod precisa ser reextraído e retraduzido é determinado pelas seguintes regras:
-
-- O `time_updated` da Steam é mais recente que o `timeModUpdated` em cache → `needsUpdate = true` (o autor lançou uma atualização).
-- O mod é acessível, mas não há nenhuma entrada de tradução em cache → `needsUpdate = true` (primeira vez que o mod é processado).
-- Após a extração, o mod contém 0 entradas de tradução → o status de revisão de conteúdo é definido diretamente como `ACCEPTED` (o mod não possui texto traduzível).
+Se o mod precisa ser reextraído e retraduzido é determinado pelas seguintes regras:
+- O `time_updated` do Steam é posterior ao `timeModUpdated` em cache → `needsUpdate = true` (o autor do mod publicou uma atualização).
+- Mod acessível sem nenhuma entrada de tradução no cache → `needsUpdate = true` (primeiro processamento do mod).
+- Mod com 0 entradas de tradução após extração → estado de revisão de conteúdo definido diretamente como `ACCEPTED` (o mod não possui conteúdo de texto traduzível, nenhuma tradução necessária).
 
 ---
 
-## 5. Guia de Configuração
+## 5. Instruções de Configuração
 
-O diretório `config/` contém 5 arquivos de configuração, divididos por responsabilidade: controle do pipeline, gerenciamento de chaves, definição de idiomas, corpus de referência e solicitações de tradução.
+Existem 5 arquivos de configuração no diretório `config/`, divididos por responsabilidade em controle de pipeline, gerenciamento de chaves, definição de idioma, corpus de referência e solicitações de tradução.
 
 ### 5.1 `config/config.json` — Configuração Principal do Pipeline
 
-O arquivo de controle central de todo o pipeline. Todos os campos são obrigatórios, a menos que indicado como "opcional".
+O arquivo de controle central de todo o pipeline de tradução. Todos os campos são obrigatórios, a menos que marcados como 'opcional'.
 
-#### 5.1.1 `LLM` — Configuração do Modelo de Linguagem
+#### 5.1.1 `LLM` — Configuração do Modelo de Linguagem Grande
 
-| Campo | Tipo | Valor Padrão | Descrição |
-|-------|------|--------------|-----------|
-| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | URL da API do LLM, compatível com o protocolo OpenAI Chat Completions. |
-| `model` | string | `deepseek-v4-flash` | Nome do modelo. Se contiver `v4-flash` ou `v4-pro`, ativa o perfil de concorrência automático correspondente. |
-| `temperature` | float | `0.1` | Temperatura de amostragem (0~2). Quanto menor, mais determinística a saída; para tradução, recomenda-se ≤0.3. |
-| `max_tokens` | int | `380000` | Número máximo de tokens na resposta da API por chamada. Deve ser maior que a saída total do lote. |
-| `batch_size` | int | `30` | Número máximo de entradas por lote de tradução. Sujeito à restrição conjunta com `batch_token_budget`. |
-| `batch_token_budget` | int | `2000` | Orçamento máximo de tokens na entrada por lote (estimativa aproximada). 0 significa sem limite. |
-| `request_timeout_seconds` | int | `300` | Tempo limite da requisição HTTP em segundos. Deve ser aumentado para lotes grandes. |
+| 字段 | 类型 | 默认值 | Descrição |
+|------|------|--------|------|
+| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Endereço da API LLM, compatível com o protocolo OpenAI Chat Completions |
+| `model` | string | `deepseek-v4-flash` | Nome do modelo. Valores contendo `v4-flash` ou `v4-pro` acionam o perfil de concorrência automática correspondente |
+| `temperature` | float | `0.1` | Temperatura de amostragem (0~2). Quanto menor, mais determinística a saída. Para tarefas de tradução, recomenda-se ≤0.3 |
+| `max_tokens` | int | `380000` | Número máximo de tokens por resposta da API. Deve ser maior que o total de saída do lote |
+| `batch_size` | int | `30` | Número máximo de entradas por lote de tradução. Restrito em conjunto com `batch_token_budget` |
+| `batch_token_budget` | int | `2000` | Orçamento máximo de tokens para a entrada de cada lote (estimativa aproximada). 0 significa sem limite |
+| `request_timeout_seconds` | int | `300` | Tempo limite (segundos) para cada requisição HTTP. Aumentar para lotes grandes |
 
-**`concurrency` — Controle de Concorrência** (subobjeto):
+**`concurrency` — Controle de concorrência** (subobjeto):
 
-| Campo | Tipo | Valor Padrão | Descrição |
-|-------|------|--------------|-----------|
-| `initial` | int | `0` | Nível de concorrência inicial. `0` = detecção automática com base no ambiente e modelo. |
-| `maximum` | int | `0` | Limite máximo de concorrência. `0` = detecção automática. Em modo dinâmico, a concorrência aumenta gradualmente até este valor. |
-| `minimum` | int | `1` | Limite mínimo de concorrência. Em modo dinâmico, a concorrência não diminui abaixo deste valor. |
-| `max_retries` | int | `5` | Número máximo de tentativas para um único work item. |
-| `failure_streak_to_decrease` | int | `3` | Número de falhas consecutivas para acionar a redução da concorrência. |
-| `retry_base_delay_ms` | int | `1000` | Atraso base para tentativas (ms). O atraso real é base × 2^attempt (backoff exponencial). |
-| `retry_max_delay_ms` | int | `60000` | Atraso máximo para tentativas (ms). |
-| `fixed_concurrency` | int | `128` | **Se > 0, ativa o modo de janela fixa**: concorrência dentro da janela, janelas executadas em série; sem ajustes dinâmicos. Se 0, usa o modo dinâmico. |
+| 字段 | 类型 | 默认值 | Descrição |
+|------|------|--------|------|
+| `initial` | int | `0` | Concorrência inicial. `0` = detecção automática com base no ambiente de execução e modelo |
+| `maximum` | int | `0` | Limite máximo de concorrência. `0` = detecção automática. No modo dinâmico, quando a sequência de sucesso atinge o valor estipulado, aumenta gradualmente até este valor |
+| `minimum` | int | `1` | Limite mínimo de concorrência. No modo dinâmico, a redução por falhas nunca fica abaixo deste valor |
+| `max_retries` | int | `5` | Número máximo de tentativas para um único work item |
+| `failure_streak_to_decrease` | int | `3` | Após N falhas consecutivas, aciona a redução (concorrência é reduzida à metade) |
+| `retry_base_delay_ms` | int | `1000` | Atraso base da retentativa (ms). Atraso real = base × 2^attempt (backoff exponencial) |
+| `retry_max_delay_ms` | int | `60000` | Atraso máximo da retentativa (ms) |
+| `fixed_concurrency` | int | `128` | **>0 ativa o modo de janela fixa**: concorrência dentro da janela, serial entre janelas. Não usa ajuste dinâmico. Defina 0 para modo dinâmico |
 
-**Descrição dos Modos de Concorrência**:
+**Descrição dos modos de concorrência**:
+- **Modo dinâmico** (`fixed_concurrency=0`): Aumenta/diminui automaticamente a concorrência com base em sucessos/falhas. Adequado para cenários onde a política de rate limit da API não é transparente
+- **Modo de janela fixa** (`fixed_concurrency>0`): Comportamento de concorrência determinístico. Adequado para cenários onde o limite de concorrência da API é conhecido. Há logs de conclusão entre janelas
 
-- **Modo Dinâmico** (`fixed_concurrency=0`): Ajusta a concorrência automaticamente com base em sucessos e falhas. Indicado quando a política de limite de taxa da API não é transparente.
-- **Modo de Janela Fixa** (`fixed_concurrency>0`): Comportamento determinístico de concorrência. Indicado quando o limite superior de concorrência da API é conhecido. Há logs de conclusão entre as janelas.
-
-**Perfil Automático** (quando `initial=0` ou `maximum=0`): O pipeline seleciona automaticamente os parâmetros de concorrência com base no ambiente e no nome do modelo. As regras detalhadas estão na [Seção 3.11 — Detecção Automática de Perfil de Concorrência](#311-llmtranslator-llmtranslatorservice).
+**Perfil automático** (quando `initial=0` ou `maximum=0`): O pipeline seleciona automaticamente parâmetros de concorrência adequados com base no ambiente de execução e no nome do modelo. Consulte [Seção 3.11 — Detecção automática de perfil de concorrência](#311-llmtranslator-llmtranslatorservice) para regras específicas.
 
 #### 5.1.2 `RAG` — Configuração de Geração Aumentada por Recuperação
 
-| Campo | Tipo | Valor Padrão | Descrição |
-|-------|------|--------------|-----------|
-| `similarity_threshold` | float | `0.8` | Limiar de similaridade por cosseno (0~1). Referências com similaridade abaixo deste valor não são incluídas no contexto do LLM. |
-| `top_k` | int | `3` | Número máximo de referências retornadas por entrada. |
-| `index_dir` | string | `data/rag_index` | Diretório do índice RAG (reservado; atualmente usa busca em memória). |
+| 字段 | 类型 | 默认值 | Descrição |
+|------|------|--------|------|
+| `similarity_threshold` | float | `0.8` | Limiar de similaridade de cosseno (0~1). Traduções de referência abaixo deste valor não serão incluídas no contexto LLM |
+| `top_k` | int | `3` | Número máximo de traduções de referência retornadas por entrada a ser traduzida |
+| `index_dir` | string | `data/rag_index` | Diretório do índice RAG (reservado; atualmente usa busca em memória) |
 
-#### 5.1.3 `AsOne` — Fonte de Lista de Mods Remota
+#### 5.1.3 `AsOne` — Fonte de lista de Mods remota
 
-Obtém a lista pública de mods da plataforma da comunidade [AsOne](https://www.asone.fun/).
+A partir da plataforma comunitária [AsOne](https://www.asone.fun/) obtém a lista pública de Mods.
 
-| Campo | Tipo | Valor Padrão | Descrição |
-|-------|------|--------------|-----------|
-| `enabled` | bool | `true` | Se a coleta remota do AsOne está ativada. Se `false`, usa apenas o arquivo de solicitação local. |
-| `base_url` | string | `https://www.asone.fun/` | URL base da plataforma AsOne. |
-| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | Caminho da API para obter todos os mods. |
-| `mod_info_file_name` | string | `modInfo.txt` | Nome do arquivo de informações do mod (reservado). |
-| `auth_secret_name` | string | `ASONE_AUTH_TOKEN` | Nome da chave do token de autenticação no `secrets.json`. |
-| `timeout_seconds` | int | `30` | Tempo limite da requisição HTTP em segundos. |
-| `rate_limit_per_minute` | int | `30` | Número máximo de requisições por minuto (proteção contra limitação de taxa). |
+| 字段 | 类型 | 默认值 | Descrição |
+|------|------|--------|------|
+| `enabled` | bool | `true` | Se ativa a coleta remota do AsOne. `false` usa apenas o arquivo de solicitação local |
+| `base_url` | string | `https://www.asone.fun/` | URL base da plataforma AsOne |
+| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | Caminho da API para obter todas as informações dos Mods |
+| `mod_info_file_name` | string | `modInfo.txt` | Nome do arquivo de informações do mod (reservado) |
+| `auth_secret_name` | string | `ASONE_AUTH_TOKEN` | Nome da chave do token de autenticação em secrets.json |
+| `timeout_seconds` | int | `30` | Tempo limite da solicitação HTTP em segundos |
+| `rate_limit_per_minute` | int | `30` | Número máximo de solicitações por minuto (proteção de limite de taxa) |
 
-#### 5.1.4 `Steam` — Configuração da Steam Web API
+#### 5.1.4 `Steam` — configuração da API Web do Steam
 
-| Campo | Tipo | Valor Padrão | Descrição |
-|-------|------|--------------|-----------|
-| `api_chunk_size` | int | `100` | Número de IDs de mods por lote de consulta. O limite da API Steam é de cerca de 100 por chamada. |
-| `request_timeout_seconds` | int | `10` | Tempo limite da requisição à API Steam em segundos. |
-| `max_retries` | int | `3` | Número de tentativas em caso de falha na requisição à API Steam. |
+| 字段 | 类型 | 默认值 | Descrição |
+|------|------|--------|------|
+| `api_chunk_size` | int | `100` | Número de IDs de mod por lote. A API do Steam limita a cerca de 100 por vez. |
+| `request_timeout_seconds` | int | `10` | Tempo limite de uma única solicitação da API Steam em segundos |
+| `max_retries` | int | `3` | Número de tentativas de nova solicitação da API Steam |
 
-#### 5.1.5 `Pipeline` — Configuração Geral do Pipeline
+#### 5.1.5 `Pipeline` — Configuração geral do pipeline
 
-| Campo | Tipo | Valor Padrão | Descrição |
-|-------|------|--------------|-----------|
-| `batch_size` | int | `20` | Tamanho do lote nas fases de download/extração. Cada lote corresponde a uma instância do steamcmd e uma tarefa de extração. |
+| 字段 | 类型 | 默认值 | Descrição |
+|------|------|--------|------|
+| `batch_size` | int | `20` | Tamanho do lote nas fases de download/extração. Cada lote corresponde a uma instância steamcmd e uma tarefa de extração. |
 
-#### 5.1.6 `ContentCheck` — Configuração de Revisão de Segurança de Conteúdo
+#### 5.1.6 `ContentCheck` — Configuração de revisão de segurança de conteúdo
 
-| Campo | Tipo | Valor Padrão | Descrição |
-|-------|------|--------------|-----------|
-| `enabled` | bool | `true` | Se a revisão de conteúdo está ativada. Se `false`, a revisão é ignorada e todos os mods são considerados aprovados. |
-| `check_interval_days` | int | `90` | Número de dias em que o resultado da revisão é armazenado em cache. Após esse período, a revisão é refeita. Mods com status `ACCEPTED` retornam para `NEEDVERIFICATION` ao expirar. |
+| 字段 | 类型 | 默认值 | Descrição |
+|------|------|--------|------|
+| `enabled` | bool | `true` | Se deve ativar a revisão de conteúdo. Quando `false`, pula todas as revisões e todos os mods são considerados aprovados. |
+| `check_interval_days` | int | `90` | Dias de cache do resultado da revisão. Após esse período, reavaliar. Mods com status `ACCEPTED` expiram e entram em `NEEDVERIFICATION`. |
 
-#### 5.1.7 `Settings` — Configurações Básicas do Pipeline
+#### 5.1.7 `Settings` — Configurações básicas do pipeline
 
-| Campo | Tipo | Valor Padrão | Descrição |
-|-------|------|--------------|-----------|
-| `priority_language` | string | `zh-hans` | Código ISO do idioma-alvo prioritário para tradução. |
-| `base_language` | string | `EN` | Código do idioma base no jogo, usado como língua fonte da tradução. |
+| 字段 | 类型 | 默认值 | Descrição |
+|------|------|--------|------|
+| `priority_language` | string | `zh-hans` | Código ISO do idioma alvo prioritário para tradução |
+| `base_language` | string | `EN` | Código no jogo do idioma base, usado como idioma de origem da tradução |
 
-#### 5.1.8 `Embedding` — Configuração do Serviço de Embedding
+#### 5.1.8 `Embedding` — Configuração do serviço de embeddings
 
-| Campo | Tipo | Valor Padrão | Descrição |
-|-------|------|--------------|-----------|
-| `host` | string | `127.0.0.1` | Endereço do servidor de embedding (pode ser sobrescrito por `secrets.json` ou variável de ambiente `EMBEDDING_HOST`). |
-| `port` | int | `8000` | Porta do servidor de embedding (pode ser sobrescrita por `secrets.json` ou variável de ambiente `EMBEDDING_PORT`). |
+| 字段 | 类型 | 默认值 | Descrição |
+|------|------|--------|------|
+| `host` | string | `127.0.0.1` | Endereço do host do serviço de embeddings (pode ser substituído por `secrets.json` ou variável de ambiente `EMBEDDING_HOST`) |
+| `port` | int | `8000` | Número da porta do serviço de embeddings (pode ser substituído por `secrets.json` ou variável de ambiente `EMBEDDING_PORT`) |
 
-> **Nota**: As configurações `Embedding.host` e `Embedding.port` em `config.json` são valores padrão, com prioridade menor que as definidas em `secrets.json` e variáveis de ambiente. A chave `EMBEDDING_KEY` existe apenas em `secrets.json`.
+> **Nota**: `Embedding.host`/`Embedding.port` em `config.json` são valores padrão, com prioridade inferior a `secrets.json` e variáveis de ambiente. A chave `EMBEDDING_KEY` existe apenas em `secrets.json`.
 
-#### 5.1.9 `Workflow` — Configuração do Fluxo de Trabalho
+#### 5.1.9 `Workflow` — Configuração do fluxo de trabalho
 
-| Campo | Tipo | Valor Padrão | Descrição |
-|-------|------|--------------|-----------|
-| `max_jobs` | int | `16` | Número máximo de tarefas paralelas, usado para controlar o uso geral de recursos do pipeline. |
+| 字段 | 类型 | 默认值 | Descrição |
+|------|------|--------|------|
+| `max_jobs` | int | `16` | Número máximo de tarefas paralelas para controlar a utilização geral de recursos do pipeline |
 
-### 5.2 `config/secrets.json` — Configuração de Chaves
+### 5.2 `config/secrets.json` — 密钥配置
 
-> **⚠️ Este arquivo contém informações sensíveis. Foi adicionado ao `.gitignore` e não deve ser commitado no controle de versão.**
+> **⚠️ 此文件包含敏感信息，已加入 `.gitignore`，严禁提交到版本控制。**
 
-Antes de usar, copie `secrets_example.json` para `secrets.json` e preencha com os valores reais.
+Antes de usar, copie `secrets_example.json` para `secrets.json` e preencha os valores reais.
 
 | Campo | Tipo | Descrição |
-|-------|------|-----------|
-| `LLM_KEY` | string | Chave de autenticação da API do LLM. Validada pelo `ConfigReader`; se vazia, o pipeline é interrompido. |
-| `STEAM_KEY` | string | Chave da Steam Web API. Usada para chamar interfaces como `ISteamRemoteStorage/GetPublishedFileDetails`. Obtenha em: [Portal do Desenvolvedor Steam](https://steamcommunity.com/dev/apikey) |
-| `EMBEDDING_HOST` | string | Endereço do servidor de embedding (IP ou domínio, sem a porta). A porta é especificada separadamente em `EMBEDDING_PORT`. |
-| `EMBEDDING_PORT` | string | Porta do servidor de embedding. |
-| `EMBEDDING_KEY` | string | Chave pré-compartilhada para criptografia AES-256 do serviço de embedding. É transformada via SHA256 para ser usada como chave AES-GCM. |
+|------|------|------|
+| `LLM_KEY` | string | Chave de autenticação da API LLM. Validada pelo `ConfigReader` como não vazia; se vazia, o pipeline é encerrado |
+| `STEAM_KEY` | string | Chave da API Web Steam. Usada para chamar interfaces como `ISteamRemoteStorage/GetPublishedFileDetails`. Obtenção: [Portal do Desenvolvedor Steam](https://steamcommunity.com/dev/apikey) |
+| `EMBEDDING_HOST` | string | Endereço do host do serviço de embedding (IP ou domínio, sem porta). A porta é especificada separadamente por `EMBEDDING_PORT` |
+| `EMBEDDING_PORT` | string | Número da porta do serviço de embedding |
+| `EMBEDDING_KEY` | string | Chave pré-compartilhada de criptografia AES-256 do serviço de embedding. Usada como chave AES-GCM após hash SHA256 |
 
-**Lógica de Validação**: Após o carregamento, o `ConfigReader.LoadConfig()` verifica se `LLM_KEY` está vazio. Se estiver, uma exceção é lançada, capturada por `Program.cs`, que chama `Environment.Exit(1)`.
+**Lógica de validação de chave**: `ConfigReader.LoadConfig()` verifica se `LLM_KEY` está vazia após o carregamento → se vazia, lança exceção → `Program.cs` captura e executa `Environment.Exit(1)`.
 
-### 5.3 `config/supported_languages.json` — Lista de Idiomas Suportados
+### 5.3 `config/supported_languages.json` — Lista de idiomas suportados
 
-Define todos os idiomas-alvo suportados pelo pipeline. Cada registro corresponde ao tipo `LangInfoData`.
+Define todos os idiomas de destino suportados pelo pipeline. Cada registro corresponde ao tipo `LangInfoData`.
 
 Antes de usar, copie `supported_languages_example.json` para `supported_languages.json`.
 
 | Campo | Tipo | Descrição |
-|-------|------|-----------|
-| `ingame_code` | string | Código do idioma no jogo PZ, correspondente ao nome da pasta em `Translate/`. Ex: `CN`, `JP`, `DE`. |
-| `chinese_name` | string | Nome em Chinês. Usado em relatórios de progresso e logs. |
-| `english_name` | string | Nome em Inglês. Usado em relatórios de progresso. |
-| `native_name` | string | Nome no idioma nativo. Usado em relatórios de progresso. |
-| `iso_code` | string | Código de idioma ISO 639-1 ou BCP 47. Usado em caminhos de arquivo, parâmetros de API e índices internos. Ex: `zh-hans`, `ja`, `de`. |
+|------|------|------|
+| `ingame_code` | string | Código do idioma no jogo PZ, correspondente ao nome da pasta em `Translate/`. Ex: `CN`, `JP`, `DE` |
+| `chinese_name` | string | Nome em chinês. Usado para relatórios de progresso e saída de log |
+| `english_name` | string | Nome em inglês. Usado para relatórios de progresso |
+| `native_name` | string | Nome nativo. Usado para relatórios de progresso |
+| `iso_code` | string | Código de idioma ISO 639-1 ou BCP 47. Usado para caminhos de arquivo, parâmetros de API e índices internos. Ex: `zh-hans`, `ja`, `de` |
 
-**Exemplo**:
+**Exemplo de entrada**:
 ```json
 {
   "ingame_code": "CN",
@@ -1026,70 +1008,70 @@ Antes de usar, copie `supported_languages_example.json` para `supported_language
 }
 ```
 
-**Lista de Idiomas Pré-definidos** (27):
+**Lista de idiomas predefinidos** (27 idiomas):
 `AR` `CA` `CH` `CN` `CS` `DA` `DE` `EN` `ES` `FI` `FR` `HU` `ID` `IT` `JP` `KO` `NL` `NO` `PH` `PL` `PT` `PTBR` `RO` `RU` `TH` `TR` `UA`
 
-**Uso no Pipeline**:
-- **Idioma Base** (`baseLang`): `EN` é o idioma base na lista. O `baseIso` no `ContentExtractor` é mapeado a partir de `config.baseLanguage`.
-- **Idiomas Alvo** (`targetLangs`): Todos os idiomas na lista exceto `EN` são alvos de tradução.
-- **Idiomas de Saída** (`outputLangs`): Todos os idiomas (incluindo `EN`) participam da saída final.
+**Uso no pipeline**:
+**Linguagem base** (`baseLang`): Na lista, `EN` é a base. O `baseIso` em `ContentExtractor` é mapeado por `config.baseLanguage`
+**Línguas alvo** (`targetLangs`): Todas as línguas na lista que não são `EN` são alvos de tradução
+**Línguas de saída** (`outputLangs`): Todas as línguas (incluindo `EN`) participam da saída final
 
-### 5.4 `config/ref_translation_mods.json` — Mods de Tradução de Referência
+### 5.4 `config/ref_translation_mods.json` — Módulos de tradução de referência
 
-Define os mods de tradução existentes e de alta qualidade, usados como corpus de referência para a busca RAG.
+Define módulos de tradução chinesa existentes de alta qualidade como o corpus de referência para recuperação RAG.
 
 | Campo | Tipo | Descrição |
-|-------|------|-----------|
-| `mod_id` | string | ID do mod na Steam Workshop (19 dígitos). |
-| `mod_name` | string | Nome do mod de referência (apenas para logs e relatórios). |
-| `language` | string | Código ISO do idioma-alvo do mod de referência. Ex: `zh-hans`. |
-| `mod_update_time` | string | Data da última atualização do mod registrada pela Steam (timestamp Unix em string). |
-| `last_check_time` | string | Data da última verificação do mod pelo pipeline (ISO 8601). |
+|------|------|------|
+| `mod_id` | string | ID do Mod do Steam Workshop (19 dígitos) |
+| `mod_name` | string | Nome do mod de referência (apenas para exibição em logs e relatórios) |
+| `language` | string | Código ISO do idioma alvo deste mod de referência. Ex: `zh-hans` |
+| `mod_update_time` | string | Última hora de atualização do mod registrada pelo Steam (string de timestamp Unix) |
+| `last_check_time` | string | Hora da última verificação de atualização deste mod pelo pipeline (ISO 8601) |
 
-**Tratamento Especial para Mods de Referência**:
-- **Cache Isolado**: Os dados são armazenados em `translation_ref/` em vez de `data/`, isolados dos dados principais.
-- **Sincronização Prioritária**: Executados antes do loop principal de mods na Fase 2.
-- **Atualização Incremental**: Apenas mods com `mod_update_time > last_check_time` são reextraídos.
-- **isVerified=true**: Todas as entradas de referência têm `TranslationData.isVerified` forçado como `true`.
-- **Exclusão da Tradução**: Entradas de mods de referência não entram na fila de tradução do LLM (já são traduções manuais).
-- **Exclusão da Saída**: O `FinalOutputWriter` filtra entradas de mods de referência, não as escrevendo nos arquivos de distribuição finais.
+**Tratamento especial para mods de referência**:
+- **Cache independente**: Os dados são armazenados em `translation_ref/` em vez de `data/`, isolados dos dados de tradução principal
+- **Sincronização prioritária**: Na Fase 2, o download/extração/embedding é executado antes do loop principal de mods
+- **Atualização incremental**: A reextração é executada apenas para mods onde `mod_update_time > last_check_time`
+- **isVerified=true**: O campo `TranslationData.isVerified` de todas as entradas de tradução de referência é forçado para `true`
+- **Exclusão de tradução**: As entradas de mods de referência não entram na fila de tradução da LLM (já possuem tradução humana)
+- **Exclusão de saída**: O `FinalOutputWriter` filtra as entradas de mods de referência e não as escreve nos arquivos de distribuição final
 
-### 5.5 `config/request_for_translation.txt` — Solicitações de Tradução Locais
+### 5.5 `config/request_for_translation.txt` — Solicitações de tradução locais
 
-Lista de IDs de mods a serem traduzidos, especificada manualmente.
+Lista de IDs de Mod a serem traduzidos especificada manualmente.
 
 | Regra | Descrição |
-|-------|-----------|
-| Formato | Um ID da Steam Workshop por linha (apenas números). |
-| Comentários | Linhas começando com `#` são ignoradas. |
-| Linhas Vazias | São automaticamente ignoradas. |
-| Remoção de Duplicatas | Na mesclagem com a lista remota do AsOne, IDs já existentes não são adicionados. |
-| Codificação | UTF-8 sem BOM. |
+|------|------|
+| Formato | Um ID de Mod do Steam Workshop por linha (apenas números) |
+| Comentários | Linhas iniciadas com `#` são comentários e serão ignoradas |
+| Linhas em branco | Linhas vazias são ignoradas automaticamente |
+| Deduplicação | Ao mesclar com a lista remota do AsOne, IDs já existentes não são adicionados novamente |
+| Codificação | UTF-8 sem BOM |
 
 **Exemplo**:
 ```
-# Mods populares
+# 热门模组
 2969343830
 3000924731
 
-# Mods de armas
+# Módulo de Armas
 3502286969
 3596827035
 ```
 
 **Lógica de Processamento** (`ModIdCollector`):
-1. Lê todas as linhas do arquivo.
-2. Filtra comentários `#` e linhas em branco.
-3. Remove duplicatas.
-4. Mescla com a lista remota do AsOne (prioridade para a lista remota; IDs já existentes não são sobrescritos).
-5. Para IDs não encontrados na lista remota, cria um `ModInfo` padrão (status `UNKNOWN`).
+1. Ler todas as linhas do ficheiro
+2. Filtrar comentários `#` e linhas em branco
+3. Remover duplicatas
+4. Mesclar com a lista remota AsOne (prioridade remota, não sobrescrever as existentes)
+5. IDs não presentes na lista remota criam um `ModInfo` padrão (estado `UNKNOWN`)
 
-### 5.6 Fluxo de Carregamento da Configuração
+### 5.6 Fluxo de Carregamento de Configuração
 
 ```
 ConfigReader.LoadConfig(baseDir)
-  ├── Inicializa todos os diretórios temporários
-  ├── Interpreta config/config.json → PipelineConfig
+├── Inicializar todos os diretórios temporários
+├── Analisar config/config.json → PipelineConfig
   │     ├── Settings: priorityLanguage, baseLanguage
   │     ├── LLM: endpoint, model, concurrency...
   │     ├── Embedding: host, port
@@ -1099,20 +1081,20 @@ ConfigReader.LoadConfig(baseDir)
   │     ├── Workflow: max_jobs
   │     ├── Pipeline: batch_size
   │     └── ContentCheck: enabled, check_interval_days
-  ├── Interpreta config/secrets.json → PipelineConfig
-  │     ├── LLM_KEY → llmKey (obrigatório, se vazio lança exceção)
-  │     ├── STEAM_KEY → steamApiKey (obrigatório, se vazio lança exceção)
-  │     ├── EMBEDDING_KEY → embeddingKey (obrigatório, se vazio lança exceção)
+├── Analisar config/secrets.json → PipelineConfig
+│     ├── LLM_KEY → llmKey (obrigatório, lança exceção se vazio)
+│     ├── STEAM_KEY → steamApiKey (obrigatório, lança exceção se vazio)
+│     ├── EMBEDDING_KEY → embeddingKey (obrigatório, lança exceção se vazio)
   │     └── EMBEDDING_HOST + EMBEDDING_PORT → embeddingHost/Port
-  ├── Interpreta config/supported_languages.json → supportedLanguages
-  └── Interpreta config/ref_translation_mods.json → referenceTranslationMods
+├── Analisar config/supported_languages.json → supportedLanguages
+└── Analisar config/ref_translation_mods.json → referenceTranslationMods
 ```
 
-**Estratégia de Falha**: Se qualquer validação obrigatória falhar → exceção lançada → `Program.cs` emite `GitHubActions.Error()` → `Environment.Exit(1)`.
+Estratégia de falha: qualquer verificação obrigatória falha → lançar exceção → `Program.cs` output `GitHubActions.Error()` → `Environment.Exit(1)`.
 
 ---
 
-## 6. Estrutura de Diretórios
+## 6. Estrutura do Diretório
 
 ```
 project_babel/
@@ -1122,47 +1104,47 @@ project_babel/
 │   └── ...
 ├── config/
 │   ├── config.json              # Configuração do pipeline
-│   ├── secrets.json             # Chaves de API (gitignore)
+│   ├── secrets.json             # Chaves da API (gitignore)
 │   ├── supported_languages.json # Lista de idiomas suportados
 │   ├── ref_translation_mods.json# Mods de tradução de referência
 │   └── request_for_translation.txt # Lista de solicitações locais
 ├── data/                        # Cache persistente
-│   ├── modinfos.json            # Cache de metadados dos mods
+│   ├── modinfos.json            # Cache de metadados de mod
 │   ├── translations/            # Cache de traduções (<iso>/<modId>.txt)
-│   ├── embeddings/              # Vetores de embedding (<modId>.bin)
+│   ├── embeddings/              # Vetores de incorporação (<modId>.bin)
 │   └── entry_metadata/          # Metadados de entrada (<bucket>/<modId>.json)
 ├── translation_ref/             # Dados de tradução de referência (estrutura igual a data/)
-├── final_outputs/project_babel/ # Saída final para distribuição
+├── final_outputs/project_babel/ # Saída de distribuição final
 │   └── contents/mods/project_babel/
 │       ├── 42/media/lua/shared/Translate/<gameCode>/*.json
 │       └── 42.19/media/lua/shared/Translate/<gameCode>/*.json
-├── src/                         # Código fonte
-│   ├── Program.cs               # Ponto de entrada + PipelineRunner
-│   ├── Common/                  # Tipos compartilhados + Utilitários
-│   ├── ConfigReader/            # Carregamento de configuração
-│   ├── ContentChecker/          # Revisão de segurança de conteúdo
-│   ├── ContentExtractor/        # Extração de texto
-│   ├── EmbeddingFetcher/        # Vetores de embedding
-│   ├── FinalOutputWriter/       # Saída final
-│   ├── LLMTranslator/           # Tradução por LLM
+├── src/                         # 源代码
+│   ├── Program.cs               # 管线入口 + PipelineRunner
+│   ├── Common/                  # 共享类型 + 工具类
+│   ├── ConfigReader/            # Carregamento de Configuração
+│   ├── ContentChecker/          # Verificação de Segurança de Conteúdo
+│   ├── ContentExtractor/        # Extração de Texto
+│   ├── EmbeddingFetcher/        # Vetores de Embedding
+│   ├── FinalOutputWriter/       # Saída Final
+│   ├── LLMTranslator/           # Tradução LLM
 │   ├── ModDownloader/           # Download via steamcmd
-│   ├── ModIdCollector/          # Coleta de IDs de mods
-│   ├── ModInfoFetcher/          # Metadados da Steam
-│   ├── ProgressReporter/        # Relatórios de progresso
-│   ├── RagContextRetriever/     # Busca RAG
-│   ├── RepoDataLoader/          # Carregamento de cache
-│   ├── ResultWriter/            # Escrita de resultados
-│   ├── TranslationBatcher/      # Agrupamento em lotes
-│   ├── prompt_templates/        # Templates de Prompt para o LLM
+│   ├── ModIdCollector/          # Coleta de IDs de Mod
+│   ├── ModInfoFetcher/          # Metadados Steam
+│   ├── ProgressReporter/        # Relatório de Progresso
+│   ├── RagContextRetriever/     # Recuperação RAG
+│   ├── RepoDataLoader/          # Carregamento de Cache
+│   ├── ResultWriter/            # Escrita de Resultados
+│   ├── TranslationBatcher/      # Empacotamento de Lotes
+│   ├── prompt_templates/        # Modelos de Prompt LLM
 │   └── 3rd_party/steamcmd/      # Ferramenta steamcmd
-├── temp/                        # Diretório temporário por execução (run_*)
+├── temp/                        # Diretório temporário de execução (a cada run_*)
 ├── docs/                        # Documentação
-└── log/                         # Logs de execução
+└── log/                         # Log de execução
 ```
 
 ---
 
-## 7. Modos de Execução
+## 7. Modo de Execução
 
 ### Execução Local (Windows x64)
 
@@ -1171,44 +1153,43 @@ cd src
 dotnet run
 ```
 
-Na execução local, o pipeline usa os arquivos de configuração no diretório `config/`. Antes de usar pela primeira vez, certifique-se de que `secrets.json` está configurado corretamente (consulte `secrets_example.json`).
+Ao executar localmente, o pipeline usa os arquivos de configuração no diretório `config/`. Antes do primeiro uso, certifique-se de que `secrets.json` foi configurado corretamente (consulte `secrets_example.json`).
 
-### Execução em CI (GitHub Actions, Linux x64)
+### Execução CI (GitHub Actions, Linux x64)
 
 ```yaml
 - name: Run Translation Pipeline
   run: dotnet run --project src/TranslationPipeline.csproj
 ```
 
-Quando executado no ambiente GitHub Actions, o pipeline detecta automaticamente o CI e ajusta seu comportamento:
+Ao executar no ambiente GitHub Actions, o pipeline detecta automaticamente o ambiente CI e ajusta o comportamento:
+- `GITHUB_ACTIONS=true`: reduz automaticamente o limite de concorrência (inicial 4, máximo 32) para se adaptar aos recursos limitados do executor CI.
+- `RUNNER_OS=Linux`: adapta o gerenciamento de caminhos e processos do Linux.
 
-- `GITHUB_ACTIONS=true`: Reduz automaticamente o limite de concorrência (inicial 4, máximo 32) para se adequar aos recursos limitados do runner do CI.
-- `RUNNER_OS=Linux`: Adapta-se a caminhos Linux e ao gerenciamento de processos.
+### Julgamento de resultados de execução
 
-### Interpretação dos Resultados da Execução
-
-| Resultado | Comportamento | Significado |
-|-----------|---------------|-------------|
-| Sucesso | Saída "Pipeline complete.", código de saída 0 | Todas as etapas foram concluídas normalmente. |
-| Erro Fatal | Saída "GitHubActions.Error()", código de saída 1 | Erro irrecuperável, como configuração ausente ou API indisponível. |
-| Aviso | Saída "GitHubActions.Warning()", escrito em `temp/run_*/warnings/` | Algumas etapas não críticas falharam, mas o pipeline pode continuar. |
+| Resultado | Apresentação | Significado |
+|------|------|------|
+| Sucesso | Saída `Pipeline complete.`, código de saída 0 | Todas as etapas concluídas normalmente |
+| Erro fatal | Saída `GitHubActions.Error()`, código de saída 1 | Erros irrecuperáveis, como configuração ausente, API indisponível, etc. |
+| Aviso | Saída `GitHubActions.Warning()`, gravado em `temp/run_*/warnings/` | Algumas etapas não críticas falharam, mas o pipeline pode continuar |
 
 ---
 
-## 8. Decisões de Design Críticas
+## 8. Decisões de design importantes
 
-Durante o design do Project Babel, tomamos algumas decisões técnicas importantes. A tabela abaixo documenta cada decisão e as razões por trás delas, ajudando a entender por que o pipeline é como é.
+Durante o design do Project Babel, tomamos algumas decisões técnicas importantes. A tabela abaixo registra cada decisão e seu motivo, ajudando a entender por que o pipeline é como é.
 
-| Decisão | Razão Detalhada |
-|---------|-----------------|
-| **JSON sobrescreve TXT** | O Project Zomboid começou a introduzir arquivos de tradução em formato JSON a partir da Build 42, como seu novo formato padrão. Quando a mesma chave de tradução existe em arquivos TXT e JSON, o pipeline prioriza a versão JSON – pois representa um formato de conteúdo mais recente e é mais confiável para interpretação. Se o PZ descontinuar completamente o formato TXT no futuro, basta remover a lógica de interpretação TXT. |
-| **Tradução de referência independente do loop principal** | A frequência de atualização dos mods de tradução de referência (traduções manuais) e dos mods comuns a serem traduzidos é drasticamente diferente – os primeiros são estáveis e mudam raramente, enquanto os segundos são atualizados com frequência. Processá-los no mesmo loop faria com que cada pequena atualização nos mods de referência acionasse um recálculo completo, desperdiçando recursos. Separando-os, a tradução de referência segue seu próprio caminho de atualização incremental, e o loop principal não é afetado. |
-| **Cálculo de embedding como serviço remoto** | Embora o modelo `bge-small-en-v1.5` tenha apenas cerca de 130MB, carregá-lo na memória para execução consome muito mais recursos que seu tamanho em disco. No ambiente do GitHub Actions com limite de memória de 7GB, executar o modelo de embedding e as tarefas de tradução simultaneamente facilmente leva a um erro de falta de memória (OOM). Mover o cálculo de embedding para um serviço remoto dedicado garante a estabilidade do pipeline e permite que o serviço de embedding use aceleração por GPU, sendo muito mais rápido que a inferência por CPU. |
-| **Autenticação com UDP knock + AES** | O esquema tradicional de chave de API exige o envio da chave em cada requisição HTTP, aumentando a superfície de exposição a vazamentos. O esquema de UDP knock separa a autenticação da transferência de dados – a autenticação é feita primeiro via UDP, e a comunicação HTTP subsequente é criptografada com AES-256-GCM. Mesmo que o tráfego HTTP seja interceptado, sem a chave pré-compartilhada, a descriptografia é impossível. Além disso, o servidor permanece completamente sem estado, sem necessidade de manter sessões. |
-| **Controle de concorrência dinâmico** | Os limites de taxa (rate limits) da API DeepSeek não possuem valores numéricos precisos publicamente disponíveis, e os limites podem variar para diferentes modelos e em diferentes períodos. Um número fixo de concorrência é ou muito conservador (desperdiçando vazão) ou muito agressivo (disparando erros 429, resultando em muitas tentativas). O controle de concorrência adaptativo, através da estratégia de "testar gradualmente em caso de sucesso, reduzir rapidamente em caso de falha", encontra automaticamente o nível ótimo de concorrência para o ambiente de execução atual. |
-| **Modo de janela fixa como alternativa** | Em ambientes de produção onde o limite superior de concorrência da API é conhecido (por exemplo, com um acordo de QPS explícito com o provedor da API), os ajustes dinâmicos introduzem incerteza. O modo de janela fixa fornece um comportamento determinístico – N tarefas concorrentes por janela, janelas executadas estritamente em série – facilitando a previsão de desempenho e a depuração. |
-| **Compactação Zstd para vetores de embedding** | Os dados de vetores de embedding (384 dimensões × dezenas de milhares de mods × dezenas de milhares de entradas) são extremamente grandes. Para um milhão de entradas, os dados float brutos ocupariam cerca de 1.5GB. A compactação Zstd oferece uma taxa de compressão de cerca de 4:1, reduzindo a necessidade de armazenamento para cerca de 375MB. Mais importante, a velocidade de descompressão do Zstd é extremamente rápida (>1GB/s), tendo impacto quase nulo no desempenho do pipeline. |
-| **Escrita atômica (.tmp + Move)** | Se ocorrer uma falha ou queda de energia durante a escrita de um arquivo, o arquivo pode ser corrompido. A estratégia de escrever primeiro em um arquivo temporário (`.tmp`) e, após o sucesso, substituir atomicamente o arquivo de destino via `File.Move` garante a atomicidade. Como `File.Move` no mesmo sistema de arquivos é uma operação de renomeação, o sistema operacional garante sua atomicidade – ou se vê o arquivo antigo, ou o novo, nunca um estado intermediário. |
+| Decisão | Motivo detalhado |
+|------|---------|
+| **JSON substitui TXT** | Project Zomboid introduziu arquivos de tradução em formato JSON a partir do Build 42 como o novo formato padrão. Quando a mesma chave de tradução existe em arquivos TXT e JSON, o pipeline prioriza a versão JSON — pois representa um formato de conteúdo mais recente e é mais confiável de analisar. Se no futuro o PZ abandonar completamente o formato TXT, basta remover a lógica de análise de TXT. |
+| **Tradução de referência independente do loop principal** | A frequência de alterações dos mods de tradução de referência (tradução humana) e dos mods comuns a serem traduzidos é nitidamente diferente — os primeiros são estáveis e raramente mudam, enquanto os últimos são atualizados com frequência. Processar ambos no mesmo loop faria com que cada pequena atualização nos mods de referência acionasse um recálculo completo, desperdiçando recursos. Ao separá-los, a tradução de referência segue seu próprio caminho de atualização incremental, sem afetar o loop principal. |
+| **Cálculo de embeddings usando serviço remoto** | O modelo `bge-small-en-v1.5` tem apenas cerca de 130MB, mas quando carregado na memória para inferência, ocupa muito mais. Com o limite de 7GB de memória do GitHub Actions, executar simultaneamente o modelo de embeddings e as tarefas de tradução facilmente causa OOM. Mover o cálculo de embeddings para um serviço remoto dedicado garante a estabilidade do pipeline e permite que o serviço de embeddings use aceleração GPU, muito mais rápida que a inferência em CPU. |
+| **UDP knock + autenticação AES criptografada** | O esquema tradicional de chave de API requer transportar a chave em cada requisição HTTP, aumentando a superfície de exposição. O esquema UDP knock separa a autenticação da transferência de dados — primeiro realiza a autenticação via UDP, e a comunicação HTTP subsequente usa criptografia simétrica AES-256-GCM. Mesmo que o tráfego HTTP seja interceptado, sem a chave pré-compartilhada não é possível descriptografar. Além disso, o servidor é completamente sem estado, não necessitando manter sessões. |
+| **Controle dinâmico de concorrência** | O limite de taxa da API DeepSeek não tem valores exatos públicos; os limites podem variar entre diferentes modelos e períodos. Um número fixo de concorrência pode ser muito conservador (desperdiçando throughput) ou muito agressivo (disparando erros 429 com muitas tentativas). O controle adaptativo de concorrência usa a estratégia de \"testar gradualmente em caso de sucesso, contrair rapidamente em caso de falha\" para encontrar automaticamente o número ideal de concorrência no ambiente atual. |
+| **Modo de janela fixa como alternativa** | Em ambientes de produção onde o limite de concorrência da API é conhecido (por exemplo, com um acordo claro de QPS com o provedor de API), o ajuste dinâmico traz incerteza. O modo de janela fixa oferece comportamento determinístico de concorrência — N concorrências fixas por janela, com janelas estritamente em série — facilitando a previsão de desempenho e a solução de problemas. |
+| **Compressão Zstd para vetores de embeddings** | O volume de dados dos vetores de embeddings (384 dimensões × dezenas de milhares de mods × dezenas de milhares de entradas) é enorme. Para um milhão de entradas, os dados de ponto flutuante brutos são cerca de 1.5GB. A compressão Zstd oferece uma taxa de compressão de aproximadamente 4:1, reduzindo os requisitos de armazenamento para cerca de 375MB. Mais importante, a velocidade de descompressão do Zstd é muito rápida (>1GB/s), com impacto quase nulo no desempenho do pipeline. |
+| **Escrita atômica (.tmp + Move)** | Se ocorrer uma falha ou queda de energia durante a escrita do arquivo, o arquivo parcialmente escrito pode ser danificado. Primeiro escreve em um arquivo temporário (`.tmp`), e após a conclusão bem-sucedida, usa `File.Move` para substituir atomicamente o arquivo de destino. Como `File.Move` no mesmo sistema de arquivos é uma operação de renomeação, o sistema operacional garante sua atomicidade — ou o arquivo antigo ou o novo, sem estado intermediário. |
 
 ---
 

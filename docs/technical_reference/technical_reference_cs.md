@@ -1,606 +1,600 @@
-# Project Babel — Technická Dokumentace
+# Projekt Babel – technická dokumentace
 
-> **Cíl**: Multi-mod AI překladatelský pipeline pro Project Zomboid  
-> **Jazyk**: C# / .NET 10  
-> **Běhové prostředí**: GitHub Actions (Linux x64) / Lokální (Windows x64)  
-> **Repozitář**: [PZProjectBabel/project_babel](https://github.com/PZProjectBabel/project_babel)
+> **Cíl**: Projekt Zomboid – vícemodulární AI překladová pipeline
+> **Jazyk**: C# / .NET 10
+> **Provozní prostředí**: GitHub Actions (Linux x64) / lokálně (Windows x64)
+> **Kódové úložiště**: [PZProjectBabel/project_babel](https://github.com/PZProjectBabel/project_babel)
 
 ---
 
-> [简体中文](technical_reference_zh-hans.md) [English](technical_reference_en.md) <details><summary>Other Languages</summary>[العربية](technical_reference_ar.md) | [català](technical_reference_ca.md) | [繁體中文](technical_reference_zh-hant.md) | [dansk](technical_reference_da.md) | [Deutsch](technical_reference_de.md) | [español](technical_reference_es.md) | [suomi](technical_reference_fi.md) | [français](technical_reference_fr.md) | [magyar](technical_reference_hu.md) | [Bahasa Indonesia](technical_reference_id.md) | [italiano](technical_reference_it.md) | [日本語](technical_reference_ja.md) | [한국어](technical_reference_ko.md) | [Nederlands](technical_reference_nl.md) | [norsk](technical_reference_no.md) | [Tagalog](technical_reference_tl.md) | [polski](technical_reference_pl.md) | [português](technical_reference_pt.md) | [português do Brasil](technical_reference_pt-br.md) | [română](technical_reference_ro.md) | [русский](technical_reference_ru.md) | [ภาษาไทย](technical_reference_th.md) | [Türkçe](technical_reference_tr.md) | [українська](technical_reference_uk.md)</details>
-## Přehled projektu
-
-**Project Babel** je automatizovaný překladatelský pipeline navržený speciálně pro překlad Steam Workshop modů pro hru *Project Zomboid* pomocí umělé inteligence.
-
-### Pozadí a motivace
-
-Project Zomboid má masivní ekosystém modů, s desítkami tisíc hráčských modů na Steam Workshopu. Drtivá většina modů poskytuje pouze anglické texty, což vytváří jazykovou bariéru pro neanglicky mluvící hráče. Tradiční lidský překlad čelí dvěma hlavním výzvám:
-
-1. **Obrovské měřítko**: Počet modů a objem textu činí lidský překlad neúměrně nákladným a pomalým.
-2. **Neustálé aktualizace**: Autoři modů často aktualizují svůj obsah, což vyžaduje, aby překlady držely krok, jinak zastarají.
-
-Project Babel řeší tyto problémy vybudováním plně automatizovaného AI překladatelského pipeline. Dokáže automaticky objevovat nové mody, stahovat soubory modů, extrahovat přeložitelný text, používat velké jazykové modely (LLM) k vytváření vysoce kvalitních překladů a produkovat překladové balíčky připravené k přímé instalaci hráči.
-
-### Hlavní schopnosti
-
-- **Automatické objevování**: Shromažďuje ID modů z komunitní platformy (AsOne) a lokálních seznamů požadavků.
-- **Inteligentní překlad**: Kombinuje referenční korpus (RAG vyhledávání) a terminologické slovníky pro kontextově uvědomělý LLM překlad.
-- **Inkrementální aktualizace**: Detekuje změny obsahu v modech a překládá pouze nový nebo upravený text, čímž se vyhýbá redundantní práci.
-- **Bezpečnostní kontrola**: Automaticky detekuje a filtruje mody obsahující zakázaný obsah (drogy, pornografie atd.).
-- **Vícejazyčná podpora**: Architektura pipeline podporuje 27 cílových jazyků, aktuálně zaměřeno na zjednodušenou čínštinu (zh-hans).
-- **Nepřetržitý provoz**: Spouštěno plánovaně přes GitHub Actions pro bezobslužné aktualizace překladů.
-
-### Účel dokumentu
-
-Tento dokument je určen vývojářům, kteří chtějí porozumět, nasadit nebo přispět k pipeline Project Babel. Čtení tohoto dokumentu vám pomůže:
-
-- Porozumět celkové architektuře pipeline a toku dat.
-- Ovládnout odpovědnosti a vnitřní fungování každého zpracovatelského modulu.
-- Seznámit se se strukturou konfiguračních souborů a významem jednotlivých parametrů.
-- Získat schopnost spouštět pipeline lokálně nebo v CI prostředí.
+> [English](technical_reference_en.md) | [简体中文](technical_reference_zh-hans.md) <details><summary>Other Languages</summary>[العربية](technical_reference_ar.md) | [català](technical_reference_ca.md) | [繁體中文](technical_reference_zh-hant.md) | [čeština](technical_reference_cs.md) | [dansk](technical_reference_da.md) | [Deutsch](technical_reference_de.md) | [español](technical_reference_es.md) | [suomi](technical_reference_fi.md) | [français](technical_reference_fr.md) | [magyar](technical_reference_hu.md) | [Bahasa Indonesia](technical_reference_id.md) | [italiano](technical_reference_it.md) | [日本語](technical_reference_ja.md) | [한국어](technical_reference_ko.md) | [Nederlands](technical_reference_nl.md) | [norsk](technical_reference_no.md) | [Tagalog](technical_reference_tl.md) | [polski](technical_reference_pl.md) | [português](technical_reference_pt.md) | [português do Brasil](technical_reference_pt-br.md) | [română](technical_reference_ro.md) | [русский](technical_reference_ru.md) | [ภาษาไทย](technical_reference_th.md) | [Türkçe](technical_reference_tr.md) | [українська](technical_reference_uk.md)</details>
 
 ---
 
 ## Obsah
 
-- [1. Architektura systému](#1-architektura-systému)
-- [2. Pracovní postup pipeline](#2-pracovní-postup-pipeline)
-- [3. Principy modulů a technické detaily](#3-principy-modulů-a-technické-detaily)
-  - [3.1 ConfigReader](#31-configreader-configreaderservice)
-  - [3.2 RepoDataLoader](#32-repodataloader-repodataloaderservice)
-  - [3.3 ModIdCollector](#33-modidcollector-modidcollectorservice)
-  - [3.4 ModInfoFetcher](#34-modinfofetcher-modinfofetcherservice)
-  - [3.5 ModDownloader](#35-moddownloader-moddownloaderservice)
-  - [3.6 ContentExtractor](#36-contentextractor-contentextractorservice)
-  - [3.7 ContentChecker](#37-contentchecker-contentcheckerservice)
-  - [3.8 EmbeddingFetcher](#38-embeddingfetcher-embeddingfetcherservice)
-  - [3.9 TranslationBatcher](#39-translationbatcher-translationbatcherservice)
-  - [3.10 RagContextRetriever](#310-ragcontextretriever-ragcontextretrieverservice)
-  - [3.11 LLMTranslator](#311-llmtranslator-llmtranslatorservice)
-  - [3.12 ResultWriter](#312-resultwriter-resultwriterservice)
-  - [3.13 FinalOutputWriter](#313-finaloutputwriter-finaloutputwriterservice)
-  - [3.14 ProgressReporter](#314-progressreporter-progressreporterservice)
+- [Přehled projektu](#přehled-projektu)
+  - [Pozadí a motivace](#pozadí-a-motivace)
+  - [Hlavní schopnosti](#hlavní-schopnosti)
+  - [Účel dokumentace](#účel-dokumentace)
+- [1. Systémová architektura](#1-systémová-architektura)
+  - [Celková architektura](#celková-architektura)
+  - [Dvě hlavní fáze zpracování](#dvě-hlavní-fáze-zpracování)
+  - [Hlavní datový tok](#hlavní-datový-tok)
+- [2. Pracovní postup potrubí](#2-pracovní-postup-potrubí)
+  - [Fáze 1: Načtení konfigurace a inicializace SteamCMD](#fáze-1-načtení-konfigurace-a-inicializace-steamcmd)
+  - [Fáze 2: Synchronizace referenčního překladu (kroky 2-3)](#fáze-2-synchronizace-referenčního-překladu-kroky-2-3)
+  - [Fáze 3: Hlavní překladový cyklus (kroky 4–14)](#fáze-3-hlavní-překladový-cyklus-kroky-414)
+  - [Fáze 4: Výstup a report (kroky 15–20)](#fáze-4-výstup-a-report-kroky-1520)
+- [3. Principy modulů a technické podrobnosti](#3-principy-modulů-a-technické-podrobnosti)
+  - [3.1 ConfigReader (`ConfigReaderService`)](#31-configreader-configreaderservice)
+  - [3.2 RepoDataLoader (`RepoDataLoaderService`)](#32-repodataloader-repodataloaderservice)
+  - [3.3 ModIdCollector (`ModIdCollectorService`)](#33-modidcollector-modidcollectorservice)
+  - [3.4 ModInfoFetcher (`ModInfoFetcherService`)](#34-modinfofetcher-modinfofetcherservice)
+  - [3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)](#35-steamcmdbootstrapper-steamcmdbootstrapperservice)
+  - [3.5.1 ModDownloader (`ModDownloaderService`)](#351-moddownloader-moddownloaderservice)
+  - [3.6 ContentExtractor (`ContentExtractorService`)](#36-contentextractor-contentextractorservice)
+  - [3.7 ContentChecker (`ContentCheckerService`)](#37-contentchecker-contentcheckerservice)
+  - [3.8 EmbeddingFetcher (`EmbeddingFetcherService`)](#38-embeddingfetcher-embeddingfetcherservice)
+  - [3.9 TranslationBatcher (`TranslationBatcherService`)](#39-translationbatcher-translationbatcherservice)
+  - [3.10 RagContextRetriever (`RagContextRetrieverService`)](#310-ragcontextretriever-ragcontextretrieverservice)
+  - [3.11 LLMTranslator (`LLMTranslatorService`)](#311-llmtranslator-llmtranslatorservice)
+  - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
+  - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
+  - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
 - [4. Datové konvence](#4-datové-konvence)
-  - [4.1 Hlavní typy](#41-hlavní-typy)
-  - [4.2 Formáty souborů](#42-formáty-souborů)
-  - [4.3 Konvence indexových klíčů](#43-konvence-indexových-klíčů)
+  - [4.1 Základní typy](#41-základní-typy)
+    - [`TranslationEntry` — Položka překladu](#translationentry-položka-překladu)
+    - [`TranslationData` — Překladová data](#translationdata-překladová-data)
+    - [`ModInfo` — Metadata modu](#modinfo-metadata-modu)
+    - [`TranslationBatch` — Dávka překladu](#translationbatch-dávka-překladu)
+    - [`LangInfoData` – Informace o jazyce](#langinfodata-informace-o-jazyce)
+  - [4.2 Formát souborů](#42-formát-souborů)
+    - [Výstup extrakce (výstup z ContentExtractor)](#výstup-extrakce-výstup-z-contentextractor)
+    - [Soubor mapování klíčů](#soubor-mapování-klíčů)
+    - [Překladová cache (data/translations/)](#překladová-cache-datatranslations)
+    - [Konečný výstup (final_outputs/)](#konečný-výstup-final_outputs)
+    - [Vkládací vektory (data/embeddings/*.bin)](#vkládací-vektory-dataembeddingsbin)
+  - [4.3 Konvence pro indexové klíče](#43-konvence-pro-indexové-klíče)
   - [4.4 Stavové automaty](#44-stavové-automaty)
-- [5. Konfigurační reference](#5-konfigurační-reference)
-  - [5.1 config.json — Hlavní konfigurace pipeline](#51-configconfigjson--hlavní-konfigurace-pipeline)
-    - [5.1.1 LLM — Konfigurace velkého jazykového modelu](#511-llm--konfigurace-velkého-jazykového-modelu)
-    - [5.1.2 RAG — Konfigurace Retrieval-Augmented Generation](#512-rag--konfigurace-retrieval-augmented-generation)
-    - [5.1.3 AsOne — Zdroj vzdáleného seznamu modů](#513-asone--zdroj-vzdáleného-seznamu-modů)
-    - [5.1.4 Steam — Konfigurace Steam Web API](#514-steam--konfigurace-steam-web-api)
-    - [5.1.5 Pipeline — Obecná konfigurace pipeline](#515-pipeline--obecná-konfigurace-pipeline)
-    - [5.1.6 ContentCheck — Konfigurace bezpečnostní kontroly obsahu](#516-contentcheck--konfigurace-bezpečnostní-kontroly-obsahu)
-  - [5.1.7 Settings — Základní nastavení pipeline](#517-settings--základní-nastavení-pipeline)
-  - [5.1.8 Embedding — Konfigurace embeddingové služby](#518-embedding--konfigurace-embeddingové-služby)
-  - [5.1.9 Workflow — Konfigurace pracovního postupu](#519-workflow--konfigurace-pracovního-postupu)
-  - [5.2 secrets.json — Konfigurace klíčů](#52-configsecretsjson--konfigurace-klíčů)
-  - [5.3 supported_languages.json — Seznam podporovaných jazyků](#53-configsupported_languagesjson--seznam-podporovaných-jazyků)
-  - [5.4 ref_translation_mods.json — Referenční překladové mody](#54-configref_translation_modsjson--referenční-překladové-mody)
-  - [5.5 request_for_translation.txt — Lokální požadavky na překlad](#55-configrequest_for_translationtxt--lokální-požadavky-na-překlad)
-  - [5.6 Tok načítání konfigurace](#56-tok-načítání-konfigurace)
-- [6. Struktura adresářů](#6-struktura-adresářů)
+    - [Stav kontroly obsahu ContentCheck](#stav-kontroly-obsahu-contentcheck)
+    - [TranslationData Stav ověření překladu](#translationdata-stav-ověření-překladu)
+    - [ModInfo.needsUpdate Posouzení aktualizace](#modinfoneedsupdate-posouzení-aktualizace)
+- [5. Vysvětlení konfigurace](#5-vysvětlení-konfigurace)
+  - [5.1 `config/config.json` — Hlavní konfigurace pipeline](#51-configconfigjson-hlavní-konfigurace-pipeline)
+    - [5.1.1 `LLM` — Konfigurace velkého jazykového modelu](#511-llm-konfigurace-velkého-jazykového-modelu)
+    - [5.1.2 `RAG` — 检索增强生成配置](#512-rag-检索增强生成配置)
+    - [5.1.3 `AsOne` — 远程 Mod 列表源](#513-asone-远程-mod-列表源)
+    - [5.1.4 `Steam` — Konfigurace Steam Web API](#514-steam-konfigurace-steam-web-api)
+    - [5.1.5 `Pipeline` — Obecná konfigurace pipeline](#515-pipeline-obecná-konfigurace-pipeline)
+    - [5.1.6 `ContentCheck` — Konfigurace kontroly bezpečnosti obsahu](#516-contentcheck-konfigurace-kontroly-bezpečnosti-obsahu)
+    - [5.1.7 `Settings` — Základní nastavení pipeline](#517-settings-základní-nastavení-pipeline)
+    - [5.1.8 `Embedding` — Konfigurace služby embeddingů](#518-embedding-konfigurace-služby-embeddingů)
+    - [5.1.9 `Workflow` — Konfigurace pracovního postupu](#519-workflow-konfigurace-pracovního-postupu)
+  - [5.2 `config/secrets.json` — Konfigurace tajných klíčů](#52-configsecretsjson-konfigurace-tajných-klíčů)
+  - [5.3 `config/supported_languages.json` — Seznam podporovaných jazyků](#53-configsupported_languagesjson-seznam-podporovaných-jazyků)
+  - [5.4 `config/ref_translation_mods.json` — Referenční překladové mody](#54-configref_translation_modsjson-referenční-překladové-mody)
+  - [5.5 `config/request_for_translation.txt` — Místní žádosti o překlad](#55-configrequest_for_translationtxt-místní-žádosti-o-překlad)
+  - [5.6 Konfigurace načítacího procesu](#56-konfigurace-načítacího-procesu)
+- [6. Adresářová struktura](#6-adresářová-struktura)
 - [7. Způsob spuštění](#7-způsob-spuštění)
-- [8. Klíčová konstrukční rozhodnutí](#8-klíčová-konstrukční-rozhodnutí)
+  - [Místní spuštění (Windows x64)](#místní-spuštění-windows-x64)
+  - [CI spuštění (GitHub Actions, Linux x64)](#ci-spuštění-github-actions-linux-x64)
+  - [Posouzení výsledků běhu](#posouzení-výsledků-běhu)
+- [8. Klíčová rozhodnutí o návrhu](#8-klíčová-rozhodnutí-o-návrhu)
 
 ---
 
-## 1. Architektura systému
+## Přehled projektu
+
+**Project Babel** je automatizovaná překladová pipeline, specializovaná na vícejazyčný AI překlad modů (Mod) hry Project Zomboid na Steam Workshopu.
+
+### Pozadí a motivace
+
+Project Zomboid má rozsáhlý ekosystém modů; na Steam Workshopu existují desítky tisíc uživatelských modů. Drtivá většina modů poskytuje pouze anglický text, takže neanglicky mluvící hráči narážejí na jazykové bariéry. Tradiční ruční překlad čelí dvěma zásadním problémům:
+1. **Obrovský rozsah**: mnoho modů, velké množství textu, ruční překlad je extrémně nákladný a pomalý.
+2. **Neustálé aktualizace**: autoři modů často aktualizují obsah, překlad musí být průběžně udržován, jinak zastará a ztratí platnost.
+
+Project Babel tyto problémy řeší vytvořením plně automatizované AI překladové pipeline. Dokáže automaticky objevovat nové mody, stahovat soubory modů, extrahovat text k překladu, generovat vysoce kvalitní překlady pomocí velkých jazykových modelů (LLM) a nakonec vyprodukovat lokalizační záplaty, které mohou hráči přímo použít.
+
+### Hlavní schopnosti
+
+- **Automatické objevování**: automatické shromažďování ID modů k překladu z komunitní platformy (AsOne) a místního seznamu požadavků.
+- **Inteligentní překlad**: pomocí referenčního korpusu (RAG vyhledávání) a glosáře generuje LLM kontextově uvědomělé překlady.
+- **Inkrementální aktualizace**: detekce změn v obsahu modu, překládá se pouze nově přidaný nebo upravený text, čímž se zabrání opakované práci.
+- **Bezpečnostní kontrola**: automatická detekce a filtrování modů obsahujících závadný obsah (drogy, pornografie apod.).
+- **Vícejazyčná podpora**: architektura pipeline podporuje 27 cílových jazyků, v současnosti je zaměřena především na zjednodušenou čínštinu (zh-hans).
+- **Nepřetržitý provoz**: pomocí časovaných spouštění v GitHub Actions pro bezobslužné aktualizace překladů.
+
+### Účel dokumentace
+
+Tato dokumentace je určena vývojářům, kteří chtějí porozumět, nasadit nebo přispívat do pipeline Project Babel. Přečtení vám pomůže:
+- Porozumět celkové architektuře pipeline a toku dat.
+- Osvojit si odpovědnosti a vnitřní principy každého modulu.
+- Pochopit strukturu konfiguračních souborů a význam jednotlivých parametrů.
+- Získat schopnost spouštět pipeline v lokálním nebo CI prostředí.
+
+---
+
+## 1. Systémová architektura
 
 ### Celková architektura
 
-Pipeline přejímá klasickou architekturu "montážní linky" (Pipeline), složenou ze 14 nezávislých modulů zapojených za sebou. Každý modul je zodpovědný za jediný, dobře definovaný dílčí úkol. Moduly si předávají data prostřednictvím datových struktur v paměti a nakonec vytvářejí publikovatelné překladové soubory.
+Pipeline používá klasickou architekturu „pipeline“ složenou z 15 nezávislých modulů zapojených do série. Každý modul má na starosti jasně definovaný dílčí úkol a moduly si předávají data prostřednictvím datových struktur v paměti, aby nakonec vytvořily publikovatelné překladové soubory.
 
 ```mermaid
 flowchart TD
-    A[ConfigReader] --> B[RepoDataLoader]
-    B --> C[ModIdCollector]
-    C --> D[ModInfoFetcher]
-    D --> E[ModDownloader]
-    E --> F[ContentExtractor]
-    F --> G[ContentChecker]
-    G --> H[EmbeddingFetcher]
-    H --> I[TranslationBatcher]
-    I --> J[RagContextRetriever]
-    J --> K[LLMTranslator]
-    K --> L[ResultWriter]
-    L --> M[FinalOutputWriter]
-    M --> N[ProgressReporter]
+  A[ConfigReader] --> B[SteamCmdBootstrapper]
+  B --> C[RepoDataLoader]
+  C --> D[ModIdCollector]
+  D --> E[ModInfoFetcher]
+  E --> F[ModDownloader]
+  F --> G[ContentExtractor]
+  G --> H[ContentChecker]
+  H --> I[EmbeddingFetcher]
+  I --> J[TranslationBatcher]
+  J --> K[RagContextRetriever]
+  K --> L[LLMTranslator]
+  L --> M[ResultWriter]
+  M --> N[FinalOutputWriter]
+  N --> O[ProgressReporter]
 
-    subgraph Synchronizace referenčních překladů
-        B2[RepoDataLoader-ref] --> D2[ModInfoFetcher-ref]
-        D2 --> E2[ModDownloader-ref]
-        E2 --> F2[ContentExtractor-ref]
-        F2 --> H2[EmbeddingFetcher-ref]
-        H2 --> L
+subgraph Synchronizace referenčních překladů
+        C2[RepoDataLoader-ref] --> E2[ModInfoFetcher-ref]
+        E2 --> F2[ModDownloader-ref]
+        F2 --> G2[ContentExtractor-ref]
+        G2 --> I2[EmbeddingFetcher-ref]
+        I2 --> M
     end
 ```
 
-> **Poznámka**: V cestě synchronizace referenčních překladů `RepoDataLoader-ref` načítá data z mezipaměti z adresáře `translation_ref/` jako výchozí bod, namísto získávání vstupu z `ConfigReader`.
+> **Poznámka**: V synchronizační cestě referenčních překladů načítá `RepoDataLoader-ref` data z adresáře `translation_ref/` jako výchozí bod, nikoli ze `ConfigReader`.
 
-### Dvě fáze zpracování
+### Dvě hlavní fáze zpracování
 
-Pipeline obsahuje dvě paralelní zpracovatelské cesty sloužící různým účelům:
+Pipeline obsahuje dvě paralelní cesty zpracování, každá slouží jinému účelu:
 
-| Fáze | Cesta | Předmět zpracování | Účel |
+| Fáze | Cesta | Objekt zpracování | Účel |
 |------|------|----------|------|
-| **Synchronizace referenčních překladů** | Dolní podgraf | Vysoce kvalitní existující překladové mody (`translation_ref/`) | Budování referenčního korpusu pro RAG vyhledávání |
-| **Hlavní překladová smyčka** | Horní hlavní řetězec | Běžné mody čekající na překlad (`data/`) | Provádění skutečného AI překladu |
+| **Synchronizace referenčních překladů** | Podgraf dole | Kvalitní existující mody s čínským překladem (`translation_ref/`) | Vytvoření referenčního korpusu pro RAG vyhledávání |
+| **Hlavní překladová smyčka** | Hlavní cesta nahoře | Běžné mody k překladu (`data/`) | Provádění skutečného AI překladu |
 
-Obě cesty se nakonec sbíhají u `ResultWriter` a `FinalOutputWriter`, které společně vytvářejí distribuční soubory.
+Obě cesty se nakonec sbíhají do `ResultWriter` a `FinalOutputWriter`, které jednotně generují distribuční soubory.
 
-Výhoda tohoto oddělení spočívá v tom, že referenční překladové mody jsou obvykle pečlivě přeloženy lidmi a měly by být udržovány nezávisle s prioritní synchronizací; zatímco hlavní překladová smyčka zpracovává velké množství modů čekajících na AI překlad. Oba se liší frekvencí změn a logikou zpracování a jejich oddělená správa zabraňuje vzájemnému rušení.
+Tato výhoda odděleného návrhu spočívá v tom, že referenční překladové mody jsou obvykle pečlivě přeloženy lidskými překladateli, měly by být udržovány nezávisle a synchronizovány přednostně; zatímco hlavní překladová smyčka zpracovává velké dávky modů určených pro AI překlad. Jejich frekvence změn a logika zpracování se liší, a oddělená správa zabraňuje vzájemnému rušení.
 
-### Hlavní tok dat
+### Hlavní datový tok
 
-Z makro pohledu proudí data pipeline následovně:
-
+Z makroskopického pohledu je cesta dat potrubím následující:
 ```
 config.json / secrets.json
-    → Sběr ID modů (komunita AsOne + lokální požadavky)
-    → Dotaz na Steam metadata (název, autor, čas aktualizace atd.)
-    → Stahování souborů modů pomocí steamcmd
-    → Extrakce textu (analyzováno do objektů TranslationEntry)
-    → Bezpečnostní kontrola obsahu (filtrování zakázaného obsahu)
-    → Výpočet vektorových embeddingů (příprava pro RAG vyhledávání)
-    → Dávkové balení (TranslationBatch, s kontrolou tokenového rozpočtu)
-    → RAG vyhledávání podobnosti (párování referenčních překladů jako kontextu)
-    → LLM překlad (volání velkého jazykového modelu pro překlad)
-    → Zápis výsledků do mezipaměti (data/translations/)
-    → Finální výstup (final_outputs/project_babel/)
+    → Mod ID 收集（AsOne 社区 + 本地请求）
+    → Steam 元数据查询（名称、作者、更新时间等）
+    → steamcmd 下载模组文件
+    → 文本提取（解析为 TranslationEntry 对象）
+    → 内容安全审查（过滤违规内容）
+    → 向量嵌入计算（为 RAG 检索做准备）
+    → 批次打包（TranslationBatch，含 token 预算控制）
+    → RAG 相似度检索（匹配参考翻译作为上下文）
+    → LLM 翻译（调用大语言模型生成译文）
+    → 结果写回缓存（data/translations/）
+    → 最终输出（final_outputs/project_babel/）
 ```
 
-Výstup každého kroku se stává vstupem dalšího kroku a tvoří kompletní montážní linku pro zpracování dat. Každý modul pipeline je podrobně popsán v Sekci 3.
+Výstup každého kroku je vstupem pro další krok, čímž vzniká kompletní „zpracovatelská linka dat“. Každý modul v potrubí bude podrobně popsán v části 3.
 
 ---
 
-## 2. Pracovní postup pipeline
+## 2. Pracovní postup potrubí
 
-Veškerá logika pipeline je řízena metodou `PipelineRunner.RunAsync()` v `Program.cs`, která zahrnuje přibližně 20+ kroků zpracování. Pro přehlednost seskupujeme tyto kroky podle odpovědnosti do čtyř fází. Níže vysvětlujeme pracovní obsah a záměr návrhu každé fáze.
+Veškerá logika potrubí je jednotně uspořádána metodou `PipelineRunner.RunAsync()` v souboru `Program.cs` a zahrnuje přibližně 20+ kroků zpracování. Pro snazší pochopení jsme tyto kroky rozdělili do čtyř fází podle odpovědnosti. Níže je popsán obsah práce a záměr každé fáze.
 
-### Fáze 1: Načítání konfigurace (Krok 1)
+### Fáze 1: Načtení konfigurace a inicializace SteamCMD
 
-Výchozím bodem všeho je načtení a ověření konfiguračních souborů. Ačkoli je tato fáze jednoduchá, je základem pro stabilní provoz pipeline — jakékoli chyby konfigurace by měly být zachyceny včas a okamžitě zastavit provoz, aby se předešlo plýtvání výpočetními zdroji.
+Výchozím bodem všeho je načtení a ověření konfiguračních souborů. Tato fáze je sice jednoduchá, ale je základem stabilního běhu celého potrubí – jakákoli chyba v konfiguraci by měla být odhalena co nejdříve a okamžitě ukončit proces, aby se předešlo plýtvání výpočetními prostředky.
 
-- `ConfigReader.LoadConfig()` čte `config/config.json` (parametry pipeline) a `config/secrets.json` (citlivé klíče).
-- Po načtení jsou okamžitě ověřena všechna povinná pole: pokud je LLM API klíč prázdný, nelze volat překladové služby, a proto proces volá `Environment.Exit(1)` k ukončení, místo aby vstupoval do zbytečných následných kroků.
-- Také analyzuje `config/supported_languages.json` a načítá 27 definic jazyků do `List<LangInfoData>` pro všechny následné moduly k dotazování na mapování jazykových kódů.
+- `ConfigReader.LoadConfig()` načítá `config/config.json` (parametry potrubí) a `config/secrets.json` (citlivé klíče).
+- Po načtení okamžitě ověřuje všechny povinné položky: pokud je LLM API Key prázdný, znamená to, že překladovou službu nelze volat; v tom případě je přímo voláno `Environment.Exit(1)` pro ukončení procesu, aby se předešlo zbytečným následným krokům.
+- Současně analyzuje `config/supported_languages.json` a načte definice 27 jazyků jako `List<LangInfoData>`, které budou použity všemi následujícími moduly pro mapování jazykových kódů.
+- `SteamCmdBootstrapper` poté připraví runtime potřebný pro stahovač: na Linuxu stáhne a rozbalí oficiální `steamcmd_linux.tar.gz`; na Windows spustí již existující `src/3rd_party/steamcmd/steamcmd.exe +quit` v úložišti pro vlastní aktualizaci; pokud chybí spustitelný soubor, dojde k okamžitému selhání.
 
-Podrobný popis konfiguračních polí naleznete v Sekci 5.
+Podrobný popis konfiguračních polí naleznete v části 5.
 
-### Fáze 2: Synchronizace referenčních překladů (Kroky 2-3)
+### Fáze 2: Synchronizace referenčního překladu (kroky 2-3)
 
-Před zahájením hlavní překladové smyčky pipeline synchronizuje data **referenčních překladů** (Reference Translation).
+Před zahájením hlavní překladové smyčky potrubí nejprve synchronizuje data **referenčního překladu**.
 
-**Co jsou referenční překlady?** Referenční překlady jsou vysoce kvalitní komunitní lidské překlady modů. Jejich překlady jsou přesné a terminologicky konzistentní, což z nich činí cenný korpusový zdroj. Pipeline nepoužívá text referenčních překladů přímo jako finální výstup (to by narušovalo práva původních překladatelů), ale používá je jako znalostní bázi pro RAG (Retrieval-Augmented Generation) — když LLM překládá určitý text, pipeline vyhledá sémanticky podobné překlady z referenčního korpusu jako "referenční příklady", což pomáhá LLM porozumět kontextu a sjednotit terminologický styl, a tím vytvářet kvalitnější překlady.
+**Co je referenční překlad?** Referenční překlad označuje vysoce kvalitní čínské mody pečlivě přeložené komunitou. Jejich překlady jsou přesné a terminologie jednotná – jedná se o cenný jazykový zdroj. Potrubí nepoužívá texty referenčních překladů přímo jako konečný výstup (porušilo by to práva původních autorů), ale využívá je jako znalostní bázi pro RAG (Retrieval-Augmented Generation) – když LLM překládá nějaký text, potrubí vyhledá v referenčním korpusu sémanticky podobné překlady jako „referenční vzorky“, které pomohou LLM porozumět kontextu, sjednotit terminologii a styl, a tím generovat kvalitnější překlady.
 
-Konkrétní kroky v této fázi:
+Tato fáze zahrnuje konkrétní kroky:
+1. **Načtení mezipaměti**: `RepoDataLoader` načte referenční data z adresáře `translation_ref/` z předchozího běhu, včetně metadat modů, extrahovaných překladových položek a embeddingových vektorů. Tato mezipaměť zabraňuje opětovnému stahování a analýze všech referenčních modů při každém spuštění.
+2. **Synchronizace metadat Steamu**: `ModInfoFetcher` dotazuje Steam Web API na nejnovější informace o každém referenčním modu (zejména pole `time_updated`), porovnává je s `timeModUpdated` v mezipaměti a označí mody se změněným obsahem (`needsUpdate = true`).
+3. **Inkrementální aktualizace**: Pouze pro referenční mody označené jako `needsUpdate` se provede kompletní proces "stažení → extrakce textu → výpočet embeddingů". Nezměněné mody přímo znovu používají mezipaměť, což výrazně šetří čas a šířku pásma.
+4. **Trvalý zápis**: `ResultWriter.WriteRefDataAsync()` zapíše aktualizovaná referenční data zpět do `translation_ref/` pro použití při příštím spuštění.
 
-1. **Načtení mezipaměti**: `RepoDataLoader` načítá referenční data uložená z předchozího běhu z adresáře `translation_ref/`, včetně metadat modů, již extrahovaných překladových položek a embeddingových vektorů. Tato mezipaměť zabraňuje opakovanému stahování a opakované analýze všech referenčních modů při každém běhu.
-2. **Synchronizace Steam metadat**: `ModInfoFetcher` se dotazuje Steam Web API na nejnovější informace o každém referenčním modu (především pole `time_updated`), porovnává je s `timeModUpdated` v mezipaměti a označuje mody, jejichž obsah se změnil (`needsUpdate = true`).
-3. **Inkrementální aktualizace**: Pouze referenční mody označené jako `needsUpdate` procházejí plným tokem "stáhnout → extrahovat text → vypočítat embeddingy". Nezměněné mody přímo znovu používají svou mezipaměť, čímž šetří značný čas a šířku pásma.
-4. **Perzistence**: `ResultWriter.WriteRefDataAsync()` zapisuje aktualizovaná referenční data zpět do `translation_ref/` pro další běh.
+### Fáze 3: Hlavní překladový cyklus (kroky 4–14)
 
-### Fáze 3: Hlavní překladová smyčka (Kroky 4-14)
-
-Toto je jádrová fáze pipeline, která provádí kompletní tok od "objevování modů" po "generování překladů". Po dokončení synchronizace referenčních překladů má pipeline k dispozici vysoce kvalitní referenční korpus; nyní zpracovává všechny běžné mody čekající na překlad a využívá referenční korpus během závěrečného kroku překladu.
+Toto je jádro pipeline, které provádí kompletní tok od "objevení modů" po "generování překladů". Po dokončení synchronizace referenčních překladů má pipeline již vysoce kvalitní referenční korpus; nyní provede stejné zpracování na všech běžných modech určených k překladu a při závěrečném kroku překladu tyto referenční zdroje plně využije.
 
 | Krok | Modul | Funkce |
 |------|------|------|
-| 4 | RepoDataLoader | Načtení dat z mezipaměti z `data/` (metadata modů, existující překlady, embeddingové vektory), obnovení stavu z předchozího běhu |
-| 5 | ModIdCollector | Sběr všech ID modů čekajících na překlad z komunitní platformy AsOne a lokálního `request_for_translation.txt`, sloučení a deduplikace |
-| 6 | ModInfoFetcher | Dávkový dotaz na nejnovější metadata každého modu přes Steam Web API (název, autor, čas aktualizace atd.) |
-| 7 | ModDownloader | Dávkové stahování souborů Workshop modů pomocí nástroje steamcmd do lokálního dočasného adresáře |
-| 8 | ContentExtractor | Analýza stažených souborů modů, extrakce všech přeložitelných textových položek (`TranslationEntry`) z adresáře `Translate/` |
-| 9 | — | 📊 **Porovnání rozdílů**: Porovnání nově extrahovaných položek s mezipamětí jednu po druhé, identifikace nových, upravených a nezměněných položek; pouze první dvě vstupují do následného překladového toku |
-| 10 | ContentChecker | Použití LLM k provedení bezpečnostní kontroly obsahu modů, identifikace obsahu souvisejícího s drogami, pornografického a jiného zakázaného obsahu a označení nevyhovujících modů |
-| 11 | EmbeddingFetcher | Volání vzdálené embeddingové služby pro generování vektorových embeddingů (384-dim) pro každý přeložitelný text, pro následné vyhledávání sémantické podobnosti |
-| 12 | TranslationBatcher | Seskupení přeložitelných položek podle modu a jejich zabalení do dávek (`TranslationBatch`), každá omezena jak `batch_size`, tak `batch_token_budget` |
-| 13 | RagContextRetriever | Pro každou položku k překladu vyhledání sémanticky nejpodobnějších existujících překladů z referenčního korpusu jako kontextu pro LLM překlad |
-| 14 | LLMTranslator | Volání API velkého jazykového modelu k provedení překladu, včetně zahřívacího sondování (warmup) a dynamické kontroly souběžnosti — nejsložitější modul pipeline |
+| 4 | RepoDataLoader | Načte data mezipaměti z adresáře `data/` (metadata modů, stávající překlady, embeddingové vektory) a obnoví stav z předchozího běhu |
+| 5 | ModIdCollector | Shromáždí všechna ID modů k překladu z platformy komunity AsOne a místního souboru `request_for_translation.txt`, sloučí a odstraní duplicity |
+| 6 | ModInfoFetcher | Prostřednictvím Steam Web API hromadně dotazuje nejnovější metadata každého modu (název, autor, čas aktualizace atd.) |
+| 7 | ModDownloader | Pomocí nástroje steamcmd stahuje soubory Workshop modů po dávkách do místního dočasného adresáře |
+| 8 | ContentExtractor | Analyzuje stažené soubory modů a extrahuje všechny textové položky k překladu z adresáře `Translate/` (`TranslationEntry`) |
+| 9 | — | 📊 **Porovnání rozdílů**: Porovná nově extrahované položky s mezipamětí, identifikuje nové, změněné a nezměněné položky; pouze první dvě kategorie vstupují do dalšího překladového procesu |
+| 10 | ContentChecker | Používá LLM k bezpečnostní kontrole obsahu modů, identifikuje porušující obsah (drogy, pornografie atd.) a označí nevyhovující mody |
+| 11 | EmbeddingFetcher | Volá vzdálenou embeddingovou službu pro generování vektorových embeddingů (384 dimenzí) pro každý text k překladu, pro pozdější sémantické vyhledávání podobnosti |
+| 12 | TranslationBatcher | Seskupuje položky k překladu podle modů a balí je do dávek (TranslationBatch), každá dávka je omezena `batch_size` a `batch_token_budget` |
+| 13 | RagContextRetriever | Pro každou položku k překladu vyhledá v referenčním korpusu sémanticky nejpodobnější stávající překlady, které slouží jako kontext pro LLM při překladu |
+| 14 | LLMTranslator | Volá API velkého jazykového modelu pro provedení překladu, zahrnuje warmup detekci a dynamické řízení souběžnosti; je to nejsložitější modul celé pipeline |
 
-### Fáze 4: Výstup a reporty (Kroky 15-20)
+### Fáze 4: Výstup a report (kroky 15–20)
 
-Po dokončení veškeré překladové práce vstupuje pipeline do závěrečné fáze — perzistence výsledků do souborového systému a generování finálních distribučních souborů, které mohou hráči přímo používat.
+Po dokončení všech překladů vstupuje pipeline do závěrečné fáze – trvalé uložení výsledků do souborového systému a generování finálních distribučních souborů přímo použitelných hráči.
 
 | Krok | Modul | Výstup |
 |------|------|------|
-| 15 | ResultWriter | Zápis metadat modů zpět do `data/modinfos.json`, překladových položek do `data/translations/<iso>/`, embeddingových vektorů do `data/embeddings/` |
-| 16 | ResultWriter | Zápis výsledků překladu pro každý cílový jazyk ve formátu `translationKey::lang::status = "value"` |
-| 17 | FinalOutputWriter | Generování finálních distribučních souborů odpovídajících konvencím adresářů modů Project Zomboid, které hráči mohou přímo umístit do adresáře Mods hry |
-| 18 | — | Shromáždění všech varování vzniklých během běhu a jejich zápis do `temp/run_*/warnings/` pro ruční kontrolu |
-| 19 | ProgressReporter | Výpočet statistik pokrytí překladu pro každý jazyk a generování vícejazyčných zpráv o postupu (`docs/progress/progress_*.md`) |
+| 15 | ResultWriter | Zapíše metadata modů zpět do `data/modinfos.json`, překladové položky do `data/translations/<iso>/` a embeddingové vektory do `data/embeddings/` |
+| 16 | ResultWriter | Zapíše výsledky překladu pro každý cílový jazyk zvlášť, ve formátu `translationKey::lang::status = "value"` |
+| 17 | FinalOutputWriter | Generuje finální distribuční soubory v souladu se strukturou adresářů Project Zomboid modů, které hráči mohou přímo vložit do adresáře Mods ve hře |
+| 18 | — | Shromáždí všechna varování vygenerovaná během běhu a zapíše je do `temp/run_*/warnings/` pro manuální kontrolu |
+| 19 | ProgressReporter | Statisticky vyhodnotí pokrytí překladů pro jednotlivé jazyky a generuje vícejazyčné zprávy o průběhu (`docs/progress/progress_*.md`) |
 
 ---
 
-## 3. Principy modulů a technické detaily
+## 3. Principy modulů a technické podrobnosti
 
 ### 3.1 ConfigReader (`ConfigReaderService`)
 
-**Funkce**: Načítá a ověřuje všechny konfigurační soubory; je vstupním modulem pipeline.
+**Funkce**: Načítá a validuje všechny konfigurační soubory; je vstupním modulem celé pipeline.
 
-`ConfigReader` je první modul, který se spouští po startu pipeline. Jeho hlavní odpovědností je číst všechny konfigurační soubory v adresáři `config/`, deserializovat je do silně typovaného objektu `PipelineConfig` a provést ověření integrity po načtení.
+`ConfigReader` je prvním modulem, který se spouští po startu pipeline. Jeho hlavním úkolem je načíst všechny konfigurační soubory z adresáře `config/`, deserializovat je do silně typovaného objektu `PipelineConfig` a po načtení provést kontrolu integrity.
 
 Konkrétní úkoly zahrnují:
+- **Analýza hlavní konfigurace**: Načte `config/config.json` a deserializuje jej do objektu `PipelineConfig`. Tento objekt obsahuje všechny parametry za běhu, jako jsou parametry LLM, strategie souběžnosti, prahy RAG, parametry Steam API atd.
+- **Analýza klíčů**: Načte `config/secrets.json` a extrahuje citlivé informace, jako jsou LLM API Key, Steam Web API Key, klíč a adresa embeddingové služby.
+- **Kritická kontrola**: Zkontroluje, zda tři povinné klíče `LLM_KEY`, `STEAM_KEY` a `EMBEDDING_KEY` nejsou prázdné. Pokud je některý prázdný, vyvolá výjimku a ukončí pipeline. Klíče lze získat z `secrets.json` nebo z proměnných prostředí (proměnné prostředí mají vyšší prioritu).
+- **Analýza seznamu jazyků**: Načte `config/supported_languages.json` a vytvoří `List<LangInfoData>`. Tento seznam definuje všechny cílové jazyky (celkem 27), které pipeline zpracovává, a závisí na něm všechny následující moduly (překlad, výstup, reporty).
+- **Analýza seznamu referenčních modů**: Načte `config/ref_translation_mods.json` a získá seznam referenčních čínských modů, které slouží jako RAG korpus.
+- **Inicializace dočasných adresářů**: Vytvoří strukturu dočasných adresářů potřebnou pro toto spuštění (např. `runTempDir` pro ukládání mezisouborů, `downloadedModsTempDir` pro ukládání stažených modů), čímž zajistí, že následující moduly mají kam zapisovat.
 
-- **Analýza hlavní konfigurace**: Čtení `config/config.json`, deserializace do objektu `PipelineConfig`. Tento objekt obsahuje všechna běhová nastavení: parametry LLM, strategii souběžnosti, RAG prahy, parametry Steam API atd.
-- **Analýza tajemství**: Čtení `config/secrets.json`, extrakce citlivých informací jako LLM API klíč, Steam Web API klíč, klíč a adresa embeddingové služby.
-- **Kritické ověření**: Kontrola, zda `LLM_KEY`, `STEAM_KEY` a `EMBEDDING_KEY` — tři povinné klíče — jsou prázdné. Pokud je některý prázdný, je vyhozena výjimka k ukončení pipeline. Klíče lze získat z `secrets.json` nebo z proměnných prostředí (proměnné prostředí mají vyšší prioritu).
-- **Analýza seznamu jazyků**: Čtení `config/supported_languages.json`, vytvoření `List<LangInfoData>`. Tento seznam definuje všech 27 cílových jazyků, které pipeline potřebuje zpracovat; všechny následné moduly překladu, výstupu a reportů na něm závisí.
-- **Analýza seznamu referenčních modů**: Čtení `config/ref_translation_mods.json` pro získání seznamu referenčních překladových modů používaných jako RAG korpus.
-- **Inicializace dočasných adresářů**: Vytvoření struktury dočasných adresářů potřebné pro tento běh (např. `runTempDir` pro mezisoubory, `downloadedModsTempDir` pro stažené soubory modů), zajištění, že následné moduly mají zapisovatelná umístění.
-
-Podrobný popis konfiguračních polí naleznete v Sekci 5.
+Podrobný popis polí a jejich významů naleznete v kapitole 5.
 
 ### 3.2 RepoDataLoader (`RepoDataLoaderService`)
 
-**Funkce**: Spravuje načítání, porovnávání a udržování stavu všech lokálně uložených dat.
+**Funkce**: Spravuje načítání, porovnávání a údržbu stavu všech lokálních dat v mezipaměti.
 
-`RepoDataLoader` je "paměťový systém" pipeline. Při každém běhu pipeline načítá všechna data uložená z předchozího běhu (překladová mezipaměť, embeddingové vektory, metadata modů atd.) z lokálního souborového systému, což pipeline umožňuje identifikovat, který obsah je nový, který již byl zpracován a který se změnil. Bez tohoto modulu by pipeline musela zpracovávat všechny mody od začátku při každém běhu, což by bylo extrémně neefektivní.
+`RepoDataLoader` je "paměťový systém" pipeline. Při každém spuštění načte z lokálního souborového systému všechna data uložená z předchozího běhu (překladové cache, embeddingy, metadata modů atd.), což umožňuje pipeline rozpoznat, který obsah je nový, který již byl zpracován a který se změnil. Bez tohoto modulu by pipeline musela při každém běhu zpracovávat všechny mody od začátku, což by bylo velmi neefektivní.
 
-**Typy načítaných dat**:
+**Načítané datové typy**:
 
-| Data | Umístění úložiště | Účel po načtení |
+| Data | Umístění v úložišti | Použití po načtení |
 |------|----------|-------------|
-| Metadata modů | `data/modinfos.json` | Určení, které mody potřebují aktualizaci a které jsou zpracovávány poprvé |
-| Překladová mezipaměť | `data/translations/<iso>/*.txt` | Naplnění `TranslationEntry.translationValues`, zabránění opětovnému překladu již existujícího textu |
-| Embeddingové vektory | `data/embeddings/*.bin` | Zstd komprimovaná binární vektorová data; naplnění `embeddingValues`; vektory lze znovu použít, když se text nezmění |
-| Metadata položek | `data/entry_metadata/*.json` | Záznam `sourceHash`, `isActive` a dalších stavových informací pro každou položku |
+| Metadata modů | `data/modinfos.json` | Určuje, které mody je třeba aktualizovat a které se zpracovávají poprvé |
+| Překladové cache | `data/translations/<iso>/*.txt` | Vyplňuje `TranslationEntry.translationValues`, aby se zabránilo opakovanému překladu existujících textů |
+| Embedding vektory | `data/embeddings/*.bin` | Binární vektorová data komprimovaná Zstd, vyplňují `embeddingValues`, pokud se text nezměnil, lze vektory znovu použít |
+| Metadata položek | `data/entry_metadata/*.json` | Zaznamenává stavové informace jako `sourceHash`, `isActive` u každé položky |
 
 **Tři hlavní metody**:
-
-- `DiffTranslationEntries()`: Porovnává nově extrahované položky s položkami v mezipaměti jednu po druhé. Používá `sourceHash` (SHA256 hash základního textu) k určení, zda je každý text nový, upravený nebo nezměněný. Pouze nové a upravené položky potřebují postoupit k následným výpočtům embeddingů a překladu; nezměněné položky přímo znovu používají mezipaměť.
-- `ComputeSourceHash()`: Vypočítává SHA256 hash základního textu jako "otisk prstu" pro textový obsah. Pravděpodobnost kolize hashů je extrémně nízká, což jej činí spolehlivým pro detekci změn.
-- `MarkMissingFreshEntriesInactive()`: Pokud stará položka v mezipaměti není nalezena v nových výsledcích extrakce (což znamená, že autor modu tento text odstranil), je označena jako `isActive = false`, přičemž je zachován historický záznam, ale je vyloučena z budoucího překladu.
+- `DiffTranslationEntries()`: Porovnává nově extrahované položky s položkami v mezipaměti po jedné. Na základě `sourceHash` (SHA256 hash zdrojového textu) určuje, zda je každá textová položka nová (`new`), změněná (`changed`) nebo nezměněná (`unchanged`). Do následujícího výpočtu embeddingů a překladu vstupují pouze nové a změněné položky, nezměněné položky přímo používají mezipaměť.
+- `ComputeSourceHash()`: Vypočítá SHA256 hash zdrojového textu jako "otisk" obsahu. Pravděpodobnost kolize hash je extrémně nízká, takže lze spolehlivě detekovat změny.
+- `MarkMissingFreshEntriesInactive()`: Pokud některá stará položka v mezipaměti není nalezena v nově extrahovaných výsledcích (autor modu text odstranil), označí se jako `isActive = false`, historie zůstane zachována, ale položka se již neúčastní překladu.
 
 ### 3.3 ModIdCollector (`ModIdCollectorService`)
 
-**Funkce**: Shromažďuje všechna ID Steam Workshop modů čekajících na překlad z více zdrojů, slučuje a deduplikuje je do jednotného seznamu.
+**Funkce**: Shromažďuje všechna Steam Workshop Mod ID z více zdrojů, slučuje je a odstraňuje duplicity, čímž vytváří jednotný seznam ke zpracování.
 
-Pipeline potřebuje vědět, "které mody potřebují překlad". Tyto informace přicházejí ze dvou kanálů:
+Pipeline potřebuje vědět, "které mody je třeba přeložit". Tyto informace pocházejí ze dvou kanálů:
+**Zdroj 1 — AsOne vzdálený seznam komunity**:
+[AsOne](https://www.asone.fun/) je překladová platforma čínské překladatelské skupiny Project Zomboid, která udržuje veřejný seznam modů. Pipeline pomocí HTTP GET požadavku na její API (`api/Home/GetAllModinfo`) získává všechna registrovaná ID modů. Požadavek je odeslán anonymně, po 3 po sobě jdoucích časových limitech se vzdálený seznam přeskočí.
 
-**Zdroj 1 — Vzdálený komunitní seznam AsOne**:
+**Zdroj 2 — Lokální soubor s žádostmi o překlad**:
+`config/request_for_translation.txt` je ručně udržovaný seznam ID modů, každý řádek obsahuje jedno čistě číselné Workshop ID. Řádky začínající `#` jsou komentáře, prázdné řádky se automaticky přeskakují. Tento soubor slouží k doplnění modů, které nejsou pokryty v AsOne seznamu, ale které komunita potřebuje přeložit.
 
-[AsOne](https://www.asone.fun/) je čínská komunitní platforma pro Project Zomboid, která udržuje veřejný seznam modů. Pipeline získává všechna registrovaná ID modů prostřednictvím HTTP GET požadavku na její API (`api/Home/GetAllModinfo`). Požadavek je odesílán anonymně, a pokud vyprší časový limit 3krát po sobě, vzdálený seznam je přeskočen.
-
-**Zdroj 2 — Lokální soubor požadavků na překlad**:
-
-`config/request_for_translation.txt` je ručně udržovaný seznam ID modů, jedno číselné Workshop ID na řádek. Řádky začínající `#` jsou komentáře a jsou ignorovány; prázdné řádky jsou automaticky přeskakovány. Tento soubor doplňuje mody nepokryté seznamem AsOne, ale pro které má komunita potřeby překladu.
-
-**Strategie slučování**: Při slučování dvou seznamů ID má vzdálený seznam AsOne přednost; ID z lokálního souboru požadavků, která nejsou ve vzdáleném seznamu, jsou přidána jako doplněk. Existující ID nejsou duplikována. Konečným výstupem je deduplikovaný kompletní seznam ID.
+**Strategie slučování**: Při slučování ID seznamů z obou zdrojů je hlavní AsOne vzdálený seznam; ID z lokálního souboru, která nejsou ve vzdáleném seznamu, se přidávají jako doplněk. Již existující ID se nepřidávají znovu. Konečným výstupem je kompletní seznam ID bez duplicit.
 
 ### 3.4 ModInfoFetcher (`ModInfoFetcherService`)
 
-**Funkce**: Dávkově se dotazuje na podrobná metadata modů přes Steam Web API a určuje, které mody potřebují aktualizaci.
+**Funkce**: Dávkově dotazuje podrobná metadata modů pomocí Steam Web API a určuje, které mody je třeba aktualizovat.
 
-Po získání seznamu ID modů potřebuje pipeline znát základní informace o každém modu — název, autor, čas poslední aktualizace atd. Tyto informace se získávají prostřednictvím oficiálního Steam rozhraní `ISteamRemoteStorage/GetPublishedFileDetails/v1/`.
+Po získání seznamu Mod ID musí pipeline znát základní informace o každém modu – název, autora, čas poslední aktualizace atd. Tyto informace se získávají přes oficiální Steam rozhraní `ISteamRemoteStorage/GetPublishedFileDetails/v1/`.
 
-**Podrobnosti práce**:
-
-- **Dávkové požadavky**: Steam API má limit množství na volání, proto pipeline odesílá požadavky v dávkách po `steamApiChunkSize` (výchozí 100). Mezi dávkami jsou vkládány vhodné intervaly, aby se předešlo spuštění limitů frekvence.
-- **Mechanismus odolnosti proti chybám**: Pokud 5 po sobě jdoucích dávek zcela selže (možná kvůli problémům se sítí nebo dočasné nedostupnosti API), pipeline ukončí dotazování a zachová částečně úspěšná data, místo aby zahodila všechny výsledky.
+**Pracovní podrobnosti**:
+- **Dělené požadavky**: Steam API má omezení počtu volání, proto pipeline odesílá požadavky v dávkách podle `steamApiChunkSize` (výchozí 100). Mezi dávkami je vhodný odstup, aby nedošlo k omezování toku.
+- **Mechanismus tolerance chyb**: Pokud selže 5 po sobě jdoucích dávek (kvůli síťovým problémům nebo dočasné nedostupnosti API), pipeline ukončí dotazování a uchová již úspěšně získaná data, místo aby zahodila všechny výsledky.
 - **Mapování klíčových polí**:
-  - `consumer_app_id`: Určuje, zda položka patří k Project Zomboid (App ID = `108600`). Položky nepatřící k PZ jsou označeny `isAvailable = false` a přeskočeny při stahování.
-  - `time_updated`: Čas poslední aktualizace zaznamenaný Steamem. Porovnává se s `timeModUpdated` v mezipaměti; pokud je první novější, nastaví se `needsUpdate = true`, což znamená, že obsah modu se mohl změnit a potřebuje opětovnou extrakci a překlad.
-  - `title` → mapováno na `modName` (název modu).
-  - `creator` → přezdívka tvůrce získána přes Steam uživatelské rozhraní.
+- `consumer_app_id`: Určuje, zda položka patří do Project Zomboid (App ID = `108600`). Mody, které nepatří do PZ, jsou označeny `isAvailable = false` a následně přeskočeny při stahování.
+- `time_updated`: Čas poslední aktualizace zaznamenaný Steamem. Porovná se s `timeModUpdated` v mezipaměti; pokud je novější, nastaví se `needsUpdate = true`, což znamená, že obsah modu se mohl změnit a je třeba znovu extrahovat a přeložit.
+- `title` → mapuje se na `modName` (název modu).
+- `creator` → Získává se přezdívka tvůrce přes Steam uživatelské rozhraní.
 
 ### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
 
-**Funkce**: Připraví běhové prostředí steamcmd pro aktuální platformu před zahájením jakýchkoli operací stahování.
+**Funkce**: Před zahájením všech stahování připraví běhové prostředí steamcmd dostupné pro aktuální platformu.
 
-- **Linux**: Vyčistí staré běhové soubory v `src/3rd_party/steamcmd/`, stáhne a rozbalí oficiální `steamcmd_linux.tar.gz` a nastaví oprávnění ke spuštění pro `steamcmd.sh`.
-- **Windows**: Žádné stahování archivu; přímo spustí `steamcmd.exe +quit` dodaný s repozitářem v `src/3rd_party/steamcmd/`, aby se SteamCMD sám aktualizoval.
-- **Zpracování chyb**: Selhání stahování, rozbalení nebo ověření spustitelného souboru přeruší pipeline, aby se zabránilo použití neúplného běhového prostředí během fáze stahování.
+- **Linux**: Vyčistí staré běhové soubory v `src/3rd_party/steamcmd/`, stáhne a rozbalí oficiální `steamcmd_linux.tar.gz` a nastaví spustitelná oprávnění pro `steamcmd.sh`.
+- **Windows**: Nestahuje archiv; přímo v `src/3rd_party/steamcmd/` spustí dodaný `steamcmd.exe +quit`, čímž nechá SteamCMD provést vlastní aktualizaci.
+- **Zpracování chyb**: Selhání stahování, rozbalení nebo ověření spustitelného souboru ukončí pipeline, aby se zabránilo použití neúplného běhového prostředí během stahování.
 
 ### 3.5.1 ModDownloader (`ModDownloaderService`)
 
-**Funkce**: Používá nástroj příkazové řádky steamcmd ke stahování souborů Steam Workshop modů.
+**Funkce**: Stahuje soubory modů z Steam Workshop pomocí nástroje příkazové řádky steamcmd.
 
-[steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD) je oficiální Steam klient s rozhraním příkazové řádky od Valve, který podporuje anonymní přihlášení a stahování obsahu Workshopu. Pipeline stahuje soubory modů voláním steamcmd.
+[steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD) je oficiální Steam klient pro příkazový řádek od Valve, který podporuje anonymní přihlášení a stahování Workshop obsahu. Pipeline pomocí volání steamcmd realizuje dávkové stahování souborů modů.
 
 **Proces stahování**:
+1. **Kopírování steamcmd**: Zkopíruje `src/3rd_party/steamcmd/` do dočasného adresáře vyhrazeného pro dávku. Důvodem je, že každá stahovací dávka spouští vlastní proces steamcmd; pokud by více procesů sdílelo stejný soubor, mohlo by dojít ke konfliktům.
+2. **Provedení příkazu ke stažení**: Spustí `steamcmd +login anonymous +workshop_download_item 108600 <modId> +quit`. Zde `108600` je App ID Project Zomboid, `anonymous` znamená anonymní přihlášení (stahování z Workshopu nevyžaduje účet).
+3. **Ověření výsledku**: Analyzuje standardní výstup a logy steamcmd, určí skutečný výstupní adresář Workshopu a poté přesune stažené výsledky; při selhání provede opakování podle strategie opakování stahování Steam.
+4. **Obnovení přerušeného stahování**: Již úspěšně stažené mody se automaticky přeskočí, aby se neopakovalo stahování.
 
-1. **Kopírování steamcmd**: Kopírování `src/3rd_party/steamcmd/` do dočasného adresáře specifického pro dávku. To proto, že každá dávka stahování spouští nezávislý steamcmd proces, a pokud by více procesů sdílelo stejné soubory, mohlo by dojít ke konfliktům.
-2. **Spuštění příkazu stahování**: Spuštění `steamcmd +login anonymous +workshop_download_item 108600 <modId> +quit`. Kde `108600` je App ID Project Zomboid a `anonymous` znamená anonymní přihlášení (stahování Workshopu nevyžaduje účet).
-3. **Ověření výsledku**: Analýza výstupních logů steamcmd pro potvrzení úspěšnosti stahování. Pokud selže, automaticky se opakuje podle nakonfigurovaného počtu opakování (`steamMaxRetries + 1`).
-4. **Obnovení stahování**: Úspěšně stažené mody jsou automaticky přeskakovány a nejsou znovu stahovány.
-
-**Podrobnosti správy procesů**:
-
-- Použití globálního `ConcurrentDictionary` ke sledování všech aktivních steamcmd procesů.
-- Registrace obslužných rutin `Ctrl+C` a `ProcessExit` pro zajištění, že při ručním přerušení nebo abnormálním ukončení pipeline jsou všechny podprocesy vyčištěny (`Kill(entireProcessTree: true)`), aby se zabránilo zbytkovým zombie procesům.
-- Steamcmd procesy čekají asynchronně přes `WaitForExitAsync()`, bez nastaveného časového limitu — pokud proces zamrzne, musí být ukončen prostřednictvím výše uvedených obslužných rutin pro vyčištění pipeline.
+**Zdroj běhového prostředí**: Každá stahovací dávka kopíru
 
 ### 3.6 ContentExtractor (`ContentExtractorService`)
 
-**Funkce**: Analyzuje stažené soubory modů a extrahuje veškerý přeložitelný text, klíčový krok "porozumění modu" v pipeline.
+**功能**: 从下载的模组文件中解析并提取所有可翻译的文本内容，是管线中"理解模组"的关键步骤。
 
-Mody Project Zomboid ukládají překladový text do specifických adresářů. Úkolem `ContentExtractor` je procházet tyto adresáře, analyzovat formáty souborů TXT (formát Lua) a JSON a extrahovat každý pár klíč-hodnota "originál → překlad".
+Project Zomboid 的模组将翻译文本存放在特定目录下。`ContentExtractor` 的任务是遍历这些目录，解析 TXT（Lua 格式）和 JSON 两种文件格式，抽取出每一条"原文 → 译文"的键值对。
 
-**Cesty skenování**:
-
+**扫描路径**：
 ```
 <mod_root>/**/Translate/<game_code>/*.txt|*.json
 ```
 
-Tedy v libovolné hloubce pod kořenem modu hledat soubory `.txt` nebo `.json` ve složkách `Translate/<kód jazyka>/`.
+V libovolné hloubce v kořenovém adresáři modulu vyhledejte soubory `.txt` nebo `.json` ve složce `Translate/<jazykový kód>/`.
 
-**Mapování jazykových kódů** (kód ve hře → ISO kód):
+**Mapování jazykových kódů** (herní kód → ISO normovaný kód):
 
-| Kód hry | ISO | Jazyk |
+| Herní kód | ISO | Jazyk |
 |----------|-----|------|
 | CN | zh-hans | Zjednodušená čínština |
 | CH | zh-hant | Tradiční čínština |
-| EN | en | English |
-| JP | ja | 日本語 |
+| EN | en | Angličtina |
+| JP | ja | Japonština |
 | ... | ... | ... |
 
 **Analýza TXT (formát PZ Lua)**:
-
-Tradiční překladové soubory PZ používají formát podobný Lua tabulkám. Proces analýzy je následující:
-
-1. **Filtrování nepřekladových souborů**: Přeskakování souborů jako `TranslationNotes`, `TranslationBy`, `Code - TXT`, `Credits`, `Language` a dalších metainformačních souborů, které neobsahují skutečný překladový obsah.
-2. **Lokalizace hlavního klíče (masterKey)**: Použití regexu k nalezení deklarací bloků jako `UI_NewCharScreen = {` a extrakce masterKey. Hlavní klíč je první částí překladového klíče, odpovídající názvu modulu UI v PZ.
-3. **Analýza řádek po řádku**: Uvnitř každého bloku masterKey analýza každého překladu ve formátu `key = "value"`. Kompletní `translationKey` vzniká spojením `masterKey_key` (např. `UI_NewCharScreen_Start`).
-4. **Spojování řetězců**: Lua soubory PZ podporují operátor `..` pro spojování řetězců (např. `"Hello " .. "World"`) a analyzátor vypočítává výsledek spojení.
-5. **Kompatibilita se stylem JSON**: Některé mody míchají zápis ve stylu JSON `"key": "value"` v TXT souborech a analyzátor to také podporuje.
-6. **Zpracování výjimek**: Řádky, které nelze analyzovat, jsou zapsány do logovacího souboru `fuck.txt` pro ruční kontrolu a opravu chyb analyzátoru.
+Tradiční překladové soubory PZ používají formát podobný Lua table. Postup analýzy je následující:
+1. **Filtrování nepřekladových souborů**: Přeskočit soubory metainformací jako `TranslationNotes`, `TranslationBy`, `Code - TXT`, `Credits`, `Language` – tyto soubory neobsahují skutečný překladový obsah.
+2. **Identifikace hlavního klíče (masterKey)**: Pomocí regulárního výrazu najděte deklaraci bloku jako `UI_NewCharScreen = {` a extrahujte masterKey. masterKey je první část překladového klíče, odpovídá názvu UI modulu v PZ.
+3. **Analýza po řádcích**: Uvnitř každého bloku masterKey analyzujte každý překlad ve formátu `key = "value"`. Celý translationKey se skládá z `masterKey_key` (např. `UI_NewCharScreen_Start`).
+4. **Spojování řetězců**: Lua soubory PZ podporují operátor `..` pro spojování řetězců (např. `"Hello " .. "World"`), analyzátor spočítá výsledek.
+5. **Kompatibilita s JSON**: Některé mody používají v TXT souborech smíšený JSON zápis `"key": "value"`, analyzátor jej také podporuje.
+6. **Zpracování výjimek**: Neanalyzovatelné řádky se zapíší do souboru `fuck.txt` pro ruční kontrolu a opravu chyb analyzátoru.
 
 **Analýza JSON**:
-
-Nové verze PZ (Build 42+) začaly podporovat překladové soubory ve formátu JSON. Analyzátor rekurzivně rozvíjí vnořené JSON objekty a zplošťuje je do plochých párů klíč-hodnota. Také je kompatibilní s koncovými čárkami a komentáři, nestandardní JSON syntaxí, pro zvládání různých stylů zápisu autorů modů.
+Novější verze PZ (Build 42+) začínají podporovat překladové soubory ve formátu JSON. Analyzátor rekurzivně rozloží vnořené JSON objekty na ploché páry klíč–hodnota. Zároveň je kompatibilní s ne‑standardní JSON syntaxí (např. koncové čárky a komentáře), aby zvládal různé způsoby zápisu autorů modů.
 
 **Pravidla slučování**:
+Když se stejný překladový klíč objeví ve více souborech (např. tentýž mod poskytuje soubory pro verze 42 a 42.19), je třeba rozhodnout, který zachovat. Pravidla jsou:
+- **Priorita formátu**: JSON přepisuje TXT. Důvod: JSON je nový standardní formát PZ a měl by být preferován. Interně se rozlišuje výčtem `SourceKind` (JSON = 1, TXT = 0).
+- **Priorita verze**: U stejného formátu se zachovává soubor s nejvyšším herním číslem verze. Pravidla analýzy verzí viz níže.
+- **Úplný záznam**: Pole `containingFileInfos` zaznamenává informace o všech zdrojových souborech (včetně vyřazených), aby byla zajištěna dohledatelnost.
 
-Když se stejný překladový klíč objeví ve více souborech (např. mod současně poskytuje překladové soubory pro verzi 42 a 42.19), je třeba rozhodnout, který zachovat. Pravidla jsou následující:
-
-- **Priorita formátu**: JSON překrývá TXT. Důvodem je, že JSON je nový standardní formát PZ a měl by být upřednostněn. Interně se používá výčet `SourceKind` pro rozlišení (JSON = 1, TXT = 0).
-- **Priorita verze**: Ve stejném formátu se zachovává ta s nejvyšším číslem verze hry. Pravidla analýzy čísla verze viz níže.
-- **Kompletní záznam**: Pole `containingFileInfos` zaznamenává informace o všech zdrojových souborech (včetně vyřazených), což zajišťuje dohledatelnost.
-
-**Pravidla analýzy čísla verze**:
-
+**Pravidla analýzy čísel verzí**:
 ```
-Bez čísla verze → 0.0
-common          → 1.0
-42              → 42.0
-42.19           → 42.19
+无版本号 → 0.0
+common   → 1.0
+42       → 42.0
+42.19 → 42.19
 ```
 
 ### 3.7 ContentChecker (`ContentCheckerService`)
 
-**Funkce**: Používá LLM k provedení bezpečnostní kontroly textu modů před překladem, filtrování modů obsahujících zakázaný obsah.
+**Funkce**: Před překladem provést bezpečnostní kontrolu textů modů a filtrovat mody obsahující nevhodný obsah.
 
-Automatizovaný překladový pipeline potřebuje zpracovávat libovolný obsah modů z internetu, který může obsahovat text porušující zásady platformy nebo regionální zákony. `ContentChecker` používá LLM k provedení automatizované kontroly, zajišťující, že výstup překladu pipeline neobsahuje zakázaný obsah.
+Automatický překladový pipeline musí zpracovávat libovolný obsah modů z internetu, který může obsahovat texty porušující pravidla platformy nebo zákony. `ContentChecker` používá LLM k automatické kontrole obsahu modů, aby zajistil, že výstup pipeline neobsahuje závadný obsah.
 
-**Dimenze kontroly** (tři červené linie):
+**Dimenze kontroly** (tři kategorie červených čar):
 
-| Kategorie | Kritérium určení |
+| Kategorie | Kritéria hodnocení |
 |------|---------|
-| **Drogy** | Popis užívání, injekčního podávání, výroby, obchodování s drogami; glorifikace nebo podněcování k drogovému chování; metaforické odkazování na skutečné drogy virtuálním způsobem |
-| **Sexuální zneužívání dětí** | Jakýkoli obsah se sexuálními narážkami zahrnující osoby mladší 14 let |
-| **Znásilnění** | Popis nebo glorifikace nedobrovolného sexuálního chování, včetně násilného donucení, omámení drogami atd. |
+| **Drogy** | Popisuje užívání, injekční aplikaci, výrobu, obchodování s drogami; zkrášlování nebo podněcování k užívání drog; metaforicky odkazuje na skutečné drogy virtuálními prostředky |
+| **Sexuální chování s dětmi** | Jakýkoli sexuálně sugestivní obsah týkající se nezletilých mladších 14 let |
+| **Znásilnění** | Popis nebo zkrášlování nedobrovolného sexuálního chování, včetně násilného donucení, omamných látek atd. |
 
 **Mechanismus kontroly**:
+- **Strategie vzorkování**: Každý mod může mít až 1000 základních textů jako vzorky pro kontrolu, celkový počet znaků všech vzorků nepřesahuje 60 000. Tím je pokryt hlavní obsah modů, aniž by došlo k překročení kontextového okna LLM.
+- **Ořezávání textu**: Jednotlivé texty delší než 1600 znaků jsou oříznuty na prvních 1600 znaků pro kontrolu. Extrémně dlouhé texty jsou obvykle konfigurační data, nikoli přirozený jazyk, ořezání neovlivňuje posouzení.
+- **Kontrola LLM**: Volá model `deepseek-v4-flash`, používá JSON Mode pro výstup strukturovaného závěru kontroly (včetně výsledku a spolehlivosti).
+- **Strategie ukládání do mezipaměti**: Výsledky kontroly jsou ukládány na 90 dní (řízeno `contentCheckIntervalDays`). Během platnosti mezipaměti se stejný mod nekontroluje znovu.
+- **Přechod stavů**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
-- **Strategie vzorkování**: Z každého modu je odebráno maximálně 1000 položek základního textu jako kontrolní vzorek a celkový počet znaků všech vzorků nepřesahuje 60 000. To zajišťuje pokrytí hlavního obsahu modu bez překročení kontextového okna LLM.
-- **Zkrácení textu**: Text přesahující 1600 znaků je zkrácen, přičemž je zachováno prvních 1600 znaků pro kontrolu. Extrémně dlouhý text jsou obvykle konfigurační data, nikoli přirozený jazyk, a zkrácení neovlivňuje posouzení.
-- **LLM kontrola**: Volání modelu `deepseek-v4-flash` s použitím JSON Mode pro výstup strukturovaných závěrů kontroly (včetně výsledku posouzení a důvěryhodnosti).
-- **Strategie mezipaměti**: Výsledky kontroly jsou ukládány do mezipaměti po dobu 90 dnů (řízeno `contentCheckIntervalDays`). Během doby platnosti mezipaměti není stejný mod znovu kontrolován.
-- **Tok stavů**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
-
-**Mechanismus lidské kontroly**: Když je důvěryhodnost vrácená LLM nižší než 0,7, výsledek kontroly je považován za nedostatečně spolehlivý a stav modu zůstává `NEEDVERIFICATION`, čekající na lidské posouzení. To zabraňuje chybné filtraci normálních modů kvůli chybě LLM.
+**Mechanismus ručního přezkoumání**: Pokud je spolehlivost vrácená LLM nižší než 0,7, je výsledek kontroly považován za nespolehlivý a stav modu zůstává `NEEDVERIFICATION`, čeká na ruční posouzení. Tím se zabrání chybnému filtrování normálních modů kvůli chybě LLM.
 
 ### 3.8 EmbeddingFetcher (`EmbeddingFetcherService`)
 
-**Funkce**: Volá vzdálenou embeddingovou službu pro generování vektorových embeddingů pro každý překládaný text, pro použití při RAG vyhledávání.
+**Funkce**: Volá vzdálenou embeddingovou službu, aby pro každý text k překladu vygenerovala vektorový embedding (Embedding) pro použití při RAG vyhledávání.
 
-Embeddingové vektory jsou matematickým nástrojem v moderním NLP pro reprezentaci sémantiky textu — sémanticky podobné texty mají své vektory v prostoru blízko sebe. Pipeline používá embeddingové vektory k dosažení klíčové funkce "najít referenční překlady sémanticky nejpodobnější aktuálnímu překládanému textu".
+Vektorové embeddingy jsou matematické nástroje v moderním NLP pro reprezentaci sémantiky textu – texty s podobným významem mají vektorové vzdálenosti blízko. Pipeline používá embeddingy k realizaci klíčové funkce „najít referenční překlad sémanticky nejpodobnější aktuálně překládanému textu“.
 
-**Proč používat vzdálenou službu?** Embeddingový model (jako `bge-small-en-v1.5`), ačkoli je malý, vyžaduje při lokálním běhu načtení vah modelu do paměti. Vzhledem k omezení paměti GitHub Actions runnerů (obvykle 7GB) a potřebě samotné pipeline na velké množství paměti pro zpracování překladových úloh je přesun výpočtů embeddingů na dedikovanou vzdálenou službu rozumnější volbou.
+**Proč používat vzdálenou službu?** Embeddingové modely (např. `bge-small-en-v1.5`) nejsou sice objemné, ale při lokálním běhu je třeba načíst váhy modelu do paměti. S ohledem na omezení paměti běhového prostředí GitHub Actions (obvykle 7 GB) a skutečnost, že pipeline již vyžaduje velkou paměť pro překladové úlohy, je přesun embeddingových výpočtů na vzdálenou dedikovanou službu rozumnější volbou.
 
 **Komunikační protokol**:
+Embeddingová služba používá lehký bezstavový autentizační mechanismus:
+1. **UDP knock**: Nejprve se službě pošle UDP packet jako knock signál.
+2. **Šifrování AES-256-GCM**: Následná HTTP komunikace je šifrována pomocí AES-256-GCM, klíč je odvozen z `EMBEDDING_KEY` v `secrets.json` pomocí SHA256.
+3. **HTTP POST**: Samotný přenos dat probíhá přes HTTP POST.
 
-Embeddingová služba používá odlehčené bezestavové autentizační schéma:
-1. **UDP zaklepání**: Nejprve je odeslán UDP paket jako signál zaklepání.
-2. **AES-256-GCM šifrování**: Následná HTTP komunikace je šifrována pomocí AES-256-GCM, s klíčem odvozeným z `EMBEDDING_KEY` v `secrets.json` přes SHA256.
-3. **HTTP POST**: Skutečný přenos dat probíhá přes HTTP POST.
-
-Tento design zabraňuje riziku přenosu API klíče v čistém textu v tradičních HTTP hlavičkách, při zachování bezestavové povahy serveru.
+Tento návrh se vyhýbá riziku přenosu tradičního API klíče v HTTP hlavičce v čistém textu a zároveň zachovává bezstavovou povahu serveru.
 
 **Technické parametry**:
 
 | Parametr | Hodnota | Popis |
 |------|-----|------|
-| Embeddingový model | `bge-small-en-v1.5` | Lehký anglický embeddingový model od BAAI |
-| Dimenze vektoru | 384 | Každý text je mapován na 384 hodnot float32 |
-| Zkrácení vstupu | 500 UTF-8 znaků | Text přesahující tuto délku je před odesláním do modelu zkrácen |
-| Velikost dávky | 32 | Každý požadavek odesílá 32 textů, vyvažující propustnost a latenci |
-| Formát úložiště | Zstd komprimovaný binární | Kompresní poměr přibližně 4:1, významná úspora místa na disku |
+| Embeddingový model | `bge-small-en-v1.5` | Lehký anglický embeddingový model vydaný BAAI |
+| 向量维度 | 384 | 每条文本映射为 384 个 float32 数值 |
+| 输入截断 | 500 UTF-8 字符 | 超过此长度的文本截断后送入模型 |
+| 批量大小 | 32 | 每次请求发送 32 条文本，平衡吞吐与延迟 |
+| 存储格式 | Zstd 压缩二进制 | 压缩比约 4:1，显著节省磁盘空间 |
 
-**Tok zpracování**:
+**处理流程**：
+1. **收集候选**（`BuildCandidates`）：收集所有缺少嵌入向量的条目，包括本次运行发现的新增/修改条目（diff）、参考翻译条目、以及需要回填（backfill）的历史条目。
+2. **哈希去重**：相同文本内容的条目必然产生相同的哈希值，这种情况下直接复用已有的嵌入向量，避免重复计算。
+3. **分批发送**：将候选条目按每批 32 条打包，逐批发送至嵌入服务。连续失败 ≥3 批则终止嵌入阶段。
+4. **持久化存储**：获取到的向量以 Zstd 压缩格式写入 `data/embeddings/<modId>.bin`。
 
-1. **Sběr kandidátů** (`BuildCandidates`): Sběr všech položek postrádajících embeddingové vektory, včetně nových/upravených položek z tohoto běhu (diff), položek referenčních překladů a historických položek vyžadujících doplnění (backfill).
-2. **Deduplikace pomocí hashů**: Texty s identickým obsahem nutně vytvářejí stejnou hodnotu hash, a v tomto případě jsou přímo znovu použity existující embeddingové vektory, čímž se zabraňuje redundantním výpočtům.
-3. **Dávkové odesílání**: Seskupení kandidátních položek do dávek po 32 a jejich odesílání dávku po dávce do embeddingové služby. Selhání ≥3 po sobě jdoucích dávek ukončí fázi embeddingů.
-4. **Perzistentní úložiště**: Získané vektory jsou ukládány ve formátu Zstd komprimovaném do `data/embeddings/<modId>.bin`.
-
-**Mechanismus doplňování Backfill**: Když pipeline poprvé podporuje nový jazyk, historická mezipaměť může obsahovat velké množství položek postrádajících embeddingové vektory pro tento jazyk. Pokud by byly embeddingy vypočítány pro všechny tyto položky najednou, tlak na službu by byl obrovský a čas extrémně dlouhý. Mechanismus Backfill omezuje každý běh na maximálně 10 000 000 chybějících embeddingů, čímž rozkládá pracovní zátěž do více běhů postupně.
+**Backfill 回填机制**：当管线首次支持一种新语言时，历史缓存中可能存在大量缺少该语言嵌入向量的条目。如果一次性为所有这些条目计算嵌入，服务压力巨大且耗时极长。Backfill 机制限制每次运行最多回填 10,000,000 个缺失嵌入，将工作量分散到多次运行中逐步完成。
 
 ### 3.9 TranslationBatcher (`TranslationBatcherService`)
 
-**Funkce**: Seskupuje položky k překladu podle modu a tokenového rozpočtu do překladových dávek (`TranslationBatch`), jako základní jednotky pro LLM překlad.
+**功能**: 将待翻译条目按 mod 和 token 预算打包为翻译批次（`TranslationBatch`），作为 LLM 翻译的基本单位。
 
-Přímý překlad položku po položce je neefektivní — latence síťového round-tripu každého volání API je mnohem větší než čas inference modelu. `TranslationBatcher` seskupuje více textů k překladu do dávek, takže každé volání API zpracuje více textů, což významně zvyšuje propustnost.
+直接逐条翻译效率低下——每次 API 调用的网络往返延迟远大于模型推理时间。`TranslationBatcher` 将多条待翻译文本打包成批次，使每次 API 调用能处理多条文本，显著提升吞吐量。
 
-**Strategie dávkování**:
+**打包策略**：
+1. **优先级排序**：模组按优先级降序排列。优先级由订阅数（subscription）和收藏数（favorite）加权计算——越受欢迎的模组越先翻译。
+2. **双重约束**：每个批次受两个上限同时约束：
+   - `batch_size`（条目数上限，默认 30）：一个批次最多包含 30 条翻译条目。
+   - `batch_token_budget`（token 预算，默认 2000）：一个批次的输入文本 token 总量不能超过 2000。即使条目数未达上限，token 预算耗尽也会截断批次。
+3. **同 mod 聚集**：同一模组的条目尽量打包在同一个批次中。这有助于 LLM 理解同一模组内的术语一致性，避免上下文碎片化。
+4. **语言标记**：每个 `TranslationBatch` 都带有 `targetLang` 字段，表示该批次的翻译目标语言。不同目标语言的条目绝不会混在同一个批次中。
 
-1. **Řazení podle priority**: Mody jsou řazeny sestupně podle priority. Priorita je vypočítána vážením počtu odběratelů (subscription) a oblíbených (favorite) — populárnější mody jsou překládány dříve.
-2. **Dvojité omezení**: Každá dávka je omezena dvěma současnými horními limity:
-   - `batch_size` (limit počtu položek, výchozí 30): Dávka obsahuje maximálně 30 překladových položek.
-   - `batch_token_budget` (tokenový rozpočet, výchozí 2000): Celkový počet tokenů vstupního textu dávky nepřesahuje 2000. I když počet položek nedosáhne limitu, při vyčerpání tokenového rozpočtu je dávka zkrácena.
-3. **Seskupování podle modu**: Položky stejného modu jsou seskupovány do stejné dávky co nejvíce. To pomáhá LLM porozumět terminologické konzistenci v rámci stejného modu a zabraňuje fragmentaci kontextu.
-4. **Označení jazykem**: Každá `TranslationBatch` nese pole `targetLang`, představující cílový jazyk překladu. Položky různých cílových jazyků nejsou nikdy smíchány ve stejné dávce.
+**Token 估算方式**：由于管线不依赖特定的 tokenizer 库（避免引入额外依赖），使用了一个简化的估算方法——英文文本按空格和标点符号分词后粗略估算 token 数量。这个估算值用于预算控制，不需要绝对精确。
 
-**Metoda odhadu tokenů**: Protože pipeline nezávisí na konkrétní knihovně tokenizeru (aby se předešlo dalším závislostem), používá se zjednodušená metoda odhadu — anglický text je přibližně tokenizován podle mezer a interpunkčních znamének pro odhad počtu tokenů. Tato odhadní hodnota se používá pro kontrolu rozpočtu a nevyžaduje absolutní přesnost.
-
-**Záměr návrhu — Seskupování podle modu**: Seskupování položek stejného modu do stejné dávky co nejvíce, namísto míchání napříč mody pro dosažení vyšší míry naplnění dávek. To proto, že LLM při překladu využívá kontextové informace v rámci stejné dávky k udržení terminologické konzistence — texty stejného modu sdílejí stejný terminologický systém a narativní styl, a jejich společné umístění pro překlad pomáhá LLM vytvářet stylově jednotné překlady.
+**设计意图 — 同模组聚集**：将同一模组的条目尽量打包在同一批次中，而非跨模组混排以追求更高的批次填充率。这是因为 LLM 在翻译时会利用同批次内的上下文信息来保持术语一致性——同一模组的文本共享相同的术语体系和叙事风格，放在一起翻译有助于 LLM 产出风格统一的译文。
 
 ### 3.10 RagContextRetriever (`RagContextRetrieverService`)
 
-**Funkce**: Na základě vektorové podobnosti vyhledává z korpusu referenčních překladů nejpodobnější existující překlady k překládanému textu, jako referenční kontext pro LLM překlad.
+**功能**: 基于向量相似度，从参考翻译语料库中检索与待译文本最相似的已有翻译，作为 LLM 翻译时的上下文参考。
 
-RAG (Retrieval-Augmented Generation) je **klíčovou zárukou** kvality překladu této pipeline. Jeho základní myšlenkou je: nechat LLM "vidět" podobné příklady překladů z komunitních lidských překladů při překladu každého textu, aby se naučil jejich styl, terminologii a způsob vyjadřování.
+RAG（Retrieval-Augmented Generation，检索增强生成）是本管线翻译质量的**核心保障**。其基本思路是：让 LLM 在翻译每条文本时，能够"看到"社区人工翻译的相似例句，从而学习其风格、术语和表达方式。
 
-**Tok vyhledávání**:
+**检索流程**：
+1. **构建参考索引**（`BuildReferences`）：从参考翻译条目和已有翻译中，筛选出与当前翻译方向匹配的条目（即 `embeddingKey = "en:zh-hans"` 这类"从英文到目标语言"的条目），将其嵌入向量加载到内存中作为检索索引。
+2. **精确匹配查找**（`BuildExactReferenceLookup`）：对于 translationKey 完全相同的条目，直接建立映射关系——相同的 key 意味着翻译的是同一段文本，这是最强的参考信号。
+3. **余弦相似度计算**：对每条待译文本的查询向量（query embedding），遍历参考索引中的所有参考向量（reference embedding），计算两者之间的余弦相似度。余弦相似度取值范围为 [-1, 1]，越接近 1 表示语义越相近。
+4. **阈值过滤**：相似度低于 `similarity_threshold`（默认 0.8）的参考结果被丢弃。这个阈值确保了只有高度相关的参考翻译才会被采纳。
+5. **Top-K zkrácení**: Z kandidátů, kteří prošli prahem, se vybere K (výchozí 3) s nejvyšší podobností, které se použijí jako referenční kontext pro překlad LLM.
 
-1. **Vytvoření referenčního indexu** (`BuildReferences`): Z položek referenčních překladů a existujících překladů filtrovat položky odpovídající aktuálnímu směru překladu (tj. položky s `embeddingKey = "en:zh-hans"`, typu "z angličtiny do cílového jazyka") a načíst jejich embeddingové vektory do paměti jako vyhledávací index.
-2. **Vytvoření vyhledávání přesné shody** (`BuildExactReferenceLookup`): Pro položky s přesně stejným `translationKey` vytvořit přímou mapovací relaci — stejný klíč znamená překlad stejného textu, což je nejsilnější referenční signál.
-3. **Výpočet kosinové podobnosti**: Pro každý dotazový vektor (query embedding) překládaného textu projít všechny referenční vektory (reference embedding) v referenčním indexu a vypočítat mezi nimi kosinovou podobnost. Rozsah hodnot kosinové podobnosti je [-1, 1], a čím blíže k 1, tím větší je sémantická podobnost.
-4. **Filtrování prahem**: Referenční výsledky s podobností nižší než `similarity_threshold` (výchozí 0.8) jsou zahozeny. Tento práh zajišťuje, že jsou přijaty pouze vysoce relevantní referenční překlady.
-5. **Zkrácení Top-K**: Z kandidátů, kteří překročili práh, vzít K výsledků s nejvyšší podobností (výchozí 3) jako referenční kontext pro LLM překlad.
+**性能优化**：检索涉及大量的向量点积运算（384 维 × 数万条参考 × 数万条查询），计算量巨大。管线使用 `Parallel.For` 实现多线程并行计算，并在内层循环中使用 `Vector128` SIMD 指令加速点积运算，充分利用现代 CPU 的向量计算能力。
 
-**Optimalizace výkonu**: Vyhledávání zahrnuje obrovské množství operací skalárního součinu vektorů (384 dimenzí × desítky tisíc referencí × desítky tisíc dotazů), s obrovskou výpočetní zátěží. Pipeline používá `Parallel.For` pro vícevláknové paralelní výpočty a ve vnitřní smyčce používá instrukce `Vector128` SIMD pro akceleraci operací skalárního součinu, plně využívající vektorové výpočetní schopnosti moderních CPU.
-
-**Propojení s LLMTranslator**: Po dokončení vyhledávání jsou Top-K referenční překlady pro každý překládaný text zapsány do odpovídajících polí RAG kontextu každé položky v `TranslationBatch`. `LLMTranslator` při vytváření překladového Promptu (viz sekce 3.11 `BuildPromptItems`) vkládá tyto referenční překlady jako kontext do Promptu, aby je LLM použil jako referenci.
+**与 LLMTranslator 的衔接**：检索完成后，每条待译文本的 Top-K 参考翻译被写入 `TranslationBatch` 中各条目对应的 RAG 上下文字段。`LLMTranslator` 在构建翻译 Prompt 时（见 3.11 节 `BuildPromptItems`），将这些参考翻译作为上下文注入 Prompt，供 LLM 参考。
 
 ### 3.11 LLMTranslator (`LLMTranslatorService`)
 
-**Funkce**: Volá API velkého jazykového modelu k provedení skutečné překladové úlohy a je nejsložitějším modulem pipeline.
+**Funkce**: Volá API velkého jazykového modelu k provedení skutečného překladu, je nejsložitějším modulem celé pipeline.
 
-`LLMTranslator` je zodpovědný nejen za vytváření Promptu a analýzu odpovědi, ale zahrnuje také kompletní inženýrské mechanismy, jako je zahřívací sondování (warmup), dynamická kontrola souběžnosti, ochrana paměti a opakování při chybách.
+`LLMTranslator` nejen sestavuje Prompt a analyzuje odpovědi, ale obsahuje také kompletní inženýrské mechanismy, jako je zahřívací detekce (warmup), dynamické řízení souběžnosti, ochrana paměti a opakování chyb.
 
 **Celková architektura**:
-
-Překlad je rozdělen do dvou fází — **přípravná fáze** a **prováděcí fáze**:
-
+Překlad je rozdělen do dvou fází – **přípravná fáze** a **fáze provádění**:
 ```
-PrepareTranslationPlanAsync  → Vytvoření překladového plánu (LlmTranslationPlan)
-    ├── Filtrování prázdných textů (zapisují se přímo do EmptyWrites, není třeba volat LLM)
-    ├── BuildPromptItems (vložení RAG kontextu a slovníku pojmů pro každý text)
-    ├── BuildPrompt (spojení system prompt + překladová pravidla + seznam položek)
-    └── Když je počet dávek >5, generuje se warmup prompt (pro zahřívací sondování)
+PrepareTranslationPlanAsync → sestavit plán překladu (LlmTranslationPlan)
+├── Filtrovat prázdné texty (zapsat přímo do EmptyWrites, není třeba volat LLM)
+├── BuildPromptItems (vložit RAG kontext a glosář pro každý text)
+├── BuildPrompt (spojit system prompt + pravidla překladu + seznam položek)
+└── Když počet dávek > 5, vygenerovat warmup prompt (pro zahřívací detekci)
 
-ExecuteTranslationPlansAsync  → Sériové provádění všech překladových plánů
-    ├── Zápis EmptyWrites (zástupné výsledky pro prázdné texty)
-    ├── ExecuteWarmupAsync (zahřívací fáze: jediný požadavek s nízkou souběžností)
-    │   └── AccountFatal → ukončení všech následných plánů
-    ├── ExecuteWorkItemsAsync / ExecuteWorkItemsFixedWindowAsync (hlavní překladová fáze)
-    └── ApplyTargetWrite (zápis výsledků překladu do entry.translationValues)
+ExecuteTranslationPlansAsync → provést všechny překladové plány sériově
+├── Zapsat EmptyWrites (placeholder výsledky pro prázdné texty)
+├── ExecuteWarmupAsync (fáze zahřívání: nízký souběh, jeden požadavek)
+│   └── AccountFatal → ukončit všechny následující plány
+├── ExecuteWorkItemsAsync / ExecuteWorkItemsFixedWindowAsync (hlavní fáze překladu)
+└── ApplyTargetWrite (zapsat výsledek překladu do entry.translationValues)
 ```
 
-**Dynamická kontrola souběžnosti** (`ExecuteWorkItemsAsync`):
-
-Strategie limitu frekvence (rate limit) DeepSeek API není zcela transparentní a pevná souběžnost může způsobit dva problémy — příliš konzervativní znamená nedostatečnou propustnost, příliš agresivní spouští chyby 429 limitu frekvence. Proto pipeline implementovala algoritmus adaptivní kontroly souběžnosti:
-
+**Dynamické řízení souběžnosti** (`ExecuteWorkItemsAsync`):
+Strategie omezování rychlosti (rate limit) DeepSeek API není zcela transparentní, pevný počet souběhů může vést ke dvěma problémům – příliš konzervativní způsobí nedostatečnou propustnost, příliš agresivní vyvolá chybu 429. K tomu pipeline implementovala adaptivní algoritmus řízení souběžnosti:
 ```
-Počáteční souběžnost = auto(profile) nebo nakonfigurovaná hodnota
-   ↓
-Vyhodnocení při dokončení každé úlohy:
-    Úspěch → successStreak++ (čítač úspěchů se zvyšuje)
-    Úspěch && streak ≥ min(currentLimit, 100) → pokus o +25% souběžnosti
-    Selhání && existuje tlakový signál → pressureFailureStreak++
-    Po sobě jdoucí tlakové signály ≥ 3 → souběžnost se půlí (zmenšení)
-   AccountFatal (nedostatečný kredit/blokace) → označení stopScheduling, ukončení všech následných úloh
+Počáteční souběh = auto(profile) nebo konfigurační hodnota
+↓
+Při dokončení každého úkolu vyhodnotit:
+úspěch → successStreak++ (inkrementace počítadla úspěchů)
+úspěch && streak ≥ min(currentLimit, 100) → zkusit +25 % souběhu
+neúspěch && je tlakový signál → pressureFailureStreak++
+Když je tlakový signál ≥ 3 → souběžnost se sníží na polovinu (smrštění)
+AccountFatal (nedostatek zůstatku/účet zablokován) → označit stopScheduling, ukončit všechny následné úkoly
 ```
 
-Základní myšlenkou je "efekt špiček" — postupné testování horního limitu souběžnosti API; při úspěchu stoupat, při selhání se rychle stáhnout.
+Klíčovou myšlenkou je „efekt podpatku“ – postupně testovat horní limit API souběžnosti, při úspěchu zvyšovat, při neúspěchu rychle snižovat.
 
-**Automatická detekce profilu souběžnosti**:
+**Automatické zjišťování profilu souběžnosti**:
+Když je v konfiguraci `initial=0` nebo `maximum=0`, pipeline automaticky vybere vhodné parametry souběžnosti podle běhového prostředí a názvu modelu. **Priorita detekce**: nejprve se vyhodnotí proměnná prostředí `GITHUB_ACTIONS` (CI prostředí vynucuje nízkou souběžnost), poté se porovná podle názvu modelu:
 
-Když je `initial=0` nebo `maximum=0` v konfiguraci, pipeline automaticky vybírá vhodné parametry souběžnosti podle běhového prostředí a názvu modelu. **Priorita detekce**: nejprve kontrola proměnné prostředí `GITHUB_ACTIONS` (CI prostředí vynucuje nízkou souběžnost), poté shoda podle názvu modelu:
-
-| Podmínka detekce | Initial | Maximum | Vhodný scénář |
+| Podmínka detekce | Initial | Maximum | Scénář použití |
 |------|---------|---------|------|
-| `GITHUB_ACTIONS=true` (prioritní) | 4 | 32 | Omezené zdroje CI runneru (CPU/paměť) |
-| model obsahuje `v4-flash` | 128 | 2000 | Vysoká kapacita souběžnosti DeepSeek V4 Flash |
-| model obsahuje `v4-pro` | 64 | 400 | Střední kapacita souběžnosti DeepSeek V4 Pro |
-| Ostatní modely | 16 | 128 | Konzervativní výchozí hodnoty pro neznámé modely |
+| `GITHUB_ACTIONS=true` (priorita) | 4 | 32 | Omezené zdroje CI runneru (CPU/paměť) |
+| model obsahuje `v4-flash` | 128 | 2000 | Vysoká souběžnost DeepSeek V4 Flash |
+| model obsahuje `v4-pro` | 64 | 400 | Střední souběžnost DeepSeek V4 Pro |
+| Ostatní modely | 16 | 128 | Konzervativní výchozí hodnota pro neznámé modely |
 
 **Režim pevného okna** (`llmFixedConcurrency > 0`):
+Pro prostředí, kde je známý horní limit API souběžnosti, lze povolit režim pevného okna. Tento režim seskupuje work items do oken pevné velikosti, položky v okně se provádějí souběžně, okna jsou striktně sériová. Toto deterministické chování odstraňuje nejistotu dynamického přizpůsobování a je vhodné pro stabilní provoz v produkčním prostředí.
 
-Pro prostředí, kde je limit souběžnosti API znám, lze aktivovat režim pevného okna. Tento režim seskupuje pracovní položky do oken pevné velikosti; položky uvnitř okna se provádějí souběžně a okna mezi sebou jsou přísně sériová. Toto deterministické chování eliminuje nejistotu dynamického přizpůsobování a je vhodné pro stabilní provoz v produkčních prostředích.
+**Struktura překladového promptu**:
+Prompty každého překladového požadavku jsou složeny z následujících čtyř vrstev:
+1. **System Prompt** (`system_prompt_translate_engine.txt`): Definuje základní pravidla překladového úkolu, včetně:
+- Použití formátu odděleného tabulátorem pro vstup a výstup (pro snadné parsování programem).
+- Striktně zachovat zástupné znaky v originálním textu (`%1`, `{}`, `<>` atd.), jedná se o proměnné dynamicky nahrazované za běhu hry.
+- Hierarchie autority: Ručně ověřený překlad > Glosář > RAG reference > LLM vlastní úsudek.
+- Každý překlad musí obsahovat skóre spolehlivosti (1.0 zcela jistý ~ 0.1 odhad).
+- Požadavek, aby LLM minimalizoval spotřebu tokenů během inference, aby se snížily náklady na API.
 
-**Složení překladového Promptu**:
+2. **Schema překladu** (`translation_schema_zh-hans.md`): Definuje formátové normy pro čínský překlad, např.:
+- Interpunkce: jednotné používání anglických jednošířkových interpunkčních znamének, s výjimkou čínských specifických `、` `...` `《》`.
+- Pojmenování předmětů: `Název předmětu (barva, kvalita, popis)`.
+- Pojmenování zbraní: `Značka+Model+Typ`.
+- Pojmenování vozidel: `Rok výroby+Značka+Model+Speciální poznámka+Typ vozidla`.
 
-Každý překladový požadavek se skládá ze čtyř vrstev obsahu:
+3. **Glosář** (`translation_dictionary_zh-hans.json`): Povinná tabulka mapování termínů. Pokud se v originálním textu objeví položka z glosáře, LLM musí použít odpovídající čínský překlad a nesmí si vymýšlet vlastní.
 
-1. **System Prompt** (`system_prompt_translate_engine.txt`): Definuje základní pravidla překladové úlohy, včetně:
-   - Použití formátu vstupu a výstupu odděleného tabulátory (pro snadnou programovou analýzu).
-   - Přísné zachování zástupných znaků v původním textu (`%1`, `{}`, `<>` atd.), což jsou proměnné dynamicky nahrazované hrou za běhu.
-   - Priorita autority: člověkem ověřený překlad v cílovém jazyce > slovník pojmů > RAG reference > vlastní úsudek LLM.
-   - Každý překlad musí být doplněn skóre důvěryhodnosti (1.0 zcela jisté ~ 0.1 odhad).
-   - Požadavek na LLM, aby minimalizoval spotřebu tokenů v procesu uvažování, pro snížení nákladů na API.
-
-2. **Překladové schéma** (`translation_schema_zh-hans.md`): Definuje specifikace formátu pro čínský překlad, jako:
-   - Interpunkční znaménka: sjednotit na anglická poloviční šířka, s výjimkou `、` `...` 《》 specifických pro čínštinu.
-   - Pojmenování předmětů: `Název předmětu (Barva, Kvalita, Popis)`.
-   - Pojmenování zbraní: `Značka+Model+Typ`.
-   - Pojmenování vozidel: `Rok+Značka+Model+Speciální poznámka+Typ vozidla`.
-
-3. **Slovník pojmů** (`translation_dictionary_zh-hans.json`): Povinná mapovací tabulka termínů. Když se v původním textu objeví termín ze slovníku, LLM musí použít odpovídající čínský překlad a nesmí improvizovat.
-
-4. **RAG kontext**: Příklady referenčních překladů vyhledané pomocí `RagContextRetriever`, vložené do Promptu jako překladová reference.
+4. **RAG kontext**: Příkladové věty referenčního překladu získané pomocí `RagContextRetriever`, vložené do promptu jako překladová reference.
 
 **Formát vstupu a výstupu**:
-
-Vstup (každá položka k překladu):
+Vstup (pro každou položku k překladu):
 ```
 T1\t<source_text>\t<multi_lang_context>\t<rag_context>\t<mod_info>
 ```
 
-Výstup (každý výsledek překladu):
+Výstup (výsledek každého překladu):
 ```
 T1\t<translation>\t<confidence>\t[comment]
 ```
 
-Použití formátu odděleného tabulátory je proto, aby výstup LLM mohl být programově přesně analyzován — oddělení čárkami nebo mezerami se snadno zaměňuje se samotným obsahem textu.
+Formát oddělený tabulátorem je používán proto, aby výstup LLM mohl být programem přesně parsován – čárky nebo mezery by se snadno zaměnily s obsahem textu.
 
-**Zahřívací mechanismus Warmup**:
-
-Když počet překladových dávek překročí 5, pipeline nejprve odešle zahřívací požadavek (obsahující několik jednoduchých překladových úloh). Cíle zahřívání jsou tři:
-
-1. **Detekce konektivity API**: Potvrzení, že síť je dostupná a API klíč je platný.
-2. **Detekce stavu účtu**: Pokud API vrátí chybu `AccountFatal` (nedostatečný kredit nebo blokace účtu), všechny následné překladové úlohy jsou ukončeny, aby se předešlo zbytečným opakovaným selháním.
-3. **Zvýšení míry zásahu mezipaměti**: Zahřívací požadavek odesílá hlavičku Promptu sdílenou s formálními dávkami (system prompt + pravidla), takže KV Cache na straně LLM služby může být přímo znovu použita při formálním překladu, čímž se snižují náklady na inferenci a latence.
+**Warmup (zahřívací mechanismus)**:
+Když počet překladových dávek přesáhne 5, pipeline nejprve odešle zahřívací požadavek (obsahující malý počet jednoduchých překladových úkolů). Účely zahřívání jsou tři:
+1. **Detekce připojení API**: Potvrdit, že síť je dosažitelná a API klíč je platný.
+2. **Detekce stavu účtu**: Pokud API vrátí chybu `AccountFatal` (nedostatek kreditu nebo zablokovaný účet), ukončí všechny následné překladové úkoly, aby se předešlo zbytečným opakovaným selháním.
+3. **Zvýšení míry zásahu cache**: Zahřívací požadavek odešle společné hlavičky Promptu (system prompt + pravidla) s oficiálními dávkami, takže KV Cache na straně LLM serveru může být při oficiálním překladu přímo znovu použita, čímž se sníží náklady na inferenci a latence.
 
 ### 3.12 ResultWriter (`ResultWriterService`)
 
-**Funkce**: Perzistuje všechna data vytvořená pipeline (výsledky překladu, embeddingové vektory, metadata atd.) zpět do souborového systému pro opětovné použití při dalším běhu.
+**Funkce**: Trvale ukládá všechna data vytvořená pipeline (výsledky překladu, embedding vektory, metadata atd.) zpět do souborového systému pro opakované použití při příštím spuštění.
 
-`ResultWriter` je "archivní modul" pipeline. Výsledky překladu každého běhu musí být uloženy, jinak další běh nebude schopen rozpoznat, které texty již byly přeloženy, což by vedlo k velkému množství duplicitní práce.
+`ResultWriter` je "archivační modul" pipeline. Výsledky překladu z každého běhu pipeline musí být uloženy, jinak by příští běh nebyl schopen rozpoznat, které texty již byly přeloženy, což by vedlo k velkému množství opakované práce.
 
 **Cíle a formáty výstupu**:
 
-| Typ dat | Cesta úložiště | Formát |
+| Typ dat | Cesta uložení | Formát |
 |----------|------|------|
-| Metadata modů | `data/modinfos.json` | JSON pole, zaznamenává informace o všech zpracovaných modech |
-| Překladové položky | `data/translations/<iso>/<modId>.txt` | Formát překladového řádku PZ: `key::lang::status = "value"` |
-| Embeddingové vektory | `data/embeddings/<modId>.bin` | Zstd komprimovaný binární formát (úspora místa na disku) |
-| Metadata položek | `data/entry_metadata/<bucket>/<modId>.json` | JSON formát, zaznamenává sourceHash, isActive a další stavy |
+| Metadata modů | `data/modinfos.json` | JSON pole zaznamenávající informace o všech zpracovaných modech |
+| Položky překladu | `data/translations/<iso>/<modId>.txt` | Formát překladového řádku PZ: `key::lang::status = "value"` |
+| Embedding vektory | `data/embeddings/<modId>.bin` | Binární formát komprimovaný Zstd (šetří místo na disku) |
+| Metadata položek | `data/entry_metadata/<bucket>/<modId>.json` | JSON formát, zaznamenává stavy jako sourceHash, isActive atd. |
 
-**Formát překladového řádku**:
+**Popis formátu překladového řádku**:
 ```
 ContextMenu_PickUp::en = "Pick Up",
 ContextMenu_PickUp::zh-hans::unverified = "拾起",
 ```
 
-- První řádek je **řádek základního jazyka** (`::en`), zaznamenávající původní anglický text.
-- Druhý řádek je **řádek cílového jazyka** (`::zh-hans::unverified`), zaznamenávající výsledek překladu. `unverified` znamená, že jde o automatický překlad LLM, neověřený člověkem. Pokud je později ručně ověřen, stav lze aktualizovat na `verified`.
+- První řádek je **řádek základního jazyka** (`::en`), zaznamenávající anglický originál.
+- Druhý řádek je **řádek cílového jazyka** (`::zh-hans::unverified`), zaznamenávající výsledek překladu. `unverified` znamená, že se jedná o automatický překlad LLM, který nebyl ručně ověřen. Pokud bude později ručně ověřen, stav lze změnit na `verified`.
 
-**Záměr návrhu — Formát interní mezipaměti**: Volba `key::lang::status = "value"` namísto JSON jako formátu interní mezipaměti je proto, že tento formát má vysokou informační hustotu a při ruční kontrole obsahu překladu lze na obrazovce zobrazit více kontextových informací.
+**Záměr návrhu — interní formát cache**: Volba `key::lang::status = "value"` namísto JSON jako interního formátu cache je z důvodu, že tento formát má vyšší informační hustotu a při ručním prohlížení obsahu překladu může na obrazovce zobrazit více kontextových informací.
 
 ### 3.13 FinalOutputWriter (`FinalOutputWriterService`)
 
-**Funkce**: Převádí nahromaděnou překladovou mezipaměť na soubory ve formátu PZ modu, které mohou hráči přímo používat.
+**Funkce**: Převede kumulovanou překladovou mezipaměť potrubí do formátu souborů mod PZ, které mohou hráči přímo používat.
 
-`ResultWriter` ukládá překlady v interním formátu pipeline (vhodném pro inkrementální zpracování a sledování stavu), ale tento formát nelze přímo načíst hrou Project Zomboid. `FinalOutputWriter` je zodpovědný za převod interního formátu na finální distribuční soubory odpovídající specifikacím PZ modů.
+`ResultWriter` ukládá překlady do interního formátu potrubí (pro snadné inkrementální zpracování a sledování stavu), ale tento formát nemůže být přímo načten hrou Project Zomboid. `FinalOutputWriter` je zodpovědný za převod interního formátu na konečné distribuční soubory splňující specifikaci mod PZ.
 
 **Struktura výstupního adresáře**:
-
 ```
 final_outputs/project_babel/contents/mods/project_babel/
 ├── 42/media/lua/shared/Translate/<gameCode>/*.json
@@ -608,412 +602,400 @@ final_outputs/project_babel/contents/mods/project_babel/
 ```
 
 - `42` a `42.19` odpovídají dvěma hlavním verzím hry PZ (Build 42 a Build 42.19). Různé verze načítají překladové soubory z různých adresářů.
-- Obsah obou adresářů je zcela identický — pipeline nejprve zapisuje verzi 42.19 a poté kopíruje do adresáře 42.
+- Obsah obou adresářů je zcela stejný – potrubí nejprve zapíše verzi 42.19 a poté ji zkopíruje do adresáře 42.
 
 **Základní logika zpracování**:
+1. **Vyloučení původních textů**: Načte všechny JSON soubory z adresáře `base_game_keys/` a vytvoří množinu překladových klíčů (translationKey), které již původní hra obsahuje. Texty odpovídající těmto klíčům již mají oficiální překlad v původní hře, potrubí je nemusí znovu překládat. Žádné odpovídající položky nebudou zapsány do konečného výstupu.
 
-1. **Vyloučení textu základní hry**: Načtení všech JSON souborů v adresáři `base_game_keys/` a vytvoření množiny překladových klíčů (translationKey), které základní hra již obsahuje. Tyto klíče odpovídají textům, které již mají oficiální překlad v základní hře, a pipeline je nemusí znovu překládat. Jakákoli odpovídající položka je vyloučena z finálního výstupu.
-
-2. **Vyloučení položek referenčních modů**: Položky referenčních překladových modů jsou přeloženy lidmi a pipeline tyto položky nezapisuje do finálních distribučních souborů (aby se předešlo sporům o autorská práva).
+2. **Vyloučení položek referenčních modů**: Položky referenčních překladových modů jsou přeloženy ručně, potrubí je nezapíše do konečných distribučních souborů (vyhnutí se autorskoprávním sporům).
 
 3. **Směrování podle prefixu do souborů**: Prefix překladového klíče (translationKey) určuje, do kterého výstupního souboru má být zapsán. Například:
-   - Klíče začínající `IG_UI_` → zapisují se do `IG_UI.json`
-   - Klíče začínající `ContextMenu_` → zapisují se do `ContextMenu.json`
-   - Klíče začínající `Tooltip_` → zapisují se do `Tooltip.json`
+- Klíč začínající na `IG_UI_` → zapsat do `IG_UI.json`
+- Klíč začínající na `ContextMenu_` → zapsat do `ContextMenu.json`
+- Klíč začínající na `Tooltip_` → zapsat do `Tooltip.json`
    
-   Tuto mapovací relaci poskytuje `translation_key_to_file_mapping` zaznamenané ve fázi `ContentExtractor`.
+Toto mapování poskytuje `translation_key_to_file_mapping` zaznamenaný ve fázi `ContentExtractor`.
 
-4. **Atomický zápis**: Všechny výstupní soubory používají strategii "nejprve zapsat do dočasného souboru, poté atomicky přesunout" — nejprve zápis do `<filename>.tmp`, a po úspěšném zápisu přepsání cílového souboru pomocí `File.Move`. Tato metoda zajišťuje, že i v případě selhání systému nebo výpadku napájení během zápisu nebudou existující soubory poškozeny.
+4. **Atomický zápis**: Všechny výstupní soubory používají strategii „nejprve zapsat do dočasného souboru, poté atomicky přesunout“ – nejprve se zapíše do `<filename>.tmp`, po úspěšném zápisu se pomocí `File.Move` přepíše cílový soubor. Tento způsob zajišťuje, že i v případě pádu nebo výpadku proudu během zápisu nedojde k poškození stávajících souborů.
 
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
-**Funkce**: Vypočítává statistiky pokrytí překladu pro každý jazyk a generuje vícejazyčné zprávy o postupu, aby komunita mohla sledovat průběh překladu.
+**Funkce**: Shromažďuje statistiky pokrytí překladů pro každý jazyk a generuje vícejazyčné zprávy o pokroku, aby komunita mohla snadno sledovat průběh překladu.
 
-Zprávy o postupu jsou generovány ve formátu Markdown a ukládány do adresáře `docs/progress/`. Každý jazyk generuje samostatný soubor zprávy (např. `progress_zh-hans.md`, `progress_ja.md`).
+Zprávy o pokroku jsou výstupem ve formátu Markdown a ukládají se do adresáře `docs/progress/`. Pro každý jazyk je vytvořen samostatný soubor zprávy (např. `progress_zh-hans.md`, `progress_ja.md`).
 
-**Tok generování**:
-
-1. **Načtení šablony**: Čtení `src/prompt_templates/progress/progress_template_<lang>.md`. Každý jazyk může používat nezávislou šablonu a šablona obsahuje zástupné proměnné ve stylu `{{PLACEHOLDER}}`.
-2. **Statistický výpočet**: Procházení všech uložených překladových položek a výpočet následujících ukazatelů pro každý cílový jazyk:
-   - `total`: Celkový počet položek čekajících na překlad v tomto jazyce.
-   - `translated`: Počet položek s dokončeným překladem.
-   - `pending`: Počet dosud nepřeložených položek.
-   - `untranslatable`: Počet položek označených jako nepřeložitelné kvůli kontrole obsahu.
-3. **Nahrazení zástupných symbolů**: Nahrazení `{{PLACEHOLDER}}` v šabloně skutečnými statistickými daty.
-4. **Zápis souboru**: Zápis nahrazeného obsahu do `docs/progress/progress_<iso>.md`.
+**Proces generování**:
+1. **Načtení šablony**: Načte `src/prompt_templates/progress/progress_template_<lang>.md`. Každý jazyk může používat nezávislou šablonu, která obsahuje zástupné proměnné ve stylu `{{PLACEHOLDER}}`.
+2. **Statistický výpočet**: Prochází mezipaměť všech překladových položek a pro každý cílový jazyk vypočítá následující ukazatele:
+- `total`: Celkový počet položek čekajících na překlad pro tento jazyk.
+- `translated`: Počet již přeložených položek.
+- `pending`: Počet dosud nepřeložených položek.
+- `untranslatable`: Počet položek označených jako nepřeložitelné kvůli kontrole obsahu.
+3. **Nahraďte zástupné znaky**: Nahraďte `{{PLACEHOLDER}}` v šabloně skutečnými statistickými údaji.
+4. **Zapište soubor**: Zapište nahrazený obsah do `docs/progress/progress_<iso>.md`.
 
 ---
 
 ## 4. Datové konvence
 
-Tato sekce podrobně popisuje základní datové struktury, formáty souborů a konvence indexových klíčů používané v pipeline. Tyto definice jsou základem pro pochopení toho, jak se data předávají mezi jednotlivými moduly.
+Tato část podrobně popisuje základní datové struktury, formáty souborů a konvence indexových klíčů používané v pipeline. Tyto definice jsou základem pro pochopení toho, jak si moduly mezi sebou předávají data.
 
-### 4.1 Hlavní typy
+### 4.1 Základní typy
 
-#### `TranslationEntry` — Překladová položka
+#### `TranslationEntry` — Položka překladu
 
-`TranslationEntry` je nejcentrálnější datovou strukturou pipeline a představuje **jeden překládaný text**. Každý TranslationEntry odpovídá překladovému klíči (translationKey) v modu a obsahuje původní text, překlad, embeddingový vektor a další kompletní informace.
+`TranslationEntry` je nejdůležitější datová struktura v pipeline, představuje **jednu položku textu k překladu**. Každý `TranslationEntry` odpovídá jednomu překladovému klíči (translationKey) v modu a obsahuje původní text, překlad, embedding vektory a další úplné informace.
 
 ```csharp
-class TranslationEntry {
-    string modId;                                          // Steam Workshop Mod ID
-    string masterKey;                                      // Hlavní klíč PZ Lua (např. "IG_UI")
-    string translationKey;                                 // Kompletní překladový klíč
-    Dictionary<string, TranslationData> translationValues; // ISO → data překladu
-    string baseLang;                                       // Základní jazyk (výchozí "en")
-    string embeddingHash;                                  // Hash aktuálního embeddingového textu
-    float[] embeddingVector;                               // [Zastaralé] Jediný vektor (zastaralé, nahrazeno embeddingValues s podporou více jazyků)
-    Dictionary<string, TranslationEmbedding> embeddingValues; // embeddingKey → vektor+hash (náhrada embeddingVector)
-    bool isActive;                                         // Zda stále existuje ve zdrojových souborech
-    DateTime lastSeenAt;
-    DateTime lastSeenModUpdated;
-    string sourceHash;                                     // SHA256 základního textu
-    List<ContainingFileInfo> containingFileInfos;          // Informace o všech zdrojových souborech
+string modId;                                          // Steam Workshop ID modu
+string masterKey;                                      // PZ Lua hlavní klíč (např. "IG_UI")
+string translationKey;                                 // kompletní překladový klíč
+Dictionary<string, TranslationData> translationValues; // ISO → data překladu
+string baseLang;                                       // základní jazyk (výchozí "en")
+string embeddingHash;                                  // hash aktuálně vloženého textu
+float[] embeddingVector;                               // [starý] jednový vektor (zastaralý, nahrazen embeddingValues pro vícejazyčný embedding)
+Dictionary<string, TranslationEmbedding> embeddingValues; // embeddingKey → vektor+hash (nahrazuje embeddingVector)
+bool isActive;                                         // je stále přítomna ve zdrojovém souboru
+DateTime lastSeenAt;
+DateTime lastSeenModUpdated;
+string sourceHash;                                     // SHA256 základního textu
+List<ContainingFileInfo> containingFileInfos;          // informace o všech zdrojových souborech
+    List<ContainingFileInfo> containingFileInfos;          // 所有源文件信息
 }
 ```
 
-**Globálně jedinečný identifikátor**: Každý `TranslationEntry` je jednoznačně identifikován pomocí `modId::translationKey`. Například `1234567890::IG_UI_NewGame` představuje text `IG_UI_NewGame` v modu `1234567890`.
+**Globálně jedinečný identifikátor**: Každý `TranslationEntry` je jednoznačně určen pomocí `modId::translationKey`. Například `1234567890::IG_UI_NewGame` označuje text `IG_UI_NewGame` v modu `1234567890`.
 
 **Klíčové metody**:
+- `GetBaseTextStrict()`: Striktně používá `baseLang` (obvykle `en`) k získání základního textu. Toto je vstupní zdroj překladu.
+- `GetSourceText()`: Metoda získávání textu s fallback řetězcem. Zkouší postupně podle priority: požadovaný jazyk → základní jazyk → libovolný ověřený překlad → libovolný překlad s textem. Tato metoda poskytuje odolnost při chybějícím základním textu.
 
-- `GetBaseTextStrict()`: Striktně používá `baseLang` (obvykle `en`) k získání základního textu. Toto je vstupní zdroj pro překlad.
-- `GetSourceText()`: Metoda získání textu s fallback řetězcem. Zkouší podle priority: požadovaný jazyk → základní jazyk → jakýkoli ověřený překlad → jakýkoli přeložený text. Tato metoda poskytuje odolnost proti chybám při chybějícím základním textu.
+#### `TranslationData` — Překladová data
 
-#### `TranslationData` — Data překladu
-
-`TranslationData` ukládá překlad a metadata jednoho překladu.
+`TranslationData` ukládá překlad a metadata jedné položky.
 
 ```csharp
 class TranslationData {
-    string text;           // Přeložený text
-    bool isVerified;       // Zda je ověřeno (referenční překlad = true)
-    float? confidence;     // Důvěryhodnost LLM překladu (0.0~1.0)
-    string status;         // Stav ověření: "verified" nebo "unverified"
-    string processStatus;  // Stav zpracování: "processed" nebo "unprocessed"
-    List<string> comments; // Seznam komentářů
+    string text;           // 译文
+    bool isVerified;       // 是否已验证 (参考翻译为 true)
+    float? confidence;     // LLM 翻译置信度 (0.0~1.0)
+    string status;         // 验证状态: "verified" 或 "unverified"
+    string processStatus;  // 处理状态: "processed" 或 "unprocessed"
+    List<string> comments; // 注释列表
 }
 ```
 
-- `isVerified = true`: Znamená, že překlad pochází z referenčního překladového modu přeloženého člověkem, a kvalita je spolehlivá.
-- `isVerified = false`: Znamená, že překlad pochází z LLM, označeno jako `unverified`, dosud neověřeno člověkem.
-- `confidence`: Skóre důvěryhodnosti vrácené LLM při generování tohoto překladu; `null` znamená, že nejde o LLM překlad.
-- `processStatus`: Zda bylo zpracováno LLM pipeline (`processed` nebo `unprocessed`).
+- `isVerified = true`: Označuje, že překlad pochází z ručně přeložených referenčních modů a je spolehlivý.
+- `isVerified = false`: Označuje, že překlad pochází z LLM překladu, je označen jako `unverified` a ještě nebyl ručně ověřen.
+- `confidence`: Skóre spolehlivosti vrácené LLM při generování překladu, `null` znamená, že překlad není z LLM.
+- `processStatus`: Zda byl již zpracován LLM pipeline (`processed` nebo `unprocessed`).
 
 #### `ModInfo` — Metadata modu
 
-`ModInfo` ukládá kompletní metadata Steam Workshop modu a sleduje jeho stav a aktualizace.
+`ModInfo` ukládá kompletní metadata modu ze Steam Workshopu a sleduje jeho stav a aktualizace.
 
 ```csharp
 struct ModInfo {
-    string modId;
+string modId;
     string modName;
     string creator;
     string? language;
     string localDownloadedPath;
-    DateTime timeModUpdated;       // Čas poslední aktualizace zaznamenaný Steamem
-    DateTime timeModCreated;       // Čas prvního publikování zaznamenaný Steamem
-    DateTime timeLastChecked;      // Čas poslední kontroly modu pipeline
-    int subscription;              // Počet odběratelů (ze Steam)
-    int favorite;                  // Počet oblíbených (ze Steam)
-    string description;            // Text popisu Steam modu
-    int consumerAppId;             // Steam Consumer App ID (108600 = PZ)
-    ContentCheckStatus contentCheckStatus; // Stav kontroly obsahu
-    bool needsUpdate;              // Zda potřebuje opětovnou extrakci a překlad
-    bool needsContentCheck;        // Zda potřebuje opětovnou kontrolu obsahu
-    bool isAvailable;              // Zda je mod přístupný (false = není PZ mod nebo byl stažen)
-    DateTime timeNextContentCheck; // Plánovaný čas příští kontroly obsahu
-    string lastFetchStatus;        // Stav posledního Steam dotazu
-    double contentCheckConfidence; // Důvěryhodnost kontroly obsahu (0.0~1.0)
-    bool contentCheckNeedHumanReview; // Zda potřebuje lidskou kontrolu
-    string contentCheckRiskLevel;  // Úroveň rizika (safe/low/medium/high)
-    string contentCheckReason;     // Důvod závěru kontroly
-    string contentCheckViolatedRulesJson; // Seznam porušených pravidel (JSON)
+DateTime timeModUpdated;       // poslední čas aktualizace podle Steamu
+DateTime timeModCreated;       // čas prvního zveřejnění podle Steamu
+DateTime timeLastChecked;      // čas poslední kontroly toho modu pipeline
+int subscription;              // počet odběratelů (ze Steamu)
+int favorite;                  // počet oblíbených (ze Steamu)
+string description;            // text popisu modu ze Steamu
+int consumerAppId;             // Steam consumer App ID (108600 = PZ)
+ContentCheckStatus contentCheckStatus; // Stav kontroly obsahu
+bool needsUpdate;              // Zda je potřeba znovu extrahovat a přeložit
+bool needsContentCheck;        // Zda je potřeba znovu zkontrolovat obsah
+bool isAvailable;              // Zda je mod dostupný (false = není PZ mod nebo byl stažen)
+DateTime timeNextContentCheck; // Plánovaný čas příští kontroly obsahu
+string lastFetchStatus;        // Stav posledního dotazu na Steam
+double contentCheckConfidence; // Spolehlivost kontroly obsahu (0.0~1.0)
+bool contentCheckNeedHumanReview; // Zda je potřeba lidská kontrola
+string contentCheckRiskLevel;  // Úroveň rizika (safe/low/medium/high)
+string contentCheckReason;     // Důvod závěru kontroly
+string contentCheckViolatedRulesJson; // Seznam porušených pravidel (JSON)
 }
 ```
 
 **Klíčová stavová pole**:
+- `needsUpdate`: Když je `time_updated` zaznamenaný Steamem pozdější než `timeModUpdated` v mezipaměti, nastaví se na `true`, což znamená, že autor modu aktualizoval obsah.
+- `isAvailable`: Pokud `consumer_app_id` vrácený Steam API není `108600` (Project Zomboid), nebo byl mod stažen, nastaví se na `false`, následné moduly tento mod přeskočí.
+- `contentCheckStatus`: Stav kontroly bezpečnosti obsahu, podrobnosti viz popis stavového automatu v sekci 4.4.
 
-- `needsUpdate`: Když je `time_updated` zaznamenaný Steamem novější než `timeModUpdated` v mezipaměti, nastaví se na `true`, což znamená, že autor modu aktualizoval obsah.
-- `isAvailable`: Pokud `consumer_app_id` vrácený Steam API není `108600` (Project Zomboid) nebo byl mod stažen, nastaví se na `false` a následné moduly tento mod přeskočí.
-- `contentCheckStatus`: Stav bezpečnostní kontroly obsahu, viz vysvětlení stavového automatu v sekci 4.4.
+#### `TranslationBatch` — Dávka překladu
 
-#### `TranslationBatch` — Překladová dávka
-
-`TranslationBatch` je základní jednotkou LLM překladu, obsahující dávku překladových položek stejného modu a stejného cílového jazyka.
+`TranslationBatch` je základní jednotkou překladu LLM, obsahuje dávku položek k překladu ze stejného modu a do stejného cílového jazyka.
 
 ```csharp
 class TranslationBatch {
-    int batchId;
-    int priority;                    // Priorita (vážení subscription + favorite)
-    string modId;
-    List<TranslationEntry> translationEntries;
-    string baseLang;                 // "en"
-    string targetLang;               // ISO kód cílového jazyka, např. "zh-hans"
+int batchId;
+int priority;                    // Priorita (vážená podle počtu odběrů a oblíbených)
+string modId;
+List<TranslationEntry> translationEntries;
+string baseLang;                 // "en"
+string targetLang;               // ISO kód cílového jazyka, např. "zh-hans"
 }
 ```
 
-- `priority`: Vypočítáno vážením počtu odběratelů a oblíbených modu; populární mody mají vyšší prioritu překladu.
-- Všechny položky v dávce pocházejí ze stejného modu, aby se zabránilo záměně kontextu mezi mody.
+- `priority`: Vypočítá se váženě z počtu odběrů a oblíbených modu; dávky populárnějších modů mají přednost.
+Všechny položky v jedné dávce pocházejí ze stejného modu, aby se zabránilo záměně kontextu mezi mody.
 
-#### `LangInfoData` — Informace o jazyce
+#### `LangInfoData` – Informace o jazyce
 
-`LangInfoData` definuje podporovaný jazyk, obsahující mapovací vztah mezi kódem jazyka ve hře a standardním ISO kódem.
+`LangInfoData` definuje podporovaný jazyk, obsahuje mapování mezi herním kódem a standardním ISO kódem.
 
 ```csharp
 class LangInfoData {
-    string ingameCode;    // Kód jazyka ve hře (CN, EN, JP...)
-    string chineseName;   // Čínský název
-    string englishName;   // Anglický název
-    string nativeName;    // Název v rodném jazyce (日本語, 한국어...)
-    string isoCode;       // ISO kód jazyka (zh-hans, en, ja...)
+string ingameCode;    // herní kód (CN, EN, JP...)
+string chineseName;   // čínský název
+string englishName;   // anglický název
+string nativeName;    // místní název (日本語, 한국어...)
+string isoCode;       // ISO jazykový kód (zh-hans, en, ja...)
 }
 ```
 
-### 4.2 Formáty souborů
+### 4.2 Formát souborů
 
-Pipeline používá různé formáty souborů v různých fázích zpracování. Níže jsou popsány v pořadí toku dat v pipeline.
+Potrubí používá různé formáty souborů v různých fázích zpracování. Následuje popis v pořadí, jakým data procházejí potrubím.
 
-#### Výstup extrakce (produkt ContentExtractor)
+#### Výstup extrakce (výstup z ContentExtractor)
 
-Poté, co `ContentExtractor` extrahuje text ze souborů modů, vytváří jej v následujícím formátu do `extracted_contents/<iso>/<modId>.txt`:
-
+Po extrakci textu z modových souborů `ContentExtractor` výstupuje v následujícím formátu do `extracted_contents/<iso>/<modId>.txt`:
 ```
 <translationKey>::en = "original text",
 <translationKey>::<iso>::unverified = "translated text",
 ```
 
-První řádek je řádek základního jazyka (původní anglický text) a druhý je řádek cílového jazyka. Pokud modu chybí původní anglický text pro určitou položku (extrémní případ), základní řádek je vynechán, ale cílový řádek je přesto zapsán.
+První řádek je řádek základního jazyka (anglický originál), druhý řádek je řádek cílového jazyka. Pokud některý text v modu postrádá anglický originál (extrémní případ), základní řádek se vynechá, ale cílový řádek se přesto zapíše.
 
 #### Soubor mapování klíčů
 
 `extracted_contents/translation_key_to_file_mapping/<modId>.json`:
-
 ```json
 {
-  "IG_UI_SomeKey": "IG_UI.json",
-  "ContextMenu_PickUp": "ContextMenu.json"
+"IG_UI_SomeKey": "IG_UI.json",
+"ContextMenu_PickUp": "ContextMenu.json"
 }
 ```
 
-Toto mapování zaznamenává, ze kterého zdrojového souboru každý `translationKey` pochází. Ve fázi finálního výstupu `FinalOutputWriter` používá toto mapování ke směrování překladových klíčů do správných výstupních JSON souborů.
+Toto mapování zaznamenává, ze kterého zdrojového souboru každý `translationKey` pochází. Ve fázi finálního výstupu `FinalOutputWriter` na základě tohoto mapování směruje klíče překladů do správných JSON výstupních souborů.
 
-#### Překladová mezipaměť (data/translations/)
+#### Překladová cache (data/translations/)
 
-Perzistentní překladová mezipaměť, uložená v `data/translations/<iso>/<modId>.txt`, ve stejném formátu jako výstup extrakce:
-
+Trvalá překladová cache je uložena v `data/translations/<iso>/<modId>.txt` a má stejný formát jako výstup z extrakce:
 ```
 <translationKey>::en = "source text",
 <translationKey>::<iso>::unverified = "translation",
 ```
 
-Mezipaměť je jádrem "paměti" pipeline — při každém běhu `RepoDataLoader` obnovuje existující výsledky překladu odtud.
+Cache je jádrem „paměti“ pipeline – při každém spuštění `RepoDataLoader` obnovuje existující výsledky překladu odtud.
 
-#### Finální výstup (final_outputs/)
+#### Konečný výstup (final_outputs/)
 
-Překladové soubory, které mohou hráči přímo používat, ve formátu JSON:
-
+Překladové soubory přímo použitelné hráči, výstup ve formátu JSON:
 ```json
 {
-  "IG_UI_SomeKey": "Přeložený text",
-  "ContextMenu_SomeKey": "Přeložený text"
+  "IG_UI_SomeKey": "翻译文本",
+  "ContextMenu_SomeKey": "翻译文本"
 }
 ```
 
-S kódováním UTF-8 without BOM, odsazením 2 mezerami, odpovídající specifikacím překladových souborů Project Zomboid.
+Používá kódování UTF-8 bez BOM, odsazení 2 mezerami, odpovídá standardům překladových souborů Project Zomboid.
 
-#### Embeddingové vektory (data/embeddings/*.bin)
+#### Vkládací vektory (data/embeddings/*.bin)
 
-Binární formát komprimovaný pomocí Zstd, serializovaný `BinaryEmbeddingSerializer`. Struktura souboru je následující:
-
+Binární formát komprimovaný pomocí Zstd, serializovaný pomocí `BinaryEmbeddingSerializer`. Struktura souboru je následující:
 - **Header**: Počet položek (int32)
-- **Každý záznam**: délka klíče (varint) + řetězec klíče (UTF-8) + SHA256 hash (32 bytů) + vektorová data (384 × float32)
+- **Každý záznam**: délka klíče (varint) + řetězec klíče (UTF-8) + hash SHA256 (32 byty) + vektorová data (384 × float32)
 
-Komprese Zstd ve scénáři 384-dimenzionálních vektorů může poskytnout kompresní poměr přibližně 4:1, což významně snižuje využití disku.
+Komprese Zstd v případě 384-rozměrných vektorů poskytuje kompresní poměr přibližně 4:1, což výrazně snižuje využití disku.
 
-### 4.3 Konvence indexových klíčů
+### 4.3 Konvence pro indexové klíče
 
 | Scénář | Formát | Příklad |
 |------|------|------|
 | Globálně jedinečný klíč TranslationEntry | `modId::translationKey` | `1234567890::IG_UI_NewGame` |
 | EmbeddingKey | `base:targetLang` | `en:zh-hans` |
-| Klíč RAG kontextu | `modId::translationKey` | Stejné jako TranslationEntry |
+| Klíč kontextu RAG | `modId::translationKey` | Stejný jako TranslationEntry |
 
 ### 4.4 Stavové automaty
 
-V pipeline existují tři důležité sady logiky toku stavů, které řídí kontrolu obsahu, kvalitu překladu a aktualizaci modů.
+V pipeline jsou tři důležité logiky přechodů stavů, které řídí kontrolu obsahu, kvalitu překladu a aktualizaci modů.
 
 #### Stav kontroly obsahu ContentCheck
 
-Kompletní tok stavů kontroly obsahu je následující:
-
+Celý přechod stavů kontroly obsahu je následující:
 ```
-UNKNOWN ──(nový mod, první kontrola)──→ NEEDVERIFICATION
-                                  ├──(LLM kontrola: bezpečné)──→ ACCEPTED
-                                  ├──(LLM kontrola: závadné)──→ REJECTED
-                                  └──(LLM kontrola: nejisté, důvěryhodnost<0.7)──→ NEEDVERIFICATION (čekání na lidskou kontrolu)
+UNKNOWN ──(nový mod první kontrola)──→ NEEDVERIFICATION
+├──(Kontrola LLM: bezpečný)──→ ACCEPTED
+├──(Kontrola LLM: porušení)──→ REJECTED
+└──(Kontrola LLM: nejistý, spolehlivost<0.7)──→ NEEDVERIFICATION (čeká na ruční ověření)
 
-ACCEPTED ──(překročení 90denní doby mezipaměti)──→ NEEDVERIFICATION (periodická opětovná kontrola)
+ACCEPTED ──(po uplynutí 90denní doby mezipaměti)──→ NEEDVERIFICATION (pravidelná nová kontrola)
 ```
 
-- **UNKNOWN**: Nově objevený mod, dosud neprovedena kontrola obsahu.
-- **NEEDVERIFICATION**: Vyžaduje kontrolu (nebo opětovnou kontrolu). Pipeline zavolá LLM pro bezpečnostní skenování obsahu tohoto modu.
-- **ACCEPTED**: Kontrola prošla; obsah modu je bezpečný a lze jej normálně překládat.
-- **REJECTED**: Kontrola neprošla; mod obsahuje zakázaný obsah a je přeskočen pro překlad.
+- **UNKNOWN**: Nově objevený mod, který ještě neprošel kontrolou obsahu.
+- **NEEDVERIFICATION**: Vyžaduje kontrolu (nebo novou kontrolu). Pipeline zavolá LLM k provedení bezpečnostní kontroly obsahu modu.
+- **ACCEPTED**: Kontrola prošla, obsah modu je bezpečný a lze jej normálně překládat.
+- **REJECTED**: Kontrola neprošla, mod obsahuje nevhodný obsah, překlad se přeskočí.
 
-#### Stav ověření TranslationData
+#### TranslationData Stav ověření překladu
 
-Spolehlivost každých překladových dat je rozlišena značkou `isVerified`:
+Spolehlivost každých překladových dat je rozlišena pomocí značky `isVerified`:
 
 | Stav | `isVerified` | Význam |
 |------|-------------|------|
-| Ověřeno (lidský překlad) | `true` | Z referenčního překladového modu, přeloženo a potvrzeno člověkem |
-| Neověřeno (AI překlad) | `false` | Generováno LLM, označeno jako `unverified`, dosud ručně nezkontrolováno |
-| Čeká na překlad | Bez textu | Dosud nepřeloženo; žádná odpovídající položka v `translationValues` |
+| Ověřeno (lidský překlad) | `true` | Pochází z referenčního překladového modu, ručně přeloženo a potvrzeno |
+| Neověřeno (AI překlad) | `false` | Automaticky přeloženo LLM, označeno jako `unverified`, bez ručního ověření |
+| Čeká na překlad | žádný text | Dosud nepřeloženo, v `translationValues` není odpovídající překlad |
 
-#### Určení ModInfo.needsUpdate
+#### ModInfo.needsUpdate Posouzení aktualizace
 
-Zda mod potřebuje opětovnou extrakci a překlad, je určeno následujícími pravidly:
-
-- Steam `time_updated` je novější než `timeModUpdated` v mezipaměti → `needsUpdate = true` (autor modu publikoval aktualizaci).
-- Přístupný mod bez jakýchkoli překladových položek v mezipaměti → `needsUpdate = true` (první zpracování tohoto modu).
-- Mod po extrakci obsahuje 0 překladových položek → stav kontroly obsahu je přímo nastaven na `ACCEPTED` (tento mod nemá žádný přeložitelný textový obsah).
+Zda mod vyžaduje novou extrakci a překlad, se určuje podle následujících pravidel:
+- Steam `time_updated` je pozdější než uložené `timeModUpdated` → `needsUpdate = true` (autor modu vydal aktualizaci).
+- V mezipaměti neexistuje žádný přístupný mod s položkami překladu → `needsUpdate = true` (první zpracování tohoto modu).
+- Po extrakci mod obsahuje 0 položek překladu → Stav kontroly obsahu se nastaví přímo na `ACCEPTED` (mod neobsahuje žádný přeložitelný textový obsah, není třeba překládat).
 
 ---
 
-## 5. Konfigurační reference
+## 5. Vysvětlení konfigurace
 
-Adresář `config/` obsahuje 5 konfiguračních souborů, rozdělených podle odpovědnosti na řízení pipeline, správu klíčů, definici jazyků, referenční korpus a požadavky na překlad.
+V adresáři `config/` je celkem 5 konfiguračních souborů, rozdělených podle odpovědnosti na řízení pipeline, správu klíčů, definici jazyků, referenční korpus a požadavky na překlad.
 
 ### 5.1 `config/config.json` — Hlavní konfigurace pipeline
 
-Základní řídicí soubor celého překladového pipeline. Všechna pole jsou povinná, pokud není uvedeno "volitelné".
+Základní řídicí soubor celé překladové pipeline. Všechna pole jsou povinná, pokud není uvedeno "volitelné".
 
 #### 5.1.1 `LLM` — Konfigurace velkého jazykového modelu
 
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Adresa LLM API, kompatibilní s protokolem OpenAI Chat Completions |
-| `model` | string | `deepseek-v4-flash` | Název modelu. Hodnoty obsahující `v4-flash` nebo `v4-pro` spouštějí odpovídající automatický profil souběžnosti |
-| `temperature` | float | `0.1` | Teplota vzorkování (0~2). Čím nižší, tím determinističtější výstup; pro překladové úlohy doporučeno ≤0.3 |
-| `max_tokens` | int | `380000` | Maximální počet tokenů na odpověď API. Musí být větší než celkový výstup dávky |
-| `batch_size` | int | `30` | Maximální počet položek na překladovou dávku. Společně omezeno `batch_token_budget` |
-| `batch_token_budget` | int | `2000` | Maximální tokenový rozpočet na vstupní straně dávky (hrubý odhad). 0 znamená bez omezení |
-| `request_timeout_seconds` | int | `300` | Časový limit jednoho HTTP požadavku v sekundách. Pro velké dávky je třeba přiměřeně zvýšit |
+| `model` | string | `deepseek-v4-flash` | Název modelu. Hodnota obsahující `v4-flash` nebo `v4-pro` spustí odpovídající automatický profil souběžnosti |
+| `temperature` | float | `0.1` | 采样温度 (0~2)。越低输出越确定，翻译任务建议 ≤0.3 |
+| `max_tokens` | int | `380000` | 单次 API 响应的最大 token 数。需大于 batch 输出总量 |
+| `batch_size` | int | `30` | 每个翻译批次的条目数上限。受 `batch_token_budget` 联合约束 |
+| `batch_token_budget` | int | `2000` | 每个批次输入端的 token 预算上限 (粗略估算)。0 表示不限制 |
+| `request_timeout_seconds` | int | `300` | 单次 HTTP 请求超时秒数。大 batch 需适当增大 |
 
-**`concurrency` — Řízení souběžnosti** (podobjekt):
-
-| Pole | Typ | Výchozí hodnota | Popis |
-|------|------|--------|------|
-| `initial` | int | `0` | Počáteční souběžnost. `0` = automatická detekce podle běhového prostředí a modelu |
-| `maximum` | int | `0` | Maximální limit souběžnosti. `0` = automatická detekce. V dynamickém režimu se při dosažení úspěšné série postupně zvyšuje na tuto hodnotu |
-| `minimum` | int | `1` | Minimální limit souběžnosti. V dynamickém režimu se snížení při selhání nedostane pod tuto hodnotu |
-| `max_retries` | int | `5` | Maximální počet opakování pro jednu pracovní položku |
-| `failure_streak_to_decrease` | int | `3` | Počet po sobě jdoucích selhání N, který spouští snížení souběžnosti (souběžnost se půlí) |
-| `retry_base_delay_ms` | int | `1000` | Základní zpoždění opakování (ms). Skutečné zpoždění = base × 2^pokus (exponenciální ústup) |
-| `retry_max_delay_ms` | int | `60000` | Maximální limit zpoždění opakování (ms) |
-| `fixed_concurrency` | int | `128` | **>0 aktivuje režim pevného okna**: souběžnost uvnitř okna, sériově mezi okny, bez dynamického přizpůsobování. Nastavení na 0 používá dynamický režim |
-
-**Popis režimů souběžnosti**:
-
-- **Dynamický režim** (`fixed_concurrency=0`): Automatické přizpůsobování souběžnosti podle úspěchu/selhání. Vhodné pro scénáře, kde strategie limitu frekvence API není transparentní.
-- **Režim pevného okna** (`fixed_concurrency>0`): Deterministické chování souběžnosti. Vhodné pro prostředí, kde je limit souběžnosti API znám. Mezi okny jsou vydávány záznamy o dokončení.
-
-**Automatický profil** (když `initial=0` nebo `maximum=0`): Pipeline automaticky vybírá vhodné parametry souběžnosti podle běhového prostředí a názvu modelu; konkrétní pravidla viz [sekce 3.11 — Automatická detekce profilu souběžnosti](#311-llmtranslator-llmtranslatorservice).
-
-#### 5.1.2 `RAG` — Konfigurace Retrieval-Augmented Generation
+**`concurrency` — 并发控制** (子对象):
 
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
-| `similarity_threshold` | float | `0.8` | Práh kosinové podobnosti (0~1). Referenční překlady pod touto hodnotou nejsou zahrnuty do LLM kontextu |
-| `top_k` | int | `3` | Maximální počet referenčních překladových položek vrácených na jednu dotazovou položku |
-| `index_dir` | string | `data/rag_index` | Adresář RAG indexu (rezervováno; aktuálně používá vyhledávání v paměti) |
+| `initial` | int | `0` | 初始并发数。`0` = 根据运行环境和模型自动检测 |
+| `maximum` | int | `0` | 最大并发上限。`0` = 自动检测。动态模式下成功 streak 达标会逐步提升至此值 |
+| `minimum` | int | `1` | 最小并发下限。动态模式下失败缩容不会低于此值 |
+| `max_retries` | int | `5` | 单个 work item 的最大重试次数 |
+| `failure_streak_to_decrease` | int | `3` | 连续失败 N 次后触发缩容（并发减半） |
+| `retry_base_delay_ms` | int | `1000` | 重试基础延迟 (ms)。实际延迟 = base × 2^attempt (指数退避) |
+| `retry_max_delay_ms` | int | `60000` | 重试最大延迟上限 (ms) |
+| `fixed_concurrency` | int | `128` | **>0 时启用固定窗口模式**：窗口内并发、窗口间串行，不使用动态调整。设为 0 则用动态模式 |
 
-#### 5.1.3 `AsOne` — Zdroj vzdáleného seznamu modů
+**并发模式说明**:
+- **动态模式** (`fixed_concurrency=0`): 根据成功/失败自动增减并发。适用于 API 限流策略不透明的场景
+- **固定窗口模式** (`fixed_concurrency>0`): 确定性的并发行为。适用于已知 API 并发上限的场景。窗口间有完成日志输出
 
-Získávání veřejného seznamu modů z komunitní platformy [AsOne](https://www.asone.fun/).
+**自动 Profile** (当 `initial=0` 或 `maximum=0` 时): 管线根据运行环境和模型名称自动选择合适的并发参数，具体规则见 [3.11 节 — 并发 Profile 自动检测](#311-llmtranslator-llmtranslatorservice)。
+
+#### 5.1.2 `RAG` — 检索增强生成配置
 
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
-| `enabled` | bool | `true` | Zda povolit vzdálený sběr AsOne. `false` používá pouze lokální soubor požadavků |
-| `base_url` | string | `https://www.asone.fun/` | Základní URL platformy AsOne |
-| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | Cesta API pro získání všech informací o modech |
-| `mod_info_file_name` | string | `modInfo.txt` | Název souboru informací o modu (rezervováno) |
-| `auth_secret_name` | string | `ASONE_AUTH_TOKEN` | Název klíče auth tokenu v secrets.json |
+| `similarity_threshold` | float | `0.8` | 余弦相似度阈值 (0~1)。低于此值的参考翻译不会被纳入 LLM 上下文 |
+| `top_k` | int | `3` | 每个待译条目返回的最多参考翻译条数 |
+| `index_dir` | string | `data/rag_index` | RAG 索引目录 (预留，当前使用内存检索) |
+
+#### 5.1.3 `AsOne` — 远程 Mod 列表源
+
+从 [AsOne](https://www.asone.fun/) 社区平台拉取公共 Mod 列表。
+
+| Pole | Typ | Výchozí hodnota | Popis |
+|------|------|--------|------|
+| `enabled` | bool | `true` | 是否启用 AsOne 远程收集。`false` 时仅用本地请求文件 |
+| `base_url` | string | `https://www.asone.fun/` | AsOne 平台基础 URL |
+| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | 获取全部 Mod 信息的 API 路径 |
+| `mod_info_file_name` | string | `modInfo.txt` | Název souboru s informacemi o modu (rezervováno) |
+| `auth_secret_name` | string | `ASONE_AUTH_TOKEN` | Název klíče autentizačního tokenu v secrets.json |
 | `timeout_seconds` | int | `30` | Časový limit HTTP požadavku v sekundách |
-| `rate_limit_per_minute` | int | `30` | Maximální počet požadavků za minutu (ochrana limitu frekvence) |
+| `rate_limit_per_minute` | int | `30` | Maximální počet požadavků za minutu (ochrana proti omezení) |
 
 #### 5.1.4 `Steam` — Konfigurace Steam Web API
 
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
-| `api_chunk_size` | int | `100` | Počet ID modů na dávkový dotaz. Steam API omezuje přibližně na 100 na volání |
-| `request_timeout_seconds` | int | `10` | Časový limit jednoho Steam API požadavku v sekundách |
-| `max_retries` | int | `3` | Počet opakování Steam API požadavku při selhání |
+| `api_chunk_size` | int | `100` | Počet Mod ID dotazovaných v každé dávce. Steam API omezuje na cca 100 na jeden požadavek. |
+| `request_timeout_seconds` | int | `10` | Časový limit pro jeden Steam API požadavek v sekundách |
+| `max_retries` | int | `3` | Počet opakování při selhání Steam API požadavku |
 
 #### 5.1.5 `Pipeline` — Obecná konfigurace pipeline
 
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
-| `batch_size` | int | `20` | Velikost dávky ve fázi stahování/extrakce. Každá dávka odpovídá jedné instanci steamcmd a jedné extrakční úloze |
+| `batch_size` | int | `20` | Velikost dávky ve fázi stahování/extrakce. Každá dávka odpovídá jedné instanci steamcmd a jednomu extrakčnímu úkolu. |
 
-#### 5.1.6 `ContentCheck` — Konfigurace bezpečnostní kontroly obsahu
+#### 5.1.6 `ContentCheck` — Konfigurace kontroly bezpečnosti obsahu
 
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
-| `enabled` | bool | `true` | Zda povolit kontrolu obsahu. `false` přeskakuje všechny kontroly a považuje všechny mody za schválené |
-| `check_interval_days` | int | `90` | Počet dnů platnosti mezipaměti výsledků kontroly. Po vypršení se mody ve stavu `ACCEPTED` vracejí do `NEEDVERIFICATION` |
+| `enabled` | bool | `true` | Zda povolit kontrolu obsahu. `false` přeskočí všechny kontroly a všechny mody jsou považovány za prošlé. |
+| `check_interval_days` | int | `90` | Počet dní pro ukládání výsledků kontroly. Po uplynutí se znovu kontroluje. Mody ve stavu `ACCEPTED` se po vypršení vrátí do `NEEDVERIFICATION`. |
 
 #### 5.1.7 `Settings` — Základní nastavení pipeline
 
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
-| `priority_language` | string | `zh-hans` | ISO kód cílového jazyka s prioritou překladu |
-| `base_language` | string | `EN` | Kód základního jazyka ve hře, jako zdrojový jazyk překladu |
+| `priority_language` | string | `zh-hans` | ISO kód prioritního cílového jazyka pro překlad |
+| `base_language` | string | `EN` | Herní kód základního jazyka, který se používá jako zdrojový jazyk pro překlad |
 
-#### 5.1.8 `Embedding` — Konfigurace embeddingové služby
+#### 5.1.8 `Embedding` — Konfigurace služby embeddingů
 
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
-| `host` | string | `127.0.0.1` | Adresa hostitele embeddingové služby (lze přepsat `secrets.json` nebo proměnnou prostředí `EMBEDDING_HOST`) |
-| `port` | int | `8000` | Číslo portu embeddingové služby (lze přepsat `secrets.json` nebo proměnnou prostředí `EMBEDDING_PORT`) |
+| `host` | string | `127.0.0.1` | Adresa hostitele služby embeddingů (může být přepsána v `secrets.json` nebo proměnnou prostředí `EMBEDDING_HOST`) |
+| `port` | int | `8000` | Číslo portu služby embeddingů (může být přepsáno v `secrets.json` nebo proměnnou prostředí `EMBEDDING_PORT`) |
 
-> **Poznámka**: `Embedding.host`/`Embedding.port` v `config.json` jsou výchozí hodnoty, s nižší prioritou než `secrets.json` a proměnné prostředí. Klíč `EMBEDDING_KEY` existuje pouze v `secrets.json`.
+> **Poznámka**: `Embedding.host`/`Embedding.port` v `config.json` slouží jako výchozí hodnoty, jejich priorita je nižší než `secrets.json` a proměnné prostředí. Klíč `EMBEDDING_KEY` existuje pouze v `secrets.json`.
 
 #### 5.1.9 `Workflow` — Konfigurace pracovního postupu
 
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
-| `max_jobs` | int | `16` | Maximální počet paralelních úloh, pro řízení celkové spotřeby zdrojů pipeline |
+| `max_jobs` | int | `16` | Maximální počet paralelních úloh, který řídí celkové využití zdrojů pipeline. |
 
-### 5.2 `config/secrets.json` — Konfigurace klíčů
+### 5.2 `config/secrets.json` — Konfigurace tajných klíčů
 
-> **⚠️ Tento soubor obsahuje citlivé informace, je přidán do `.gitignore` a nesmí být nikdy odeslán do správy verzí.**
+> **⚠️ Tento soubor obsahuje citlivé informace, je přidán do `.gitignore` a nesmí být vložen do verzování.**
 
-Před použitím zkopírujte `secrets_example.json` jako `secrets.json` a vyplňte skutečné hodnoty.
+Před použitím zkopírujte `secrets_example.json` do `secrets.json` a vyplňte skutečné hodnoty.
 
 | Pole | Typ | Popis |
 |------|------|------|
-| `LLM_KEY` | string | Ověřovací klíč LLM API. Ověřován `ConfigReader` jako neprázdný; pokud je prázdný, pipeline se ukončí |
-| `STEAM_KEY` | string | Steam Web API Key. Používá se k volání `ISteamRemoteStorage/GetPublishedFileDetails` a dalších rozhraní. Získání: [Steam Developer Portal](https://steamcommunity.com/dev/apikey) |
-| `EMBEDDING_HOST` | string | Adresa hostitele embeddingové služby (IP nebo název domény, bez portu). Port je samostatně specifikován pomocí `EMBEDDING_PORT` |
-| `EMBEDDING_PORT` | string | Číslo portu embeddingové služby |
-| `EMBEDDING_KEY` | string | AES-256 šifrovací předsdílený klíč pro embeddingovou službu. Po SHA256 hashování použit jako AES-GCM klíč |
+| `LLM_KEY` | string | Autentizační klíč API LLM. `ConfigReader` kontroluje, že není prázdný; pokud je prázdný, pipeline se ukončí. |
+| `STEAM_KEY` | string | Klíč Steam Web API. Používá se pro volání `ISteamRemoteStorage/GetPublishedFileDetails` atd. Získání: [Portál pro vývojáře Steamu](https://steamcommunity.com/dev/apikey) |
+| `EMBEDDING_HOST` | string | Adresa hostitele embeddingové služby (IP nebo doména, bez portu). Port se zadává samostatně pomocí `EMBEDDING_PORT`. |
+| `EMBEDDING_PORT` | string | Číslo portu embeddingové služby. |
+| `EMBEDDING_KEY` | string | Před-sdílený klíč pro AES-256 šifrování embeddingové služby. Po SHA256 hashování se používá jako klíč AES-GCM. |
 
-**Logika ověřování klíčů**: `ConfigReader.LoadConfig()` po dokončení načítání kontroluje, zda je `LLM_KEY` prázdný → pokud je prázdný, vyhodí výjimku → `Program.cs` ji zachytí a provede `Environment.Exit(1)`.
+**Logika ověření klíče**: `ConfigReader.LoadConfig()` po načtení zkontroluje, zda je `LLM_KEY` prázdný → pokud ano, vyvolá výjimku → `Program.cs` ji zachytí a zavolá `Environment.Exit(1)`.
 
 ### 5.3 `config/supported_languages.json` — Seznam podporovaných jazyků
 
 Definuje všechny cílové jazyky podporované pipeline. Každý záznam odpovídá typu `LangInfoData`.
 
-Před použitím zkopírujte `supported_languages_example.json` jako `supported_languages.json`.
+Před použitím zkopírujte `supported_languages_example.json` do `supported_languages.json`.
 
 | Pole | Typ | Popis |
 |------|------|------|
-| `ingame_code` | string | Kód jazyka ve hře PZ, odpovídající názvu složky pod `Translate/`. Příklad: `CN`, `JP`, `DE` |
-| `chinese_name` | string | Čínský název. Používá se ve zprávách o postupu a výstupu logů |
-| `english_name` | string | Anglický název. Používá se ve zprávách o postupu |
-| `native_name` | string | Název v rodném jazyce. Používá se ve zprávách o postupu |
-| `iso_code` | string | ISO 639-1 nebo BCP 47 kód jazyka. Používá se v cestách k souborům, parametrech API a interním indexování. Příklad: `zh-hans`, `ja`, `de` |
+| `ingame_code` | string | Kód jazyka ve hře PZ, odpovídá názvu složky v `Translate/`. Např.: `CN`, `JP`, `DE` |
+| `chinese_name` | string | Čínský název. Používá se pro výkazy pokroku a výstup logů. |
+| `english_name` | string | Anglický název. Používá se pro výkazy pokroku. |
+| `native_name` | string | Místní název jazyka. Používá se pro výkazy pokroku. |
+| `iso_code` | string | Jazykový kód ISO 639-1 nebo BCP 47. Používá se pro cesty k souborům, parametry API a interní indexy. Např.: `zh-hans`, `ja`, `de` |
 
 **Příklad záznamu**:
 ```json
@@ -1026,49 +1008,49 @@ Před použitím zkopírujte `supported_languages_example.json` jako `supported_
 }
 ```
 
-**Přednastavený seznam jazyků** (27 jazyků):
+**Předdefinovaný seznam jazyků** (27 druhů):
 `AR` `CA` `CH` `CN` `CS` `DA` `DE` `EN` `ES` `FI` `FR` `HU` `ID` `IT` `JP` `KO` `NL` `NO` `PH` `PL` `PT` `PTBR` `RO` `RU` `TH` `TR` `UA`
 
 **Použití v pipeline**:
-- **Základní jazyk** (`baseLang`): V seznamu je `EN` základem. `baseIso` v `ContentExtractor` je mapováno z `config.baseLanguage`
-- **Cílové jazyky** (`targetLangs`): Všechny jazyky v seznamu kromě `EN` jsou cíli překladu
-- **Výstupní jazyky** (`outputLangs`): Všechny jazyky (včetně `EN`) se účastní finálního výstupu
+**Základní jazyk** (`baseLang`): V seznamu je `EN` základ. `baseIso` v `ContentExtractor` je mapováno z `config.baseLanguage`.
+**Cílové jazyky** (`targetLangs`): Všechny jazyky v seznamu kromě `EN` jsou cíle překladu.
+**Výstupní jazyky** (`outputLangs`): Všechny jazyky (včetně `EN`) se účastní konečného výstupu.
 
 ### 5.4 `config/ref_translation_mods.json` — Referenční překladové mody
 
-Definuje vysoce kvalitní existující mody s čínským překladem, jako referenční korpus pro RAG vyhledávání.
+Definuje vysoce kvalitní existující čínské překladové mody jako referenční korpus pro RAG vyhledávání.
 
 | Pole | Typ | Popis |
 |------|------|------|
-| `mod_id` | string | Steam Workshop Mod ID (19 číslic) |
-| `mod_name` | string | Název referenčního modu (pouze pro zobrazení v logách a reportech) |
-| `language` | string | ISO kód cílového jazyka tohoto referenčního modu. Příklad: `zh-hans` |
-| `mod_update_time` | string | Čas poslední aktualizace modu zaznamenaný Steamem (Unix timestamp řetězec) |
-| `last_check_time` | string | Čas poslední kontroly aktualizace tohoto modu pipeline (ISO 8601) |
+| `mod_id` | string | ID modu Steam Workshop (19místné číslo) |
+| `mod_name` | string | Název referenčního modu (pouze pro zobrazení v logu a reportu) |
+| `language` | string | ISO kód cílového jazyka tohoto referenčního modu. Např. `zh-hans` |
+| `mod_update_time` | string | Poslední čas aktualizace modu zaznamenaný Steamem (řetězec Unix timestamp) |
+| `last_check_time` | string | Čas poslední kontroly aktualizace modu pipeline (ISO 8601) |
 
 **Zvláštní zacházení s referenčními mody**:
-- **Nezávislá mezipaměť**: Data jsou uložena v `translation_ref/` namísto `data/`, izolována od hlavních překladových dat
-- **Prioritní synchronizace**: Ve Fázi 2 se provádějí před hlavní smyčkou modů při stahování/extrakci/embeddingu
-- **Inkrementální aktualizace**: Pouze mody s `mod_update_time > last_check_time` jsou znovu extrahovány
-- **isVerified=true**: Všechny položky referenčních překladů mají `TranslationData.isVerified` vynuceně nastaveno na `true`
-- **Vyloučení z překladu**: Položky referenčních modů nevstupují do fronty LLM překladu (již mají lidský překlad)
-- **Vyloučení z výstupu**: `FinalOutputWriter` filtruje položky referenčních modů a nezapisuje je do finálních distribučních souborů
+- **Samostatná cache**: Data jsou uložena v `translation_ref/`, nikoli v `data/`, izolovaně od hlavních překladových dat.
+- **Prioritní synchronizace**: Ve fázi 2 se stahování/extrahování/embeddování provádí dříve než v hlavním cyklu modů.
+- **Inkrementální aktualizace**: Pouze pro mody s `mod_update_time > last_check_time` se provádí nové extrahování.
+- **isVerified=true**: U všech referenčních překladových položek je `TranslationData.isVerified` vynuceno na `true`.
+- **Vyloučení z překladu**: Položky referenčních modů nevstupují do fronty LLM překladu (již jsou ručně přeloženy).
+- **Vyloučení z výstupu**: `FinalOutputWriter` filtruje položky referenčních modů, nezapisuje je do konečných distribučních souborů.
 
-### 5.5 `config/request_for_translation.txt` — Lokální požadavky na překlad
+### 5.5 `config/request_for_translation.txt` — Místní žádosti o překlad
 
-Ručně specifikovaný seznam ID modů pro překlad.
+Ručně zadaný seznam ID modů k překladu.
 
 | Pravidlo | Popis |
 |------|------|
-| Formát | Každý řádek obsahuje jedno Steam Workshop Mod ID (pouze číslice) |
-| Komentáře | Řádky začínající `#` jsou komentáře a jsou ignorovány |
-| Prázdné řádky | Prázdné řádky jsou automaticky přeskakovány |
-| Deduplikace | Při slučování se vzdáleným seznamem AsOne nejsou existující ID přidávána znovu |
-| Kódování | UTF-8 without BOM |
+| Formát | Jeden Steam Workshop Mod ID (pouze číslice) na řádek |
+| Komentáře | Řádky začínající `#` jsou komentáře, budou ignorovány |
+| Prázdné řádky | Prázdné řádky jsou automaticky přeskočeny |
+| Odstranění duplicit | Při sloučení se vzdáleným seznamem AsOne se již existující ID nepřidávají znovu |
+| Kódování | UTF-8 bez BOM |
 
 **Příklad**:
 ```
-# Populární mody
+# Oblíbené mody
 2969343830
 3000924731
 
@@ -1078,45 +1060,45 @@ Ručně specifikovaný seznam ID modů pro překlad.
 ```
 
 **Logika zpracování** (`ModIdCollector`):
-1. Čtení všech řádků souboru
-2. Filtrování komentářů `#` a prázdných řádků
-3. Deduplikace
-4. Sloučení se vzdáleným seznamem AsOne (vzdálený má přednost, existující se nepřepisují)
-5. Pro ID nepřítomná ve vzdáleném seznamu se vytvoří výchozí `ModInfo` (stav `UNKNOWN`)
+1. Načíst všechny řádky souboru
+2. Filtrovat komentáře `#` a prázdné řádky
+3. Odstranit duplicity
+4. Sloučit se vzdáleným seznamem AsOne (vzdálený má přednost, existující se nepřepisují)
+5. Pro ID, která nejsou ve vzdáleném seznamu, vytvořit výchozí `ModInfo` (stav `UNKNOWN`)
 
-### 5.6 Tok načítání konfigurace
+### 5.6 Konfigurace načítacího procesu
 
 ```
 ConfigReader.LoadConfig(baseDir)
-  ├── Inicializace všech dočasných adresářů
-  ├── Analýza config/config.json → PipelineConfig
-  │     ├── Settings: priorityLanguage, baseLanguage
-  │     ├── LLM: endpoint, model, concurrency...
-  │     ├── Embedding: host, port
-  │     ├── RAG: similarity_threshold, top_k
-  │     ├── AsOne: enabled, base_url...
-  │     ├── Steam: api_chunk_size, retries...
-  │     ├── Workflow: max_jobs
-  │     ├── Pipeline: batch_size
-  │     └── ContentCheck: enabled, check_interval_days
-  ├── Analýza config/secrets.json → PipelineConfig
-  │     ├── LLM_KEY → llmKey (povinné, pokud prázdné, vyhodí výjimku)
-  │     ├── STEAM_KEY → steamApiKey (povinné, pokud prázdné, vyhodí výjimku)
-  │     ├── EMBEDDING_KEY → embeddingKey (povinné, pokud prázdné, vyhodí výjimku)
-  │     └── EMBEDDING_HOST + EMBEDDING_PORT → embeddingHost/Port
-  ├── Analýza config/supported_languages.json → supportedLanguages
-  └── Analýza config/ref_translation_mods.json → referenceTranslationMods
+├── Inicializovat všechny dočasné adresáře
+├── Parsovat config/config.json → PipelineConfig
+│     ├── Settings: priorityLanguage, baseLanguage
+│     ├── LLM: endpoint, model, concurrency...
+│     ├── Embedding: host, port
+│     ├── RAG: similarity_threshold, top_k
+│     ├── AsOne: enabled, base_url...
+│     ├── Steam: api_chunk_size, retries...
+│     ├── Workflow: max_jobs
+│     ├── Pipeline: batch_size
+│     └── ContentCheck: enabled, check_interval_days
+├── Parsovat config/secrets.json → PipelineConfig
+│     ├── LLM_KEY → llmKey (povinné, prázdné vyvolá výjimku)
+│     ├── STEAM_KEY → steamApiKey (povinné, prázdné vyvolá výjimku)
+│     ├── EMBEDDING_KEY → embeddingKey (povinné, prázdné vyvolá výjimku)
+│     └── EMBEDDING_HOST + EMBEDDING_PORT → embeddingHost/Port
+├── Parsování config/supported_languages.json → supportedLanguages
+└── Parsování config/ref_translation_mods.json → referenceTranslationMods
 ```
 
-Strategie selhání: Jakékoli selhání ověření povinného pole → vyhození výjimky → `Program.cs` vypíše `GitHubActions.Error()` → `Environment.Exit(1)`.
+Strategie selhání: Pokud selže jakákoli povinná kontrola → vyvolá výjimku → `Program.cs` vypíše `GitHubActions.Error()` → `Environment.Exit(1)`.
 
 ---
 
-## 6. Struktura adresářů
+## 6. Adresářová struktura
 
 ```
 project_babel/
-├── base_game_keys/              # Překladové klíče základní hry (pro vyloučení)
+├── base_game_keys/              # klíče překladu původní hry (k vyloučení)
 │   ├── IG_UI.json
 │   ├── ContextMenu.json
 │   └── ...
@@ -1125,90 +1107,89 @@ project_babel/
 │   ├── secrets.json             # API klíče (gitignore)
 │   ├── supported_languages.json # Seznam podporovaných jazyků
 │   ├── ref_translation_mods.json# Referenční překladové mody
-│   └── request_for_translation.txt # Lokální seznam požadavků
-├── data/                        # Perzistentní mezipaměť
+│   └── request_for_translation.txt # Místní seznam požadavků
+├── data/                        # Trvalá mezipaměť
 │   ├── modinfos.json            # Mezipaměť metadat modů
-│   ├── translations/            # Překladová mezipaměť (<iso>/<modId>.txt)
-│   ├── embeddings/              # Embeddingové vektory (<modId>.bin)
+│   ├── translations/            # Mezipaměť překladů (<iso>/<modId>.txt)
+│   ├── embeddings/              # Embeding vektory (<modId>.bin)
 │   └── entry_metadata/          # Metadata položek (<bucket>/<modId>.json)
-├── translation_ref/             # Data referenčních překladů (struktura stejná jako data/)
-├── final_outputs/project_babel/ # Finální distribuční výstup
+├── translation_ref/             # Referenční překladová data (struktura stejná jako data/)
+├── final_outputs/project_babel/ # Konečný distribuční výstup
 │   └── contents/mods/project_babel/
 │       ├── 42/media/lua/shared/Translate/<gameCode>/*.json
 │       └── 42.19/media/lua/shared/Translate/<gameCode>/*.json
 ├── src/                         # Zdrojový kód
-│   ├── Program.cs               # Vstup pipeline + PipelineRunner
-│   ├── Common/                  # Sdílené typy + pomocné třídy
+│   ├── Program.cs               # Vstupní bod pipeline + PipelineRunner
+│   ├── Common/                  # Sdílené typy + nástrojové třídy
 │   ├── ConfigReader/            # Načítání konfigurace
 │   ├── ContentChecker/          # Bezpečnostní kontrola obsahu
 │   ├── ContentExtractor/        # Extrakce textu
-│   ├── EmbeddingFetcher/        # Embeddingové vektory
-│   ├── FinalOutputWriter/       # Finální výstup
+│   ├── EmbeddingFetcher/        # Vektorové vkládání
+│   ├── FinalOutputWriter/       # Konečný výstup
 │   ├── LLMTranslator/           # LLM překlad
-│   ├── ModDownloader/           # Stahování steamcmd
-│   ├── ModIdCollector/          # Sběr ID modů
+│   ├── ModDownloader/           # Stažení steamcmd
+│   ├── ModIdCollector/          # Sběr Mod ID
 │   ├── ModInfoFetcher/          # Steam metadata
-│   ├── ProgressReporter/        # Zprávy o postupu
+│   ├── ProgressReporter/        # Zpráva o pokroku
 │   ├── RagContextRetriever/     # RAG vyhledávání
 │   ├── RepoDataLoader/          # Načítání mezipaměti
 │   ├── ResultWriter/            # Zápis výsledků
 │   ├── TranslationBatcher/      # Dávkové balení
 │   ├── prompt_templates/        # Šablony LLM Promptů
 │   └── 3rd_party/steamcmd/      # Nástroj steamcmd
-├── temp/                        # Dočasný běhový adresář (každý run_*)
+├── temp/                        # Dočasný adresář běhu (každý run_*)
 ├── docs/                        # Dokumentace
-└── log/                         # Běhové logy
+└── log/                         # Protokol běhu
 ```
 
 ---
 
 ## 7. Způsob spuštění
 
-### Lokální spuštění (Windows x64)
+### Místní spuštění (Windows x64)
 
 ```powershell
 cd src
 dotnet run
 ```
 
-Při lokálním spuštění pipeline používá konfigurační soubory v adresáři `config/`. Před prvním použitím se ujistěte, že jste správně nakonfigurovali `secrets.json` (viz `secrets_example.json`).
+Při místním spuštění pipeline používá konfigurační soubory v adresáři `config/`. Před prvním použitím se ujistěte, že jste správně nakonfigurovali `secrets.json` (viz `secrets_example.json`).
 
-### Spuštění v CI (GitHub Actions, Linux x64)
+### CI spuštění (GitHub Actions, Linux x64)
 
 ```yaml
 - name: Run Translation Pipeline
   run: dotnet run --project src/TranslationPipeline.csproj
 ```
 
-Při spuštění v prostředí GitHub Actions pipeline automaticky detekuje CI prostředí a přizpůsobuje chování:
+Při běhu v prostředí GitHub Actions pipeline automaticky detekuje CI prostředí a upravuje chování:
+- `GITHUB_ACTIONS=true`: Automaticky snižuje horní limit souběžnosti (počáteční 4, maximální 32), přizpůsobuje se omezeným zdrojům CI runneru.
+- `RUNNER_OS=Linux`: Přizpůsobuje se Linuxovým cestám a způsobu správy procesů.
 
-- `GITHUB_ACTIONS=true`: Automatické snížení limitu souběžnosti (počáteční 4, maximální 32), přizpůsobení omezeným zdrojům CI runneru.
-- `RUNNER_OS=Linux`: Přizpůsobení linuxových cest a způsobu správy procesů.
-
-### Určení výsledku běhu
+### Posouzení výsledků běhu
 
 | Výsledek | Projev | Význam |
 |------|------|------|
-| Úspěch | Výstup `Pipeline complete.`, návratový kód 0 | Všechny kroky dokončeny normálně |
-| Fatální chyba | Výstup `GitHubActions.Error()`, návratový kód 1 | Chybějící konfigurace, API nedostupné a další neopravitelné chyby |
-| Varování | Výstup `GitHubActions.Warning()`, zápis do `temp/run_*/warnings/` | Částečné selhání nekritických kroků, ale pipeline může pokračovat v běhu |
+| Úspěch | Výstup `Pipeline complete.`, kód ukončení 0 | Všechny kroky úspěšně dokončeny |
+| Fatální chyba | Výstup `GitHubActions.Error()`, kód ukončení 1 | Chybějící konfigurace, nedostupné API apod. – neobnovitelné chyby |
+| Varování | Výstup `GitHubActions.Warning()`, zapisuje do `temp/run_*/warnings/` | Některé nekritické kroky selhaly, ale pipeline může pokračovat |
 
 ---
 
-## 8. Klíčová konstrukční rozhodnutí
+## 8. Klíčová rozhodnutí o návrhu
 
-Při návrhu Project Babel jsme učinili některá důležitá technická rozhodnutí. Následující tabulka zaznamenává každé rozhodnutí a důvody za ním, což pomáhá pochopit, proč je pipeline taková, jaká je.
+Během navrhování Project Babel jsme učinili několik důležitých technických rozhodnutí. Následující tabulka zaznamenává každé rozhodnutí a důvody za ním, aby pomohla pochopit, proč je pipeline taková, jaká je.
 
 | Rozhodnutí | Podrobný důvod |
 |------|---------|
-| **JSON překrývá TXT** | Project Zomboid od Build 42 zavedl formát JSON pro překladové soubory jako nový standardní formát. Když stejný překladový klíč existuje současně v TXT a JSON souborech, pipeline upřednostňuje verzi JSON — protože představuje novější formát obsahu a analýza je spolehlivější. Pokud PZ v budoucnu zcela opustí formát TXT, stačí pouze odstranit logiku analýzy TXT. |
-| **Referenční překlad nezávislý na hlavní smyčce** | Referenční překladové mody (lidský překlad) a běžné mody čekající na překlad mají zcela odlišnou frekvenci změn — první jsou stabilní a málo se mění, druhé se často aktualizují. Jejich zpracování ve stejné smyčce by znamenalo, že každá malá aktualizace referenčního překladu spouští kompletní přepočet, což plýtvá zdroji. Po oddělení jde referenční překlad svou vlastní cestou inkrementální aktualizace a hlavní smyčka není ovlivněna. |
-| **Výpočet embeddingů pomocí vzdálené služby** | Model `bge-small-en-v1.5`, ačkoli má jen asi 130MB, při načtení do paměti pro spuštění inference zabírá ve skutečnosti mnohem více, než je velikost modelu. Při limitu 7GB paměti GitHub Actions by současné spuštění embeddingového modelu a překladových úloh snadno vyvolalo OOM. Přesun výpočtu embeddingů na dedikovanou vzdálenou službu zajišťuje stabilitu pipeline a umožňuje embeddingové službě používat GPU akceleraci, s rychlostí daleko převyšující CPU inferenci. |
-| **UDP zaklepání + AES šifrovaná autentizace** | Tradiční schéma API klíče vyžaduje přenášení klíče v každém HTTP požadavku, což zvyšuje plochu pro únik klíče. Schéma UDP zaklepání odděluje autentizaci od přenosu dat — nejprve je dokončeno ověření identity přes UDP a následná HTTP komunikace používá symetrické šifrování AES-256-GCM. I když je HTTP provoz zachycen, bez předsdíleného klíče nelze dešifrovat. Současně je server zcela bezestavový a nepotřebuje udržovat relace. |
-| **Dynamická kontrola souběžnosti** | Limit frekvence (rate limit) DeepSeek API nemá zveřejněné přesné hodnoty a limity se mohou lišit mezi různými modely a časovými obdobími. Pevná souběžnost je buď příliš konzervativní (plýtvání propustností), nebo příliš agresivní (spouštění chyb 429 vedoucích k mnoha opakováním). Adaptivní kontrola souběžnosti prostřednictvím strategie "postupného testování při úspěchu, rychlého stažení při selhání" automaticky nachází při skutečném běhu optimální počet souběžnosti pro aktuální prostředí. |
-| **Režim pevného okna jako alternativa** | V produkčních prostředích, kde je limit souběžnosti API znám (např. s explicitní dohodou QPS s poskytovatelem API), dynamické přizpůsobování přináší nejistotu. Režim pevného okna poskytuje deterministické chování souběžnosti — každé okno s pevnou N souběžností a okna přísně sériová — což usnadňuje predikci výkonu a řešení problémů. |
-| **Zstd komprese embeddingových vektorů** | 384 dimenzí × desítky tisíc modů × desítky tisíc položek, objem dat embeddingových vektorů je obrovský. Při milionu položek zabírají původní data s plovoucí desetinnou čárkou přibližně 1.5GB. Zstd komprese může poskytnout kompresní poměr přibližně 4:1, což snižuje požadavky na úložiště na přibližně 375MB. Ještě důležitější je, že rychlost dekomprese Zstd je extrémně rychlá (>1GB/s), s téměř nulovým dopadem na výkon pipeline. |
-| **Atomický zápis (.tmp + Move)** | Při zápisu souborů, pokud dojde k selhání systému nebo výpadku napájení, může být soubor zapsaný jen částečně poškozen. Zápis nejprve do dočasného souboru (`.tmp`) a po úspěšném zápisu atomické nahrazení cílového souboru pomocí `File.Move`. Protože `File.Move` na stejném souborovém systému je operace přejmenování, operační systém zaručuje její atomicitu — buď je vidět starý soubor, nebo nový soubor, bez přechodových stavů. |
+| **JSON přepisuje TXT** | Project Zomboid od verze Build 42 zavedl JSON formát překladových souborů jako nový standard. Když stejný překladový klíč existuje v souborech TXT i JSON, pipeline upřednostňuje JSON verzi – protože představuje novější formát obsahu a je spolehlivější na parsování. Pokud v budoucnu PZ zcela opustí formát TXT, stačí odstranit logiku pro parsování TXT. |
+| **Referenční překlady nezávislé na hlavním cyklu** | Frekvence změn referenčních překladových modů (ručně přeložených) a běžných modů čekajících na překlad je zcela odlišná – první jsou stabilní a mění se zřídka, druhé se aktualizují často. Zpracovávat oba ve stejném cyklu by vedlo k tomu, že každá malá aktualizace referenčního překladu by spustila plný přepočet, což plýtvá zdroji. Po oddělení referenční překlad sleduje vlastní cestu inkrementální aktualizace, hlavní cyklus není ovlivněn. |
+| **Výpočet embeddingů pomocí vzdálené služby** | Model `bge-small-en-v1.5` má sice jen asi 130 MB, ale při načtení do paměti a provádění inference skutečná spotřeba výrazně přesahuje velikost modelu. Při omezení paměti GitHub Actions na 7 GB může současné spouštění embedding modelu a překladových úloh snadno vyvolat OOM. Přesun výpočtu embeddingů do vzdálené dedikované služby zajišťuje stabilitu pipeline a zároveň umožňuje embeddingové službě používat GPU akceleraci, která je mnohem rychlejší než CPU inference. |
+| **UDP klepání + AES šifrovaná autentizace** | Tradiční přístup s API klíčem vyžaduje přenášení klíče v každém HTTP požadavku, což zvyšuje plochu pro únik klíče. UDP klepání odděluje autentizaci od přenosu dat – nejprve se provede ověření identity přes UDP, poté je HTTP komunikace šifrována symetrickým AES-256-GCM. I když je HTTP provoz zachycen, bez předem sdíleného klíče jej nelze dešifrovat. Server je navíc zcela bezstavový, není třeba udržovat relace. |
+| **Dynamické řízení souběžnosti** | Rychlostní omezení (rate limit) API DeepSeek nemá veřejně známé přesné hodnoty, omezení se mohou lišit podle modelu a časového úseku. Pevný počet souběžných požadavků je buď příliš konzervativní (plýtvá propustností), nebo příliš agresivní (vyvolává chyby 429 a mnoho opakování). Adaptivní řízení souběžnosti pomocí strategie „postupně zkoušet při úspěchu, rychle se stáhnout při neúspěchu" automaticky nachází optimální počet souběžných požadavků pro aktuální prostředí. |
+| **Alternativa s pevným oknem** | V produkčním prostředí, kde je známý horní limit souběžnosti API (např. při jasné smlouvě o QPS s poskytovatelem API), přináší dynamické přizpůsobování nejistotu. Režim pevného okna poskytuje deterministické chování souběžnosti – každé okno má pevný počet N souběžných požadavků, okna jsou striktně sériová – což usnadňuje predikci výkonu a odstraňování problémů. |
+| **Komprese embeddingových vektorů pomocí Zstd** | Množství dat embeddingových vektorů (384 dimenzí × desítky tisíc modů × desítky tisíc položek) je obrovské. Při milionu položek činí původní data v plovoucí desetinné čárce přibližně 1,5 GB. Komprese Zstd poskytuje kompresní poměr přibližně 4:1, čímž snižuje požadavky na úložiště na zhruba 375 MB. Důležitější je, že dekomprese Zstd je extrémně rychlá (>1 GB/s) a na výkon pipeline má téměř žádný vliv. |
+| **Atomický zápis (.tmp + Move)** | Pokud dojde k pádu nebo výpadku napájení během zápisu souboru, může dojít k poškození částečně zapsaného souboru. Nejprve se zapíše do dočasného souboru (`.tmp`), po úspěšném zápisu se atomicky nahradí cílový soubor pomocí `File.Move`. Protože `File.Move` je na stejném souborovém systému operace přejmenování, operační systém zaručuje její atomicitu – buď je vidět starý soubor, nebo nový soubor, žádný mezistav. |
 
 ---
 

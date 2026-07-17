@@ -1,209 +1,219 @@
-# Bijdraaggids (CONTRIBUTING)
+# Bijdragengids (CONTRIBUTING)
 
-> GitHub: [PZProjectBabel/project_babel](https://github.com/PZProjectBabel/project_babel)
-> 
-> [简体中文](contributing_zh-hans.md) | [English](contributing_en.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
+> [English](contributing_en.md) | [简体中文](contributing_zh-hans.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
 
 ---
 
-Hartelijk dank voor je bereidheid om bij te dragen aan **Project Babel — het LLM-aangedreven automatische vertalingsproject voor Project Zomboid-mods**! Of het nu gaat om het oplossen van een bug, het toevoegen van een functie, het schrijven van prompt-sjablonen of het aanleveren van referentievertalingen — elke bijdrage telt!
+## Inhoudsopgave
 
-Het aanroepen van de LLM API voor vertaling kost tokens. Om het project op lange termijn duurzaam te laten draaien, wordt je gulle steun zeer op prijs gesteld!
-
-> ⚠️ **Belangrijke mededeling:**
-> Voordat je iets indient bij deze repository, lees en begrijp de sectie "Auteursrecht & Licenties" zorgvuldig.
-> Na indiening en merging word je geacht akkoord te zijn gegaan met de bijbehorende licentievoorwaarden.
+- [1. Voordat je begint](#1-voordat-je-begint)
+- [2. Hoe kan ik bijdragen?](#2-hoe-kan-ik-bijdragen)
+- [3. Vertaalregels, terminologiewoordenboek en systeemprompts verbeteren](#3-vertaalregels-terminologiewoordenboek-en-systeemprompts-verbeteren)
+- [4. Handmatige proefleescorpora verstrekken](#4-handmatige-proefleescorpora-verstrekken)
+- [5. Bijdragen aan pijplijn- en toolontwikkeling](#5-bijdragen-aan-pijplijn--en-toolontwikkeling)
+- [6. Auteursrecht en licentievoorwaarden](#6-auteursrecht-en-licentievoorwaarden)
+  - [6.1 Basisprincipe: u behoudt auteursrecht en verleent tegelijkertijd het project een licentie](#61-basisprincipe-u-behoudt-auteursrecht-en-verleent-tegelijkertijd-het-project-een-licentie)
+  - [6.2 Licentie voor tekst en afbeeldingen (CC BY-NC-SA 4.0)](#62-licentie-voor-tekst-en-afbeeldingen-cc-by-nc-sa-40)
+  - [6.3 Licentie voor scripts en toolcode (GPL-3.0)](#63-licentie-voor-scripts-en-toolcode-gpl-30)
+  - [6.4 Bovenliggende werken en originele spelrechten](#64-bovenliggende-werken-en-originele-spelrechten)
+- [7. Communicatie en samenwerking](#7-communicatie-en-samenwerking)
+- [8. Financiële ondersteuning](#8-financiële-ondersteuning)
 
 ---
 
-## Voordat je begint
+Hartelijk dank dat je wilt bijdragen aan **Project Babel - 《僵尸毁灭工程》模组LLM自动翻译项目**! Of het nu gaat om het corrigeren van een fout, het toevoegen van een functie, het schrijven van een prompt-sjabloon, of het leveren van referentievertalingen!
 
-Lees de `README.md` van het project om het volgende te begrijpen:
+Het aanroepen van de LLM API voor vertalingen kost tokens. Voor de lange termijn stabiliteit van het project hopen we dat je gul kunt bijdragen!
 
-- De overkoepelende doelstellingen en huidige status van dit project;
-- Hoe gewone spelers dit project gebruiken (voor je eigen tests);
+> ⚠️ **Belangrijke herinnering:**
+> Voordat je iets naar deze repository indient, lees en begrijp goed de sectie "Copyright en Licentieovereenkomst".
+> Zodra je inzending is ingediend en samengevoegd, word je geacht in te stemmen met de bijbehorende licentievoorwaarden.
+
+---
+
+## 1. Voordat je begint
+
+Lees eerst het project `README.md` om het volgende te weten:
+- Het algemene doel en de huidige status van dit project;
+- Hoe gewone spelers dit project kunnen gebruiken (handig voor je eigen testen);
 - Technische details van het project.
 
 ---
 
-## Hoe kan ik bijdragen?
+## 2. Hoe kan ik bijdragen?
 
-Je kunt op basis van je interesses en vaardigheden op een of meer manieren deelnemen:
+Je kunt op basis van je interesses en vaardigheden een of meer manieren kiezen om deel te nemen:
 
-- Vertaalregels voor een doeltaal aanleveren
-- Een terminologisch woordenboek voor een doeltaal aanleveren
-- De systeem-prompts verbeteren
-- Handmatig gecorrigeerde vertaalcorpora aanleveren
-- Pijplijnmodules (.NET) en automatiseringsscripts verbeteren
-- Problemen melden en verbeteringen voorstellen (via Issues)
-- Financiële steun bieden voor LLM API-aanroepen
+- Vertaalregels voor de doeltaal leveren
+- Vertaalterminologiewoordenboek voor de doeltaal leveren
+- De prompts van het systeem verbeteren
+- Handmatig nagekeken vertaalcorpora leveren
+- De pijplijnmodules (.NET) en automatisatie scripts verbeteren
+- Problemen melden en verbetervoorstellen doen (in Issues)
+- Financiële steun voor LLM API-aanroepen
 
-Hieronder volgen uitleg voor de belangrijkste bijdraagscenario's.
+Hieronder volgt een toelichting op de belangrijkste bijdrages.
 
 ---
 
-## Vertaalregels, terminologische woordenboeken aanleveren en systeem-prompts verbeteren
+## 3. Vertaalregels, terminologiewoordenboek en systeemprompts verbeteren
 
-De prompt-sjablonen van de pijplijn bevinden zich in `src/prompt_templates/`, met de volgende structuur:
+De prompt-sjablonen van de pijplijn bevinden zich in `src/prompt_templates/` met de volgende structuur:
 
-- `system_prompt_translate_engine.txt`: de globale systeem-prompt van de vertaalengine (gedeeld door alle talen);
-- `<taalcode>/translation_dictionary_<taalcode>.json`: het terminologisch woordenboek voor die taal;
-- `<taalcode>/translation_schema_<taalcode>.md`: de vertaalregels en stijlbeperkingen voor die taal.
+- `system_prompt_translate_engine.txt`: Globale systeemprompt voor de vertaalengine (gedeeld door alle talen);
+- `<taalcode>/translation_dictionary_<taalcode>.json`: Het terminologiewoordenboek voor die taal;
+- `<taalcode>/translation_schema_<taalcode>.md`: De vertaalregels en stijlbeperkingen voor die taal.
 
-Bijdraagstappen:
+Stappen om bij te dragen:
 
-1. Maak een submap aan onder `src/prompt_templates/` voor jouw taal en voeg de woordenboek- en regelbestanden toe;
-2. Als je het globale vertaalgedrag wilt aanpassen, wijzig dan `system_prompt_translate_engine.txt` (let op: dit beïnvloedt alle talen);
-3. Test lokaal om de resultaten te bevestigen;
+1. Maak een submap voor jouw taal in `src/prompt_templates/` en voeg het terminologiewoordenboek en vertaalregelbestand toe;
+2. Indien nodig het globale vertaalgedrag aanpassen, wijzig `system_prompt_translate_engine.txt` (let op: beïnvloedt alle talen);
+3. Bevestig het effect met lokale tests.
 4. Dien een PR in.
 
 ---
 
-## Handmatig gecorrigeerde corpora aanleveren
+## 4. Handmatige proefleescorpora verstrekken
 
-Als je auteur bent van een vertaalmod en bereid bent je vertaalcorpus als LLM-vertaalreferentie aan te leveren, dien dan een verzoek in via een Issue. Je moet de volgende informatie verstrekken:
+Als je een vertaalmod-maker bent en je vertaalcorpora als referentie voor LLM-vertalingen wilt aanbieden, dien dan een verzoek in via een Issue. Je dient de volgende informatie te verstrekken:
 
-- De Mod ID van je vertaalmod en de doeltaal;
-- Een screenshot van de beheerpagina van je vertaalmod om te bewijzen dat je de auteur bent;
-- Een duidelijke verklaring in de Issue dat je bereid bent het vertaalcorpus aan te leveren;
-- Als er bijzondere omstandigheden zijn (speciale licentie, enz.), leg deze dan uit;
-- Zorg ervoor dat het aangeleverde corpus van hoge kwaliteit is.
+- De Mod ID van jouw vertaalmod en de doeltaal van de vertaling;
+- Een screenshot van de beheerpagina van jouw vertaalmod om te bewijzen dat je de mod-auteur bent;
+- Geef in de Issue duidelijk aan dat je bereid bent vertaalcorpora te verstrekken;
+- Indien er bijzondere omstandigheden zijn (speciale licenties enz.), vermeld deze dan;
+- Zorg ervoor dat de door jou verstrekte corpora van hoge kwaliteit zijn.
 
-Met jouw toestemming zal het project je mod toevoegen aan de referentievertalingsmodlijst `config/ref_translation_mods.json`, en de pijplijn zal je vertaalde teksten automatisch synchroniseren als RAG-referentiecorpora.
+Onder jouw toestemming zal het project jouw mod opnemen in de referentielijst van vertaalmods in `config/ref_translation_mods.json`, en de pijplijn zal automatisch jouw vertaaltekst synchroniseren als RAG-referentiecorpora.
 
 ---
 
-## Pijplijn- en toolontwikkelingsbijdragen
+## 5. Bijdragen aan pijplijn- en toolontwikkeling
 
-De automatisering in dit project is opgedeeld in twee delen:
+De automatisering van dit project is verdeeld in twee delen:
 
-**Pijplijnmodules (`src/`, C# / .NET 10)**: Bevat 15 sequentieel uitgevoerde modules, verantwoordelijk voor de volledige workflow van mod-downloaden, tekstextractie, inhoudscontrole, embedding-berekening, RAG-ophaling tot LLM-vertaling en uiteindelijke output. Zie de [technische referentie](../technical_reference/technical_reference_nl.md) voor details.
+**Pijplijnmodule (`src/`, C# / .NET 10)**: Bevat 15 opeenvolgend uitgevoerde modules, verantwoordelijk voor de volledige stroom van SteamCMD-initialisatie, mod-download, tekstextractie, inhoudscontrole, Embedding-berekening, RAG-ophaling tot LLM-vertaling en uiteindelijke uitvoer. Zie [technische referentie](../technical_reference/technical_reference_nl.md) voor details.
 
-**Hulpscripts (`.github/`)**: Gebruikt voor GitHub-automatisering.
+**Hulpscripts (`.github/`)**: Voor de automatisering van GitHub.
 
-Als je het volgende wilt:
+Als je wilt:
 
-* Bugs in bestaande pijplijnmodules of scripts oplossen;
+* Bugs in bestaande pijplijnmodules of scripts repareren;
 * Nieuwe functies of modules aan de pijplijn toevoegen;
 * Prestaties of codestructuur optimaliseren;
 * Prompt-sjablonen of RAG-strategieën verbeteren;
 
-Kun je deze stappen volgen:
+Volg dan de onderstaande stappen:
 
-1. Fork deze repository en kloon deze lokaal;
-2. Maak een nieuwe branch aan vanaf de nieuwste branch;
-3. Wijzig of voeg bestanden toe in de bijbehorende mappen:
-   - Wijzigingen in pijplijnmodules → `src/<modulenaam>/`;
-   - Wijzigingen in scripts → `scripts/`;
-   - Wijzigingen in prompt-sjablonen → `src/prompt_templates/`;
-4. Probeer voor het indienen:
+1. Fork deze repository en clone deze lokaal;
+2. Maak een nieuwe branch op basis van de nieuwste branch;
+3. Wijzig of voeg bestanden toe in de corresponderende mappen:
+- Wijzigingen aan pijplijnmodule → `src/<模块名>/`;
+- Scriptaanpassingen → `scripts/`;
+- Prompt-sjabloonaanpassingen → `src/prompt_templates/`;
+4. Probeer vóór het indienen zoveel mogelijk:
 
-   * De bestaande codeerstijl te behouden;
-   * Noodzakelijke opmerkingen toe te voegen;
-   * Indien mogelijk eenvoudige tests of gebruiksinstructies bij te voegen;
-5. Dien wijzigingen in via PR, met uitleg in de beschrijving:
+* Houd de oorspronkelijke codestijl aan;
+* Voeg de nodige opmerkingen toe;
+* Voeg indien mogelijk eenvoudige test- of gebruiksaanwijzingen toe;
+5. Dien wijzigingen in via een PR en vermeld in de beschrijving:
 
-   * Het doel van de wijzigingen;
-   * De mappen / modules / scripts die mogelijk beïnvloed worden;
-   * Of het breaking changes betreft.
+* Doel van de wijziging;
+* Mogelijk beïnvloede mappen / modules / scripts;
+* Of het een breekbare wijziging betreft.
 
 ---
 
-## Auteursrecht & Licenties
+## 6. Auteursrecht en licentievoorwaarden
 
-> **Vriendelijke herinnering:**
-> De auteursrecht- en licentievoorwaarden zijn bedoeld om de legitieme rechten en belangen van het project, auteurs, bijdragers en spelers te beschermen, en om misverstanden door "stilzwijgende overeenstemming" of "standaardaannames" te voorkomen. Lees ze zorgvuldig.
-> Auteursrecht en licenties worden beheerst door de inhoud van het README.md-bestand; deze sectie biedt slechts een toegankelijkere beschrijving.
+> **Let op:**
+> De auteursrecht- en licentievoorwaarden zijn bedoeld om de wettelijke rechten van het project, auteurs, bijdragers en spelers te beschermen, en om misverstanden als gevolg van 'stilzwijgend akkoord' of 'standaard' te voorkomen. Lees het alstublieft zorgvuldig.
+> De auteursrecht- en licentievoorwaarden worden bepaald door de inhoud van het README.md-bestand; deze sectie biedt alleen een eenvoudigere uitleg.
 
-### 1. Basisprincipe: Je behoudt het auteursrecht, terwijl je het project een licentie verleent om je werk te gebruiken
+### 6.1 Basisprincipe: u behoudt auteursrecht en verleent tegelijkertijd het project een licentie
 
-* Je behoudt het auteursrecht op de inhoud die je maakt (vertalingen, afbeeldingen, scripts/programma's, enz.);
-* Echter, zodra deze inhoud bij dit project is ingediend en geaccepteerd (gemerged),
-  ga je ermee akkoord anderen te licenseren om deze inhoud te gebruiken onder de door dit project aangenomen open-source/gedeelde licentie.
+* U behoudt het auteursrecht op uw eigen creaties (vertalingen, afbeeldingen, scripts/programma's, enz.);
+* Maar nadat u deze inhoud aan dit project heeft bijgedragen en deze is geaccepteerd (samengevoegd), stemt u ermee in dat anderen deze inhoud mogen gebruiken volgens de open source/gedeelde licentie van dit project.
 
 Dit betekent:
 
-* Je **kunt nog steeds** je werk elders blijven gebruiken en tonen;
-* Maar je **kunt niet**, nadat je bijdrage is gemerged, van dit project of andere gebruikers die het werk rechtmatig hebben verkregen eisen dat zij "de licentie intrekken" of "historische versies verwijderen".
+* U **kunt** uw eigen werk nog steeds elders gebruiken en tentoonstellen;
+* Maar u **kunt** niet na het samenvoegen van bijdragen eisen dat dit project of andere gebruikers die het werk legaal hebben verkregen, de licentie 'intrekken' of 'historische versies verwijderen'.
 
-### 2. Licentie van teksten, afbeeldingen en soortgelijke inhoud (CC BY-NC-SA 4.0)
+### 6.2 Licentie voor tekst en afbeeldingen (CC BY-NC-SA 4.0)
 
-Voor de volgende door jou ingediende inhoud:
+Voor de volgende inhoud die u bijdraagt:
 
-* Vertalingen van spelteksten, revisies en correcties;
-* Projectdocumentatie en toelichtende teksten;
-* Afbeeldingen en artistieke middelen specifiek gemaakt voor dit project;
+* Vertaling, herziening en correctie van spelteksten;
+* Projectdocumentatie, toelichtende teksten;
+* Speciaal voor dit project gemaakte afbeeldingen en artistieke bronnen;
 
-Na acceptatie en merging in deze repository word je geacht akkoord te gaan met het volgende:
+Zodra ze door deze repository zijn geaccepteerd en samengevoegd, wordt u geacht akkoord te gaan met:
 
-1. Deze inhoud wordt gelicentieerd onder **Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal**
-   (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, afgekort **CC BY-NC-SA 4.0**);
-2. Project Babel en alle gebruikers die deze inhoud ontvangen mogen, **met inachtneming van de CC BY-NC-SA 4.0-voorwaarden**:
+1. Deze inhoud is gelicentieerd onder de **Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal** (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, afgekort **CC BY-NC-SA 4.0**);
+2. Project Babel en alle gebruikers die deze inhoud verkrijgen, kunnen, onder **naleving van de CC BY-NC-SA 4.0-voorwaarden**:
+* Deze inhoud delen, kopiëren en opnieuw verspreiden;
+* Deze inhoud wijzigen en opnieuw creëren voor niet-commerciële doeleinden;
+3. U stemt ermee in dat, voor zover toegestaan door de toepasselijke wetgeving, deze licentie **niet-exclusief, wereldwijd, royaltyvrij en onherroepelijk** is;
+4. Zelfs als u zich later terugtrekt of stopt met deelname aan dit project, kan dit project de door u ingediende en samengevoegde inhoud blijven gebruiken en opnieuw verspreiden onder CC BY-NC-SA 4.0.
 
-   * Deze inhoud delen, kopiëren en herdistribueren;
-   * Deze inhoud wijzigen en afgeleide werken maken voor niet-commerciële doeleinden;
-3. Je stemt ermee in dat deze licentie **niet-exclusief, wereldwijd, royaltyvrij en onherroepelijk** is voor zover toegestaan door de toepasselijke wetgeving;
-4. Zelfs als je later terugtreedt of stopt met deelname aan dit project, mag het project de relevante inhoud die je hebt ingediend en die is gemerged, blijven gebruiken en herdistribueren onder CC BY-NC-SA 4.0.
+> Als u de bovenstaande licentievoorwaarden niet accepteert, dien dan geen tekst- of afbeeldingsbijdragen in bij dit project,
+> of neem vooraf contact op met de projectonderhouder om te bevestigen of op een andere manier kan worden samengewerkt.
 
-> Als je de bovenstaande licentievoorwaarden niet aanvaardt, dien dan geen tekst- of beeldbijdragen in bij dit project,
-> of neem vooraf contact op met de projectbeheerders om te bevestigen of samenwerking op een andere manier mogelijk is.
+### 6.3 Licentie voor scripts en toolcode (GPL-3.0)
 
-### 3. Licentie van scripts en toolcode (GPL-3.0)
+Voor wat u heeft ingediend en is geaccepteerd:
 
-Voor het volgende dat je indient en dat wordt geaccepteerd:
+* Geautomatiseerde scripts;
+* Bouw-/exportgereedschappen;
+* Andere programmacode voor het verwerken van dit lokalisatieproject;
 
-* Automatiseringsscripts;
-* Build/export tools;
-* Overige programmacode gebruikt voor de verwerking van dit vertalingsproject;
+Tenzij anders vermeld, wordt beschouwd dat u ermee akkoord gaat:
 
-Bij afwezigheid van speciale verklaringen word je geacht akkoord te gaan met het volgende:
+1. De code is gelicentieerd onder **GPL-3.0** (GNU General Public License versie 3);
+2. Projectbeheerders kunnen het wijzigen, samenvoegen en distribueren binnen de toegestane grenzen van GPL-3.0;
+3. U kunt ook andere projecten voortzetten op basis van dezelfde code, zolang u de voorwaarden van GPL-3.0 naleeft.
 
-1. De code wordt gelicentieerd onder **GPL-3.0** (GNU General Public License versie 3);
-2. Projectbeheerders mogen deze wijzigen, mergen en distribueren binnen het door GPL-3.0 toegestane bereik;
-3. Je kunt ook andere projecten voortzetten op basis van dezelfde code, zolang je voldoet aan de GPL-3.0-voorwaarden.
+Om licentieconflicten te voorkomen, probeer het volgende:
 
-Om licentieconflicten te voorkomen, probeer:
+* Introduceer geen code van derden die **niet compatibel is met GPL-3.0** zonder bevestiging;
+* Als u een bibliotheek van derden moet gebruiken, vermeld dan duidelijk de bron en licentie in de PR en bevestig de compatibiliteit.
 
-* Geen code van derden te introduceren die **niet compatibel is met GPL-3.0** zonder voorafgaande bevestiging;
-* Als je moet verwijzen naar bibliotheken van derden, vermeld dan duidelijk hun bron en licentie in de PR en bevestig de compatibiliteit.
+### 6.4 Bovenliggende werken en originele spelrechten
 
-### 4. Upstreamwerken en auteursrecht van het originele spel
+Dit project is een **niet-officiële vertaling** van mods gerelateerd aan 《Project Zomboid》;
 
-Dit project is een **onofficieel vertalingsproject** voor mods gerelateerd aan *Project Zomboid*:
-
-* Het auteursrecht van het originele spel en elke mod behoort toe aan de respectievelijke auteurs/uitgevers;
-* Dit project omvat alleen het maken en organiseren van tekstvertalingen, stijlaanpassingen en enkele ondersteunende middelen;
-* Bijdragers moeten er bij het indienen van inhoud voor zorgen dat:
-
-  * Geen ongeautoriseerde vertaalteksten of artistieke middelen van derden rechtstreeks worden gekopieerd;
-  * De rechten van oorspronkelijke auteurs en mod-auteurs worden gerespecteerd en geen inbreukmakende herdistributie plaatsvindt.
+* Het originele spel en de mods zelf behoren hun respectievelijke auteurs/uitgevers;
+* Dit project richt zich alleen op het vertalen, redigeren en organiseren van tekst en sommige ondersteunende bronnen;
+* Bijdragers moeten ervoor zorgen dat bij het indienen van inhoud:
+* Geen ongeautoriseerde vertalingen van derden of artistieke bronnen direct kopiëren;
+* De rechten van de oorspronkelijke auteurs en mod-makers respecteren en geen inbreukmakende herpublicatie uitvoeren.
 
 ---
 
-## Communicatie & Samenwerking
+## 7. Communicatie en samenwerking
 
-Als je:
+Als u vragen heeft over:
 
-* Vragen hebt over de licentievoorwaarden;
-* Twijfelt of bepaalde inhoud kan worden bijgedragen;
-* Je werk op een speciale manier wilt licenseren (bijv. alleen niet-commercieel gebruik maar geen bewerking toegestaan);
+* Vragen over de licentievoorwaarden;
+* Onzeker of een bepaalde inhoud kan worden bijgedragen;
+* Uw werk op een speciale manier wilt licentiëren (bijv. alleen niet-commercieel gebruik zonder aanpassingen toestaan);
 
-Neem dan gerust contact op met de projectbeheerders via:
+Neem contact op met de projectbeheerder via de volgende manieren:
 
-* Het indienen van een Issue voor discussie;
-* Andere openbaar beschikbare contactmethoden van de beheerders.
+* Dien een Issue in voor discussie;
+* Andere openbaar beschikbare contactgegevens van beheerders.
 
-We zullen ons best doen om een oplossing te vinden die de gezonde ontwikkeling van het project in evenwicht brengt met respect voor de rechten en belangen van alle partijen.
-
----
-
-## Financiële steun
-
-Tijdens de projectwerking moet de LLM API voortdurend worden aangeroepen voor vertaling vanwege nieuwe mods en tekstupdates van bestaande mods. Om het LLM-gedrag te sturen, is naast de basismodteksten een grote hoeveelheid promptinhoud nodig (inclusief basisprompts, vertaalregels, terminologietabellen, invoer-/uitvoerbeperkingen, semantische zoekresultaten, enz.), die veel meer tokens verbruikt dan de oorspronkelijke teksten. Daarom heeft het project financiële steun nodig.
-
-Als je financiële steun wilt bieden, neem dan contact op met de projectbeheerders. Hartelijk dank!
+We zullen proberen een oplossing te vinden die rekening houdt met de belangen van alle partijen, terwijl de gezonde ontwikkeling van het project wordt gewaarborgd.
 
 ---
 
-Nogmaals bedankt voor je bereidheid om bij te dragen aan dit project!
-Elke bijdrage die je levert, komt ten goede aan meer spelers!
+## 8. Financiële ondersteuning
+
+Tijdens de werking van het project is het nodig om continu LLM API aan te roepen voor vertaling vanwege nieuwe mods, updates van oude mods, enz. Om het gedrag van de LLM te sturen, moeten naast de basismodteksten ook uitgebreide promptinhoud worden verstrekt (inclusief basisprompts, vertaalregels, terminologie, invoer/uitvoerbeperkingen, semantische zoekresultaten, enz.), wat veel meer tokens verbruikt dan de originele tekst. Daarom heeft het project financiële ondersteuning nodig.
+
+Als u bereid bent financiële steun te verlenen, neem dan contact op met de projectbeheerder. Hartelijk dank!
+
+---
+
+Nogmaals bedankt dat u bereid bent bij te dragen aan dit project!
+Elke bijdrage van jou helpt meer spelers!

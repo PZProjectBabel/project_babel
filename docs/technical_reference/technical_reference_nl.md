@@ -1,334 +1,351 @@
 # Project Babel Technische Documentatie
 
-> **Doel**: AI-vertaalpijplijn voor meerdere mods van Project Zomboid  
-> **Taal**: C# / .NET 10  
-> **Uitvoeromgeving**: GitHub Actions (Linux x64) / Lokaal (Windows x64)  
+> **Doel**: Project Zomboid multi-mod AI-vertaalpijplijn
+> **Taal**: C# / .NET 10
+> **Uitvoeringsomgeving**: GitHub Actions (Linux x64) / Lokaal (Windows x64)
 > **Codebase**: [PZProjectBabel/project_babel](https://github.com/PZProjectBabel/project_babel)
 
 ---
 
-> [简体中文](technical_reference_zh-hans.md) [English](technical_reference_en.md) <details><summary>Other Languages</summary>[العربية](technical_reference_ar.md) | [català](technical_reference_ca.md) | [繁體中文](technical_reference_zh-hant.md) | [čeština](technical_reference_cs.md) | [dansk](technical_reference_da.md) | [Deutsch](technical_reference_de.md) | [español](technical_reference_es.md) | [suomi](technical_reference_fi.md) | [français](technical_reference_fr.md) | [magyar](technical_reference_hu.md) | [Bahasa Indonesia](technical_reference_id.md) | [italiano](technical_reference_it.md) | [日本語](technical_reference_ja.md) | [한국어](technical_reference_ko.md) | [norsk](technical_reference_no.md) | [Tagalog](technical_reference_tl.md) | [polski](technical_reference_pl.md) | [português](technical_reference_pt.md) | [português do Brasil](technical_reference_pt-br.md) | [română](technical_reference_ro.md) | [русский](technical_reference_ru.md) | [ภาษาไทย](technical_reference_th.md) | [Türkçe](technical_reference_tr.md) | [українська](technical_reference_uk.md)</details>
-## Projectoverzicht
-
-**Project Babel** is een geautomatiseerde vertaalpijplijn die speciaal is ontworpen voor het meertalig AI-vertalen van Steam Workshop-mods voor de game *Project Zomboid*.
-
-### Achtergrond en motivatie
-
-Project Zomboid kent een enorme mod-ecosysteem; op Steam Workshop bestaan tienduizenden door gebruikers gemaakte mods. De overgrote meerderheid van deze mods is alleen in het Engels beschikbaar, wat voor niet-Engelstalige spelers een taalbarrière vormt. Handmatig vertalen kent twee kernproblemen:
-
-1. **Grote schaal**: Het aantal mods en de hoeveelheid tekst is enorm, handmatig vertalen is kostbaar en traag.
-2. **Voortdurende updates**: Modmakers werken hun mods regelmatig bij, dus vertalingen moeten worden bijgehouden, anders raken ze verouderd.
-
-Project Babel lost deze problemen op door een volledig geautomatiseerde AI-vertaalpijplijn te bouwen. Deze kan automatisch nieuwe mods ontdekken, modbestanden downloaden, te vertalen tekst extraheren, met behulp van grote taalmodellen (LLM) hoogwaardige vertalingen genereren en uiteindelijk kant-en-klare vertaalpatches opleveren die spelers direct kunnen gebruiken.
-
-### Kernmogelijkheden
-
-- **Automatische detectie**: Verzamelt automatisch te vertalen mod-ID's uit communityplatforms (AsOne) en lokale verzoeklijsten.
-- **Intelligente vertaling**: Combineert referentiecorpora (RAG-zoekopdrachten) en terminologielijsten om contextbewuste vertalingen door de LLM te laten genereren.
-- **Incrementele updates**: Detecteert wijzigingen in mod-inhoud en vertaalt alleen nieuwe of gewijzigde tekst, zodat dubbel werk wordt vermeden.
-- **Veiligheidscontrole**: Detecteert en filtert automatisch mods met ongeoorloofde inhoud (drugs, porno, enz.).
-- **Meertalige ondersteuning**: De pijplijnarchitectuur ondersteunt 27 doeltalen, maar wordt momenteel voornamelijk gebruikt voor vereenvoudigd Chinees (zh‑hans).
-- **Continue werking**: Wordt via GitHub Actions gepland en draait onbewaakt.
-
-### Doel van deze documentatie
-
-Deze documentatie is bedoeld voor ontwikkelaars die de pijplijn willen begrijpen, implementeren of eraan willen bijdragen. Het lezen ervan helpt je:
-
-- De algemene architectuur en gegevensstromen te begrijpen.
-- De verantwoordelijkheden en interne werking van elke module te doorgronden.
-- De structuur van configuratiebestanden en de betekenis van parameters te leren kennen.
-- De pijplijn lokaal of in een CI-omgeving te kunnen draaien.
+> [English](technical_reference_en.md) | [简体中文](technical_reference_zh-hans.md) <details><summary>Other Languages</summary>[العربية](technical_reference_ar.md) | [català](technical_reference_ca.md) | [繁體中文](technical_reference_zh-hant.md) | [čeština](technical_reference_cs.md) | [dansk](technical_reference_da.md) | [Deutsch](technical_reference_de.md) | [español](technical_reference_es.md) | [suomi](technical_reference_fi.md) | [français](technical_reference_fr.md) | [magyar](technical_reference_hu.md) | [Bahasa Indonesia](technical_reference_id.md) | [italiano](technical_reference_it.md) | [日本語](technical_reference_ja.md) | [한국어](technical_reference_ko.md) | [Nederlands](technical_reference_nl.md) | [norsk](technical_reference_no.md) | [Tagalog](technical_reference_tl.md) | [polski](technical_reference_pl.md) | [português](technical_reference_pt.md) | [português do Brasil](technical_reference_pt-br.md) | [română](technical_reference_ro.md) | [русский](technical_reference_ru.md) | [ภาษาไทย](technical_reference_th.md) | [Türkçe](technical_reference_tr.md) | [українська](technical_reference_uk.md)</details>
 
 ---
 
 ## Inhoudsopgave
 
+- [Projectoverzicht](#projectoverzicht)
+  - [Achtergrond en Motivatie](#achtergrond-en-motivatie)
+  - [Kernmogelijkheden](#kernmogelijkheden)
+  - [Doel van het document](#doel-van-het-document)
 - [1. Systeemarchitectuur](#1-systeemarchitectuur)
-- [2. Pijplijnworkflow](#2-pijplijnworkflow)
-- [3. Principes en technische details van modules](#3-principes-en-technische-details-van-modules)
-  - [3.1 ConfigReader](#31-configreader-configreaderservice)
-  - [3.2 RepoDataLoader](#32-repodataloader-repodataloaderservice)
-  - [3.3 ModIdCollector](#33-modidcollector-modidcollectorservice)
-  - [3.4 ModInfoFetcher](#34-modinfofetcher-modinfofetcherservice)
-  - [3.5 ModDownloader](#35-moddownloader-moddownloaderservice)
-  - [3.6 ContentExtractor](#36-contentextractor-contentextractorservice)
-  - [3.7 ContentChecker](#37-contentchecker-contentcheckerservice)
-  - [3.8 EmbeddingFetcher](#38-embeddingfetcher-embeddingfetcherservice)
-  - [3.9 TranslationBatcher](#39-translationbatcher-translationbatcherservice)
-  - [3.10 RagContextRetriever](#310-ragcontextretriever-ragcontextretrieverservice)
-  - [3.11 LLMTranslator](#311-llmtranslator-llmtranslatorservice)
-  - [3.12 ResultWriter](#312-resultwriter-resultwriterservice)
-  - [3.13 FinalOutputWriter](#313-finaloutputwriter-finaloutputwriterservice)
-  - [3.14 ProgressReporter](#314-progressreporter-progressreporterservice)
-- [4. Gegevensconventies](#4-gegevensconventies)
+  - [Algemene architectuur](#algemene-architectuur)
+  - [Twee verwerkingsfasen](#twee-verwerkingsfasen)
+  - [Kerngegevensstroom](#kerngegevensstroom)
+- [2. Pijplijnwerkstroom](#2-pijplijnwerkstroom)
+  - [Fase 1: Configuratie laden en SteamCMD initialiseren](#fase-1-configuratie-laden-en-steamcmd-initialiseren)
+  - [Fase 2: Referentievertaalsynchronisatie (stappen 2-3)](#fase-2-referentievertaalsynchronisatie-stappen-2-3)
+  - [Phase 3: Hoofdvertaalcyclus (Steps 4-14)](#phase-3-hoofdvertaalcyclus-steps-4-14)
+  - [Phase 4: Output en rapportage (Steps 15-20)](#phase-4-output-en-rapportage-steps-15-20)
+- [3. Modules: principes en technische details](#3-modules-principes-en-technische-details)
+  - [3.1 ConfigReader (`ConfigReaderService`)](#31-configreader-configreaderservice)
+  - [3.2 RepoDataLoader (`RepoDataLoaderService`)](#32-repodataloader-repodataloaderservice)
+  - [3.3 ModIdCollector (`ModIdCollectorService`)](#33-modidcollector-modidcollectorservice)
+  - [3.4 ModInfoFetcher (`ModInfoFetcherService`)](#34-modinfofetcher-modinfofetcherservice)
+  - [3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)](#35-steamcmdbootstrapper-steamcmdbootstrapperservice)
+  - [3.5.1 ModDownloader (`ModDownloaderService`)](#351-moddownloader-moddownloaderservice)
+  - [3.6 ContentExtractor (`ContentExtractorService`)](#36-contentextractor-contentextractorservice)
+  - [3.7 ContentChecker (`ContentCheckerService`)](#37-contentchecker-contentcheckerservice)
+  - [3.8 EmbeddingFetcher (`EmbeddingFetcherService`)](#38-embeddingfetcher-embeddingfetcherservice)
+  - [3.9 TranslationBatcher (`TranslationBatcherService`)](#39-translationbatcher-translationbatcherservice)
+  - [3.10 RagContextRetriever (`RagContextRetrieverService`)](#310-ragcontextretriever-ragcontextretrieverservice)
+  - [3.11 LLMTranslator (`LLMTranslatorService`)](#311-llmtranslator-llmtranslatorservice)
+  - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
+  - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
+  - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [4. Gegevensafspraken](#4-gegevensafspraken)
   - [4.1 Kerntypen](#41-kerntypen)
-  - [4.2 Bestandsindelingen](#42-bestandsindelingen)
+    - [`TranslationEntry` — Vertaalitem](#translationentry-vertaalitem)
+    - [`TranslationData` — Vertaalgegevens](#translationdata-vertaalgegevens)
+    - [`ModInfo` — Mod 元数据](#modinfo-mod-元数据)
+    - [`TranslationBatch` — Vertaalbatch](#translationbatch-vertaalbatch)
+    - [`LangInfoData` — Taalinformatie](#langinfodata-taalinformatie)
+  - [4.2 Bestandsformaten](#42-bestandsformaten)
+    - [Extractie-uitvoer (geproduceerd door ContentExtractor)](#extractie-uitvoer-geproduceerd-door-contentextractor)
+    - [Sleutel-toewijzingsbestand](#sleutel-toewijzingsbestand)
+    - [Vertaalcache (data/translations/)](#vertaalcache-datatranslations)
+    - [Uiteindelijke output (final_outputs/)](#uiteindelijke-output-final_outputs)
+    - [Embeddingvectors (data/embeddings/*.bin)](#embeddingvectors-dataembeddingsbin)
   - [4.3 Indexsleutelconventies](#43-indexsleutelconventies)
-  - [4.4 Toestandsautomaten](#44-toestandsautomaten)
-- [5. Configuratie-uitleg](#5-configuratie-uitleg)
-  - [5.1 config.json — Hoofdconfiguratie van de pijplijn](#51-configconfigjson--hoofdconfiguratie-van-de-pijplijn)
-    - [5.1.1 LLM — Configuratie groot taalmodel](#511-llm--configuratie-groot-taalmodel)
-    - [5.1.2 RAG — Configuratie voor ophaalondersteunde generatie](#512-rag--configuratie-voor-ophaalondersteunde-generatie)
-    - [5.1.3 AsOne — Externe mod-lijstbron](#513-asone--externe-mod-lijstbron)
-    - [5.1.4 Steam — Steam Web API-configuratie](#514-steam--steam-web-api-configuratie)
-    - [5.1.5 Pipeline — Algemene pijplijnconfiguratie](#515-pipeline--algemene-pijplijnconfiguratie)
-    - [5.1.6 ContentCheck — Configuratie voor inhoudsveiligheidscontrole](#516-contentcheck--configuratie-voor-inhoudsveiligheidscontrole)
-    - [5.1.7 Settings — Basisinstellingen pijplijn](#517-settings--basisinstellingen-pijplijn)
-    - [5.1.8 Embedding — Configuratie inbeddingservice](#518-embedding--configuratie-inbeddingservice)
-    - [5.1.9 Workflow — Workflowconfiguratie](#519-workflow--workflowconfiguratie)
-  - [5.2 secrets.json — Sleutelconfiguratie](#52-configsecretsjson--sleutelconfiguratie)
-  - [5.3 supported_languages.json — Ondersteunde talen](#53-configsupported_languagesjson--ondersteunde-talen)
-  - [5.4 ref_translation_mods.json — Referentievertaalmods](#54-configref_translation_modsjson--referentievertaalmods)
-  - [5.5 request_for_translation.txt — Lokale vertaalverzoeken](#55-configrequest_for_translationtxt--lokale-vertaalverzoeken)
-  - [5.6 Laadproces configuratie](#56-laadproces-configuratie)
-- [6. Directorystructuur](#6-directorystructuur)
-- [7. Manieren van uitvoeren](#7-manieren-van-uitvoeren)
+  - [4.4 Toestandsmachine](#44-toestandsmachine)
+    - [ContentCheck-inhoudscontrolestatus](#contentcheck-inhoudscontrolestatus)
+    - [TranslationData vertaalvalidatiestatus](#translationdata-vertaalvalidatiestatus)
+    - [ModInfo.needsUpdate updatebepaling](#modinfoneedsupdate-updatebepaling)
+- [5. Configuratie-instructies](#5-configuratie-instructies)
+  - [5.1 `config/config.json` — Hoofdconfiguratie van de pijplijn](#51-configconfigjson-hoofdconfiguratie-van-de-pijplijn)
+    - [5.1.1 `LLM` — Groot taalmodel configuratie](#511-llm-groot-taalmodel-configuratie)
+    - [5.1.2 `RAG` — Retrieval-Augmented Generation configuratie](#512-rag-retrieval-augmented-generation-configuratie)
+    - [5.1.3 `AsOne` — Externe Mod-lijstbron](#513-asone-externe-mod-lijstbron)
+    - [5.1.4 `Steam` — Steam Web API-configuratie](#514-steam-steam-web-api-configuratie)
+    - [5.1.5 `Pipeline` — Algemene pipelineconfiguratie](#515-pipeline-algemene-pipelineconfiguratie)
+    - [5.1.6 `ContentCheck` — Configuratie contentveiligheidscontrole](#516-contentcheck-configuratie-contentveiligheidscontrole)
+    - [5.1.7 `Settings` — Basisinstellingen pipeline](#517-settings-basisinstellingen-pipeline)
+    - [5.1.8 `Embedding` — Configuratie embeddingdienst](#518-embedding-configuratie-embeddingdienst)
+    - [5.1.9 `Workflow` — Workflowconfiguratie](#519-workflow-workflowconfiguratie)
+  - [5.2 `config/secrets.json` — Sleutelconfiguratie](#52-configsecretsjson-sleutelconfiguratie)
+  - [5.3 `config/supported_languages.json` - Lijst met ondersteunde talen](#53-configsupported_languagesjson---lijst-met-ondersteunde-talen)
+  - [5.4 `config/ref_translation_mods.json` — Referentievertalingsmods](#54-configref_translation_modsjson-referentievertalingsmods)
+  - [5.5 `config/request_for_translation.txt` — Lokale vertaalverzoeken](#55-configrequest_for_translationtxt-lokale-vertaalverzoeken)
+  - [5.6 Configuratie laadproces](#56-configuratie-laadproces)
+- [6. Mapstructuur](#6-mapstructuur)
+- [7. Uitvoeringswijze](#7-uitvoeringswijze)
+  - [Lokaal uitvoeren (Windows x64)](#lokaal-uitvoeren-windows-x64)
+  - [CI-uitvoering (GitHub Actions, Linux x64)](#ci-uitvoering-github-actions-linux-x64)
+  - [Beoordeling van uitvoeringsresultaten](#beoordeling-van-uitvoeringsresultaten)
 - [8. Belangrijke ontwerpbeslissingen](#8-belangrijke-ontwerpbeslissingen)
+
+---
+
+## Projectoverzicht
+
+**Project Babel** is een geautomatiseerde vertaalpijplijn, speciaal ontworpen voor het leveren van meertalige AI-vertalingen voor Steam Workshop-mods (Mods) van het spel Project Zomboid.
+
+### Achtergrond en Motivatie
+
+Project Zomboid heeft een enorm mod-ecosysteem, met tienduizenden door spelers gemaakte mods op Steam Workshop. De overgrote meerderheid van de mods is alleen in het Engels, waardoor niet-Engelstalige spelers taalbarrières ondervinden bij het gebruik ervan. Traditionele handmatige vertaling kent twee kernproblemen:
+1. **Grote omvang**: Het aantal mods is groot en de hoeveelheid tekst is enorm, waardoor handmatige vertaling extreem duur en traag is.
+2. **Continue updates**: Modmakers updaten inhoud vaak, vertalingen moeten continu worden bijgewerkt, anders raken ze verouderd.
+
+Project Babel lost deze problemen op door een volledig geautomatiseerde AI-vertaalpijplijn te bouwen. Het kan automatisch nieuwe mods ontdekken, modbestanden downloaden, te vertalen tekst extraheren, hoogwaardige vertalingen genereren met behulp van een groot taalmodel (LLM), en uiteindelijk een door spelers direct te gebruiken sinificatiepatch uitvoeren.
+
+### Kernmogelijkheden
+
+- **Automatische detectie**: Verzamel automatisch mod-ID's die vertaald moeten worden van het communityplatform (AsOne) en de lokale verzoeklijst.
+- **Intelligente vertaling**: Combineer referentiecorpora (RAG-zoekopdracht) en terminologielijsten om door LLM contextbewuste vertalingen te laten genereren.
+- **Incrementele updates**: Detecteer wijzigingen in mod-inhoud en vertaal alleen nieuwe of gewijzigde tekst om dubbel werk te voorkomen.
+- **Veiligheidscontrole**: Detecteer en filter automatisch mods met ongepaste inhoud (drugs, pornografie, enz.).
+- **Meertalige ondersteuning**: De pijplijnarchitectuur ondersteunt 27 doeltalen, momenteel voornamelijk gericht op vereenvoudigd Chinees (zh-hans).
+- **Continue werking**: Wordt periodiek geactiveerd via GitHub Actions voor onbemande vertaalupdates.
+
+### Doel van het document
+
+Dit document is bedoeld voor ontwikkelaars die de Project Babel-pijplijn willen begrijpen, implementeren of eraan bijdragen. Het lezen van dit document kan u helpen:
+- De algehele architectuur en gegevensstroom van de pijplijn te begrijpen.
+- De verantwoordelijkheden en interne werking van elke verwerkingsmodule te begrijpen.
+- De structuur van configuratiebestanden en de betekenis van parameters te begrijpen.
+- De mogelijkheid hebben om de pijplijn lokaal of in een CI-omgeving uit te voeren.
 
 ---
 
 ## 1. Systeemarchitectuur
 
-### Algehele architectuur
+### Algemene architectuur
 
-De pijplijn maakt gebruik van een klassieke "pijplijn"-architectuur, bestaande uit 14 onafhankelijke modules die sequentieel worden geschakeld. Elke module heeft één duidelijke subtaak; de modules communiceren via gegevensstructuren in het geheugen en leveren uiteindelijk distribueerbare vertaalbestanden op.
+De pijplijn gebruikt een klassieke 'pijplijn'-architectuur, bestaande uit 15 onafhankelijke modules die in serie zijn geschakeld. Elke module is verantwoordelijk voor een duidelijke subtaak, en gegevens worden tussen modules doorgegeven via in-memory datastructuren, wat uiteindelijk leidt tot publiceerbare vertaalbestanden.
 
 ```mermaid
 flowchart TD
-    A[ConfigReader] --> B[RepoDataLoader]
-    B --> C[ModIdCollector]
-    C --> D[ModInfoFetcher]
-    D --> E[ModDownloader]
-    E --> F[ContentExtractor]
-    F --> G[ContentChecker]
-    G --> H[EmbeddingFetcher]
-    H --> I[TranslationBatcher]
-    I --> J[RagContextRetriever]
-    J --> K[LLMTranslator]
-    K --> L[ResultWriter]
-    L --> M[FinalOutputWriter]
-    M --> N[ProgressReporter]
+  A[ConfigReader] --> B[SteamCmdBootstrapper]
+  B --> C[RepoDataLoader]
+  C --> D[ModIdCollector]
+  D --> E[ModInfoFetcher]
+  E --> F[ModDownloader]
+  F --> G[ContentExtractor]
+  G --> H[ContentChecker]
+  H --> I[EmbeddingFetcher]
+  I --> J[TranslationBatcher]
+  J --> K[RagContextRetriever]
+  K --> L[LLMTranslator]
+  L --> M[ResultWriter]
+  M --> N[FinalOutputWriter]
+  N --> O[ProgressReporter]
 
-    subgraph Referentievertaalsynchronisatie
-        B2[RepoDataLoader-ref] --> D2[ModInfoFetcher-ref]
-        D2 --> E2[ModDownloader-ref]
-        E2 --> F2[ContentExtractor-ref]
-        F2 --> H2[EmbeddingFetcher-ref]
-        H2 --> L
+    subgraph 参考翻译同步
+        C2[RepoDataLoader-ref] --> E2[ModInfoFetcher-ref]
+        E2 --> F2[ModDownloader-ref]
+        F2 --> G2[ContentExtractor-ref]
+        G2 --> I2[EmbeddingFetcher-ref]
+        I2 --> M
     end
 ```
 
-> **Opmerking**: In het referentievertaalpad begint `RepoDataLoader-ref` met het laden van cachegegevens uit de map `translation_ref/`, niet vanuit `ConfigReader`.
+> **Opmerking**: In het synchronisatiepad voor referentievertalingen laadt `RepoDataLoader-ref` cachegegevens vanuit de `translation_ref/`-directory als startpunt, niet vanuit `ConfigReader`.
 
-### Twee hoofdverwerkingsfasen
+### Twee verwerkingsfasen
 
-De pijplijn kent twee parallelle verwerkingspaden voor verschillende doeleinden:
+De pijplijn bevat twee parallelle verwerkingspaden, die elk voor verschillende doeleinden dienen:
 
-| Fase | Pad | Verwerkt object | Doel |
-|------|-----|-----------------|------|
-| **Referentievertaalsynchronisatie** | Onderste subgraaf in het diagram | Hoogwaardige bestaande vertaalmods (`translation_ref/`) | Bouwt het referentiecorpus voor RAG-zoekopdrachten |
-| **Hoofdvertaalcyclus** | Bovenste hoofdlijn | Gewone te vertalen mods (`data/`) | Voert de daadwerkelijke AI-vertaling uit |
+| Fase | Pad | Verwerkingsobject | Doel |
+|------|------|----------|------|
+| **Referentievertaling synchroniseren** | Subafbeelding onderaan | Hoogwaardige bestaande vertaalde mods (`translation_ref/`) | Bouw referentiecorpus voor RAG-zoekopdrachten |
+| **Hoofdvertalingscyclus** | Hoofdpad bovenaan | Te vertalen gewone mods (`data/`) | Voer daadwerkelijke AI-vertaling uit |
 
-Beide paden komen uiteindelijk samen in `ResultWriter` en `FinalOutputWriter` om uniforme distributiebestanden te genereren.
+Beide paden komen uiteindelijk samen in `ResultWriter` en `FinalOutputWriter` en genereren uniform distributiebestanden.
 
-Het voordeel van deze gescheiden aanpak is dat referentievertaalmods meestal met de hand zijn vertaald, onafhankelijk moeten worden onderhouden en prioriteit moeten krijgen bij synchronisatie; de hoofdcyclus verwerkt daarentegen grote aantallen mods die door AI worden vertaald. Omdat de wijzigingsfrequentie en verwerkingslogica verschillen, voorkomt scheiding onderlinge verstoring.
+Het voordeel van deze gescheiden ontwerp is dat referentievertaalmods meestal handmatig zorgvuldig worden vertaald, onafhankelijk moeten worden onderhouden en met prioriteit moeten worden gesynchroniseerd; terwijl de hoofdvertaalcyclus grote hoeveelheden mods verwerkt die door AI vertaald moeten worden. De wijzigingsfrequentie en verwerkingslogica van beide zijn verschillend, en apart beheer voorkomt onderlinge verstoring.
 
 ### Kerngegevensstroom
 
-Op hoofdniveau doorloopt de gegevensstroom de volgende stappen:
-
+Vanuit macro-perspectief is de gegevensstroom door de pijplijn als volgt:
 ```
 config.json / secrets.json
-    → Verzamelen van Mod-ID's (AsOne-community + lokale verzoeken)
-    → Opvragen Steam-metadata (naam, auteur, updatedatum, enz.)
-    → Modbestanden downloaden met steamcmd
-    → Tekstextraheren (omzetten naar TranslationEntry-objecten)
-    → Inhoudsveiligheidscontrole (filteren ongeoorloofde inhoud)
-    → Berekening van vectorinbeddingen (voorbereiding voor RAG)
-    → Batchen (TranslationBatch, met tokenbudgetcontrole)
-    → RAG-gelijkeniszoekopdracht (koppelen aan referentievertalingen als context)
-    → LLM-vertaling (aanroepen van groot taalmodel voor vertaling)
-    → Resultaten wegschrijven naar cache (data/translations/)
-    → Einduitvoer (final_outputs/project_babel/)
+→ Mod ID verzamelen (AsOne-community + lokale verzoeken)
+→ Steam-metadata opvragen (naam, auteur, updatetijd, etc.)
+→ steamcmd downloadt mod-bestanden
+→ Tekstextractie (parsen naar TranslationEntry-objecten)
+→ Inhoudsveiligheidscontrole (filteren van ongepaste inhoud)
+→ Vectorinbedding berekenen (ter voorbereiding op RAG-zoekopdracht)
+→ Batchverpakking (TranslationBatch, met tokenbudgetbeheer)
+→ RAG-gelijkheidszoekopdracht (referentievertaling als context matchen)
+→ LLM-vertaling (aanroepen van groot taalmodel om vertaling te genereren)
+→ Resultaat terugschrijven naar cache (data/translations/)
+→ Uiteindelijke uitvoer (final_outputs/project_babel/)
 ```
 
-De uitvoer van elke stap is de invoer voor de volgende, wat een complete "gegevensverwerkingslijn" vormt. Elke module wordt in detail besproken in paragraaf 3.
+De uitvoer van elke stap is de invoer van de volgende stap, waardoor een complete "gegevensverwerkingspijplijn" ontstaat. Elk onderdeel in de pijplijn wordt in detail beschreven in paragraaf 3.
 
 ---
 
-## 2. Pijplijnworkflow
+## 2. Pijplijnwerkstroom
 
-De volledige logica van de pijplijn wordt gecoördineerd door de methode `PipelineRunner.RunAsync()` in `Program.cs` en omvat ongeveer 20 verwerkingsstappen. Voor het gemak verdelen we deze stappen in vier fasen op basis van hun verantwoordelijkheid. Hieronder wordt elke fase beschreven, inclusief het doel en het ontwerp.
+De volledige logica van de pijplijn wordt uniform georkestreerd door de methode `PipelineRunner.RunAsync()` in `Program.cs`. Het omvat ongeveer 20+ verwerkingsstappen. Om het begrijpelijk te maken, verdelen we deze stappen in vier fasen op basis van hun verantwoordelijkheden. Hieronder wordt per fase het werk en de ontwerpintentie uitgelegd.
 
-### Fase 1: Configuratie laden (Stap 1)
+### Fase 1: Configuratie laden en SteamCMD initialiseren
 
-Alles begint met het laden en valideren van configuratiebestanden. Hoewel deze fase eenvoudig is, is ze cruciaal voor een stabiele werking: elke configuratiefout moet vroegtijdig worden ontdekt en het proces moet worden beëindigd om verspilling van rekenkracht te voorkomen.
+Het startpunt van alles is het laden en valideren van configuratiebestanden. Deze fase is eenvoudig maar vormt de basis voor de stabiele werking van de hele pijplijn—alle configuratiefouten moeten zo vroeg mogelijk worden gedetecteerd en onmiddellijk worden gestopt om verspilling van rekenkracht te voorkomen.
 
 - `ConfigReader.LoadConfig()` leest `config/config.json` (pijplijnparameters) en `config/secrets.json` (gevoelige sleutels).
-- Na het laden worden alle verplichte velden gecontroleerd: als de LLM API-sleutel ontbreekt, kan de vertaalservice niet worden aangeroepen en wordt het proces direct beëindigd met `Environment.Exit(1)`.
-- Tegelijkertijd wordt `config/supported_languages.json` geparseerd en worden de 27 taaldefinities geladen als `List<LangInfoData>`, zodat alle volgende modules de taalcodes kunnen opzoeken.
+- Na het laden worden alle verplichte velden onmiddellijk gevalideerd: als de LLM API-sleutel leeg is, kan de vertaaldienst niet worden aangeroepen. In dat geval wordt `Environment.Exit(1)` aangeroepen om het proces te beëindigen en zinloze verdere stappen te vermijden.
+- Tegelijkertijd wordt `config/supported_languages.json` geparseerd, waarbij de definities van 27 talen worden geladen als `List<LangInfoData>`, zodat alle volgende modules de taalcodes kunnen opzoeken.
+- `SteamCmdBootstrapper` bereidt vervolgens de runtime voor die de downloader nodig heeft: op Linux wordt het officiële `steamcmd_linux.tar.gz` gedownload en uitgepakt; op Windows wordt de bestaande `src/3rd_party/steamcmd/steamcmd.exe +quit` in de repository uitgevoerd voor zelfupdate. Als het uitvoerbare bestand ontbreekt, mislukt dit onmiddellijk.
 
-Zie paragraaf 5 voor een gedetailleerde uitleg van de configuratievelden.
+Zie paragraaf 5 voor gedetailleerde beschrijving van configuratievelden.
 
-### Fase 2: Referentievertaalsynchronisatie (Stappen 2‑3)
+### Fase 2: Referentievertaalsynchronisatie (stappen 2-3)
 
-Voordat de hoofdvertaalcyclus begint, worden eerst de **referentievertalingen** gesynchroniseerd.
+Voordat de hoofdvertaalcyclus begint, synchroniseert de pijplijn eerst de **referentievertaling** (Reference Translation) gegevens.
 
-**Wat zijn referentievertalingen?** Referentievertalingen zijn hoogwaardige, handmatig vertaalde mods uit de community. Deze vertalingen zijn nauwkeurig en gebruiken consistente terminologie, waardoor ze een waardevolle bron vormen. De pijplijn gebruikt de tekst van deze referentiemods niet rechtstreeks als einduitvoer (dat zou inbreuk maken op de rechten van de oorspronkelijke auteurs), maar als kennisbank voor RAG (Retrieval-Augmented Generation). Wanneer de LLM een tekst vertaalt, wordt uit het referentiecorpus een semantisch vergelijkbare vertaling opgehaald als "voorbeeldreferentie" om de context te verduidelijken, de terminologie consistent te houden en de vertaalkwaliteit te verbeteren.
+**Wat is een referentievertaling?** Referentievertalingen zijn hoogwaardige Chinese mods die zorgvuldig handmatig zijn vertaald door de community. De vertalingen van deze mods zijn accuraat en consistent in terminologie, waardoor ze waardevolle taalbronnen zijn. De pijplijn gebruikt de tekst van referentievertalingen niet direct als einduitvoer (dat zou de rechten van de oorspronkelijke auteur schenden), maar als kennisbank voor RAG (Retrieval-Augmented Generation)—wanneer de LLM een tekst vertaalt, zoekt de pijplijn in de referentiecorpus naar semantisch vergelijkbare vertalingen als "referentievoorbeeld", om de LLM te helpen de context te begrijpen, terminologie te uniformeren en zo vertalingen van hogere kwaliteit te genereren.
 
-Deze fase omvat:
+De specifieke stappen in deze fase:
+1. **Laad cache**: `RepoDataLoader` laadt de vorige run opgeslagen referentiegegevens uit de `translation_ref/` directory, inclusief mod-metadata, geëxtraheerde vertaalingangen en inbeddingsvectoren. Deze cache voorkomt dat elke run alle referentie-mods opnieuw moet downloaden en parseren.
+2. **Synchroniseer Steam-metadata**: `ModInfoFetcher` vraagt de nieuwste informatie van elke referentie-mod op via de Steam Web API (voornamelijk het `time_updated`-veld), vergelijkt dit met de gecachte `timeModUpdated` en markeert mods met gewijzigde inhoud (`needsUpdate = true`).
+3. **Incrementele update**: Voer de volledige workflow "downloaden → tekstextractie → inbeddingsberekening" alleen uit voor referentie-mods gemarkeerd als `needsUpdate`. Ongewijzigde mods hergebruiken direct de cache, wat aanzienlijk tijd en bandbreedte bespaart.
+4. **Persistente terugschrijving**: `ResultWriter.WriteRefDataAsync()` schrijft de bijgewerkte referentiegegevens terug naar `translation_ref/` voor gebruik in de volgende run.
 
-1. **Cache laden**: `RepoDataLoader` laadt eerder opgeslagen referentiegegevens uit `translation_ref/`, waaronder mod-metadata, geëxtraheerde vertaalitems en inbeddingen. Dit voorkomt dat alle referentiemods elke keer opnieuw moeten worden gedownload en geparseerd.
-2. **Steam-metadata synchroniseren**: `ModInfoFetcher` vraagt de nieuwste informatie (vooral `time_updated`) voor elke referentiemod op via de Steam Web API en vergelijkt deze met de gecachete `timeModUpdated`. Mods die zijn gewijzigd, worden gemarkeerd als `needsUpdate = true`.
-3. **Incrementele update**: Alleen voor gemarkeerde mods wordt de volledige cyclus "downloaden → tekst extraheren → inbedding berekenen" uitgevoerd. Ongewijzigde mods gebruiken de cache, wat veel tijd en bandbreedte bespaart.
-4. **Terugschrijven**: `ResultWriter.WriteRefDataAsync()` schrijft de bijgewerkte referentiegegevens terug naar `translation_ref/` voor toekomstige uitvoeringen.
+### Phase 3: Hoofdvertaalcyclus (Steps 4-14)
 
-### Fase 3: Hoofdvertaalcyclus (Stappen 4‑14)
-
-Dit is de kernfase van de pijplijn, waarin de volledige cyclus van "mods ontdekken" tot "vertaling genereren" wordt uitgevoerd. Nadat de referentievertalingen zijn gesynchroniseerd, beschikt de pijplijn over een hoogwaardig referentiecorpus. Nu worden alle gewone mods op dezelfde manier verwerkt, waarbij tijdens de uiteindelijke vertaling optimaal gebruik wordt gemaakt van het referentiecorpus.
+Dit is de kernfase van de pijplijn, die het volledige proces uitvoert van "mods ontdekken" tot "vertalingen genereren". Nadat de referentievertalingen zijn gesynchroniseerd, beschikt de pijplijn over een hoogwaardige referentiecorpus; nu zal het dezelfde verwerking toepassen op alle te vertalen gewone mods en deze referentiecorpus optimaal benutten in de uiteindelijke vertaalstap.
 
 | Stap | Module | Functie |
-|------|--------|---------|
-| 4 | RepoDataLoader | Laadt cachegegevens uit `data/` (mod-metadata, bestaande vertalingen, inbeddingen) om de vorige status te herstellen |
-| 5 | ModIdCollector | Verzamelt alle te vertalen Mod-ID's uit de AsOne-community en het lokale `request_for_translation.txt`-bestand, voegt ze samen en verwijdert duplicaten |
-| 6 | ModInfoFetcher | Vraagt via de Steam Web API in bulk de nieuwste metadata op (naam, auteur, updatedatum, enz.) voor elke mod |
-| 7 | ModDownloader | Gebruikt steamcmd om Workshop-modbestanden in batches te downloaden naar een lokale tijdelijke map |
-| 8 | ContentExtractor | Parseert de gedownloade modbestanden en extraheert alle te vertalen tekstitems (`TranslationEntry`) uit de map `Translate/` |
-| 9 | — | 📊 **Verschilanalyse**: Vergelijkt de nieuw geëxtraheerde items één voor één met de cache; identificeert nieuwe, gewijzigde en ongewijzigde items; alleen nieuwe en gewijzigde items gaan naar de volgende stappen |
-| 10 | ContentChecker | Voert een veiligheidscontrole uit op de mod-inhoud met behulp van de LLM; identificeert drugs-, porno- en andere ongeoorloofde inhoud en markeert niet-conforme mods |
-| 11 | EmbeddingFetcher | Roept een externe inbeddingservice aan om voor elke te vertalen tekst een vectorinbedding te genereren (384 dimensies) voor semantische gelijkeniszoekopdrachten |
-| 12 | TranslationBatcher | Groepeert te vertalen items per mod en verpakt ze in batches (`TranslationBatch`), met dubbele begrenzing op `batch_size` en `batch_token_budget` |
-| 13 | RagContextRetriever | Zoekt voor elk item in het referentiecorpus naar de semantisch meest vergelijkbare bestaande vertaling als contextreferentie voor de LLM |
-| 14 | LLMTranslator | Roept de API van het grote taalmodel aan om de vertaling uit te voeren; bevat een opwarmdetectie (warmup) en dynamische gelijktijdigheidsregeling; dit is de meest complexe module |
+|------|------|------|
+| 4 | RepoDataLoader | Laadt cachegegevens uit de `data/` directory (modmetadata, bestaande vertalingen, inbeddingsvectoren) en herstelt de status van de vorige run |
+| 5 | ModIdCollector | Verzamelt alle te vertalen Mod-ID's van het AsOne-communityplatform en lokaal `request_for_translation.txt`, voegt samen en verwijdert duplicaten |
+| 6 | ModInfoFetcher | Vraagt via de Steam Web API in batch de nieuwste metadata van elke mod op (naam, auteur, updatetijd, enz.) |
+| 7 | ModDownloader | Downloadt Workshop-modbestanden in batches naar een lokale tijdelijke directory met behulp van de steamcmd-tool |
+| 8 | ContentExtractor | Parseert de gedownloade modbestanden en haalt alle te vertalen tekstitems (`TranslationEntry`) uit de `Translate/` directory |
+| 9 | — | 📊 **Verschilanalyse**: Vergelijkt de nieuw geëxtraheerde items één voor één met de cache, identificeert nieuwe, gewijzigde en ongewijzigde items; alleen de eerste twee gaan naar de volgende vertaalworkflow |
+| 10 | ContentChecker | Voert een veiligheidscontrole uit op mod-inhoud met behulp van LLM, identificeert ongepaste inhoud zoals drugs en pornografie, markeert niet-conforme mods |
+| 11 | EmbeddingFetcher | Roept een externe inbeddingsservice aan om voor elke te vertalen tekst een vectorinbedding (384-d) te genereren voor latere semantische gelijkenisretrieval |
+| 12 | TranslationBatcher | Groepeert te vertalen items per mod en verpakt ze in batches (TranslationBatch), elke batch gebonden aan dubbele beperkingen van `batch_size` en `batch_token_budget` |
+| 13 | RagContextRetriever | Zoekt voor elk te vertalen item de semantisch meest gelijkende bestaande vertaling op in de referentiecorpus als contextreferentie voor LLM-vertaling |
+| 14 | LLMTranslator | Roept de LLM API aan om vertalingen uit te voeren, inclusief warmup-detectie en dynamische gelijktijdigheidscontrole; het meest complexe module van de hele pijplijn |
 
-### Fase 4: Uitvoer en rapportage (Stappen 15‑20)
+### Phase 4: Output en rapportage (Steps 15-20)
 
-Na alle vertaalwerk gaat de pijplijn over naar de afsluitende fase: resultaten worden persistent opgeslagen en er worden uiteindelijke distributiebestanden gegenereerd die spelers direct kunnen gebruiken.
+Nadat alle vertaalwerkzaamheden zijn voltooid, gaat de pijplijn de afrondingsfase in: resultaten worden persistent opgeslagen in het bestandssysteem en er worden uiteindelijke distributiebestanden gegenereerd die spelers direct kunnen gebruiken.
 
-| Stap | Module | Uitvoer |
-|------|--------|---------|
-| 15 | ResultWriter | Schrijft mod-metadata terug naar `data/modinfos.json`, vertaalitems naar `data/translations/<iso>/` en inbeddingen naar `data/embeddings/` |
-| 16 | ResultWriter | Schrijft per doeltaal de vertaalresultaten weg in de indeling `translationKey::lang::status = "value"` |
-| 17 | FinalOutputWriter | Genereert einddistributiebestanden die voldoen aan de Project Zomboid-modmapstructuur; spelers kunnen deze rechtstreeks in hun Mods-map plaatsen |
-| 18 | — | Verzamelt alle waarschuwingen die tijdens de uitvoering zijn ontstaan en schrijft ze naar `temp/run_*/warnings/` voor handmatige inspectie |
+| Stap | Module | Output |
+|------|------|------|
+| 15 | ResultWriter | Schrijft mod-metadata terug naar `data/modinfos.json`, vertaalingangen terug naar `data/translations/<iso>/`, inbeddingsvectoren terug naar `data/embeddings/` |
+| 16 | ResultWriter | Schrijft vertaalresultaten per doeltaal, formaat `translationKey::lang::status = "value"` |
+| 17 | FinalOutputWriter | Genereert uiteindelijke distributiebestanden die voldoen aan de Project Zomboid mod-directorystructuur; spelers kunnen deze direct in de Mods-map van het spel plaatsen |
+| 18 | — | Verzamelt alle waarschuwingen die tijdens de run zijn gegenereerd en schrijft ze naar `temp/run_*/warnings/` voor handmatige controle |
 | 19 | ProgressReporter | Berekent de vertaaldekking per taal en genereert meertalige voortgangsrapporten (`docs/progress/progress_*.md`) |
 
 ---
 
-## 3. Principes en technische details van modules
+## 3. Modules: principes en technische details
 
 ### 3.1 ConfigReader (`ConfigReaderService`)
 
-**Functie**: Laadt en valideert alle configuratiebestanden; dit is de toegangsmodule van de pijplijn.
+**Functie**: Laadt en valideert alle configuratiebestanden; dit is de toegangsmodule van de volledige pijplijn.
 
-`ConfigReader` is de eerste module die na het opstarten wordt uitgevoerd. De kerntaak is het lezen van alle configuratiebestanden in de map `config/`, deze te deserialiseren naar een sterk getypeerd `PipelineConfig`-object en na het laden een volledige validatie uit te voeren.
+`ConfigReader` is de eerste module die na het opstarten van de pijplijn wordt uitgevoerd. De kernverantwoordelijkheid is het lezen van alle configuratiebestanden in de `config/` directory, ze deserialiseren naar sterk getypeerde `PipelineConfig`-objecten en na het laden een integriteitscontrole uitvoeren.
 
-Specifieke taken:
+De specifieke taken omvatten:
+- **Hoofdconfiguratie parseren**: Lees `config/config.json` en deserialiseer naar een `PipelineConfig`-object. Dit object bevat alle runtime-instellingen zoals LLM-parameters, gelijktijdigheidsstrategie, RAG-drempelwaarden, Steam API-parameters, enz.
+- **Sleutels parseren**: Lees `config/secrets.json` en extraheer gevoelige informatie zoals LLM API Key, Steam Web API Key, insluitingsservicesleutel en -adres.
+- **Kritieke validatie**: Controleer of de drie verplichte sleutels `LLM_KEY`, `STEAM_KEY` en `EMBEDDING_KEY` leeg zijn. Als een ervan leeg is, wordt er een uitzondering gegenereerd en stopt de pijplijn. Sleutels kunnen worden opgehaald uit `secrets.json` of omgevingsvariabelen (omgevingsvariabelen hebben hogere prioriteit).
+- **Taallijst parseren**: Lees `config/supported_languages.json` en bouw een `List<LangInfoData>`. Deze lijst definieert alle doeltalen die de pijplijn moet verwerken (in totaal 27 talen), en de volgende modules voor vertaling, uitvoer en rapportage zijn ervan afhankelijk.
+- **Referentiemod-lijst parseren**: Lees `config/ref_translation_mods.json` om de lijst van referentie-Chinese vertaalmods op te halen die als RAG-corpus worden gebruikt.
+- **Tijdelijke directory initialiseren**: Maak de nodige tijdelijke directorystructuur voor deze run (bijv. `runTempDir` voor tussentijdse bestanden, `downloadedModsTempDir` voor gedownloade modbestanden) zodat volgende modules een plaats hebben om te schrijven.
 
-- **Hoofdconfiguratie parseren**: Leest `config/config.json` en deserialiseert naar `PipelineConfig`. Dit object bevat alle runtime-instellingen, zoals LLM-parameters, gelijktijdigheidsstrategieën, RAG-drempels, Steam API-parameters, enz.
-- **Sleutels parseren**: Leest `config/secrets.json` en haalt de LLM API-sleutel, Steam Web API-sleutel, inbeddingservice-sleutel en -adres op.
-- **Kritieke validatie**: Controleert of de drie verplichte sleutels `LLM_KEY`, `STEAM_KEY` en `EMBEDDING_KEY` niet leeg zijn. Als een ervan ontbreekt, wordt een uitzondering gegenereerd en stopt de pijplijn. Sleutels kunnen uit `secrets.json` of omgevingsvariabelen komen (omgevingsvariabelen hebben voorrang).
-- **Talenlijst parseren**: Leest `config/supported_languages.json` en bouwt een `List<LangInfoData>`. Deze lijst bevat alle doeltalen (27) die de pijplijn moet verwerken; latere modules voor vertaling, uitvoer en rapportage zijn hiervan afhankelijk.
-- **Referentiemodlijst parseren**: Leest `config/ref_translation_mods.json` om de lijst van referentievertaalmods op te halen die als RAG-corpus dienen.
-- **Tijdelijke mappen initialiseren**: Maakt de benodigde tijdelijke mappen voor deze uitvoering aan (bijv. `runTempDir` voor tussenbestanden, `downloadedModsTempDir` voor gedownloade modbestanden), zodat volgende modules schrijfrechten hebben.
-
-Zie paragraaf 5 voor een gedetailleerde uitleg van de configuratievelden.
+Zie sectie 5 voor gedetailleerde configuratievelden en hun betekenis.
 
 ### 3.2 RepoDataLoader (`RepoDataLoaderService`)
 
-**Functie**: Beheert het laden, vergelijken en onderhouden van alle lokale cachegegevens.
+**Functie**: Beheer het laden, vergelijken en onderhouden van de status van alle lokale cachegegevens.
 
-`RepoDataLoader` is het "geheugensysteem" van de pijplijn. Bij elke uitvoering laadt het alle gegevens uit de vorige uitvoering (vertaalcache, inbeddingen, mod-metadata) van het lokale bestandssysteem, zodat de pijplijn kan zien welke inhoud nieuw is, al is verwerkt of is gewijzigd. Zonder deze module zou de pijplijn elke keer alle mods helemaal opnieuw moeten verwerken, wat zeer inefficiënt is.
+`RepoDataLoader` is het "geheugensysteem" van de pijplijn. Bij elke uitvoering laadt het alle gegevens van de vorige run uit het lokale bestandssysteem (vertaalcache, insluitingsvectoren, mod-metadata, enz.), zodat de pijplijn kan herkennen welke inhoud nieuw is, welke al is verwerkt en welke is gewijzigd. Zonder deze module zou de pijplijn elke keer alle mods opnieuw moeten verwerken, wat zeer inefficiënt is.
 
-**Te laden gegevenstypen**:
+**Geladen gegevenstypen**:
 
 | Gegevens | Opslaglocatie | Gebruik na laden |
-|----------|---------------|-------------------|
-| Mod-metadata | `data/modinfos.json` | Bepalen welke mods moeten worden bijgewerkt en welke voor het eerst worden verwerkt |
-| Vertaalcache | `data/translations/<iso>/*.txt` | Vullen van `TranslationEntry.translationValues` om dubbele vertaling te voorkomen |
-| Inbeddingen | `data/embeddings/*.bin` | Zstd-gecomprimeerde binaire vectoren; vullen van `embeddingValues`; bij onveranderde tekst kunnen inbeddingen worden hergebruikt |
-| Item-metadata | `data/entry_metadata/*.json` | Registreert `sourceHash`, `isActive` en andere statusinformatie per item |
+|------|----------|-------------|
+| Mod-metadata | `data/modinfos.json` | Bepaal welke mods moeten worden bijgewerkt en welke voor het eerst worden verwerkt |
+| Vertaalcache | `data/translations/<iso>/*.txt` | Vul `TranslationEntry.translationValues` in om herhaalde vertaling van bestaande tekst te voorkomen |
+| Insluitingsvectoren | `data/embeddings/*.bin` | Zstd-gecomprimeerde binaire vectordata, vul `embeddingValues` in; vectoren kunnen opnieuw worden gebruikt als de tekst niet is gewijzigd |
+| Item-metadata | `data/entry_metadata/*.json` | Registreer statusinformatie zoals `sourceHash`, `isActive` voor elk item |
 
 **Drie kernmethoden**:
-
-- `DiffTranslationEntries()`: Vergelijkt nieuw geëxtraheerde items één voor één met de cache. Aan de hand van `sourceHash` (SHA256 van de basistekst) wordt bepaald of een tekst nieuw (new), gewijzigd (changed) of ongewijzigd (unchanged) is. Alleen nieuwe en gewijzigde items worden verder verwerkt (inbedding en vertaling); ongewijzigde items hergebruiken de cache.
-- `ComputeSourceHash()`: Berekent een SHA256-hash van de basistekst als "vingerafdruk". De kans op hashcollisies is verwaarloosbaar, dus het is betrouwbaar voor wijzigingsdetectie.
-- `MarkMissingFreshEntriesInactive()`: Als een gecachet oud item niet meer voorkomt in de nieuw geëxtraheerde gegevens (de modmaker heeft de tekst verwijderd), wordt het gemarkeerd als `isActive = false`; de geschiedenis blijft behouden maar het item neemt niet meer deel aan vertaling.
+- `DiffTranslationEntries()`: Vergelijk nieuw geëxtraheerde items één voor één met items in de cache. Bepaal op basis van `sourceHash` (SHA256-hash van de basistekst) of elke tekst nieuw (new), gewijzigd (changed) of ongewijzigd (unchanged) is. Alleen new- en changed-items moeten in de volgende fasen van insluitingsberekening en vertaling worden verwerkt; unchanged-items hergebruiken direct de cache.
+- `ComputeSourceHash()`: Bereken de SHA256-hash van de basistekst als een "vingerafdruk" van de tekstinhoud. De kans op hash-collisie is extreem laag, waardoor het betrouwbaar kan worden gebruikt voor wijzigingsdetectie.
+- `MarkMissingFreshEntriesInactive()`: Als een oud item in de cache niet wordt gevonden in de nieuw geëxtraheerde resultaten (wat betekent dat de modauteur deze tekst heeft verwijderd), wordt het gemarkeerd als `isActive = false`, waarbij de geschiedenis behouden blijft maar het niet meer deelneemt aan vertaling.
 
 ### 3.3 ModIdCollector (`ModIdCollectorService`)
 
-**Functie**: Verzamelt alle te vertalen Steam Workshop Mod-ID's uit meerdere bronnen, voegt ze samen en verwijdert duplicaten, zodat er één uniforme te verwerken lijst ontstaat.
+**Functie**: Verzamel alle Steam Workshop Mod-ID's die moeten worden vertaald uit meerdere bronnen, voeg ze samen en verwijder dubbele om een uniforme te verwerken lijst te vormen.
 
 De pijplijn moet weten "welke mods moeten worden vertaald". Deze informatie komt uit twee kanalen:
-
-**Bron 1 — Externe AsOne-communitylijst**:
-
-[AsOne](https://www.asone.fun/) is een vertaalplatform van de Chinese Project Zomboid-vertaalgroep dat een openbare modlijst bijhoudt. De pijplijn haalt via een HTTP GET-verzoek de API (`api/Home/GetAllModinfo`) op om alle geregistreerde mod-ID's op te halen. Het verzoek wordt anoniem verzonden; bij 3 opeenvolgende time-outs wordt de externe lijst overgeslagen.
+**Bron 1 — AsOne externe communitylijst**:
+[AsOne](https://www.asone.fun/) is een vertaalplatform van de Project Zomboid Chinese vertaalgroep en onderhoudt een openbare lijst van mods. De pijplijn haalt via een HTTP GET-verzoek naar hun API (`api/Home/GetAllModinfo`) alle geregistreerde mod-ID's op. Het verzoek wordt anoniem verzonden; bij 3 opeenvolgende time-outs wordt de externe lijst overgeslagen.
 
 **Bron 2 — Lokaal vertaalverzoekbestand**:
+`config/request_for_translation.txt` is een handmatig onderhouden lijst van mod-ID's, één puur numeriek Workshop-ID per regel. Regels die beginnen met `#` zijn commentaar, lege regels worden automatisch overgeslagen. Dit bestand wordt gebruikt om mods aan te vullen die niet in de AsOne-lijst staan maar waar de community behoefte aan heeft.
 
-`config/request_for_translation.txt` is een handmatig onderhouden lijst van mod-ID's, één per regel (alleen cijfers). Regels die beginnen met `#` worden als commentaar beschouwd en lege regels worden overgeslagen. Dit bestand wordt gebruikt voor mods die niet in de AsOne-lijst staan maar wel vertaalbehoefte hebben in de community.
-
-**Samenvoegstrategie**: Bij samenvoeging heeft de AsOne-lijst voorrang; ID's die alleen in het lokale bestand voorkomen, worden toegevoegd. ID's die al bestaan, worden niet dubbel toegevoegd. Het resultaat is een volledige, unieke lijst van ID's.
+**Samenvoegstrategie**: Bij het samenvoegen van de ID-lijsten uit beide bronnen wordt de AsOne externe lijst als primair beschouwd; ID's uit het lokale verzoekbestand die niet in de externe lijst voorkomen, worden als aanvulling toegevoegd. Bestaande ID's worden niet opnieuw toegevoegd. Het eindresultaat is een ontdubbelde volledige ID-lijst.
 
 ### 3.4 ModInfoFetcher (`ModInfoFetcherService`)
 
-**Functie**: Vraagt via de Steam Web API in bulk gedetailleerde metadata op voor mods en bepaalt welke mods moeten worden bijgewerkt.
+**Functie**: Gebruik de Steam Web API om gedetailleerde metadata van mods batchgewijs op te vragen en te bepalen welke mods moeten worden bijgewerkt.
 
-Met de lijst van mod-ID's moet de pijplijn basisinformatie over elke mod weten: naam, auteur, laatste updatedatum, enz. Deze informatie wordt opgehaald via de officiële Steam-interface `ISteamRemoteStorage/GetPublishedFileDetails/v1/`.
+Na het verkrijgen van de lijst met Mod ID's moet de pijplijn de basisinformatie van elke mod weten – naam, auteur, laatste updatetijd, enz. Deze informatie wordt verkregen via Steam's officiële `ISteamRemoteStorage/GetPublishedFileDetails/v1/` interface.
 
 **Werkdetails**:
-
-- **Gesegmenteerde verzoeken**: De Steam API heeft een limiet per aanroep, dus de pijplijn verdeelt de aanvragen in brokken van `steamApiChunkSize` (standaard 100). Tussen de brokken zit een korte pauze om rate-limiting te voorkomen.
-- **Fouttolerantie**: Als 5 opeenvolgende brokken volledig mislukken (netwerkproblemen of tijdelijke API-storing), wordt het opvragen beëindigd en worden de reeds succesvol opgehaalde gegevens behouden.
-- **Belangrijke veldtoewijzing**:
-  - `consumer_app_id`: Bepaalt of het item bij Project Zomboid hoort (App ID = `108600`). Mods die niet bij PZ horen, worden gemarkeerd als `isAvailable = false` en later overgeslagen bij het downloaden.
-  - `time_updated`: De laatste updatedatum volgens Steam. Wordt vergeleken met de gecachete `timeModUpdated`; als de Steam-waarde nieuwer is, wordt `needsUpdate = true` gezet, wat aangeeft dat de mod-inhoud mogelijk is gewijzigd en opnieuw moet worden geëxtraheerd en vertaald.
-  - `title` → wordt `modName`.
-  - `creator` → wordt via de Steam-gebruikersinterface opgehaald als de weergavenaam van de maker.
+- **Geblokkeerde verzoeken**: De Steam API heeft een limiet per aanroep, dus stuurt de pijplijn verzoeken in batches volgens `steamApiChunkSize` (standaard 100). Tussen batches wordt een gepaste pauze ingelast om throttling te voorkomen.
+- **Fouttolerantie**: Als 5 opeenvolgende batches allemaal mislukken (bijv. netwerkproblemen of tijdelijke API-storing), beëindigt de pijplijn de query en behoudt het reeds succesvol opgehaalde gedeelte, in plaats van alle resultaten weg te gooien.
+- **Mapping van belangrijke velden**:
+- `consumer_app_id`: Bepaalt of het item bij Project Zomboid hoort (App ID = `108600`). Mods die niet bij PZ horen, worden gemarkeerd als `isAvailable = false` en worden overgeslagen bij het downloaden.
+- `time_updated`: De laatste updatetijd geregistreerd door Steam. Vergeleken met `timeModUpdated` in de cache; als de eerstgenoemde nieuwer is, wordt `needsUpdate = true` gemarkeerd, wat aangeeft dat de mod-inhoud mogelijk is gewijzigd en opnieuw moet worden geëxtraheerd en vertaald.
+- `title` → toegewezen aan `modName` (modnaam).
+- `creator` → verkrijg de bijnaam van de maker via de Steam-gebruikersinterface.
 
 ### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
 
-**Functie**: Bereidt de platformspecifieke steamcmd-runtime voor voordat er downloadoperaties worden gestart.
+**Functie**: Bereid de op het huidige platform beschikbare steamcmd-runtime voor voordat alle downloadoperaties beginnen.
 
-- **Linux**: Verwijdert oude runtime-bestanden in `src/3rd_party/steamcmd/`, downloadt en pakt de officiële `steamcmd_linux.tar.gz` uit, en geeft uitvoerrechten aan `steamcmd.sh`.
-- **Windows**: Geen archiefdownload; voert direct het in de repo meegeleverde `steamcmd.exe +quit` uit onder `src/3rd_party/steamcmd/` zodat SteamCMD zichzelf bijwerkt.
-- **Foutafhandeling**: Een fout bij downloaden, uitpakken of valideren van het uitvoerbare bestand breekt de pijplijn af om het gebruik van een onvolledige runtime tijdens de downloadfase te voorkomen.
+- **Linux**: Verwijder oude runtime-bestanden in `src/3rd_party/steamcmd/`, download en pak de officiële `steamcmd_linux.tar.gz` uit, en stel uitvoerbare rechten in voor `steamcmd.sh`.
+- **Windows**: Download geen archief; voer rechtstreeks `steamcmd.exe +quit` uit in `src/3rd_party/steamcmd/` (meegeleverd in de repository) om SteamCMD zelf te laten updaten.
+- **Foutafhandeling**: Mislukte download, extractie of uitvoerbaar bestandscontrole leidt tot beëindiging van de pijplijn, om te voorkomen dat een incompleet runtime wordt gebruikt tijdens het downloaden.
 
 ### 3.5.1 ModDownloader (`ModDownloaderService`)
 
-**Functie**: Gebruikt het command-line-programma `steamcmd` om modbestanden van Steam Workshop te downloaden.
+**Functie**: Gebruik het steamcmd-commandoregelhulpprogramma om mod-bestanden van Steam Workshop te downloaden.
 
-[steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD) is de officiële command-line versie van de Steam-client van Valve. Het ondersteunt anonieme aanmelding en het downloaden van Workshop-inhoud. De pijplijn roept steamcmd aan om modbestanden in bulk te downloaden.
+[steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD) is de commandoregelversie van de Steam-client die officieel door Valve wordt geleverd, met ondersteuning voor anonieme aanmelding en het downloaden van Workshop-inhoud. De pijplijn roept steamcmd aan om mod-bestanden batchgewijs te downloaden.
 
-**Downloadproces**:
+**Downloadstroom**:
+1. **Kopieer steamcmd**: Kopieer `src/3rd_party/steamcmd/` naar een tijdelijke map die exclusief is voor de batch. Dit komt doordat elke downloadbatch een eigen steamcmd-proces start; als meerdere processen hetzelfde bestand zouden delen, kan dat conflicten veroorzaken.
+2. **Voer downloadopdracht uit**: Voer `steamcmd +login anonymous +workshop_download_item 108600 <modId> +quit` uit. Hierbij is `108600` de App ID van Project Zomboid, en `anonymous` staat voor anonieme aanmelding (Workshop-downloads vereisen geen account).
+3. **Controleer resultaat**: Parse de standaarduitvoer en logbestanden van steamcmd om de daadwerkelijke Workshop-uitvoermap te bepalen voordat de downloadresultaten worden verplaatst; bij mislukking wordt opnieuw geprobeerd volgens het Steam-downloadretry-beleid.
+4. **Hervattende downloads**: Reeds succesvol gedownloade mods worden automatisch overgeslagen en niet opnieuw gedownload.
 
-1. **Kopieer steamcmd**: Kopieert de inhoud van `src/3rd_party/steamcmd/` naar een batchspecifieke tijdelijke map. Dit voorkomt conflicten wanneer meerdere steamcmd-processen tegelijkertijd draaien.
-2. **Voer downloadcommando uit**: Voert `steamcmd +login anonymous +workshop_download_item 108600 <modId> +quit` uit. `108600` is de App ID van Project Zomboid, `anonymous` betekent anonieme aanmelding (Workshop-downloads vereisen geen account).
-3. **Resultaat valideren**: Parseert de uitvoer van steamcmd om te bevestigen of de download is gelukt. Bij mislukking wordt automatisch opnieuw geprobeerd (aantal keer afhankelijk van `steamMaxRetries + 1`).
-4. **Hervatten bij onderbreking**: Mods die al met succes zijn gedownload, worden overgeslagen.
-
-**Procesbeheerdetails**:
-
-- Gebruikt een globale `ConcurrentDictionary` om alle actieve steamcmd-processen bij te houden.
-- Registreert `Ctrl+C`- en `ProcessExit`-callbacks om ervoor te zorgen dat bij handmatige onderbreking of onverwachte afsluiting alle subprocessen worden opgeruimd (`Kill(entireProcessTree: true)`), zodat er geen zombieprocessen achterblijven.
-- Het steamcmd-proces wordt asynchroon afgewacht met `WaitForExitAsync()`; er is geen time-out ingesteld. Als het proces vastloopt, moet de pijplijn handmatig worden beëindigd via de bovengenoemde callbacks om op te ruimen.
+**Runtime-bron**: Elke downloadbatch kopieert de runtime die reeds door `SteamCmdBootstrapper` is voorbereid uit `src/3rd_party/steamcmd/`, om te voorkomen dat parallelle batches dezelfde werkmap delen.
 
 ### 3.6 ContentExtractor (`ContentExtractorService`)
 
-**Functie**: Parseert de gedownloade modbestanden en extraheert alle vertaalbare tekstinhoud. Dit is de stap waarin de pijplijn de mod "begrijpt".
+**Functie**: Parseer en extraheer alle vertaalbare tekstinhoud uit gedownloade mod-bestanden; dit is de cruciale stap om een mod te "begrijpen" in de pijplijn.
 
-Project Zomboid-mods slaan vertaaltekst op in specifieke mappen. De taak van `ContentExtractor` is om deze mappen te doorlopen, zowel TXT- (Lua-indeling) als JSON-bestanden te parseren en elk sleutel-waarde-paar ("originele tekst → vertaling") te extraheren.
+Project Zomboid-modificaties slaan vertaalteksten op in specifieke mappen. De taak van `ContentExtractor` is om deze mappen te doorlopen, twee bestandsindelingen (TXT (Lua-formaat) en JSON) te parseren en elk sleutel-waardepaar van "brontekst → vertaling" te extraheren.
 
-**Doorzoekbare paden**:
-
+**Scanpaden**:
 ```
 <mod_root>/**/Translate/<game_code>/*.txt|*.json
 ```
 
-Dit betekent dat op elke willekeurige diepte onder de mod-root naar mappen `Translate/<taalcode>/` wordt gezocht die `.txt`- of `.json`-bestanden bevatten.
+Op elke diepte onder de mod-root, zoek naar `.txt` of `.json` bestanden in de `Translate/<taalcode>/` map.
 
-**Taalcodetoewijzing** (in-game code → ISO-standaard):
+**Taalcodemapping** (in-game code → ISO-standaardcode):
 
 | Gamecode | ISO | Taal |
 |----------|-----|------|
@@ -338,215 +355,195 @@ Dit betekent dat op elke willekeurige diepte onder de mod-root naar mappen `Tran
 | JP | ja | Japans |
 | ... | ... | ... |
 
-**TXT-parsing (PZ Lua-indeling)**:
-
-Traditionele PZ-vertaalbestanden gebruiken een Lua-table-achtige indeling. Het parseerproces:
-
-1. **Niet-vertaalbestanden overslaan**: Bestanden met namen als `TranslationNotes`, `TranslationBy`, `Code - TXT`, `Credits`, `Language` worden overgeslagen; deze bevatten geen daadwerkelijke vertaalinhoud.
-2. **MasterKey lokaliseren**: Met een reguliere expressie wordt een blokdeclaratie zoals `UI_NewCharScreen = {` herkend en wordt de masterKey geëxtraheerd. De masterKey is het eerste deel van de vertaalsleutel en komt overeen met de naam van de UI-module in PZ.
-3. **Regel voor regel parseren**: Binnen elk masterKey-blok worden regels in de vorm `key = "value"` geparseerd. De volledige translationKey wordt samengesteld als `masterKey_key` (bijv. `UI_NewCharScreen_Start`).
-4. **Stringconcatenatie**: PZ-Lua-bestanden ondersteunen de `..`-operator voor stringconcatenatie (bijv. `"Hello " .. "World"`); de parser berekent het concatenatieresultaat.
-5. **JSON-achtige syntaxis**: Sommige mods gebruiken een JSON-achtige notatie met dubbele aanhalingstekens `"key": "value"` in TXT-bestanden; de parser ondersteunt dit ook.
-6. **Foutafhandeling**: Regels die niet kunnen worden geparseerd, worden naar een `fuck.txt`-logbestand geschreven voor handmatige inspectie en reparatie van parserbugs.
+**TXT-parsing (PZ Lua-formaat)**:
+PZ's traditionele vertaalbestanden gebruiken een op Lua table lijkend formaat. Het parsingproces is als volgt:
+1. **Niet-vertaalbestanden filteren**: Sla metadata-bestanden zoals `TranslationNotes`, `TranslationBy`, `Code - TXT`, `Credits`, `Language` over; deze bevatten geen daadwerkelijke vertaalinhoud.
+2. **Hoofdsleutel (masterKey) lokaliseren**: Gebruik regex om blokdeclaraties zoals `UI_NewCharScreen = {` te matchen en de masterKey te extraheren. De masterKey is het eerste deel van de vertaalsleutel en komt overeen met de naam van de UI-module in het PZ-spel.
+3. **Regel-voor-regel parsen**: Parse binnen elk masterKey-blok elke vertaling volgens het formaat `key = "value"`. De volledige translationKey wordt samengesteld uit `masterKey_key` (bijv. `UI_NewCharScreen_Start`).
+4. **Stringconcatenatie**: PZ's Lua-bestanden ondersteunen de `..` operator voor stringconcatenatie (bijv. `"Hello " .. "World"`); de parser berekent het samengevoegde resultaat.
+5. **JSON-stijl compatibiliteit**: Sommige mods gebruiken in TXT-bestanden een JSON-achtige `"key": "value"` schrijfwijze; de parser ondersteunt dit ook.
+6. **Uitzonderingsafhandeling**: Regels die niet geparseerd kunnen worden, worden weggeschreven naar het `fuck.txt` logbestand voor handmatig onderzoek en het repareren van parserbugs.
 
 **JSON-parsing**:
+Nieuwere versies van PZ (Build 42+) ondersteunen vertaalbestanden in JSON-formaat. De parser doorloopt geneste JSON-objecten recursief en plat deze af tot platte key-value paren. Het is ook compatibel met niet-standaard JSON-syntaxis zoals trailing komma's en opmerkingen, om tegemoet te komen aan verschillende schrijfwijzen van modauteurs.
 
-Nieuwere versies van PZ (Build 42+) ondersteunen JSON-formaat voor vertaalbestanden. De parser doorloopt geneste JSON-objecten recursief en vlakt ze af tot platte sleutel-waardeparen. Daarnaast wordt rekening gehouden met afwijkende JSON-syntaxis zoals trailing commas en commentaar, om tegemoet te komen aan de uiteenlopende schrijfstijlen van modmakers.
+**Samenvoegingsregels**:
+Wanneer dezelfde vertaalsleutel in meerdere bestanden voorkomt (bijv. dezelfde mod biedt zowel versie 42 als 42.19 vertaalbestanden), moet worden besloten welke te behouden. De regels zijn als volgt:
+- **Formaatprioriteit**: JSON overschrijft TXT. Reden: JSON is de nieuwe standaard van PZ en moet voorrang krijgen. Intern wordt onderscheid gemaakt via de `SourceKind` enum (JSON = 1, TXT = 0).
+- **Versieprioriteit**: Bij hetzelfde formaat wordt de versie met het hoogste spelversienummer behouden. De versienummerparsingregels staan hieronder.
+- **Volledige registratie**: Het veld `containingFileInfos` registreert informatie over alle bronbestanden (inclusief de genegeerde), om traceerbaarheid te garanderen.
 
-**Samenvoegregels**:
-
-Wanneer dezelfde vertaalsleutel in meerdere bestanden voorkomt (bijv. een mod die zowel vertalingen voor versie 42 als 42.19 bevat), moet worden bepaald welke behouden blijft. De regels zijn:
-
-- **Indelingsprioriteit**: JSON overschrijft TXT. Reden: JSON is de nieuwe standaardindeling van PZ en heeft daarom voorrang. Intern wordt dit onderscheiden met de enum `SourceKind` (JSON = 1, TXT = 0).
-- **Versieprioriteit**: Binnen dezelfde indeling blijft de versie met het hoogste gameversienummer behouden. De versieparsingregels staan hieronder.
-- **Volledige registratie**: Het veld `containingFileInfos` registreert alle bronbestanden (ook degene die zijn afgewezen) voor traceerbaarheid.
-
-**Versieparsingregels**:
-
+**Versienummer-parsingregels**:
 ```
-geen versienummer → 0.0
+无版本号 → 0.0
 common   → 1.0
 42       → 42.0
-42.19    → 42.19
+42.19 → 42.19
 ```
 
 ### 3.7 ContentChecker (`ContentCheckerService`)
 
-**Functie**: Voert vóór de vertaling een veiligheidscontrole uit op de mod-tekst en filtert mods met ongeoorloofde inhoud.
+**Functie**: Voer een veiligheidscontrole uit op mod-tekst voordat deze wordt vertaald, en filter mods die ongepaste inhoud bevatten.
 
-Een automatische vertaalpijplijn moet willekeurige internetinhoud verwerken, die mogelijk in strijd is met platformregels of wet- en regelgeving. `ContentChecker` gebruikt een LLM om de mod-inhoud automatisch te controleren en zorgt ervoor dat de uitvoer van de pijplijn geen ongeoorloofde inhoud bevat.
+De geautomatiseerde vertaalpijplijn moet willekeurige mod-inhoud van internet verwerken, die mogelijk tekst bevat die in strijd is met platformregels of wet- en regelgeving. `ContentChecker` gebruikt een LLM om de mod-inhoud automatisch te controleren, zodat de vertaalde uitvoer van de pijplijn geen ongepaste inhoud bevat.
 
-**Controledimensies** (drie rode lijnen):
+**Beoordelingsdimensies** (drie rode lijnen):
 
-| Categorie | Beoordelingscriteria |
-|-----------|----------------------|
-| **Drugs** | Beschrijving van drugsgebruik, injectie, productie, handel; verheerlijking of aanzetting tot drugsgebruik; metaforische verwijzingen naar echte drugs |
-| **Kinderporno** | Enige seksueel getinte inhoud met minderjarigen onder de 14 jaar |
-| **Verkrachting** | Beschrijving of verheerlijking van niet-consensuele seksuele handelingen, inclusief gewelddadige dwang, drogeringsverkrachting, enz. |
+| Categorie | Beoordelingscriterium |
+|------|---------|
+| **Drugs** | Beschrijft druggebruik, injectie, productie, handel; verheerlijkt of moedigt druggebruik aan; gebruikt virtuele metaforen voor echte drugs |
+| **Seksueel gedrag met kinderen** | Elke seksueel getinte inhoud met betrekking tot minderjarigen onder de 14 jaar |
+| **Verkrachting** | Beschrijft of verheerlijkt niet-vrijwillige seksuele handelingen, inclusief dwang, drugsgebruik, enz. |
 
 **Controlemechanisme**:
+- **Bemonsteringsstrategie**: Maximaal 1000 basisteksten per mod worden geëxtraheerd als controlemonsters, met een totaal aantal tekens van niet meer dan 60.000. Dit dekt de belangrijkste inhoud van de mod en overschrijdt de contextvenster van de LLM niet.
+- **Tekstafkapping**: Teksten langer dan 1600 tekens worden afgekapt, waarbij de eerste 1600 tekens worden bewaard voor controle. Extreem lange teksten zijn meestal configuratiegegevens in plaats van natuurlijke taal; afkapping beïnvloedt de beoordeling niet.
+- **LLM-controle**: Roep het `deepseek-v4-flash` model aan en gebruik JSON-modus om gestructureerde controleconclusies uit te voeren (inclusief beoordelingsresultaat en betrouwbaarheid).
+- **Cachestrategie**: Controleresultaten worden 90 dagen gecachet (geregeld door `contentCheckIntervalDays`). Binnen de geldigheidsperiode wordt dezelfde mod niet opnieuw gecontroleerd.
+- **Statusovergang**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
-- **Steekproefstrategie**: Per mod worden maximaal 1000 basisteksten als steekproef gebruikt, met een totaal van maximaal 60.000 tekens. Zo wordt de belangrijkste inhoud van de mod gedekt zonder de contextvenster van de LLM te overschrijden.
-- **Tekstafkapping**: Individuele teksten langer dan 1600 tekens worden ingekort tot de eerste 1600 tekens. Extreem lange tekens zijn meestal configuratiegegevens en geen natuurlijke taal; afkappen heeft geen invloed op de beoordeling.
-- **LLM-beoordeling**: Roept het model `deepseek-v4-flash` aan en gebruikt JSON Mode om gestructureerde beoordelingsresultaten te produceren (met oordeel en betrouwbaarheid).
-- **Caching**: Beoordelingsresultaten worden 90 dagen gecachet (gestuurd door `contentCheckIntervalDays`). Binnen deze termijn wordt dezelfde mod niet opnieuw gecontroleerd.
-- **Statustransitie**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
-
-**Handmatige controle**: Wanneer de betrouwbaarheid van de LLM lager is dan 0,7, wordt het resultaat als onvoldoende betrouwbaar beschouwd en blijft de mod-status `NEEDVERIFICATION`, in afwachting van menselijke beoordeling. Dit voorkomt dat normale mods ten onrechte worden gefilterd door fouten van de LLM.
+**Handmatig herbeoordelingsmechanisme**: Wanneer de betrouwbaarheid van de LLM lager is dan 0,7, wordt het controleresultaat als onvoldoende betrouwbaar beschouwd en blijft de modstatus `NEEDVERIFICATION`, in afwachting van handmatige beoordeling. Dit voorkomt dat normale mods ten onrechte worden gefilterd als gevolg van foutieve LLM-oordelen.
 
 ### 3.8 EmbeddingFetcher (`EmbeddingFetcherService`)
 
-**Functie**: Roept een externe inbeddingservice aan om voor elke te vertalen tekst een vectorinbedding (embedding) te genereren, die wordt gebruikt voor RAG-zoekopdrachten.
+**Functie**: Roep een externe embeddingservice aan om vector-embeddings (Embeddings) te genereren voor elke te vertalen tekst, voor gebruik bij RAG-retrieval.
 
-Inbeddingsvectoren zijn een wiskundig hulpmiddel in de moderne NLP om de semantiek van tekst weer te geven: teksten met een vergelijkbare betekenis liggen ook dicht bij elkaar in de vectorruimte. De pijplijn gebruikt inbeddingsvectoren om voor elke te vertalen tekst de semantisch meest vergelijkbare referentievertaling te vinden.
+Embeddings zijn een wiskundig hulpmiddel in moderne NLP om de semantiek van tekst weer te geven – teksten met vergelijkbare semantiek hebben ook vergelijkbare vectoren in de ruimte. De pijplijn gebruikt embeddings om de kernfunctie "vind de meest semantisch gelijkende referentievertaling voor de huidige te vertalen tekst" te implementeren.
 
-**Waarom een externe service?** Hoewel inbeddingsmodellen (zoals `bge-small-en-v1.5`) niet enorm groot zijn, moeten ze bij lokale uitvoering in het geheugen worden geladen. Gezien de geheugenbeperkingen van GitHub Actions-runners (meestal 7 GB) en de reeds hoge geheugenbelasting van de pijplijn, is het verstandiger om de inbeddingsberekening uit te besteden aan een externe dienst.
+**Waarom een externe service gebruiken?** Embeddingsmodellen (zoals `bge-small-en-v1.5`) zijn niet groot, maar vereisen nog steeds het laden van modelgewichten in het geheugen tijdens lokale uitvoering. Gezien de geheugenbeperkingen van GitHub Actions-runners (meestal 7 GB) en het feit dat de pijplijn zelf al veel geheugen nodig heeft voor vertaaltaken, is het verplaatsen van embeddingberekeningen naar een externe speciale service een redelijkere keuze.
 
 **Communicatieprotocol**:
+De embeddingservice maakt gebruik van een lichtgewicht, staatloos authenticatieschema:
+1. **UDP-kloppen**: Stuur eerst een UDP-pakket als klopsignaal naar de service.
+2. **AES-256-GCM-versleuteling**: Daaropvolgende HTTP-communicatie wordt versleuteld met AES-256-GCM, waarbij de sleutel wordt afgeleid van `EMBEDDING_KEY` in `secrets.json` via SHA256.
+3. **HTTP POST**: De daadwerkelijke gegevensoverdracht wordt voltooid via HTTP POST.
 
-De inbeddingservice gebruikt een lichtgewicht stateless authenticatieschema:
-1. **UDP-kloppen**: Eerst wordt een UDP-pakket naar de service gestuurd als "klop"-signaal.
-2. **AES-256-GCM-codering**: Vervolgens wordt de HTTP-communicatie versleuteld met AES-256-GCM. De sleutel wordt afgeleid van `EMBEDDING_KEY` in `secrets.json` via SHA256.
-3. **HTTP POST**: De daadwerkelijke gegevensoverdracht vindt plaats via HTTP POST.
-
-Deze aanpak voorkomt het risico dat de API-sleutel in platte tekst in de HTTP-header wordt meegestuurd en blijft toch stateless aan de serverzijde.
+Dit ontwerp vermijdt het risico van het verzenden van traditionele API-sleutels in platte tekst in HTTP-headers, terwijl de staatloze aard van de server behouden blijft.
 
 **Technische parameters**:
 
-| Parameter | Waarde | Toelichting |
-|-----------|--------|-------------|
-| Inbeddingsmodel | `bge-small-en-v1.5` | Lichtgewicht Engels inbeddingsmodel van BAAI |
-| Vectordimensie | 384 | Elke tekst wordt omgezet in 384 float32-waarden |
-| Invoerafkapping | 500 UTF-8-tekens | Langere teksten worden ingekort voor invoer |
-| Batchgrootte | 32 | Per verzoek worden 32 teksten verzonden, voor een goede balans tussen doorvoer en latentie |
-| Opslagformaat | Zstd-gecomprimeerd binair | Compressieverhouding ongeveer 4:1, aanzienlijke besparing op schijfruimte |
+| Parameter | Waarde | Beschrijving |
+|------|-----|------|
+| Embeddingsmodel | `bge-small-en-v1.5` | Lichtgewicht Engels embeddingsmodel uitgegeven door BAAI |
+| Vector dimensie | 384 | Elke tekst wordt toegewezen aan 384 float32-waarden |
+| Invoerafkap | 500 UTF-8 tekens | Teksten langer dan deze lengte worden afgekapt voordat ze naar het model worden gestuurd. |
+| Batch grootte | 32 | Bij elk verzoek worden 32 teksten verzonden, om doorvoer en latentie in evenwicht te brengen. |
+| Opslagformaat | Zstd gecomprimeerd binair | Compressieverhouding ongeveer 4:1, bespaart aanzienlijk schijfruimte. |
 
-**Verwerkingsproces**:
+**Verwerkingsstroom**:
+1. **Verzamel kandidaten** (`BuildCandidates`): Verzamel alle items die geen inbeddingsvector hebben, inclusief nieuw toegevoegde/gewijzigde items (diff) van deze run, referentievertalingsitems en historische items die moeten worden teruggevuld (backfill).
+2. **Hash-deduplicatie**: Items met dezelfde tekstinhoud produceren noodzakelijkerwijs dezelfde hashwaarde; in dat geval worden bestaande inbeddingsvectoren direct hergebruikt om dubbele berekening te voorkomen.
+3. **Verzenden in batches**: Verpak de kandidaatitems in batches van 32 per batch en verzend ze batch voor batch naar de inbeddingsdienst. Bij ≥3 opeenvolgende mislukkingen wordt de inbeddingsfase beëindigd.
+4. **Persistente opslag**: De verkregen vectoren worden in Zstd-gecomprimeerd formaat geschreven naar `data/embeddings/<modId>.bin`.
 
-1. **Kandidaten verzamelen** (`BuildCandidates`): Verzamelt alle items waarvoor nog geen inbedding bestaat: nieuw/gewijzigde items uit de diff, referentievertaalitems en historische items die moeten worden teruggevuld (backfill).
-2. **Hash-deduplicatie**: Identieke tekst levert altijd dezelfde hash op; in dat geval wordt de bestaande inbedding hergebruikt.
-3. **Verzenden in batches**: De kandidaten worden in batches van 32 naar de inbeddingservice gestuurd. Bij 3 opeenvolgende mislukkingen wordt de inbeddingsfase beëindigd.
-4. **Persistente opslag**: De verkregen inbeddingen worden opgeslagen in Zstd-gecomprimeerd formaat in `data/embeddings/<modId>.bin`.
-
-**Backfill-mechanisme**: Wanneer de pijplijn voor het eerst een nieuwe taal ondersteunt, kunnen historische cache-items die geen inbedding voor die taal hebben, zeer talrijk zijn. Als al deze inbeddingen in één keer zouden worden berekend, zou de service overbelast raken en zou het proces extreem lang duren. De backfill-mechanisme beperkt het aantal ontbrekende inbeddingen dat per uitvoering wordt teruggevuld tot maximaal 10.000.000, zodat de werklast over meerdere uitvoeringen wordt verdeeld.
+**Backfill-terugvulmechanisme**: Wanneer de pijplijn voor het eerst een nieuwe taal ondersteunt, kunnen er in de historische cache veel items ontbreken die de inbeddingsvector voor die taal missen. Als in één keer voor al deze items inbeddingen worden berekend, is de servicebelasting enorm en duurt het erg lang. Het backfill-mechanisme beperkt het aantal terug te vullen ontbrekende inbeddingen per run tot maximaal 10.000.000, waardoor de werklast wordt verspreid over meerdere runs en geleidelijk wordt voltooid.
 
 ### 3.9 TranslationBatcher (`TranslationBatcherService`)
 
-**Functie**: Verpakt te vertalen items per mod en met tokenbudget in vertaalbatches (`TranslationBatch`), die de basiseenheid vormen voor LLM-vertaling.
+**Functie**: Verpak de te vertalen items per mod en tokenbudget in vertaalbatches (`TranslationBatch`), als basiseenheid voor LLM-vertaling.
 
-Losse items één voor één vertalen is inefficiënt: de netwerklatentie per API-aanroep is veel groter dan de inferentietijd van het model. `TranslationBatcher` groepeert meerdere teksten in batches, zodat elke API-aanroep meerdere teksten kan verwerken, wat de doorvoer aanzienlijk verhoogt.
+Directe vertaling per regel is inefficiënt — de netwerkretardatie per API-aanroep is veel groter dan de modelinferentietijd. `TranslationBatcher` verpakt meerdere te vertalen teksten in batches, zodat elke API-aanroep meerdere teksten kan verwerken, wat de doorvoer aanzienlijk verhoogt.
 
-**Batchstrategie**:
+**Verpakkingsstrategie**:
+1. **Prioriteitsclassificatie**: Mods worden in aflopende volgorde van prioriteit gerangschikt. Prioriteit wordt gewogen berekend op basis van abonnementen (subscription) en favorieten (favorite) — hoe populairder de mod, hoe eerder deze wordt vertaald.
+2. **Dubbele beperking**: Elke batch wordt gelijktijdig door twee bovengrenzen beperkt:
+- `batch_size` (maximum aantal items, standaard 30): een batch bevat maximaal 30 vertaalitems.
+- `batch_token_budget` (tokenbudget, standaard 2000): het totale aantal tokens van de invoertekst van een batch mag niet hoger zijn dan 2000. Zelfs als het maximumaantal items niet is bereikt, wordt de batch afgekapt wanneer het tokenbudget is uitgeput.
+3. **Zelfde mod groeperen**: Items van dezelfde mod worden zoveel mogelijk in dezelfde batch verpakt. Dit helpt de LLM om terminologieconsistentie binnen dezelfde mod te begrijpen en voorkomt contextfragmentatie.
+4. **Taaltag**: Elke `TranslationBatch` heeft een `targetLang`-veld dat de doeltaal van de batch aangeeft. Items met verschillende doeltalen worden nooit in dezelfde batch gemengd.
 
-1. **Prioriteitssortering**: Mods worden gesorteerd op aflopende prioriteit. De prioriteit wordt bepaald door een gewogen som van het aantal abonnees (`subscription`) en favorieten (`favorite`): populaire mods worden eerst vertaald.
-2. **Dubbele begrenzing**: Elke batch heeft twee bovengrenzen:
-   - `batch_size` (maximaal aantal items, standaard 30): een batch bevat maximaal 30 vertaalitems.
-   - `batch_token_budget` (tokenbudget, standaard 2000): het totale aantal tokens in de invoerteksten van een batch mag niet hoger zijn dan 2000. Zelfs als het aantal items onder de limiet ligt, kan het tokenbudget de batch afkappen.
-3. **Items van dezelfde mod bij elkaar**: Items van dezelfde mod worden zoveel mogelijk in dezelfde batch geplaatst. Dit helpt de LLM om terminologieconsistentie binnen de mod te begrijpen en versnippering van context te voorkomen.
-4. **Taalmarkering**: Elke `TranslationBatch` heeft een veld `targetLang` dat de doeltaal van die batch aangeeft. Items met verschillende doeltalen worden nooit in dezelfde batch gemengd.
+**Token-schattingsmethode**: Omdat de pijplijn niet afhankelijk is van een specifieke tokenizer-bibliotheek (om extra afhankelijkheden te voorkomen), wordt een vereenvoudigde schattingsmethode gebruikt — Engelse tekst wordt ruwweg geschat door te tokeniseren op spaties en leestekens. Deze schatting wordt gebruikt voor budgetcontrole en hoeft niet absoluut nauwkeurig te zijn.
 
-**Tokenschatting**: Omdat de pijplijn geen externe tokenizer-bibliotheek gebruikt (om extra afhankelijkheden te vermijden), wordt een eenvoudige schattingsmethode gebruikt: voor Engelse tekst wordt het aantal tokens ruwweg geschat door te splitsen op spaties en leestekens. Deze schatting wordt gebruikt voor budgetbewaking en hoeft niet absoluut nauwkeurig te zijn.
-
-**Doel — items van dezelfde mod bij elkaar**: Door items van dezelfde mod in dezelfde batch te houden in plaats van ze over meerdere batches te verdelen om de vulgraad te maximaliseren, kan de LLM de context binnen de batch gebruiken om terminologieconsistentie te waarborgen – dezelfde mod heeft een uniform terminologiesysteem en vertelstijl, en door ze samen te vertalen ontstaat een meer consistente vertaling.
+**Ontwerpdoel — Zelfde mod groeperen**: Items van dezelfde mod worden zoveel mogelijk in dezelfde batch verpakt, in plaats van cross-mod te mengen om een hogere vullingsgraad te bereiken. Dit komt doordat de LLM tijdens het vertalen gebruik maakt van de contextinformatie binnen dezelfde batch om terminologieconsistentie te behouden — teksten van dezelfde mod delen hetzelfde terminologiesysteem en dezelfde vertelstijl, en door ze samen te vertalen kan de LLM een uniforme vertaling produceren.
 
 ### 3.10 RagContextRetriever (`RagContextRetrieverService`)
 
-**Functie**: Zoekt op basis van vectorsimilariteit in het referentievertaalcorpus naar de meest vergelijkbare bestaande vertaling voor de te vertalen tekst, die als contextreferentie voor de LLM wordt gebruikt.
+**Functie**: Gebaseerd op vectorovereenkomst, haal de meest gelijkaardige bestaande vertalingen op uit de referentievertaalcorpus voor de te vertalen tekst, als contextreferentie voor LLM-vertaling.
 
-RAG (Retrieval-Augmented Generation) is de **kernwaarborg** voor de vertaalkwaliteit van deze pijplijn. Het basisidee is dat de LLM bij het vertalen van elke tekst "kan zien" hoe de community een vergelijkbare zin heeft vertaald, zodat hij de stijl, terminologie en uitdrukkingswijze kan overnemen.
+RAG (Retrieval-Augmented Generation) is de **kernwaarborg** van de vertaalkwaliteit van deze pijplijn. Het basisidee is: laat de LLM bij het vertalen van elke tekst "zien" van gelijkaardige voorbeeldzinnen die door de community handmatig zijn vertaald, zodat het de stijl, terminologie en uitdrukkingswijze kan leren.
 
-**Zoekproces**:
+**Ophaalproces**:
+1. **Bouw referentie-index** (`BuildReferences`): Filter uit de referentievertaalitems en bestaande vertalingen de items die overeenkomen met de huidige vertaalrichting (d.w.z. items zoals `embeddingKey = "en:zh-hans"`, d.w.z. "van Engels naar doeltaal"), en laad hun inbeddingsvectoren in het geheugen als zoekindex.
+2. **Exacte overeenkomst zoeken** (`BuildExactReferenceLookup`): Voor items met exact dezelfde translationKey, wordt direct een mapping-relatie opgebouwd — dezelfde key betekent dat dezelfde tekst wordt vertaald, dit is het sterkste referentiesignaal.
+3. **Cosinusovereenkomstberekening**: Voor elke queryvector (query embedding) van de te vertalen tekst, worden alle referentie-vectoren (reference embedding) in de referentie-index doorlopen en wordt de cosinusovereenkomst tussen beide berekend. De cosinusovereenkomst heeft een waardebereik van [-1, 1], hoe dichter bij 1, hoe groter de semantische gelijkenis.
+4. **Drempelfiltering**: Referentieresultaten met een overeenkomst lager dan `similarity_threshold` (standaard 0.8) worden weggegooid. Deze drempel zorgt ervoor dat alleen zeer relevante referentievertalingen worden gebruikt.
+5. **Top-K afkapping**: Neem de K items met de hoogste similariteit uit de kandidaten die de drempel hebben gehaald (standaard 3), als referentiecontext voor LLM-vertaling.
 
-1. **Referentie-index opbouwen** (`BuildReferences`): Selecteert uit de referentievertaalitems en bestaande vertalingen de items die relevant zijn voor de huidige vertaalrichting (d.w.z. items met `embeddingKey = "en:zh-hans"` – van Engels naar de doeltaal) en laadt hun inbeddingen in het geheugen als zoekindex.
-2. **Exacte overeenkomst zoeken** (`BuildExactReferenceLookup`): Voor items met exact dezelfde `translationKey` wordt direct een mapping gemaakt – dezelfde sleutel betekent dat het om dezelfde tekst gaat, wat het sterkste referentiesignaal is.
-3. **Cosinusovereenkomst berekenen**: Voor elke zoekvector (query embedding) van de te vertalen tekst wordt de cosinusovereenkomst berekend met alle referentievectoren in de index. De cosinusovereenkomst ligt tussen -1 en 1; hoe dichter bij 1, hoe semantisch vergelijkbaarder.
-4. **Drempelfiltering**: Referenties met een overeenkomst lager dan `similarity_threshold` (standaard 0,8) worden genegeerd. Deze drempel zorgt ervoor dat alleen sterk gerelateerde referenties worden gebruikt.
-5. **Top-K-afkapping**: Van de referenties die de drempel halen, worden de K hoogste genomen (standaard 3) en als contextreferentie aan de LLM aangeboden.
+**Prestatieoptimalisatie**: De zoekopdracht omvat veel vectorpuntproductberekeningen (384 dimensies × tienduizenden referenties × tienduizenden query's), wat een enorme rekenlast is. De pijplijn gebruikt `Parallel.For` voor multithreaded parallelle berekening en gebruikt in de binnenste lus `Vector128` SIMD-instructies om de puntproductberekening te versnellen, waarbij de vectorrekenkracht van moderne CPU's volledig wordt benut.
 
-**Prestatie-optimalisatie**: Het zoeken omvat een groot aantal vector-dot-productbewerkingen (384 dimensies × tienduizenden referenties × tienduizenden zoekopdrachten), wat zeer rekenintensief is. De pijplijn gebruikt `Parallel.For` voor multithreading en maakt binnen de binnenste lus gebruik van `Vector128` SIMD-instructies om de dot-productberekening te versnellen, waarmee optimaal gebruik wordt gemaakt van de vectorrekenkracht van moderne CPU's.
-
-**Koppeling met LLMTranslator**: Na het zoeken worden de Top-K-referenties voor elk item opgeslagen in het RAG-contextveld van de bijbehorende `TranslationBatch`. Wanneer `LLMTranslator` de vertaalprompt opbouwt (zie 3.11 `BuildPromptItems`), worden deze referenties als context in de prompt opgenomen, zodat de LLM er gebruik van kan maken.
+**Integratie met LLMTranslator**: Nadat het ophalen is voltooid, worden de Top-K referentievertalingen van elke te vertalen tekst geschreven naar het RAG-contextveld dat overeenkomt met elk item in `TranslationBatch`. Bij het opbouwen van de vertaal-Prompt (zie sectie 3.11 `BuildPromptItems`), injecteert `LLMTranslator` deze referentievertalingen als context in de Prompt, ter referentie voor de LLM.
 
 ### 3.11 LLMTranslator (`LLMTranslatorService`)
 
-**Functie**: Roept de API van het grote taalmodel aan om de daadwerkelijke vertaling uit te voeren; dit is de meest complexe module van de pijplijn.
+**Functie**: Roept de Large Language Model API aan om de daadwerkelijke vertaaltaken uit te voeren, en is de meest complexe module van de gehele pijplijn.
 
-`LLMTranslator` is niet alleen verantwoordelijk voor het opstellen van de prompt en het verwerken van het antwoord, maar bevat ook een volledig scala aan engineeringmechanismen zoals opwarmdetectie (warmup), dynamische gelijktijdigheidsregeling, geheugenbescherming en foutafhandeling met herpogingen.
+`LLMTranslator` is niet alleen verantwoordelijk voor het construeren van de Prompt en het parseren van de respons, maar bevat ook volledige engineeringmechanismen zoals warmup-detectie (warmup), dynamische gelijktijdigheidsregeling, geheugenbescherming en foutherhaling.
 
 **Algemene architectuur**:
-
-De vertaling verloopt in twee fasen: **voorbereidingsfase** en **uitvoeringsfase**:
-
+De vertaling is verdeeld in twee fasen——**Voorbereidingsfase** en **Uitvoeringsfase**:
 ```
-PrepareTranslationPlanAsync  → Bouwt een vertaalplan (LlmTranslationPlan)
-    ├── Lege teksten filteren (direct naar EmptyWrites, geen LLM-aanroep)
-    ├── BuildPromptItems (RAG-context en terminologietabel toevoegen aan elke tekst)
-    ├── BuildPrompt (samenvoegen van system prompt + vertaalregels + itemlijst)
-    └── Als aantal batches >5, warmup-prompt genereren
+PrepareTranslationPlanAsync  → 构建翻译计划（LlmTranslationPlan）
+├── 过滤空文本（直接写入 EmptyWrites，无需调用 LLM）
+├── BuildPromptItems（为每条文本注入 RAG 上下文和术语表）
+├── BuildPrompt（拼接 system prompt + 翻译规则 + 条目列表）
+└── 批次数 >5 时生成 warmup prompt（用于预热探测）
 
-ExecuteTranslationPlansAsync  → Voert alle vertaalplannen sequentieel uit
-    ├── EmptyWrites wegschrijven (plaatsvervangende resultaten voor lege tekst)
-    ├── ExecuteWarmupAsync (opwarmfase: lage gelijktijdigheid, één verzoek)
-    │   └── AccountFatal → stop alle volgende plannen
-    ├── ExecuteWorkItemsAsync / ExecuteWorkItemsFixedWindowAsync (hoofdvertaalfase)
-    └── ApplyTargetWrite (vertaalresultaat opslaan in entry.translationValues)
+ExecuteTranslationPlansAsync  → 串行执行所有翻译计划
+├── 写入 EmptyWrites（空文本的占位结果）
+├── ExecuteWarmupAsync（预热阶段：低并发单次请求）
+│   └── AccountFatal → 终止所有后续计划
+├── ExecuteWorkItemsAsync / ExecuteWorkItemsFixedWindowAsync（主翻译阶段）
+└── ApplyTargetWrite（将翻译结果写入 entry.translationValues）
 ```
 
-**Dynamische gelijktijdigheidsregeling** (`ExecuteWorkItemsAsync`):
-
-Het rate-limit-beleid van de DeepSeek API is niet volledig transparant; een vast gelijktijdigheidsgetal kan leiden tot twee problemen: te conservatief (te weinig doorvoer) of te agressief (429-fouten). Daarom implementeert de pijplijn een adaptief gelijktijdigheidsalgoritme:
-
+**Dynamische gelijktijdigheidsregeling**（`ExecuteWorkItemsAsync`）:
+Het snelheidsbeperkingsbeleid (rate limit) van de DeepSeek API is niet volledig transparant. Een vast gelijktijdigheidsaantal kan tot twee problemen leiden——te conservatief resulteert in onvoldoende doorvoer, te agressief veroorzaakt een 429 beperkingsfout. Daarom heeft de pijplijn een adaptief gelijktijdigheidsregelingsalgoritme geïmplementeerd:
 ```
-initiële gelijktijdigheid = auto(profile) of configuratiewaarde
-   ↓
-bij voltooiing van elke taak wordt geëvalueerd:
-    geslaagd → successStreak++ (succesteller verhogen)
-    geslaagd && streak ≥ min(currentLimit, 100) → probeer +25% gelijktijdigheid
-    mislukt && druksignaal → pressureFailureStreak++
-    druksignaal ≥ 3 opeenvolgend → gelijktijdigheid halveren (schaalverkleining)
-    AccountFatal (onvoldoende saldo/account geblokkeerd) → stopScheduling, alle volgende taken stoppen
+初始并发 = auto(profile) 或配置值
+↓
+每完成一个任务时评估:
+成功 → successStreak++（成功计数器递增）
+成功 && streak ≥ min(currentLimit, 100) → 尝试 +25% 并发
+失败 && 有压力信号 → pressureFailureStreak++
+spanningdruksignaal ≥ 3 → concurrency halveren (schaalverkleining)
+AccountFatal (onvoldoende saldo/account opgeschort) → markeer stopScheduling, beëindig alle volgende taken
 ```
 
-De kernstrategie is het "teen-tik-effect": geleidelijk de gelijktijdigheidslimiet van de API aftasten, bij succes omhoog, bij mislukking snel omlaag.
+Kernidee is het "teen-effect" — stapsgewijs de API-concurrentielimiet testen, bij succes omhoog, bij falen snel krimpen.
 
-**Automatisch gelijktijdigheidsprofiel**:
+**Concurrency Profiel automatische detectie**:
+Wanneer in de configuratie `initial=0` of `maximum=0` staat, kiest de pijplijn automatisch geschikte concurrencyparameters op basis van de runtime-omgeving en modelnaam. **Detectieprioriteit**: eerst wordt de omgevingsvariabele `GITHUB_ACTIONS` gecontroleerd (CI-omgeving dwingt lage concurrency af), vervolgens wordt er gematcht op modelnaam:
 
-Wanneer `initial=0` of `maximum=0` in de configuratie, kiest de pijplijn automatisch geschikte gelijktijdigheidsparameters op basis van de uitvoeromgeving en modelnaam. **Detectieprioriteit**: eerst wordt de omgevingsvariabele `GITHUB_ACTIONS` gecontroleerd (CI-omgeving dwingt lage gelijktijdigheid af), daarna wordt gekeken naar de modelnaam:
-
-| Detectievoorwaarde | Initieel | Maximum | Toepassing |
+| Detectieconditie | Initieel | Maximaal | Toepassingsscenario |
 |------|---------|---------|------|
-| `GITHUB_ACTIONS=true` (prioriteit) | 4 | 32 | Beperkte resources van CI-runners (CPU/geheugen) |
-| model bevat `v4-flash` | 128 | 2000 | DeepSeek V4 Flash, hoge gelijktijdigheid mogelijk |
-| model bevat `v4-pro` | 64 | 400 | DeepSeek V4 Pro, gematigde gelijktijdigheid |
-| andere modellen | 16 | 128 | Conservatieve standaard voor onbekende modellen |
+| `GITHUB_ACTIONS=true` (prioriteit) | 4 | 32 | CI-runner resources (CPU/geheugen) beperkt |
+| model bevat `v4-flash` | 128 | 2000 | DeepSeek V4 Flash hoge concurrency capaciteit |
+| model bevat `v4-pro` | 64 | 400 | DeepSeek V4 Pro gemiddelde concurrency capaciteit |
+| Andere modellen | 16 | 128 | Conservatieve standaard voor onbekende modellen |
 
-**Vast vensterpatroon** (`llmFixedConcurrency > 0`):
+**Vast venster modus** (`llmFixedConcurrency > 0`):
+Voor omgevingen waar de API-concurrentielimiet duidelijk bekend is, kan de vaste venstermodus worden ingeschakeld. Deze modus groepeert work items in vaste vensters, waarbij items binnen een venster gelijktijdig worden uitgevoerd en vensters strikt serieel. Dit deterministische gedrag elimineert de onzekerheid van dynamische aanpassing, geschikt voor stabiele productieomgevingen.
 
-Voor omgevingen waarin de gelijktijdigheidslimiet van de API exact bekend is, kan het vaste vensterpatroon worden ingeschakeld. Hierbij worden work items gegroepeerd in vensters van vaste grootte; items binnen een venster worden gelijktijdig uitgevoerd, vensters worden strikt sequentieel afgewerkt. Dit gedrag is deterministisch en elimineert de onzekerheid van dynamische aanpassing, wat geschikt is voor stabiele productieomgevingen.
+**Samenstelling van de vertaal-Prompt**:
+De Prompt van elk vertaalverzoek wordt samengesteld uit de volgende vier lagen:
+1. **System Prompt** (`system_prompt_translate_engine.txt`): definieert de basisregels voor de vertaaltaak, waaronder:
+- Gebruik van Tab-gescheiden invoer/uitvoerformaat (voor programmeerbare parsing).
+- Plaatshouders in de originele tekst strikt behouden (zoals `%1`, `{}`, `<>`); dit zijn variabelen die tijdens runtime dynamisch worden vervangen.
+- Gezagsprioriteit: handmatig geverifieerde doeltaalvertaling > terminologielijst > RAG-referentie > LLM eigen beoordeling.
+- Elke vertaling moet een betrouwbaarheidsscore bevatten (1.0 volledig zeker ~ 0.1 gok).
+- Vereist dat de LLM het tokenverbruik tijdens het redeneren minimaliseert om API-kosten te verlagen.
 
-**Samenstelling van de vertaalprompt**:
+2. **Vertaalschema** (`translation_schema_zh-hans.md`): definieert de opmaakregels voor Chinese vertalingen, bijvoorbeeld:
+- Leestekens: uniform gebruik van Engelse halfbrede leestekens, behalve de Chinese specifieke `、` `...` `《》`.
+- Benoeming van objecten: `objectnaam (kleur, kwaliteit, beschrijving)`.
+- Benoeming van vuurwapens: `merk+model+soort`.
+- Benoeming van voertuigen: `jaar+merk+model+speciale opmerking+voertuigtype`.
 
-Elk vertaalverzoek bestaat uit de volgende vier lagen:
+3. **Terminologielijst** (`translation_dictionary_zh-hans.json`): verplichte terminologie-vertalingstabel. Wanneer een term uit de lijst in de brontekst verschijnt, moet de LLM de overeenkomstige Chinese vertaling gebruiken en mag deze niet zelf invullen.
 
-1. **System Prompt** (`system_prompt_translate_engine.txt`): Definieert de basisregels voor de vertaaltaak, waaronder:
-   - Gebruik van een door tabs gescheiden invoer-uitvoerformaat (voor eenvoudige parsing).
-   - Behoud van plaatshouders in de brontekst (`%1`, `{}`, `<>`, enz.) – dit zijn variabelen die tijdens het spel dynamisch worden vervangen.
-   - Autoriteitsprioriteit: handmatig geverifieerde doeltaalvertalingen > terminologietabel > RAG-referenties > eigen oordeel van de LLM.
-   - Elke vertaling moet een betrouwbaarheidsscore bevatten (1.0 = volledig zeker tot 0.1 = gok).
-   - De LLM wordt gevraagd het aantal tokens voor redenering te minimaliseren om de API-kosten te drukken.
+4. **RAG-context**: referentievertaalvoorbeelden opgehaald door `RagContextRetriever`, ingebed in de Prompt als vertaalreferentie.
 
-2. **Vertalingsschema** (`translation_schema_zh-hans.md`): Definieert de indelingsnormen voor de Chinese vertaling, bijvoorbeeld:
-   - Leestekens: gebruik Engelse halve breedte leestekens, behalve Chinese specifieke zoals `、` `...` `《》`.
-   - Itemnamen: `itemnaam (kleur, kwaliteit, beschrijving)`.
-   - Vuurwapens: `merk+model+type`.
-   - Voertuigen: `jaartal+merk+model+speciale aanduiding+voertuigtype`.
-
-3. **Terminologietabel** (`translation_dictionary_zh-hans.json`): Een verplichte termenlijst. Wanneer een term uit de lijst in de brontekst voorkomt, moet de LLM de bijbehorende vertaling gebruiken en mag hij niet naar eigen inzicht vertalen.
-
-4. **RAG-context**: De door `RagContextRetriever` gevonden referentievertaalvoorbeelden worden als context in de prompt opgenomen.
-
-**Invoer- en uitvoerformaat**:
-
+**Invoer/uitvoer formaat**:
 Invoer (per te vertalen item):
 ```
 T1\t<source_text>\t<multi_lang_context>\t<rag_context>\t<mod_info>
@@ -557,151 +554,145 @@ Uitvoer (per vertaalresultaat):
 T1\t<translation>\t<confidence>\t[comment]
 ```
 
-Het door tabs gescheiden formaat zorgt ervoor dat de uitvoer van de LLM nauwkeurig kan worden geparseerd – komma's of spaties zouden verwarring kunnen veroorzaken met de eigenlijke tekstinhoud.
+Het gebruik van door tabs gescheiden formaten is bedoeld om de uitvoer van de LLM nauwkeurig door het programma te laten parseren — komma's of spaties kunnen gemakkelijk worden verward met de tekstinhoud zelf.
 
-**Warmup-mechanisme**:
-
-Wanneer het aantal vertaalbatches groter is dan 5, stuurt de pijplijn eerst een warmup-verzoek (met een paar eenvoudige vertaaltaken). De warmup heeft drie doelen:
-
-1. **API-connectiviteit testen**: controleren of het netwerk bereikbaar is en de API-sleutel geldig is.
-2. **Accountstatus controleren**: als de API een `AccountFatal`-fout retourneert (onvoldoende saldo of account geblokkeerd), worden alle volgende vertaaltaken gestopt om zinloze herhaalde mislukkingen te voorkomen.
-3. **KV-Cache-hitratio verhogen**: Het warmup-verzoek stuurt dezelfde prompt-headers (system prompt + regels) als de reguliere batches, waardoor de LLM-server de KV-Cache kan hergebruiken bij de daadwerkelijke vertaling, wat de inferentiekosten en latentie verlaagt.
+**Warmup-opwarmingsmechanisme**:
+Wanneer het aantal vertaalbatchjes meer dan 5 is, stuurt de pijplijn eerst een opwarmingsverzoek (met een paar eenvoudige vertaaltaken). Het doel van de opwarming is drievoudig:
+1. **API-connectiviteit detecteren**: Bevestig dat het netwerk bereikbaar is en de API-sleutel geldig is.
+2. **Accountstatus detecteren**: Als de API een `AccountFatal`-fout retourneert (saldo ontoereikend of account geblokkeerd), worden alle volgende vertaaltaken beëindigd om zinloze herhaalde mislukkingen te voorkomen.
+3. **Cache-hitratio verhogen**: Het opwarmingsverzoek stuurt dezelfde prompt-header (system prompt + regels) als de formele batch, zodat de KV-cache aan de LLM-serverzijde direct kan worden hergebruikt bij de formele vertaling, waardoor de inferentiekosten en latentie worden verlaagd.
 
 ### 3.12 ResultWriter (`ResultWriterService`)
 
-**Functie**: Schrijft alle door de pijplijn geproduceerde gegevens (vertaalresultaten, inbeddingen, metadata, enz.) persistent terug naar het bestandssysteem, zodat ze bij volgende uitvoeringen kunnen worden hergebruikt.
+**Functie**: Schrijf alle door de pijplijn gegenereerde gegevens (vertaalresultaten, inbeddingsvectoren, metadata, enz.) persistent terug naar het bestandssysteem, zodat ze bij de volgende run opnieuw kunnen worden gebruikt.
 
-`ResultWriter` is de "archiveringsmodule" van de pijplijn. Elke uitvoering produceert vertaalresultaten die moeten worden bewaard; anders kan de volgende uitvoering niet zien welke teksten al zijn vertaald, wat leidt tot veel dubbel werk.
+`ResultWriter` is de "archiefmodule" van de pijplijn. Elke vertaalresultaat van een pijplijnrun moet worden opgeslagen, anders kan de volgende run niet identificeren welke teksten al zijn vertaald, wat leidt tot veel dubbel werk.
 
 **Uitvoerdoelen en -formaten**:
 
 | Gegevenstype | Opslagpad | Formaat |
-|--------------|-----------|---------|
-| Mod-metadata | `data/modinfos.json` | JSON-array met alle verwerkte mod-informatie |
-| Vertaalitems | `data/translations/<iso>/<modId>.txt` | PZ-vertaalregels: `key::lang::status = "value"` |
-| Inbeddingen | `data/embeddings/<modId>.bin` | Zstd-gecomprimeerd binair formaat (bespaart schijfruimte) |
-| Item-metadata | `data/entry_metadata/<bucket>/<modId>.json` | JSON-formaat met `sourceHash`, `isActive` en andere statusgegevens |
+|----------|------|------|
+| Mod-metadata | `data/modinfos.json` | JSON-array, informatie over alle verwerkte mods |
+| Vertaalitems | `data/translations/<iso>/<modId>.txt` | PZ-vertaalrijformaat: `key::lang::status = "value"` |
+| Inbeddingsvectoren | `data/embeddings/<modId>.bin` | Zstd-gecomprimeerd binair formaat (bespaart schijfruimte) |
+| Itemmetadata | `data/entry_metadata/<bucket>/<modId>.json` | JSON-formaat, registreert status zoals `sourceHash`, `isActive`, enz. |
 
-**Toelichting op de vertaalregelindeling**:
+**Uitleg vertaalrijformaat**:
 ```
 ContextMenu_PickUp::en = "Pick Up",
-ContextMenu_PickUp::zh-hans::unverified = "Raap op",
+ContextMenu_PickUp::zh-hans::unverified = "拾起",
 ```
 
-- De eerste regel is de **brontaalregel** (`::en`), die de Engelse brontekst bevat.
-- De tweede regel is de **doeltaalregel** (`::zh-hans::unverified`), die de vertaling bevat. `unverified` geeft aan dat dit een automatische LLM-vertaling is die nog niet handmatig is geverifieerd. Als later handmatige verificatie plaatsvindt, kan de status worden bijgewerkt naar `verified`.
+- De eerste regel is de **basis taalregel** (`::en`), die de Engelse brontekst vastlegt.
+- De tweede regel is de **doeltaalregel** (`::zh-hans::unverified`), die het vertaalresultaat vastlegt. `unverified` geeft aan dat dit een automatische vertaling van de LLM is, nog niet door een mens gecontroleerd. Indien later door een mens bevestigd, kan de status worden bijgewerkt naar `verified`.
 
-**Ontwerpdoel — interne cache-indeling**: De keuze voor `key::lang::status = "value"` in plaats van JSON als interne cache-indeling is gebaseerd op de hogere informatiedichtheid; bij handmatige inspectie van de vertalingen kunnen meer contextgegevens op het scherm worden weergegeven.
+**Ontwerpintentie — intern cache-formaat**: De keuze voor `key::lang::status = "value"` in plaats van JSON als intern cache-formaat is omdat dit formaat een hogere informatiedichtheid heeft en meer contextuele informatie op het scherm kan tonen bij het handmatig bekijken van vertaalinhoud.
 
 ### 3.13 FinalOutputWriter (`FinalOutputWriterService`)
 
-**Functie**: Zet de door de pijplijn verzamelde vertaalcache om in PZ-modbestanden die spelers direct kunnen gebruiken.
+**Functie**: Converteert de door de pijplijn verzamelde vertaalcache naar PZ-mod-bestandsindelingen die direct door spelers kunnen worden gebruikt.
 
-`ResultWriter` slaat vertalingen op in een interne indeling (geschikt voor incrementele verwerking en statustracking), maar deze indeling kan niet rechtstreeks door Project Zomboid worden geladen. `FinalOutputWriter` zet de interne indeling om in einddistributiebestanden die voldoen aan de PZ-mod-specificaties.
+`ResultWriter` slaat vertalingen op in een interne pijplijnindeling (voor incrementele verwerking en statusregistratie), maar deze indeling kan niet rechtstreeks door Project Zomboid worden geladen. `FinalOutputWriter` is verantwoordelijk voor het omzetten van de interne indeling naar de definitieve distributiebestanden die voldoen aan de PZ-mod-specificaties.
 
-**Uitvoerdirectorystructuur**:
-
+**Uitvoermapstructuur**:
 ```
 final_outputs/project_babel/contents/mods/project_babel/
 ├── 42/media/lua/shared/Translate/<gameCode>/*.json
 └── 42.19/media/lua/shared/Translate/<gameCode>/*.json
 ```
 
-- `42` en `42.19` komen overeen met de twee belangrijkste gameversies van PZ (Build 42 en Build 42.19). Verschillende versies laden vertaalbestanden uit verschillende mappen.
-- De inhoud van beide mappen is identiek – de pijplijn schrijft eerst naar de 42.19-versie en kopieert deze vervolgens naar de 42-map.
+- `42` en `42.19` komen overeen met respectievelijk de twee belangrijkste spelversies van PZ (Build 42 en Build 42.19). Verschillende versies laden vertaalbestanden uit verschillende mappen.
+- De inhoud van beide mappen is identiek — de pijplijn schrijft eerst de 42.19-versie en kopieert deze vervolgens naar de 42-map.
 
 **Kernverwerkingslogica**:
+1. **Originele tekst uitsluiten**: Laad alle JSON-bestanden in de map `base_game_keys/` en bouw een set van vertaalsleutels (translationKey) die de originele game al bevat. De tekst die bij deze sleutels hoort, heeft al een officiële vertaling in de originele game, dus de pijplijn hoeft deze niet opnieuw te vertalen. Geen enkel overeenkomend item wordt naar de uiteindelijke uitvoer geschreven.
 
-1. **Originele gameteksten uitsluiten**: Laadt alle JSON-bestanden in `base_game_keys/` en bouwt een verzameling van vertaalsleutels die al in de originele game aanwezig zijn. Voor deze sleutels is al een officiële vertaling beschikbaar; de pijplijn hoeft ze niet opnieuw te vertalen. Gevonden items worden niet in de einduitvoer opgenomen.
+2. **Referentiemod-items uitsluiten**: Items van referentievertaalmods zijn handmatig vertaald, de pijplijn zal deze items niet naar de definitieve distributiebestanden schrijven (om auteursrechtelijke geschillen te voorkomen).
 
-2. **Referentiemod-items uitsluiten**: Items van referentievertaalmods zijn handmatig vertaald; deze worden niet in de einddistributie opgenomen (om auteursrechtelijke problemen te voorkomen).
+3. **Routeren op voorvoegsel naar bestanden**: Het voorvoegsel van de vertaalsleutel (translationKey) bepaalt naar welk uitvoerbestand het moet worden geschreven. Bijvoorbeeld:
+- Sleutels beginnend met `IG_UI_` → schrijven naar `IG_UI.json`
+- Sleutels beginnend met `ContextMenu_` → schrijven naar `ContextMenu.json`
+- Sleutels beginnend met `Tooltip_` → schrijven naar `Tooltip.json`
+   
+Deze mapping wordt geleverd door de `translation_key_to_file_mapping` die in de `ContentExtractor`-fase is vastgelegd.
 
-3. **Routering per prefix naar bestand**: Het voorvoegsel van de vertaalsleutel bepaalt in welk uitvoerbestand het wordt geschreven. Bijvoorbeeld:
-   - Sleutels beginnend met `IG_UI_` → naar `IG_UI.json`
-   - Sleutels beginnend met `ContextMenu_` → naar `ContextMenu.json`
-   - Sleutels beginnend met `Tooltip_` → naar `Tooltip.json`
-
-   Deze toewijzing wordt geleverd door de `translation_key_to_file_mapping` die in de `ContentExtractor`-fase is vastgelegd.
-
-4. **Atomair schrijven**: Alle uitvoerbestanden worden geschreven met een "eerst tijdelijk bestand, dan atomair verplaatsen"-strategie – eerst naar `<filename>.tmp` schrijven, daarna na succesvol schrijven met `File.Move` het doelbestand overschrijven. Zo wordt voorkomen dat bij een crash of stroomuitval tijdens het schrijven bestanden beschadigd raken.
+4. **Atomair schrijven**: Alle uitvoerbestanden gebruiken de strategie "eerst tijdelijk bestand schrijven, dan atomair verplaatsen" — eerst schrijven naar `<filename>.tmp`, na succes overschrijven met `File.Move` het doelbestand. Deze methode zorgt ervoor dat bestaande bestanden niet beschadigd raken, zelfs niet bij een crash of stroomuitval tijdens het schrijven.
 
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
-**Functie**: Berekent de vertaaldekking per taal en genereert meertalige voortgangsrapporten, zodat de community op de hoogte blijft van de voortgang.
+**Functie**: Statistieken van de vertalingsdekking per taal en genereert meertalige voortgangsrapporten, zodat de gemeenschap de voortgang van de vertaling kan volgen.
 
-De voortgangsrapporten worden in Markdown-formaat opgeslagen in `docs/progress/`. Voor elke taal wordt een apart rapportbestand gegenereerd (bijv. `progress_zh-hans.md`, `progress_ja.md`).
+Voortgangsrapporten worden uitgevoerd in Markdown-indeling en opgeslagen in de map `docs/progress/`. Voor elke taal wordt een apart rapportbestand gegenereerd (bijv. `progress_zh-hans.md`, `progress_ja.md`).
 
-**Genereerproces**:
-
-1. **Sjabloon laden**: Leest `src/prompt_templates/progress/progress_template_<lang>.md`. Elke taal kan een eigen sjabloon gebruiken, met placeholders in de stijl `{{PLACEHOLDER}}`.
-2. **Statistieken berekenen**: Doorloopt alle vertaalitems in de cache en berekent voor elke doeltaal de volgende indicatoren:
-   - `total`: totaal aantal te vertalen items voor die taal.
-   - `translated`: aantal reeds vertaalde items.
-   - `pending`: aantal nog niet vertaalde items.
-   - `untranslatable`: aantal items dat door inhoudscontrole als onvertaalbaar is gemarkeerd.
-3. **Placeholders vervangen**: Vervangt de placeholders in het sjabloon door de werkelijke statistieken.
-4. **Bestand wegschrijven**: Schrijft de vervangen inhoud naar `docs/progress/progress_<iso>.md`.
+**Generatieproces**:
+1. **Template laden**: Lees `src/prompt_templates/progress/progress_template_<lang>.md`. Elke taal kan een eigen sjabloon gebruiken, met placeholder-variabelen in de stijl `{{PLACEHOLDER}}`.
+2. **Statistieken berekenen**: Doorloop de cache van alle vertaalitems en verzamel de volgende indicatoren voor elke doeltaal:
+- `total`: het totale aantal te vertalen items voor deze taal.
+- `translated`: het aantal reeds vertaalde items.
+- `pending`: het aantal nog niet vertaalde items.
+- `untranslatable`: het aantal items dat door inhoudscontrole als onvertaalbaar is gemarkeerd.
+3. **Vervang placeholders**: Vervang de `{{PLACEHOLDER}}` in de sjabloon met de werkelijke statistische gegevens.
+4. **Schrijf naar bestand**: Schrijf de vervangen inhoud naar `docs/progress/progress_<iso>.md`.
 
 ---
 
-## 4. Gegevensconventies
+## 4. Gegevensafspraken
 
-In deze sectie worden de kerngegevensstructuren, bestandsindelingen en indexsleutelconventies van de pijplijn beschreven. Deze definities vormen de basis voor het begrijpen van de gegevensuitwisseling tussen modules.
+Deze sectie beschrijft in detail de kerngegevensstructuren, bestandsindelingen en indexsleutelafspraken die in de pijplijn worden gebruikt. Deze definities vormen de basis om te begrijpen hoe modules gegevens tussen elkaar doorgeven.
 
 ### 4.1 Kerntypen
 
 #### `TranslationEntry` — Vertaalitem
 
-`TranslationEntry` is de meest centrale gegevensstructuur in de pijplijn; het vertegenwoordigt **één te vertalen tekst**. Elk `TranslationEntry` komt overeen met een vertaalsleutel in een mod en bevat de brontekst, vertaling, inbedding, enz.
+`TranslationEntry` is de meest centrale gegevensstructuur in de pijplijn en vertegenwoordigt **één tekst die moet worden vertaald**. Elke TranslationEntry komt overeen met een vertaalsleutel (translationKey) in een mod en bevat de volledige informatie, zoals brontekst, vertaling, inbeddingsvector, enz.
 
 ```csharp
 class TranslationEntry {
-    string modId;                                          // Steam Workshop Mod ID
-    string masterKey;                                      // PZ Lua-hoofdsleutel (bijv. "IG_UI")
-    string translationKey;                                 // Volledige vertaalsleutel
-    Dictionary<string, TranslationData> translationValues; // ISO → vertaalgegevens
-    string baseLang;                                       // Brontaal (standaard "en")
-    string embeddingHash;                                  // Hash van de huidige inbeddingstekst
-    float[] embeddingVector;                               // [oud] enkele vector (verouderd, vervangen door embeddingValues)
-    Dictionary<string, TranslationEmbedding> embeddingValues; // embeddingKey → vector+hash (vervangt embeddingVector)
-    bool isActive;                                         // Komt nog voor in bronbestanden?
-    DateTime lastSeenAt;
-    DateTime lastSeenModUpdated;
-    string sourceHash;                                     // SHA256 van de basistekst
-    List<ContainingFileInfo> containingFileInfos;          // Informatie over alle bronbestanden
+string modId;                                          // Steam Workshop Mod ID
+string masterKey;                                      // PZ Lua-hoofdsleutel (bijv. "IG_UI")
+string translationKey;                                 // Volledige vertaalsleutel
+Dictionary<string, TranslationData> translationValues; // ISO → vertaalgegevens
+string baseLang;                                       // Basistaal (standaard "en")
+string embeddingHash;                                  // Hash van huidige ingebedde tekst
+float[] embeddingVector;                               // [Verouderd] Enkele vector (afgeschaft, vervangen door embeddingValues voor meertalige inbedding)
+Dictionary<string, TranslationEmbedding> embeddingValues; // embeddingKey → vector+hash (vervangt embeddingVector)
+bool isActive;                                         // Bestaat nog in bronbestanden?
+DateTime lastSeenAt;
+DateTime lastSeenModUpdated;
+string sourceHash;                                     // SHA256 van brontekst
+List<ContainingFileInfo> containingFileInfos;          // Informatie over alle bronbestanden
 }
 ```
 
-**Globale unieke identificatie**: Elk `TranslationEntry` wordt uniek geïdentificeerd door `modId::translationKey`. Bijvoorbeeld `1234567890::IG_UI_NewGame` verwijst naar de tekst `IG_UI_NewGame` in mod `1234567890`.
+**Globale unieke identificatie**: Elke `TranslationEntry` wordt uniek geïdentificeerd door `modId::translationKey`. Bijvoorbeeld `1234567890::IG_UI_NewGame` staat voor de tekst `IG_UI_NewGame` in mod `1234567890`.
 
 **Belangrijke methoden**:
-
-- `GetBaseTextStrict()`: Gebruikt strikt `baseLang` (meestal `en`) om de basistekst op te halen. Dit is de invoer voor de vertaling.
-- `GetSourceText()`: Haalt tekst op met een fallback-keten. De volgorde van prioriteit: gevraagde taal → basistaal → een willekeurige geverifieerde vertaling → een willekeurige vertaling met tekst. Deze methode biedt tolerantie wanneer de basistekst ontbreekt.
+- `GetBaseTextStrict()`: Gebruikt strikt `baseLang` (meestal `en`) om de basisbrontekst te verkrijgen. Dit is de invoerbron voor vertaling.
+- `GetSourceText()`: Tekstophaalmethode met fallback-keten. Probeert achtereenvolgens: gevraagde taal → basistaal → elke geverifieerde vertaling → elke vertaling met tekst. Deze methode biedt fouttolerantie wanneer de basisbrontekst ontbreekt.
 
 #### `TranslationData` — Vertaalgegevens
 
-`TranslationData` slaat de vertaling en bijbehorende metadata op.
+`TranslationData` slaat de vertaling en metadata van één enkele vertaling op.
 
 ```csharp
 class TranslationData {
-    string text;           // Vertaling
-    bool isVerified;       // Of de vertaling is geverifieerd (referentievertalingen zijn true)
-    float? confidence;     // Betrouwbaarheid van LLM-vertaling (0.0~1.0)
-    string status;         // Verificatiestatus: "verified" of "unverified"
-    string processStatus;  // Verwerkingsstatus: "processed" of "unprocessed"
-    List<string> comments; // Opmerkingen
+    string text;           // 译文
+    bool isVerified;       // 是否已验证 (参考翻译为 true)
+    float? confidence;     // LLM 翻译置信度 (0.0~1.0)
+    string status;         // 验证状态: "verified" 或 "unverified"
+    string processStatus;  // 处理状态: "processed" 或 "unprocessed"
+    List<string> comments; // 注释列表
 }
 ```
 
-- `isVerified = true`: vertaling afkomstig van handmatig vertaalde referentiemods, kwaliteit betrouwbaar.
-- `isVerified = false`: vertaling afkomstig van LLM, gemarkeerd als `unverified`, nog niet handmatig gecontroleerd.
-- `confidence`: betrouwbaarheidsscore van de LLM bij het genereren; `null` voor niet-LLM-vertalingen.
-- `processStatus`: of het item al door de LLM-pijplijn is verwerkt (`processed` of `unprocessed`).
+- `isVerified = true`：表示该译文来自人工翻译的参考模组，质量可靠。
+- `isVerified = false`：表示该译文来自 LLM 翻译，标记为 `unverified`，尚未经人工校验。
+- `confidence`：LLM 生成该译文时返回的置信度分数，`null` 表示非 LLM 翻译。
+- `processStatus`：是否已被 LLM 管线处理（`processed` 或 `unprocessed`）。
 
-#### `ModInfo` — Mod-metadata
+#### `ModInfo` — Mod 元数据
 
-`ModInfo` bevat volledige metadata van een Steam Workshop-mod en houdt de status en updates bij.
+`ModInfo` 存储一个 Steam Workshop 模组的完整元信息，跟踪其状态和更新情况。
 
 ```csharp
 struct ModInfo {
@@ -710,310 +701,301 @@ struct ModInfo {
     string creator;
     string? language;
     string localDownloadedPath;
-    DateTime timeModUpdated;       // Laatste updatedatum volgens Steam
-    DateTime timeModCreated;       // Eerste publicatiedatum volgens Steam
-    DateTime timeLastChecked;      // Laatste controle door de pijplijn
-    int subscription;              // Aantal abonnees (van Steam)
-    int favorite;                  // Aantal favorieten (van Steam)
-    string description;            // Modbeschrijving van Steam
-    int consumerAppId;             // Steam consumer App ID (108600 = PZ)
-    ContentCheckStatus contentCheckStatus; // Status van inhoudscontrole
-    bool needsUpdate;              // Moet opnieuw worden geëxtraheerd en vertaald?
-    bool needsContentCheck;        // Moet de inhoud opnieuw worden gecontroleerd?
-    bool isAvailable;              // Is de mod toegankelijk? (false = niet-PZ of verwijderd)
-    DateTime timeNextContentCheck; // Geplande volgende inhoudscontrole
-    string lastFetchStatus;        // Status van laatste Steam-query
-    double contentCheckConfidence; // Betrouwbaarheid van de inhoudscontrole (0.0~1.0)
-    bool contentCheckNeedHumanReview; // Is handmatige controle nodig?
-    string contentCheckRiskLevel;  // Risiconiveau (safe/low/medium/high)
-    string contentCheckReason;     // Reden voor het oordeel
-    string contentCheckViolatedRulesJson; // Lijst van overtreden regels (JSON)
+    DateTime timeModUpdated;       // Steam 记录的最后更新时间
+    DateTime timeModCreated;       // Steam 记录的首次发布时间
+    DateTime timeLastChecked;      // 管线最后一次检查该 mod 的时间
+    int subscription;              // 订阅数（来自 Steam）
+    int favorite;                  // 收藏数（来自 Steam）
+    string description;            // Steam 模组描述文本
+    int consumerAppId;             // Steam 消费者 App ID (108600 = PZ)
+ContentCheckStatus contentCheckStatus; // Inhoudscontrole status
+bool needsUpdate;              // Of opnieuw moet worden geëxtraheerd en vertaald
+bool needsContentCheck;        // Of opnieuw moet worden gecontroleerd op inhoud
+bool isAvailable;              // Of de mod toegankelijk is (false = geen PZ mod of verwijderd)
+DateTime timeNextContentCheck; // Geplande tijd voor volgende inhoudscontrole
+string lastFetchStatus;        // Status van laatste Steam-query
+double contentCheckConfidence; // Vertrouwensniveau inhoudscontrole (0.0~1.0)
+bool contentCheckNeedHumanReview; // Of handmatige beoordeling nodig is
+string contentCheckRiskLevel;  // Risiconiveau (safe/low/medium/high)
+string contentCheckReason;     // Reden voor controleconclusie
+string contentCheckViolatedRulesJson; // Lijst met overtreden regels (JSON)
 }
 ```
 
 **Belangrijke statusvelden**:
-
-- `needsUpdate`: wordt `true` wanneer de door Steam geregistreerde `time_updated` later is dan de gecachete `timeModUpdated`, wat betekent dat de modmaker inhoud heeft gewijzigd.
-- `isAvailable`: als Steam API `consumer_app_id` niet `108600` is (Project Zomboid) of de mod is verwijderd, wordt deze `false`; latere modules slaan deze mod over.
-- `contentCheckStatus`: status van de inhoudsveiligheidscontrole (zie 4.4 voor de toestandsautomaat).
+- `needsUpdate`: Wordt ingesteld op `true` wanneer de door Steam geregistreerde `time_updated` later is dan de gecachte `timeModUpdated`, wat aangeeft dat de mod-auteur inhoud heeft bijgewerkt.
+- `isAvailable`: Wordt ingesteld op `false` als de door Steam API geretourneerde `consumer_app_id` niet `108600` is (Project Zomboid), of als de mod is verwijderd. Volgende modules slaan deze mod over.
+- `contentCheckStatus`: De status van de inhoudsveiligheidscontrole, zie de toestandsmachine in sectie 4.4.
 
 #### `TranslationBatch` — Vertaalbatch
 
-`TranslationBatch` is de basiseenheid voor LLM-vertaling en bevat een groep te vertalen items van dezelfde mod en dezelfde doeltaal.
+`TranslationBatch` is de basiseenheid voor LLM-vertaling, die een batch van te vertalen items uit dezelfde mod en dezelfde doeltaal bevat.
 
 ```csharp
 class TranslationBatch {
     int batchId;
-    int priority;                    // Prioriteit (gewogen som van subscription + favorite)
+int priority;                    // Prioriteit (gewogen op abonnementen en favorieten)
     string modId;
     List<TranslationEntry> translationEntries;
-    string baseLang;                 // "en"
-    string targetLang;               // ISO-code van de doeltaal, bijv. "zh-hans"
+string baseLang;                 // "en"
+string targetLang;               // ISO-code van doeltaal, bijv. "zh-hans"
 }
 ```
 
-- `priority`: gewogen som van abonnees en favorieten; populaire mods krijgen voorrang.
-- Alle items in een batch komen uit dezelfde mod om contextverwarring tussen mods te voorkomen.
+- `priority`: Wordt gewogen berekend op basis van abonnementen en favorieten van de mod; batches van populaire mods worden eerst vertaald.
+Alle items in een batch komen van dezelfde mod, om contextverwarring tussen mods te voorkomen.
 
 #### `LangInfoData` — Taalinformatie
 
-`LangInfoData` definieert een ondersteunde taal, inclusief de mapping tussen in-game code en ISO-code.
+`LangInfoData` definieert een ondersteunde taal, met een mapping tussen de in-game code en de ISO-standaardcode.
 
 ```csharp
 class LangInfoData {
-    string ingameCode;    // In-game code (CN, EN, JP...)
-    string chineseName;   // Chinese naam
-    string englishName;   // Engelse naam
-    string nativeName;    // Inheemse naam (日本語, 한국어...)
-    string isoCode;       // ISO-taalcode (zh-hans, en, ja...)
+string ingameCode;    // Spelcode (CN, EN, JP...)
+string chineseName;   // Chinese naam
+string englishName;   // Engelse naam
+string nativeName;    // Inheemse naam (日本語, 한국어...)
+string isoCode;       // ISO-taalsoortcode (zh-hans, en, ja...)
 }
 ```
 
-### 4.2 Bestandsindelingen
+### 4.2 Bestandsformaten
 
-De pijplijn gebruikt verschillende bestandsindelingen in verschillende verwerkingsfasen. Hieronder worden ze in de volgorde van de gegevensstroom beschreven.
+De pijplijn gebruikt verschillende bestandsformaten in verschillende verwerkingsfasen. Hieronder worden deze een voor een toegelicht volgens de volgorde waarin de gegevens door de pijplijn stromen.
 
-#### Extractie-uitvoer (uitvoer van ContentExtractor)
+#### Extractie-uitvoer (geproduceerd door ContentExtractor)
 
-Na extractie schrijft `ContentExtractor` de tekst uit in `extracted_contents/<iso>/<modId>.txt` in de volgende indeling:
-
+`ContentExtractor` extraheert de tekst uit mod-bestanden en voert deze uit in het volgende formaat naar `extracted_contents/<iso>/<modId>.txt`:
 ```
-<translationKey>::en = "originele tekst",
-<translationKey>::<iso>::unverified = "vertaalde tekst",
+<translationKey>::en = "original text",
+<translationKey>::<iso>::unverified = "translated text",
 ```
 
-De eerste regel is de brontaalregel (Engelse brontekst), de tweede regel is de doeltaalregel. Als een mod voor een bepaalde tekst geen Engelse brontekst heeft (uitzonderlijk), wordt de bronregel weggelaten maar de doeltaalregel wel geschreven.
+De eerste regel is de basislijn (Engels origineel), de tweede regel is de doeltaallijn. Als een tekst in de mod het Engelse origineel mist (extreem geval), wordt de basislijn weggelaten maar wordt de doeltaallijn nog steeds geschreven.
 
-#### Sleuteltoewijzingsbestand
+#### Sleutel-toewijzingsbestand
 
 `extracted_contents/translation_key_to_file_mapping/<modId>.json`:
-
 ```json
 {
-  "IG_UI_SomeKey": "IG_UI.json",
-  "ContextMenu_PickUp": "ContextMenu.json"
+"IG_UI_SomeKey": "IG_UI.json",
+"ContextMenu_PickUp": "ContextMenu.json"
 }
 ```
 
-Deze toewijzing legt vast uit welk bronbestand elke `translationKey` afkomstig is. In de uiteindelijke uitvoerfase gebruikt `FinalOutputWriter` deze toewijzing om de vertaalsleutels naar de juiste JSON-uitvoerbestanden te routeren.
+Deze mapping registreert uit welk bronbestand elke `translationKey` afkomstig is. In de uiteindelijke outputfase routeert `FinalOutputWriter` op basis van deze mapping de vertaalsleutels naar de juiste JSON-outputbestanden.
 
 #### Vertaalcache (data/translations/)
 
-De persistente vertaalcache, opgeslagen in `data/translations/<iso>/<modId>.txt`, heeft dezelfde indeling als de extractie-uitvoer:
-
+De persistente vertaalcache, opgeslagen in `data/translations/<iso>/<modId>.txt`, heeft hetzelfde formaat als de extractie-uitvoer:
 ```
-<translationKey>::en = "brontekst",
-<translationKey>::<iso>::unverified = "vertaling",
+<translationKey>::en = "source text",
+<translationKey>::<iso>::unverified = "translation",
 ```
 
-De cache is de kern van het "geheugen" van de pijplijn – bij elke uitvoering haalt `RepoDataLoader` hier de bestaande vertaalresultaten op.
+De cache is de kern van het 'geheugen' van de pijplijn – elke keer dat de pijplijn draait, herstelt `RepoDataLoader` de bestaande vertaalresultaten van hier.
 
-#### Einduitvoer (final_outputs/)
+#### Uiteindelijke output (final_outputs/)
 
-Kant-en-klare vertaalbestanden voor spelers, in JSON-indeling:
-
+Direct door spelers bruikbare vertaalbestanden, uitgevoerd in JSON-formaat:
 ```json
 {
-  "IG_UI_SomeKey": "vertaaltekst",
-  "ContextMenu_SomeKey": "vertaaltekst"
+  "IG_UI_SomeKey": "翻译文本",
+  "ContextMenu_SomeKey": "翻译文本"
 }
 ```
 
-Gecodeerd in UTF-8 zonder BOM, met 2 spaties inspringing, volgens de PZ-vertaalbestandspecificaties.
+Gecodeerd in UTF-8 zonder BOM, met 2 spaties inspringing, volgens de specificaties voor vertaalbestanden van Project Zomboid.
 
-#### Inbeddingen (data/embeddings/*.bin)
+#### Embeddingvectors (data/embeddings/*.bin)
 
-Binair formaat, gecomprimeerd met Zstd, geserialiseerd door `BinaryEmbeddingSerializer`. De bestandsstructuur:
-
+Een binair formaat gecomprimeerd met Zstd, geserialiseerd door `BinaryEmbeddingSerializer`. De bestandsstructuur is als volgt:
 - **Header**: aantal items (int32)
-- **Per record**: sleutellengte (varint) + sleutelstring (UTF-8) + SHA256-hash (32 bytes) + vectorgegevens (384 × float32)
+- **Elke record**: key-lengte (varint) + key-string (UTF-8) + SHA256-hash (32 bytes) + vectordata (384 × float32)
 
-Zstd-compressie biedt bij 384-dimensionale vectoren een compressieverhouding van ongeveer 4:1, wat het schijfgebruik aanzienlijk vermindert.
+Zstd-compressie kan in het geval van 384-dimensionale vectoren een compressieverhouding van ongeveer 4:1 bieden, wat de schijfruimte aanzienlijk vermindert.
 
 ### 4.3 Indexsleutelconventies
 
 | Scenario | Formaat | Voorbeeld |
-|----------|---------|-----------|
-| Globale unieke sleutel van TranslationEntry | `modId::translationKey` | `1234567890::IG_UI_NewGame` |
+|------|------|------|
+| Globaal unieke sleutel van TranslationEntry | `modId::translationKey` | `1234567890::IG_UI_NewGame` |
 | EmbeddingKey | `base:targetLang` | `en:zh-hans` |
-| RAG-contextsleutel | `modId::translationKey` | Zelfde als TranslationEntry |
+| RAG-contextsleutel | `modId::translationKey` | hetzelfde als TranslationEntry |
 
-### 4.4 Toestandsautomaten
+### 4.4 Toestandsmachine
 
-De pijplijn kent drie belangrijke toestandsautomaten voor inhoudscontrole, vertaalkwaliteit en mod-updates.
+Er zijn drie belangrijke toestandsovergangslogica's in de pijplijn, die respectievelijk de inhoudscontrole, vertaalkwaliteit en mod-updates regelen.
 
-#### ContentCheck-status (inhoudscontrole)
+#### ContentCheck-inhoudscontrolestatus
 
-De volledige statusovergangen van de inhoudscontrole:
-
+De volledige toestandsovergang van inhoudscontrole is als volgt:
 ```
-UNKNOWN ──(nieuwe mod, eerste controle)──→ NEEDVERIFICATION
-                                  ├──(LLM-beoordeling: veilig)──→ ACCEPTED
-                                  ├──(LLM-beoordeling: overtreding)──→ REJECTED
-                                  └──(LLM-beoordeling: onzeker, betrouwbaarheid <0.7)──→ NEEDVERIFICATION (wacht op handmatige controle)
+UNKNOWN ──(nieuwe mod eerste controle)──→ NEEDVERIFICATION
+├──(LLM-beoordeling: veilig)──→ ACCEPTED
+├──(LLM-beoordeling: overtreding)──→ REJECTED
+└──(LLM-beoordeling: onzeker, vertrouwen<0.7)──→ NEEDVERIFICATION (wacht op handmatige controle)
 
-ACCEPTED ──(na 90 dagen cache)──→ NEEDVERIFICATION (periodieke hercontrole)
+ACCEPTED ──(meer dan 90 dagen cacheperiode)──→ NEEDVERIFICATION (periodieke herbeoordeling)
 ```
 
-- **UNKNOWN**: Nieuw ontdekte mod, nog niet gecontroleerd.
-- **NEEDVERIFICATION**: Moet worden gecontroleerd (of opnieuw). De pijplijn roept de LLM aan voor een veiligheidsscan.
-- **ACCEPTED**: Goedgekeurd; de mod is veilig en kan worden vertaald.
-- **REJECTED**: Afgekeurd; de mod bevat ongeoorloofde inhoud en wordt overgeslagen.
+- **UNKNOWN**: Nieuw ontdekte mod, nog geen inhoudscontrole ondergaan.
+- **NEEDVERIFICATION**: Moet worden beoordeeld (of opnieuw beoordeeld). De pijplijn roept LLM aan om een veiligheidsscan van de inhoud van de mod uit te voeren.
+- **ACCEPTED**: Goedgekeurd, de inhoud van de mod is veilig, kan normaal worden vertaald.
+- **REJECTED**: Afgekeurd, de mod bevat overtredende inhoud, vertaling wordt overgeslagen.
 
-#### TranslationData-verificatiestatus
+#### TranslationData vertaalvalidatiestatus
 
-De betrouwbaarheid van elke vertaling wordt aangegeven met `isVerified`:
+De betrouwbaarheid van elke vertaalgegevens wordt onderscheiden door de `isVerified` markering:
 
 | Status | `isVerified` | Betekenis |
-|--------|--------------|-----------|
-| Geverifieerd (handmatig) | `true` | Afkomstig van referentiemods, handmatig vertaald en bevestigd |
-| Ongeverifieerd (AI) | `false` | Door LLM automatisch vertaald, gemarkeerd als `unverified`, nog niet handmatig gecontroleerd |
-| Te vertalen | geen tekst | Nog niet vertaald, `translationValues` heeft geen bijbehorende vertaling |
+|------|-------------|------|
+| Geverifieerd (handmatige vertaling) | `true` | Afkomstig van referentievertaalmods, handmatig vertaald en bevestigd |
+| Niet geverifieerd (AI-vertaling) | `false` | Automatisch vertaald door LLM, gemarkeerd als `unverified`, niet handmatig geverifieerd |
+| Te vertalen | Geen tekst | Nog niet vertaald, geen overeenkomstige vertaling in `translationValues` |
 
-#### ModInfo.needsUpdate — updatebeoordeling
+#### ModInfo.needsUpdate updatebepaling
 
-Of een mod opnieuw moet worden geëxtraheerd en vertaald, wordt bepaald door:
-
-- Als Steam `time_updated` later is dan de gecachete `timeModUpdated` → `needsUpdate = true` (modmaker heeft update uitgebracht).
-- Als er geen vertaalitems in de cache staan voor een toegankelijke mod → `needsUpdate = true` (eerste verwerking).
-- Als een mod na extractie 0 vertaalitems bevat → inhoudscontrole wordt direct `ACCEPTED` (geen vertaalbare tekst, dus niet nodig).
+Of een mod opnieuw moet worden geëxtraheerd en vertaald, wordt bepaald door de volgende regels:
+- Steam's `time_updated` is later dan de gecachte `timeModUpdated` → `needsUpdate = true` (de mod-auteur heeft een update uitgebracht).
+- Er zijn geen vertaalitems in de cache voor een toegankelijke mod → `needsUpdate = true` (eerste verwerking van de mod).
+- Mod bevat 0 vertaalitems na extractie → inhoudscontrolestatus direct ingesteld op `ACCEPTED` (de mod heeft geen te vertalen tekstinhoud, geen vertaling nodig).
 
 ---
 
-## 5. Configuratie-uitleg
+## 5. Configuratie-instructies
 
-De map `config/` bevat in totaal 5 configuratiebestanden, verdeeld naar verantwoordelijkheid: pijplijnbesturing, sleutelbeheer, taaldeﬁnities, referentiecorpus en vertaalverzoeken.
+Er zijn 5 configuratiebestanden in de `config/` map, verdeeld naar verantwoordelijkheid: pijplijnbesturing, sleutelbeheer, taaldeefinities, referentiecorpora en vertaalverzoeken.
 
 ### 5.1 `config/config.json` — Hoofdconfiguratie van de pijplijn
 
-Dit is het kernconfiguratiebestand van de hele vertaalpijplijn. Alle velden zijn verplicht, tenzij anders aangegeven.
+Het centrale controlebstand van de gehele vertaalpijplijn. Alle velden zijn verplicht, tenzij gemarkeerd als 'optioneel'.
 
-#### 5.1.1 `LLM` — Configuratie groot taalmodel
+#### 5.1.1 `LLM` — Groot taalmodel configuratie
 
-| Veld | Type | Standaard | Toelichting |
-|------|------|-----------|-------------|
-| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API-adres, compatibel met OpenAI Chat Completions-protocol |
-| `model` | string | `deepseek-v4-flash` | Modelnaam. Als de naam `v4-flash` of `v4-pro` bevat, wordt het bijbehorende automatische gelijktijdigheidsprofiel gebruikt |
-| `temperature` | float | `0.1` | Samplingtemperatuur (0~2). Hoe lager, hoe deterministischer; voor vertaling aanbevolen ≤0.3 |
-| `max_tokens` | int | `380000` | Maximaal aantal tokens in één API-antwoord. Moet groter zijn dan de totale batchuitvoer |
-| `batch_size` | int | `30` | Maximum aantal items per vertaalbatch. Wordt samen met `batch_token_budget` toegepast |
-| `batch_token_budget` | int | `2000` | Tokenbudget aan de invoerkant per batch (ruwe schatting). 0 = geen beperking |
-| `request_timeout_seconds` | int | `300` | Time-out voor één HTTP-verzoek in seconden. Grote batches hebben meer tijd nodig |
+| Veld | Type | Standaardwaarde | Beschrijving |
+|------|------|--------|------|
+| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API-adres, compatibel met OpenAI Chat Completions protocol |
+| `model` | string | `deepseek-v4-flash` | Modelnaam. Waarden die `v4-flash` of `v4-pro` bevatten activeren het bijbehorende automatische concurrency-profiel. |
+| `temperature` | float | `0.1` | Monstertemperatuur (0~2). Hoe lager, hoe zekerder de uitvoer. Voor vertaaltaken wordt ≤0.3 aanbevolen |
+| `max_tokens` | int | `380000` | Maximaal aantal tokens per API-antwoord. Moet groter zijn dan de totale output van de batch |
+| `batch_size` | int | `30` | Maximumaantal items per vertaalbatch. Gezamenlijk begrensd door `batch_token_budget` |
+| `batch_token_budget` | int | `2000` | Tokenbudgetlimiet per batchinvoer (ruwe schatting). 0 betekent onbeperkt |
+| `request_timeout_seconds` | int | `300` | Time-out seconden voor een enkele HTTP-aanvraag. Grote batches vereisen een passende verhoging |
 
-**`concurrency` — Gelijktijdigheidsregeling** (subobject):
+**`concurrency` — Gelijktijdigheidscontrole** (subobject):
 
-| Veld | Type | Standaard | Toelichting |
-|------|------|-----------|-------------|
-| `initial` | int | `0` | Initieel aantal gelijktijdige verzoeken. `0` = automatisch detecteren op basis van omgeving en model |
-| `maximum` | int | `0` | Maximum aantal gelijktijdige verzoeken. `0` = automatisch. In dynamische modus wordt bij voldoende succespogingen tot dit maximum opgevoerd |
-| `minimum` | int | `1` | Minimum aantal gelijktijdige verzoeken. Bij schaalverkleining wordt niet onder deze waarde gezakt |
-| `max_retries` | int | `5` | Maximum aantal herpogingen voor één work item |
-| `failure_streak_to_decrease` | int | `3` | Aantal opeenvolgende mislukkingen voordat de gelijktijdigheid wordt gehalveerd |
-| `retry_base_delay_ms` | int | `1000` | Basisvertraging voor herpoging (ms). Werkelijke vertraging = basis × 2^poging (exponentiële back-off) |
-| `retry_max_delay_ms` | int | `60000` | Maximale vertraging voor herpoging (ms) |
-| `fixed_concurrency` | int | `128` | **Bij >0 wordt vast vensterpatroon gebruikt**: gelijktijdigheid binnen venster, vensters strikt sequentieel. Geen dynamische aanpassing. Zet op 0 voor dynamische modus |
+| Veld | Type | Standaardwaarde | Beschrijving |
+|------|------|--------|------|
+| `initial` | int | `0` | Initieel aantal gelijktijdige verbindingen. `0` = automatisch detecteren op basis van runtime-omgeving en model |
+| `maximum` | int | `0` | Maximum gelijktijdigheidslimiet. `0` = automatische detectie. In dynamische modus wordt dit bij voldoende successen geleidelijk verhoogd tot deze waarde |
+| `minimum` | int | `1` | Minimale gelijktijdigheidsondergrens. In dynamische modus zal bij mislukkingen de schaalverkleining niet onder deze waarde komen |
+| `max_retries` | int | `5` | Maximaal aantal herpogingen per werkitem |
+| `failure_streak_to_decrease` | int | `3` | Na N opeenvolgende mislukkingen wordt schaalverkleining geactiveerd (gelijktijdigheid halveren) |
+| `retry_base_delay_ms` | int | `1000` | Basisvertraging voor herpogingen (ms). Werkelijke vertraging = base × 2^attempt (exponentiële backoff) |
+| `retry_max_delay_ms` | int | `60000` | Maximale vertragingslimiet voor herpogingen (ms) |
+| `fixed_concurrency` | int | `128` | **Bij >0 wordt de vaste-venstermodus ingeschakeld**: gelijktijdigheid binnen venster, seriële afhandeling tussen vensters, geen dynamische aanpassing. Ingesteld op 0 gebruikt dynamische modus |
 
-**Toelichting gelijktijdigheidsmodi**:
+**Gelijktijdigheidsmodi uitleg**:
+- **Dynamische modus** (`fixed_concurrency=0`): verhoogt/verlaagt automatisch de gelijktijdigheid op basis van succes/mislukking. Geschikt voor scenario's waarin API-rate-limiting onduidelijk is
+- **Vaste-venstermodus** (`fixed_concurrency>0`): deterministisch gelijktijdig gedrag. Geschikt voor scenario's met bekende API-gelijktijdigheidslimieten. Er worden voltooiingslogs tussen vensters uitgevoerd
 
-- **Dynamische modus** (`fixed_concurrency=0`): Past de gelijktijdigheid automatisch aan op basis van succes/mislukking. Geschikt wanneer het rate-limit-beleid van de API ondoorzichtig is.
-- **Vast vensterpatroon** (`fixed_concurrency>0`): Deterministische gelijktijdigheid. Geschikt wanneer de API-gelijktijdigheidslimiet bekend is. Tussen vensters worden voltooiingslogs geschreven.
+**Automatisch profiel** (wanneer `initial=0` of `maximum=0`): de pijplijn kiest automatisch geschikte gelijktijdigheidsparameters op basis van de runtime-omgeving en modelnaam, zie [sectie 3.11 — Automatische detectie van gelijktijdigheidsprofiel](#311-llmtranslator-llmtranslatorservice) voor de details
 
-**Automatisch profiel** (wanneer `initial=0` of `maximum=0`): De pijplijn kiest automatisch geschikte gelijktijdigheidsparameters op basis van de uitvoeromgeving en modelnaam; zie [3.11 — Automatisch gelijktijdigheidsprofiel](#311-llmtranslator-llmtranslatorservice) voor details.
+#### 5.1.2 `RAG` — Retrieval-Augmented Generation configuratie
 
-#### 5.1.2 `RAG` — Configuratie voor ophaalondersteunde generatie
+| Veld | Type | Standaardwaarde | Beschrijving |
+|------|------|--------|------|
+| `similarity_threshold` | float | `0.8` | Drempel voor cosinusovereenkomst (0~1). Referentievertalingen onder deze drempel worden niet opgenomen in de LLM-context |
+| `top_k` | int | `3` | Maximaal aantal referentievertalingen per te vertalen item |
+| `index_dir` | string | `data/rag_index` | RAG-indexmap (gereserveerd, momenteel wordt in-memory retrieval gebruikt) |
 
-| Veld | Type | Standaard | Toelichting |
-|------|------|-----------|-------------|
-| `similarity_threshold` | float | `0.8` | Cosinusovereenkomstdrempel (0~1). Referenties onder deze drempel worden niet in de LLM-context opgenomen |
-| `top_k` | int | `3` | Maximum aantal referentievertalingen dat per item wordt teruggegeven |
-| `index_dir` | string | `data/rag_index` | RAG-indexmap (gereserveerd; momenteel wordt geheugenzoekopdracht gebruikt) |
+#### 5.1.3 `AsOne` — Externe Mod-lijstbron
 
-#### 5.1.3 `AsOne` — Externe mod-lijstbron
+Haalt openbare Mod-lijst op van de community [AsOne](https://www.asone.fun/).
 
-Haalt de openbare modlijst op van het [AsOne](https://www.asone.fun/)-communityplatform.
-
-| Veld | Type | Standaard | Toelichting |
-|------|------|-----------|-------------|
-| `enabled` | bool | `true` | Of AsOne extern ophalen is ingeschakeld. Bij `false` wordt alleen het lokale verzoekbestand gebruikt |
+| Veld | Type | Standaardwaarde | Beschrijving |
+|------|------|--------|------|
+| `enabled` | bool | `true` | Of AsOne externe verzameling is ingeschakeld. Bij `false` wordt alleen het lokale verzoekbestand gebruikt |
 | `base_url` | string | `https://www.asone.fun/` | Basis-URL van het AsOne-platform |
-| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | API-pad voor het ophalen van alle mod-informatie |
-| `mod_info_file_name` | string | `modInfo.txt` | Bestandsnaam voor mod-info (gereserveerd) |
-| `auth_secret_name` | string | `ASONE_AUTH_TOKEN` | Sleutelnaam van het authenticatietoken in `secrets.json` |
-| `timeout_seconds` | int | `30` | Time-out voor HTTP-verzoeken in seconden |
-| `rate_limit_per_minute` | int | `30` | Maximum aantal verzoeken per minuut (beveiliging tegen overbelasting) |
+| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | API-pad om alle Mod-informatie op te halen |
+| `mod_info_file_name` | string | `modInfo.txt` | Mod informatienaam (gereserveerd) |
+| `auth_secret_name` | string | `ASONE_AUTH_TOKEN` | Sleutelnaam van authenticatietoken in secrets.json |
+| `timeout_seconds` | int | `30` | HTTP-verzoek time-out in seconden |
+| `rate_limit_per_minute` | int | `30` | Maximale verzoeken per minuut (rate limiting) |
 
 #### 5.1.4 `Steam` — Steam Web API-configuratie
 
-| Veld | Type | Standaard | Toelichting |
-|------|------|-----------|-------------|
-| `api_chunk_size` | int | `100` | Aantal Mod-ID's per batchquery. Steam API-limiet ongeveer 100 per keer |
-| `request_timeout_seconds` | int | `10` | Time-out voor één Steam API-verzoek in seconden |
-| `max_retries` | int | `3` | Aantal herpogingen bij mislukte Steam API-verzoeken |
+| Veld | Type | Standaardwaarde | Beschrijving |
+|------|------|--------|------|
+| `api_chunk_size` | int | `100` | Aantal Mod ID's per batch. De Steam API beperkt tot ongeveer 100 stuks/keer |
+| `request_timeout_seconds` | int | `10` | Time-out voor enkele Steam API-aanroep in seconden |
+| `max_retries` | int | `3` | Aantal herhalingen bij mislukt Steam API-verzoek |
 
-#### 5.1.5 `Pipeline` — Algemene pijplijnconfiguratie
+#### 5.1.5 `Pipeline` — Algemene pipelineconfiguratie
 
-| Veld | Type | Standaard | Toelichting |
-|------|------|-----------|-------------|
+| Veld | Type | Standaardwaarde | Beschrijving |
+|------|------|--------|------|
 | `batch_size` | int | `20` | Batchgrootte voor download-/extractiefase. Elke batch komt overeen met één steamcmd-instantie en één extractietaak |
 
-#### 5.1.6 `ContentCheck` — Configuratie voor inhoudsveiligheidscontrole
+#### 5.1.6 `ContentCheck` — Configuratie contentveiligheidscontrole
 
-| Veld | Type | Standaard | Toelichting |
-|------|------|-----------|-------------|
-| `enabled` | bool | `true` | Of inhoudscontrole is ingeschakeld. Bij `false` wordt alle controle overgeslagen en worden alle mods als goedgekeurd beschouwd |
-| `check_interval_days` | int | `90` | Aantal dagen dat controle-resultaten worden gecachet. Na deze termijn wordt opnieuw gecontroleerd. Mods met status `ACCEPTED` gaan dan terug naar `NEEDVERIFICATION` |
+| Veld | Type | Standaardwaarde | Beschrijving |
+|------|------|--------|------|
+| `enabled` | bool | `true` | Of contentcontrole is ingeschakeld. Bij `false` worden alle controles overgeslagen en worden alle mods als goedgekeurd beschouwd |
+| `check_interval_days` | int | `90` | Aantal dagen cache voor controle-resultaten. Na deze periode opnieuw controleren. Mods met status `ACCEPTED` gaan na vervaldatum terug naar `NEEDVERIFICATION` |
 
-#### 5.1.7 `Settings` — Basisinstellingen pijplijn
+#### 5.1.7 `Settings` — Basisinstellingen pipeline
 
-| Veld | Type | Standaard | Toelichting |
-|------|------|-----------|-------------|
-| `priority_language` | string | `zh-hans` | ISO-code van de prioritaire doeltaal |
-| `base_language` | string | `EN` | In-game code van de brontaal, als vertaalbron |
+| Veld | Type | Standaardwaarde | Beschrijving |
+|------|------|--------|------|
+| `priority_language` | string | `zh-hans` | ISO-code van de doeltaal met prioriteit |
+| `base_language` | string | `EN` | In-game code van de brontaal, gebruikt als vertaalbron |
 
-#### 5.1.8 `Embedding` — Configuratie inbeddingservice
+#### 5.1.8 `Embedding` — Configuratie embeddingdienst
 
-| Veld | Type | Standaard | Toelichting |
-|------|------|-----------|-------------|
-| `host` | string | `127.0.0.1` | Hostadres van de inbeddingservice (kan worden overschreven door `secrets.json` of omgevingsvariabele `EMBEDDING_HOST`) |
-| `port` | int | `8000` | Poortnummer van de inbeddingservice (kan worden overschreven door `secrets.json` of omgevingsvariabele `EMBEDDING_PORT`) |
+| Veld | Type | Standaardwaarde | Beschrijving |
+|------|------|--------|------|
+| `host` | string | `127.0.0.1` | Hostadres van de embeddingdienst (kan worden overschreven door `secrets.json` of omgevingsvariabele `EMBEDDING_HOST`) |
+| `port` | int | `8000` | Poortnummer van de embeddingdienst (kan worden overschreven door `secrets.json` of omgevingsvariabele `EMBEDDING_PORT`) |
 
-> **Opmerking**: De waarden in `config.json` (`Embedding.host`/`Embedding.port`) gelden als standaard, maar hebben een lagere prioriteit dan `secrets.json` en omgevingsvariabelen. De sleutel `EMBEDDING_KEY` staat alleen in `secrets.json`.
+> **Opmerking**: `Embedding.host`/`Embedding.port` in `config.json` dienen als standaardwaarden, hebben lagere prioriteit dan `secrets.json` en omgevingsvariabelen. De sleutel `EMBEDDING_KEY` bestaat alleen in `secrets.json`.
 
 #### 5.1.9 `Workflow` — Workflowconfiguratie
 
-| Veld | Type | Standaard | Toelichting |
-|------|------|-----------|-------------|
-| `max_jobs` | int | `16` | Maximum aantal parallelle taken, voor globale resourcebewaking |
+| Veld | Type | Standaardwaarde | Beschrijving |
+|------|------|--------|------|
+| `max_jobs` | int | `16` | Maximum aantal parallelle taken, gebruikt om het totale bronnengebruik van de pipeline te beheren |
 
 ### 5.2 `config/secrets.json` — Sleutelconfiguratie
 
-> **⚠️ Dit bestand bevat gevoelige informatie; het is toegevoegd aan `.gitignore` en mag nooit worden ingecheckt.**
+> **⚠️ Dit bestand bevat gevoelige informatie en is toegevoegd aan `.gitignore`. Het is ten strengste verboden dit in te checken in versiebeheer.**
 
-Kopieer `secrets_example.json` naar `secrets.json` en vul de echte waarden in.
+Kopieer vóór gebruik `secrets_example.json` naar `secrets.json` en vul de echte waarden in.
 
-| Veld | Type | Toelichting |
-|------|------|-------------|
-| `LLM_KEY` | string | Authenticatiesleutel voor de LLM API. Wordt door `ConfigReader` gecontroleerd op niet-leeg; als deze leeg is, stopt de pijplijn |
-| `STEAM_KEY` | string | Steam Web API-sleutel. Wordt gebruikt voor `ISteamRemoteStorage/GetPublishedFileDetails` e.d. Verkrijgbaar via [Steam Developer Portal](https://steamcommunity.com/dev/apikey) |
-| `EMBEDDING_HOST` | string | Hostadres van de inbeddingservice (IP of domeinnaam, zonder poort). De poort wordt apart gespecificeerd met `EMBEDDING_PORT` |
-| `EMBEDDING_PORT` | string | Poortnummer van de inbeddingservice |
-| `EMBEDDING_KEY` | string | AES-256 gedeelde voorsleutel voor de inbeddingservice. Wordt via SHA256 gehasht tot AES-GCM-sleutel |
+| Velden | Type | Beschrijving |
+|------|------|------|
+| `LLM_KEY` | string | Authenticatiesleutel voor de LLM API. Wordt door `ConfigReader` gecontroleerd op niet-leeg; als leeg wordt de pijplijn beëindigd. |
+| `STEAM_KEY` | string | Steam Web API-sleutel. Gebruikt voor het aanroepen van `ISteamRemoteStorage/GetPublishedFileDetails` e.d. Verkrijgbaar via: [Steam-ontwikkelaarsportaal](https://steamcommunity.com/dev/apikey) |
+| `EMBEDDING_HOST` | string | Hostadres van de embeddingservice (IP of domeinnaam, zonder poort). Poort wordt apart opgegeven via `EMBEDDING_PORT`. |
+| `EMBEDDING_PORT` | string | Poortnummer van de embeddingservice. |
+| `EMBEDDING_KEY` | string | Vooraf gedeelde AES-256-versleutelingssleutel voor de embeddingservice. Wordt na SHA256-hashing gebruikt als AES-GCM-sleutel. |
 
-**Sleutelvalidatielogica**: `ConfigReader.LoadConfig()` controleert na het laden of `LLM_KEY` niet leeg is; indien leeg → uitzondering → `Program.cs` vangt af en roept `Environment.Exit(1)` aan.
+**Logica van sleutelvalidatie**: `ConfigReader.LoadConfig()` controleert na het laden of `LLM_KEY` leeg is → zo ja, gooit een uitzondering → `Program.cs` vangt deze en roept `Environment.Exit(1)` aan.
 
-### 5.3 `config/supported_languages.json` — Ondersteunde talen
+### 5.3 `config/supported_languages.json` - Lijst met ondersteunde talen
 
-Definieert alle doeltalen die de pijplijn ondersteunt. Elke regel komt overeen met het type `LangInfoData`.
+Definieert alle doelalen die door de pijplijn worden ondersteund. Elke record komt overeen met het type `LangInfoData`.
 
-Kopieer `supported_languages_example.json` naar `supported_languages.json`.
+Kopieer vóór gebruik `supported_languages_example.json` naar `supported_languages.json`.
 
-| Veld | Type | Toelichting |
-|------|------|-------------|
-| `ingame_code` | string | PZ in-game taalcodes, overeenkomend met de mapnaam onder `Translate/`. Bijv. `CN`, `JP`, `DE` |
-| `chinese_name` | string | Chinese naam, gebruikt in rapporten en logs |
-| `english_name` | string | Engelse naam, gebruikt in rapporten |
-| `native_name` | string | Inheemse naam, gebruikt in rapporten |
-| `iso_code` | string | ISO 639-1 of BCP 47-taacode. Gebruikt voor bestandspaden, API-parameters en interne indexering. Bijv. `zh-hans`, `ja`, `de` |
+| Velden | Type | Beschrijving |
+|------|------|------|
+| `ingame_code` | string | Taalcode in het spel PZ, komt overeen met de mapnaam onder `Translate/`. Voorbeeld: `CN`, `JP`, `DE` |
+| `chinese_name` | string | Chinese naam. Gebruikt voor voortgangsrapporten en loguitvoer. |
+| `english_name` | string | Engelse naam. Gebruikt voor voortgangsrapporten. |
+| `native_name` | string | Inheemse naam in de taal zelf. Gebruikt voor voortgangsrapporten. |
+| `iso_code` | string | ISO 639-1 of BCP 47 taalcodes. Gebruikt voor bestandspaden, API-parameters en interne indexen. Voorbeeld: `zh-hans`, `ja`, `de` |
 
 **Voorbeelditem**:
 ```json
@@ -1026,49 +1008,49 @@ Kopieer `supported_languages_example.json` naar `supported_languages.json`.
 }
 ```
 
-**Vooraf ingestelde talen** (27 stuks):
+**Vooraf ingestelde talenlijst** (27 talen):
 `AR` `CA` `CH` `CN` `CS` `DA` `DE` `EN` `ES` `FI` `FR` `HU` `ID` `IT` `JP` `KO` `NL` `NO` `PH` `PL` `PT` `PTBR` `RO` `RU` `TH` `TR` `UA`
 
 **Gebruik in de pijplijn**:
-- **Brontaal** (`baseLang`): `EN` is de basis. `ContentExtractor` gebruikt `config.baseLanguage` voor de mapping naar `baseIso`
-- **Doeltalen** (`targetLangs`): alle talen behalve `EN` zijn vertaaldoelen
-- **Uitvoertalen** (`outputLangs`): alle talen (inclusief `EN`) nemen deel aan de einduitvoer
+**Basistaal** (`baseLang`): De lijst gebruikt `EN` als basis. De `baseIso` in `ContentExtractor` wordt toegewezen via `config.baseLanguage`
+**Doeltaal** (`targetLangs`): Alle talen in de lijst die niet `EN` zijn, zijn vertaaldoelen
+**Uitvoertaal** (`outputLangs`): Alle talen (inclusief `EN`) nemen deel aan de uiteindelijke uitvoer
 
-### 5.4 `config/ref_translation_mods.json` — Referentievertaalmods
+### 5.4 `config/ref_translation_mods.json` — Referentievertalingsmods
 
-Definieert hoogwaardige bestaande vertaalmods die dienen als referentiecorpus voor RAG.
+Definieert bestaande hoogwaardige Chinese vertalingsmods als referentiecorpus voor RAG-ophaling.
 
-| Veld | Type | Toelichting |
-|------|------|-------------|
+| Velden | Type | Beschrijving |
+|------|------|------|
 | `mod_id` | string | Steam Workshop Mod ID (19 cijfers) |
-| `mod_name` | string | Naam van de referentiemod (alleen voor logs en rapportage) |
+| `mod_name` | string | Naam van referentiemod (alleen voor log en rapportweergave) |
 | `language` | string | ISO-code van de doeltaal van deze referentiemod. Bijv. `zh-hans` |
-| `mod_update_time` | string | Laatste updatedatum van de mod volgens Steam (Unix-timestamp als string) |
-| `last_check_time` | string | Laatste controle door de pijplijn (ISO 8601) |
+| `mod_update_time` | string | Laatste updatetijd van de mod geregistreerd door Steam (Unix timestamp string) |
+| `last_check_time` | string | Tijdstip van de laatste controle door de pijplijn op updates van deze mod (ISO 8601) |
 
 **Speciale behandeling van referentiemods**:
-- **Onafhankelijke cache**: gegevens worden opgeslagen in `translation_ref/` in plaats van `data/`, gescheiden van de hoofdgegevens
-- **Prioriteitssynchronisatie**: in Fase 2 worden ze vóór de hoofdmod-cyclus gedownload, geëxtraheerd en ingebed
-- **Incrementele update**: alleen mods met `mod_update_time > last_check_time` worden opnieuw geëxtraheerd
-- **isVerified=true**: alle vertaalitems van referentiemods krijgen `TranslationData.isVerified = true`
-- **Uitsluiting van vertaling**: items van referentiemods komen niet in de LLM-vertaalwachtrij (ze zijn al handmatig vertaald)
-- **Uitsluiting van einduitvoer**: `FinalOutputWriter` filtert items van referentiemods en neemt ze niet op in de einddistributie
+- **Onafhankelijke cache**: Gegevens worden opgeslagen in `translation_ref/` in plaats van `data/`, gescheiden van de hoofdvertaalgegevens
+- **Prioritaire synchronisatie**: In Phase 2 wordt het downloaden/extractie/embedding vóór de hoofd-modcyclus uitgevoerd
+- **Incrementele update**: Alleen mods met `mod_update_time > last_check_time` worden opnieuw geëxtraheerd
+- **isVerified=true**: Bij alle referentievertalingen wordt `TranslationData.isVerified` geforceerd op `true`
+- **Uitsluiting van vertaling**: Items van referentiemods komen niet in de LLM-vertaalwachtrij (reeds handmatig vertaald)
+- **Uitsluiting van uitvoer**: `FinalOutputWriter` filtert items van referentiemods en schrijft ze niet naar het uiteindelijke distributiebestand
 
 ### 5.5 `config/request_for_translation.txt` — Lokale vertaalverzoeken
 
-Handmatig opgegeven lijst van te vertalen Mod-ID's.
+Handmatig opgegeven lijst van mod-ID's om te vertalen.
 
-| Regel | Toelichting |
-|-------|-------------|
-| Formaat | Eén Steam Workshop Mod ID per regel (alleen cijfers) |
-| Commentaar | Regels beginnend met `#` worden genegeerd |
-| Lege regels | Worden automatisch overgeslagen |
-| Deduplicatie | Bij samenvoeging met de AsOne-lijst worden bestaande ID's niet dubbel toegevoegd |
+| Regel | Beschrijving |
+|------|------|
+| Formaat | Elke regel één Steam Workshop Mod ID (alleen cijfers) |
+| Opmerkingen | Regels beginnend met `#` worden als opmerking beschouwd en genegeerd |
+| Lege regels | Blanco regels worden automatisch overgeslagen |
+| Deduplicatie | Bij samenvoegen met de AsOne externe lijst worden bestaande ID's niet opnieuw toegevoegd |
 | Codering | UTF-8 zonder BOM |
 
 **Voorbeeld**:
 ```
-# Populaire mods
+# 热门模组
 2969343830
 3000924731
 
@@ -1078,100 +1060,100 @@ Handmatig opgegeven lijst van te vertalen Mod-ID's.
 ```
 
 **Verwerkingslogica** (`ModIdCollector`):
-1. Lees alle regels van het bestand.
-2. Filter commentaar (`#`) en lege regels.
-3. Dedupliceer.
-4. Voeg samen met de AsOne-lijst (AsOne heeft voorrang; bestaande worden niet overschreven).
-5. Voor ID's die niet in de AsOne-lijst staan, wordt een standaard `ModInfo` aangemaakt (status `UNKNOWN`).
+1. Lees alle regels van het bestand
+2. Filter `#`-commentaar en lege regels
+3. Dedupliceer
+4. Voeg samen met de AsOne-remote lijst (prioriteit voor remote, bestaande worden niet overschreven)
+5. Maak standaard `ModInfo` aan voor ID's die niet in de remote lijst staan (status `UNKNOWN`)
 
-### 5.6 Laadproces configuratie
+### 5.6 Configuratie laadproces
 
 ```
 ConfigReader.LoadConfig(baseDir)
-  ├── Initialiseer alle tijdelijke mappen
-  ├── Parseer config/config.json → PipelineConfig
-  │     ├── Settings: priorityLanguage, baseLanguage
-  │     ├── LLM: endpoint, model, concurrency...
-  │     ├── Embedding: host, port
-  │     ├── RAG: similarity_threshold, top_k
-  │     ├── AsOne: enabled, base_url...
-  │     ├── Steam: api_chunk_size, retries...
-  │     ├── Workflow: max_jobs
-  │     ├── Pipeline: batch_size
-  │     └── ContentCheck: enabled, check_interval_days
-  ├── Parseer config/secrets.json → PipelineConfig
-  │     ├── LLM_KEY → llmKey (verplicht, leeg → uitzondering)
-  │     ├── STEAM_KEY → steamApiKey (verplicht, leeg → uitzondering)
-  │     ├── EMBEDDING_KEY → embeddingKey (verplicht, leeg → uitzondering)
-  │     └── EMBEDDING_HOST + EMBEDDING_PORT → embeddingHost/Port
-  ├── Parseer config/supported_languages.json → supportedLanguages
-  └── Parseer config/ref_translation_mods.json → referenceTranslationMods
+├── Initialiseer alle tijdelijke mappen
+├── Parseer config/config.json → PipelineConfig
+│     ├── Settings: priorityLanguage, baseLanguage
+│     ├── LLM: endpoint, model, concurrency...
+│     ├── Embedding: host, port
+│     ├── RAG: similarity_threshold, top_k
+│     ├── AsOne: enabled, base_url...
+│     ├── Steam: api_chunk_size, retries...
+│     ├── Workflow: max_jobs
+│     ├── Pipeline: batch_size
+│     └── ContentCheck: enabled, check_interval_days
+├── Parseer config/secrets.json → PipelineConfig
+│     ├── LLM_KEY → llmKey (verplicht, bij leeg gooit het een uitzondering)
+│     ├── STEAM_KEY → steamApiKey (verplicht, bij leeg gooit het een uitzondering)
+│     ├── EMBEDDING_KEY → embeddingKey (verplicht, bij leeg gooit het een uitzondering)
+│     └── EMBEDDING_HOST + EMBEDDING_PORT → embeddingHost/Port
+├── Ontleden config/supported_languages.json → supportedLanguages
+└── Ontleden config/ref_translation_mods.json → referenceTranslationMods
 ```
 
-Mislukkingsstrategie: als een verplichte validatie mislukt → uitzondering → `Program.cs` toont `GitHubActions.Error()` → `Environment.Exit(1)`.
+Faalscenario: als een vereiste controle mislukt → gooi uitzondering → `Program.cs` voert `GitHubActions.Error()` uit → `Environment.Exit(1)`.
 
 ---
 
-## 6. Directorystructuur
+## 6. Mapstructuur
 
 ```
 project_babel/
-├── base_game_keys/              # Originele gametekstsleutels (uit te sluiten)
+├── base_game_keys/              # Originele spelvertaalsleutels (uitgesloten)
 │   ├── IG_UI.json
 │   ├── ContextMenu.json
 │   └── ...
 ├── config/
 │   ├── config.json              # Pijplijnconfiguratie
 │   ├── secrets.json             # API-sleutels (gitignore)
-│   ├── supported_languages.json # Ondersteunde talen
+│   ├── supported_languages.json # Lijst van ondersteunde talen
 │   ├── ref_translation_mods.json# Referentievertaalmods
 │   └── request_for_translation.txt # Lokale verzoeklijst
-├── data/                        # Persistente cache
+├── data/                        # Permanente cache
 │   ├── modinfos.json            # Mod-metadatacache
 │   ├── translations/            # Vertaalcache (<iso>/<modId>.txt)
-│   ├── embeddings/              # Inbeddingen (<modId>.bin)
+│   ├── embeddings/              # Inbeddingsvectoren (<modId>.bin)
 │   └── entry_metadata/          # Itemmetadata (<bucket>/<modId>.json)
-├── translation_ref/             # Referentievertaalgegevens (structuur identiek aan data/)
-├── final_outputs/project_babel/ # Einddistributie-uitvoer
+├── translation_ref/             # Referentievertaalgegevens (zelfde structuur als data/)
+├── final_outputs/project_babel/ # Definitieve distributie-uitvoer
 │   └── contents/mods/project_babel/
 │       ├── 42/media/lua/shared/Translate/<gameCode>/*.json
 │       └── 42.19/media/lua/shared/Translate/<gameCode>/*.json
 ├── src/                         # Broncode
-│   ├── Program.cs               # Pijplijnentry + PipelineRunner
-│   ├── Common/                  # Gedeelde typen + hulpprogramma's
+│   ├── Program.cs               # Pijplijninstap + PipelineRunner
+│   ├── Common/                  # Gedeelde typen + hulpprogrammaklassen
 │   ├── ConfigReader/            # Configuratie laden
 │   ├── ContentChecker/          # Inhoudsveiligheidscontrole
 │   ├── ContentExtractor/        # Tekstextractie
-│   ├── EmbeddingFetcher/        # Inbeddingen
-│   ├── FinalOutputWriter/       # Einduitvoer
+│   ├── EmbeddingFetcher/        # Inbeddingsvectoren
+│   ├── FinalOutputWriter/       # Uiteindelijke uitvoer
 │   ├── LLMTranslator/           # LLM-vertaling
-│   ├── ModDownloader/           # steamcmd-download
-│   ├── ModIdCollector/          # Mod-ID verzamelen
-│   ├── ModInfoFetcher/          # Steam-metadata
-│   ├── ProgressReporter/        # Voortgangsrapportage
-│   ├── RagContextRetriever/     # RAG-zoekopdracht
+│   ├── ModDownloader/           # steamcmd download
+│   ├── ModIdCollector/          # Mod ID verzameling
+│   ├── ModInfoFetcher/          # Steam-metagegevens
+│   ├── ProgressReporter/        # Voortgangsrapport
+│   ├── RagContextRetriever/     # RAG-ophaling
 │   ├── RepoDataLoader/          # Cache laden
-│   ├── ResultWriter/            # Resultaten wegschrijven
+│   ├── ResultWriter/            # Resultaat terugschrijven
 │   ├── TranslationBatcher/      # Batchverpakking
-│   ├── prompt_templates/        # LLM-promptsjablonen
-│   └── 3rd_party/steamcmd/      # steamcmd-programma
-├── temp/                        # Tijdelijke uitvoermap (per run_*)
+│   ├── prompt_templates/        # LLM Prompt-sjablonen
+│   └── 3rd_party/steamcmd/      # steamcmd hulpmiddelen
+├── temp/                        # Tijdelijke uitvoermap (elke run_*)
 ├── docs/                        # Documentatie
-└── log/                         # Uitvoeringslogs
+└── log/                         # Uitvoerlogboek
 ```
 
 ---
 
-## 7. Manieren van uitvoeren
+## 7. Uitvoeringswijze
 
-### Lokaal (Windows x64)
+### Lokaal uitvoeren (Windows x64)
 
 ```powershell
 cd src
 dotnet run
 ```
 
-Bij lokale uitvoering gebruikt de pijplijn de configuratiebestanden in `config/`. Zorg ervoor dat `secrets.json` correct is geconfigureerd (zie `secrets_example.json`).
+Bij lokale uitvoering gebruikt de pijplijn de configuratiebestanden in de `config/` directory. Zorg ervoor dat `secrets.json` correct is geconfigureerd (zie `secrets_example.json`) voordat u deze voor het eerst gebruikt.
 
 ### CI-uitvoering (GitHub Actions, Linux x64)
 
@@ -1180,36 +1162,35 @@ Bij lokale uitvoering gebruikt de pijplijn de configuratiebestanden in `config/`
   run: dotnet run --project src/TranslationPipeline.csproj
 ```
 
-In de GitHub Actions-omgeving detecteert de pijplijn automatisch de CI-omgeving en past het gedrag aan:
+Wanneer de pijplijn wordt uitgevoerd in een GitHub Actions-omgeving, detecteert deze automatisch de CI-omgeving en past het gedrag aan:
+- `GITHUB_ACTIONS=true`: Verlaagt automatisch de gelijktijdigheidslimiet (initieel 4, maximaal 32), aangepast aan de beperkte bronnen van de CI-runner.
+- `RUNNER_OS=Linux`: Past de Linux-paden en procesbeheer aan.
 
-- `GITHUB_ACTIONS=true`: verlaagt automatisch de gelijktijdigheidslimiet (initieel 4, max 32) om aan te passen aan de beperkte resources van de CI-runner.
-- `RUNNER_OS=Linux`: past Linux-paden en procesbeheer aan.
-
-### Resultaatbeoordeling
+### Beoordeling van uitvoeringsresultaten
 
 | Resultaat | Weergave | Betekenis |
-|-----------|----------|-----------|
-| Succes | Toont `Pipeline complete.`, exitcode 0 | Alle stappen zijn normaal voltooid |
-| Fatale fout | Toont `GitHubActions.Error()`, exitcode 1 | Ontbrekende configuratie, API onbereikbaar, enz. Niet te herstellen |
-| Waarschuwing | Toont `GitHubActions.Warning()`, schrijft naar `temp/run_*/warnings/` | Sommige niet-kritieke stappen zijn mislukt, maar de pijplijn kan doorgaan |
+|------|------|------|
+| Succes | Uitvoer `Pipeline complete.`, exitcode 0 | Alle stappen normaal voltooid |
+| Fatale fout | Uitvoer `GitHubActions.Error()`, exitcode 1 | Onherstelbare fouten zoals ontbrekende configuratie, API niet beschikbaar |
+| Waarschuwing | Uitvoer `GitHubActions.Warning()`, schrijft naar `temp/run_*/warnings/` | Sommige niet-kritieke stappen mislukt, maar pijplijn kan doorgaan |
 
 ---
 
 ## 8. Belangrijke ontwerpbeslissingen
 
-Tijdens het ontwerp van Project Babel zijn een aantal belangrijke technische beslissingen genomen. De onderstaande tabel geeft per beslissing de redenen weer, zodat duidelijk wordt waarom de pijplijn er zo uitziet.
+Tijdens het ontwerpen van Project Babel hebben we enkele belangrijke technische beslissingen genomen. Onderstaande tabel geeft elke beslissing en de redenen erachter weer, om te helpen begrijpen waarom de pijplijn eruitziet zoals hij is.
 
 | Beslissing | Gedetailleerde reden |
-|------------|----------------------|
-| **JSON overschrijft TXT** | Project Zomboid introduceert vanaf Build 42 JSON als nieuwe standaardindeling voor vertaalbestanden. Wanneer dezelfde vertaalsleutel zowel in TXT als JSON voorkomt, kiest de pijplijn voor JSON – omdat het de nieuwere indeling vertegenwoordigt en betrouwbaarder te parsen is. Als PZ in de toekomst TXT volledig afschaft, kan de TXT-parser eenvoudig worden verwijderd. |
-| **Referentievertalingen onafhankelijk van hoofdcyclus** | Referentievertaalmods (handmatig) en gewone te vertalen mods hebben een heel verschillende wijzigingsfrequentie: de eerste zijn stabiel en veranderen weinig, de laatste worden vaak bijgewerkt. Als ze in dezelfde cyclus zouden worden verwerkt, zou elke kleine wijziging in een referentiemod een volledige herberekening veroorzaken, wat verspilling van middelen is. Door ze onafhankelijk te maken, volgen referentiemods hun eigen incrementele updatepad en wordt de hoofdcyclus niet beïnvloed. |
-| **Inbeddingsberekening via externe service** | Hoewel het model `bge-small-en-v1.5` slechts ongeveer 130 MB groot is, gebruikt het tijdens inferentie veel meer geheugen dan het modelbestand. In de 7 GB geheugenlimiet van GitHub Actions zou het gelijktijdig draaien van het inbeddingsmodel en de vertaaltaken snel tot OOM leiden. Door de inbeddingsberekening uit te besteden aan een externe service blijft de pijplijn stabiel en kan de inbeddingservice GPU-versnelling gebruiken, wat veel sneller is dan CPU-inferentie. |
-| **UDP-kloppen + AES-codering voor authenticatie** | Bij traditionele API-sleutels moet de sleutel bij elk HTTP-verzoek worden meegestuurd, wat het risico op blootstelling vergroot. Het UDP-klopschema scheidt authenticatie van gegevensoverdracht: eerst wordt via UDP de identiteit geverifieerd, daarna wordt de HTTP-communicatie versleuteld met AES-256-GCM. Zelfs als het HTTP-verkeer wordt onderschept, kan het zonder de gedeelde sleutel niet worden ontsleuteld. Bovendien blijft de server volledig stateless; er hoeft geen sessie te worden bijgehouden. |
-| **Dynamische gelijktijdigheidsregeling** | Het rate-limit-beleid van de DeepSeek API is niet exact openbaar en kan per model en tijdstip verschillen. Een vaste gelijktijdigheid is ofwel te conservatief (verspilling van doorvoer) ofwel te agressief (leidt tot 429-fouten en veel herpogingen). De adaptieve gelijktijdigheidsregeling gebruikt de strategie "bij succes voorzichtig omhoog, bij mislukking snel omlaag" om automatisch de optimale gelijktijdigheid in de huidige omgeving te vinden. |
-| **Vast vensterpatroon als alternatief** | In productieomgevingen waar de API-gelijktijdigheidslimiet precies bekend is (bijv. met een expliciete QPS-overeenkomst), voegt dynamische aanpassing onzekerheid toe. Het vaste vensterpatroon biedt deterministische gelijktijdigheid – elk venster heeft een vast aantal gelijktijdige verzoeken, vensters worden strikt sequentieel afgewerkt – wat de voorspelbaarheid en foutopsporing vergemakkelijkt. |
-| **Zstd-compressie voor inbeddingen** | De hoeveelheid inbeddingsgegevens (384 dimensies × tienduizenden mods × tienduizenden items) is enorm. Bij een miljoen items komt dat neer op ongeveer 1,5 GB aan onbewerkte floats. Zstd-compressie biedt een compressieverhouding van ongeveer 4:1, waardoor de opslagbehoefte daalt tot ongeveer 375 MB. Bovendien is Zstd-extractie extreem snel (>1 GB/s), wat de pijplijnprestaties vrijwel niet beïnvloedt. |
-| **Atomair schrijven (.tmp + Move)** | Als tijdens het schrijven van een bestand een crash of stroomuitval optreedt, kan het bestand beschadigd raken. Door eerst naar een tijdelijk bestand (`.tmp`) te schrijven en dat bij succes atomair te vervangen met `File.Move` (een hernoemingsoperatie op hetzelfde bestandssysteem, gegarandeerd atomair door het besturingssysteem), is er altijd een geldige oude of nieuwe versie, nooit een tussenstadium. |
+|------|---------|
+| **JSON overschrijft TXT** | Project Zomboid heeft vanaf Build 42 JSON-formaat voor vertaalbestanden geïntroduceerd als de nieuwe standaard. Wanneer dezelfde vertaalsleutel zowel in TXT als JSON bestaat, geeft de pijplijn prioriteit aan de JSON-versie – omdat het een nieuwer formaat vertegenwoordigt en betrouwbaarder te parseren is. Als PZ in de toekomst TXT volledig afschaft, hoeft alleen de TXT-parsinglogica verwijderd te worden. |
+| **Referentievertaling onafhankelijk van hoofdlus** | De wijzigingsfrequentie van referentievertaalmods (handmatig vertaald) en gewone te vertalen mods verschilt aanzienlijk – de eerste is stabiel en verandert zelden, de laatste wordt vaak bijgewerkt. Beide in dezelfde lus verwerken zou bij elke kleine update van referentievertalingen een volledige herberekening veroorzaken, wat verspilling is. Na loskoppeling volgt referentievertaling zijn eigen incrementele updateroute en blijft de hoofdlus onaangetast. |
+| **Embeddingsberekening via externe service** | Het `bge-small-en-v1.5` model is slechts ~130 MB, maar bij laden in geheugen voor inferentie is het werkelijke verbruik veel groter. Onder de 7 GB geheugenlimiet van GitHub Actions leidt gelijktijdig draaien van het embeddingmodel en vertaaltaken gemakkelijk tot OOM. Door embeddingsberekening naar een externe dienst te verplaatsen, wordt zowel de stabiliteit van de pijplijn gewaarborgd als de mogelijkheid voor GPU-versnelling, veel sneller dan CPU-inferentie. |
+| **UDP-kloppen + AES-versleutelde authenticatie** | Het traditionele API-sleutelschema vereist het meezenden van de sleutel in elk HTTP-verzoek, waardoor het risico op blootstelling toeneemt. Het UDP-kloppenschema scheidt authenticatie van gegevensoverdracht – eerst wordt via UDP de identiteit geverifieerd, daarna wordt de HTTP-communicatie versleuteld met AES-256-GCM. Zelfs als HTTP-verkeer wordt onderschept, kan het niet worden ontsleuteld zonder de gedeelde sleutel. Bovendien is de server volledig stateless en hoeft er geen sessie te worden onderhouden. |
+| **Dynamische gelijktijdigheidsregeling** | De snelheidslimiet van de DeepSeek API heeft geen openbaar exacte waarde; verschillende modellen en tijdsperioden kunnen verschillende limieten hebben. Een vast aantal gelijktijdige verwerkingen is ofwel te conservatief (verspilt doorvoer) of te agressief (leidt tot 429-fouten en veel herpogingen). Adaptieve gelijktijdigheidsregeling vindt automatisch de optimale gelijktijdigheid in de huidige omgeving door de strategie van "geleidelijk verhogen bij succes, snel verlagen bij falen". |
+| **Alternatief: vast venstermodel** | In productieomgevingen waar de API-gelijktijdigheidslimiet bekend is (bijv. een duidelijke QPS-overeenkomst met de API-provider), brengt dynamische aanpassing juist onzekerheid met zich mee. Het vaste venstermodel biedt deterministisch gedrag – elk venster heeft een vast aantal N gelijktijdige verwerkingen, vensters zijn strikt sequentieel – wat prestatievoorspelling en probleemoplossing vergemakkelijkt. |
+| **Zstd-compressie van embeddings** | De gegevensomvang van embeddings (384 dimensies × tienduizenden mods × tienduizenden items) is enorm. Bij miljoenen items is de ruwe floating-point gegevens ongeveer 1,5 GB. Zstd-compressie biedt een compressieverhouding van ongeveer 4:1, waardoor de opslagbehoefte daalt tot ~375 MB. Belangrijker is dat Zstd extreem snel decomprimeert (>1 GB/s), wat vrijwel geen invloed heeft op de pijplijnprestaties. |
+| **Atomair schrijven (.tmp + Move)** | Als er een crash of stroomuitval optreedt tijdens het schrijven, kan een half weggeschreven bestand beschadigd raken. Door eerst naar een tijdelijk bestand (.tmp) te schrijven en na succesvol schrijven het doelbestand atomair te vervangen via `File.Move`. Omdat `File.Move` op hetzelfde bestandssysteem een hernoemingsoperatie is, garandeert het besturingssysteem atomiciteit – óf het oude bestand wordt gezien, óf het nieuwe, zonder tussenliggende toestand. |
 
 ---
 
-> Laatste update: 2026-07-08
+> Laatst bijgewerkt: 2026-07-08

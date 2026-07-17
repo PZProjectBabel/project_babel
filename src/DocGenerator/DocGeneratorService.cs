@@ -8,8 +8,8 @@ using Common;
 namespace DocGenerator;
 
 /// <summary>
-/// Documentation generator — translates Chinese template docs into multiple languages via LLM.
-/// Currently dev/test phase: only zh-hans → en, outputs to temp folder.
+/// Documentation generator — translates Chinese template docs into all supported languages via LLM.
+/// Target languages are loaded from config/supported_languages_example.json (excluding zh-hans source).
 /// </summary>
 public sealed partial class DocGeneratorService
 {
@@ -36,8 +36,8 @@ public sealed partial class DocGeneratorService
     private readonly string _debugDir;
     private readonly HttpClient _httpClient;
 
-    // Currently only en is supported in dev phase.
-    private static readonly string[] TargetLanguages = ["en"];
+    /// <summary>Target languages loaded from config/supported_languages.json (excluding zh-hans source).</summary>
+    private readonly string[] _targetLanguages;
 
     public DocGeneratorService(string repoRoot, HttpClient? httpClient = null)
     {
@@ -46,6 +46,32 @@ public sealed partial class DocGeneratorService
         _outputDir = Path.Combine(repoRoot, "temp", "docgen");
         _debugDir = Path.Combine(_outputDir, "debug");
         _httpClient = httpClient ?? CreateDefaultClient();
+        _targetLanguages = LoadTargetLanguages(repoRoot);
+        Console.WriteLine($"[DocGen] Target languages: {string.Join(", ", _targetLanguages)}");
+    }
+
+    /// <summary>
+    /// Load target language ISO codes from config/supported_languages_example.json, excluding zh-hans (source).
+    /// </summary>
+    private static string[] LoadTargetLanguages(string repoRoot)
+    {
+        var path = Path.Combine(repoRoot, "config", "supported_languages_example.json");
+        if (!File.Exists(path))
+            throw new FileNotFoundException($"supported_languages.json not found: {path}");
+
+        var json = Utf8NoBom.ReadAllText(path);
+        var opts = new JsonSerializerOptions
+        {
+            PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower,
+            PropertyNameCaseInsensitive = true
+        };
+        var langs = JsonSerializer.Deserialize<List<LangInfoData>>(json, opts)
+                     ?? throw new InvalidOperationException("Failed to parse supported_languages.json");
+
+        return langs
+            .Select(l => l.isoCode)
+            .Where(code => code != "zh-hans")
+            .ToArray();
     }
 
     /// <summary>
@@ -159,12 +185,12 @@ public sealed partial class DocGeneratorService
             // For translatable lines, mark all target languages as needing translation initially.
             if (line.Category == TemplateLineCategory.Translatable)
             {
-                foreach (var lang in TargetLanguages)
+                foreach (var lang in _targetLanguages)
                     line.NeedsTranslation[lang] = true;
             }
             else
             {
-                foreach (var lang in TargetLanguages)
+                foreach (var lang in _targetLanguages)
                     line.NeedsTranslation[lang] = false;
             }
             templateLines.Add(line);
@@ -187,7 +213,7 @@ public sealed partial class DocGeneratorService
 
         // ── Step 3: Compare & collect lines needing translation ──
         var linesToTranslate = new Dictionary<string, List<DocTemplateLine>>(StringComparer.OrdinalIgnoreCase);
-        foreach (var lang in TargetLanguages)
+        foreach (var lang in _targetLanguages)
             linesToTranslate[lang] = [];
 
         foreach (var line in templateLines)
@@ -195,7 +221,7 @@ public sealed partial class DocGeneratorService
             if (line.Category != TemplateLineCategory.Translatable)
                 continue; // Blanks, pure markdown, placeholders never need translation.
 
-            foreach (var lang in TargetLanguages)
+            foreach (var lang in _targetLanguages)
             {
                 // Check if we have a cache hit by hash.
                 if (cacheByHash.TryGetValue(line.Sha256, out var cached))
@@ -213,11 +239,22 @@ public sealed partial class DocGeneratorService
             }
         }
 
-        foreach (var lang in TargetLanguages)
+        foreach (var lang in _targetLanguages)
             Console.WriteLine($"  [Step 3] Lines to translate ({lang}): {linesToTranslate[lang].Count}");
 
-        // ── Step 4: Translate per language ──
-        foreach (var lang in TargetLanguages)
+        // ── Step 4: Translate all languages concurrently ──
+        // Build full text context once (identical for all target languages).
+        var fullText = BuildFullText(templateLines);
+        var headerWithContext = promptHeader.Replace("{{FULL_TEXT}}", fullText);
+
+        // Warmup: send header once per template (same context for all languages).
+        Console.WriteLine($"  [Step 4a] Sending warmup...");
+        var warmupOk = await SendWarmupAsync(headerWithContext, "en", templateName, ct);
+        Console.WriteLine($"  [Step 4a] Warmup {(warmupOk ? "OK" : "FAILED")}.");
+
+        // Build all batches for all languages upfront.
+        var allBatches = new List<DocTranslationBatch>();
+        foreach (var lang in _targetLanguages)
         {
             var batchLines = linesToTranslate[lang];
             if (batchLines.Count == 0)
@@ -226,8 +263,6 @@ public sealed partial class DocGeneratorService
                 continue;
             }
 
-            // Build batches (max 30 lines per batch). Enforce strictly.
-            var batches = new List<DocTranslationBatch>();
             var totalBatches = (int)Math.Ceiling((double)batchLines.Count / MaxLinesPerBatch);
             for (int i = 0; i < totalBatches; i++)
             {
@@ -235,7 +270,7 @@ public sealed partial class DocGeneratorService
                 if (slice.Count > MaxLinesPerBatch)
                     throw new InvalidOperationException(
                         $"BUG: batch {i + 1} has {slice.Count} lines (limit={MaxLinesPerBatch})");
-                batches.Add(new DocTranslationBatch
+                allBatches.Add(new DocTranslationBatch
                 {
                     TargetLang = lang,
                     BatchIndex = i + 1,
@@ -243,79 +278,78 @@ public sealed partial class DocGeneratorService
                     Lines = slice
                 });
             }
-            Console.WriteLine($"  [Step 4] Translating {lang}: {batches.Count} batch(es), maxConcurrency={MaxConcurrency}");
+        }
 
-            // Build full text context (all non-empty lines from the template).
-            var fullText = BuildFullText(templateLines);
+        if (allBatches.Count == 0)
+        {
+            Console.WriteLine("  [Step 4] No batches to translate.");
+        }
+        else
+        {
+            Console.WriteLine($"  [Step 4] Translating {allBatches.Count} batch(es) across {_targetLanguages.Length} languages, maxConcurrency={MaxConcurrency}");
 
-            // Build the complete prompt: header (with FULL_TEXT) + tail (with TARGET_LANG, LINE_COUNT, TEXT filled later).
-            var headerWithContext = promptHeader.Replace("{{FULL_TEXT}}", fullText);
-
-            // Warmup: send header alone to warm the LLM context.
-            Console.WriteLine($"  [Step 4a] Sending warmup for {lang}...");
-            var warmupOk = await SendWarmupAsync(headerWithContext, lang, templateName, ct);
-            Console.WriteLine($"  [Step 4a] Warmup {(warmupOk ? "OK" : "FAILED")}.");
-
-            // Translate batches concurrently within this language.
+            // All languages share one semaphore; all batches fly concurrently.
             var semaphore = new SemaphoreSlim(MaxConcurrency);
-            var batchTasks = batches.Select(batch =>
+            var batchTasks = allBatches.Select(batch =>
                 TranslateBatchWithRetryAsync(
                     headerWithContext, promptTail, batch, semaphore, templateName, ct));
             var batchResults = await Task.WhenAll(batchTasks);
 
-            // Apply results back to cache.
-            var translatedCount = 0;
-            var failedCount = 0;
-            foreach (var result in batchResults)
+            // Apply results back to cache, grouped by language for logging.
+            foreach (var lang in _targetLanguages)
             {
-                if (result.Results == null)
-                {
-                    failedCount += result.Batch.Lines.Count;
-                    continue;
-                }
+                var langResults = batchResults.Where(r => r.Batch.TargetLang == lang).ToList();
+                if (langResults.Count == 0) continue;
 
-                foreach (var lineResult in result.Results)
+                var translatedCount = 0;
+                var failedCount = 0;
+                foreach (var result in langResults)
                 {
-                    var line = result.Batch.Lines.FirstOrDefault(l => l.LineNumber == lineResult.LineNumber);
-                    if (line == null) continue;
-
-                    // Update or create cache entry.
-                    if (!cacheByHash.TryGetValue(line.Sha256, out var cacheEntry))
+                    if (result.Results == null)
                     {
-                        cacheEntry = new TemplateCacheEntry
+                        failedCount += result.Batch.Lines.Count;
+                        continue;
+                    }
+
+                    foreach (var lineResult in result.Results)
+                    {
+                        var line = result.Batch.Lines.FirstOrDefault(l => l.LineNumber == lineResult.LineNumber);
+                        if (line == null) continue;
+
+                        if (!cacheByHash.TryGetValue(line.Sha256, out var cacheEntry))
                         {
-                            Sha256 = line.Sha256,
-                            SourceText = line.Text
-                        };
-                        cache.Add(cacheEntry);
-                        cacheByHash[line.Sha256] = cacheEntry;
+                            cacheEntry = new TemplateCacheEntry
+                            {
+                                Sha256 = line.Sha256,
+                                SourceText = line.Text
+                            };
+                            cache.Add(cacheEntry);
+                            cacheByHash[line.Sha256] = cacheEntry;
+                        }
+
+                        if (!string.IsNullOrEmpty(cacheEntry.SourceText)
+                            && cacheEntry.SourceText != line.Text)
+                        {
+                            Console.Error.WriteLine(
+                                $"  [CACHE WARN] SHA256 collision or reuse: " +
+                                $"existing='{Truncate(cacheEntry.SourceText, 50)}' " +
+                                $"new='{Truncate(line.Text, 50)}' " +
+                                $"sha256={cacheEntry.Sha256[..12]}...");
+                        }
+
+                        cacheEntry.SourceText = line.Text;
+                        cacheEntry.Translations[lang] = lineResult.TranslatedText;
+                        cacheEntry.NeedsTranslation[lang] = line.NeedsTranslation[lang];
+
+                        if (!string.IsNullOrWhiteSpace(lineResult.TranslatedText))
+                            translatedCount++;
+                        else
+                            cacheEntry.NeedsTranslation[lang] = false;
                     }
-
-                    // Guard: detect and warn if cache entry already had a different source text.
-                    if (!string.IsNullOrEmpty(cacheEntry.SourceText)
-                        && cacheEntry.SourceText != line.Text)
-                    {
-                        Console.Error.WriteLine(
-                            $"  [CACHE WARN] SHA256 collision or reuse: " +
-                            $"existing='{Truncate(cacheEntry.SourceText, 50)}' " +
-                            $"new='{Truncate(line.Text, 50)}' " +
-                            $"sha256={cacheEntry.Sha256[..12]}...");
-                    }
-
-                    cacheEntry.SourceText = line.Text;
-                    cacheEntry.Translations[lang] = lineResult.TranslatedText;
-                    cacheEntry.NeedsTranslation[lang] = line.NeedsTranslation[lang];
-
-                    if (!string.IsNullOrWhiteSpace(lineResult.TranslatedText))
-                        translatedCount++;
-                    else
-                        // LLM returned no usable translation — mark as skipped so we
-                        // don't keep re-sending this line on every pipeline run.
-                        cacheEntry.NeedsTranslation[lang] = false;
                 }
-            }
 
-            Console.WriteLine($"  [Step 4] {lang}: translated={translatedCount}, failed={failedCount}");
+                Console.WriteLine($"  [Step 4] {lang}: translated={translatedCount}, failed={failedCount}");
+            }
         }
 
         // ── Step 5: Write outputs ──
@@ -324,7 +358,7 @@ public sealed partial class DocGeneratorService
         Console.WriteLine($"  [Step 5a] Cache saved: {cachePath}");
 
         // 5b: Assemble final document per language, resolve placeholders, and write to temp.
-        foreach (var lang in TargetLanguages)
+        foreach (var lang in _targetLanguages)
         {
             var outputPath = Path.Combine(_outputDir, $"{templateName}_{lang}.md");
             AssembleFinalDoc(templateLines, cacheByHash, lang, outputPath);
@@ -364,6 +398,7 @@ public sealed partial class DocGeneratorService
 
     /// <summary>
     /// Send a warmup request with just the header to warm the LLM cache.
+    /// Waits for a complete response (must contain "READY") before returning.
     /// </summary>
     private async Task<bool> SendWarmupAsync(
         string headerWithContext, string targetLang, string templateName, CancellationToken ct)
@@ -371,8 +406,18 @@ public sealed partial class DocGeneratorService
         try
         {
             var warmupMsg = headerWithContext + "\n\n# 预热确认\n请回复\"READY\"。";
-            var (success, _, _) = await SendLlmRequestAsync(warmupMsg, ct);
-            return success;
+            var (success, responseText, _) = await SendLlmRequestAsync(warmupMsg, ct);
+            if (!success || string.IsNullOrWhiteSpace(responseText))
+            {
+                Console.Error.WriteLine($"  [WARN] Warmup for {templateName}: empty or failed response.");
+                return false;
+            }
+            if (!responseText.Contains("READY", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.Error.WriteLine($"  [WARN] Warmup for {templateName}: response missing READY confirmation. Got: {Truncate(responseText, 100)}");
+                return false;
+            }
+            return true;
         }
         catch (Exception ex)
         {

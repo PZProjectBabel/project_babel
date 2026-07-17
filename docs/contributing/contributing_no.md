@@ -1,209 +1,219 @@
-# Bidragsguide (CONTRIBUTING)
+# Bidragsgiverveiledning (CONTRIBUTING)
 
-> GitHub: [PZProjectBabel/project_babel](https://github.com/PZProjectBabel/project_babel)
-> 
-> [简体中文](contributing_zh-hans.md) | [English](contributing_en.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
+> [English](contributing_en.md) | [简体中文](contributing_zh-hans.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
 
 ---
 
-Takk for at du er villig til å bidra til **Project Babel — det LLM-drevne automatiske oversettelsesprosjektet for Project Zomboid-mods**! Enten det er å fikse en feil, legge til en funksjon, skrive prompt-maler eller tilby referanseoversettelser — hvert bidrag teller!
+## Innholdsfortegnelse
 
-Å kalle LLM API-et for oversettelse koster tokens. For at prosjektet skal kunne drives bærekraftig på lang sikt, settes det stor pris på din generøse støtte!
-
-> ⚠️ **Viktig merknad:**
-> Før du sender inn noe til dette repositoriet, må du lese og forstå avsnittet „Opphavsrett og lisensiering".
-> Ved innsending og sammenslåing anses du for å ha godtatt de tilsvarende lisensvilkårene.
+- [1. Før du begynner](#1-før-du-begynner)
+- [2. Hvordan kan jeg bidra?](#2-hvordan-kan-jeg-bidra)
+- [3. Gi oversettelsesregler, ordlister, forbedre systemets prompt-maler](#3-gi-oversettelsesregler-ordlister-forbedre-systemets-prompt-maler)
+- [4. Gi manuelt korrekturlesning av korpus](#4-gi-manuelt-korrekturlesning-av-korpus)
+- [5. Pipeline- og verktøyutviklingsbidrag](#5-pipeline--og-verktøyutviklingsbidrag)
+- [6. Opphavsrett og lisensavtale](#6-opphavsrett-og-lisensavtale)
+  - [6.1 Grunnleggende prinsipp: Du beholder opphavsretten, samtidig som du gir prosjektet lisens til å bruke](#61-grunnleggende-prinsipp-du-beholder-opphavsretten-samtidig-som-du-gir-prosjektet-lisens-til-å-bruke)
+  - [6.2 Lisens for tekst, bilder og annet innhold (CC BY-NC-SA 4.0)](#62-lisens-for-tekst-bilder-og-annet-innhold-cc-by-nc-sa-40)
+  - [6.3 Lisens for skript og verktøykode (GPL-3.0)](#63-lisens-for-skript-og-verktøykode-gpl-30)
+  - [6.4 Opphavsrett for oppstrømsverk og originalspill](#64-opphavsrett-for-oppstrømsverk-og-originalspill)
+- [7. Kommunikasjon og samarbeid](#7-kommunikasjon-og-samarbeid)
+- [8. Økonomisk støtte](#8-økonomisk-støtte)
 
 ---
 
-## Før du begynner
+Tusen takk for at du ønsker å bidra til **Project Babel - LLM automatisk oversettelsesprosjekt for «Project Zomboid»-mods**! Enten det er å rette en feil, legge til en funksjon, skrive prompt-maler eller gi referanseoversettelser!
 
-Les prosjektets `README.md` for å forstå:
+Å kalle på LLM API for oversettelse koster tokens. For at prosjektet skal kunne kjøre stabilt på lang sikt, håper vi du kan være raus og bidra!
 
+> ⚠️ **Viktig påminnelse:**
+> Før du leverer noe til dette repositoriet, må du lese og forstå avsnittet om «Opphavsrett og lisensieringsavtale».
+> Når du har sendt inn og det er blitt slått sammen, anses det som at du godtar de respektive lisensvilkårene.
+
+---
+
+## 1. Før du begynner
+
+Les først prosjektets `README.md` for å forstå:
 - Prosjektets overordnede mål og nåværende status;
-- Hvordan vanlige spillere bruker dette prosjektet (for dine egne tester);
-- Tekniske detaljer om prosjektet.
+- Hvordan vanlige spillere bruker dette prosjektet (for egentesting);
+- Prosjektets tekniske detaljer.
 
 ---
 
-## Hvordan kan jeg bidra?
+## 2. Hvordan kan jeg bidra?
 
 Du kan velge en eller flere måter å delta på basert på dine interesser og ferdigheter:
 
-- Tilby oversettelsesregler for et målspråk
-- Tilby en termordbok for et målspråk
-- Forbedre systempromptene
-- Tilby manuelt korrigerte oversettelseskorpus
-- Forbedre pipeline-moduler (.NET) og automatiseringsskript
-- Rapportere problemer og foreslå forbedringer (via Issues)
-- Gi økonomisk støtte til LLM API-kall
+- Gi oversettelsesregler for målspråket
+- Gi en ordliste for oversettelse av målspråket
+- Forbedre systemets prompt-maler
+- Gi manuelt korrigerte oversettelsestekstkorpora
+- Forbedre rørledningsmodulen (.NET) og automatiseringsskript
+- Rapportere problemer, komme med forbedringsforslag (forklar i Issues)
+- Gi økonomisk støtte for å kalle på LLM
 
-Nedenfor forklares de viktigste bidragsscenarioene.
+Nedenfor gis en kort beskrivelse av de viktigste bidragsscenarioene.
 
 ---
 
-## Tilby oversettelsesregler, termordbøker og forbedre systempromptene
+## 3. Gi oversettelsesregler, ordlister, forbedre systemets prompt-maler
 
-Pipeline-ens prompt-maler ligger i `src/prompt_templates/`, med følgende struktur:
+Rørledningens prompt-maler ligger i `src/prompt_templates/`, med følgende struktur:
 
-- `system_prompt_translate_engine.txt`: den globale systemprompten for oversettelsesmotoren (delt av alle språk);
-- `<språkkode>/translation_dictionary_<språkkode>.json`: termordboken for det aktuelle språket;
-- `<språkkode>/translation_schema_<språkkode>.md`: oversettelsesreglene og stilbegrensningene for det aktuelle språket.
+- `system_prompt_translate_engine.txt`: Global oversettelsesmotor systemprompt (delt av alle språk);
+- `<språkkode>/translation_dictionary_<språkkode>.json`: Ordbok for det språket;
+- `<språkkode>/translation_schema_<språkkode>.md`: Oversettelsesregler og stilbegrensninger for det språket.
 
 Bidragstrinn:
 
-1. Opprett en underkatalog under `src/prompt_templates/` for språket ditt, og legg til ordbok- og regelfilene;
-2. Hvis du trenger å justere den globale oversettelsesatferden, endre `system_prompt_translate_engine.txt` (merk: dette påvirker alle språk);
-3. Test lokalt for å bekrefte resultatene;
-4. Send inn en PR.
+1. Opprett en underkatalog for språket ditt i `src/prompt_templates/`, legg til ordbok og oversettelsesregler;
+2. Om nødvendig, juster den globale oversettelsesadferden ved å endre `system_prompt_translate_engine.txt` (merk at dette påvirker alle språk);
+3. Bekreft effekten med lokal testing;
+4. Send inn PR.
 
 ---
 
-## Tilby manuelt korrigerte korpus
+## 4. Gi manuelt korrekturlesning av korpus
 
-Hvis du er forfatter av en oversettelsesmod og er villig til å tilby ditt oversettelseskorpus som LLM-oversettelsesreferanse, vennligst send inn en forespørsel via en Issue. Du må oppgi følgende informasjon:
+Hvis du er en oversettelsesmod-forfatter og er villig til å gi oversettelseskorpuset ditt som LLM-oversettelsesreferanse, vennligst send inn en forespørsel i Issue. Du må oppgi følgende informasjon:
 
-- Mod-ID-en til oversettelsesmoden din og målspråket;
-- Et skjermbilde av administrasjonssiden for oversettelsesmoden din som bevis på forfatterskap;
-- En tydelig erklæring i Issue-en om at du er villig til å tilby oversettelseskorpuset;
-- Hvis det er spesielle omstendigheter (spesiell lisens osv.), vennligst forklar;
-- Sørg for at korpuset du tilbyr er av høy kvalitet.
+- Mod ID for oversettelsesmodden din og målspråket for oversettelsen;
+- Skjermbilde av bakgrunnssiden til oversettelsesmodden din for å bevise at du er modforfatter;
+- Angi tydelig i Issue at du er villig til å gi oversettelseskorpus;
+- Hvis det er spesielle forhold (spesiallisens etc.), vennligst oppgi dem;
+- Sørg for at korpuset du gir har høy kvalitet.
 
-Med din tillatelse vil prosjektet legge til moden din i referanseoversettelsesmodlisten `config/ref_translation_mods.json`, og pipeline-en vil automatisk synkronisere de oversatte tekstene dine som RAG-referansekorpus.
+Under din autorisasjon vil prosjektet inkludere modden din i `config/ref_translation_mods.json` referanseoversettelsesmodliste, og pipelinen vil automatisk synkronisere oversettelsesteksten din som RAG-referansekorpus.
 
 ---
 
-## Pipeline- og verktøyutviklingsbidrag
+## 5. Pipeline- og verktøyutviklingsbidrag
 
-Automatiseringen i dette prosjektet er delt inn i to deler:
+Automatiseringen av dette prosjektet er delt i to deler:
 
-**Pipeline-moduler (`src/`, C# / .NET 10)**: Inneholder 15 sekvensielt utførte moduler som er ansvarlige for hele arbeidsflyten fra mod-nedlasting, tekstutvinning, innholdsgjennomgang, embedding-beregning, RAG-henting til LLM-oversettelse og endelig utdata. Se den [tekniske referansen](../technical_reference/technical_reference_no.md) for detaljer.
+**Pipelinemodul (`src/`, C# / .NET 10)**: Inneholder 15 moduler som utføres i rekkefølge, ansvarlig for hele prosessen fra SteamCMD-initialisering, modnedlasting, tekstuttrekking, innholdsgransking, Embedding-beregning, RAG-søk til LLM-oversettelse og endelig utdata. Se [teknisk referanse](../technical_reference/technical_reference_no.md).
 
-**Hjelpeskript (`.github/`)**: Brukes til GitHub-automatisering.
+**Hjelpeskript (.github/)**: Brukes til GitHub-automatisering.
 
-Hvis du ønsker å:
+Hvis du ønsker:
 
-* Rette feil i eksisterende pipeline-moduler eller skript;
-* Legge til nye funksjoner eller moduler i pipeline-en;
+* Fikse feil i eksisterende pipelinemoduler eller skript;
+* Legge til nye funksjoner eller nye moduler i pipelinen;
 * Optimalisere ytelse eller kodestruktur;
 * Forbedre prompt-maler eller RAG-strategier;
 
-Kan du følge disse trinnene:
+Du kan følge disse trinnene:
 
 1. Fork dette repositoriet og klon det lokalt;
-2. Opprett en ny gren fra den nyeste grenen;
-3. Endre eller legg til filer i de tilsvarende katalogene:
-   - Pipeline-modulendringer → `src/<modulnavn>/`;
-   - Skriptendringer → `scripts/`;
-   - Prompt-malendringer → `src/prompt_templates/`;
-4. Før innsending, prøv å:
+2. Opprett en ny gren basert på den nyeste grenen;
+3. Endre eller legg til filer i den tilsvarende katalogen:
+- Pipelinemodulendring → `src/<modulnavn>/`;
+- Skriptendring → `scripts/`;
+- Prompt-malendring → `src/prompt_templates/`;
+4. Før innsending, prøv så langt som mulig:
 
-   * Beholde den eksisterende kodestilen;
-   * Legge til nødvendige kommentarer;
-   * Om mulig, legge ved enkle tester eller bruksanvisninger;
-5. Send inn endringer via PR, og forklar i beskrivelsen:
+* Behold original kodestil;
+* Legg til nødvendige kommentarer;
+* Hvis mulig, legg ved enkle tester eller bruksanvisninger;
+5. Send inn endringer via PR, og beskriv i beskrivelsen:
 
-   * Formålet med endringene;
-   * Katalogene / modulene / skriptene som kan bli påvirket;
-   * Om det innebærer ødeleggende endringer.
+* Formålet med endringen;
+* Kataloger / moduler / skript som kan påvirkes;
+* Om det innebærer brytende endringer.
 
 ---
 
-## Opphavsrett og lisensiering
+## 6. Opphavsrett og lisensavtale
 
 > **Vennlig påminnelse:**
-> Opphavsretts- og lisensvilkårene er utformet for å beskytte de legitime rettighetene og interessene til prosjektet, forfatterne, bidragsyterne og spillerne, og for å unngå misforståelser som følge av „stilltiende avtaler" eller „standardantagelser". Les dem nøye.
-> Opphavsrett og lisensiering reguleres av innholdet i README.md-filen; denne delen gir kun en mer tilgjengelig beskrivelse.
+> Opphavsretts- og lisensavtalen er for å beskytte prosjektets, forfatternes, bidragsyternes og spillernes rettigheter, og unngå misforståelser på grunn av "stilltiende" eller "forutsetninger". Vennligst les nøye.
+> Opphavsrett og lisens er basert på innholdet i README.md-filen; denne delen gir bare en mer forståelig beskrivelse.
 
-### 1. Grunnprinsipp: Du beholder opphavsretten, samtidig som du lisensierer prosjektet til å bruke ditt verk
+### 6.1 Grunnleggende prinsipp: Du beholder opphavsretten, samtidig som du gir prosjektet lisens til å bruke
 
-* Du har fortsatt opphavsretten til innholdet du skaper (oversettelser, bilder, skript/programmer osv.);
-* Men når dette innholdet er sendt inn til dette prosjektet og akseptert (slått sammen),
-  godtar du å lisensiere andre til å bruke dette innholdet under den åpen kildekode-/delte lisensen som er vedtatt av dette prosjektet.
+* Du beholder fortsatt opphavsretten til innhold du har laget (oversettelser, bilder, skript/programmer osv.);
+* Men etter at du har sendt inn dette innholdet til prosjektet og det blir akseptert (sammenslått), samtykker du i å lisensiere det til andre i henhold til prosjektets åpen kildekode/deling-lisensavtale.
 
 Dette betyr:
 
-* Du **kan fortsatt** fortsette å bruke og vise ditt verk andre steder;
-* Men du **kan ikke**, etter at ditt bidrag er slått sammen, kreve at dette prosjektet eller andre brukere som rettmessig har fått verket, „tilbakekaller lisensen" eller „sletter historiske versjoner".
+* Du **kan fortsatt** bruke og vise dine egne verk andre steder;
+* Men du **kan ikke** kreve at prosjektet eller andre brukere som allerede har lovlig fått verket, "trekker tilbake lisensen" eller "sletter historiske versjoner" etter at bidraget er sammenslått.
 
-### 2. Lisensiering av tekster, bilder og lignende innhold (CC BY-NC-SA 4.0)
+### 6.2 Lisens for tekst, bilder og annet innhold (CC BY-NC-SA 4.0)
 
 For følgende innhold du sender inn:
 
-* Oversettelser av spilltekster, revisjoner og korrektur;
-* Prosjektdokumentasjon og forklarende tekster;
-* Bilder og kunstneriske ressurser laget spesielt for dette prosjektet;
+* Oversettelse, forbedring og korrekturlesing av spilltekster;
+* Prosjektdokumentasjon, forklarende tekster;
+* Bilder og kunstressurser spesielt laget for dette prosjektet;
 
-Når det er akseptert og slått sammen i dette repositoriet, anses du for å ha godtatt at:
+Når de er akseptert og sammenslått i dette repositoriet, anses det som at du samtykker til:
 
-1. Dette innholdet er lisensiert under **Navngivelse-IkkeKommersiell-DelPåSammeVilkår 4.0 Internasjonal**
-   (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, forkortet **CC BY-NC-SA 4.0**);
-2. Project Babel og alle brukere som mottar dette innholdet kan, **under overholdelse av CC BY-NC-SA 4.0-vilkårene**:
+1. Dette innholdet lisensieres under **Navngivelse-IkkeKommersiell-DelPåSammeVilkår 4.0 Internasjonal** (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, forkortet **CC BY-NC-SA 4.0**);
+2. Project Babel og alle brukere som får tilgang til dette innholdet, kan, under forutsetning av **å overholde vilkårene i CC BY-NC-SA 4.0**:
+* Dele, kopiere og redistribuere dette innholdet;
+* Modifisere og gjenskape det i ikke-kommersielle formål;
+3. Du samtykker i at, innenfor rammen av gjeldende lov, er denne lisensen **ikke-eksklusiv, global, royaltyfri og ugjenkallelig**;
+4. Selv om du senere trekker deg eller slutter å delta i prosjektet, kan prosjektet fortsette å bruke og redistribuere innhold du har sendt inn og som er blitt sammenslått, i henhold til CC BY-NC-SA 4.0.
 
-   * Dele, kopiere og videredistribuere dette innholdet;
-   * Endre det og skape avledede verk for ikke-kommersielle formål;
-3. Du godtar at denne lisensen er **ikke-eksklusiv, global, royaltyfri og ugjenkallelig** i den grad det er tillatt etter gjeldende lov;
-4. Selv om du senere trekker deg eller slutter å delta i dette prosjektet, kan prosjektet fortsette å bruke og videredistribuere det relevante innholdet du har sendt inn og som er slått sammen, under CC BY-NC-SA 4.0.
+> Hvis du ikke aksepterer lisensbetingelsene ovenfor, vennligst ikke send inn tekst- eller bildebidrag til dette prosjektet,
+> eller kommuniser med prosjektets vedlikeholdere på forhånd for å bekrefte om samarbeid på andre måter er mulig.
 
-> Hvis du ikke godtar de ovennevnte lisensvilkårene, vennligst ikke send inn tekst- eller bildebidrag til dette prosjektet,
-> eller ta kontakt med prosjektets vedlikeholdere på forhånd for å bekrefte om samarbeid er mulig på annen måte.
+### 6.3 Lisens for skript og verktøykode (GPL-3.0)
 
-### 3. Lisensiering av skript og verktøykode (GPL-3.0)
-
-For følgende som du sender inn og som aksepteres:
+For det du sender inn og blir akseptert:
 
 * Automatiseringsskript;
-* Bygge-/eksportverktøy;
-* Annen programkode som brukes til å behandle dette oversettelsesprosjektet;
+* Bygg/eksportverktøy;
+* Annen programkode for behandling av dette oversettelsesprosjektet;
 
-I mangel av spesielle erklæringer anses du for å ha godtatt at:
+Med mindre annet er spesifisert, anses det at du godtar:
 
-1. Koden er lisensiert under **GPL-3.0** (GNU General Public License versjon 3);
-2. Prosjektets vedlikeholdere kan endre, slå sammen og distribuere den innenfor rammen tillatt av GPL-3.0;
-3. Du kan også fortsette andre prosjekter basert på den samme koden, så lenge du overholder GPL-3.0-vilkårene.
+1. Koden lisensieres under **GPL-3.0** (GNU General Public License versjon 3);
+2. Prosjektvedlikeholderne kan endre, slå sammen og distribuere den innenfor rammene av GPL-3.0;
+3. Du kan også fortsette med andre prosjekter basert på samme kode, så lenge du overholder vilkårene i GPL-3.0.
 
-For å unngå lisenskonflikter, prøv å:
+For å unngå lisenskonflikter, prøv så langt som mulig:
 
-* Ikke introdusere tredjepartskode som er **inkompatibel med GPL-3.0** uten forutgående bekreftelse;
-* Hvis du må referere til tredjepartsbiblioteker, angi tydelig deres kilde og lisens i PR-en og bekreft kompatibiliteten.
+* Ikke introduser tredjepartskode som er **inkompatibel med GPL-3.0** uten å ha bekreftet det;
+* Hvis du må referere til et tredjepartsbibliotek, vennligst oppgi tydelig kilden og lisensen i PR-en, og bekreft kompatibiliteten.
 
-### 4. Oppstrømsverk og opphavsrett til det originale spillet
+### 6.4 Opphavsrett for oppstrømsverk og originalspill
 
 Dette prosjektet er et **uoffisielt oversettelsesprosjekt** for mods relatert til *Project Zomboid*:
 
-* Opphavsretten til det originale spillet og hver mod tilhører deres respektive forfattere/utgivere;
-* Dette prosjektet omfatter kun opprettelse og organisering av tekstoversettelser, stilmessige justeringer og noen ledsagende ressurser;
-* Bidragsytere må ved innsending av innhold sørge for:
-
-  * Ikke å kopiere uautoriserte tredjepartsoversettelsestekster eller kunstneriske ressurser direkte;
-  * Å respektere rettighetene til originale forfattere og mod-forfattere, og ikke foreta krenkende videredistribusjon.
-
----
-
-## Kommunikasjon og samarbeid
-
-Hvis du har:
-
-* Spørsmål om lisensvilkårene;
-* Usikkerhet om hvorvidt bestemt innhold kan bidras;
-* Ønske om å lisensiere ditt verk på en spesiell måte (f.eks. kun ikke-kommersiell bruk uten tillatelse til bearbeidelse);
-
-Ta gjerne kontakt med prosjektets vedlikeholdere via:
-
-* Innsending av en Issue for diskusjon;
-* Andre offentlig tilgjengelige kontaktmetoder for vedlikeholderne.
-
-Vi vil gjøre vårt beste for å finne en løsning som balanserer prosjektets sunne utvikling samtidig som vi respekterer alle parters rettigheter og interesser.
+* Opphavsretten til originalspillet og hver mod tilhører deres respektive forfattere/utgivere;
+* Dette prosjektet arbeider kun med tekstoversettelse, språkforbedringer og et utvalg tilhørende ressurser;
+* Bidragsytere må sikre når de leverer innhold:
+* Ikke kopier uautoriserte tredjepartsoversatte tekster eller grafiske ressurser direkte;
+* Respekter rettighetene til originale forfattere og mod-forfattere, ikke foreta krenkende distribusjon.
 
 ---
 
-## Økonomisk støtte
+## 7. Kommunikasjon og samarbeid
 
-Under prosjektets drift, på grunn av tillegg av nye mods og tekstoppdateringer av eksisterende mods, må LLM API-et kalles kontinuerlig for oversettelse. For å begrense LLM-ens atferd kreves det i tillegg til de grunnleggende mod-tekstene en stor mengde prompt-innhold (inkludert grunnleggende prompter, oversettelsesregler, termtabeller, inn-/utdata-begrensninger, semantiske søkeresultater osv.), noe som forbruker langt flere tokens enn de originale tekstene. Derfor trenger prosjektet økonomisk støtte.
+Hvis du:
 
-Hvis du ønsker å gi økonomisk støtte, vennligst kontakt prosjektets vedlikeholdere. Tusen takk!
+* Har spørsmål om lisensvilkårene;
+* Er usikker på om et bestemt innhold kan bidras;
+* Ønsker å lisensiere arbeidet ditt på en spesiell måte (f.eks. kun tillate ikke-kommersiell bruk uten å tillate endringer);
+
+Velkommen til å kontakte prosjektvedlikeholderen på følgende måter:
+
+* Opprett en Issue for diskusjon;
+* Andre offentlig tilgjengelige kontaktmetoder for vedlikeholderen.
+
+Vi vil prøve å finne en løsning som balanserer prosjektets sunne utvikling samtidig som vi respekterer alles rettigheter.
 
 ---
 
-Igjen, takk for at du er villig til å bidra til dette prosjektet!
-Hvert bidrag du gir kommer flere spillere til gode!
+## 8. Økonomisk støtte
+
+Under prosjektdriften, på grunn av nye mods, oppdateringer av tekstinnhold i gamle mods osv., må LLM API kontinuerlig kalles for oversettelse. For å begrense LLM-oppførsel, i tillegg til grunnleggende mod-tekst, må store mengder prompt-innhold (inkludert grunnleggende prompt, oversettelsesregler, terminologiliste, input/output-begrensninger, semantiske søkeresultater osv.) også leveres. Dette innholdet vil forbruke langt flere tokens enn den opprinnelige teksten. Derfor trenger prosjektet økonomisk støtte.
+
+Hvis du er villig til å gi økonomisk støtte, vennligst kontakt prosjektvedlikeholderen. Tusen takk!
+
+---
+
+Takk igjen for at du er villig til å bidra til dette prosjektet!
+Ditt hvert bidrag vil gavne flere spillere!

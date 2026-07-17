@@ -1,209 +1,219 @@
 # Ghid de contribuție (CONTRIBUTING)
 
-> GitHub: [PZProjectBabel/project_babel](https://github.com/PZProjectBabel/project_babel)
-> 
-> [简体中文](contributing_zh-hans.md) | [English](contributing_en.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
+> [English](contributing_en.md) | [简体中文](contributing_zh-hans.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
 
 ---
 
-Vă mulțumim pentru disponibilitatea de a contribui la **Project Babel — proiectul de traducere automată cu LLM pentru modurile Project Zomboid**! Fie că este vorba de corectarea unei erori, adăugarea unei funcționalități, scrierea de șabloane de prompt sau furnizarea de traduceri de referință — fiecare contribuție contează!
+## Cuprins
 
-Apelarea API-ului LLM pentru traducere costă tokenuri. Pentru ca proiectul să poată funcționa sustenabil pe termen lung, sprijinul dumneavoastră generos este foarte apreciat!
-
-> ⚠️ **Notă importantă:**
-> Înainte de a trimite orice în acest depozit, vă rugăm să citiți și să înțelegeți secțiunea „Drepturi de autor și licențiere".
-> Prin trimitere și fuzionare, se consideră că ați acceptat termenii de licență corespunzători.
-
----
-
-## Înainte de a începe
-
-Vă rugăm să citiți `README.md` al proiectului pentru a înțelege:
-
-- Obiectivele generale și starea actuală a acestui proiect;
-- Cum folosesc jucătorii obișnuiți acest proiect (pentru propriile teste);
-- Detaliile tehnice ale proiectului.
+- [1. Înainte de a începe](#1-înainte-de-a-începe)
+- [2. Cum pot contribui?](#2-cum-pot-contribui)
+- [3. Oferirea de reguli de traducere, dicționare terminologice, îmbunătățirea prompt-urilor sistemului](#3-oferirea-de-reguli-de-traducere-dicționare-terminologice-îmbunătățirea-prompt-urilor-sistemului)
+- [4. Furnizarea corpusului de verificare manuală](#4-furnizarea-corpusului-de-verificare-manuală)
+- [5. Contribuții la pipeline și dezvoltarea uneltelor](#5-contribuții-la-pipeline-și-dezvoltarea-uneltelor)
+- [6. Drepturi de autor și acord de licențiere](#6-drepturi-de-autor-și-acord-de-licențiere)
+  - [6.1 Principii de bază: Păstrezi drepturile de autor și acorzi proiectului permisiunea de utilizare](#61-principii-de-bază-păstrezi-drepturile-de-autor-și-acorzi-proiectului-permisiunea-de-utilizare)
+  - [6.2 Licențierea textelor și imaginilor (CC BY-NC-SA 4.0)](#62-licențierea-textelor-și-imaginilor-cc-by-nc-sa-40)
+  - [6.3 Licențierea scripturilor și codului instrumentelor (GPL-3.0)](#63-licențierea-scripturilor-și-codului-instrumentelor-gpl-30)
+  - [6.4 Drepturile de autor ale lucrărilor upstream și ale jocului original](#64-drepturile-de-autor-ale-lucrărilor-upstream-și-ale-jocului-original)
+- [7. Comunicare și colaborare](#7-comunicare-și-colaborare)
+- [8. Suport financiar](#8-suport-financiar)
 
 ---
 
-## Cum pot contribui?
+Îți mulțumim foarte mult că ești dispus(ă) să contribui la **Project Babel - Proiectul de traducere automată LLM pentru mod-ul „Project Zomboid”**! Fie că este vorba de corectarea unei erori, adăugarea unei funcționalități noi, scrierea unui șablon de prompt, sau oferirea unei traduceri de referință!
 
-Puteți alege una sau mai multe modalități de participare în funcție de interesele și abilitățile dumneavoastră:
+Apelarea API-ului LLM pentru traducere necesită plata pentru tokeni. Pentru ca proiectul să poată funcționa stabil pe termen lung, sperăm să puteți contribui generos!
 
-- Furnizarea de reguli de traducere pentru o limbă țintă
-- Furnizarea unui dicționar terminologic pentru o limbă țintă
-- Îmbunătățirea prompturilor de sistem
-- Furnizarea de corpusuri de traducere corectate manual
-- Îmbunătățirea modulelor pipeline (.NET) și a scripturilor de automatizare
-- Raportarea problemelor și sugerarea de îmbunătățiri (prin Issues)
-- Oferirea de sprijin financiar pentru apelurile API LLM
-
-Mai jos sunt explicații pentru principalele scenarii de contribuție.
+> ⚠️ **Avertisment important:**
+> Înainte de a trimite orice conținut în acest depozit, asigurați-vă că ați citit și înțeles secțiunea „Acord privind drepturile de autor și licențierea”.
+> Odată ce conținutul este trimis și integrat, se consideră că sunteți de acord cu clauzele de licențiere corespunzătoare.
 
 ---
 
-## Furnizarea de reguli de traducere, dicționare terminologice și îmbunătățirea prompturilor de sistem
+## 1. Înainte de a începe
 
-Șabloanele de prompt ale pipeline-ului se află în `src/prompt_templates/`, cu următoarea structură:
-
-- `system_prompt_translate_engine.txt`: promptul de sistem global al motorului de traducere (comun tuturor limbilor);
-- `<cod_limbă>/translation_dictionary_<cod_limbă>.json`: dicționarul terminologic pentru limba respectivă;
-- `<cod_limbă>/translation_schema_<cod_limbă>.md`: regulile de traducere și constrângerile de stil pentru limba respectivă.
-
-Pași de contribuție:
-
-1. Creați un subdirector sub `src/prompt_templates/` pentru limba dumneavoastră și adăugați fișierele dicționar și de reguli;
-2. Dacă trebuie să ajustați comportamentul global de traducere, modificați `system_prompt_translate_engine.txt` (atenție: acest lucru afectează toate limbile);
-3. Testați local pentru a confirma rezultatele;
-4. Trimiteți un PR.
+Citiți mai întâi `README.md` al proiectului pentru a afla:
+- Obiectivul general și starea actuală a proiectului;
+- Cum pot folosi jucătorii obișnuiți acest proiect (pentru a-l testa singur);
+- Detalii tehnice ale proiectului.
 
 ---
 
-## Furnizarea de corpusuri corectate manual
+## 2. Cum pot contribui?
 
-Dacă sunteți autorul unui mod de traducere și sunteți dispus să furnizați corpusul dumneavoastră de traducere ca referință pentru LLM, vă rugăm să trimiteți o cerere printr-un Issue. Trebuie să furnizați următoarele informații:
+Poți participa în una sau mai multe moduri, în funcție de interesele și abilitățile tale:
 
-- ID-ul modului (Mod ID) al modului dumneavoastră de traducere și limba țintă;
-- O captură de ecran a paginii de administrare a modului de traducere pentru a dovedi calitatea de autor;
-- O declarație clară în Issue că sunteți dispus să furnizați corpusul de traducere;
-- Dacă există circumstanțe speciale (licență specială etc.), vă rugăm să le explicați;
-- Vă rugăm să vă asigurați că corpusul furnizat este de înaltă calitate.
+- Oferirea de reguli de traducere pentru limba țintă
+- Oferirea de dicționare terminologice pentru traducerea în limba țintă
+- Îmbunătățirea prompt-urilor sistemului
+- Oferirea de corpus de traducere revizuit manual
+- Îmbunătățirea modulelor pipeline-ului (.NET) și a scripturilor de automatizare
+- Raportarea problemelor, sugerarea de îmbunătățiri (în secțiunea Issues)
+- Oferirea de sprijin financiar pentru apelurile LLM
 
-Cu autorizația dumneavoastră, proiectul va adăuga modul dumneavoastră în lista de moduri de traducere de referință `config/ref_translation_mods.json`, iar pipeline-ul va sincroniza automat textele traduse ca corpusuri de referință RAG.
+Mai jos sunt câteva explicații pentru principalele scenarii de contribuție.
 
 ---
 
-## Contribuții la dezvoltarea pipeline-ului și a instrumentelor
+## 3. Oferirea de reguli de traducere, dicționare terminologice, îmbunătățirea prompt-urilor sistemului
 
-Automatizarea din acest proiect este împărțită în două părți:
+Șabloanele de prompt ale pipeline-ului se află în `src/prompt_templates/`, structura fiind următoarea:
 
-**Module pipeline (`src/`, C# / .NET 10)**: Conține 15 module executate secvențial, responsabile pentru fluxul complet de la descărcarea modurilor, extragerea textului, revizuirea conținutului, calculul embedding-urilor, regăsirea RAG până la traducerea LLM și ieșirea finală. Consultați [referința tehnică](../technical_reference/technical_reference_ro.md) pentru detalii.
+- `system_prompt_translate_engine.txt`: Prompt-ul de sistem al motorului global de traducere (comun pentru toate limbile);
+- `<cod limbă>/translation_dictionary_<cod limbă>.json`: Dicționarul terminologic pentru limba respectivă;
+- `<cod limbă>/translation_schema_<cod limbă>.md`: Regulile de traducere și constrângerile de stil pentru limba respectivă.
+
+Pași pentru contribuție:
+
+1. Creează un subdirector pentru limba ta în `src/prompt_templates/`, adaugă dicționarul terminologic și fișierul cu reguli de traducere;
+2. Dacă dorești să ajustezi comportamentul global de traducere, modifică `system_prompt_translate_engine.txt` (reține că afectează toate limbile);
+3. Testați local pentru a confirma efectul;
+4. Trimiteți PR.
+
+---
+
+## 4. Furnizarea corpusului de verificare manuală
+
+Dacă sunteți autorul unui mod de traducere și doriți să furnizați corpusul dvs. de traducere ca referință pentru traducerea LLM, vă rugăm să deschideți o cerere în Issue. Trebuie să furnizați următoarele informații:
+
+- Mod ID-ul modului dvs. de traducere și limba țintă a traducerii;
+- Captura de ecran a paginii de administrare a modului dvs. de traducere, pentru a demonstra că sunteți autorul modului;
+- Menționați clar în Issue că sunteți dispus să furnizați corpusul de traducere;
+- Dacă există circumstanțe speciale (licențiere specială etc.), vă rugăm să le specificați;
+- Vă rugăm să vă asigurați că corpusul furnizat are o calitate ridicată.
+
+Sub autorizația dvs., proiectul va adăuga modul dvs. în lista `config/ref_translation_mods.json` a modulelor de traducere de referință, iar pipeline-ul va sincroniza automat textul dvs. tradus ca corpus de referință RAG.
+
+---
+
+## 5. Contribuții la pipeline și dezvoltarea uneltelor
+
+Automatizarea acestui proiect este împărțită în două părți:
+
+**Modulul pipeline (`src/`, C# / .NET 10)**: Conține 15 module executate secvențial, responsabile pentru întregul flux de la inițializarea SteamCMD, descărcarea modulelor, extragerea textului, revizuirea conținutului, calcularea Embedding-urilor, căutarea RAG până la traducerea LLM și ieșirea finală. Vezi [Referință tehnică](../technical_reference/technical_reference_ro.md).
 
 **Scripturi auxiliare (`.github/`)**: Utilizate pentru automatizarea GitHub.
 
-Dacă doriți să:
+Dacă doriți:
 
-* Corectați erori în modulele pipeline sau scripturile existente;
-* Adăugați funcționalități sau module noi la pipeline;
+* Remediați bug-urile în modulele sau scripturile pipeline existente;
+* Adăugați funcționalități noi sau module noi la pipeline;
 * Optimizați performanța sau structura codului;
-* Îmbunătățiți șabloanele de prompt sau strategiile RAG;
+* Îmbunătățiți șabloanele prompt sau strategia RAG;
 
-Puteți urma acești pași:
+Puteți urma următorii pași:
 
-1. Faceți fork la acest depozit și clonați-l local;
-2. Creați o ramură nouă din cea mai recentă ramură;
-3. Modificați sau adăugați fișiere în directoarele corespunzătoare:
-   - Modificări module pipeline → `src/<nume_modul>/`;
-   - Modificări scripturi → `scripts/`;
-   - Modificări șabloane prompt → `src/prompt_templates/`;
-4. Înainte de trimitere, încercați să:
+1. Forkați acest depozit și clonați-l local;
+2. Creați o ramură nouă pe baza celei mai recente ramuri;
+3. Modificați sau adăugați fișiere în directorul corespunzător:
+- Modificarea modulelor pipeline → `src/<nume_modul>/`;
+- Modificarea scripturilor → `scripts/`;
+- Modificarea șabloanelor Prompt → `src/prompt_templates/`;
+4. Înainte de a trimite, încercați pe cât posibil:
 
-   * Păstrați stilul de cod existent;
-   * Adăugați comentariile necesare;
-   * Dacă este posibil, atașați teste simple sau instrucțiuni de utilizare;
-5. Trimiteți modificările prin PR, explicând în descriere:
+* Păstrați stilul original al codului;
+* Adăugați comentarii necesare;
+* Dacă este posibil, atașați teste simple sau instrucțiuni de utilizare;
+5. Trimiteți modificările prin PR și explicați în descriere:
 
-   * Scopul modificărilor;
-   * Directoarele / modulele / scripturile care pot fi afectate;
-   * Dacă implică modificări cu rupere de compatibilitate.
+* Scopul modificării;
+* Directoarele/modulele/scripturile posibil afectate;
+* Dacă implică modificări de tip breaking change.
 
 ---
 
-## Drepturi de autor și licențiere
+## 6. Drepturi de autor și acord de licențiere
 
-> **Memento amical:**
-> Termenii privind drepturile de autor și licențiere sunt concepuți pentru a proteja drepturile și interesele legitime ale proiectului, autorilor, contribuitorilor și jucătorilor și pentru a evita neînțelegerile care decurg din „acorduri tacite" sau „prezumții implicite". Vă rugăm să le citiți cu atenție.
-> Drepturile de autor și licențierea sunt guvernate de conținutul fișierului README.md; această secțiune oferă doar o descriere mai accesibilă.
+> **Notă importantă:**
+> Acordul privind drepturile de autor și licențierea are scopul de a proteja drepturile legale ale proiectului, autorilor, contribuitorilor și jucătorilor, evitând neînțelegerile cauzate de „convenție tacită” sau „implicit”. Vă rugăm să citiți cu atenție.
+> Drepturile de autor și licențierea se bazează pe conținutul din fișierul README.md, această secțiune oferind doar o descriere mai accesibilă.
 
-### 1. Principiul de bază: Păstrați drepturile de autor, acordând în același timp proiectului licența de utilizare a operei dumneavoastră
+### 6.1 Principii de bază: Păstrezi drepturile de autor și acorzi proiectului permisiunea de utilizare
 
-* Dețineți în continuare drepturile de autor asupra conținutului pe care îl creați (traduceri, imagini, scripturi/programe etc.);
-* Cu toate acestea, odată ce acest conținut este trimis la acest proiect și acceptat (fuzionat),
-  sunteți de acord să licențiați altora utilizarea acestui conținut în baza licenței open-source/partajate adoptate de acest proiect.
+* Păstrezi în continuare drepturile de autor asupra conținutului creat de tine (traduceri, imagini, scripturi/programe etc.);
+* Dar, după ce trimiți aceste conținuturi în acest depozit și sunt acceptate (integrate), ești de acord să acorzi altora permisiunea de a le utiliza conform licenței open source/partajate a proiectului.
 
 Aceasta înseamnă:
 
-* **Puteți în continuare** să utilizați și să afișați opera dumneavoastră în altă parte;
-* Dar **nu puteți**, după fuzionarea contribuției dumneavoastră, să solicitați acestui proiect sau altor utilizatori care au obținut legal opera să „revoce licența" sau să „șteargă versiunile istorice".
+* Poți **în continuare** să folosești și să expui propriile lucrări în alte locuri;
+* Dar **nu poți** să ceri proiectului sau altor utilizatori care au obținut legal lucrările să „retragă autorizația” sau să „șteargă versiunile istorice” după ce contribuția ta a fost integrată.
 
-### 2. Licențierea textelor, imaginilor și conținutului similar (CC BY-NC-SA 4.0)
+### 6.2 Licențierea textelor și imaginilor (CC BY-NC-SA 4.0)
 
-Pentru următorul conținut pe care îl trimiteți:
+Pentru următoarele conținuturi pe care le trimiți:
 
-* Traduceri de texte de joc, revizuiri și corecturi;
-* Documentația proiectului și texte explicative;
-* Imagini și resurse artistice create special pentru acest proiect;
+* Traduceri ale textelor din joc, corecturi și îmbunătățiri;
+* Documentația proiectului, texte explicative;
+* Imagini, resurse artistice create special pentru acest proiect;
 
-Odată acceptat și fuzionat în acest depozit, se consideră că sunteți de acord că:
+Odată ce sunt acceptate și integrate în acest depozit, se consideră că ești de acord:
 
-1. Acest conținut este licențiat sub **Atribuire-Necomercial-Distribuire în Condiții Identice 4.0 Internațional**
-   (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, prescurtat **CC BY-NC-SA 4.0**);
-2. Project Babel și toți utilizatorii care primesc acest conținut pot, **cu respectarea termenilor CC BY-NC-SA 4.0**:
+1. Aceste conținuturi sunt licențiate sub **Atribuire-Necomercial-Distribuire în condiții identice 4.0 Internațional** (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, prescurtat **CC BY-NC-SA 4.0**);
+2. Project Babel și toți utilizatorii care obțin aceste conținuturi pot, cu condiția **respectării termenilor CC BY-NC-SA 4.0**:
+* Să partajeze, copieze și redistribuie aceste conținuturi;
+* Să le modifice și să creeze lucrări derivate în scopuri necomerciale;
+3. Ești de acord ca, în limita permisă de legea aplicabilă, această licență să fie **neexclusivă, mondială, fără redevențe și irevocabilă**;
+4. Chiar dacă te retragi sau încetezi participarea la acest proiect în viitor, proiectul poate continua să utilizeze și să redistribuie conținuturile pe care le-ai trimis și care au fost integrate, în conformitate cu CC BY-NC-SA 4.0.
 
-   * Să partajeze, să copieze și să redistribuie acest conținut;
-   * Să îl modifice și să creeze opere derivate în scopuri necomerciale;
-3. Sunteți de acord că această licență este **neexclusivă, la nivel mondial, gratuită și irevocabilă** în măsura permisă de legea aplicabilă;
-4. Chiar dacă ulterior vă retrageți sau încetați să participați la acest proiect, proiectul poate continua să utilizeze și să redistribuie conținutul relevant pe care l-ați trimis și care a fost fuzionat, în baza CC BY-NC-SA 4.0.
+> Dacă nu acceptați modul de licențiere de mai sus, vă rugăm să nu trimiteți contribuții de tip text sau imagini către acest proiect,
+> sau discutați în prealabil cu întreținătorul proiectului pentru a confirma dacă se poate colabora în alt mod.
 
-> Dacă nu acceptați termenii de licență de mai sus, vă rugăm să nu trimiteți contribuții de text sau imagini la acest proiect,
-> sau comunicați în prealabil cu responsabilii proiectului pentru a confirma dacă este posibilă colaborarea în alt mod.
+### 6.3 Licențierea scripturilor și codului instrumentelor (GPL-3.0)
 
-### 3. Licențierea scripturilor și a codului instrumentelor (GPL-3.0)
-
-Pentru următoarele pe care le trimiteți și sunt acceptate:
+Pentru cele trimise și acceptate:
 
 * Scripturi de automatizare;
-* Instrumente de build/export;
-* Alt cod de program utilizat pentru procesarea acestui proiect de traducere;
+* Instrumente de construcție/export;
+* Alte coduri de program pentru acest proiect de localizare;
 
-În absența unor declarații speciale, se consideră că sunteți de acord că:
+În lipsa unei declarații speciale, se consideră că ești de acord:
 
-1. Codul este licențiat sub **GPL-3.0** (GNU General Public License versiunea 3);
-2. Responsabilii proiectului îl pot modifica, fuziona și distribui în limitele permise de GPL-3.0;
-3. Puteți continua și alte proiecte bazate pe același cod, atâta timp cât respectați termenii GPL-3.0.
+1. Codul este licențiat sub **GPL-3.0** (Licența Publică Generală GNU versiunea 3);
+2. Întreținătorii proiectului pot modifica, îmbina și distribui codul în limitele permise de GPL-3.0;
+3. Poți, de asemenea, continua alte proiecte pe baza aceluiași cod, cu condiția respectării termenilor GPL-3.0.
 
-Pentru a evita conflictele de licență, încercați să:
+Pentru a evita conflictele de licențiere, te rugăm să:
 
-* Nu introduceți cod terț **incompatibil cu GPL-3.0** fără confirmare prealabilă;
-* Dacă trebuie să faceți referire la biblioteci terțe, indicați clar sursa și licența acestora în PR și confirmați compatibilitatea.
+* Nu introduceți cod terț **incompatibil cu GPL-3.0** fără a verifica în prealabil;
+* Dacă este necesară utilizarea unei biblioteci terțe, specificați clar în PR sursa și licența acesteia și confirmați compatibilitatea.
 
-### 4. Operele originale și drepturile de autor ale jocului original
+### 6.4 Drepturile de autor ale lucrărilor upstream și ale jocului original
 
-Acest proiect este un proiect de **traducere neoficială** pentru modurile legate de *Project Zomboid*:
+Acest proiect este un proiect de **traducere neoficială** a unor moduri pentru *Project Zomboid*:
 
-* Drepturile de autor ale jocului original și ale fiecărui mod aparțin autorilor/editorilor respectivi;
-* Acest proiect implică doar crearea și organizarea traducerilor de text, ajustărilor stilistice și a unor resurse auxiliare;
-* Contribuitorii, la trimiterea conținutului, trebuie să se asigure:
-
-  * Să nu copieze direct texte de traducere sau resurse artistice terțe neautorizate;
-  * Să respecte drepturile autorilor originali și ale autorilor de moduri și să nu efectueze redistribuiri care încalcă drepturile.
-
----
-
-## Comunicare și colaborare
-
-Dacă aveți:
-
-* Întrebări despre termenii de licență;
-* Incertitudini cu privire la posibilitatea de a contribui cu un anumit conținut;
-* Dorința de a licenția opera dumneavoastră într-un mod special (de exemplu, doar utilizare necomercială fără adaptare permisă);
-
-Nu ezitați să contactați responsabilii proiectului prin:
-
-* Trimiterea unui Issue pentru discuție;
-* Alte metode de contact publice ale responsabililor.
-
-Vom face tot posibilul pentru a găsi o soluție care să echilibreze dezvoltarea sănătoasă a proiectului, respectând în același timp drepturile și interesele tuturor părților.
+* Drepturile de autor ale jocului original și ale fiecărui mod aparțin autorilor/deținătorilor respectivi;
+* Acest proiect creează și organizează doar traduceri, ajustări stilistice și o parte din resursele auxiliare;
+* Contribuitorii trebuie să se asigure, la trimiterea conținutului, că:
+* Nu copiază direct texte sau resurse grafice de localizare terță neautorizată;
+* Respectă drepturile autorilor originali și ale autorilor de moduri, nefăcând distribuiri încălcătoare.
 
 ---
 
-## Sprijin financiar
+## 7. Comunicare și colaborare
 
-În timpul funcționării proiectului, din cauza adăugării de noi moduri și a actualizărilor de text ale modurilor existente, este necesară apelarea continuă a API-ului LLM pentru traducere. Pentru a limita comportamentul LLM, pe lângă textele de bază ale modurilor, este necesară o cantitate mare de conținut de prompt (inclusiv prompturi de bază, reguli de traducere, tabele terminologice, restricții de intrare/ieșire, rezultate ale căutării semantice etc.), ceea ce consumă mult mai multe tokenuri decât textele originale. Prin urmare, proiectul are nevoie de sprijin financiar.
+Dacă ai întrebări referitoare la:
 
-Dacă doriți să oferiți sprijin financiar, vă rugăm să contactați responsabilii proiectului. Vă mulțumim foarte mult!
+* Clauzele de licențiere;
+* Incertitudini privind posibilitatea de a contribui cu un anumit conținut;
+* Dorința de a-ți licenția lucrarea într-un mod special (de exemplu, doar pentru uz necomercial, fără a permite adaptări etc.);
+
+Te rugăm să contactezi întreținătorii proiectului prin:
+
+* Deschiderea unui Issue pentru discuții;
+* Alte metode de contact oferite public de către întreținători.
+
+Vom încerca, pe cât posibil, să găsim o soluție care să respecte drepturile tuturor părților, asigurând în același timp dezvoltarea sănătoasă a proiectului.
 
 ---
 
-Încă o dată, vă mulțumim pentru disponibilitatea de a contribui la acest proiect!
-Fiecare contribuție pe care o faceți aduce beneficii mai multor jucători!
+## 8. Suport financiar
+
+Pe parcursul derulării proiectului, datorită adăugării de noi moduri și actualizării conținutului textelor modurilor vechi, este necesară apelarea continuă la API-ul LLM pentru traducere. Pentru a constrânge comportamentul LLM, pe lângă textele de bază ale modurilor, trebuie furnizat și un volum mare de conținut prompt (inclusiv prompturi de bază, reguli de traducere, glosare, constrângeri de intrare/ieșire, rezultate ale interogărilor semantice etc.), care consumă mult mai multe tokenuri decât textul original. Prin urmare, proiectul are nevoie de sprijin financiar.
+
+Dacă dorești să oferi sprijin financiar, te rugăm să contactezi întreținătorii proiectului. Mulțumim mult!
+
+---
+
+Încă o dată, îți mulțumim că ești dispus să contribui la acest proiect!
+Fiecare contribuție a ta va face ca mai mulți jucători să beneficieze!

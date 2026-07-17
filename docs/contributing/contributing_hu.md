@@ -1,209 +1,219 @@
-# Közreműködési útmutató (CONTRIBUTING)
+# Hozzájárulási Útmutató (CONTRIBUTING)
 
-> GitHub: [PZProjectBabel/project_babel](https://github.com/PZProjectBabel/project_babel)
-> 
-> [简体中文](contributing_zh-hans.md) | [English](contributing_en.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
+> [English](contributing_en.md) | [简体中文](contributing_zh-hans.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
 
 ---
 
-Köszönjük, hogy hajlandó hozzájárulni a **Project Babel — a Project Zomboid modok LLM-alapú automatikus fordítási projektjéhez**! Legyen szó hibajavításról, új funkció hozzáadásáról, prompt sablonok írásáról vagy referenciafordítások biztosításáról — minden hozzájárulás számít!
+## Tartalomjegyzék
 
-Az LLM API fordításhoz való hívása tokenekbe kerül. Annak érdekében, hogy a projekt hosszú távon fenntarthatóan működjön, nagylelkű támogatását nagyra értékeljük!
+- [1. Kezdés előtt](#1-kezdés-előtt)
+- [2. Hogyan járulhatok hozzá?](#2-hogyan-járulhatok-hozzá)
+- [3. Fordítási szabályok, szótár, rendszerprompt fejlesztése](#3-fordítási-szabályok-szótár-rendszerprompt-fejlesztése)
+- [4. Kézzel ellenőrzött korpusz biztosítása](#4-kézzel-ellenőrzött-korpusz-biztosítása)
+- [5. Csővezeték- és eszközfejlesztési hozzájárulás](#5-csővezeték--és-eszközfejlesztési-hozzájárulás)
+- [6. Szerzői jogok és licenc megállapodás](#6-szerzői-jogok-és-licenc-megállapodás)
+  - [6.1 Alapelv: Te megtartod a szerzői jogokat, és egyidejűleg felhatalmazod a projektet a felhasználásra](#61-alapelv-te-megtartod-a-szerzői-jogokat-és-egyidejűleg-felhatalmazod-a-projektet-a-felhasználásra)
+  - [6.2 Szövegek és képek engedélyezése (CC BY-NC-SA 4.0)](#62-szövegek-és-képek-engedélyezése-cc-by-nc-sa-40)
+  - [6.3 Szkriptek és eszközkódok engedélyezése (GPL-3.0)](#63-szkriptek-és-eszközkódok-engedélyezése-gpl-30)
+  - [6.4 Felsőbb művek és az eredeti játék szerzői joga](#64-felsőbb-művek-és-az-eredeti-játék-szerzői-joga)
+- [7. Kommunikáció és együttműködés](#7-kommunikáció-és-együttműködés)
+- [8. Pénzügyi támogatás](#8-pénzügyi-támogatás)
+
+---
+
+Nagyon köszönjük, hogy készen állsz hozzájárulni a **Project Babel - Zomboid mod LLM automatikus fordító projekt**-hez! Legyen szó hibajavításról, új funkció hozzáadásáról, prompt sablon írásáról, vagy referenciául szolgáló fordításról!
+
+A LLM API hívása tokenekért fizetős, hogy a projekt hosszú távon stabilan működhessen, reméljük, nagylelkűen támogatsz minket!
 
 > ⚠️ **Fontos figyelmeztetés:**
-> Mielőtt bármit beküldene ebbe a tárolóba, feltétlenül olvassa el és értse meg a „Szerzői jog és licencelés" részt.
-> A beküldéssel és egyesítéssel Ön elfogadja a megfelelő licencfeltételeket.
+> Mielőtt bármit beküldesz ebbe a tárolóba, feltétlenül olvasd el és értsd meg a "Szerzői jogok és licencszerződés" szakaszt.
+> Ha beküldésre és beolvasztásra kerül, azzal elfogadod a vonatkozó licencfeltételeket.
 
 ---
 
-## Mielőtt elkezdené
+## 1. Kezdés előtt
 
-Kérjük, olvassa el a projekt `README.md` fájlját, hogy megértse:
-
-- A projekt átfogó céljait és jelenlegi állapotát;
-- Hogyan használják a hétköznapi játékosok ezt a projektet (saját tesztjeihez);
+Először olvasd el a projekt `README.md` fájlját, hogy megismerd:
+- A projekt átfogó célját és jelenlegi állapotát;
+- Hogyan használhatják a hétköznapi játékosok a projektet (hogy magad is tesztelhesd);
 - A projekt technikai részleteit.
 
 ---
 
-## Hogyan járulhatok hozzá?
+## 2. Hogyan járulhatok hozzá?
 
-Érdeklődése és készségei alapján egy vagy több módon is részt vehet:
+Érdeklődésed és képességeid alapján választhatsz egy vagy több módot a részvételre:
 
-- Fordítási szabályok biztosítása egy célnyelvhez
-- Terminológiai szótár biztosítása egy célnyelvhez
-- A rendszerpromptok javítása
-- Manuálisan javított fordítási korpuszok biztosítása
-- A pipeline modulok (.NET) és automatizálási szkriptek javítása
-- Problémák jelentése és fejlesztési javaslatok (Issue-kon keresztül)
-- Pénzügyi támogatás nyújtása az LLM API hívásokhoz
+- A célnyelv fordítási szabályainak biztosítása
+- A célnyelv fordítói szótárának biztosítása
+- A rendszer promptjainak fejlesztése
+- Ember által ellenőrzött fordítási szövegek biztosítása
+- A feldolgozó modul (.NET) és automatizálási szkriptek fejlesztése
+- Problémák jelentése, javaslatok tétele (az Issues-ben kifejtve)
+- Anyagi támogatás nyújtása a LLM hívásokhoz
 
-Az alábbiakban a fő hozzájárulási forgatókönyvek magyarázata található.
-
----
-
-## Fordítási szabályok, terminológiai szótárak biztosítása és a rendszerpromptok javítása
-
-A pipeline prompt sablonjai a `src/prompt_templates/` mappában találhatók, a következő struktúrával:
-
-- `system_prompt_translate_engine.txt`: a globális fordítómotor rendszerpromptja (minden nyelv közös);
-- `<nyelvkód>/translation_dictionary_<nyelvkód>.json`: az adott nyelv terminológiai szótára;
-- `<nyelvkód>/translation_schema_<nyelvkód>.md`: az adott nyelv fordítási szabályai és stíluskorlátai.
-
-Hozzájárulási lépések:
-
-1. Hozzon létre egy alkönyvtárat a `src/prompt_templates/` alatt a nyelvéhez, és adja hozzá a szótár- és szabályfájlokat;
-2. Ha módosítania kell a globális fordítási viselkedést, módosítsa a `system_prompt_translate_engine.txt` fájlt (figyelem: ez minden nyelvet érint);
-3. Tesztelje helyben az eredmények megerősítéséhez;
-4. Küldjön be egy PR-t.
+Az alábbiakban röviden ismertetjük a főbb hozzájárulási területeket.
 
 ---
 
-## Manuálisan javított korpuszok biztosítása
+## 3. Fordítási szabályok, szótár, rendszerprompt fejlesztése
 
-Ha Ön egy fordítási mod szerzője, és hajlandó biztosítani fordítási korpuszát LLM fordítási referenciaként, kérjük, nyújtson be kérelmet Issue-n keresztül. A következő információkat kell megadnia:
+A feldolgozó prompt sablonjai a `src/prompt_templates/` könyvtárban találhatók, szerkezetük a következő:
 
-- A fordítási mod Mod ID-ja és a célnyelv;
-- Képernyőkép a fordítási mod adminisztrációs oldaláról a szerzőség igazolására;
-- Egyértelmű nyilatkozat az Issue-ban, hogy hajlandó biztosítani a fordítási korpuszt;
-- Különleges körülmények esetén (különleges licenc stb.), kérjük, magyarázza el;
-- Kérjük, győződjön meg arról, hogy a biztosított korpusz magas színvonalú.
+- `system_prompt_translate_engine.txt`: Globális fordítórendszer rendszerprompt (minden nyelv közös);
+- `<nyelvkód>/translation_dictionary_<nyelvkód>.json`: Az adott nyelv szótára;
+- `<nyelvkód>/translation_schema_<nyelvkód>.md`: Az adott nyelv fordítási szabályai és stíluskorlátai.
 
-Az Ön engedélyével a projekt hozzáadja a modját a referenciafordítási modok listájához (`config/ref_translation_mods.json`), és a pipeline automatikusan szinkronizálja a lefordított szövegeit RAG referencia korpuszként.
+A hozzájárulás lépései:
 
----
-
-## Pipeline és eszközfejlesztési hozzájárulások
-
-A projekt automatizálása két részre oszlik:
-
-**Pipeline modulok (`src/`, C# / .NET 10)**: 15 szekvenciálisan végrehajtott modult tartalmaz, amelyek a modok letöltésétől, a szöveg kinyerésétől, a tartalom ellenőrzésétől, az embedding számítástól, a RAG visszakereséstől az LLM fordításig és a végső kimenetig terjedő teljes munkafolyamatért felelnek. A részletekért lásd a [műszaki referenciát](../technical_reference/technical_reference_hu.md).
-
-**Segéd szkriptek (`.github/`)**: A GitHub automatizáláshoz használatosak.
-
-Ha az alábbiakat szeretné:
-
-* Hibák javítása a meglévő pipeline modulokban vagy szkriptekben;
-* Új funkciók vagy modulok hozzáadása a pipeline-hoz;
-* A teljesítmény vagy a kódstruktúra optimalizálása;
-* A prompt sablonok vagy a RAG stratégiák javítása;
-
-A következő lépéseket követheti:
-
-1. Forkolja ezt a tárolót és klónozza helyben;
-2. Hozzon létre egy új ágat a legfrissebb ágból;
-3. Módosítsa vagy adja hozzá a fájlokat a megfelelő könyvtárakban:
-   - Pipeline modul változtatások → `src/<modul_név>/`;
-   - Szkript változtatások → `scripts/`;
-   - Prompt sablon változtatások → `src/prompt_templates/`;
-4. Beküldés előtt lehetőleg:
-
-   * Tartsa meg a meglévő kódstílust;
-   * Adja hozzá a szükséges megjegyzéseket;
-   * Ha lehetséges, csatoljon egyszerű teszteket vagy használati utasításokat;
-5. Küldje be a változtatásokat PR-en keresztül, és magyarázza el a leírásban:
-
-   * A változtatások célját;
-   * Az érintett könyvtárakat / modulokat / szkripteket;
-   * Hogy tartalmaz-e kompatibilitást törő változtatásokat.
+1. Hozz létre egy alkönyvtárat a nyelvek számára a `src/prompt_templates/` alatt, add hozzá a szótárt és a fordítási szabályfájlokat;
+2. Ha módosítani szeretnéd a globális fordítási viselkedést, szerkeszd a `system_prompt_translate_engine.txt` fájlt (figyelem: ez minden nyelvre hatással van);
+3. Helyi teszteléssel ellenőrizd a hatást;
+4. Nyújts be egy PR-t.
 
 ---
 
-## Szerzői jog és licencelés
+## 4. Kézzel ellenőrzött korpusz biztosítása
 
-> **Baráti emlékeztető:**
-> A szerzői jogi és licencfeltételek a projekt, a szerzők, a közreműködők és a játékosok jogos jogainak és érdekeinek védelmét szolgálják, valamint a „hallgatólagos megállapodásokból" vagy „alapértelmezett feltételezésekből" eredő félreértések elkerülését. Kérjük, figyelmesen olvassa el őket.
-> A szerzői jog és a licencelés a README.md fájl tartalma szerint szabályozott; ez a szakasz csak egy közérthetőbb leírást nyújt.
+Ha te egy fordítási mod készítője vagy, és hajlandó vagy biztosítani a fordítási korpuszodat LLM fordítási referenciaként, kérjük, indíts egy Issue-t. A következő információkat kell megadnod:
 
-### 1. Alapelv: Ön megtartja a szerzői jogot, miközben licenceli a projektet a műve használatára
+- A fordítómodulod Mod ID-ja és a fordítás célnyelve;
+- A fordítómodulod adminisztrációs oldalának képernyőképe, hogy igazolja, te vagy a mod szerzője;
+- Az Issue-ban egyértelműen jelezd, hogy hajlandó vagy biztosítani a fordítási korpuszt;
+- Ha különleges körülmények vannak (különleges engedélyek stb.), kérjük, jelezd;
+- Győződj meg róla, hogy a biztosított korpusz megfelelő minőségű.
 
-* Ön továbbra is birtokolja a szerzői jogot az Ön által létrehozott tartalom felett (fordítások, képek, szkriptek/programok stb.);
-* Azonban, miután ezt a tartalmat beküldte ebbe a projektbe és elfogadták (egyesítették),
-  Ön elfogadja, hogy másoknak licenceli e tartalom használatát a projekt által elfogadott nyílt forráskódú/megosztott licenc alapján.
+Az engedélyeddel a projekt felveszi a mododat a `config/ref_translation_mods.json` referenciaként szolgáló fordítási modok listájába, és a csővezeték automatikusan szinkronizálja a fordítási szövegedet RAG referenciakorpuszként.
+
+---
+
+## 5. Csővezeték- és eszközfejlesztési hozzájárulás
+
+A projekt automatizálása két részből áll:
+
+**Csővezeték-modul (`src/`, C# / .NET 10)**: 15 szekvenciálisan végrehajtott modult tartalmaz, amelyek a SteamCMD inicializálástól, a modok letöltésétől, a szövegkinyeréstől, a tartalomellenőrzéstől, az Embedding számítástól, a RAG kereséstől egészen a LLM fordításig és a végső kimenetig terjedő teljes folyamatért felelősek. Részletek: [technikai referencia](../technical_reference/technical_reference_hu.md).
+
+**Segéd szkriptek (`.github/`)**: a GitHub automatizálásához.
+
+Ha szeretnéd:
+
+* Kijavítani a meglévő csővezeték-modulok vagy szkriptek hibáit;
+* Új funkciókat vagy modulokat hozzáadni a csővezetékhez;
+* Optimalizálni a teljesítményt vagy a kód szerkezetét;
+* Javítani a prompt sablonokat vagy a RAG stratégiát;
+
+A következő lépéseket követheted:
+
+1. Fork-old ezt a tárolót és klónozd helyben;
+2. Hozz létre egy új ágat a legfrissebb ág alapján;
+3. Módosíts vagy adj hozzá fájlokat a megfelelő könyvtárakban:
+- Csővezeték-modul módosítása → `src/<modulnév>/`;
+- Szkript módosítása → `scripts/`;
+- Prompt sablon módosítása → `src/prompt_templates/`;
+4. Kérjük, a beküldés előtt lehetőség szerint:
+
+* Tartsd meg az eredeti kódstílust;
+* Adj hozzá szükséges megjegyzéseket;
+* Ha lehetséges, mellékelj egyszerű tesztelési vagy használati útmutatót;
+5. Nyújtsd be a módosításokat PR-en keresztül, és a leírásban jelezd:
+
+* a változtatás célját;
+* az érintett könyvtárakat/modulokat/scripteket;
+* hogy tartalmaz-e megszakító változtatást.
+
+---
+
+## 6. Szerzői jogok és licenc megállapodás
+
+> **Fontos megjegyzés:**
+> A szerzői jogi és licenc megállapodás célja, hogy védje a projekt, a szerzők, a közreműködők és a játékosok jogos érdekeit, elkerülve a félreértéseket, amelyek a „hallgatólagos egyetértésből” vagy „alapértelmezésből” adódhatnak. Kérjük, figyelmesen olvasd el.
+> A szerzői jogokra és licencekre vonatkozóan a README.md fájlban található tartalom az irányadó, ez a szakasz csak közérthetőbb leírást nyújt.
+
+### 6.1 Alapelv: Te megtartod a szerzői jogokat, és egyidejűleg felhatalmazod a projektet a felhasználásra
+
+* Saját alkotásaidra (fordítások, képek, szkriptek/programok stb.) továbbra is szerzői jogod van;
+* Azonban ha ezeket a tartalmakat benyújtod a projekthez és elfogadják (egyesítik), akkor beleegyezel, hogy a projekt által használt nyílt forráskódú/megosztási licenc alapján mások számára engedélyezed a felhasználást.
 
 Ez azt jelenti:
 
-* Ön **továbbra is** használhatja és megjelenítheti művét máshol;
-* De **nem követelheti** a hozzájárulás egyesítése után, hogy ez a projekt vagy más felhasználók, akik jogszerűen megszerezték a művet, „vonják vissza a licencet" vagy „töröljék a korábbi verziókat".
+* Továbbra **is használhatod** és bemutathatod a munkáidat más helyeken;
+* Azonban **nem követelheted** a projekt vagy más, jogszerűen hozzájutott felhasználók számára a „visszavonást” vagy a „történeti verziók törlését” a hozzájárulásod egyesítése után.
 
-### 2. Szövegek, képek és hasonló tartalom licencelése (CC BY-NC-SA 4.0)
+### 6.2 Szövegek és képek engedélyezése (CC BY-NC-SA 4.0)
 
-Az Ön által beküldött következő tartalomra:
+A következő benyújtott tartalmakra vonatkozóan:
 
-* Játékszövegek fordításai, stiláris javításai és korrektúrája;
-* Projektdokumentáció és magyarázó szövegek;
-* Kifejezetten ehhez a projekthez készített képek és művészeti erőforrások;
+* Játék szövegfordítások, finomítások és lektorálások;
+* Projekt dokumentáció, magyarázó szövegek;
+* Kifejezetten a projekthez készített képek, művészeti erőforrások;
 
-Amint elfogadták és egyesítették ebben a tárolóban, úgy tekintjük, hogy Ön elfogadja:
+Miután a tárhely elfogadta és egyesítette őket, úgy tekintjük, hogy beleegyezel:
 
-1. Ezek a tartalmak a **Nevezd meg! - Ne add el! - Így add tovább! 4.0 Nemzetközi**
-   (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, röviden **CC BY-NC-SA 4.0**) licenc alatt állnak;
-2. A Project Babel és minden felhasználó, aki megkapja ezt a tartalmat, a **CC BY-NC-SA 4.0 feltételeinek betartásával**:
+1. A tartalmak a **Nevezd meg! - Ne add el! - Így add tovább! 4.0 Nemzetközi** (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, röviden **CC BY-NC-SA 4.0**) licenc alá esnek;
+2. A Project Babel és minden felhasználó, aki hozzáfér ezekhez a tartalmakhoz, a **CC BY-NC-SA 4.0 feltételeinek betartásával**:
+* megoszthatja, másolhatja, továbboszthatja ezeket a tartalmakat;
+* nem kereskedelmi célból módosíthatja és újraalkothatja őket;
+3. Beleegyezel, hogy a licenc az alkalmazandó jog által megengedett mértékben **nem kizárólagos, világméretű, jogdíjmentes és visszavonhatatlan**;
+4. Még ha később kilépsz vagy beszünteted a projekthez való hozzájárulást, a projekt továbbra is használhatja és újra kiadhatja a CC BY-NC-SA 4.0 alapján azokat a tartalmakat, amelyeket benyújtottál és egyesítettek.
 
-   * Megoszthatja, másolhatja és továbbterjesztheti ezt a tartalmat;
-   * Módosíthatja és származékos műveket hozhat létre nem kereskedelmi célokra;
-3. Ön elfogadja, hogy a vonatkozó jog által megengedett mértékben ez a licenc **nem kizárólagos, világméretű, jogdíjmentes és visszavonhatatlan**;
-4. Még akkor is, ha később kilép vagy abbahagyja a részvételt ebben a projektben, a projekt továbbra is használhatja és továbbterjesztheti az Ön által beküldött és egyesített vonatkozó tartalmat a CC BY-NC-SA 4.0 alapján.
+> Ha nem fogadod el a fenti licencelési módot, ne nyújts be szöveges vagy képi jellegű hozzájárulást a projekthez,
+> vagy egyeztess előzetesen a projekt fenntartójával, hogy más módon lehetséges-e az együttműködés.
 
-> Ha nem fogadja el a fenti licencfeltételeket, kérjük, ne küldjön szöveges vagy képi hozzájárulást ehhez a projekthez,
-> vagy előzetesen egyeztessen a projekt karbantartóival, hogy más módon lehetséges-e az együttműködés.
+### 6.3 Szkriptek és eszközkódok engedélyezése (GPL-3.0)
 
-### 3. Szkriptek és eszközkód licencelése (GPL-3.0)
+Azokra a benyújtott és elfogadott tartalmakra vonatkozóan:
 
-Az Ön által beküldött és elfogadott következőkre:
+* Automatizációs szkriptek;
+* Építési/exportálási eszközök;
+* Egyéb programkódok, amelyek e lokalizációs projekt feldolgozására szolgálnak;
 
-* Automatizálási szkriptek;
-* Build/export eszközök;
-* A fordítási projekt feldolgozásához használt egyéb programkód;
+Külön nyilatkozat hiányában úgy tekintjük, hogy elfogadod:
 
-Külön nyilatkozat hiányában úgy tekintjük, hogy Ön elfogadja:
+1. A kód **GPL-3.0** (GNU Általános Nyilvános Licenc 3. verzió) alatt van licencelve;
+2. A projekt fenntartói a GPL-3.0 által engedélyezett keretek között módosíthatják, egyesíthetik és terjeszthetik azt;
+3. Te is folytathatsz más projekteket ugyanazon kód alapján, feltéve, hogy betartod a GPL-3.0 feltételeit.
 
-1. A kód **GPL-3.0** (GNU General Public License 3. verzió) licenc alatt áll;
-2. A projekt karbantartói módosíthatják, egyesíthetik és terjeszthetik a GPL-3.0 által megengedett kereteken belül;
-3. Ön is folytathat más projekteket ugyanazon kód alapján, amennyiben betartja a GPL-3.0 feltételeit.
+A licencütközések elkerülése érdekében lehetőség szerint:
 
-A licencütközések elkerülése érdekében lehetőleg:
+* Ne vezess be **GPL-3.0-val nem kompatibilis** harmadik féltől származó kódot megerősítés nélkül;
+* Ha valóban szükséges egy harmadik fél könyvtárának használata, a PR-ban világosan tüntesd fel annak forrását és licencét, és erősítsd meg a kompatibilitást.
 
-* Ne vezessen be **GPL-3.0-val nem kompatibilis** harmadik féltől származó kódot előzetes megerősítés nélkül;
-* Ha harmadik féltől származó könyvtárakra kell hivatkoznia, egyértelműen tüntesse fel azok forrását és licencét a PR-ben, és erősítse meg a kompatibilitást.
+### 6.4 Felsőbb művek és az eredeti játék szerzői joga
 
-### 4. Eredeti művek és az eredeti játék szerzői joga
+Ez a projekt a Project Zomboid modok **nem hivatalos fordítási** projektje:
 
-Ez a projekt a *Project Zomboid*hoz kapcsolódó modok **nem hivatalos fordítási** projektje:
-
-* Az eredeti játék és az egyes modok szerzői joga a megfelelő szerzőket/kiadókat illeti;
-* Ez a projekt csak a szövegfordítások, stiláris módosítások és néhány kísérő erőforrás létrehozását és rendszerezését foglalja magában;
-* A közreműködőknek a tartalom beküldésekor biztosítaniuk kell:
-
-  * Hogy ne másolják közvetlenül a jogosulatlan harmadik féltől származó fordítási szövegeket vagy művészeti erőforrásokat;
-  * Hogy tiszteletben tartsák az eredeti szerzők és a modszerzők jogait, és ne végezzenek jogsértő továbbterjesztést.
+* Az eredeti játék és az egyes modok szerzői joga a megfelelő szerzőiket/kiadóikat illeti;
+* Ez a projekt kizárólag a szöveg fordítására, finomítására és egyes kapcsolódó erőforrások létrehozására és rendezésére irányul;
+* A közreműködőknek a tartalom beküldésekor biztosítaniuk kell, hogy:
+* Ne másoljanak közvetlenül engedély nélküli harmadik féltől származó lokalizált szövegeket vagy grafikai erőforrásokat;
+* Tartsák tiszteletben az eredeti szerzők és modkészítők jogait, és ne terjesszenek jogellenesen.
 
 ---
 
-## Kommunikáció és együttműködés
+## 7. Kommunikáció és együttműködés
 
-Ha:
+Ha bármilyen kérdésed van:
 
-* Kérdései vannak a licencfeltételekkel kapcsolatban;
-* Bizonytalan abban, hogy egy bizonyos tartalom hozzájárulható-e;
-* Különleges módon szeretné licencelni a művét (pl. csak nem kereskedelmi használat, adaptáció nem engedélyezett);
+* Kérdésed van a licencfeltételekkel kapcsolatban;
+* Nem vagy biztos abban, hogy egy adott tartalom hozzájárulható-e;
+* Speciális módon szeretnéd licencelni a művedet (pl. csak nem kereskedelmi célú felhasználás engedélyezése, de nem engedélyezed a módosítást stb.);
 
-Forduljon bizalommal a projekt karbantartóihoz:
+Vedd fel a kapcsolatot a projekt fenntartóival a következő módokon:
 
-* Issue beküldése megbeszéléshez;
-* A karbantartók egyéb nyilvánosan elérhető kapcsolattartási módjai.
+* Nyújts be egy Issue-t a megbeszéléshez;
+* A fenntartók által nyilvánosan elérhető kapcsolattartási módok.
 
-Mindent megteszünk annak érdekében, hogy olyan megoldást találjunk, amely egyensúlyt teremt a projekt egészséges fejlődése és valamennyi fél jogainak és érdekeinek tiszteletben tartása között.
-
----
-
-## Pénzügyi támogatás
-
-A projekt működése során az új modok hozzáadása és a meglévő modok szövegfrissítései miatt folyamatosan hívni kell az LLM API-t a fordításhoz. Az LLM viselkedésének korlátozásához a modok alapszövegein kívül nagy mennyiségű prompt tartalomra van szükség (beleértve az alap promptokat, fordítási szabályokat, terminológiai táblákat, bemeneti/kimeneti korlátozásokat, szemantikus keresési eredményeket stb.), ami jóval több tokent fogyaszt, mint az eredeti szövegek. Ezért a projektnek pénzügyi támogatásra van szüksége.
-
-Ha pénzügyi támogatást szeretne nyújtani, kérjük, forduljon a projekt karbantartóihoz. Nagyon köszönjük!
+Igyekszünk a felek jogainak tiszteletben tartása mellett olyan megoldást találni, amely a projekt egészséges fejlődését is szolgálja.
 
 ---
 
-Még egyszer köszönjük, hogy hajlandó hozzájárulni ehhez a projekthez!
-Minden hozzájárulása több játékos javát szolgálja!
+## 8. Pénzügyi támogatás
+
+A projekt működése során, mivel új modok jelennek meg, régi modok szövegei frissülnek, folyamatosan szükséges az LLM API hívása a fordításhoz. A LLM viselkedésének szabályozásához az alapvető modszövegeken kívül nagy mennyiségű prompttartalomra is szükség van (beleértve az alap promptokat, fordítási szabályokat, szójegyzéket, bemeneti/kimeneti korlátozásokat, szemantikai lekérdezési eredményeket stb.), amelyek sokkal több tokent fogyasztanak, mint az eredeti szöveg. Ezért a projekt pénzügyi támogatást igényel.
+
+Ha hajlandó vagy pénzügyi támogatást nyújtani, kérjük, vedd fel a kapcsolatot a projekt fenntartóival. Nagyon köszönjük!
+
+---
+
+Még egyszer köszönjük, hogy hajlandó vagy hozzájárulni ehhez a projekthez!
+Minden hozzájárulásoddal több játékos profitál!

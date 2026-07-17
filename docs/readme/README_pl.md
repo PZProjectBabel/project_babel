@@ -1,172 +1,198 @@
-# Project Babel — Automatyczne tłumaczenie modów PZ przez LLM
+# Project Babel — Automatyczne tłumaczenie modów do Project Zomboid za pomocą LLM
 
-> [简体中文](../../README.md) | [English](README_en.md) <details><summary>Other Languages</summary>[العربية](README_ar.md) | [català](README_ca.md) | [繁體中文](README_zh-hant.md) | [čeština](README_cs.md) | [dansk](README_da.md) | [Deutsch](README_de.md) | [español](README_es.md) | [suomi](README_fi.md) | [français](README_fr.md) | [magyar](README_hu.md) | [Bahasa Indonesia](README_id.md) | [italiano](README_it.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Nederlands](README_nl.md) | [norsk](README_no.md) | [Tagalog](README_tl.md) | [português](README_pt.md) | [português do Brasil](README_pt-br.md) | [română](README_ro.md) | [русский](README_ru.md) | [ภาษาไทย](README_th.md) | [Türkçe](README_tr.md) | [українська](README_uk.md)</details>
-
-> ⚠️ **Uwaga:** To tłumaczenie nie jest jeszcze wspierane. Autorytatywna treść znajduje się w [wersji chińskiej](../../README.md).
+> [English](README_en.md) | [简体中文](../../README.md) <details><summary>Other Languages</summary>[العربية](README_ar.md) | [català](README_ca.md) | [繁體中文](README_zh-hant.md) | [čeština](README_cs.md) | [dansk](README_da.md) | [Deutsch](README_de.md) | [español](README_es.md) | [suomi](README_fi.md) | [français](README_fr.md) | [magyar](README_hu.md) | [Bahasa Indonesia](README_id.md) | [italiano](README_it.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Nederlands](README_nl.md) | [norsk](README_no.md) | [Tagalog](README_tl.md) | [polski](README_pl.md) | [português](README_pt.md) | [português do Brasil](README_pt-br.md) | [română](README_ro.md) | [русский](README_ru.md) | [ภาษาไทย](README_th.md) | [Türkçe](README_tr.md) | [українська](README_uk.md)</details>
 
 ---
 
-*Ten projekt tłumaczeniowy jest napędzany i utrzymywany przez narzędzie [Project Babel](https://github.com/PZProjectBabel/project_babel).*
+*Ten projekt tłumaczeniowy jest napędzany i utrzymywany przez zestaw narzędzi [Project Babel](https://github.com/PZProjectBabel/project_babel).*
 
 ---
 
 ## Spis treści
 
-- [Obsługiwane języki docelowe](#obsługiwane-języki-docelowe)
-- [Instalacja i użytkowanie](#instalacja-i-użytkowanie)
+- [Obsługiwane języki docelowe projektu](#obsługiwane-języki-docelowe-projektu)
+- [Jak zainstalować i używać](#jak-zainstalować-i-używać)
 - [Postęp tłumaczenia](#postęp-tłumaczenia)
-- [Współpraca](#współpraca)
-- [Narzędzia i struktura katalogów (dla deweloperów)](#narzędzia-i-struktura-katalogów-(dla-deweloperów))
+- [Jak przyczynić się](#jak-przyczynić-się)
+- [Narzędzia i struktura katalogów (dla deweloperów)](#narzędzia-i-struktura-katalogów-dla-deweloperów)
+  - [Katalog projektu](#katalog-projektu)
+  - [Moduły potoku (w kolejności wykonania)](#moduły-potoku-w-kolejności-wykonania)
+  - [Stos technologiczny](#stos-technologiczny)
 - [Prawa autorskie i licencja](#prawa-autorskie-i-licencja)
+  - [1. Tekst, obrazy i inne treści](#1-tekst-obrazy-i-inne-treści)
+  - [2. Programy, skrypty i inne treści developerskie](#2-programy-skrypty-i-inne-treści-developerskie)
 - [Podziękowania](#podziękowania)
-- [Oprogramowanie stron trzecich](#oprogramowanie-stron-trzecich)
+- [Programy innych firm](#programy-innych-firm)
 
 ---
 
-## Obsługiwane języki docelowe
+## Obsługiwane języki docelowe projektu
 
-| Język | Nazwa lokalna | Kod ISO | Kod w grze | Obsługiwany | Uwagi |
+| Język | Nazwa lokalna | Kod międzynarodowy | Kod w grze | Obsługiwany | Uwagi |
 |------|------|------|------|------|------|
-| Arabski | العربية | `ar` | `AR` | ❌ | Niewystarczające tokeny |
-| Kataloński | català | `ca` | `CA` | ❌ | Niewystarczające tokeny |
-| Tradycyjny chiński | 繁體中文 | `zh-hant` | `CH` | ❌ | Niewystarczające tokeny |
-| Uproszczony chiński | 简体中文 | `zh-hans` | `CN` | ✅ | |
-| Czeski | čeština | `cs` | `CS` | ❌ | Niewystarczające tokeny |
-| Duński | dansk | `da` | `DA` | ❌ | Niewystarczające tokeny |
-| Niemiecki | Deutsch | `de` | `DE` | ✅ | |
-| Angielski | English | `en` | `EN` | ✅ | |
-| Hiszpański | español | `es` | `ES` | ❌ | Niewystarczające tokeny |
-| Fiński | suomi | `fi` | `FI` | ❌ | Niewystarczające tokeny |
-| Francuski | français | `fr` | `FR` | ✅ | |
-| Węgierski | magyar | `hu` | `HU` | ❌ | Niewystarczające tokeny |
-| Indonezyjski | Bahasa Indonesia | `id` | `ID` | ❌ | Niewystarczające tokeny |
-| Włoski | italiano | `it` | `IT` | ❌ | Niewystarczające tokeny |
-| Japoński | 日本語 | `ja` | `JP` | ✅ | |
-| Koreański | 한국어 | `ko` | `KO` | ❌ | Niewystarczające tokeny |
-| Holenderski | Nederlands | `nl` | `NL` | ❌ | Niewystarczające tokeny |
-| Norweski | norsk | `no` | `NO` | ❌ | Niewystarczające tokeny |
-| Tagalski | Tagalog | `tl` | `PH` | ❌ | Niewystarczające tokeny |
-| Polski | polski | `pl` | `PL` | ❌ | Niewystarczające tokeny |
-| Portugalski (Portugalia) | português | `pt` | `PT` | ❌ | Niewystarczające tokeny |
-| Portugalski (Brazylia) | português do Brasil | `pt-br` | `PTBR` | ❌ | Niewystarczające tokeny |
-| Rumuński | română | `ro` | `RO` | ❌ | Niewystarczające tokeny |
-| Rosyjski | русский | `ru` | `RU` | ❌ | Niewystarczające tokeny |
-| Tajski | ภาษาไทย | `th` | `TH` | ❌ | Niewystarczające tokeny |
-| Turecki | Türkçe | `tr` | `TR` | ❌ | Niewystarczające tokeny |
-| Ukraiński | українська | `uk` | `UA` | ❌ | Niewystarczające tokeny |
+| arabski | العربية | `ar` | `AR` | ❌ | Niewystarczający limit tokenów |
+| kataloński | català | `ca` | `CA` | ❌ | Niewystarczający limit tokenów |
+| chiński tradycyjny | 繁體中文 | `zh-hant` | `CH` | ❌ | Niewystarczający limit tokenów |
+| chiński uproszczony | 简体中文 | `zh-hans` | `CN` | ✅ | |
+| czeski | čeština | `cs` | `CS` | ❌ | Niewystarczający limit tokenów |
+| duński | dansk | `da` | `DA` | ❌ | Niewystarczający limit tokenów |
+| niemiecki | Deutsch | `de` | `DE` | ✅ | |
+| angielski | English | `en` | `EN` | ✅ | |
+| hiszpański | español | `es` | `ES` | ❌ | Niewystarczający limit tokenów |
+| fiński | suomi | `fi` | `FI` | ❌ | Niewystarczający limit tokenów |
+| francuski | français | `fr` | `FR` | ✅ | |
+| węgierski | magyar | `hu` | `HU` | ❌ | Niewystarczający limit tokenów |
+| indonezyjski | Bahasa Indonesia | `id` | `ID` | ❌ | Niewystarczający limit tokenów |
+| włoski | italiano | `it` | `IT` | ❌ | Niewystarczający limit tokenów |
+| japoński | 日本語 | `ja` | `JP` | ✅ | |
+| koreański | 한국어 | `ko` | `KO` | ❌ | Niewystarczający limit tokenów |
+| niderlandzki | Nederlands | `nl` | `NL` | ❌ | Niewystarczający limit tokenów |
+| norweski | norsk | `no` | `NO` | ❌ | Niewystarczający limit tokenów |
+| tagalski | Tagalog | `tl` | `PH` | ❌ | Niewystarczający limit tokenów |
+| polski | polski | `pl` | `PL` | ❌ | Niewystarczający limit tokenów |
+| portugalski (Portugalia) | português | `pt` | `PT` | ❌ | Niewystarczający limit tokenów |
+| portugalski (Brazylia) | português do Brasil | `pt-br` | `PTBR` | ❌ | Niewystarczający limit tokenów |
+| rumuński | română | `ro` | `RO` | ❌ | Niewystarczający limit tokenów |
+| rosyjski | русский | `ru` | `RU` | ❌ | Niewystarczający limit tokenów |
+| tajski | ภาษาไทย | `th` | `TH` | ❌ | Niewystarczający limit tokenów |
+| Turecki | Türkçe | `tr` | `TR` | ❌ | Niewystarczający limit tokenów |
+| Ukraiński | українська | `uk` | `UA` | ❌ | Niewystarczający limit tokenów |
 
-**Łącznie**: 27 planowanych języków | **Obsługiwane**: 5 | **Oczekujące**: 22
+**Razem**: 27 języków planowanych | **Wspierane**: 5 | **Do wsparcia**: 22
 
 ---
 
-## Instalacja i użytkowanie
+## Jak zainstalować i używać
 
-Przewodnik dla graczy, którzy chcą używać pakietu tłumaczeniowego w grze.
+To jest przewodnik dla graczy, którzy chcą bezpośrednio użyć tego projektu tłumaczenia w grze.
 
-1. Przejdź na stronę Steam Workshop: [[B42]ProjectBabel](https://steamcommunity.com/sharedfiles/filedetails/?id=3759583822)
-2. Kliknij "Subskrybuj".
-3. Uruchom grę, włącz ten mod tłumaczeniowy w menu Mods.
-4. Tekst tłumaczenia z później załadowanych modów nadpisuje wcześniejsze, więc ten mod tłumaczeniowy musi być załadowany po modach rozgrywki.
-5. Miłej zabawy!
+1.  Odwiedź naszą stronę Steam Workshop: [[B42]Project Babel](https://steamcommunity.com/sharedfiles/filedetails/?id=3759583822)
+2.  Kliknij przycisk "Subskrybuj".
+3.  Uruchom grę i włącz ten mod tłumaczenia w menedżerze "Mody" w menu głównym gry.
+4.  Tłumaczenia modów włączonych później mają pierwszeństwo, nadpisując te z wcześniejszych modów, dlatego ten mod tłumaczenia powinien być włączony po modach funkcyjnych (najlepiej na końcu).
+5.  Ciesz się grą!
 
 ---
 
 ## Postęp tłumaczenia
 
-[➡️ Postęp tłumaczenia](../progress/progress_pl.md)
+**[➡️ Kliknij tutaj, aby zobaczyć postęp tłumaczenia](./docs/progress/progress_pl.md)**
 
 ---
 
-## Współpraca
+## Jak przyczynić się
 
-Zapraszamy do współpracy! Poprawki tłumaczeń, nowe funkcje, szablony promptów lub tłumaczenia referencyjne.
+Zapraszamy każdego do udziału, czy to poprawianie błędów, dodawanie nowych funkcji, pisanie szablonów promptów, czy też dostarczanie referencyjnych tłumaczeń!
 
-Wywołania API LLM do tłumaczenia wiążą się z kosztami tokenów. Twoje wsparcie pomaga projektowi działać w sposób zrównoważony!
+Korzystanie z API LLM do tłumaczenia wymaga płatności za tokeny. Aby projekt mógł działać stabilnie w dłuższej perspektywie, mamy nadzieję, że okażesz hojność!
 
-Read the [Contributing Guide](../contributing/contributing_pl.md) for details.
+Szczegóły znajdziesz w [Przewodniku kontrybucji](./docs/contributing/contributing_pl.md)
 
 ---
 
 ## Narzędzia i struktura katalogów (dla deweloperów)
 
-Ta sekcja jest przeznaczona dla programistów, którzy chcą zrozumieć wewnętrzne działanie automatyzacji projektu.
+Ta sekcja jest przeznaczona dla deweloperów, którzy chcą zrozumieć zasady automatyzacji projektu.
 
-### Katalogi projektu
+### Katalog projektu
 
 | Katalog | Opis |
 |------|------|
-| `src/` | Kod źródłowy potoku tłumaczeń .NET 10, 15 modułów |
-| `config/` | Konfiguracja potoku (LLM, Steam, parametry RAG itp.) |
-| `data/` | Dane runtime: metadane modów, embeddingi, pamięć podręczna |
-| `translation_ref/` | Tłumaczenia referencyjne jako kontekst LLM |
-| `base_game_keys/` | Klucze tłumaczeń gry podstawowej do deduplikacji |
-| `final_outputs/` | Końcowe wyjście w formacie moda PZ |
-| `docs/` | Dokumentacja: postęp, wkład, specyfikacje potoku |
-| `temp/` | Pliki tymczasowe potoku |
-| `src/prompt_templates/` | Szablony promptów LLM |
+| `src/` | Kod źródłowy potoku tłumaczenia .NET 10, zawiera 15 modułów |
+| `config/` | Pliki konfiguracyjne potoku (parametry LLM, Steam, RAG itp.) |
+| `data/` | Dane wykonawcze: metadane modów, embedding, pamięć podręczna tłumaczeń |
+| `translation_ref/` | Referencyjne dane tłumaczeń (np. mody autoryzowane przez As1), dostarczające LLM-owi referencji tłumaczeniowych |
+| `base_game_keys/` | Klucze tłumaczeń bazowej gry, używane do unikania nadpisywania oryginalnego tekstu |
+| `final_outputs/` | Wyjście końcowe: pakiet modów `project_babel/`, ikony `icons/` oraz opisy warsztatu `workshop_descriptions/` |
+| `docs/` | Dokumentacja projektu: raporty postępu, przewodnik kontrybucji, opis potoku |
+| `temp/` | Pliki tymczasowe potoku (osobny katalog na każde uruchomienie) |
+| `src/prompt_templates/` | Szablony promptów LLM (tłumaczenie/weryfikacja treści) |
 
-### Moduły potoku (kolejność wykonania)
+### Moduły potoku (w kolejności wykonania)
 
 | Krok | Moduł | Funkcja |
 |------|------|------|
-| 1 | `ConfigReader` | Załaduj konfigurację/sekrety/języki |
-| 2 | `RepoDataLoader` | Załaduj odniesienia i pamięć podręczną tłumaczeń |
-| 3 | `ModIdCollector` | Zbierz ID modów Workshop |
-| 4 | `ModInfoFetcher` | Pobierz metadane Steam |
-| 5 | `ModDownloader` | Pobierz mody przez steamcmd |
-| 6 | `ContentExtractor` | Analizuj pliki tłumaczeń → `TranslationEntry` |
-| 7 | `ContentChecker` | Przegląd bezpieczeństwa treści |
-| 8 | `EmbeddingFetcher` | Oblicz wektory osadzania tekstu |
-| 9 | `TranslationBatcher` | Utwórz partie tłumaczeń |
-| 10 | `RagContextRetriever` | Pobierz konteksty RAG |
-| 11 | `LLMTranslator` | Wykonaj tłumaczenie LLM |
-| 12 | `ResultWriter` | Zapisz do data/ i translation_ref/ |
-| 13 | `FinalOutputWriter` | Wygeneruj końcowe wyjście w formacie moda PZ |
-| 14 | `ProgressReporter` | Wygeneruj raporty postępu |
+| 1 | `ConfigReader` | Ładuje konfigurację/klucze/listę języków |
+| 2 | `RepoDataLoader` | Ładuje referencyjne tłumaczenia i pamięć podręczną tłumaczeń |
+| 3 | `ModIdCollector` | Zbiera ID modów z Warsztatu |
+| 4 | `ModInfoFetcher` | Pobiera metadane Steam |
+| 5 | `SteamCmdBootstrapper` | Przygotowuje środowisko uruchomieniowe steamcmd dla bieżącej platformy |
+| 6 | `ModDownloader` | Pobiera mody przez steamcmd |
+| 7 | `ContentExtractor` | Parsuje pliki tłumaczeń modów → `TranslationEntry` |
+| 8 | `ContentChecker` | Sprawdzanie bezpieczeństwa treści (narkotyki/pornografia/przemoc) |
+| 9 | `EmbeddingFetcher` | Oblicza wektory osadzeń (embedding) tekstu |
+| 10 | `TranslationBatcher` | Tworzy partie tłumaczeń niezależne od języka docelowego |
+| 11 | `RagContextRetriever` | Pobiera kontekst RAG (dokładne klucze + podobieństwo osadzeń) |
+| 12 | `LLMTranslator` | Wywołuje LLM do wykonania tłumaczenia |
+| 13 | `ResultWriter` | Zapisuje do data/ i translation_ref/ |
+| 14 | `FinalOutputWriter` | Generuje końcowe wyjście w formacie modów PZ |
+| 15 | `ProgressReporter` | Generuje raport postępu |
 
 ### Stos technologiczny
 
 - **Język**: C# (.NET 10)
 - **Platforma docelowa**: GitHub Actions Linux x64 runner
 - **Testy**: xUnit (Windows x64)
-- **LLM**: DeepSeek API (konfigurowalne)
-- **Embedding**: Wektoryzacja tekstu do wyszukiwania podobieństwa RAG
-- **Kontrola treści**: Wielopoziomowy audyt bezpieczeństwa oparty na LLM
+- **LLM**: DeepSeek API (konfigurowalny)
+- **Embedding**: Wektoryzacja tekstu do wyszukiwania podobieństw RAG
+- **Kontrola treści**: Wielopoziomowa kontrola bezpieczeństwa napędzana przez LLM
 
-Szczegółowa dokumentacja techniczna: [Pipeline TranslationEntry](../pipeline/translation_entry_pipeline_pl.md)
+Szczegółowe [techniczne odniesienie](./docs/technical_reference/technical_reference_pl.md).
 
 ---
 
 ## Prawa autorskie i licencja
 
-© 2025 Project Babel i wszyscy autorzy. Wszelkie prawa zastrzeżone.
+Treści tłumaczeń i powiązane obrazy tego projektu tłumaczeniowego zostały stworzone lub przerobione przez **Project Babel** oraz poszczególnych uczestników na podstawie oryginalnych modów do gry.
 
-### Treść (teksty, obrazy)
+© 2025 Project Babel i poszczególni autorzy. Wszelkie prawa zastrzeżone.
 
-Licencjonowane na **CC BY-NC-SA 4.0**.
+### 1. Tekst, obrazy i inne treści
 
-- **Uznanie autorstwa**: Wskaż modyfikacje oparte na "Project Babel", z linkami do repozytorium i Workshop
-- **Użycie niekomercyjne**: Użycie komercyjne zabronione
-- **Na tych samych warunkach**: Modyfikacje muszą być publikowane na tej samej licencji
+O ile nie zaznaczono inaczej, w tym repozytorium:
 
-### Kod
+- Tłumaczenia tekstu w grze, poprawki i korekty;
+Tłumaczenie dokumentacji projektu i tekstów w modach;
+Obrazy i zasoby graficzne stworzone specjalnie dla tego projektu
 
-Kod w `src/` jest objęty licencją **GPL-3.0**.
+wszystkie są licencjonowane na **Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach 4.0 Międzynarodowe** (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, w skrócie **CC BY-NC-SA 4.0**).
+
+Oznacza to, że możesz swobodnie udostępniać i modyfikować te treści, pod warunkiem przestrzegania następujących warunków:
+
+- **Uznanie autorstwa (BY)**: W widocznym miejscu podaj informację „Ten projekt tłumaczenia opiera się na pracy 『Project Babel』” i dołącz link do tego repozytorium oraz Steam Workshop `https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080`
+- **Użycie niekomercyjne (NC)**: Nie wolno wykorzystywać treści tego projektu ani ich adaptacji do żadnych bezpośrednich ani pośrednich celów komercyjnych (w tym między innymi płatnych pakietów, płatnych pobrań, udziału w zyskach z reklam itp.);
+- **Na tych samych warunkach (SA)**: Jeśli modyfikujesz lub tworzysz dzieła pochodne na podstawie treści tego projektu, musisz opublikować swoją zmodyfikowaną wersję na **tej samej licencji CC BY-NC-SA 4.0**.
+
+Więcej informacji na temat tej licencji można znaleźć pod adresem:
+<https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl>
+
+*Uwagi specjalne:*
+- *Zawartość folderu base_game_keys pochodzi z oryginalnej gry, prawa autorskie należą do jej twórców! Treść służy do zapobiegania nadpisywaniu kluczy tłumaczenia gry (deduplikacja)*
+- *Zawartość folderu translation_ref służy jako odniesienie tłumaczeniowe dla LLM, prawa autorskie należą do twórców poszczególnych modów!*
+
+### 2. Programy, skrypty i inne treści developerskie
+
+O ile w plikach źródłowych lub katalogach nie zaznaczono inaczej, kod programu w tym repozytorium używany do tworzenia/pakowania/przetwarzania treści lokalizacji (np. kod w katalogu `src/`) jest licencjonowany na **GNU General Public License wersja 3 (GPL-3.0)**.
+
+Pełne warunki znajdują się w pliku `LICENSE` w katalogu głównym (GPL-3.0) lub na stronie GNU: <https://www.gnu.org/licenses/gpl-3.0.html>.
 
 ---
 
 ## Podziękowania
 
-| Mod referencyjny | Autor | Strona |
-|------|------|------|
-| [B42]统一·中文汉化 | 如一汉化组 (As1) | [Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3556544454) |
-| [B42]统一·模组汉化 | 如一汉化组 (As1) | [Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080) |
-| [B42]统一·方舟汉化 | 如一汉化组 (As1) | [Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3732061188) |
+Ten projekt wykorzystuje mody innych firm jako teksty referencyjne do tłumaczenia docelowego języka. Teksty referencyjne są wysyłane do LLM jako pomoc tłumaczeniowa.
 
-**Serdeczne podziękowania dla powyższych autorów!**
+| Nazwa modu referencyjnego | Autor | Strona modu |
+|------|------|------|
+| [B42]统一·中文汉化 | 如一汉化组 (As1) | [Strona Warsztatu Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3556544454) |
+| [B42]统一·模组汉化 | 如一汉化组 (As1) | [Strona Warsztatu Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080) |
+| [B42]统一·方舟汉化 | 如一汉化组 (As1) | [Strona Warsztatu Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3732061188) |
+
+**Serdeczne podziękowania dla wszystkich autorów wymienionych powyżej!**
 
 ---
 
-## Oprogramowanie stron trzecich
+## Programy innych firm
 
-Ten projekt korzysta z programów i bibliotek stron trzecich, prawa autorskie należą do ich twórców.
+Ten projekt korzysta z programów i bibliotek innych firm. Prawa autorskie do tych programów należą do odpowiednich twórców.
+

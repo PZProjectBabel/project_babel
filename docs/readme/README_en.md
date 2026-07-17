@@ -174,7 +174,7 @@ For more information about this license, see:
 
 Unless otherwise stated in the source files or directories, the program code used for creating/packaging/handling localization content in this repository (e.g., the code in the `src/` directory) is licensed under the **GNU General Public License version 3 (GPL-3.0)**.
 
-For the full terms, please see the `LICENSE` file (GPL-3.0) in the root directory of this repository, or visit the GNU website: <https://www.gnu.org/licenses/gpl-3.0.html>
+For the full terms, please see the `LICENSE` file at the root of this repository (GPL-3.0), or visit the GNU official website: <https://www.gnu.org/licenses/gpl-3.0.html>.
 
 ---
 

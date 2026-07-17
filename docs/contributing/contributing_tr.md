@@ -1,209 +1,219 @@
 # Katkı Rehberi (CONTRIBUTING)
 
-> GitHub: [PZProjectBabel/project_babel](https://github.com/PZProjectBabel/project_babel)
-> 
-> [简体中文](contributing_zh-hans.md) | [English](contributing_en.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [українська](contributing_uk.md)</details>
+> [English](contributing_en.md) | [简体中文](contributing_zh-hans.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
 
 ---
 
-**Project Babel — Project Zomboid modları için LLM destekli otomatik çeviri projesine** katkıda bulunma isteğiniz için teşekkür ederiz! İster bir hata düzeltmesi, ister yeni bir özellik eklemesi, ister prompt şablonları yazımı, isterse referans çeviriler sağlama olsun — her katkı değerlidir!
+## İçindekiler
 
-LLM API''sini çeviri için çağırmak token maliyeti getirir. Projenin uzun vadede sürdürülebilir şekilde çalışabilmesi için cömert desteğiniz büyük takdir görmektedir!
+- [1. Başlamadan Önce](#1-başlamadan-önce)
+- [2. Nasıl Katkıda Bulunabilirim?](#2-nasıl-katkıda-bulunabilirim)
+- [3. Çeviri Kuralları, Terim Sözlükleri ve Sistem Promptlarını İyileştirme](#3-çeviri-kuralları-terim-sözlükleri-ve-sistem-promptlarını-İyileştirme)
+- [4. Elle düzeltilmiş derlem sağlama](#4-elle-düzeltilmiş-derlem-sağlama)
+- [5. Boru hattı ve araç geliştirme katkıları](#5-boru-hattı-ve-araç-geliştirme-katkıları)
+- [6. Telif Hakkı ve Lisans Sözleşmesi](#6-telif-hakkı-ve-lisans-sözleşmesi)
+  - [6.1 Temel İlke: Telif Hakkınızı Saklı Tutarken Projenin Kullanımına İzin Verirsiniz](#61-temel-İlke-telif-hakkınızı-saklı-tutarken-projenin-kullanımına-İzin-verirsiniz)
+  - [6.2 Metin ve Görseller Gibi İçeriklerin Lisansı (CC BY-NC-SA 4.0)](#62-metin-ve-görseller-gibi-İçeriklerin-lisansı-cc-by-nc-sa-40)
+  - [6.3 Betik ve Araç Kodlarının Lisansı (GPL-3.0)](#63-betik-ve-araç-kodlarının-lisansı-gpl-30)
+  - [6.4 Üst akış eserleri ve orijinal oyun telif hakkı](#64-üst-akış-eserleri-ve-orijinal-oyun-telif-hakkı)
+- [7. İletişim ve İş Birliği](#7-İletişim-ve-İş-birliği)
+- [8. Finansal Destek](#8-finansal-destek)
+
+---
+
+**Project Babel - Zomboid İmha Oyunu Modu LLM Otomatik Çeviri Projesi**'ne katkıda bulunmaya istekli olduğunuz için çok teşekkür ederiz! İster bir hatayı düzeltmek, ister yeni bir özellik eklemek, ister bir prompt şablonu yazmak, isterse de referans çeviri sağlamak olsun!
+
+LLM API'sini kullanarak çeviri yapmak token başına ücretlidir. Projenin uzun vadeli ve istikrarlı bir şekilde çalışabilmesi için cömertçe yardım etmenizi umuyoruz!
 
 > ⚠️ **Önemli Uyarı:**
-> Bu depoya herhangi bir şey göndermeden önce lütfen "Telif Hakkı ve Lisanslama" bölümünü okuyup anlayın.
+> Depoya herhangi bir içerik göndermeden önce lütfen "Telif Hakkı ve Lisans Anlaşması" bölümünü okuyup anladığınızdan emin olun.
 > Gönderildikten ve birleştirildikten sonra, ilgili lisans koşullarını kabul etmiş sayılırsınız.
 
 ---
 
-## Başlamadan Önce
+## 1. Başlamadan Önce
 
-Lütfen aşağıdakileri anlamak için projenin `README.md` dosyasını okuyun:
-
-- Bu projenin genel hedefleri ve mevcut durumu;
-- Sıradan oyuncuların bu projeyi nasıl kullandığı (kendi testleriniz için);
-- Projenin teknik detayları.
+Lütfen önce projenin `README.md` dosyasını okuyun, şunları öğrenin:
+- Bu projenin genel hedefi ve mevcut durumu;
+- Sıradan oyuncuların bu projeyi nasıl kullanacağı (kendinizi test etmeniz için);
+- Proje teknik detayları.
 
 ---
 
-## Nasıl Katkıda Bulunabilirim?
+## 2. Nasıl Katkıda Bulunabilirim?
 
 İlgi alanlarınıza ve becerilerinize göre bir veya daha fazla şekilde katılabilirsiniz:
 
-- Bir hedef dil için çeviri kuralları sağlama
-- Bir hedef dil için terim sözlüğü sağlama
-- Sistem promptlarını iyileştirme
-- Manuel olarak düzeltilmiş çeviri derlemleri sağlama
-- Pipeline modüllerini (.NET) ve otomasyon betiklerini iyileştirme
-- Sorunları bildirme ve iyileştirmeler önerme (Issues aracılığıyla)
-- LLM API çağrıları için mali destek sağlama
+- Hedef dil için çeviri kuralları sağlamak
+- Hedef dil için çeviri terim sözlüğü sağlamak
+- Sistem promptlarını iyileştirmek
+- İnsan tarafından düzeltilmiş çeviri metinleri sağlamak
+- İş hattı modüllerini (.NET) ve otomasyon betiklerini iyileştirmek
+- Sorun bildirmek, iyileştirme önerileri sunmak (Issues'ta açıklayarak)
+- LLM çağrılarına mali destek sağlamak
 
-Aşağıda ana katkı senaryoları için açıklamalar bulunmaktadır.
+Aşağıda ana katkı senaryoları hakkında bazı açıklamalar bulunmaktadır.
 
 ---
 
-## Çeviri Kuralları, Terim Sözlükleri Sağlama ve Sistem Promptlarını İyileştirme
+## 3. Çeviri Kuralları, Terim Sözlükleri ve Sistem Promptlarını İyileştirme
 
-Pipeline''ın prompt şablonları `src/prompt_templates/` konumunda bulunur ve aşağıdaki yapıya sahiptir:
+İş hattının prompt şablonları `src/prompt_templates/` konumunda bulunur, yapısı şöyledir:
 
-- `system_prompt_translate_engine.txt`: küresel çeviri motoru sistem promptu (tüm diller ortak);
-- `<dil_kodu>/translation_dictionary_<dil_kodu>.json`: o dil için terim sözlüğü;
-- `<dil_kodu>/translation_schema_<dil_kodu>.md`: o dil için çeviri kuralları ve stil kısıtlamaları.
+- `system_prompt_translate_engine.txt`: Genel çeviri motoru sistem promptu (tüm diller tarafından paylaşılır);
+- `<dil_kodu>/translation_dictionary_<dil_kodu>.json`: Bu dilin terim sözlüğü;
+- `<dil_kodu>/translation_schema_<dil_kodu>.md`: Bu dilin çeviri kuralları ve stil kısıtlamaları.
 
 Katkı adımları:
 
-1. Diliniz için `src/prompt_templates/` altında bir alt dizin oluşturun ve sözlük ile kural dosyalarını ekleyin;
-2. Küresel çeviri davranışını ayarlamanız gerekiyorsa, `system_prompt_translate_engine.txt` dosyasını değiştirin (not: bu tüm dilleri etkiler);
-3. Sonuçları doğrulamak için yerel olarak test edin;
-4. Bir PR gönderin.
+1. `src/prompt_templates/` altında diliniz için bir alt dizin oluşturun, terim sözlüğü ve çeviri kuralları dosyasını ekleyin;
+2. Genel çeviri davranışını ayarlamak istiyorsanız `system_prompt_translate_engine.txt` dosyasını değiştirin (tüm dilleri etkilediğini unutmayın);
+3. Yerel testle etkisini doğrulayın;
+4. PR gönderin.
 
 ---
 
-## Manuel Olarak Düzeltilmiş Derlemler Sağlama
+## 4. Elle düzeltilmiş derlem sağlama
 
-Bir çeviri modu yazarıysanız ve çeviri derleminizi LLM çeviri referansı olarak sağlamaya istekliyseniz, lütfen bir Issue aracılığıyla başvuruda bulunun. Aşağıdaki bilgileri sağlamanız gerekmektedir:
+Çeviri modu yapımcısıysanız ve çeviri derleminizi LLM çeviri referansı olarak sağlamak istiyorsanız, lütfen Issue'da başvuruda bulunun. Aşağıdaki bilgileri sağlamanız gerekmektedir:
 
-- Çeviri modunuzun Mod ID''si ve hedef dil;
-- Mod yazarı olduğunuzu kanıtlamak için çeviri modunuzun yönetim sayfasının ekran görüntüsü;
-- Issue''da çeviri derlemini sağlamaya istekli olduğunuza dair açık bir beyan;
-- Özel durumlar varsa (özel lisans vb.), lütfen açıklayın;
-- Lütfen sağladığınız derlemin yüksek kalitede olduğundan emin olun.
+- Çeviri modunuzun Mod ID'si ve çeviri hedef dili;
+- Mod yazarı olduğunuzu kanıtlamak için çeviri modunuzun arka plan sayfasının ekran görüntüsü;
+- Issue'da çeviri derlemini sağlamaya istekli olduğunuzu açıkça belirtin;
+- Özel durumlar varsa (özel lisanslama vb.), lütfen ayrıca belirtin;
+- Sağladığınız derlemin yüksek kalitede olduğundan emin olun.
 
-Yetkinizle, proje modunuzu `config/ref_translation_mods.json` referans çeviri modları listesine ekleyecek ve pipeline, çevrilmiş metinlerinizi otomatik olarak RAG referans derlemleri olarak senkronize edecektir.
+Yetkiniz doğrultusunda proje, modunuzu `config/ref_translation_mods.json` referans çeviri modları listesine ekleyecek ve boru hattı, çeviri metinlerinizi RAG referans derlemi olarak otomatik olarak senkronize edecektir.
 
 ---
 
-## Pipeline ve Araç Geliştirme Katkıları
+## 5. Boru hattı ve araç geliştirme katkıları
 
-Bu projedeki otomasyon iki bölüme ayrılmıştır:
+Bu projenin otomasyonu iki bölüme ayrılmıştır:
 
-**Pipeline modülleri (`src/`, C# / .NET 10)**: Mod indirme, metin çıkarma, içerik incelemesi, embedding hesaplama, RAG getirme işleminden LLM çevirisine ve nihai çıktıya kadar tüm iş akışından sorumlu, sıralı olarak yürütülen 15 modül içerir. Ayrıntılar için [teknik referansa](../technical_reference/technical_reference_tr.md) bakın.
+**Boru hattı modülü (`src/`, C# / .NET 10)**： SteamCMD başlatma, mod indirme, metin çıkarma, içerik denetimi, Embedding hesaplama, RAG arama ve LLM çevirisi ile nihai çıktıya kadar sırayla yürütülen 15 modül içerir. Ayrıntılar için bkz. [Teknik Referans](../technical_reference/technical_reference_tr.md).
 
-**Yardımcı betikler (`.github/`)**: GitHub otomasyonu için kullanılır.
+**Yardımcı betikler (.github/)**： GitHub otomasyonu için kullanılır.
 
-Eğer şunları yapmak isterseniz:
+Eğer şunları istiyorsanız:
 
-* Mevcut pipeline modüllerindeki veya betiklerdeki hataları düzeltmek;
-* Pipeline''a yeni özellikler veya modüller eklemek;
+* Mevcut boru hattı modüllerindeki veya betiklerdeki hataları düzeltmek;
+* Boru hattına yeni özellikler veya yeni modüller eklemek;
 * Performansı veya kod yapısını optimize etmek;
-* Prompt şablonlarını veya RAG stratejilerini iyileştirmek;
+* Prompt şablonlarını veya RAG stratejisini iyileştirmek;
 
-Bu adımları takip edebilirsiniz:
+Aşağıdaki adımları izleyebilirsiniz:
 
-1. Bu depoyu fork''layın ve yerel olarak klonlayın;
+1. Bu depoyu forklayın ve yerel bilgisayarınıza klonlayın;
 2. En son daldan yeni bir dal oluşturun;
-3. İlgili dizinlerdeki dosyaları değiştirin veya ekleyin:
-   - Pipeline modülü değişiklikleri → `src/<modül_adı>/`;
-   - Betik değişiklikleri → `scripts/`;
-   - Prompt şablonu değişiklikleri → `src/prompt_templates/`;
-4. Göndermeden önce, lütfen şunlara dikkat edin:
+3. İlgili dizinde dosyaları değiştirin veya ekleyin:
+- Boru hattı modülü değişiklikleri → `src/<modül_adı>/`;
+- Betik değişiklikleri → `scripts/`;
+- Prompt şablonu değişiklikleri → `src/prompt_templates/`;
+4. Göndermeden önce lütfen mümkün olduğunca:
 
-   * Mevcut kod stilini koruyun;
-   * Gerekli yorumları ekleyin;
-   * Mümkünse, basit testler veya kullanım talimatları ekleyin;
-5. Değişiklikleri PR ile gönderin ve açıklamada şunları belirtin:
+* Mevcut kod stilini koruyun;
+* Gerekli yorumları ekleyin;
+* Mümkünse basit bir test veya kullanım kılavuzu ekleyin;
+5. Değişikliği PR ile gönderin ve açıklamada şunları belirtin:
 
-   * Değişikliklerin amacı;
-   * Etkilenebilecek dizinler / modüller / betikler;
-   * Geriye dönük uyumluluğu bozan değişiklikler içerip içermediği.
+* Değişikliğin amacı;
+* Etkilenen dizinler / modüller / betikler;
+* Kırıcı değişiklik içerip içermediği.
 
 ---
 
-## Telif Hakkı ve Lisanslama
+## 6. Telif Hakkı ve Lisans Sözleşmesi
 
-> **Dostça Hatırlatma:**
-> Telif hakkı ve lisanslama koşulları, projenin, yazarların, katkıda bulunanların ve oyuncuların meşru hak ve çıkarlarını korumak ve "zımni anlaşmalar" veya "varsayılan kabullerden" kaynaklanan yanlış anlamaları önlemek için tasarlanmıştır. Lütfen dikkatlice okuyun.
-> Telif hakkı ve lisanslama, README.md dosyasındaki içeriğe tabidir; bu bölüm yalnızca daha anlaşılır bir açıklama sunmaktadır.
+> **Önemli Uyarı:**
+> Telif hakkı ve lisans sözleşmesi, projenin, yazarların, katkıda bulunanların ve oyuncuların yasal haklarını korumak için tasarlanmıştır; "uyum" veya "varsayılan" nedeniyle yanlış anlaşılmaları önlemek amacıyla lütfen dikkatlice okuyun.
+> Telif hakkı ve lisans, README.md dosyasındaki içerik esas alınır; bu bölüm yalnızca daha anlaşılır bir açıklama sağlar.
 
-### 1. Temel İlke: Telif hakkını saklı tutarken, projeye eserinizi kullanma lisansı verirsiniz
+### 6.1 Temel İlke: Telif Hakkınızı Saklı Tutarken Projenin Kullanımına İzin Verirsiniz
 
-* Oluşturduğunuz içeriğin (çeviriler, resimler, betikler/programlar vb.) telif hakkı hâlâ size aittir;
-* Ancak, bu içerik bu projeye gönderilip kabul edildikten (birleştirildikten) sonra,
-  bu içeriğin başkaları tarafından bu projenin benimsediği açık kaynak/paylaşımlı lisans altında kullanılmasına lisans vermiş olursunuz.
+* Kendi oluşturduğunuz içerikler (çeviriler, resimler, betikler/programlar vb.) üzerindeki telif hakkınız hâlâ size aittir;
+* Ancak bu içerikleri bu depoya gönderip kabul edildikten (birleştirildikten) sonra, projenin benimsediği açık kaynak/paylaşım lisansı kapsamında başkalarına bu içerikleri kullanma izni vermiş olursunuz.
 
 Bu şu anlama gelir:
 
-* Eserinizi başka yerlerde kullanmaya ve sergilemeye **devam edebilirsiniz**;
-* Ancak katkınız birleştirildikten sonra, bu projeden veya eseri yasal olarak edinmiş diğer kullanıcılardan "lisansı iptal etmelerini" veya "geçmiş sürümleri silmelerini" **talep edemezsiniz**.
+* Çalışmalarınızı başka yerlerde kullanmaya ve sergilemeye **devam edebilirsiniz**;
+* Ancak katkınız birleştirildikten sonra, projeden veya içeriği yasal olarak edinmiş diğer kullanıcılardan "yetkiyi geri çekmesini" veya "eski sürümleri silmesini" **talep edemezsiniz**.
 
-### 2. Metin, Resim ve Benzeri İçeriklerin Lisanslanması (CC BY-NC-SA 4.0)
+### 6.2 Metin ve Görseller Gibi İçeriklerin Lisansı (CC BY-NC-SA 4.0)
 
 Gönderdiğiniz aşağıdaki içerikler için:
 
-* Oyun metni çevirileri, düzeltmeler ve son okumalar;
-* Proje dokümantasyonu ve açıklayıcı metinler;
-* Bu proje için özel olarak oluşturulmuş resimler ve sanatsal kaynaklar;
+* Oyun metinlerinin çevirisi, düzeltmesi ve redaksiyonu;
+* Proje belgeleri, açıklayıcı metinler;
+* Proje için özel olarak oluşturulmuş resimler, sanat kaynakları;
 
-Bu depoda kabul edilip birleştirildiğinde, aşağıdakileri kabul etmiş sayılırsınız:
+Bu depo tarafından kabul edilip birleştirildiğinde, şunları kabul etmiş sayılırsınız:
 
-1. Bu içerikler **Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası**
-   (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, kısaca **CC BY-NC-SA 4.0**) lisansı altındadır;
-2. Project Babel ve bu içeriği alan tüm kullanıcılar, **CC BY-NC-SA 4.0 koşullarına uymak kaydıyla**:
+1. Bu içerikler **Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası** (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, kısaca **CC BY-NC-SA 4.0**) lisansı altında lisanslanır;
+2. Project Babel ve bu içeriklere erişen tüm kullanıcılar, **CC BY-NC-SA 4.0 hükümlerine uymak koşuluyla**:
+* Bu içerikleri paylaşabilir, kopyalayabilir ve yeniden dağıtabilir;
+* Ticari olmayan amaçlarla değiştirebilir ve yeniden oluşturabilir;
+3. Geçerli yasaların izin verdiği ölçüde, bu lisansın **münhasır olmayan, küresel, telifsiz ve geri alınamaz** bir izin olduğunu kabul edersiniz;
+4. Gelecekte projeden ayrılsanız veya katkıda bulunmayı bıraksanız bile, proje halihazırda gönderdiğiniz ve birleştirilmiş olan ilgili içerikleri CC BY-NC-SA 4.0 kapsamında kullanmaya ve yeniden yayımlamaya devam edebilir.
 
-   * Bu içeriği paylaşabilir, kopyalayabilir ve yeniden dağıtabilir;
-   * Ticari olmayan amaçlarla değiştirebilir ve türev eserler oluşturabilir;
-3. Bu lisansın, geçerli yasaların izin verdiği ölçüde **münhasır olmayan, dünya çapında, telifsiz ve geri alınamaz** olduğunu kabul edersiniz;
-4. Daha sonra projeden ayrılsanız veya katılımınızı durdursanız bile, proje gönderdiğiniz ve birleştirilmiş ilgili içeriği CC BY-NC-SA 4.0 kapsamında kullanmaya ve yeniden yayınlamaya devam edebilir.
+> Yukarıdaki lisanslama şeklini kabul etmiyorsanız, lütfen bu projeye metin veya görsel katkılar göndermeyin,
+> veya proje sorumlusuyla önceden iletişime geçerek başka bir şekilde iş birliği yapılıp yapılamayacağını teyit edin.
 
-> Yukarıdaki lisans koşullarını kabul etmiyorsanız, lütfen bu projeye metin veya resim katkısı göndermeyin,
-> veya işbirliğinin başka bir şekilde mümkün olup olmadığını teyit etmek için proje bakımcılarıyla önceden iletişime geçin.
+### 6.3 Betik ve Araç Kodlarının Lisansı (GPL-3.0)
 
-### 3. Betiklerin ve Araç Kodunun Lisanslanması (GPL-3.0)
-
-Gönderdiğiniz ve kabul edilen aşağıdakiler için:
+Gönderip kabul edilen aşağıdakiler için:
 
 * Otomasyon betikleri;
-* Derleme/dışa aktarma araçları;
-* Bu çeviri projesini işlemek için kullanılan diğer program kodu;
+* Derleme/Dışa aktarma araçları;
+* Bu çeviri projesini işlemek için kullanılan diğer program kodları;
 
-Özel beyanların bulunmaması durumunda, aşağıdakileri kabul etmiş sayılırsınız:
+Özel bir bildirim olmadığı takdirde, aşağıdakileri kabul etmiş sayılırsınız:
 
-1. Kod **GPL-3.0** (GNU Genel Kamu Lisansı sürüm 3) altında lisanslanmıştır;
-2. Proje bakımcıları, GPL-3.0''ın izin verdiği kapsamda kodu değiştirebilir, birleştirebilir ve dağıtabilir;
-3. Siz de GPL-3.0 koşullarına uymak kaydıyla aynı koda dayalı diğer projelere devam edebilirsiniz.
+1. Kod, **GPL-3.0** (GNU Genel Kamu Lisansı 3. Sürüm) ile lisanslanmıştır;
+2. Proje bakımcıları, GPL-3.0'ın izin verdiği ölçüde, bunu değiştirebilir, birleştirebilir ve dağıtabilir;
+3. Ayrıca, GPL-3.0 hükümlerine uyduğunuz sürece, aynı koda dayanarak başka projeler geliştirebilirsiniz.
 
-Lisans çakışmalarını önlemek için, lütfen:
+Lisans çakışmalarını önlemek için lütfen mümkün olduğunca:
 
-* Önceden onay almadan **GPL-3.0 ile uyumsuz** üçüncü taraf kodları eklemeyin;
-* Üçüncü taraf kütüphanelere başvurmanız gerekiyorsa, PR''da kaynaklarını ve lisanslarını açıkça belirtin ve uyumluluğu teyit edin.
+* Onaylamadan, **GPL-3.0 ile uyumsuz** üçüncü taraf kodları eklemeyin;
+* Gerçekten üçüncü taraf bir kütüphaneyi kullanmanız gerekiyorsa, PR'da kaynağını ve lisansını açıkça belirtin ve uyumluluğunu onaylayın.
 
-### 4. Üst Eserler ve Orijinal Oyun Telif Hakkı
+### 6.4 Üst akış eserleri ve orijinal oyun telif hakkı
 
-Bu proje, *Project Zomboid* ile ilgili modlar için **resmî olmayan bir çeviri** projesidir:
+Bu proje, 《僵尸毁灭工程》(Project Zomboid) ile ilgili modların **resmi olmayan çeviri** projesidir:
 
-* Orijinal oyunun ve her bir modun telif hakkı ilgili yazarlarına/yayıncılarına aittir;
-* Bu proje yalnızca metin çevirilerinin, üslup düzeltmelerinin ve bazı yardımcı kaynakların oluşturulmasını ve düzenlenmesini kapsar;
-* Katkıda bulunanlar içerik gönderirken şunlardan emin olmalıdır:
-
-  * Yetkisiz üçüncü taraf çeviri metinlerini veya sanatsal kaynakları doğrudan kopyalamamak;
-  * Orijinal yazarların ve mod yazarlarının haklarına saygı göstermek ve hak ihlali içeren yeniden dağıtım yapmamak.
-
----
-
-## İletişim ve İşbirliği
-
-Eğer şunlara sahipseniz:
-
-* Lisans koşulları hakkında sorular;
-* Belirli bir içeriğin katkıda bulunulabilir olup olmadığı konusunda belirsizlik;
-* Eserinizi özel bir şekilde lisanslama isteği (örneğin, yalnızca ticari olmayan kullanım ancak uyarlamaya izin verilmez);
-
-Proje bakımcılarıyla şu yollarla iletişime geçebilirsiniz:
-
-* Tartışma için bir Issue gönderme;
-* Bakımcıların diğer kamuya açık iletişim yöntemleri.
-
-Projenin sağlıklı gelişimini, tüm tarafların hak ve çıkarlarına saygı göstererek dengeleyen bir çözüm bulmak için elimizden geleni yapacağız.
+* Orijinal oyun ve her bir modun telif hakkı, ilgili yazarlarına/yayıncılarına aittir;
+* Bu proje yalnızca metin çevirisi, düzenleme ve bazı yardımcı kaynakların oluşturulması ve düzenlenmesini kapsar;
+* Katkıda bulunanlar, içerik gönderirken aşağıdakileri sağlamalıdır:
+* Yetkisi olmayan üçüncü taraf çeviri metinlerini veya sanat kaynaklarını doğrudan kopyalamamak;
+* Orijinal yazarların ve mod yapımcılarının haklarına saygı göstermek, telif hakkını ihlal eden şekilde yeniden yayınlamamak.
 
 ---
 
-## Mali Destek
+## 7. İletişim ve İş Birliği
 
-Projenin işleyişi sırasında, yeni modların eklenmesi ve mevcut modların metin güncellemeleri nedeniyle, çeviri için LLM API''sinin sürekli olarak çağrılması gerekmektedir. LLM''in davranışını kısıtlamak için, temel mod metinlerine ek olarak büyük miktarda prompt içeriği (temel promptlar, çeviri kuralları, terim tabloları, girdi/çıktı kısıtlamaları, anlamsal arama sonuçları vb.) gereklidir ve bu, orijinal metinlerden çok daha fazla token tüketir. Bu nedenle projenin mali desteğe ihtiyacı vardır.
+Eğer aşağıdaki konularda:
 
-Mali destek sağlamak isterseniz, lütfen proje bakımcılarıyla iletişime geçin. Çok teşekkür ederiz!
+* Lisans hükümleri hakkında sorularınız varsa;
+* Belirli bir içeriğin katkıda bulunulup bulunulamayacağından emin değilseniz;
+* Çalışmalarınızı özel bir şekilde lisanslamak istiyorsanız (örneğin yalnızca ticari olmayan kullanıma izin vermek ancak uyarlamaya izin vermemek vb.);
+
+Proje bakımcılarıyla aşağıdaki yollarla iletişime geçebilirsiniz:
+
+* Tartışmak için Issue açın;
+* Diğer bakımcıların kamuya açık iletişim bilgileri.
+
+Herkesin haklarına saygı göstererek, projenin sağlıklı gelişimini de gözeten bir çözüm bulmaya çalışacağız.
 
 ---
 
-Bu projeye katkıda bulunma isteğiniz için tekrar teşekkür ederiz!
-Yaptığınız her katkı daha fazla oyuncuya fayda sağlar!
+## 8. Finansal Destek
+
+Proje çalışırken, yeni modlar eklenmesi, eski modların metin içeriklerinin güncellenmesi vb. nedenlerle sürekli olarak LLM API'sini kullanarak çeviri yapmak gerekmektedir. LLM davranışını sınırlamak için, temel mod metinlerine ek olarak, çok sayıda istem içeriği (temel istemler, çeviri kuralları, terim sözlüğü, giriş/çıkış kısıtlamaları, anlamsal sorgu sonuçları vb.) sağlanması gerekir; bu içerikler, orijinal metnin token'larından çok daha fazla tüketir. Bu nedenle proje finansal desteğe ihtiyaç duymaktadır.
+
+Eğer finansal destek sağlamak isterseniz, proje bakımcılarıyla iletişime geçin. Çok teşekkürler!
+
+---
+
+Projeye katkıda bulunmayı kabul ettiğiniz için tekrar teşekkür ederiz!
+Her katkınız, daha fazla oyuncunun faydalanmasını sağlayacak!

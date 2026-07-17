@@ -1,209 +1,219 @@
-# Guía de contribución (CONTRIBUTING)
+# Guía de Contribución (CONTRIBUTING)
 
-> GitHub: [PZProjectBabel/project_babel](https://github.com/PZProjectBabel/project_babel)
-> 
-> [简体中文](contributing_zh-hans.md) | [English](contributing_en.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
+> [English](contributing_en.md) | [简体中文](contributing_zh-hans.md) <details><summary>Other Languages</summary>[العربية](contributing_ar.md) | [català](contributing_ca.md) | [繁體中文](contributing_zh-hant.md) | [čeština](contributing_cs.md) | [dansk](contributing_da.md) | [Deutsch](contributing_de.md) | [español](contributing_es.md) | [suomi](contributing_fi.md) | [français](contributing_fr.md) | [magyar](contributing_hu.md) | [Bahasa Indonesia](contributing_id.md) | [italiano](contributing_it.md) | [日本語](contributing_ja.md) | [한국어](contributing_ko.md) | [Nederlands](contributing_nl.md) | [norsk](contributing_no.md) | [Tagalog](contributing_tl.md) | [polski](contributing_pl.md) | [português](contributing_pt.md) | [português do Brasil](contributing_pt-br.md) | [română](contributing_ro.md) | [русский](contributing_ru.md) | [ภาษาไทย](contributing_th.md) | [Türkçe](contributing_tr.md) | [українська](contributing_uk.md)</details>
 
 ---
 
-¡Gracias por tu disposición a contribuir al **Project Babel — el proyecto de traducción automática con LLM para mods de Project Zomboid**! Ya sea corrigiendo un error, añadiendo una función, escribiendo plantillas de prompt o proporcionando traducciones de referencia, ¡cada contribución cuenta!
+## Índice
 
-Llamar a la API del LLM para traducir tiene un coste en tokens. Para que el proyecto pueda funcionar de forma sostenible a largo plazo, ¡tu generoso apoyo es muy apreciado!
+- [1. Antes de comenzar](#1-antes-de-comenzar)
+- [2. ¿Cómo puedo contribuir?](#2-cómo-puedo-contribuir)
+- [3. Proporcionar reglas de traducción, diccionario de términos y mejorar los prompts del sistema](#3-proporcionar-reglas-de-traducción-diccionario-de-términos-y-mejorar-los-prompts-del-sistema)
+- [4. Proporcionar corpus de traducción revisado manualmente](#4-proporcionar-corpus-de-traducción-revisado-manualmente)
+- [5. Contribuciones al pipeline y desarrollo de herramientas](#5-contribuciones-al-pipeline-y-desarrollo-de-herramientas)
+- [6. Acuerdo de derechos de autor y licencia](#6-acuerdo-de-derechos-de-autor-y-licencia)
+  - [6.1 Principio básico: tú conservas los derechos de autor y concedes licencia al proyecto](#61-principio-básico-tú-conservas-los-derechos-de-autor-y-concedes-licencia-al-proyecto)
+  - [6.2 Licencia para contenido textual y gráfico (CC BY-NC-SA 4.0)](#62-licencia-para-contenido-textual-y-gráfico-cc-by-nc-sa-40)
+  - [6.3 Licencia para scripts y código de herramientas (GPL-3.0)](#63-licencia-para-scripts-y-código-de-herramientas-gpl-30)
+  - [6.4 Derechos de autor de obras upstream y del juego original](#64-derechos-de-autor-de-obras-upstream-y-del-juego-original)
+- [7. Comunicación y colaboración](#7-comunicación-y-colaboración)
+- [8. Apoyo financiero](#8-apoyo-financiero)
+
+---
+
+Muchas gracias por estar dispuesto a contribuir al **Project Babel - 《僵尸毁灭工程》模组LLM自动翻译项目**! Ya sea corregir un error, añadir una nueva función, redactar una plantilla de prompt, o proporcionar una traducción de referencia!
+
+Llamar a la API de LLM para traducir requiere pagar por los tokens. Para que el proyecto pueda operar de manera estable a largo plazo, esperamos su generosa ayuda!
 
 > ⚠️ **Aviso importante:**
-> Antes de enviar cualquier cosa a este repositorio, asegúrate de leer y comprender la sección "Derechos de autor y licencias".
-> Una vez enviado y fusionado, se considera que aceptas los términos de licencia correspondientes.
+> Antes de enviar cualquier contenido a este repositorio, asegúrese de leer y comprender la sección "Acuerdo de derechos de autor y licencia".
+> Una vez que se envíe y se fusione, se considerará que acepta los términos de licencia correspondientes.
 
 ---
 
-## Antes de empezar
+## 1. Antes de comenzar
 
-Lee el README.md del proyecto para entender:
-
-- Los objetivos generales y el estado actual de este proyecto;
-- Cómo usan los jugadores este proyecto (para tus propias pruebas);
-- Los detalles técnicos del proyecto.
+Lea primero el `README.md` del proyecto para comprender:
+- El objetivo general de este proyecto y su estado actual;
+- Cómo los jugadores normales pueden usar este proyecto (para que puedas probarlo tú mismo);
+- Detalles técnicos del proyecto.
 
 ---
 
-## ¿Cómo puedo contribuir?
+## 2. ¿Cómo puedo contribuir?
 
-Puedes elegir una o varias formas de participar según tus intereses y habilidades:
+Puedes participar de una o más maneras según tus intereses y habilidades:
 
-- Proporcionar reglas de traducción para un idioma de destino
-- Proporcionar un diccionario terminológico para un idioma de destino
+- Proporcionar reglas de traducción para el idioma de destino
+- Proporcionar un diccionario de términos de traducción para el idioma de destino
 - Mejorar los prompts del sistema
-- Proporcionar corpus de traducción revisados manualmente
-- Mejorar los módulos del pipeline (.NET) y los scripts de automatización
-- Informar de problemas y sugerir mejoras (a través de Issues)
-- Proporcionar apoyo financiero para las llamadas a la API del LLM
+- Proporcionar corpus de texto traducido revisado manualmente
+- Mejorar los módulos de la tubería (.NET) y los scripts de automatización
+- Reportar problemas, sugerir mejoras (indicar en Issues)
+- Proporcionar apoyo financiero para las llamadas de LLM
 
-A continuación se explican los principales escenarios de contribución.
+A continuación, se ofrecen algunas explicaciones sobre los principales escenarios de contribución.
 
 ---
 
-## Proporcionar reglas de traducción, diccionarios terminológicos y mejorar los prompts del sistema
+## 3. Proporcionar reglas de traducción, diccionario de términos y mejorar los prompts del sistema
 
-Las plantillas de prompt del pipeline se encuentran en src/prompt_templates/, con la siguiente estructura:
+Las plantillas de prompt de la tubería se encuentran en `src/prompt_templates/`, con la siguiente estructura:
 
-- system_prompt_translate_engine.txt: el prompt del sistema del motor de traducción global (común para todos los idiomas);
-- <código_idioma>/translation_dictionary_<código_idioma>.json: el diccionario terminológico para ese idioma;
-- <código_idioma>/translation_schema_<código_idioma>.md: las reglas de traducción y restricciones de estilo para ese idioma.
+- `system_prompt_translate_engine.txt`: Prompt del sistema del motor de traducción global (compartido por todos los idiomas);
+- `<语言代码>/translation_dictionary_<语言代码>.json`: Diccionario de términos para ese idioma;
+- `<语言代码>/translation_schema_<语言代码>.md`: Reglas de traducción y restricciones de estilo para ese idioma.
 
 Pasos para contribuir:
 
-1. Crea un subdirectorio bajo src/prompt_templates/ para tu idioma y añade los archivos de diccionario y reglas de traducción;
-2. Si necesitas ajustar el comportamiento global de traducción, modifica system_prompt_translate_engine.txt (nota: esto afecta a todos los idiomas);
-3. Prueba localmente para confirmar los resultados;
-4. Envía un PR.
+1. Cree un subdirectorio para su idioma en `src/prompt_templates/` y agregue el diccionario de términos y el archivo de reglas de traducción;
+2. Si necesita ajustar el comportamiento de traducción global, modifique `system_prompt_translate_engine.txt` (tenga en cuenta que afecta a todos los idiomas);
+3. Prueba local para confirmar el efecto;
+4. Enviar PR.
 
 ---
 
-## Proporcionar corpus revisados manualmente
+## 4. Proporcionar corpus de traducción revisado manualmente
 
-Si eres autor de un mod de traducción y estás dispuesto a proporcionar tu corpus de traducción como referencia para el LLM, presenta una solicitud a través de un Issue. Debes proporcionar la siguiente información:
+Si eres un creador de mods de traducción y deseas proporcionar tu corpus de traducción como referencia para la traducción LLM, por favor inicia una solicitud en Issues. Necesitas proporcionar la siguiente información:
 
-- El Mod ID de tu mod de traducción y el idioma de destino;
-- Una captura de pantalla de la página de administración de tu mod de traducción para demostrar que eres el autor;
-- Una declaración clara en el Issue de que estás dispuesto a proporcionar el corpus de traducción;
-- Si hay circunstancias especiales (licencia especial, etc.), explícalas;
-- Asegúrate de que el corpus proporcionado sea de alta calidad.
+- El Mod ID de tu mod de traducción y el idioma de destino de la traducción;
+- Una captura de pantalla de la página de administración de tu mod de traducción para demostrar que eres el autor del mod;
+- Indica claramente en el Issue que estás dispuesto a proporcionar el corpus de traducción;
+- Si hay circunstancias especiales (licencias especiales, etc.), explícalas también;
+- Asegúrate de que el corpus que proporciones sea de alta calidad.
 
-Con tu autorización, el proyecto añadirá tu mod a la lista de mods de traducción de referencia config/ref_translation_mods.json, y el pipeline sincronizará automáticamente tus textos traducidos como corpus de referencia RAG.
+Bajo tu autorización, el proyecto incluirá tu mod en la lista de mods de traducción de referencia en `config/ref_translation_mods.json`, y el pipeline sincronizará automáticamente tu texto traducido como corpus de referencia RAG.
 
 ---
 
-## Contribuciones al desarrollo del pipeline y herramientas
+## 5. Contribuciones al pipeline y desarrollo de herramientas
 
 La automatización de este proyecto se divide en dos partes:
 
-**Módulos del pipeline (src/, C# / .NET 10)**: Contiene 15 módulos ejecutados secuencialmente, responsables del flujo completo desde la descarga de mods, extracción de texto, revisión de contenido, cálculo de embeddings, recuperación RAG hasta la traducción LLM y la salida final. Consulta la [referencia técnica](../technical_reference/technical_reference_es.md) para más detalles.
+**Módulos del pipeline (`src/`, C# / .NET 10)**: Contiene 15 módulos que se ejecutan en orden, encargados de todo el proceso desde la inicialización de SteamCMD, descarga de mods, extracción de texto, revisión de contenido, cálculo de embeddings, recuperación RAG hasta la traducción LLM y la salida final. Consulte [referencia técnica](../technical_reference/technical_reference_es.md).
 
-**Scripts auxiliares (.github/)**: Usados para la automatización de GitHub.
+**Scripts auxiliares (.github/)**: Se utilizan para la automatización de GitHub.
 
 Si deseas:
 
 * Corregir errores en módulos del pipeline o scripts existentes;
-* Añadir nuevas funciones o módulos al pipeline;
+* Añadir nuevas funciones o nuevos módulos al pipeline;
 * Optimizar el rendimiento o la estructura del código;
-* Mejorar las plantillas de prompt o las estrategias RAG;
+* Mejorar las plantillas de prompt o la estrategia RAG;
 
-Puedes seguir estos pasos:
+Puedes seguir los siguientes pasos:
 
 1. Haz un fork de este repositorio y clónalo localmente;
-2. Crea una nueva rama desde la rama más reciente;
-3. Modifica o añade archivos en los directorios correspondientes:
-   - Cambios en módulos del pipeline → src/<nombre_módulo>/;
-   - Cambios en scripts → scripts/;
-   - Cambios en plantillas de prompt → src/prompt_templates/;
+2. Crea una nueva rama basada en la rama más reciente;
+3. Modifica o añade archivos en el directorio correspondiente:
+- Modificación del módulo del pipeline → `src/<nombre_módulo>/`;
+- Modificación de scripts → `scripts/`;
+- Modificación de plantillas de prompt → `src/prompt_templates/`;
 4. Antes de enviar, intenta:
 
-   * Mantener el estilo de código existente;
-   * Añadir los comentarios necesarios;
-   * Si es posible, incluir pruebas simples o instrucciones de uso;
-5. Envía los cambios mediante PR, explicando en la descripción:
+* Mantener el estilo de código original;
+* Añadir comentarios necesarios;
+* Si es posible, incluir pruebas simples o instrucciones de uso;
+5. Envía las modificaciones a través de un PR y explica en la descripción:
 
-   * El propósito de los cambios;
-   * Los directorios / módulos / scripts que pueden verse afectados;
-   * Si implica cambios que rompen la compatibilidad.
+* El propósito del cambio;
+* Los directorios / módulos / scripts que pueden verse afectados;
+* Si implica cambios disruptivos.
 
 ---
 
-## Derechos de autor y licencias
+## 6. Acuerdo de derechos de autor y licencia
 
-> **Recordatorio amistoso:**
-> Los términos de derechos de autor y licencias están diseñados para proteger los derechos e intereses legítimos del proyecto, los autores, los contribuyentes y los jugadores, y para evitar malentendidos derivados de "acuerdos tácitos" o "presunciones por defecto". Léelos atentamente.
-> Los derechos de autor y las licencias se rigen por el contenido del archivo README.md; esta sección solo proporciona una descripción más accesible.
+> **Nota importante:**
+> El acuerdo de derechos de autor y licencia está diseñado para proteger los derechos e intereses legítimos del proyecto, los autores, los colaboradores y los jugadores, evitando malentendidos por "acuerdo tácito" o "por defecto". Por favor, léelo atentamente.
+> Los derechos de autor y la licencia se rigen por el contenido del archivo README.md. Esta sección solo proporciona una descripción más comprensible.
 
-### 1. Principio básico: Tú conservas los derechos de autor, a la vez que otorgas licencia al proyecto para usar tu trabajo
+### 6.1 Principio básico: tú conservas los derechos de autor y concedes licencia al proyecto
 
-* Sigues teniendo los derechos de autor sobre el contenido que creas (traducciones, imágenes, scripts/programas, etc.);
-* Sin embargo, una vez que este contenido se envía a este proyecto y es aceptado (fusionado),
-  aceptas licenciar a otros el uso de este contenido bajo la licencia de código abierto/compartida adoptada por este proyecto.
+* Aún conservas los derechos de autor sobre el contenido que creas (traducciones, imágenes, scripts/programas, etc.);
+* Pero al enviar este contenido a este proyecto y ser aceptado (fusionado), aceptas licenciar su uso a otros de acuerdo con la licencia de código abierto/compartida adoptada por este proyecto.
 
 Esto significa:
 
 * **Todavía puedes** seguir usando y mostrando tu trabajo en otros lugares;
-* Pero **no puedes**, después de que tu contribución sea fusionada, exigir que este proyecto u otros usuarios que hayan obtenido legalmente el trabajo "revoquen la licencia" o "eliminen versiones históricas".
+* Pero **no puedes** exigir que este proyecto u otros usuarios que hayan obtenido legalmente el trabajo "retiren la autorización" o "eliminen versiones históricas" después de que la contribución se haya fusionado.
 
-### 2. Licencia de textos, imágenes y contenidos similares (CC BY-NC-SA 4.0)
+### 6.2 Licencia para contenido textual y gráfico (CC BY-NC-SA 4.0)
 
 Para el siguiente contenido que envíes:
 
-* Traducciones de textos del juego, revisiones y correcciones;
-* Documentación del proyecto y textos explicativos;
+* Traducciones, revisiones y correcciones de textos del juego;
+* Documentación del proyecto, textos explicativos;
 * Imágenes y recursos artísticos creados específicamente para este proyecto;
 
-Una vez aceptado y fusionado en este repositorio, se considera que aceptas que:
+Una vez aceptado y fusionado en este repositorio, se considerará que aceptas:
 
-1. Estos contenidos están bajo la licencia **Atribución-NoComercial-CompartirIgual 4.0 Internacional**
-   (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, abreviado **CC BY-NC-SA 4.0**);
-2. Project Babel y todos los usuarios que reciban este contenido pueden, **cumpliendo los términos de CC BY-NC-SA 4.0**:
+1. Estos contenidos se licencian bajo **Atribución-NoComercial-CompartirIgual 4.0 Internacional** (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, abreviado **CC BY-NC-SA 4.0**);
+2. Project Babel y todos los usuarios que obtengan este contenido pueden, bajo la condición de **cumplir con los términos de CC BY-NC-SA 4.0**:
+* Compartir, copiar y redistribuir este contenido;
+* Modificarlo y recrearlo para usos no comerciales;
+3. Aceptas que, dentro de lo permitido por la ley aplicable, esta licencia es **no exclusiva, mundial, libre de regalías e irrevocable**;
+4. Incluso si abandonas o dejas de participar en este proyecto en el futuro, este proyecto puede continuar usando y redistribuyendo el contenido relevante que hayas enviado y fusionado según CC BY-NC-SA 4.0.
 
-   * Compartir, copiar y redistribuir este contenido;
-   * Modificarlo y crear obras derivadas con fines no comerciales;
-3. Aceptas que esta licencia es **no exclusiva, mundial, libre de regalías e irrevocable** en la medida permitida por la ley aplicable;
-4. Incluso si más tarde te retiras o dejas de participar en este proyecto, el proyecto puede seguir usando y redistribuyendo el contenido relevante que hayas enviado y que haya sido fusionado, bajo CC BY-NC-SA 4.0.
+> Si no aceptas la forma de licencia anterior, no envíes contribuciones de texto o imágenes a este proyecto,
+> o comunícate con antelación con los mantenedores del proyecto para confirmar si se puede colaborar de otra manera.
 
-> Si no aceptas los términos de licencia anteriores, no envíes contribuciones de texto o imágenes a este proyecto,
-> o comunícate previamente con los mantenedores del proyecto para confirmar si es posible colaborar de otra manera.
+### 6.3 Licencia para scripts y código de herramientas (GPL-3.0)
 
-### 3. Licencia de scripts y código de herramientas (GPL-3.0)
+Para lo que envíes y sea aceptado:
 
-Para lo siguiente que envíes y sea aceptado:
+* Guiones de automatización;
+* Herramientas de construcción/exportación;
+* Otros códigos de programa utilizados para manejar este proyecto de localización;
 
-* Scripts de automatización;
-* Herramientas de compilación/exportación;
-* Otro código de programa utilizado para procesar este proyecto de traducción;
+En ausencia de una declaración especial, se considera que aceptas:
 
-En ausencia de declaraciones especiales, se considera que aceptas que:
-
-1. El código está bajo la licencia **GPL-3.0** (GNU General Public License versión 3);
+1. El código está licenciado bajo **GPL-3.0** (GNU General Public License versión 3);
 2. Los mantenedores del proyecto pueden modificarlo, fusionarlo y distribuirlo dentro del alcance permitido por GPL-3.0;
-3. Tú también puedes continuar otros proyectos basados en el mismo código, siempre que cumplas los términos de GPL-3.0.
+3. También puedes continuar desarrollando otros proyectos basados en el mismo código, siempre que cumplas con los términos de GPL-3.0.
 
-Para evitar conflictos de licencia, intenta:
+Para evitar introducir conflictos de licencia, intente:
 
-* No introducir código de terceros **incompatible con GPL-3.0** sin confirmación previa;
-* Si necesitas hacer referencia a bibliotecas de terceros, indica claramente su origen y licencia en el PR, y confirma su compatibilidad.
+* No introducir código de terceros **incompatible con GPL-3.0** sin confirmación;
+* Si es necesario citar una biblioteca de terceros, indique claramente su origen y licencia en el PR, y confirme su compatibilidad.
 
-### 4. Obras anteriores y derechos de autor del juego original
+### 6.4 Derechos de autor de obras upstream y del juego original
 
-Este proyecto es un proyecto de **traducción no oficial** para mods relacionados con *Project Zomboid*:
+Este proyecto es un proyecto de **traducción no oficial** para los mods relacionados con "Project Zomboid" (Project Zomboid).
 
-* Los derechos de autor del juego original y de cada mod pertenecen a sus respectivos autores/editores;
-* Este proyecto solo implica la creación y organización de traducciones de texto, ajustes de estilo y algunos recursos complementarios;
-* Los contribuyentes, al enviar contenido, deben asegurarse de:
-
-  * No copiar directamente textos de traducción o recursos artísticos de terceros no autorizados;
-  * Respetar los derechos de los autores originales y de los mods, y no realizar redistribuciones infractoras.
+* Los derechos de autor del juego original y de cada mod pertenecen a sus respectivos autores/editoriales;
+* Este proyecto solo se dedica a la traducción de texto, ajustes de pulido y organización de algunos recursos complementarios;
+* Al enviar contenido, los contribuyentes deben asegurarse de:
+* No copiar directamente textos de localización o recursos artísticos de terceros no autorizados;
+* Respetar los derechos de los autores originales y autores de mods, y no realizar reproducciones que infrinjan derechos.
 
 ---
 
-## Comunicación y colaboración
+## 7. Comunicación y colaboración
 
-Si tienes:
+Si tienes dudas sobre:
 
-* Preguntas sobre los términos de la licencia;
-* Dudas sobre si cierto contenido puede ser contribuido;
-* El deseo de licenciar tu trabajo de una manera especial (por ejemplo, solo uso no comercial pero sin adaptación permitida);
+* Términos de licencia;
+* No estás seguro si cierto contenido puede ser contribuido;
+* Deseas licenciar tu trabajo de una manera especial (por ejemplo, solo permitir uso no comercial pero no permitir adaptación, etc.);
 
-Puedes contactar a los mantenedores del proyecto a través de:
+Bienvenido a contactar a los mantenedores del proyecto a través de los siguientes métodos:
 
-* Enviar un Issue para discutirlo;
-* Otros medios de contacto públicos de los mantenedores.
+* Enviar un Issue para discutir;
+* Otros métodos de contacto proporcionados públicamente por los mantenedores.
 
 Haremos todo lo posible por encontrar una solución que equilibre el desarrollo saludable del proyecto respetando los derechos e intereses de todas las partes.
 
 ---
 
-## Apoyo financiero
+## 8. Apoyo financiero
 
-Durante el funcionamiento del proyecto, debido a la adición de nuevos mods y las actualizaciones de texto de los mods existentes, es necesario llamar continuamente a la API del LLM para traducir. Para restringir el comportamiento del LLM, además de los textos básicos de los mods, se requiere una gran cantidad de contenido de prompt (incluyendo prompts básicos, reglas de traducción, tablas terminológicas, restricciones de entrada/salida, resultados de búsqueda semántica, etc.), lo que consume muchos más tokens que los textos originales. Por lo tanto, el proyecto necesita apoyo financiero.
+Durante la ejecución del proyecto, debido a la adición de nuevos mods, actualización de contenido de texto de mods antiguos, etc., es necesario llamar continuamente a la API de LLM para traducción. Y para restringir el comportamiento del LLM, además del texto básico del mod, también se necesita proporcionar una gran cantidad de contenido de prompts (incluyendo prompts base, reglas de traducción, glosarios, restricciones de entrada/salida, resultados de consultas semánticas, etc.), que consumen tokens muy por encima del texto original. Por lo tanto, el proyecto necesita apoyo financiero.
 
-Si deseas proporcionar apoyo financiero, contacta a los mantenedores del proyecto. ¡Muchas gracias!
+Si deseas proporcionar apoyo financiero, por favor contacta a los mantenedores del proyecto. ¡Muchas gracias!
 
 ---
 
-¡Gracias de nuevo por tu disposición a contribuir a este proyecto!
-¡Cada contribución que haces beneficia a más jugadores!
+¡Gracias de nuevo por estar dispuesto a contribuir a este proyecto!
+Cada una de tus contribuciones beneficiará a más jugadores.

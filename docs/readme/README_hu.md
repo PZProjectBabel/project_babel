@@ -1,31 +1,34 @@
-# Project Babel — PZ modok automatikus LLM fordítása
+# Project Babel — 《僵尸毁灭工程》 mod LLM automatikus fordítási projekt
 
-> [简体中文](../../README.md) | [English](README_en.md) <details><summary>Other Languages</summary>[العربية](README_ar.md) | [català](README_ca.md) | [繁體中文](README_zh-hant.md) | [čeština](README_cs.md) | [dansk](README_da.md) | [Deutsch](README_de.md) | [español](README_es.md) | [suomi](README_fi.md) | [français](README_fr.md) | [Bahasa Indonesia](README_id.md) | [italiano](README_it.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Nederlands](README_nl.md) | [norsk](README_no.md) | [Tagalog](README_tl.md) | [polski](README_pl.md) | [português](README_pt.md) | [português do Brasil](README_pt-br.md) | [română](README_ro.md) | [русский](README_ru.md) | [ภาษาไทย](README_th.md) | [Türkçe](README_tr.md) | [українська](README_uk.md)</details>
-
-> ⚠️ **Megjegyzés:** Ez a fordítás még nem támogatott. A mérvadó tartalom a [kínai verzió](../../README.md).
+> [English](README_en.md) | [简体中文](../../README.md) <details><summary>Other Languages</summary>[العربية](README_ar.md) | [català](README_ca.md) | [繁體中文](README_zh-hant.md) | [čeština](README_cs.md) | [dansk](README_da.md) | [Deutsch](README_de.md) | [español](README_es.md) | [suomi](README_fi.md) | [français](README_fr.md) | [magyar](README_hu.md) | [Bahasa Indonesia](README_id.md) | [italiano](README_it.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Nederlands](README_nl.md) | [norsk](README_no.md) | [Tagalog](README_tl.md) | [polski](README_pl.md) | [português](README_pt.md) | [português do Brasil](README_pt-br.md) | [română](README_ro.md) | [русский](README_ru.md) | [ภาษาไทย](README_th.md) | [Türkçe](README_tr.md) | [українська](README_uk.md)</details>
 
 ---
 
-*Ezt a fordítási projektet a [Project Babel](https://github.com/PZProjectBabel/project_babel) eszköz működteti és tartja karban.*
+*Ezt a fordító projektet a [Project Babel](https://github.com/PZProjectBabel/project_babel) eszközkészlet hajtja és tartja karban.*
 
 ---
 
 ## Tartalomjegyzék
 
-- [Támogatott célnyelvek](#támogatott-célnyelvek)
+- [Támogatott célfordítási nyelvek](#támogatott-célfordítási-nyelvek)
 - [Telepítés és használat](#telepítés-és-használat)
-- [Fordítási állapot](#fordítási-állapot)
-- [Közreműködés](#közreműködés)
-- [Eszközök és könyvtárszerkezet (fejlesztőknek)](#eszközök-és-könyvtárszerkezet-(fejlesztőknek))
+- [Fordítási haladás](#fordítási-haladás)
+- [Hogyan járulj hozzá](#hogyan-járulj-hozzá)
+- [Eszközök és könyvtárszerkezet (Fejlesztőknek)](#eszközök-és-könyvtárszerkezet-fejlesztőknek)
+  - [Projektkönyvtárak](#projektkönyvtárak)
+  - [Folyamatmodulok (végrehajtási sorrendben)](#folyamatmodulok-végrehajtási-sorrendben)
+  - [Technológiai stack](#technológiai-stack)
 - [Szerzői jog és licenc](#szerzői-jog-és-licenc)
+  - [1. Szövegek, képek és egyéb tartalmak](#1-szövegek-képek-és-egyéb-tartalmak)
+  - [2. Programok, szkriptek és egyéb fejlesztési tartalmak](#2-programok-szkriptek-és-egyéb-fejlesztési-tartalmak)
 - [Köszönetnyilvánítás](#köszönetnyilvánítás)
-- [Harmadik féltől származó szoftverek](#harmadik-féltől-származó-szoftverek)
+- [Harmadik féltől származó programok](#harmadik-féltől-származó-programok)
 
 ---
 
-## Támogatott célnyelvek
+## Támogatott célfordítási nyelvek
 
-| Nyelv | Helyi név | ISO kód | Játékbeli kód | Támogatott | Megjegyzés |
+| Nyelv | Helyi név | Nemzetközi kód | Játékbeli kód | Támogatott | Megjegyzés |
 |------|------|------|------|------|------|
 | Arab | العربية | `ar` | `AR` | ❌ | Token keret elégtelen |
 | Katalán | català | `ca` | `CA` | ❌ | Token keret elégtelen |
@@ -52,77 +55,78 @@
 | Román | română | `ro` | `RO` | ❌ | Token keret elégtelen |
 | Orosz | русский | `ru` | `RU` | ❌ | Token keret elégtelen |
 | Thai | ภาษาไทย | `th` | `TH` | ❌ | Token keret elégtelen |
-| Török | Türkçe | `tr` | `TR` | ❌ | Token keret elégtelen |
-| Ukrán | українська | `uk` | `UA` | ❌ | Token keret elégtelen |
+| török | Türkçe | `tr` | `TR` | ❌ | A tokenkeret nem elég |
+| ukrán | українська | `uk` | `UA` | ❌ | A tokenkeret nem elég |
 
-**Összesen**: 27 tervezett nyelv | **Támogatott**: 5 | **Függőben**: 22
+**Összesen**：27 tervezett nyelv | **Támogatott**：5 nyelv | **Várólistán**：22 nyelv
 
 ---
 
 ## Telepítés és használat
 
-Útmutató azoknak a játékosoknak, akik a fordításcsomagot szeretnék használni a játékban.
+Ez az útmutató azoknak a játékosoknak szól, akik közvetlenül a játékban szeretnék használni ezt a fordítási projektet.
 
-1. Látogass el a Steam Workshop oldalra: [[B42]ProjectBabel](https://steamcommunity.com/sharedfiles/filedetails/?id=3759583822)
-2. Kattints a "Feliratkozás" gombra.
-3. Indítsd el a játékot, és engedélyezd ezt a fordítási modot a Modok menüben.
-4. A később betöltött modok fordítási szövege felülírja a korábbiakat, ezért ennek a fordítási modnak a játékmodok után kell betöltődnie.
-5. Jó szórakozást!
-
----
-
-## Fordítási állapot
-
-[➡️ Fordítási állapot](../progress/progress_hu.md)
+1.  Látogass el a Steam Műhely oldalunkra：[[B42]Project Babel](https://steamcommunity.com/sharedfiles/filedetails/?id=3759583822)
+2.  Kattints a „Feliratkozás” gombra.
+3.  Indítsd el a játékot, majd a főmenü „Modok” kezelésében engedélyezd ezt a fordítási modot.
+4.  A később engedélyezett modok fordítási szövege elsőbbséget élvez a korábban engedélyezettekkel szemben, ezért ezt a fordítási modot a funkcionális modok után kell engedélyezni (lehetőleg legalul).
+5.  Élvezd a játékot!
 
 ---
 
-## Közreműködés
+## Fordítási haladás
 
-Várjuk a hozzájárulásokat! Fordítási javítások, új funkciók, promptsablonok vagy referenciafordítások.
-
-Az LLM API-hívások fordításra tokenköltséggel járnak. Támogatása segíti a projekt fenntartható működését!
-
-Read the [Contributing Guide](../contributing/contributing_hu.md) for details.
+**[➡️ Kattints ide a fordítás haladásának megtekintéséhez](./docs/progress/progress_hu.md)**
 
 ---
 
-## Eszközök és könyvtárszerkezet (fejlesztőknek)
+## Hogyan járulj hozzá
 
-Ez a szakasz azoknak a fejlesztőknek szól, akik meg szeretnék érteni a projekt automatizálásának belső működését.
+Üdvözöljük bárki részvételét, legyen szó hibajavításról, új funkció hozzáadásáról, prompt sablon megírásáról, vagy referenciául szolgáló fordítások biztosításáról!
+
+Az LLM API használata tokenenként fizetős; a projekt hosszú távú stabil működése érdekében köszönjük nagylelkű támogatását!
+
+Részletekért olvasd el a [Hozzájárulási útmutatót](./docs/contributing/contributing_hu.md)
+
+---
+
+## Eszközök és könyvtárszerkezet (Fejlesztőknek)
+
+Ez a szakasz azoknak a fejlesztőknek szól, akik szeretnék megérteni a projekt automatizálási elveit.
 
 ### Projektkönyvtárak
 
 | Könyvtár | Leírás |
 |------|------|
-| `src/` | .NET 10 fordítási folyamat forráskódja, 15 modul |
-| `config/` | Folyamatkonfiguráció (LLM, Steam, RAG paraméterek stb.) |
+| `src/` | .NET 10 fordítási folyamat forráskódja, 15 modullal |
+| `config/` | Folyamat konfigurációs fájlok (LLM, Steam, RAG paraméterek stb.) |
 | `data/` | Futásidejű adatok: mod metaadatok, beágyazások, fordítási gyorsítótár |
-| `translation_ref/` | Referenciafordítások LLM kontextusként |
-| `base_game_keys/` | Alapjáték fordítási kulcsok duplikációszűréshez |
-| `final_outputs/` | Végső PZ mod formátumú fordítási kimenet |
-| `docs/` | Dokumentáció: haladás, közreműködés, folyamat specifikációk |
-| `temp/` | Folyamat ideiglenes fájljai |
-| `src/prompt_templates/` | LLM prompt sablonok |
+| `translation_ref/` | Referencia fordítási adatok (如一汉化组 által engedélyezett modok), amelyek fordítási referenciát biztosítanak az LLM számára |
+| `base_game_keys/` | Játékkulcsok az eredeti játékszövegből, ismétlődés elkerülésére és a natív szöveg felülírásának megakadályozására |
+| `final_outputs/` | Végső kimenet: `project_babel/` mod csomag, `icons/` ikonok és `workshop_descriptions/` Műhely leírások |
+| `docs/` | Projekt dokumentáció: haladási jelentés, hozzájárulási útmutató, folyamat leírás |
+| `temp/` | Folyamat ideiglenes fájljai (minden futtatáskor külön könyvtár) |
+| `src/prompt_templates/` | LLM prompt sablonok (fordítás/tartalomellenőrzés) |
 
-### Folyamatmodulok (végrehajtási sorrend)
+### Folyamatmodulok (végrehajtási sorrendben)
 
 | Lépés | Modul | Funkció |
 |------|------|------|
-| 1 | `ConfigReader` | Konfiguráció/titkok/nyelvek betöltése |
-| 2 | `RepoDataLoader` | Referenciák és fordítási gyorsítótár betöltése |
-| 3 | `ModIdCollector` | Workshop mod azonosítók gyűjtése |
+| 1 | `ConfigReader` | Konfiguráció/kulcsok/nyelvlista betöltése |
+| 2 | `RepoDataLoader` | Referenciafordítás és fordítói gyorsítótár betöltése |
+| 3 | `ModIdCollector` | Workshop modul azonosítók gyűjtése |
 | 4 | `ModInfoFetcher` | Steam metaadatok lekérése |
-| 5 | `ModDownloader` | Modok letöltése steamcmd-n keresztül |
-| 6 | `ContentExtractor` | Mod fordítási fájlok elemzése → `TranslationEntry` |
-| 7 | `ContentChecker` | Tartalombiztonsági ellenőrzés |
-| 8 | `EmbeddingFetcher` | Szöveg beágyazási vektorok számítása |
-| 9 | `TranslationBatcher` | Fordítási kötegek létrehozása |
-| 10 | `RagContextRetriever` | RAG kontextusok lekérése |
-| 11 | `LLMTranslator` | LLM fordítás végrehajtása |
-| 12 | `ResultWriter` | Írás a data/ és translation_ref/ könyvtárakba |
-| 13 | `FinalOutputWriter` | Végső PZ mod kimenet generálása |
-| 14 | `ProgressReporter` | Haladási jelentések generálása |
+| 5 | `SteamCmdBootstrapper` | Az aktuális platform steamcmd futási környezetének előkészítése |
+| 6 | `ModDownloader` | Modulok letöltése steamcmd-n keresztül |
+| 7 | `ContentExtractor` | Modul fordítási fájljainak elemzése → `TranslationEntry` |
+| 8 | `ContentChecker` | Tartalombiztonsági ellenőrzés (kábítószer/pornográfia/erőszak) |
+| 9 | `EmbeddingFetcher` | Szöveges beágyazási vektorok számítása |
+| 10 | `TranslationBatcher` | Nyelvfüggetlen fordítási kötegek létrehozása |
+| 11 | `RagContextRetriever` | RAG kontextus lekérése (pontos kulcs + beágyazási hasonlóság) |
+| 12 | `LLMTranslator` | LLM meghívása fordítás végrehajtásához |
+| 13 | `ResultWriter` | Írás a data/ és translation_ref/ könyvtárakba |
+| 14 | `FinalOutputWriter` | Végső PZ modul formátumú kimenet előállítása |
+| 15 | `ProgressReporter` | Haladásjelentés generálása |
 
 ### Technológiai stack
 
@@ -130,43 +134,65 @@ Ez a szakasz azoknak a fejlesztőknek szól, akik meg szeretnék érteni a proje
 - **Célplatform**: GitHub Actions Linux x64 runner
 - **Tesztelés**: xUnit (Windows x64)
 - **LLM**: DeepSeek API (konfigurálható)
-- **Embedding**: Szövegvektorizálás RAG hasonlósági kereséshez
-- **Tartalomellenőrzés**: LLM-vezérelt többszintű biztonsági ellenőrzés
+- **Embedding**: Szöveg vektorizálása RAG hasonlósági kereséshez
+- **Tartalomellenőrzés**: LLM által vezérelt többszintű biztonsági audit
 
-Részletes műszaki dokumentáció: [TranslationEntry folyamat](../pipeline/translation_entry_pipeline_hu.md)
+Részletes [technikai referenciák](./docs/technical_reference/technical_reference_hu.md).
 
 ---
 
 ## Szerzői jog és licenc
 
-© 2025 Project Babel és minden szerző. Minden jog fenntartva.
+A fordítási projekt fordítási szövegei és kapcsolódó képei a **Project Babel** és a résztvevők által, az eredeti játékmódosítások alapján készültek vagy másodlagosan feldolgozottak.
 
-### Tartalom (szövegek, képek)
+© 2025 Project Babel és a szerzők – minden jog fenntartva.
 
-Licencelve **CC BY-NC-SA 4.0** alatt.
+### 1. Szövegek, képek és egyéb tartalmak
 
-- **Nevezd meg!**: Tüntesd fel a "Project Babel" alapú módosításokat, repó és Workshop linkekkel
-- **Ne add el!**: Kereskedelmi felhasználás tilos
-- **Így add tovább!**: A módosításokat ugyanazon licenc alatt kell közzétenni
+Hacsak külön nem jelezzük, a jelen tárolóban található:
 
-### Kód
+- Játékon belüli szövegek fordítása, stilizálása és lektorálása;
+Projektdokumentációk, mod belső szövegfordításai;
+A projekt által készített képek és művészeti források.
 
-A `src/` alatti kód **GPL-3.0** licenc alatt áll.
+Mindegyik a **Nevezd meg! - Ne add el! - Így add tovább! 4.0 Nemzetközi** (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, röviden **CC BY-NC-SA 4.0**) licenc alatt áll.
+
+Ez azt jelenti, hogy a következő feltételek betartásával szabadon megoszthatja és átdolgozhatja ezeket a tartalmakat:
+
+- **Nevezd meg (BY)**: Tüntesse fel jól látható helyen, hogy "Ez a fordítási projekt a 'Project Babel' munkáján alapul", és csatolja a jelen tároló és a Steam Workshop linkjét: `https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080`
+- **Ne add el (NC)**: Ne használja a projekt tartalmát vagy annak átdolgozott változatait semmilyen közvetlen vagy közvetett kereskedelmi célra (idesorolva a fizetős csomagokat, fizetős letöltéseket, hirdetésmegosztást stb.);
+- **Így add tovább (SA)**: Ha a projekt tartalmát módosítja vagy átdolgozza, a változtatásokat **ugyanazon CC BY-NC-SA 4.0 licenc** alatt kell nyilvánosan közzétennie.
+
+A licencről további információért látogassa meg:
+<https://creativecommons.org/licenses/by-nc-sa/4.0/deed.hu>
+
+*Különleges megjegyzés:*
+- *A base_game_keys mappa tartalma a játékból származik, a szerzői jog a játék fejlesztőjéé! A tartalom a fordítási kulcsok játékkulcsokkal való felülírásának megakadályozására szolgál (deduplikáció)*
+- *A translation_ref mappa tartalma az LLM számára nyújt fordítási referenciát, a szerzői jog az egyes modfejlesztőké!*
+
+### 2. Programok, szkriptek és egyéb fejlesztési tartalmak
+
+Kivéve, ha a forrásfájl vagy mappa másként rendelkezik, a jelen tárolóban található, a lokalizációs tartalmak előállítására/csomagolására/feldolgozására szolgáló programkód (pl. a `src/` mappában található kód) a **GNU General Public License 3. verziója (GPL-3.0)** alatt licencelt.
+
+A teljes licencfeltételek a tároló gyökérkönyvtárában található `LICENSE` fájlban (GPL-3.0) olvashatók, vagy látogassa meg a GNU weboldalát: <https://www.gnu.org/licenses/gpl-3.0.html>.
 
 ---
 
 ## Köszönetnyilvánítás
 
-| Referencia mod | Szerző | Oldal |
-|------|------|------|
-| [B42]统一·中文汉化 | 如一汉化组 (As1) | [Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3556544454) |
-| [B42]统一·模组汉化 | 如一汉化组 (As1) | [Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080) |
-| [B42]统一·方舟汉化 | 如一汉化组 (As1) | [Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3732061188) |
+Ez a projekt harmadik féltől származó modokat használ a célnyelvi fordítás referenciaszövegeként. A referenciaszövegeket elküldjük az LLM-nek fordítási referenciaként.
 
-**Őszinte köszönet a fenti szerzőknek!**
+| Referencia mod neve | Szerző | Mod oldal |
+|------|------|------|
+| [B42]统一·中文汉化 | 如一汉化组 (As1) | [Steam Workshop oldal](https://steamcommunity.com/sharedfiles/filedetails/?id=3556544454) |
+| [B42]统一·模组汉化 | 如一汉化组 (As1) | [Steam Workshop oldal](https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080) |
+| [B42]统一·方舟汉化 | 如一汉化组 (As1) | [Steam Workshop oldal](https://steamcommunity.com/sharedfiles/filedetails/?id=3732061188) |
+
+**Hálás köszönet a fent említett szerzőknek!**
 
 ---
 
-## Harmadik féltől származó szoftverek
+## Harmadik féltől származó programok
 
-Ez a projekt harmadik féltől származó programokat és könyvtárakat használ, a szerzői jogok a megfelelő fejlesztőket illetik.
+Ez a projekt harmadik féltől származó programokat és könyvtárakat használ, ezek szerzői joga a megfelelő fejlesztőket illeti.
+
