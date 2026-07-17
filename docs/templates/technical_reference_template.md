@@ -8,6 +8,15 @@
 ---
 
 {{multi_lang_file_links_block}}
+
+---
+
+## 目录
+
+{{TABLE_OF_CONTENTS}}
+
+---
+
 ## 项目概述
 
 **Project Babel** 是一个自动化的翻译管线，专门为游戏《Project Zomboid》的 Steam Workshop 模组（Mod）提供多语言 AI 翻译。
@@ -38,53 +47,6 @@ Project Babel 通过构建一条全自动化的 AI 翻译管线来解决这些�
 - 掌握每个处理模块的职责和内部原理。
 - 了解配置文件的结构和各项参数的含义。
 - 具备在本地或 CI 环境中运行管线的能力。
-
----
-
-## 目录
-
-- [1. 系统架构](#1-系统架构)
-- [2. 管线工作流程](#2-管线工作流程)
-- [3. 各模块原理与技术细节](#3-各模块原理与技术细节)
-  - [3.1 ConfigReader](#31-configreader-configreaderservice)
-  - [3.2 RepoDataLoader](#32-repodataloader-repodataloaderservice)
-  - [3.3 ModIdCollector](#33-modidcollector-modidcollectorservice)
-  - [3.4 ModInfoFetcher](#34-modinfofetcher-modinfofetcherservice)
-  - [3.5 SteamCmdBootstrapper](#35-steamcmdbootstrapper-steamcmdbootstrapperservice)
-  - [3.5.1 ModDownloader](#351-moddownloader-moddownloaderservice)
-  - [3.6 ContentExtractor](#36-contentextractor-contentextractorservice)
-  - [3.7 ContentChecker](#37-contentchecker-contentcheckerservice)
-  - [3.8 EmbeddingFetcher](#38-embeddingfetcher-embeddingfetcherservice)
-  - [3.9 TranslationBatcher](#39-translationbatcher-translationbatcherservice)
-  - [3.10 RagContextRetriever](#310-ragcontextretriever-ragcontextretrieverservice)
-  - [3.11 LLMTranslator](#311-llmtranslator-llmtranslatorservice)
-  - [3.12 ResultWriter](#312-resultwriter-resultwriterservice)
-  - [3.13 FinalOutputWriter](#313-finaloutputwriter-finaloutputwriterservice)
-  - [3.14 ProgressReporter](#314-progressreporter-progressreporterservice)
-- [4. 数据约定](#4-数据约定)
-  - [4.1 核心类型](#41-核心类型)
-  - [4.2 文件格式](#42-文件格式)
-  - [4.3 索引键约定](#43-索引键约定)
-  - [4.4 状态机](#44-状态机)
-- [5. 配置说明](#5-配置说明)
-  - [5.1 config.json — 管线主配置](#51-configconfigjson--管线主配置)
-    - [5.1.1 LLM — 大语言模型配置](#511-llm--大语言模型配置)
-    - [5.1.2 RAG — 检索增强生成配置](#512-rag--检索增强生成配置)
-    - [5.1.3 AsOne — 远程 Mod 列表源](#513-asone--远程-mod-列表源)
-    - [5.1.4 Steam — Steam Web API 配置](#514-steam--steam-web-api-配置)
-    - [5.1.5 Pipeline — 管线通用配置](#515-pipeline--管线通用配置)
-    - [5.1.6 ContentCheck — 内容安全审查配置](#516-contentcheck--内容安全审查配置)
-  - [5.1.7 Settings — 管线基础设置](#517-settings--管线基础设置)
-  - [5.1.8 Embedding — 嵌入服务配置](#518-embedding--嵌入服务配置)
-  - [5.1.9 Workflow — 工作流配置](#519-workflow--工作流配置)
-  - [5.2 secrets.json — 密钥配置](#52-configsecretsjson--密钥配置)
-  - [5.3 supported_languages.json — 支持语言列表](#53-configsupported_languagesjson--支持语言列表)
-  - [5.4 ref_translation_mods.json — 参考翻译模组](#54-configref_translation_modsjson--参考翻译模组)
-  - [5.5 request_for_translation.txt — 本地翻译请求](#55-configrequest_for_translationtxt--本地翻译请求)
-  - [5.6 配置加载流程](#56-配置加载流程)
-- [6. 目录结构](#6-目录结构)
-- [7. 运行方式](#7-运行方式)
-- [8. 关键设计决策](#8-关键设计决策)
 
 ---
 

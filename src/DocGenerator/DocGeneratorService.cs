@@ -11,12 +11,24 @@ namespace DocGenerator;
 /// Documentation generator — translates Chinese template docs into multiple languages via LLM.
 /// Currently dev/test phase: only zh-hans → en, outputs to temp folder.
 /// </summary>
-public sealed class DocGeneratorService
+public sealed partial class DocGeneratorService
 {
     private const int MaxLinesPerBatch = 30;
     private const int MaxConcurrency = 128;
     private const int MaxRetries = 3;
     private static readonly TimeSpan RetryBaseDelay = TimeSpan.FromSeconds(2);
+
+    /// <summary>Regex to parse a TOC link: [text](#anchor)</summary>
+    [GeneratedRegex(@"\[([^\]]*?)\]\(#([^)]*?)\)", RegexOptions.Compiled)]
+    private static partial Regex TocLinkRegex();
+
+    /// <summary>Regex to detect a markdown heading line.</summary>
+    [GeneratedRegex(@"^(#{2,4})\s+(.+)$", RegexOptions.Multiline | RegexOptions.Compiled)]
+    private static partial Regex HeadingRegex();
+
+    /// <summary>Regex to detect a table row (starts with optional whitespace then |).</summary>
+    [GeneratedRegex(@"^\s*\|", RegexOptions.Compiled)]
+    private static partial Regex TableRowRegex();
 
     private readonly string _repoRoot;
     private readonly string _templatesDir;
@@ -107,6 +119,10 @@ public sealed class DocGeneratorService
             + $"markdown={templateLines.Count(l => l.Category == TemplateLineCategory.MarkdownTag)}, "
             + $"placeholders={templateLines.Count(l => l.Category == TemplateLineCategory.Placeholder)}");
 
+        // ── Step 1b: Load links mapping for placeholder resolution ──
+        var linksMappingPath = Path.Combine(_templatesDir, $"{templateName}_links_mapping.json");
+        var linksMapping = await LoadLinksMappingAsync(linksMappingPath, ct);
+
         // ── Step 2: Load cache ──
         var cachePath = Path.Combine(_templatesDir, $"{templateName}_template_cache.json");
         var cache = await LoadCacheAsync(cachePath, ct);
@@ -154,12 +170,15 @@ public sealed class DocGeneratorService
                 continue;
             }
 
-            // Build batches (max 30 lines per batch).
+            // Build batches (max 30 lines per batch). Enforce strictly.
             var batches = new List<DocTranslationBatch>();
             var totalBatches = (int)Math.Ceiling((double)batchLines.Count / MaxLinesPerBatch);
             for (int i = 0; i < totalBatches; i++)
             {
                 var slice = batchLines.Skip(i * MaxLinesPerBatch).Take(MaxLinesPerBatch).ToList();
+                if (slice.Count > MaxLinesPerBatch)
+                    throw new InvalidOperationException(
+                        $"BUG: batch {i + 1} has {slice.Count} lines (limit={MaxLinesPerBatch})");
                 batches.Add(new DocTranslationBatch
                 {
                     TargetLang = lang,
@@ -216,6 +235,17 @@ public sealed class DocGeneratorService
                         cacheByHash[line.Sha256] = cacheEntry;
                     }
 
+                    // Guard: detect and warn if cache entry already had a different source text.
+                    if (!string.IsNullOrEmpty(cacheEntry.SourceText)
+                        && cacheEntry.SourceText != line.Text)
+                    {
+                        Console.Error.WriteLine(
+                            $"  [CACHE WARN] SHA256 collision or reuse: " +
+                            $"existing='{Truncate(cacheEntry.SourceText, 50)}' " +
+                            $"new='{Truncate(line.Text, 50)}' " +
+                            $"sha256={cacheEntry.Sha256[..12]}...");
+                    }
+
                     cacheEntry.SourceText = line.Text;
                     cacheEntry.Translations[lang] = lineResult.TranslatedText;
                     cacheEntry.NeedsTranslation[lang] = line.NeedsTranslation[lang];
@@ -233,19 +263,26 @@ public sealed class DocGeneratorService
         SaveCache(cachePath, cache);
         Console.WriteLine($"  [Step 5a] Cache saved: {cachePath}");
 
-        // 5b: Assemble final document per language and write to temp.
+        // 5b: Assemble final document per language, resolve placeholders, and write to temp.
         foreach (var lang in TargetLanguages)
         {
             var outputPath = Path.Combine(_outputDir, $"{templateName}_{lang}.md");
             AssembleFinalDoc(templateLines, cacheByHash, lang, outputPath);
+
+            // Post-process: resolve placeholders and generate TOC.
+            var raw = await Utf8NoBom.ReadAllTextAsync(outputPath, ct);
+            var resolved = ResolveAllPlaceholders(raw, linksMapping, lang);
+            await Utf8NoBom.WriteAllTextAsync(outputPath, resolved, ct);
+
             Console.WriteLine($"  [Step 5b] Output ({lang}): {outputPath}");
         }
 
-        // Also write the source (zh-hans) for reference.
+        // Also write the source (zh-hans) with placeholders resolved.
         {
             var zhPath = Path.Combine(_outputDir, $"{templateName}_zh-hans.md");
-            await Utf8NoBom.WriteAllTextAsync(
-                zhPath, string.Join("\n", rawLines) + "\n", ct);
+            var zhRaw = string.Join("\n", rawLines) + "\n";
+            var zhResolved = ResolveAllPlaceholders(zhRaw, linksMapping, "zh-hans");
+            await Utf8NoBom.WriteAllTextAsync(zhPath, zhResolved, ct);
             Console.WriteLine($"  [Step 5b] Output (zh-hans): {zhPath}");
         }
     }
@@ -335,6 +372,22 @@ public sealed class DocGeneratorService
                     }
 
                     var results = ParseTranslationResponse(responseText, batch);
+
+                    // Validate table rows: check for missing leading | and column count mismatch.
+                    var (tableValid, tableErrors) = ValidateTableResults(results, batch);
+                    if (!tableValid && attempt < MaxRetries)
+                    {
+                        Console.Error.WriteLine(
+                            $"  [TABLE RETRY] Batch {batch.BatchIndex}/{batch.TotalBatches} ({batch.TargetLang}) attempt {attempt}: {tableErrors}");
+                        await Task.Delay(RetryBaseDelay * attempt, ct);
+                        continue;
+                    }
+                    if (!tableValid)
+                    {
+                        Console.Error.WriteLine(
+                            $"  [TABLE WARN] Batch {batch.BatchIndex}/{batch.TotalBatches} ({batch.TargetLang}) final attempt: table issues unfixed. {tableErrors}");
+                    }
+
                     return new BatchTranslateResult(batch, results);
                 }
                 finally
@@ -422,8 +475,272 @@ public sealed class DocGeneratorService
     }
 
     /// <summary>
+    /// Fix missing leading | in table rows within the assembled document.
+    /// </summary>
+    private static string FixTableRows(string document)
+    {
+        var lines = document.Replace("\r", "").Split('\n');
+        var result = new List<string>();
+        for (int i = 0; i < lines.Length; i++)
+        {
+            var line = lines[i];
+            var trimmed = line.Trim();
+
+            var hasPipes = trimmed.Contains('|');
+            if (!hasPipes)
+            {
+                result.Add(line);
+                continue;
+            }
+
+            var prevIsTable = i > 0 && lines[i - 1].TrimStart().StartsWith('|');
+            var nextIsTable = i + 1 < lines.Length
+                && lines[i + 1].TrimStart().StartsWith('|');
+            var isTableSeparator = trimmed.StartsWith('|')
+                && trimmed.Replace("|", "").Replace("-", "").Replace(":", "").Replace(" ", "").Length == 0;
+
+            if ((prevIsTable || nextIsTable || isTableSeparator) && !trimmed.StartsWith("| "))
+            {
+                if (trimmed.Length > 0 && trimmed[0] != '|' && !trimmed.StartsWith("|-"))
+                {
+                    result.Add("| " + trimmed);
+                    continue;
+                }
+            }
+            result.Add(line);
+        }
+        return string.Join('\n', result);
+    }
+
+    /// <summary>Public testable wrapper for FixListItems (dev only).</summary>
+    public static string FixListItemsPublic(string document) => FixListItems(document);
+
+    /// <summary>
+    /// Fix list items that lost or mangled their leading list markers during translation.
+    /// Handles: (a) completely dropped "- " / "* ", (b) malformed "*- " → "- ".
+    /// Only fixes lines that are in a list context (previous line is a list item).
+    /// </summary>
+    private static string FixListItems(string document)
+    {
+        // Normalize line endings: strip \r to avoid indent miscalculation.
+        var lines = document.Replace("\r", "").Split('\n');
+        var result = new List<string>();
+
+        for (int i = 0; i < lines.Length; i++)
+        {
+            var line = lines[i];
+            var trimmed = line.Trim();
+            var leadingWs = line.Length - trimmed.Length; // indentation to preserve
+
+            // Already a proper list item — pass through.
+            if (trimmed.StartsWith("- ") || trimmed.StartsWith("* ")
+                || Regex.IsMatch(trimmed, @"^\d+\.\s"))
+            {
+                result.Add(line);
+                continue;
+            }
+
+            // Not in a list context — pass through.
+            var prevTrimmed = i > 0 ? lines[i - 1].TrimStart() : "";
+            var prevIsListItem = i > 0 && (
+                prevTrimmed.StartsWith("- ")
+                || prevTrimmed.StartsWith("* ")
+                || Regex.IsMatch(prevTrimmed, @"^\d+\.\s"));
+            if (!prevIsListItem)
+            {
+                result.Add(line);
+                continue;
+            }
+
+            // Determine the expected list marker from the previous line.
+            var marker = prevTrimmed.StartsWith("- ") ? "- "
+                : prevTrimmed.StartsWith("* ") ? "* "
+                : "- ";
+
+            // Check for malformed marker patterns: *-, --, * -, - -
+            string cleanContent;
+            if (trimmed.StartsWith("*- "))
+                cleanContent = trimmed[3..].TrimStart();
+            else if (trimmed.StartsWith("-- "))
+                cleanContent = trimmed[3..].TrimStart();
+            else if (trimmed.StartsWith("* - "))
+                cleanContent = trimmed[4..].TrimStart();
+            else if (trimmed.StartsWith("- - "))
+                cleanContent = trimmed[4..].TrimStart();
+            else if (trimmed.StartsWith("**") || trimmed.StartsWith("*")
+                    || trimmed.StartsWith("`") || trimmed.StartsWith("_"))
+                cleanContent = trimmed;
+            else
+            {
+                result.Add(line);
+                continue;
+            }
+
+            var indent = leadingWs > 0 ? line[..leadingWs] : "";
+            result.Add(indent + marker + cleanContent);
+        }
+
+        return string.Join('\n', result);
+    }
+
+    /// <summary>
+    /// Validate translated table rows: check leading | presence and column counts.
+    /// Returns (isValid, errorMessage). If fixable (missing leading |), fixes in-place.
+    /// </summary>
+    private static (bool isValid, string? error) ValidateTableResults(
+        List<LlmLineResult> results, DocTranslationBatch batch)
+    {
+        // Build a lookup from line number to source line and result.
+        var sourceByNum = batch.Lines.ToDictionary(l => l.LineNumber);
+        var resultByNum = results.ToDictionary(r => r.LineNumber);
+
+        // Group consecutive table rows in the batch.
+        var tableGroups = new List<List<int>>();
+        List<int>? currentGroup = null;
+        foreach (var line in batch.Lines.OrderBy(l => l.LineNumber))
+        {
+            var sourceText = line.Text;
+            var isTableRow = TableRowRegex().IsMatch(sourceText);
+            if (isTableRow)
+            {
+                currentGroup ??= [];
+                currentGroup.Add(line.LineNumber);
+            }
+            else
+            {
+                if (currentGroup is { Count: > 0 })
+                {
+                    tableGroups.Add(currentGroup);
+                    currentGroup = null;
+                }
+            }
+        }
+        if (currentGroup is { Count: > 0 })
+            tableGroups.Add(currentGroup);
+
+        var errors = new List<string>();
+        foreach (var group in tableGroups)
+        {
+            // Determine the expected column count from the source.
+            var expectedCols = group
+                .Select(num => sourceByNum[num].Text.Split('|').Length)
+                .Max();
+
+            foreach (var lineNum in group)
+            {
+                if (!resultByNum.TryGetValue(lineNum, out var result))
+                    continue;
+                var translated = result.TranslatedText;
+                if (string.IsNullOrWhiteSpace(translated))
+                    continue; // Skipped line — not our problem.
+
+                var sourceText = sourceByNum[lineNum].Text;
+
+                // Check 1: Does source have leading `| ` but translation doesn't?
+                var srcHasLeadingPipe = TableRowRegex().IsMatch(sourceText);
+                var tgtHasLeadingPipe = TableRowRegex().IsMatch(translated);
+                if (srcHasLeadingPipe && !tgtHasLeadingPipe)
+                {
+                    // Fix: prepend "| " if the translation starts with non-pipe content.
+                    if (translated.Length > 0 && translated[0] != '|')
+                    {
+                        result.TranslatedText = "| " + translated;
+                    }
+                }
+
+                // Check 2: Column count.
+                var srcCols = sourceText.Split('|').Length;
+                var tgtCols = result.TranslatedText.Split('|').Length;
+                if (srcCols != tgtCols)
+                {
+                    errors.Add(
+                        $"line {lineNum}: source has {srcCols} cols, translated has {tgtCols} cols");
+                }
+            }
+        }
+
+        if (errors.Count > 0)
+            return (false, string.Join("; ", errors));
+        return (true, null);
+    }
+
+    /// <summary>
+    /// Fix TOC anchors in the assembled document: map Chinese anchors → English anchors
+    /// by matching headings by position (they appear in the same order in both documents).
+    /// </summary>
+    private static string FixTocAnchors(string document, List<DocTemplateLine> sourceLines)
+    {
+        // Extract Chinese headings from source in order.
+        var cnHeadings = new List<(int LineNum, string Heading, string Anchor)>();
+        for (int i = 0; i < sourceLines.Count; i++)
+        {
+            var lineText = sourceLines[i].Text;
+            var m = Regex.Match(lineText, @"^#{2,4}\s+(.+)$");
+            if (m.Success)
+            {
+                var headingText = m.Groups[1].Value.Trim();
+                cnHeadings.Add((i + 1, headingText, GenerateGitHubAnchor(headingText)));
+            }
+        }
+
+        // Extract English headings from the generated document in order.
+        var enHeadings = new List<(int Index, string Heading, string Anchor)>();
+        var docLines = document.Split('\n');
+        int enIdx = 0;
+        for (int i = 0; i < docLines.Length; i++)
+        {
+            var m = Regex.Match(docLines[i], @"^#{2,4}\s+(.+)$");
+            if (m.Success)
+            {
+                var headingText = m.Groups[1].Value.Trim();
+                enHeadings.Add((enIdx, headingText, GenerateGitHubAnchor(headingText)));
+                enIdx++;
+            }
+        }
+
+        // Build anchor map: Chinese GitHub anchor → English GitHub anchor.
+        // Headings appear in the same order; match by position index.
+        var anchorMap = new Dictionary<string, string>(StringComparer.Ordinal);
+        for (int i = 0; i < cnHeadings.Count && i < enHeadings.Count; i++)
+        {
+            anchorMap[cnHeadings[i].Anchor] = enHeadings[i].Anchor;
+            // Also map the raw Chinese heading text itself (for anchors that use unprocessed text).
+            anchorMap[cnHeadings[i].Heading] = enHeadings[i].Anchor;
+        }
+
+        if (anchorMap.Count == 0)
+            return document;
+
+        // Replace TOC anchors.
+        return TocLinkRegex().Replace(document, match =>
+        {
+            var linkText = match.Groups[1].Value;
+            var anchor = match.Groups[2].Value;
+            var decodedAnchor = Uri.UnescapeDataString(anchor);
+
+            if (anchorMap.TryGetValue(decodedAnchor, out var newAnchor))
+                return $"[{linkText}](#{newAnchor})";
+
+            // No mapping found — keep original.
+            return match.Value;
+        });
+    }
+
+    /// <summary>
+    /// Generate a GitHub-style heading anchor from heading text.
+    /// Converts to lowercase, keeps only letters/digits/spaces/hyphens, spaces→hyphens.
+    /// </summary>
+    private static string GenerateGitHubAnchor(string heading)
+    {
+        return Regex.Replace(
+            Regex.Replace(heading.ToLowerInvariant(), @"[^\w\s-]", ""),
+            @"\s+", "-").Trim('-');
+    }
+
+    /// <summary>
     /// Assemble the final multilingual document by substituting translated lines.
     /// Lines that don't need translation or have empty translation keep the original text.
+    /// Then apply TOC anchor fix and table row fix post-processing.
     /// </summary>
     private static void AssembleFinalDoc(
         List<DocTemplateLine> templateLines,
@@ -446,7 +763,15 @@ public sealed class DocGeneratorService
                 sb.AppendLine(line.Text);
             }
         }
-        Utf8NoBom.WriteAllText(outputPath, sb.ToString());
+
+        var rawDoc = sb.ToString();
+
+        // Post-processing: fix TOC anchors, table rows, and list item markers.
+        var fixedDoc = FixTocAnchors(rawDoc, templateLines);
+        fixedDoc = FixTableRows(fixedDoc);
+        fixedDoc = FixListItems(fixedDoc);
+
+        Utf8NoBom.WriteAllText(outputPath, fixedDoc);
     }
 
     // ── Cache I/O ──
@@ -580,6 +905,225 @@ public sealed class DocGeneratorService
 
     private static string Truncate(string text, int maxLen = 200) =>
         text.Length <= maxLen ? text : text[..maxLen] + "...";
+
+    // ── Placeholder Resolution & TOC Generation ──
+
+    /// <summary>
+    /// Load the *_links_mapping.json file for a template.
+    /// Returns an empty mapping if the file doesn't exist (not all templates have one).
+    /// </summary>
+    private static async Task<LinksMapping> LoadLinksMappingAsync(
+        string mappingPath, CancellationToken ct)
+    {
+        if (!File.Exists(mappingPath))
+            return new LinksMapping();
+
+        try
+        {
+            var json = await Utf8NoBom.ReadAllTextAsync(mappingPath, ct);
+            return JsonSerializer.Deserialize<LinksMapping>(json, Utf8NoBom.JsonOptions)
+                   ?? new LinksMapping();
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"  [WARN] Failed to load links mapping {mappingPath}: {ex.Message}");
+            return new LinksMapping();
+        }
+    }
+
+    /// <summary>
+    /// Resolve all {{placeholder}} patterns in the assembled document.
+    /// Handles: {{TABLE_OF_CONTENTS}}, {{multi_lang_file_links_block}},
+    /// {{md_link_N}}, {{url_N}}, and named links from the mapping.
+    /// </summary>
+    private static string ResolveAllPlaceholders(
+        string document, LinksMapping mapping, string lang)
+    {
+        // Step 1: Generate TOC first (so it's in place before other replacements).
+        document = GenerateTableOfContents(document);
+
+        // Step 2: Replace named links and other simple placeholders.
+        document = Regex.Replace(document, @"\{\{(.+?)\}\}", match =>
+        {
+            var key = match.Groups[1].Value;
+
+            // multi_lang_file_links_block: generate the full language-switcher block.
+            if (key == "multi_lang_file_links_block" && mapping.multi_lang_file_links_block != null)
+                return BuildMultiLangLinksBlock(mapping.multi_lang_file_links_block, lang);
+
+            // TABLE_OF_CONTENTS is handled above; if still present, leave as-is.
+            if (key == "TABLE_OF_CONTENTS")
+                return match.Value;
+
+            // md_link_N → [text](url) markdown link.
+            if (key.StartsWith("md_link_")
+                && int.TryParse(key["md_link_".Length..], out var mdIdx)
+                && mapping.MdLinkDefs.TryGetValue(mdIdx.ToString(), out var mdDef))
+            {
+                var url = SubstituteLang(mdDef.url, lang);
+                return $"[{mdDef.text}]({url})";
+            }
+
+            // url_N → raw URL (mapping uses numeric keys, strip "url_" prefix).
+            if (key.StartsWith("url_")
+                && mapping.url_blocks != null)
+            {
+                var urlKey = key["url_".Length..];
+                if (mapping.url_blocks.TryGetValue(urlKey, out var rawUrl)
+                    || mapping.url_blocks.TryGetValue(key, out rawUrl))
+                {
+                    return SubstituteLang(rawUrl, lang);
+                }
+            }
+
+            // named_links fallback: {{progress_link}}, {{contributing_link}}, etc.
+            if (mapping.named_links != null
+                && mapping.named_links.TryGetValue(key, out var namedVal))
+            {
+                return SubstituteLang(namedVal, lang);
+            }
+
+            // Unknown placeholder — keep as-is.
+            return match.Value;
+        });
+
+        return document;
+    }
+
+    /// <summary>
+    /// Replace {lang} and {cc_locale} tokens in a URL with the actual language code.
+    /// </summary>
+    private static string SubstituteLang(string value, string lang)
+    {
+        return value
+            .Replace("{lang}", lang)
+            .Replace("{cc_locale}", GetCcLocale(lang));
+    }
+
+    /// <summary>
+    /// Map ISO language code to Creative Commons locale code.
+    /// </summary>
+    private static string GetCcLocale(string lang) => lang switch
+    {
+        "zh-hans" => "zh-Hans",
+        "zh-hant" => "zh-Hant",
+        "pt-br" => "pt_BR",
+        _ => lang.Split('-')[0] // e.g., "en", "ja", "fr"
+    };
+
+    /// <summary>
+    /// Find {{TABLE_OF_CONTENTS}} in the document and replace it with a
+    /// programmatically generated TOC from the document's ## and ### headings.
+    /// </summary>
+    private static string GenerateTableOfContents(string document)
+    {
+        if (!document.Contains("{{TABLE_OF_CONTENTS}}"))
+            return document;
+
+        // Collect all ## and ### headings after the TOC placeholder.
+        var headings = new List<(int Level, string Text, string Anchor)>();
+        var lines = document.Replace("\r", "").Split('\n');
+        bool pastToc = false;
+
+        foreach (var line in lines)
+        {
+            var trimmed = line.Trim();
+
+            // Detect the TOC placeholder line.
+            if (trimmed == "{{TABLE_OF_CONTENTS}}")
+            {
+                pastToc = true;
+                continue;
+            }
+
+            if (!pastToc)
+                continue;
+
+            var m = Regex.Match(trimmed, @"^(#{2,4})\s+(.+)$");
+            if (!m.Success)
+                continue;
+
+            var level = m.Groups[1].Value.Length; // 2, 3, or 4
+            var text = m.Groups[2].Value.Trim();
+            var anchor = GitHubAnchor(text);
+            headings.Add((level, text, anchor));
+        }
+
+        // Build TOC.
+        var sb = new StringBuilder();
+        foreach (var (level, text, anchor) in headings)
+        {
+            var indent = new string(' ', (level - 2) * 2);
+            sb.Append(indent);
+            sb.Append("- [");
+            sb.Append(text);
+            sb.Append("](#");
+            sb.Append(anchor);
+            sb.AppendLine(")");
+        }
+
+        var toc = sb.ToString().TrimEnd();
+        return document.Replace("{{TABLE_OF_CONTENTS}}\n", toc + "\n")
+                       .Replace("{{TABLE_OF_CONTENTS}}", toc);
+    }
+
+    /// <summary>
+    /// Generate a GitHub-style heading anchor: lowercase, keep alphanumeric/space/hyphen,
+    /// spaces→hyphens, strip leading/trailing hyphens.
+    /// </summary>
+    private static string GitHubAnchor(string heading)
+    {
+        return Regex.Replace(
+            Regex.Replace(heading.ToLowerInvariant(), @"[^\w\s-]", ""),
+            @"\s+", "-").Trim('-');
+    }
+
+    /// <summary>
+    /// Build the multi-language file links block for top-of-document language switcher.
+    /// </summary>
+    private static string BuildMultiLangLinksBlock(MultiLangBlock block, string currentLang)
+    {
+        var sb = new StringBuilder();
+
+        // Determine primary link: prefer current language as the "primary" shown outside details.
+        string primaryText = "English";
+        string primaryUrl = "";
+        if (block.primary_links != null
+            && block.primary_links.TryGetValue(currentLang, out var currentPrimary))
+        {
+            primaryText = currentPrimary.text;
+            primaryUrl = currentPrimary.url;
+        }
+
+        sb.Append("> [");
+        sb.Append(primaryText);
+        sb.Append("](");
+        sb.Append(primaryUrl);
+        sb.Append(") <details><summary>");
+
+        // Summary text: "其它语言" for zh-hans source, "Other Languages" otherwise.
+        var summaryText = currentLang == "zh-hans" ? "其它语言" : "Other Languages";
+        sb.Append(summaryText);
+        sb.Append("</summary>");
+
+        if (block.language_links != null)
+        {
+            foreach (var link in block.language_links)
+            {
+                sb.Append('[');
+                sb.Append(link.text);
+                sb.Append("](");
+                sb.Append(link.url);
+                sb.Append(") | ");
+            }
+            // Remove trailing " | ".
+            if (block.language_links.Count > 0)
+                sb.Length -= 3;
+        }
+
+        sb.Append("</details>");
+        return sb.ToString();
+    }
 }
 
 /// <summary>

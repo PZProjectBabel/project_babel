@@ -1,6 +1,8 @@
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.Json;
 using System.Text.Json.Serialization;
+using Common;
 
 namespace DocGenerator;
 
@@ -158,4 +160,69 @@ public sealed class LlmLineResult
     public string TranslatedText { get; set; } = "";
     public float Confidence { get; set; }
     public string? Comment { get; set; }
+}
+
+/// <summary>
+/// Deserialized from *_links_mapping.json. Contains all placeholder definitions
+/// for a template: multi-lang file links, markdown links, raw URLs, and named links.
+/// </summary>
+public sealed class LinksMapping
+{
+    public MultiLangBlock? multi_lang_file_links_block { get; set; }
+
+    /// <summary>
+    /// md_file_links_blocks values can be either a string (plain URL, no link text)
+    /// or an object {text, url}. Use JsonElement to handle both at parse time.
+    /// </summary>
+    [JsonIgnore]
+    public Dictionary<string, MdLinkDef> MdLinkDefs { get; set; } = [];
+
+    public Dictionary<string, string>? url_blocks { get; set; }
+    public Dictionary<string, string>? named_links { get; set; }
+
+    // Raw deserialization target — processed into MdLinkDefs after deserialization.
+    [JsonPropertyName("md_file_links_blocks")]
+    public Dictionary<string, JsonElement>? md_file_links_blocks_raw
+    {
+        set
+        {
+            MdLinkDefs = [];
+            if (value == null) return;
+            foreach (var kv in value)
+            {
+                if (kv.Value.ValueKind == JsonValueKind.String)
+                {
+                    // Plain URL string — use the URL itself as link text.
+                    var url = kv.Value.GetString() ?? "";
+                    MdLinkDefs[kv.Key] = new MdLinkDef { text = url, url = url };
+                }
+                else if (kv.Value.ValueKind == JsonValueKind.Object)
+                {
+                    var def = JsonSerializer.Deserialize<MdLinkDef>(
+                        kv.Value.GetRawText(), Utf8NoBom.JsonOptions);
+                    if (def != null)
+                        MdLinkDefs[kv.Key] = def;
+                }
+            }
+        }
+        get => null; // Never serialized back.
+    }
+}
+
+public sealed class MultiLangBlock
+{
+    public Dictionary<string, LangLinkDef>? primary_links { get; set; }
+    public List<LangLinkDef>? language_links { get; set; }
+}
+
+public sealed class LangLinkDef
+{
+    public string text { get; set; } = "";
+    public string url { get; set; } = "";
+}
+
+public sealed class MdLinkDef
+{
+    public string text { get; set; } = "";
+    public string url { get; set; } = "";
 }

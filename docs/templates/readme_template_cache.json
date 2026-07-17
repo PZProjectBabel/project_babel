@@ -3,7 +3,7 @@
     "Sha256": "7fbfd193a45be757ab7a246cac4e8367c09b2346bdf9fa0d4e0fabe06ab0112c",
     "SourceText": "# Project Babel — 《僵尸毁灭工程》模组LLM自动翻译项目",
     "Translations": {
-      "en": "# Project Babel — Project Zomboid Mod LLM Auto-Translation Project"
+      "en": "# Project Babel — LLM Auto-Translation Mod for Project Zomboid"
     },
     "NeedsTranslation": {
       "en": true
@@ -13,7 +13,7 @@
     "Sha256": "c1ef707c10e5ce4e39e4b63f87ec46a9a86e931d00bd54eb35e1dcd77164f9f9",
     "SourceText": "*本翻译项目由 {{md_link_0}} 工具集驱动与维护。*",
     "Translations": {
-      "en": "*This translation project is powered and maintained by the {{md_link_0}} toolset.*"
+      "en": "*This translation project is powered and maintained by the {{md_link_0}} tool suite.*"
     },
     "NeedsTranslation": {
       "en": true
@@ -30,90 +30,10 @@
     }
   },
   {
-    "Sha256": "c6b4601bd8aa30e4198dc38c098706af80872c967886db4bb092b113e8e58f4f",
-    "SourceText": "- [项目支持的目标翻译语言](#项目支持的目标翻译语言)",
-    "Translations": {
-      "en": "- [Supported Target Languages](#项目支持的目标翻译语言)"
-    },
-    "NeedsTranslation": {
-      "en": true
-    }
-  },
-  {
-    "Sha256": "70e9b00450e248f8e1589edc3583ee9a7985963e41636d8f0fea3638845ec07d",
-    "SourceText": "- [如何安装和使用](#如何安装和使用)",
-    "Translations": {
-      "en": "- [How to Install and Use](#如何安装和使用)"
-    },
-    "NeedsTranslation": {
-      "en": true
-    }
-  },
-  {
-    "Sha256": "2463dc32dc4f523db6f53b0698666c31dd1d69cc78fa2fbea5f3180263b66cb2",
-    "SourceText": "- [翻译进度](#翻译进度)",
-    "Translations": {
-      "en": "- [Translation Progress](#翻译进度)"
-    },
-    "NeedsTranslation": {
-      "en": true
-    }
-  },
-  {
-    "Sha256": "10d3c9630a2bd3830c14b554d4a192ea18df75da56cce2abb81193daf00caaa6",
-    "SourceText": "- [如何贡献](#如何贡献)",
-    "Translations": {
-      "en": "- [How to Contribute](#如何贡献)"
-    },
-    "NeedsTranslation": {
-      "en": true
-    }
-  },
-  {
-    "Sha256": "35a50f75231cc455221dd4fdd0430314e06144f4fac3f6a91720f670dbba5b3a",
-    "SourceText": "- [工具与目录结构 (面向开发者)](#工具与目录结构-面向开发者)",
-    "Translations": {
-      "en": "- [Tools and Directory Structure (For Developers)](#工具与目录结构-面向开发者)"
-    },
-    "NeedsTranslation": {
-      "en": true
-    }
-  },
-  {
-    "Sha256": "453dc2c87e41d0ede5c03de5e4c8eccfdc77531dcb965d91ae61cd419dcccb74",
-    "SourceText": "- [版权与授权](#版权与授权)",
-    "Translations": {
-      "en": "- [Copyright and License](#版权与授权)"
-    },
-    "NeedsTranslation": {
-      "en": true
-    }
-  },
-  {
-    "Sha256": "5c57d75e795c8f06d7c59673973d41c1c2fb000a040830ac30b4658fe6311957",
-    "SourceText": "- [致谢](#致谢)",
-    "Translations": {
-      "en": "- [Acknowledgments](#致谢)"
-    },
-    "NeedsTranslation": {
-      "en": true
-    }
-  },
-  {
-    "Sha256": "aae626fb33a671c09f516b2eb52ca1673d91ad4e91d23d9a2718158402c1163c",
-    "SourceText": "- [第三方程序](#第三方程序)",
-    "Translations": {
-      "en": "- [Third-Party Programs](#第三方程序)"
-    },
-    "NeedsTranslation": {
-      "en": true
-    }
-  },
-  {
     "Sha256": "28cbfb74b706f442377fe699e13584012829d17ee14fa4e88f7e8289f80e2b95",
     "SourceText": "## 项目支持的目标翻译语言",
     "Translations": {
-      "en": "## Supported Target Languages"
+      "en": "## Supported Target Translation Languages"
     },
     "NeedsTranslation": {
       "en": true
@@ -123,7 +43,7 @@
     "Sha256": "c0811707526fdbee581c9962a1e9ed081b6e28b3c620f7dd73ff9028b44d02f2",
     "SourceText": "| 语言 | 本地名 | 国际代码 | 游戏内代码 | 是否支持 | 备注 |",
     "Translations": {
-      "en": "| Language | Native Name | ISO Code | In-Game Code | Supported | Notes |"
+      "en": "| Language | Native Name | ISO Code | In-game Code | Supported | Notes |"
     },
     "NeedsTranslation": {
       "en": true
@@ -423,7 +343,7 @@
     "Sha256": "a7e6ab290aa1f2bf47a621e9797045ae313c9a3e9ddbeb6e4451daeb3ec8712a",
     "SourceText": "这是为想要在游戏中直接使用本翻译项目的玩家准备的指南。",
     "Translations": {
-      "en": "This is a guide for players who want to use this translation project directly in the game."
+      "en": "This guide is for players who want to use this translation project directly in the game."
     },
     "NeedsTranslation": {
       "en": true
@@ -433,7 +353,7 @@
     "Sha256": "85d46ea795be3ec41eb578f09ff1b113d1ad609a1b458b99c1482e15e3eee138",
     "SourceText": "1.  前往我们的 Steam 创意工坊页面：{{md_link_1}}",
     "Translations": {
-      "en": "1.  Visit our Steam Workshop page: {{md_link_1}}"
+      "en": "1.  Go to our Steam Workshop page: {{md_link_1}}"
     },
     "NeedsTranslation": {
       "en": true
@@ -453,7 +373,7 @@
     "Sha256": "f3e07a6ff371390262dc64676b7c8ad93ee20cf183272e411d124e9aa7017677",
     "SourceText": "3.  启动游戏，在游戏主菜单的「模组」管理中启用本翻译模组。",
     "Translations": {
-      "en": "3.  Launch the game and enable this translation mod in the \"Mods\" management of the main menu."
+      "en": "3.  Launch the game, and enable this translation mod in the \"Mods\" management on the main menu."
     },
     "NeedsTranslation": {
       "en": true
@@ -463,7 +383,7 @@
     "Sha256": "be5bd057b2264a3a7babeaf58a43d7ac3c10680bf4af4a9f864b000ccffdf5c8",
     "SourceText": "4.  后启用的模组的翻译文本优先覆盖先启用的模组，因此本翻译模组需在功能模组之后启用（尽量置底）。",
     "Translations": {
-      "en": "4.  Translation text from mods loaded later overrides earlier mods, so this translation mod should be enabled after the functional mods (place it as low as possible)."
+      "en": "4.  Translation texts from mods loaded later take priority over those loaded earlier, so this translation mod should be enabled after the functional mods (try to place it at the bottom)."
     },
     "NeedsTranslation": {
       "en": true
@@ -523,7 +443,7 @@
     "Sha256": "40707f2aff8f00bbe58ffcf895874a1f7cb5be49dc095e6de41bf8a57852504a",
     "SourceText": "调用LLM API进行翻译是需要为词元付费的，为了项目能够长期稳定运行，希望您能慷慨相助！",
     "Translations": {
-      "en": "Calling the LLM API for translation requires paying for tokens. To ensure the project runs stably for a long time, we hope you can generously help!"
+      "en": "Calling the LLM API for translation requires paying for tokens. To ensure the long-term stable operation of the project, we hope you can generously support us!"
     },
     "NeedsTranslation": {
       "en": true
@@ -553,7 +473,7 @@
     "Sha256": "992337693ea5e7a2f9fa343f3d3b1316d8748619400838ee730f072d94e7ff71",
     "SourceText": "本节内容面向希望了解项目自动化原理的开发者。",
     "Translations": {
-      "en": "This section is for developers who want to understand the project's automation principles."
+      "en": "This section is for developers who wish to understand the automation principles of the project."
     },
     "NeedsTranslation": {
       "en": true
@@ -603,7 +523,7 @@
     "Sha256": "680240bfd40e360ff220c0f3d464a2dddd3d32461b84a95e73a2c8b6e84e978d",
     "SourceText": "| `data/` | 运行时数据：模组元数据、embedding、翻译缓存 |",
     "Translations": {
-      "en": "`data/` | Runtime data: mod metadata, embedding, translation cache |"
+      "en": "| `data/` | Runtime data: mod metadata, embeddings, translation cache |"
     },
     "NeedsTranslation": {
       "en": true
@@ -613,7 +533,7 @@
     "Sha256": "0616497419bb2942a449758b7768a333dbfe943bbd6e5bc5b4fe86ce5d49158a",
     "SourceText": "| `translation_ref/` | 参考翻译数据 (如一汉化组授权模组)，为 LLM 提供翻译参考 |",
     "Translations": {
-      "en": "`translation_ref/` | Reference translation data (e.g., authorized mods from As1 Chinese Translation Team), provides translation reference for LLM |"
+      "en": "| `translation_ref/` | Reference translation data (e.g., authorized mods from As1 Chinese Translation Group), providing translation references for LLM |"
     },
     "NeedsTranslation": {
       "en": true
@@ -623,7 +543,7 @@
     "Sha256": "357f8a83ffdb93edcec69abe1e2fa250b2875c33e9abaa84fde33d0b49414a80",
     "SourceText": "| `base_game_keys/` | 游戏本体翻译键，用于去重防止覆盖原生文本 |",
     "Translations": {
-      "en": "`base_game_keys/` | Base game translation keys, used for deduplication to prevent overwriting native text |"
+      "en": "| `base_game_keys/` | Base game translation keys, used for deduplication to prevent overwriting native text |"
     },
     "NeedsTranslation": {
       "en": true
@@ -633,7 +553,7 @@
     "Sha256": "4ce971e4bb9c55b89105ed02cfe6ac93f1df82bdf3b5e68e0bb7561307679f80",
     "SourceText": "| `final_outputs/` | 最终输出：`project_babel/` 模组包、`icons/` 图标与 `workshop_descriptions/` 创意工坊描述 |",
     "Translations": {
-      "en": "`final_outputs/` | Final outputs: `project_babel/` mod package, `icons/` icons, and `workshop_descriptions/` workshop descriptions |"
+      "en": "| `final_outputs/` | Final output: `project_babel/` mod package, `icons/` icons, and `workshop_descriptions/` workshop descriptions |"
     },
     "NeedsTranslation": {
       "en": true
@@ -643,7 +563,7 @@
     "Sha256": "13508ce7d215c7acbe5213ce74723d28c2e93f7d9f7e103ba5db8e560ad8e7f5",
     "SourceText": "| `docs/` | 项目文档：进度报告、贡献指南、流水线说明 |",
     "Translations": {
-      "en": "`docs/` | Project documentation: progress report, contributing guide, pipeline explanation |"
+      "en": "| `docs/` | Project documentation: progress reports, contribution guide, pipeline description |"
     },
     "NeedsTranslation": {
       "en": true
@@ -653,7 +573,7 @@
     "Sha256": "f252d10bbb6d935af1d14a6010af55b84fc76979e7166223900bbb8f9ac922f6",
     "SourceText": "| `temp/` | 流水线临时文件 (每次运行独立目录) |",
     "Translations": {
-      "en": "`temp/` | Pipeline temporary files (independent directory per run) |"
+      "en": "| `temp/` | Pipeline temporary files (separate directory per run) |"
     },
     "NeedsTranslation": {
       "en": true
@@ -663,7 +583,7 @@
     "Sha256": "90e4582f98298458a1ce1772fa3f65695a379ef413343e370bda02b0dd0b16a3",
     "SourceText": "| `src/prompt_templates/` | LLM 提示词模板 (翻译/内容审查) |",
     "Translations": {
-      "en": "`src/prompt_templates/` | LLM prompt templates (translation/content moderation) |"
+      "en": "| `src/prompt_templates/` | LLM prompt templates (translation/content review) |"
     },
     "NeedsTranslation": {
       "en": true
@@ -673,7 +593,7 @@
     "Sha256": "03fd1b2e66f568a2ff2cc2b7bc87cdd8055e8d2bb63e920e85d27ba48397a773",
     "SourceText": "### 流水线模块 (按执行顺序)",
     "Translations": {
-      "en": "### Pipeline Modules (in execution order)"
+      "en": "### Pipeline Modules (In Execution Order)"
     },
     "NeedsTranslation": {
       "en": true
@@ -703,7 +623,7 @@
     "Sha256": "80605da6197a9a079e90cf2bd699a846203322ac2ff0eeecedcb2e0a719e9cfb",
     "SourceText": "| 2 | `RepoDataLoader` | 加载参考翻译与翻译缓存 |",
     "Translations": {
-      "en": "| 2 | `RepoDataLoader` | Load reference translation and translation cache |"
+      "en": "| 2 | `RepoDataLoader` | Load reference translations and translation cache |"
     },
     "NeedsTranslation": {
       "en": true
@@ -733,7 +653,7 @@
     "Sha256": "440d215c3d75594f8ee711db098e89bde30ecbc61d70388a4ad83403110ccd91",
     "SourceText": "| 5 | `SteamCmdBootstrapper` | 准备当前平台的 steamcmd 运行时 |",
     "Translations": {
-      "en": "| 5 | `SteamCmdBootstrapper` | Prepare steamcmd runtime for the current platform |"
+      "en": "| 5 | `SteamCmdBootstrapper` | Prepare steamcmd runtime for current platform |"
     },
     "NeedsTranslation": {
       "en": true
@@ -763,7 +683,7 @@
     "Sha256": "b36df901a022866c0b3e05ca145c315ef1e68e641618f3c040e6f1c1cd1120ae",
     "SourceText": "| 8 | `ContentChecker` | 内容安全审查 (毒品/色情/暴力) |",
     "Translations": {
-      "en": "| 8 | `ContentChecker` | Content safety review (drugs/pornography/violence) |"
+      "en": "| 8 | `ContentChecker` | Content safety review (drugs/porn/violence) |"
     },
     "NeedsTranslation": {
       "en": true
@@ -893,7 +813,7 @@
     "Sha256": "247ad8819b32a550956acff62f9df551d71453d281f61e197f15bc1053986800",
     "SourceText": "- **Embedding**: 文本向量化用于 RAG 相似检索",
     "Translations": {
-      "en": "- **Embedding**: Text vectorization for RAG similarity search"
+      "en": "- **Embedding**: Text vectorization for RAG similarity retrieval"
     },
     "NeedsTranslation": {
       "en": true
@@ -903,7 +823,7 @@
     "Sha256": "362e0aa6be7a831073f40edb9a79db0c20635289903c7e93782cf362e7fd3ddc",
     "SourceText": "- **内容审查**: LLM 驱动的多级安全审核",
     "Translations": {
-      "en": "- **Content Review**: LLM-driven multi-level security audit"
+      "en": "- **Content Review**: LLM-driven multi-level safety audit"
     },
     "NeedsTranslation": {
       "en": true
@@ -920,10 +840,10 @@
     }
   },
   {
-    "Sha256": "823ae8190e49344f0838442dc52071db28ef9fc4591f92262259ec0894954b6d",
-    "SourceText": "## 版权与授权 (Copyright and License)",
+    "Sha256": "ef1821697fc2f0de741c773a5516a12295ede7aaa6d4dd6157be8d92bf6ff13b",
+    "SourceText": "## 版权与授权",
     "Translations": {
-      "en": "## Copyright and License (Copyright and License)"
+      "en": "## Copyright and License"
     },
     "NeedsTranslation": {
       "en": true
@@ -933,7 +853,7 @@
     "Sha256": "7a6c6518fd85755b5560d98a130a98858915dc0f2eede06ec32f7a8dd88c2f90",
     "SourceText": "本翻译项目的翻译文本内容与相关图片，由 **Project Babel** 与各参与者基于原游戏模组创作或二次创作完成。",
     "Translations": {
-      "en": "The translation text content and related images of this translation project are created or adapted by **Project Babel** and contributors based on the original game mods."
+      "en": "The translation text content and related images of this translation project are created or adapted by **Project Babel** and contributors based on original game mods."
     },
     "NeedsTranslation": {
       "en": true
@@ -943,7 +863,7 @@
     "Sha256": "697a918a26fd6b69de3382f428410ce49afaa7de3021f94bc0fad78c39d396e4",
     "SourceText": "© 2025 Project Babel 及各作者保留权利。",
     "Translations": {
-      "en": "© 2025 Project Babel and all authors reserve all rights."
+      "en": "© 2025 Project Babel and respective authors. All rights reserved."
     },
     "NeedsTranslation": {
       "en": true
@@ -953,7 +873,7 @@
     "Sha256": "6b38a05d11cd7fc2320c99204da20b48eb3b5d085fd597797876617ffe0e77ca",
     "SourceText": "### 1. 文本与图片等内容",
     "Translations": {
-      "en": "### 1. Text, Images, and Other Content"
+      "en": "### 1. Text and Images etc."
     },
     "NeedsTranslation": {
       "en": true
@@ -963,7 +883,7 @@
     "Sha256": "ef9310c2d8dddf171b97b4e653bdbda873cf6529b265388b80eef7a9871be0f4",
     "SourceText": "除非另有特别说明，本仓库中的：",
     "Translations": {
-      "en": "Unless otherwise stated, the contents of this repository:"
+      "en": "Unless otherwise stated, in this repository:"
     },
     "NeedsTranslation": {
       "en": true
@@ -973,7 +893,7 @@
     "Sha256": "3c2081336cc34a598a520d6b5baf884f8327aa51e4e41f7cab0f132884414484",
     "SourceText": "- 游戏内文本翻译、润色与校对内容；",
     "Translations": {
-      "en": "- In-game text translations, refinements, and proofreadings;"
+      "en": "- In-game text translations, refinements and proofreading content;"
     },
     "NeedsTranslation": {
       "en": true
@@ -983,7 +903,7 @@
     "Sha256": "1df3369d51fdf232f01a63fe98b3d7691cb02c53e37ccceb0b73f87020efe0ea",
     "SourceText": "- 项目说明文档、模组内文本翻译；",
     "Translations": {
-      "en": "- Project documentation, in-mod text translations;"
+      "en": "Project documentation, in-mod text translations;"
     },
     "NeedsTranslation": {
       "en": true
@@ -993,7 +913,7 @@
     "Sha256": "fdf08dba09571f53a740985f2c8dbb03882bb7441f7c08b6d6c225b8cb80d96d",
     "SourceText": "- 本项目专门制作的图片、美术资源",
     "Translations": {
-      "en": "- Images and artistic resources specially created for this project"
+      "en": "Images and art resources specifically created for this project"
     },
     "NeedsTranslation": {
       "en": true
@@ -1003,7 +923,7 @@
     "Sha256": "61914318187cb85507b053f40c1394cb0df546fe124a5a3c3f9571f2e42a016e",
     "SourceText": "均采用 **署名-非商业性使用-相同方式共享 4.0 国际**",
     "Translations": {
-      "en": "are licensed under the **Attribution-NonCommercial-ShareAlike 4.0 International**"
+      "en": "are licensed under **Attribution-NonCommercial-ShareAlike 4.0 International**"
     },
     "NeedsTranslation": {
       "en": true
@@ -1033,7 +953,7 @@
     "Sha256": "e7d5616270d661a36e5a2c29052f77e4c8af23f5464c5d5ea599ebb41fa934a3",
     "SourceText": "- **署名（BY）**：在明显位置注明“本翻译项目基于『Project Babel』的工作成果进行修改”，并附上本仓库和 Steam 创意工坊链接  ",
     "Translations": {
-      "en": "- **Attribution (BY)**: Clearly indicate 'This translation project is based on the work of Project Babel', and include a link to this repository and the Steam Workshop link"
+      "en": "- **Attribution (BY)**: Clearly indicate 'This translation project is modified based on the work of Project Babel' and include a link to this repository and the Steam Workshop."
     },
     "NeedsTranslation": {
       "en": true
@@ -1043,7 +963,7 @@
     "Sha256": "9890d1c361650957c645aa8eb73027d0031211b0dcc2d570d761dd260c6ff44b",
     "SourceText": "`{{steam_workshop_link}}`",
     "Translations": {
-      "en": "`{{steam_workshop_link}}`"
+      "en": ""
     },
     "NeedsTranslation": {
       "en": true
@@ -1053,7 +973,7 @@
     "Sha256": "b57c1b46835cf7a1c5b91416858cea9b061025903ddfefcd360d4673d683d691",
     "SourceText": "- **非商业性使用（NC）**：不得将本项目内容或其改编作品用于任何直接或间接的商业用途",
     "Translations": {
-      "en": "- **NonCommercial (NC)**: You may not use the content of this project or its adaptations for any direct or indirect commercial purposes"
+      "en": "- **NonCommercial (NC)**: You may not use the project content or its adaptations for any direct or indirect commercial purposes"
     },
     "NeedsTranslation": {
       "en": true
@@ -1073,7 +993,7 @@
     "Sha256": "68fe238357c546c3922ba46aa36793a2f48766db57ca6346081376ee9c411182",
     "SourceText": "- **相同方式共享（SA）**：若您基于本项目内容进行修改或再创作，必须以 **同样的 CC BY-NC-SA 4.0 协议** 公开发布您的改动版本。",
     "Translations": {
-      "en": "- **ShareAlike (SA)**: If you modify or create derivative works based on this project, you must distribute your modifications under **the same CC BY-NC-SA 4.0 license**."
+      "en": "- **ShareAlike (SA)**: If you modify or create derivative works based on this project, you must publish your changes under **the same CC BY-NC-SA 4.0 license**."
     },
     "NeedsTranslation": {
       "en": true
@@ -1083,7 +1003,7 @@
     "Sha256": "44616cbd7c1a4a360a84dad00348b9d2084ec3d976aaacaf79119f620c6c6244",
     "SourceText": "有关本协议的更多信息，请参见：",
     "Translations": {
-      "en": "For more information about this license, please see:"
+      "en": "For more information about this license, see:"
     },
     "NeedsTranslation": {
       "en": true
@@ -1093,7 +1013,7 @@
     "Sha256": "5ea43178b29cfd6a76a5bca574fc5bc039806deee56b44fcdde414247c60b9ba",
     "SourceText": "<{{cc_license_link}}>",
     "Translations": {
-      "en": "<{{cc_license_link}}>"
+      "en": ""
     },
     "NeedsTranslation": {
       "en": true
@@ -1113,7 +1033,7 @@
     "Sha256": "27b8bfbb5d1a6836281be204b350cf7c2da737a31f0a759e02729c84f05388a1",
     "SourceText": "- *base_game_keys文件夹内容来自游戏本体，版权归游戏开发商所有！内容用于防止翻译键覆盖游戏键(去重)*",
     "Translations": {
-      "en": "- *The contents of the base_game_keys folder come from the game itself, copyright belongs to the game developer! They are used to prevent translation keys from overriding game keys (deduplication).*"
+      "en": "- *The content of the base_game_keys folder comes from the base game, copyright belongs to the game developer! It is used to prevent translation keys from overwriting game keys (deduplication)*"
     },
     "NeedsTranslation": {
       "en": true
@@ -1123,7 +1043,7 @@
     "Sha256": "e0e7f3a68378b22fc473b73e847b8a2b0e4cb5d39b93e122e2f9f8d76a16fdcd",
     "SourceText": "- *translation_ref文件夹内容用于给LLM提供翻译参考，版权归各自模组开发者所有！*",
     "Translations": {
-      "en": "- *The contents of the translation_ref folder are used to provide translation reference for LLM, copyright belongs to the respective mod developers!*"
+      "en": "- *The content of the translation_ref folder provides translation references for the LLM, copyright belongs to the respective mod developers!*"
     },
     "NeedsTranslation": {
       "en": true
@@ -1133,7 +1053,7 @@
     "Sha256": "9cdfe906c56d664e532ebc4b98729f7f0885cda1d9a31c4429cf6cd1feb794f4",
     "SourceText": "### 2. 程序、脚本与其他开发内容",
     "Translations": {
-      "en": "### 2. Program, Scripts, and Other Development Content"
+      "en": "### 2. Program, scripts and other development content"
     },
     "NeedsTranslation": {
       "en": true
@@ -1143,7 +1063,7 @@
     "Sha256": "93912906c54d251e9b1fca960c120c3ecdffa0de517c85ebe451a68eb3d6a324",
     "SourceText": "除非源码文件或目录中另有特别声明，本仓库中用于制作/打包/处理汉化内容的程序代码",
     "Translations": {
-      "en": "Unless otherwise stated in the source files or directories, the program code in this repository used for making/packaging/processing Chinese localization content"
+      "en": "Unless otherwise stated in the source files or directories, the program code in this repository used for creating/packaging/processing localization content"
     },
     "NeedsTranslation": {
       "en": true
@@ -1153,7 +1073,7 @@
     "Sha256": "6f12a0e0a57c31da5902c1bb3fc3ac8a1a15a83979eb70113bcb6324109f0b1a",
     "SourceText": "（例如 `src/` 目录下的程序代码），",
     "Translations": {
-      "en": "(e.g., the program code under the `src/` directory),"
+      "en": "(e.g., the program code in the `src/` directory),"
     },
     "NeedsTranslation": {
       "en": true
@@ -1163,7 +1083,7 @@
     "Sha256": "c1203462e165b5e64ef004459acc7f1161d76d2471cc23036668a316834d738e",
     "SourceText": "采用 **GNU 通用公共许可证第 3 版（GPL-3.0）** 进行授权。",
     "Translations": {
-      "en": "is licensed under the **GNU General Public License version 3 (GPL-3.0)**."
+      "en": "is licensed under **GNU General Public License version 3 (GPL-3.0)**."
     },
     "NeedsTranslation": {
       "en": true
@@ -1173,7 +1093,7 @@
     "Sha256": "0f59d47db64aff832966d96a5b9d1b44afb22d8e9f82069bae299a2bbd88faaa",
     "SourceText": "完整条款请参见本仓库根目录下的 `LICENSE-GPL-3.0` 文件，",
     "Translations": {
-      "en": "Please see the `LICENSE-GPL-3.0` file in the root of this repository for the full terms,"
+      "en": "For the full terms, see the `LICENSE-GPL-3.0` file in the root of this repository,"
     },
     "NeedsTranslation": {
       "en": true
@@ -1193,7 +1113,7 @@
     "Sha256": "a3eb6ab07d5f08b961320f540d89800e3a24d41e1ef82c8f58fc46d930766f09",
     "SourceText": "## 致谢",
     "Translations": {
-      "en": "## Acknowledgements"
+      "en": "## Acknowledgments"
     },
     "NeedsTranslation": {
       "en": true
@@ -1203,7 +1123,7 @@
     "Sha256": "548b45d4393bbce01d16bbcaff4dc8aa64a0eaa491ce9016a65bb87c98bf4e6f",
     "SourceText": "本项目使用了第三方的模组作为目标语言翻译的参考文本，参考文本被发送给LLM进行翻译参考。",
     "Translations": {
-      "en": "This project uses third-party mods as reference texts for target language translation; the reference texts are sent to LLM for translation reference."
+      "en": "This project uses third-party mods as reference texts for target language translation. The reference texts are sent to the LLM for translation reference."
     },
     "NeedsTranslation": {
       "en": true
@@ -1223,7 +1143,7 @@
     "Sha256": "f13e5a70a81c4a9a8174d0fa79b4653c0e2e67bf43cb8c6c5077c3cefc64efa8",
     "SourceText": "| [B42]统一·中文汉化 | 如一汉化组 (As1) | [创意工坊页面]({{url_0}}) |",
     "Translations": {
-      "en": "| [B42] Unified Chinese Localization | Ruyi Localization Group (As1) | [Workshop page]({{url_0}}) |"
+      "en": "| [B42] Unified Chinese Localization | As1 Localization Group (As1) | [Workshop Page]({{url_0}}) |"
     },
     "NeedsTranslation": {
       "en": true
@@ -1233,7 +1153,7 @@
     "Sha256": "b391b480739a0fcf1f21edff16ee8f52fb131037bbd9a130af2ea2e9d7de4562",
     "SourceText": "| [B42]统一·模组汉化 | 如一汉化组 (As1) | [创意工坊页面]({{url_1}}) |",
     "Translations": {
-      "en": "| [B42] Unified Mods Localization | Ruyi Localization Group (As1) | [Workshop page]({{url_1}}) |"
+      "en": "| [B42] Unified Mod Localization | As1 Localization Group (As1) | [Workshop Page]({{url_1}}) |"
     },
     "NeedsTranslation": {
       "en": true
@@ -1243,7 +1163,7 @@
     "Sha256": "f369dc47185a7ecf24ccb9dede112b0e4de21978def71a7e78278b256c51058c",
     "SourceText": "| [B42]统一·方舟汉化 | 如一汉化组 (As1) | [创意工坊页面]({{url_2}}) |",
     "Translations": {
-      "en": "| [B42] Unified Ark Localization | Ruyi Localization Group (As1) | [Workshop page]({{url_2}}) |"
+      "en": "| [B42] Unified Ark Localization | As1 Localization Group (As1) | [Workshop Page]({{url_2}}) |"
     },
     "NeedsTranslation": {
       "en": true
@@ -1253,7 +1173,7 @@
     "Sha256": "9a2b306b61f98d2558155e8d7f68969b4f738fc63012efcf0b2c4851eb5ab6d1",
     "SourceText": "**对以上作者致以衷心感谢！**",
     "Translations": {
-      "en": "**Our heartfelt thanks to the above authors!**"
+      "en": "**Sincere thanks to the above authors!**"
     },
     "NeedsTranslation": {
       "en": true
@@ -1263,7 +1183,7 @@
     "Sha256": "3b5595258448ba54a806c3455606351237cdb5a73a177987f8bc4774a5653e84",
     "SourceText": "## 第三方程序",
     "Translations": {
-      "en": "## Third-party Programs"
+      "en": "## Third-Party Programs"
     },
     "NeedsTranslation": {
       "en": true
@@ -1273,7 +1193,7 @@
     "Sha256": "53baed6892fbe24de0cff8b65d568739eabe6d021a556d270d2fc16e5a3a03d0",
     "SourceText": "本项目使用了第三方程序、库，这些第三方程序的版权归对应开发者所有。",
     "Translations": {
-      "en": "This project uses third-party programs and libraries, and the copyright of these third-party programs belongs to their respective developers."
+      "en": "This project uses third-party programs and libraries, whose copyrights belong to their respective developers."
     },
     "NeedsTranslation": {
       "en": true
