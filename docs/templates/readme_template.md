@@ -163,7 +163,7 @@
 - **相同方式共享（SA）**：若您基于本项目内容进行修改或再创作，必须以 **同样的 CC BY-NC-SA 4.0 协议** 公开发布您的改动版本。
 
 有关本协议的更多信息，请参见：
-<https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-Hans>
+<https://creativecommons.org/licenses/by-nc-sa/4.0/deed>
 
 *特殊说明：*
 - *base_game_keys文件夹内容来自游戏本体，版权归游戏开发商所有！内容用于防止翻译键覆盖游戏键(去重)*

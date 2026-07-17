@@ -115,11 +115,25 @@
     "1": {
       "text": "[B42]Project Babel",
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3759583822"
+    },
+    "2": {
+      "text": "➡️ 点击此处查看翻译进度",
+      "url": "./docs/progress/progress_{lang}.md"
+    },
+    "3": {
+      "text": "贡献指南",
+      "url": "./docs/contributing/contributing_{lang}.md"
+    },
+    "4": {
+      "text": "技术参考",
+      "url": "./docs/technical_reference/technical_reference_{lang}.md"
     }
   },
   "url_blocks": {
-    "0": { "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3556544454" },
-    "1": { "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080" },
-    "2": { "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3732061188" }
+    "0": "https://steamcommunity.com/sharedfiles/filedetails/?id=3556544454",
+    "1": "https://steamcommunity.com/sharedfiles/filedetails/?id=3556540080",
+    "2": "https://steamcommunity.com/sharedfiles/filedetails/?id=3732061188",
+    "3": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.{cc_locale}",
+    "4": "https://www.gnu.org/licenses/gpl-3.0.html"
   }
 }
