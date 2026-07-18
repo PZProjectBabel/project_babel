@@ -17,6 +17,7 @@
 - [Narzędzia i struktura katalogów (dla deweloperów)](#narzędzia-i-struktura-katalogów-dla-deweloperów)
   - [Katalog projektu](#katalog-projektu)
   - [Moduły potoku (w kolejności wykonania)](#moduły-potoku-w-kolejności-wykonania)
+  - [Moduły niezależne](#moduły-niezależne)
   - [Stos technologiczny](#stos-technologiczny)
 - [Prawa autorskie i licencja](#prawa-autorskie-i-licencja)
   - [1. Tekst, obrazy i inne treści](#1-tekst-obrazy-i-inne-treści)
@@ -98,7 +99,7 @@ Ta sekcja jest przeznaczona dla deweloperów, którzy chcą zrozumieć zasady au
 
 | Katalog | Opis |
 |------|------|
-| `src/` | Kod źródłowy potoku tłumaczenia .NET 10, zawiera 15 modułów |
+| `src/` | Kod źródłowy potoku tłumaczeń .NET 10, zawierający 15 modułów + 2 moduły niezależne |
 | `config/` | Pliki konfiguracyjne potoku (parametry LLM, Steam, RAG itp.) |
 | `data/` | Dane wykonawcze: metadane modów, embedding, pamięć podręczna tłumaczeń |
 | `translation_ref/` | Referencyjne dane tłumaczeń (np. mody autoryzowane przez As1), dostarczające LLM-owi referencji tłumaczeniowych |
@@ -127,6 +128,13 @@ Ta sekcja jest przeznaczona dla deweloperów, którzy chcą zrozumieć zasady au
 | 13 | `ResultWriter` | Zapisuje do data/ i translation_ref/ |
 | 14 | `FinalOutputWriter` | Generuje końcowe wyjście w formacie modów PZ |
 | 15 | `ProgressReporter` | Generuje raport postępu |
+
+### Moduły niezależne
+
+| Moduł | Funkcja |
+|------|------|
+| `WorkshopMonitor` | Okresowo pobiera nowe mody z Steam Workshop, filtruje według liczby subskrypcji i dodaje do `request_for_translation.txt` |
+| `DocGenerator` | Generator wielojęzycznej dokumentacji napędzany przez LLM |
 
 ### Stos technologiczny
 

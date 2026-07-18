@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Módulos Independentes](#módulos-independentes)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Convenções de Dados](#4-convenções-de-dados)
   - [4.1 Tipos Principais](#41-tipos-principais)
     - [`TranslationEntry` — Entrada de Tradução](#translationentry-entrada-de-tradução)
@@ -71,7 +74,7 @@
     - [5.1.7 `Settings` — Configurações básicas do pipeline](#517-settings-configurações-básicas-do-pipeline)
     - [5.1.8 `Embedding` — Configuração do serviço de embeddings](#518-embedding-configuração-do-serviço-de-embeddings)
     - [5.1.9 `Workflow` — Configuração do fluxo de trabalho](#519-workflow-configuração-do-fluxo-de-trabalho)
-  - [5.2 `config/secrets.json` — 密钥配置](#52-configsecretsjson-密钥配置)
+  - [5.2 `config/secrets.json` — Configuração de Chaves](#52-configsecretsjson-configuração-de-chaves)
   - [5.3 `config/supported_languages.json` — Lista de idiomas suportados](#53-configsupported_languagesjson-lista-de-idiomas-suportados)
   - [5.4 `config/ref_translation_mods.json` — Módulos de tradução de referência](#54-configref_translation_modsjson-módulos-de-tradução-de-referência)
   - [5.5 `config/request_for_translation.txt` — Solicitações de tradução locais](#55-configrequest_for_translationtxt-solicitações-de-tradução-locais)
@@ -159,7 +162,7 @@ O pipeline contém dois caminhos de processamento paralelos, cada um servindo a 
 | **Sincronização de Tradução de Referência** | Subgrafo inferior no diagrama | Mods de tradução chinesa existentes de alta qualidade (`translation_ref/`) | Construir o corpus de referência para recuperação RAG |
 | **Ciclo de Tradução Principal** | Caminho principal superior no diagrama | Mods comuns a serem traduzidos (`data/`) | Executar a tradução real por IA |
 
-两条路径最终汇入 `ResultWriter` 和 `FinalOutputWriter`，统一生成分发文件。
+Ambas as rotinas convergem para o `ResultWriter` e `FinalOutputWriter`, gerando uniformemente os arquivos de distribuição.
 
 A vantagem desse design separado é que os mods de tradução de referência geralmente são traduzidos manualmente com cuidado, devendo ser mantidos de forma independente e sincronizados com prioridade; enquanto o loop de tradução principal lida com grandes lotes de mods a serem traduzidos por IA. As frequências de alteração e a lógica de processamento são diferentes, e gerenciá-los separadamente evita interferências mútuas.
 
@@ -618,6 +621,8 @@ Esse mapeamento é fornecido pelo `translation_key_to_file_mapping` registrado n
 
 4. **Escrita atômica**: Todos os arquivos de saída adotam a estratégia de "escrever primeiro em um arquivo temporário, depois mover atomicamente" — primeiro escrever em `<filename>.tmp`, após a escrita bem-sucedida, usar `File.Move` para substituir o arquivo de destino. Essa abordagem garante que, mesmo em caso de falha ou queda de energia durante a gravação, os arquivos existentes não sejam corrompidos.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Função**: Estatísticas da cobertura de tradução de cada idioma e geração de relatórios de progresso multilíngues, facilitando o acompanhamento do progresso da tradução pela comunidade.
@@ -633,6 +638,36 @@ Os relatórios de progresso são gerados no formato Markdown e armazenados no di
 - `untranslatable`: Número de entradas marcadas como intraduzíveis devido à revisão de conteúdo.
 3. **Substituir placeholders**: Substituir `{{PLACEHOLDER}}` no modelo pelos dados estatísticos reais.
 4. **Escrever arquivo**: Escrever o conteúdo substituído em `docs/progress/progress_<iso>.md`.
+
+---
+
+## Módulos Independentes
+
+Os seguintes módulos operam independentemente do pipeline de tradução, não estão em `TranslationPipeline.slnx` e são acionados respectivamente por `dotnet run --project` ou GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Função**: Monitorar periodicamente novos mods no Steam Workshop, filtrar automaticamente mods com alto número de inscrições e incorporá-los à lista de solicitações de tradução.
+
+**Modo de execução**: Acionado periodicamente por GitHub Actions `.github/workflows/monitor-workshop.yml` (diariamente às 00:00, horário de Pequim), ou localmente por `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Fluxo de trabalho**:
+1. **Obter lista**: Buscar paginadamente os IDs dos mods da página "most recent" do Steam Workshop com a tag Build 42 (excluindo tags Language/Translation).
+2. **Analisar tempo**: Consultar em lote o horário de publicação de cada mod via Steam Web API, comparar com o horário da última execução em cache para determinar novos mods.
+3. **Filtrar por inscrições**: Chamar novamente a Steam API para consultar o número de inscrições de todos os mods em cache e selecionar aqueles que excedem o limite (500).
+4. **Mesclar saída**: Mesclar os IDs dos mods filtrados (removendo duplicatas) em `config/request_for_translation.txt`, para consumo pelo `ModIdCollector` do pipeline.
+
+**Parâmetros codificados**: AppId=108600, MinSubs=500, SafetyPages=5 (páginas extras capturadas após atingir o timestamp anterior), PageSize=30, Lookback=48h.
+
+**Formato de cache**: `data/monitor_cache.bin` — Arquivo binário compactado Zstd, sequência little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Compartilha o esquema de compressão `ZstdSharp` com `BinaryEmbeddingSerializer`.
+
+**Leitura de chave**: A Chave da API Steam é lida do campo `STEAM_KEY` em `config/secrets.json`, ou das variáveis de ambiente `STEAM_KEY` / `STEAM_API_KEY` (mesmo modo que `ConfigReader`).
+
+### DocGenerator
+
+**Função**: Gerador de documentação multilíngue orientado por LLM, que gera READMEs, guias de contribuição e documentos de referência técnica em vários idiomas a partir de modelos em chinês.
+
+**Modo de execução**: Projeto independente `src/DocGenerator/DocGenerator.csproj`, executado via `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 
@@ -967,9 +1002,9 @@ A partir da plataforma comunitária [AsOne](https://www.asone.fun/) obtém a lis
 |------|------|--------|------|
 | `max_jobs` | int | `16` | Número máximo de tarefas paralelas para controlar a utilização geral de recursos do pipeline |
 
-### 5.2 `config/secrets.json` — 密钥配置
+### 5.2 `config/secrets.json` — Configuração de Chaves
 
-> **⚠️ 此文件包含敏感信息，已加入 `.gitignore`，严禁提交到版本控制。**
+> **⚠️ Este arquivo contém informações sensíveis e foi adicionado ao `.gitignore`. É estritamente proibido enviá-lo para o controle de versão.**
 
 Antes de usar, copie `secrets_example.json` para `secrets.json` e preencha os valores reais.
 
@@ -1118,9 +1153,9 @@ project_babel/
 │   └── contents/mods/project_babel/
 │       ├── 42/media/lua/shared/Translate/<gameCode>/*.json
 │       └── 42.19/media/lua/shared/Translate/<gameCode>/*.json
-├── src/                         # 源代码
-│   ├── Program.cs               # 管线入口 + PipelineRunner
-│   ├── Common/                  # 共享类型 + 工具类
+├── src/                         # Código fonte
+│   ├── Program.cs               # Ponto de entrada do pipeline + PipelineRunner
+│   ├── Common/                  # Tipos compartilhados + Classes utilitárias
 │   ├── ConfigReader/            # Carregamento de Configuração
 │   ├── ContentChecker/          # Verificação de Segurança de Conteúdo
 │   ├── ContentExtractor/        # Extração de Texto

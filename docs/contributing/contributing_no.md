@@ -91,7 +91,7 @@ Under din autorisasjon vil prosjektet inkludere modden din i `config/ref_transla
 
 Automatiseringen av dette prosjektet er delt i to deler:
 
-**Pipelinemodul (`src/`, C# / .NET 10)**: Inneholder 15 moduler som utføres i rekkefølge, ansvarlig for hele prosessen fra SteamCMD-initialisering, modnedlasting, tekstuttrekking, innholdsgransking, Embedding-beregning, RAG-søk til LLM-oversettelse og endelig utdata. Se [teknisk referanse](../technical_reference/technical_reference_no.md).
+**Pipeline-modulen (`src/`, C# / .NET 10)**：Inneholder 15 moduler som kjøres i rekkefølge, pluss 2 uavhengige moduler (`WorkshopMonitor` moduloppdager, `DocGenerator` dokumentgenerator), som har ansvar for hele prosessen fra SteamCMD initialisering, modulnedlasting, tekstuttrekk, innholdsgranskning, Embedding-beregning, RAG-søk til LLM-oversettelse og endelig utdata. Se [teknisk referanse](../technical_reference/technical_reference_no.md).
 
 **Hjelpeskript (.github/)**: Brukes til GitHub-automatisering.
 
@@ -108,7 +108,7 @@ Du kan følge disse trinnene:
 2. Opprett en ny gren basert på den nyeste grenen;
 3. Endre eller legg til filer i den tilsvarende katalogen:
 - Pipelinemodulendring → `src/<modulnavn>/`;
-- Skriptendring → `scripts/`;
+   - CI 工作流修改 → `.github/workflows/`；
 - Prompt-malendring → `src/prompt_templates/`;
 4. Før innsending, prøv så langt som mulig:
 

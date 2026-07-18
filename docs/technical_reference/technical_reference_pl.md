@@ -19,7 +19,7 @@
   - [Przeznaczenie dokumentu](#przeznaczenie-dokumentu)
 - [1. Architektura systemu](#1-architektura-systemu)
   - [Architektura ogólna](#architektura-ogólna)
-  - [两大处理阶段](#两大处理阶段)
+  - [Dwie główne fazy przetwarzania](#dwie-główne-fazy-przetwarzania)
   - [Główny przepływ danych](#główny-przepływ-danych)
 - [2. Przepływ pracy rurociągu](#2-przepływ-pracy-rurociągu)
   - [Faza 1: Ładowanie konfiguracji i inicjalizacja SteamCMD](#faza-1-ładowanie-konfiguracji-i-inicjalizacja-steamcmd)
@@ -42,11 +42,14 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Moduły niezależne](#moduły-niezależne)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Konwencje danych](#4-konwencje-danych)
   - [4.1 Główne typy](#41-główne-typy)
     - [`TranslationEntry` — Wpis tłumaczenia](#translationentry-wpis-tłumaczenia)
     - [`TranslationData` — Dane tłumaczenia](#translationdata-dane-tłumaczenia)
-    - [`ModInfo` — Mod 元数据](#modinfo-mod-元数据)
+    - [`ModInfo` — Metadane moda](#modinfo-metadane-moda)
     - [`TranslationBatch` — Partia tłumaczeniowa](#translationbatch-partia-tłumaczeniowa)
     - [`LangInfoData` — Informacje o języku](#langinfodata-informacje-o-języku)
   - [4.2 Format plików](#42-format-plików)
@@ -139,7 +142,7 @@ flowchart TD
   M --> N[FinalOutputWriter]
   N --> O[ProgressReporter]
 
-    subgraph 参考翻译同步
+subgraph Synchronizacja tłumaczeń referencyjnych
         C2[RepoDataLoader-ref] --> E2[ModInfoFetcher-ref]
         E2 --> F2[ModDownloader-ref]
         F2 --> G2[ContentExtractor-ref]
@@ -148,18 +151,18 @@ flowchart TD
     end
 ```
 
-> **注**：参考翻译同步路径中，`RepoDataLoader-ref` 从 `translation_ref/` 目录加载缓存数据作为起点，而非从 `ConfigReader` 获取输入。
+> **Uwaga**: W ścieżce synchronizacji tłumaczeń referencyjnych `RepoDataLoader-ref` ładuje dane z pamięci podręcznej z katalogu `translation_ref/` jako punkt startowy, a nie pobiera wejścia z `ConfigReader`.
 
-### 两大处理阶段
+### Dwie główne fazy przetwarzania
 
-管线包含两条并行的处理路径，分别服务于不同的目的：
+Potok zawiera dwie równoległe ścieżki przetwarzania, służące różnym celom:
 
-| 阶段 | 路径 | 处理对象 | 目的 |
+| Faza | Ścieżka | Obiekt przetwarzania | Cel |
 |------|------|----------|------|
-| **参考翻译同步** | 图中下方子图 | 高质量既存汉化模组（`translation_ref/`） | 构建 RAG 检索用的参考语料库 |
-| **主翻译循环** | 图中上方主链路 | 待翻译的普通模组（`data/`） | 执行实际的 AI 翻译 |
+| **Synchronizacja tłumaczeń referencyjnych** | Podgraf na dole rysunku | Wysokiej jakości istniejące mody w języku chińskim (`translation_ref/`) | Zbudowanie korpusu referencyjnego do wyszukiwania RAG |
+| **Główna pętla tłumaczeniowa** | Główna ścieżka na górze rysunku | Zwykłe mody do przetłumaczenia (`data/`) | Wykonanie rzeczywistego tłumaczenia AI |
 
-两条路径最终汇入 `ResultWriter` 和 `FinalOutputWriter`，统一生成分发文件。
+Obie ścieżki ostatecznie łączą się w `ResultWriter` i `FinalOutputWriter`, generując jednolite pliki dystrybucyjne.
 
 Zaletą tego rozdzielnego projektu jest to, że referencyjne mody tłumaczeniowe są zazwyczaj starannie tłumaczone ręcznie, powinny być utrzymywane oddzielnie i synchronizowane priorytetowo; podczas gdy główna pętla tłumaczenia przetwarza duże partie modów do przetłumaczenia przez AI. Ich częstotliwość zmian i logika przetwarzania są różne, a oddzielne zarządzanie pozwala uniknąć wzajemnych zakłóceń.
 
@@ -336,9 +339,9 @@ Po otrzymaniu listy identyfikatorów modów, potok musi znać podstawowe informa
 
 **Funkcja
 
-Project Zomboid 的模组将翻译文本存放在特定目录下。`ContentExtractor` 的任务是遍历这些目录，解析 TXT（Lua 格式）和 JSON 两种文件格式，抽取出每一条"原文 → 译文"的键值对。
+Mody do Project Zomboid przechowują tekst tłumaczeń w określonych katalogach. Zadaniem `ContentExtractor` jest przeszukanie tych katalogów, sparsowanie plików w formatach TXT (Lua) i JSON oraz wydobycie par klucz-wartość "tekst źródłowy → tłumaczenie".
 
-**扫描路径**：
+**Ścieżka skanowania**:
 ```
 <mod_root>/**/Translate/<game_code>/*.txt|*.json
 ```
@@ -618,6 +621,8 @@ To mapowanie jest dostarczane przez `translation_key_to_file_mapping` zarejestro
 
 4. **Zapis atomowy**: Wszystkie pliki wyjściowe stosują strategię „najpierw zapisz plik tymczasowy, potem atomowo przenieś” – najpierw zapisywany jest `<filename>.tmp`, a po pomyślnym zapisie plik docelowy jest nadpisywany przez `File.Move`. Ta metoda gwarantuje, że nawet w przypadku awarii lub przerwy w zasilaniu podczas zapisu, istniejące pliki nie zostaną uszkodzone.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Funkcja**: Zbiera statystyki pokrycia tłumaczeń dla każdego języka i generuje wielojęzyczne raporty postępu, aby społeczność mogła śledzić postępy tłumaczeń.
@@ -633,6 +638,36 @@ Raporty postępu są generowane w formacie Markdown i przechowywane w katalogu `
 - `untranslatable`: Liczba wpisów oznaczonych jako nieprzetłumaczalne z powodu kontroli treści.
 3. **Zastąp placeholder**: Zastąp `{{PLACEHOLDER}}` w szablonie rzeczywistymi danymi statystycznymi.
 4. **Zapisz do pliku**: Zapisz zastąpioną treść do `docs/progress/progress_<iso>.md`.
+
+---
+
+## Moduły niezależne
+
+Poniższe moduły działają niezależnie od potoku tłumaczeniowego, nie znajdują się w `TranslationPipeline.slnx` i są uruchamiane osobno za pomocą `dotnet run --project` lub przez GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Funkcja**: Cykliczne monitorowanie nowych modów na Steam Workshop, automatyczne filtrowanie modów o wysokiej liczbie subskrypcji i dodawanie ich do listy żądań tłumaczenia.
+
+**Sposób uruchomienia**: Uruchamiany cyklicznie przez GitHub Actions `.github/workflows/monitor-workshop.yml` (codziennie o 00:00 czasu pekińskiego) lub lokalnie za pomocą `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Przebieg**:
+1. **Pobieranie listy**: Pobieranie identyfikatorów modów ze strony „most recent” w Steam Workshop z paginacją, filtrowane po tagu Build 42 (z wyłączeniem tagów Language/Translation).
+2. **Analiza czasu**: Masowe zapytanie przez Steam Web API o czas publikacji każdego moda, porównanie z czasem ostatniego uruchomienia w cache'u w celu określenia nowych modów.
+3. **Filtrowanie subskrypcji**: Ponowne zapytanie Steam API o liczbę subskrypcji wszystkich zbuforowanych modów, wybór tych powyżej progu (500).
+4. **Scalanie i wypisanie**: Scalanie odfiltrowanych identyfikatorów modów (usuwanie duplikatów) do pliku `config/request_for_translation.txt` do wykorzystania przez `ModIdCollector` w potoku.
+
+**Parametry zakodowane na stałe**: AppId=108600, MinSubs=500, SafetyPages=5 (dodatkowe strony po osiągnięciu poprzedniego znacznika czasu), PageSize=30, Lookback=48h.
+
+**Format cache'u**: `data/monitor_cache.bin` — plik binarny skompresowany Zstd, sekwencja int64 w formacie little-endian: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Wspólny schemat kompresji `ZstdSharp` z `BinaryEmbeddingSerializer`.
+
+**Odczyt klucza**: Klucz Steam API odczytywany z pola `STEAM_KEY` w pliku `config/secrets.json` lub ze zmiennych środowiskowych `STEAM_KEY` / `STEAM_API_KEY` (ten sam wzór co w `ConfigReader`).
+
+### DocGenerator
+
+**Funkcja**: Generator dokumentacji wielojęzycznej oparty na LLM, tworzący README, przewodniki kontrybucji i dokumentację techniczną w różnych językach na podstawie chińskich szablonów.
+
+**Sposób uruchomienia**: Samodzielny projekt `src/DocGenerator/DocGenerator.csproj`, uruchamiany przez `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 
@@ -676,38 +711,38 @@ class TranslationEntry {
 
 ```csharp
 class TranslationData {
-    string text;           // 译文
-    bool isVerified;       // 是否已验证 (参考翻译为 true)
-    float? confidence;     // LLM 翻译置信度 (0.0~1.0)
-    string status;         // 验证状态: "verified" 或 "unverified"
-    string processStatus;  // 处理状态: "processed" 或 "unprocessed"
-    List<string> comments; // 注释列表
+string text;           // tłumaczenie
+bool isVerified;       // czy zweryfikowane (true dla tłumaczenia referencyjnego)
+float? confidence;     // pewność tłumaczenia LLM (0.0~1.0)
+string status;         // stan weryfikacji: "verified" lub "unverified"
+string processStatus;  // stan przetwarzania: "processed" lub "unprocessed"
+List<string> comments; // lista komentarzy
 }
 ```
 
-- `isVerified = true`：表示该译文来自人工翻译的参考模组，质量可靠。
-- `isVerified = false`：表示该译文来自 LLM 翻译，标记为 `unverified`，尚未经人工校验。
-- `confidence`：LLM 生成该译文时返回的置信度分数，`null` 表示非 LLM 翻译。
-- `processStatus`：是否已被 LLM 管线处理（`processed` 或 `unprocessed`）。
+- `isVerified = true`: Oznacza, że tłumaczenie pochodzi z ręcznie przetłumaczonego moda referencyjnego, jest wiarygodne.
+- `isVerified = false`: Oznacza, że tłumaczenie pochodzi z LLM, oznaczone jako `unverified`, nie zostało jeszcze zweryfikowane ręcznie.
+- `confidence`: Wynik pewności zwrócony przez LLM podczas generowania tłumaczenia; `null` oznacza, że nie jest to tłumaczenie LLM.
+- `processStatus`: Czy zostało już przetworzone przez potok LLM (`processed` lub `unprocessed`).
 
-#### `ModInfo` — Mod 元数据
+#### `ModInfo` — Metadane moda
 
-`ModInfo` 存储一个 Steam Workshop 模组的完整元信息，跟踪其状态和更新情况。
+`ModInfo` przechowuje pełne metadane moda z Steam Workshop, śledząc jego stan i aktualizacje.
 
 ```csharp
 struct ModInfo {
 string modId;
-    string modName;
+string modName;
     string creator;
     string? language;
     string localDownloadedPath;
-    DateTime timeModUpdated;       // Steam 记录的最后更新时间
-    DateTime timeModCreated;       // Steam 记录的首次发布时间
-    DateTime timeLastChecked;      // 管线最后一次检查该 mod 的时间
-    int subscription;              // 订阅数（来自 Steam）
-    int favorite;                  // 收藏数（来自 Steam）
-    string description;            // Steam 模组描述文本
-    int consumerAppId;             // Steam 消费者 App ID (108600 = PZ)
+DateTime timeModUpdated;       // Ostatni czas aktualizacji zarejestrowany przez Steam
+DateTime timeModCreated;       // Czas pierwszej publikacji zarejestrowany przez Steam
+DateTime timeLastChecked;      // Ostatni czas sprawdzenia tego moda przez pipeline
+int subscription;              // Liczba subskrypcji (ze Steam)
+int favorite;                  // Liczba polubień (ze Steam)
+string description;            // Tekst opisu moda ze Steam
+int consumerAppId;             // ID aplikacji Steam (108600 = PZ)
 ContentCheckStatus contentCheckStatus; // Stan sprawdzenia treści
 bool needsUpdate;              // Czy wymaga ponownego wyodrębnienia i tłumaczenia
 bool needsContentCheck;        // Czy wymaga ponownego sprawdzenia treści

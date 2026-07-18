@@ -17,8 +17,8 @@
   - [核心能力](#核心能力)
 - [1. 系統架構](#1-系統架構)
   - [整體架構](#整體架構)
-- [1. 系统架构](#1-系统架构)
-  - [整体架构](#整体架构)
+- [1. 系統架構](#1-系統架構)
+  - [整體架構](#整體架構)
   - [兩大處理階段](#兩大處理階段)
   - [核心資料流](#核心資料流)
 - [2. 管線工作流程](#2-管線工作流程)
@@ -30,9 +30,9 @@
   - [3.1 ConfigReader (`ConfigReaderService`)](#31-configreader-configreaderservice)
   - [3.2 RepoDataLoader (`RepoDataLoaderService`)](#32-repodataloader-repodataloaderservice)
   - [3.3 ModIdCollector (`ModIdCollectorService`)](#33-modidcollector-modidcollectorservice)
-  - [3.4 ModInfoFetcher (`ModInfoFetcherService`)](#34-modinfofetcher-modinfofetcherservice)
-  - [3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)](#35-steamcmdbootstrapper-steamcmdbootstrapperservice)
-  - [3.5.1 ModDownloader (`ModDownloaderService`)](#351-moddownloader-moddownloaderservice)
+  - [3.4 ModInfoFetcher（`ModInfoFetcherService`）](#34-modinfofetchermodinfofetcherservice)
+  - [3.5 SteamCmdBootstrapper（`SteamCmdBootstrapperService`）](#35-steamcmdbootstrappersteamcmdbootstrapperservice)
+  - [3.5.1 ModDownloader（`ModDownloaderService`）](#351-moddownloadermoddownloaderservice)
   - [3.6 ContentExtractor (`ContentExtractorService`)](#36-contentextractor-contentextractorservice)
   - [3.7 ContentChecker (`ContentCheckerService`)](#37-contentchecker-contentcheckerservice)
   - [3.8 EmbeddingFetcher (`EmbeddingFetcherService`)](#38-embeddingfetcher-embeddingfetcherservice)
@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [獨立模組](#獨立模組)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. 資料約定](#4-資料約定)
   - [4.1 核心類型](#41-核心類型)
     - [`TranslationEntry` — 翻譯條目](#translationentry-翻譯條目)
@@ -110,17 +113,17 @@ Project Babel 通过构建一条全自动化的 AI 翻译管线来解决这些�
 
 管線採用經典的「流水線」（Pipeline）架構，由 15 個獨立模組按順序串聯而成。每個模組只負責一個明確的子任務，模組之間通過記憶體中的資料結構傳遞資料，最終產出可發布的翻譯檔案。
 - 理解管线的整体架构和数据流向。
-- 掌握每个处理模块的职责和内部原理。
-- 了解配置文件的结构和各项参数的含义。
-- 具备在本地或 CI 环境中运行管线的能力。
+掌握每個處理模組的職責和內部原理。
+了解配置文件的結構和各項參數的含義。
+具備在本地或 CI 環境中運行管線的能力。
 
 ---
 
-## 1. 系统架构
+## 1. 系統架構
 
-### 整体架构
+### 整體架構
 
-管线采用经典的"流水线"（Pipeline）架构，由 15 个独立模块按顺序串联而成。每个模块只负责一个明确的子任务，模块之间通过内存中的数据结构传递数据，最终产出可发布的翻译文件。
+管線採用經典的「流水線」（Pipeline）架構，由 15 個獨立模組按順序串聯而成。每個模組只負責一個明確的子任務，模組之間通過記憶體中的資料結構傳遞資料，最終產出可發布的翻譯檔案。
 
 ```mermaid
 flowchart TD
@@ -295,50 +298,50 @@ config.json / secrets.json
 
 **合併策略**：兩個來源的 ID 清單合併時，以 AsOne 遠端清單為主，本地請求檔案中不在遠端清單中的 ID 作為補充加入。已存在的 ID 不會重複新增。最終輸出一個去重後的完整 ID 清單。
 
-### 3.4 ModInfoFetcher (`ModInfoFetcherService`)
+### 3.4 ModInfoFetcher（`ModInfoFetcherService`）
 
-**功能**: 通过 Steam Web API 批量查询模组的详细元数据，判断哪些模组需要更新。
+**功能**：通過 Steam Web API 批量查詢模組的詳細元數據，判斷哪些模組需要更新。
 
-拿到 Mod ID 列表后，管线需要知道每个模组的基本信息——名称、作者、最后更新时间等。这些信息通过 Steam 官方的 `ISteamRemoteStorage/GetPublishedFileDetails/v1/` 接口获取。
+拿到 Mod ID 列表後，管線需要知道每個模組的基本資訊——名稱、作者、最後更新時間等。這些資訊通過 Steam 官方的 `ISteamRemoteStorage/GetPublishedFileDetails/v1/` 介面獲取。
 
-**工作细节**：
-- **分块请求**：Steam API 每次调用有数量限制，因此管线按 `steamApiChunkSize`（默认 100）分批发送请求。每批之间适当间隔，避免触发限流。
-- **容错机制**：如果连续 5 个批次全部失败（可能是网络问题或 API 临时不可用），管线会终止查询并保留已成功获取的部分数据，而不是丢弃所有结果。
-- **关键字段映射**：
-  - `consumer_app_id`：判断该物品是否属于 Project Zomboid（App ID = `108600`）。不属于 PZ 的模组标记为 `isAvailable = false`，后续跳过下载。
-  - `time_updated`：Steam 记录的最后更新时间。与缓存中的 `timeModUpdated` 比较，如果前者更新，则标记 `needsUpdate = true`，表示模组内容可能发生了变化，需要重新提取和翻译。
-  - `title` → 映射为 `modName`（模组名称）。
-  - `creator` → 通过 Steam 用户接口获取创建者昵称。
+**工作細節**：
+- **分塊請求**：Steam API 每次調用有數量限制，因此管線按 `steamApiChunkSize`（預設 100）分批發送請求。每批之間適當間隔，避免觸發限流。
+- **容錯機制**：如果連續 5 個批次全部失敗（可能是網路問題或 API 暫時不可用），管線會終止查詢並保留已成功獲取的部分資料，而不是丟棄所有結果。
+- **關鍵字段映射**：
+- `consumer_app_id`：判斷該物品是否屬於 Project Zomboid（App ID = `108600`）。不屬於 PZ 的模組標記為 `isAvailable = false`，後續跳過下載。
+- `time_updated`：Steam 記錄的最後更新時間。與快取中的 `timeModUpdated` 比較，如果前者更新，則標記 `needsUpdate = true`，表示模組內容可能發生了變化，需要重新提取和翻譯。
+- `title` → 映射為 `modName`（模組名稱）。
+- `creator` → 透過 Steam 使用者介面獲取創建者暱稱。
 
-### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
+### 3.5 SteamCmdBootstrapper（`SteamCmdBootstrapperService`）
 
-**功能**: 在所有下载操作开始前准备当前平台可用的 steamcmd 运行时。
+**功能**：在所有下載操作開始前準備當前平台可用的 steamcmd 執行環境。
 
-- **Linux**：清理 `src/3rd_party/steamcmd/` 中旧的运行时文件，下载并解压官方 `steamcmd_linux.tar.gz`，并为 `steamcmd.sh` 设置可执行权限。
-- **Windows**：不下载压缩包；直接在 `src/3rd_party/steamcmd/` 执行已随仓库提供的 `steamcmd.exe +quit`，让 SteamCMD 自更新。
-- **失败处理**：下载、解压或可执行文件校验失败都会终止管线，避免下载阶段使用不完整的运行时。
+- **Linux**：清理 `src/3rd_party/steamcmd/` 中舊的執行時檔案，下載並解壓官方 `steamcmd_linux.tar.gz`，並為 `steamcmd.sh` 設定可執行權限。
+- **Windows**：不下載壓縮包；直接在 `src/3rd_party/steamcmd/` 執行已隨倉庫提供的 `steamcmd.exe +quit`，讓 SteamCMD 自更新。
+- **失敗處理**：下載、解壓或可執行檔案校驗失敗都會終止管線，避免下載階段使用不完整的執行時期。
 
-### 3.5.1 ModDownloader (`ModDownloaderService`)
+### 3.5.1 ModDownloader（`ModDownloaderService`）
 
-**功能**: 使用 steamcmd 命令行工具从 Steam Workshop 下载模组文件。
+**功能**：使用 steamcmd 命令列工具從 Steam Workshop 下載模組檔案。
 
-[steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD) 是 Valve 官方提供的命令行版 Steam 客户端，支持匿名登录并下载 Workshop 内容。管线通过调用 steamcmd 来实现模组文件的批量下载。
+[steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD) 是 Valve 官方提供的命令列版 Steam 用戶端，支援匿名登入並下載 Workshop 內容。管線透過呼叫 steamcmd 來實現模組檔案的批次下載。
 
-**下载流程**：
-1. **复制 steamcmd**：将 `src/3rd_party/steamcmd/` 复制到批次专属的临时目录。这是因为每个下载批次会启动独立的 steamcmd 进程，如果多个进程共享同一份文件可能导致冲突。
-2. **执行下载命令**：运行 `steamcmd +login anonymous +workshop_download_item 108600 <modId> +quit`。其中 `108600` 是 Project Zomboid 的 App ID，`anonymous` 表示匿名登录（Workshop 下载不需要账号）。
-3. **验证结果**：解析 steamcmd 的标准输出与日志，确定 Workshop 实际输出目录后再移动下载结果；失败时按 Steam 下载重试策略重试。
-4. **断点续传**：已成功下载的模组会自动跳过，不会重复下载。
+**下載流程**：
+1. **複製 steamcmd**：將 `src/3rd_party/steamcmd/` 複製到批次專屬的臨時目錄。這是因為每個下載批次會啟動獨立的 steamcmd 行程，如果多個行程共用同一份檔案可能導致衝突。
+2. **執行下載命令**：執行 `steamcmd +login anonymous +workshop_download_item 108600 <modId> +quit`。其中 `108600` 是 Project Zomboid 的 App ID，`anonymous` 表示匿名登入（Workshop 下載不需要帳號）。
+3. **驗證結果**：解析 steamcmd 的標準輸出與日誌，確定 Workshop 實際輸出目錄後再移動下載結果；失敗時按 Steam 下載重試策略重試。
+4. **斷點續傳**：已成功下載的模組會自動跳過，不會重複下載。
 
-**运行时来源**：每个下载批次从 `src/3rd_party/steamcmd/` 复制已由 `SteamCmdBootstrapper` 准备好的运行时，以避免并行批次共享同一工作目录。
+**執行時來源**：每個下載批次從 `src/3rd_party/steamcmd/` 複製已由 `SteamCmdBootstrapper` 準備好的執行時，以避免並行批次共享同一工作目錄。
 
 ### 3.6 ContentExtractor (`ContentExtractorService`)
 
-**功能**: 从下载的模组文件中解析并提取所有可翻译的文本内容，是管线中"理解模组"的关键步骤。
+**功能**：從下載的模組檔案中解析並提取所有可翻譯的文字內容，是管線中「理解模組」的關鍵步驟。
 
-Project Zomboid 的模组将翻译文本存放在特定目录下。`ContentExtractor` 的任务是遍历这些目录，解析 TXT（Lua 格式）和 JSON 两种文件格式，抽取出每一条"原文 → 译文"的键值对。
+Project Zomboid 的模組將翻譯文字存放在特定目錄下。`ContentExtractor` 的任務是遍歷這些目錄，解析 TXT（Lua 格式）和 JSON 兩種檔案格式，抽取出每一條「原文 → 譯文」的鍵值對。
 
-**扫描路径**：
+**掃描路徑**：
 ```
 <mod_root>/**/Translate/<game_code>/*.txt|*.json
 ```
@@ -618,6 +621,8 @@ final_outputs/project_babel/contents/mods/project_babel/
 
 4. **原子寫入**：所有輸出檔案採用"先寫暫存檔，再原子移動"的策略——先寫入 `<filename>.tmp`，寫入成功後透過 `File.Move` 覆蓋目標檔案。這種方式確保即使在寫入過程中發生崩潰或斷電，已有檔案不會損壞。
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **功能**: 統計各語言的翻譯覆蓋率並生成多語言進度報告，方便社群了解翻譯進展。
@@ -633,6 +638,36 @@ final_outputs/project_babel/contents/mods/project_babel/
 - `untranslatable`：因內容審查被標記為不可翻譯的條目數。
 3. **替換佔位符**：將模板中的 `{{PLACEHOLDER}}` 替換為實際統計資料。
 4. **寫入檔案**：將替換後的內容寫入 `docs/progress/progress_<iso>.md`。
+
+---
+
+## 獨立模組
+
+以下模組獨立於翻譯流水線執行，不在 `TranslationPipeline.slnx` 中，各自透過 `dotnet run --project` 或 GitHub Actions 觸發。
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**功能**：定時監控 Steam Workshop 上架的新模組，自動篩選高訂閱數模組並匯入翻譯請求列表。
+
+**執行方式**：透過 GitHub Actions `.github/workflows/monitor-workshop.yml` 定時觸發（台北時間每日 00:00），或本地 `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`。
+
+**工作流程**：
+1. **抓取列表**：從 Steam Workshop "most recent" 頁面分頁抓取 Build 42 標籤（排除 Language/Translation 標籤）的模組 ID。
+2. **解析時間**：透過 Steam Web API 批量查詢每個模組的發布時間，與快取中的上次執行時間比較，確定新模組。
+3. **過濾訂閱數**：再次呼叫 Steam API 查詢所有已快取模組的訂閱數，篩選出超過閾值（500）的模組。
+4. **合併輸出**：將篩選後的模組 ID 去重合併到 `config/request_for_translation.txt`，供流水線的 `ModIdCollector` 消費。
+
+**硬編碼參數**：AppId=108600、MinSubs=500、SafetyPages=5（到達上次時間戳後額外抓取頁數）、PageSize=30、Lookback=48h。
+
+**快取格式**：`data/monitor_cache.bin` — Zstd 壓縮的二進位檔案，little-endian int64 序列：`[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`。與 `BinaryEmbeddingSerializer` 共用 `ZstdSharp` 壓縮方案。
+
+**金鑰讀取**：Steam API Key 從 `config/secrets.json` 的 `STEAM_KEY` 欄位讀取，或從環境變數 `STEAM_KEY` / `STEAM_API_KEY` 取得（與 `ConfigReader` 同模式）。
+
+### DocGenerator
+
+**功能**：LLM 驅動的多語言文件產生器，從中文模板生成各語言的 README、貢獻指南和技術參考文件。
+
+**執行方式**：獨立專案 `src/DocGenerator/DocGenerator.csproj`，透過 `dotnet run --project src/DocGenerator/DocGenerator.csproj` 執行。
 
 ---
 

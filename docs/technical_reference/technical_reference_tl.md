@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Mga Independiyenteng Module](#mga-independiyenteng-module)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Mga Kasunduan sa Datos](#4-mga-kasunduan-sa-datos)
   - [4.1 Mga Pangunahing Uri](#41-mga-pangunahing-uri)
     - [`TranslationEntry` — Entry ng Pagsasalin](#translationentry-entry-ng-pagsasalin)
@@ -305,10 +308,10 @@ Matapos makuha ang listahan ng Mod ID, kailangan ng pipeline na malaman ang pang
 - **Sinusuot na mga kahilingan**: Ang Steam API ay may limitasyon sa bilang ng mga tawag, kaya ang pipeline ay nagpapadala ng mga kahilingan nang batch ayon sa `steamApiChunkSize` (default 100). Magkaroon ng tamang pagitan sa pagitan ng bawat batch upang maiwasan ang pag-trigger ng rate limit.
 - **Mekanismo ng pagpapaubaya**: Kung ang 5 magkakasunod na batch ay lahat nabigo (maaaring problema sa network o pansamantalang hindi available ang API), ang pipeline ay titigil sa pag-query at mananatili ang bahagi ng datos na matagumpay na nakuha, sa halip na itapon ang lahat ng resulta.
 - **Pagmamapa ng mahahalagang field**:
-  - `consumer_app_id`：判断该物品是否属于 Project Zomboid（App ID = `108600`）。不属于 PZ 的模组标记为 `isAvailable = false`，后续跳过下载。
-  - `time_updated`：Steam 记录的最后更新时间。与缓存中的 `timeModUpdated` 比较，如果前者更新，则标记 `needsUpdate = true`，表示模组内容可能发生了变化，需要重新提取和翻译。
-  - `title` → 映射为 `modName`（模组名称）。
-  - `creator` → 通过 Steam 用户接口获取创建者昵称。
+- `consumer_app_id`：Tinutukoy kung ang item ay kabilang sa Project Zomboid (App ID = `108600`). Ang mga mod na hindi kabilang sa PZ ay minarkahan bilang `isAvailable = false`, at lalaktawan ang pag-download.
+- `time_updated`：Ang huling oras ng pag-update na naitala ng Steam. Ihambing sa `timeModUpdated` sa cache; kung ang nauna ay mas bago, markahan ang `needsUpdate = true`, na nagsasaad na ang nilalaman ng mod ay maaaring nagbago at kailangang muling i-extract at isalin.
+- `title` → naka-map sa `modName` (pangalan ng mod).
+- `creator` → Kunin ang palayaw ng lumikha sa pamamagitan ng Steam user interface.
 
 ### 3.5 SteamCmdBootstrapper (`SteamCmdBootstrapperService`)
 
@@ -618,6 +621,8 @@ Ang mapping na ito ay ibinibigay ng `translation_key_to_file_mapping` na naitala
 
 4. **Atomic na pagsulat**: Lahat ng output file ay gumagamit ng estratehiyang "magsulat muna ng temporary file, pagkatapos ay atomic na ilipat" — isulat muna ang `<filename>.tmp`, pagkatapos ay gamitin ang `File.Move` upang palitan ang target file. Tinitiyak nito na kahit na magkaroon ng crash o power outage sa panahon ng pagsulat, ang umiiral na file ay hindi masisira.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Function:** I-statistika ang coverage ng pagsasalin sa bawat wika at bumuo ng multilingual na ulat ng progreso, para madaling makita ng komunidad ang progreso ng pagsasalin.
@@ -633,6 +638,36 @@ Ang ulat ng progreso ay output sa Markdown format, na iniimbak sa direktoryong `
 - `untranslatable`: Bilang ng mga entry na namarkahan bilang hindi maisasalin dahil sa content review.
 3. **Palitan ang mga placeholder**: Palitan ang `{{PLACEHOLDER}}` sa template ng aktwal na datos ng estadistika.
 4. **Isulat ang file**: Isulat ang pinalitang nilalaman sa `docs/progress/progress_<iso>.md`.
+
+---
+
+## Mga Independiyenteng Module
+
+Ang mga sumusunod na module ay tumatakbo nang hiwalay sa pipeline ng pagsasalin, wala sa `TranslationPipeline.slnx`, at na-trigger sa pamamagitan ng `dotnet run --project` o GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Function**: Regular na subaybayan ang mga bagong mod na nai-upload sa Steam Workshop, awtomatikong i-filter ang mga mod na may mataas na bilang ng subscription at isama ang mga ito sa listahan ng kahilingan sa pagsasalin.
+
+**Paraan ng pagpapatakbo**: Na-trigger sa pamamagitan ng GitHub Actions `.github/workflows/monitor-workshop.yml` (oras ng Beijing araw-araw 00:00), o lokal na `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Daloy ng trabaho**：
+1. **Kunin ang listahan**: Mag-scrape ng mod ID mula sa "most recent" page ng Steam Workshop na naka-tag sa Build 42 (hindi kasama ang Language/Translation tags).
+2. **Pag-parse ng oras**: I-query ang bawat mod ng oras ng pag-publish nang maramihan sa pamamagitan ng Steam Web API, ihambing sa huling oras ng pagtakbo sa cache upang matukoy ang mga bagong mod.
+3. **I-filter ang mga subscription**: Tawagan muli ang Steam API upang i-query ang lahat ng naka-cache na mod para sa bilang ng subscription, piliin ang mga lampas sa threshold (500).
+4. **Pagsamahin ang output**: I-de-duplicate at pagsamahin ang mga napiling mod ID sa `config/request_for_translation.txt` para gamitin ng `ModIdCollector` ng pipeline.
+
+**Mga hardcoded na parameter**: AppId=108600, MinSubs=500, SafetyPages=5 (dagdag na bilang ng mga page pagkatapos maabot ang huling timestamp), PageSize=30, Lookback=48h.
+
+**Format ng cache**: `data/monitor_cache.bin` — Binary file na naka-compress ng Zstd, little-endian int64 sequence: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Gumagamit ng `ZstdSharp` compression scheme kasama ng `BinaryEmbeddingSerializer`.
+
+**Pagbasa ng susi**: Ang Steam API Key ay binabasa mula sa field na `STEAM_KEY` sa `config/secrets.json`, o mula sa environment variable na `STEAM_KEY` / `STEAM_API_KEY` (kaparehong pattern ng `ConfigReader`).
+
+### DocGenerator
+
+**Function**: LLM-driven na multi-language document generator, na gumagawa ng README, contribution guide, at technical reference documents sa bawat wika mula sa Chinese template.
+
+**Paraan ng pagpapatakbo**: Independent project na `src/DocGenerator/DocGenerator.csproj`, isinasagawa sa pamamagitan ng `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 

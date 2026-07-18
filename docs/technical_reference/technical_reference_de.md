@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Unabhängige Module](#unabhängige-module)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Datenkonventionen](#4-datenkonventionen)
   - [4.1 Kerntypen](#41-kerntypen)
     - [`TranslationEntry` — Übersetzungseintrag](#translationentry-übersetzungseintrag)
@@ -618,6 +621,8 @@ Diese Zuordnung wird durch die `translation_key_to_file_mapping` bereitgestellt,
 
 4. **Atomares Schreiben**: Alle Ausgabedateien verwenden die Strategie "zuerst temporäre Datei schreiben, dann atomar verschieben" – zuerst wird `<filename>.tmp` geschrieben, nach erfolgreichem Schreiben wird die Zieldatei durch `File.Move` überschrieben. Diese Methode stellt sicher, dass vorhandene Dateien nicht beschädigt werden, selbst wenn während des Schreibens ein Absturz oder Stromausfall auftritt.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Funktion**: Erfasst die Übersetzungsabdeckung für jede Sprache und erstellt mehrsprachige Fortschrittsberichte, damit die Community den Übersetzungsfortschritt verfolgen kann.
@@ -633,6 +638,36 @@ Die Fortschrittsberichte werden im Markdown-Format ausgegeben und im Verzeichnis
 - `untranslatable`: Anzahl der Einträge, die aufgrund der Inhaltsprüfung als nicht übersetzbar markiert wurden.
 3. **Platzhalter ersetzen**: Ersetzen Sie `{{PLACEHOLDER}}` in der Vorlage durch die tatsächlichen statistischen Daten.
 4. **Datei schreiben**: Schreiben Sie den ersetzten Inhalt in `docs/progress/progress_<iso>.md`.
+
+---
+
+## Unabhängige Module
+
+Die folgenden Module werden unabhängig von der Übersetzungspipeline ausgeführt, sind nicht in `TranslationPipeline.slnx` enthalten und werden jeweils durch `dotnet run --project` oder GitHub Actions ausgelöst.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Funktion**: Überwacht regelmäßig neue Mods, die im Steam Workshop erscheinen, filtert automatisch Mods mit hohen Abonnentenzahlen und fügt sie in die Übersetzungsanfrageliste ein.
+
+**Ausführungsmethode**: Wird zeitgesteuert über GitHub Actions `.github/workflows/monitor-workshop.yml` ausgelöst (täglich um 00:00 Uhr Pekinger Zeit) oder lokal über `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Arbeitsablauf**:
+1. **Liste abrufen**: Ruft die Mod-IDs von der Seite "most recent" des Steam Workshops mit dem Tag Build 42 (unter Ausschluss der Tags Language/Translation) seitenweise ab.
+2. **Zeit analysieren**: Fragt über die Steam Web API die Veröffentlichungszeit jedes Mods ab, vergleicht sie mit der letzten Laufzeit im Cache und identifiziert neue Mods.
+3. **Abonnentenzahl filtern**: Ruft erneut die Steam API auf, um die Abonnentenzahlen aller zwischengespeicherten Mods abzufragen, und filtert diejenigen heraus, die den Schwellenwert (500) überschreiten.
+4. **Ausgabe zusammenführen**: Fügt die gefilterten Mod-IDs (dedupliziert) in `config/request_for_translation.txt` ein, damit sie von `ModIdCollector` in der Pipeline verarbeitet werden können.
+
+**Fest codierte Parameter**: AppId=108600, MinSubs=500, SafetyPages=5 (zusätzliche Seiten nach Erreichen des letzten Zeitstempels), PageSize=30, Lookback=48h.
+
+**Cache-Format**: `data/monitor_cache.bin` — eine mit Zstd komprimierte Binärdatei, little-endian int64-Sequenz: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Verwendet das gleiche `ZstdSharp`-Komprimierungsschema wie `BinaryEmbeddingSerializer`.
+
+**Schlüssellesen**: Der Steam API Key wird aus dem Feld `STEAM_KEY` in `config/secrets.json` oder aus den Umgebungsvariablen `STEAM_KEY`/`STEAM_API_KEY` gelesen (gleiches Muster wie `ConfigReader`).
+
+### DocGenerator
+
+**Funktion**: Ein von LLM gesteuerter mehrsprachiger Dokumentationsgenerator, der aus chinesischen Vorlagen READMEs, Beitragsanleitungen und technische Referenzdokumente in verschiedenen Sprachen erstellt.
+
+**Ausführungsmethode**: Eigenständiges Projekt `src/DocGenerator/DocGenerator.csproj`, ausgeführt durch `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 

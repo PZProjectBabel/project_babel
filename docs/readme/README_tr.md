@@ -17,6 +17,7 @@
 - [Araçlar ve Dizin Yapısı (Geliştiriciler İçin)](#araçlar-ve-dizin-yapısı-geliştiriciler-İçin)
   - [Proje Dizinleri](#proje-dizinleri)
   - [Çeviri Hattı Modülleri (Çalıştırma Sırasına Göre)](#çeviri-hattı-modülleri-çalıştırma-sırasına-göre)
+  - [Bağımsız Modüller](#bağımsız-modüller)
   - [Teknoloji Yığını](#teknoloji-yığını)
 - [Telif Hakkı ve Lisans](#telif-hakkı-ve-lisans)
   - [1. Metin, görseller ve diğer içerikler](#1-metin-görseller-ve-diğer-içerikler)
@@ -98,7 +99,7 @@ Bu bölüm, projenin otomasyon prensiplerini anlamak isteyen geliştiricilere y�
 
 | Dizin | Açıklama |
 |------|------|
-| `src/` | .NET 10 çeviri hattı kaynak kodu, 15 modül içerir |
+| `src/` | .NET 10 çeviri ardışık düzen kaynak kodu, 15 modül + 2 bağımsız modül içerir. |
 | `config/` | Çeviri hattı yapılandırma dosyaları (LLM, Steam, RAG parametreleri vb.) |
 | `data/` | Çalışma zamanı verileri: mod meta verileri, embedding, çeviri önbelleği |
 | `translation_ref/` | Referans çeviri verileri (ör. As1 Çeviri Grubu lisanslı modları), LLM'ye çeviri referansı sağlar |
@@ -127,6 +128,13 @@ Bu bölüm, projenin otomasyon prensiplerini anlamak isteyen geliştiricilere y�
 | 13 | `ResultWriter` | data/ ve translation_ref/ dizinine yaz |
 | 14 | `FinalOutputWriter` | Son PZ mod formatı çıktısını oluştur |
 | 15 | `ProgressReporter` | İlerleme raporu oluştur |
+
+### Bağımsız Modüller
+
+| Modül | Fonksiyon |
+|------|------|
+| `WorkshopMonitor` | Steam Workshop'taki yeni modları düzenli olarak getirir, abonelik sayısına göre filtreler ve `request_for_translation.txt` dosyasına ekler. |
+| `DocGenerator` | LLM destekli çok dilli belge oluşturucu |
 
 ### Teknoloji Yığını
 

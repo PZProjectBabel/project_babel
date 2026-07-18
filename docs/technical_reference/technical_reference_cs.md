@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Nezávislé moduly](#nezávislé-moduly)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Datové konvence](#4-datové-konvence)
   - [4.1 Základní typy](#41-základní-typy)
     - [`TranslationEntry` — Položka překladu](#translationentry-položka-překladu)
@@ -63,8 +66,8 @@
 - [5. Vysvětlení konfigurace](#5-vysvětlení-konfigurace)
   - [5.1 `config/config.json` — Hlavní konfigurace pipeline](#51-configconfigjson-hlavní-konfigurace-pipeline)
     - [5.1.1 `LLM` — Konfigurace velkého jazykového modelu](#511-llm-konfigurace-velkého-jazykového-modelu)
-    - [5.1.2 `RAG` — 检索增强生成配置](#512-rag-检索增强生成配置)
-    - [5.1.3 `AsOne` — 远程 Mod 列表源](#513-asone-远程-mod-列表源)
+    - [5.1.2 `RAG` — Konfigurace generování rozšířeného vyhledávání](#512-rag-konfigurace-generování-rozšířeného-vyhledávání)
+    - [5.1.3 `AsOne` — Zdroj vzdáleného seznamu modů](#513-asone-zdroj-vzdáleného-seznamu-modů)
     - [5.1.4 `Steam` — Konfigurace Steam Web API](#514-steam-konfigurace-steam-web-api)
     - [5.1.5 `Pipeline` — Obecná konfigurace pipeline](#515-pipeline-obecná-konfigurace-pipeline)
     - [5.1.6 `ContentCheck` — Konfigurace kontroly bezpečnosti obsahu](#516-contentcheck-konfigurace-kontroly-bezpečnosti-obsahu)
@@ -334,11 +337,11 @@ Po získání seznamu Mod ID musí pipeline znát základní informace o každé
 
 ### 3.6 ContentExtractor (`ContentExtractorService`)
 
-**功能**: 从下载的模组文件中解析并提取所有可翻译的文本内容，是管线中"理解模组"的关键步骤。
+**Funkce**: Z analýzy stažených souborů modů extrahovat všechny přeložitelné textové obsahy, což je klíčový krok "porozumění modům" v pipeline.
 
-Project Zomboid 的模组将翻译文本存放在特定目录下。`ContentExtractor` 的任务是遍历这些目录，解析 TXT（Lua 格式）和 JSON 两种文件格式，抽取出每一条"原文 → 译文"的键值对。
+Mody Project Zomboid ukládají přeložitelné texty do specifických adresářů. Úkolem `ContentExtractor` je procházet tyto adresáře, analyzovat soubory ve formátech TXT (Lua) a JSON a extrahovat každý pár klíč-hodnota "originál → překlad".
 
-**扫描路径**：
+**Cesty skenování**:
 ```
 <mod_root>/**/Translate/<game_code>/*.txt|*.json
 ```
@@ -425,48 +428,48 @@ Tento návrh se vyhýbá riziku přenosu tradičního API klíče v HTTP hlavič
 | Parametr | Hodnota | Popis |
 |------|-----|------|
 | Embeddingový model | `bge-small-en-v1.5` | Lehký anglický embeddingový model vydaný BAAI |
-| 向量维度 | 384 | 每条文本映射为 384 个 float32 数值 |
-| 输入截断 | 500 UTF-8 字符 | 超过此长度的文本截断后送入模型 |
-| 批量大小 | 32 | 每次请求发送 32 条文本，平衡吞吐与延迟 |
-| 存储格式 | Zstd 压缩二进制 | 压缩比约 4:1，显著节省磁盘空间 |
+| Rozměr vektoru | 384 | Každý text je mapován na 384 float32 hodnot |
+| Ořezávání vstupu | 500 UTF-8 znaků | Texty přesahující tuto délku jsou oříznuty a poté odeslány do modelu |
+| Velikost dávky | 32 | Každý požadavek odesílá 32 textů, vyvažuje propustnost a latenci |
+| Formát úložiště | Zstd komprimovaný binární | Kompresní poměr cca 4:1, výrazně šetří místo na disku |
 
-**处理流程**：
-1. **收集候选**（`BuildCandidates`）：收集所有缺少嵌入向量的条目，包括本次运行发现的新增/修改条目（diff）、参考翻译条目、以及需要回填（backfill）的历史条目。
-2. **哈希去重**：相同文本内容的条目必然产生相同的哈希值，这种情况下直接复用已有的嵌入向量，避免重复计算。
-3. **分批发送**：将候选条目按每批 32 条打包，逐批发送至嵌入服务。连续失败 ≥3 批则终止嵌入阶段。
-4. **持久化存储**：获取到的向量以 Zstd 压缩格式写入 `data/embeddings/<modId>.bin`。
+**Postup zpracování**:
+1. **Sběr kandidátů** (`BuildCandidates`): Sbírá všechny položky, kterým chybí vkládací vektory, včetně nově přidaných/změněných položek (diff), referenčních překladových položek a historických položek, které vyžadují zpětné doplnění (backfill).
+2. **Hashová deduplikace**: Položky se stejným textem nutně produkují stejný hash, v takovém případě se přímo znovu použijí existující vkládací vektory, čímž se zabrání opakovanému výpočtu.
+3. **Odesílání po dávkách**: Kandidátské položky se balí po 32 a postupně odesílají do služby vkládání. Pokud selžou ≥3 dávky za sebou, fáze vkládání se ukončí.
+4. **Trvalé uložení**: Získané vektory se zapisují v komprimovaném formátu Zstd do `data/embeddings/<modId>.bin`.
 
-**Backfill 回填机制**：当管线首次支持一种新语言时，历史缓存中可能存在大量缺少该语言嵌入向量的条目。如果一次性为所有这些条目计算嵌入，服务压力巨大且耗时极长。Backfill 机制限制每次运行最多回填 10,000,000 个缺失嵌入，将工作量分散到多次运行中逐步完成。
+**Mechanismus zpětného doplňování (Backfill)**: Když pipeline poprvé podporuje nový jazyk, v historické mezipaměti může existovat velké množství položek bez vkládacích vektorů pro tento jazyk. Pokud by se pro všechny tyto položky počítaly vkládací vektory najednou, zatížení služby by bylo obrovské a časově velmi náročné. Mechanismus Backfill omezuje každé spuštění na maximálně 10 000 000 chybějících vkládání, čímž rozloží práci do několika běhů a postupně ji dokončí.
 
 ### 3.9 TranslationBatcher (`TranslationBatcherService`)
 
-**功能**: 将待翻译条目按 mod 和 token 预算打包为翻译批次（`TranslationBatch`），作为 LLM 翻译的基本单位。
+**Funkce**: Balí položky k překladu podle modu a tokenového rozpočtu do překladových dávek (`TranslationBatch`), jako základní jednotky překladu LLM.
 
-直接逐条翻译效率低下——每次 API 调用的网络往返延迟远大于模型推理时间。`TranslationBatcher` 将多条待翻译文本打包成批次，使每次 API 调用能处理多条文本，显著提升吞吐量。
+Překládání jednotlivě je neefektivní – zpoždění sítě při každém volání API je mnohem větší než doba inferenčního modelu. `TranslationBatcher` balí více textů k překladu do dávek, takže každé volání API může zpracovat více textů, což výrazně zvyšuje propustnost.
 
-**打包策略**：
-1. **优先级排序**：模组按优先级降序排列。优先级由订阅数（subscription）和收藏数（favorite）加权计算——越受欢迎的模组越先翻译。
-2. **双重约束**：每个批次受两个上限同时约束：
-   - `batch_size`（条目数上限，默认 30）：一个批次最多包含 30 条翻译条目。
-   - `batch_token_budget`（token 预算，默认 2000）：一个批次的输入文本 token 总量不能超过 2000。即使条目数未达上限，token 预算耗尽也会截断批次。
-3. **同 mod 聚集**：同一模组的条目尽量打包在同一个批次中。这有助于 LLM 理解同一模组内的术语一致性，避免上下文碎片化。
-4. **语言标记**：每个 `TranslationBatch` 都带有 `targetLang` 字段，表示该批次的翻译目标语言。不同目标语言的条目绝不会混在同一个批次中。
+**Strategie balení**:
+1. **Řazení podle priority**: Mody jsou seřazeny sestupně podle priority. Priorita je vypočítána vážením počtu odběrů (subscription) a oblíbeností (favorite) – čím populárnější mod, tím dříve je přeložen.
+2. **Dvojité omezení**: Každá dávka je současně omezena dvěma horními limity:
+- `batch_size` (horní limit počtu položek, výchozí 30): Dávka může obsahovat maximálně 30 překladových položek.
+- `batch_token_budget` (tokenový rozpočet, výchozí 2000): Celkový počet tokenů vstupního textu dávky nesmí překročit 2000. I když počet položek nedosáhne horního limitu, vyčerpání tokenového rozpočtu dávku ukončí.
+3. **Seskupování podle modu**: Položky stejného modu by měly být pokud možno zabaleny do stejné dávky. To pomáhá LLM porozumět konzistenci terminologie v rámci modu a zabraňuje fragmentaci kontextu.
+4. **Jazykové označení**: Každý `TranslationBatch` má pole `targetLang`, které označuje cílový jazyk překladu dané dávky. Položky s různými cílovými jazyky nikdy nejsou smíchány ve stejné dávce.
 
-**Token 估算方式**：由于管线不依赖特定的 tokenizer 库（避免引入额外依赖），使用了一个简化的估算方法——英文文本按空格和标点符号分词后粗略估算 token 数量。这个估算值用于预算控制，不需要绝对精确。
+**Způsob odhadu tokenů**: Vzhledem k tomu, že pipeline není závislá na konkrétní knihovně tokenizéru (aby se předešlo zavádění dalších závislostí), používá zjednodušený odhad – anglický text se rozdělí na základě mezer a interpunkce a hrubě se odhadne počet tokenů. Tento odhad se používá pro kontrolu rozpočtu a nemusí být absolutně přesný.
 
-**设计意图 — 同模组聚集**：将同一模组的条目尽量打包在同一批次中，而非跨模组混排以追求更高的批次填充率。这是因为 LLM 在翻译时会利用同批次内的上下文信息来保持术语一致性——同一模组的文本共享相同的术语体系和叙事风格，放在一起翻译有助于 LLM 产出风格统一的译文。
+**Záměr návrhu – seskupování podle modu**: Položky stejného modu by měly být zabaleny do stejné dávky, spíše než aby byly napříč mody promíchány za účelem vyššího využití kapacity dávky. Je to proto, že LLM při překladu využívá kontextové informace v rámci stejné dávky k udržení konzistence terminologie – texty stejného modu sdílejí stejný terminologický systém a narativní styl; jejich přeložení společně pomáhá LLM produkovat stylově jednotné překlady.
 
 ### 3.10 RagContextRetriever (`RagContextRetrieverService`)
 
-**功能**: 基于向量相似度，从参考翻译语料库中检索与待译文本最相似的已有翻译，作为 LLM 翻译时的上下文参考。
+**Funkce**: Na základě vektorové podobnosti vyhledává z referenčního překladového korpusu nejpodobnější existující překlady k textu, který má být přeložen, a poskytuje je jako kontextový referenční materiál při překladu LLM.
 
-RAG（Retrieval-Augmented Generation，检索增强生成）是本管线翻译质量的**核心保障**。其基本思路是：让 LLM 在翻译每条文本时，能够"看到"社区人工翻译的相似例句，从而学习其风格、术语和表达方式。
+RAG (Retrieval-Augmented Generation) je **základní záruka** kvality překladu této pipeline. Jeho základní myšlenkou je: umožnit LLM, aby při překladu každého textu "viděl" podobné příklady ručních překladů od komunity, a tím se naučil jejich styl, terminologii a způsob vyjádření.
 
-**检索流程**：
-1. **构建参考索引**（`BuildReferences`）：从参考翻译条目和已有翻译中，筛选出与当前翻译方向匹配的条目（即 `embeddingKey = "en:zh-hans"` 这类"从英文到目标语言"的条目），将其嵌入向量加载到内存中作为检索索引。
-2. **精确匹配查找**（`BuildExactReferenceLookup`）：对于 translationKey 完全相同的条目，直接建立映射关系——相同的 key 意味着翻译的是同一段文本，这是最强的参考信号。
-3. **余弦相似度计算**：对每条待译文本的查询向量（query embedding），遍历参考索引中的所有参考向量（reference embedding），计算两者之间的余弦相似度。余弦相似度取值范围为 [-1, 1]，越接近 1 表示语义越相近。
-4. **阈值过滤**：相似度低于 `similarity_threshold`（默认 0.8）的参考结果被丢弃。这个阈值确保了只有高度相关的参考翻译才会被采纳。
+**Proces vyhledávání**:
+1. **Vytvoření referenčního indexu** (`BuildReferences`): Z referenčních překladových položek a stávajících překladů vyfiltrujte položky odpovídající aktuálnímu směru překladu (tj. položky jako `embeddingKey = "en:zh-hans"`, které jsou "z angličtiny do cílového jazyka") a načtěte jejich vektorové vložení do paměti jako index pro vyhledávání.
+2. **Vyhledání přesné shody** (`BuildExactReferenceLookup`): Pro položky se zcela shodným `translationKey` přímo vytvořte mapovací vztah – stejný klíč znamená, že je překládán stejný text, což je nejsilnější referenční signál.
+3. **Výpočet kosinové podobnosti**: Pro každý vyhledávací vektor (query embedding) překládaného textu projděte všechny referenční vektory (reference embedding) v referenčním indexu a vypočítejte mezi nimi kosinovou podobnost. Rozsah kosinové podobnosti je [-1, 1], čím blíže k 1, tím sémanticky bližší.
+4. **Filtrování prahem**: Referenční výsledky s podobností nižší než `similarity_threshold` (výchozí 0.8) jsou vyřazeny. Tento práh zajišťuje, že jsou přijaty pouze vysoce relevantní referenční překlady.
 5. **Top-K zkrácení**: Z kandidátů, kteří prošli prahem, se vybere K (výchozí 3) s nejvyšší podobností, které se použijí jako referenční kontext pro překlad LLM.
 
 **性能优化**：检索涉及大量的向量点积运算（384 维 × 数万条参考 × 数万条查询），计算量巨大。管线使用 `Parallel.For` 实现多线程并行计算，并在内层循环中使用 `Vector128` SIMD 指令加速点积运算，充分利用现代 CPU 的向量计算能力。
@@ -618,6 +621,8 @@ Toto mapování poskytuje `translation_key_to_file_mapping` zaznamenaný ve fáz
 
 4. **Atomický zápis**: Všechny výstupní soubory používají strategii „nejprve zapsat do dočasného souboru, poté atomicky přesunout“ – nejprve se zapíše do `<filename>.tmp`, po úspěšném zápisu se pomocí `File.Move` přepíše cílový soubor. Tento způsob zajišťuje, že i v případě pádu nebo výpadku proudu během zápisu nedojde k poškození stávajících souborů.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Funkce**: Shromažďuje statistiky pokrytí překladů pro každý jazyk a generuje vícejazyčné zprávy o pokroku, aby komunita mohla snadno sledovat průběh překladu.
@@ -633,6 +638,36 @@ Zprávy o pokroku jsou výstupem ve formátu Markdown a ukládají se do adresá
 - `untranslatable`: Počet položek označených jako nepřeložitelné kvůli kontrole obsahu.
 3. **Nahraďte zástupné znaky**: Nahraďte `{{PLACEHOLDER}}` v šabloně skutečnými statistickými údaji.
 4. **Zapište soubor**: Zapište nahrazený obsah do `docs/progress/progress_<iso>.md`.
+
+---
+
+## Nezávislé moduly
+
+Následující moduly běží nezávisle na překladovém pipeline, nejsou v `TranslationPipeline.slnx` a každý je spouštěn přes `dotnet run --project` nebo GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Funkce**: Pravidelně monitoruje nové mody nahrané na Steam Workshop, automaticky filtruje mody s vysokým počtem odběratelů a přidává je do seznamu žádostí o překlad.
+
+**Způsob spuštění**: Spouštěno pomocí GitHub Actions `.github/workflows/monitor-workshop.yml` (denně v 00:00 pekingského času) nebo lokálně pomocí `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Pracovní postup**:
+1. **Stažení seznamu**: Ze stránky "nejnovější" (most recent) na Steam Workshop stránkujte ID modů s tagem Build 42 (vyjma tagů Language/Translation).
+2. **Analýza času**: Pomocí Steam Web API hromadně zjistěte čas publikování každého modu, porovnejte s časem posledního spuštění v mezipaměti a identifikujte nové mody.
+3. **Filtrování podle počtu odběratelů**: Znovu zavolejte Steam API pro zjištění počtu odběratelů všech modů v mezipaměti a vyfiltrujte ty, které překračují práh (500).
+4. **Sloučení výstupu**: Odstraňte duplicity a slučte ID vyfiltrovaných modů do `config/request_for_translation.txt` pro spotřebu modulem `ModIdCollector` v pipeline.
+
+**Parametry pevně zakódované**: AppId=108600, MinSubs=500, SafetyPages=5 (počet stránek k načtení navíc po dosažení posledního časového razítka), PageSize=30, Lookback=48h.
+
+**Formát mezipaměti**: `data/monitor_cache.bin` — binární soubor komprimovaný pomocí Zstd, sekvence little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Sdílí kompresní schéma `ZstdSharp` s `BinaryEmbeddingSerializer`.
+
+**Čtení klíče**: Steam API Key je čten z pole `STEAM_KEY` v `config/secrets.json` nebo z proměnných prostředí `STEAM_KEY` / `STEAM_API_KEY` (stejný vzor jako `ConfigReader`).
+
+### DocGenerator
+
+**Funkce**: Generátor vícejazyčné dokumentace řízený LLM, který z čínských šablon vytváří README, průvodce přispíváním a technické referenční dokumenty pro různé jazyky.
+
+**Způsob spuštění**: Samostatný projekt `src/DocGenerator/DocGenerator.csproj`, spouští se pomocí `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 
@@ -676,12 +711,12 @@ List<ContainingFileInfo> containingFileInfos;          // informace o všech zdr
 
 ```csharp
 class TranslationData {
-    string text;           // 译文
-    bool isVerified;       // 是否已验证 (参考翻译为 true)
-    float? confidence;     // LLM 翻译置信度 (0.0~1.0)
-    string status;         // 验证状态: "verified" 或 "unverified"
-    string processStatus;  // 处理状态: "processed" 或 "unprocessed"
-    List<string> comments; // 注释列表
+string text;           // překlad
+bool isVerified;       // zda je ověřeno (u referenčních překladů true)
+float? confidence;     // míra spolehlivosti LLM překladu (0.0~1.0)
+string status;         // stav ověření: "verified" nebo "unverified"
+string processStatus;  // stav zpracování: "processed" nebo "unprocessed"
+List<string> comments; // seznam komentářů
 }
 ```
 
@@ -877,48 +912,48 @@ Základní řídicí soubor celé překladové pipeline. Všechna pole jsou povi
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Adresa LLM API, kompatibilní s protokolem OpenAI Chat Completions |
 | `model` | string | `deepseek-v4-flash` | Název modelu. Hodnota obsahující `v4-flash` nebo `v4-pro` spustí odpovídající automatický profil souběžnosti |
-| `temperature` | float | `0.1` | 采样温度 (0~2)。越低输出越确定，翻译任务建议 ≤0.3 |
-| `max_tokens` | int | `380000` | 单次 API 响应的最大 token 数。需大于 batch 输出总量 |
-| `batch_size` | int | `30` | 每个翻译批次的条目数上限。受 `batch_token_budget` 联合约束 |
-| `batch_token_budget` | int | `2000` | 每个批次输入端的 token 预算上限 (粗略估算)。0 表示不限制 |
-| `request_timeout_seconds` | int | `300` | 单次 HTTP 请求超时秒数。大 batch 需适当增大 |
+| `temperature` | float | `0.1` | Teplota vzorkování (0–2). Čím nižší, tím je výstup determinističtější, pro překladatelské úlohy se doporučuje ≤0.3 |
+| `max_tokens` | int | `380000` | Maximální počet tokenů v jedné odpovědi API. Musí být větší než celkový výstup dávky |
+| `batch_size` | int | `30` | Horní limit počtu položek v jedné překladové dávce. Omezeno společně s `batch_token_budget` |
+| `batch_token_budget` | int | `2000` | Horní limit rozpočtu tokenů na vstupu jedné dávky (hrubý odhad). 0 znamená bez omezení |
+| `request_timeout_seconds` | int | `300` | Počet sekund pro časový limit jednotlivého HTTP požadavku. U velkých dávek je třeba přiměřeně zvýšit. |
 
-**`concurrency` — 并发控制** (子对象):
-
-| Pole | Typ | Výchozí hodnota | Popis |
-|------|------|--------|------|
-| `initial` | int | `0` | 初始并发数。`0` = 根据运行环境和模型自动检测 |
-| `maximum` | int | `0` | 最大并发上限。`0` = 自动检测。动态模式下成功 streak 达标会逐步提升至此值 |
-| `minimum` | int | `1` | 最小并发下限。动态模式下失败缩容不会低于此值 |
-| `max_retries` | int | `5` | 单个 work item 的最大重试次数 |
-| `failure_streak_to_decrease` | int | `3` | 连续失败 N 次后触发缩容（并发减半） |
-| `retry_base_delay_ms` | int | `1000` | 重试基础延迟 (ms)。实际延迟 = base × 2^attempt (指数退避) |
-| `retry_max_delay_ms` | int | `60000` | 重试最大延迟上限 (ms) |
-| `fixed_concurrency` | int | `128` | **>0 时启用固定窗口模式**：窗口内并发、窗口间串行，不使用动态调整。设为 0 则用动态模式 |
-
-**并发模式说明**:
-- **动态模式** (`fixed_concurrency=0`): 根据成功/失败自动增减并发。适用于 API 限流策略不透明的场景
-- **固定窗口模式** (`fixed_concurrency>0`): 确定性的并发行为。适用于已知 API 并发上限的场景。窗口间有完成日志输出
-
-**自动 Profile** (当 `initial=0` 或 `maximum=0` 时): 管线根据运行环境和模型名称自动选择合适的并发参数，具体规则见 [3.11 节 — 并发 Profile 自动检测](#311-llmtranslator-llmtranslatorservice)。
-
-#### 5.1.2 `RAG` — 检索增强生成配置
+**`concurrency` — Kontrola souběžnosti** (podobjekt):
 
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
-| `similarity_threshold` | float | `0.8` | 余弦相似度阈值 (0~1)。低于此值的参考翻译不会被纳入 LLM 上下文 |
-| `top_k` | int | `3` | 每个待译条目返回的最多参考翻译条数 |
-| `index_dir` | string | `data/rag_index` | RAG 索引目录 (预留，当前使用内存检索) |
+| `initial` | int | `0` | Počáteční počet souběžných vláken. `0` = automatická detekce podle běhového prostředí a modelu. |
+| `maximum` | int | `0` | Maximální limit souběžnosti. `0` = automatická detekce. V dynamickém režimu se po dosažení úspěšné série postupně zvyšuje na tuto hodnotu. |
+| `minimum` | int | `1` | Minimální dolní mez souběžnosti. V dynamickém režimu se po selhání nesníží pod tuto hodnotu. |
+| `max_retries` | int | `5` | Maximální počet opakování pro jednu položku. |
+| `failure_streak_to_decrease` | int | `3` | Po N po sobě jdoucích selháních se spustí škálování dolů (souběžnost se sníží na polovinu). |
+| `retry_base_delay_ms` | int | `1000` | Základní zpoždění opakování (ms). Skutečné zpoždění = base × 2^pokus (exponenciální ústup). |
+| `retry_max_delay_ms` | int | `60000` | Maximální horní limit zpoždění opakování (ms). |
+| `fixed_concurrency` | int | `128` | **Při >0 se aktivuje režim pevného okna**: souběžnost v okně, serializace mezi okny, nepoužívá se dynamické přizpůsobení. Nastavením na 0 se použije dynamický režim. |
 
-#### 5.1.3 `AsOne` — 远程 Mod 列表源
+**Popis režimů souběžnosti**:
+- **Dynamický režim** (`fixed_concurrency=0`): Automaticky zvyšuje/snižuje souběžnost podle úspěchu/neúspěchu. Vhodný pro scénáře s neprůhlednou politikou omezování API.
+- **Režim pevného okna** (`fixed_concurrency>0`): Deterministické chování souběžnosti. Vhodný pro scénáře se známým maximálním limitem API. Mezi okny se provádí logování dokončení.
 
-从 [AsOne](https://www.asone.fun/) 社区平台拉取公共 Mod 列表。
+**Automatický profil** (když `initial=0` nebo `maximum=0`): Potrubí automaticky vybere vhodné parametry souběžnosti podle běhového prostředí a názvu modelu. Konkrétní pravidla viz [oddíl 3.11 — Automatická detekce profilu souběžnosti](#311-llmtranslator-llmtranslatorservice).
+
+#### 5.1.2 `RAG` — Konfigurace generování rozšířeného vyhledávání
 
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
-| `enabled` | bool | `true` | 是否启用 AsOne 远程收集。`false` 时仅用本地请求文件 |
-| `base_url` | string | `https://www.asone.fun/` | AsOne 平台基础 URL |
-| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | 获取全部 Mod 信息的 API 路径 |
+| `similarity_threshold` | float | `0.8` | Práh kosinové podobnosti (0~1). Referenční překlady pod touto hodnotou nebudou zahrnuty do kontextu LLM. |
+| `top_k` | int | `3` | Maximální počet referenčních překladů vrácených pro každou položku k překladu. |
+| `index_dir` | string | `data/rag_index` | Adresář indexu RAG (vyhrazeno, aktuálně se používá vyhledávání v paměti). |
+
+#### 5.1.3 `AsOne` — Zdroj vzdáleného seznamu modů
+
+Stahuje veřejný seznam modů z komunitní platformy [AsOne](https://www.asone.fun/).
+
+| Pole | Typ | Výchozí hodnota | Popis |
+|------|------|--------|------|
+| `enabled` | bool | `true` | Zda je povoleno vzdálené shromažďování AsOne. Při `false` se používá pouze místní soubor požadavků. |
+| `base_url` | string | `https://www.asone.fun/` | Základní URL platformy AsOne. |
+| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | Cesta API pro získání všech informací o modech. |
 | `mod_info_file_name` | string | `modInfo.txt` | Název souboru s informacemi o modu (rezervováno) |
 | `auth_secret_name` | string | `ASONE_AUTH_TOKEN` | Název klíče autentizačního tokenu v secrets.json |
 | `timeout_seconds` | int | `30` | Časový limit HTTP požadavku v sekundách |

@@ -42,11 +42,14 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [الوحدات المستقلة](#الوحدات-المستقلة)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. اتفاقيات البيانات](#4-اتفاقيات-البيانات)
   - [4.1 الأنواع الأساسية](#41-الأنواع-الأساسية)
     - [`TranslationEntry` — إدخال الترجمة](#translationentry-إدخال-الترجمة)
     - [`TranslationData` — بيانات الترجمة](#translationdata-بيانات-الترجمة)
-    - [`ModInfo` — Mod 元数据](#modinfo-mod-元数据)
+    - [`ModInfo` — بيانات تعريف النموذج (Mod)](#modinfo-بيانات-تعريف-النموذج-mod)
     - [`TranslationBatch` — دفعة الترجمة](#translationbatch-دفعة-الترجمة)
     - [`LangInfoData` — معلومات اللغة](#langinfodata-معلومات-اللغة)
   - [4.2 تنسيق الملفات](#42-تنسيق-الملفات)
@@ -586,7 +589,7 @@ ContextMenu_PickUp::zh-hans::unverified = "拾起",
 - السطر الأول هو **سطر اللغة الأساسية** (`::en`)، يسجل النص الأصلي باللغة الإنجليزية.
 - السطر الثاني هو **سطر اللغة الهدف** (`::zh-hans::unverified`)، يسجل نتيجة الترجمة. `unverified` يعني أن الترجمة تمت بواسطة LLM تلقائياً وليست مدققة بشرياً. إذا تم التأكيد لاحقاً بواسطة التدقيق البشري، يمكن تحديث الحالة إلى `verified`.
 
-**设计意图 — 内部缓存格式**：选择 `key::lang::status = "value"` 而非 JSON 作为内部缓存格式，是因为这种格式具有较高的信息密度，在人工查看翻译内容的时候能够在屏幕上呈现更多的上下文信息。
+**قصد التصميم - تنسيق التخزين المؤقت الداخلي**: تم اختيار `key::lang::status = "value"` بدلاً من JSON كتنسيق للتخزين المؤقت الداخلي، وذلك لأن هذا التنسيق يتمتع بكثافة معلومات عالية، وعند مراجعة محتوى الترجمة يدويًا، يمكن عرض المزيد من معلومات السياق على الشاشة.
 
 ### 3.13 FinalOutputWriter (`FinalOutputWriterService`)
 
@@ -618,6 +621,8 @@ final_outputs/project_babel/contents/mods/project_babel/
 
 4. **الكتابة الذرية**: تستخدم جميع ملفات الإخراج استراتيجية "الكتابة في ملف مؤقت أولاً، ثم النقل الذري" - يتم الكتابة أولاً إلى `<filename>.tmp`، وبعد نجاح الكتابة يتم استبدال الملف الهدف عبر `File.Move`. تضمن هذه الطريقة أنه حتى في حالة حدوث تعطل أو انقطاع التيار أثناء عملية الكتابة، فإن الملفات الموجودة لن تتلف.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **الوظيفة**: حساب نسبة تغطية الترجمة لكل لغة وإنشاء تقارير التقدم متعددة اللغات، لتسهيل متابعة المجتمع لتقدم الترجمة.
@@ -636,6 +641,36 @@ final_outputs/project_babel/contents/mods/project_babel/
 
 ---
 
+## الوحدات المستقلة
+
+الوحدات التالية تعمل بشكل مستقل عن خط أنابيب الترجمة، وهي غير موجودة في `TranslationPipeline.slnx`، ويتم تشغيل كل منها عبر `dotnet run --project` أو GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**الوظيفة**: مراقبة التعديلات الجديدة المرفوعة على Steam Workshop بشكل دوري، وتصفية التعديلات ذات عدد المشتركين المرتفع تلقائيًا وإضافتها إلى قائمة طلبات الترجمة.
+
+**طريقة التشغيل**: عن طريق تشغيلها دوريًا عبر GitHub Actions `.github/workflows/monitor-workshop.yml` (يوميًا الساعة 00:00 بتوقيت بكين)، أو محليًا عبر `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**سير العمل**:
+1. **جلب القائمة**: جلب معرفات التعديلات من صفحة "الأحدث" في Steam Workshop مع تصفية علامة Build 42 (مع استبعاد علامات Language/Translation) بشكل متقطع.
+2. **تحليل الوقت**: الاستعلام بشكل مجمع عبر Steam Web API عن وقت نشر كل تعديل، ومقارنته بوقت التشغيل السابق في ذاكرة التخزين المؤقت لتحديد التعديلات الجديدة.
+3. **تصفية عدد المشتركين**: استدعاء Steam API مرة أخرى للاستعلام عن عدد مشتركي جميع التعديلات المخزنة مؤقتًا، وتصفية التعديلات التي تتجاوز الحد (500).
+4. **دمج المخرجات**: إزالة التكرارات ودمج معرفات التعديلات المصفاة في `config/request_for_translation.txt`، لاستخدامها لاحقًا في `ModIdCollector` الخاص بخط الأنابيب.
+
+**المعلمات المضمنة**: AppId=108600، MinSubs=500، SafetyPages=5 (عدد الصفحات الإضافية بعد الوصول إلى الطابع الزمني السابق)، PageSize=30، Lookback=48h.
+
+**تنسيق التخزين المؤقت**: `data/monitor_cache.bin` — ملف ثنائي مضغوط بـ Zstd، بتسلسل little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. يستخدم نفس نظام الضغط `ZstdSharp` مع `BinaryEmbeddingSerializer`.
+
+**قراءة المفتاح**: يتم قراءة مفتاح Steam API من حقل `STEAM_KEY` في `config/secrets.json`، أو من متغيرات البيئة `STEAM_KEY` / `STEAM_API_KEY` (بنفس نمط `ConfigReader`).
+
+### DocGenerator
+
+**الوظيفة**: مولد وثائق متعدد اللغات يعمل بواسطة LLM، يقوم بإنشاء ملفات README وأدلة المساهمة والوثائق التقنية المرجعية بلغات مختلفة من قوالب صينية.
+
+**طريقة التشغيل**: مشروع مستقل `src/DocGenerator/DocGenerator.csproj`، يتم تشغيله عبر `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
+
+---
+
 ## 4. اتفاقيات البيانات
 
 يشرح هذا القسم بالتفصيل هياكل البيانات الأساسية وتنسيقات الملفات واتفاقيات مفاتيح الفهرسة المستخدمة في خط الأنابيب. هذه التعريفات هي الأساس لفهم كيفية تمرير البيانات بين الوحدات.
@@ -648,19 +683,19 @@ final_outputs/project_babel/contents/mods/project_babel/
 
 ```csharp
 class TranslationEntry {
-    string modId;                                          // Steam Workshop Mod ID
-    string masterKey;                                      // PZ Lua 主键 (如 "IG_UI")
-    string translationKey;                                 // 完整翻译键
-    Dictionary<string, TranslationData> translationValues; // ISO → 译文数据
-    string baseLang;                                       // 基准语言 (默认 "en")
-    string embeddingHash;                                  // 当前嵌入文本的 hash
-    float[] embeddingVector;                               // [旧] 单向量 (已废弃，改为 embeddingValues 支持多语言嵌入)
-    Dictionary<string, TranslationEmbedding> embeddingValues; // embeddingKey → 向量+hash (替代 embeddingVector)
-    bool isActive;                                         // 是否仍存在于源文件中
+string modId;                                          // معرّف تعديل Steam Workshop
+string masterKey;                                      // المفتاح الرئيسي لـ PZ Lua (مثل "IG_UI")
+string translationKey;                                 // مفتاح الترجمة الكامل
+Dictionary<string, TranslationData> translationValues; // ISO → بيانات الترجمة
+string baseLang;                                       // اللغة الأساسية (الافتراضية "en")
+string embeddingHash;                                  // تجزئة النص المضمن الحالي
+float[] embeddingVector;                               // [قديم] متجه واحد (مهمل، تم استبداله بـ embeddingValues لدعم التضمين متعدد اللغات)
+Dictionary<string, TranslationEmbedding> embeddingValues; // embeddingKey → متجه+تجزئة (يحل محل embeddingVector)
+bool isActive;                                         // هل لا يزال موجودًا في الملف المصدر
     DateTime lastSeenAt;
     DateTime lastSeenModUpdated;
-    string sourceHash;                                     // 基准文本 SHA256
-    List<ContainingFileInfo> containingFileInfos;          // 所有源文件信息
+string sourceHash;                                     // SHA256 للنص الأساسي
+List<ContainingFileInfo> containingFileInfos;          // معلومات جميع ملفات المصدر
 }
 ```
 
@@ -676,23 +711,23 @@ class TranslationEntry {
 
 ```csharp
 class TranslationData {
-    string text;           // 译文
-    bool isVerified;       // 是否已验证 (参考翻译为 true)
-    float? confidence;     // LLM 翻译置信度 (0.0~1.0)
-    string status;         // 验证状态: "verified" 或 "unverified"
-    string processStatus;  // 处理状态: "processed" 或 "unprocessed"
-    List<string> comments; // 注释列表
+string text;           // النص المترجم
+bool isVerified;       // هل تم التحقق منه (الترجمة المرجعية صحيحة)
+float? confidence;     // درجة الثقة في ترجمة LLM (0.0~1.0)
+string status;         // حالة التحقق: "verified" أو "unverified"
+string processStatus;  // حالة المعالجة: "processed" أو "unprocessed"
+List<string> comments; // قائمة التعليقات
 }
 ```
 
-- `isVerified = true`：表示该译文来自人工翻译的参考模组，质量可靠。
-- `isVerified = false`：表示该译文来自 LLM 翻译，标记为 `unverified`，尚未经人工校验。
-- `confidence`：LLM 生成该译文时返回的置信度分数，`null` 表示非 LLM 翻译。
-- `processStatus`：是否已被 LLM 管线处理（`processed` 或 `unprocessed`）。
+- `isVerified = true`: يعني أن النص المترجم يأتي من نموذج ترجمة مرجعي تمت ترجمته يدويًا، وهو موثوق.
+- `isVerified = false`: يعني أن النص المترجم يأتي من ترجمة LLM، ويتم وضع علامة `unverified` عليه، ولم يتم التحقق منه يدويًا بعد.
+- `confidence`: درجة الثقة التي أرجعها LLM عند إنشاء هذا النص المترجم، `null` تعني أنها ليست ترجمة LLM.
+- `processStatus`: هل تمت معالجته بواسطة خط أنابيب LLM (`processed` أو `unprocessed`).
 
-#### `ModInfo` — Mod 元数据
+#### `ModInfo` — بيانات تعريف النموذج (Mod)
 
-`ModInfo` 存储一个 Steam Workshop 模组的完整元信息，跟踪其状态和更新情况。
+`ModInfo` يخزن بيانات تعريف كاملة لنموذج Steam Workshop، ويتتبع حالته وتحديثاته.
 
 ```csharp
 struct ModInfo {
@@ -701,13 +736,13 @@ struct ModInfo {
     string creator;
     string? language;
     string localDownloadedPath;
-    DateTime timeModUpdated;       // Steam 记录的最后更新时间
-    DateTime timeModCreated;       // Steam 记录的首次发布时间
-    DateTime timeLastChecked;      // 管线最后一次检查该 mod 的时间
-    int subscription;              // 订阅数（来自 Steam）
-    int favorite;                  // 收藏数（来自 Steam）
-    string description;            // Steam 模组描述文本
-    int consumerAppId;             // Steam 消费者 App ID (108600 = PZ)
+DateTime timeModUpdated;       // آخر وقت تحديث سجله Steam
+DateTime timeModCreated;       // وقت النشر الأول الذي سجله Steam
+DateTime timeLastChecked;      // آخر مرة فحص فيها خط الأنابيب هذا النموذج
+int subscription;              // عدد المشتركين (من Steam)
+int favorite;                  // عدد المفضلات (من Steam)
+string description;            // نص وصف النموذج في Steam
+int consumerAppId;             // معرف التطبيق المستهلك في Steam (108600 = PZ)
 ContentCheckStatus contentCheckStatus; // حالة فحص المحتوى
 bool needsUpdate; // هل من الضروري إعادة الاستخراج والترجمة؟
 bool needsContentCheck; // هل من الضروري إعادة فحص المحتوى؟

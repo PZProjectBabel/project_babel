@@ -17,6 +17,7 @@
 - [Herramientas y estructura de directorios (para desarrolladores)](#herramientas-y-estructura-de-directorios-para-desarrolladores)
   - [Directorio del proyecto](#directorio-del-proyecto)
   - [Módulos de la tubería (en orden de ejecución)](#módulos-de-la-tubería-en-orden-de-ejecución)
+  - [Módulos independientes](#módulos-independientes)
   - [Stack tecnológico](#stack-tecnológico)
 - [Derechos de autor y licencia](#derechos-de-autor-y-licencia)
   - [1. Textos, imágenes y otros contenidos](#1-textos-imágenes-y-otros-contenidos)
@@ -98,7 +99,7 @@ Esta sección está dirigida a los desarrolladores que deseen comprender el prin
 
 | Directorio | Descripción |
 |------|------|
-| `src/` | Código fuente de la tubería de traducción .NET 10, con 15 módulos |
+| `src/` | Código fuente de la tubería de traducción .NET 10, contiene 15 módulos + 2 módulos independientes |
 | `config/` | Archivos de configuración de la tubería (parámetros LLM, Steam, RAG, etc.) |
 | `data/` | Datos de ejecución: metadatos de mods, embeddings, caché de traducción |
 | `translation_ref/` | Datos de traducción de referencia (mods autorizados por el grupo de localización Ruyi (As1)), proporciona referencias de traducción al LLM |
@@ -127,6 +128,13 @@ Esta sección está dirigida a los desarrolladores que deseen comprender el prin
 | 13 | `ResultWriter` | Escribir en data/ y translation_ref/ |
 | 14 | `FinalOutputWriter` | Generar la salida final en formato de mod para PZ |
 | 15 | `ProgressReporter` | Generar informe de progreso |
+
+### Módulos independientes
+
+| Módulo | Función |
+|------|------|
+| `WorkshopMonitor` | Captura periódicamente nuevos mods de Steam Workshop, los filtra por número de suscripciones y los incorpora en `request_for_translation.txt` |
+| `DocGenerator` | Generador de documentación multilingüe impulsado por LLM |
 
 ### Stack tecnológico
 

@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Független modulok](#független-modulok)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Adatkonvenciók](#4-adatkonvenciók)
   - [4.1 Alaptípusok](#41-alaptípusok)
     - [`TranslationEntry` — Fordítási bejegyzés](#translationentry-fordítási-bejegyzés)
@@ -60,11 +63,11 @@
     - [ContentCheck tartalomellenőrzési állapot](#contentcheck-tartalomellenőrzési-állapot)
     - [TranslationData fordítási ellenőrzési állapot](#translationdata-fordítási-ellenőrzési-állapot)
     - [ModInfo.needsUpdate frissítési döntés](#modinfoneedsupdate-frissítési-döntés)
-- [5. 配置说明](#5-配置说明)
-  - [5.1 `config/config.json` — 管线主配置](#51-configconfigjson-管线主配置)
-    - [5.1.1 `LLM` — 大语言模型配置](#511-llm-大语言模型配置)
-    - [5.1.2 `RAG` — 检索增强生成配置](#512-rag-检索增强生成配置)
-    - [5.1.3 `AsOne` — 远程 Mod 列表源](#513-asone-远程-mod-列表源)
+- [5. Konfigurációs leírás](#5-konfigurációs-leírás)
+  - [5.1 `config/config.json` — Csővezeték főkonfiguráció](#51-configconfigjson-csővezeték-főkonfiguráció)
+    - [5.1.1 `LLM` — Nagyméretű nyelvi modell konfiguráció](#511-llm-nagyméretű-nyelvi-modell-konfiguráció)
+    - [5.1.2 `RAG` — Keresés-kiegészített generálás konfiguráció](#512-rag-keresés-kiegészített-generálás-konfiguráció)
+    - [5.1.3 `AsOne` — Távoli modlista forrás](#513-asone-távoli-modlista-forrás)
     - [5.1.4 `Steam` — Steam Web API konfiguráció](#514-steam-steam-web-api-konfiguráció)
     - [5.1.5 `Pipeline` — Csővezeték általános konfiguráció](#515-pipeline-csővezeték-általános-konfiguráció)
     - [5.1.6 `ContentCheck` — Tartalombiztonsági ellenőrzés konfiguráció](#516-contentcheck-tartalombiztonsági-ellenőrzés-konfiguráció)
@@ -618,6 +621,8 @@ Ezt a leképezést a `ContentExtractor` fázis által rögzített `translation_k
 
 4. **Atomi írás**: Az összes kimeneti fájl a „először ideiglenes fájlba írás, majd atomi áthelyezés” stratégiát követi – először a `<filename>.tmp` fájlba ír, majd az írás sikeressége után a `File.Move` segítségével atomi módon felülírja a célfájlt. Ez a módszer biztosítja, hogy még ha az írás közben összeomlás vagy áramszünet történik is, a meglévő fájlok ne sérüljenek meg.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Funkció**: Az egyes nyelvek fordítási lefedettségének statisztikázása és többnyelvű előrehaladási jelentés készítése, hogy a közösség nyomon követhesse a fordítás előrehaladását.
@@ -633,6 +638,36 @@ Az előrehaladási jelentések Markdown formátumban készülnek, a `docs/progre
 - `untranslatable`: A tartalom-ellenőrzés által lefordíthatatlanként megjelölt tételek száma.
 3. **Helyettesítőhelyettesítők**: A sablonban lévő `{{PLACEHOLDER}}` helyettesítése a tényleges statisztikai adatokkal.
 4. **Fájl írása**: A helyettesített tartalom írása a `docs/progress/progress_<iso>.md` fájlba.
+
+---
+
+## Független modulok
+
+A következő modulok a fordítócsővezetéktől függetlenül futnak, nem részei a `TranslationPipeline.slnx`-nek, és mindegyik a `dotnet run --project` vagy a GitHub Actions segítségével indítható.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Funkció**: Rendszeresen figyeli a Steam Workshop újonnan feltöltött modjait, automatikusan kiválogatja a magas feliratkozási számú modokat, és hozzáadja a fordítási kéréslistához.
+
+**Futtatási mód**: GitHub Actions `.github/workflows/monitor-workshop.yml` által időzítve (pekingi idő szerint naponta 00:00), vagy helyileg `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Munkafolyamat**:
+1. **Lista lekérése**: A Steam Workshop "most recent" oldaláról lapozva lekéri a Build 42 címkével ellátott (a Language/Translation címkék kizárásával) modok ID-it.
+2. **Idő elemzése**: A Steam Web API segítségével tömegesen lekérdezi az egyes modok közzétételi idejét, összehasonlítja a gyorsítótárban lévő utolsó futtatási idővel, és azonosítja az új modokat.
+3. **Feliratkozási szám szűrése**: Újra meghívja a Steam API-t az összes gyorsítótárazott mod feliratkozási számának lekéréséhez, és kiszűri azokat, amelyek meghaladják a küszöbértéket (500).
+4. **Egyesített kimenet**: A szűrt mod ID-ket deduplikálva hozzáfűzi a `config/request_for_translation.txt` fájlhoz, amit a csővezeték `ModIdCollector`-ja használ.
+
+**Kódba égetett paraméterek**: AppId=108600, MinSubs=500, SafetyPages=5 (az utolsó időbélyeg elérése után további lapok lekérése), PageSize=30, Lookback=48h.
+
+**Gyorsítótár formátum**: `data/monitor_cache.bin` — Zstd tömörítésű bináris fájl, little-endian int64 sorozat: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. A `BinaryEmbeddingSerializer`-rel közösen használja a `ZstdSharp` tömörítési sémát.
+
+**Kulcs beolvasása**: A Steam API-kulcs a `config/secrets.json` `STEAM_KEY` mezőjéből vagy a `STEAM_KEY` / `STEAM_API_KEY` környezeti változókból olvasható (ugyanaz a minta, mint a `ConfigReader` esetében).
+
+### DocGenerator
+
+**Funkció**: LLM által vezérelt többnyelvű dokumentációgenerátor, amely kínai sablonokból hoz létre README fájlokat, hozzájárulási útmutatókat és technikai referenciadokumentumokat különböző nyelveken.
+
+**Futtatási mód**: Önálló projekt `src/DocGenerator/DocGenerator.csproj`, a `dotnet run --project src/DocGenerator/DocGenerator.csproj` paranccsal futtatható.
 
 ---
 
@@ -829,7 +864,7 @@ A csővezetékben három fontos állapotátmeneti logika található, amelyek a 
 
 #### ContentCheck tartalomellenőrzési állapot
 
-内容审查的完整状态流转如下：
+A tartalomellenőrzés teljes állapotváltozása a következő:
 ```
 UNKNOWN ──(新 mod 首次检查)──→ NEEDVERIFICATION
 ├──(LLM 审查: 安全)──→ ACCEPTED
@@ -859,66 +894,66 @@ Az egyes fordítási adatok megbízhatósága az `isVerified` jelölővel van me
 Hogy egy mod újrakivonásra és -fordításra szorul-e, azt a következő szabályok határozzák meg:
 - A Steam `time_updated` értéke későbbi, mint a gyorsítótárazott `timeModUpdated` → `needsUpdate = true` (a mod szerzője frissítést adott ki).
 - A gyorsítótárban nem létezik fordítási bejegyzés egy elérhető modhoz → `needsUpdate = true` (első alkalommal dolgozzuk fel a modot).
-- 模组提取后包含 0 条翻译条目 → 内容审查状态直接设为 `ACCEPTED`（该模组没有可翻译的文本内容，无需翻译）。
+- Ha egy mod kinyerése után 0 fordítási bejegyzést tartalmaz → a tartalomellenőrzés állapota közvetlenül `ACCEPTED`-re áll (a mod nem tartalmaz fordítható szöveges tartalmat, nem szükséges fordítani).
 
 ---
 
-## 5. 配置说明
+## 5. Konfigurációs leírás
 
-`config/` 目录下共有 5 个配置文件，按职责分为管线控制、密钥管理、语言定义、参考语料和翻译请求。
+A `config/` könyvtárban összesen 5 konfigurációs fájl található, amelyek feladatkör szerint oszlanak meg: csővezeték-vezérlés, kulcskezelés, nyelvdefiníció, referenciakorpusz és fordítási kérések.
 
-### 5.1 `config/config.json` — 管线主配置
+### 5.1 `config/config.json` — Csővezeték főkonfiguráció
 
-整个翻译管线的核心控制文件。所有字段均为必填，除非标注"可选"。
+A teljes fordítócsővezeték központi vezérlőfájlja. Minden mező kitöltése kötelező, kivéve ha "opcionális" jelöléssel van ellátva.
 
-#### 5.1.1 `LLM` — 大语言模型配置
-
-| Mező | Típus | Alapérték | Leírás |
-|------|------|--------|------|
-| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API 地址，兼容 OpenAI Chat Completions 协议 |
-| `model` | string | `deepseek-v4-flash` | 模型名称。值含 `v4-flash` 或 `v4-pro` 会触发对应的自动并发 profile |
-| `temperature` | float | `0.1` | 采样温度 (0~2)。越低输出越确定，翻译任务建议 ≤0.3 |
-| `max_tokens` | int | `380000` | 单次 API 响应的最大 token 数。需大于 batch 输出总量 |
-| `batch_size` | int | `30` | 每个翻译批次的条目数上限。受 `batch_token_budget` 联合约束 |
-| `batch_token_budget` | int | `2000` | 每个批次输入端的 token 预算上限 (粗略估算)。0 表示不限制 |
-| `request_timeout_seconds` | int | `300` | 单次 HTTP 请求超时秒数。大 batch 需适当增大 |
-
-**`concurrency` — 并发控制** (子对象):
+#### 5.1.1 `LLM` — Nagyméretű nyelvi modell konfiguráció
 
 | Mező | Típus | Alapérték | Leírás |
 |------|------|--------|------|
-| `initial` | int | `0` | 初始并发数。`0` = 根据运行环境和模型自动检测 |
-| `maximum` | int | `0` | 最大并发上限。`0` = 自动检测。动态模式下成功 streak 达标会逐步提升至此值 |
-| `minimum` | int | `1` | 最小并发下限。动态模式下失败缩容不会低于此值 |
-| `max_retries` | int | `5` | 单个 work item 的最大重试次数 |
-| `failure_streak_to_decrease` | int | `3` | 连续失败 N 次后触发缩容（并发减半） |
-| `retry_base_delay_ms` | int | `1000` | 重试基础延迟 (ms)。实际延迟 = base × 2^attempt (指数退避) |
-| `retry_max_delay_ms` | int | `60000` | 重试最大延迟上限 (ms) |
-| `fixed_concurrency` | int | `128` | **>0 时启用固定窗口模式**：窗口内并发、窗口间串行，不使用动态调整。设为 0 则用动态模式 |
+| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API címe, kompatibilis az OpenAI Chat Completions protokollal. |
+| `model` | string | `deepseek-v4-flash` | Modell neve. Ha az érték `v4-flash`-t vagy `v4-pro`-t tartalmaz, akkor a megfelelő automatikus konkurencia profil aktiválódik. |
+| `temperature` | float | `0.1` | Mintavételi hőmérséklet (0~2). Minél alacsonyabb, annál determinisztikusabb a kimenet, fordítási feladatokhoz ≤0,3 ajánlott. |
+| `max_tokens` | int | `380000` | Egyetlen API-válasz maximális token száma. Nagyobbnak kell lennie, mint a batch kimenet teljes mennyisége. |
+| `batch_size` | int | `30` | Minden fordítási batch bejegyzéseinek felső korlátja. A `batch_token_budget`-tel együttesen korlátozza. |
+| `batch_token_budget` | int | `2000` | Minden batch bemeneti oldalának token költségvetés felső határa (durva becslés). 0 esetén nincs korlátozás. |
+| `request_timeout_seconds` | int | `300` | Egyetlen HTTP kérés időtúllépési másodperce. Nagy batch esetén megfelelően növelni kell. |
 
-**并发模式说明**:
-- **动态模式** (`fixed_concurrency=0`): 根据成功/失败自动增减并发。适用于 API 限流策略不透明的场景
-- **固定窗口模式** (`fixed_concurrency>0`): 确定性的并发行为。适用于已知 API 并发上限的场景。窗口间有完成日志输出
-
-**自动 Profile** (当 `initial=0` 或 `maximum=0` 时): 管线根据运行环境和模型名称自动选择合适的并发参数，具体规则见 [3.11 节 — 并发 Profile 自动检测](#311-llmtranslator-llmtranslatorservice)。
-
-#### 5.1.2 `RAG` — 检索增强生成配置
+**`concurrency` — Párhuzamosság-vezérlés** (alobjektum):
 
 | Mező | Típus | Alapérték | Leírás |
 |------|------|--------|------|
-| `similarity_threshold` | float | `0.8` | 余弦相似度阈值 (0~1)。低于此值的参考翻译不会被纳入 LLM 上下文 |
-| `top_k` | int | `3` | 每个待译条目返回的最多参考翻译条数 |
-| `index_dir` | string | `data/rag_index` | RAG 索引目录 (预留，当前使用内存检索) |
+| `initial` | int | `0` | Kezdeti párhuzamosság. `0` = Automatikus érzékelés a futtatási környezet és modell alapján |
+| `maximum` | int | `0` | Maximális párhuzamossági korlát. `0` = Automatikus érzékelés. Dinamikus módban a sikeres sorozat elérésekor fokozatosan növekszik erre az értékre |
+| `minimum` | int | `1` | Minimális párhuzamossági határ. Dinamikus módban a hiba utáni csökkentés nem mehet ez alá |
+| `max_retries` | int | `5` | Egyetlen work item maximális újrapróbálkozási száma |
+| `failure_streak_to_decrease` | int | `3` | N darab egymást követő hiba után csökkentés (párhuzamosság felezése) |
+| `retry_base_delay_ms` | int | `1000` | Újrapróbálkozás alapkésleltetése (ms). Tényleges késés = alap × 2^kísérlet (exponenciális visszalépés) |
+| `retry_max_delay_ms` | int | `60000` | Újrapróbálkozás maximális késleltetési korlátja (ms) |
+| `fixed_concurrency` | int | `128` | **>0 esetén rögzített ablakos mód**: ablakon belüli párhuzamosság, ablakok között soros, nincs dinamikus állítás. 0 esetén dinamikus mód |
 
-#### 5.1.3 `AsOne` — 远程 Mod 列表源
+**Párhuzamossági módok leírása**:
+- **Dinamikus mód** (`fixed_concurrency=0`): A párhuzamosság automatikus növelése/csökkentése siker/hiba alapján. Olyan forgatókönyvekhez, ahol az API sebességkorlátozási stratégiája nem átlátható
+- **Rögzített ablakos mód** (`fixed_concurrency>0`): Determinisztikus párhuzamossági viselkedés. Olyan forgatókönyvekhez, ahol ismert az API párhuzamossági felső határa. Az ablakok között teljesítménynaplózás történik
 
-从 [AsOne](https://www.asone.fun/) 社区平台拉取公共 Mod 列表。
+**Automatikus Profil** (amikor `initial=0` vagy `maximum=0`): A csővezeték automatikusan kiválasztja a megfelelő párhuzamossági paramétereket a futtatási környezet és a modellnév alapján. A részletes szabályokat lásd a [3.11. szakasz — Párhuzamossági profil automatikus észlelése](#311-llmtranslator-llmtranslatorservice) részben.
+
+#### 5.1.2 `RAG` — Keresés-kiegészített generálás konfiguráció
 
 | Mező | Típus | Alapérték | Leírás |
 |------|------|--------|------|
-| `enabled` | bool | `true` | 是否启用 AsOne 远程收集。`false` 时仅用本地请求文件 |
-| `base_url` | string | `https://www.asone.fun/` | AsOne 平台基础 URL |
-| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | 获取全部 Mod 信息的 API 路径 |
+| `similarity_threshold` | float | `0.8` | Koszinusz hasonlósági küszöb (0–1). Az ennél alacsonyabb referenciafordítások nem kerülnek bele az LLM kontextusba |
+| `top_k` | int | `3` | Az egyes lefordítandó bejegyzésekhez visszaadott maximális referenciák száma |
+| `index_dir` | string | `data/rag_index` | RAG index könyvtár (fenntartva, jelenleg memóriában történő keresés) |
+
+#### 5.1.3 `AsOne` — Távoli modlista forrás
+
+A [AsOne](https://www.asone.fun/) közösségi platformról lekéri a nyilvános modlistát.
+
+| Mező | Típus | Alapérték | Leírás |
+|------|------|--------|------|
+| `enabled` | bool | `true` | Az AsOne távoli gyűjtés engedélyezése. `false` esetén csak a helyi kérelemfájl használatos |
+| `base_url` | string | `https://www.asone.fun/` | AsOne platform alap URL |
+| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | Az összes modinformáció lekérésének API útvonala |
 | `mod_info_file_name` | string | `modInfo.txt` | Mod információs fájlnév (fenntartva) |
 | `auth_secret_name` | string | `ASONE_AUTH_TOKEN` | Az Auth Token kulcsneve a secrets.json fájlban |
 | `timeout_seconds` | int | `30` | HTTP kérés időtúllépés másodpercben |
@@ -1120,7 +1155,7 @@ project_babel/
 │       └── 42.19/media/lua/shared/Translate/<gameCode>/*.json
 ├── src/                         # 源代码
 │   ├── Program.cs               # 管线入口 + PipelineRunner
-│   ├── Common/                  # 共享类型 + 工具类
+│   ├── Common/                  # Megosztott típusok + segédosztályok
 │   ├── ConfigReader/            # Konfiguráció betöltése
 │   ├── ContentChecker/          # Tartalombiztonsági ellenőrzés
 │   ├── ContentExtractor/        # Szövegkinyerés

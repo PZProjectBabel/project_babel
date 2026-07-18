@@ -91,7 +91,7 @@ Avec votre autorisation, le projet ajoutera votre mod à la liste des mods de r�
 
 L'automatisation de ce projet est divisée en deux parties :
 
-**Module pipeline (`src/`, C# / .NET 10)** : contient 15 modules exécutés séquentiellement, responsables du processus complet depuis l'initialisation SteamCMD, le téléchargement du mod, l'extraction de texte, la révision de contenu, le calcul d'Embedding, la recherche RAG jusqu'à la traduction LLM et la sortie finale. Voir [Référence technique](../technical_reference/technical_reference_fr.md).
+**Module pipeline (`src/`, C# / .NET 10)** : contient 15 modules exécutés séquentiellement, plus 2 modules autonomes (`WorkshopMonitor` découvreur de mods, `DocGenerator` générateur de documentation), responsable du processus complet allant de l'initialisation SteamCMD, au téléchargement des mods, à l'extraction de texte, à l'examen du contenu, au calcul d'Embedding, à la recherche RAG jusqu'à la traduction LLM et à la sortie finale. Voir [référence technique](../technical_reference/technical_reference_fr.md).
 
 **Scripts auxiliaires (.github/)** : utilisés pour l'automatisation de GitHub.
 
@@ -108,7 +108,7 @@ Vous pouvez suivre les étapes ci-dessous :
 2. Créez une nouvelle branche basée sur la branche la plus récente ;
 3. Modifiez ou ajoutez des fichiers dans les répertoires correspondants :
 - Modification de module pipeline → `src/<nom_du_module>/` ;
-- Modification de script → `scripts/` ;
+- Modification du workflow CI → `.github/workflows/` ;
 - Modification de template de prompt → `src/prompt_templates/` ;
 4. Avant de soumettre, essayez autant que possible :
 

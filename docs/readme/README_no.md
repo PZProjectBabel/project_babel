@@ -17,6 +17,7 @@
 - [Verktøy og katalogstruktur (for utviklere)](#verktøy-og-katalogstruktur-for-utviklere)
   - [Prosjektkatalog](#prosjektkatalog)
   - [Pipelinemoduler (etter utførelsesrekkefølge)](#pipelinemoduler-etter-utførelsesrekkefølge)
+  - [Uavhengige moduler](#uavhengige-moduler)
   - [技术栈](#技术栈)
 - [Opphavsrett og lisensiering](#opphavsrett-og-lisensiering)
   - [1. Tekst, bilder og annet innhold](#1-tekst-bilder-og-annet-innhold)
@@ -98,7 +99,7 @@ Denne delen er for utviklere som ønsker å forstå prosjektets automatiseringsp
 
 | Katalog | Beskrivelse |
 |------|------|
-| `src/` | .NET 10 oversettelsespipelinekildekode, inkludert 15 moduler |
+| `src/` | .NET 10 oversettelsespipelinekildekode, inneholder 15 moduler + 2 uavhengige moduler |
 | `config/` | Pipelinekonfigurasjonsfiler (LLM-, Steam-, RAG-parametere osv.) |
 | `data/` | Kjøretidsdata: modulmetadata, embedding, oversettelsesbuffer |
 | `translation_ref/` | Referanseoversettelsesdata (f.eks. autoriserte moduler fra As1), gir oversettelsesreferanse for LLM |
@@ -127,6 +128,13 @@ Denne delen er for utviklere som ønsker å forstå prosjektets automatiseringsp
 | 13 | `ResultWriter` | Skriver til data/ og translation_ref/ |
 | 14 | `FinalOutputWriter` | Genererer endelig PZ-modulformatutdata |
 | 15 | `ProgressReporter` | Genererer fremdriftsrapport |
+
+### Uavhengige moduler
+
+| Modul | Funksjon |
+|------|------|
+| `WorkshopMonitor` | Henter regelmessig nye mods fra Steam Workshop, filtrerer etter abonnementsantall og legger til i `request_for_translation.txt` |
+| `DocGenerator` | LLM-drevet flerspråklig dokumentgenerator |
 
 ### 技术栈
 

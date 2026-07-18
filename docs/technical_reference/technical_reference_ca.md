@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Mòduls independents](#mòduls-independents)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Convencions de dades](#4-convencions-de-dades)
   - [4.1 Tipus principals](#41-tipus-principals)
     - [`TranslationEntry` — Entrada de traducció](#translationentry-entrada-de-traducció)
@@ -63,8 +66,8 @@
 - [5. Descripció de configuració](#5-descripció-de-configuració)
   - [5.1 `config/config.json` — Configuració principal del pipeline](#51-configconfigjson-configuració-principal-del-pipeline)
     - [5.1.1 `LLM` — Configuració del model de llenguatge gran](#511-llm-configuració-del-model-de-llenguatge-gran)
-    - [5.1.2 `RAG` — 检索增强生成配置](#512-rag-检索增强生成配置)
-    - [5.1.3 `AsOne` — 远程 Mod 列表源](#513-asone-远程-mod-列表源)
+    - [5.1.2 `RAG` — Configuració de generació augmentada per recuperació](#512-rag-configuració-de-generació-augmentada-per-recuperació)
+    - [5.1.3 `AsOne` — Font de llista de mods remota](#513-asone-font-de-llista-de-mods-remota)
     - [5.1.4 `Steam` — Configuració de l'API web de Steam](#514-steam-configuració-de-lapi-web-de-steam)
     - [5.1.5 `Pipeline` — Configuració general de la canonada](#515-pipeline-configuració-general-de-la-canonada)
     - [5.1.6 `ContentCheck` — Configuració de la revisió de seguretat del contingut](#516-contentcheck-configuració-de-la-revisió-de-seguretat-del-contingut)
@@ -618,6 +621,8 @@ Aquesta relació de mapatge la proporciona `translation_key_to_file_mapping` reg
 
 4. **Escriptura atòmica**: Tots els fitxers de sortida utilitzen l'estratègia "escriure primer un fitxer temporal, després moure atòmicament" — primer escriure `<filename>.tmp`, i després, un cop escrit correctament, sobreescriure el fitxer de destinació amb `File.Move`. Aquesta manera assegura que fins i tot si es produeix un bloqueig o un tall d'energia durant l'escriptura, els fitxers existents no es corrompin.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Funció**: Calcula la cobertura de traducció per a cada idioma i genera informes de progrés multilingües, facilitant que la comunitat conegui l'avanç de la traducció.
@@ -633,6 +638,36 @@ Els informes de progrés es generen en format Markdown i s'emmagatzemen al direc
 - `untranslatable`: nombre d'entrades marcades com a no traduïbles per culpa de la revisió de contingut.
 3. **Substitueix els marcadors de posició**: Substitueix `{{PLACEHOLDER}}` a la plantilla per les dades estadístiques reals.
 4. **Escriu el fitxer**: Escriu el contingut substituït a `docs/progress/progress_<iso>.md`.
+
+---
+
+## Mòduls independents
+
+Els mòduls següents s'executen independentment de la canonada de traducció, no estan a `TranslationPipeline.slnx`, i es desencadenen cadascun mitjançant `dotnet run --project` o Accions de GitHub.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Funció**: Monitoritzar periòdicament nous mods a Steam Workshop, filtrar automàticament els mods amb alt nombre de subscripcions i incorporar-los a la llista de sol·licituds de traducció.
+
+**Mètode d'execució**: S'activa periòdicament mitjançant Accions de GitHub `.github/workflows/monitor-workshop.yml` (diàriament a les 00:00 hora de Pequín), o localment amb `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Flux de treball**:
+1. **Obtenir llista**: Extreure per pàgines els ID dels mods de la pàgina "most recent" de Steam Workshop amb l'etiqueta Build 42 (excloent les etiquetes Language/Translation).
+2. **Analitzar temps**: Consultar per lots l'hora de publicació de cada mod mitjançant l'API web de Steam, comparar-la amb l'hora d'última execució a la memòria cau i determinar els mods nous.
+3. **Filtrar per subscripcions**: Tornar a cridar l'API de Steam per consultar el nombre de subscripcions de tots els mods emmagatzemats a la memòria cau i seleccionar aquells que superin el llindar (500).
+4. **Combinar sortida**: Fusionar els ID dels mods filtrats (sense duplicats) a `config/request_for_translation.txt` per al consum de `ModIdCollector` de la canonada.
+
+**Paràmetres codificats**: AppId=108600, MinSubs=500, SafetyPages=5 (pàgines addicionals després de l'última marca de temps), PageSize=30, Lookback=48h.
+
+**Format de memòria cau**: `data/monitor_cache.bin` — fitxer binari comprimit amb Zstd, seqüència little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Comparteix l'esquema de compressió `ZstdSharp` amb `BinaryEmbeddingSerializer`.
+
+**Lectura de clau**: La clau de l'API de Steam es llegeix del camp `STEAM_KEY` a `config/secrets.json`, o de les variables d'entorn `STEAM_KEY` / `STEAM_API_KEY` (mateix patró que `ConfigReader`).
+
+### DocGenerator
+
+**Funció**: Generador de documentació multilingüe impulsat per LLM, que genera README, guies de contribució i documents de referència tècnica en diversos idiomes a partir de plantilles en xinès.
+
+**Mètode d'execució**: Projecte independent `src/DocGenerator/DocGenerator.csproj`, s'executa mitjançant `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 
@@ -877,48 +912,48 @@ Fitxer de control central de tot el pipeline de traducció. Tots els camps són 
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Adreça de l'API LLM, compatible amb el protocol OpenAI Chat Completions |
 | `model` | string | `deepseek-v4-flash` | Nom del model. Un valor que contingui `v4-flash` o `v4-pro` activarà el perfil de concurrència automàtic corresponent |
-| `temperature` | float | `0.1` | 采样温度 (0~2)。越低输出越确定，翻译任务建议 ≤0.3 |
-| `max_tokens` | int | `380000` | 单次 API 响应的最大 token 数。需大于 batch 输出总量 |
-| `batch_size` | int | `30` | 每个翻译批次的条目数上限。受 `batch_token_budget` 联合约束 |
-| `batch_token_budget` | int | `2000` | 每个批次输入端的 token 预算上限 (粗略估算)。0 表示不限制 |
-| `request_timeout_seconds` | int | `300` | 单次 HTTP 请求超时秒数。大 batch 需适当增大 |
+| `temperature` | float | `0.1` | Temperatura de mostreig (0~2). Com més baixa, més determinista la sortida. Per a tasques de traducció, es recomana ≤0.3 |
+| `max_tokens` | int | `380000` | Nombre màxim de tokens per resposta de l'API. Ha de ser superior al total de sortida del lot |
+| `batch_size` | int | `30` | Límit superior de nombre d'entrades per lot de traducció. Limitat conjuntament per `batch_token_budget` |
+| `batch_token_budget` | int | `2000` | Límit superior de pressupost de tokens d'entrada per lot (estimació aproximada). 0 significa sense límit |
+| `request_timeout_seconds` | int | `300` | Temps d'espera de sol·licitud HTTP individual (segons). Augmentar per a lots grans |
 
-**`concurrency` — 并发控制** (子对象):
-
-| 字段 | 类型 | 默认值 | Descripció |
-|------|------|--------|------|
-| `initial` | int | `0` | 初始并发数。`0` = 根据运行环境和模型自动检测 |
-| `maximum` | int | `0` | 最大并发上限。`0` = 自动检测。动态模式下成功 streak 达标会逐步提升至此值 |
-| `minimum` | int | `1` | 最小并发下限。动态模式下失败缩容不会低于此值 |
-| `max_retries` | int | `5` | 单个 work item 的最大重试次数 |
-| `failure_streak_to_decrease` | int | `3` | 连续失败 N 次后触发缩容（并发减半） |
-| `retry_base_delay_ms` | int | `1000` | 重试基础延迟 (ms)。实际延迟 = base × 2^attempt (指数退避) |
-| `retry_max_delay_ms` | int | `60000` | 重试最大延迟上限 (ms) |
-| `fixed_concurrency` | int | `128` | **>0 时启用固定窗口模式**：窗口内并发、窗口间串行，不使用动态调整。设为 0 则用动态模式 |
-
-**并发模式说明**:
-- **动态模式** (`fixed_concurrency=0`): 根据成功/失败自动增减并发。适用于 API 限流策略不透明的场景
-- **固定窗口模式** (`fixed_concurrency>0`): 确定性的并发行为。适用于已知 API 并发上限的场景。窗口间有完成日志输出
-
-**自动 Profile** (当 `initial=0` 或 `maximum=0` 时): 管线根据运行环境和模型名称自动选择合适的并发参数，具体规则见 [3.11 节 — 并发 Profile 自动检测](#311-llmtranslator-llmtranslatorservice)。
-
-#### 5.1.2 `RAG` — 检索增强生成配置
+**`concurrency` — Control de concurrència** (subobjecte):
 
 | 字段 | 类型 | 默认值 | Descripció |
 |------|------|--------|------|
-| `similarity_threshold` | float | `0.8` | 余弦相似度阈值 (0~1)。低于此值的参考翻译不会被纳入 LLM 上下文 |
-| `top_k` | int | `3` | 每个待译条目返回的最多参考翻译条数 |
-| `index_dir` | string | `data/rag_index` | RAG 索引目录 (预留，当前使用内存检索) |
+| `initial` | int | `0` | Nombre de concurrència inicial. `0` = detecció automàtica segons l'entorn i el model |
+| `maximum` | int | `0` | Límit superior de concurrència. `0` = detecció automàtica. En mode dinàmic, s'incrementa gradualment fins a aquest valor quan la ratxa d'èxits arriba al mínim |
+| `minimum` | int | `1` | Límit inferior de concurrència. En mode dinàmic, la reducció per fallada no baixarà d'aquest valor |
+| `max_retries` | int | `5` | Nombre màxim de reintents per element de treball |
+| `failure_streak_to_decrease` | int | `3` | Després de N fallides consecutives, es redueix la concurrència (meitat) |
+| `retry_base_delay_ms` | int | `1000` | Retard base de reintent (ms). Retard real = base × 2^attempt (retrocés exponencial) |
+| `retry_max_delay_ms` | int | `60000` | Límit superior de retard de reintent (ms) |
+| `fixed_concurrency` | int | `128` | **>0 = mode de finestra fixa**: concurrència dins de la finestra, serial entre finestres, sense ajust dinàmic. 0 = mode dinàmic |
 
-#### 5.1.3 `AsOne` — 远程 Mod 列表源
+**Descripció del mode de concurrència**:
+- **Mode dinàmic** (`fixed_concurrency=0`): Augmenta o disminueix automàticament la concurrència segons l'èxit/fracàs. Aplicable a escenaris on les polítiques de limitació de velocitat de l'API no són transparents.
+- **Mode de finestra fixa** (`fixed_concurrency>0`): Comportament de concurrència determinista. Aplicable a escenaris on es coneix el límit superior de concurrència de l'API. Hi ha una sortida de registre de finalització entre finestres.
 
-从 [AsOne](https://www.asone.fun/) 社区平台拉取公共 Mod 列表。
+**Perfil automàtic** (quan `initial=0` o `maximum=0`): La canonada selecciona automàticament els paràmetres de concurrència adequats segons l'entorn d'execució i el nom del model. Consulteu les regles específiques a [Secció 3.11 — Detecció automàtica del perfil de concurrència](#311-llmtranslator-llmtranslatorservice).
+
+#### 5.1.2 `RAG` — Configuració de generació augmentada per recuperació
 
 | 字段 | 类型 | 默认值 | Descripció |
 |------|------|--------|------|
-| `enabled` | bool | `true` | 是否启用 AsOne 远程收集。`false` 时仅用本地请求文件 |
-| `base_url` | string | `https://www.asone.fun/` | AsOne 平台基础 URL |
-| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | 获取全部 Mod 信息的 API 路径 |
+| `similarity_threshold` | float | `0.8` | Llindar de similitud cosinus (0~1). Les traduccions de referència per sota d'aquest valor no s'inclouran al context de l'LLM |
+| `top_k` | int | `3` | Nombre màxim de traduccions de referència retornades per cada entrada a traduir |
+| `index_dir` | string | `data/rag_index` | Directori d'índex RAG (reservat, actualment s'utilitza la cerca a memòria) |
+
+#### 5.1.3 `AsOne` — Font de llista de mods remota
+
+Obtén la llista de mods pública de la plataforma comunitària [AsOne](https://www.asone.fun/).
+
+| 字段 | 类型 | 默认值 | Descripció |
+|------|------|--------|------|
+| `enabled` | bool | `true` | Si s'habilita la recollida remota d'AsOne. Quan és `false`, només s'utilitza el fitxer de sol·licitud local |
+| `base_url` | string | `https://www.asone.fun/` | URL base de la plataforma AsOne |
+| `public_mod_list_path` | string | `api/Home/GetAllModinfo` | Ruta de l'API per obtenir tota la informació dels mods |
 | `mod_info_file_name` | string | `modInfo.txt` | Nom del fitxer d'informació del mod (reservat) |
 | `auth_secret_name` | string | `ASONE_AUTH_TOKEN` | Nom de la clau del token d'autenticació a secrets.json |
 | `timeout_seconds` | int | `30` | Segons de temps d'espera de la sol·licitud HTTP |

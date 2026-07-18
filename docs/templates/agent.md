@@ -11,3 +11,8 @@ Files:
 - `prompt_header.md` + `prompt_tail.md`: LLM prompt wrapper for doc translation.
 
 Notes: templates are Chinese source (translatable data), not code. Cache files record SHA256 of each translated line; only changed lines trigger re-translation. Link mappings define multi-language switcher block and named links (`{{progress_link}}`, etc).
+
+Template conventions:
+- Independent modules (WorkshopMonitor, DocGenerator) are documented under a standalone "独立模块" section in `technical_reference_template.md`, separate from the 15 pipeline modules.
+- Binary cache formats use ZstdSharp compression (same pattern as `BinaryEmbeddingSerializer` in Common), documented with byte-level format specs.
+- Secrets/keys follow `ConfigReader` pattern: `secrets.json` first, then env vars.

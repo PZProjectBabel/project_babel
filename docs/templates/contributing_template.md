@@ -80,7 +80,7 @@
 
 本项目的自动化分为两部分：
 
-**流水线模块（`src/`，C# / .NET 10）**：包含 15 个按序执行的模块，负责从 SteamCMD 初始化、模组下载、文本提取、内容审查、Embedding 计算、RAG 检索到 LLM 翻译与最终输出的完整流程。详见 [技术参考]({{technical_reference_link}})。
+**流水线模块（`src/`，C# / .NET 10）**：包含 15 个按序执行的模块，外加 2 个独立模块（`WorkshopMonitor` 模组发现器、`DocGenerator` 文档生成器），负责从 SteamCMD 初始化、模组下载、文本提取、内容审查、Embedding 计算、RAG 检索到 LLM 翻译与最终输出的完整流程。详见 [技术参考]({{technical_reference_link}})。
 
 **辅助脚本（.github/）**：用于github的自动化。
 

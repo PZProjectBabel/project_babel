@@ -17,6 +17,7 @@
 - [Työkalut ja hakemistorakenne (kehittäjille)](#työkalut-ja-hakemistorakenne-kehittäjille)
   - [Projektihakemisto](#projektihakemisto)
   - [Putkimoduulit (suoritusjärjestyksessä)](#putkimoduulit-suoritusjärjestyksessä)
+  - [Itsenäiset moduulit](#itsenäiset-moduulit)
   - [Teknologiapino](#teknologiapino)
 - [Tekijänoikeus ja lisenssi](#tekijänoikeus-ja-lisenssi)
   - [1. Tekstit ja kuvat jne.](#1-tekstit-ja-kuvat-jne)
@@ -98,7 +99,7 @@ Tämä osio on tarkoitettu kehittäjille, jotka haluavat ymmärtää projektin a
 
 | Hakemisto | Kuvaus |
 |------|------|
-| `src/` | .NET 10 -käännösputken lähdekoodi, sisältää 15 moduulia |
+| `src/` | .NET 10 -käännösputkilähdekoodi, sisältää 15 moduulia + 2 itsenäistä moduulia |
 | `config/` | Käännösputken asetustiedosto (LLM-, Steam-, RAG-parametrit jne.) |
 | `data/` | Ajonaikaiset tiedot: moduulien metadata, upotukset, käännösvälimuisti |
 | `translation_ref/` | Referenssikäännöstiedot (kuten As1:n valtuuttamat moduulit), tarjoaa LLM:lle käännösviitteitä |
@@ -127,6 +128,13 @@ Tämä osio on tarkoitettu kehittäjille, jotka haluavat ymmärtää projektin a
 | 13 | `ResultWriter` | Kirjoita data/- ja translation_ref/-kansioihin |
 | 14 | `FinalOutputWriter` | Luo lopullinen PZ-moduuliformaatin tuloste |
 | 15 | `ProgressReporter` | Luo edistymisraportti |
+
+### Itsenäiset moduulit
+
+| Moduuli | Toiminto |
+|------|------|
+| `WorkshopMonitor` | Hakee säännöllisesti uusia Steam Workshop -modeja, suodattaa tilausmäärän perusteella ja lisää tiedostoon `request_for_translation.txt` |
+| `DocGenerator` | LLM-ohjattu monikielinen dokumentaatiogeneraattori |
 
 ### Teknologiapino
 

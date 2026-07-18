@@ -42,11 +42,14 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Onafhankelijke modules](#onafhankelijke-modules)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Gegevensafspraken](#4-gegevensafspraken)
   - [4.1 Kerntypen](#41-kerntypen)
     - [`TranslationEntry` — Vertaalitem](#translationentry-vertaalitem)
     - [`TranslationData` — Vertaalgegevens](#translationdata-vertaalgegevens)
-    - [`ModInfo` — Mod 元数据](#modinfo-mod-元数据)
+    - [`ModInfo` — Mod metadata](#modinfo-mod-metadata)
     - [`TranslationBatch` — Vertaalbatch](#translationbatch-vertaalbatch)
     - [`LangInfoData` — Taalinformatie](#langinfodata-taalinformatie)
   - [4.2 Bestandsformaten](#42-bestandsformaten)
@@ -618,6 +621,8 @@ Deze mapping wordt geleverd door de `translation_key_to_file_mapping` die in de 
 
 4. **Atomair schrijven**: Alle uitvoerbestanden gebruiken de strategie "eerst tijdelijk bestand schrijven, dan atomair verplaatsen" — eerst schrijven naar `<filename>.tmp`, na succes overschrijven met `File.Move` het doelbestand. Deze methode zorgt ervoor dat bestaande bestanden niet beschadigd raken, zelfs niet bij een crash of stroomuitval tijdens het schrijven.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Functie**: Statistieken van de vertalingsdekking per taal en genereert meertalige voortgangsrapporten, zodat de gemeenschap de voortgang van de vertaling kan volgen.
@@ -633,6 +638,36 @@ Voortgangsrapporten worden uitgevoerd in Markdown-indeling en opgeslagen in de m
 - `untranslatable`: het aantal items dat door inhoudscontrole als onvertaalbaar is gemarkeerd.
 3. **Vervang placeholders**: Vervang de `{{PLACEHOLDER}}` in de sjabloon met de werkelijke statistische gegevens.
 4. **Schrijf naar bestand**: Schrijf de vervangen inhoud naar `docs/progress/progress_<iso>.md`.
+
+---
+
+## Onafhankelijke modules
+
+De volgende modules werken onafhankelijk van de vertaalpijplijn en maken geen deel uit van `TranslationPipeline.slnx`. Ze worden respectievelijk aangeroepen via `dotnet run --project` of GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Functie**: Controleert regelmatig nieuwe mods op Steam Workshop en filtert automatisch mods met een hoog aantal abonnementen om toe te voegen aan de vertaalaanvraaglijst.
+
+**Uitvoeringswijze**: Wordt getriggerd via GitHub Actions (`.github/workflows/monitor-workshop.yml`) op dagelijkse basis (00:00 Chinese standaardtijd), of lokaal via `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Werkstroom**:
+1. **Lijst ophalen**: Haalt mod-ID's op van de Steam Workshop "meest recente" pagina, paginagewijs, met Build 42-tags (exclusief Language/Translation-tags).
+2. **Tijd analyseren**: Vraagt batchgewijs de publicatietijd van elke mod op via Steam Web API, vergelijkt met de laatste uitvoeringstijd in de cache en identificeert nieuwe mods.
+3. **Abonnementen filteren**: Roept opnieuw Steam API aan om het aantal abonnementen van alle gecachte mods op te vragen en selecteert mods boven de drempel (500).
+4. **Uitvoer samenvoegen**: Voegt de gefilterde mod-ID's gedupliceerd samen in `config/request_for_translation.txt`, ter consumptie door de `ModIdCollector` van de pijplijn.
+
+**Hardgecodeerde parameters**: AppId=108600, MinSubs=500, SafetyPages=5 (extra pagina's ophalen na het bereiken van de vorige tijdstempel), PageSize=30, Lookback=48h.
+
+**Cacheformaat**: `data/monitor_cache.bin` — Zstd-gecomprimeerd binair bestand, little-endian int64-reeks: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Deelt het compressieschema `ZstdSharp` met `BinaryEmbeddingSerializer`.
+
+**Sleutellezen**: Steam API Key wordt gelezen uit het `STEAM_KEY`-veld van `config/secrets.json`, of uit omgevingsvariabelen `STEAM_KEY` / `STEAM_API_KEY` (zelfde patroon als `ConfigReader`).
+
+### DocGenerator
+
+**Functie**: Door LLM aangedreven meertalige documentgenerator, genereert README's, bijdragegidsen en technische referentiedocumenten in verschillende talen op basis van Chinese sjablonen.
+
+**Uitvoeringswijze**: Onafhankelijk project `src/DocGenerator/DocGenerator.csproj`, uit te voeren via `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 
@@ -676,23 +711,23 @@ List<ContainingFileInfo> containingFileInfos;          // Informatie over alle b
 
 ```csharp
 class TranslationData {
-    string text;           // 译文
-    bool isVerified;       // 是否已验证 (参考翻译为 true)
-    float? confidence;     // LLM 翻译置信度 (0.0~1.0)
-    string status;         // 验证状态: "verified" 或 "unverified"
-    string processStatus;  // 处理状态: "processed" 或 "unprocessed"
-    List<string> comments; // 注释列表
+string text;           // vertaling
+bool isVerified;       // of geverifieerd (referentievertaling is true)
+float? confidence;     // LLM vertrouwensscore (0.0~1.0)
+string status;         // verificatiestatus: "verified" of "unverified"
+string processStatus;  // verwerkingsstatus: "processed" of "unprocessed"
+List<string> comments; // lijst met opmerkingen
 }
 ```
 
-- `isVerified = true`：表示该译文来自人工翻译的参考模组，质量可靠。
-- `isVerified = false`：表示该译文来自 LLM 翻译，标记为 `unverified`，尚未经人工校验。
-- `confidence`：LLM 生成该译文时返回的置信度分数，`null` 表示非 LLM 翻译。
-- `processStatus`：是否已被 LLM 管线处理（`processed` 或 `unprocessed`）。
+- `isVerified = true`: geeft aan dat de vertaling afkomstig is van een handmatige referentiemod en betrouwbaar is.
+- `isVerified = false`: geeft aan dat de vertaling afkomstig is van LLM-vertaling, gemarkeerd als `unverified`, nog niet handmatig geverifieerd.
+- `confidence`: de betrouwbaarheidsscore die de LLM retourneerde bij het genereren van deze vertaling, `null` voor niet-LLM-vertalingen.
+- `processStatus`: of deze al door de LLM-pijplijn is verwerkt (`processed` of `unprocessed`).
 
-#### `ModInfo` — Mod 元数据
+#### `ModInfo` — Mod metadata
 
-`ModInfo` 存储一个 Steam Workshop 模组的完整元信息，跟踪其状态和更新情况。
+`ModInfo` slaat volledige metadata op van een Steam Workshop-mod en volgt de status en updategegevens.
 
 ```csharp
 struct ModInfo {
@@ -701,13 +736,13 @@ struct ModInfo {
     string creator;
     string? language;
     string localDownloadedPath;
-    DateTime timeModUpdated;       // Steam 记录的最后更新时间
-    DateTime timeModCreated;       // Steam 记录的首次发布时间
-    DateTime timeLastChecked;      // 管线最后一次检查该 mod 的时间
-    int subscription;              // 订阅数（来自 Steam）
-    int favorite;                  // 收藏数（来自 Steam）
-    string description;            // Steam 模组描述文本
-    int consumerAppId;             // Steam 消费者 App ID (108600 = PZ)
+DateTime timeModUpdated;       // Laatste updatetijd geregistreerd door Steam
+DateTime timeModCreated;       // Eerste publicatietijd geregistreerd door Steam
+DateTime timeLastChecked;      // tijdstip van laatste controle van de mod door de pipeline
+int subscription;              // aantal abonnementen (van Steam)
+int favorite;                  // aantal favorieten (van Steam)
+string description;            // beschrijvingstekst van de Steam-mod
+int consumerAppId;             // Steam-consument App ID (108600 = PZ)
 ContentCheckStatus contentCheckStatus; // Inhoudscontrole status
 bool needsUpdate;              // Of opnieuw moet worden geëxtraheerd en vertaald
 bool needsContentCheck;        // Of opnieuw moet worden gecontroleerd op inhoud

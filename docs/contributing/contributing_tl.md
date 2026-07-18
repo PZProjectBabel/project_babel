@@ -91,7 +91,7 @@ Sa ilalim ng iyong awtorisasyon, ilalagay ng proyekto ang iyong mod sa `config/r
 
 Ang automation ng proyektong ito ay nahahati sa dalawang bahagi:
 
-**Pipeline module (`src/`, C# / .NET 10)**: Naglalaman ng 15 modules na sunud-sunod na isinasagawa, responsable para sa kumpletong proseso mula sa SteamCMD initialization, mod download, text extraction, content review, Embedding computation, RAG retrieval hanggang sa LLM translation at final output. Tingnan ang [teknikal na sanggunian](../technical_reference/technical_reference_tl.md).
+**Module ng pipeline (`src/`, C# / .NET 10)**: ay binubuo ng 15 module na isinasagawa nang sunud-sunod, at karagdagang 2 independiyenteng module (`WorkshopMonitor` mod discovery, `DocGenerator` dokumento generator), responsable para sa kumpletong proseso mula sa SteamCMD initialization, mod download, text extraction, content review, Embedding computation, RAG retrieval hanggang sa LLM translation at final output. Tingnan ang [Teknikal na Sanggunian](../technical_reference/technical_reference_tl.md).
 
 **Auxiliary scripts (`.github/`)**: Ginagamit para sa automation ng GitHub.
 
@@ -108,7 +108,7 @@ Maaaring sundin ang mga sumusunod na hakbang:
 2. Gumawa ng bagong branch batay sa pinakabagong branch;
 3. Baguhin o magdagdag ng mga file sa kaukulang direktoryo:
 - Pipeline module modification → `src/<模块名>/`;
-- Script modification → `scripts/`;
+- CI workflow modification → `.github/workflows/`;
 - Prompt template modification → `src/prompt_templates/`;
 4. Bago mag-ambag, pakiusap subukang:
 

@@ -42,11 +42,14 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Módulos Independentes](#módulos-independentes)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Convenções de Dados](#4-convenções-de-dados)
   - [4.1 Tipos Principais](#41-tipos-principais)
     - [`TranslationEntry` — Entrada de Tradução](#translationentry-entrada-de-tradução)
     - [`TranslationData` — Dados de Tradução](#translationdata-dados-de-tradução)
-    - [`ModInfo` — Mod 元数据](#modinfo-mod-元数据)
+    - [`ModInfo` — Metadados do Mod](#modinfo-metadados-do-mod)
     - [`TranslationBatch` — Lote de tradução](#translationbatch-lote-de-tradução)
     - [`LangInfoData` — Informações de idioma](#langinfodata-informações-de-idioma)
   - [4.2 Formatos de arquivo](#42-formatos-de-arquivo)
@@ -343,39 +346,39 @@ Os mods do Project Zomboid armazenam textos de tradução em diretórios especí
 <mod_root>/**/Translate/<game_code>/*.txt|*.json
 ```
 
-即在模组根目录下的任意深度，寻找 `Translate/<语言代码>/` 文件夹中的 `.txt` 或 `.json` 文件。
+Ou seja, em qualquer profundidade abaixo do diretório raiz do mod, procure arquivos `.txt` ou `.json` na pasta `Translate/<código do idioma>/`.
 
-**语言代码映射**（游戏内代码 → ISO 标准代码）：
+**Mapeamento de códigos de idioma** (código do jogo → código ISO padrão):
 
-| 游戏代码 | ISO | 语言 |
+| Código do jogo | ISO | Idioma |
 |----------|-----|------|
-| CN | zh-hans | 简体中文 |
-| CH | zh-hant | 繁體中文 |
-| EN | en | English |
-| JP | ja | 日本語 |
+| CN | zh-hans | Chinês Simplificado |
+| CH | zh-hant | Chinês Tradicional |
+| EN | en | Inglês |
+| JP | ja | Japonês |
 | ... | ... | ... |
 
-**TXT 解析（PZ Lua 格式）**：
-PZ 的传统翻译文件采用类似 Lua table 的格式。解析过程如下：
-1. **过滤非翻译文件**：跳过 `TranslationNotes`、`TranslationBy`、`Code - TXT`、`Credits`、`Language` 等元信息文件，这些文件不包含实际翻译内容。
-2. **定位主键（masterKey）**：用正则匹配如 `UI_NewCharScreen = {` 这样的块声明，提取出 masterKey。masterKey 是翻译键的第一部分，对应于 PZ 游戏中的 UI 模块名称。
-3. **逐行解析**：在每个 masterKey 块内，按 `key = "value"` 的格式解析每一条翻译。完整的 translationKey 由 `masterKey_key` 拼接而成（如 `UI_NewCharScreen_Start`）。
-4. **字符串拼接**：PZ 的 Lua 文件支持 `..` 运算符进行字符串拼接（如 `"Hello " .. "World"`），解析器会计算拼接结果。
-5. **JSON 风格兼容**：部分模组在 TXT 文件中混用 JSON 风格的 `"key": "value"` 写法，解析器同样支持。
-6. **异常处理**：无法解析的行会写入 `fuck.txt` 日志文件，供人工排查和修复解析器 bug。
+**Análise TXT (formato PZ Lua)**:
+Os arquivos de tradução tradicionais do PZ usam um formato semelhante a uma tabela Lua. O processo de análise é o seguinte:
+1. **Filtrar arquivos não traduzíveis**: Pule arquivos de metadados como `TranslationNotes`, `TranslationBy`, `Code - TXT`, `Credits`, `Language`, que não contêm conteúdo de tradução real.
+2. **Localizar chave principal (masterKey)**: Use regex para corresponder declarações de bloco como `UI_NewCharScreen = {` e extraia o masterKey. O masterKey é a primeira parte da chave de tradução, correspondendo ao nome do módulo UI no jogo PZ.
+3. **Análise linha por linha**: Dentro de cada bloco masterKey, analise cada tradução no formato `key = "value"`. O translationKey completo é formado pela concatenação de `masterKey_key` (ex.: `UI_NewCharScreen_Start`).
+4. **Concatenação de strings**: Os arquivos Lua do PZ suportam o operador `..` para concatenação de strings (ex.: `"Hello " .. "World"`), e o analisador calculará o resultado da concatenação.
+5. **Compatibilidade com estilo JSON**: Alguns mods misturam a sintaxe no estilo JSON `"key": "value"` em arquivos TXT; o analisador também suporta isso.
+6. **Tratamento de exceções**: Linhas que não podem ser analisadas são gravadas no arquivo de log `fuck.txt` para inspeção manual e correção de bugs do analisador.
 
-**JSON 解析**：
-PZ 的新版本（Build 42+）开始支持 JSON 格式的翻译文件。解析器会递归展开嵌套的 JSON 对象，将其扁平化为扁平的 key-value 对。同时兼容尾逗号和注释等非标准 JSON 语法，以应对模组作者的各种写法。
+**Análise JSON**:
+As versões mais recentes do PZ (Build 42+) começam a suportar arquivos de tradução no formato JSON. O analisador expande recursivamente objetos JSON aninhados, achatando-os em pares chave-valor simples. Também é compatível com sintaxe JSON não padrão, como vírgulas finais e comentários, para lidar com várias escritas de autores de mods.
 
-**合并规则**：
-当同一个翻译键在多个文件中出现时（例如同一模组同时提供了 42 版本和 42.19 版本的翻译文件），需要决定保留哪一个。规则如下：
-- **格式优先级**：JSON 覆盖 TXT。原因在于 JSON 是 PZ 的新标准格式，应优先采用。内部用 `SourceKind` 枚举区分（JSON = 1, TXT = 0）。
-- **版本优先级**：同种格式下，保留游戏版本号最高的那份。版本号解析规则见下方。
-- **完整记录**：`containingFileInfos` 字段会记录所有源文件的信息（包括被丢弃的），确保可追溯。
+**Regras de mesclagem**:
+Quando a mesma chave de tradução aparece em vários arquivos (por exemplo, o mesmo mod fornece arquivos de tradução para as versões 42 e 42.19), é necessário decidir qual manter. As regras são as seguintes:
+- **Prioridade de formato**: JSON substitui TXT. O motivo é que JSON é o novo formato padrão do PZ e deve ser adotado preferencialmente. Internamente, usa a enumeração `SourceKind` para distinguir (JSON = 1, TXT = 0).
+- **Prioridade de versão**: Dentro do mesmo formato, mantenha a versão com o número de versão do jogo mais alto. As regras de análise do número de versão estão abaixo.
+- **Registro completo**: O campo `containingFileInfos` registra informações de todos os arquivos fonte (incluindo os descartados), garantindo rastreabilidade.
 
-**版本号解析规则**：
+**Regras de análise do número de versão**:
 ```
-无版本号 → 0.0
+Sem número de versão → 0.0
 common   → 1.0
 42       → 42.0
 42.19    → 42.19
@@ -618,6 +621,8 @@ Este mapeamento é fornecido pelo `translation_key_to_file_mapping` registrado n
 
 4. **Escrita atômica**: Todos os arquivos de saída adotam a estratégia 'primeiro escrever arquivo temporário, depois mover atomicamente' — primeiro escreva `<filename>.tmp`, após a gravação bem-sucedida, sobrescreva o arquivo alvo via `File.Move`. Esta abordagem garante que, mesmo que ocorra uma falha ou queda de energia durante a gravação, os arquivos existentes não sejam danificados.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Função**: Estatísticas da cobertura de tradução para cada idioma e geração de relatórios de progresso multilíngues para facilitar o acompanhamento do progresso da tradução pela comunidade.
@@ -633,6 +638,36 @@ Os relatórios de progresso são gerados no formato Markdown, armazenados no dir
 - `untranslatable`: Número de entradas marcadas como intraduzíveis devido à verificação de conteúdo.
 3. **Substituir placeholders**: substituir `{{PLACEHOLDER}}` no template pelos dados estatísticos reais.
 4. **Escrever arquivo**: escrever o conteúdo substituído em `docs/progress/progress_<iso>.md`.
+
+---
+
+## Módulos Independentes
+
+Os módulos a seguir são executados independentemente do pipeline de tradução, não estão em `TranslationPipeline.slnx` e são acionados por `dotnet run --project` ou GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Função**: Monitorar periodicamente novos mods lançados na Steam Workshop, filtrar automaticamente mods com alta contagem de inscrições e adicioná-los à lista de solicitações de tradução.
+
+**Modo de execução**: Acionado periodicamente pelo GitHub Actions `.github/workflows/monitor-workshop.yml` (diariamente às 00:00, horário de Pequim), ou localmente via `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Fluxo de trabalho**:
+1. **Captura da lista**: Pagina a página "mais recentes" da Steam Workshop para capturar IDs de mods com a tag Build 42 (excluindo as tags Language/Translation).
+2. **Análise do tempo**: Consulta em lote, via Steam Web API, a data de publicação de cada mod e compara com a última execução em cache para identificar novos mods.
+3. **Filtragem por inscrições**: Consulta novamente a Steam API para obter a contagem de inscrições de todos os mods em cache e seleciona aqueles que ultrapassam o limite (500).
+4. **Saída combinada**: Mescla os IDs dos mods filtrados, removendo duplicatas, em `config/request_for_translation.txt` para consumo pelo `ModIdCollector` do pipeline.
+
+**Parâmetros fixos**: AppId=108600, MinSubs=500, SafetyPages=5 (páginas extras após atingir o timestamp anterior), PageSize=30, Lookback=48h.
+
+**Formato do cache**: `data/monitor_cache.bin` — arquivo binário compactado com Zstd, sequência little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Compartilha o esquema de compressão `ZstdSharp` com `BinaryEmbeddingSerializer`.
+
+**Leitura de chave**: A chave da Steam API é lida do campo `STEAM_KEY` em `config/secrets.json` ou das variáveis de ambiente `STEAM_KEY` / `STEAM_API_KEY` (mesmo padrão do `ConfigReader`).
+
+### DocGenerator
+
+**Função**: Gerador de documentação multilíngue orientado por LLM, que gera README, guias de contribuição e documentação técnica em vários idiomas a partir de modelos em chinês.
+
+**Modo de execução**: Projeto independente `src/DocGenerator/DocGenerator.csproj`, executado via `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 
@@ -676,23 +711,23 @@ List<ContainingFileInfo> containingFileInfos;          // Informações de todos
 
 ```csharp
 class TranslationData {
-    string text;           // 译文
-    bool isVerified;       // 是否已验证 (参考翻译为 true)
-    float? confidence;     // LLM 翻译置信度 (0.0~1.0)
-    string status;         // 验证状态: "verified" 或 "unverified"
-    string processStatus;  // 处理状态: "processed" 或 "unprocessed"
-    List<string> comments; // 注释列表
+string text;           // Tradução
+bool isVerified;       // Se está verificado (referência traduzida é true)
+float? confidence;     // Pontuação de confiança da tradução LLM (0.0~1.0)
+string status;         // Status de verificação: "verified" ou "unverified"
+string processStatus;  // Status de processamento: "processed" ou "unprocessed"
+List<string> comments; // Lista de comentários
 }
 ```
 
-- `isVerified = true`：表示该译文来自人工翻译的参考模组，质量可靠。
-- `isVerified = false`：表示该译文来自 LLM 翻译，标记为 `unverified`，尚未经人工校验。
-- `confidence`：LLM 生成该译文时返回的置信度分数，`null` 表示非 LLM 翻译。
-- `processStatus`：是否已被 LLM 管线处理（`processed` 或 `unprocessed`）。
+- `isVerified = true`: Indica que a tradução veio de um mod de referência traduzido manualmente, qualidade confiável.
+- `isVerified = false`: Indica que a tradução veio da LLM, marcada como `unverified`, ainda não verificada manualmente.
+- `confidence`: Pontuação de confiança retornada pela LLM ao gerar a tradução; `null` indica tradução não LLM.
+- `processStatus`: Se já foi processado pelo pipeline LLM (`processed` ou `unprocessed`).
 
-#### `ModInfo` — Mod 元数据
+#### `ModInfo` — Metadados do Mod
 
-`ModInfo` 存储一个 Steam Workshop 模组的完整元信息，跟踪其状态和更新情况。
+`ModInfo` armazena as informações completas de metadados de um mod da Steam Workshop, acompanhando seu estado e atualizações.
 
 ```csharp
 struct ModInfo {
@@ -701,13 +736,13 @@ struct ModInfo {
     string creator;
     string? language;
     string localDownloadedPath;
-    DateTime timeModUpdated;       // Steam 记录的最后更新时间
-    DateTime timeModCreated;       // Steam 记录的首次发布时间
-    DateTime timeLastChecked;      // 管线最后一次检查该 mod 的时间
-    int subscription;              // 订阅数（来自 Steam）
-    int favorite;                  // 收藏数（来自 Steam）
-    string description;            // Steam 模组描述文本
-    int consumerAppId;             // Steam 消费者 App ID (108600 = PZ)
+DateTime timeModUpdated;       // Última hora de atualização registrada pelo Steam
+DateTime timeModCreated;       // Primeira hora de publicação registrada pelo Steam
+DateTime timeLastChecked;      // Última vez que o pipeline verificou este mod
+int subscription;              // Número de inscrições (do Steam)
+int favorite;                  // Número de favoritos (do Steam)
+string description;            // Descrição do mod do Steam
+int consumerAppId;             // ID do aplicativo consumidor do Steam (108600 = PZ)
 ContentCheckStatus contentCheckStatus; // Estado da verificação de conteúdo
 bool needsUpdate; // Se precisa reextrair e retraduzir
 bool needsContentCheck; // Se precisa reexaminar o conteúdo
@@ -831,52 +866,52 @@ O pipeline possui três conjuntos importantes de lógica de transição de estad
 
 A transição completa do estado da revisão de conteúdo é a seguinte:
 ```
-UNKNOWN ──(新 mod 首次检查)──→ NEEDVERIFICATION
-                                  ├──(LLM 审查: 安全)──→ ACCEPTED
-                                  ├──(LLM 审查: 违规)──→ REJECTED
-                                  └──(LLM 审查: 不确定, 置信度<0.7)──→ NEEDVERIFICATION (等待人工复核)
+UNKNOWN ──(primeira verificação de novo mod)──→ NEEDVERIFICATION
+├──(Revisão LLM: segura)──→ ACCEPTED
+├──(Revisão LLM: violação)──→ REJECTED
+└──(Revisão LLM: incerta, confiança<0.7)──→ NEEDVERIFICATION (aguardando revisão manual)
 
-ACCEPTED ──(超过 90 天缓存期)──→ NEEDVERIFICATION (定期重新审查)
+ACCEPTED ──(período de cache excedido 90 dias)──→ NEEDVERIFICATION (revisão periódica)
 ```
 
-- **UNKNOWN**：新发现的模组，尚未进行过内容审查。
-- **NEEDVERIFICATION**：需要审查（或重新审查）。管线会调用 LLM 对该模组的内容进行安全扫描。
-- **ACCEPTED**：审查通过，该模组的内容安全，可以正常翻译。
-- **REJECTED**：审查不通过，该模组含有违规内容，跳过翻译。
+- **UNKNOWN**: mods recém-descobertos, ainda não submetidos à revisão de conteúdo.
+- **NEEDVERIFICATION**: precisa de revisão (ou re-revisão). O pipeline chama o LLM para escanear a segurança do conteúdo do mod.
+- **ACCEPTED**: revisão aprovada, o conteúdo do mod é seguro e pode ser traduzido normalmente.
+- **REJECTED**: revisão reprovada, o mod contém conteúdo violador, pula a tradução.
 
 #### TranslationData 翻译验证状态
 
-每条翻译数据的可靠性通过 `isVerified` 标记区分：
+A confiabilidade de cada dado de tradução é distinguida pelo marcador `isVerified`:
 
-| 状态 | `isVerified` | 含义 |
+| Estado | `isVerified` | Significado |
 |------|-------------|------|
-| 已验证（人工翻译） | `true` | 来自参考翻译模组，由人工翻译并确认 |
-| 未验证（AI 翻译） | `false` | 由 LLM 自动翻译，标记为 `unverified`，未经人工校验 |
-| 待翻译 | 无文本 | 尚未翻译，`translationValues` 中没有对应的译文 |
+| Verificado (tradução manual) | `true` | Vem do mod de tradução de referência, traduzido e confirmado manualmente |
+| Não verificado (tradução por IA) | `false` | Traduzido automaticamente pelo LLM, marcado como `unverified`, sem verificação manual |
+| Pendente | Sem texto | Ainda não traduzido, não há tradução correspondente em `translationValues` |
 
 #### ModInfo.needsUpdate 更新判定
 
-模组是否需要重新提取和翻译，由以下规则判定：
-- Steam 的 `time_updated` 晚于缓存的 `timeModUpdated` → `needsUpdate = true`（模组作者发布了更新）。
-- 缓存中不存在任何翻译条目的可访问 mod → `needsUpdate = true`（首次处理该模组）。
-- 模组提取后包含 0 条翻译条目 → 内容审查状态直接设为 `ACCEPTED`（该模组没有可翻译的文本内容，无需翻译）。
+Se o mod precisa ser reextraído e retraduzido é determinado pelas seguintes regras:
+- O `time_updated` do Steam é posterior ao `timeModUpdated` em cache → `needsUpdate = true` (o autor do mod publicou uma atualização).
+- Mod acessível sem nenhuma entrada de tradução no cache → `needsUpdate = true` (primeiro processamento do mod).
+- Mod extraído contém 0 entradas de tradução → status de revisão de conteúdo definido diretamente como `ACCEPTED` (o mod não possui conteúdo textual traduzível, sem necessidade de tradução).
 
 ---
 
 ## 5. 配置说明
 
-`config/` 目录下共有 5 个配置文件，按职责分为管线控制、密钥管理、语言定义、参考语料和翻译请求。
+O diretório `config/` contém 5 arquivos de configuração, divididos por responsabilidade em controle do pipeline, gerenciamento de chaves, definição de idiomas, corpus de referência e solicitações de tradução.
 
 ### 5.1 `config/config.json` — 管线主配置
 
-整个翻译管线的核心控制文件。所有字段均为必填，除非标注"可选"。
+Arquivo de controle central de todo o pipeline de tradução. Todos os campos são obrigatórios, a menos que marcados como "opcional".
 
 #### 5.1.1 `LLM` — 大语言模型配置
 
 | Campo | Tipo | Valor Padrão | Descrição |
 |------|------|--------|------|
-| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API 地址，兼容 OpenAI Chat Completions 协议 |
-| `model` | string | `deepseek-v4-flash` | 模型名称。值含 `v4-flash` 或 `v4-pro` 会触发对应的自动并发 profile |
+| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Endereço da API LLM, compatível com o protocolo OpenAI Chat Completions |
+| `model` | string | `deepseek-v4-flash` | Nome do modelo. Valores contendo `v4-flash` ou `v4-pro` acionam o perfil de concorrência automática correspondente |
 | `temperature` | float | `0.1` | Temperatura de amostragem (0~2). Quanto mais baixo, mais determinística a saída. Para tarefas de tradução, recomenda-se ≤0.3. |
 | `max_tokens` | int | `380000` | Número máximo de tokens por resposta da API. Deve ser maior que o total de saída do lote. |
 | `batch_size` | int | `30` | Limite máximo de itens por lote de tradução. Restrito conjuntamente pelo `batch_token_budget`. |

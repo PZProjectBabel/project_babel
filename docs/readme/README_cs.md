@@ -17,6 +17,7 @@
 - [Nástroje a struktura adresářů (pro vývojáře)](#nástroje-a-struktura-adresářů-pro-vývojáře)
   - [Adresář projektu](#adresář-projektu)
   - [Moduly pipeline (v pořadí provádění)](#moduly-pipeline-v-pořadí-provádění)
+  - [Samostatné moduly](#samostatné-moduly)
   - [Technologický stack](#technologický-stack)
 - [Autorská práva a licence](#autorská-práva-a-licence)
   - [1. Texty, obrázky a další obsah](#1-texty-obrázky-a-další-obsah)
@@ -98,7 +99,7 @@ Tato sekce je určena vývojářům, kteří chtějí porozumět principům auto
 
 | Adresář | Popis |
 |------|------|
-| `src/` | Zdrojový kód překladového pipeline .NET 10, obsahuje 15 modulů |
+| `src/` | .NET 10 překladový pipeline zdrojový kód, obsahuje 15 modulů + 2 samostatné moduly |
 | `config/` | Konfigurační soubory pipeline (LLM, Steam, parametry RAG atd.) |
 | `data/` | Runtime data: metadata módů, embedding, překladová cache |
 | `translation_ref/` | Referenční překladová data (autorizované módy od 如一汉化组), poskytují překladové reference pro LLM |
@@ -127,6 +128,13 @@ Tato sekce je určena vývojářům, kteří chtějí porozumět principům auto
 | 13 | `ResultWriter` | Zapsat do data/ a translation_ref/ |
 | 14 | `FinalOutputWriter` | Vygenerovat konečný výstup ve formátu PZ modu |
 | 15 | `ProgressReporter` | Vygenerovat zprávu o pokroku |
+
+### Samostatné moduly
+
+| Modul | Funkce |
+|------|------|
+| `WorkshopMonitor` | Pravidelně stahuje nové mody ze Steam Workshopu, filtruje podle počtu odběrů a přidává do `request_for_translation.txt` |
+| `DocGenerator` | LLM řízený generátor vícejazyčné dokumentace |
 
 ### Technologický stack
 

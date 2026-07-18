@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Module independente](#module-independente)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Convenții de date](#4-convenții-de-date)
   - [4.1 Tipuri de bază](#41-tipuri-de-bază)
     - [`TranslationEntry` — Intrare de traducere](#translationentry-intrare-de-traducere)
@@ -618,6 +621,8 @@ Această mapare este furnizată de `translation_key_to_file_mapping` înregistra
 
 4. **Scriere atomică**: Toate fișierele de ieșire folosesc strategia „scrie mai întâi un fișier temporar, apoi mutare atomică” — se scrie mai întâi `<filename>.tmp`, iar după finalizare se înlocuiește fișierul țintă prin `File.Move`. Aceasta asigură că, chiar dacă apare un crash sau o întrerupere de curent în timpul scrierii, fișierele existente nu vor fi deteriorate.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Funcție**: Calculează acoperirea traducerii pentru fiecare limbă și generează rapoarte de progres multilingve, facilitând comunității să urmărească progresul traducerii.
@@ -633,6 +638,36 @@ Rapoartele de progres sunt generate în format Markdown, stocate în directorul 
 - `untranslatable`: Numărul de intrări marcate ca netraductibile din cauza verificării conținutului.
 3. **Înlocuiți substituentul**: Înlocuiți `{{PLACEHOLDER}}` din șablon cu datele statistice reale.
 4. **Scrieți fișierul**: Scrieți conținutul înlocuit în `docs/progress/progress_<iso>.md`.
+
+---
+
+## Module independente
+
+Următoarele module rulează independent de conducta de traducere, nu se află în `TranslationPipeline.slnx`, fiecare fiind declanșat prin `dotnet run --project` sau GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Funcție**: Monitorizează periodic noile moduri publicate pe Steam Workshop, filtrează automat modurile cu multe abonamente și le adaugă în lista de cereri de traducere.
+
+**Mod de rulare**: Declanșat periodic prin GitHub Actions `.github/workflows/monitor-workshop.yml` (zilnic la 00:00 ora Beijing), sau local cu `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Flux de lucru**:
+1. **Preia lista**: Preia paginat ID-urile modurilor de pe pagina „cele mai recente” a Steam Workshop cu eticheta Build 42 (excluzând etichetele Language/Translation).
+2. **Analizează timestamp-ul**: Interoghează în lot timpul de publicare al fiecărui mod prin Steam Web API, compară cu timpul ultimei rulări din cache și identifică modurile noi.
+3. **Filtrează după abonamente**: Reapelează Steam API pentru a interoga numărul de abonamente ale tuturor modurilor din cache, selectează modurile care depășesc pragul (500).
+4. **Combină și scoate**: Unifică și deduplică ID-urile modurilor filtrate în `config/request_for_translation.txt`, pentru consumul de către `ModIdCollector` al conductei.
+
+**Parametri hardcodați**: AppId=108600, MinSubs=500, SafetyPages=5 (pagini suplimentare după atingerea ultimului timestamp), PageSize=30, Lookback=48h.
+
+**Format cache**: `data/monitor_cache.bin` — fișier binar comprimat Zstd, secvență little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Folosește același algoritm de compresie `ZstdSharp` ca `BinaryEmbeddingSerializer`.
+
+**Citire cheie**: Cheia API Steam este citită din câmpul `STEAM_KEY` din `config/secrets.json`, sau din variabilele de mediu `STEAM_KEY` / `STEAM_API_KEY` (același mod ca `ConfigReader`).
+
+### DocGenerator
+
+**Funcție**: Generator de documentație multilingvă bazat pe LLM, care generează README, ghiduri de contribuție și documentație tehnică pentru fiecare limbă pornind de la șabloane în chineză.
+
+**Mod de rulare**: Proiect independent `src/DocGenerator/DocGenerator.csproj`, executat prin `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 

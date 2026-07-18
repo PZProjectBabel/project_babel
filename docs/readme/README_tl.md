@@ -17,6 +17,7 @@
 - [Mga Tool at Istruktura ng Direktoryo (Para sa mga Developer)](#mga-tool-at-istruktura-ng-direktoryo-para-sa-mga-developer)
   - [Direktoryo ng Proyekto](#direktoryo-ng-proyekto)
   - [Mga Module ng Pipeline (Ayon sa pagkakasunud-sunod ng pagpapatakbo)](#mga-module-ng-pipeline-ayon-sa-pagkakasunud-sunod-ng-pagpapatakbo)
+  - [Independent Modules](#independent-modules)
   - [Teknolohiyang Stack](#teknolohiyang-stack)
 - [Copyright at Lisensya](#copyright-at-lisensya)
   - [1. Mga tekstong, larawan, at iba pa](#1-mga-tekstong-larawan-at-iba-pa)
@@ -98,7 +99,7 @@ Ang seksyong ito ay para sa mga developer na nais maunawaan ang prinsipyo ng aut
 
 | Direktoryo | Paglalarawan |
 |------|------|
-| `src/` | .NET 10 source code ng pipeline ng pagsasalin, may 15 modules |
+| `src/` | .NET 10 na source code ng translation pipeline, naglalaman ng 15 modules + 2 independent modules |
 | `config/` | Configuration files ng pipeline (LLM, Steam, RAG parameters atbp.) |
 | `data/` | Data sa runtime: metadata ng mod, embedding, cache ng pagsasalin |
 | `translation_ref/` | Data ng reference na pagsasalin (tulad ng mod na pinahintulutan ng As1), nagbibigay ng reference para sa LLM |
@@ -127,6 +128,13 @@ Ang seksyong ito ay para sa mga developer na nais maunawaan ang prinsipyo ng aut
 | 13 | `ResultWriter` | Isulat sa data/ at translation_ref/ |
 | 14 | `FinalOutputWriter` | Gumawa ng final PZ mod format output |
 | 15 | `ProgressReporter` | Gumawa ng progress report |
+
+### Independent Modules
+
+| Module | Function |
+|------|------|
+| `WorkshopMonitor` | Regular na kumukuha ng mga bagong mod mula sa Steam Workshop, sinala ayon sa bilang ng subscription at idinagdag sa `request_for_translation.txt` |
+| `DocGenerator` | LLM-driven multi-language document generator |
 
 ### Teknolohiyang Stack
 

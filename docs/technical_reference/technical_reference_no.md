@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Uavhengige moduler](#uavhengige-moduler)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Datakonvensjoner](#4-datakonvensjoner)
   - [4.1 Kjernetyper](#41-kjernetyper)
     - [`TranslationEntry` — Oversettelsesoppføring](#translationentry-oversettelsesoppføring)
@@ -618,6 +621,8 @@ Denne kartleggingen leveres av `translation_key_to_file_mapping` som registreres
 
 4. **Atomisk skriving**: Alle utdatafiler bruker strategien "skriv først til midlertidig fil, deretter atomisk flytting" – skriv først til `<filename>.tmp`, og etter vellykket skriving, overskriv målfila via `File.Move`. Denne metoden sikrer at eksisterende filer ikke blir ødelagt selv om det oppstår krasj eller strømbrudd under skriving.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Funksjonalitet**: Samler inn oversettelsesdekning for hvert språk og genererer flerspråklige fremdriftsrapporter, slik at fellesskapet kan følge med på oversettelsesfremgangen.
@@ -633,6 +638,36 @@ Fremdriftsrapporter skrives ut i Markdown-format og lagres i `docs/progress/`-ka
 - `untranslatable`: Antall oppføringer som er merket som uoversettbare på grunn av innholdskontroll.
 3. **Erstatt plassholdere**: Erstatt `{{PLACEHOLDER}}` i malen med faktiske statistikkdata.
 4. **Skriv til fil**: Skriv det erstattede innholdet til `docs/progress/progress_<iso>.md`.
+
+---
+
+## Uavhengige moduler
+
+Følgende moduler kjører uavhengig av oversettelsespipelinen, og er ikke i `TranslationPipeline.slnx`. De utløses hver for seg via `dotnet run --project` eller GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Funksjon**: Overvåker jevnlig nye mods på Steam Workshop, filtrerer automatisk mods med høyt abonnementstall og legger dem til oversettelsesforespørselslisten.
+
+**Kjøremåte**: Utløses periodisk via GitHub Actions `.github/workflows/monitor-workshop.yml` (kl. 00:00 Beijing-tid hver dag), eller lokalt med `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Arbeidsflyt**:
+1. **Hent liste**: Hent mod-ID-er fra Steam Workshops "most recent"-side med paginering, filtrer på Build 42-tagg (ekskluder Language/Translation-tagger).
+2. **Tolke tid**: Spør etter publiseringstidspunktet for hver mod via Steam Web API i batcher, sammenlign med forrige kjøretid i hurtigbufferen for å finne nye mods.
+3. **Filtrer abonnementstall**: Kall Steam API igjen for å hente abonnementstall for alle bufrede mods, og filtrer ut mods som overstiger terskelen (500).
+4. **Slå sammen utdata**: Slå sammen de filtrerte mod-ID-ene (fjern duplikater) til `config/request_for_translation.txt`, for bruk av pipelineens `ModIdCollector`.
+
+**Hardkodede parametere**: AppId=108600, MinSubs=500, SafetyPages=5 (ekstra sider å hente etter å ha nådd forrige tidsstempel), PageSize=30, Lookback=48h.
+
+**Bufferformat**: `data/monitor_cache.bin` — Zstd-komprimert binærfil, little-endian int64-sekvens: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Bruker samme `ZstdSharp`-komprimeringsskjema som `BinaryEmbeddingSerializer`.
+
+**Nøkkellesing**: Steam API Key leses fra `STEAM_KEY`-feltet i `config/secrets.json`, eller fra miljøvariablene `STEAM_KEY` / `STEAM_API_KEY` (samme mønster som `ConfigReader`).
+
+### DocGenerator
+
+**Funksjon**: LLM-drevet flerspråklig dokumentgenerator som genererer README, bidragsguide og teknisk referansedokumentasjon på flere språk fra kinesiske maler.
+
+**Kjøremåte**: Selvstendig prosjekt `src/DocGenerator/DocGenerator.csproj`, utføres via `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 

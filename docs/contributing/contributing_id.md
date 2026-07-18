@@ -91,7 +91,7 @@ Dengan otorisasi Anda, proyek akan mencantumkan mod Anda dalam daftar `config/re
 
 Otomatisasi proyek ini terbagi menjadi dua bagian:
 
-**Modul Pipeline (`src/`, C# / .NET 10)**: Berisi 15 modul yang dijalankan secara berurutan, bertanggung jawab atas keseluruhan proses mulai dari inisialisasi SteamCMD, pengunduhan mod, ekstraksi teks, tinjauan konten, perhitungan Embedding, pengambilan RAG hingga penerjemahan LLM dan output akhir. Detail lihat [Referensi Teknis](../technical_reference/technical_reference_id.md).
+**Modul Pipeline (`src/`, C# / .NET 10)**: Berisi 15 modul yang dieksekusi secara berurutan, ditambah 2 modul independen (`WorkshopMonitor` penemu mod, `DocGenerator` generator dokumen), bertanggung jawab atas seluruh alur dari inisialisasi SteamCMD, unduhan mod, ekstraksi teks, peninjauan konten, perhitungan Embedding, pencarian RAG hingga terjemahan LLM dan output akhir. Lihat [Referensi Teknis](../technical_reference/technical_reference_id.md).
 
 **Skrip Pembantu (.github/)**: Digunakan untuk otomatisasi github.
 
@@ -108,7 +108,7 @@ Anda dapat mengikuti langkah-langkah berikut:
 2. Buat cabang baru berdasarkan cabang terbaru;
 3. Ubah atau tambahkan file di direktori yang sesuai:
 - Modifikasi modul pipeline → `src/<nama_modul>/`;
-- Modifikasi skrip → `scripts/`;
+- Modifikasi alur kerja CI → `.github/workflows/`;
 - Modifikasi template Prompt → `src/prompt_templates/`;
 4. Sebelum mengirim, usahakan sebisa mungkin:
 

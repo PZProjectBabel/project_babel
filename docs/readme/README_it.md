@@ -17,6 +17,7 @@
 - [Strumenti e struttura delle directory (per sviluppatori)](#strumenti-e-struttura-delle-directory-per-sviluppatori)
   - [Directory del progetto](#directory-del-progetto)
   - [Moduli della pipeline (in ordine di esecuzione)](#moduli-della-pipeline-in-ordine-di-esecuzione)
+  - [Moduli indipendenti](#moduli-indipendenti)
   - [Stack tecnologico](#stack-tecnologico)
 - [Copyright e Licenza](#copyright-e-licenza)
   - [1. Testo e immagini, ecc.](#1-testo-e-immagini-ecc)
@@ -98,7 +99,7 @@ Questa sezione è rivolta agli sviluppatori che desiderano comprendere i princip
 
 | Directory | Descrizione |
 |------|------|
-| `src/` | Codice sorgente della pipeline di traduzione .NET 10, con 15 moduli |
+| `src/` | Codice sorgente della pipeline di traduzione .NET 10, che include 15 moduli + 2 moduli indipendenti |
 | `config/` | File di configurazione della pipeline (parametri LLM, Steam, RAG, ecc.) |
 | `data/` | Dati di esecuzione: metadati dei mod, embedding, cache di traduzione |
 | `translation_ref/` | Dati di traduzione di riferimento (es. mod autorizzati dal gruppo di traduzione Ruyi), fornisce riferimenti di traduzione per LLM |
@@ -127,6 +128,13 @@ Questa sezione è rivolta agli sviluppatori che desiderano comprendere i princip
 | 13 | `ResultWriter` | Scrive in data/ e translation_ref/ |
 | 14 | `FinalOutputWriter` | Genera output formato mod PZ finale |
 | 15 | `ProgressReporter` | Genera report di progresso |
+
+### Moduli indipendenti
+
+| Modulo | Funzione |
+|------|------|
+| `WorkshopMonitor` | Recupera periodicamente nuovi mod da Steam Workshop, li filtra per numero di iscrizioni e li aggiunge a `request_for_translation.txt` |
+| `DocGenerator` | Generatore di documentazione multilingua basato su LLM |
 
 ### Stack tecnologico
 

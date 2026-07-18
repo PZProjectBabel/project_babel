@@ -3687,7 +3687,8 @@
       "ru": "* цель изменений;",
       "th": "* วัตถุประสงค์ของการเปลี่ยนแปลง;",
       "tr": "* Değişikliğin amacı;",
-      "uk": "* мету змін;"
+      "uk": "* мету змін;",
+      "zh-hant": "* 改動目的；"
     },
     "NeedsTranslation": {
       "en": true,
@@ -3714,7 +3715,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "zh-hant": true
     }
   },
   {
@@ -3745,7 +3747,8 @@
       "ru": "* затрагиваемые каталоги/модули/скрипты;",
       "th": "* ไดเรกทอรี/โมดูล/สคริปต์ที่อาจได้รับผลกระทบ;",
       "tr": "* Etkilenen dizinler / modüller / betikler;",
-      "uk": "* каталоги / модулі / скрипти, на які це може вплинути;"
+      "uk": "* каталоги / модулі / скрипти, на які це може вплинути;",
+      "zh-hant": "* 可能影響的目錄 / 模組 / 腳本；"
     },
     "NeedsTranslation": {
       "en": true,
@@ -3772,7 +3775,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "zh-hant": true
     }
   },
   {
@@ -3803,7 +3807,8 @@
       "ru": "* касается ли это критических изменений.",
       "th": "* ว่ามีการเปลี่ยนแปลงที่ทำลายความเข้ากันได้หรือไม่",
       "tr": "* Kırıcı değişiklik içerip içermediği.",
-      "uk": "* чи містить зміни, що порушують зворотну сумісність."
+      "uk": "* чи містить зміни, що порушують зворотну сумісність.",
+      "zh-hant": "* 是否涉及破壞性變更。"
     },
     "NeedsTranslation": {
       "en": true,
@@ -3830,7 +3835,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "zh-hant": true
     }
   },
   {
@@ -4861,7 +4867,8 @@
       "ru": "* Делиться, копировать и распространять этот контент;",
       "th": "* แบ่งปัน คัดลอก และแจกจ่ายเนื้อหาเหล่านี้;",
       "tr": "* Bu içerikleri paylaşabilir, kopyalayabilir ve yeniden dağıtabilir;",
-      "uk": "* ділитися, копіювати та розповсюджувати цей вміст;"
+      "uk": "* ділитися, копіювати та розповсюджувати цей вміст;",
+      "zh-hant": "* 分享、複製、再分發這些內容；"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4888,7 +4895,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "zh-hant": true
     }
   },
   {
@@ -4919,7 +4927,8 @@
       "ru": "* Изменять и перерабатывать его для некоммерческих целей;",
       "th": "* แก้ไขและสร้างสรรค์ต่อในกรณีที่ไม่ใช่เชิงพาณิชย์;",
       "tr": "* Ticari olmayan amaçlarla değiştirebilir ve yeniden oluşturabilir;",
-      "uk": "* змінювати та переробляти його в некомерційних цілях;"
+      "uk": "* змінювати та переробляти його в некомерційних цілях;",
+      "zh-hant": "* 在非商業用途下對其進行修改與再創作；"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4946,7 +4955,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "zh-hant": true
     }
   },
   {
@@ -7278,6 +7288,120 @@
       "ko": true,
       "nl": true,
       "no": true,
+      "tl": true,
+      "pl": true,
+      "pt": true,
+      "pt-br": true,
+      "ro": true,
+      "ru": true,
+      "th": true,
+      "tr": true,
+      "uk": true
+    }
+  },
+  {
+    "Sha256": "c8af73d4b31e2ad52722c1d5dc418d4e4407c1f41b798ee08675c5ad84a8bd70",
+    "SourceText": "**流水线模块（`src/`，C# / .NET 10）**：包含 15 个按序执行的模块，外加 2 个独立模块（`WorkshopMonitor` 模组发现器、`DocGenerator` 文档生成器），负责从 SteamCMD 初始化、模组下载、文本提取、内容审查、Embedding 计算、RAG 检索到 LLM 翻译与最终输出的完整流程。详见 [技术参考]({{technical_reference_link}})。",
+    "Translations": {
+      "ar": "**وحدة خط الأنابيب (`src/`، C# / .NET 10)**: تحتوي على 15 وحدة تُنفذ بالتسلسل، بالإضافة إلى وحدتين مستقلتين (`WorkshopMonitor` مكتشف الوحدات، `DocGenerator` مولد الوثائق)، وتُدير العملية الكاملة من تهيئة SteamCMD، تنزيل الوحدات، استخراج النصوص، مراجعة المحتوى، حساب Embedding، استرجاع RAG إلى ترجمة LLM والإخراج النهائي. راجع [المرجع التقني]({{technical_reference_link}}).",
+      "ca": "**Mòdul de pipeline (`src/`, C# / .NET 10)**: conté 15 mòduls executats en seqüència, més 2 mòduls independents (`WorkshopMonitor` descobridor de mods, `DocGenerator` generador de documentació), que s'encarreguen del flux complet des de la inicialització de SteamCMD, descàrrega de mods, extracció de text, revisió de contingut, càlcul d'Embedding, recuperació RAG fins a la traducció LLM i la sortida final. Vegeu [Referència tècnica]({{technical_reference_link}}).",
+      "zh-hant": "**流水線模組（`src/`，C# / .NET 10）**：包含 15 個按序執行的模組，外加 2 個獨立模組（`WorkshopMonitor` 模組發現器、`DocGenerator` 文檔生成器），負責從 SteamCMD 初始化、模組下載、文本提取、內容審查、Embedding 計算、RAG 檢索到 LLM 翻譯與最終輸出的完整流程。詳見 [技術參考]({{technical_reference_link}})。",
+      "cs": "**Pipeline modul (`src/`, C# / .NET 10)**: Obsahuje 15 modulů prováděných postupně, plus 2 samostatné moduly (`WorkshopMonitor` pro vyhledávání modů, `DocGenerator` pro generování dokumentace), které zajišťují celý proces od inicializace SteamCMD, stahování modů, extrakce textu, kontroly obsahu, výpočtu Embeddingů, vyhledávání RAG až po LLM překlad a finální výstup. Podrobnosti viz [Technická reference]({{technical_reference_link}}).",
+      "da": "**Pipeline-modul (`src/`, C# / .NET 10)**: Indeholder 15 moduler, der udføres i rækkefølge, plus 2 uafhængige moduler (`WorkshopMonitor` modulopdager, `DocGenerator` dokumentgenerator), som står for hele processen fra SteamCMD-initialisering, moduldownload, tekstudtræk, indholdsgennemgang, Embedding-beregning, RAG-søgning til LLM-oversættelse og endelig output. Se [Teknisk reference]({{technical_reference_link}}).",
+      "de": "**Pipeline-Module (`src/`, C# / .NET 10)**: Enthält 15 sequentiell ausgeführte Module sowie 2 unabhängige Module (`WorkshopMonitor` Modul-Entdecker, `DocGenerator` Dokumentengenerator), die den gesamten Ablauf von der SteamCMD-Initialisierung, Modul-Download, Textextraktion, Inhaltsprüfung, Embedding-Berechnung, RAG-Abfrage bis zur LLM-Übersetzung und endgültigen Ausgabe abdecken. Siehe [Technische Referenz]({{technical_reference_link}}).",
+      "en": "**Pipeline modules (`src/`, C# / .NET 10)**: Contains 15 sequentially executed modules, plus 2 independent modules (`WorkshopMonitor` mod discoverer, `DocGenerator` documentation generator), responsible for the complete workflow from SteamCMD initialization, mod downloading, text extraction, content review, Embedding calculation, RAG retrieval to LLM translation and final output. See [Technical Reference]({{technical_reference_link}}) for details.",
+      "es": "**Módulo de canalización (`src/`, C# / .NET 10)**: Contiene 15 módulos ejecutados en orden, más 2 módulos independientes (`WorkshopMonitor` descubridor de mods, `DocGenerator` generador de documentos), que se encargan del proceso completo desde la inicialización de SteamCMD, descarga de mods, extracción de texto, revisión de contenido, cálculo de Embedding, búsqueda RAG hasta la traducción LLM y la salida final. Consulte [Referencia técnica]({{technical_reference_link}}).",
+      "fi": "**Putkilinjamoduulit (`src/`, C# / .NET 10)**: Sisältää 15 moduulia, jotka suoritetaan järjestyksessä, sekä 2 itsenäistä moduulia (`WorkshopMonitor`-moduulin etsijä, `DocGenerator`-dokumentaatiogeneraattori), jotka vastaavat koko prosessista SteamCMD:n alustuksesta, moduulin latauksesta, tekstin erottelusta, sisällön tarkistuksesta, upotuslaskennasta, RAG-hausta aina LLM-käännökseen ja lopulliseen tulostukseen. Katso lisätietoja [teknisestä viitteestä]({{technical_reference_link}}).",
+      "fr": "**Module pipeline (`src/`, C# / .NET 10)** : contient 15 modules exécutés séquentiellement, plus 2 modules autonomes (`WorkshopMonitor` découvreur de mods, `DocGenerator` générateur de documentation), responsable du processus complet allant de l'initialisation SteamCMD, au téléchargement des mods, à l'extraction de texte, à l'examen du contenu, au calcul d'Embedding, à la recherche RAG jusqu'à la traduction LLM et à la sortie finale. Voir [référence technique]({{technical_reference_link}}).",
+      "hu": "**Csővezeték modulok (`src/`, C# / .NET 10)**: 15 szekvenciálisan végrehajtott modult, plusz 2 önálló modult (`WorkshopMonitor` modul felfedező, `DocGenerator` dokumentumgenerátor) tartalmaz, amelyek a SteamCMD inicializálástól, modul letöltéstől, szöveg kivonástól, tartalom ellenőrzéstől, Embedding számítástól, RAG kereséstől az LLM fordításig és a végső kimenetig a teljes folyamatot végzik. Részletek a [technikai referenciában]({{technical_reference_link}}).",
+      "id": "**Modul Pipeline (`src/`, C# / .NET 10)**: Berisi 15 modul yang dieksekusi secara berurutan, ditambah 2 modul independen (`WorkshopMonitor` penemu mod, `DocGenerator` generator dokumen), bertanggung jawab atas seluruh alur dari inisialisasi SteamCMD, unduhan mod, ekstraksi teks, peninjauan konten, perhitungan Embedding, pencarian RAG hingga terjemahan LLM dan output akhir. Lihat [Referensi Teknis]({{technical_reference_link}}).",
+      "it": "**Moduli della pipeline（`src/`，C# / .NET 10）**：contengono 15 moduli eseguiti in sequenza, più 2 moduli indipendenti（`WorkshopMonitor` rilevatore di mod, `DocGenerator` generatore di documenti），responsabili dell'intero flusso dall'inizializzazione di SteamCMD, download dei mod, estrazione del testo, revisione del contenuto, calcolo degli embedding, recupero RAG fino alla traduzione LLM e all'output finale. Vedi [Riferimento tecnico]({{technical_reference_link}})。",
+      "ja": "**パイプラインモジュール（`src/`、C# / .NET 10）**：15個の順次実行モジュールと、2つの独立モジュール（`WorkshopMonitor` Modディスカバラー、`DocGenerator` ドキュメントジェネレーター）を含み、SteamCMD初期化、Modダウンロード、テキスト抽出、コンテンツレビュー、Embedding計算、RAG検索からLLM翻訳、最終出力までの完全なフローを担当します。詳細は[技術リファレンス]({{technical_reference_link}})を参照してください。",
+      "ko": "**파이프라인 모듈 (`src/`, C# / .NET 10)**: SteamCMD 초기화, 모드 다운로드, 텍스트 추출, 콘텐츠 검토, Embedding 계산, RAG 검색에서 LLM 번역 및 최종 출력까지의 전체 프로세스를 담당하는 15개의 순차 실행 모듈과 2개의 독립 모듈(`WorkshopMonitor` 모드 탐색기, `DocGenerator` 문서 생성기)로 구성됩니다. 자세한 내용은 [기술 참조]({{technical_reference_link}})를 참조하세요.",
+      "nl": "**Pijplijnmodule (`src/`, C# / .NET 10)**: Bevat 15 modules die in volgorde worden uitgevoerd, plus 2 onafhankelijke modules (`WorkshopMonitor` mod-ontdekker, `DocGenerator` documentgenerator), verantwoordelijk voor de volledige stroom van SteamCMD-initialisatie, mod-download, tektextractie, inhoudscontrole, Embedding-berekening, RAG-ophaling tot LLM-vertaling en uiteindelijke uitvoer. Zie [technische referentie]({{technical_reference_link}}).",
+      "no": "**Pipeline-modulen (`src/`, C# / .NET 10)**：Inneholder 15 moduler som kjøres i rekkefølge, pluss 2 uavhengige moduler (`WorkshopMonitor` moduloppdager, `DocGenerator` dokumentgenerator), som har ansvar for hele prosessen fra SteamCMD initialisering, modulnedlasting, tekstuttrekk, innholdsgranskning, Embedding-beregning, RAG-søk til LLM-oversettelse og endelig utdata. Se [teknisk referanse]({{technical_reference_link}}).",
+      "tl": "**Module ng pipeline (`src/`, C# / .NET 10)**: ay binubuo ng 15 module na isinasagawa nang sunud-sunod, at karagdagang 2 independiyenteng module (`WorkshopMonitor` mod discovery, `DocGenerator` dokumento generator), responsable para sa kumpletong proseso mula sa SteamCMD initialization, mod download, text extraction, content review, Embedding computation, RAG retrieval hanggang sa LLM translation at final output. Tingnan ang [Teknikal na Sanggunian]({{technical_reference_link}}).",
+      "pl": "**Moduł potoku (`src/`, C# / .NET 10)**：Zawiera 15 modułów wykonywanych sekwencyjnie, plus 2 moduły samodzielne (`WorkshopMonitor` do wykrywania modów, `DocGenerator` do generowania dokumentacji), odpowiedzialne za pełny proces od inicjalizacji SteamCMD, pobierania modów, ekstrakcji tekstu, przeglądu treści, obliczania Embedding, wyszukiwania RAG po tłumaczenie LLM i końcowe wyjście. Zobacz [odniesienie techniczne]({{technical_reference_link}}).",
+      "pt": "**Módulo de pipeline (`src/`, C# / .NET 10)**: Contém 15 módulos executados em sequência, mais 2 módulos independentes (`WorkshopMonitor` para descoberta de mods, `DocGenerator` para geração de documentação), responsáveis por todo o fluxo, desde a inicialização do SteamCMD, download de mods, extração de texto, revisão de conteúdo, cálculo de embeddings, recuperação RAG até a tradução por LLM e saída final. Consulte [Referência técnica]({{technical_reference_link}}).",
+      "pt-br": "**Módulo de Pipeline (`src/`, C# / .NET 10)**: contém 15 módulos executados em sequência, além de 2 módulos independentes (`WorkshopMonitor` descobridor de mods, `DocGenerator` gerador de documentos), responsáveis pelo fluxo completo desde inicialização do SteamCMD, download de mods, extração de texto, revisão de conteúdo, cálculo de Embedding, recuperação RAG até tradução LLM e saída final. Consulte [Referência Técnica]({{technical_reference_link}}).",
+      "ro": "**Modulul pipeline („src/”, C# /.NET 10)**: include 15 module executate secvențial, plus 2 module independente („WorkshopMonitor” detector de moduri, „DocGenerator” generator de documente), responsabile pentru întregul flux de la inițializarea SteamCMD, descărcarea modurilor, extragerea textului, revizuirea conținutului, calculul Embedding, căutarea RAG până la traducerea LLM și ieșirea finală. Vezi [referință tehnică]({{technical_reference_link}}).",
+      "ru": "**Конвейерный модуль (`src/`, C# / .NET 10)**: содержит 15 последовательно выполняемых модулей, а также 2 независимых модуля (`WorkshopMonitor` - модуль обнаружения модов, `DocGenerator` - генератор документации), отвечающие за полный процесс от инициализации SteamCMD, загрузки модов, извлечения текста, проверки содержимого, вычисления Embedding, поиска RAG до перевода LLM и окончательного вывода. Подробнее см. [Техническая справка]({{technical_reference_link}}).",
+      "th": "**โมดูลไปป์ไลน์ (`src/`, C# / .NET 10)** : มี 15 โมดูลที่ทำงานตามลำดับ และอีก 2 โมดูลอิสระ (`WorkshopMonitor` ตัวค้นหา mod, `DocGenerator` ตัวสร้างเอกสาร) รับผิดชอบกระบวนการทั้งหมดตั้งแต่การเริ่มต้น SteamCMD, ดาวน์โหลด mod, แยกข้อความ, ตรวจสอบเนื้อหา, คำนวณ Embedding, ค้นหา RAG ไปจนถึงการแปล LLM และผลลัพธ์สุดท้าย ดูรายละเอียดที่ [เอกสารอ้างอิงทางเทคนิค]({{technical_reference_link}})",
+      "tr": "**Pipeline modülü (`src/`, C# / .NET 10)**: SteamCMD başlatma, mod indirme, metin çıkarma, içerik denetleme, Embedding hesaplama, RAG arama ve LLM çevirisi ile nihai çıktıya kadar tam süreçten sorumlu, sırayla yürütülen 15 modül ve 2 bağımsız modül (`WorkshopMonitor` mod bulucu, `DocGenerator` belge oluşturucu) içerir. Ayrıntılar için bkz. [Teknik referans]({{technical_reference_link}}).",
+      "uk": "**Конвеєрний модуль (`src/`, C# / .NET 10)** : містить 15 модулів, що виконуються послідовно, плюс 2 незалежні модулі (`WorkshopMonitor` – виявлення модів, `DocGenerator` – генератор документації), які відповідають за повний процес від ініціалізації SteamCMD, завантаження модів, вилучення тексту, перевірку вмісту, обчислення Embedding, пошук RAG до перекладу LLM і фінального виводу. Детальніше див. [Технічне посилання]({{technical_reference_link}})."
+    },
+    "NeedsTranslation": {
+      "ar": true,
+      "ca": true,
+      "zh-hant": true,
+      "cs": true,
+      "da": true,
+      "de": true,
+      "en": true,
+      "es": true,
+      "fi": true,
+      "fr": true,
+      "hu": true,
+      "id": true,
+      "it": true,
+      "ja": true,
+      "ko": true,
+      "nl": true,
+      "no": true,
+      "tl": true,
+      "pl": true,
+      "pt": true,
+      "pt-br": true,
+      "ro": true,
+      "ru": true,
+      "th": true,
+      "tr": true,
+      "uk": true
+    }
+  },
+  {
+    "Sha256": "a79db7980051ab144600c7e9ebf04ecc5f82fe1714fea729d38d07e4505ce97b",
+    "SourceText": "   - CI 工作流修改 → `.github/workflows/`；",
+    "Translations": {
+      "ar": "- تعديل سير عمل CI ← `.github/workflows/`;",
+      "ca": "- Modificació del flux de treball CI → `.github/workflows/`;",
+      "zh-hant": "- CI 工作流程修改 → `.github/workflows/`；",
+      "cs": "- Úprava CI workflow → `.github/workflows/`;",
+      "de": "- CI-Workflow-Änderungen → `.github/workflows/`；",
+      "en": "- CI workflow modification → `.github/workflows/`;",
+      "es": "- Modificaciones de flujo de trabajo de CI → `.github/workflows/`;",
+      "fi": "- CI-työnkulun muokkaus → `.github/workflows/`;",
+      "fr": "- Modification du workflow CI → `.github/workflows/` ;",
+      "id": "- Modifikasi alur kerja CI → `.github/workflows/`;",
+      "it": "- Modifica del flusso di lavoro CI → `.github/workflows/`；",
+      "ja": "- CIワークフローの修正 → `.github/workflows/`；",
+      "ko": "- CI 워크플로 수정 → `.github/workflows/`;",
+      "nl": "- CI-werkstroom aanpassen → `.github/workflows/`;",
+      "tl": "- CI workflow modification → `.github/workflows/`;",
+      "pl": "- Modyfikacja przepływu pracy CI → `.github/workflows/`;",
+      "pt": "- Modificação do fluxo de trabalho CI → `.github/workflows/`;",
+      "pt-br": "- Modificação de fluxo de trabalho CI → `.github/workflows/`;",
+      "ro": "- Modificări ale fluxului de lucru CI → `.github/workflows/`;",
+      "ru": "- Изменение CI рабочего процесса → `.github/workflows/`;",
+      "th": "- การแก้ไข CI workflow → `.github/workflows/`",
+      "tr": "- CI iş akışı değişikliği → `.github/workflows/`;",
+      "uk": "- Зміна CI робочого процесу → `.github/workflows/`;"
+    },
+    "NeedsTranslation": {
+      "ar": true,
+      "ca": true,
+      "zh-hant": true,
+      "cs": true,
+      "de": true,
+      "en": true,
+      "es": true,
+      "fi": true,
+      "fr": true,
+      "id": true,
+      "it": true,
+      "ja": true,
+      "ko": true,
+      "nl": true,
       "tl": true,
       "pl": true,
       "pt": true,

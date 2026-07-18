@@ -17,6 +17,7 @@
 - [Werkzeuge und Verzeichnisstruktur (für Entwickler)](#werkzeuge-und-verzeichnisstruktur-für-entwickler)
   - [Projektverzeichnis](#projektverzeichnis)
   - [Pipeline-Module (in Ausführungsreihenfolge)](#pipeline-module-in-ausführungsreihenfolge)
+  - [Unabhängige Module](#unabhängige-module)
   - [Technologie-Stack](#technologie-stack)
 - [Urheberrecht und Lizenz](#urheberrecht-und-lizenz)
   - [1. Texte, Bilder und andere Inhalte](#1-texte-bilder-und-andere-inhalte)
@@ -98,7 +99,7 @@ Dieser Abschnitt richtet sich an Entwickler, die die Automatisierungsprinzipien 
 
 | Verzeichnis | Beschreibung |
 |------|------|
-| `src/` | .NET 10-Übersetzungspipeline-Quellcode, enthält 15 Module |
+| `src/` | .NET 10 Übersetzungspipeline-Quellcode, enthält 15 Module + 2 unabhängige Module |
 | `config/` | Pipeline-Konfigurationsdateien (LLM-, Steam-, RAG-Parameter usw.) |
 | `data/` | Laufzeitdaten: Mod-Metadaten, Embeddings, Übersetzungs-Cache |
 | `translation_ref/` | Referenzübersetzungsdaten (z.B. autorisierte Mods von Übersetzungsgruppen) – dienen als Übersetzungsreferenz für das LLM |
@@ -127,6 +128,13 @@ Dieser Abschnitt richtet sich an Entwickler, die die Automatisierungsprinzipien 
 | 13 | `ResultWriter` | Schreibt in data/ und translation_ref/ |
 | 14 | `FinalOutputWriter` | Erzeugt finale PZ-Mod-Ausgabe |
 | 15 | `ProgressReporter` | Erzeugt Fortschrittsbericht |
+
+### Unabhängige Module
+
+| Modul | Funktion |
+|------|------|
+| `WorkshopMonitor` | Regelmäßiges Abrufen neuer Mods aus dem Steam Workshop, Filtern nach Abonnementzahl und Aufnahme in `request_for_translation.txt` |
+| `DocGenerator` | LLM-gesteuerter mehrsprachiger Dokumentgenerator |
 
 ### Technologie-Stack
 

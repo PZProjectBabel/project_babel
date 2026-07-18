@@ -91,7 +91,7 @@ Con la tua autorizzazione, il progetto elencherà il tuo mod nell'elenco dei mod
 
 L'automazione di questo progetto è divisa in due parti:
 
-**Modulo pipeline (`src/`, C# / .NET 10)**: contiene 15 moduli eseguiti in sequenza, responsabili dell'intero flusso dall'inizializzazione di SteamCMD, download del mod, estrazione del testo, revisione dei contenuti, calcolo degli embedding, recupero RAG fino alla traduzione LLM e output finale. Vedi [Riferimento tecnico](../technical_reference/technical_reference_it.md).
+**Moduli della pipeline（`src/`，C# / .NET 10）**：contengono 15 moduli eseguiti in sequenza, più 2 moduli indipendenti（`WorkshopMonitor` rilevatore di mod, `DocGenerator` generatore di documenti），responsabili dell'intero flusso dall'inizializzazione di SteamCMD, download dei mod, estrazione del testo, revisione del contenuto, calcolo degli embedding, recupero RAG fino alla traduzione LLM e all'output finale. Vedi [Riferimento tecnico](../technical_reference/technical_reference_it.md)。
 
 **Script ausiliari (`.github/`)**: utilizzati per l'automazione di GitHub.
 
@@ -108,7 +108,7 @@ Puoi seguire i seguenti passaggi:
 2. Crea un nuovo ramo basato sul ramo più recente;
 3. Modifica o aggiungi file nelle directory corrispondenti:
 - Modifiche ai moduli pipeline → `src/<nome modulo>/`;
-- Modifiche agli script → `scripts/`;
+- Modifica del flusso di lavoro CI → `.github/workflows/`；
 - Modifiche ai template di prompt → `src/prompt_templates/`;
 4. Prima di inviare, cerca di:
 

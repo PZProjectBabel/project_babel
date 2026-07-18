@@ -17,9 +17,10 @@
 - [Alat dan Struktur Direktori (Untuk Pengembang)](#alat-dan-struktur-direktori-untuk-pengembang)
   - [Direktori Proyek](#direktori-proyek)
   - [Modul Pipeline (Berdasarkan Urutan Eksekusi)](#modul-pipeline-berdasarkan-urutan-eksekusi)
-  - [技术栈](#技术栈)
-- [版权与授权](#版权与授权)
-  - [1. 文本与图片等内容](#1-文本与图片等内容)
+  - [Modul Independen](#modul-independen)
+  - [Tumpukan Teknologi](#tumpukan-teknologi)
+- [Hak Cipta dan Lisensi](#hak-cipta-dan-lisensi)
+  - [1. Teks dan gambar, dll.](#1-teks-dan-gambar-dll)
   - [2. Program, skrip, dan konten pengembangan lainnya](#2-program-skrip-dan-konten-pengembangan-lainnya)
 - [Ucapan Terima Kasih](#ucapan-terima-kasih)
 - [Program Pihak Ketiga](#program-pihak-ketiga)
@@ -98,7 +99,7 @@ Bagian ini ditujukan bagi pengembang yang ingin memahami prinsip otomatisasi pro
 
 | Direktori | Keterangan |
 |------|------|
-| `src/` | Kode sumber pipeline terjemahan .NET 10, berisi 15 modul |
+| `src/` | Kode sumber pipeline terjemahan .NET 10, berisi 15 modul + 2 modul independen |
 | `config/` | File konfigurasi pipeline (parameter LLM, Steam, RAG, dll.) |
 | `data/` | Data runtime: metadata mod, embedding, cache terjemahan |
 | `translation_ref/` | Data terjemahan referensi (misalnya mod berlisensi dari Grup Hanhua), menyediakan referensi terjemahan untuk LLM |
@@ -110,48 +111,55 @@ Bagian ini ditujukan bagi pengembang yang ingin memahami prinsip otomatisasi pro
 
 ### Modul Pipeline (Berdasarkan Urutan Eksekusi)
 
-| 步骤 | 模块 | 功能 |
+| Langkah | Modul | Fungsi |
 |------|------|------|
-| 1 | `ConfigReader` | 加载配置/密钥/语言列表 |
-| 2 | `RepoDataLoader` | 加载参考翻译与翻译缓存 |
-| 3 | `ModIdCollector` | 收集 Workshop 模组 ID |
-| 4 | `ModInfoFetcher` | 获取 Steam 元数据 |
-| 5 | `SteamCmdBootstrapper` | 准备当前平台的 steamcmd 运行时 |
-| 6 | `ModDownloader` | 通过 steamcmd 下载模组 |
-| 7 | `ContentExtractor` | 解析模组翻译文件 → `TranslationEntry` |
-| 8 | `ContentChecker` | 内容安全审查 (毒品/色情/暴力) |
-| 9 | `EmbeddingFetcher` | 计算文本 embedding 向量 |
-| 10 | `TranslationBatcher` | 创建目标语言无关的翻译批次 |
-| 11 | `RagContextRetriever` | 检索 RAG 上下文 (精确键 + embedding 相似度) |
-| 12 | `LLMTranslator` | 调用 LLM 执行翻译 |
-| 13 | `ResultWriter` | 写入 data/ 与 translation_ref/ |
-| 14 | `FinalOutputWriter` | 生成最终 PZ 模组格式输出 |
-| 15 | `ProgressReporter` | 生成进度报告 |
+| 1 | `ConfigReader` | Memuat daftar konfigurasi/kunci/bahasa |
+| 2 | `RepoDataLoader` | Memuat referensi terjemahan dan cache terjemahan |
+| 3 | `ModIdCollector` | Mengumpulkan ID modul Workshop |
+| 4 | `ModInfoFetcher` | Mendapatkan metadata Steam |
+| 5 | `SteamCmdBootstrapper` | Menyiapkan runtime steamcmd untuk platform saat ini |
+| 6 | `ModDownloader` | Mengunduh modul melalui steamcmd |
+| 7 | `ContentExtractor` | Mengurai file terjemahan modul → `TranslationEntry` |
+| 8 | `ContentChecker` | Pemeriksaan keamanan konten (narkoba/pornografi/kekerasan) |
+| 9 | `EmbeddingFetcher` | Menghitung vektor embedding teks |
+| 10 | `TranslationBatcher` | Membuat batch terjemahan yang tidak tergantung bahasa target |
+| 11 | `RagContextRetriever` | Mengambil konteks RAG (kunci tepat + kemiripan embedding) |
+| 12 | `LLMTranslator` | Memanggil LLM untuk melakukan terjemahan |
+| 13 | `ResultWriter` | Menulis ke data/ dan translation_ref/ |
+| 14 | `FinalOutputWriter` | Menghasilkan output format modul PZ final |
+| 15 | `ProgressReporter` | Menghasilkan laporan kemajuan |
 
-### 技术栈
+### Modul Independen
 
-- **语言**: C# (.NET 10)
-- **目标平台**: GitHub Actions Linux x64 runner
-- **测试**: xUnit (Windows x64)
-- **LLM**: DeepSeek API (可配置)
-- **Embedding**: 文本向量化用于 RAG 相似检索
-- **内容审查**: LLM 驱动的多级安全审核
+| Modul | Fungsi |
+|------|------|
+| `WorkshopMonitor` | Secara berkala mengambil modul baru dari Steam Workshop, menyaring berdasarkan jumlah langganan, dan menambahkannya ke `request_for_translation.txt` |
+| `DocGenerator` | Pembuat dokumen multibahasa yang digerakkan oleh LLM |
 
-详细的 [技术参考](./docs/technical_reference/technical_reference_id.md)。
+### Tumpukan Teknologi
+
+- **Bahasa**: C# (.NET 10)
+- **Platform target**: GitHub Actions Linux x64 runner
+- **Pengujian**: xUnit (Windows x64)
+- **LLM**: DeepSeek API (dapat dikonfigurasi)
+- **Embedding**: Vektorisasi teks untuk pencarian kemiripan RAG
+- **Pemeriksaan konten**: Audit keamanan multi-level yang digerakkan oleh LLM
+
+Rincian [referensi teknis](./docs/technical_reference/technical_reference_id.md).
 
 ---
 
-## 版权与授权
+## Hak Cipta dan Lisensi
 
-本翻译项目的翻译文本内容与相关图片，由 **Project Babel** 与各参与者基于原游戏模组创作或二次创作完成。
+Konten teks terjemahan dan gambar terkait dari proyek terjemahan ini dibuat atau dibuat ulang oleh **Project Babel** dan para peserta berdasarkan mod game asli.
 
-© 2025 Project Babel 及各作者保留权利。
+© 2025 Project Babel dan masing-masing penulis mempertahankan hak.
 
-### 1. 文本与图片等内容
+### 1. Teks dan gambar, dll.
 
-除非另有特别说明，本仓库中的：
+Kecuali dijelaskan lain, dalam repositori ini:
 
-- 游戏内文本翻译、润色与校对内容；
+- Terjemahan teks dalam game, penyempurnaan, dan konten proofreading;
 Project documentation, mod translation texts;
 Images and art resources specially produced for this project
 

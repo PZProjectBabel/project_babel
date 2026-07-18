@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Moduli indipendenti](#moduli-indipendenti)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Convenzioni sui dati](#4-convenzioni-sui-dati)
   - [4.1 Tipi principali](#41-tipi-principali)
     - [`TranslationEntry` — Voce di traduzione](#translationentry-voce-di-traduzione)
@@ -618,6 +621,8 @@ Questa mappatura è fornita da `translation_key_to_file_mapping` registrato nell
 
 4. **Scrittura atomica**: Tutti i file di output usano la strategia "scrivi temporaneo, poi sposta atomicamente" – prima scrivono `<filename>.tmp`, dopo il successo della scrittura sovrascrivono il file di destinazione tramite `File.Move`. Questo metodo assicura che, anche in caso di crash o interruzione di corrente durante la scrittura, i file esistenti non vengano danneggiati.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Funzione**: Calcola la copertura di traduzione per ciascuna lingua e genera rapporti di progresso multilingue, per consentire alla community di monitorare l'avanzamento delle traduzioni.
@@ -633,6 +638,36 @@ I rapporti di progresso sono generati in formato Markdown e archiviati nella dir
 - `untranslatable`: Numero di voci contrassegnate come intraducibili a causa del controllo dei contenuti.
 3. **Sostituisci i segnaposto**: sostituisci `{{PLACEHOLDER}}` nel template con i dati statistici effettivi.
 4. **Scrivi nel file**: scrivi il contenuto sostituito in `docs/progress/progress_<iso>.md`.
+
+---
+
+## Moduli indipendenti
+
+I seguenti moduli sono indipendenti dalla pipeline di traduzione e non si trovano in `TranslationPipeline.slnx`. Vengono attivati ciascuno tramite `dotnet run --project` o GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Funzione**: monitora periodicamente i nuovi mod pubblicati su Steam Workshop, filtrando automaticamente quelli con un alto numero di iscrizioni e aggiungendoli alla lista delle richieste di traduzione.
+
+**Modalità di esecuzione**: attivato periodicamente tramite GitHub Actions `.github/workflows/monitor-workshop.yml` (ogni giorno alle 00:00 ora di Pechino), oppure localmente con `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Flusso di lavoro**:
+1. **Recupero elenco**: scarica in modo paginato gli ID dei mod con il tag Build 42 (esclusi i tag Language/Translation) dalla pagina "più recenti" di Steam Workshop.
+2. **Analisi timestamp**: interroga in batch l'API Web di Steam per ottenere la data di pubblicazione di ogni mod, confrontandola con l'ora dell'ultima esecuzione in cache per identificare i nuovi mod.
+3. **Filtraggio iscrizioni**: interroga nuovamente l'API Steam per ottenere il numero di iscrizioni di tutti i mod in cache, selezionando quelli sopra la soglia (500).
+4. **Unione output**: unisce gli ID dei mod filtrati (rimuovendo duplicati) in `config/request_for_translation.txt`, per essere consumati da `ModIdCollector` della pipeline.
+
+**Parametri hardcoded**: AppId=108600, MinSubs=500, SafetyPages=5 (pagine extra oltre il timestamp dell'ultima esecuzione), PageSize=30, Lookback=48h.
+
+**Formato cache**: `data/monitor_cache.bin` — file binario compresso con Zstd, sequenza di int64 little-endian: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Condivide lo schema di compressione `ZstdSharp` con `BinaryEmbeddingSerializer`.
+
+**Lettura chiave**: la chiave API Steam viene letta dal campo `STEAM_KEY` in `config/secrets.json`, oppure dalle variabili d'ambiente `STEAM_KEY` / `STEAM_API_KEY` (stessa modalità di `ConfigReader`).
+
+### DocGenerator
+
+**Funzione**: generatore di documentazione multilingua basato su LLM, che produce README, guide per contribuire e documenti tecnici di riferimento in varie lingue a partire da template in cinese.
+
+**Modalità di esecuzione**: progetto indipendente `src/DocGenerator/DocGenerator.csproj`, eseguito tramite `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 

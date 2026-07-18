@@ -91,7 +91,7 @@ Bajo tu autorización, el proyecto incluirá tu mod en la lista de mods de tradu
 
 La automatización de este proyecto se divide en dos partes:
 
-**Módulos del pipeline (`src/`, C# / .NET 10)**: Contiene 15 módulos que se ejecutan en orden, encargados de todo el proceso desde la inicialización de SteamCMD, descarga de mods, extracción de texto, revisión de contenido, cálculo de embeddings, recuperación RAG hasta la traducción LLM y la salida final. Consulte [referencia técnica](../technical_reference/technical_reference_es.md).
+**Módulo de canalización (`src/`, C# / .NET 10)**: Contiene 15 módulos ejecutados en orden, más 2 módulos independientes (`WorkshopMonitor` descubridor de mods, `DocGenerator` generador de documentos), que se encargan del proceso completo desde la inicialización de SteamCMD, descarga de mods, extracción de texto, revisión de contenido, cálculo de Embedding, búsqueda RAG hasta la traducción LLM y la salida final. Consulte [Referencia técnica](../technical_reference/technical_reference_es.md).
 
 **Scripts auxiliares (.github/)**: Se utilizan para la automatización de GitHub.
 
@@ -108,7 +108,7 @@ Puedes seguir los siguientes pasos:
 2. Crea una nueva rama basada en la rama más reciente;
 3. Modifica o añade archivos en el directorio correspondiente:
 - Modificación del módulo del pipeline → `src/<nombre_módulo>/`;
-- Modificación de scripts → `scripts/`;
+- Modificaciones de flujo de trabajo de CI → `.github/workflows/`;
 - Modificación de plantillas de prompt → `src/prompt_templates/`;
 4. Antes de enviar, intenta:
 

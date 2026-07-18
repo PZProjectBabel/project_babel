@@ -91,7 +91,7 @@ Amb la vostra autorització, el projecte inclourà el vostre mod a la llista de 
 
 L'automatització d'aquest projecte es divideix en dues parts:
 
-**Mòdul de canalització (`src/`, C# / .NET 10)**: conté 15 mòduls executats seqüencialment, responsables de tot el procés des de la inicialització de SteamCMD, descàrrega de mods, extracció de text, revisió de contingut, càlcul d'Embedding, recuperació RAG fins a la traducció LLM i la sortida final. Vegeu [Referència tècnica](../technical_reference/technical_reference_ca.md).
+**Mòdul de pipeline (`src/`, C# / .NET 10)**: conté 15 mòduls executats en seqüència, més 2 mòduls independents (`WorkshopMonitor` descobridor de mods, `DocGenerator` generador de documentació), que s'encarreguen del flux complet des de la inicialització de SteamCMD, descàrrega de mods, extracció de text, revisió de contingut, càlcul d'Embedding, recuperació RAG fins a la traducció LLM i la sortida final. Vegeu [Referència tècnica](../technical_reference/technical_reference_ca.md).
 
 **Scripts auxiliars (.github/)**: utilitzats per a l'automatització de GitHub.
 
@@ -108,7 +108,7 @@ Podeu seguir els següents passos:
 2. Creeu una nova branca basada en la branca més recent;
 3. Modifiqueu o afegiu fitxers al directori corresponent:
 - Modificació de mòdul de canalització → `src/<nom_del_mòdul>/`;
-- Modificació de script → `scripts/`;
+- Modificació del flux de treball CI → `.github/workflows/`;
 - Modificació de plantilla de prompt → `src/prompt_templates/`;
 4. Abans d'enviar, si us plau, intenteu:
 

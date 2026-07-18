@@ -17,6 +17,7 @@
 - [Tools and Directory Structure (For Developers)](#tools-and-directory-structure-for-developers)
   - [Project Directory](#project-directory)
   - [Pipeline Modules (In Execution Order)](#pipeline-modules-in-execution-order)
+  - [Independent Modules](#independent-modules)
   - [Tech Stack](#tech-stack)
 - [Copyright and License](#copyright-and-license)
   - [1. Text and Images etc.](#1-text-and-images-etc)
@@ -98,7 +99,7 @@ This section is for developers who wish to understand the automation principles 
 
 | Directory | Description |
 |------|------|
-| `src/` | .NET 10 translation pipeline source code, containing 15 modules |
+| `src/` | .NET 10 translation pipeline source code, with 15 modules + 2 standalone modules |
 | `config/` | Pipeline configuration files (LLM, Steam, RAG parameters, etc.) |
 | `data/` | Runtime data: mod metadata, embeddings, translation cache |
 | `translation_ref/` | Reference translation data (e.g., authorized mods from As1 Chinese Translation Group), providing translation references for LLM |
@@ -127,6 +128,13 @@ This section is for developers who wish to understand the automation principles 
 | 13 | `ResultWriter` | Write to data/ and translation_ref/ |
 | 14 | `FinalOutputWriter` | Generate final PZ mod format output |
 | 15 | `ProgressReporter` | Generate progress report |
+
+### Independent Modules
+
+| Module | Function |
+|------|------|
+| `WorkshopMonitor` | Regularly fetch new mods from Steam Workshop, filter by subscription count and include into `request_for_translation.txt` |
+| `DocGenerator` | LLM-driven multilingual document generator |
 
 ### Tech Stack
 

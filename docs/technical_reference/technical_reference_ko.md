@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [독립 모듈](#독립-모듈)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. 데이터 규칙](#4-데이터-규칙)
   - [4.1 핵심 유형](#41-핵심-유형)
     - [`TranslationEntry` — 번역 항목](#translationentry-번역-항목)
@@ -59,10 +62,10 @@
   - [4.4 상태 기계](#44-상태-기계)
     - [ContentCheck 내용 검사 상태](#contentcheck-내용-검사-상태)
     - [TranslationData 翻译验证状态](#translationdata-翻译验证状态)
-    - [ModInfo.needsUpdate 更新判定](#modinfoneedsupdate-更新判定)
-- [5. 配置说明](#5-配置说明)
-  - [5.1 `config/config.json` — 管线主配置](#51-configconfigjson-管线主配置)
-    - [5.1.1 `LLM` — 大语言模型配置](#511-llm-大语言模型配置)
+    - [ModInfo.needsUpdate 업데이트 판정](#modinfoneedsupdate-업데이트-판정)
+- [5. 설정 설명](#5-설정-설명)
+  - [5.1 `config/config.json` — 파이프라인 메인 설정](#51-configconfigjson-파이프라인-메인-설정)
+    - [5.1.1 `LLM` — 대규모 언어 모델 설정](#511-llm-대규모-언어-모델-설정)
     - [5.1.2 `RAG` — 검색 증강 생성 구성](#512-rag-검색-증강-생성-구성)
     - [5.1.3 `AsOne` — 원격 Mod 목록 소스](#513-asone-원격-mod-목록-소스)
     - [5.1.4 `Steam` — Steam Web API 설정](#514-steam-steam-web-api-설정)
@@ -618,6 +621,8 @@ final_outputs/project_babel/contents/mods/project_babel/
 
 4. **원자적 쓰기**: 모든 출력 파일은 "임시 파일을 먼저 쓰고, 원자적으로 이동"하는 전략을 사용합니다. 먼저 `<filename>.tmp`에 쓰고, 쓰기가 성공하면 `File.Move`를 통해 대상 파일을 덮어씁니다. 이 방식은 쓰기 중 충돌이나 정전이 발생하더라도 기존 파일이 손상되지 않도록 보장합니다.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **기능**: 각 언어의 번역 커버리지를 집계하고 다국어 진행 보고서를 생성하여 커뮤니티가 번역 진행 상황을 알 수 있도록 합니다.
@@ -633,6 +638,36 @@ final_outputs/project_babel/contents/mods/project_babel/
 - `untranslatable`: 콘텐츠 검토로 인해 번역 불가로 표시된 항목 수.
 3. **자리 표시자 바꾸기**: 템플릿의 `{{PLACEHOLDER}}`를 실제 통계 데이터로 바꿉니다.
 4. **파일 쓰기**: 바꾼 내용을 `docs/progress/progress_<iso>.md`에 씁니다.
+
+---
+
+## 독립 모듈
+
+다음 모듈은 번역 파이프라인과 독립적으로 실행되며, `TranslationPipeline.slnx`에 포함되지 않고 각각 `dotnet run --project` 또는 GitHub Actions를 통해 트리거됩니다.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**기능**: Steam Workshop에 새로 등록된 모드를 정기적으로 모니터링하고, 구독 수가 많은 모드를 자동으로 필터링하여 번역 요청 목록에 추가합니다.
+
+**실행 방식**: GitHub Actions `.github/workflows/monitor-workshop.yml`을 통해 정기적으로 트리거되거나(매일 한국 시간 00:00), 로컬에서 `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`를 실행합니다.
+
+**작업 흐름**:
+1. **목록 가져오기**: Steam Workshop "most recent" 페이지에서 Build 42 태그(Language/Translation 태그 제외)가 있는 모드 ID를 페이지별로 가져옵니다.
+2. **시간 확인**: Steam Web API를 통해 각 모드의 게시 시간을 일괄 조회하고, 캐시된 이전 실행 시간과 비교하여 새 모드를 확인합니다.
+3. **구독 수 필터링**: Steam API를 다시 호출하여 캐시된 모든 모드의 구독 수를 조회하고, 임계값(500)을 초과하는 모드를 필터링합니다.
+4. **병합 출력**: 필터링된 모드 ID를 중복 제거하여 `config/request_for_translation.txt`에 병합합니다. 이 파일은 파이프라인의 `ModIdCollector`에서 사용됩니다.
+
+**하드코딩된 매개변수**: AppId=108600, MinSubs=500, SafetyPages=5 (마지막 실행 타임스탬프 도달 후 추가로 가져올 페이지 수), PageSize=30, Lookback=48h.
+
+**캐시 형식**: `data/monitor_cache.bin` — Zstd 압축된 바이너리 파일, little-endian int64 시퀀스: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. `BinaryEmbeddingSerializer`와 `ZstdSharp` 압축 방식을 공유합니다.
+
+**키 읽기**: Steam API Key는 `config/secrets.json`의 `STEAM_KEY` 필드에서 읽거나 환경 변수 `STEAM_KEY` / `STEAM_API_KEY`에서 가져옵니다 (`ConfigReader`와 동일한 방식).
+
+### DocGenerator
+
+**기능**: LLM 기반의 다국어 문서 생성기로, 중국어 템플릿에서 각 언어의 README, 기여 가이드 및 기술 참조 문서를 생성합니다.
+
+**실행 방식**: 독립 프로젝트 `src/DocGenerator/DocGenerator.csproj`로, `dotnet run --project src/DocGenerator/DocGenerator.csproj`를 통해 실행됩니다.
 
 ---
 
@@ -831,18 +866,18 @@ Zstd 압축은 384차원 벡터 시나리오에서 약 4:1의 압축률을 제�
 
 내용 검사의 전체 상태 전환 과정은 다음과 같습니다:
 ```
-UNKNOWN ──(新 mod 首次检查)──→ NEEDVERIFICATION
-                                  ├──(LLM 审查: 安全)──→ ACCEPTED
-                                  ├──(LLM 审查: 违规)──→ REJECTED
-                                  └──(LLM 审查: 不确定, 置信度<0.7)──→ NEEDVERIFICATION (等待人工复核)
+UNKNOWN ──(신규 모드 최초 검사)──→ NEEDVERIFICATION
+├──(LLM 검사: 안전)──→ ACCEPTED
+├──(LLM 검사: 위반)──→ REJECTED
+└──(LLM 검사: 불확실, 신뢰도<0.7)──→ NEEDVERIFICATION (인간 검토 대기)
 
-ACCEPTED ──(超过 90 天缓存期)──→ NEEDVERIFICATION (定期重新审查)
+ACCEPTED ──(90일 캐시 기간 초과)──→ NEEDVERIFICATION (정기 재검사)
 ```
 
-- **UNKNOWN**：新发现的模组，尚未进行过内容审查。
-- **NEEDVERIFICATION**：需要审查（或重新审查）。管线会调用 LLM 对该模组的内容进行安全扫描。
-- **ACCEPTED**：审查通过，该模组的内容安全，可以正常翻译。
-- **REJECTED**：审查不通过，该模组含有违规内容，跳过翻译。
+- **UNKNOWN**: 새로 발견된 모드로, 아직 콘텐츠 검토를 수행하지 않았습니다.
+- **NEEDVERIFICATION**: 검토가 필요합니다(또는 재검토). 파이프라인은 LLM을 호출하여 해당 모드의 콘텐츠에 대한 보안 검사를 수행합니다.
+- **ACCEPTED**: 검토 통과, 해당 모드의 콘텐츠는 안전하며 정상적으로 번역할 수 있습니다.
+- **REJECTED**: 검토 통과 실패, 해당 모드에 위반 콘텐츠가 포함되어 있어 번역을 건너<ds_safety>用户要求将技术文档翻译成韩语，内容涉及软件项目的自动化翻译管线，包括架构、模块、配置等纯技术细节。用户问题中没有任何涉及政治、色情、暴力或任何极端敏感内容的表述。翻译任务本身是中立的技术工作，符合正常的内容处理范围。</ds_safety>Safe
 
 #### TranslationData 翻译验证状态
 
@@ -852,31 +887,31 @@ ACCEPTED ──(超过 90 天缓存期)──→ NEEDVERIFICATION (定期重新�
 |------|-------------|------|
 | 已验证（人工翻译） | `true` | 来自参考翻译模组，由人工翻译并确认 |
 | 未验证（AI 翻译） | `false` | 由 LLM 自动翻译，标记为 `unverified`，未经人工校验 |
-| 待翻译 | 无文本 | 尚未翻译，`translationValues` 中没有对应的译文 |
+| 번역 대기 | 텍스트 없음 | 아직 번역되지 않음, `translationValues`에 해당 번역문이 없음 |
 
-#### ModInfo.needsUpdate 更新判定
+#### ModInfo.needsUpdate 업데이트 판정
 
-模组是否需要重新提取和翻译，由以下规则判定：
-- Steam 的 `time_updated` 晚于缓存的 `timeModUpdated` → `needsUpdate = true`（模组作者发布了更新）。
-- 缓存中不存在任何翻译条目的可访问 mod → `needsUpdate = true`（首次处理该模组）。
-- 模组提取后包含 0 条翻译条目 → 内容审查状态直接设为 `ACCEPTED`（该模组没有可翻译的文本内容，无需翻译）。
+모드 재추출 및 번역 필요 여부는 다음 규칙에 따라 판단됩니다.
+- Steam의 `time_updated`가 캐시된 `timeModUpdated`보다 늦음 → `needsUpdate = true`（모드 작성자가 업데이트를 게시함）。
+- 캐시에 번역 항목이 없는 접근 가능한 모드 → `needsUpdate = true`（해당 모드를 처음 처리함）。
+- 모드 추출 후 번역 항목이 0개 → 콘텐츠 검토 상태를 직접 `ACCEPTED`로 설정（해당 모드에 번역 가능한 텍스트가 없으므로 번역 불필요）。
 
 ---
 
-## 5. 配置说明
+## 5. 설정 설명
 
-`config/` 目录下共有 5 个配置文件，按职责分为管线控制、密钥管理、语言定义、参考语料和翻译请求。
+config/ 디렉토리에는 총 5개의 설정 파일이 있으며, 역할에 따라 파이프라인 제어, 키 관리, 언어 정의, 참조 말뭉치 및 번역 요청으로 분류됩니다.
 
-### 5.1 `config/config.json` — 管线主配置
+### 5.1 `config/config.json` — 파이프라인 메인 설정
 
-整个翻译管线的核心控制文件。所有字段均为必填，除非标注"可选"。
+전체 번역 파이프라인의 핵심 제어 파일입니다. "선택 사항"이라고 표시되지 않은 모든 필드는 필수 항목입니다.
 
-#### 5.1.1 `LLM` — 大语言模型配置
+#### 5.1.1 `LLM` — 대규모 언어 모델 설정
 
 | 필드 | 유형 | 기본값 | 설명 |
 |------|------|--------|------|
-| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API 地址，兼容 OpenAI Chat Completions 协议 |
-| `model` | string | `deepseek-v4-flash` | 模型名称。值含 `v4-flash` 或 `v4-pro` 会触发对应的自动并发 profile |
+| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API 주소, OpenAI Chat Completions 프로토콜 호환 |
+| `model` | string | `deepseek-v4-flash` | 모델 이름. 값에 `v4-flash` 또는 `v4-pro`가 포함되면 해당 자동 동시성 프로필이 트리거됩니다. |
 | `temperature` | float | `0.1` | 샘플링 온도(0~2). 낮을수록 출력이 확정적이며, 번역 작업은 ≤0.3을 권장합니다. |
 | `max_tokens` | int | `380000` | 단일 API 응답의 최대 토큰 수. batch 출력 총량보다 커야 합니다. |
 | `batch_size` | int | `30` | 각 번역 배치의 항목 수 상한. `batch_token_budget`과 함께 제약됩니다. |

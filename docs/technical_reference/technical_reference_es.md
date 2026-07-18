@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Módulos independientes](#módulos-independientes)
+  - [Monitor de Taller (`WorkshopMonitorService`)](#monitor-de-taller-workshopmonitorservice)
+  - [Generador de Documentos](#generador-de-documentos)
 - [4. Convenciones de datos](#4-convenciones-de-datos)
   - [4.1 Tipos principales](#41-tipos-principales)
     - [`TranslationEntry` — Entrada de traducción](#translationentry-entrada-de-traducción)
@@ -618,6 +621,8 @@ Esta relación de mapeo es proporcionada por `translation_key_to_file_mapping` r
 
 4. **Escritura atómica**: Todos los archivos de salida adoptan la estrategia de "escribir primero un archivo temporal, luego mover atómicamente" — primero se escribe `<filename>.tmp`, y después de una escritura exitosa, se sobrescribe el archivo de destino mediante `File.Move`. Este método asegura que incluso si ocurre un bloqueo o corte de energía durante la escritura, los archivos existentes no se dañen.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Función**: Estadísticas de cobertura de traducción por idioma y generación de informes de progreso multilingüe, para que la comunidad pueda conocer el avance de la traducción.
@@ -633,6 +638,36 @@ Los informes de progreso se generan en formato Markdown y se almacenan en el dir
 - `untranslatable`: Número de entradas marcadas como intraducibles debido a la revisión de contenido.
 3. **Reemplazar marcadores de posición**: Reemplazar `{{PLACEHOLDER}}` en la plantilla con los datos estadísticos reales.
 4. **Escribir archivo**: Escribir el contenido reemplazado en `docs/progress/progress_<iso>.md`.
+
+---
+
+## Módulos independientes
+
+Los siguientes módulos se ejecutan independientemente del pipeline de traducción, no están en `TranslationPipeline.slnx` y se activan mediante `dotnet run --project` o GitHub Actions.
+
+### Monitor de Taller (`WorkshopMonitorService`)
+
+**Función**: Monitorear periódicamente los nuevos mods publicados en Steam Workshop, filtrar automáticamente los mods con alto número de suscripciones y agregarlos a la lista de solicitudes de traducción.
+
+**Modo de ejecución**: Se activa periódicamente a través de GitHub Actions `.github/workflows/monitor-workshop.yml` (a las 00:00 hora de Pekín), o localmente con `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Flujo de trabajo**:
+1. **Obtener lista**: Obtener por páginas los IDs de mods de la página "most recent" de Steam Workshop con la etiqueta Build 42 (excluyendo las etiquetas Language/Translation).
+2. **Analizar tiempo**: Consultar por lote la hora de publicación de cada mod a través de Steam Web API, comparar con la hora de la última ejecución en caché para determinar los mods nuevos.
+3. **Filtrar por suscripciones**: Llamar nuevamente a Steam API para consultar el número de suscripciones de todos los mods en caché y filtrar aquellos que superen el umbral (500).
+4. **Combinar y generar**: Fusionar los IDs de mods filtrados (eliminando duplicados) en `config/request_for_translation.txt` para que `ModIdCollector` del pipeline los consuma.
+
+**Parámetros codificados**: AppId=108600, MinSubs=500, SafetyPages=5 (páginas adicionales después de alcanzar la última marca de tiempo), PageSize=30, Lookback=48h.
+
+**Formato de caché**: `data/monitor_cache.bin` — archivo binario comprimido con Zstd, secuencia little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Comparte el esquema de compresión `ZstdSharp` con `BinaryEmbeddingSerializer`.
+
+**Lectura de clave**: La clave de Steam API se lee del campo `STEAM_KEY` en `config/secrets.json`, o de las variables de entorno `STEAM_KEY` / `STEAM_API_KEY` (mismo modo que `ConfigReader`).
+
+### Generador de Documentos
+
+**Función**: Generador de documentación multilingüe impulsado por LLM, que genera README, guías de contribución y documentos de referencia técnica en varios idiomas a partir de plantillas en chino.
+
+**Modo de ejecución**: Proyecto independiente `src/DocGenerator/DocGenerator.csproj`, ejecutado mediante `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 
@@ -1048,9 +1083,9 @@ Lista de IDs de Mod especificados manualmente para traducir.
 | Deduplicación | Al fusionarse con la lista remota de AsOne, los IDs existentes no se agregan de nuevo |
 | Codificación | UTF-8 sin BOM |
 
-**示例**:
+**Ejemplo**:
 ```
-# 热门模组
+# Módulos populares
 2969343830
 3000924731
 

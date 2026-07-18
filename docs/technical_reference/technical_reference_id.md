@@ -20,10 +20,10 @@
 - [1. Arsitektur Sistem](#1-arsitektur-sistem)
   - [Arsitektur Keseluruhan](#arsitektur-keseluruhan)
   - [Dua Fase Pemrosesan](#dua-fase-pemrosesan)
-  - [核心数据流](#核心数据流)
-- [2. 管线工作流程](#2-管线工作流程)
-  - [Phase 1: 配置加载与 SteamCMD 初始化](#phase-1-配置加载与-steamcmd-初始化)
-  - [Phase 2: 参考翻译同步 (Steps 2-3)](#phase-2-参考翻译同步-steps-2-3)
+  - [Aliran Data Inti](#aliran-data-inti)
+- [2. Alur Kerja Pipeline](#2-alur-kerja-pipeline)
+  - [Fase 1: Memuat Konfigurasi dan Inisialisasi SteamCMD](#fase-1-memuat-konfigurasi-dan-inisialisasi-steamcmd)
+  - [Fase 2: Sinkronisasi Terjemahan Referensi (Langkah 2-3)](#fase-2-sinkronisasi-terjemahan-referensi-langkah-2-3)
   - [Fase 3: Siklus Terjemahan Utama (Langkah 4-14)](#fase-3-siklus-terjemahan-utama-langkah-4-14)
   - [Fase 4: Output dan Laporan (Langkah 15-20)](#fase-4-output-dan-laporan-langkah-15-20)
 - [3. Prinsip Modul dan Detail Teknis](#3-prinsip-modul-dan-detail-teknis)
@@ -42,12 +42,15 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Modul Independen](#modul-independen)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Konvensi Data](#4-konvensi-data)
   - [4.1 Tipe Inti](#41-tipe-inti)
     - [`TranslationEntry` — Entri Terjemahan](#translationentry-entri-terjemahan)
     - [`TranslationData` — Data Terjemahan](#translationdata-data-terjemahan)
     - [`ModInfo` — Metadata Mod](#modinfo-metadata-mod)
-    - [`TranslationBatch` — 翻译批次](#translationbatch-翻译批次)
+    - [`TranslationBatch` — Batch terjemahan](#translationbatch-batch-terjemahan)
     - [`LangInfoData` — Informasi Bahasa](#langinfodata-informasi-bahasa)
   - [4.2 Format File](#42-format-file)
     - [Ekstraksi Output (Hasil ContentExtractor)](#ekstraksi-output-hasil-contentextractor)
@@ -74,7 +77,7 @@
   - [5.2 `config/secrets.json` — Konfigurasi Kunci Rahasia](#52-configsecretsjson-konfigurasi-kunci-rahasia)
   - [5.3 `config/supported_languages.json` — Daftar Bahasa yang Didukung](#53-configsupported_languagesjson-daftar-bahasa-yang-didukung)
   - [5.4 `config/ref_translation_mods.json` — 参考翻译模组](#54-configref_translation_modsjson-参考翻译模组)
-  - [5.5 `config/request_for_translation.txt` — 本地翻译请求](#55-configrequest_for_translationtxt-本地翻译请求)
+  - [5.5 `config/request_for_translation.txt` — Permintaan terjemahan lokal](#55-configrequest_for_translationtxt-permintaan-terjemahan-lokal)
   - [5.6 Alur Muat Konfigurasi](#56-alur-muat-konfigurasi)
 - [6. Struktur Direktori](#6-struktur-direktori)
 - [7. Cara Menjalankan](#7-cara-menjalankan)
@@ -161,50 +164,50 @@ Pipa saluran mengandung dua jalur pemrosesan paralel, masing-masing melayani tuj
 
 Kedua jalur akhirnya bergabung ke `ResultWriter` dan `FinalOutputWriter`, menghasilkan file distribusi secara seragam.
 
-这种分离设计的优势在于：参考翻译模组通常由人工精心翻译，应当独立维护且优先同步；而主翻译循环处理的是待 AI 翻译的大批量模组。两者的变更频率和处理逻辑不同，分开管理可以避免相互干扰。
+Keuntungan dari desain pemisahan ini adalah: modul referensi terjemahan biasanya diterjemahkan secara manual dengan kualitas tinggi, sehingga harus dipelihara secara independen dan disinkronkan terlebih dahulu; sementara siklus terjemahan utama menangani sejumlah besar modul yang akan diterjemahkan oleh AI. Frekuensi perubahan dan logika pemrosesan keduanya berbeda, mengelolanya secara terpisah dapat menghindari gangguan satu sama lain.
 
-### 核心数据流
+### Aliran Data Inti
 
-从宏观视角看，数据在管线中的流转路径如下：
+Dari perspektif makro, jalur aliran data dalam pipeline adalah sebagai berikut:
 ```
 config.json / secrets.json
-    → Mod ID 收集（AsOne 社区 + 本地请求）
-    → Steam 元数据查询（名称、作者、更新时间等）
-    → steamcmd 下载模组文件
-    → 文本提取（解析为 TranslationEntry 对象）
-    → 内容安全审查（过滤违规内容）
-    → 向量嵌入计算（为 RAG 检索做准备）
-    → 批次打包（TranslationBatch，含 token 预算控制）
-    → RAG 相似度检索（匹配参考翻译作为上下文）
-    → LLM 翻译（调用大语言模型生成译文）
-    → 结果写回缓存（data/translations/）
-    → 最终输出（final_outputs/project_babel/）
+→ Pengumpulan ID Mod (komunitas AsOne + permintaan lokal)
+→ Kueri metadata Steam (nama, pembuat, waktu pembaruan, dll.)
+→ steamcmd mengunduh file modul
+→ Ekstraksi teks (diurai menjadi objek TranslationEntry)
+→ Pemeriksaan keamanan konten (memfilter konten yang melanggar)
+→ Perhitungan embedding vektor (persiapan untuk pencarian RAG)
+→ Pengemasan batch (TranslationBatch, dengan kontrol anggaran token)
+→ Pencarian kemiripan RAG (mencocokkan terjemahan referensi sebagai konteks)
+→ Terjemahan LLM (memanggil model bahasa besar untuk menghasilkan terjemahan)
+→ Menulis hasil kembali ke cache (data/translations/)
+→ Output akhir (final_outputs/project_babel/)
 ```
 
-每一步的输出是下一步的输入，形成一条完整的"数据加工流水线"。管线中的每个模块都会在第 3 节中详细展开。
+Output setiap langkah adalah input langkah berikutnya, membentuk "jalur pemrosesan data" yang lengkap. Setiap modul dalam pipeline akan dijelaskan secara rinci di Bagian 3.
 
 ---
 
-## 2. 管线工作流程
+## 2. Alur Kerja Pipeline
 
-管线的全部逻辑由 `Program.cs` 中的 `PipelineRunner.RunAsync()` 方法统一编排，共包含约 20 多个处理步骤。为了便于理解，我们将这些步骤按职责划分为四个阶段。下面逐一说明每个阶段的工作内容和设计意图。
+Seluruh logika pipeline diatur secara terpadu oleh metode `PipelineRunner.RunAsync()` dalam `Program.cs`, yang mencakup lebih dari 20 langkah pemrosesan. Untuk memudahkan pemahaman, kami membagi langkah-langkah ini menjadi empat fase berdasarkan tanggung jawab. Berikut ini akan dijelaskan satu per satu konten kerja dan maksud desain setiap fase.
 
-### Phase 1: 配置加载与 SteamCMD 初始化
+### Fase 1: Memuat Konfigurasi dan Inisialisasi SteamCMD
 
-一切工作的起点是加载和校验配置文件。这一阶段虽然简单，却是整个管线稳定运行的基础——任何配置错误都应尽早发现、立即终止，避免浪费计算资源。
+Titik awal dari segala sesuatu adalah memuat dan memvalidasi file konfigurasi. Meskipun fase ini sederhana, ini adalah fondasi untuk operasi pipeline yang stabil—kesalahan konfigurasi apa pun harus ditemukan sedini mungkin dan dihentikan segera untuk menghindari pemborosan sumber daya komputasi.
 
-- `ConfigReader.LoadConfig()` 负责读取 `config/config.json`（管线参数）和 `config/secrets.json`（敏感密钥）。
-- 加载完成后立即校验所有必填项：如果 LLM API Key 为空，说明无法调用翻译服务，此时直接调用 `Environment.Exit(1)` 终止进程，避免进入后续无意义的处理步骤。
-- 同时解析 `config/supported_languages.json`，将 27 种语言的定义加载为 `List<LangInfoData>`，供后续所有模块查询语言代码映射。
-- `SteamCmdBootstrapper` 随后准备下载器所需的运行时：Linux 下载并解压官方 `steamcmd_linux.tar.gz`；Windows 原地执行仓库中已存在的 `src/3rd_party/steamcmd/steamcmd.exe +quit` 自更新，缺失该可执行文件会立即失败。
+- `ConfigReader.LoadConfig()` bertanggung jawab membaca `config/config.json` (parameter pipeline) dan `config/secrets.json` (kunci sensitif).
+- Setelah pemuatan selesai, segera validasi semua item wajib: jika LLM API Key kosong, berarti layanan terjemahan tidak dapat dipanggil, pada saat itu langsung panggil `Environment.Exit(1)` untuk menghentikan proses, menghindari masuk ke langkah pemrosesan berikutnya yang tidak berguna.
+- Pada saat yang sama, parsing `config/supported_languages.json` untuk memuat definisi 27 bahasa sebagai `List<LangInfoData>`, yang akan digunakan oleh semua modul selanjutnya untuk memeriksa pemetaan kode bahasa.
+- `SteamCmdBootstrapper` kemudian menyiapkan runtime yang diperlukan oleh pengunduh: di Linux, unduh dan ekstrak `steamcmd_linux.tar.gz` resmi; di Windows, jalankan `src/3rd_party/steamcmd/steamcmd.exe +quit` yang sudah ada di repositori untuk memperbarui sendiri, jika file yang dapat dieksekusi tidak ada, maka akan langsung gagal.
 
-详细的配置字段说明请参见第 5 节。
+Penjelasan rinci tentang bidang konfigurasi dapat ditemukan di Bagian 5.
 
-### Phase 2: 参考翻译同步 (Steps 2-3)
+### Fase 2: Sinkronisasi Terjemahan Referensi (Langkah 2-3)
 
-在主翻译循环开始之前，管线会先同步**参考翻译**（Reference Translation）数据。
+Sebelum siklus terjemahan utama dimulai, pipeline akan menyinkronkan data **Terjemahan Referensi** (Reference Translation) terlebih dahulu.
 
-**什么是参考翻译？** 参考翻译是指由社区人工精心翻译的高质量汉化模组。这些模组的译文准确、术语统一，是宝贵的语料资源。管线不直接使用参考翻译的文本作为最终输出（那会侵犯原作者的权益），而是将其作为 RAG（检索增强生成）的知识库——当 LLM 翻译某个文本时，管线会从参考语料库中检索语义相似的翻译作为"参考样例"，帮助 LLM 理解上下文、统一术语风格，从而生成质量更高的译文。
+**Apa itu Terjemahan Referensi?** Terjemahan Referensi adalah modul terjemahan berkualitas tinggi yang diterjemahkan secara manual oleh komunitas. Terjemahan modul-modul ini akurat dan terminologinya seragam, menjadikannya sumber daya korpus yang berharga. Pipeline tidak langsung menggunakan teks terjemahan referensi sebagai output akhir (itu akan melanggar hak cipta pembuat asli), tetapi menggunakannya sebagai basis pengetahuan untuk RAG (Retrieval-Augmented Generation)—ketika LLM menerjemahkan suatu teks, pipeline akan mencari terjemahan yang mirip secara semantik dari korpus referensi sebagai "contoh referensi" untuk membantu LLM memahami konteks, menyatukan gaya terminologi, dan dengan demikian menghasilkan terjemahan yang lebih berkualitas.
 
 Langkah-langkah spesifik pada tahap ini:
 1. **Memuat cache**: `RepoDataLoader` memuat data referensi dari direktori `translation_ref/` yang disimpan dari eksekusi sebelumnya, termasuk metadata mod, entri terjemahan yang telah diekstrak, dan vektor embedding. Cache ini menghindari keharusan mengunduh dan mem-parsing semua mod referensi setiap kali dijalankan.
@@ -343,41 +346,41 @@ Mod Project Zomboid menyimpan teks terjemahan di direktori tertentu. Tugas `Cont
 <mod_root>/**/Translate/<game_code>/*.txt|*.json
 ```
 
-即在模组根目录下的任意深度，寻找 `Translate/<语言代码>/` 文件夹中的 `.txt` 或 `.json` 文件。
+Yaitu, pada kedalaman berapa pun di bawah direktori root modul, cari file `.txt` atau `.json` di folder `Translate/<kode_bahasa>/`.
 
-**语言代码映射**（游戏内代码 → ISO 标准代码）：
+**Pemetaan Kode Bahasa** (kode dalam game → kode standar ISO):
 
-| 游戏代码 | ISO | 语言 |
+| Kode Game | ISO | Bahasa |
 |----------|-----|------|
-| CN | zh-hans | 简体中文 |
-| CH | zh-hant | 繁體中文 |
-| EN | en | English |
-| JP | ja | 日本語 |
+| CN | zh-hans | Bahasa Tionghoa Sederhana |
+| CH | zh-hant | Bahasa Tionghoa Tradisional |
+| EN | en | Bahasa Inggris |
+| JP | ja | Bahasa Jepang |
 | ... | ... | ... |
 
-**TXT 解析（PZ Lua 格式）**：
-PZ 的传统翻译文件采用类似 Lua table 的格式。解析过程如下：
-1. **过滤非翻译文件**：跳过 `TranslationNotes`、`TranslationBy`、`Code - TXT`、`Credits`、`Language` 等元信息文件，这些文件不包含实际翻译内容。
-2. **定位主键（masterKey）**：用正则匹配如 `UI_NewCharScreen = {` 这样的块声明，提取出 masterKey。masterKey 是翻译键的第一部分，对应于 PZ 游戏中的 UI 模块名称。
-3. **逐行解析**：在每个 masterKey 块内，按 `key = "value"` 的格式解析每一条翻译。完整的 translationKey 由 `masterKey_key` 拼接而成（如 `UI_NewCharScreen_Start`）。
-4. **字符串拼接**：PZ 的 Lua 文件支持 `..` 运算符进行字符串拼接（如 `"Hello " .. "World"`），解析器会计算拼接结果。
-5. **JSON 风格兼容**：部分模组在 TXT 文件中混用 JSON 风格的 `"key": "value"` 写法，解析器同样支持。
-6. **异常处理**：无法解析的行会写入 `fuck.txt` 日志文件，供人工排查和修复解析器 bug。
+**Penguraian TXT (Format Lua PZ)**：
+Berkas terjemahan tradisional PZ menggunakan format mirip tabel Lua. Proses penguraiannya sebagai berikut:
+1. **Menyaring file non-terjemahan**: Lewati file meta-informasi seperti `TranslationNotes`, `TranslationBy`, `Code - TXT`, `Credits`, `Language`, dll., yang tidak berisi konten terjemahan sebenarnya.
+2. **Menemukan kunci utama (masterKey)**: Gunakan regex untuk mencocokkan deklarasi blok seperti `UI_NewCharScreen = {`, ekstrak masterKey. masterKey adalah bagian pertama dari kunci terjemahan, sesuai dengan nama modul UI dalam game PZ.
+3. **Mengurai baris demi baris**: Di dalam setiap blok masterKey, urai setiap terjemahan dengan format `key = "value"`. translationKey lengkap digabungkan dari `masterKey_key` (misalnya `UI_NewCharScreen_Start`).
+4. **Penggabungan string**: File Lua PZ mendukung operator `..` untuk penggabungan string (mis. `"Hello " .. "World"`), parser akan menghitung hasil penggabungan.
+5. **Kompatibilitas gaya JSON**: Beberapa mod menggunakan penulisan gaya JSON `"key": "value"` di file TXT, parser juga mendukungnya.
+6. **Penanganan pengecualian**: Baris yang tidak dapat diurai akan ditulis ke file log `fuck.txt`, untuk penelusuran dan perbaikan bug parser secara manual.
 
-**JSON 解析**：
-PZ 的新版本（Build 42+）开始支持 JSON 格式的翻译文件。解析器会递归展开嵌套的 JSON 对象，将其扁平化为扁平的 key-value 对。同时兼容尾逗号和注释等非标准 JSON 语法，以应对模组作者的各种写法。
+**Penguraian JSON**：
+Versi baru PZ (Build 42+) mulai mendukung file terjemahan format JSON. Parser akan membuka objek JSON bersarang secara rekursif, meratakannya menjadi pasangan key-value datar. Juga kompatibel dengan sintaks JSON non-standar seperti koma di akhir dan komentar, untuk mengatasi berbagai gaya penulisan pembuat mod.
 
-**合并规则**：
-当同一个翻译键在多个文件中出现时（例如同一模组同时提供了 42 版本和 42.19 版本的翻译文件），需要决定保留哪一个。规则如下：
-- **格式优先级**：JSON 覆盖 TXT。原因在于 JSON 是 PZ 的新标准格式，应优先采用。内部用 `SourceKind` 枚举区分（JSON = 1, TXT = 0）。
-- **版本优先级**：同种格式下，保留游戏版本号最高的那份。版本号解析规则见下方。
-- **完整记录**：`containingFileInfos` 字段会记录所有源文件的信息（包括被丢弃的），确保可追溯。
+**Aturan Penggabungan**：
+Ketika kunci terjemahan yang sama muncul di beberapa file (misalnya mod yang sama menyediakan file terjemahan versi 42 dan 42.19), perlu diputuskan mana yang akan dipertahankan. Aturannya sebagai berikut:
+- **Prioritas format**: JSON menimpa TXT. Alasannya karena JSON adalah format standar baru PZ, harus diprioritaskan. Secara internal dibedakan dengan enumerasi `SourceKind` (JSON = 1, TXT = 0).
+- **Prioritas versi**: Dalam format yang sama, pertahankan yang memiliki nomor versi game tertinggi. Aturan penguraian nomor versi lihat di bawah.
+- **Pencatatan lengkap**: Field `containingFileInfos` akan mencatat informasi semua file sumber (termasuk yang dibuang), memastikan ketertelusuran.
 
-**版本号解析规则**：
+**Aturan Penguraian Nomor Versi**：
 ```
-无版本号 → 0.0
-common   → 1.0
-42       → 42.0
+Tidak ada nomor versi → 0.0
+common → 1.0
+42 → 42.0
 42.19    → 42.19
 ```
 
@@ -618,6 +621,8 @@ Pemetaan ini disediakan oleh `translation_key_to_file_mapping` yang direkam pada
 
 4. **Penulisan atomik**: Semua file output menggunakan strategi "tulis file sementara dulu, lalu pindahkan secara atomik" — tulis `<filename>.tmp` terlebih dahulu, setelah berhasil, timpa file target menggunakan `File.Move`. Cara ini memastikan bahwa bahkan jika terjadi crash atau pemadaman listrik selama penulisan, file yang sudah ada tidak akan rusak.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Fungsi**: Menghitung cakupan terjemahan untuk setiap bahasa dan menghasilkan laporan kemajuan multi-bahasa, sehingga komunitas dapat memahami kemajuan terjemahan.
@@ -633,6 +638,36 @@ Laporan kemajuan dikeluarkan dalam format Markdown, disimpan di direktori `docs/
 - `untranslatable`: Jumlah entri yang ditandai sebagai tidak dapat diterjemahkan karena pemeriksaan konten.
 3. **Ganti placeholder**: Ganti `{{PLACEHOLDER}}` dalam template dengan data statistik yang sebenarnya.
 4. **Tulis file**: Tulis konten yang telah diganti ke `docs/progress/progress_<iso>.md`.
+
+---
+
+## Modul Independen
+
+Modul-modul berikut berjalan independen dari pipeline terjemahan, tidak ada dalam `TranslationPipeline.slnx`, masing-masing dipicu melalui `dotnet run --project` atau GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Fungsi**: Memantau mod baru yang dirilis di Steam Workshop secara berkala, menyaring mod dengan jumlah langganan tinggi secara otomatis, dan memasukkannya ke dalam daftar permintaan terjemahan.
+
+**Cara menjalankan**: Dipicu secara terjadwal melalui GitHub Actions `.github/workflows/monitor-workshop.yml` (setiap hari pukul 00:00 WIB), atau dijalankan secara lokal dengan `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Alur kerja**:
+1. **Mengambil daftar**: Mengambil mod ID dari halaman "most recent" Steam Workshop dengan tag Build 42 (mengecualikan tag Language/Translation) secara paginasi.
+2. **Mengurai waktu**: Melakukan kueri massal ke Steam Web API untuk waktu publikasi setiap mod, membandingkannya dengan waktu terakhir yang ada di cache untuk menentukan mod baru.
+3. **Menyaring jumlah langganan**: Memanggil Steam API lagi untuk memeriksa jumlah langganan semua mod yang sudah di-cache, lalu menyaring yang melebihi ambang (500).
+4. **Menggabungkan output**: Menggabungkan mod ID yang telah difilter ke dalam `config/request_for_translation.txt` setelah menghapus duplikat, untuk digunakan oleh `ModIdCollector` dalam pipeline.
+
+**Parameter hardcoded**: AppId=108600, MinSubs=500, SafetyPages=5 (jumlah halaman tambahan setelah mencapai timestamp terakhir), PageSize=30, Lookback=48h.
+
+**Format cache**: `data/monitor_cache.bin` — file biner terkompresi Zstd, urutan little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Berbagi skema kompresi `ZstdSharp` dengan `BinaryEmbeddingSerializer`.
+
+**Pembacaan kunci**: Steam API Key dibaca dari field `STEAM_KEY` di `config/secrets.json`, atau dari variabel lingkungan `STEAM_KEY` / `STEAM_API_KEY` (sama seperti mode `ConfigReader`).
+
+### DocGenerator
+
+**Fungsi**: Generator dokumen multibahasa berbasis LLM, yang menghasilkan README, panduan kontribusi, dan dokumen referensi teknis dalam berbagai bahasa dari template bahasa Mandarin.
+
+**Cara menjalankan**: Proyek terpisah `src/DocGenerator/DocGenerator.csproj`, dieksekusi dengan `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 
@@ -722,27 +757,27 @@ string contentCheckViolatedRulesJson; // Daftar aturan yang dilanggar (JSON)
 }
 ```
 
-**关键状态字段**：
-- `needsUpdate`：当 Steam 记录的 `time_updated` 晚于缓存的 `timeModUpdated` 时设为 `true`，表示模组作者更新了内容。
-- `isAvailable`：如果 Steam API 返回的 `consumer_app_id` 不是 `108600`（Project Zomboid），或模组已下架，则设为 `false`，后续模块将跳过该 mod。
-- `contentCheckStatus`：内容安全审查的状态，详见 4.4 节的状态机说明。
+**Field status kunci**:
+- `needsUpdate`: Diatur ke `true` jika `time_updated` yang tercatat oleh Steam lebih baru dari `timeModUpdated` di cache, menandakan pembuat mod telah memperbarui konten.
+- `isAvailable`: Diatur ke `false` jika `consumer_app_id` yang dikembalikan oleh Steam API bukan `108600` (Project Zomboid), atau jika mod telah dihapus; modul berikutnya akan melewati mod tersebut.
+- `contentCheckStatus`: Status pemeriksaan keamanan konten, lihat penjelasan state machine di bagian 4.4.
 
-#### `TranslationBatch` — 翻译批次
+#### `TranslationBatch` — Batch terjemahan
 
-`TranslationBatch` 是 LLM 翻译的基本单位，包含一批同一模组、同一目标语言的待翻译条目。
+`TranslationBatch` adalah unit dasar terjemahan LLM, berisi sekumpulan entri yang akan diterjemahkan dari satu mod dan satu bahasa target.
 
 ```csharp
 class TranslationBatch {
     int batchId;
-    int priority;                    // 优先级 (subscription + favorite 加权)
+int priority;                    // Prioritas (bobot dari subscription + favorite)
     string modId;
     List<TranslationEntry> translationEntries;
     string baseLang;                 // "en"
-    string targetLang;               // 目标语言 ISO 代码，如 "zh-hans"
+string targetLang;               // Kode ISO bahasa target, mis. "zh-hans"
 }
 ```
 
-- `priority`：由模组的订阅数和收藏数加权计算，热门模组的批次优先翻译。
+- `priority`: Dihitung dari bobot jumlah langganan dan favorit mod, batch mod yang populer diterjemahkan terlebih dahulu.
 Semua entri dalam satu batch berasal dari mod yang sama, untuk menghindari kebingungan konteks lintas mod.
 
 #### `LangInfoData` — Informasi Bahasa
@@ -1012,45 +1047,45 @@ Sebelum digunakan, salin `supported_languages_example.json` menjadi `supported_l
 `AR` `CA` `CH` `CN` `CS` `DA` `DE` `EN` `ES` `FI` `FR` `HU` `ID` `IT` `JP` `KO` `NL` `NO` `PH` `PL` `PT` `PTBR` `RO` `RU` `TH` `TR` `UA`
 
 **Penggunaan dalam pipeline**:
-- **基准语言** (`baseLang`): 列表中以 `EN` 为基准。`ContentExtractor` 中的 `baseIso` 由 `config.baseLanguage` 映射
-- **目标语言** (`targetLangs`): 列表中所有非 `EN` 的语言均为翻译目标
-- **输出语言** (`outputLangs`): 所有语言 (含 `EN`) 都参与最终输出
+- **Bahasa dasar** (`baseLang`): Dalam daftar, `EN` dijadikan sebagai dasar. `baseIso` di `ContentExtractor` dipetakan dari `config.baseLanguage`.
+- **Bahasa target** (`targetLangs`): Semua bahasa selain `EN` dalam daftar merupakan target terjemahan.
+- **Bahasa output** (`outputLangs`): Semua bahasa (termasuk `EN`) ikut serta dalam output akhir.
 
 ### 5.4 `config/ref_translation_mods.json` — 参考翻译模组
 
-定义高质量既存汉化模组，作为 RAG 检索的参考语料库。
+Mendefinisikan mod terjemahan yang sudah ada berkualitas tinggi, digunakan sebagai korpus referensi untuk pencarian RAG.
 
 | Bidang | Tipe | Keterangan |
 |------|------|------|
-| `mod_id` | string | Steam Workshop Mod ID (19 位数字) |
-| `mod_name` | string | 参考 mod 名称 (仅用于日志和报告展示) |
-| `language` | string | 该参考 mod 的目标语言 ISO 代码。例: `zh-hans` |
-| `mod_update_time` | string | Steam 记录的 mod 最后更新时间 (Unix 时间戳字符串) |
-| `last_check_time` | string | 管线最后一次检查该 mod 更新的时间 (ISO 8601) |
+| `mod_id` | string | Steam Workshop Mod ID (19 digit angka) |
+| `mod_name` | string | Nama mod referensi (hanya untuk tampilan log dan laporan) |
+| `language` | string | Kode ISO bahasa target mod referensi. Contoh: `zh-hans` |
+| `mod_update_time` | string | Waktu pembaruan terakhir mod yang tercatat oleh Steam (string timestamp Unix) |
+| `last_check_time` | string | Waktu terakhir pipeline memeriksa pembaruan mod ini (ISO 8601) |
 
-**参考 mod 的特殊待遇**:
-- **独立缓存**: 数据存储在 `translation_ref/` 而非 `data/`，与主翻译数据隔离
-- **优先同步**: Phase 2 中先于主 mod 循环执行下载/提取/嵌入
-- **增量更新**: 仅对 `mod_update_time > last_check_time` 的 mod 执行重新提取
-- **isVerified=true**: 所有参考翻译条目的 `TranslationData.isVerified` 强制为 `true`
-- **翻译排除**: 参考 mod 的条目不会进入 LLM 翻译队列 (已有人工翻译)
-- **输出排除**: `FinalOutputWriter` 过滤参考 mod 条目，不写入最终分发文件
+**Perlakuan khusus mod referensi**:
+- **Cache terpisah**: Data disimpan di `translation_ref/` bukan `data/`, terisolasi dari data terjemahan utama
+- **Sinkronisasi prioritas**: Di Phase 2, unduh/ekstrak/embed dilakukan sebelum loop mod utama
+- **Pembaruan inkremental**: Hanya mod dengan `mod_update_time > last_check_time` yang diekstrak ulang
+- **isVerified=true**: Semua entri terjemahan referensi `TranslationData.isVerified` dipaksa menjadi `true`
+- **Pengecualian terjemahan**: Entri mod referensi tidak masuk ke antrian terjemahan LLM (sudah diterjemahkan manusia)
+- **Pengecualian keluaran**: `FinalOutputWriter` menyaring entri mod referensi, tidak ditulis ke file distribusi akhir
 
-### 5.5 `config/request_for_translation.txt` — 本地翻译请求
+### 5.5 `config/request_for_translation.txt` — Permintaan terjemahan lokal
 
-手动指定的待翻译 Mod ID 列表。
+Daftar ID Mod yang ditentukan secara manual untuk diterjemahkan.
 
-| 规则 | 说明 |
+| Aturan | Deskripsi |
 |------|------|
-| 格式 | 每行一个 Steam Workshop Mod ID (纯数字) |
-| 注释 | 以 `#` 开头的行为注释，会被忽略 |
-| 空行 | 空白行自动跳过 |
-| 去重 | 与 AsOne 远程列表合并时，已存在的 ID 不重复添加 |
-| 编码 | UTF-8 without BOM |
+| Format | Satu Steam Workshop Mod ID per baris (angka saja) |
+| Komentar | Baris yang diawali dengan `#` adalah komentar, akan diabaikan |
+| Baris kosong | Baris kosong otomatis dilewati |
+| Deduplikasi | Saat digabung dengan daftar jarak jauh AsOne, ID yang sudah ada tidak ditambahkan lagi |
+| Encoding | UTF-8 without BOM |
 
-**示例**:
+**Contoh**:
 ```
-# 热门模组
+# Mod Populer
 2969343830
 3000924731
 

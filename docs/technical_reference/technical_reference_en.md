@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Independent Modules](#independent-modules)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Data Conventions](#4-data-conventions)
   - [4.1 Core Types](#41-core-types)
     - [`TranslationEntry` — Translation Entry](#translationentry-translation-entry)
@@ -618,6 +621,8 @@ This mapping relationship is provided by `translation_key_to_file_mapping` recor
 
 4. **Atomic write**: All output files use the strategy of "write temporary file first, then atomic move" — first write to `<filename>.tmp`, then overwrite the target file via `File.Move` after successful writing. This ensures that existing files are not corrupted even if a crash or power outage occurs during the write process.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Function**: Counts the translation coverage of each language and generates multi-language progress reports to facilitate the community's understanding of translation progress.
@@ -633,6 +638,36 @@ Progress reports are output in Markdown format and stored in the `docs/progress/
 - `untranslatable`: Number of entries marked as untranslatable due to content review.
 3. **Replace placeholders**: Replace `{{PLACEHOLDER}}` in the template with actual statistics.
 4. **Write to file**: Write the replaced content to `docs/progress/progress_<iso>.md`.
+
+---
+
+## Independent Modules
+
+The following modules run independently of the translation pipeline, are not in `TranslationPipeline.slnx`, and are each triggered via `dotnet run --project` or GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Function**: Periodically monitor new mods uploaded to Steam Workshop, automatically filter those with high subscriber counts, and merge them into the translation request list.
+
+**Operation**: Triggered via GitHub Actions `.github/workflows/monitor-workshop.yml` on a schedule (daily at 00:00 Beijing time), or locally via `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Workflow**:
+1. **Fetch List**: Paginate through the Steam Workshop "most recent" page to fetch mod IDs for the Build 42 tag (excluding Language/Translation tags).
+2. **Parse Time**: Batch query the publish time of each mod via the Steam Web API, compare with the cached last run time to identify new mods.
+3. **Filter Subscriptions**: Query the Steam API again for the subscriber counts of all cached mods, filtering out those exceeding the threshold (500).
+4. **Merge Output**: Deduplicate the filtered mod IDs and merge them into `config/request_for_translation.txt` for consumption by the pipeline's `ModIdCollector`.
+
+**Hardcoded Parameters**: AppId=108600, MinSubs=500, SafetyPages=5 (additional pages to fetch after reaching the last timestamp), PageSize=30, Lookback=48h.
+
+**Cache Format**: `data/monitor_cache.bin` — Zstd‑compressed binary file, little‑endian int64 sequence: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Shares the `ZstdSharp` compression scheme with `BinaryEmbeddingSerializer`.
+
+**Key Reading**: Steam API Key is read from the `STEAM_KEY` field in `config/secrets.json`, or from the environment variables `STEAM_KEY` / `STEAM_API_KEY` (same pattern as `ConfigReader`).
+
+### DocGenerator
+
+**Function**: LLM‑driven multilingual document generator that produces README, contribution guide, and technical reference documents in various languages from Chinese templates.
+
+**Operation**: Independent project `src/DocGenerator/DocGenerator.csproj`, executed via `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 

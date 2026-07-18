@@ -91,7 +91,7 @@ Az engedélyeddel a projekt felveszi a mododat a `config/ref_translation_mods.js
 
 A projekt automatizálása két részből áll:
 
-**Csővezeték-modul (`src/`, C# / .NET 10)**: 15 szekvenciálisan végrehajtott modult tartalmaz, amelyek a SteamCMD inicializálástól, a modok letöltésétől, a szövegkinyeréstől, a tartalomellenőrzéstől, az Embedding számítástól, a RAG kereséstől egészen a LLM fordításig és a végső kimenetig terjedő teljes folyamatért felelősek. Részletek: [technikai referencia](../technical_reference/technical_reference_hu.md).
+**Csővezeték modulok (`src/`, C# / .NET 10)**: 15 szekvenciálisan végrehajtott modult, plusz 2 önálló modult (`WorkshopMonitor` modul felfedező, `DocGenerator` dokumentumgenerátor) tartalmaz, amelyek a SteamCMD inicializálástól, modul letöltéstől, szöveg kivonástól, tartalom ellenőrzéstől, Embedding számítástól, RAG kereséstől az LLM fordításig és a végső kimenetig a teljes folyamatot végzik. Részletek a [technikai referenciában](../technical_reference/technical_reference_hu.md).
 
 **Segéd szkriptek (`.github/`)**: a GitHub automatizálásához.
 
@@ -108,7 +108,7 @@ A következő lépéseket követheted:
 2. Hozz létre egy új ágat a legfrissebb ág alapján;
 3. Módosíts vagy adj hozzá fájlokat a megfelelő könyvtárakban:
 - Csővezeték-modul módosítása → `src/<modulnév>/`;
-- Szkript módosítása → `scripts/`;
+   - CI 工作流修改 → `.github/workflows/`；
 - Prompt sablon módosítása → `src/prompt_templates/`;
 4. Kérjük, a beküldés előtt lehetőség szerint:
 

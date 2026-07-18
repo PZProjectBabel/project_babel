@@ -17,6 +17,7 @@
 - [Ferramentas e Estrutura de Diretórios (para desenvolvedores)](#ferramentas-e-estrutura-de-diretórios-para-desenvolvedores)
   - [Diretórios do projeto](#diretórios-do-projeto)
   - [Módulos do pipeline (em ordem de execução)](#módulos-do-pipeline-em-ordem-de-execução)
+  - [Módulos Independentes](#módulos-independentes)
   - [Stack de Tecnologia](#stack-de-tecnologia)
 - [Direitos Autorais e Licenciamento](#direitos-autorais-e-licenciamento)
   - [1. Texto, imagens e outros conteúdos](#1-texto-imagens-e-outros-conteúdos)
@@ -98,7 +99,7 @@ Esta seção é destinada a desenvolvedores que desejam entender os princípios 
 
 | Diretório | Descrição |
 |------|------|
-| `src/` | Código-fonte do pipeline de tradução .NET 10, contendo 15 módulos |
+| `src/` | Código-fonte do pipeline de tradução .NET 10, contendo 15 módulos + 2 módulos independentes |
 | `config/` | Arquivos de configuração do pipeline (parâmetros LLM, Steam, RAG, etc.) |
 | `data/` | Dados em tempo de execução: metadados de mods, embeddings, cache de tradução |
 | `translation_ref/` | Dados de tradução de referência (por exemplo, mods autorizados do grupo de localização As1), fornecendo referência de tradução para o LLM |
@@ -127,6 +128,13 @@ Esta seção é destinada a desenvolvedores que desejam entender os princípios 
 | 13 | `ResultWriter` | Escrever em data/ e translation_ref/ |
 | 14 | `FinalOutputWriter` | Gerar saída final no formato de mod PZ |
 | 15 | `ProgressReporter` | Gerar relatório de progresso |
+
+### Módulos Independentes
+
+| Módulo | Função |
+|------|------|
+| `WorkshopMonitor` | Captura periodicamente novos mods da Steam Workshop, filtra por número de inscrições e os adiciona ao `request_for_translation.txt` |
+| `DocGenerator` | Gerador de documentação multilíngue orientado por LLM |
 
 ### Stack de Tecnologia
 

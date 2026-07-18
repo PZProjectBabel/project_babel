@@ -91,7 +91,7 @@ Luvallasi projekti lisää modisi `config/ref_translation_mods.json` -viitekää
 
 Projektin automatisointi on jaettu kahteen osaan:
 
-**Putkilinjamoduuli (`src/`, C# / .NET 10)**: Sisältää 15 peräkkäin suoritettavaa moduulia, jotka vastaavat koko prosessista SteamCMD-alustuksesta, modin latauksesta, tekstin erotuksesta, sisällön tarkistuksesta, Embedding-laskennasta, RAG-hausta LLM-käännökseen ja lopulliseen tulosteeseen. Katso lisätietoja [teknisestä viitteestä](../technical_reference/technical_reference_fi.md).
+**Putkilinjamoduulit (`src/`, C# / .NET 10)**: Sisältää 15 moduulia, jotka suoritetaan järjestyksessä, sekä 2 itsenäistä moduulia (`WorkshopMonitor`-moduulin etsijä, `DocGenerator`-dokumentaatiogeneraattori), jotka vastaavat koko prosessista SteamCMD:n alustuksesta, moduulin latauksesta, tekstin erottelusta, sisällön tarkistuksesta, upotuslaskennasta, RAG-hausta aina LLM-käännökseen ja lopulliseen tulostukseen. Katso lisätietoja [teknisestä viitteestä](../technical_reference/technical_reference_fi.md).
 
 **Aputoimintokomentosarjat (.github/)**: Käytetään GitHub-automaatioon.
 
@@ -108,7 +108,7 @@ Voit toimia seuraavasti:
 2. Luo uusi haara perustuen uusimpaan haaraan;
 3. Muokkaa tai lisää tiedostoja vastaavaan hakemistoon:
 - Putkilinjamoduulin muutos → `src/<moduulin_nimi>/`;
-- Komentosarjan muutos → `scripts/`;
+- CI-työnkulun muokkaus → `.github/workflows/`;
 - Prompt-mallin muutos → `src/prompt_templates/`;
 4. Ennen lähetystä pyri mahdollisuuksien mukaan:
 

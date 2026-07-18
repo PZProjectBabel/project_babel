@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter（`FinalOutputWriterService`）](#313-finaloutputwriterfinaloutputwriterservice)
   - [3.14 ProgressReporter（`ProgressReporterService`）](#314-progressreporterprogressreporterservice)
+- [独立モジュール](#独立モジュール)
+  - [WorkshopMonitor（`WorkshopMonitorService`）](#workshopmonitorworkshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. データ規約](#4-データ規約)
   - [4.1 中核的な型](#41-中核的な型)
     - [`TranslationEntry` — 翻訳エントリ](#translationentry-翻訳エントリ)
@@ -618,6 +621,8 @@ final_outputs/project_babel/contents/mods/project_babel/
 
 4. **アトミック書き込み**: すべての出力ファイルは「一時ファイルに書き込み、その後アトミックに移動」という戦略を採用しています。先に `<filename>.tmp` に書き込み、書き込み成功後に `File.Move` で対象ファイルを上書きします。この方法により、書き込み中にクラッシュや停電が発生しても、既存のファイルが破損することがありません。
 
+---
+
 ### 3.14 ProgressReporter（`ProgressReporterService`）
 
 **機能**: 各言語の翻訳カバレッジを集計し、多言語進捗レポートを生成します。コミュニティが翻訳の進捗状況を把握しやすくするためです。
@@ -633,6 +638,36 @@ final_outputs/project_babel/contents/mods/project_babel/
 - `untranslatable`: コンテンツ審査により翻訳不可とマークされたエントリの数。
 3. **プレースホルダーの置換**: テンプレート内の `{{PLACEHOLDER}}` を実際の統計データに置き換えます。
 4. **ファイルへの書き込み**: 置換後の内容を `docs/progress/progress_<iso>.md` に書き込みます。
+
+---
+
+## 独立モジュール
+
+以下のモジュールは翻訳パイプラインとは独立して実行され、`TranslationPipeline.slnx` には含まれず、それぞれ `dotnet run --project` または GitHub Actions によってトリガーされます。
+
+### WorkshopMonitor（`WorkshopMonitorService`）
+
+**機能**: Steam Workshopに新しく公開されたModを定期的に監視し、購読数の多いModを自動的にフィルタリングして翻訳リクエストリストに追加します。
+
+**実行方法**: GitHub Actions `.github/workflows/monitor-workshop.yml` による定時トリガー（北京時間毎日00:00）、またはローカルで `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj` を実行します。
+
+**ワークフロー**:
+1. **リストの取得**: Steam Workshopの「most recent」ページから、Build 42タグ（Language/Translationタグを除く）が付いたMod IDをページネーションで取得します。
+2. **時間の解析**: Steam Web API経由で各Modの公開時間を一括クエリし、キャッシュの前回実行時間と比較して新しいModを特定します。
+3. **購読数のフィルタリング**: 再びSteam APIを呼び出して、キャッシュされた全Modの購読数をクエリし、閾値（500）を超えるModを抽出します。
+4. **出力のマージ**: フィルタリングされたMod IDを重複排除して `config/request_for_translation.txt` にマージし、パイプラインの `ModIdCollector` が利用できるようにします。
+
+**ハードコードパラメータ**: AppId=108600、MinSubs=500、SafetyPages=5（前回のタイムスタンプ到達後、追加で取得するページ数）、PageSize=30、Lookback=48h。
+
+**キャッシュ形式**: `data/monitor_cache.bin` — Zstd圧縮のバイナリファイルで、リトルエンディアンint64のシーケンス: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`。`BinaryEmbeddingSerializer` と `ZstdSharp` 圧縮方式を共有しています。
+
+**キーの読み取り**: Steam API Keyは `config/secrets.json` の `STEAM_KEY` フィールドから読み取られるか、環境変数 `STEAM_KEY` / `STEAM_API_KEY` から取得されます（`ConfigReader` と同じパターン）。
+
+### DocGenerator
+
+**機能**: LLM駆動の多言語ドキュメントジェネレーターで、中国語テンプレートから各言語のREADME、コントリビューションガイド、技術リファレンスドキュメントを生成します。
+
+**実行方法**: 独立プロジェクト `src/DocGenerator/DocGenerator.csproj` であり、`dotnet run --project src/DocGenerator/DocGenerator.csproj` で実行します。
 
 ---
 

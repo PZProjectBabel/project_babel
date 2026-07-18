@@ -91,7 +91,7 @@ S vaším svolením projekt zařadí váš mod do seznamu referenčních překla
 
 Automatizace tohoto projektu je rozdělena na dvě části:
 
-**Moduly pipeline (`src/`, C# / .NET 10)**: Obsahuje 15 modulů prováděných v pořadí, které zajišťují celý proces od inicializace SteamCMD, stahování modů, extrakce textu, kontroly obsahu, výpočtu Embeddingů, vyhledávání RAG až po LLM překlad a konečný výstup. Podrobnosti viz [technická reference](../technical_reference/technical_reference_cs.md).
+**Pipeline modul (`src/`, C# / .NET 10)**: Obsahuje 15 modulů prováděných postupně, plus 2 samostatné moduly (`WorkshopMonitor` pro vyhledávání modů, `DocGenerator` pro generování dokumentace), které zajišťují celý proces od inicializace SteamCMD, stahování modů, extrakce textu, kontroly obsahu, výpočtu Embeddingů, vyhledávání RAG až po LLM překlad a finální výstup. Podrobnosti viz [Technická reference](../technical_reference/technical_reference_cs.md).
 
 **Pomocné skripty (`.github/`)**: Používané pro automatizaci na GitHubu.
 
@@ -108,7 +108,7 @@ Můžete postupovat následovně:
 2. Vytvořte novou větev z nejnovější větve;
 3. Upravte nebo přidejte soubory v odpovídajících adresářích:
 - Úprava modulu pipeline → `src/<název_modulu>/`;
-- Úprava skriptů → `scripts/`;
+- Úprava CI workflow → `.github/workflows/`;
 - Úprava šablon promptů → `src/prompt_templates/`;
 4. Před odesláním se pokuste:
 

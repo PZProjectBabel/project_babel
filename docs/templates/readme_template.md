@@ -86,7 +86,7 @@
 
 | 目录 | 说明 |
 |------|------|
-| `src/` | .NET 10 翻译流水线源码，含 15 个模块 |
+| `src/` | .NET 10 翻译流水线源码，含 15 个模块 + 2 个独立模块 |
 | `config/` | 流水线配置文件 (LLM、Steam、RAG 参数等) |
 | `data/` | 运行时数据：模组元数据、embedding、翻译缓存 |
 | `translation_ref/` | 参考翻译数据 (如一汉化组授权模组)，为 LLM 提供翻译参考 |
@@ -115,6 +115,13 @@
 | 13 | `ResultWriter` | 写入 data/ 与 translation_ref/ |
 | 14 | `FinalOutputWriter` | 生成最终 PZ 模组格式输出 |
 | 15 | `ProgressReporter` | 生成进度报告 |
+
+### 独立模块
+
+| 模块 | 功能 |
+|------|------|
+| `WorkshopMonitor` | 定时抓取 Steam Workshop 新模组，按订阅数筛选并入 `request_for_translation.txt` |
+| `DocGenerator` | LLM 驱动的多语言文档生成器 |
 
 ### 技术栈
 

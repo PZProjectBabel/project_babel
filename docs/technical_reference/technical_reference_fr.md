@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Modules indépendants](#modules-indépendants)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Conventions de données](#4-conventions-de-données)
   - [4.1 Types centraux](#41-types-centraux)
     - [`TranslationEntry` — Entrée de traduction](#translationentry-entrée-de-traduction)
@@ -58,11 +61,11 @@
   - [4.3 Conventions des clés d'index](#43-conventions-des-clés-dindex)
   - [4.4 Machine à états](#44-machine-à-états)
     - [État de vérification du contenu ContentCheck](#état-de-vérification-du-contenu-contentcheck)
-    - [TranslationData 翻译验证状态](#translationdata-翻译验证状态)
-    - [ModInfo.needsUpdate 更新判定](#modinfoneedsupdate-更新判定)
-- [5. 配置说明](#5-配置说明)
-  - [5.1 `config/config.json` — 管线主配置](#51-configconfigjson-管线主配置)
-    - [5.1.1 `LLM` — 大语言模型配置](#511-llm-大语言模型配置)
+    - [TranslationData État de validation de la traduction](#translationdata-état-de-validation-de-la-traduction)
+    - [ModInfo.needsUpdate Détermination de la mise à jour](#modinfoneedsupdate-détermination-de-la-mise-à-jour)
+- [5. Instructions de configuration](#5-instructions-de-configuration)
+  - [5.1 `config/config.json` — Configuration principale du pipeline](#51-configconfigjson-configuration-principale-du-pipeline)
+    - [5.1.1 `LLM` — Configuration du grand modèle de langage](#511-llm-configuration-du-grand-modèle-de-langage)
     - [5.1.2 `RAG` — Configuration de la génération augmentée par récupération](#512-rag-configuration-de-la-génération-augmentée-par-récupération)
     - [5.1.3 `AsOne` — Source de liste de Mods distante](#513-asone-source-de-liste-de-mods-distante)
     - [5.1.4 `Steam` — Configuration de l'API Web Steam](#514-steam-configuration-de-lapi-web-steam)
@@ -618,6 +621,8 @@ Ce mapping est fourni par `translation_key_to_file_mapping` enregistré lors de 
 
 4. **Écriture atomique** : Tous les fichiers de sortie utilisent la stratégie "écrire d'abord un fichier temporaire, puis déplacement atomique" — écrire d'abord dans `<filename>.tmp`, puis après réussite de l'écriture, remplacer le fichier cible via `File.Move`. Cette approche garantit que même en cas de crash ou de coupure de courant pendant l'écriture, les fichiers existants ne sont pas endommagés.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Fonction** : Statistiques de couverture de traduction pour chaque langue et génération de rapports d'avancement multilingues, facilitant le suivi des progrès de traduction par la communauté.
@@ -633,6 +638,36 @@ Les rapports d'avancement sont générés au format Markdown et stockés dans le
 - `untranslatable` : nombre d'entrées marquées comme intraduisibles suite à une vérification de contenu.
 3. **Remplacer les espaces réservés** : remplacer `{{PLACEHOLDER}}` dans le modèle par les statistiques réelles.
 4. **Écrire le fichier** : écrire le contenu remplacé dans `docs/progress/progress_<iso>.md`.
+
+---
+
+## Modules indépendants
+
+Les modules suivants fonctionnent indépendamment du pipeline de traduction, ils ne se trouvent pas dans `TranslationPipeline.slnx`, et sont chacun déclenchés via `dotnet run --project` ou GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Fonction** : Surveiller régulièrement les nouveaux mods mis en ligne sur le Steam Workshop, filtrer automatiquement les mods à fort nombre d'abonnements et les incorporer dans la liste des demandes de traduction.
+
+**Mode d'exécution** : Déclenché périodiquement par GitHub Actions `.github/workflows/monitor-workshop.yml` (tous les jours à 00:00 heure de Pékin), ou localement via `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Flux de travail** :
+1. **Récupération de la liste** : Récupérer par pagination les IDs des mods avec le tag Build 42 (en excluant les tags Language/Translation) depuis la page « most recent » du Steam Workshop.
+2. **Analyse du temps** : Interroger en masse via l'API Steam Web l'heure de publication de chaque mod, la comparer avec l'heure de la dernière exécution dans le cache pour identifier les nouveaux mods.
+3. **Filtrage des abonnements** : Appeler à nouveau l'API Steam pour obtenir le nombre d'abonnements de tous les mods en cache, puis filtrer ceux dépassant le seuil (500).
+4. **Fusion et sortie** : Dédupliquer et fusionner les IDs des mods filtrés dans `config/request_for_translation.txt`, pour consommation par `ModIdCollector` du pipeline.
+
+**Paramètres codés en dur** : AppId=108600, MinSubs=500, SafetyPages=5 (pages supplémentaires après avoir atteint le dernier timestamp), PageSize=30, Lookback=48h.
+
+**Format du cache** : `data/monitor_cache.bin` — fichier binaire compressé Zstd, séquence little-endian int64 : `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Partage le même schéma de compression `ZstdSharp` avec `BinaryEmbeddingSerializer`.
+
+**Lecture de la clé** : La clé API Steam est lue depuis le champ `STEAM_KEY` dans `config/secrets.json`, ou depuis les variables d'environnement `STEAM_KEY` / `STEAM_API_KEY` (même mode que `ConfigReader`).
+
+### DocGenerator
+
+**Fonction** : Générateur de documentation multilingue piloté par LLM, produisant des README, des guides de contribution et des documents de référence technique dans chaque langue à partir de modèles chinois.
+
+**Mode d'exécution** : Projet indépendant `src/DocGenerator/DocGenerator.csproj`, exécuté via `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 
@@ -831,52 +866,52 @@ Il existe trois ensembles importants de logiques de transition d'état dans le p
 
 Le flux complet des états de vérification du contenu est le suivant :
 ```
-UNKNOWN ──(新 mod 首次检查)──→ NEEDVERIFICATION
-                                  ├──(LLM 审查: 安全)──→ ACCEPTED
-                                  ├──(LLM 审查: 违规)──→ REJECTED
-                                  └──(LLM 审查: 不确定, 置信度<0.7)──→ NEEDVERIFICATION (等待人工复核)
+UNKNOWN ──(nouveau mod, première vérification)──→ NEEDVERIFICATION
+├──(Vérification LLM : sûr)──→ ACCEPTED
+├──(Vérification LLM : violation)──→ REJECTED
+└──(Vérification LLM : incertain, confiance<0.7)──→ NEEDVERIFICATION (en attente de révision humaine)
 
-ACCEPTED ──(超过 90 天缓存期)──→ NEEDVERIFICATION (定期重新审查)
+ACCEPTED ──(délai de cache dépassé de 90 jours)──→ NEEDVERIFICATION (réexamen périodique)
 ```
 
-- **UNKNOWN**：新发现的模组，尚未进行过内容审查。
-- **NEEDVERIFICATION**：需要审查（或重新审查）。管线会调用 LLM 对该模组的内容进行安全扫描。
-- **ACCEPTED**：审查通过，该模组的内容安全，可以正常翻译。
-- **REJECTED**：审查不通过，该模组含有违规内容，跳过翻译。
+- **UNKNOWN** : Nouveau mod découvert, n’ayant pas encore subi de vérification de contenu.
+- **NEEDVERIFICATION** : Nécessite une vérification (ou une nouvelle vérification). Le pipeline appelle le LLM pour scanner la sécurité du contenu de ce mod.
+- **ACCEPTED** : Vérification réussie, le contenu de ce mod est sûr, peut être traduit normalement.
+- **REJECTED** : Vérification échouée, ce mod contient du contenu violant les règles, traduction ignorée.
 
-#### TranslationData 翻译验证状态
+#### TranslationData État de validation de la traduction
 
-每条翻译数据的可靠性通过 `isVerified` 标记区分：
+La fiabilité de chaque donnée de traduction est distinguée par le marqueur `isVerified` :
 
-| 状态 | `isVerified` | 含义 |
+| État | `isVerified` | Signification |
 |------|-------------|------|
-| 已验证（人工翻译） | `true` | 来自参考翻译模组，由人工翻译并确认 |
-| 未验证（AI 翻译） | `false` | 由 LLM 自动翻译，标记为 `unverified`，未经人工校验 |
-| 待翻译 | 无文本 | 尚未翻译，`translationValues` 中没有对应的译文 |
+| Vérifié (traduction humaine) | `true` | Provient d'un mod de traduction de référence, traduit et confirmé par un humain. |
+| Non vérifié (traduction IA) | `false` | Traduit automatiquement par LLM, marqué comme `unverified`, non vérifié par un humain. |
+| À traduire | Aucun texte | Pas encore traduit, aucune traduction correspondante dans `translationValues` |
 
-#### ModInfo.needsUpdate 更新判定
+#### ModInfo.needsUpdate Détermination de la mise à jour
 
-模组是否需要重新提取和翻译，由以下规则判定：
-- Steam 的 `time_updated` 晚于缓存的 `timeModUpdated` → `needsUpdate = true`（模组作者发布了更新）。
-- 缓存中不存在任何翻译条目的可访问 mod → `needsUpdate = true`（首次处理该模组）。
-- 模组提取后包含 0 条翻译条目 → 内容审查状态直接设为 `ACCEPTED`（该模组没有可翻译的文本内容，无需翻译）。
+La décision de savoir si un mod doit être réextrait et retraduit est déterminée par les règles suivantes :
+- Si le `time_updated` de Steam est plus récent que le `timeModUpdated` en cache → `needsUpdate = true` (l'auteur du mod a publié une mise à jour).
+- Si aucun mod accessible n'a d'entrées de traduction dans le cache → `needsUpdate = true` (première fois que ce mod est traité).
+- Si après extraction, le mod contient 0 entrée de traduction → le statut de vérification du contenu est directement défini sur `ACCEPTED` (ce mod n'a pas de contenu textuel à traduire, aucune traduction nécessaire).
 
 ---
 
-## 5. 配置说明
+## 5. Instructions de configuration
 
-`config/` 目录下共有 5 个配置文件，按职责分为管线控制、密钥管理、语言定义、参考语料和翻译请求。
+Il y a 5 fichiers de configuration dans le répertoire `config/`, divisés par responsabilité en contrôle du pipeline, gestion des clés, définition des langues, corpus de référence et demandes de traduction.
 
-### 5.1 `config/config.json` — 管线主配置
+### 5.1 `config/config.json` — Configuration principale du pipeline
 
-整个翻译管线的核心控制文件。所有字段均为必填，除非标注"可选"。
+Fichier de contrôle central de tout le pipeline de traduction. Tous les champs sont obligatoires sauf indication contraire marquée "optionnel".
 
-#### 5.1.1 `LLM` — 大语言模型配置
+#### 5.1.1 `LLM` — Configuration du grand modèle de langage
 
 | Champ | Type | Valeur par défaut | Description |
 |------|------|--------|------|
-| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API 地址，兼容 OpenAI Chat Completions 协议 |
-| `model` | string | `deepseek-v4-flash` | 模型名称。值含 `v4-flash` 或 `v4-pro` 会触发对应的自动并发 profile |
+| `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Adresse API LLM, compatible avec le protocole OpenAI Chat Completions |
+| `model` | string | `deepseek-v4-flash` | Nom du modèle. Les valeurs contenant `v4-flash` ou `v4-pro` déclenchent le profil de concurrence automatique correspondant. |
 | `temperature` | float | `0.1` | Température d'échantillonnage (0~2). Plus la valeur est basse, plus la sortie est déterministe. Pour les tâches de traduction, il est recommandé ≤0.3 |
 | `max_tokens` | int | `380000` | Nombre maximum de tokens par réponse API. Doit être supérieur au total de sortie du lot |
 | `batch_size` | int | `30` | Nombre maximum d'entrées par lot de traduction. Contraint conjointement par `batch_token_budget` |

@@ -91,7 +91,7 @@ Yetkiniz doğrultusunda proje, modunuzu `config/ref_translation_mods.json` refer
 
 Bu projenin otomasyonu iki bölüme ayrılmıştır:
 
-**Boru hattı modülü (`src/`, C# / .NET 10)**： SteamCMD başlatma, mod indirme, metin çıkarma, içerik denetimi, Embedding hesaplama, RAG arama ve LLM çevirisi ile nihai çıktıya kadar sırayla yürütülen 15 modül içerir. Ayrıntılar için bkz. [Teknik Referans](../technical_reference/technical_reference_tr.md).
+**Pipeline modülü (`src/`, C# / .NET 10)**: SteamCMD başlatma, mod indirme, metin çıkarma, içerik denetleme, Embedding hesaplama, RAG arama ve LLM çevirisi ile nihai çıktıya kadar tam süreçten sorumlu, sırayla yürütülen 15 modül ve 2 bağımsız modül (`WorkshopMonitor` mod bulucu, `DocGenerator` belge oluşturucu) içerir. Ayrıntılar için bkz. [Teknik referans](../technical_reference/technical_reference_tr.md).
 
 **Yardımcı betikler (.github/)**： GitHub otomasyonu için kullanılır.
 
@@ -108,7 +108,7 @@ Aşağıdaki adımları izleyebilirsiniz:
 2. En son daldan yeni bir dal oluşturun;
 3. İlgili dizinde dosyaları değiştirin veya ekleyin:
 - Boru hattı modülü değişiklikleri → `src/<modül_adı>/`;
-- Betik değişiklikleri → `scripts/`;
+- CI iş akışı değişikliği → `.github/workflows/`;
 - Prompt şablonu değişiklikleri → `src/prompt_templates/`;
 4. Göndermeden önce lütfen mümkün olduğunca:
 

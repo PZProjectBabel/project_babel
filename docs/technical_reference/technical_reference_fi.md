@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Itsenäiset moduulit](#itsenäiset-moduulit)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Tietosopimukset](#4-tietosopimukset)
   - [4.1 Ydintyypit](#41-ydintyypit)
     - [`TranslationEntry` — Käännösmerkintä](#translationentry-käännösmerkintä)
@@ -618,6 +621,8 @@ Tämä kartoitus saadaan `ContentExtractor`-vaiheen tallentamasta `translation_k
 
 4. **Atomikirjoitus**: Kaikki tulostustiedostot käyttävät strategiaa "kirjoita ensin väliaikaistiedosto, sitten atomisiirto" – kirjoita ensin `<filename>.tmp`, ja onnistuneen kirjoituksen jälkeen korvaa kohdetiedosto `File.Move`-toiminnolla. Tämä menetelmä varmistaa, etteivät olemassa olevat tiedostot vaurioidu, vaikka kirjoituksen aikana tapahtuisi kaatuminen tai sähkökatkos.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **Toiminto**: Tilastoi kunkin kielen käännöskattavuuden ja luo monikielisen edistymisraportin, mikä auttaa yhteisöä seuraamaan käännösten edistymistä.
@@ -633,6 +638,36 @@ Edistymisraportti tulostetaan Markdown-muodossa ja tallennetaan `docs/progress/`
 - `untranslatable`: Sisältötarkistuksen vuoksi käännöskelvottomiksi merkityt kohteet.
 3. **Korvaa paikkamerkit**: Korvaa mallipohjan `{{PLACEHOLDER}}` todellisilla tilastotiedoilla.
 4. **Kirjoita tiedosto**: Kirjoita korvattu sisältö tiedostoon `docs/progress/progress_<iso>.md`.
+
+---
+
+## Itsenäiset moduulit
+
+Seuraavat moduulit toimivat erillään käännösputkesta, eivät ole `TranslationPipeline.slnx`-tiedostossa, ja ne käynnistetään joko `dotnet run --project`-komennolla tai GitHub Actions -toimintojen avulla.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Toiminto**: Seuraa säännöllisesti Steam Workshopiin lisättyjä uusia modeja, suodattaa automaattisesti korkean tilausmäärän modit ja lisää ne käännöspyyntölistalle.
+
+**Käyttötapa**: Käynnistetään ajastetusti GitHub Actions -toiminnolla (`.github/workflows/monitor-workshop.yml`) (Pekingin aikaa päivittäin klo 00:00) tai paikallisesti komennolla `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Työnkulku**:
+1. **Hae lista**: Hae sivuttain Steam Workshopin "most recent" -sivulta Build 42 -tunnisteella (pois lukien Language/Translation-tunnisteet) olevien modien ID:t.
+2. **Jäsennä aika**: Kysy Steam Web API:n avulla erissä kunkin modin julkaisuaika, vertaa välimuistissa olevaan edelliseen suoritusaikaan ja tunnista uudet modit.
+3. **Suodata tilausmäärä**: Kutsu uudelleen Steam API:a kysyäkseen kaikkien välimuistissa olevien modien tilausmäärät ja suodata ne, joiden tilausmäärä ylittää kynnyksen (500).
+4. **Yhdistä tuloste**: Yhdistä suodatetut modien ID:t poistamalla kaksoiskappaleet tiedostoon `config/request_for_translation.txt`, jotta putken `ModIdCollector` voi käyttää niitä.
+
+**Kovakoodatut parametrit**: AppId=108600、MinSubs=500、SafetyPages=5 (Lisäsivujen määrä edellisen aikaleiman jälkeen)、PageSize=30、Lookback=48h.
+
+**Välimuistin muoto**: `data/monitor_cache.bin` — Zstd-pakattu binääritiedosto, little-endian int64 -sekvenssi: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Käyttää samaa `ZstdSharp`-pakkausta kuin `BinaryEmbeddingSerializer`.
+
+**Avaimen luku**: Steam API -avain luetaan `config/secrets.json`-tiedoston `STEAM_KEY`-kentästä tai ympäristömuuttujista `STEAM_KEY` / `STEAM_API_KEY` (sama malli kuin `ConfigReader`).
+
+### DocGenerator
+
+**Toiminto**: LLM-pohjainen monikielinen dokumentaatiogeneraattori, joka luo eri kielisiä README-, ohje- ja teknisiä viitedokumentteja kiinalaisista malleista.
+
+**Käyttötapa**: Itsenäinen projekti `src/DocGenerator/DocGenerator.csproj`, suoritetaan komennolla `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 

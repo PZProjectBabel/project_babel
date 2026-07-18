@@ -17,6 +17,7 @@
 - [Eines i estructura de directoris (per a desenvolupadors)](#eines-i-estructura-de-directoris-per-a-desenvolupadors)
   - [Directoris del projecte](#directoris-del-projecte)
   - [Mòduls de la pipeline (per ordre d'execució)](#mòduls-de-la-pipeline-per-ordre-dexecució)
+  - [Mòduls independents](#mòduls-independents)
   - [Pila tecnològica](#pila-tecnològica)
 - [Drets d'autor i llicència](#drets-dautor-i-llicència)
   - [1. Text, imatges i altres continguts](#1-text-imatges-i-altres-continguts)
@@ -98,7 +99,7 @@ Aquesta secció està dirigida als desenvolupadors que volen entendre el princip
 
 | Directori | Descripció |
 |------|------|
-| `src/` | Codi font de la pipeline de traducció .NET 10, amb 15 mòduls |
+| `src/` | Codi font de la cadena de traducció .NET 10, amb 15 mòduls + 2 mòduls independents |
 | `config/` | Fitxers de configuració de la pipeline (paràmetres LLM, Steam, RAG, etc.) |
 | `data/` | Dades d'execució: metadades de mods, embeddings, memòria cau de traducció |
 | `translation_ref/` | Dades de traducció de referència (com mods autoritzats per As1), proporcionen referència de traducció per a l'LLM |
@@ -127,6 +128,13 @@ Aquesta secció està dirigida als desenvolupadors que volen entendre el princip
 | 13 | `ResultWriter` | Escriure a data/ i translation_ref/ |
 | 14 | `FinalOutputWriter` | Generar sortida final en format de mod de PZ |
 | 15 | `ProgressReporter` | Generar informe de progrés |
+
+### Mòduls independents
+
+| Mòdul | Funció |
+|------|------|
+| `WorkshopMonitor` | Recull periòdicament nous mods del Steam Workshop, filtra per nombre de subscripcions i afegeix a `request_for_translation.txt` |
+| `DocGenerator` | Generador de documentació multilingüe impulsat per LLM |
 
 ### Pila tecnològica
 

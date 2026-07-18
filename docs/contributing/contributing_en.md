@@ -91,7 +91,7 @@ Under your authorization, the project will include your mod in the `config/ref_t
 
 The automation of this project is divided into two parts:
 
-**Pipeline module (`src/`, C# / .NET 10)**: Contains 15 sequentially executed modules responsible for the complete process from SteamCMD initialization, mod download, text extraction, content review, embedding calculation, RAG retrieval to LLM translation and final output. See [Technical Reference](../technical_reference/technical_reference_en.md).
+**Pipeline modules (`src/`, C# / .NET 10)**: Contains 15 sequentially executed modules, plus 2 independent modules (`WorkshopMonitor` mod discoverer, `DocGenerator` documentation generator), responsible for the complete workflow from SteamCMD initialization, mod downloading, text extraction, content review, Embedding calculation, RAG retrieval to LLM translation and final output. See [Technical Reference](../technical_reference/technical_reference_en.md) for details.
 
 **Helper scripts (`.github/`)**: Used for GitHub automation.
 
@@ -108,7 +108,7 @@ You can follow these steps:
 2. Create a new branch based on the latest branch;
 3. Modify or add files in the corresponding directories:
 - Pipeline module modifications → `src/<module_name>/`;
-- Script modifications → `scripts/`;
+- CI workflow modification → `.github/workflows/`;
 - Prompt template modifications → `src/prompt_templates/`;
 4. Before submitting, please try to:
 

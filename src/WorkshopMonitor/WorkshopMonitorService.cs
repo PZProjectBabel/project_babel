@@ -207,18 +207,21 @@ public class WorkshopMonitorService
 
     public static void MergeRequestFile(string path, HashSet<string> newIds)
     {
-        var existing = new HashSet<string>();
+        var ids = new List<string>();
         if (File.Exists(path))
         {
             foreach (var line in Utf8NoBom.ReadAllLines(path))
             {
                 var trimmed = line.Trim();
-                if (trimmed.Length > 0) existing.Add(trimmed);
+                if (trimmed.Length > 0) ids.Add(trimmed);
             }
         }
-        var added = newIds.Where(id => existing.Add(id)).ToList();
-        if (added.Count > 0)
-            Utf8NoBom.AppendAllLines(path, added);
+        var existing = new HashSet<string>(ids);
+        foreach (var id in newIds)
+        {
+            if (existing.Add(id)) ids.Add(id);
+        }
+        Utf8NoBom.WriteAllText(path, string.Join("\n", ids) + "\n");
     }
 
     // ── Steam API ──

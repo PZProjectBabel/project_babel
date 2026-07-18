@@ -91,7 +91,7 @@
 
 本專案的自動化分為兩部分：
 
-**流水線模組（`src/`，C# / .NET 10）**：包含 15 個按序執行的模組，負責從 SteamCMD 初始化、模組下載、文本提取、內容審查、Embedding 計算、RAG 檢索到 LLM 翻譯與最終輸出的完整流程。詳見 [技術參考](../technical_reference/technical_reference_zh-hant.md)。
+**流水線模組（`src/`，C# / .NET 10）**：包含 15 個按序執行的模組，外加 2 個獨立模組（`WorkshopMonitor` 模組發現器、`DocGenerator` 文檔生成器），負責從 SteamCMD 初始化、模組下載、文本提取、內容審查、Embedding 計算、RAG 檢索到 LLM 翻譯與最終輸出的完整流程。詳見 [技術參考](../technical_reference/technical_reference_zh-hant.md)。
 
 **輔助腳本（.github/）**：用於 github 的自動化。
 
@@ -108,7 +108,7 @@
 2. 基於最新分支建立新分支；
 3. 在對應目錄中修改或新增檔案：
 - 流水線模組修改 → `src/<模組名>/`；
-- 腳本修改 → `scripts/`；
+- CI 工作流程修改 → `.github/workflows/`；
 - Prompt 模板修改 → `src/prompt_templates/`；
 4. 提交前請盡量：
 
@@ -117,9 +117,9 @@
 * 如有條件，附上簡單的測試或使用說明；
 5. 通過 PR 提交修改，並在描述中說明：
 
-   * 改动目的；
-   * 可能影响的目录 / 模块 / 脚本；
-   * 是否涉及破坏性变更。
+* 改動目的；
+* 可能影響的目錄 / 模組 / 腳本；
+* 是否涉及破壞性變更。
 
 ---
 
@@ -151,8 +151,8 @@
 
 1. 這些內容以 **署名-非商業性使用-相同方式共享 4.0 國際**（Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International，簡稱 **CC BY-NC-SA 4.0**）協議授權；
 2. Project Babel 及所有獲得該內容的用戶，可以在 **遵守 CC BY-NC-SA 4.0 條款** 的前提下：
-   * 分享、复制、再分发这些内容；
-   * 在非商业用途下对其进行修改与再创作；
+* 分享、複製、再分發這些內容；
+* 在非商業用途下對其進行修改與再創作；
 3. 你同意在適用法律允許的範圍內，該授權為 **非獨占、全球性、免版稅且不可撤銷** 的許可；
 4. 即使你日後退出或停止參與本項目，本項目仍可繼續依據 CC BY-NC-SA 4.0 使用和再發布你已經提交且被合併的相關內容。
 

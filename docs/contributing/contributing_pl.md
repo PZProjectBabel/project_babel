@@ -91,7 +91,7 @@ Na podstawie Twojej zgody, projekt doda Twój mod do listy referencyjnych modów
 
 Automatyzacja tego projektu składa się z dwóch części:
 
-**Moduł pipeline'u (`src/`, C# / .NET 10)**: Zawiera 15 modułów wykonujących się sekwencyjnie, odpowiedzialnych za pełny proces od inicjalizacji SteamCMD, pobierania modów, ekstrakcji tekstu, przeglądu treści, obliczania Embedding, wyszukiwania RAG, po tłumaczenie LLM i końcowe wyjście. Szczegóły: [odniesienie techniczne](../technical_reference/technical_reference_pl.md).
+**Moduł potoku (`src/`, C# / .NET 10)**：Zawiera 15 modułów wykonywanych sekwencyjnie, plus 2 moduły samodzielne (`WorkshopMonitor` do wykrywania modów, `DocGenerator` do generowania dokumentacji), odpowiedzialne za pełny proces od inicjalizacji SteamCMD, pobierania modów, ekstrakcji tekstu, przeglądu treści, obliczania Embedding, wyszukiwania RAG po tłumaczenie LLM i końcowe wyjście. Zobacz [odniesienie techniczne](../technical_reference/technical_reference_pl.md).
 
 **Skrypty pomocnicze (`.github/`)**: Do automatyzacji na GitHubie.
 
@@ -108,7 +108,7 @@ Można postępować według następujących kroków:
 2. Utwórz nową gałąź na podstawie najnowszej gałęzi;
 3. Zmodyfikuj lub dodaj pliki w odpowiednich katalogach:
 - Modyfikacja modułu pipeline'u → `src/<nazwa_modułu>/`;
-- Modyfikacja skryptów → `scripts/`;
+- Modyfikacja przepływu pracy CI → `.github/workflows/`;
 - Modyfikacja szablonów prompt → `src/prompt_templates/`;
 4. Przed złożeniem postaraj się:
 

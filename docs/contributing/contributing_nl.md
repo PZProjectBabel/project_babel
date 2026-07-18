@@ -91,7 +91,7 @@ Onder jouw toestemming zal het project jouw mod opnemen in de referentielijst va
 
 De automatisering van dit project is verdeeld in twee delen:
 
-**Pijplijnmodule (`src/`, C# / .NET 10)**: Bevat 15 opeenvolgend uitgevoerde modules, verantwoordelijk voor de volledige stroom van SteamCMD-initialisatie, mod-download, tekstextractie, inhoudscontrole, Embedding-berekening, RAG-ophaling tot LLM-vertaling en uiteindelijke uitvoer. Zie [technische referentie](../technical_reference/technical_reference_nl.md) voor details.
+**Pijplijnmodule (`src/`, C# / .NET 10)**: Bevat 15 modules die in volgorde worden uitgevoerd, plus 2 onafhankelijke modules (`WorkshopMonitor` mod-ontdekker, `DocGenerator` documentgenerator), verantwoordelijk voor de volledige stroom van SteamCMD-initialisatie, mod-download, tektextractie, inhoudscontrole, Embedding-berekening, RAG-ophaling tot LLM-vertaling en uiteindelijke uitvoer. Zie [technische referentie](../technical_reference/technical_reference_nl.md).
 
 **Hulpscripts (`.github/`)**: Voor de automatisering van GitHub.
 
@@ -108,7 +108,7 @@ Volg dan de onderstaande stappen:
 2. Maak een nieuwe branch op basis van de nieuwste branch;
 3. Wijzig of voeg bestanden toe in de corresponderende mappen:
 - Wijzigingen aan pijplijnmodule → `src/<模块名>/`;
-- Scriptaanpassingen → `scripts/`;
+- CI-werkstroom aanpassen → `.github/workflows/`;
 - Prompt-sjabloonaanpassingen → `src/prompt_templates/`;
 4. Probeer vóór het indienen zoveel mogelijk:
 

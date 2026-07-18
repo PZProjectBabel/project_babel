@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [独立模块](#独立模块)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. 数据约定](#4-数据约定)
   - [4.1 核心类型](#41-核心类型)
     - [`TranslationEntry` — 翻译条目](#translationentry-翻译条目)
@@ -618,6 +621,8 @@ final_outputs/project_babel/contents/mods/project_babel/
 
 4. **原子写入**：所有输出文件采用"先写临时文件，再原子移动"的策略——先写入 `<filename>.tmp`，写入成功后通过 `File.Move` 覆盖目标文件。这种方式确保即使在写入过程中发生崩溃或断电，已有文件不会损坏。
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **功能**: 统计各语言的翻译覆盖率并生成多语言进度报告，方便社区了解翻译进展。
@@ -633,6 +638,36 @@ final_outputs/project_babel/contents/mods/project_babel/
    - `untranslatable`：因内容审查被标记为不可翻译的条目数。
 3. **替换占位符**：将模板中的 `{{PLACEHOLDER}}` 替换为实际统计数据。
 4. **写入文件**：将替换后的内容写入 `docs/progress/progress_<iso>.md`。
+
+---
+
+## 独立模块
+
+以下模块独立于翻译流水线运行，不在 `TranslationPipeline.slnx` 中，各自通过 `dotnet run --project` 或 GitHub Actions 触发。
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**功能**: 定时监控 Steam Workshop 上架的新模组，自动筛选高订阅数模组并汇入翻译请求列表。
+
+**运行方式**：通过 GitHub Actions `.github/workflows/monitor-workshop.yml` 定时触发（北京时间每日 00:00），或本地 `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`。
+
+**工作流程**：
+1. **抓取列表**：从 Steam Workshop "most recent" 页面分页抓取 Build 42 标签（排除 Language/Translation 标签）的模组 ID。
+2. **解析时间**：通过 Steam Web API 批量查询每个模组的发布时间，与缓存中的上次运行时间比较，确定新模组。
+3. **过滤订阅数**：再次调用 Steam API 查询所有已缓存模组的订阅数，筛选出超过阈值（500）的模组。
+4. **合并输出**：将筛选后的模组 ID 去重合并到 `config/request_for_translation.txt`，供流水线的 `ModIdCollector` 消费。
+
+**硬编码参数**：AppId=108600、MinSubs=500、SafetyPages=5（到达上次时间戳后额外抓取页数）、PageSize=30、Lookback=48h。
+
+**缓存格式**：`data/monitor_cache.bin` — Zstd 压缩的二进制文件，little-endian int64 序列：`[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`。与 `BinaryEmbeddingSerializer` 共用 `ZstdSharp` 压缩方案。
+
+**密钥读取**：Steam API Key 从 `config/secrets.json` 的 `STEAM_KEY` 字段读取，或从环境变量 `STEAM_KEY` / `STEAM_API_KEY` 获取（与 `ConfigReader` 同模式）。
+
+### DocGenerator
+
+**功能**: LLM 驱动的多语言文档生成器，从中文模板生成各语言的 README、贡献指南和技术参考文档。
+
+**运行方式**：独立项目 `src/DocGenerator/DocGenerator.csproj`，通过 `dotnet run --project src/DocGenerator/DocGenerator.csproj` 执行。
 
 ---
 

@@ -3626,7 +3626,8 @@
       "ru": "| Шаг | Модуль | Функция |",
       "th": "| ขั้นตอน | โมดูล | ฟังก์ชัน |",
       "tr": "| Adım | Modül | İşlev |",
-      "uk": "| Крок | Модуль | Функція |"
+      "uk": "| Крок | Модуль | Функція |",
+      "id": "| Langkah | Modul | Fungsi |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -3652,7 +3653,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -3682,7 +3684,8 @@
       "ru": "| 1 | `ConfigReader` | Загрузка конфигурации/ключей/списка языков |",
       "th": "| 1 | `ConfigReader` | โหลดการตั้งค่า/คีย์/รายการภาษา |",
       "tr": "| 1 | `ConfigReader` | Yapılandırma/anahtar/dil listesini yükle |",
-      "uk": "| 1 | `ConfigReader` | Завантаження конфігурації/ключів/списку мов |"
+      "uk": "| 1 | `ConfigReader` | Завантаження конфігурації/ключів/списку мов |",
+      "id": "| 1 | `ConfigReader` | Memuat daftar konfigurasi/kunci/bahasa |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -3708,7 +3711,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -3738,7 +3742,8 @@
       "ru": "| 2 | `RepoDataLoader` | Загрузка эталонных переводов и кэша переводов |",
       "th": "| 2 | `RepoDataLoader` | โหลดการแปลอ้างอิงและแคชการแปล |",
       "tr": "| 2 | `RepoDataLoader` | Referans çevirileri ve çeviri önbelleğini yükle |",
-      "uk": "| 2 | `RepoDataLoader` | Завантаження довідкового перекладу та кешу перекладу |"
+      "uk": "| 2 | `RepoDataLoader` | Завантаження довідкового перекладу та кешу перекладу |",
+      "id": "| 2 | `RepoDataLoader` | Memuat referensi terjemahan dan cache terjemahan |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -3764,7 +3769,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -3794,7 +3800,8 @@
       "ru": "| 3 | `ModIdCollector` | Сбор ID модов Workshop |",
       "th": "| 3 | `ModIdCollector` | รวบรวม ID โมดูล Workshop |",
       "tr": "| 3 | `ModIdCollector` | Workshop mod ID'lerini topla |",
-      "uk": "| 3 | `ModIdCollector` | Збір ідентифікаторів модів Workshop |"
+      "uk": "| 3 | `ModIdCollector` | Збір ідентифікаторів модів Workshop |",
+      "id": "| 3 | `ModIdCollector` | Mengumpulkan ID modul Workshop |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -3820,7 +3827,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -3850,7 +3858,8 @@
       "ru": "| 4 | `ModInfoFetcher` | Получение метаданных Steam |",
       "th": "| 4 | `ModInfoFetcher` | ดึงข้อมูลเมตาของ Steam |",
       "tr": "| 4 | `ModInfoFetcher` | Steam meta verilerini al |",
-      "uk": "| 4 | `ModInfoFetcher` | Отримання метаданих Steam |"
+      "uk": "| 4 | `ModInfoFetcher` | Отримання метаданих Steam |",
+      "id": "| 4 | `ModInfoFetcher` | Mendapatkan metadata Steam |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -3876,7 +3885,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -3906,7 +3916,8 @@
       "ru": "| 5 | `SteamCmdBootstrapper` | Подготовка среды выполнения steamcmd для текущей платформы |",
       "th": "| 5 | `SteamCmdBootstrapper` | เตรียมรันไทม์ steamcmd สำหรับแพลตฟอร์มปัจจุบัน |",
       "tr": "| 5 | `SteamCmdBootstrapper` | Mevcut platform için steamcmd çalışma zamanını hazırla |",
-      "uk": "| 5 | `SteamCmdBootstrapper` | Підготовка середовища виконання steamcmd для поточної платформи |"
+      "uk": "| 5 | `SteamCmdBootstrapper` | Підготовка середовища виконання steamcmd для поточної платформи |",
+      "id": "| 5 | `SteamCmdBootstrapper` | Menyiapkan runtime steamcmd untuk platform saat ini |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -3932,7 +3943,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -3962,7 +3974,8 @@
       "ru": "| 6 | `ModDownloader` | Загрузка модов через steamcmd |",
       "th": "| 6 | `ModDownloader` | ดาวน์โหลดโมดูลผ่าน steamcmd |",
       "tr": "| 6 | `ModDownloader` | steamcmd ile modları indir |",
-      "uk": "| 6 | `ModDownloader` | Завантаження модів через steamcmd |"
+      "uk": "| 6 | `ModDownloader` | Завантаження модів через steamcmd |",
+      "id": "| 6 | `ModDownloader` | Mengunduh modul melalui steamcmd |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -3988,7 +4001,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4018,7 +4032,8 @@
       "ru": "| 7 | `ContentExtractor` | Разбор файлов перевода модов → `TranslationEntry` |",
       "th": "| 7 | `ContentExtractor` | แยกวิเคราะห์ไฟล์แปลโมดูล → `TranslationEntry` |",
       "tr": "| 7 | `ContentExtractor` | Mod çeviri dosyalarını ayrıştır → `TranslationEntry` |",
-      "uk": "| 7 | `ContentExtractor` | Розбір файлів перекладу модів → `TranslationEntry` |"
+      "uk": "| 7 | `ContentExtractor` | Розбір файлів перекладу модів → `TranslationEntry` |",
+      "id": "| 7 | `ContentExtractor` | Mengurai file terjemahan modul → `TranslationEntry` |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4044,7 +4059,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4074,7 +4090,8 @@
       "ru": "| 8 | `ContentChecker` | Проверка безопасности контента (наркотики/порнография/насилие) |",
       "th": "| 8 | `ContentChecker` | ตรวจสอบความปลอดภัยของเนื้อหา (ยาเสพติด/สื่อลามก/ความรุนแรง) |",
       "tr": "| 8 | `ContentChecker` | İçerik güvenlik denetimi (uyuşturucu/müstehcenlik/şiddet) |",
-      "uk": "| 8 | `ContentChecker` | Перевірка безпеки вмісту (наркотики/порнографія/насильство) |"
+      "uk": "| 8 | `ContentChecker` | Перевірка безпеки вмісту (наркотики/порнографія/насильство) |",
+      "id": "| 8 | `ContentChecker` | Pemeriksaan keamanan konten (narkoba/pornografi/kekerasan) |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4100,7 +4117,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4130,7 +4148,8 @@
       "ru": "| 9 | `EmbeddingFetcher` | Вычисление векторов embedding текста |",
       "th": "| 9 | `EmbeddingFetcher` | คำนวณเวกเตอร์ embedding ของข้อความ |",
       "tr": "| 9 | `EmbeddingFetcher` | Metin embedding vektörlerini hesapla |",
-      "uk": "| 9 | `EmbeddingFetcher` | Обчислення вектора embedding тексту |"
+      "uk": "| 9 | `EmbeddingFetcher` | Обчислення вектора embedding тексту |",
+      "id": "| 9 | `EmbeddingFetcher` | Menghitung vektor embedding teks |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4156,7 +4175,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4186,7 +4206,8 @@
       "ru": "| 10 | `TranslationBatcher` | Создание пакетов перевода, не зависящих от языка |",
       "th": "| 10 | `TranslationBatcher` | สร้างชุดการแปลที่ไม่ขึ้นกับภาษาเป้าหมาย |",
       "tr": "| 10 | `TranslationBatcher` | Dilden bağımsız çeviri grupları oluştur |",
-      "uk": "| 10 | `TranslationBatcher` | Створення пакетів перекладу, незалежних від цільової мови |"
+      "uk": "| 10 | `TranslationBatcher` | Створення пакетів перекладу, незалежних від цільової мови |",
+      "id": "| 10 | `TranslationBatcher` | Membuat batch terjemahan yang tidak tergantung bahasa target |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4212,7 +4233,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4242,7 +4264,8 @@
       "ru": "| 11 | `RagContextRetriever` | Поиск контекста RAG (точные ключи + сходство embedding) |",
       "th": "| 11 | `RagContextRetriever` | ดึงบริบท RAG (คีย์ที่แน่นอน + ความคล้ายคลึงของ embedding) |",
       "tr": "| 11 | `RagContextRetriever` | RAG bağlamını al (tam anahtar + embedding benzerliği) |",
-      "uk": "| 11 | `RagContextRetriever` | Пошук контексту RAG (точний ключ + подібність embedding) |"
+      "uk": "| 11 | `RagContextRetriever` | Пошук контексту RAG (точний ключ + подібність embedding) |",
+      "id": "| 11 | `RagContextRetriever` | Mengambil konteks RAG (kunci tepat + kemiripan embedding) |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4268,7 +4291,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4298,7 +4322,8 @@
       "ru": "| 12 | `LLMTranslator` | Вызов LLM для выполнения перевода |",
       "th": "| 12 | `LLMTranslator` | เรียก LLM เพื่อดำเนินการแปล |",
       "tr": "| 12 | `LLMTranslator` | LLM'yi çağırarak çeviriyi gerçekleştir |",
-      "uk": "| 12 | `LLMTranslator` | Виклик LLM для виконання перекладу |"
+      "uk": "| 12 | `LLMTranslator` | Виклик LLM для виконання перекладу |",
+      "id": "| 12 | `LLMTranslator` | Memanggil LLM untuk melakukan terjemahan |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4324,7 +4349,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4354,7 +4380,8 @@
       "ru": "| 13 | `ResultWriter` | Запись в data/ и translation_ref/ |",
       "th": "| 13 | `ResultWriter` | เขียนไปยัง data/ และ translation_ref/ |",
       "tr": "| 13 | `ResultWriter` | data/ ve translation_ref/ dizinine yaz |",
-      "uk": "| 13 | `ResultWriter` | Запис у data/ та translation_ref/ |"
+      "uk": "| 13 | `ResultWriter` | Запис у data/ та translation_ref/ |",
+      "id": "| 13 | `ResultWriter` | Menulis ke data/ dan translation_ref/ |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4380,7 +4407,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4410,7 +4438,8 @@
       "ru": "| 14 | `FinalOutputWriter` | Генерация итогового вывода в формате мода PZ |",
       "th": "| 14 | `FinalOutputWriter` | สร้างผลลัพธ์รูปแบบโมดูล PZ สุดท้าย |",
       "tr": "| 14 | `FinalOutputWriter` | Son PZ mod formatı çıktısını oluştur |",
-      "uk": "| 14 | `FinalOutputWriter` | Генерація кінцевого виводу у форматі мода PZ |"
+      "uk": "| 14 | `FinalOutputWriter` | Генерація кінцевого виводу у форматі мода PZ |",
+      "id": "| 14 | `FinalOutputWriter` | Menghasilkan output format modul PZ final |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4436,7 +4465,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4466,7 +4496,8 @@
       "ru": "| 15 | `ProgressReporter` | Генерация отчёта о прогрессе |",
       "th": "| 15 | `ProgressReporter` | สร้างรายงานความคืบหน้า |",
       "tr": "| 15 | `ProgressReporter` | İlerleme raporu oluştur |",
-      "uk": "| 15 | `ProgressReporter` | Генерація звіту про прогрес |"
+      "uk": "| 15 | `ProgressReporter` | Генерація звіту про прогрес |",
+      "id": "| 15 | `ProgressReporter` | Menghasilkan laporan kemajuan |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4492,7 +4523,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4522,7 +4554,8 @@
       "ru": "### Технический стек",
       "th": "### เทคโนโลยี่ที่ใช้",
       "tr": "### Teknoloji Yığını",
-      "uk": "### Технічний стек"
+      "uk": "### Технічний стек",
+      "id": "### Tumpukan Teknologi"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4548,7 +4581,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4578,7 +4612,8 @@
       "ru": "- **Язык**: C# (.NET 10)",
       "th": "- **ภาษา**: C# (.NET 10)",
       "tr": "- **Dil**: C# (.NET 10)",
-      "uk": "- **Мова**: C# (.NET 10)"
+      "uk": "- **Мова**: C# (.NET 10)",
+      "id": "- **Bahasa**: C# (.NET 10)"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4604,7 +4639,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4634,7 +4670,8 @@
       "ru": "- **Целевая платформа**: GitHub Actions Linux x64 runner",
       "th": "- **แพลตฟอร์มเป้าหมาย**: GitHub Actions Linux x64 runner",
       "tr": "- **Hedef platform**: GitHub Actions Linux x64 runner",
-      "uk": "- **Цільова платформа**: GitHub Actions Linux x64 runner"
+      "uk": "- **Цільова платформа**: GitHub Actions Linux x64 runner",
+      "id": "- **Platform target**: GitHub Actions Linux x64 runner"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4660,7 +4697,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4690,7 +4728,8 @@
       "ru": "- **Тестирование**: xUnit (Windows x64)",
       "th": "- **การทดสอบ**: xUnit (Windows x64)",
       "tr": "- **Test**: xUnit (Windows x64)",
-      "uk": "- **Тестування**: xUnit (Windows x64)"
+      "uk": "- **Тестування**: xUnit (Windows x64)",
+      "id": "- **Pengujian**: xUnit (Windows x64)"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4716,7 +4755,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4746,7 +4786,8 @@
       "ru": "- **LLM**: DeepSeek API (настраиваемый)",
       "th": "- **LLM**: DeepSeek API (ปรับแต่งได้)",
       "tr": "- **LLM**: DeepSeek API (yapılandırılabilir)",
-      "uk": "- **LLM**: DeepSeek API (Налаштовується)"
+      "uk": "- **LLM**: DeepSeek API (Налаштовується)",
+      "id": "- **LLM**: DeepSeek API (dapat dikonfigurasi)"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4772,7 +4813,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4802,7 +4844,8 @@
       "ru": "- **Embedding**: Векторизация текста для поиска по сходству RAG",
       "th": "- **Embedding**: การทำข้อความเป็นเวกเตอร์เพื่อใช้ในการค้นหาความคล้ายคลึงของ RAG",
       "tr": "- **Embedding**: RAG benzerlik araması için metin vektörleştirme",
-      "uk": "- **Embedding**: Векторизація тексту для пошуку подібності RAG"
+      "uk": "- **Embedding**: Векторизація тексту для пошуку подібності RAG",
+      "id": "- **Embedding**: Vektorisasi teks untuk pencarian kemiripan RAG"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4828,7 +4871,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4858,7 +4902,8 @@
       "ru": "- **Проверка контента**: Многоуровневая проверка безопасности на основе LLM",
       "th": "- **การตรวจสอบเนื้อหา**: การตรวจสอบความปลอดภัยหลายระดับที่ขับเคลื่อนโดย LLM",
       "tr": "- **İçerik denetimi**: LLM destekli çok seviyeli güvenlik incelemesi",
-      "uk": "- **Перевірка вмісту**: Багаторівнева перевірка безпеки на основі LLM"
+      "uk": "- **Перевірка вмісту**: Багаторівнева перевірка безпеки на основі LLM",
+      "id": "- **Pemeriksaan konten**: Audit keamanan multi-level yang digerakkan oleh LLM"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4884,7 +4929,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4914,7 +4960,8 @@
       "ru": "Подробный [технический справочник]({{technical_reference_link}}).",
       "th": "รายละเอียด [เอกสารอ้างอิงทางเทคนิค]({{technical_reference_link}})",
       "tr": "Ayrıntılı [teknik referans]({{technical_reference_link}}).",
-      "uk": "Детальний [Технічна довідка]({{technical_reference_link}})."
+      "uk": "Детальний [Технічна довідка]({{technical_reference_link}}).",
+      "id": "Rincian [referensi teknis]({{technical_reference_link}})."
     },
     "NeedsTranslation": {
       "en": true,
@@ -4940,7 +4987,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -4970,7 +5018,8 @@
       "ru": "## Авторские права и лицензия",
       "th": "## ลิขสิทธิ์และการอนุญาต",
       "tr": "## Telif Hakkı ve Lisans",
-      "uk": "## Авторське право та ліцензія"
+      "uk": "## Авторське право та ліцензія",
+      "id": "## Hak Cipta dan Lisensi"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4996,7 +5045,8 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true
     }
   },
   {
@@ -5026,7 +5076,9 @@
       "ru": "Текстовое содержимое и связанные изображения данного переводного проекта созданы или переработаны **Project Babel** и участниками на основе оригинальных игровых модов.",
       "th": "เนื้อหาการแปลข้อความและรูปภาพที่เกี่ยวข้องของโครงการแปลนี้ สร้างขึ้นโดย **Project Babel** และผู้ร่วมให้ข้อมูลจากโมดูลเกมต้นฉบับหรือสร้างขึ้นใหม่",
       "tr": "Bu çeviri projesinin çeviri metin içeriği ve ilgili görseller, **Project Babel** ve katılımcılar tarafından orijinal oyun modlarına dayanarak oluşturulmuş veya yeniden düzenlenmiştir.",
-      "uk": "Цей перекладений текст та пов'язані зображення створені **Project Babel** та учасниками на основі оригінальних модів гри або вторинної творчості."
+      "uk": "Цей перекладений текст та пов'язані зображення створені **Project Babel** та учасниками на основі оригінальних модів гри або вторинної творчості.",
+      "id": "Konten teks terjemahan dan gambar terkait dari proyek terjemahan ini dibuat atau dibuat ulang oleh **Project Babel** dan para peserta berdasarkan mod game asli.",
+      "ja": "本翻訳プロジェクトの翻訳テキストおよび関連画像は、**Project Babel** と各参加者が元のゲームModを基に創作または二次創作したものです。"
     },
     "NeedsTranslation": {
       "en": true,
@@ -5052,7 +5104,9 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true,
+      "ja": true
     }
   },
   {
@@ -5082,7 +5136,9 @@
       "ru": "© 2025 Project Babel и все авторы. Все права защищены.",
       "th": "© 2025 Project Babel และผู้เขียนทุกคน สงวนลิขสิทธิ์",
       "tr": "© 2025 Project Babel ve yazarlar tüm hakları saklıdır.",
-      "uk": "© 2025 Project Babel та всі автори зберігають права."
+      "uk": "© 2025 Project Babel та всі автори зберігають права.",
+      "id": "© 2025 Project Babel dan masing-masing penulis mempertahankan hak.",
+      "ja": "© 2025 Project Babel および各作者は権利を留保します。"
     },
     "NeedsTranslation": {
       "en": true,
@@ -5108,7 +5164,9 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true,
+      "ja": true
     }
   },
   {
@@ -5138,7 +5196,9 @@
       "ru": "### 1. Текст и изображения и т.д.",
       "th": "### 1. ข้อความและรูปภาพ ฯลฯ",
       "tr": "### 1. Metin, görseller ve diğer içerikler",
-      "uk": "### 1. Тексти, зображення та інший вміст"
+      "uk": "### 1. Тексти, зображення та інший вміст",
+      "id": "### 1. Teks dan gambar, dll.",
+      "ja": "### 1. テキストと画像などのコンテンツ"
     },
     "NeedsTranslation": {
       "en": true,
@@ -5164,7 +5224,9 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true,
+      "ja": true
     }
   },
   {
@@ -5194,7 +5256,9 @@
       "ru": "За исключением случаев, указанных отдельно, в этом репозитории:",
       "th": "เว้นแต่จะระบุไว้เป็นอย่างอื่น ในพื้นที่เก็บนี้:",
       "tr": "Aksi açıkça belirtilmedikçe, bu depodakiler:",
-      "uk": "Якщо не зазначено інше, у цьому репозиторії:"
+      "uk": "Якщо не зазначено інше, у цьому репозиторії:",
+      "id": "Kecuali dijelaskan lain, dalam repositori ini:",
+      "ja": "特に別段の記載がない限り、このリポジトリ内の："
     },
     "NeedsTranslation": {
       "en": true,
@@ -5220,7 +5284,9 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true,
+      "ja": true
     }
   },
   {
@@ -5250,7 +5316,9 @@
       "ru": "- Перевод внутриигрового текста, доработка и вычитка;",
       "th": "- เนื้อหาการแปล การปรับปรุง และการตรวจสอบข้อความในเกม",
       "tr": "- Oyun içi metin çevirisi, düzeltme ve düzeltme içeriği;",
-      "uk": "- Внутрішньоігровий переклад тексту, редагування та вичитка;"
+      "uk": "- Внутрішньоігровий переклад тексту, редагування та вичитка;",
+      "id": "- Terjemahan teks dalam game, penyempurnaan, dan konten proofreading;",
+      "ja": "- ゲーム内テキストの翻訳、ブラッシュアップ、校正内容；"
     },
     "NeedsTranslation": {
       "en": true,
@@ -5276,7 +5344,9 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "id": true,
+      "ja": true
     }
   },
   {
@@ -6825,6 +6895,296 @@
       "id": true,
       "it": true,
       "ja": true,
+      "ko": true,
+      "nl": true,
+      "no": true,
+      "tl": true,
+      "pl": true,
+      "pt": true,
+      "pt-br": true,
+      "ro": true,
+      "ru": true,
+      "th": true,
+      "tr": true,
+      "uk": true
+    }
+  },
+  {
+    "Sha256": "ee35af664c6a853eb20bf47ecab404bf55ca2bb458433167fbec2ad55198be18",
+    "SourceText": "| `src/` | .NET 10 翻译流水线源码，含 15 个模块 + 2 个独立模块 |",
+    "Translations": {
+      "ar": "| `src/` | .NET 10 كود مصدر خط أنابيب الترجمة، يحتوي على 15 وحدة + وحدتين مستقلتين |",
+      "ca": "| `src/` | Codi font de la cadena de traducció .NET 10, amb 15 mòduls + 2 mòduls independents |",
+      "zh-hant": "| `src/` | .NET 10 翻譯流水線原始碼，含 15 個模組 + 2 個獨立模組 |",
+      "cs": "| `src/` | .NET 10 překladový pipeline zdrojový kód, obsahuje 15 modulů + 2 samostatné moduly |",
+      "da": "| `src/` | .NET 10 oversættelsespipeline kildekode, indeholder 15 moduler + 2 uafhængige moduler |",
+      "de": "| `src/` | .NET 10 Übersetzungspipeline-Quellcode, enthält 15 Module + 2 unabhängige Module |",
+      "en": "| `src/` | .NET 10 translation pipeline source code, with 15 modules + 2 standalone modules |",
+      "es": "| `src/` | Código fuente de la tubería de traducción .NET 10, contiene 15 módulos + 2 módulos independientes |",
+      "fi": "| `src/` | .NET 10 -käännösputkilähdekoodi, sisältää 15 moduulia + 2 itsenäistä moduulia |",
+      "fr": "| `src/` | .NET 10 code source du pipeline de traduction, contenant 15 modules + 2 modules indépendants |",
+      "hu": "| `src/` | .NET 10 fordítási csővezeték forráskódja, 15 modul + 2 független modul |",
+      "id": "| `src/` | Kode sumber pipeline terjemahan .NET 10, berisi 15 modul + 2 modul independen |",
+      "it": "| `src/` | Codice sorgente della pipeline di traduzione .NET 10, che include 15 moduli + 2 moduli indipendenti |",
+      "ko": "| `src/` | .NET 10 번역 파이프라인 소스 코드, 15개 모듈 + 2개 독립 모듈 포함 |",
+      "nl": "| `src/` | .NET 10 vertaalpijplijn broncode, met 15 modules + 2 onafhankelijke modules |",
+      "no": "| `src/` | .NET 10 oversettelsespipelinekildekode, inneholder 15 moduler + 2 uavhengige moduler |",
+      "tl": "| `src/` | .NET 10 na source code ng translation pipeline, naglalaman ng 15 modules + 2 independent modules |",
+      "pl": "| `src/` | Kod źródłowy potoku tłumaczeń .NET 10, zawierający 15 modułów + 2 moduły niezależne |",
+      "pt": "| `src/` | Código-fonte do pipeline de tradução .NET 10, contendo 15 módulos + 2 módulos independentes |",
+      "pt-br": "| `src/` | Código-fonte do pipeline de tradução .NET 10, contendo 15 módulos + 2 módulos independentes |",
+      "ro": "| `src/` | Codul sursă al pipeline-ului de traducere .NET 10, conține 15 module + 2 module independente |",
+      "ru": "| `src/` | Исходный код конвейера перевода .NET 10, включающий 15 модулей + 2 независимых модуля |",
+      "th": "| `src/` | ซอร์สโค้ดของไปป์ไลน์การแปล .NET 10 ประกอบด้วย 15 โมดูล + 2 โมดูลอิสระ |",
+      "tr": "| `src/` | .NET 10 çeviri ardışık düzen kaynak kodu, 15 modül + 2 bağımsız modül içerir. |",
+      "uk": "| `src/` | Код конвеєра перекладу .NET 10, що містить 15 модулів + 2 незалежні модулі |"
+    },
+    "NeedsTranslation": {
+      "ar": true,
+      "ca": true,
+      "zh-hant": true,
+      "cs": true,
+      "da": true,
+      "de": true,
+      "en": true,
+      "es": true,
+      "fi": true,
+      "fr": true,
+      "hu": true,
+      "id": true,
+      "it": true,
+      "ko": true,
+      "nl": true,
+      "no": true,
+      "tl": true,
+      "pl": true,
+      "pt": true,
+      "pt-br": true,
+      "ro": true,
+      "ru": true,
+      "th": true,
+      "tr": true,
+      "uk": true
+    }
+  },
+  {
+    "Sha256": "655fb511d2d71f7ac4c4bca34e911be1730cf32f1a660f55e776eed5e186f800",
+    "SourceText": "### 独立模块",
+    "Translations": {
+      "ar": "### الوحدات المستقلة",
+      "ca": "### Mòduls independents",
+      "zh-hant": "### 獨立模組",
+      "cs": "### Samostatné moduly",
+      "da": "### Uafhængige moduler",
+      "de": "### Unabhängige Module",
+      "en": "### Independent Modules",
+      "es": "### Módulos independientes",
+      "fi": "### Itsenäiset moduulit",
+      "fr": "### Modules indépendants",
+      "hu": "### Független modulok",
+      "id": "### Modul Independen",
+      "it": "### Moduli indipendenti",
+      "ko": "### 독립 모듈",
+      "nl": "### Onafhankelijke modules",
+      "no": "### Uavhengige moduler",
+      "tl": "### Independent Modules",
+      "pl": "### Moduły niezależne",
+      "pt": "### Módulos Independentes",
+      "pt-br": "### Módulos Independentes",
+      "ro": "### Module independente",
+      "ru": "### Независимые модули",
+      "th": "### โมดูลอิสระ",
+      "tr": "### Bağımsız Modüller",
+      "uk": "### Незалежні модулі"
+    },
+    "NeedsTranslation": {
+      "ar": true,
+      "ca": true,
+      "zh-hant": true,
+      "cs": true,
+      "da": true,
+      "de": true,
+      "en": true,
+      "es": true,
+      "fi": true,
+      "fr": true,
+      "hu": true,
+      "id": true,
+      "it": true,
+      "ko": true,
+      "nl": true,
+      "no": true,
+      "tl": true,
+      "pl": true,
+      "pt": true,
+      "pt-br": true,
+      "ro": true,
+      "ru": true,
+      "th": true,
+      "tr": true,
+      "uk": true
+    }
+  },
+  {
+    "Sha256": "25540166d3c8c5a8552de2d89d34d0f024c0bc180a01116d787fbd07e9b4442b",
+    "SourceText": "| 模块 | 功能 |",
+    "Translations": {
+      "ar": "| الوحدة | الوظيفة |",
+      "ca": "| Mòdul | Funció |",
+      "zh-hant": "| 模組 | 功能 |",
+      "cs": "| Modul | Funkce |",
+      "da": "| Modul | Funktion |",
+      "de": "| Modul | Funktion |",
+      "en": "| Module | Function |",
+      "es": "| Módulo | Función |",
+      "fi": "| Moduuli | Toiminto |",
+      "fr": "| Module | Fonction |",
+      "hu": "| Modul | Funkció |",
+      "id": "| Modul | Fungsi |",
+      "it": "| Modulo | Funzione |",
+      "ko": "| 모듈 | 기능 |",
+      "nl": "| Module | Functie |",
+      "no": "| Modul | Funksjon |",
+      "tl": "| Module | Function |",
+      "pl": "| Moduł | Funkcja |",
+      "pt": "| Módulo | Função |",
+      "pt-br": "| Módulo | Função |",
+      "ro": "| Modul | Funcție |",
+      "ru": "| Модуль | Функция |",
+      "th": "| โมดูล | ฟังก์ชัน |",
+      "tr": "| Modül | Fonksiyon |",
+      "uk": "| Модуль | Функція |"
+    },
+    "NeedsTranslation": {
+      "ar": true,
+      "ca": true,
+      "zh-hant": true,
+      "cs": true,
+      "da": true,
+      "de": true,
+      "en": true,
+      "es": true,
+      "fi": true,
+      "fr": true,
+      "hu": true,
+      "id": true,
+      "it": true,
+      "ko": true,
+      "nl": true,
+      "no": true,
+      "tl": true,
+      "pl": true,
+      "pt": true,
+      "pt-br": true,
+      "ro": true,
+      "ru": true,
+      "th": true,
+      "tr": true,
+      "uk": true
+    }
+  },
+  {
+    "Sha256": "98a298ff9c4ff82a7eee75a7ce86e97b74a667cf9f7d7a5027e5e1784f08b8ec",
+    "SourceText": "| `WorkshopMonitor` | 定时抓取 Steam Workshop 新模组，按订阅数筛选并入 `request_for_translation.txt` |",
+    "Translations": {
+      "ar": "| `WorkshopMonitor` | جلب دوري للمودات الجديدة من Steam Workshop، التصفية حسب عدد الاشتراكات وإدراجها في `request_for_translation.txt` |",
+      "ca": "| `WorkshopMonitor` | Recull periòdicament nous mods del Steam Workshop, filtra per nombre de subscripcions i afegeix a `request_for_translation.txt` |",
+      "zh-hant": "| `WorkshopMonitor` | 定時抓取 Steam Workshop 新模組，按訂閱數篩選併入 `request_for_translation.txt` |",
+      "cs": "| `WorkshopMonitor` | Pravidelně stahuje nové mody ze Steam Workshopu, filtruje podle počtu odběrů a přidává do `request_for_translation.txt` |",
+      "da": "| `WorkshopMonitor` | Planmæssigt hent nye moduler fra Steam Workshop, filtrer efter abonnementstal og tilføj til `request_for_translation.txt` |",
+      "de": "| `WorkshopMonitor` | Regelmäßiges Abrufen neuer Mods aus dem Steam Workshop, Filtern nach Abonnementzahl und Aufnahme in `request_for_translation.txt` |",
+      "en": "| `WorkshopMonitor` | Regularly fetch new mods from Steam Workshop, filter by subscription count and include into `request_for_translation.txt` |",
+      "es": "| `WorkshopMonitor` | Captura periódicamente nuevos mods de Steam Workshop, los filtra por número de suscripciones y los incorpora en `request_for_translation.txt` |",
+      "fi": "| `WorkshopMonitor` | Hakee säännöllisesti uusia Steam Workshop -modeja, suodattaa tilausmäärän perusteella ja lisää tiedostoon `request_for_translation.txt` |",
+      "fr": "| `WorkshopMonitor` | Récupération périodique des nouveaux mods Steam Workshop, filtrés par nombre d'abonnements et inclus dans `request_for_translation.txt` |",
+      "hu": "| `WorkshopMonitor` | Rendszeresen letölti az új Steam Workshop modulokat, szűrés a feliratkozások száma alapján, és hozzáadja a `request_for_translation.txt` fájlhoz |",
+      "id": "| `WorkshopMonitor` | Secara berkala mengambil modul baru dari Steam Workshop, menyaring berdasarkan jumlah langganan, dan menambahkannya ke `request_for_translation.txt` |",
+      "it": "| `WorkshopMonitor` | Recupera periodicamente nuovi mod da Steam Workshop, li filtra per numero di iscrizioni e li aggiunge a `request_for_translation.txt` |",
+      "ko": "| `WorkshopMonitor` | 정기적으로 Steam Workshop 새 모드를 가져와 구독 수로 필터링하여 `request_for_translation.txt`에 병합 |",
+      "nl": "| `WorkshopMonitor` | Regelmatig nieuwe mods van Steam Workshop ophalen, filteren op abonnementen en integreren in `request_for_translation.txt` |",
+      "no": "| `WorkshopMonitor` | Henter regelmessig nye mods fra Steam Workshop, filtrerer etter abonnementsantall og legger til i `request_for_translation.txt` |",
+      "tl": "| `WorkshopMonitor` | Regular na kumukuha ng mga bagong mod mula sa Steam Workshop, sinala ayon sa bilang ng subscription at idinagdag sa `request_for_translation.txt` |",
+      "pl": "| `WorkshopMonitor` | Okresowo pobiera nowe mody z Steam Workshop, filtruje według liczby subskrypcji i dodaje do `request_for_translation.txt` |",
+      "pt": "| `WorkshopMonitor` | Captura periodicamente novos mods do Steam Workshop, filtra por número de assinaturas e adiciona a `request_for_translation.txt` |",
+      "pt-br": "| `WorkshopMonitor` | Captura periodicamente novos mods da Steam Workshop, filtra por número de inscrições e os adiciona ao `request_for_translation.txt` |",
+      "ro": "| `WorkshopMonitor` | Preia periodic noi moduri din Steam Workshop, le filtrează după numărul de abonamente și le adaugă în `request_for_translation.txt` |",
+      "ru": "| `WorkshopMonitor` | Регулярно извлекает новые моды из Steam Workshop, фильтрует по количеству подписок и добавляет в `request_for_translation.txt` |",
+      "th": "| `WorkshopMonitor` | จับเวลาเพื่อดึงม็อดใหม่จาก Steam Workshop กรองตามจำนวนสมาชิกและรวมเข้าไปใน `request_for_translation.txt` |",
+      "tr": "| `WorkshopMonitor` | Steam Workshop'taki yeni modları düzenli olarak getirir, abonelik sayısına göre filtreler ve `request_for_translation.txt` dosyasına ekler. |",
+      "uk": "| `WorkshopMonitor` | Регулярно отримує нові моди з Steam Workshop, фільтрує за кількістю підписок і додає до `request_for_translation.txt` |"
+    },
+    "NeedsTranslation": {
+      "ar": true,
+      "ca": true,
+      "zh-hant": true,
+      "cs": true,
+      "da": true,
+      "de": true,
+      "en": true,
+      "es": true,
+      "fi": true,
+      "fr": true,
+      "hu": true,
+      "id": true,
+      "it": true,
+      "ko": true,
+      "nl": true,
+      "no": true,
+      "tl": true,
+      "pl": true,
+      "pt": true,
+      "pt-br": true,
+      "ro": true,
+      "ru": true,
+      "th": true,
+      "tr": true,
+      "uk": true
+    }
+  },
+  {
+    "Sha256": "40e01b48076ac3f53d9e449a81375882cdc10459a36f7781b0aee594084ad68e",
+    "SourceText": "| `DocGenerator` | LLM 驱动的多语言文档生成器 |",
+    "Translations": {
+      "ar": "| `DocGenerator` | مولد وثائق متعدد اللغات يعمل بتقنية LLM |",
+      "ca": "| `DocGenerator` | Generador de documentació multilingüe impulsat per LLM |",
+      "zh-hant": "| `DocGenerator` | LLM 驅動的多語言文件生成器 |",
+      "cs": "| `DocGenerator` | LLM řízený generátor vícejazyčné dokumentace |",
+      "da": "| `DocGenerator` | LLM-drevet flersproget dokumentgenerator |",
+      "de": "| `DocGenerator` | LLM-gesteuerter mehrsprachiger Dokumentgenerator |",
+      "en": "| `DocGenerator` | LLM-driven multilingual document generator |",
+      "es": "| `DocGenerator` | Generador de documentación multilingüe impulsado por LLM |",
+      "fi": "| `DocGenerator` | LLM-ohjattu monikielinen dokumentaatiogeneraattori |",
+      "fr": "| `DocGenerator` | Générateur de documentation multilingue piloté par LLM |",
+      "hu": "| `DocGenerator` | LLM által vezérelt többnyelvű dokumentumgenerátor |",
+      "id": "| `DocGenerator` | Pembuat dokumen multibahasa yang digerakkan oleh LLM |",
+      "it": "| `DocGenerator` | Generatore di documentazione multilingua basato su LLM |",
+      "ko": "| `DocGenerator` | LLM 기반 다국어 문서 생성기 |",
+      "nl": "| `DocGenerator` | Meertalige documentgenerator aangedreven door LLM |",
+      "no": "| `DocGenerator` | LLM-drevet flerspråklig dokumentgenerator |",
+      "tl": "| `DocGenerator` | LLM-driven multi-language document generator |",
+      "pl": "| `DocGenerator` | Generator wielojęzycznej dokumentacji napędzany przez LLM |",
+      "pt": "| `DocGenerator` | Gerador de documentação multilíngue impulsionado por LLM |",
+      "pt-br": "| `DocGenerator` | Gerador de documentação multilíngue orientado por LLM |",
+      "ro": "| `DocGenerator` | Generator de documentație multilingvă bazat pe LLM |",
+      "ru": "| `DocGenerator` | Многоязычный генератор документации на основе LLM |",
+      "th": "| `DocGenerator` | เครื่องสร้างเอกสารหลายภาษาที่ขับเคลื่อนด้วย LLM |",
+      "tr": "| `DocGenerator` | LLM destekli çok dilli belge oluşturucu |",
+      "uk": "| `DocGenerator` | Генератор багатомовної документації на основі LLM |"
+    },
+    "NeedsTranslation": {
+      "ar": true,
+      "ca": true,
+      "zh-hant": true,
+      "cs": true,
+      "da": true,
+      "de": true,
+      "en": true,
+      "es": true,
+      "fi": true,
+      "fr": true,
+      "hu": true,
+      "id": true,
+      "it": true,
       "ko": true,
       "nl": true,
       "no": true,

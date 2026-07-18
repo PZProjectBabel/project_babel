@@ -91,7 +91,7 @@ Sub autorizația dvs., proiectul va adăuga modul dvs. în lista `config/ref_tra
 
 Automatizarea acestui proiect este împărțită în două părți:
 
-**Modulul pipeline (`src/`, C# / .NET 10)**: Conține 15 module executate secvențial, responsabile pentru întregul flux de la inițializarea SteamCMD, descărcarea modulelor, extragerea textului, revizuirea conținutului, calcularea Embedding-urilor, căutarea RAG până la traducerea LLM și ieșirea finală. Vezi [Referință tehnică](../technical_reference/technical_reference_ro.md).
+**Modulul pipeline („src/”, C# /.NET 10)**: include 15 module executate secvențial, plus 2 module independente („WorkshopMonitor” detector de moduri, „DocGenerator” generator de documente), responsabile pentru întregul flux de la inițializarea SteamCMD, descărcarea modurilor, extragerea textului, revizuirea conținutului, calculul Embedding, căutarea RAG până la traducerea LLM și ieșirea finală. Vezi [referință tehnică](../technical_reference/technical_reference_ro.md).
 
 **Scripturi auxiliare (`.github/`)**: Utilizate pentru automatizarea GitHub.
 
@@ -108,7 +108,7 @@ Puteți urma următorii pași:
 2. Creați o ramură nouă pe baza celei mai recente ramuri;
 3. Modificați sau adăugați fișiere în directorul corespunzător:
 - Modificarea modulelor pipeline → `src/<nume_modul>/`;
-- Modificarea scripturilor → `scripts/`;
+- Modificări ale fluxului de lucru CI → `.github/workflows/`;
 - Modificarea șabloanelor Prompt → `src/prompt_templates/`;
 4. Înainte de a trimite, încercați pe cât posibil:
 

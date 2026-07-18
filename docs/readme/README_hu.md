@@ -17,6 +17,7 @@
 - [Eszközök és könyvtárszerkezet (Fejlesztőknek)](#eszközök-és-könyvtárszerkezet-fejlesztőknek)
   - [Projektkönyvtárak](#projektkönyvtárak)
   - [Folyamatmodulok (végrehajtási sorrendben)](#folyamatmodulok-végrehajtási-sorrendben)
+  - [Független modulok](#független-modulok)
   - [Technológiai stack](#technológiai-stack)
 - [Szerzői jog és licenc](#szerzői-jog-és-licenc)
   - [1. Szövegek, képek és egyéb tartalmak](#1-szövegek-képek-és-egyéb-tartalmak)
@@ -98,7 +99,7 @@ Ez a szakasz azoknak a fejlesztőknek szól, akik szeretnék megérteni a projek
 
 | Könyvtár | Leírás |
 |------|------|
-| `src/` | .NET 10 fordítási folyamat forráskódja, 15 modullal |
+| `src/` | .NET 10 fordítási csővezeték forráskódja, 15 modul + 2 független modul |
 | `config/` | Folyamat konfigurációs fájlok (LLM, Steam, RAG paraméterek stb.) |
 | `data/` | Futásidejű adatok: mod metaadatok, beágyazások, fordítási gyorsítótár |
 | `translation_ref/` | Referencia fordítási adatok (如一汉化组 által engedélyezett modok), amelyek fordítási referenciát biztosítanak az LLM számára |
@@ -127,6 +128,13 @@ Ez a szakasz azoknak a fejlesztőknek szól, akik szeretnék megérteni a projek
 | 13 | `ResultWriter` | Írás a data/ és translation_ref/ könyvtárakba |
 | 14 | `FinalOutputWriter` | Végső PZ modul formátumú kimenet előállítása |
 | 15 | `ProgressReporter` | Haladásjelentés generálása |
+
+### Független modulok
+
+| Modul | Funkció |
+|------|------|
+| `WorkshopMonitor` | Rendszeresen letölti az új Steam Workshop modulokat, szűrés a feliratkozások száma alapján, és hozzáadja a `request_for_translation.txt` fájlhoz |
+| `DocGenerator` | LLM által vezérelt többnyelvű dokumentumgenerátor |
 
 ### Technológiai stack
 

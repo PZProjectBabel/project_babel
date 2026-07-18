@@ -42,12 +42,15 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [Незалежні модулі](#незалежні-модулі)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Узгодження даних](#4-узгодження-даних)
   - [4.1 Основні типи](#41-основні-типи)
     - [`TranslationEntry` — запис перекладу](#translationentry-запис-перекладу)
     - [`TranslationData` — дані перекладу](#translationdata-дані-перекладу)
     - [`ModInfo` — Метадані Mod](#modinfo-метадані-mod)
-    - [`TranslationBatch` — 翻译批次](#translationbatch-翻译批次)
+    - [`TranslationBatch` — Пакет перекладу](#translationbatch-пакет-перекладу)
     - [`LangInfoData` — інформація про мову](#langinfodata-інформація-про-мову)
   - [4.2 Формати файлів](#42-формати-файлів)
     - [Витяг (вихід ContentExtractor)](#витяг-вихід-contentextractor)
@@ -248,7 +251,7 @@ config.json / secrets.json
 
 ### 3.1 ConfigReader (`ConfigReaderService`)
 
-**功能**: 加载并校验所有配置文件，是整个管线的入口模块。
+**Функція**: Завантажує та перевіряє всі конфігураційні файли, є вхідним модулем всього конвеєра.
 
 `ConfigReader` - це перший модуль, який запускається після старту конвеєра. Його основне завдання - зчитувати всі файли конфігурації з каталогу `config/`, десеріалізувати їх у строго типізований об'єкт `PipelineConfig` та виконати перевірку цілісності після завантаження.
 
@@ -618,6 +621,8 @@ final_outputs/project_babel/contents/mods/project_babel/
 
 Це відображення надається записом `translation_key_to_file_mapping` на етапі `ContentExtractor`.
 
+---
+
 4. **Атомарний запис**: Усі вихідні файли використовують стратегію "спочатку записати тимчасовий файл, потім атомарне переміщення" — спочатку записується `<filename>.tmp`, після успішного запису виконується `File.Move` для перезапису цільового файлу. Цей підхід гарантує, що навіть у разі збою або відключення живлення під час запису, існуючі файли не будуть пошкоджені.
 
 ### 3.14 ProgressReporter (`ProgressReporterService`)
@@ -633,6 +638,36 @@ final_outputs/project_babel/contents/mods/project_babel/
 2. **Обчислення статистики**: Проходить по кешу всіх записів перекладу, збираючи наступні показники для кожної цільової мови:
 3. **Заміна заповнювачів**: заміна `{{PLACEHOLDER}}` у шаблоні на фактичні статистичні дані.
 4. **Запис у файл**: запис заміненого вмісту в `docs/progress/progress_<iso>.md`.
+
+---
+
+## Незалежні модулі
+
+Наступні модулі працюють незалежно від конвеєра перекладу, не входять до `TranslationPipeline.slnx`, кожен запускається через `dotnet run --project` або GitHub Actions.
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**Функція**: Регулярно відстежує нові моди в Steam Workshop, автоматично фільтрує моди з великою кількістю підписок та додає їх до списку запитів на переклад.
+
+**Спосіб запуску**: Запускається за розкладом через GitHub Actions `.github/workflows/monitor-workshop.yml` (щодня о 00:00 за пекінським часом) або локально через `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.
+
+**Робочий процес**:
+1. **Отримання списку**: Покроково отримує ID модів зі сторінки "most recent" у Steam Workshop з тегом Build 42 (виключаючи теги Language/Translation).
+2. **Аналіз часу**: Через Steam Web API пакетно запитує час публікації кожного моду, порівнює з часом останнього запуску в кеші та визначає нові моди.
+3. **Фільтрація за підписками**: Повторно викликає Steam API для запиту кількості підписок усіх кешованих модів, відбирає ті, що перевищують поріг (500).
+4. **Об'єднання та виведення**: Дедуплікує відфільтровані ID модів та додає їх до `config/request_for_translation.txt` для використання `ModIdCollector` конвеєра.
+
+**Жорстко закодовані параметри**: AppId=108600, MinSubs=500, SafetyPages=5 (додаткова кількість сторінок після досягнення останньої позначки часу), PageSize=30, Lookback=48h.
+
+**Формат кешу**: `data/monitor_cache.bin` — Zstd-стиснутий двійковий файл, послідовність little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Використовує той самий алгоритм стиснення `ZstdSharp`, що і `BinaryEmbeddingSerializer`.
+
+**Читання ключа**: Ключ Steam API зчитується з поля `STEAM_KEY` у `config/secrets.json`, або зі змінних середовища `STEAM_KEY` / `STEAM_API_KEY` (той самий шаблон, що й у `ConfigReader`).
+
+### DocGenerator
+
+**Функція**: Генератор багатомовної документації на основі LLM, який створює README, керівництво з внеску та технічну довідку різними мовами з китайських шаблонів.
+
+**Спосіб запуску**: Окремий проєкт `src/DocGenerator/DocGenerator.csproj`, виконується через `dotnet run --project src/DocGenerator/DocGenerator.csproj`.
 
 ---
 
@@ -722,27 +757,27 @@ string contentCheckViolatedRulesJson; // Список порушених пра�
 }
 ```
 
-**关键状态字段**：
-- `needsUpdate`：当 Steam 记录的 `time_updated` 晚于缓存的 `timeModUpdated` 时设为 `true`，表示模组作者更新了内容。
-- `isAvailable`：如果 Steam API 返回的 `consumer_app_id` 不是 `108600`（Project Zomboid），或模组已下架，则设为 `false`，后续模块将跳过该 mod。
-- `contentCheckStatus`：内容安全审查的状态，详见 4.4 节的状态机说明。
+**Ключові поля стану**:
+- `needsUpdate`: Встановлюється в `true`, коли `time_updated` з Steam пізніше за кешований `timeModUpdated`, що вказує на оновлення вмісту автором моду.
+- `isAvailable`: Встановлюється в `false`, якщо `consumer_app_id`, повернутий Steam API, не є `108600` (Project Zomboid), або якщо мод видалено; подальші модулі пропустять цей мод.
+- `contentCheckStatus`: Стан перевірки безпеки вмісту; див. опис автомата станів у розділі 4.4.
 
-#### `TranslationBatch` — 翻译批次
+#### `TranslationBatch` — Пакет перекладу
 
-`TranslationBatch` 是 LLM 翻译的基本单位，包含一批同一模组、同一目标语言的待翻译条目。
+`TranslationBatch` — це базова одиниця перекладу LLM, яка містить набір записів для одного моду та однієї цільової мови.
 
 ```csharp
 class TranslationBatch {
     int batchId;
-    int priority;                    // 优先级 (subscription + favorite 加权)
+int priority;                    // Пріоритет (зважений за підписками та вподобаннями)
     string modId;
     List<TranslationEntry> translationEntries;
-    string baseLang;                 // "en"
-    string targetLang;               // 目标语言 ISO 代码，如 "zh-hans"
+string baseLang;                 // "en"
+string targetLang;               // Код ISO цільової мови, наприклад, "zh-hans"
 }
 ```
 
-- `priority`：由模组的订阅数和收藏数加权计算，热门模组的批次优先翻译。
+- `priority`: Пріоритет, обчислений зважено за кількістю підписок та вподобань моду. Пакети популярних модів перекладаються першими.
 Усі записи в одному пакеті надходять з одного мода, щоб уникнути плутанини контексту між модами.
 
 #### `LangInfoData` — інформація про мову

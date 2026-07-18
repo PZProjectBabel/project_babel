@@ -17,6 +17,7 @@
 - [Instrumente și structura directorului (pentru dezvoltatori)](#instrumente-și-structura-directorului-pentru-dezvoltatori)
   - [Directorul proiectului](#directorul-proiectului)
   - [Module pipeline (în ordinea execuției)](#module-pipeline-în-ordinea-execuției)
+  - [Module independente](#module-independente)
   - [Stiva tehnologică](#stiva-tehnologică)
 - [Drepturi de autor și licență](#drepturi-de-autor-și-licență)
   - [1. Text, imagini și alt conținut](#1-text-imagini-și-alt-conținut)
@@ -98,7 +99,7 @@ Această secțiune se adresează dezvoltatorilor care doresc să înțeleagă pr
 
 | Director | Descriere |
 |------|------|
-| `src/` | Cod sursă al pipeline-ului de traducere .NET 10, cu 15 module |
+| `src/` | Codul sursă al pipeline-ului de traducere .NET 10, conține 15 module + 2 module independente |
 | `config/` | Fișiere de configurare pipeline (parametri LLM, Steam, RAG etc.) |
 | `data/` | Date de execuție: metadate mod, embedding, cache de traducere |
 | `translation_ref/` | Date de traducere de referință (de exemplu, modurile autorizate de As1), oferă referință de traducere LLM |
@@ -127,6 +128,13 @@ Această secțiune se adresează dezvoltatorilor care doresc să înțeleagă pr
 | 13 | `ResultWriter` | Scriere în data/ și translation_ref/ |
 | 14 | `FinalOutputWriter` | Generare ieșire finală în format mod PZ |
 | 15 | `ProgressReporter` | Generare raport de progres |
+
+### Module independente
+
+| Modul | Funcție |
+|------|------|
+| `WorkshopMonitor` | Preia periodic noi moduri din Steam Workshop, le filtrează după numărul de abonamente și le adaugă în `request_for_translation.txt` |
+| `DocGenerator` | Generator de documentație multilingvă bazat pe LLM |
 
 ### Stiva tehnologică
 

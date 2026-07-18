@@ -42,6 +42,9 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
+- [独立模块](#独立模块)
+  - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
+  - [DocGenerator](#docgenerator)
 - [4. Veri Sözleşmeleri](#4-veri-sözleşmeleri)
   - [4.1 Temel Türler](#41-temel-türler)
     - [`TranslationEntry` — Çeviri Girdisi](#translationentry-çeviri-girdisi)
@@ -72,7 +75,7 @@
     - [5.1.8 `Embedding` — Gömme Hizmeti Yapılandırması](#518-embedding-gömme-hizmeti-yapılandırması)
     - [5.1.9 `Workflow` — İş Akışı Yapılandırması](#519-workflow-İş-akışı-yapılandırması)
   - [5.2 `config/secrets.json` — Anahtar Yapılandırması](#52-configsecretsjson-anahtar-yapılandırması)
-  - [5.3 `config/supported_languages.json` — 支持语言列表](#53-configsupported_languagesjson-支持语言列表)
+  - [5.3 `config/supported_languages.json` — Desteklenen Diller Listesi](#53-configsupported_languagesjson-desteklenen-diller-listesi)
   - [5.4 `config/ref_translation_mods.json` — Referans Çeviri Modları](#54-configref_translation_modsjson-referans-çeviri-modları)
   - [5.5 `config/request_for_translation.txt` — Yerel Çeviri Talebi](#55-configrequest_for_translationtxt-yerel-çeviri-talebi)
   - [5.6 Yapılandırma Yükleme Süreci](#56-yapılandırma-yükleme-süreci)
@@ -618,6 +621,8 @@ Bu eşleme ilişkisi, `ContentExtractor` aşamasında kaydedilen `translation_ke
 
 4. **Atomik Yazma**: Tüm çıktı dosyaları "önce geçici dosyaya yaz, sonra atomik taşı" stratejisini kullanır - önce `<filename>.tmp` dosyasına yazılır, yazma başarılı olduktan sonra `File.Move` ile hedef dosyanın üzerine yazılır. Bu yöntem, yazma sırasında çökme veya elektrik kesintisi olsa bile mevcut dosyanın bozulmamasını sağlar.
 
+---
+
 ### 3.14 ProgressReporter (`ProgressReporterService`)
 
 **İşlev**: Her dilin çeviri kapsama oranını istatistiksel olarak hesaplar ve topluluğun çeviri ilerlemesini görmesi için çok dilli ilerleme raporları oluşturur.
@@ -633,6 +638,36 @@ Bu eşleme ilişkisi, `ContentExtractor` aşamasında kaydedilen `translation_ke
 - `untranslatable`: İçerik incelemesi nedeniyle çevrilemez olarak işaretlenmiş giriş sayısı.
 3. **Yer tutucuyu değiştirin**: Şablondaki `{{PLACEHOLDER}}`'ı gerçek istatistiksel verilerle değiştirin.
 4. **Dosyaya yazın**: Değiştirilen içeriği `docs/progress/progress_<iso>.md` dosyasına yazın.
+
+---
+
+## 独立模块
+
+以下模块独立于翻译流水线运行，不在 `TranslationPipeline.slnx` 中，各自通过 `dotnet run --project` 或 GitHub Actions 触发。
+
+### WorkshopMonitor (`WorkshopMonitorService`)
+
+**功能**: 定时监控 Steam Workshop 上架的新模组，自动筛选高订阅数模组并汇入翻译请求列表。
+
+**运行方式**：通过 GitHub Actions `.github/workflows/monitor-workshop.yml` 定时触发（北京时间每日 00:00），或本地 `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`。
+
+**工作流程**：
+1. **抓取列表**：从 Steam Workshop "most recent" 页面分页抓取 Build 42 标签（排除 Language/Translation 标签）的模组 ID。
+2. **解析时间**：通过 Steam Web API 批量查询每个模组的发布时间，与缓存中的上次运行时间比较，确定新模组。
+3. **过滤订阅数**：再次调用 Steam API 查询所有已缓存模组的订阅数，筛选出超过阈值（500）的模组。
+4. **合并输出**：将筛选后的模组 ID 去重合并到 `config/request_for_translation.txt`，供流水线的 `ModIdCollector` 消费。
+
+**硬编码参数**：AppId=108600、MinSubs=500、SafetyPages=5（到达上次时间戳后额外抓取页数）、PageSize=30、Lookback=48h。
+
+**缓存格式**：`data/monitor_cache.bin` — Zstd 压缩的二进制文件，little-endian int64 序列：`[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`。与 `BinaryEmbeddingSerializer` 共用 `ZstdSharp` 压缩方案。
+
+**密钥读取**：Steam API Key 从 `config/secrets.json` 的 `STEAM_KEY` 字段读取，或从环境变量 `STEAM_KEY` / `STEAM_API_KEY` 获取（与 `ConfigReader` 同模式）。
+
+### DocGenerator
+
+**功能**: LLM 驱动的多语言文档生成器，从中文模板生成各语言的 README、贡献指南和技术参考文档。
+
+**运行方式**：独立项目 `src/DocGenerator/DocGenerator.csproj`，通过 `dotnet run --project src/DocGenerator/DocGenerator.csproj` 执行。
 
 ---
 
@@ -701,13 +736,13 @@ struct ModInfo {
     string creator;
     string? language;
     string localDownloadedPath;
-    DateTime timeModUpdated;       // Steam 记录的最后更新时间
-    DateTime timeModCreated;       // Steam 记录的首次发布时间
-    DateTime timeLastChecked;      // 管线最后一次检查该 mod 的时间
-    int subscription;              // 订阅数（来自 Steam）
-    int favorite;                  // 收藏数（来自 Steam）
-    string description;            // Steam 模组描述文本
-    int consumerAppId;             // Steam 消费者 App ID (108600 = PZ)
+DateTime timeModUpdated;       // Steam tarafından kaydedilen son güncelleme zamanı
+DateTime timeModCreated;       // Steam tarafından kaydedilen ilk yayınlanma zamanı
+DateTime timeLastChecked;      // Borunun modu son kontrol ettiği zaman
+int subscription;              // Abonelik sayısı (Steam'den)
+int favorite;                  // Favori sayısı (Steam'den)
+string description;            // Steam mod açıklama metni
+int consumerAppId;             // Steam tüketici App ID'si (108600 = PZ)
 ContentCheckStatus contentCheckStatus; // İçerik inceleme durumu
 bool needsUpdate;              // Yeniden çıkarma ve çeviri gerekiyor mu
 bool needsContentCheck;        // İçeriğin yeniden incelenmesi gerekiyor mu
@@ -829,7 +864,7 @@ Boru hattında, sırasıyla içerik denetimi, çeviri kalitesi ve mod güncellem
 
 #### ContentCheck İçerik Denetim Durumu
 
-内容审查的完整状态流转如下：
+İçerik incelemesinin tam durum akışı aşağıdaki gibidir:
 ```
 UNKNOWN ──(新 mod 首次检查)──→ NEEDVERIFICATION
                                   ├──(LLM 审查: 安全)──→ ACCEPTED
@@ -971,47 +1006,47 @@ Tüm çeviri boru hattının temel kontrol dosyası. Tüm alanlar zorunludur, "i
 
 > **⚠️ Bu dosya hassas bilgiler içerir, `.gitignore`'a eklenmiştir, sürüm kontrolüne göndermek kesinlikle yasaktır.**
 
-使用前请复制 `secrets_example.json` 为 `secrets.json` 并填入真实值。
+Kullanmadan önce `secrets_example.json` dosyasını `secrets.json` olarak kopyalayın ve gerçek değerleri girin.
 
 | Alan | Tür | Açıklama |
 |------|------|------|
-| `LLM_KEY` | string | LLM API 的鉴权密钥。由 `ConfigReader` 校验非空，为空则管线终止 |
-| `STEAM_KEY` | string | Steam Web API Key。用于调用 `ISteamRemoteStorage/GetPublishedFileDetails` 等接口。获取方式: [Steam 开发者门户](https://steamcommunity.com/dev/apikey) |
-| `EMBEDDING_HOST` | string | 嵌入服务的主机地址（IP 或域名，不含端口）。端口由 `EMBEDDING_PORT` 单独指定 |
-| `EMBEDDING_PORT` | string | 嵌入服务的端口号 |
-| `EMBEDDING_KEY` | string | 嵌入服务的 AES-256 加密预共享密钥。经 SHA256 哈希后作为 AES-GCM 密钥使用 |
+| `LLM_KEY` | string | LLM API'sinin yetkilendirme anahtarı. `ConfigReader` tarafından boş olup olmadığı kontrol edilir, boşsa boru hattı sonlandırılır. |
+| `STEAM_KEY` | string | Steam Web API Key. `ISteamRemoteStorage/GetPublishedFileDetails` gibi arayüzleri çağırmak için kullanılır. Alınma yöntemi: [Steam Geliştirici Portalı](https://steamcommunity.com/dev/apikey) |
+| `EMBEDDING_HOST` | string | Gömme hizmetinin ana bilgisayar adresi (IP veya alan adı, port dahil değil). Port, `EMBEDDING_PORT` tarafından ayrıca belirtilir. |
+| `EMBEDDING_PORT` | string | Gömme hizmetinin port numarası. |
+| `EMBEDDING_KEY` | string | Gömme hizmetinin AES-256 şifreleme önceden paylaşılan anahtarı. SHA256 ile hash'lendikten sonra AES-GCM anahtarı olarak kullanılır. |
 
-**密钥校验逻辑**: `ConfigReader.LoadConfig()` 在加载完成后检查 `LLM_KEY` 是否为空 → 为空抛异常 → `Program.cs` 捕获后 `Environment.Exit(1)`。
+**Anahtar doğrulama mantığı**: `ConfigReader.LoadConfig()` yükleme tamamlandıktan sonra `LLM_KEY`'in boş olup olmadığını kontrol eder → boşsa istisna fırlatır → `Program.cs` yakalar ve `Environment.Exit(1)` çağırır.
 
-### 5.3 `config/supported_languages.json` — 支持语言列表
+### 5.3 `config/supported_languages.json` — Desteklenen Diller Listesi
 
-定义管线支持的所有目标语言。每条记录对应 `LangInfoData` 类型。
+Borunun desteklediği tüm hedef dilleri tanımlar. Her kayıt `LangInfoData` türüne karşılık gelir.
 
-使用前请复制 `supported_languages_example.json` 为 `supported_languages.json`。
+Kullanmadan önce `supported_languages_example.json` dosyasını `supported_languages.json` olarak kopyalayın.
 
 | Alan | Tür | Açıklama |
 |------|------|------|
-| `ingame_code` | string | PZ 游戏内语言代码，对应 `Translate/` 下的文件夹名。例: `CN`, `JP`, `DE` |
-| `chinese_name` | string | 中文名称。用于进度报告和日志输出 |
-| `english_name` | string | 英文名称。用于进度报告 |
-| `native_name` | string | 本地语名称。用于进度报告 |
-| `iso_code` | string | ISO 639-1 或 BCP 47 语言代码。用于文件路径、API 参数和内部索引。例: `zh-hans`, `ja`, `de` |
+| `ingame_code` | string | PZ oyun içi dil kodu, `Translate/` altındaki klasör adına karşılık gelir. Örn: `CN`, `JP`, `DE` |
+| `chinese_name` | string | Çince ad. İlerleme raporları ve günlük çıktısı için kullanılır. |
+| `english_name` | string | İngilizce ad. İlerleme raporları için kullanılır. |
+| `native_name` | string | Yerel dil adı. İlerleme raporları için kullanılır. |
+| `iso_code` | string | ISO 639-1 veya BCP 47 dil kodu. Dosya yolları, API parametreleri ve iç dizinler için kullanılır. Örn: `zh-hans`, `ja`, `de` |
 
-**示例条目**:
+**Örnek giriş:**
 ```json
 {
   "ingame_code": "CN",
   "chinese_name": "简体中文",
-  "english_name": "Chinese (Simplified)",
-  "native_name": "简体中文",
+"english_name": "Çince (Basitleştirilmiş)",
+"native_name": "Basitleştirilmiş Çince",
   "iso_code": "zh-hans"
 }
 ```
 
-**预置语言列表** (27 种):
+**Önceden Tanımlanmış Dil Listesi** (27 tür):
 `AR` `CA` `CH` `CN` `CS` `DA` `DE` `EN` `ES` `FI` `FR` `HU` `ID` `IT` `JP` `KO` `NL` `NO` `PH` `PL` `PT` `PTBR` `RO` `RU` `TH` `TR` `UA`
 
-**管线中的使用**:
+**Pipeline'da Kullanımı**:
 **Temel Dil** (`baseLang`): Listedeki `EN` temel alınır. `ContentExtractor` içindeki `baseIso`, `config.baseLanguage` tarafından eşlenir
 **Hedef Dil** (`targetLangs`): Listedeki `EN` dışındaki tüm diller çeviri hedefidir
 **Çıktı Dili** (`outputLangs`): Tüm diller (`EN` dahil) nihai çıktıya katılır
@@ -1118,9 +1153,9 @@ project_babel/
 │   └── contents/mods/project_babel/
 │       ├── 42/media/lua/shared/Translate/<gameCode>/*.json
 │       └── 42.19/media/lua/shared/Translate/<gameCode>/*.json
-├── src/                         # 源代码
-│   ├── Program.cs               # 管线入口 + PipelineRunner
-│   ├── Common/                  # 共享类型 + 工具类
+├── src/                         # Kaynak kodu
+│   ├── Program.cs               # Pipeline girişi + PipelineRunner
+│   ├── Common/                  # Paylaşılan türler + Yardımcı sınıflar
 │   ├── ConfigReader/            # Yapılandırma yükleme
 │   ├── ContentChecker/          # İçerik güvenliği denetimi
 │   ├── ContentExtractor/        # Metin çıkarma

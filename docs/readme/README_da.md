@@ -17,6 +17,7 @@
 - [Værktøjer og mappestruktur (til udviklere)](#værktøjer-og-mappestruktur-til-udviklere)
   - [Projektmapper](#projektmapper)
   - [Pipeline-moduler (i udførelsesrækkefølge)](#pipeline-moduler-i-udførelsesrækkefølge)
+  - [Uafhængige moduler](#uafhængige-moduler)
   - [Teknologistak](#teknologistak)
 - [Ophavsret og licens](#ophavsret-og-licens)
   - [1. Tekst og billeder mv.](#1-tekst-og-billeder-mv)
@@ -98,7 +99,7 @@ Dette afsnit er for udviklere, der ønsker at forstå projektets automatiserings
 
 | Mappe | Beskrivelse |
 |------|------|
-| `src/` | .NET 10 oversættelsespipeline kildekode med 15 moduler |
+| `src/` | .NET 10 oversættelsespipeline kildekode, indeholder 15 moduler + 2 uafhængige moduler |
 | `config/` | Pipeline-konfigurationsfiler (LLM-, Steam-, RAG-parametre osv.) |
 | `data/` | Runtime-data: Modulmetadata, embedding, oversættelsescache |
 | `translation_ref/` | Referenceoversættelsesdata (f.eks. godkendte moduler fra en oversættelsesgruppe), giver LLM oversættelsesreference |
@@ -127,6 +128,13 @@ Dette afsnit er for udviklere, der ønsker at forstå projektets automatiserings
 | 13 | `ResultWriter` | Skriver til data/ og translation_ref/ |
 | 14 | `FinalOutputWriter` | Genererer endelig PZ-modformatoutput |
 | 15 | `ProgressReporter` | Genererer fremskridtsrapport |
+
+### Uafhængige moduler
+
+| Modul | Funktion |
+|------|------|
+| `WorkshopMonitor` | Planmæssigt hent nye moduler fra Steam Workshop, filtrer efter abonnementstal og tilføj til `request_for_translation.txt` |
+| `DocGenerator` | LLM-drevet flersproget dokumentgenerator |
 
 ### Teknologistak
 

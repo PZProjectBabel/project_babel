@@ -91,7 +91,7 @@ LLM API를 호출하여 번역하려면 토큰 비용이 발생합니다. 프로
 
 본 프로젝트의 자동화는 두 부분으로 나뉩니다:
 
-**파이프라인 모듈 (`src/`, C# / .NET 10)**: SteamCMD 초기화, 모드 다운로드, 텍스트 추출, 내용 검토, 임베딩 계산, RAG 검색, LLM 번역 및 최종 출력까지의 전체 프로세스를 담당하는 15개의 순차 실행 모듈로 구성됩니다. 자세한 내용은 [기술 참조](../technical_reference/technical_reference_ko.md)를 참조하세요.
+**파이프라인 모듈 (`src/`, C# / .NET 10)**: SteamCMD 초기화, 모드 다운로드, 텍스트 추출, 콘텐츠 검토, Embedding 계산, RAG 검색에서 LLM 번역 및 최종 출력까지의 전체 프로세스를 담당하는 15개의 순차 실행 모듈과 2개의 독립 모듈(`WorkshopMonitor` 모드 탐색기, `DocGenerator` 문서 생성기)로 구성됩니다. 자세한 내용은 [기술 참조](../technical_reference/technical_reference_ko.md)를 참조하세요.
 
 **보조 스크립트 (`.github/`)**: GitHub 자동화용.
 
@@ -108,7 +108,7 @@ LLM API를 호출하여 번역하려면 토큰 비용이 발생합니다. 프로
 2. 최신 브랜치를 기준으로 새 브랜치 생성
 3. 해당 디렉토리에서 파일 수정 또는 추가:
 - 파이프라인 모듈 수정 → `src/<모듈명>/`
-- 스크립트 수정 → `scripts/`
+- CI 워크플로 수정 → `.github/workflows/`;
 - Prompt 템플릿 수정 → `src/prompt_templates/`
 4. 제출 전에 가능한 한:
 

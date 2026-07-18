@@ -91,7 +91,7 @@ Under din autorisation vil projektet føje dit mod til listen over referenceover
 
 Automatiseringen af dette projekt er opdelt i to dele:
 
-**Pipelinemodul (`src/`, C# / .NET 10)**: Indeholder 15 moduler, der udføres i rækkefølge, og som står for den komplette proces fra SteamCMD-initialisering, moddownload, tekstudtræk, indholdsgennemgang, Embedding-beregning, RAG-søgning til LLM-oversættelse og endelig output. Se [teknisk reference](../technical_reference/technical_reference_da.md) for flere detaljer.
+**Pipeline-modul (`src/`, C# / .NET 10)**: Indeholder 15 moduler, der udføres i rækkefølge, plus 2 uafhængige moduler (`WorkshopMonitor` modulopdager, `DocGenerator` dokumentgenerator), som står for hele processen fra SteamCMD-initialisering, moduldownload, tekstudtræk, indholdsgennemgang, Embedding-beregning, RAG-søgning til LLM-oversættelse og endelig output. Se [Teknisk reference](../technical_reference/technical_reference_da.md).
 
 **Hjælpeskripter (`.github/`)**: Bruges til GitHub-automatisering.
 
@@ -108,7 +108,7 @@ Kan du følge disse trin:
 2. Opret en ny gren baseret på den seneste gren;
 3. Rediger eller tilføj filer i den relevante mappe:
 - Pipelinemodulændringer → `src/<modulnavn>/`;
-- Scriptændringer → `scripts/`;
+   - CI 工作流修改 → `.github/workflows/`；
 - Prompt-skabelonændringer → `src/prompt_templates/`;
 4. Inden indsendelse, så vidt muligt:
 

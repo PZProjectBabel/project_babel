@@ -91,7 +91,7 @@ Mit Ihrer Genehmigung wird das Projekt Ihren Mod in die Liste der Referenzübers
 
 Die Automatisierung dieses Projekts besteht aus zwei Teilen:
 
-**Pipeline-Module (`src/`, C# / .NET 10)**: Enthält 15 nacheinander ausgeführte Module, die den gesamten Prozess von der SteamCMD-Initialisierung über Mod-Download, Textextraktion, Inhaltsprüfung, Embedding-Berechnung, RAG-Abfrage bis zur LLM-Übersetzung und endgültigen Ausgabe abdecken. Siehe [Technische Referenz](../technical_reference/technical_reference_de.md).
+**Pipeline-Module (`src/`, C# / .NET 10)**: Enthält 15 sequentiell ausgeführte Module sowie 2 unabhängige Module (`WorkshopMonitor` Modul-Entdecker, `DocGenerator` Dokumentengenerator), die den gesamten Ablauf von der SteamCMD-Initialisierung, Modul-Download, Textextraktion, Inhaltsprüfung, Embedding-Berechnung, RAG-Abfrage bis zur LLM-Übersetzung und endgültigen Ausgabe abdecken. Siehe [Technische Referenz](../technical_reference/technical_reference_de.md).
 
 **Hilfsskripte (`.github/`)**: Für die Automatisierung auf GitHub.
 
@@ -108,7 +108,7 @@ Sie können wie folgt vorgehen:
 2. Erstellen Sie einen neuen Branch basierend auf dem neuesten Branch;
 3. Ändern oder fügen Sie Dateien im entsprechenden Verzeichnis hinzu:
 - Pipeline-Moduländerung → `src/<Modulname>/`;
-- Skriptänderung → `scripts/`;
+- CI-Workflow-Änderungen → `.github/workflows/`；
 - Prompt-Vorlagenänderung → `src/prompt_templates/`;
 4. Bitte versuchen Sie vor dem Absenden:
 

@@ -17,6 +17,7 @@
 - [Hulpmiddelen en mapstructuur (voor ontwikkelaars)](#hulpmiddelen-en-mapstructuur-voor-ontwikkelaars)
   - [Projectmappen](#projectmappen)
   - [Pijplijnmodules (in uitvoeringsvolgorde)](#pijplijnmodules-in-uitvoeringsvolgorde)
+  - [Onafhankelijke modules](#onafhankelijke-modules)
   - [Technologiestack](#technologiestack)
 - [Auteursrecht en Licentie](#auteursrecht-en-licentie)
   - [1. Tekst en afbeeldingen, etc.](#1-tekst-en-afbeeldingen-etc)
@@ -98,7 +99,7 @@ Deze sectie is bedoeld voor ontwikkelaars die de automatisering van het project 
 
 | Map | Beschrijving |
 |------|------|
-| `src/` | .NET 10 vertaalpijplijn broncode, met 15 modules |
+| `src/` | .NET 10 vertaalpijplijn broncode, met 15 modules + 2 onafhankelijke modules |
 | `config/` | Pijplijnconfiguratiebestanden (LLM, Steam, RAG parameters, enz.) |
 | `data/` | Runtimegegevens: mod metadata, embeddings, vertaalcache |
 | `translation_ref/` | Referentievertalingsgegevens (bijv. As1-gelicentieerde mods), voor LLM vertaalreferentie |
@@ -127,6 +128,13 @@ Deze sectie is bedoeld voor ontwikkelaars die de automatisering van het project 
 | 13 | `ResultWriter` | Schrijf naar data/ en translation_ref/ |
 | 14 | `FinalOutputWriter` | Genereer definitieve PZ-mod-formaat uitvoer |
 | 15 | `ProgressReporter` | Genereer voortgangsrapport |
+
+### Onafhankelijke modules
+
+| Module | Functie |
+|------|------|
+| `WorkshopMonitor` | Regelmatig nieuwe mods van Steam Workshop ophalen, filteren op abonnementen en integreren in `request_for_translation.txt` |
+| `DocGenerator` | Meertalige documentgenerator aangedreven door LLM |
 
 ### Technologiestack
 
