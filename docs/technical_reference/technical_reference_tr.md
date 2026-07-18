@@ -42,14 +42,14 @@
   - [3.12 ResultWriter (`ResultWriterService`)](#312-resultwriter-resultwriterservice)
   - [3.13 FinalOutputWriter (`FinalOutputWriterService`)](#313-finaloutputwriter-finaloutputwriterservice)
   - [3.14 ProgressReporter (`ProgressReporterService`)](#314-progressreporter-progressreporterservice)
-- [独立模块](#独立模块)
+- [Bağımsız Modüller](#bağımsız-modüller)
   - [WorkshopMonitor (`WorkshopMonitorService`)](#workshopmonitor-workshopmonitorservice)
   - [DocGenerator](#docgenerator)
 - [4. Veri Sözleşmeleri](#4-veri-sözleşmeleri)
   - [4.1 Temel Türler](#41-temel-türler)
     - [`TranslationEntry` — Çeviri Girdisi](#translationentry-çeviri-girdisi)
     - [`TranslationData` — Çeviri Verisi](#translationdata-çeviri-verisi)
-    - [`ModInfo` — Mod 元数据](#modinfo-mod-元数据)
+    - [`ModInfo` — Mod Meta Verisi](#modinfo-mod-meta-verisi)
     - [`TranslationBatch` — Çeviri Grupları](#translationbatch-çeviri-grupları)
     - [`LangInfoData` — Dil Bilgisi](#langinfodata-dil-bilgisi)
   - [4.2 Dosya Biçimleri](#42-dosya-biçimleri)
@@ -641,33 +641,33 @@ Bu eşleme ilişkisi, `ContentExtractor` aşamasında kaydedilen `translation_ke
 
 ---
 
-## 独立模块
+## Bağımsız Modüller
 
-以下模块独立于翻译流水线运行，不在 `TranslationPipeline.slnx` 中，各自通过 `dotnet run --project` 或 GitHub Actions 触发。
+Aşağıdaki modüller, çeviri hattından bağımsız olarak çalışır, `TranslationPipeline.slnx` içinde değildir ve her biri `dotnet run --project` veya GitHub Actions ile tetiklenir.
 
 ### WorkshopMonitor (`WorkshopMonitorService`)
 
-**功能**: 定时监控 Steam Workshop 上架的新模组，自动筛选高订阅数模组并汇入翻译请求列表。
+**İşlev**: Steam Workshop'ta yeni eklenen modları düzenli olarak izler, yüksek abone sayısına sahip modları otomatik olarak filtreler ve çeviri istek listesine ekler.
 
-**运行方式**：通过 GitHub Actions `.github/workflows/monitor-workshop.yml` 定时触发（北京时间每日 00:00），或本地 `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`。
+**Çalıştırma Yöntemi**: GitHub Actions `.github/workflows/monitor-workshop.yml` ile zamanlanmış olarak (Pekin saatiyle her gün 00:00) veya yerel olarak `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj` ile tetiklenir.
 
-**工作流程**：
-1. **抓取列表**：从 Steam Workshop "most recent" 页面分页抓取 Build 42 标签（排除 Language/Translation 标签）的模组 ID。
-2. **解析时间**：通过 Steam Web API 批量查询每个模组的发布时间，与缓存中的上次运行时间比较，确定新模组。
-3. **过滤订阅数**：再次调用 Steam API 查询所有已缓存模组的订阅数，筛选出超过阈值（500）的模组。
-4. **合并输出**：将筛选后的模组 ID 去重合并到 `config/request_for_translation.txt`，供流水线的 `ModIdCollector` 消费。
+**İş Akışı**:
+1. **Listeyi Çekme**: Steam Workshop'taki 'most recent' sayfasından, sayfa sayfa Build 42 etiketine sahip (Language/Translation etiketleri hariç) mod ID'lerini çeker.
+2. **Zamanı Ayrıştırma**: Steam Web API aracılığıyla her modun yayınlanma zamanını toplu olarak sorgular, önbellekteki son çalışma zamanıyla karşılaştırarak yeni modları belirler.
+3. **Abone Sayısını Filtreleme**: Steam API'yi tekrar çağırarak önbelleğe alınmış tüm modların abone sayılarını sorgular ve eşik değerini (500) aşan modları filtreler.
+4. **Birleştirme ve Çıktı**: Filtrelenmiş mod ID'lerini yinelenenleri kaldırarak `config/request_for_translation.txt` dosyasına birleştirir, böylece hattın `ModIdCollector` modülü tarafından kullanılır.
 
-**硬编码参数**：AppId=108600、MinSubs=500、SafetyPages=5（到达上次时间戳后额外抓取页数）、PageSize=30、Lookback=48h。
+**Sabit Kodlanmış Parametreler**: AppId=108600, MinSubs=500, SafetyPages=5 (son zaman damgasına ulaşıldıktan sonra ekstra çekilecek sayfa sayısı), PageSize=30, Lookback=48h.
 
-**缓存格式**：`data/monitor_cache.bin` — Zstd 压缩的二进制文件，little-endian int64 序列：`[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`。与 `BinaryEmbeddingSerializer` 共用 `ZstdSharp` 压缩方案。
+**Önbellek Biçimi**: `data/monitor_cache.bin` — Zstd sıkıştırılmış ikili dosya, little-endian int64 dizisi: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. `BinaryEmbeddingSerializer` ile aynı `ZstdSharp` sıkıştırma şemasını kullanır.
 
-**密钥读取**：Steam API Key 从 `config/secrets.json` 的 `STEAM_KEY` 字段读取，或从环境变量 `STEAM_KEY` / `STEAM_API_KEY` 获取（与 `ConfigReader` 同模式）。
+**Anahtar Okuma**: Steam API Anahtarı, `config/secrets.json` dosyasındaki `STEAM_KEY` alanından veya `STEAM_KEY` / `STEAM_API_KEY` ortam değişkenlerinden okunur (`ConfigReader` ile aynı şekilde).
 
 ### DocGenerator
 
-**功能**: LLM 驱动的多语言文档生成器，从中文模板生成各语言的 README、贡献指南和技术参考文档。
+**İşlev**: LLM tabanlı çok dilli belge oluşturucu; Çince şablonlardan farklı dillerde README, katkı kılavuzu ve teknik referans belgeleri üretir.
 
-**运行方式**：独立项目 `src/DocGenerator/DocGenerator.csproj`，通过 `dotnet run --project src/DocGenerator/DocGenerator.csproj` 执行。
+**Çalıştırma Yöntemi**: Bağımsız proje `src/DocGenerator/DocGenerator.csproj`, `dotnet run --project src/DocGenerator/DocGenerator.csproj` ile çalıştırılır.
 
 ---
 
@@ -711,23 +711,23 @@ class TranslationEntry {
 
 ```csharp
 class TranslationData {
-    string text;           // 译文
-    bool isVerified;       // 是否已验证 (参考翻译为 true)
-    float? confidence;     // LLM 翻译置信度 (0.0~1.0)
-    string status;         // 验证状态: "verified" 或 "unverified"
-    string processStatus;  // 处理状态: "processed" 或 "unprocessed"
-    List<string> comments; // 注释列表
+string text;           // Çeviri metni
+bool isVerified;       // Doğrulanmış mı (referans çeviri için true)
+float? confidence;     // LLM çeviri güven düzeyi (0.0~1.0)
+string status;         // Doğrulama durumu: "verified" veya "unverified"
+string processStatus;  // İşlem durumu: "processed" veya "unprocessed"
+List<string> comments; // Yorum listesi
 }
 ```
 
-- `isVerified = true`：表示该译文来自人工翻译的参考模组，质量可靠。
-- `isVerified = false`：表示该译文来自 LLM 翻译，标记为 `unverified`，尚未经人工校验。
-- `confidence`：LLM 生成该译文时返回的置信度分数，`null` 表示非 LLM 翻译。
-- `processStatus`：是否已被 LLM 管线处理（`processed` 或 `unprocessed`）。
+- `isVerified = true`: Bu çevirinin, insan tarafından yapılmış referans modüllerden geldiğini ve kaliteli olduğunu belirtir.
+- `isVerified = false`: Bu çevirinin LLM tarafından yapıldığını, `unverified` olarak işaretlendiğini ve henüz insan tarafından doğrulanmadığını belirtir.
+- `confidence`: LLM'in bu çeviriyi oluştururken döndürdüğü güven puanı; `null` ise LLM tarafından yapılmadığı anlamına gelir.
+- `processStatus`: LLM hattı tarafından işlenip işlenmediği (`processed` veya `unprocessed`).
 
-#### `ModInfo` — Mod 元数据
+#### `ModInfo` — Mod Meta Verisi
 
-`ModInfo` 存储一个 Steam Workshop 模组的完整元信息，跟踪其状态和更新情况。
+`ModInfo`, bir Steam Workshop modülünün tam meta bilgilerini saklar, durumunu ve güncellemelerini takip eder.
 
 ```csharp
 struct ModInfo {

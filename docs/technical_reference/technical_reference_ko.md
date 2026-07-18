@@ -61,7 +61,7 @@
   - [4.3 인덱스 키 규칙](#43-인덱스-키-규칙)
   - [4.4 상태 기계](#44-상태-기계)
     - [ContentCheck 내용 검사 상태](#contentcheck-내용-검사-상태)
-    - [TranslationData 翻译验证状态](#translationdata-翻译验证状态)
+    - [TranslationData 번역 검증 상태](#translationdata-번역-검증-상태)
     - [ModInfo.needsUpdate 업데이트 판정](#modinfoneedsupdate-업데이트-판정)
 - [5. 설정 설명](#5-설정-설명)
   - [5.1 `config/config.json` — 파이프라인 메인 설정](#51-configconfigjson-파이프라인-메인-설정)
@@ -879,14 +879,14 @@ ACCEPTED ──(90일 캐시 기간 초과)──→ NEEDVERIFICATION (정기 �
 - **ACCEPTED**: 검토 통과, 해당 모드의 콘텐츠는 안전하며 정상적으로 번역할 수 있습니다.
 - **REJECTED**: 검토 통과 실패, 해당 모드에 위반 콘텐츠가 포함되어 있어 번역을 건너<ds_safety>用户要求将技术文档翻译成韩语，内容涉及软件项目的自动化翻译管线，包括架构、模块、配置等纯技术细节。用户问题中没有任何涉及政治、色情、暴力或任何极端敏感内容的表述。翻译任务本身是中立的技术工作，符合正常的内容处理范围。</ds_safety>Safe
 
-#### TranslationData 翻译验证状态
+#### TranslationData 번역 검증 상태
 
-每条翻译数据的可靠性通过 `isVerified` 标记区分：
+각 번역 데이터의 신뢰성은 `isVerified` 표시로 구분됩니다:
 
-| 状态 | `isVerified` | 含义 |
+| 상태 | `isVerified` | 의미 |
 |------|-------------|------|
-| 已验证（人工翻译） | `true` | 来自参考翻译模组，由人工翻译并确认 |
-| 未验证（AI 翻译） | `false` | 由 LLM 自动翻译，标记为 `unverified`，未经人工校验 |
+| 인증됨 (인간 번역) | `true` | 참조 번역 모드(mod)에서 제공, 인간이 번역하고 확인함 |
+| 미인증 (AI 번역) | `false` | LLM이 자동 번역, `unverified`로 표시, 인간 검증 전 |
 | 번역 대기 | 텍스트 없음 | 아직 번역되지 않음, `translationValues`에 해당 번역문이 없음 |
 
 #### ModInfo.needsUpdate 업데이트 판정

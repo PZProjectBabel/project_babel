@@ -108,7 +108,7 @@ A következő lépéseket követheted:
 2. Hozz létre egy új ágat a legfrissebb ág alapján;
 3. Módosíts vagy adj hozzá fájlokat a megfelelő könyvtárakban:
 - Csővezeték-modul módosítása → `src/<modulnév>/`;
-   - CI 工作流修改 → `.github/workflows/`；
+- CI munkafolyamat módosítása → `.github/workflows/`；
 - Prompt sablon módosítása → `src/prompt_templates/`;
 4. Kérjük, a beküldés előtt lehetőség szerint:
 

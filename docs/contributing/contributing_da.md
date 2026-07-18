@@ -108,7 +108,7 @@ Kan du følge disse trin:
 2. Opret en ny gren baseret på den seneste gren;
 3. Rediger eller tilføj filer i den relevante mappe:
 - Pipelinemodulændringer → `src/<modulnavn>/`;
-   - CI 工作流修改 → `.github/workflows/`；
+- CI workflow ændring → `.github/workflows/`；
 - Prompt-skabelonændringer → `src/prompt_templates/`;
 4. Inden indsendelse, så vidt muligt:
 

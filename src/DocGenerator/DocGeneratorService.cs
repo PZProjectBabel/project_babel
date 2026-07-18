@@ -353,7 +353,11 @@ public sealed partial class DocGeneratorService
         }
 
         // ── Step 5: Write outputs ──
-        // 5a: Save cache.
+        // 5a: Prune stale cache entries whose SHA256 no longer matches any template line.
+        var validHashes = new HashSet<string>(templateLines.Select(l => l.Sha256), StringComparer.Ordinal);
+        var staleCount = cache.RemoveAll(c => !validHashes.Contains(c.Sha256));
+        if (staleCount > 0)
+            Console.WriteLine($"  [Step 5a] Pruned {staleCount} stale cache entry(s).");
         SaveCache(cachePath, cache);
         Console.WriteLine($"  [Step 5a] Cache saved: {cachePath}");
 
@@ -477,6 +481,15 @@ public sealed partial class DocGeneratorService
                     }
 
                     var results = ParseTranslationResponse(responseText, batch);
+
+                    // Retry if LLM returned fewer lines than requested (partial loss).
+                    if (results.Count < batch.Lines.Count && attempt < MaxRetries)
+                    {
+                        Console.Error.WriteLine(
+                            $"  [RETRY] Batch {batch.BatchIndex}/{batch.TotalBatches} ({batch.TargetLang}) attempt {attempt}: partial response ({results.Count}/{batch.Lines.Count} lines)");
+                        await Task.Delay(RetryBaseDelay * attempt, ct);
+                        continue;
+                    }
 
                     // Validate table rows: check for missing leading | and column count mismatch.
                     var (tableValid, tableErrors) = ValidateTableResults(results, batch);

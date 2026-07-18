@@ -2520,66 +2520,6 @@
     }
   },
   {
-    "Sha256": "5f41509e1c44f0565861676e48abb52994df532b6319229450f68737b195d2ef",
-    "SourceText": "**流水线模块（`src/`，C# / .NET 10）**：包含 15 个按序执行的模块，负责从 SteamCMD 初始化、模组下载、文本提取、内容审查、Embedding 计算、RAG 检索到 LLM 翻译与最终输出的完整流程。详见 [技术参考]({{technical_reference_link}})。",
-    "Translations": {
-      "en": "**Pipeline module (`src/`, C# / .NET 10)**: Contains 15 sequentially executed modules responsible for the complete process from SteamCMD initialization, mod download, text extraction, content review, embedding calculation, RAG retrieval to LLM translation and final output. See [Technical Reference]({{technical_reference_link}}).",
-      "de": "**Pipeline-Module (`src/`, C# / .NET 10)**: Enthält 15 nacheinander ausgeführte Module, die den gesamten Prozess von der SteamCMD-Initialisierung über Mod-Download, Textextraktion, Inhaltsprüfung, Embedding-Berechnung, RAG-Abfrage bis zur LLM-Übersetzung und endgültigen Ausgabe abdecken. Siehe [Technische Referenz]({{technical_reference_link}}).",
-      "fr": "**Module pipeline (`src/`, C# / .NET 10)** : contient 15 modules exécutés séquentiellement, responsables du processus complet depuis l'initialisation SteamCMD, le téléchargement du mod, l'extraction de texte, la révision de contenu, le calcul d'Embedding, la recherche RAG jusqu'à la traduction LLM et la sortie finale. Voir [Référence technique]({{technical_reference_link}}).",
-      "ja": "**パイプラインモジュール（`src/`、C# / .NET 10）**：15個の順次実行モジュールから構成され、SteamCMD初期化、Modダウンロード、テキスト抽出、内容審査、Embedding計算、RAG検索からLLM翻訳、最終出力までの完全なフローを担当します。詳細は [技術リファレンス]({{technical_reference_link}}) を参照してください。",
-      "ar": "**وحدة خط الإنتاج ( `src/`، C# / .NET 10 )**: تحتوي على 15 وحدة تنفذ بالترتيب، مسؤولة عن العملية الكاملة من تهيئة SteamCMD، تنزيل المود، استخراج النص، مراجعة المحتوى، حساب التضمين (Embedding)، استرجاع RAG إلى ترجمة LLM والإخراج النهائي. راجع [المرجع الفني]({{technical_reference_link}}).",
-      "ca": "**Mòdul de canalització (`src/`, C# / .NET 10)**: conté 15 mòduls executats seqüencialment, responsables de tot el procés des de la inicialització de SteamCMD, descàrrega de mods, extracció de text, revisió de contingut, càlcul d'Embedding, recuperació RAG fins a la traducció LLM i la sortida final. Vegeu [Referència tècnica]({{technical_reference_link}}).",
-      "zh-hant": "**流水線模組（`src/`，C# / .NET 10）**：包含 15 個按序執行的模組，負責從 SteamCMD 初始化、模組下載、文本提取、內容審查、Embedding 計算、RAG 檢索到 LLM 翻譯與最終輸出的完整流程。詳見 [技術參考]({{technical_reference_link}})。",
-      "cs": "**Moduly pipeline (`src/`, C# / .NET 10)**: Obsahuje 15 modulů prováděných v pořadí, které zajišťují celý proces od inicializace SteamCMD, stahování modů, extrakce textu, kontroly obsahu, výpočtu Embeddingů, vyhledávání RAG až po LLM překlad a konečný výstup. Podrobnosti viz [technická reference]({{technical_reference_link}}).",
-      "da": "**Pipelinemodul (`src/`, C# / .NET 10)**: Indeholder 15 moduler, der udføres i rækkefølge, og som står for den komplette proces fra SteamCMD-initialisering, moddownload, tekstudtræk, indholdsgennemgang, Embedding-beregning, RAG-søgning til LLM-oversættelse og endelig output. Se [teknisk reference]({{technical_reference_link}}) for flere detaljer.",
-      "es": "**Módulos del pipeline (`src/`, C# / .NET 10)**: Contiene 15 módulos que se ejecutan en orden, encargados de todo el proceso desde la inicialización de SteamCMD, descarga de mods, extracción de texto, revisión de contenido, cálculo de embeddings, recuperación RAG hasta la traducción LLM y la salida final. Consulte [referencia técnica]({{technical_reference_link}}).",
-      "fi": "**Putkilinjamoduuli (`src/`, C# / .NET 10)**: Sisältää 15 peräkkäin suoritettavaa moduulia, jotka vastaavat koko prosessista SteamCMD-alustuksesta, modin latauksesta, tekstin erotuksesta, sisällön tarkistuksesta, Embedding-laskennasta, RAG-hausta LLM-käännökseen ja lopulliseen tulosteeseen. Katso lisätietoja [teknisestä viitteestä]({{technical_reference_link}}).",
-      "hu": "**Csővezeték-modul (`src/`, C# / .NET 10)**: 15 szekvenciálisan végrehajtott modult tartalmaz, amelyek a SteamCMD inicializálástól, a modok letöltésétől, a szövegkinyeréstől, a tartalomellenőrzéstől, az Embedding számítástól, a RAG kereséstől egészen a LLM fordításig és a végső kimenetig terjedő teljes folyamatért felelősek. Részletek: [technikai referencia]({{technical_reference_link}}).",
-      "id": "**Modul Pipeline (`src/`, C# / .NET 10)**: Berisi 15 modul yang dijalankan secara berurutan, bertanggung jawab atas keseluruhan proses mulai dari inisialisasi SteamCMD, pengunduhan mod, ekstraksi teks, tinjauan konten, perhitungan Embedding, pengambilan RAG hingga penerjemahan LLM dan output akhir. Detail lihat [Referensi Teknis]({{technical_reference_link}}).",
-      "it": "**Modulo pipeline (`src/`, C# / .NET 10)**: contiene 15 moduli eseguiti in sequenza, responsabili dell'intero flusso dall'inizializzazione di SteamCMD, download del mod, estrazione del testo, revisione dei contenuti, calcolo degli embedding, recupero RAG fino alla traduzione LLM e output finale. Vedi [Riferimento tecnico]({{technical_reference_link}}).",
-      "ko": "**파이프라인 모듈 (`src/`, C# / .NET 10)**: SteamCMD 초기화, 모드 다운로드, 텍스트 추출, 내용 검토, 임베딩 계산, RAG 검색, LLM 번역 및 최종 출력까지의 전체 프로세스를 담당하는 15개의 순차 실행 모듈로 구성됩니다. 자세한 내용은 [기술 참조]({{technical_reference_link}})를 참조하세요.",
-      "nl": "**Pijplijnmodule (`src/`, C# / .NET 10)**: Bevat 15 opeenvolgend uitgevoerde modules, verantwoordelijk voor de volledige stroom van SteamCMD-initialisatie, mod-download, tekstextractie, inhoudscontrole, Embedding-berekening, RAG-ophaling tot LLM-vertaling en uiteindelijke uitvoer. Zie [technische referentie]({{technical_reference_link}}) voor details.",
-      "no": "**Pipelinemodul (`src/`, C# / .NET 10)**: Inneholder 15 moduler som utføres i rekkefølge, ansvarlig for hele prosessen fra SteamCMD-initialisering, modnedlasting, tekstuttrekking, innholdsgransking, Embedding-beregning, RAG-søk til LLM-oversettelse og endelig utdata. Se [teknisk referanse]({{technical_reference_link}}).",
-      "tl": "**Pipeline module (`src/`, C# / .NET 10)**: Naglalaman ng 15 modules na sunud-sunod na isinasagawa, responsable para sa kumpletong proseso mula sa SteamCMD initialization, mod download, text extraction, content review, Embedding computation, RAG retrieval hanggang sa LLM translation at final output. Tingnan ang [teknikal na sanggunian]({{technical_reference_link}}).",
-      "pl": "**Moduł pipeline'u (`src/`, C# / .NET 10)**: Zawiera 15 modułów wykonujących się sekwencyjnie, odpowiedzialnych za pełny proces od inicjalizacji SteamCMD, pobierania modów, ekstrakcji tekstu, przeglądu treści, obliczania Embedding, wyszukiwania RAG, po tłumaczenie LLM i końcowe wyjście. Szczegóły: [odniesienie techniczne]({{technical_reference_link}}).",
-      "pt": "**Módulo de pipeline (`src/`, C# / .NET 10)**: Contém 15 módulos executados em sequência, responsáveis pelo fluxo completo desde inicialização do SteamCMD, download de mods, extração de texto, revisão de conteúdo, cálculo de embeddings, recuperação RAG até tradução LLM e saída final. Veja [Referência Técnica]({{technical_reference_link}}).",
-      "pt-br": "**Módulo de pipeline (`src/`, C# / .NET 10)**: Contém 15 módulos executados em sequência, responsáveis pelo fluxo completo desde a inicialização do SteamCMD, download de mods, extração de texto, revisão de conteúdo, cálculo de Embedding, recuperação RAG até a tradução LLM e saída final. Consulte [Referência Técnica]({{technical_reference_link}}).",
-      "ro": "**Modulul pipeline (`src/`, C# / .NET 10)**: Conține 15 module executate secvențial, responsabile pentru întregul flux de la inițializarea SteamCMD, descărcarea modulelor, extragerea textului, revizuirea conținutului, calcularea Embedding-urilor, căutarea RAG până la traducerea LLM și ieșirea finală. Vezi [Referință tehnică]({{technical_reference_link}}).",
-      "ru": "**Модуль конвейера (`src/`, C# / .NET 10)**: содержит 15 последовательно выполняемых модулей, отвечающих за полный процесс от инициализации SteamCMD, загрузки модов, извлечения текста, проверки содержимого, вычисления эмбеддингов, поиска RAG до перевода LLM и финального вывода. Подробнее см. [Техническая справка]({{technical_reference_link}}).",
-      "th": "**โมดูล Pipeline (`src/`, C# / .NET 10):** ประกอบด้วย 15 โมดูลที่ดำเนินการตามลำดับ รับผิดชอบกระบวนการทั้งหมดตั้งแต่การเริ่มต้น SteamCMD, การดาวน์โหลด mod, การแยกข้อความ, การตรวจสอบเนื้อหา, การคำนวณ Embedding, การค้นหา RAG ไปจนถึงการแปล LLM และผลลัพธ์สุดท้าย ดูรายละเอียดที่ [การอ้างอิงทางเทคนิค]({{technical_reference_link}})",
-      "tr": "**Boru hattı modülü (`src/`, C# / .NET 10)**： SteamCMD başlatma, mod indirme, metin çıkarma, içerik denetimi, Embedding hesaplama, RAG arama ve LLM çevirisi ile nihai çıktıya kadar sırayla yürütülen 15 modül içerir. Ayrıntılar için bkz. [Teknik Referans]({{technical_reference_link}}).",
-      "uk": "**Модулі конвеєра (`src/`, C# / .NET 10)**: містять 15 модулів, що виконуються послідовно, від ініціалізації SteamCMD, завантаження модів, вилучення тексту, перевірки вмісту, обчислення ембедінгів, пошуку RAG до перекладу LLM та остаточного виведення. Детальніше див. [Технічний довідник]({{technical_reference_link}})."
-    },
-    "NeedsTranslation": {
-      "en": true,
-      "de": true,
-      "fr": true,
-      "ja": true,
-      "ar": true,
-      "ca": true,
-      "zh-hant": true,
-      "cs": true,
-      "da": true,
-      "es": true,
-      "fi": true,
-      "hu": true,
-      "id": true,
-      "it": true,
-      "ko": true,
-      "nl": true,
-      "no": true,
-      "tl": true,
-      "pl": true,
-      "pt": true,
-      "pt-br": true,
-      "ro": true,
-      "ru": true,
-      "th": true,
-      "tr": true,
-      "uk": true
-    }
-  },
-  {
     "Sha256": "051d111567cc133a106ea6a414228d18f8e9785328b81912da43cddb318af792",
     "SourceText": "**辅助脚本（.github/）**：用于github的自动化。",
     "Translations": {
@@ -3209,66 +3149,6 @@
       "th": "- แก้ไขโมดูล pipeline → `src/<ชื่อโมดูล>/`;",
       "tr": "- Boru hattı modülü değişiklikleri → `src/<modül_adı>/`;",
       "uk": "- зміна модуля конвеєра → `src/<назва модуля>/`;"
-    },
-    "NeedsTranslation": {
-      "en": true,
-      "de": true,
-      "fr": true,
-      "ja": true,
-      "ar": true,
-      "ca": true,
-      "zh-hant": true,
-      "cs": true,
-      "da": true,
-      "es": true,
-      "fi": true,
-      "hu": true,
-      "id": true,
-      "it": true,
-      "ko": true,
-      "nl": true,
-      "no": true,
-      "tl": true,
-      "pl": true,
-      "pt": true,
-      "pt-br": true,
-      "ro": true,
-      "ru": true,
-      "th": true,
-      "tr": true,
-      "uk": true
-    }
-  },
-  {
-    "Sha256": "bb79d1cc87d79aa400304111570f46500f2221bb62c20d3d02dabf45959a3148",
-    "SourceText": "   - 脚本修改 → `scripts/`；",
-    "Translations": {
-      "en": "- Script modifications → `scripts/`;",
-      "de": "- Skriptänderung → `scripts/`;",
-      "fr": "- Modification de script → `scripts/` ;",
-      "ja": "- スクリプトの修正 → `scripts/`",
-      "ar": "- تعديل البرامج النصية → `scripts/`؛",
-      "ca": "- Modificació de script → `scripts/`;",
-      "zh-hant": "- 腳本修改 → `scripts/`；",
-      "cs": "- Úprava skriptů → `scripts/`;",
-      "da": "- Scriptændringer → `scripts/`;",
-      "es": "- Modificación de scripts → `scripts/`;",
-      "fi": "- Komentosarjan muutos → `scripts/`;",
-      "hu": "- Szkript módosítása → `scripts/`;",
-      "id": "- Modifikasi skrip → `scripts/`;",
-      "it": "- Modifiche agli script → `scripts/`;",
-      "ko": "- 스크립트 수정 → `scripts/`",
-      "nl": "- Scriptaanpassingen → `scripts/`;",
-      "no": "- Skriptendring → `scripts/`;",
-      "tl": "- Script modification → `scripts/`;",
-      "pl": "- Modyfikacja skryptów → `scripts/`;",
-      "pt": "- Modificações em scripts → `scripts/`;",
-      "pt-br": "- Modificação de scripts → `scripts/`;",
-      "ro": "- Modificarea scripturilor → `scripts/`;",
-      "ru": "- Изменения скриптов → `scripts/`;",
-      "th": "- แก้ไขสคริปต์ → `scripts/`;",
-      "tr": "- Betik değişiklikleri → `scripts/`;",
-      "uk": "- зміна скриптів → `scripts/`;"
     },
     "NeedsTranslation": {
       "en": true,
@@ -4200,26 +4080,6 @@
     }
   },
   {
-    "Sha256": "60e0a86d59c161372979080744e4764173244cfbe9bc9c2c3f0f400fddee3a75",
-    "SourceText": "* 但在将这些内容提交到本项目并被采纳（合并）后，",
-    "Translations": {
-      "en": "* However, after submitting this content to this project and having it accepted (merged),"
-    },
-    "NeedsTranslation": {
-      "en": true
-    }
-  },
-  {
-    "Sha256": "74e133a00a0a5081b72076271764f08f483817ff42969d6f89bc579aee6e2b5f",
-    "SourceText": "  你同意按照本项目采用的开源/共享许可协议，对外授权他人使用这些内容。",
-    "Translations": {
-      "en": "you agree to grant others the right to use this content under the open source/shared license adopted by this project."
-    },
-    "NeedsTranslation": {
-      "en": true
-    }
-  },
-  {
     "Sha256": "0acd6639ee15509a73176325475c0409e5b66a6ffb6584543db6e16a1bd3de5e",
     "SourceText": "这意味着：",
     "Translations": {
@@ -4757,26 +4617,6 @@
       "th": true,
       "tr": true,
       "uk": true
-    }
-  },
-  {
-    "Sha256": "b188730f2a6b13336e78e662c54d1129c9a29da00bb5650f1aa875a0493a11bc",
-    "SourceText": "1. 这些内容以 **署名-非商业性使用-相同方式共享 4.0 国际**",
-    "Translations": {
-      "en": "1. This content is licensed under **Attribution-NonCommercial-ShareAlike 4.0 International**"
-    },
-    "NeedsTranslation": {
-      "en": true
-    }
-  },
-  {
-    "Sha256": "1a185102a32b03b0c5bc841e6251bbbd0d0c5eaeb1f4ccf34ca12f3ade1a0617",
-    "SourceText": "   （Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International，简称 **CC BY-NC-SA 4.0**）协议授权；",
-    "Translations": {
-      "en": "(Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, referred to as **CC BY-NC-SA 4.0**);"
-    },
-    "NeedsTranslation": {
-      "en": true
     }
   },
   {
@@ -7385,7 +7225,10 @@
       "ru": "- Изменение CI рабочего процесса → `.github/workflows/`;",
       "th": "- การแก้ไข CI workflow → `.github/workflows/`",
       "tr": "- CI iş akışı değişikliği → `.github/workflows/`;",
-      "uk": "- Зміна CI робочого процесу → `.github/workflows/`;"
+      "uk": "- Зміна CI робочого процесу → `.github/workflows/`;",
+      "da": "- CI workflow ændring → `.github/workflows/`；",
+      "hu": "- CI munkafolyamat módosítása → `.github/workflows/`；",
+      "no": "- CI-arbeidsflytmodifikasjon → `.github/workflows/`；"
     },
     "NeedsTranslation": {
       "ar": true,
@@ -7410,7 +7253,10 @@
       "ru": true,
       "th": true,
       "tr": true,
-      "uk": true
+      "uk": true,
+      "da": true,
+      "hu": true,
+      "no": true
     }
   }
 ]

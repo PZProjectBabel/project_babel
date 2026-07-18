@@ -17,9 +17,9 @@ Project Babel — 『Project Zomboid』Mod LLM自動翻訳プロジェクト
 - [ツールとディレクトリ構成（開発者向け）](#ツールとディレクトリ構成開発者向け)
   - [プロジェクトディレクトリ](#プロジェクトディレクトリ)
   - [パイプラインモジュール（実行順）](#パイプラインモジュール実行順)
-  - [独立模块](#独立模块)
-  - [技术栈](#技术栈)
-- [版权与授权](#版权与授权)
+  - [独立モジュール](#独立モジュール)
+  - [技術スタック](#技術スタック)
+- [著作権とライセンス](#著作権とライセンス)
   - [1. テキストと画像などのコンテンツ](#1-テキストと画像などのコンテンツ)
   - [2. プログラム、スクリプト、その他の開発コンテンツ](#2-プログラムスクリプトその他の開発コンテンツ)
 - [謝辞](#謝辞)
@@ -99,7 +99,7 @@ LLM APIを利用した翻訳にはトークン料金がかかるため、プロ�
 
 | ディレクトリ | 説明 |
 |------|------|
-| `src/` | .NET 10 翻译流水线源码，含 15 个模块 + 2 个独立模块 |
+| `src/` | .NET 10 翻訳パイプラインソースコード、15モジュール + 2独立モジュールを含む |
 | `config/` | パイプライン設定ファイル（LLM、Steam、RAGパラメータなど） |
 | `data/` | 実行時データ：MODメタデータ、埋め込み、翻訳キャッシュ |
 | `translation_ref/` | 参考翻訳データ（如一漢化組の許可を受けたMOD）、LLMに翻訳参考を提供 |
@@ -111,45 +111,45 @@ LLM APIを利用した翻訳にはトークン料金がかかるため、プロ�
 
 ### パイプラインモジュール（実行順）
 
-| 步骤 | 模块 | 功能 |
+| ステップ | モジュール | 機能 |
 |------|------|------|
-| 1 | `ConfigReader` | 加载配置/密钥/语言列表 |
-| 2 | `RepoDataLoader` | 加载参考翻译与翻译缓存 |
-| 3 | `ModIdCollector` | 收集 Workshop 模组 ID |
-| 4 | `ModInfoFetcher` | 获取 Steam 元数据 |
-| 5 | `SteamCmdBootstrapper` | 准备当前平台的 steamcmd 运行时 |
-| 6 | `ModDownloader` | 通过 steamcmd 下载模组 |
-| 7 | `ContentExtractor` | 解析模组翻译文件 → `TranslationEntry` |
-| 8 | `ContentChecker` | 内容安全审查 (毒品/色情/暴力) |
-| 9 | `EmbeddingFetcher` | 计算文本 embedding 向量 |
-| 10 | `TranslationBatcher` | 创建目标语言无关的翻译批次 |
-| 11 | `RagContextRetriever` | 检索 RAG 上下文 (精确键 + embedding 相似度) |
-| 12 | `LLMTranslator` | 调用 LLM 执行翻译 |
-| 13 | `ResultWriter` | 写入 data/ 与 translation_ref/ |
-| 14 | `FinalOutputWriter` | 生成最终 PZ 模组格式输出 |
-| 15 | `ProgressReporter` | 生成进度报告 |
+| 1 | `ConfigReader` | 設定/鍵/言語リストを読み込む |
+| 2 | `RepoDataLoader` | 参照翻訳と翻訳キャッシュを読み込む |
+| 3 | `ModIdCollector` | Workshop モッドIDを収集 |
+| 4 | `ModInfoFetcher` | Steamメタデータを取得 |
+| 5 | `SteamCmdBootstrapper` | 現在のプラットフォームのsteamcmdランタイムを準備 |
+| 6 | `ModDownloader` | steamcmd経由でモッドをダウンロード |
+| 7 | `ContentExtractor` | モッド翻訳ファイルを解析 → `TranslationEntry` |
+| 8 | `ContentChecker` | コンテンツ安全審査 (麻薬/ポルノ/暴力) |
+| 9 | `EmbeddingFetcher` | テキスト埋め込みベクトルを計算 |
+| 10 | `TranslationBatcher` | 対象言語に依存しない翻訳バッチを作成 |
+| 11 | `RagContextRetriever` | RAGコンテキストを検索 (正確なキー + 埋め込み類似度) |
+| 12 | `LLMTranslator` | LLMを呼び出して翻訳を実行 |
+| 13 | `ResultWriter` | data/ と translation_ref/ に書き込み |
+| 14 | `FinalOutputWriter` | 最終PZモッド形式の出力を生成 |
+| 15 | `ProgressReporter` | 進捗レポートを生成 |
 
-### 独立模块
+### 独立モジュール
 
-| 模块 | 功能 |
+| モジュール | 機能 |
 |------|------|
-| `WorkshopMonitor` | 定时抓取 Steam Workshop 新模组，按订阅数筛选并入 `request_for_translation.txt` |
-| `DocGenerator` | LLM 驱动的多语言文档生成器 |
+| `WorkshopMonitor` | 定期的にSteam Workshopの新モッドを取得し、購読数でフィルタリングして `request_for_translation.txt` に追加 |
+| `DocGenerator` | LLM駆動の多言語ドキュメント生成器 |
 
-### 技术栈
+### 技術スタック
 
-- **语言**: C# (.NET 10)
-- **目标平台**: GitHub Actions Linux x64 runner
-- **测试**: xUnit (Windows x64)
-- **LLM**: DeepSeek API (可配置)
-- **Embedding**: 文本向量化用于 RAG 相似检索
-- **内容审查**: LLM 驱动的多级安全审核
+- **言語**: C# (.NET 10)
+- **対象プラットフォーム**: GitHub Actions Linux x64 runner
+- **テスト**: xUnit (Windows x64)
+- **LLM**: DeepSeek API (設定可能)
+- **埋め込み**: テキストベクトル化によりRAG類似検索に使用
+- **コンテンツ審査**: LLM駆動の多段階セキュリティ審査
 
-详细的 [技术参考](./docs/technical_reference/technical_reference_ja.md)。
+詳細は [技術参考](./docs/technical_reference/technical_reference_ja.md)。
 
 ---
 
-## 版权与授权
+## 著作権とライセンス
 
 本翻訳プロジェクトの翻訳テキストおよび関連画像は、**Project Babel** と各参加者が元のゲームModを基に創作または二次創作したものです。
 

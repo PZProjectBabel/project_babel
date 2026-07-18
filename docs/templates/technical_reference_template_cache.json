@@ -24087,7 +24087,8 @@
       "ro": "",
       "ru": "",
       "th": "",
-      "uk": "string text;           // Переклад"
+      "uk": "string text;           // Переклад",
+      "tr": ""
     },
     "NeedsTranslation": {
       "en": false,
@@ -24114,7 +24115,8 @@
       "ro": false,
       "ru": false,
       "th": false,
-      "uk": true
+      "uk": true,
+      "tr": false
     }
   },
   {
@@ -24145,7 +24147,8 @@
       "cs": "string text;           // překlad",
       "nl": "string text;           // vertaling",
       "pl": "string text;           // tłumaczenie",
-      "pt-br": "string text;           // Tradução"
+      "pt-br": "string text;           // Tradução",
+      "tr": "string text;           // Çeviri metni"
     },
     "NeedsTranslation": {
       "en": true,
@@ -24172,7 +24175,8 @@
       "cs": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24203,7 +24207,8 @@
       "cs": "bool isVerified;       // zda je ověřeno (u referenčních překladů true)",
       "nl": "bool isVerified;       // of geverifieerd (referentievertaling is true)",
       "pl": "bool isVerified;       // czy zweryfikowane (true dla tłumaczenia referencyjnego)",
-      "pt-br": "bool isVerified;       // Se está verificado (referência traduzida é true)"
+      "pt-br": "bool isVerified;       // Se está verificado (referência traduzida é true)",
+      "tr": "bool isVerified;       // Doğrulanmış mı (referans çeviri için true)"
     },
     "NeedsTranslation": {
       "en": true,
@@ -24230,7 +24235,8 @@
       "cs": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24261,7 +24267,8 @@
       "cs": "float? confidence;     // míra spolehlivosti LLM překladu (0.0~1.0)",
       "nl": "float? confidence;     // LLM vertrouwensscore (0.0~1.0)",
       "pl": "float? confidence;     // pewność tłumaczenia LLM (0.0~1.0)",
-      "pt-br": "float? confidence;     // Pontuação de confiança da tradução LLM (0.0~1.0)"
+      "pt-br": "float? confidence;     // Pontuação de confiança da tradução LLM (0.0~1.0)",
+      "tr": "float? confidence;     // LLM çeviri güven düzeyi (0.0~1.0)"
     },
     "NeedsTranslation": {
       "en": true,
@@ -24288,7 +24295,8 @@
       "cs": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24319,7 +24327,8 @@
       "cs": "string status;         // stav ověření: \"verified\" nebo \"unverified\"",
       "nl": "string status;         // verificatiestatus: \"verified\" of \"unverified\"",
       "pl": "string status;         // stan weryfikacji: \"verified\" lub \"unverified\"",
-      "pt-br": "string status;         // Status de verificação: \"verified\" ou \"unverified\""
+      "pt-br": "string status;         // Status de verificação: \"verified\" ou \"unverified\"",
+      "tr": "string status;         // Doğrulama durumu: \"verified\" veya \"unverified\""
     },
     "NeedsTranslation": {
       "en": true,
@@ -24346,7 +24355,8 @@
       "cs": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24377,7 +24387,8 @@
       "cs": "string processStatus;  // stav zpracování: \"processed\" nebo \"unprocessed\"",
       "nl": "string processStatus;  // verwerkingsstatus: \"processed\" of \"unprocessed\"",
       "pl": "string processStatus;  // stan przetwarzania: \"processed\" lub \"unprocessed\"",
-      "pt-br": "string processStatus;  // Status de processamento: \"processed\" ou \"unprocessed\""
+      "pt-br": "string processStatus;  // Status de processamento: \"processed\" ou \"unprocessed\"",
+      "tr": "string processStatus;  // İşlem durumu: \"processed\" veya \"unprocessed\""
     },
     "NeedsTranslation": {
       "en": true,
@@ -24404,7 +24415,8 @@
       "cs": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24435,7 +24447,8 @@
       "cs": "List<string> comments; // seznam komentářů",
       "nl": "List<string> comments; // lijst met opmerkingen",
       "pl": "List<string> comments; // lista komentarzy",
-      "pt-br": "List<string> comments; // Lista de comentários"
+      "pt-br": "List<string> comments; // Lista de comentários",
+      "tr": "List<string> comments; // Yorum listesi"
     },
     "NeedsTranslation": {
       "en": true,
@@ -24462,7 +24475,8 @@
       "cs": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24493,7 +24507,8 @@
       "ar": "- `isVerified = true`: يعني أن النص المترجم يأتي من نموذج ترجمة مرجعي تمت ترجمته يدويًا، وهو موثوق.",
       "nl": "- `isVerified = true`: geeft aan dat de vertaling afkomstig is van een handmatige referentiemod en betrouwbaar is.",
       "pl": "- `isVerified = true`: Oznacza, że tłumaczenie pochodzi z ręcznie przetłumaczonego moda referencyjnego, jest wiarygodne.",
-      "pt-br": "- `isVerified = true`: Indica que a tradução veio de um mod de referência traduzido manualmente, qualidade confiável."
+      "pt-br": "- `isVerified = true`: Indica que a tradução veio de um mod de referência traduzido manualmente, qualidade confiável.",
+      "tr": "- `isVerified = true`: Bu çevirinin, insan tarafından yapılmış referans modüllerden geldiğini ve kaliteli olduğunu belirtir."
     },
     "NeedsTranslation": {
       "en": true,
@@ -24520,7 +24535,8 @@
       "ar": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24551,7 +24567,8 @@
       "ar": "- `isVerified = false`: يعني أن النص المترجم يأتي من ترجمة LLM، ويتم وضع علامة `unverified` عليه، ولم يتم التحقق منه يدويًا بعد.",
       "nl": "- `isVerified = false`: geeft aan dat de vertaling afkomstig is van LLM-vertaling, gemarkeerd als `unverified`, nog niet handmatig geverifieerd.",
       "pl": "- `isVerified = false`: Oznacza, że tłumaczenie pochodzi z LLM, oznaczone jako `unverified`, nie zostało jeszcze zweryfikowane ręcznie.",
-      "pt-br": "- `isVerified = false`: Indica que a tradução veio da LLM, marcada como `unverified`, ainda não verificada manualmente."
+      "pt-br": "- `isVerified = false`: Indica que a tradução veio da LLM, marcada como `unverified`, ainda não verificada manualmente.",
+      "tr": "- `isVerified = false`: Bu çevirinin LLM tarafından yapıldığını, `unverified` olarak işaretlendiğini ve henüz insan tarafından doğrulanmadığını belirtir."
     },
     "NeedsTranslation": {
       "en": true,
@@ -24578,7 +24595,8 @@
       "ar": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24609,7 +24627,8 @@
       "ar": "- `confidence`: درجة الثقة التي أرجعها LLM عند إنشاء هذا النص المترجم، `null` تعني أنها ليست ترجمة LLM.",
       "nl": "- `confidence`: de betrouwbaarheidsscore die de LLM retourneerde bij het genereren van deze vertaling, `null` voor niet-LLM-vertalingen.",
       "pl": "- `confidence`: Wynik pewności zwrócony przez LLM podczas generowania tłumaczenia; `null` oznacza, że nie jest to tłumaczenie LLM.",
-      "pt-br": "- `confidence`: Pontuação de confiança retornada pela LLM ao gerar a tradução; `null` indica tradução não LLM."
+      "pt-br": "- `confidence`: Pontuação de confiança retornada pela LLM ao gerar a tradução; `null` indica tradução não LLM.",
+      "tr": "- `confidence`: LLM'in bu çeviriyi oluştururken döndürdüğü güven puanı; `null` ise LLM tarafından yapılmadığı anlamına gelir."
     },
     "NeedsTranslation": {
       "en": true,
@@ -24636,7 +24655,8 @@
       "ar": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24667,7 +24687,8 @@
       "ar": "- `processStatus`: هل تمت معالجته بواسطة خط أنابيب LLM (`processed` أو `unprocessed`).",
       "nl": "- `processStatus`: of deze al door de LLM-pijplijn is verwerkt (`processed` of `unprocessed`).",
       "pl": "- `processStatus`: Czy zostało już przetworzone przez potok LLM (`processed` lub `unprocessed`).",
-      "pt-br": "- `processStatus`: Se já foi processado pelo pipeline LLM (`processed` ou `unprocessed`)."
+      "pt-br": "- `processStatus`: Se já foi processado pelo pipeline LLM (`processed` ou `unprocessed`).",
+      "tr": "- `processStatus`: LLM hattı tarafından işlenip işlenmediği (`processed` veya `unprocessed`)."
     },
     "NeedsTranslation": {
       "en": true,
@@ -24694,7 +24715,8 @@
       "ar": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24725,7 +24747,8 @@
       "ar": "#### `ModInfo` — بيانات تعريف النموذج (Mod)",
       "nl": "#### `ModInfo` — Mod metadata",
       "pl": "#### `ModInfo` — Metadane moda",
-      "pt-br": "#### `ModInfo` — Metadados do Mod"
+      "pt-br": "#### `ModInfo` — Metadados do Mod",
+      "tr": "#### `ModInfo` — Mod Meta Verisi"
     },
     "NeedsTranslation": {
       "en": true,
@@ -24752,7 +24775,8 @@
       "ar": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24783,7 +24807,8 @@
       "ar": "`ModInfo` يخزن بيانات تعريف كاملة لنموذج Steam Workshop، ويتتبع حالته وتحديثاته.",
       "nl": "`ModInfo` slaat volledige metadata op van een Steam Workshop-mod en volgt de status en updategegevens.",
       "pl": "`ModInfo` przechowuje pełne metadane moda z Steam Workshop, śledząc jego stan i aktualizacje.",
-      "pt-br": "`ModInfo` armazena as informações completas de metadados de um mod da Steam Workshop, acompanhando seu estado e atualizações."
+      "pt-br": "`ModInfo` armazena as informações completas de metadados de um mod da Steam Workshop, acompanhando seu estado e atualizações.",
+      "tr": "`ModInfo`, bir Steam Workshop modülünün tam meta bilgilerini saklar, durumunu ve güncellemelerini takip eder."
     },
     "NeedsTranslation": {
       "en": true,
@@ -24810,7 +24835,8 @@
       "ar": true,
       "nl": true,
       "pl": true,
-      "pt-br": true
+      "pt-br": true,
+      "tr": true
     }
   },
   {
@@ -24841,7 +24867,8 @@
       "ru": "",
       "th": "",
       "uk": "",
-      "pl": "struct ModInfo {"
+      "pl": "struct ModInfo {",
+      "tr": ""
     },
     "NeedsTranslation": {
       "en": false,
@@ -24868,7 +24895,8 @@
       "ru": false,
       "th": false,
       "uk": false,
-      "pl": true
+      "pl": true,
+      "tr": false
     }
   },
   {
@@ -30419,7 +30447,8 @@
       "tr": "#### TranslationData Çeviri Doğrulama Durumu",
       "uk": "#### TranslationData статус верифікації перекладу",
       "fr": "#### TranslationData État de validation de la traduction",
-      "th": "#### TranslationData สถานะการตรวจสอบการแปล"
+      "th": "#### TranslationData สถานะการตรวจสอบการแปล",
+      "ko": "#### TranslationData 번역 검증 상태"
     },
     "NeedsTranslation": {
       "en": true,
@@ -30446,7 +30475,8 @@
       "tr": true,
       "uk": true,
       "fr": true,
-      "th": true
+      "th": true,
+      "ko": true
     }
   },
   {
@@ -30477,7 +30507,8 @@
       "uk": "Надійність кожних даних перекладу визначається маркером `isVerified`.",
       "fr": "La fiabilité de chaque donnée de traduction est distinguée par le marqueur `isVerified` :",
       "pt-br": "A confiabilidade de cada dado de tradução é distinguida pelo marcador `isVerified`:",
-      "th": "ความน่าเชื่อถือของข้อมูลการแปลแต่ละรายการจะถูกแยกแยะโดยใช้เครื่องหมาย `isVerified`:"
+      "th": "ความน่าเชื่อถือของข้อมูลการแปลแต่ละรายการจะถูกแยกแยะโดยใช้เครื่องหมาย `isVerified`:",
+      "ko": "각 번역 데이터의 신뢰성은 `isVerified` 표시로 구분됩니다:"
     },
     "NeedsTranslation": {
       "en": true,
@@ -30504,7 +30535,8 @@
       "uk": true,
       "fr": true,
       "pt-br": true,
-      "th": true
+      "th": true,
+      "ko": true
     }
   },
   {
@@ -30535,7 +30567,8 @@
       "uk": "| Стан | `isVerified` | Значення |",
       "fr": "| État | `isVerified` | Signification |",
       "pt-br": "| Estado | `isVerified` | Significado |",
-      "th": "| สถานะ | `isVerified` | ความหมาย |"
+      "th": "| สถานะ | `isVerified` | ความหมาย |",
+      "ko": "| 상태 | `isVerified` | 의미 |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -30562,7 +30595,8 @@
       "uk": true,
       "fr": true,
       "pt-br": true,
-      "th": true
+      "th": true,
+      "ko": true
     }
   },
   {
@@ -30593,7 +30627,8 @@
       "uk": "| Верифіковано (ручний переклад) | `true` | З модулів довідкового перекладу, перекладено та підтверджено вручну |",
       "fr": "| Vérifié (traduction humaine) | `true` | Provient d'un mod de traduction de référence, traduit et confirmé par un humain. |",
       "pt-br": "| Verificado (tradução manual) | `true` | Vem do mod de tradução de referência, traduzido e confirmado manualmente |",
-      "th": "| ตรวจสอบแล้ว (แปลโดยมนุษย์) | `true` | มาจากม็อดอ้างอิงการแปล แปลและยืนยันโดยมนุษย์ |"
+      "th": "| ตรวจสอบแล้ว (แปลโดยมนุษย์) | `true` | มาจากม็อดอ้างอิงการแปล แปลและยืนยันโดยมนุษย์ |",
+      "ko": "| 인증됨 (인간 번역) | `true` | 참조 번역 모드(mod)에서 제공, 인간이 번역하고 확인함 |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -30620,7 +30655,8 @@
       "uk": true,
       "fr": true,
       "pt-br": true,
-      "th": true
+      "th": true,
+      "ko": true
     }
   },
   {
@@ -30651,7 +30687,8 @@
       "uk": "| Не верифіковано (AI переклад) | `false` | Автоматично перекладено LLM, позначено як `unverified`, без ручної перевірки |",
       "fr": "| Non vérifié (traduction IA) | `false` | Traduit automatiquement par LLM, marqué comme `unverified`, non vérifié par un humain. |",
       "pt-br": "| Não verificado (tradução por IA) | `false` | Traduzido automaticamente pelo LLM, marcado como `unverified`, sem verificação manual |",
-      "th": "| ยังไม่ตรวจสอบ (แปลโดย AI) | `false` | แปลโดย LLM โดยอัตโนมัติ ทำเครื่องหมายเป็น `unverified` ยังไม่ผ่านการตรวจสอบโดยมนุษย์ |"
+      "th": "| ยังไม่ตรวจสอบ (แปลโดย AI) | `false` | แปลโดย LLM โดยอัตโนมัติ ทำเครื่องหมายเป็น `unverified` ยังไม่ผ่านการตรวจสอบโดยมนุษย์ |",
+      "ko": "| 미인증 (AI 번역) | `false` | LLM이 자동 번역, `unverified`로 표시, 인간 검증 전 |"
     },
     "NeedsTranslation": {
       "en": true,
@@ -30678,7 +30715,8 @@
       "uk": true,
       "fr": true,
       "pt-br": true,
-      "th": true
+      "th": true,
+      "ko": true
     }
   },
   {
@@ -44089,7 +44127,8 @@
       "ro": "## Module independente",
       "ru": "## Независимые модули",
       "th": "## โมดูลอิสระ",
-      "uk": "## Незалежні модулі"
+      "uk": "## Незалежні модулі",
+      "tr": "## Bağımsız Modüller"
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44116,7 +44155,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44147,7 +44187,8 @@
       "ro": "Următoarele module rulează independent de conducta de traducere, nu se află în `TranslationPipeline.slnx`, fiecare fiind declanșat prin `dotnet run --project` sau GitHub Actions.",
       "ru": "Следующие модули работают независимо от конвейера перевода, не находятся в `TranslationPipeline.slnx` и запускаются через `dotnet run --project` или GitHub Actions.",
       "th": "โมดูลต่อไปนี้ทำงานแยกจากไปป์ไลน์การแปล ไม่ได้อยู่ใน `TranslationPipeline.slnx` แต่ละโมดูลจะถูกเรียกใช้ผ่าน `dotnet run --project` หรือ GitHub Actions",
-      "uk": "Наступні модулі працюють незалежно від конвеєра перекладу, не входять до `TranslationPipeline.slnx`, кожен запускається через `dotnet run --project` або GitHub Actions."
+      "uk": "Наступні модулі працюють незалежно від конвеєра перекладу, не входять до `TranslationPipeline.slnx`, кожен запускається через `dotnet run --project` або GitHub Actions.",
+      "tr": "Aşağıdaki modüller, çeviri hattından bağımsız olarak çalışır, `TranslationPipeline.slnx` içinde değildir ve her biri `dotnet run --project` veya GitHub Actions ile tetiklenir."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44174,7 +44215,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44205,7 +44247,8 @@
       "ro": "### WorkshopMonitor (`WorkshopMonitorService`)",
       "ru": "### WorkshopMonitor (`WorkshopMonitorService`)",
       "th": "### WorkshopMonitor (`WorkshopMonitorService`)",
-      "uk": "### WorkshopMonitor (`WorkshopMonitorService`)"
+      "uk": "### WorkshopMonitor (`WorkshopMonitorService`)",
+      "tr": "### WorkshopMonitor (`WorkshopMonitorService`)"
     },
     "NeedsTranslation": {
       "ar": false,
@@ -44232,7 +44275,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44263,7 +44307,8 @@
       "ro": "**Funcție**: Monitorizează periodic noile moduri publicate pe Steam Workshop, filtrează automat modurile cu multe abonamente și le adaugă în lista de cereri de traducere.",
       "ru": "**Функция**: регулярно отслеживает новые моды, появляющиеся в Steam Workshop, автоматически отбирает моды с высоким числом подписок и добавляет их в список запросов на перевод.",
       "th": "**หน้าที่**: ตรวจสอบม็อดใหม่ที่อัปโหลดบน Steam Workshop ตามกำหนดเวลา กรองม็อดที่มีจำนวนผู้ติดตามสูงโดยอัตโนมัติ และเพิ่มลงในรายการคำขอแปล",
-      "uk": "**Функція**: Регулярно відстежує нові моди в Steam Workshop, автоматично фільтрує моди з великою кількістю підписок та додає їх до списку запитів на переклад."
+      "uk": "**Функція**: Регулярно відстежує нові моди в Steam Workshop, автоматично фільтрує моди з великою кількістю підписок та додає їх до списку запитів на переклад.",
+      "tr": "**İşlev**: Steam Workshop'ta yeni eklenen modları düzenli olarak izler, yüksek abone sayısına sahip modları otomatik olarak filtreler ve çeviri istek listesine ekler."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44290,7 +44335,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44321,7 +44367,8 @@
       "ro": "**Mod de rulare**: Declanșat periodic prin GitHub Actions `.github/workflows/monitor-workshop.yml` (zilnic la 00:00 ora Beijing), sau local cu `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.",
       "ru": "**Способ запуска**: запускается по расписанию через GitHub Actions `.github/workflows/monitor-workshop.yml` (каждый день в 00:00 по пекинскому времени) или локально с помощью `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.",
       "th": "**วิธีการทำงาน**: ถูกเรียกใช้ตามกำหนดเวลาผ่าน GitHub Actions `.github/workflows/monitor-workshop.yml` (ทุกวันเวลา 00:00 น. ตามเวลาปักกิ่ง) หรือเรียกใช้ในเครื่องด้วย `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`",
-      "uk": "**Спосіб запуску**: Запускається за розкладом через GitHub Actions `.github/workflows/monitor-workshop.yml` (щодня о 00:00 за пекінським часом) або локально через `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`."
+      "uk": "**Спосіб запуску**: Запускається за розкладом через GitHub Actions `.github/workflows/monitor-workshop.yml` (щодня о 00:00 за пекінським часом) або локально через `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj`.",
+      "tr": "**Çalıştırma Yöntemi**: GitHub Actions `.github/workflows/monitor-workshop.yml` ile zamanlanmış olarak (Pekin saatiyle her gün 00:00) veya yerel olarak `dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj` ile tetiklenir."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44348,7 +44395,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44379,7 +44427,8 @@
       "ro": "**Flux de lucru**:",
       "ru": "**Рабочий процесс**:",
       "th": "**ขั้นตอนการทำงาน**:",
-      "uk": "**Робочий процес**:"
+      "uk": "**Робочий процес**:",
+      "tr": "**İş Akışı**:"
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44406,7 +44455,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44437,7 +44487,8 @@
       "ro": "1. **Preia lista**: Preia paginat ID-urile modurilor de pe pagina „cele mai recente” a Steam Workshop cu eticheta Build 42 (excluzând etichetele Language/Translation).",
       "ru": "1. **Получение списка**: со страницы «самые новые» в Steam Workshop постранично извлекаются ID модов с тегом Build 42 (исключая теги Language/Translation).",
       "th": "1. **ดึงรายการ**: ดึง ID ม็อดที่มีแท็ก Build 42 (ยกเว้นแท็ก Language/Translation) จากหน้า \"ล่าสุด\" ของ Steam Workshop แบบแบ่งหน้า",
-      "uk": "1. **Отримання списку**: Покроково отримує ID модів зі сторінки \"most recent\" у Steam Workshop з тегом Build 42 (виключаючи теги Language/Translation)."
+      "uk": "1. **Отримання списку**: Покроково отримує ID модів зі сторінки \"most recent\" у Steam Workshop з тегом Build 42 (виключаючи теги Language/Translation).",
+      "tr": "1. **Listeyi Çekme**: Steam Workshop'taki 'most recent' sayfasından, sayfa sayfa Build 42 etiketine sahip (Language/Translation etiketleri hariç) mod ID'lerini çeker."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44464,7 +44515,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44495,7 +44547,8 @@
       "ro": "2. **Analizează timestamp-ul**: Interoghează în lot timpul de publicare al fiecărui mod prin Steam Web API, compară cu timpul ultimei rulări din cache și identifică modurile noi.",
       "ru": "2. **Анализ времени**: с помощью Steam Web API массово запрашивается время публикации каждого мода, сравнивается с временем последнего запуска в кэше для определения новых модов.",
       "th": "2. **วิเคราะห์เวลา**: สืบค้นเวลาที่เผยแพร่ของแต่ละม็อดเป็นชุดผ่าน Steam Web API เปรียบเทียบกับเวลาที่รันครั้งล่าสุดในแคช เพื่อระบุม็อดใหม่",
-      "uk": "2. **Аналіз часу**: Через Steam Web API пакетно запитує час публікації кожного моду, порівнює з часом останнього запуску в кеші та визначає нові моди."
+      "uk": "2. **Аналіз часу**: Через Steam Web API пакетно запитує час публікації кожного моду, порівнює з часом останнього запуску в кеші та визначає нові моди.",
+      "tr": "2. **Zamanı Ayrıştırma**: Steam Web API aracılığıyla her modun yayınlanma zamanını toplu olarak sorgular, önbellekteki son çalışma zamanıyla karşılaştırarak yeni modları belirler."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44522,7 +44575,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44553,7 +44607,8 @@
       "ro": "3. **Filtrează după abonamente**: Reapelează Steam API pentru a interoga numărul de abonamente ale tuturor modurilor din cache, selectează modurile care depășesc pragul (500).",
       "ru": "3. **Фильтрация по подпискам**: снова вызывается Steam API для получения числа подписок всех кэшированных модов, отбираются моды с числом подписок выше порога (500).",
       "th": "3. **กรองตามจำนวนสมาชิก**: เรียก Steam API อีกครั้งเพื่อสอบถามจำนวนสมาชิกของม็อดทั้งหมดที่แคชไว้ กรองเฉพาะม็อดที่เกินเกณฑ์ (500)",
-      "uk": "3. **Фільтрація за підписками**: Повторно викликає Steam API для запиту кількості підписок усіх кешованих модів, відбирає ті, що перевищують поріг (500)."
+      "uk": "3. **Фільтрація за підписками**: Повторно викликає Steam API для запиту кількості підписок усіх кешованих модів, відбирає ті, що перевищують поріг (500).",
+      "tr": "3. **Abone Sayısını Filtreleme**: Steam API'yi tekrar çağırarak önbelleğe alınmış tüm modların abone sayılarını sorgular ve eşik değerini (500) aşan modları filtreler."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44580,7 +44635,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44611,7 +44667,8 @@
       "ro": "4. **Combină și scoate**: Unifică și deduplică ID-urile modurilor filtrate în `config/request_for_translation.txt`, pentru consumul de către `ModIdCollector` al conductei.",
       "ru": "4. **Объединение вывода**: отфильтрованные ID модов дедуплицируются и добавляются в `config/request_for_translation.txt` для использования модулем `ModIdCollector` конвейера.",
       "th": "4. **รวมและส่งออก**: รวม ID ม็อดที่กรองแล้ว (ลบรายการซ้ำ) ไปยัง `config/request_for_translation.txt` เพื่อให้ `ModIdCollector` ในไปป์ไลน์นำไปใช้",
-      "uk": "4. **Об'єднання та виведення**: Дедуплікує відфільтровані ID модів та додає їх до `config/request_for_translation.txt` для використання `ModIdCollector` конвеєра."
+      "uk": "4. **Об'єднання та виведення**: Дедуплікує відфільтровані ID модів та додає їх до `config/request_for_translation.txt` для використання `ModIdCollector` конвеєра.",
+      "tr": "4. **Birleştirme ve Çıktı**: Filtrelenmiş mod ID'lerini yinelenenleri kaldırarak `config/request_for_translation.txt` dosyasına birleştirir, böylece hattın `ModIdCollector` modülü tarafından kullanılır."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44638,7 +44695,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44669,7 +44727,8 @@
       "ro": "**Parametri hardcodați**: AppId=108600, MinSubs=500, SafetyPages=5 (pagini suplimentare după atingerea ultimului timestamp), PageSize=30, Lookback=48h.",
       "ru": "**Жестко закодированные параметры**: AppId=108600, MinSubs=500, SafetyPages=5 (дополнительные страницы после достижения предыдущей метки времени), PageSize=30, Lookback=48h.",
       "th": "**พารามิเตอร์แบบฮาร์ดโค้ด**: AppId=108600, MinSubs=500, SafetyPages=5 (จำนวนหน้าที่ดึงเพิ่มเติมหลังจากถึง Timestamp ล่าสุด), PageSize=30, Lookback=48h",
-      "uk": "**Жорстко закодовані параметри**: AppId=108600, MinSubs=500, SafetyPages=5 (додаткова кількість сторінок після досягнення останньої позначки часу), PageSize=30, Lookback=48h."
+      "uk": "**Жорстко закодовані параметри**: AppId=108600, MinSubs=500, SafetyPages=5 (додаткова кількість сторінок після досягнення останньої позначки часу), PageSize=30, Lookback=48h.",
+      "tr": "**Sabit Kodlanmış Parametreler**: AppId=108600, MinSubs=500, SafetyPages=5 (son zaman damgasına ulaşıldıktan sonra ekstra çekilecek sayfa sayısı), PageSize=30, Lookback=48h."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44696,7 +44755,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44727,7 +44787,8 @@
       "ro": "**Format cache**: `data/monitor_cache.bin` — fișier binar comprimat Zstd, secvență little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Folosește același algoritm de compresie `ZstdSharp` ca `BinaryEmbeddingSerializer`.",
       "ru": "**Формат кэша**: `data/monitor_cache.bin` — сжатый двоичный файл Zstd, последовательность little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Использует схему сжатия `ZstdSharp` совместно с `BinaryEmbeddingSerializer`.",
       "th": "**รูปแบบแคช**: `data/monitor_cache.bin` — ไฟล์ไบนารีที่บีบอัดด้วย Zstd, ลำดับ int64 แบบ little-endian: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...` ใช้แผนการบีบอัด `ZstdSharp` ร่วมกับ `BinaryEmbeddingSerializer`",
-      "uk": "**Формат кешу**: `data/monitor_cache.bin` — Zstd-стиснутий двійковий файл, послідовність little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Використовує той самий алгоритм стиснення `ZstdSharp`, що і `BinaryEmbeddingSerializer`."
+      "uk": "**Формат кешу**: `data/monitor_cache.bin` — Zstd-стиснутий двійковий файл, послідовність little-endian int64: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. Використовує той самий алгоритм стиснення `ZstdSharp`, що і `BinaryEmbeddingSerializer`.",
+      "tr": "**Önbellek Biçimi**: `data/monitor_cache.bin` — Zstd sıkıştırılmış ikili dosya, little-endian int64 dizisi: `[lastRunUnixSec][modId0][timeCreated0][modId1][timeCreated1]...`. `BinaryEmbeddingSerializer` ile aynı `ZstdSharp` sıkıştırma şemasını kullanır."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44754,7 +44815,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44785,7 +44847,8 @@
       "ro": "**Citire cheie**: Cheia API Steam este citită din câmpul `STEAM_KEY` din `config/secrets.json`, sau din variabilele de mediu `STEAM_KEY` / `STEAM_API_KEY` (același mod ca `ConfigReader`).",
       "ru": "**Чтение ключа**: Steam API Key читается из поля `STEAM_KEY` в `config/secrets.json` или из переменных окружения `STEAM_KEY` / `STEAM_API_KEY` (такой же режим, как и в `ConfigReader`).",
       "th": "**การอ่านคีย์**: Steam API Key อ่านจากฟิลด์ `STEAM_KEY` ใน `config/secrets.json` หรือจากตัวแปรสภาพแวดล้อม `STEAM_KEY` / `STEAM_API_KEY` (รูปแบบเดียวกับ `ConfigReader`)",
-      "uk": "**Читання ключа**: Ключ Steam API зчитується з поля `STEAM_KEY` у `config/secrets.json`, або зі змінних середовища `STEAM_KEY` / `STEAM_API_KEY` (той самий шаблон, що й у `ConfigReader`)."
+      "uk": "**Читання ключа**: Ключ Steam API зчитується з поля `STEAM_KEY` у `config/secrets.json`, або зі змінних середовища `STEAM_KEY` / `STEAM_API_KEY` (той самий шаблон, що й у `ConfigReader`).",
+      "tr": "**Anahtar Okuma**: Steam API Anahtarı, `config/secrets.json` dosyasındaki `STEAM_KEY` alanından veya `STEAM_KEY` / `STEAM_API_KEY` ortam değişkenlerinden okunur (`ConfigReader` ile aynı şekilde)."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44812,7 +44875,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44843,7 +44907,8 @@
       "ro": "### DocGenerator",
       "ru": "",
       "th": "### DocGenerator",
-      "uk": "### DocGenerator"
+      "uk": "### DocGenerator",
+      "tr": "### DocGenerator"
     },
     "NeedsTranslation": {
       "ar": false,
@@ -44870,7 +44935,8 @@
       "ro": true,
       "ru": false,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44901,7 +44967,8 @@
       "ro": "**Funcție**: Generator de documentație multilingvă bazat pe LLM, care generează README, ghiduri de contribuție și documentație tehnică pentru fiecare limbă pornind de la șabloane în chineză.",
       "ru": "**Функция**: Многоязычный генератор документации на основе LLM, создающий README, руководства по участию и технические справочные документы на разных языках из китайских шаблонов.",
       "th": "**หน้าที่**: ตัวสร้างเอกสารหลายภาษาโดยใช้ LLM สร้าง README, คู่มือการมีส่วนร่วม และเอกสารอ้างอิงทางเทคนิคสำหรับแต่ละภาษาจากเทมเพลตภาษาจีน",
-      "uk": "**Функція**: Генератор багатомовної документації на основі LLM, який створює README, керівництво з внеску та технічну довідку різними мовами з китайських шаблонів."
+      "uk": "**Функція**: Генератор багатомовної документації на основі LLM, який створює README, керівництво з внеску та технічну довідку різними мовами з китайських шаблонів.",
+      "tr": "**İşlev**: LLM tabanlı çok dilli belge oluşturucu; Çince şablonlardan farklı dillerde README, katkı kılavuzu ve teknik referans belgeleri üretir."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44928,7 +44995,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   },
   {
@@ -44959,7 +45027,8 @@
       "ro": "**Mod de rulare**: Proiect independent `src/DocGenerator/DocGenerator.csproj`, executat prin `dotnet run --project src/DocGenerator/DocGenerator.csproj`.",
       "ru": "**Способ запуска**: Отдельный проект `src/DocGenerator/DocGenerator.csproj`, выполняется через `dotnet run --project src/DocGenerator/DocGenerator.csproj`.",
       "th": "**วิธีการทำงาน**: โปรเจกต์อิสระ `src/DocGenerator/DocGenerator.csproj` ดำเนินการโดย `dotnet run --project src/DocGenerator/DocGenerator.csproj`",
-      "uk": "**Спосіб запуску**: Окремий проєкт `src/DocGenerator/DocGenerator.csproj`, виконується через `dotnet run --project src/DocGenerator/DocGenerator.csproj`."
+      "uk": "**Спосіб запуску**: Окремий проєкт `src/DocGenerator/DocGenerator.csproj`, виконується через `dotnet run --project src/DocGenerator/DocGenerator.csproj`.",
+      "tr": "**Çalıştırma Yöntemi**: Bağımsız proje `src/DocGenerator/DocGenerator.csproj`, `dotnet run --project src/DocGenerator/DocGenerator.csproj` ile çalıştırılır."
     },
     "NeedsTranslation": {
       "ar": true,
@@ -44986,7 +45055,8 @@
       "ro": true,
       "ru": true,
       "th": true,
-      "uk": true
+      "uk": true,
+      "tr": true
     }
   }
 ]
