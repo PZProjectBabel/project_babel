@@ -1,0 +1,81 @@
+name: Monitor Workshop
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Beijing 00:00 = UTC 16:00 daily
+    - cron: '0 16 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  monitor-and-merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.TRANSLATION_BOT_TOKEN }}
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Run workshop monitor
+        env:
+          STEAM_KEY: ${{ secrets.STEAM_KEY }}
+        run: dotnet run --project src/WorkshopMonitor/WorkshopMonitor.csproj
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit & push changes
+        id: push
+        if: ${{ steps.changes.outputs.has_changes == 'true' }}
+        run: |
+          BRANCH="monitor-workshop-$(date +%s)"
+          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
+
+          git config user.name "project-babel-actions"
+          git config user.email "actions@github.com"
+
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -m "[skip ci] auto: workshop monitor ($(date -u +%Y-%m-%d))"
+          git push origin "$BRANCH"
+
+      - name: Create PR
+        id: create-pr
+        if: ${{ steps.changes.outputs.has_changes == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.TRANSLATION_BOT_TOKEN }}
+        run: |
+          BRANCH="${{ steps.push.outputs.branch }}"
+          PR_URL=$(gh pr create \
+            --base master \
+            --head "$BRANCH" \
+            --title "auto: workshop monitor update" \
+            --body "Generated automatically by workshop monitor workflow.")
+
+          PR_NUM=$(echo "$PR_URL" | grep -oP '\d+$' || echo "$PR_URL" | awk -F'/' '{print $NF}')
+          echo "number=$PR_NUM" >> "$GITHUB_OUTPUT"
+
+      - name: Enable squash auto-merge
+        if: ${{ steps.changes.outputs.has_changes == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.TRANSLATION_BOT_TOKEN }}
+        run: |
+          for attempt in {1..10}; do
+            gh pr merge "${{ steps.create-pr.outputs.number }}" --auto --squash --delete-branch && exit 0
+            sleep 3
+          done
+          exit 1

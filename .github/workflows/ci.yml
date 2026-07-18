@@ -23,8 +23,14 @@ jobs:
         with:
           dotnet-version: '10.0.x'
 
-      - name: Build
+      - name: Build pipeline
         run: dotnet build src/TranslationPipeline.slnx
+
+      - name: Build WorkshopMonitor
+        run: dotnet build src/WorkshopMonitor/WorkshopMonitor.csproj
+
+      - name: Build DocGenerator
+        run: dotnet build src/DocGenerator/DocGenerator.csproj
 
       - name: Test
         run: dotnet test src/TranslationPipeline.slnx --verbosity normal --no-build
