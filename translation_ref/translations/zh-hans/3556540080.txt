@@ -5366,16 +5366,6 @@ ContextMenu_EBFChainsaw_CutTree::zh-hans::processed::verified = "砍伐树木",
 ContextMenu_EBFChainsaw_DrainFuel::zh-hans::processed::verified = "排空电锯燃油",
 ContextMenu_EBFChainsaw_InstallChain::zh-hans::processed::verified = "安装电锯链条",
 ContextMenu_EBFChainsaw_RadialDrainFuel::zh-hans::processed::verified = "排空汽油",
-ContextMenu_EBFChainsaw_RadialInstallChain::zh-hans::processed::verified = "安装
-链条",
-ContextMenu_EBFChainsaw_RadialRefuel::zh-hans::processed::verified = "添加
-汽油",
-ContextMenu_EBFChainsaw_RadialRemoveChain::zh-hans::processed::verified = "拆卸
-链条",
-ContextMenu_EBFChainsaw_RadialStart::zh-hans::processed::verified = "启动
-电锯",
-ContextMenu_EBFChainsaw_RadialStop::zh-hans::processed::verified = "关闭
-电锯",
 ContextMenu_EBFChainsaw_Refuel::zh-hans::processed::verified = "给电锯加油",
 ContextMenu_EBFChainsaw_RemoveChain::zh-hans::processed::verified = "拆卸电锯链条",
 ContextMenu_EBFChainsaw_Start::zh-hans::processed::verified = "启动电锯",
@@ -6911,15 +6901,6 @@ ContextMenu_TankWater_RuntimeIdle::zh-hans::processed::verified = "空闲",
 ContextMenu_TankWater_RuntimeLabel::zh-hans::processed::verified = "状态: ",
 ContextMenu_TankWater_RuntimeOff::zh-hans::processed::verified = "关闭",
 ContextMenu_TankWater_SelectTank::zh-hans::processed::verified = "选择储水箱",
-ContextMenu_TankWater_StartupNotice::zh-hans::processed::verified = "储水箱 Mod 重要通知: 
-
-1) 此 Mod 与以下项不兼容: 
-- SkillRecoveryJournal (技能回收日志) 
-- LazoloDynamicBackpackUpgrades (Lazolo动态背包升级) 
-- StarlitLibrary (Starlit库) 
-同时使用可能会导致报错. 
-
-2) 在最近一次更新后, 旧的储水箱必须先拿起再重新放置回地面, 以迁移至新系统.",
 ContextMenu_TankWater_StatusConnected::zh-hans::processed::verified = "已连接",
 ContextMenu_TankWater_StatusNotConnected::zh-hans::processed::verified = "未连接",
 ContextMenu_TankWater_StructuralStateContaminated::zh-hans::processed::verified = "需要清洗",
@@ -11135,15 +11116,7 @@ IGUI_BusStop_tip_avail_no::zh-hans::processed::verified = "站点在玩家的目
 IGUI_BusStop_tip_avail_yes::zh-hans::processed::verified = "站点在玩家的目的地列表中显示.",
 IGUI_BusStop_tip_coords::zh-hans::processed::verified = "放置站点时设置的世界坐标. 仅供阅读.",
 IGUI_BusStop_tip_delete::zh-hans::processed::verified = "从世界中永久移除此站点.",
-IGUI_BusStop_tip_dynamic::zh-hans::processed::verified = "价格=(基础+距离×每格价格)×倍数.
-随旅行距离缩放.",
-IGUI_BusStop_tip_fixed::zh-hans::processed::verified = "价格=基础价格×倍数.
-忽略距离.",
-IGUI_BusStop_tip_free::zh-hans::processed::verified = "前往此站点的旅行始终免费,
-忽略距离和倍数.",
 IGUI_BusStop_tip_goto::zh-hans::processed::verified = "将你传送至此站点的位置.",
-IGUI_BusStop_tip_mult::zh-hans::processed::verified = "乘以最终票价.
-1.0=标准 | 0.5=一半 | 2.0=两倍",
 IGUI_BusStop_tip_name::zh-hans::processed::verified = "在旅行界面和地图上向玩家显示的名称.",
 IGUI_BusStop_tip_rr_no::zh-hans::processed::verified = "此站点不提供返程服务.",
 IGUI_BusStop_tip_rr_yes::zh-hans::processed::verified = "前往此站点的玩家获得有效期为1个游戏日的免费返程.",
@@ -13370,8 +13343,6 @@ IGUI_HMR_NotAvailable::zh-hans::processed::verified = "不可用",
 IGUI_HMR_NotEnoughLiquid::zh-hans::processed::verified = "没有足够液体的容器",
 IGUI_HMR_NotEnoughLiquidSelected::zh-hans::processed::verified = "该容器液体不足",
 IGUI_HMR_Planks::zh-hans::processed::verified = "木板",
-IGUI_HMR_PlanksNeeded::zh-hans::processed::verified = "你需要: 
- x1 木板用于修理",
 IGUI_HMR_Repair::zh-hans::processed::verified = "修理",
 IGUI_HMR_RepairBladeScrap::zh-hans::processed::verified = "用 %dx 废金属修理刀刃",
 IGUI_HMR_RepairBladeScrapTool::zh-hans::processed::verified = "用 %dx 废料和 %s 修理刀刃",
@@ -13379,13 +13350,6 @@ IGUI_HMR_RepairHandlePlank::zh-hans::processed::verified = "用 1x 木板修理�
 IGUI_HMR_RepairPart::zh-hans::processed::verified = "修理",
 IGUI_HMR_ReplacePart::zh-hans::processed::verified = "替换",
 IGUI_HMR_ReplacedPart::zh-hans::processed::verified = "已替换",
-IGUI_HMR_Req_Plank::zh-hans::processed::verified = "需要:
-- 1x 木板",
-IGUI_HMR_Req_ScrapMetal::zh-hans::processed::verified = "需要: 
-- %dx 废金属",
-IGUI_HMR_Req_ScrapTool::zh-hans::processed::verified = "需要: 
-- %s
-- %dx 废金属",
 IGUI_HMR_TotalCondFmt::zh-hans::processed::verified = "总体状况: %1%",
 IGUI_Hair_BlackPigTailLeft::zh-hans::processed::verified = "黑色双马尾辫 (左)",
 IGUI_Hair_BlackPigTailRight::zh-hans::processed::verified = "黑色双马尾辫 (右)",
@@ -17989,13 +17953,6 @@ IGUI_RSE_SceneNotify_Scream::zh-hans::processed::verified = "那边显然发生�
 IGUI_RSE_SceneNotify_VehicleCrash::zh-hans::processed::verified = "我看到前面有一处车祸残骸..",
 IGUI_RSE_SceneNotify_Zombie::zh-hans::processed::verified = "那边好像有一群丧尸正在聚集..",
 IGUI_RSF_CaffeineKick::zh-hans::processed::verified = "咖啡因起效了!",
-IGUI_RSF_ClassNotInstalled::zh-hans::processed::verified = "真实力量与体能模组未正确安装. 
-你的游戏目录中缺少'ItemContainer.class'文件. 
-
-将RSF模组中的'zombie'文件夹
- (Workshop/RealisticStrengthFitness/Contents) 
-复制到你的僵尸毁灭工程游戏文件夹中
- (也就是ProjectZomboid64.exe所在的位置), 然后重启游戏.",
 IGUI_RS_AddWaterFrom::zh-hans::processed::verified = "从…加水",
 IGUI_RS_EmptyWaterTank::zh-hans::processed::verified = "排空水箱",
 IGUI_RS_FilterBad::zh-hans::processed::verified = "净水器: 已污染",
@@ -18445,8 +18402,6 @@ IGUI_TABAS_Radial_Arms::zh-hans::processed::verified = "手臂",
 IGUI_TABAS_Radial_Back::zh-hans::processed::verified = "返回",
 IGUI_TABAS_Radial_ElbowL::zh-hans::processed::verified = "向左",
 IGUI_TABAS_Radial_ElbowR::zh-hans::processed::verified = "向右",
-IGUI_TABAS_Radial_Face::zh-hans::processed::verified = "脸
-(卸妆)",
 IGUI_TABAS_Radial_GetOutBath::zh-hans::processed::verified = "退出沐浴",
 IGUI_TABAS_Radial_Idle::zh-hans::processed::verified = "普通",
 IGUI_TABAS_Radial_Legs::zh-hans::processed::verified = "腿",
@@ -19005,8 +18960,6 @@ IGUI_VCS_HintPreview::zh-hans::processed::verified = "点击选项可在车辆�
 IGUI_VCS_HintPreviewShort::zh-hans::processed::verified = "点击选项预览外观",
 IGUI_VCS_LabelCurrent::zh-hans::processed::verified = "当前",
 IGUI_VCS_LabelPreview::zh-hans::processed::verified = "预览",
-IGUI_VCS_NoModSkins::zh-hans::processed::verified = "暂无已注册模组皮肤
-其他模组可通过VCS.registerModSkins()在此添加皮肤",
 IGUI_VCS_NoSkins::zh-hans::processed::verified = "暂无可用外观选项",
 IGUI_VCS_NoVehicleTabBody::zh-hans::processed::verified = "此车辆使用模组脚本, 内置颜色已归入模组皮肤列表.",
 IGUI_VCS_NoVehicleTabTitle::zh-hans::processed::verified = "该车辆脚本归类在模组标签页",
@@ -31943,38 +31896,6 @@ Sandbox_Bandits.FriendlyChance::zh-hans::processed::verified = "友好几率 (�
 Sandbox_Bandits.FriendlyChance_tooltip::zh-hans::processed::verified = "决定该类别的NPC有多大可能对玩家是友好的",
 Sandbox_Bandits.GeneratorCutoff::zh-hans::processed::verified = "暴徒是否可以关掉发电机",
 Sandbox_Bandits.GroupName::zh-hans::processed::verified = "阵营归属",
-Sandbox_Bandits.GroupName_option1::zh-hans::processed::verified = "绝望的居民
-末日后的第一批幸存者, 他们能活下来更多是因为运气",
-Sandbox_Bandits.GroupName_option10::zh-hans::processed::verified = "猎人
-一群欢迎这场全新狩猎季节到来的人, 不过他们并非真正的猎人",
-Sandbox_Bandits.GroupName_option11::zh-hans::processed::verified = "神圣归取者
-拥有十条戒律的新兴宗教团体",
-Sandbox_Bandits.GroupName_option12::zh-hans::processed::verified = "政府科研人员
-得益于逆病毒药物和防护全面的装备让这群公务员免受侵害, 不过现在他们已经不再想着如何拯救世界了",
-Sandbox_Bandits.GroupName_option13::zh-hans::processed::verified = "末日骑士
-组织良好, 执行严格的团体, 专门劫掠各种物资, 他们才不在乎有人会因此死去",
-Sandbox_Bandits.GroupName_option14::zh-hans::processed::verified = "私人武装
-政府倒台前就已被军队除名. 这些前军事人员可以获取几乎无穷无尽的武器和弹药",
-Sandbox_Bandits.GroupName_option15::zh-hans::processed::verified = "死亡军团
-人数众多, 装备精良, 极度危险, 只有路易斯维尔最富有的大人物才能支撑得起如此规模团体的运转",
-Sandbox_Bandits.GroupName_option16::zh-hans::processed::verified = "新秩序
-在末世中组成的新世界政府, 实地倡导重建恢复人类社会秩序",
-Sandbox_Bandits.GroupName_option2::zh-hans::processed::verified = "精神病患者
-在其他人死于惊恐中时就跑出了路易斯维尔医院, 这群人已经感受不到任何恐惧或痛苦了",
-Sandbox_Bandits.GroupName_option3::zh-hans::processed::verified = "食人族
-起初靠着熟练的砍刀技巧活了下来, 后来靠着高蛋白质的食物活了下来",
-Sandbox_Bandits.GroupName_option4::zh-hans::processed::verified = "罪犯
-由于没有那些不必要的良心和道德约束, 他们很容易在这种大灾难的环境里活下来",
-Sandbox_Bandits.GroupName_option5::zh-hans::processed::verified = "逃犯
-在诺克斯监狱的暴乱后, 这些犯人设法逃了出来并试图运营起他们的新社群",
-Sandbox_Bandits.GroupName_option6::zh-hans::processed::verified = "警察
-服务人民, 保护人民! 这些人一开始就能合法的全副武装, 但现在哪还有规矩可言?",
-Sandbox_Bandits.GroupName_option7::zh-hans::processed::verified = "生存狂
-那些疯癫的人对世界末日的预期竟然如此准! 他们从这场灾难的第一天开始就已经乐开了花",
-Sandbox_Bandits.GroupName_option8::zh-hans::processed::verified = "老兵
-爱国者们会因战争爆发而变得更加坚定, 他们知道如何对付新的敌人, 以及捍卫自己的荣誉",
-Sandbox_Bandits.GroupName_option9::zh-hans::processed::verified = "豪饮猎犬旅
-每天都要一同去酒馆畅饮着欢唱友谊地久天长, 这些家伙在末世中靠着相互合作活了下来",
 Sandbox_Bandits.GroupName_tooltip::zh-hans::processed::verified = "决定使用哪种阵营的外观",
 Sandbox_Bandits.GroupSize::zh-hans::processed::verified = "队伍成员数量",
 Sandbox_Bandits.GroupSize_tooltip::zh-hans::processed::verified = "决定每次刷出多少个NPC",
@@ -33549,10 +33470,6 @@ Sandbox_DynamicTrading.IndependentSpawnRadiusMax_tooltip::zh-hans::processed::ve
 Sandbox_DynamicTrading.IndependentSpawnRadiusMin::zh-hans::processed::verified = "独立商人生成半径 (最小)",
 Sandbox_DynamicTrading.IndependentSpawnRadiusMin_tooltip::zh-hans::processed::verified = "独立 (游牧) 或流浪商人与活跃玩家的最小生成格子距离.",
 Sandbox_DynamicTrading.InflationDecay::zh-hans::processed::verified = "通货膨胀衰减 (每日百分比)",
-Sandbox_DynamicTrading.InflationDecay_tooltip::zh-hans::processed::verified = "每日价格通货膨胀的恢复百分比. 
-0.1=10%衰减. 
-0.5=50%衰减 (快速恢复). 
-0.0=通货膨胀永不衰减.",
 Sandbox_DynamicTrading.MaxFactionsPerTown::zh-hans::processed::verified = "每个城镇最大阵营数",
 Sandbox_DynamicTrading.MaxFactionsPerTown_tooltip::zh-hans::processed::verified = "单个城镇可同时存在的最大独立阵营数量.",
 Sandbox_DynamicTrading.MaxGameplayLogs::zh-hans::processed::verified = "游戏日志历史大小",
@@ -34823,56 +34740,15 @@ Sandbox_ExerciseWithCorpses_scaleBool_tooltip::zh-hans::processed::verified = "�
 Sandbox_ExtensiveHealthRework::zh-hans::processed::verified = "广泛健康重制",
 Sandbox_FARP::zh-hans::processed::verified = "F.A.R.P. - 手艺活",
 Sandbox_FARP_ConsumeMagazine::zh-hans::processed::verified = "消耗杂志",
-Sandbox_FARP_ConsumeMagazine_tooltip::zh-hans::processed::verified = "启用后, 使用时会从物品栏中永久移除脏比辣妹杂志 (Base.HottieZ 或 Base.HottieZ_New).
-
-默认: 关闭 - 保留杂志.",
 Sandbox_FARP_CooldownHours::zh-hans::processed::verified = "冷却时间 (小时)",
-Sandbox_FARP_CooldownHours_tooltip::zh-hans::processed::verified = "两次手艺活之间, 玩家必须等待的游戏内小时数.
-
-0.0 = 无冷却时间.
-72.0 = 完整的 3 个游戏日.",
 Sandbox_FARP_EnableCola::zh-hans::processed::verified = "启用胶水机制 (意外)",
-Sandbox_FARP_EnableCola_tooltip::zh-hans::processed::verified = "启用后, 手艺活时物品栏中携带胶水会触发严重意外 (体力降至 0, 并造成剧烈疼痛).
-默认: 是",
 Sandbox_FARP_EnableLube::zh-hans::processed::verified = "启用润滑剂机制",
-Sandbox_FARP_EnableLube_tooltip::zh-hans::processed::verified = "启用后, 发胶等物品会提供加成并缩短手艺活时间.
-默认: 是",
 Sandbox_FARP_MultBoredom::zh-hans::processed::verified = "无聊值剩余倍率",
-Sandbox_FARP_MultBoredom_tooltip::zh-hans::processed::verified = "手艺活完成后剩余无聊值的比例.
-
-0.0 = 完全消除.
-0.5 = 减少一半 (FARP 默认值).
-1.0 = 无效果.",
 Sandbox_FARP_MultHunger::zh-hans::processed::verified = "饥饿值剩余倍率",
-Sandbox_FARP_MultHunger_tooltip::zh-hans::processed::verified = "手艺活完成后剩余饥饿值的比例.
-
-0.0 = 完全消除.
-0.5 = 减少一半 (FARP 默认值).
-1.0 = 无效果.",
 Sandbox_FARP_MultNausea::zh-hans::processed::verified = "恶心值剩余倍率",
-Sandbox_FARP_MultNausea_tooltip::zh-hans::processed::verified = "手艺活完成后剩余恶心值的比例.
-
-0.0 = 完全消除.
-0.5 = 减少一半 (FARP 默认值).
-1.0 = 无效果.",
 Sandbox_FARP_MultPanic::zh-hans::processed::verified = "恐慌值剩余倍率",
-Sandbox_FARP_MultPanic_tooltip::zh-hans::processed::verified = "手艺活完成后剩余恐慌值的比例.
-
-0.0 = 完全消除.
-0.5 = 减少一半 (FARP 默认值).
-1.0 = 无效果.",
 Sandbox_FARP_MultStress::zh-hans::processed::verified = "压力剩余倍率",
-Sandbox_FARP_MultStress_tooltip::zh-hans::processed::verified = "手艺活完成后剩余压力值的比例.
-
-0.0 = 完全消除.
-0.5 = 减少一半 (FARP 默认值).
-1.0 = 无效果.",
 Sandbox_FARP_MultUnhappiness::zh-hans::processed::verified = "不快值剩余倍率",
-Sandbox_FARP_MultUnhappiness_tooltip::zh-hans::processed::verified = "手艺活完成后剩余不开心值的比例.
-
-0.0 = 完全消除.
-0.5 = 减少一半 (FARP 默认值).
-1.0 = 无效果.",
 Sandbox_FNVG_Options::zh-hans::processed::verified = "开关夜视仪",
 Sandbox_FNVG_Options.AN_PVS14SpawnChance::zh-hans::processed::verified = "AN/PVS-14夜视仪的生成几率",
 Sandbox_FNVG_Options.AN_PVS14SpawnChance_tooltip::zh-hans::processed::verified = "百分比生成几率, 设置为0可禁止生成",
@@ -35374,61 +35250,16 @@ Sandbox_GydeTraitMags_ReadDelete_tooltip::zh-hans::processed::verified = "启用
 Sandbox_GydeTraitMags_ReadRemove::zh-hans::processed::verified = "阅读时移除特质",
 Sandbox_GydeTraitMags_ReadRemove_tooltip::zh-hans::processed::verified = "阅读特质杂志将移除玩家拥有的相关特质.",
 Sandbox_GydeTraitMags_SpawnAxeMan::zh-hans::processed::verified = "生成特质杂志-伐木工人",
-Sandbox_GydeTraitMags_SpawnAxeMan_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-伐木工人.
-
-特质描述:
-挥斧速度提高25% (战斗和砍树).",
 Sandbox_GydeTraitMags_SpawnBurglar::zh-hans::processed::verified = "生成特质杂志-窃贼",
-Sandbox_GydeTraitMags_SpawnBurglar_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-窃贼. 
-
-特质描述:
-可以短接车辆, 并且在强行打开窗户时破坏锁的几率较小.",
 Sandbox_GydeTraitMags_SpawnDextrous::zh-hans::processed::verified = "生成特质杂志-眼疾手快",
-Sandbox_GydeTraitMags_SpawnDextrous_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-眼疾手快.
-
-特质描述:
-50%的库存转移时间.",
 Sandbox_GydeTraitMags_SpawnFastLearner::zh-hans::processed::verified = "生成特质杂志-学习神速",
-Sandbox_GydeTraitMags_SpawnFastLearner_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-学习神速.
-
-特质描述:
-除了力量和体格技能外, 所有技能的XP提高130%.",
 Sandbox_GydeTraitMags_SpawnFastReader::zh-hans::processed::verified = "生成特质杂志-阅读神速",
-Sandbox_GydeTraitMags_SpawnFastReader_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-阅读神速.
-
-特质描述:
-阅读速度提高130%.",
 Sandbox_GydeTraitMags_SpawnGraceful::zh-hans::processed::verified = "生成特质杂志-身轻如燕",
-Sandbox_GydeTraitMags_SpawnGraceful_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-身轻如燕.
-
-特质描述:
-60%的脚步声半径.
-90%的几率在跑步/冲刺翻越低矮围栏或猛冲僵尸时摔倒.",
 Sandbox_GydeTraitMags_SpawnHandy::zh-hans::processed::verified = "生成特质杂志-巧手良工",
-Sandbox_GydeTraitMags_SpawnHandy_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-巧手良工.
-
-特质描述:
-所有建筑的生命值增加100HP. \\n提高建筑速度 (约11%).",
 Sandbox_GydeTraitMags_SpawnInconspicuous::zh-hans::processed::verified = "生成特质杂志-毫不起眼",
-Sandbox_GydeTraitMags_SpawnInconspicuous_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-毫不起眼.
-
-特质描述:
-50%的几率被僵尸发现.",
 Sandbox_GydeTraitMags_SpawnKeenHearing::zh-hans::processed::verified = "生成特质杂志-听觉灵敏",
-Sandbox_GydeTraitMags_SpawnKeenHearing_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-听觉灵敏.
-
-特质描述:
-200%的感知半径. 更早的发现背后的僵尸.",
 Sandbox_GydeTraitMags_SpawnNutritionist::zh-hans::processed::verified = "生成特质杂志-营养学家",
-Sandbox_GydeTraitMags_SpawnNutritionist_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-营养学家.
-
-特质描述:
-允许玩家查看任何食物的营养值, 即便是没有包装的食物.",
 Sandbox_GydeTraitMags_SpawnOrganized::zh-hans::processed::verified = "生成特质杂志-井井有条",
-Sandbox_GydeTraitMags_SpawnOrganized_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-井井有条.
-
-特质描述:
-所有容器的容量提高130%, 包括箱子, 橱柜和汽车.",
 Sandbox_GydeTraitMags_SpawnOutdoorsman::zh-hans::processed::verified = "生成特质杂志-户外专家",
 Sandbox_GydeTraitMags_SpawnOutdoorsman_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-户外专家 . \\n\\n特质描述: \\n感冒的几率为10%. 在步行或跑步穿过树木时, 被刮伤或割伤的几率为1%或1.25%. 在篝火上使用刻痕木板更快地点火.",
 Sandbox_GydeTraitMags_SpawnRate::zh-hans::processed::verified = "特质杂志生成率",
@@ -35439,10 +35270,6 @@ Sandbox_GydeTraitMags_SpawnRate_option4::zh-hans::processed::verified = "高",
 Sandbox_GydeTraitMags_SpawnRate_option5::zh-hans::processed::verified = "非常高",
 Sandbox_GydeTraitMags_SpawnRate_tooltip::zh-hans::processed::verified = "改变特质杂志生成率. 更多信息请参考创意工坊页面",
 Sandbox_GydeTraitMags_SpawnSpeedDemon::zh-hans::processed::verified = "生成特质杂志-超速狂魔",
-Sandbox_GydeTraitMags_SpawnSpeedDemon_tooltip::zh-hans::processed::verified = "禁用后, 游戏中将不再生成特质杂志-超速狂魔.
-
-特质描述:
-档位切换速度提高200%, 所有载具的最高速度提高115%.",
 Sandbox_HB::zh-hans::processed::verified = "热弹壳",
 Sandbox_HB_CustomIcons::zh-hans::processed::verified = "自定义图标",
 Sandbox_HB_CustomIcons_tooltip::zh-hans::processed::verified = "为弹壳和子弹启用自定义图标. ",
@@ -35670,9 +35497,6 @@ Sandbox_ImmersiveBlackouts_IgnoreStartDay_tooltip::zh-hans::processed::verified 
 Sandbox_ImmersiveBlackouts_LightsFlickering::zh-hans::processed::verified = "灯光闪烁",
 Sandbox_ImmersiveBlackouts_LightsFlickering_tooltip::zh-hans::processed::verified = "如果启用, 灯光在停电前会闪烁. 如果有光敏性癫痫或相关敏感症状的玩家感到不适, 请禁用此选项.",
 Sandbox_ImmersiveBlackouts_ModReset::zh-hans::processed::verified = "模组重置",
-Sandbox_ImmersiveBlackouts_ModReset_tooltip::zh-hans::processed::verified = "启用此选项将重置该模组的存档数据.
-仅在您更改了沙盒选项>世界中的停电发生日期时启用此选项.
-之后它将自动禁用.",
 Sandbox_ImmersiveBlackouts_RandomPowerChance::zh-hans::processed::verified = "电力激活概率 (%)",
 Sandbox_ImmersiveBlackouts_RandomPowerChance_tooltip::zh-hans::processed::verified = "午夜时电力恢复的概率 (百分比).\\n该概率每天00:00检查.\\n如果启用\\n始终开启停电\\n则无效.",
 Sandbox_ImmersiveBlackouts_RandomPowerUntil::zh-hans::processed::verified = "电力激活至 (小时)",
@@ -35774,8 +35598,6 @@ Sandbox_JG_DataDiskRecipeEnabled_tooltip::zh-hans::processed::verified = "数据
 Sandbox_JG_DiskReadMultiplierPct::zh-hans::processed::verified = "光盘经验倍率 (%)",
 Sandbox_JG_DiskReadMultiplierPct_tooltip::zh-hans::processed::verified = "从技能库磁盘中阅读时, 书籍经验值 (XP) 乘数的百分比. 100%表示与阅读实体书效果相同. 默认值: 100%",
 Sandbox_JG_DiskReadSpeedMult::zh-hans::processed::verified = "光盘学习速度",
-Sandbox_JG_DiskReadSpeedMult_tooltip::zh-hans::processed::verified = "学习技能库光盘时的阅读时间倍率, 数值越低, 阅读速度越快.
-默认: 1.0",
 Sandbox_JG_EnableBookScanner_tooltip::zh-hans::processed::verified = "数据可能尚未同步, 因此玩家无法使用扫描仪将技能书数字化到技能库磁盘上.",
 Sandbox_JG_EnableGameDisks::zh-hans::processed::verified = "生成游戏软盘",
 Sandbox_JG_EnableGameDisks_tooltip::zh-hans::processed::verified = "允许街机游戏软盘 (例如俄罗斯方块, 乒乓, 贪吃蛇) 作为战利品生成.",
@@ -36170,17 +35992,8 @@ Sandbox_KillCount_shareOnServer::zh-hans::processed::verified = "共享击杀数
 Sandbox_KillCount_shareOnServer_tooltip::zh-hans::processed::verified = "每个客户端都可以看到每个角色的得分.在 (非常大的) 服务器上停用以减少全局MOD数据传输负载.",
 Sandbox_KnowYourCalories::zh-hans::processed::verified = "了解你的卡路里!",
 Sandbox_KnowYourCalories_NeedCookingLevelForCalories::zh-hans::processed::verified = "查看卡路里所需的烹饪等级",
-Sandbox_KnowYourCalories_NeedCookingLevelForCalories_tooltip::zh-hans::processed::verified = "显示卡路里信息所需的烹饪技能等级. 
-设置为0时 总会显示相关信息.
-设置为11时 仅在拥有营养师特质时显示相关信息  (需要启用'营养师特质'选项)",
 Sandbox_KnowYourCalories_NeedCookingLevelForOthers::zh-hans::processed::verified = "查看其他营养素所需的烹饪等级",
-Sandbox_KnowYourCalories_NeedCookingLevelForOthers_tooltip::zh-hans::processed::verified = "显示碳水化合物和脂肪信息所需的烹饪等级.
-设置为0时 总会显示相关信息.
-设置为11时 仅在拥有营养师特质时显示相关信息 (需要启用'营养师特质'选项)",
 Sandbox_KnowYourCalories_NeedCookingLevelForProteins::zh-hans::processed::verified = "查看蛋白质所需的烹饪等级",
-Sandbox_KnowYourCalories_NeedCookingLevelForProteins_tooltip::zh-hans::processed::verified = "显示蛋白质信息所需的烹饪技能等级. 
-设置为0时 总会显示相关信息.
-设置为11时 仅在拥有营养师特质时显示相关信息  (需要启用'营养师特质'选项)",
 Sandbox_KnowYourCalories_NeedNutritionist::zh-hans::processed::verified = "营养师特质",
 Sandbox_KnowYourCalories_NeedNutritionist_tooltip::zh-hans::processed::verified = "启用时, 如果你拥有营养师特质, 即使烹饪等级低于下方指定的等级, 也会显示卡路里信息.",
 Sandbox_KnowYourCalories_ProgressBarDescription::zh-hans::processed::verified = "显示营养素描述",
@@ -36391,11 +36204,7 @@ Sandbox_LKO_ArcAngleLegendaryKatana_tooltip::zh-hans::processed::verified = "武
 Sandbox_LKO_ArcAngleLegendaryWakizashi::zh-hans::processed::verified = "胁差攻击角度 (角度制)",
 Sandbox_LKO_ArcAngleLegendaryWakizashi_tooltip::zh-hans::processed::verified = "胁差的攻击角度, 数值越高挥舞时的范围越宽",
 Sandbox_LKO_ChanceOneInLegendaryKatana::zh-hans::processed::verified = "武士刀损坏几率",
-Sandbox_LKO_ChanceOneInLegendaryKatana_tooltip::zh-hans::processed::verified = "<RGB:0,1,0>这项参数影响了 <RGB:1,0.5,0>传奇武士刀
- <RGB:0,1,0>的损毁概率, 数字越大, 传奇武士刀在攻击时受损伤的概率越小  <RGB:1,1,1>",
 Sandbox_LKO_ChanceOneInLegendaryWakizashi::zh-hans::processed::verified = "胁差损坏几率",
-Sandbox_LKO_ChanceOneInLegendaryWakizashi_tooltip::zh-hans::processed::verified = "<RGB:0,1,0>这项参数影响了 <RGB:1,0.5,0>传奇胁差
- <RGB:0,1,0>的损毁概率, 数字越大, 传奇胁差在攻击时受损伤的概率越小  <RGB:1,1,1>",
 Sandbox_LKO_ConditionMaxLegendaryKatana::zh-hans::processed::verified = "武士刀耐久",
 Sandbox_LKO_ConditionMaxLegendaryKatana_tooltip::zh-hans::processed::verified = "<RGB:0,1,0>这项参数影响了 <RGB:1,0.5,0>传奇武士刀 <RGB:0,1,0>的耐久, 数字越大, 耐久越高<RGB:1,1,1>",
 Sandbox_LKO_ConditionMaxLegendaryWakizashi::zh-hans::processed::verified = "胁差耐久",
@@ -39033,40 +38842,20 @@ Sandbox_SWFancyLanterns_RechargeSpeed::zh-hans::processed::verified = "充电时
 Sandbox_SWFancyLanterns_RechargeSpeed_tooltip::zh-hans::processed::verified = "电池充满所需时长. 游戏时长 (分)",
 Sandbox_SWNotRandomSprinters::zh-hans::processed::verified = "非随机疾跑僵尸",
 Sandbox_SWNotRandomSprinters_AddOutfits::zh-hans::processed::verified = "添加服装",
-Sandbox_SWNotRandomSprinters_AddOutfits_tooltip::zh-hans::processed::verified = "扩展默认条目. 
-原版服装名称可以在模组文件夹的SWAllOutfits.txt中找到. 
-使用;作为分隔符",
 Sandbox_SWNotRandomSprinters_ExtraList::zh-hans::processed::verified = "额外列表",
-Sandbox_SWNotRandomSprinters_ExtraList_tooltip::zh-hans::processed::verified = "非兴趣点位置专属僵尸. 
- (囚犯, 邪教徒, 食品工人)",
 Sandbox_SWNotRandomSprinters_FastShamblers::zh-hans::processed::verified = "快速慢走僵尸",
 Sandbox_SWNotRandomSprinters_FastShamblers_tooltip::zh-hans::processed::verified = "慢走僵尸是否应该是快速的.",
 Sandbox_SWNotRandomSprinters_Finish::zh-hans::processed::verified = "结束小时",
-Sandbox_SWNotRandomSprinters_Finish_tooltip::zh-hans::processed::verified = "之后疾跑僵尸变为慢走僵尸的小时. 
-0到23=始终.",
 Sandbox_SWNotRandomSprinters_FogIntensity::zh-hans::processed::verified = "雾强度",
-Sandbox_SWNotRandomSprinters_FogIntensity_tooltip::zh-hans::processed::verified = "当雾强度高于设定值时, 疾跑僵尸变为慢走僵尸. 
-1.0=从不. 推荐: 0.2.",
 Sandbox_SWNotRandomSprinters_GenericList::zh-hans::processed::verified = "通用列表",
 Sandbox_SWNotRandomSprinters_GenericList_tooltip::zh-hans::processed::verified = "穿着短裤的通用僵尸.",
 Sandbox_SWNotRandomSprinters_MainList::zh-hans::processed::verified = "主列表",
-Sandbox_SWNotRandomSprinters_MainList_tooltip::zh-hans::processed::verified = "兴趣点专属僵尸和携带优质战利品的僵尸. 
- (学校, 警局, 消防局, 加油站, 军队, 医疗, 生存主义者等)",
 Sandbox_SWNotRandomSprinters_RainIntensity::zh-hans::processed::verified = "雨强度",
-Sandbox_SWNotRandomSprinters_RainIntensity_tooltip::zh-hans::processed::verified = "当雨强度高于设定值时, 疾跑僵尸变为慢走僵尸. 
-1.0=从不. 推荐: 0.7.",
 Sandbox_SWNotRandomSprinters_RemoveOutfits::zh-hans::processed::verified = "移除服装",
-Sandbox_SWNotRandomSprinters_RemoveOutfits_tooltip::zh-hans::processed::verified = "移除默认条目. 
-默认服装名称可以在模组文件夹的SWNotRandomSprinters.lua中找到. 
-使用;作为分隔符",
 Sandbox_SWNotRandomSprinters_SpecialList::zh-hans::processed::verified = "特殊列表",
-Sandbox_SWNotRandomSprinters_SpecialList_tooltip::zh-hans::processed::verified = "相对稀有的僵尸. 
- (Spiffo, 婚礼, 脱衣舞娘, 裸身, 装扮等)",
 Sandbox_SWNotRandomSprinters_SportsList::zh-hans::processed::verified = "运动列表",
 Sandbox_SWNotRandomSprinters_SportsList_tooltip::zh-hans::processed::verified = "穿着运动服装的僵尸.",
 Sandbox_SWNotRandomSprinters_Start::zh-hans::processed::verified = "开始小时",
-Sandbox_SWNotRandomSprinters_Start_tooltip::zh-hans::processed::verified = "慢走僵尸变为疾跑僵尸的小时. 
-0到23=始终.",
 Sandbox_SacrificialSpearDropVanilla::zh-hans::processed::verified = "僵尸掉落传奇牺牲者长矛",
 Sandbox_SafeIndoorCampfire::zh-hans::processed::verified = "安全的室内营火",
 Sandbox_SafeIndoorCampfire_Set_solidtrans::zh-hans::processed::verified = "为营火添加碰撞体积",
@@ -39719,54 +39508,18 @@ Sandbox_TVM_RequiresPower::zh-hans::processed::verified = "需要电力",
 Sandbox_TVM_RequiresPower_tooltip::zh-hans::processed::verified = "自动售货机是否需要电力",
 Sandbox_TWF_BF::zh-hans::processed::verified = "TwisTonFire — Better Fishing",
 Sandbox_TWF_BF_AimDist::zh-hans::processed::verified = "瞄准距离",
-Sandbox_TWF_BF_AimDist_tooltip::zh-hans::processed::verified = "最大抛竿与瞄准距离格数.
-默认: 16.",
 Sandbox_TWF_BF_EveEnd::zh-hans::processed::verified = "夜晚的奖励时段结束时间 (时)",
-Sandbox_TWF_BF_EveEnd_tooltip::zh-hans::processed::verified = "奖励时段结束时间(夜晚).
-默认: 20.",
 Sandbox_TWF_BF_EveStart::zh-hans::processed::verified = "夜晚的奖励时段开始时间 (时)",
-Sandbox_TWF_BF_EveStart_tooltip::zh-hans::processed::verified = "奖励时段开始时间(夜晚).
-默认: 18.",
 Sandbox_TWF_BF_FogCoeff::zh-hans::processed::verified = "雾的奖励与惩罚",
-Sandbox_TWF_BF_FogCoeff_tooltip::zh-hans::processed::verified = "雾的系数(%).
-100%=基准.
-默认: 80%.",
 Sandbox_TWF_BF_MornEnd::zh-hans::processed::verified = "早晨的奖励时段结束时间 (时)",
-Sandbox_TWF_BF_MornEnd_tooltip::zh-hans::processed::verified = "奖励时段结束时间(早晨).
-默认: 6.",
 Sandbox_TWF_BF_MornStart::zh-hans::processed::verified = "早晨的奖励时段开始时间 (时)",
-Sandbox_TWF_BF_MornStart_tooltip::zh-hans::processed::verified = "奖励时段开始时间(早晨).
-默认: 4.",
 Sandbox_TWF_BF_RainCoeff::zh-hans::processed::verified = "雨的奖励与惩罚",
-Sandbox_TWF_BF_RainCoeff_tooltip::zh-hans::processed::verified = "雨的系数(%).
-100%=基准.
-默认: 120%.",
 Sandbox_TWF_BF_ShoreRadius::zh-hans::processed::verified = "岸边范围 (格)",
-Sandbox_TWF_BF_ShoreRadius_tooltip::zh-hans::processed::verified = "岸边检测的半径范围格数. 
-这个值越小, '近岸钓鱼'的检测就越严格.
-默认: 7.",
 Sandbox_TWF_BF_SizeBlend::zh-hans::processed::verified = "近岸钓鱼时渔获体型的偏移率 (%)",
-Sandbox_TWF_BF_SizeBlend_tooltip::zh-hans::processed::verified = "近岸钓鱼时, 此设置会将渔获体型分布向小鱼偏移.
-数值越高, 就会有越多的中鱼与大鱼被转换为小鱼.
-0%=关闭效果, 100%=最大效果.
-默认: 100%.",
 Sandbox_TWF_BF_TempCoeff::zh-hans::processed::verified = "固定钓鱼修正(适用于所有温度)",
-Sandbox_TWF_BF_TempCoeff_tooltip::zh-hans::processed::verified = "启用一个固定的钓鱼修正, 适用于所有温度情况.
-100%=无变化.
-此设置不使用温度范围.
-默认: 100%.",
 Sandbox_TWF_BF_TimeCoeff::zh-hans::processed::verified = "额外上钩几率 (%)",
-Sandbox_TWF_BF_TimeCoeff_tooltip::zh-hans::processed::verified = "在奖励时段中上钩几率的倍数(%).
-100%=无加成.
-默认: 120%.",
 Sandbox_TWF_BF_UseTwF_SizeTables::zh-hans::processed::verified = "使用Better Fishing的渔获概率表",
-Sandbox_TWF_BF_UseTwF_SizeTables_tooltip::zh-hans::processed::verified = "在原版与Better Fishing渔获概率表(基于技能的渔获体型限制+分布)之间切换.
-默认: 启用.
-注意: 此选项在世界加载时生效, 更改后请重新加载存档.",
 Sandbox_TWF_BF_WindCoeff::zh-hans::processed::verified = "风的奖励与惩罚",
-Sandbox_TWF_BF_WindCoeff_tooltip::zh-hans::processed::verified = "风的系数(%).
-100%=基准.
-默认: 80%.",
 Sandbox_TableSaw::zh-hans::processed::verified = "台锯",
 Sandbox_TableSawCreatePlankNum::zh-hans::processed::verified = "制作的木板数量",
 Sandbox_TableSawDivider1::zh-hans::processed::verified = "____________ 调整木头重量 _____________",
@@ -40111,11 +39864,7 @@ Sandbox_TrueSmoking_DynamicSmokerTrait_tooltip::zh-hans::processed::verified = "
 Sandbox_TrueSmoking_EffectMultiplier::zh-hans::processed::verified = "效果乘数",
 Sandbox_TrueSmoking_EffectMultiplier_tooltip::zh-hans::processed::verified = "乘以烟草减轻压力和其他吸烟者状态的有效性",
 Sandbox_TrueSmoking_FatigueReduction::zh-hans::processed::verified = "减缓疲劳",
-Sandbox_TrueSmoking_FatigueReduction_tooltip::zh-hans::processed::verified = "吸烟能减少多少疲劳
-0 = 不能降低疲劳 · 0.25 = 轻微 (默认) · 1.0 = 原版强度 · 2.0 = 双倍",
 Sandbox_TrueSmoking_HungerReduction::zh-hans::processed::verified = "减缓饥饿",
-Sandbox_TrueSmoking_HungerReduction_tooltip::zh-hans::processed::verified = "吸烟能减少多少饥饿值
-0 = 不能降低饥饿值 · 0.25 = 轻微 (默认) · 1.0 = 原版强度 · 2.0 = 双倍",
 Sandbox_TrueSmoking_IdleBurnOut::zh-hans::processed::verified = "静止熄灭速度",
 Sandbox_TrueSmoking_IdleBurnOut_tooltip::zh-hans::processed::verified = "站着不动时烟头熄灭速度\\n0 = 永不熄灭 (一直亮着) \\n100 = 正常熄灭 (需要重新点燃",
 Sandbox_TrueSmoking_ManageHeadGear::zh-hans::processed::verified = "自动管理头部装备",
@@ -41199,158 +40948,96 @@ Sandbox_ZP_MarzGuns::zh-hans::processed::verified = "Marz 枪械穿透设置",
 Sandbox_ZP_ZombiePenetration_bullets_10mm_DamageScale::zh-hans::processed::verified = "10mm: 穿透伤害缩放",
 Sandbox_ZP_ZombiePenetration_bullets_10mm_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZP_ZombiePenetration_bullets_10mm_MaxTargets::zh-hans::processed::verified = "10mm: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_bullets_10mm_MaxTargets_tooltip::zh-hans::processed::verified = "10mm子弹可以直线穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZP_ZombiePenetration_bullets_22_DamageScale::zh-hans::processed::verified = ".22: 穿透伤害缩放",
 Sandbox_ZP_ZombiePenetration_bullets_22_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZP_ZombiePenetration_bullets_22_MaxTargets::zh-hans::processed::verified = ".22: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_bullets_22_MaxTargets_tooltip::zh-hans::processed::verified = ".22子弹可以直线穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZP_ZombiePenetration_bullets_30_06_DamageScale::zh-hans::processed::verified = ".30-06: 穿透伤害缩放",
 Sandbox_ZP_ZombiePenetration_bullets_30_06_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZP_ZombiePenetration_bullets_30_06_MaxTargets::zh-hans::processed::verified = ".30-06: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_bullets_30_06_MaxTargets_tooltip::zh-hans::processed::verified = ".30-06子弹可以直线穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZP_ZombiePenetration_bullets_357_DamageScale::zh-hans::processed::verified = ".357: 穿透伤害缩放",
 Sandbox_ZP_ZombiePenetration_bullets_357_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZP_ZombiePenetration_bullets_357_MaxTargets::zh-hans::processed::verified = ".357: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_bullets_357_MaxTargets_tooltip::zh-hans::processed::verified = ".357子弹可以直线穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZP_ZombiePenetration_bullets_44_40_DamageScale::zh-hans::processed::verified = ".44-40: 穿透伤害缩放",
 Sandbox_ZP_ZombiePenetration_bullets_44_40_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZP_ZombiePenetration_bullets_44_40_MaxTargets::zh-hans::processed::verified = ".44-40: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_bullets_44_40_MaxTargets_tooltip::zh-hans::processed::verified = ".44-40子弹可以直线穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZP_ZombiePenetration_bullets_762x39_DamageScale::zh-hans::processed::verified = "7.62x39: 穿透伤害缩放",
 Sandbox_ZP_ZombiePenetration_bullets_762x39_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZP_ZombiePenetration_bullets_762x39_MaxTargets::zh-hans::processed::verified = "7.62x39: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_bullets_762x39_MaxTargets_tooltip::zh-hans::processed::verified = "7.62x39子弹可以直线穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZP_ZombiePenetration_bullets_762x51_DamageScale::zh-hans::processed::verified = "7.62x51: 穿透伤害缩放",
 Sandbox_ZP_ZombiePenetration_bullets_762x51_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZP_ZombiePenetration_bullets_762x51_MaxTargets::zh-hans::processed::verified = "7.62x51: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_bullets_762x51_MaxTargets_tooltip::zh-hans::processed::verified = "7.62x51子弹可以直线穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZP_ZombiePenetration_marz_12g_buck_DamageScale::zh-hans::processed::verified = "12号 鹿弹: 穿透伤害系数",
 Sandbox_ZP_ZombiePenetration_marz_12g_buck_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_12g_buck_MaxTargets::zh-hans::processed::verified = "12号 鹿弹: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_12g_buck_MaxTargets_tooltip::zh-hans::processed::verified = "12号 鹿弹在一条直线上能穿透多少只僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_12g_slug_DamageScale::zh-hans::processed::verified = "12号 独头弹: 穿透伤害系数",
 Sandbox_ZP_ZombiePenetration_marz_12g_slug_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_12g_slug_MaxTargets::zh-hans::processed::verified = "12号 独头弹: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_12g_slug_MaxTargets_tooltip::zh-hans::processed::verified = "12号 独头弹在一条直线上能穿透多少只僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_223_DamageScale::zh-hans::processed::verified = ".223雷明顿: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_223_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_223_MaxTargets::zh-hans::processed::verified = ".223雷明顿: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_223_MaxTargets_tooltip::zh-hans::processed::verified = ".223雷明顿子弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_3006_DamageScale::zh-hans::processed::verified = ".30-06: 穿透伤害系数",
 Sandbox_ZP_ZombiePenetration_marz_3006_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_3006_MaxTargets::zh-hans::processed::verified = ".30-06: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_3006_MaxTargets_tooltip::zh-hans::processed::verified = ".30-06 子弹在一条直线上能穿透多少只僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_3030_DamageScale::zh-hans::processed::verified = ".30-30: 穿透伤害系数",
 Sandbox_ZP_ZombiePenetration_marz_3030_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_3030_MaxTargets::zh-hans::processed::verified = ".30-30: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_3030_MaxTargets_tooltip::zh-hans::processed::verified = ".30-30 子弹在一条直线上能穿透多少只僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_308_DamageScale::zh-hans::processed::verified = ".308 温彻斯特: 穿透伤害系数",
 Sandbox_ZP_ZombiePenetration_marz_308_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_308_MaxTargets::zh-hans::processed::verified = ".308 温彻斯特: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_308_MaxTargets_tooltip::zh-hans::processed::verified = ".308 温彻斯特弹在一条直线上能穿透多少只僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_357_DamageScale::zh-hans::processed::verified = ".357马格南: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_357_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_357_MaxTargets::zh-hans::processed::verified = ".357马格南: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_357_MaxTargets_tooltip::zh-hans::processed::verified = ".357马格南子弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_38_DamageScale::zh-hans::processed::verified = ".38特殊弹: 穿透伤害系数",
 Sandbox_ZP_ZombiePenetration_marz_38_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_38_MaxTargets::zh-hans::processed::verified = ".38特殊弹: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_38_MaxTargets_tooltip::zh-hans::processed::verified = ".38特殊子弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_40mm_buck_DamageScale::zh-hans::processed::verified = "40mm 鹿弹: 穿透伤害系数",
 Sandbox_ZP_ZombiePenetration_marz_40mm_buck_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_40mm_buck_MaxTargets::zh-hans::processed::verified = "40mm 鹿弹: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_40mm_buck_MaxTargets_tooltip::zh-hans::processed::verified = "40mm 鹿弹榴弹在一条直线上能穿透多少只僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_44_DamageScale::zh-hans::processed::verified = ".44马格南: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_44_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_44_MaxTargets::zh-hans::processed::verified = ".44马格南: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_44_MaxTargets_tooltip::zh-hans::processed::verified = ".44马格南子弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_4570_DamageScale::zh-hans::processed::verified = ".45-70: 穿透伤害系数",
 Sandbox_ZP_ZombiePenetration_marz_4570_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_4570_MaxTargets::zh-hans::processed::verified = ".45-70: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_4570_MaxTargets_tooltip::zh-hans::processed::verified = ".45-70 子弹在一条直线上能穿透多少只僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_45_DamageScale::zh-hans::processed::verified = ".45 ACP: 穿透伤害系数",
 Sandbox_ZP_ZombiePenetration_marz_45_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_45_MaxTargets::zh-hans::processed::verified = ".45 ACP: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_45_MaxTargets_tooltip::zh-hans::processed::verified = ".45 ACP 子弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_50_DamageScale::zh-hans::processed::verified = ".50 AE: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_50_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_50_MaxTargets::zh-hans::processed::verified = ".50 AE: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_50_MaxTargets_tooltip::zh-hans::processed::verified = ".50 AE 子弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_545x39_DamageScale::zh-hans::processed::verified = "5.45x39mm: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_545x39_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_545x39_MaxTargets::zh-hans::processed::verified = "5.45x39mm: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_545x39_MaxTargets_tooltip::zh-hans::processed::verified = "5.45x39mm 子弹在一条直线上能穿透多少个僵尸. 
-设置为0可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_556x45_AP_DamageScale::zh-hans::processed::verified = "5.56x45mm 穿甲弹: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_556x45_AP_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_556x45_AP_MaxTargets::zh-hans::processed::verified = "5.56x45mm 穿甲弹: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_556x45_AP_MaxTargets_tooltip::zh-hans::processed::verified = "5.56x45mm 穿甲弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_556x45_DamageScale::zh-hans::processed::verified = "5.56x45mm: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_556x45_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_556x45_HP_DamageScale::zh-hans::processed::verified = "5.56x45mm 空尖弹: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_556x45_HP_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_556x45_HP_MaxTargets::zh-hans::processed::verified = "5.56x45mm 空尖弹: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_556x45_HP_MaxTargets_tooltip::zh-hans::processed::verified = "5.56x45mm 空尖弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_556x45_MaxTargets::zh-hans::processed::verified = "5.56x45mm: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_556x45_MaxTargets_tooltip::zh-hans::processed::verified = "5.56x45mm 子弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_556x45_OP_DamageScale::zh-hans::processed::verified = "5.56x45mm 高压弹: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_556x45_OP_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_556x45_OP_MaxTargets::zh-hans::processed::verified = "5.56x45mm 高压弹: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_556x45_OP_MaxTargets_tooltip::zh-hans::processed::verified = "5.56x45mm 高压弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_556x45_SUB_DamageScale::zh-hans::processed::verified = "5.56x45mm 亚音速弹: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_556x45_SUB_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_556x45_SUB_MaxTargets::zh-hans::processed::verified = "5.56x45mm 亚音速弹: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_556x45_SUB_MaxTargets_tooltip::zh-hans::processed::verified = "5.56x45mm 亚音速弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_762x39_DamageScale::zh-hans::processed::verified = "7.62x39mm: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_762x39_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_762x39_MaxTargets::zh-hans::processed::verified = "7.62x39mm: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_762x39_MaxTargets_tooltip::zh-hans::processed::verified = "7.62x39mm 子弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_762x51_DamageScale::zh-hans::processed::verified = "7.62x51mm NATO: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_762x51_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_762x51_MaxTargets::zh-hans::processed::verified = "7.62x51mm NATO: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_762x51_MaxTargets_tooltip::zh-hans::processed::verified = "7.62x51mm NATO 子弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_762x54_DamageScale::zh-hans::processed::verified = "7.62x54R: 穿透伤害倍率",
 Sandbox_ZP_ZombiePenetration_marz_762x54_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_762x54_MaxTargets::zh-hans::processed::verified = "7.62x54R: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_762x54_MaxTargets_tooltip::zh-hans::processed::verified = "7.62x54R 子弹在一条直线上能穿透多少个僵尸. 
-设置为0可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_9x19_DamageScale::zh-hans::processed::verified = "9x19mm: 穿透伤害系数",
 Sandbox_ZP_ZombiePenetration_marz_9x19_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_9x19_MaxTargets::zh-hans::processed::verified = "9x19mm: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_9x19_MaxTargets_tooltip::zh-hans::processed::verified = "9x19mm 子弹在一条直线上最多能穿透多少个僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZP_ZombiePenetration_marz_9x39_DamageScale::zh-hans::processed::verified = "9x39mm: 穿透伤害系数",
 Sandbox_ZP_ZombiePenetration_marz_9x39_DamageScale_tooltip::zh-hans::processed::verified = "子弹穿透首个目标僵尸后, 对后续僵尸造成的伤害倍率.",
 Sandbox_ZP_ZombiePenetration_marz_9x39_MaxTargets::zh-hans::processed::verified = "9x39mm: 最大穿透目标数",
-Sandbox_ZP_ZombiePenetration_marz_9x39_MaxTargets_tooltip::zh-hans::processed::verified = "9x39mm 子弹在一条直线上能穿透多少只僵尸. 
-设置为 0 可禁用穿透效果.",
 Sandbox_ZScienceSkill_XPMultiplier::zh-hans::processed::verified = "科学参数",
 Sandbox_ZT_Aggression::zh-hans::processed::verified = "侵略性 (1=温和, 5=残酷)",
 Sandbox_ZT_Aggression_tooltip::zh-hans::processed::verified = "大脑允许请求的尸群规模倍数.",
@@ -41437,59 +41124,32 @@ Sandbox_ZombiePenetration::zh-hans::processed::verified = "僵尸穿透",
 Sandbox_ZombiePenetration_Bullets223_DamageScale::zh-hans::processed::verified = ".223: 穿透伤害缩放",
 Sandbox_ZombiePenetration_Bullets223_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZombiePenetration_Bullets223_MaxTargets::zh-hans::processed::verified = ".223: 最大穿透目标数",
-Sandbox_ZombiePenetration_Bullets223_MaxTargets_tooltip::zh-hans::processed::verified = ".223子弹可以穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZombiePenetration_Bullets308_DamageScale::zh-hans::processed::verified = ".308: 穿透伤害缩放",
 Sandbox_ZombiePenetration_Bullets308_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZombiePenetration_Bullets308_MaxTargets::zh-hans::processed::verified = ".308: 最大穿透目标数",
-Sandbox_ZombiePenetration_Bullets308_MaxTargets_tooltip::zh-hans::processed::verified = ".308子弹可以穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZombiePenetration_Bullets38_DamageScale::zh-hans::processed::verified = ".38 Special: 穿透伤害缩放",
 Sandbox_ZombiePenetration_Bullets38_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZombiePenetration_Bullets38_MaxTargets::zh-hans::processed::verified = ".38 Special: 最大穿透目标数",
-Sandbox_ZombiePenetration_Bullets38_MaxTargets_tooltip::zh-hans::processed::verified = ".38 Special子弹可以穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZombiePenetration_Bullets44_DamageScale::zh-hans::processed::verified = ".44马格南: 穿透伤害缩放",
 Sandbox_ZombiePenetration_Bullets44_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZombiePenetration_Bullets44_MaxTargets::zh-hans::processed::verified = ".44马格南: 最大穿透目标数",
-Sandbox_ZombiePenetration_Bullets44_MaxTargets_tooltip::zh-hans::processed::verified = ".44马格南子弹可以穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZombiePenetration_Bullets45_DamageScale::zh-hans::processed::verified = ".45 ACP: 穿透伤害缩放",
 Sandbox_ZombiePenetration_Bullets45_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZombiePenetration_Bullets45_MaxTargets::zh-hans::processed::verified = ".45 ACP: 最大穿透目标数",
-Sandbox_ZombiePenetration_Bullets45_MaxTargets_tooltip::zh-hans::processed::verified = ".45 ACP子弹可以穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZombiePenetration_Bullets556_DamageScale::zh-hans::processed::verified = "5.56mm: 穿透伤害缩放",
 Sandbox_ZombiePenetration_Bullets556_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZombiePenetration_Bullets556_MaxTargets::zh-hans::processed::verified = "5.56mm: 最大穿透目标数",
-Sandbox_ZombiePenetration_Bullets556_MaxTargets_tooltip::zh-hans::processed::verified = "5.56mm子弹可以穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZombiePenetration_Bullets9mm_DamageScale::zh-hans::processed::verified = "9mm: 穿透伤害缩放",
 Sandbox_ZombiePenetration_Bullets9mm_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZombiePenetration_Bullets9mm_MaxTargets::zh-hans::processed::verified = "9mm: 最大穿透目标数",
-Sandbox_ZombiePenetration_Bullets9mm_MaxTargets_tooltip::zh-hans::processed::verified = "9mm子弹可以直线穿透多少个僵尸. 
-设置为0以禁用穿透.",
 Sandbox_ZombiePenetration_ExtraPenetrationAmmo::zh-hans::processed::verified = "额外穿透弹药",
-Sandbox_ZombiePenetration_ExtraPenetrationAmmo_tooltip::zh-hans::processed::verified = "注册额外的弹药类型和最大穿透目标数. 
- !! 你必须严格遵循这个格式才能正常工作 !!
- [弹药类型]=穿透.[N]/伤害.[N]
- 示例: firearms:bullets_762x51=穿透.4/伤害.30, Base.bullets545mm=穿透.1/伤害.20, 等等...",
 Sandbox_ZombiePenetration_NonLethalMinHpPercent::zh-hans::processed::verified = "非致命穿透生命值阈值 (%)",
-Sandbox_ZombiePenetration_NonLethalMinHpPercent_tooltip::zh-hans::processed::verified = "在非致命模式下, 当第一个僵尸的剩余生命值百分比低于或等于该值时, 子弹可以穿透. 
- 该值越低, 穿透发生得越少, 该值越高, 穿透发生得越多.",
 Sandbox_ZombiePenetration_PenetrationMode::zh-hans::processed::verified = "穿透模式",
 Sandbox_ZombiePenetration_PenetrationMode_option1::zh-hans::processed::verified = "必须击杀",
 Sandbox_ZombiePenetration_PenetrationMode_option2::zh-hans::processed::verified = "允许非致命穿透",
-Sandbox_ZombiePenetration_PenetrationMode_tooltip::zh-hans::processed::verified = "必须击杀 = 子弹只有在击杀第一个僵尸后才能穿透. 
- 推荐给想要享受更休闲游戏体验的玩家. 
- 允许非致命穿透 = 即使第一个僵尸存活, 子弹也能穿透. 
- 推荐给想要更多体验穿透机制的玩家.",
 Sandbox_ZombiePenetration_ShotgunShells_DamageScale::zh-hans::processed::verified = "12号霰弹: 穿透伤害缩放",
 Sandbox_ZombiePenetration_ShotgunShells_DamageScale_tooltip::zh-hans::processed::verified = "应用于第一个目标之后被击中的僵尸的伤害乘数.",
 Sandbox_ZombiePenetration_ShotgunShells_MaxTargets::zh-hans::processed::verified = "12号霰弹: 最大穿透目标数",
-Sandbox_ZombiePenetration_ShotgunShells_MaxTargets_tooltip::zh-hans::processed::verified = "霰弹枪的子弹可以穿透多少个僵尸. 
-设置为0以禁用穿透. 
-注意: 穿透行为可能会根据弹丸分布有所不同.",
 Sandbox_ZombieTactician::zh-hans::processed::verified = "心魔",
 Sandbox_ZombieVirusVaccineBETA::zh-hans::processed::verified = "僵尸病毒疫苗 (测试版)",
 Sandbox_ZombieVirusVaccineBETA_AllowAutopsyOnGround::zh-hans::processed::verified = "允许地面尸检",
@@ -43360,8 +43020,6 @@ Tooltip_CSR_Util_DualWieldAdmin::zh-hans::processed::verified = "双持: 管理�
 Tooltip_CSR_Util_DualWieldOff::zh-hans::processed::verified = "双持: 关闭(小键盘 8)",
 Tooltip_CSR_Util_DualWieldOn::zh-hans::processed::verified = "双持: 开启(小键盘 8)",
 Tooltip_CSR_Util_EmergencySwapOff::zh-hans::processed::verified = "双持紧急切换: 关闭",
-Tooltip_CSR_Util_EmergencySwapOn::zh-hans::processed::verified = "双持紧急切换: 开启
-自动恢复卡住的副手武器",
 Tooltip_CSR_Util_EntryActionsOff::zh-hans::processed::verified = "入门操作: 关闭",
 Tooltip_CSR_Util_EntryActionsOn::zh-hans::processed::verified = "入门操作: 开启(撬 / 锁匠工具 / 钢丝钳)",
 Tooltip_CSR_Util_GuideBtn::zh-hans::processed::verified = "打开常识重制版游戏内指南",
@@ -44640,10 +44298,6 @@ Tooltip_Item_Sulfur::zh-hans::processed::verified = "生产火药的原材料",
 Tooltip_Item_WristWatch_Left_MilitaryX::zh-hans::processed::verified = "显示月相与跑尸状态信息",
 Tooltip_Item_WristWatch_Right_MilitaryX::zh-hans::processed::verified = "显示月相与跑尸状态信息",
 Tooltip_JG_BookScanner::zh-hans::processed::verified = "平板文档扫描仪. 将其放置在通电电脑的一格范围内, 即可将技能书籍数字化到技能库磁盘上.",
-Tooltip_JG_BrokenPC::zh-hans::processed::verified = "一台回收的台式机. 伤痕累累, 满是灰尘, 但只要稍加修理, 它的核心部件就可以继续使用. 
-在任何平整的表面上组装它 (桌子, 柜台, 书桌)",
-Tooltip_JG_CPU::zh-hans::processed::verified = "用回收的电子元器件组装出来的CPU, 计算机的心脏. 用于将电脑升级至增强型.
-可以在任何平整的表面上制作.",
 Tooltip_JG_FloppyCorrupted::zh-hans::processed::verified = "一张3.5英寸的软盘, 数据严重损坏. 增强型电脑或许能从损坏的扇区中恢复出部分训练数据.",
 Tooltip_JG_FloppyDamaged::zh-hans::processed::verified = "一张3.5英寸的软盘, 存在中度损坏. 增强型个人电脑可以恢复部分训练数据, 但损坏的扇区可能包含恶意软件.",
 Tooltip_JG_FloppyDisk::zh-hans::processed::verified = "一张带有游戏的3.5英寸软盘, 插入电脑来游玩.",
@@ -45851,22 +45505,10 @@ Tooltip_TacosdeCerdo::zh-hans::processed::verified = "墨西哥风味的猪肉�
 Tooltip_TacosdePollo::zh-hans::processed::verified = "墨西哥风味的鸡肉塔克饼, 由辛辣禽肉, 豆类和蔬菜制成.",
 Tooltip_TacticalStock::zh-hans::processed::verified = "减少后坐力, 增加命中概率",
 Tooltip_Tallow::zh-hans::processed::verified = "提炼的动物脂肪. 对烹饪和未来的医疗合成很有用.",
-Tooltip_TankWater_CleanTankUntreated::zh-hans::processed::verified = "水箱内装有纯净水. 
-在注非处理水前请先排空水箱.",
 Tooltip_TankWater_FilterDepleted::zh-hans::processed::verified = "滤芯已耗尽. 请更换过滤滤芯.",
 Tooltip_TankWater_NoPumpNearby::zh-hans::processed::verified = "附近没有水泵. ",
 Tooltip_TankWater_NoTankNearby::zh-hans::processed::verified = "附近没有储水箱. ",
 Tooltip_TankWater_PumpReady::zh-hans::processed::verified = "准备启动",
-Tooltip_TankWater_PumpRepairRequirements::zh-hans::processed::verified = "修理要求: 
-- 电工等级 1
-- 技工等级 2
-- 压力钳
-- 螺丝刀",
-Tooltip_TankWater_PumpSkillRequirements::zh-hans::processed::verified = "操作要求: 
-- 电工等级 1
-- 技工等级 2
-或 掌握发电机知识
- (通过杂志, 电工职业或电工等级 3)",
 Tooltip_TankWater_RequiresCleaningTablets::zh-hans::processed::verified = "需要: 清洁片.",
 Tooltip_TankWater_RequiresFilterCartridge::zh-hans::processed::verified = "需要: 过滤滤芯.",
 Tooltip_TankWater_RequiresHose::zh-hans::processed::verified = "需要: 水泵输送软管. ",
@@ -47657,12 +47299,6 @@ UI_BurdJournals_DebugCustomName::zh-hans::processed::verified = "自定义名称
 UI_BurdJournals_DebugCustomNameTip::zh-hans::processed::verified = "输入日记的自定义所有者名称",
 UI_BurdJournals_DebugCustomProfession::zh-hans::processed::verified = "自定义职业: ",
 UI_BurdJournals_DebugCustomProfessionTip::zh-hans::processed::verified = "输入自定义职业 (例如“前教师”, “前机械师”)",
-UI_BurdJournals_DebugDeleteJournalUUID::zh-hans::processed::verified = "删除日记UUID:
-%1
-
-此操作将会彻底清除选定的日记物品以及其UUID缓存记录(如果此日记存在的话).
-
-你确定吗?",
 UI_BurdJournals_DebugDiscoveryBrowser::zh-hans::processed::verified = "发现浏览器",
 UI_BurdJournals_DebugDiscoveryHardcodedFallback::zh-hans::processed::verified = "硬编码回退",
 UI_BurdJournals_DebugDiscoveryIdFormat::zh-hans::processed::verified = "ID: %1",
@@ -48022,70 +47658,25 @@ UI_BurdJournals_LorePool_OmenNoun::zh-hans::processed::verified = "低语墨水|
 UI_BurdJournals_LorePool_StashNoun::zh-hans::processed::verified = "松动的地板|梳妆台的假背板|面粉袋后面的咖啡罐|有破洞的弹簧床垫|空心字典|浴室里贴了胶带的通风口|卡住的手套箱|面粉罐|忘记拔电源的地下室冰柜|教堂捐赠箱|搭扣坏了的钓具箱|汽车站生锈的储物柜|封面软皮的汽车旅馆圣经|不密封的雨水桶盖子|坏掉的自动点唱机|挖空的收音机|过期汤罐头后面的食品储藏室墙壁|刻有姓名首字母的学校书桌|缺少剪刀的救护包|旅行车备胎槽|用塑料包裹的化粪池检修盖|清理过的火化骨灰盒|没人会吃的狗粮袋|热水器上方的保温层|花园里的假石头|女厕所里的卫生巾盒|圣诞装饰储物箱|挖空的栅栏桩|空调外机外壳|圣玛丽教堂的奉献盘|从内部看的投信口|带有污渍的吊顶板|台阶旁的陶瓷青蛙|从没有鸟的鸟屋|丙烷罐隔间|渔船座椅下的储物空间|废弃诊所里的透析机|杂货店的大号咖啡研磨机|修车店堆叠的轮胎|铰链开裂的钢琴凳|枫树林里的空心树桩|当铺里坏掉的录像机|日托所储藏室里的尿布袋|乐器店的手风琴盒|肉铺后屋的绞肉机|软水罐|兽医诊所的鸟笼|基督教青年会里卡住的储物柜|高中木工房的工具柜|研究实验室的标本冰柜|废弃披萨店的披萨烤箱|美容院的日光浴床|告解亭的跪凳|浸信会教堂的管风琴琴管|警察局的DEA投递箱|1987年埋下的时间胶囊|学校后面的防空洞|花店的冷库|雪茄店的雪茄保湿盒|汽车站无人认领的储物柜|没有钥匙的保险箱|核医学储存室|CDC野外站的隔离冰柜|研究楼的低温罐|医院的气动管道系统|老酒店的送餐升降机|公寓楼的洗衣滑道|火化炉回火室里的骨灰|游乐园的失物招领箱|旧货店的慈善捐赠箱|已取消的选举使用的投票箱|挂着一把生锈挂锁的证据储物柜|蜜月套房的小冰箱|高级餐厅的真空低温烹饪槽|枫糖浆采集桶|护林站里的防熊罐|公园里藏起来的地理藏宝盒|松动砖块后的秘密投递点|生存主义者地下室的法拉第笼",
 UI_BurdJournals_LorePool_SupplyNoun::zh-hans::processed::verified = "边角凹陷的罐头|不成双的干袜子|从烟雾报警器里抠出的备用电池|从兽医诊所拿到的干净绷带|闻起来像“安全”二字的漂白水|药房冰箱里最后一支胰岛素|满是油渍和铅笔标记的地图|报废警车上卸下的无线电电池|裂开的罗盘，只能指个大概的东边|带粗布过滤网的雨水罐|卷起的防水布，金属扣环已经生锈|汽车旅馆迎宾篮里的缝纫包|休息室里没开封的咖啡|一盒霰弹，口径不对但勉强能用|或许还没过期的抗生素|摇起来吱呀作响的手摇手电筒|吸油管, 里面的橡胶球已经裂了|暖和的手套, 原主人手比你大|一字螺丝刀, 能对付大多数东西|军队板条箱里的压缩饼干|过期的碘片|徒步靴上拆下来的备用鞋带|比棉绳还结实的牙线|据说医用级的强力胶|当无菌敷料用的卫生巾|厚实的建筑垃圾袋|永远少不了的大力胶带|干洗店拿回来的安全别针|20磅拉力的单丝钓鱼线|装罐密封用的蜡|活性炭片|当防水套用的避孕套|当滤水器用的咖啡滤纸|凡士林|铝箔纸|当伤口敷料用的保鲜膜|只剩半盒的乳胶手套|马克笔|当开锁工具用的回形针|橡皮筋|扎带|小苏打|醋|盐|加油站拿到的辣椒喷雾|路面信号棒|一碰就哗啦响的急救毯|碘化钾|过期的肾上腺素自动注射笔|纳洛酮急救包|带采血针的血糖仪|血压袖带|听诊器|老式水银体温计|一次性冰袋|暖手包|镁棒打火石|铁铈棒|碳化布|火绒棒|松脂木|白桦树皮|口袋式吹火管|菲涅尔透镜|信号镜|口哨|荧光棒|化学灯|掰折即亮的冷光棒|应急蜡烛|安息日蜡烛|生日蜡烛|灯油|灯芯|汽灯纱罩",
 UI_BurdJournals_LorePool_Verb::zh-hans::processed::verified = "低语|嘎吱作响|燃烧|消失|咳嗽|等待|抓挠|回应|眨眼|呻吟|泄漏|歌唱|敲击|数数|裂开|凝视|滴落|乞求|发出咔嗒声|颤抖|大笑|哼唱|呼吸|跟随|吐唾沫|漂浮|鸣响|口吃|疼痛|记忆|掏空|跳过|蹲下|猛推|衰萎|哀悼|撬开|摆弄|抚摸|乱动|扭打|抛来抛去|重击|踢|刺穿|杀死|蜷缩|胡言乱语|散落|爬行|拒绝|犹豫|还是听了|评判|承诺|肿胀|装饰|到得太早|离开得太晚|颤抖|堆积|几乎成功|优雅失败|坚持|忍受|倒数|倚靠|期待|心存侥幸|准备|过早哀悼|过早庆祝|整理|设防|加固|抛弃|重新考虑|违背判断返回|积累|倍增|分裂|汇聚|分散|盘旋|绕轨道运行|坍塌|膨胀|收缩|肿胀|畏缩|前进|撤退|包抄|突破|淹没|包围|消耗|排出|拒绝|吸收|消化|代谢|传播|接收|广播|窄播|单播|组播|任播|地理播|广播风暴|丢包|延迟|抖动|缓冲膨胀|限速|整形|监管|标记|丢弃|排队|调度|转发|路由|交换|桥接|隧道|压缩中|解压中|分片|重组|压缩|解压|加密|解密|哈希|加盐|加胡椒|签名|验证|撤销|续期    ",
-UI_BurdJournals_LoreTemplate_BloodyBroadcast::zh-hans::processed::verified = "回想起来，这一切的开始就是第一天晚上彻夜啸叫的警笛, 结果Triple-N电视台还说局势正在得到控制.随后就是各种坏消息接踵而来, 人们开始咳嗽, 发烧, 邻居们开始往门上钉木板, 还有士兵对着只想逃命的居民鸣枪警告. {{authorName}}一直说这次是新闻比真相晚到至少一天, 如果不是更久的话.
-
-如果这本日记是湿的, 记住那可不是雨水的锅.我拖着{{supplyNoun}}穿过{{dangerNoun}}时负了伤, 之后在写{{entryNameA}}的那页上沾了血, 我还把{{entryNameB}}画了重点, 因为恐慌会让人笨手笨脚.告诉{{survivorName}}, 我写下这些东西的时候脑子还算清醒，还没有失去自我.",
-UI_BurdJournals_LoreTemplate_BloodyGeneral::zh-hans::processed::verified = "要知道, {{authorName}}已经尽力不让那些有用的笔记沾上血了.警报声停下之前这还算容易, 然而诺克斯郡每条出口都挤满了士兵, 车灯和祈求士兵放行的人群之后, 这就是一种奢望了.官方通报一直在调整它们的说辞, 然而病毒却从未停下过它的扩散.
-
-如果{{openerName}}正在看的话, 还是劝你别费心去猜哪套说法是真的了.能带多少东西就带多少, 提防活人要像提防死人一样警惕, 记住, 恐慌会让你最熟悉的街道都变得饥肠辘辘.",
-UI_BurdJournals_LoreTemplate_BloodyHazmat::zh-hans::processed::verified = "在他们承认出事的两天前,  我就看见院子外有穿防护服的人来来往往了.他们给路面消毒,  把一条狗装进袋子,  还用步枪指着个女人,  因为她不停追问为什么丈夫一咳嗽就有漂白水味.也就是从那时起{{authorName}} 就不再相信这些 \"安全事故\"之类的说辞了.
-
-接下来丧尸登场了, 而恐惧则比丧尸先到一步.如果你的手比我的稳, 多多利用{{recipeName}}和{{skillName}}相关的笔记, 并且切记不要让{{traitName}}使得你对公权力抱有任何幻想.",
 UI_BurdJournals_LoreTemplate_BloodyLastWish::zh-hans::processed::verified = "如果{{openerName}}是在我的尸体上找到这个的, 一定要找到{{survivorName}}, 告诉TA单单靠{{traitName}}还不够.拿上这批{{entryName}}, 好好利用. {{exclamation}}.",
 UI_BurdJournals_LoreTemplate_BloodyNearMiss::zh-hans::processed::verified = "抱歉纸上沾了血, 因为{{dangerNoun}}正步步紧逼.不管你是谁, 务必认真读读关于{{traitName}}的那部分, 争取好好活下去, 坚持到世界再次{{adjective}}的那一天.",
 UI_BurdJournals_LoreTemplate_BloodyPage::zh-hans::processed::verified = "{{authorName}}没能活着离开{{dangerNoun}}. 直到我的手{{verb}}之前, 那个伤口看起来还算{{adjective}} .如果{{openerName}}在读这个, 替我记住这个教训.",
-UI_BurdJournals_LoreTemplate_BloodySkillOnlyBroadcast::zh-hans::processed::verified = "回想起来，这一切的开始就是第一天晚上彻夜啸叫的警笛, 结果Triple-N电视台还说局势正在得到控制.随后就是各种坏消息接踵而来, 人们开始咳嗽, 发烧, 邻居们开始往门上钉木板, 还有士兵对着只想逃命的居民鸣枪警告. {{authorName}}一直说这次是新闻比真相晚到至少一天, 如果不是更久的话.
-
-如果这本日记是湿的, 记住那可不是雨水的锅.我拖着{{supplyNoun}}穿过{{dangerNoun}}时负了伤, 之后在写{{entryNameA}}的那页上沾了血, 我还把{{entryNameB}}画了重点, 因为恐慌会让人笨手笨脚.告诉{{survivorName}}, 我写下这些东西的时候脑子还算清醒，还没有失去自我.",
 UI_BurdJournals_LoreTemplate_BloodySupplies::zh-hans::processed::verified = "我在试图转移{{supplyNoun}}的时候亏到姥姥家了, 但关于{{skillName}}的那条笔记也许还能救下谁.我{{adverb}}写下这些话, 而我落笔时{{noun}}正在楼下{{verb}}.",
-UI_BurdJournals_LoreTemplate_CursedExperiment::zh-hans::processed::verified = "{{survivorName}}曾经信誓旦旦地觉得, 这一切都源于一次泄露, 一种武器, 一场测试, 那些人类所能想象到的事物.我也曾相信这一点, 直到这本日记开始在页边兀自写下回话.它知道我的职业, 知道{{traitName}}, 也知道七月四号那一天一切灾难的根源.
-
-如果{{openerName}}读到这里时还没有听见纸页下的抓挠声, 务必尽快学习和利用{{skillName}}和{{recipeName}}.所有那些摆脱禁锢, 为祸人间的存在当中, 丧尸不过是最吵闹的那个罢了.",
 UI_BurdJournals_LoreTemplate_CursedFollower::zh-hans::processed::verified = "我是从{{survivorName}}那里找到这个的, 但有个{{omenNoun}}一直紧追不舍.它就是想要夺走{{recipeName}}. {{exclamation}}.",
-UI_BurdJournals_LoreTemplate_CursedGeneral::zh-hans::processed::verified = "{{openerName}}打破了封印, 日记则记下了这笔孽障.他们称之为感染, 因为感染这个词可以写进报告里, 可以印在围栏上的警示牌上, 也可以透过防毒面具作为命令喊出来.而诅咒, 是个更古老的表达.这也解释了为什么丧尸时刻警惕着周围的响动，哪怕附近一个活人都没有.
-
-{{authorName}}赶在墨迹开始自己修改自己之前写下了这些东西.如果页边中浮现出的自己向你提出一项交易, 一定要保持清醒, 数数你的手指, 数数你的记忆, 然后问问为什么政府需要用枪来遏制某种它坚称只是疾病的东西.",
-UI_BurdJournals_LoreTemplate_CursedKnoxPrice::zh-hans::processed::verified = "他们管这叫感染, 因为这个词适合写在报告里. {{authorName}}觉得这是神的审判, 因为他发现{{omenNoun}}总是会在镜子里凭空浮现, 而亡者也开始追猎那些被标记之人.军队在诺克斯郡外围划出了一道隔离区, 但这只对会相信地图的存在才管用.
-
-现在这本日记已经记下{{openerName}}及其所负的罪孽了.如果你想记住这个教训, 就拿上{{entryNameA}}, 如果你想得到日记的警告, 就拿上{{entryNameB}}, 并且记住, 任何有关解药的谣言都会招致相应的报复.",
 UI_BurdJournals_LoreTemplate_CursedMargin::zh-hans::processed::verified = "{{authorName}}划去了页边中记录的{{recipeName}}, 得到的是 {{omenNoun}}的回应.当{{noun}} {{verb}}时, 相应的报应已经转移到{{openerName}}身上.",
 UI_BurdJournals_LoreTemplate_CursedPrice::zh-hans::processed::verified = "封印被打破了, 看来{{traitName}}能令愚者逞一时之勇.要想记住这{{adjective}}的代价, 就留下{{entryName}}的那一页.",
 UI_BurdJournals_LoreTemplate_CursedSeal::zh-hans::processed::verified = "{{openerName}}打破了日记的封印, {{omenNoun}}{{adverb}}地响应了. {{authorName}}并非祂记下的第一个名字.",
 UI_BurdJournals_LoreTemplate_KrampusBargain::zh-hans::processed::verified = "即使{{professionName}}也没法同{{omenNoun}}讨价还价.拿上{{entryName}}的笔记, {{adverb}}地逃离吧.",
-UI_BurdJournals_LoreTemplate_KrampusBroadcast::zh-hans::processed::verified = "广播说“待在室内”.广播背后的声音说“当个乖孩子”.然而广播欺骗了我们, {{omenNoun}}的笑声响彻所有波段, 我们过去恶行所积累的报应都一一找上门来.
-
-{{survivorName}}赶在包装再次自我封印之前留下了这些笔记. {{skillName}}也许能帮你保暖, {{recipeName}}也许能帮你果腹, 但{{traitName}}会决定这个冬天能否饶你一命.",
 UI_BurdJournals_LoreTemplate_KrampusBundle::zh-hans::processed::verified = "这个包裹是给{{openerName}}的, 但并非礼物，而是警告. 记住{{omenNoun}}不会忘记任何人犯下的罪孽. {{exclamation}}.",
-UI_BurdJournals_LoreTemplate_KrampusCheckpoints::zh-hans::processed::verified = "坎卜斯(反面圣诞老人)先一步找到了检查站.他喜欢那些名单, 那些标出不同颜色的通道, 那些被划掉的名字以及自以为搞这些表面功夫就可以逃避惩罚的人类. {{authorName}}看到军靴仍矗立在雪地里, 但早已没了主人.
-
-这个包裹交给{{openerName}}, 因为检查站仍在”运转“, 它仍渴望向幸存者收取过路费.学会{{entryNameA}}, 然后记得留下{{entryNameB}}, 记住如果无线电中传来你的乳名, 绝对不要回应.",
-UI_BurdJournals_LoreTemplate_KrampusGeneral::zh-hans::processed::verified = "那包装毫无节日气氛.其实是一个伪装成礼物的警告, 好让那些绝望的幸存者无论如何都会打开它.诺克斯郡现在有了新名单: 感染者, 失踪者, 已清除, 已控制, 可消耗.坎卜斯(反面圣诞老人)仍记得那些旧名单, 但已经相当罕见了.
-
-如果{{openerName}}听见本应是警报声的地方传来铃铛声, 赶在雪地记下你的足迹之前立刻远离.圣诞礼物依然存在, 但有些礼物指望天黑后在人间收账.",
 UI_BurdJournals_LoreTemplate_KrampusSnow::zh-hans::processed::verified = "{{noun}} {{verb}}的时候, {{survivorName}}应该留心的. 现在好了, 坎卜斯(反面圣诞老人)只留下了{{skillName}}相关的那些日记, 其他部分则被遗弃在雪地里自生自灭.",
 UI_BurdJournals_LoreTemplate_KrampusTallied::zh-hans::processed::verified = "{{openerName}}打开包装的时候被标记了. 只需要这样一个{{adjective}}的邀请, {{omenNoun}}便会欣然“拜访”.",
-UI_BurdJournals_LoreTemplate_WornGeneral::zh-hans::processed::verified = "疫情爆发的第一周教会了{{authorName}}一件事: 那就是不要相信那些冠冕堂皇的谎言.电视上一开始说诺克斯郡发生了一场骚乱, 然后又变了成一次隔离, 然后又变得讳莫如深, 然而隔离区的围栏默默地说明了一切. 人们提出了各种理论来解释当下的末日为何而来: 空气, 水, 肉, 一个实验室, 一场恶作剧, 或者干脆就是上帝降罚.而这些理论统统没法打开一家锁上的药店.
-
-如果{{openerName}}找到这些笔记, 务必保持干燥. 不要灰心, 再接再厉.我作为{{professionName}}尽量记下了我的职业技能, 但往往最有用的教训比任何手艺都简单: 首先, 在盲目乐观之前, 先点清楚你的物资, 再者, 寂静不等于安全, 只有在整整一夜平安无事之后, 才能信任那片寂静.",
 UI_BurdJournals_LoreTemplate_WornPages::zh-hans::processed::verified = "看来{{openerName}}找到了这个, {{authorName}}觉得或许这些纸页会比我们两个都活得更久.我把{{entryName}}的笔记藏在{{stashNoun}}后面, 在{{noun}}{{verb}}{{adverb}}后面.",
 UI_BurdJournals_LoreTemplate_WornProfession::zh-hans::processed::verified = "身为一名{{professionName}}教会了我{{skillNameA}}, 但真正在这{{adjective}}的时让我活下来的, 是{{traitName}}.剩下内容的写在页边空白里.",
-UI_BurdJournals_LoreTemplate_WornQuarantine::zh-hans::processed::verified = "电视一直管那叫“骚乱”, 然后是“隔离区”, 最后什么都不报了. 而{{authorName}}记下了所有还能收到的广播, 尤其是那些提到士兵, 路障和从诺克斯县飘出来的气味的.然而那些广播没有一条跟我亲眼所见的东西对得上.
-
-在电话断掉之前, 我是一名{{professionName}}, 所以我尽量写得实际一点: {{entryNameA}}优先, {{entryNameB}}其次, 只有你自己亲手打包的{{supplyNoun}}才值得信任. 如果{{openerName}}找到了这些纸页, 记住我的话: 那帮官媒直到信号彻底消失的那一天, 都在假装一切尽在掌握.",
-UI_BurdJournals_LoreTemplate_WornRoadblock::zh-hans::processed::verified = "我们天还没亮就到了检查站, 队伍已经排过了{{noun}}.一个穿制服的男的嘴上说什么疫情已得到控制;  另一个袖子上面有血, 根本不理会那些求着要过关的男女老少. {{survivorName}}说他们早就知道真相, 直到瞒不下去了才承认, 因为除了他们没人能一夜之间建起那么多哨卡.
-
-我也不知道是空气, 是水, 还是某座无名实验室里深埋着的秘密导致了这一切.我只知道{{skillNameA}}支撑着我一路挣扎求生到现在, 哪怕我早已不抱任何希望, 而关于{{recipeName}}的笔记, 应该留给双手依旧健全的人.",
 UI_BurdJournals_LoreTemplate_WornTrade::zh-hans::processed::verified = "我本想赶在路封掉之前把{{recipeName}}跟{{survivorName}}换点东西.如果{{openerName}}现在读到这个, 继续走, 别停下. {{exclamation}}.",
 UI_BurdJournals_LoreTemplate_WornWarning::zh-hans::processed::verified = "{{authorName}}在为了{{recipeName}}跑进{{dangerNoun}}却搞砸了之后, 写下了这些东西.比起地图, 我更相信{{skillName}}, 而且永远不要跟着{{adverb}}{{noun}}走.",
-UI_BurdJournals_LoreTemplate_YuletideEvacuation::zh-hans::processed::verified = "Ho! Ho! Ho! No. 看看这世道, 以前的路线都废了, 那些电台嘴里也没句实话, 更别提如今诺克斯郡每个房子听起来都像是有丧尸聚在里面等着开饭.我在{{supplyNoun}}后面找到了{{survivorName}}列的的清单, 然后赶在我的雪橇铃声变成凄厉的警报声之前尽量添了点东西.
-
-{{openerName}}, 记住这可不是赠送的.这可是一本如假包换的丧尸生存指南!记得在夜幕降临前读完{{entryNameA}}, 并且好好保存{{entryNameB}}, 直到路面不再结冰的时候, 能排上大用场. 此外, 除非你能应付各种不速之客, 否则入夜之后不要只留一根蜡烛.",
 UI_BurdJournals_LoreTemplate_YuletideGeneral::zh-hans::processed::verified = "给你准备了这个礼物, 是因为世界一直在终结, 从不过问现在是什么季节.在围栏之外的某个地方, 也许还有人相信灯光意味着安全, 无线电意味着救援.然而在诺克斯郡, 灯光只会引来不必要的麻烦, 而无线电则只会让你明白, 那些故作镇定却满嘴谎言的家伙能有多少种说辞. 好好接受这份礼物, {{openerName}}: 纸张, 回忆, 和冬日里那一点倔强的温度.如果可以, 做个好人.如果做不到, 那就活下去.别怕, 今年两者礼物都有份.",
 UI_BurdJournals_LoreTemplate_YuletideGift::zh-hans::processed::verified = "特意为你准备了这个, 这样{{openerName}}今年过冬时还不至于全靠搜刮过日子.记住, 趁着还能用的时候好好利用{{recipeName}},  {{adjective}}地对待它.",
 UI_BurdJournals_LoreTemplate_YuletideMercy::zh-hans::processed::verified = "圣诞老人赐福于{{survivorName}}, 给予TA{{traitName}}的能力.如果{{noun}}{{verb}}{{adverb}}, 关于{{recipeName}}的笔记应该能派上用场.",
-UI_BurdJournals_LoreTemplate_YuletideNiceList::zh-hans::processed::verified = "曾经的好人名单如今大多已化为灰烬, 但我仍在继续这份工作.我眼睁睁地看着原本该是节日大游行的街道被士兵们封锁, 原本紧张繁忙的救护站人去楼空, 还有在隔离传单上画雪人解闷的孩子们, 因为圣诞礼物已经是遥远的回忆.
-
-所以我为{{openerName}}准备了些薄礼. 主要的礼物是{{skillName}}, {{recipeName}}则会在搜刮得来的物品消耗殆尽时派上用场, 还有 {{traitName}}, 希望它能提醒你活过这个圣诞节已经是个奇迹了.",
 UI_BurdJournals_LoreTemplate_YuletideProfession::zh-hans::processed::verified = "即使是{{professionName}}也需要一点圣诞节的慰藉.记住保管好{{supplyNoun}}, 然后先读有关{{entryName}}的部分.",
 UI_BurdJournals_LoreTemplate_YuletideWarm::zh-hans::processed::verified = "这是为{{openerName}}准备的东西, 也是我仅剩的一点{{adjective}}仁慈了.记住时刻把{{supplyNoun}}带在身边, 但愿你能挺过这一周. {{exclamation}}.",
 UI_BurdJournals_MaxedSkillsSkipped::zh-hans::processed::verified = "已满级技能和已掌握特质将被跳过.",
@@ -49898,7 +49489,6 @@ UI_EHR_Line_270CE251::zh-hans::processed::verified = "感觉虚弱…",
 UI_EHR_Line_2726E177::zh-hans::processed::verified = "谵妄冲击: 附近窗户被砸碎",
 UI_EHR_Line_273F4B94::zh-hans::processed::verified = "败血症死亡: %s",
 UI_EHR_Line_27BBE285::zh-hans::processed::verified = "多种补液溶液-电解质过量",
-UI_EHR_Line_27C72C52::zh-hans::processed::verified = "腐坏血反应: 状态 = ",
 UI_EHR_Line_2949D2E7::zh-hans::processed::verified = " (潜伏时发现)",
 UI_EHR_Line_297C0DBC::zh-hans::processed::verified = "<RGB:1,0.3,0.3> 这个血型与你的血型不兼容 (",
 UI_EHR_Line_2A7B57D0::zh-hans::processed::verified = "输血: 不兼容! 坏反应!",
@@ -51330,32 +50920,6 @@ UI_GU_type_scout_desc::zh-hans::processed::verified = "你每个夏天都在小�
 UI_GU_type_shy::zh-hans::processed::verified = "害羞鬼",
 UI_GU_type_shy_desc::zh-hans::processed::verified = "你总是跟在大孩子后面, 但你几乎不怎么说话. 没人在意你- 但老实说, 你还挺喜欢这样的",
 UI_GoneIn60_Completed::zh-hans::processed::verified = "所有车辆已交付",
-UI_GoneIn60_LetterBody::zh-hans::processed::verified = "如果你正在阅读这个信息, 说明你已经了解交易如何进行.
-
-我们需要5辆指定车辆并且车况良好. 不能是报废车, 也不接受任何借口.
-
-型号如下: 
-
-1. 67款谢尔比GT500 Eleano
-2. 82款保时捷911 Turbo
-3. 81款德劳瑞恩DMC-12回到未来限定版
-4. 92款尼桑天际线GT-R
-5. 90款宝马E30敞篷
-
-机会有限, 我们不会给你重来的机会.
-
-交车点:
-路易斯维尔车库. 并排停放在入口前. 插上钥匙. 加够汽油.
-
-别耍小聪明.
-别迟到.
-别来让我们找你.
-
-当我们检查完所有车辆, 你或许就能得到你想要的.
-
-又或许不会.
-
-看你的表现.",
 UI_GoneIn60_LetterTitle::zh-hans::processed::verified = "一份工作",
 UI_GoneIn60_ListTooltip::zh-hans::processed::verified = "你的目标车辆清单. 将它们运输到指定交车点.",
 UI_GoneIn60_ReadList::zh-hans::processed::verified = "阅读车辆清单",
@@ -52787,130 +52351,6 @@ UI_PZLinux_City_ValleyStation::zh-hans::processed::verified = "山谷站",
 UI_PZLinux_City_WestPoint::zh-hans::processed::verified = "西点镇",
 UI_PZLinux_Code::zh-hans::processed::verified = "代码",
 UI_PZLinux_ComputerCondition::zh-hans::processed::verified = "电脑状况：%1%",
-UI_PZLinux_ConditionMessages_High::zh-hans::processed::verified = "<RGB:0,1,0>正在启动系统...
-初始化硬件检查...
-内存检查：
-检查系统 RAM...
-RAM 测试成功：检测到 16MB。
-运行 RAM 诊断...
-内存测试完成。未发现错误。
-启动磁盘检查...
-检查磁盘完整性...
-正在使用 FSCK 检查文件系统...
-检查已分配扇区...
-磁盘检查完成：未发现坏扇区。
-运行 S.M.A.R.T. 诊断...
-S.M.A.R.T. 状态：正常
-检查系统文件...
-扫描系统文件是否损坏...
-未检测到关键系统文件损坏。
-检查磁盘空间...
-总磁盘空间：500MB
-可用空间：320MB
-检查系统温度...
-系统温度：28°C（最佳）
-检查外围设备...
-键盘... 正常
-检测到鼠标... 正常
-打印机在线... 正常
-检查系统资源...
-CPU 使用率：10%
-可用内存：12MB
-系统优化完成。
-系统健康度：最佳。
-系统检查成功完成。</RGB>",
-UI_PZLinux_ConditionMessages_Low::zh-hans::processed::verified = "<RGB:0,1,0>正在启动系统...
-初始化硬件检查...
-内存检查：
-正在检查系统 RAM...
-RAM 测试成功：检测到 8MB。
-运行 RAM 诊断...
-插槽 2 检测到 RAM 错误... [警告]
-内存测试完成。无其他问题。
-启动磁盘检查...
-检查磁盘完整性...
-正在使用 FSCK 检查文件系统...
-检查已分配扇区...
-磁盘检查完成：未发现坏扇区。
-执行完整磁盘扫描...
-磁盘扫描完成：检测到 2 个小问题。
-修复小问题...
-重新分配损坏扇区...
-磁盘健康度：32%
-运行 S.M.A.R.T. 诊断...
-S.M.A.R.T. 状态：正常
-检查系统文件...
-扫描系统文件是否损坏...
-未检测到关键系统文件损坏。
-运行文件系统检查...
-文件系统检查完成：24 个错误。
-检查磁盘空间...
-总磁盘空间：250MB
-可用空间：20MB
-检查系统温度...
-系统温度：54°C [警告]
-检测到过热... [警告] CPU 温度：75°C
-冷却系统工作正常。
-检查外围设备...
-检查键盘... 正常
-检测到鼠标... 正常
-打印机离线... [错误]
-检查虚拟内存设置...
-虚拟内存：已分配 64MB，已使用 55MB。
-检查系统资源...
-CPU 使用率：15%
-可用内存：6MB
-检查系统日志...
-系统日志：未记录严重错误。
-磁盘日志：检测到轻微读/写延迟。
-最终检查...
-系统检查完成。
-未发现严重问题。
-系统运行效率为 45%。
-警告：检测到轻微性能下降。
-运行系统优化...
-优化完成。
-系统健康度：稳定。
-访问已授权。安全系统操作已恢复。
-系统报告：检测到严重问题！需要立即处理。
-磁盘即将故障。建议备份。</RGB>",
-UI_PZLinux_ConditionMessages_Medium::zh-hans::processed::verified = "<RGB:0,1,0>正在启动系统...
-初始化硬件检查...
-内存检查：
-检查系统 RAM...
-RAM 测试在插槽 2 检测到错误... [警告]
-尝试重新分配 RAM...
-RAM 重新分配成功。系统稳定性：85%
-启动磁盘检查...
-检查磁盘完整性...
-正在使用 FSCK 检查文件系统...
-检查已分配扇区...
-警告：发现 4 个坏扇区！
-尝试重新分配扇区...
-重新分配成功。数据完整性得以保持。
-运行 S.M.A.R.T. 诊断...
-S.M.A.R.T. 状态：警告 - 检测到磁盘磨损
-检查系统文件...
-发现损坏的系统文件：/etc/sysconfig/
-尝试自动修复...
-修复成功。
-检查磁盘空间...
-总磁盘空间：500MB
-可用空间：95MB（低）
-检查系统温度...
-系统温度：42°C（可接受）
-检查外围设备...
-键盘... 正常
-检测到鼠标... 正常
-打印机离线... [错误]
-检查系统资源...
-CPU 使用率：45%
-可用内存：4MB
-最终检查...
-系统检查完成，有警告。
-检测到性能下降。
-建议尽快维护。
-系统正常运行，但检测到错误。</RGB>",
 UI_PZLinux_Connect::zh-hans::processed::verified = "连接",
 UI_PZLinux_ConnectFirst::zh-hans::processed::verified = "您需要先连接。请点击“连接”",
 UI_PZLinux_ConnectLoginPrompt::zh-hans::processed::verified = "登录：",
@@ -52946,12 +52386,6 @@ UI_PZLinux_ContractRewardLine::zh-hans::processed::verified = "* [%1] %2 报酬 
 UI_PZLinux_Contracts::zh-hans::processed::verified = "合同",
 UI_PZLinux_CutTarget::zh-hans::processed::verified = "切割目标",
 UI_PZLinux_DarkWeb::zh-hans::processed::verified = "暗网",
-UI_PZLinux_DarkWebHelpMessage::zh-hans::processed::verified = "要出售物品，必须将其放在主物品栏中。进入物品栏后，
-点击“卖出”将出售该类型的所有物品，并且一个可疑包裹
-会出现在您的物品栏中。要完成出售，您需要通过邮箱
-寄送该物品
-
-以下是可买卖的物品列表：",
 UI_PZLinux_Deal::zh-hans::processed::verified = "成交？",
 UI_PZLinux_DeliveryFailed::zh-hans::processed::verified = "交付失败。请腾出一些背包空间后重试。",
 UI_PZLinux_Deposit::zh-hans::processed::verified = "存款",
@@ -52967,67 +52401,8 @@ UI_PZLinux_HackID::zh-hans::processed::verified = "破解身份证",
 UI_PZLinux_HackingAttemptNumber::zh-hans::processed::verified = "尝试次数：%1 / %2",
 UI_PZLinux_HackingAuto::zh-hans::processed::verified = "自动",
 UI_PZLinux_HackingAutoDisabled::zh-hans::processed::verified = "非管理员玩家已禁用自动黑客功能。",
-UI_PZLinux_HackingBalanceZero::zh-hans::processed::verified = "黑客余额：$0
-",
-UI_PZLinux_HackingBootMessages::zh-hans::processed::verified = "<RGB:0,1,0>正在连接 104.223.56.8。
-连接尝试进行中。
-连接尝试进行中..
-连接尝试进行中...
-连接尝试进行中....
-连接尝试进行中... 失败。
-暴力破解尝试... [失败] 第 1 次尝试，共 100 次
-暴力破解尝试... [失败] 第 2 次尝试，共 100 次
-连接失败。正在重试...
-暴力破解尝试... [失败] 第 3 次尝试，共 100 次
-身份验证过程失败。
-暴力破解尝试... [失败] 第 4 次尝试，共 100 次
-暴力破解尝试... [失败] 第 5 次尝试，共 100 次
-暴力破解尝试... [失败] 第 5 次尝试，共 100 次
-暴力破解尝试... [失败] 第 6 次尝试，共 100 次
-暴力破解尝试... [失败] 第 7 次尝试，共 100 次
-暴力破解尝试... [失败] 第 8 次尝试，共 100 次
-暴力破解尝试... [失败] 第 9 次尝试，共 100 次
-暴力破解尝试... [失败] 第 10 次尝试，共 100 次
-暴力破解尝试... [失败] 第 11 次尝试，共 100 次
-暴力破解尝试... [失败] 第 12 次尝试，共 100 次
-暴力破解尝试... [失败] 第 13 次尝试，共 100 次
-暴力破解尝试... [失败] 第 14 次尝试，共 100 次
-连接成功。
-访问已授权：身份验证接口已攻破。
-检测到未授权访问。
-后门已激活。
-找到数据库访问点。
-正在解密数据...
-正在加密服务器数据：*处理中*
-警报：检测到防火墙激活。尝试绕过...
-防火墙绕过失败。正在重新连接至 104.223.56.8...
-暴力破解激活：多次尝试解锁系统。
-暴力破解成功，建立稳定连接。
-系统已攻破。获得完全服务器访问权限。
-警报：网络上检测到异常活动。
-访问被拒绝，尝试连接至备份服务器。
-模拟与备份服务器成功连接。
-完整系统扫描结果：
-- 检测到入侵 
-- 检测到数据泄露 
-- 跟踪已激活
-系统警报：在 104.223.56.8 检测到黑客入侵尝试
-数据泄露：正在向外传输数据。
-远程访问：
-已启动安全数据传输。
-暴力破解成功。权限提升已授予。
-系统密码重置... 完成。
-在系统中检测到黑客。
-远程访问已授权：在线银行系统已攻破。
-正在进行病毒和恶意软件扫描...
-安全警报：紧急协议已激活。
-记录事件：检测到对系统 104.223.56.8 的完全攻破。
-暴力破解攻击完成。任务完成。</RGB>",
 UI_PZLinux_HackingCorrectAndMisplaced::zh-hans::processed::verified = "%1 位数字位置正确，%2 位数字存在但位置错误",
 UI_PZLinux_HackingCorrectOnly::zh-hans::processed::verified = "%1 位数字位置正确",
-UI_PZLinux_HackingIntro::zh-hans::processed::verified = "%1 银行余额：$%2
-找到 4 位数字的密码。
-",
 UI_PZLinux_HackingLocked::zh-hans::processed::verified = "账户已锁定",
 UI_PZLinux_HackingMisplacedOnly::zh-hans::processed::verified = "%1 位数字存在但位置错误",
 UI_PZLinux_HackingNext::zh-hans::processed::verified = "下一个",
@@ -53036,10 +52411,6 @@ UI_PZLinux_HackingNoDigit::zh-hans::processed::verified = "代码中没有任何
 UI_PZLinux_HackingTotalMoney::zh-hans::processed::verified = "已黑入的总金额：$%1",
 UI_PZLinux_HackingTransfer::zh-hans::processed::verified = "转账",
 UI_PZLinux_HackingTransferBalance::zh-hans::processed::verified = "银行余额：$%1 < $%2",
-UI_PZLinux_HackingTransferCompleted::zh-hans::processed::verified = "银行余额：$%1 < $%2
-转账完成",
-UI_PZLinux_HackingTransferStatus::zh-hans::processed::verified = "银行余额：$%1 < $%2
-转账进行中...",
 UI_PZLinux_HackingUnlocked::zh-hans::processed::verified = "账户已解锁",
 UI_PZLinux_Help::zh-hans::processed::verified = "帮助",
 UI_PZLinux_InsertCreditCard::zh-hans::processed::verified = "插入您的信用卡",
@@ -53051,194 +52422,7 @@ UI_PZLinux_Loading::zh-hans::processed::verified = "加载中",
 UI_PZLinux_Location_TrashCanIn::zh-hans::processed::verified = "在 %1 的一个垃圾桶里",
 UI_PZLinux_Login::zh-hans::processed::verified = "登录",
 UI_PZLinux_Mail::zh-hans::processed::verified = "邮件",
-UI_PZLinux_MailADS_1::zh-hans::processed::verified = "你好 %1，
-还在用破烂装备打僵尸吗？
-立即用我们的末日生存套件升级吧。
-内含电池，不含道德。
-今日下单，明日存活。
-在被吃掉之前点击。
-- %2
-",
-UI_PZLinux_MailADS_10::zh-hans::processed::verified = "食物是暂时的。
-弹药是有限的。
-知识就是力量。
-今天订阅。
-永不退订。
-
-- %1
-",
-UI_PZLinux_MailADS_11::zh-hans::processed::verified = "你好，幸运的幸存者！
-你赢得了一份免费生存奖励！
-只需回复即可领取。
-快点，僵尸比邮件快。
-- 奖励团队*
-%1
-",
-UI_PZLinux_MailADS_12::zh-hans::processed::verified = "你好 %1，你的名字被随机选中。*
-你赢得了稀有装备和现金！
-请在 24 小时内领取。
-过期我们保留。
-*非常随机。
-%2
-",
-UI_PZLinux_MailADS_13::zh-hans::processed::verified = "难以置信的消息！
-你赢得了我们的末日彩票。
-奖品包括装备、金钱或神秘盒子。
-回复“领取”继续。
-祝你好运，你会需要的。
-%1
-",
-UI_PZLinux_MailADS_14::zh-hans::processed::verified = "你好数据库名字[893]！没错。
-无需努力。无需技能。乱数假文！
-纯粹是运气。
-立即领取你的奖励。
-在别人下手之前。
-%1
-",
-UI_PZLinux_MailADS_15::zh-hans::processed::verified = "嗨 %1。我们感谢像你这样忠诚的幸存者。
-请享受这份独家奖励。
-点击领取奖品。
-概不退款。无幸存者。
-- 客服中心
-%2
-",
-UI_PZLinux_MailADS_16::zh-hans::processed::verified = "你被选中参加隐藏的赠品活动。
-极少数幸存者符合条件。
-幸存者也极少。
-立即领取。
-建议谨慎。
-%1
-",
-UI_PZLinux_MailADS_17::zh-hans::processed::verified = "1 名幸存者。
-1000 只僵尸。
-而你赢得了奖品。
-别问怎么赢的。
-拿着就是。
-%1
-",
-UI_PZLinux_MailADS_18::zh-hans::processed::verified = "你好 USER_0001, %1
-我们的系统检测到一个中奖事件。
-奖品：???
-位置：未知
-是否仍然继续？Y/N
-%2
-",
-UI_PZLinux_MailADS_19::zh-hans::processed::verified = "嗨，诺克斯地区，
-你已被 SELECT * FROM rewards; 选中
-如果错误持续，请归咎于末日。
-请勿回复。
-实际上，回复吧。
-- %1
-",
-UI_PZLinux_MailADS_2::zh-hans::processed::verified = "你好 %1，
-你的基地冷吗？
-发电机吵吗？
-今天就试试我们的静音科技解决方案！
-末日之后无保修。
-库存有限，生命更有限。
-
-祝好，
-%2
-",
-UI_PZLinux_MailADS_20::zh-hans::processed::verified = "没有什么比诺克斯 2 假期更棒的了，现在每人可节省 50 英镑。
-四口之家可省 200 英镑。我们有数百万个免费儿童名额假期，含 22 公斤行李额。
-立即通过诺克斯 2 假期预订。值得信赖的套餐假期！
-- %1
-",
-UI_PZLinux_MailADS_3::zh-hans::processed::verified = "医生讨厌的这一个技巧！
-黑客、交易、比别人更聪明地生存。
-在你的地堡里赚钱！
-100% 合法*
-*勉强合法。
-
-- %1
-",
-UI_PZLinux_MailADS_4::zh-hans::processed::verified = "%1！
-有技术？有胆量？
-我们有别人不要的“工作”。
-高风险，道德存疑。
-丰厚回报。
-速回。
-
-- %2
-",
-UI_PZLinux_MailADS_5::zh-hans::processed::verified = "你好幸存者，%1
-厌倦了收到我们的邮件？
-要退订，只需回复
-你的密码和基地位置。
-简单。快捷。绝对安全。*
-
-- %2
-",
-UI_PZLinux_MailADS_6::zh-hans::processed::verified = "%1，发电机会故障，朋友会背叛。
-但我们的装备永远不会让你失望。*
-现在就买，以后后悔。
-或者后悔死去。
-你的选择。
-
-- %2
-",
-UI_PZLinux_MailADS_7::zh-hans::processed::verified = "这不是垃圾邮件。
-这是一个机会。
-错过了，别人就会变得更富有。
-回复“是”继续。
-回复“否”继续贫穷。
-
-- %1
-",
-UI_PZLinux_MailADS_8::zh-hans::processed::verified = "你已被选中参加一个
-非常合法的商业机会。
-高利润，少提问。
-无需道德指南针。
-午夜前申请。
-
-- %1
-",
-UI_PZLinux_MailADS_9::zh-hans::processed::verified = "放松 %1。我们不评判。
-事实上，我们为此付钱。
-现有谨慎的工作。
-阅后删除此消息。
-或者不删，我们已经复制了。
-
-- %2
-",
 UI_PZLinux_MailAccept::zh-hans::processed::verified = "接受",
-UI_PZLinux_MailAmmo_1::zh-hans::processed::verified = "你好 %1，
-几周以来，我们不断面临一波又一波的僵尸，弹药储备已严重不足。如果这种攻击速度持续下去，我们将撑不了多久。你能为我们提供这些补给吗？它们可能决定我们是守住阵地还是被攻陷。请将弹药送达。
-
-数量：%2
-物品：%3
-地点：%4
-
-注意安全，感谢你考虑我们的请求。
-
-此致，
-%5
-",
-UI_PZLinux_MailAmmo_2::zh-hans::processed::verified = "你好 %1，
-我们联系你是因为这里的情况已变得危急。几位幸存者高度评价你，我们希望他们是对的。僵尸活动在我们地区急剧增加，我们的弹药即将耗尽。如果你能将弹药送到以下地点，你可能会拯救比你想象的更多的生命。
-
-数量：%2
-物品：%3
-地点：%4
-
-我们知道这很危险。无论你如何决定，感谢你阅读此信。
-
-祝好，
-%5
-",
-UI_PZLinux_MailAmmo_3::zh-hans::processed::verified = "你好 %1，
-我们不知道还能守住这个地方多久，但有人告诉我们你或许会倾听。每晚死者都在逼近，每天我们的弹药都在减少。我们竭尽全力，但这已不够。请尽快将它送到以下地点：
-
-数量：%2
-物品：%3
-地点：%4
-
-无论你答复如何，我们感谢你抽空阅读此信。
-在外面活下去。
-
-- %5
-",
 UI_PZLinux_MailBack::zh-hans::processed::verified = "< 返回",
 UI_PZLinux_MailCompleted::zh-hans::processed::verified = "邮件发送成功！",
 UI_PZLinux_MailDelete::zh-hans::processed::verified = "删除",
@@ -53246,37 +52430,6 @@ UI_PZLinux_MailGift::zh-hans::processed::verified = "感谢您的帮助，您收
 UI_PZLinux_MailHeaderDate::zh-hans::processed::verified = "日期",
 UI_PZLinux_MailHeaderFrom::zh-hans::processed::verified = "发件人",
 UI_PZLinux_MailHeaderObject::zh-hans::processed::verified = "主题",
-UI_PZLinux_MailMedical_1::zh-hans::processed::verified = "你好 %1，
-我们的医疗用品即将耗尽，情况每小时都在恶化。伤口在感染，高烧不退，我们无法长时间维持人们生命体征。如果你能帮忙，请尽快将以下物品送到此地点：
-
-数量：%2
-物品：%3
-地点：%4
-
-无论你如何决定，感谢你阅读此信。
-在外面活下去。
-- %5
-",
-UI_PZLinux_MailMedical_2::zh-hans::processed::verified = "你好 %1，
-我写这封信时双手颤抖。我们这里有幸存者，有人受伤，有人生病，而我们的物资几乎告罄。如果你有富余的药品，请尽快带来。哪怕少量也能挽救生命。
-
-数量：%2
-物品：%3
-地点：%4
-
-我们欠你的，即使你无法前来。
-- %5
-",
-UI_PZLinux_MailMedical_3::zh-hans::processed::verified = "你好 %1，
-我们原以为靠绷带和运气就能应付。我们错了。疼痛持续不断，感染在蔓延，我们没有了合适的药物。如果你还在外面并且能帮忙，请送达：
-
-数量：%2
-物品：%3
-地点：%4
-
-没有压力，只是……希望。
-- %5
-",
 UI_PZLinux_MailMeta::zh-hans::processed::verified = "发件人: %1 | 日期: %2",
 UI_PZLinux_MailSubject_Congratulations::zh-hans::processed::verified = "恭喜！",
 UI_PZLinux_MailSubject_Holiday::zh-hans::processed::verified = "免费假期",
@@ -53285,43 +52438,6 @@ UI_PZLinux_MailSubject_NeedAmmo::zh-hans::processed::verified = "需要弹药",
 UI_PZLinux_MailSubject_Winner::zh-hans::processed::verified = "获胜者是",
 UI_PZLinux_MailTitle::zh-hans::processed::verified = "AOL | 美国在线 - %1",
 UI_PZLinux_Mailbox::zh-hans::processed::verified = "邮箱",
-UI_PZLinux_MainBootMessages::zh-hans::processed::verified = "<RGB:0,1,0>PZLinux 版本 %1 (兼容 POSIX)
-版权所有 (c) 1991 The PZLinux Project
-美国肯塔基州路易斯维尔大学校董会
-正在启动 PZLinux...
-加载内核版本 1.0.0 (1991年2月6日 星期三 12:00:00 UTC)
-内存：4096k/4096k 可用 (512k 内核, 256k 保留, 1024k 共享)
-内核命令行：root=/dev/hda1 ro
-检查 386/387 耦合... 完成
-校准延迟循环... 5.27 BogoMIPS
-检查 BIOS EDD... 完成
-检测硬件...
- ide0: BM-DMA 位于 0x1f0-0x1f7,0x3f6, IRQ 14
- ide1: BM-DMA 位于 0x170-0x177,0x376, IRQ 15
- hda: CONNER CP-3204F, 420MB, CHS=683/16/38, UDMA(16)
- hdb: MAXTOR 7213AT, 213MB, CHS=683/16/38, UDMA(16)
- hdc: CD-ROM 2X, ATAPI CD/DVD-ROM 驱动器
- 软盘驱动器: fd0 为 1.44M
- FDC 0 是 1991 年后的 82077
-分区检查：
- hda: hda1 hda2
- hdb: hdb1
-RAMDISK: 在块 0 找到压缩映像
-挂载根文件系统...
-EXT2-fs: 以有序数据模式挂载文件系统。
-VFS: 在设备 03:01 上只读挂载根 (ext2 文件系统)。
-释放未使用的内核内存：已释放 128k
-INIT: 版本 1.0 启动
-设置主机名为 pzlinux.local
-检查文件系统
-/dev/hda1: 干净，文件 3021/32768，块 10540/131072
-/dev/hdb1: 干净，文件 2498/16384，块 7340/65536
-挂载本地文件系统... 完成
-初始化随机数生成器... 完成
-启动系统日志守护进程：syslogd, klogd
-启动网络服务：inetd, named
-启动虚拟终端：tty1 tty2 tty3 tty4
-PZLinux %1 (tty1)</RGB>",
 UI_PZLinux_Name::zh-hans::processed::verified = "名称",
 UI_PZLinux_NeedElectronicParts::zh-hans::processed::verified = "我需要电子零件",
 UI_PZLinux_NeedMoneyBank::zh-hans::processed::verified = "我的银行账户需要资金",
@@ -53877,8 +52993,6 @@ UI_QAMARK_2MinInGame::zh-hans::processed::verified = "2分钟 (游戏内)",
 UI_QAMARK_3MinInGame::zh-hans::processed::verified = "3分钟 (游戏内)",
 UI_QAMARK_5MinInGame::zh-hans::processed::verified = "5分钟 (游戏内)",
 UI_QAMARK_AutoMarks::zh-hans::processed::verified = "自动标记:",
-UI_QAMARK_AutoTooltip::zh-hans::processed::verified = "开启=自动标记你进入的建筑. 
-关闭=不进行自动标记.",
 UI_QAMARK_EraseNearbyManualMarks::zh-hans::processed::verified = "清除附近的手动标记",
 UI_QAMARK_Immediately::zh-hans::processed::verified = "立即",
 UI_QAMARK_MarkAfter::zh-hans::processed::verified = "标记延迟:",
@@ -55732,194 +54846,6 @@ UI_VorpallySauced_Bonding_oftheCovenant::zh-hans::processed::verified = "盟约"
 UI_VorpallySauced_Bonding_oftheUndying::zh-hans::processed::verified = "不死",
 UI_VorpallySauced_Bonding_oftheWielder::zh-hans::processed::verified = "执掌者",
 UI_VorpallySauced_ButtonClose::zh-hans::processed::verified = "关闭",
-UI_VorpallySauced_CompIntro_I::zh-hans::processed::verified = "在马尔德劳附近发现-[日期模糊]
- 
-我不知道会有谁读到这些. 也许根本没人. 但在我们所有人都忘记什么是真、什么是假之前, 总得有人把事情记下来.
- 
-事情大约始于封锁开始一周后. 汤米·卡尔弗, 就是那个在 Zippee Mart 工作的汤米, 一直用他祖父留下的短斧解决那些死者. 他说大约杀到第30 个时, 第一次察觉到异样. 斧刃的手感变了, 更轻, 仿佛它自己也想挥出去.
- 
-我们都以为他快撑不住了. 压力太大确实会这样. 可后来玛丽·陈说她的菜刀也有同样的变化, 老哈伦也说自己的劈柴锤变了.
- 
-这些武器正在苏醒.
- 
-迈克牧师认为, 那是死者的灵魂被困在金属里, 也许是为了复仇. 威尔金斯家的孩子, 就是经常看恐怖录像带的那个, 说这和《鬼玩人》一样, 是鲜血引发了某种变化.
- 
-我只知道一件事: 如果用同一件工具杀死足够多的死者, 它内部就会出现某种异动. 我们暂时把这种现象叫作'异动'. 在第一阶段, 武器会得到一些额外变化, 大家把这些早期变化称为'铭印'.
- 
-下面是我们目前记录到的内容. 愿上帝保佑我们.
- 
-- R·L·莫里森, 马尔德劳幸存者联盟",
-UI_VorpallySauced_CompIntro_II::zh-hans::processed::verified = "从西点镇安全屋回收-实地记录, 日期不明
- 
-继续观察当地称为'异动'的现象.
- 
-累计了大量击杀记录的受试武器 (估计已确认击杀 40-80 个目标) 出现了可以测量的变化. 现有的任何理论都无法解释这些结果.
- 
-我对三件受试刀具进行了洛氏硬度测试. 民用短斧 (当地称为'汤米的短斧') 的初始读数为 56 HRC, 符合标准碳钢的硬度. 当前读数为 63 HRC. 如果没有重新淬火, 这在冶金学上不可能发生. 测试期间没有施加热源. 我测了两次, 数值无误.
- 
-受试刀具的刃口保持能力比基准值提高了约 340%. 一把砍刀在与骨骼和软骨碰撞超过 200 次后, 仍保持着出厂时的刃口. 同一时期内, 我已经将对照刀具重新打磨了四次.
- 
-重量测量结果并不一致. 同一把斧头在同一台秤上, 间隔几分钟测量就会得到不同读数. 在没有增加或移除任何材料的情况下, 偏差可达 +/- 0.3 kg. 那名老煤矿工 (平民, 姓名保密) 看见我为此苦恼后说: '山一直都知道. 你没法称量一个正在醒来的东西'.
- 
-我是科学家. 我没有能够解释这一现象的理论, 只有一组本不该存在的测量结果.
- 
-实际观察: 出现上述强化属性的武器, 性能增幅约为初始铭印的 2-3 倍. 应鼓励幸存者维护并继续使用受影响的武器, 而不是更换新装备. 这种联系似乎会不断累积, 而且无法逆转.
- 
-- 莎拉·陈博士, 疾病控制与预防中心第7 实地小组
- 
-- [另一种笔迹的备注: '找到了她的笔记, 但没找到她本人'.]",
-UI_VorpallySauced_CompIntro_III::zh-hans::processed::verified = "日记残页-被水浸泡-日期不明
- 
-[之前的页面缺失或无法辨认]
- 
-…就在那时, 我确定这并不是自己的错觉.
- 
-昨晚我把砍刀放在厨房台面上. 刀刃像往常一样朝左. 早上醒来时, 它却转了个方向, 刀柄正对着我的手, 像是在等我拿起它.
- 
-可能是风, 也可能是其他原因. 但它的重心也变了. 这把便宜货以前总会向右偏, 现在却能稳稳贴合我的握法. 我什么都没调整, 是它在适应我.
- 
-老哈伦说, 他的劈柴锤也一样. 下挥时锤头更重, 收回时却更轻. 他说: '好像它知道那些死者在哪个方向'. 不使用时, 他甚至不愿意看那把锤子.
- 
-威尔金斯家的孩子把这些武器称为'狂暴武器'. 他说武器现在变化得更快了, 正在主动适应. 他给我看了一盘《养鬼吃人》的录像带, 然后说: '我们面对的就是这种东西. 鲜血、痛苦, 还有某个喜欢这一切的东西'.
- 
-他也许疯了, 但他说得没错.
- 
-这把刀目前还没做出真正让我害怕的事. 至少暂时没有. 可握住它时, 我能感觉到金属里有某种东西, 很有耐心, 而且以前并不存在.
- 
-如果你读到了这些, 而你的武器也进入了狂暴阶段, 不要丢下它, 也不要放手. 是它选择了你, 不论结果是好是坏.
- 
-[其余页面已被撕下]",
-UI_VorpallySauced_CompIntro_IV::zh-hans::processed::verified = "私人日记-迈克尔·里夫斯牧师-罗斯伍德
- 
-主正以我无法理解的方式考验我们.
- 
-今晚我为汤普森弟兄的撬棍进行了祝福. 是他主动提出的. 他说那东西的感觉不对, 希望上帝能触碰它. 我握着撬棍念出祷词, 随后感觉到了…我不知道那是什么. 一股温暖, 不是来自金属表面, 而是来自金属内部. 就像抱着一只沉睡的动物.
- 
-我告诉他一切正常, 还说上帝的恩典庇护万物.
- 
-我撒了谎.
- 
-马丁内斯姐妹的消防斧如今摸起来冷得发痛. 冰冷刺骨. 可它劈开骨头时, 却像切开晒软的黄油一样轻松. 昨天她一次横扫就杀死了 9 个重新站起来的死者. 我亲自数过尸体.
- 
-那些被称为'吞噬武器'的东西已经不再只是工具. 汤普森挥动撬棍时, 连空气都像在尖叫. 马丁内斯握着斧头时, 目光会转向某个我无法追随的地方.
- 
-秘酱加持的. 嗜血的. 死神的刀刃.
- 
-这些名字不是我们起的, 而是它们告诉我们的.
- 
-我不知道这是上帝为最终决战赐下的武器, 还是我们用灵魂换取了生存. 我只知道, 当我握着汤普森的撬棍念出祝福时, 金属里的某种东西听见了我.
- 
-而我不确定回应我的究竟是不是上帝.
- 
-[后来写在页边的备注: '汤米·卡尔弗的短斧昨晚终于对他说话了. 他不肯说它讲了什么, 而且一直哭到现在'.]",
-UI_VorpallySauced_CompIntro_V::zh-hans::processed::verified = "写在汽车旅馆的信纸上-迪克西男孩汽车旅馆
- 
-好吧, 大约三个星期里一直没人相信我, 但这次我终于拿到了证据.
- 
-武器得到铭印, 也就是异动真正发生之后, 还可能出现另一种更深层的变化. 我们把它称为'羁绊'.
- 
-你知道那些古老的传说吧, 武士的灵魂会寄宿在自己的刀里. 这件事与那些故事很像, 只不过它是真的, 而且麻烦得多.
- 
-如果用一件带有铭印的武器杀死足够多的目标, 我是说多得多, 轻易就会达到三位数, 武器就不只是进一步苏醒. 它会与你建立羁绊, 以某种方式成为你的一部分.
- 
-羁绊与铭印不同. 铭印会改变武器的战斗方式, 羁绊则会改变武器本身. 有些武器会变得耐用许多, 那些带有永恒属性的武器几乎不会再损坏. 有些会变轻、变快, 还有一些就是不肯停下来.
- 
-最让人不安的是, 你很难真正把一件建立了羁绊的武器送给别人. 当然可以把它交出去, 但感觉就像把自己的一部分留在了别人手里. 新主人也会说, 武器在他们手里没有原来那么好用.
- 
-我们已经不只是在使用这些武器.
- 
-我们也在逐渐变成它们的一部分.
- 
-- 杰米·威尔金斯, 17 岁
- 
-  马尔德劳恐怖电影俱乐部 (成员: 1)",
-UI_VorpallySauced_CompIntro_VI::zh-hans::processed::verified = "实地报告-诺克斯国民警卫队回声哨站
- 
-我不是写给科学家看的. 科学家已经死了.
- 
-我写下这些, 是因为无论谁找到这座哨站, 都必须知道自己的武器能做什么. 平民称为'异动'的现象也会影响枪械. 如果疫情暴发后一直使用同一件武器, 你应该已经察觉到了. 如果没有, 那就从现在开始.
- 
-以下是我在小队中的观察结果:
- 
-韦布下士的 M16 会自动修正瞄准. 不是机械意义上的自动修正, 1992 年的柯尔特里没有电脑. 可它会追踪目标躯干中央, 就像知道目标在哪里. 韦布说他两周前就不再认真瞄准了, 只需把枪指过去, 剩下的交给步枪.
- 
-德尔加多中士的霰弹枪循环速度已经超过枪械结构在物理上允许的极限. 我亲自计过时. 机构运动得比弹簧张力所能达到的速度更快. 这本来不可能, 但确实发生了.
- 
-我的配枪已经连续击杀三百个目标而没有卡壳. 那是一把用了二十年的伯莱塔, 过去几乎每隔一个弹匣就会出现一次烟囱式卡壳. 现在它运转得像刚出厂一样, 甚至比出厂时还好.
- 
-我不在乎为什么会发生这些事. 我只在乎它们确实正在发生.
- 
-常设命令: 绝对不要丢弃已经出现变化的武器. 维护它, 使用它. 它会比枪架上的任何替代品更长久地保护你的生命. 后文记录了受影响枪械中已经观察到的各种变化.
- 
-- 马库斯·科尔枪炮军士
- 
-  肯塔基国民警卫队 (已解散)",
-UI_VorpallySauced_CompIntro_VII::zh-hans::processed::verified = "录音转写-从西点镇回收的录音机
- 
-[录音从半句话开始]
- 
-…有时甚至不用重新装填. 我知道这听起来很疯狂, 我知道. 但我从第三天起就一直带着这把柯尔特, 它确实发生了变化.
- 
-现在它能装下更多子弹. 我数过, 还数了两次. 一个本来只能装六发子弹的弹巢, 现在先装进了八发, 后来又变成十发. 再往后我就不数了.
- 
-[远处传来枪声]
- 
-枪会做梦. 我知道这听起来很荒唐, 但我没有疯. 睡觉时, 我能感觉到它在我身边做梦. 它很饥饿, 期待着早晨到来.
- 
-特里的步枪也一样. 现在装填只需要过去一半的时间. 不是因为她变快了, 而是枪变快了, 就像它在主动帮忙, 急着重新投入战斗.
- 
-[长时间停顿]
- 
-有个人从诺克斯堡过来. 他说在一切陷入黑暗之前, 那些专家正在讨论一种叫作'共感冶金'的现象. 他们认为感染可能拥有某种…我不知道该怎么说…在无机物上留下铭印的能力, 把它们变成集体意识的一部分之类的东西.
- 
-但我认为不是这样. 我觉得答案更简单.
- 
-这些枪只是在学习.
- 
-学习如何杀死目标.
- 
-而且它们已经学得非常好了.
- 
-[录音结束]
- 
-备注: 说话者身份不明. 录音机发现于 31 号公路旁的一辆废弃车辆中.",
-UI_VorpallySauced_CompIntro_VIII::zh-hans::processed::verified = "最后一篇记录-烧焦的书页-地点不明
- 
-[日记大部分已经烧毁, 只剩下一些残片]
- 
-…我终于明白那个老矿工的话是什么意思. '山一直都知道'.
- 
-我的砍刀在击杀约一百五十个目标后停止了磨损. 到两百个时, 刀刃甚至开始自行修复. 我亲眼看着一个缺口在一夜之间填平. 金属不会这样, 也不可能这样.
- 
-但它确实做到了.
- 
-[缺失数页]
- 
-…他把这种状态称为'成为血契武器'. 他说他祖父的猎枪在 1918 年西班牙流感时期也发生过同样的事. 他说, 吸收了足够多死亡的武器最终也会拒绝自身的死亡.
- 
-我以前以为他疯了. 现在我明白了.
- 
-到了这个阶段, 武器不只是与你建立羁绊, 而是会成为你的一部分. 你的心跳会与它的重量同步, 你的梦也会变成它的梦. 挥动它时, 你不会再思考该如何动作, 就像从不会思考该如何呼吸.
- 
-[烧痕遮住了数行文字]
- 
-…汤米·卡尔弗终于不再哭了. 他说短斧对他开口, 告诉了他自己的名字. 他不肯透露内容, 但整个人已经不同了, 更冷静, 也更沉稳. 现在他走到哪里都握着那把短斧, 睡觉时也不放开.
- 
-前几天有人问能不能借用. 汤米只是微笑着拒绝. 没有生气, 也没有害怕, 只是…非常确定.
- 
-这比任何事情都更让我害怕.
- 
-[最后一段可以辨认的文字]
- 
-如果你读到这里, 而你的武器已经成为血契武器, 那么恭喜. 你完成了一件不可能的事. 你杀死了足够多的目标, 以至于自己与武器之间的界限已经消失.
- 
-你已经不再只是幸存者.
- 
-你已经变成了完全不同的存在.
- 
-- R·L·莫里森, 马尔德劳
- 
-  [日期已经烧毁]",
 UI_VorpallySauced_CompTitle_I::zh-hans::processed::verified = "死寂惊变",
 UI_VorpallySauced_CompTitle_II::zh-hans::processed::verified = "血债未偿",
 UI_VorpallySauced_CompTitle_III::zh-hans::processed::verified = "暴虐余孽",
@@ -55928,8 +54854,6 @@ UI_VorpallySauced_CompTitle_V::zh-hans::processed::verified = "二次湮灭",
 UI_VorpallySauced_CompTitle_VI::zh-hans::processed::verified = "冷钢喋血",
 UI_VorpallySauced_CompTitle_VII::zh-hans::processed::verified = "枪骸残梦",
 UI_VorpallySauced_CompTitle_VIII::zh-hans::processed::verified = "血契者",
-UI_VorpallySauced_CompendiumDesc::zh-hans::processed::verified = "关于%1%2的战地观测.
-我们亲眼所见之物, 以及理智无法解释之物.",
 UI_VorpallySauced_CompendiumVolume::zh-hans::processed::verified = "《悸动录》卷 %1",
 UI_VorpallySauced_ConversionRecovered::zh-hans::processed::verified = "它仍记得你, 也记得每一次杀戮.",
 UI_VorpallySauced_EffectiveMagazine::zh-hans::processed::verified = "显效弹匣容量: %1 (装备后生效)",
@@ -56321,11 +55245,6 @@ UI_VorpallySauced_NotifyPrefix::zh-hans::processed::verified = "铭印: %1",
 UI_VorpallySauced_NotifyReroll::zh-hans::processed::verified = "重塑: %1",
 UI_VorpallySauced_NotifyShardGranted::zh-hans::processed::verified = "有什么从武器上蜕落. 锋利, 温热, 仍在悸动.",
 UI_VorpallySauced_NotifySuffix::zh-hans::processed::verified = "羁绊: %1",
-UI_VorpallySauced_NotifyTooltipLib::zh-hans::processed::verified = "可启用VorpallySauced: Enhanced Tooltips
-
-请从 Steam 创意工坊安装 'TooltipLib', 以查看包含属性明细、击杀进度和精通级别颜色的完整武器成长提示.
-
-未安装时武器仍可正常运作, 但旧式提示将在未来版本中移除.",
 UI_VorpallySauced_Opt_AffixPoolDesc::zh-hans::processed::verified = "仅限单人游戏. 选择哪些词缀可以在你的武器上生效. 多人游戏中, 由服务器的沙盒设置决定.",
 UI_VorpallySauced_Opt_AffixPoolTitle::zh-hans::processed::verified = "词缀池",
 UI_VorpallySauced_Opt_ConfigureAffixes::zh-hans::processed::verified = "配置单个词缀…",
@@ -57294,8 +56213,6 @@ UI_trait_AHS_WeakDigestionDesc::zh-hans::processed::verified = "反复疾病后�
 UI_trait_AHS_WeakDigestion_desc::zh-hans::processed::verified = "反复生病之后, 你的消化系统变得脆弱了.",
 UI_trait_AVClub::zh-hans::processed::verified = "AV社成员",
 UI_trait_AVClubDesc::zh-hans::processed::verified = "你是AV社的一员",
-UI_trait_AdrenalineJunkieDesc::zh-hans::processed::verified = "极度恐慌时移动速度加快.
-根据周围极近距离的僵尸数量, 提升耐力恢复速度并减缓疲劳积累.",
 UI_trait_AllThumbsDesc::zh-hans::processed::verified = "转移背包物品很慢. 走路时无法制作任何东西. <br>爬绳速度更慢, 摔倒的概率更高. <br>武器切换时间更慢. <br><br>+100% 背包转移速度更慢. <br>+20% 瞄准延迟. <br>武器卡壳后解锁的概率更低.",
 UI_trait_AllThumbsDesc2::zh-hans::processed::verified = "缓慢转移物品. <br> (+50%物品转移时间. 动作更慢.)",
 UI_trait_Ambidextrous::zh-hans::processed::verified = "双手灵巧",
@@ -57397,8 +56314,6 @@ UI_trait_InconspicuousDesc::zh-hans::processed::verified = "更不容易被僵�
 UI_trait_Inka::zh-hans::processed::verified = "老大师",
 UI_trait_InkaDesc::zh-hans::processed::verified = "他精通武术的本质, 达到了深奥的层次.<br>- 长枪挥砍速度 1.9 倍.<br># 此特质可通过沙盒选项调整.",
 UI_trait_Insensitive::zh-hans::processed::verified = "感觉迟钝",
-UI_trait_InsomniacDesc::zh-hans::processed::verified = "睡眠时疲劳感逐渐消退.
-睡眠中断会导致压力.",
 UI_trait_InventiveDesc::zh-hans::processed::verified = "研究物品配方或自动学习配方时, 技能等级要求更低.",
 UI_trait_IronGutDesc::zh-hans::processed::verified = "食物中毒的概率更低. <br><br>-50% 食物中毒的概率. <br>-50% 食物中毒严重度. <br>鸡蛋永远不会让你食物中毒.",
 UI_trait_JukeboxHero::zh-hans::processed::verified = "点唱机英雄",
@@ -57691,31 +56606,15 @@ UI_trait_SuperSlam::zh-hans::processed::verified = "力大砖飞",
 UI_trait_SurvivalSpecialistDF::zh-hans::processed::verified = "生存训练",
 UI_trait_SurvivalSpecialistDescDF::zh-hans::processed::verified = "在荒野中的大量战斗任务让你成为了单人生存的专家，即使在最偏远的环境中也能生存。<LINE> +3觅食, +3耕种, +3钓鱼, +3陷阱技能和+2斧头技能。<LINE> 开局自带帐篷和营火套件。<LINE> 开局已学会生存相关的配方。",
 UI_trait_TE_BackLifter::zh-hans::processed::verified = "虎背熊腰",
-UI_trait_TE_BackLifterdesc::zh-hans::processed::verified = "腰背有力, 膝盖不弯. 天生的牛马.
-每点力量提升的负重+50%.",
 UI_trait_TE_BadKnees::zh-hans::processed::verified = "膝盖不好",
-UI_trait_TE_BadKneesdesc::zh-hans::processed::verified = "每走一步都是负担.
-每天走得越多, 腿部疼痛就越严重, 过夜后会有所缓解.",
 UI_trait_TE_BadSpleen::zh-hans::processed::verified = "脾脏不好",
-UI_trait_TE_BadSpleendesc::zh-hans::processed::verified = "身体里有点儿不对劲.
-大约每3小时就会有一阵轻微的疼痛.",
 UI_trait_TE_BigBoned::zh-hans::processed::verified = "骨骼粗壮",
-UI_trait_TE_BigBoneddesc::zh-hans::processed::verified = "壮得像头牛. 骨头不会断.
-骨头从不骨折或扭伤.",
 UI_trait_TE_BrokenBack::zh-hans::processed::verified = "背部损伤",
-UI_trait_TE_BrokenBackdesc::zh-hans::processed::verified = "一直没有痊愈.
-疼痛会随时间加剧, 除非持续服用止痛药, 否则无法入睡. 负重上限-35%.",
 UI_trait_TE_ConvictedFelon::zh-hans::processed::verified = "危险罪犯",
-UI_trait_TE_ConvictedFelondesc::zh-hans::processed::verified = "你见过里面的东西. 死人吓不到你.
-不会恐慌.",
 UI_trait_TE_GlassCannon::zh-hans::processed::verified = "玻璃大炮",
 UI_trait_TE_GlassCannondesc::zh-hans::processed::verified = "你的身体对病毒毫无抵抗力. 任何抓伤、割伤或撕裂伤都有50%的几率受到感染.",
 UI_trait_TE_Novocaine::zh-hans::processed::verified = "奴佛卡因",
-UI_trait_TE_Novocainedesc::zh-hans::processed::verified = "你的神经对世间万物麻木了.
-你感觉不到身体疼痛和肌肉疲劳.",
 UI_trait_TE_Toothless::zh-hans::processed::verified = "牙齿脱落",
-UI_trait_TE_Toothlessdesc::zh-hans::processed::verified = "用牙龈咀嚼食物很费劲.
-吃饭需要两倍的时间.",
 UI_trait_TailorDesc::zh-hans::processed::verified = "已掌握知识: <br>-编织: 巴拉克拉法帽 -针织帽 -杯垫 -暖腿套 -围巾 -袜子 -针织背心 -羊毛帽<br>-缝制兽皮: 靴子 -裤子 -外套 -连帽衫 -夹克 -长袍 -帽子 -睡袋 -钱包 -腰包<br>-缝制皮革: 护裆 -护喉 -工具卷 -手套 -水袋 -绑腿 -臂甲 -裤子<br>-制作防水布: 胸挂 -背心 -连衣裙<br>-缝制简易皮革背包<br>-组装框架背包与高级框架背包<br>-制作垃圾袋背心与连衣裙<br>-编织麻绳鞋<br>-缝制枪套与双枪套<br>-制作西部靴<br>-缝制腰带<br>-缝制凉鞋<br>-缝制子弹带与霰弹子弹带<br>-缝制毛兽皮外套与夹克<br>-缝制护肘<br>-缝制护膝<br>-缝制布制挎包<br>-缝制及膝连衣裙与长裙<br>-缝制秋裤与秋裤下装<br>-缝制衬衫与无袖衬衫<br>-缝制及膝裙与长裙<br>-缝制裤子<br>",
 UI_trait_TailorDesc2::zh-hans::processed::verified = "了解一些缝纫配方.",
 UI_trait_TaxRefund::zh-hans::processed::verified = "戏法子弹",
@@ -57913,8 +56812,6 @@ UI_trait_gunspecialist::zh-hans::processed::verified = "枪械专家",
 UI_trait_gunspecialistdesc::zh-hans::processed::verified = "游戏开始时拥有关于枪械的深入了解. <br>+2瞄准<br>+2装弹",
 UI_trait_gymgoer::zh-hans::processed::verified = "健身达人",
 UI_trait_gymgoerdesc::zh-hans::processed::verified = "你享受健身. <br>锻炼对你来说有双倍的效果, 且不会经历锻炼疲劳. <br>+1体格<br>+1力量",
-UI_trait_handydesc::zh-hans::processed::verified = "建造速度更快更坚固.
-建造和设置障碍的速度提高一倍。",
 UI_trait_hardheardesc::zh-hans::processed::verified = "感知半径更小. <br>听力范围更小.",
 UI_trait_hardy::zh-hans::processed::verified = "吃苦耐劳",
 UI_trait_hardydesc::zh-hans::processed::verified = "不管是来源于意志力或是身体素质, 你即使是长时间工作也不会累. <br>你的最大体力增加25%.",
@@ -57998,8 +56895,6 @@ UI_trait_natural::zh-hans::processed::verified = "食本自然",
 UI_trait_naturaldesc::zh-hans::processed::verified = "你向来不喜欢加防腐剂的食物, 喜欢选择纯天然的. <br>+1烹饪<br>+1搜寻",
 UI_trait_navigator::zh-hans::processed::verified = "航海家",
 UI_trait_navigatordesc::zh-hans::processed::verified = "生成时带有装有诺克斯郡的地图的背包.",
-UI_trait_nightowldesc::zh-hans::processed::verified = "睡眠需求极低. 即使在睡眠中也保持高度警觉.
-夜晚和黑暗环境能减轻压力, 并延缓疲劳的积累.",
 UI_trait_nimblefingers::zh-hans::processed::verified = "锁匠",
 UI_trait_nimblefingersDesc::zh-hans::processed::verified = "你已经了解了如何撬锁开锁的知识, 以及如何检查车辆/建筑物中的警报",
 UI_trait_noodlelegs::zh-hans::processed::verified = "腿脚不灵",

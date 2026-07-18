@@ -2,7 +2,7 @@
   {
     "mod_id": "3489824979",
     "translation_key": "ItemName_Base.CannedMeatTrex",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
     "source_hash": "44d3759de11414998ee2fe7fe10f8541"
@@ -10,7 +10,7 @@
   {
     "mod_id": "3489824979",
     "translation_key": "ItemName_Base.CannedMeat_OpenTrex",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
     "source_hash": "446cb21a39090b9157281a5120dfdbb6"
@@ -18,7 +18,7 @@
   {
     "mod_id": "3489824979",
     "translation_key": "ItemName_Base.WaterPotForgedMeatjarpreparation_Trex",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
     "source_hash": "4a0ad926a04342c3eb8c1df71d65ec8d"
@@ -26,7 +26,7 @@
   {
     "mod_id": "3489824979",
     "translation_key": "ItemName_Base.WaterPotMeatjarpreparation_Trex",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
     "source_hash": "99e3cd478bf26efd5fe10b1285471152"
@@ -35,46 +35,78 @@
     "mod_id": "3489824979",
     "translation_key": "ItemName_Trex.CannedMeatTrex",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
-    "source_hash": "801652da6bb9db4bbe5afd7a49f4c581"
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "c9ae9ddf0ff54a4ad490cb1e25df4ac1"
   },
   {
     "mod_id": "3489824979",
     "translation_key": "ItemName_Trex.CannedMeat_OpenTrex",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
-    "source_hash": "06419eed9dab1ed1849e622d765caf7e"
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "fd203e1ab553861fbce2266f57bf6ef2"
   },
   {
     "mod_id": "3489824979",
     "translation_key": "ItemName_Trex.WaterPotForgedMeatjarpreparationTrex",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
+    "last_seen_at": "2026-07-18T19:10:50.8154960Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
     "source_hash": "22768f8ebdbb095fa565a38ec31d3cbd"
+  },
+  {
+    "mod_id": "3489824979",
+    "translation_key": "ItemName_Trex.WaterPotForgedMeatjarpreparation_Trex",
+    "is_active": true,
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "faadf19a6ab3951c9720507700c2c56e"
   },
   {
     "mod_id": "3489824979",
     "translation_key": "ItemName_Trex.WaterPotMeatjarpreparationTrex",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
+    "last_seen_at": "2026-07-18T19:10:50.8154978Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
     "source_hash": "50346bc1ebbe3c6a1290155ccb085555"
+  },
+  {
+    "mod_id": "3489824979",
+    "translation_key": "ItemName_Trex.WaterPotMeatjarpreparation_Trex",
+    "is_active": true,
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "2d14117bf0cae43fa88ec0f7592cf817"
+  },
+  {
+    "mod_id": "3489824979",
+    "translation_key": "MakeFishjarpreparationTrex",
+    "is_active": true,
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "009a18dd429de10e7c3f9f220d92be2e"
   },
   {
     "mod_id": "3489824979",
     "translation_key": "MakeMeatTrex",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
+    "last_seen_at": "2026-07-18T19:10:50.8154984Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
     "source_hash": "f07a0611d3b0dc93b40aafa3df9b317b"
   },
   {
     "mod_id": "3489824979",
-    "translation_key": "MakeMeatjarpreparation_Trex",
+    "translation_key": "MakeMeatjarpreparationTrex",
     "is_active": true,
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "3676a0a5ae12b2779a29e28ec751816b"
+  },
+  {
+    "mod_id": "3489824979",
+    "translation_key": "MakeMeatjarpreparation_Trex",
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
     "source_hash": "fd96de398d7ed08c0f7fe2df830b6253"
@@ -83,40 +115,80 @@
     "mod_id": "3489824979",
     "translation_key": "OpenJarOfMeatTrex",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
+    "last_seen_at": "2026-07-18T19:10:50.8154992Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
     "source_hash": "407311599bf5b30351f94277916f4025"
   },
   {
     "mod_id": "3489824979",
     "translation_key": "Recipe_MakeFishjarpreparationTrex",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
+    "last_seen_at": "2026-07-18T19:10:50.8154998Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
     "source_hash": "721d4586ac153210ddfb4b58fd1df7ac"
   },
   {
     "mod_id": "3489824979",
     "translation_key": "Recipe_MakeMeatTrex",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
-    "source_hash": "f39cf6d1dd2a5999193c73032c623d38"
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "b44853203a586ce608a63595230ef757"
   },
   {
     "mod_id": "3489824979",
     "translation_key": "Recipe_MakeMeatjarpreparationTrex",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
+    "last_seen_at": "2026-07-18T19:10:50.8155016Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
     "source_hash": "d894d91fa1788bb7748bad77003a4ec6"
+  },
+  {
+    "mod_id": "3489824979",
+    "translation_key": "Recipe_MakeMeatjarpreparation_Trex",
+    "is_active": true,
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "f78930125d7d4c1ceea6570303f320f0"
   },
   {
     "mod_id": "3489824979",
     "translation_key": "Recipe_OpenJarOfMeatTrex",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-21T20:53:52.0000000Z",
-    "source_hash": "7943a6f6ed54f08c1b71c26ae108d9e4"
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "af60a5b57c049778155981fdb9ed9ce0"
+  },
+  {
+    "mod_id": "3489824979",
+    "translation_key": "Trex.CannedMeatTrex",
+    "is_active": true,
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "b4ca71116b261042f388988edc92568a"
+  },
+  {
+    "mod_id": "3489824979",
+    "translation_key": "Trex.CannedMeat_OpenTrex",
+    "is_active": true,
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "2e55eeff6775a459e52eb9d4a5106ede"
+  },
+  {
+    "mod_id": "3489824979",
+    "translation_key": "Trex.WaterPotForgedMeatjarpreparationTrex",
+    "is_active": true,
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "fdc48991c059c16e1e9746554fb06ddf"
+  },
+  {
+    "mod_id": "3489824979",
+    "translation_key": "Trex.WaterPotMeatjarpreparationTrex",
+    "is_active": true,
+    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
+    "last_seen_mod_updated": "2026-07-18T10:23:33.0000000Z",
+    "source_hash": "c567c7ef2bcaa4f9ac6e4992e8d78c4e"
   }
 ]
