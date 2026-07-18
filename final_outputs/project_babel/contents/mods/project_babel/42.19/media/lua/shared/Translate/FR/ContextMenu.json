@@ -2249,8 +2249,8 @@
   "ContextMenu_BurdJournals_RepairTape": "Réparer avec du ruban adhésif",
   "ContextMenu_BurdJournals_SkillCount": "%1 compétence",
   "ContextMenu_BurdJournals_SkillsCount": "%1 compétences",
-  "ContextMenu_BurdJournals_TraitCount": "Caractéristique %1",
-  "ContextMenu_BurdJournals_TraitsCount": "Caractéristiques %1",
+  "ContextMenu_BurdJournals_TraitCount": "%1 trait",
+  "ContextMenu_BurdJournals_TraitsCount": "%1 traits",
   "ContextMenu_BurdJournals_UpdateRecords": "Mettre à jour les notes",
   "ContextMenu_BurdJournals_WornBlank": "Journal vierge usé",
   "ContextMenu_WBNails_ClipFingernails": "Couper les ongles des mains",
@@ -4630,5 +4630,12 @@
   "ContextMenu_SmarterStorage_Edit": "Modifier",
   "ContextMenu_SmarterStorage_Paste": "Coller",
   "ContextMenu_SmarterStorage_Presets": "Préréglages",
-  "ContextMenu_SmarterStorage_Reset": "Réinitialiser"
+  "ContextMenu_SmarterStorage_Reset": "Réinitialiser",
+  "ContextMenu_TireStackTakeTirePieces": "Couper %1 morceaux de pneu du tas de pneus",
+  "ContextMenu_TireStackOptions": "Options de la pile de pneus",
+  "ContextMenu_SyncingTireStackDataServerCancel": "Chargement sur le serveur pour la première fois, cliquez à nouveau pour actualiser",
+  "ContextMenu_WANTED": "WANTED",
+  "ContextMenu_WANTED_Open": "Ouvrir l'interface WANTED",
+  "ContextMenu_WANTED_Add": "Ajouter l'objet sélectionné à WANTED",
+  "ContextMenu_WANTED_Remove": "Retirer l'objet sélectionné de WANTED"
 }
