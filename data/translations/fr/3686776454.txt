@@ -1,5 +1,17 @@
 Base.ClothMask::en = "Cloth mask",
 Base.ClothMask::fr::processed::unverified = "Masque en tissu",
+Base.HazmatSuit::en = "Hazmat Suit MK1",
+Base.HazmatSuit::fr::processed::unverified = "Combinaison Hazmat MK1",
+Base.HazmatSuitMK2::en = "Hazmat Suit MK2",
+Base.HazmatSuitMK2::fr::processed::unverified = "Combinaison Hazmat MK2",
+Base.HazmatSuitMK2_notank::en = "Hazmat Suit MK2 (no tank)",
+Base.HazmatSuitMK2_notank::fr::processed::unverified = "Combinaison Hazmat MK2 (sans réservoir)",
+Base.HazmatSuitMK3::en = "Hazmat Suit MK3",
+Base.HazmatSuitMK3::fr::processed::unverified = "Combinaison Hazmat MK3",
+Base.HazmatSuitMK3_notank::en = "Hazmat Suit MK3 (no tank)",
+Base.HazmatSuitMK3_notank::fr::processed::unverified = "Combinaison Hazmat MK3 (sans réservoir)",
+Base.HazmatSuit_notank::en = "Hazmat Suit MK1 (no tank)",
+Base.HazmatSuit_notank::fr::processed::unverified = "Combinaison Hazmat MK1 (sans réservoir)",
 DeadBody.BodyPart::en = "Zombie body piece",
 DeadBody.BodyPart::fr::processed::unverified = "Morceau de cadavre de zombie",
 DeadBody.BodyPart-1::en = "Zombie body piece (variant 2)",
@@ -16,6 +28,488 @@ DeadBody.BodyPart2-2::en = "Zombie body piece (alternate, variant 3)",
 DeadBody.BodyPart2-2::fr::processed::unverified = "Morceau de cadavre de zombie (alternatif, variante 3)",
 DeadBody.BodyPart2-3::en = "Zombie body piece (alternate, variant 4)",
 DeadBody.BodyPart2-3::fr::processed::unverified = "Morceau de cadavre de zombie (alternatif, variante 4)",
+Print_Text_NecroaBarricade_Day001::en = "Day 1 (no plague related):
+First Monday of April 1993; overslept and nearly missed the Chevy, diner coffee tasted burnt but the rain cleared by noon.
+Feels good to scratch ink into this old spiral again.",
+Print_Text_NecroaBarricade_Day001::fr::processed::unverified = "Jour 1 (aucun rapport avec la peste) :\\nPremier lundi d'avril 1993 ; j'ai fait la grasse matinée et j'ai presque raté la Chevy, le café du diner avait un goût de brûlé mais la pluie s'est arrêtée vers midi.\\nÇa fait du bien de griffonner de l'encre dans ce vieux spiral à nouveau.",
+Print_Text_NecroaBarricade_Day002::en = "Day 2 (no plague related):
+Downtown Louisville felt gray and normal, traffic slow, coworkers at the insurance office griping about paper jams.
+Picked up groceries and nodded to the night watchman downstairs.",
+Print_Text_NecroaBarricade_Day002::fr::processed::unverified = "Jour 2 (aucun rapport avec la peste) :\\nLe centre-ville de Louisville était gris et normal, circulation lente, collègues au bureau d'assurance se plaignant des bourrages papier.\\nJ'ai pris des courses et j'ai salué le veilleur de nuit en bas.",
+Print_Text_NecroaBarricade_Day003::en = "Day 3 (no plague related):
+Tried the new sandwich counter near the courthouse; bread was soggy but the ham decent.
+Neighborhood kid practiced trumpet until midnight and I pretended it was avant-garde.",
+Print_Text_NecroaBarricade_Day003::fr::processed::unverified = "Jour 3 (aucun rapport avec la peste) :\\nEssayé le nouveau comptoir sandwich près du tribunal ; le pain était détrempé mais le jambon correct.\\nUn gamin du quartier a joué de la trompette jusqu'à minuit et j'ai prétendu que c'était d'avant-garde.",
+Print_Text_NecroaBarricade_Day004::en = "Day 4 (no plague related):
+Jogged along the Ohio River and noticed more mall-walkers than usual.
+Work stayed quiet except for gossip about Mr. Dalton's mustache.",
+Print_Text_NecroaBarricade_Day004::fr::processed::unverified = "Jour 4 (aucun rapport avec la peste) :\\nJ'ai couru le long de la rivière Ohio et j'ai remarqué plus de promeneurs que d'habitude.\\nLe travail est resté calme à part les commérages sur la moustache de M. Dalton.",
+Print_Text_NecroaBarricade_Day005::en = "Day 5 (no plague related):
+Friday mood in the office led to debates over renting Jurassic Park again on VHS.
+Evening news droned about soybean futures I barely understood.",
+Print_Text_NecroaBarricade_Day005::fr::processed::unverified = "Jour 5 (aucun rapport avec la peste) :\\nL'ambiance du vendredi au bureau a mené à des débats sur la location de Jurassic Park à nouveau en VHS.\\nLes infos du soir ont débité des trucs sur les contrats à terme de soja que je comprenais à peine.",
+Print_Text_NecroaBarricade_Day006::en = "Day 6 (no plague related):
+Slept in, cleaned the apartment, wrestled with the vacuum bag.
+Heard distant sirens, but Louisville hums like that on Saturdays.",
+Print_Text_NecroaBarricade_Day006::fr::processed::unverified = "Jour 6 (aucun rapport avec la peste) :\\nJ'ai fait la grasse matinée, nettoyé l'appartement, lutté avec le sac de l'aspirateur.\\nJ'ai entendu des sirènes lointaines, mais Louisville bourdonne comme ça le samedi.",
+Print_Text_NecroaBarricade_Day007::en = "Day 7 (no plague related):
+Brunch with Marco and Lila at the cracked Formica diner counter; we swapped cassette mixtapes.
+Someone sneezed behind us and the whole row of stools laughed nervously for no reason.",
+Print_Text_NecroaBarricade_Day007::fr::processed::unverified = "Jour 7 (aucun rapport avec la peste) :\\nBrunch avec Marco et Lila au comptoir du diner en Formica fissuré ; on a échangé des cassettes mixtapes.\\nQuelqu'un a éternué derrière nous et toute la rangée de tabourets a ri nerveusement sans raison.",
+Print_Text_NecroaBarricade_Day008::en = "Day 8 (no plague related):
+Back to the grind; the copy machine ate two stacks before lunch.
+Boss hinted at overtime if claims keep rolling in.",
+Print_Text_NecroaBarricade_Day008::fr::processed::unverified = "Jour 8 (aucun rapport avec la peste) :\\nRetour au boulot ; la photocopieuse a bouffé deux piles avant le déjeuner.\\nLe boss a laissé entendre des heures sup si les réclamations continuent d'affluer.",
+Print_Text_NecroaBarricade_Day009::en = "Day 9 (no plague related):
+Sun broke through, so I ate lunch on the courthouse steps.
+A woman in the square stared at pigeons like they were listening to her secrets.",
+Print_Text_NecroaBarricade_Day009::fr::processed::unverified = "Jour 9 (aucun rapport avec la peste) :\\nLe soleil a percé, alors j'ai mangé le déjeuner sur les marches du tribunal.\\nUne femme sur la place fixait les pigeons comme s'ils écoutaient ses secrets.",
+Print_Text_NecroaBarricade_Day010::en = "Day 10 (no plague related):
+Dreamt of elevators stuck between floors and woke to cold cereal.
+Promised myself I'd cook something real tomorrow.",
+Print_Text_NecroaBarricade_Day010::fr::processed::unverified = "Jour 10 (aucun rapport avec la peste) :\\nRêvé d'ascenseurs bloqués entre les étages et réveillé avec des céréales froides.\\nPromis que je cuisinerais quelque chose de vrai demain.",
+Print_Text_NecroaBarricade_Day011::en = "Day 11 (no plague related):
+Morning bus was unusually quiet, a guy across the aisle kept rubbing his temples.
+I tuned out the silence with a scratched Tom Petty tape.",
+Print_Text_NecroaBarricade_Day011::fr::processed::unverified = "Jour 11 (aucun rapport avec la peste) :\\nLe bus du matin était exceptionnellement silencieux, un type en face se frottait les tempes.\\nJ'ai noyé le silence avec une cassette rayée de Tom Petty.",
+Print_Text_NecroaBarricade_Day012::en = "Day 12 (no plague related):
+Elevator in my building lurched between floors; maintenance blamed humidity.
+Bought extra coffee grounds because Kroger had a sale.",
+Print_Text_NecroaBarricade_Day012::fr::processed::unverified = "Jour 12 (aucun rapport avec la peste) :\\nL'ascenseur de mon immeuble a tangué entre les étages ; la maintenance a blâmé l'humidité.\\nAcheté du café moulu en plus parce que Kroger avait une promo.",
+Print_Text_NecroaBarricade_Day013::en = "Day 13 (no plague related):
+Office air felt stale, or maybe I need to drink more water.
+Street preacher by the Galleria warned of storms to come; April always brings characters.",
+Print_Text_NecroaBarricade_Day013::fr::processed::unverified = "Jour 13 (aucun rapport avec la peste) :\\nL'air du bureau était vicié, ou peut-être que j'ai besoin de boire plus d'eau.\\nUn prêcheur de rue près de la Galleria a averti des tempêtes à venir ; avril ramène toujours des personnages.",
+Print_Text_NecroaBarricade_Day014::en = "Day 14 (no plague related):
+Family long-distance call turned into a debate about Fourth of July plans.
+Mom wants everyone back in Muldraugh; I promised to visit.",
+Print_Text_NecroaBarricade_Day014::fr::processed::unverified = "Jour 14 (aucun rapport avec la peste) :\\nUn appel longue distance familial s'est transformé en débat sur les plans du 4 juillet.\\nMaman veut que tout le monde revienne à Muldraugh ; j'ai promis de rendre visite.",
+Print_Text_NecroaBarricade_Day015::en = "Day 15 (no plague related):
+Late train home, conductor coughed through the announcements but kept rolling.
+Fell asleep to a VHS of bat documentaries from the library.",
+Print_Text_NecroaBarricade_Day015::fr::processed::unverified = "Jour 15 (aucun rapport avec la peste) :\\nTrain du soir en retard, le conducteur a toussé pendant les annonces mais a continué.\\nEndormi devant une VHS de documentaires sur les chauves-souris de la bibliothèque.",
+Print_Text_NecroaBarricade_Day016::en = "Day 16 (no plague related):
+Grocery clerk wore a bandage on her forearm, said she slipped slicing bread.
+Apartment hallway smelled like disinfectant and lemon.",
+Print_Text_NecroaBarricade_Day016::fr::processed::unverified = "Jour 16 (aucun rapport avec la peste) :\\nL'employée de l'épicerie portait un bandage sur l'avant-bras, a dit qu'elle avait glissé en coupant du pain.\\nLe couloir de l'appartement sentait le désinfectant et le citron.",
+Print_Text_NecroaBarricade_Day017::en = "Day 17 (no plague related):
+Jorge canceled lunch, said he felt \"foggy\" and would catch up next week.
+I took the Chevy through the wash and felt oddly productive.",
+Print_Text_NecroaBarricade_Day017::fr::processed::unverified = "Jour 17 (aucun rapport avec la peste) :\\nJorge a annulé le déjeuner, a dit qu'il se sentait « dans le brouillard » et qu'il me rattraperait la semaine prochaine.\\nJ'ai passé la Chevy au lavage et je me suis senti étrangement productif.",
+Print_Text_NecroaBarricade_Day018::en = "Day 18 (no plague related):
+WCKY radio kept cutting to public service reminders about hand-washing; pollen count must be high.
+Finished a detective paperback with an abrupt ending.",
+Print_Text_NecroaBarricade_Day018::fr::processed::unverified = "Jour 18 (aucun rapport avec la peste) :\\nLa radio WCKY n'arrêtait pas de passer des rappels de service public sur le lavage des mains ; le taux de pollen doit être élevé.\\nFini un livre de poche de détective avec une fin abrupte.",
+Print_Text_NecroaBarricade_Day019::en = "Day 19 (no plague related):
+Woke to the thrum of helicopters, probably training near Fort Knox.
+Receptionist handed me the wrong parcel—somebody's vitamins.",
+Print_Text_NecroaBarricade_Day019::fr::processed::unverified = "Jour 19 (aucun rapport avec la peste) :\\nRéveillé par le vrombissement d'hélicoptères, probablement en entraînement près de Fort Knox.\\nLa réceptionniste m'a remis le mauvais colis - des vitamines pour quelqu'un.",
+Print_Text_NecroaBarricade_Day020::en = "Day 20 (no plague related):
+Tried meditating after work, mind drifted to grocery lists.
+Streetlight outside flickers again; need to call the city works office.",
+Print_Text_NecroaBarricade_Day020::fr::processed::unverified = "Jour 20 (aucun rapport avec la peste) :\\nEssayé de méditer après le travail, l'esprit a dérivé vers les listes de courses.\\nLe lampadaire dehors clignote encore ; faut appeler le bureau des travaux de la ville.",
+Print_Text_NecroaBarricade_Day021::en = "Day 21 (no plague related):
+Super said folks on the third floor filed a noise complaint about whispered arguments.
+Streets felt emptier after sunset.",
+Print_Text_NecroaBarricade_Day021::fr::processed::unverified = "Jour 21 (aucun rapport avec la peste) :\\nLe super a dit que des gens du troisième étage ont déposé une plainte pour bruit à propos de disputes chuchotées.\\nLes rues semblaient plus vides après le coucher du soleil.",
+Print_Text_NecroaBarricade_Day022::en = "Day 22 (no plague related):
+Sudden storm trapped us in the conference room; we swapped plumbing horror stories.
+My old umbrella finally gave up.",
+Print_Text_NecroaBarricade_Day022::fr::processed::unverified = "Jour 22 (aucun rapport avec la peste) :\\nUne tempête soudaine nous a coincés dans la salle de réunion ; on a échangé des histoires d'horreur de plomberie.\\nMon vieux parapluie a finalement lâché.",
+Print_Text_NecroaBarricade_Day023::en = "Day 23 (no plague related):
+Stopped by the pharmacy; shelves looked a little thin but maybe the truck ran late.
+Counter girl wrote my name as \"Darin\" on the receipt.",
+Print_Text_NecroaBarricade_Day023::fr::processed::unverified = "Jour 23 (aucun rapport avec la peste) :\\nPassé à la pharmacie ; les étagères semblaient un peu vides mais peut-être que le camion était en retard.\\nLa fille au comptoir a écrit mon nom comme « Darin » sur le reçu.",
+Print_Text_NecroaBarricade_Day024::en = "Day 24 (no plague related):
+Marco canceled movie night, said his girl had a weird cold and he was staying over with soup.
+I microwaved leftovers and dusted the Super Nintendo.",
+Print_Text_NecroaBarricade_Day024::fr::processed::unverified = "Jour 24 (aucun rapport avec la peste) :\\nMarco a annulé la soirée cinéma, a dit que sa copine avait un rhume bizarre et qu'il restait avec de la soupe.\\nJ'ai réchauffé des restes au micro-ondes et épousseté la Super Nintendo.",
+Print_Text_NecroaBarricade_Day025::en = "Day 25 (no plague related):
+Morning news mentioned a shipping delay on the Ohio, nothing new.
+Saw two cops in paper masks outside the courthouse, probably drill practice.",
+Print_Text_NecroaBarricade_Day025::fr::processed::unverified = "Jour 25 (pas lié à la peste) : Les infos du matin ont mentionné un retard de livraison sur l'Ohio, rien de nouveau. Vu deux flics avec des masques en papier devant le tribunal, probablement un exercice.",
+Print_Text_NecroaBarricade_Day026::en = "Day 26 (no plague related):
+Laundry day, dryer kept stopping mid-cycle and I kicked it back to life.
+Stray dog paced the alley, whining at shadows.",
+Print_Text_NecroaBarricade_Day026::fr::processed::unverified = "Jour 26 (pas lié à la peste) : Jour de lessive, le sèche-linge n'arrêtait pas de s'arrêter en plein cycle et je lui ai redonné vie d'un coup de pied. Un chien errant arpentait l'allée, gémissant sur les ombres.",
+Print_Text_NecroaBarricade_Day027::en = "Day 27 (no plague related):
+HR sent a memo reminding us to stay home if feverish; half the floor joked it's because Greg sneezed.
+Still hit the gym and wiped every barbell like a germ warrior.",
+Print_Text_NecroaBarricade_Day027::fr::processed::unverified = "Jour 27 (pas lié à la peste) : Les RH ont envoyé une note nous rappelant de rester chez nous en cas de fièvre ; la moitié de l'étage a plaisanté en disant que c'était parce que Greg avait éternué. Je suis quand même allé à la salle de sport et j'ai essuyé chaque barre comme un guerrier des germes.",
+Print_Text_NecroaBarricade_Day028::en = "Day 28 (no plague related):
+TARC bus skipped three stops due to \"staff shortages\" announced through static.
+Grabbed a burger; the cook forgot the pickles.",
+Print_Text_NecroaBarricade_Day028::fr::processed::unverified = "Jour 28 (pas lié à la peste) : Le bus TARC a sauté trois arrêts en raison de « pénurie de personnel » annoncée à travers des parasites. J'ai pris un burger ; le cuisinier a oublié les cornichons.",
+Print_Text_NecroaBarricade_Day029::en = "Day 29 (no plague related):
+Kid on the bus hummed the same lullaby while his mother looked bone tired.
+A man outside the bank muttered about headaches spreading like gossip.",
+Print_Text_NecroaBarricade_Day029::fr::processed::unverified = "Jour 29 (pas lié à la peste) : Un gamin dans le bus fredonnait la même berceuse tandis que sa mère avait l'air épuisée. Un homme devant la banque marmonnait que les maux de tête se propageaient comme des commérages.",
+Print_Text_NecroaBarricade_Day030::en = "Day 30 (no plague related):
+Month-end paperwork ran long; everyone looked drained.
+Picked up earplugs because the sirens feel louder lately.",
+Print_Text_NecroaBarricade_Day030::fr::processed::unverified = "Jour 30 (pas lié à la peste) : La paperasse de fin de mois a traîné ; tout le monde avait l'air vidé. J'ai pris des boules Quies parce que les sirènes semblent plus fortes ces derniers temps.",
+Print_Text_NecroaBarricade_Day031::en = "Day 31:
+HR asked us to update emergency contacts \"just protocol,\" and the room fell silent.
+Someone cracked a joke about zombie drills and we laughed because what else do you do.",
+Print_Text_NecroaBarricade_Day031::fr::processed::unverified = "Jour 31 : Les RH nous ont demandé de mettre à jour les contacts d'urgence, « juste une procédure », et la pièce est devenue silencieuse. Quelqu'un a lancé une blague sur les exercices anti-zombies et on a ri parce que quoi d'autre faire.",
+Print_Text_NecroaBarricade_Day032::en = "Day 32:
+Neighborhood grocer reeked of bleach; half the shoppers wore painter masks.
+Clerk said cold medicine vanished within an hour of delivery.",
+Print_Text_NecroaBarricade_Day032::fr::processed::unverified = "Jour 32 : L'épicier du quartier puait l'eau de Javel ; la moitié des acheteurs portaient des masques de peintre. Le caissier a dit que les médicaments contre le rhume avaient disparu en une heure après la livraison.",
+Print_Text_NecroaBarricade_Day033::en = "Day 33:
+Read a Courier-Journal column claiming a barge arrived with half the crew feverish—probably talk radio nonsense.
+Still washed my hands longer than usual just in case.",
+Print_Text_NecroaBarricade_Day033::fr::processed::unverified = "Jour 33 : J'ai lu une chronique du Courier-Journal affirmant qu'une péniche était arrivée avec la moitié de l'équipage fiévreux — probablement des conneries de radio talk. Je me suis quand même lavé les mains plus longtemps que d'habitude, au cas où.",
+Print_Text_NecroaBarricade_Day034::en = "Day 34:
+Sandra from accounting had a nosebleed that wouldn't quit during the morning meeting; she blamed the dry vents.
+Later she kept rubbing her arms like chills in July.",
+Print_Text_NecroaBarricade_Day034::fr::processed::unverified = "Jour 34 : Sandra de la compta a eu un saignement de nez qui n'arrêtait pas pendant la réunion du matin ; elle a accusé les bouches d'aération sèches. Plus tard, elle n'arrêtait pas de se frotter les bras comme si elle avait froid en juillet.",
+Print_Text_NecroaBarricade_Day035::en = "Day 35:
+Governor's press conference called it a \"strange new flu\" near Bowling Green and urged calm.
+Rolled my eyes and flipped the dial back to baseball.",
+Print_Text_NecroaBarricade_Day035::fr::processed::unverified = "Jour 35 : La conférence de presse du gouverneur a qualifié cela de « nouvelle grippe étrange » près de Bowling Green et a exhorté au calme. J'ai levé les yeux au ciel et j'ai remis le cadran sur le baseball.",
+Print_Text_NecroaBarricade_Day036::en = "Day 36:
+Pharmacy line wrapped around the block; folks argued over vitamin C bottles.
+I bought cereal and escaped before voices rose.",
+Print_Text_NecroaBarricade_Day036::fr::processed::unverified = "Jour 36 : La file d'attente de la pharmacie faisait le tour du pâté de maisons ; les gens se disputaient des bouteilles de vitamine C. J'ai acheté des céréales et je me suis échappé avant que les voix ne s'élèvent.",
+Print_Text_NecroaBarricade_Day037::en = "Day 37:
+Lila said her office split shifts and staggered desks for \"infection control.\"
+She called it corporate theater but liked leaving early.",
+Print_Text_NecroaBarricade_Day037::fr::processed::unverified = "Jour 37 : Lila a dit que son bureau avait divisé les équipes et décalé les bureaux pour le « contrôle des infections ». Elle a appelé ça du théâtre d'entreprise mais aimait partir tôt.",
+Print_Text_NecroaBarricade_Day038::en = "Day 38:
+WHAS radio hosts dropped sports talk for call-in symptom reports.
+Bus driver wiped the steering wheel at every stop.",
+Print_Text_NecroaBarricade_Day038::fr::processed::unverified = "Jour 38 : Les animateurs radio de WHAS ont abandonné les sports pour des rapports de symptômes par appel. Le conducteur de bus essuyait le volant à chaque arrêt.",
+Print_Text_NecroaBarricade_Day039::en = "Day 39:
+Jorge returned, pale and jittery, said his cousin's fever wouldn't break and hospital halls were full.
+He lost his train of thought mid-sentence, staring at the carpet.",
+Print_Text_NecroaBarricade_Day039::fr::processed::unverified = "Jour 39 : Jorge est revenu, pâle et nerveux, a dit que la fièvre de son cousin ne baissait pas et que les couloirs de l'hôpital étaient pleins. Il a perdu le fil de sa pensée au milieu d'une phrase, fixant la moquette.",
+Print_Text_NecroaBarricade_Day040::en = "Day 40:
+Boss circulated a memo about setting up dial-up access \"if the situation escalates.\"
+I dusted off the company modem and updated passwords scribbled in pencil.",
+Print_Text_NecroaBarricade_Day040::fr::processed::unverified = "Jour 40 : Le patron a fait circuler une note sur la mise en place d'un accès par modem « si la situation s'aggrave ». J'ai dépoussiéré le modem de l'entreprise et mis à jour les mots de passe griffonnés au crayon.",
+Print_Text_NecroaBarricade_Day041::en = "Day 41:
+City bulletin board listed voluntary temperature checks at the Greyhound depot.
+I walked past a station; the nurse's eyes looked exhausted over her gauze mask.",
+Print_Text_NecroaBarricade_Day041::fr::processed::unverified = "Jour 41 : Le tableau d'affichage de la ville listait des contrôles de température volontaires à la gare routière Greyhound. Je suis passé devant une station ; les yeux de l'infirmière semblaient épuisés derrière son masque de gaze.",
+Print_Text_NecroaBarricade_Day042::en = "Day 42:
+Break room fridge smelled metallic; someone left meat too long.
+Custodian muttered headaches were spreading faster than office gossip.",
+Print_Text_NecroaBarricade_Day042::fr::processed::unverified = "Jour 42 : Le frigo de la salle de pause sentait le métallique ; quelqu'un avait laissé de la viande trop longtemps. Le concierge marmonnait que les maux de tête se propageaient plus vite que les ragots de bureau.",
+Print_Text_NecroaBarricade_Day043::en = "Day 43:
+Evening news showed masked soldiers near the river port but claimed it was training.
+Panelists argued whether travel advisories ever worked.",
+Print_Text_NecroaBarricade_Day043::fr::processed::unverified = "Jour 43 : Les infos du soir montraient des soldats masqués près du port fluvial mais prétendaient qu'il s'agissait d'un entraînement. Les panélistes débattaient pour savoir si les avis aux voyageurs avaient déjà fonctionné.",
+Print_Text_NecroaBarricade_Day044::en = "Day 44:
+Civil defense siren groaned mid-afternoon and the office fluorescents flickered; just a drill, they said.
+My hands shook anyway.",
+Print_Text_NecroaBarricade_Day044::fr::processed::unverified = "Jour 44 : La sirène de la protection civile a gémi en milieu d'après-midi et les néons du bureau ont clignoté ; juste un exercice, ont-ils dit. Mes mains tremblaient quand même.",
+Print_Text_NecroaBarricade_Day045::en = "Day 45:
+Press secretary admitted clusters across two counties but insisted it's contained.
+I made stovetop popcorn and treated it like a disaster movie marathon.",
+Print_Text_NecroaBarricade_Day045::fr::processed::unverified = "Jour 45 : L'attaché de presse a admis des clusters dans deux comtés mais a insisté sur le fait que c'était contenu. J'ai fait du pop-corn sur la cuisinière et j'ai traité ça comme un marathon de films catastrophe.",
+Print_Text_NecroaBarricade_Day046::en = "Day 46:
+Tried to buy a proper respirator; hardware store shelves stripped bare except for cartoon-patterned dust masks.
+Settled for a pack shaped like smiling bears.",
+Print_Text_NecroaBarricade_Day046::fr::processed::unverified = "Jour 46 : J'ai essayé d'acheter un vrai respirateur ; les étagères de la quincaillerie étaient dégarnies à l'exception de masques anti-poussière à motifs de dessins animés. Je me suis contenté d'un paquet en forme d'ours souriants.",
+Print_Text_NecroaBarricade_Day047::en = "Day 47:
+Heard patients showing high fevers and irritability; hospitals requested neurologists from Louisville General.
+Marco joked it's the world's worst hangover bug.",
+Print_Text_NecroaBarricade_Day047::fr::processed::unverified = "Jour 47 : J'ai entendu dire que des patients présentaient de fortes fièvres et de l'irritabilité ; les hôpitaux ont demandé des neurologues de Louisville General. Marco a plaisanté en disant que c'était la pire gueule de bois du monde.",
+Print_Text_NecroaBarricade_Day048::en = "Day 48:
+Official name dropped today—PAX-93—sounds like a line of camcorders.
+Spokesperson promised antivirals were en route; nobody clapped in the audience.",
+Print_Text_NecroaBarricade_Day048::fr::processed::unverified = "Jour 48 : Le nom officiel a été dévoilé aujourd'hui — PAX-93 — ça ressemble à une gamme de caméscopes. Un porte-parole a promis que les antiviraux étaient en route ; personne n'a applaudi dans le public.",
+Print_Text_NecroaBarricade_Day049::en = "Day 49:
+Office rumor mill buzzed about checkpoints on the ring road.
+I finished my claim reports while the city murmured outside.",
+Print_Text_NecroaBarricade_Day049::fr::processed::unverified = "Jour 49 : Le moulin à rumeurs du bureau bourdonnait à propos de points de contrôle sur la rocade. J'ai fini mes rapports de sinistre pendant que la ville murmurait dehors.",
+Print_Text_NecroaBarricade_Day050::en = "Day 50:
+Walked the park to clear my head; only a mathematician muttering equations remained on the benches.
+Told myself I was imagining things.",
+Print_Text_NecroaBarricade_Day050::fr::processed::unverified = "Jour 50 : J'ai marché dans le parc pour m'éclaircir les idées ; seul un mathématicien marmonnant des équations restait sur les bancs. Je me suis dit que j'imaginais des choses.",
+Print_Text_NecroaBarricade_Day051::en = "Day 51:
+Mom called twice from Muldraugh, begging me to drive down before roads close.
+I said the TV scare-mongers need ratings and I'm safer in the city.",
+Print_Text_NecroaBarricade_Day051::fr::processed::unverified = "Jour 51 : Maman a appelé deux fois de Muldraugh, me suppliant de descendre avant la fermeture des routes. J'ai dit que les alarmistes de la télé ont besoin d'audience et que je suis plus en sécurité en ville.",
+Print_Text_NecroaBarricade_Day052::en = "Day 52:
+Notice posted downstairs: all public events postponed pending review.
+Calendar looks bare without bowling league.",
+Print_Text_NecroaBarricade_Day052::fr::processed::unverified = "Jour 52 : Avis affiché en bas : tous les événements publics reportés en attendant révision. Le calendrier a l'air vide sans la ligue de bowling.",
+Print_Text_NecroaBarricade_Day053::en = "Day 53:
+Caught two coworkers hiding behind filing cabinets to read the paper; can't blame them.
+Someone swore the virus can live on coins for days, sounded exaggerated.",
+Print_Text_NecroaBarricade_Day053::fr::processed::unverified = "Jour 53 : J'ai surpris deux collègues cachés derrière des classeurs à lire le journal ; je ne peux pas les blâmer. Quelqu'un a juré que le virus pouvait vivre sur les pièces pendant des jours, ça semblait exagéré.",
+Print_Text_NecroaBarricade_Day054::en = "Day 54:
+National Guard trucks rumbled past the office toward the river quarantine zone.
+People stepped outside to watch like it was Thunder Over Louisville.",
+Print_Text_NecroaBarricade_Day054::fr::processed::unverified = "Jour 54 : Des camions de la Garde nationale sont passés devant le bureau en direction de la zone de quarantaine du fleuve. Les gens sont sortis pour regarder comme si c'était Thunder Over Louisville.",
+Print_Text_NecroaBarricade_Day055::en = "Day 55:
+Rumor said a bus passenger collapsed near the depot foaming at the mouth; urban legend maybe.
+Still, I grabbed extra canned beans on the way home.",
+Print_Text_NecroaBarricade_Day055::fr::processed::unverified = "Jour 55 : La rumeur disait qu'un passager de bus s'était effondré près du dépôt en écumant de la bouche ; une légende urbaine peut-être. Quand même, j'ai attrapé des conserves de haricots supplémentaires sur le chemin du retour.",
+Print_Text_NecroaBarricade_Day056::en = "Day 56:
+Strange coppery smell filled the stairwell.
+Neighbor argued behind closed doors, slurring words like he’d had one too many.",
+Print_Text_NecroaBarricade_Day056::fr::processed::unverified = "Jour 56 : Une étrange odeur cuivrée emplissait la cage d'escalier. Le voisin se disputait derrière une porte fermée, bredouillant comme s'il avait trop bu.",
+Print_Text_NecroaBarricade_Day057::en = "Day 57:
+Company announced we'll rotate half-staff at a time starting next week.
+Relieved and restless in equal measure.",
+Print_Text_NecroaBarricade_Day057::fr::processed::unverified = "Jour 57 : L'entreprise a annoncé que nous allons alterner la moitié du personnel à la fois à partir de la semaine prochaine. Soulagé et agité à parts égales.",
+Print_Text_NecroaBarricade_Day058::en = "Day 58:
+Evening broadcast showed patients twitching in hospital beds, anchors whispering about swelling in the brain.
+I watched till snow static took over.",
+Print_Text_NecroaBarricade_Day058::fr::processed::unverified = "Jour 58 : Le journal du soir montrait des patients tressaillant dans des lits d'hôpital, les présentateurs murmurant à propos d'un gonflement du cerveau. J'ai regardé jusqu'à ce que la neige statique prenne le dessus.",
+Print_Text_NecroaBarricade_Day059::en = "Day 59:
+Heading to office supply, I saw a man stagger into traffic yelling about insects under his skin.
+Police coaxed him away gently; I turned the Chevy around and drove home.",
+Print_Text_NecroaBarricade_Day059::fr::processed::unverified = "Jour 59 : En me rendant à la papeterie, j'ai vu un homme tituber dans la circulation en hurlant à propos d'insectes sous sa peau. La police l'a doucement éloigné ; j'ai fait demi-tour avec la Chevy et suis rentré chez moi.",
+Print_Text_NecroaBarricade_Day060::en = "Day 60:
+First regional lockdown declared, maps shaded crimson on Channel 11.
+I double-checked the window locks and inventoried the pantry like it mattered.",
+Print_Text_NecroaBarricade_Day060::fr::processed::unverified = "Jour 60 : Premier confinement régional déclaré, cartes teintées de cramoisi sur la chaîne 11. J'ai vérifié les serrures des fenêtres et inventorié le garde-manger comme si cela comptait.",
+Print_Text_NecroaBarricade_Day061::en = "Day 61:
+Half the office working from home via scratchy speakerphone; I stayed put under flickering lights.
+Army helicopters sprayed something misty over the industrial park.",
+Print_Text_NecroaBarricade_Day061::fr::processed::unverified = "Jour 61 : La moitié du bureau travaille à domicile via un haut-parleur grésillant ; je suis resté sur place sous des lumières vacillantes. Des hélicoptères de l'armée ont pulvérisé quelque chose de brumeux sur la zone industrielle.",
+Print_Text_NecroaBarricade_Day062::en = "Day 62:
+Grocery delivery service shut down, so I ventured out with a paper list.
+Guards at the corner checkpoint took my temperature with a mercury thermometer and waved me through without a smile.",
+Print_Text_NecroaBarricade_Day062::fr::processed::unverified = "Jour 62 : Le service de livraison de courses a fermé, alors je me suis aventuré dehors avec une liste en papier. Les gardes au poste de contrôle du coin ont pris ma température avec un thermomètre à mercure et m'ont fait signe de passer sans sourire.",
+Print_Text_NecroaBarricade_Day063::en = "Day 63:
+Lines coiled around the pharmacy, people standing six feet apart instinctively.
+Heard the word \"airborne\" whispered with the hush of a curse.",
+Print_Text_NecroaBarricade_Day063::fr::processed::unverified = "Jour 63 : Des files s'enroulaient autour de la pharmacie, les gens se tenaient instinctivement à six pieds de distance. J'ai entendu le mot 'aéroporté' chuchoté avec la discrétion d'une malédiction.",
+Print_Text_NecroaBarricade_Day064::en = "Day 64:
+Marco called from a payphone, voice raw; his chest felt tight and light hurt his eyes.
+He insisted it was nerves but his knuckles were scabbed from clenching.",
+Print_Text_NecroaBarricade_Day064::fr::processed::unverified = "Jour 64 : Marco a appelé d'une cabine téléphonique, la voix rauque ; sa poitrine était serrée et la lumière lui faisait mal aux yeux. Il a insisté que c'était les nerfs, mais ses jointures étaient croûteuses à force de serrer les poings.",
+Print_Text_NecroaBarricade_Day065::en = "Day 65:
+News anchor struggled to describe \"hemorrhagic complications\" before the feed cut to color bars.
+Later a metallic scent drifted through my vents and kept me awake.",
+Print_Text_NecroaBarricade_Day065::fr::processed::unverified = "Jour 65 : Le présentateur a eu du mal à décrire les 'complications hémorragiques' avant que le flux ne passe aux barres de couleur. Plus tard, une odeur métallique a flotté dans mes bouches d'aération et m'a tenu éveillé.",
+Print_Text_NecroaBarricade_Day066::en = "Day 66:
+City mailed packets asking residents to log symptoms via hotline postcards.
+Form asked about confusion and memory gaps; my stomach knotted.",
+Print_Text_NecroaBarricade_Day066::fr::processed::unverified = "Jour 66 : La ville a envoyé des enveloppes demandant aux résidents de noter les symptômes via des cartes postales pour une ligne d'assistance. Le formulaire demandait des informations sur la confusion et les trous de mémoire ; mon estomac s'est noué.",
+Print_Text_NecroaBarricade_Day067::en = "Day 67:
+Shortwave chatter dubbed it the \"zombie flu,\" claiming bodies twitched after death.
+Laughed it off but unplugged the set anyway.",
+Print_Text_NecroaBarricade_Day067::fr::processed::unverified = "Jour 67 : Les bavardages en ondes courtes l'ont surnommé la 'grippe zombie', affirmant que les corps tressaillaient après la mort. J'en ai ri, mais j'ai quand même débranché l'appareil.",
+Print_Text_NecroaBarricade_Day068::en = "Day 68:
+Supply trucks stopped reaching the A&P; shelves looked skeletal, only pickled onions and sardines left.
+I bought two jars and felt foolish.",
+Print_Text_NecroaBarricade_Day068::fr::processed::unverified = "Jour 68 : Les camions de ravitaillement ont cessé d'atteindre le A&P ; les étagères semblaient squelettiques, il ne restait que des oignons au vinaigre et des sardines. J'ai acheté deux pots et me suis senti idiot.",
+Print_Text_NecroaBarricade_Day069::en = "Day 69:
+Sirens screamed all morning; rumor says hospital visitors rioted when turned away.
+Building notice board erupted with arguments over sharing canned goods.",
+Print_Text_NecroaBarricade_Day069::fr::processed::unverified = "Jour 69 : Les sirènes ont hurlé toute la matinée ; la rumeur dit que des visiteurs de l'hôpital ont émeuté lorsqu'on les a refusés. Le tableau d'affichage de l'immeuble a explosé en disputes sur le partage des conserves.",
+Print_Text_NecroaBarricade_Day070::en = "Day 70:
+Woke to pounding on a nearby door; someone begged for medicine for his brother.
+Argument dissolved into sobs and footsteps fleeing down the stairs.",
+Print_Text_NecroaBarricade_Day070::fr::processed::unverified = "Jour 70 : Réveillé par des coups violents sur une porte voisine ; quelqu'un suppliait pour des médicaments pour son frère. La dispute s'est dissoute en sanglots et en bruits de pas fuyant dans les escaliers.",
+Print_Text_NecroaBarricade_Day071::en = "Day 71:
+City decreed a dusk-to-dawn curfew, fines doubling each violation.
+I dragged the couch against the balcony door.",
+Print_Text_NecroaBarricade_Day071::fr::processed::unverified = "Jour 71 : La ville a décrété un couvre-feu du crépuscule à l'aube, les amendes doublant à chaque infraction. J'ai traîné le canapé contre la porte du balcon.",
+Print_Text_NecroaBarricade_Day072::en = "Day 72:
+Power flickered while emergency broadcasters looped instructions on sealing vents with plastic.
+I taped garbage bags over the windows till my fingers cramped.",
+Print_Text_NecroaBarricade_Day072::fr::processed::unverified = "Jour 72 : L'électricité a vacillé pendant que les diffuseurs d'urgence répétaient en boucle des instructions sur le scellement des bouches d'aération avec du plastique. J'ai scotché des sacs poubelle sur les fenêtres jusqu'à ce que mes doigts se crispent.",
+Print_Text_NecroaBarricade_Day073::en = "Day 73:
+Lila hasn't answered since mentioning sparks flying from the quarantine fence as crowds pushed it.
+I keep dialing her answering machine anyway.",
+Print_Text_NecroaBarricade_Day073::fr::processed::unverified = "Jour 73 : Lila n'a pas répondu depuis qu'elle a mentionné des étincelles jaillissant de la clôture de quarantaine alors que la foule la poussait. Je continue de composer son répondeur quand même.",
+Print_Text_NecroaBarricade_Day074::en = "Day 74:
+Air smells of burnt rubber and iron, maybe the disinfectant they spray at night.
+My throat feels raw though I haven't stepped outside.",
+Print_Text_NecroaBarricade_Day074::fr::processed::unverified = "Jour 74 : L'air sent le caoutchouc brûlé et le fer, peut-être le désinfectant qu'ils pulvérisent la nuit. Ma gorge est irritée alors que je n'ai pas mis un pied dehors.",
+Print_Text_NecroaBarricade_Day075::en = "Day 75:
+Someone rattled the stairwell door three times tonight, muttering about trading batteries.
+I sat in the dark with a baseball bat balanced on my knees.",
+Print_Text_NecroaBarricade_Day075::fr::processed::unverified = "Jour 75 : Quelqu'un a secoué la porte de la cage d'escalier trois fois ce soir, marmonnant à propos d'échange de piles. Je me suis assis dans le noir avec une batte de baseball en équilibre sur mes genoux.",
+Print_Text_NecroaBarricade_Day076::en = "Day 76:
+Built a barricade with bookshelves and the mattress jammed against the door.
+Sorted canned goods into neat stacks and realized how little there is.",
+Print_Text_NecroaBarricade_Day076::fr::processed::unverified = "Jour 76 : J'ai construit une barricade avec des bibliothèques et le matelas coincé contre la porte. J'ai trié les conserves en piles soignées et réalisé à quel point il y en a peu.",
+Print_Text_NecroaBarricade_Day077::en = "Day 77:
+Radio announcer described PAX-93 patients biting and clawing before organs fail.
+He cut off mid-sentence and static swallowed the broadcast.",
+Print_Text_NecroaBarricade_Day077::fr::processed::unverified = "Jour 77 : Le présentateur radio a décrit des patients PAX-93 mordant et griffant avant que leurs organes ne défaillent. Il s'est interrompu au milieu d'une phrase et la statique a avalé l'émission.",
+Print_Text_NecroaBarricade_Day078::en = "Day 78:
+Screams in the alley followed by three sharp rifle cracks.
+I counted to a hundred before breathing again.",
+Print_Text_NecroaBarricade_Day078::fr::processed::unverified = "Jour 78 : Des cris dans la ruelle suivis de trois détonations sèches de fusil. J'ai compté jusqu'à cent avant de respirer à nouveau.",
+Print_Text_NecroaBarricade_Day079::en = "Day 79:
+Saw a neighbor stumbling in the courtyard, skin mottled gray, eyes glassy.
+She slammed her forehead into the gate until blood smeared the iron, then someone dragged her away.",
+Print_Text_NecroaBarricade_Day079::fr::processed::unverified = "Jour 79 : J'ai vu une voisine tituber dans la cour, la peau marbrée de gris, les yeux vitreux. Elle a cogné son front contre la grille jusqu'à ce que le sang barbouille le fer, puis quelqu'un l'a traînée ailleurs.",
+Print_Text_NecroaBarricade_Day080::en = "Day 80:
+National Guard loudspeakers ordered everyone indoors while they \"neutralized aggressive vectors.\"
+Water jug is down to a quarter; tap sputters rust.",
+Print_Text_NecroaBarricade_Day080::fr::processed::unverified = "Jour 80 : Les haut-parleurs de la Garde nationale ont ordonné à tout le monde de rester à l'intérieur pendant qu'ils 'neutralisaient les vecteurs agressifs.' La cruche d'eau est réduite au quart ; le robinet crache de la rouille.",
+Print_Text_NecroaBarricade_Day081::en = "Day 81:
+Heatwave rolled in but I dare not open the windows.
+Sweat slithered down the journal pages, smearing the ink.",
+Print_Text_NecroaBarricade_Day081::fr::processed::unverified = "Jour 81 : Une vague de chaleur s'est abattue mais je n'ose pas ouvrir les fenêtres. La sueur a glissé sur les pages du journal, bavant l'encre.",
+Print_Text_NecroaBarricade_Day082::en = "Day 82:
+Looters smashed the corner liquor store; glass rained across the sidewalk.
+Afterward a low humming echoed like generators laboring three blocks away.",
+Print_Text_NecroaBarricade_Day082::fr::processed::unverified = "Jour 82 : Des pilleurs ont saccagé le magasin d'alcool du coin ; du verre a plu sur le trottoir. Ensuite, un bourdonnement grave a résonné comme des générateurs peinant à trois pâtés de maisons.",
+Print_Text_NecroaBarricade_Day083::en = "Day 83:
+Marco's girl left a message: \"He climbed the walls. They took him.\"
+No other words.",
+Print_Text_NecroaBarricade_Day083::fr::processed::unverified = "Jour 83 : La fille de Marco a laissé un message : 'Il a grimpé aux murs. Ils l'ont emmené.' Pas d'autres mots.",
+Print_Text_NecroaBarricade_Day084::en = "Day 84:
+Sleep won't stick; footsteps pace the hallway outside.
+Peephole shows only flickering light and peeling wallpaper.",
+Print_Text_NecroaBarricade_Day084::fr::processed::unverified = "Jour 84 : Le sommeil ne vient pas ; des pas arpentent le couloir dehors. Le judas ne montre que de la lumière vacillante et du papier peint qui se décolle.",
+Print_Text_NecroaBarricade_Day085::en = "Day 85:
+Emergency bulletin said PAX-93 spreads via aerosols and dried blood; they recommend burning contaminated linens.
+I burned two towels in the sink and set off the detector.",
+Print_Text_NecroaBarricade_Day085::fr::processed::unverified = "Jour 85 : Bulletin d'urgence a dit que le PAX-93 se propage par aérosols et sang séché ; ils recommandent de brûler le linge contaminé. J'ai brûlé deux serviettes dans l'évier et déclenché le détecteur.",
+Print_Text_NecroaBarricade_Day086::en = "Day 86:
+Helicopter dropped a supply crate on the roof, but three neighbors fought over it before I climbed the stairs.
+One man bit another’s wrist; blood splattered the handrail.",
+Print_Text_NecroaBarricade_Day086::fr::processed::unverified = "Jour 86 : Un hélicoptère a largué une caisse de ravitaillement sur le toit, mais trois voisins se sont battus pour elle avant que je monte les escaliers. Un homme a mordu le poignet d'un autre ; le sang a éclaboussé la rampe.",
+Print_Text_NecroaBarricade_Day087::en = "Day 87:
+City power failed for six hours; when it snapped back, every channel showed red blotches marching across maps.
+The announcer's eyes darted like someone held cue cards at gunpoint.",
+Print_Text_NecroaBarricade_Day087::fr::processed::unverified = "Jour 87 : L'alimentation électrique de la ville a été coupée pendant six heures ; quand elle s'est rétablie, chaque chaîne montrait des taches rouges qui avançaient sur les cartes. Les yeux du présentateur ont tressailli comme si quelqu'un tenait des fiches sous la menace d'une arme.",
+Print_Text_NecroaBarricade_Day088::en = "Day 88:
+Rationed to one meal a day, mostly chickpeas and crackers.
+Hands shake constantly—hunger or fear, can't tell.",
+Print_Text_NecroaBarricade_Day088::fr::processed::unverified = "Jour 88 : Rationné à un repas par jour, principalement des pois chiches et des crackers. Les mains tremblent constamment — faim ou peur, je ne peux pas dire.",
+Print_Text_NecroaBarricade_Day089::en = "Day 89:
+Heard chanting from the street—\"We are not infected\"—until voices cracked.
+Then a volley of shots, then nothing.",
+Print_Text_NecroaBarricade_Day089::fr::processed::unverified = "Jour 89 : J'ai entendu des chants venant de la rue — « Nous ne sommes pas infectés » — jusqu'à ce que les voix se brisent. Puis une salve de coups de feu, puis rien.",
+Print_Text_NecroaBarricade_Day090::en = "Day 90:
+Thick chemical fog rolled between buildings, smelling of bleach and decay.
+Wrapped a bandanna over my face and whispered that I'm still here.",
+Print_Text_NecroaBarricade_Day090::fr::processed::unverified = "Jour 90 : Un épais brouillard chimique roulait entre les bâtiments, sentant l'eau de Javel et la pourriture. J'ai enroulé un bandana sur mon visage et chuchoté que je suis toujours là.",
+Print_Text_NecroaBarricade_Day091::en = "Day 91:
+Phone lines stutter; calls drop before the first ring.
+Emergency broadcaster repeats yesterday's message word-for-word.",
+Print_Text_NecroaBarricade_Day091::fr::processed::unverified = "Jour 91 : Les lignes téléphoniques bégayent ; les appels sont interrompus avant la première sonnerie. Le diffuseur d'urgence répète le message d'hier mot pour mot.",
+Print_Text_NecroaBarricade_Day092::en = "Day 92:
+Tap water ran brown then coughed air.
+Filled pots and filtered through a torn T-shirt; still tastes of pennies.",
+Print_Text_NecroaBarricade_Day092::fr::processed::unverified = "Jour 92 : L'eau du robinet est devenue brune puis a craché de l'air. J'ai rempli des casseroles et filtré à travers un T-shirt déchiré ; ça a toujours un goût de pièces de monnaie.",
+Print_Text_NecroaBarricade_Day093::en = "Day 93:
+Someone hammered on my door claiming the building was being evacuated.
+When I answered through the wood, they accused me of hoarding and stomped away.",
+Print_Text_NecroaBarricade_Day093::fr::processed::unverified = "Jour 93 : Quelqu'un a frappé à ma porte en prétendant que l'immeuble était évacué. Quand j'ai répondu à travers le bois, ils m'ont accusé d'accaparer des provisions et sont partis en claquant des pas.",
+Print_Text_NecroaBarricade_Day094::en = "Day 94:
+Ventured into the stairwell; walls streaked with dark, sticky handprints.
+A bundle of mail buzzed with flies, cards promising sweepstakes winnings that no one will claim.",
+Print_Text_NecroaBarricade_Day094::fr::processed::unverified = "Jour 94 : Je me suis aventuré dans la cage d'escalier ; les murs étaient striés d'empreintes de mains sombres et collantes. Une pile de courrier bourdonnait de mouches, des cartes promettant des gains de concours que personne ne réclamera.",
+Print_Text_NecroaBarricade_Day095::en = "Day 95:
+Military radio crackled about aid stations near Shepherdsville.
+I can barely stagger that far on my best day.",
+Print_Text_NecroaBarricade_Day095::fr::processed::unverified = "Jour 95 : La radio militaire a crépité à propos de postes de secours près de Shepherdsville. Je peux à peine me traîner aussi loin, même dans mes meilleurs jours.",
+Print_Text_NecroaBarricade_Day096::en = "Day 96:
+Newsman whispered about \"neural necrosis\" and involuntary spasms before the signal died.
+He muttered a prayer on air.",
+Print_Text_NecroaBarricade_Day096::fr::processed::unverified = "Jour 96 : Le journaliste a chuchoté à propos de « nécrose neuronale » et de spasmes involontaires avant que le signal ne meure. Il a murmuré une prière en direct.",
+Print_Text_NecroaBarricade_Day097::en = "Day 97:
+Dreamt Marco clawed at the window speaking in a voice that wasn't his.
+Woke with crescent bruises where my own nails dug in.",
+Print_Text_NecroaBarricade_Day097::fr::processed::unverified = "Jour 97 : J'ai rêvé que Marco grattait la fenêtre en parlant d'une voix qui n'était pas la sienne. Je me suis réveillé avec des bleus en forme de croissant là où mes propres ongles s'étaient enfoncés.",
+Print_Text_NecroaBarricade_Day098::en = "Day 98:
+Generator downstairs coughed to life for thirty minutes.
+Charged batteries and copied back-road maps into this notebook.",
+Print_Text_NecroaBarricade_Day098::fr::processed::unverified = "Jour 98 : Le générateur en bas a toussé et s'est mis en marche pendant trente minutes. J'ai chargé des batteries et copié des cartes de routes secondaires dans ce carnet.",
+Print_Text_NecroaBarricade_Day099::en = "Day 99:
+Mom left a cassette on my answering machine, voice warped by static; said Dad paces nonstop and she locked him in the cellar.
+Message ended with a crash and a ragged shout.",
+Print_Text_NecroaBarricade_Day099::fr::processed::unverified = "Jour 99 : Maman a laissé une cassette sur mon répondeur, voix déformée par les parasites ; elle disait que papa fait les cent pas sans arrêt et qu'elle l'a enfermé dans la cave. Le message s'est terminé par un fracas et un cri rauque.",
+Print_Text_NecroaBarricade_Day100::en = "Day 100:
+Sirens no longer sound; maybe there’s no one left to steer them.
+Lit candles and talked to myself to fill the silence.",
+Print_Text_NecroaBarricade_Day100::fr::processed::unverified = "Jour 100 : Les sirènes ne sonnent plus ; il n'y a peut-être plus personne pour les conduire. J'ai allumé des bougies et parlé tout seul pour remplir le silence.",
+Print_Text_NecroaBarricade_Day101::en = "Day 101:
+Stomach rejects the last cans of beans; nausea rolls in waves.
+Found a bruise shaped like a handprint on my thigh though I live alone.",
+Print_Text_NecroaBarricade_Day101::fr::processed::unverified = "Jour 101 : Mon estomac rejette les dernières boîtes de haricots ; la nausée arrive par vagues. J'ai trouvé un bleu en forme d'empreinte de main sur ma cuisse, bien que je vive seul.",
+Print_Text_NecroaBarricade_Day102::en = "Day 102:
+Thunderstorm hammered the building; rain seeped through taped windows.
+Caught myself laughing at the idea of the sky trying to wash us clean.",
+Print_Text_NecroaBarricade_Day102::fr::processed::unverified = "Jour 102 : Un orage a martelé l'immeuble ; la pluie a filtré à travers les fenêtres scotchées. Je me suis surpris à rire à l'idée que le ciel essayait de nous laver propre.",
+Print_Text_NecroaBarricade_Day103::en = "Day 103:
+Power blinked at midnight; TV flickered on with a trembling scientist confirming PAX-93 victims \"regain motor function post-mortem.\"
+He said \"walking infected\" without irony before the feed collapsed.",
+Print_Text_NecroaBarricade_Day103::fr::processed::unverified = "Jour 103 : L'électricité a clignoté à minuit ; la télé s'est allumée en tremblotant avec un scientifique tremblant confirmant que les victimes du PAX-93 « retrouvent leurs fonctions motrices post-mortem ». Il a dit « infectés ambulants » sans ironie avant que le flux ne s'effondre.",
+Print_Text_NecroaBarricade_Day104::en = "Day 104:
+Minutes later scraping echoed outside; a body in the courtyard convulsed, joints snapping back as it stood.
+Milky eyes lifted toward my window, nostrils flaring like it scented me.",
+Print_Text_NecroaBarricade_Day104::fr::processed::unverified = "Jour 104 : Quelques minutes plus tard, des grattements ont résonné dehors ; un corps dans la cour a convulsé, les articulations craquant en se remettant en place alors qu'il se levait. Des yeux laiteux se sont levés vers ma fenêtre, les narines dilatées comme s'il m'avait senti.",
+Print_Text_NecroaBarricade_Day105::en = "Day 105:
+Pushed the dresser tighter against the door and hung pots as alarms.
+Heartbeat drums louder than the sporadic gunfire.",
+Print_Text_NecroaBarricade_Day105::fr::processed::unverified = "Jour 105 : J'ai poussé la commode plus serrée contre la porte et accroché des casseroles comme alarmes. Mon cœur bat plus fort que les tirs sporadiques.",
+Print_Text_NecroaBarricade_Day106::en = "Day 106:
+Air vents rattle with low moans, or maybe just the wind trapped in ducts.
+I keep the butcher knife beside the journal now.",
+Print_Text_NecroaBarricade_Day106::fr::processed::unverified = "Jour 106 : Les bouches d'aération claquent avec des gémissements sourds, ou peut-être juste le vent piégé dans les conduits. Je garde le couteau de boucher à côté du journal maintenant.",
+Print_Text_NecroaBarricade_Day107::en = "Day 107:
+AM radio only plays a distorted loop: \"Shelter. Contain. Burn.\"
+I switched it off and stared into the dark, counting breaths.",
+Print_Text_NecroaBarricade_Day107::fr::processed::unverified = "Jour 107 : La radio AM ne diffuse qu'une boucle déformée : « Abritez-vous. Contenez. Brûlez. » Je l'ai éteinte et j'ai fixé l'obscurité, comptant les respirations.",
+Print_Text_NecroaBarricade_Day108::en = "Day 108:
+Hunger gnaws; chewed multivitamins simply to feel something solid.
+Thoughts crackle and skip like a bad record.",
+Print_Text_NecroaBarricade_Day108::fr::processed::unverified = "Jour 108 : La faim ronge ; j'ai mâché des multivitamines juste pour sentir quelque chose de solide. Les pensées crépitent et sautent comme un mauvais disque.",
+Print_Text_NecroaBarricade_Day109::en = "Day 109:
+Downstairs someone screamed for help until the words gurgled.
+Sound stopped abruptly, replaced by wet dragging climbing the stairwell.",
+Print_Text_NecroaBarricade_Day109::fr::processed::unverified = "Jour 109 : En bas, quelqu'un a crié à l'aide jusqu'à ce que les mots gargouillent. Le son s'est arrêté brusquement, remplacé par un traînement humide montant la cage d'escalier.",
+Print_Text_NecroaBarricade_Day110::en = "Day 110:
+Fever spiked; sheets soaked through with sweat.
+In the mirror my pupils looked wide as quarters and I wondered if the knock had come.",
+Print_Text_NecroaBarricade_Day110::fr::processed::unverified = "Jour 110 : La fièvre a grimpé ; les draps trempés de sueur. Dans le miroir, mes pupilles semblaient larges comme des pièces de 25 cents et je me suis demandé si le coup était venu.",
+Print_Text_NecroaBarricade_Day111::en = "Day 111:
+Listened every recipe I've ever cooked to prove memory still works.
+Halfway through I forgot the spice Marco once gave me.",
+Print_Text_NecroaBarricade_Day111::fr::processed::unverified = "Jour 111 : J'ai énuméré toutes les recettes que j'ai jamais cuisinées pour prouver que la mémoire fonctionne encore. À mi-chemin, j'ai oublié l'épice que Marco m'a donnée une fois.",
+Print_Text_NecroaBarricade_Day112::en = "Day 112:
+Helicopter hovered low, spotlight slicing through broken blinds.
+Loudspeaker promised evacuation for the healthy, but the courtyard writhed with twitching silhouettes.",
+Print_Text_NecroaBarricade_Day112::fr::processed::unverified = "Jour 112 : Un hélicoptère a plané bas, le projecteur tranchant à travers les stores cassés. Un haut-parleur a promis l'évacuation pour les personnes saines, mais la cour se tordait de silhouettes contractées.",
+Print_Text_NecroaBarricade_Day113::en = "Day 113:
+Found bite marks dented into the stair rail, deep enough to bend steel.
+What jaws can do that?",
+Print_Text_NecroaBarricade_Day113::fr::processed::unverified = "Jour 113 : J'ai trouvé des marques de morsure enfoncées dans la rampe d'escalier, assez profondes pour plier l'acier. Quelles mâchoires peuvent faire ça ?",
+Print_Text_NecroaBarricade_Day114::en = "Day 114:
+Whispers slither through the vents, hissing my name, or maybe it's just air.
+Stuffed towels into grates yet the whispers linger.",
+Print_Text_NecroaBarricade_Day114::fr::processed::unverified = "Jour 114 : Des murmures serpentent à travers les bouches d'aération, sifflant mon nom, ou peut-être que c'est juste l'air. J'ai enfoncé des serviettes dans les grilles mais les murmures persistent.",
+Print_Text_NecroaBarricade_Day115::en = "Day 115:
+Calendar on the fridge still reminds me to pay the electric bill.
+Laughed until I cried, then couldn't stop either.",
+Print_Text_NecroaBarricade_Day115::fr::processed::unverified = "Jour 115 :\\nLe calendrier sur le frigo me rappelle encore de payer la facture d'électricité.\\nJ'ai ri jusqu'à en pleurer, puis je n'ai pas pu m'arrêter non plus.",
+Print_Text_NecroaBarricade_Day116::en = "Day 116:
+Distant explosion rattled the glass; a pillar of ash rose beyond the skyline.
+Maybe they're burning whole districts now.",
+Print_Text_NecroaBarricade_Day116::fr::processed::unverified = "Jour 116 :\\nUne explosion lointaine a fait trembler les vitres ; une colonne de cendres s'est élevée au-delà de l'horizon.\\nPeut-être brûlent-ils des quartiers entiers maintenant.",
+Print_Text_NecroaBarricade_Day117::en = "Day 117:
+Hands tremble so hard I can barely write.
+Rigged glass bottles on strings across the living room to warn me of intruders.",
+Print_Text_NecroaBarricade_Day117::fr::processed::unverified = "Jour 117 :\\nMes mains tremblent tellement que je peux à peine écrire.\\nJ'ai installé des bouteilles en verre suspendues à des ficelles à travers le salon pour m'avertir des intrus.",
+Print_Text_NecroaBarricade_Day118::en = "Day 118:
+Woke to shattered glass; one bottle on the floor, syrupy footprints smeared toward the bedroom.
+Hid in the closet for hours clutching the dull knife.",
+Print_Text_NecroaBarricade_Day118::fr::processed::unverified = "Jour 118 :\\nRéveillé par du verre brisé ; une bouteille par terre, des traces de pas sirupeuses étalées vers la chambre.\\nJe me suis caché dans le placard pendant des heures en serrant le couteau émoussé.",
+Print_Text_NecroaBarricade_Day119::en = "Day 119:
+Skin around my fingernails turned gray; malnutrition or something worse.
+Feel pulses in my skull like footsteps behind me.",
+Print_Text_NecroaBarricade_Day119::fr::processed::unverified = "Jour 119 :\\nLa peau autour de mes ongles est devenue grise ; malnutrition ou quelque chose de pire.\\nJe sens des pulsations dans mon crâne comme des pas derrière moi.",
+Print_Text_NecroaBarricade_Day120::en = "Day 120:
+They're outside the door now, wet breaths and slow circles scratched by nails.
+Veins throb with heat, vision blurs, journal slipping from my hands—maybe opening the door is just catching up to what I already am.",
+Print_Text_NecroaBarricade_Day120::fr::processed::unverified = "Jour 120 :\\nIls sont devant la porte maintenant, des respirations humides et des lents cercles griffés par les ongles.\\nLes veines palpitent de chaleur, la vision se trouble, le journal glisse de mes mains — peut-être qu'ouvrir la porte n'est que rattraper ce que je suis déjà.",
+Print_Text_NecroaBarricade_JournalTitle::en = "%1's Journal #%2",
+Print_Text_NecroaBarricade_JournalTitle::fr::processed::unverified = "Journal de %1 n°%2",
 Sandbox_Susceptible::en = "Susceptible (airborne)",
 Sandbox_Susceptible::fr::processed::unverified = "Sensible (aéroporté)",
 Sandbox_SusceptibleCorpses::en = "Susceptible corpses",
@@ -762,8 +1256,8 @@ UI_NECROA_MaskFaceItems::en = "Face-slot items (equipped + inventory):",
 UI_NECROA_MaskFaceItems::fr::processed::unverified = "Objets d'emplacement visage (équipé + inventaire) :",
 UI_NECROA_MaskHasOverride::en = "(saved override)",
 UI_NECROA_MaskHasOverride::fr::processed::unverified = "(sauvegarde de remplacement)",
-UI_NECROA_MaskHelp_tt::en = "In this menu, you can add compatibility with masks from other mods.\\n\\nReference defaults (this mod's Susceptible table):\\n- Normal disposable / surgical style: durability 120, repair: Wash\\n- Cloth bandana / light face wrap: 26, Wash\\n- Gas mask (filter): 400, Filter\\n- SCBA / hazmat (air tank): 600, Oxygen",
-UI_NECROA_MaskHelp_tt::fr::processed::unverified = "Dans ce menu, vous pouvez ajouter la compatibilité avec les masques d'autres mods.\\n\\nRéférences par défaut (table Susceptible de ce mod) :\\n- Style normal jetable/chirurgical : durabilité 120, réparation : Lavage\\n- Bandana en tissu / léger couvre-visage : 26, Lavage\\n- Masque à gaz (filtre) : 400, Filtre\\n- SCBA / hazmat (réservoir d'air) : 600, Oxygène",
+UI_NECROA_MaskHelp_tt::en = "In this menu, you can add compatibility with masks from other mods.\\n\\nReference defaults (this mod's Susceptible table):\\n- Normal disposable / surgical style: durability 120, repair: Wash\\n- Cloth bandana / light face wrap: 26, Wash\\n- Gas mask (filter): 400, Filter\\n- SCBA / hazmat (air tank): 1200, Oxygen",
+UI_NECROA_MaskHelp_tt::fr::processed::unverified = "Dans ce menu, vous pouvez ajouter la compatibilité avec les masques d'autres mods.\\n\\nRéférences par défaut (table Susceptible de ce mod) :\\n- Style normal jetable/chirurgical : durabilité 120, réparation : Lavage\\n- Bandana en tissu / couvre-visage léger : 26, Lavage\\n- Masque à gaz (filtre) : 400, Filtre\\n- SCBA / hazmat (réservoir d'air) : 1200, Oxygène",
 UI_NECROA_MaskHintNoItems::en = "No face-slot clothing found. Wear a mask or keep one in your inventory, then Refresh.",
 UI_NECROA_MaskHintNoItems::fr::processed::unverified = "Aucun vêtement d'emplacement visage trouvé. Portez un masque ou gardez-en un dans votre inventaire, puis Rafraîchir.",
 UI_NECROA_MaskMenuTitle::en = "Custom masks (Susceptible)",
@@ -1006,8 +1500,8 @@ UI_NECROA_Welcome_BtnOK::en = "OK",
 UI_NECROA_Welcome_BtnOK::fr::processed::unverified = "OK",
 UI_NECROA_Welcome_BtnUpdates::en = "Updates",
 UI_NECROA_Welcome_BtnUpdates::fr::processed::unverified = "Mises à jour",
-UI_NECROA_Welcome_L01::en = "Necroa - Read or Die Update 1.7",
-UI_NECROA_Welcome_L01::fr::processed::unverified = "Necroa - Mise à jour Read or Die 1.7",
+UI_NECROA_Welcome_L01::en = "Necroa - Read or Die Update 1.8",
+UI_NECROA_Welcome_L01::fr::processed::unverified = "Necroa - Mise à jour Read or Die 1.8",
 UI_NECROA_Welcome_L03::en = "This mod is more than just zombies.",
 UI_NECROA_Welcome_L03::fr::processed::unverified = "Ce mod est bien plus que de simples zombies.",
 UI_NECROA_Welcome_L04::en = "Survival depends on avoiding infection.",
@@ -1038,8 +1532,8 @@ UI_NECROA_Welcome_L19::en = "If you are playing in version 42.18 or below and yo
 UI_NECROA_Welcome_L19::fr::processed::unverified = "Si vous jouez dans la version 42.18 ou inférieure et que vous",
 UI_NECROA_Welcome_L20::en = "have any issues, please update your game.",
 UI_NECROA_Welcome_L20::fr::processed::unverified = "avez des problèmes, veuillez mettre à jour votre jeu.",
-UI_NECROA_Welcome_Updates_L1::en = "Version 1.7",
-UI_NECROA_Welcome_Updates_L1::fr::processed::unverified = "Version 1.7",
+UI_NECROA_Welcome_Updates_L1::en = "Version 1.8",
+UI_NECROA_Welcome_Updates_L1::fr::processed::unverified = "Version 1.8",
 UI_NECROA_Welcome_Updates_L3::en = "- The changelog is available on the Steam Workshop.",
 UI_NECROA_Welcome_Updates_L3::fr::processed::unverified = "- Le journal des modifications est disponible sur le Steam Workshop.",
 UI_Susceptible_Bleach_Repair::en = "Wash mask (bleach)",
