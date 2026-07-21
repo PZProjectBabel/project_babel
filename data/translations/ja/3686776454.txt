@@ -1,5 +1,17 @@
 Base.ClothMask::en = "Cloth mask",
 Base.ClothMask::ja::processed::unverified = "布マスク",
+Base.HazmatSuit::en = "Hazmat Suit MK1",
+Base.HazmatSuit::ja::processed::unverified = "ハザードスーツ MK1",
+Base.HazmatSuitMK2::en = "Hazmat Suit MK2",
+Base.HazmatSuitMK2::ja::processed::unverified = "ハザードスーツ MK2",
+Base.HazmatSuitMK2_notank::en = "Hazmat Suit MK2 (no tank)",
+Base.HazmatSuitMK2_notank::ja::processed::unverified = "ハザードスーツ MK2 (タンクなし)",
+Base.HazmatSuitMK3::en = "Hazmat Suit MK3",
+Base.HazmatSuitMK3::ja::processed::unverified = "ハザードスーツ MK3",
+Base.HazmatSuitMK3_notank::en = "Hazmat Suit MK3 (no tank)",
+Base.HazmatSuitMK3_notank::ja::processed::unverified = "ハザードスーツ MK3 (タンクなし)",
+Base.HazmatSuit_notank::en = "Hazmat Suit MK1 (no tank)",
+Base.HazmatSuit_notank::ja::processed::unverified = "ハザードスーツ MK1 (タンクなし)",
 DeadBody.BodyPart::en = "Zombie body piece",
 DeadBody.BodyPart::ja::processed::unverified = "ゾンビの体の部位",
 DeadBody.BodyPart-1::en = "Zombie body piece (variant 2)",
@@ -16,6 +28,488 @@ DeadBody.BodyPart2-2::en = "Zombie body piece (alternate, variant 3)",
 DeadBody.BodyPart2-2::ja::processed::unverified = "ゾンビの体の部位（別バージョン、変種3）",
 DeadBody.BodyPart2-3::en = "Zombie body piece (alternate, variant 4)",
 DeadBody.BodyPart2-3::ja::processed::unverified = "ゾンビの体の部位（別バージョン、変種4）",
+Print_Text_NecroaBarricade_Day001::en = "Day 1 (no plague related):
+First Monday of April 1993; overslept and nearly missed the Chevy, diner coffee tasted burnt but the rain cleared by noon.
+Feels good to scratch ink into this old spiral again.",
+Print_Text_NecroaBarricade_Day001::ja::processed::unverified = "1日目（疫病関連なし）：1993年4月の第1月曜日。寝坊してシボレーに乗り遅れそうになった。ダイナーのコーヒーは焦げた味がしたが、昼までに雨は上がった。この古い螺旋ノートにインクを書き込むのは気持ちいい。",
+Print_Text_NecroaBarricade_Day002::en = "Day 2 (no plague related):
+Downtown Louisville felt gray and normal, traffic slow, coworkers at the insurance office griping about paper jams.
+Picked up groceries and nodded to the night watchman downstairs.",
+Print_Text_NecroaBarricade_Day002::ja::processed::unverified = "2日目（疫病関連なし）：ルイビル中心部は灰色で普通、交通量は遅く、保険会社の同僚たちは紙詰まりについて愚痴っていた。食料品を買い、下の夜警にうなずいた。",
+Print_Text_NecroaBarricade_Day003::en = "Day 3 (no plague related):
+Tried the new sandwich counter near the courthouse; bread was soggy but the ham decent.
+Neighborhood kid practiced trumpet until midnight and I pretended it was avant-garde.",
+Print_Text_NecroaBarricade_Day003::ja::processed::unverified = "3日目（疫病関連なし）：裁判所近くの新しいサンドイッチカウンターを試した。パンはふやけていたがハムはまあまあ。近所の子が午前0時までトランペットの練習をし、私は前衛芸術だと思い込んだ。",
+Print_Text_NecroaBarricade_Day004::en = "Day 4 (no plague related):
+Jogged along the Ohio River and noticed more mall-walkers than usual.
+Work stayed quiet except for gossip about Mr. Dalton's mustache.",
+Print_Text_NecroaBarricade_Day004::ja::processed::unverified = "4日目（疫病関連なし）：オハイオ川沿いをジョギングし、いつもよりモールウォーカーが多いのに気づいた。仕事は、ドルトン氏の口ひげの噂話以外は静かだった。",
+Print_Text_NecroaBarricade_Day005::en = "Day 5 (no plague related):
+Friday mood in the office led to debates over renting Jurassic Park again on VHS.
+Evening news droned about soybean futures I barely understood.",
+Print_Text_NecroaBarricade_Day005::ja::processed::unverified = "5日目（疫病関連なし）：金曜日のオフィスの雰囲気で、またVHSでジュラシック・パークを借りるかどうかの議論になった。夜のニュースはほとんど理解できない大豆先物についてだらだらと流れていた。",
+Print_Text_NecroaBarricade_Day006::en = "Day 6 (no plague related):
+Slept in, cleaned the apartment, wrestled with the vacuum bag.
+Heard distant sirens, but Louisville hums like that on Saturdays.",
+Print_Text_NecroaBarricade_Day006::ja::processed::unverified = "6日目（疫病関連なし）：寝坊し、アパートを掃除し、掃除機の袋と格闘した。遠くのサイレンが聞こえたが、ルイビルは土曜日はこんな感じだ。",
+Print_Text_NecroaBarricade_Day007::en = "Day 7 (no plague related):
+Brunch with Marco and Lila at the cracked Formica diner counter; we swapped cassette mixtapes.
+Someone sneezed behind us and the whole row of stools laughed nervously for no reason.",
+Print_Text_NecroaBarricade_Day007::ja::processed::unverified = "7日目（疫病関連なし）：マルコとリラとひび割れたフォルミカのダイナーカウンターでブランチ。カセットのミックステープを交換した。後ろで誰かがくしゃみをし、スツールの列全体が理由もなく緊張して笑った。",
+Print_Text_NecroaBarricade_Day008::en = "Day 8 (no plague related):
+Back to the grind; the copy machine ate two stacks before lunch.
+Boss hinted at overtime if claims keep rolling in.",
+Print_Text_NecroaBarricade_Day008::ja::processed::unverified = "8日目（疫病関連なし）：仕事に戻る。コピー機が昼前に2スタックを食べた。上司が請求が増え続ければ残業があると示唆した。",
+Print_Text_NecroaBarricade_Day009::en = "Day 9 (no plague related):
+Sun broke through, so I ate lunch on the courthouse steps.
+A woman in the square stared at pigeons like they were listening to her secrets.",
+Print_Text_NecroaBarricade_Day009::ja::processed::unverified = "9日目（疫病関連なし）：太陽が顔を出したので、裁判所の階段で昼食をとった。広場の女性が鳩を、まるで彼女の秘密を聞いているかのように見つめていた。",
+Print_Text_NecroaBarricade_Day010::en = "Day 10 (no plague related):
+Dreamt of elevators stuck between floors and woke to cold cereal.
+Promised myself I'd cook something real tomorrow.",
+Print_Text_NecroaBarricade_Day010::ja::processed::unverified = "10日目（疫病関連なし）：階の間で止まったエレベーターの夢を見て、冷たいシリアルで目覚めた。明日はちゃんとしたものを料理すると自分に約束した。",
+Print_Text_NecroaBarricade_Day011::en = "Day 11 (no plague related):
+Morning bus was unusually quiet, a guy across the aisle kept rubbing his temples.
+I tuned out the silence with a scratched Tom Petty tape.",
+Print_Text_NecroaBarricade_Day011::ja::processed::unverified = "11日目（疫病関連なし）：朝のバスは異常に静かで、通路の向かいの男がずっとこめかみを揉んでいた。傷ついたトム・ペティのテープでその沈黙を遮った。",
+Print_Text_NecroaBarricade_Day012::en = "Day 12 (no plague related):
+Elevator in my building lurched between floors; maintenance blamed humidity.
+Bought extra coffee grounds because Kroger had a sale.",
+Print_Text_NecroaBarricade_Day012::ja::processed::unverified = "12日目（疫病関連なし）：アパートのエレベーターが階の間で揺れた。管理人は湿気のせいだと言った。クローガーでセールだったのでコーヒー粉を余分に買った。",
+Print_Text_NecroaBarricade_Day013::en = "Day 13 (no plague related):
+Office air felt stale, or maybe I need to drink more water.
+Street preacher by the Galleria warned of storms to come; April always brings characters.",
+Print_Text_NecroaBarricade_Day013::ja::processed::unverified = "13日目（疫病関連なし）：オフィスの空気が淀んでいた。いや、もっと水を飲む必要があるのかもしれない。ギャラリーのそばの街頭説教者が来るべき嵐について警告していた。4月にはいつも変わり者が現れる。",
+Print_Text_NecroaBarricade_Day014::en = "Day 14 (no plague related):
+Family long-distance call turned into a debate about Fourth of July plans.
+Mom wants everyone back in Muldraugh; I promised to visit.",
+Print_Text_NecroaBarricade_Day014::ja::processed::unverified = "14日目（疫病関連なし）：家族への長距離電話が独立記念日の計画についての議論になった。母は全員をマルドローに戻ってほしいと言い、私は訪ねると約束した。",
+Print_Text_NecroaBarricade_Day015::en = "Day 15 (no plague related):
+Late train home, conductor coughed through the announcements but kept rolling.
+Fell asleep to a VHS of bat documentaries from the library.",
+Print_Text_NecroaBarricade_Day015::ja::processed::unverified = "15日目（疫病関連なし）：帰りの電車が遅れ、車掌はアナウンスのたびに咳をしていたが、走り続けた。図書館から借りたコウモリのドキュメンタリーのVHSを見ながら眠りについた。",
+Print_Text_NecroaBarricade_Day016::en = "Day 16 (no plague related):
+Grocery clerk wore a bandage on her forearm, said she slipped slicing bread.
+Apartment hallway smelled like disinfectant and lemon.",
+Print_Text_NecroaBarricade_Day016::ja::processed::unverified = "16日目（疫病関連なし）：食料品店の店員が前腕に包帯を巻いていて、パンを切っているときに滑ったと言った。アパートの廊下は消毒剤とレモンの匂いがした。",
+Print_Text_NecroaBarricade_Day017::en = "Day 17 (no plague related):
+Jorge canceled lunch, said he felt \"foggy\" and would catch up next week.
+I took the Chevy through the wash and felt oddly productive.",
+Print_Text_NecroaBarricade_Day017::ja::processed::unverified = "17日目（疫病関連なし）：ホルヘがランチをキャンセルし、「ぼんやりしている」と言って、来週会おうと言った。シボレーを洗車し、妙に生産的な気分になった。",
+Print_Text_NecroaBarricade_Day018::en = "Day 18 (no plague related):
+WCKY radio kept cutting to public service reminders about hand-washing; pollen count must be high.
+Finished a detective paperback with an abrupt ending.",
+Print_Text_NecroaBarricade_Day018::ja::processed::unverified = "18日目（疫病関連なし）：WCKYラジオが手洗いを促す公共広告を繰り返し流していた。花粉の数が多いのだろう。唐突な結末の探偵ペーパーバックを読み終えた。",
+Print_Text_NecroaBarricade_Day019::en = "Day 19 (no plague related):
+Woke to the thrum of helicopters, probably training near Fort Knox.
+Receptionist handed me the wrong parcel—somebody's vitamins.",
+Print_Text_NecroaBarricade_Day019::ja::processed::unverified = "19日目（疫病関連なし）：ヘリコプターの轟音で目覚めた。おそらくフォート・ノックス近くでの訓練だろう。受付係が間違った小包を渡した。誰かのビタミン剤だった。",
+Print_Text_NecroaBarricade_Day020::en = "Day 20 (no plague related):
+Tried meditating after work, mind drifted to grocery lists.
+Streetlight outside flickers again; need to call the city works office.",
+Print_Text_NecroaBarricade_Day020::ja::processed::unverified = "20日目（疫病関連なし）：仕事の後に瞑想を試みたが、心は食料品リストにさまよった。街灯がまたちらつく。市役所に電話しなければ。",
+Print_Text_NecroaBarricade_Day021::en = "Day 21 (no plague related):
+Super said folks on the third floor filed a noise complaint about whispered arguments.
+Streets felt emptier after sunset.",
+Print_Text_NecroaBarricade_Day021::ja::processed::unverified = "21日目（疫病関連なし）：管理人によると、3階の住人がささやき合いの口論について騒音の苦情を出した。日没後、通りはより空いているように感じられた。",
+Print_Text_NecroaBarricade_Day022::en = "Day 22 (no plague related):
+Sudden storm trapped us in the conference room; we swapped plumbing horror stories.
+My old umbrella finally gave up.",
+Print_Text_NecroaBarricade_Day022::ja::processed::unverified = "22日目（疫病関連なし）：突然の嵐で会議室に閉じ込められた。配管のホラーストーリーを交換した。古い傘がついに壊れた。",
+Print_Text_NecroaBarricade_Day023::en = "Day 23 (no plague related):
+Stopped by the pharmacy; shelves looked a little thin but maybe the truck ran late.
+Counter girl wrote my name as \"Darin\" on the receipt.",
+Print_Text_NecroaBarricade_Day023::ja::processed::unverified = "23日目（疫病関連なし）：薬局に立ち寄った。棚は少し薄く見えたが、トラックが遅れただけかもしれない。カウンターの女の子がレシートに私の名前を「Darin」と書いた。",
+Print_Text_NecroaBarricade_Day024::en = "Day 24 (no plague related):
+Marco canceled movie night, said his girl had a weird cold and he was staying over with soup.
+I microwaved leftovers and dusted the Super Nintendo.",
+Print_Text_NecroaBarricade_Day024::ja::processed::unverified = "24日目（疫病関連なし）：マルコが映画の夜をキャンセルし、恋人が変な風邪をひいていてスープを持って泊まると言った。残り物を電子レンジで温め、スーパーファミコンのほこりを払った。",
+Print_Text_NecroaBarricade_Day025::en = "Day 25 (no plague related):
+Morning news mentioned a shipping delay on the Ohio, nothing new.
+Saw two cops in paper masks outside the courthouse, probably drill practice.",
+Print_Text_NecroaBarricade_Day025::ja::processed::unverified = "25日目（疫病関連なし）：朝のニュースでオハイオ川の配送遅延が報じられたが、特別なことではない。裁判所の外で紙マスクをした警官を2人見かけたが、多分訓練だろう。",
+Print_Text_NecroaBarricade_Day026::en = "Day 26 (no plague related):
+Laundry day, dryer kept stopping mid-cycle and I kicked it back to life.
+Stray dog paced the alley, whining at shadows.",
+Print_Text_NecroaBarricade_Day026::ja::processed::unverified = "26日目（疫病関連なし）：洗濯日、乾燥機がサイクルの途中で止まったので蹴って再起動させた。野良犬が路地を行ったり来たりして、影に泣き叫んでいた。",
+Print_Text_NecroaBarricade_Day027::en = "Day 27 (no plague related):
+HR sent a memo reminding us to stay home if feverish; half the floor joked it's because Greg sneezed.
+Still hit the gym and wiped every barbell like a germ warrior.",
+Print_Text_NecroaBarricade_Day027::ja::processed::unverified = "27日目（疫病関連なし）：人事部から熱があるなら家にいるようにというメモが回ってきた。フロアの半分はグレッグがくしゃみをしたからだと冗談を言っていた。ジムには行って、消毒戦士のようにバーベルを全部拭いた。",
+Print_Text_NecroaBarricade_Day028::en = "Day 28 (no plague related):
+TARC bus skipped three stops due to \"staff shortages\" announced through static.
+Grabbed a burger; the cook forgot the pickles.",
+Print_Text_NecroaBarricade_Day028::ja::processed::unverified = "28日目（疫病関連なし）：TARCのバスが3停留所をスキップした。「人員不足」のためだというノイズ混じりのアナウンスがあった。バーガーを買ったら、コックがピクルスを忘れていた。",
+Print_Text_NecroaBarricade_Day029::en = "Day 29 (no plague related):
+Kid on the bus hummed the same lullaby while his mother looked bone tired.
+A man outside the bank muttered about headaches spreading like gossip.",
+Print_Text_NecroaBarricade_Day029::ja::processed::unverified = "29日目（疫病関連なし）：バスの中で子供が同じ子守唄を口ずさんでいて、母親は疲れ果てて見えた。銀行の外で男が頭痛が噂のように広がっているとつぶやいていた。",
+Print_Text_NecroaBarricade_Day030::en = "Day 30 (no plague related):
+Month-end paperwork ran long; everyone looked drained.
+Picked up earplugs because the sirens feel louder lately.",
+Print_Text_NecroaBarricade_Day030::ja::processed::unverified = "30日目（疫病関連なし）：月末の事務作業が長引き、誰もが疲れ果てて見えた。耳栓を買った。サイレンが最近より大きく聞こえるからだ。",
+Print_Text_NecroaBarricade_Day031::en = "Day 31:
+HR asked us to update emergency contacts \"just protocol,\" and the room fell silent.
+Someone cracked a joke about zombie drills and we laughed because what else do you do.",
+Print_Text_NecroaBarricade_Day031::ja::processed::unverified = "31日目：人事部から緊急連絡先を更新するよう求められた。「ただの手順です」と。部屋は静まり返った。誰かがゾンビ訓練の冗談を言い、私たちは笑った。他にどうしようもなかったからだ。",
+Print_Text_NecroaBarricade_Day032::en = "Day 32:
+Neighborhood grocer reeked of bleach; half the shoppers wore painter masks.
+Clerk said cold medicine vanished within an hour of delivery.",
+Print_Text_NecroaBarricade_Day032::ja::processed::unverified = "32日目：近所の食料品店は漂白剤の臭いがした。買い物客の半数はペインターマスクを着けていた。店員は風邪薬が配送から1時間で消えたと言った。",
+Print_Text_NecroaBarricade_Day033::en = "Day 33:
+Read a Courier-Journal column claiming a barge arrived with half the crew feverish—probably talk radio nonsense.
+Still washed my hands longer than usual just in case.",
+Print_Text_NecroaBarricade_Day033::ja::processed::unverified = "33日目：クーリエ・ジャーナルのコラムを読んだ。艀が到着し、乗組員の半数が熱を出しているというものだ。多分トークラジオのデタラメだろう。それでも念のためいつもより長く手を洗った。",
+Print_Text_NecroaBarricade_Day034::en = "Day 34:
+Sandra from accounting had a nosebleed that wouldn't quit during the morning meeting; she blamed the dry vents.
+Later she kept rubbing her arms like chills in July.",
+Print_Text_NecroaBarricade_Day034::ja::processed::unverified = "34日目：経理のサンドラが朝の会議中に止まらない鼻血を出した。彼女は乾燥した通気口のせいにした。その後、7月なのに悪寒がするかのように腕をこすり続けていた。",
+Print_Text_NecroaBarricade_Day035::en = "Day 35:
+Governor's press conference called it a \"strange new flu\" near Bowling Green and urged calm.
+Rolled my eyes and flipped the dial back to baseball.",
+Print_Text_NecroaBarricade_Day035::ja::processed::unverified = "35日目：知事の記者会見で、ボーリンググリーン近郊での「奇妙な新しいインフルエンザ」と呼び、冷静さを促した。私は目を回して野球にチャンネルを戻した。",
+Print_Text_NecroaBarricade_Day036::en = "Day 36:
+Pharmacy line wrapped around the block; folks argued over vitamin C bottles.
+I bought cereal and escaped before voices rose.",
+Print_Text_NecroaBarricade_Day036::ja::processed::unverified = "36日目：薬局の列がブロックの周りに伸びていた。人々はビタミンCの瓶をめぐって口論していた。私はシリアルを買い、声が大きくなる前に逃げ出した。",
+Print_Text_NecroaBarricade_Day037::en = "Day 37:
+Lila said her office split shifts and staggered desks for \"infection control.\"
+She called it corporate theater but liked leaving early.",
+Print_Text_NecroaBarricade_Day037::ja::processed::unverified = "37日目：ライラが言うには、彼女のオフィスは「感染管理」のためにシフトを分割し、机を離して配置したという。彼女はそれを企業劇場と呼んだが、早く帰れるのは気に入っていた。",
+Print_Text_NecroaBarricade_Day038::en = "Day 38:
+WHAS radio hosts dropped sports talk for call-in symptom reports.
+Bus driver wiped the steering wheel at every stop.",
+Print_Text_NecroaBarricade_Day038::ja::processed::unverified = "38日目：WHASラジオの司会者がスポーツトークをやめて、症状報告の電話受付に切り替えた。バスの運転手は毎停留所でハンドルを拭いていた。",
+Print_Text_NecroaBarricade_Day039::en = "Day 39:
+Jorge returned, pale and jittery, said his cousin's fever wouldn't break and hospital halls were full.
+He lost his train of thought mid-sentence, staring at the carpet.",
+Print_Text_NecroaBarricade_Day039::ja::processed::unverified = "39日目：ホルへが戻ってきた。青白く、イライラしていた。彼のいとこの熱が下がらず、病院の廊下は満杯だと言った。話の途中で思考を失い、カーペットを見つめた。",
+Print_Text_NecroaBarricade_Day040::en = "Day 40:
+Boss circulated a memo about setting up dial-up access \"if the situation escalates.\"
+I dusted off the company modem and updated passwords scribbled in pencil.",
+Print_Text_NecroaBarricade_Day040::ja::processed::unverified = "40日目：上司が「状況が悪化した場合」に備えてダイヤルアップ接続を設定するようメモを回覧した。私は会社のモデムのほこりを払い、鉛筆で書き留めたパスワードを更新した。",
+Print_Text_NecroaBarricade_Day041::en = "Day 41:
+City bulletin board listed voluntary temperature checks at the Greyhound depot.
+I walked past a station; the nurse's eyes looked exhausted over her gauze mask.",
+Print_Text_NecroaBarricade_Day041::ja::processed::unverified = "41日目：市の掲示板に、グレイハウンドバスターミナルでの自主的な体温チェックの告知があった。駅を通り過ぎたが、看護師の目はガーゼマスクの下で疲れきって見えた。",
+Print_Text_NecroaBarricade_Day042::en = "Day 42:
+Break room fridge smelled metallic; someone left meat too long.
+Custodian muttered headaches were spreading faster than office gossip.",
+Print_Text_NecroaBarricade_Day042::ja::processed::unverified = "42日目：休憩室の冷蔵庫から金属的な匂いがした。誰かが肉を長く置きすぎたのだ。用務員は頭痛がオフィスの噂より速く広がっているとつぶやいた。",
+Print_Text_NecroaBarricade_Day043::en = "Day 43:
+Evening news showed masked soldiers near the river port but claimed it was training.
+Panelists argued whether travel advisories ever worked.",
+Print_Text_NecroaBarricade_Day043::ja::processed::unverified = "43日目：夕方のニュースで、川の港の近くでマスクをした兵士が映ったが、訓練だと言っていた。パネリストたちは渡航勧告が効果を上げたことがあるか議論した。",
+Print_Text_NecroaBarricade_Day044::en = "Day 44:
+Civil defense siren groaned mid-afternoon and the office fluorescents flickered; just a drill, they said.
+My hands shook anyway.",
+Print_Text_NecroaBarricade_Day044::ja::processed::unverified = "44日目：午後、市民防災サイレンが鳴り響き、オフィスの蛍光灯がちらついた。ただの訓練だと言われた。それでも手は震えた。",
+Print_Text_NecroaBarricade_Day045::en = "Day 45:
+Press secretary admitted clusters across two counties but insisted it's contained.
+I made stovetop popcorn and treated it like a disaster movie marathon.",
+Print_Text_NecroaBarricade_Day045::ja::processed::unverified = "45日目：報道官が2つの郡で集団感染を認めたが、封じ込められていると主張した。私はコンロでポップコーンを作り、まるでディザスタームービーのマラソンかのように扱った。",
+Print_Text_NecroaBarricade_Day046::en = "Day 46:
+Tried to buy a proper respirator; hardware store shelves stripped bare except for cartoon-patterned dust masks.
+Settled for a pack shaped like smiling bears.",
+Print_Text_NecroaBarricade_Day046::ja::processed::unverified = "46日目：ちゃんとした防毒マスクを買おうとしたが、金物店の棚は漫画柄の防塵マスク以外は空っぽだった。笑顔のクマの形をしたパックで妥協した。",
+Print_Text_NecroaBarricade_Day047::en = "Day 47:
+Heard patients showing high fevers and irritability; hospitals requested neurologists from Louisville General.
+Marco joked it's the world's worst hangover bug.",
+Print_Text_NecroaBarricade_Day047::ja::processed::unverified = "47日目：患者に高熱と過敏性が見られ、病院はルイビル総合病院から神経科医を要請したと聞いた。マルコはそれが世界最悪の二日酔いウイルスだと冗談を言った。",
+Print_Text_NecroaBarricade_Day048::en = "Day 48:
+Official name dropped today—PAX-93—sounds like a line of camcorders.
+Spokesperson promised antivirals were en route; nobody clapped in the audience.",
+Print_Text_NecroaBarricade_Day048::ja::processed::unverified = "48日目：公式名称が今日発表された——PAX-93——ビデオカメラのシリーズ名みたいだ。スポークスマンは抗ウイルス薬が輸送中だと約束したが、聴衆の拍手はなかった。",
+Print_Text_NecroaBarricade_Day049::en = "Day 49:
+Office rumor mill buzzed about checkpoints on the ring road.
+I finished my claim reports while the city murmured outside.",
+Print_Text_NecroaBarricade_Day049::ja::processed::unverified = "49日目：オフィスの噂話が環状道路の検問所について騒いでいた。私はクレーム報告書を仕上げながら、外で街がざわめくのを聞いていた。",
+Print_Text_NecroaBarricade_Day050::en = "Day 50:
+Walked the park to clear my head; only a mathematician muttering equations remained on the benches.
+Told myself I was imagining things.",
+Print_Text_NecroaBarricade_Day050::ja::processed::unverified = "50日目：頭をすっきりさせようと公園を歩いた。ベンチには方程式をつぶやく数学者だけが残っていた。自分に「気のせいだ」と言い聞かせた。",
+Print_Text_NecroaBarricade_Day051::en = "Day 51:
+Mom called twice from Muldraugh, begging me to drive down before roads close.
+I said the TV scare-mongers need ratings and I'm safer in the city.",
+Print_Text_NecroaBarricade_Day051::ja::processed::unverified = "51日目：マルドローに住む母から電話が2回あり、道路が封鎖される前に車で来るように懇願された。私はテレビの恐怖あおり連中は視聴率が必要なだけで、都会の方が安全だと言った。",
+Print_Text_NecroaBarricade_Day052::en = "Day 52:
+Notice posted downstairs: all public events postponed pending review.
+Calendar looks bare without bowling league.",
+Print_Text_NecroaBarricade_Day052::ja::processed::unverified = "52日目：下の階に掲示があった。すべての公共イベントは審査のため延期。ボウリングリーグがないとカレンダーは寂しい。",
+Print_Text_NecroaBarricade_Day053::en = "Day 53:
+Caught two coworkers hiding behind filing cabinets to read the paper; can't blame them.
+Someone swore the virus can live on coins for days, sounded exaggerated.",
+Print_Text_NecroaBarricade_Day053::ja::processed::unverified = "53日目：同僚2人が書類キャビネットの後ろに隠れて新聞を読んでいるのを見つけた。責められない。誰かがウイルスは硬貨の上で何日も生きられると断言していたが、大げさに聞こえた。",
+Print_Text_NecroaBarricade_Day054::en = "Day 54:
+National Guard trucks rumbled past the office toward the river quarantine zone.
+People stepped outside to watch like it was Thunder Over Louisville.",
+Print_Text_NecroaBarricade_Day054::ja::processed::unverified = "54日目：州兵のトラックがオフィスの前を通り過ぎ、川の隔離区域へ向かった。人々は外に出て、サンダー・オーバー・ルイビルのように見物した。",
+Print_Text_NecroaBarricade_Day055::en = "Day 55:
+Rumor said a bus passenger collapsed near the depot foaming at the mouth; urban legend maybe.
+Still, I grabbed extra canned beans on the way home.",
+Print_Text_NecroaBarricade_Day055::ja::processed::unverified = "55日目: 噂では、バスの乗客が停留所近くで倒れ、口から泡を吹いていたとのこと。都市伝説かもしれない。それでも、帰り道に余分に缶詰の豆を手に入れた。",
+Print_Text_NecroaBarricade_Day056::en = "Day 56:
+Strange coppery smell filled the stairwell.
+Neighbor argued behind closed doors, slurring words like he’d had one too many.",
+Print_Text_NecroaBarricade_Day056::ja::processed::unverified = "56日目: 階段の吹き抜けに奇妙な銅のような匂いが満ちていた。隣人が閉ざされたドアの向こうで言い争い、酔っ払ったように言葉を濁していた。",
+Print_Text_NecroaBarricade_Day057::en = "Day 57:
+Company announced we'll rotate half-staff at a time starting next week.
+Relieved and restless in equal measure.",
+Print_Text_NecroaBarricade_Day057::ja::processed::unverified = "57日目: 会社が来週から半数のスタッフを交代制にすることを発表した。安心と落ち着かなさが半々だった。",
+Print_Text_NecroaBarricade_Day058::en = "Day 58:
+Evening broadcast showed patients twitching in hospital beds, anchors whispering about swelling in the brain.
+I watched till snow static took over.",
+Print_Text_NecroaBarricade_Day058::ja::processed::unverified = "58日目: 夕方の放送で、患者が病床でぴくぴく動く様子が映し出され、アナウンサーが脳の腫れについて囁いていた。雪の砂嵐が画面を覆うまで見ていた。",
+Print_Text_NecroaBarricade_Day059::en = "Day 59:
+Heading to office supply, I saw a man stagger into traffic yelling about insects under his skin.
+Police coaxed him away gently; I turned the Chevy around and drove home.",
+Print_Text_NecroaBarricade_Day059::ja::processed::unverified = "59日目: オフィス用品店に向かう途中、男が車道によろめき出て、皮膚の下に虫がいると叫んでいるのを見た。警察が優しく彼をなだめて連れ去った。私はシボレーをUターンさせて家に帰った。",
+Print_Text_NecroaBarricade_Day060::en = "Day 60:
+First regional lockdown declared, maps shaded crimson on Channel 11.
+I double-checked the window locks and inventoried the pantry like it mattered.",
+Print_Text_NecroaBarricade_Day060::ja::processed::unverified = "60日目: 最初の地域封鎖が宣言され、チャンネル11の地図は真紅に染まった。窓の鍵を再確認し、パントリーの在庫を調べた。それが重要であるかのように。",
+Print_Text_NecroaBarricade_Day061::en = "Day 61:
+Half the office working from home via scratchy speakerphone; I stayed put under flickering lights.
+Army helicopters sprayed something misty over the industrial park.",
+Print_Text_NecroaBarricade_Day061::ja::processed::unverified = "61日目: 事務所の半数が、ガサガサのスピーカーフォンで在宅勤務をしていた。私はちらつく照明の下に留まった。軍のヘリコプターが工業団地に何か霧状のものを散布していた。",
+Print_Text_NecroaBarricade_Day062::en = "Day 62:
+Grocery delivery service shut down, so I ventured out with a paper list.
+Guards at the corner checkpoint took my temperature with a mercury thermometer and waved me through without a smile.",
+Print_Text_NecroaBarricade_Day062::ja::processed::unverified = "62日目: 食料品配達サービスが停止したので、紙のリストを持って出かけた。角の検問所の警備員が水銀体温計で体温を測り、無言で通してくれた。",
+Print_Text_NecroaBarricade_Day063::en = "Day 63:
+Lines coiled around the pharmacy, people standing six feet apart instinctively.
+Heard the word \"airborne\" whispered with the hush of a curse.",
+Print_Text_NecroaBarricade_Day063::ja::processed::unverified = "63日目: 薬局の周りに長蛇の列ができ、人々は本能的に2メートル間隔で立っていた。「空気感染」という言葉が、呪いを呟くような小声でささやかれるのを聞いた。",
+Print_Text_NecroaBarricade_Day064::en = "Day 64:
+Marco called from a payphone, voice raw; his chest felt tight and light hurt his eyes.
+He insisted it was nerves but his knuckles were scabbed from clenching.",
+Print_Text_NecroaBarricade_Day064::ja::processed::unverified = "64日目: マルコが公衆電話から電話してきた。声は嗄れていて、胸が締め付けられ、光が目に痛かった。彼は神経のせいだと言い張ったが、拳は握りしめすぎてかさぶたができていた。",
+Print_Text_NecroaBarricade_Day065::en = "Day 65:
+News anchor struggled to describe \"hemorrhagic complications\" before the feed cut to color bars.
+Later a metallic scent drifted through my vents and kept me awake.",
+Print_Text_NecroaBarricade_Day065::ja::processed::unverified = "65日目: ニュースキャスターが「出血性合併症」を説明しようと苦闘しているうちに、映像がカラーバーに切り替わった。その後、金属的な臭いが通気口から漂ってきて、眠れなくなった。",
+Print_Text_NecroaBarricade_Day066::en = "Day 66:
+City mailed packets asking residents to log symptoms via hotline postcards.
+Form asked about confusion and memory gaps; my stomach knotted.",
+Print_Text_NecroaBarricade_Day066::ja::processed::unverified = "66日目: 市が住民にホットラインのハガキで症状を記録するよう求める書類を郵送した。用紙には錯乱や記憶の欠落について質問があり、胃が締め付けられた。",
+Print_Text_NecroaBarricade_Day067::en = "Day 67:
+Shortwave chatter dubbed it the \"zombie flu,\" claiming bodies twitched after death.
+Laughed it off but unplugged the set anyway.",
+Print_Text_NecroaBarricade_Day067::ja::processed::unverified = "67日目: 短波の雑談で、それを「ゾンビ風邪」と呼び、死後も体がピクピク動くと言っていた。笑い飛ばしたが、ラジオのプラグは抜いた。",
+Print_Text_NecroaBarricade_Day068::en = "Day 68:
+Supply trucks stopped reaching the A&P; shelves looked skeletal, only pickled onions and sardines left.
+I bought two jars and felt foolish.",
+Print_Text_NecroaBarricade_Day068::ja::processed::unverified = "68日目: 補給トラックがA&Pに届かなくなった。棚は骨格のように空っぽで、ピクルスオニオンとイワシだけが残っていた。私は2瓶買って、馬鹿らしくなった。",
+Print_Text_NecroaBarricade_Day069::en = "Day 69:
+Sirens screamed all morning; rumor says hospital visitors rioted when turned away.
+Building notice board erupted with arguments over sharing canned goods.",
+Print_Text_NecroaBarricade_Day069::ja::processed::unverified = "69日目: サイレンが朝中鳴り響いた。噂では、病院の訪問者が追い返された時に暴動を起こしたとのこと。建物の掲示板は、缶詰を分け合うことで議論が噴出した。",
+Print_Text_NecroaBarricade_Day070::en = "Day 70:
+Woke to pounding on a nearby door; someone begged for medicine for his brother.
+Argument dissolved into sobs and footsteps fleeing down the stairs.",
+Print_Text_NecroaBarricade_Day070::ja::processed::unverified = "70日目: 近くのドアを叩く音で目覚めた。誰かが弟のために薬をくれと懇願していた。口論はすすり泣きと階段を駆け下りる足音に変わった。",
+Print_Text_NecroaBarricade_Day071::en = "Day 71:
+City decreed a dusk-to-dawn curfew, fines doubling each violation.
+I dragged the couch against the balcony door.",
+Print_Text_NecroaBarricade_Day071::ja::processed::unverified = "71日目: 市が日没から夜明けまでの夜間外出禁止令を布告し、違反ごとに罰金が倍になるとのこと。ソファを引きずってバルコニーのドアに立てかけた。",
+Print_Text_NecroaBarricade_Day072::en = "Day 72:
+Power flickered while emergency broadcasters looped instructions on sealing vents with plastic.
+I taped garbage bags over the windows till my fingers cramped.",
+Print_Text_NecroaBarricade_Day072::ja::processed::unverified = "72日目: 緊急放送が通気口をプラスチックで密閉する指示を繰り返す中、電力がちらついた。窓にゴミ袋をテープで貼り付け、指がつるまで続けた。",
+Print_Text_NecroaBarricade_Day073::en = "Day 73:
+Lila hasn't answered since mentioning sparks flying from the quarantine fence as crowds pushed it.
+I keep dialing her answering machine anyway.",
+Print_Text_NecroaBarricade_Day073::ja::processed::unverified = "73日目: ライラは、群衆が押すと隔離フェンスから火花が飛んだと言って以来、応答がない。それでも彼女の留守番電話にダイヤルし続けている。",
+Print_Text_NecroaBarricade_Day074::en = "Day 74:
+Air smells of burnt rubber and iron, maybe the disinfectant they spray at night.
+My throat feels raw though I haven't stepped outside.",
+Print_Text_NecroaBarricade_Day074::ja::processed::unverified = "74日目: 空気は焦げたゴムと鉄の匂いがする。夜間に散布している消毒剤かもしれない。外に出ていないのに喉がヒリヒリする。",
+Print_Text_NecroaBarricade_Day075::en = "Day 75:
+Someone rattled the stairwell door three times tonight, muttering about trading batteries.
+I sat in the dark with a baseball bat balanced on my knees.",
+Print_Text_NecroaBarricade_Day075::ja::processed::unverified = "75日目: 今夜、誰かが階段のドアを三回がたつかせ、電池の取引についてぶつぶつ言っていた。暗闇の中でバットを膝の上に置いて座っていた。",
+Print_Text_NecroaBarricade_Day076::en = "Day 76:
+Built a barricade with bookshelves and the mattress jammed against the door.
+Sorted canned goods into neat stacks and realized how little there is.",
+Print_Text_NecroaBarricade_Day076::ja::processed::unverified = "76日目: 本棚とマットレスをドアに挟んでバリケードを作った。缶詰をきれいに積み重ね、その少なさに気づいた。",
+Print_Text_NecroaBarricade_Day077::en = "Day 77:
+Radio announcer described PAX-93 patients biting and clawing before organs fail.
+He cut off mid-sentence and static swallowed the broadcast.",
+Print_Text_NecroaBarricade_Day077::ja::processed::unverified = "77日目: ラジオのアナウンサーが、PAX-93患者は臓器不全の前に噛みつき引っかく行為をすると説明していた。彼は途中で言葉を切り、砂嵐が放送を飲み込んだ。",
+Print_Text_NecroaBarricade_Day078::en = "Day 78:
+Screams in the alley followed by three sharp rifle cracks.
+I counted to a hundred before breathing again.",
+Print_Text_NecroaBarricade_Day078::ja::processed::unverified = "78日目: 路地で悲鳴が上がり、続いて三発の鋭いライフルの発砲音。百まで数えてから息を吐いた。",
+Print_Text_NecroaBarricade_Day079::en = "Day 79:
+Saw a neighbor stumbling in the courtyard, skin mottled gray, eyes glassy.
+She slammed her forehead into the gate until blood smeared the iron, then someone dragged her away.",
+Print_Text_NecroaBarricade_Day079::ja::processed::unverified = "79日目: 中庭で隣人がよろめいているのを見た。皮膚は灰色にまだらで、目は濁っていた。彼女は額をゲートに何度も打ち付け、血が鉄にぬれるまで続け、その後誰かに引きずられていった。",
+Print_Text_NecroaBarricade_Day080::en = "Day 80:
+National Guard loudspeakers ordered everyone indoors while they \"neutralized aggressive vectors.\"
+Water jug is down to a quarter; tap sputters rust.",
+Print_Text_NecroaBarricade_Day080::ja::processed::unverified = "80日目: 州兵の拡声器が、彼らが「攻撃的な媒介者を無力化する」間、全員屋内にいるよう命じた。水差しは4分の1まで減っている。蛇口からは錆が吹き出る。",
+Print_Text_NecroaBarricade_Day081::en = "Day 81:
+Heatwave rolled in but I dare not open the windows.
+Sweat slithered down the journal pages, smearing the ink.",
+Print_Text_NecroaBarricade_Day081::ja::processed::unverified = "81日目: 熱波が到来したが、窓を開ける勇気はない。汗が日記のページを伝い、インクをにじませた。",
+Print_Text_NecroaBarricade_Day082::en = "Day 82:
+Looters smashed the corner liquor store; glass rained across the sidewalk.
+Afterward a low humming echoed like generators laboring three blocks away.",
+Print_Text_NecroaBarricade_Day082::ja::processed::unverified = "82日目: 略奪者たちが角の酒屋を壊し、ガラスが歩道に降り注いだ。その後、三ブロック先で発電機が頑張っているような低いハミングが響いた。",
+Print_Text_NecroaBarricade_Day083::en = "Day 83:
+Marco's girl left a message: \"He climbed the walls. They took him.\"
+No other words.",
+Print_Text_NecroaBarricade_Day083::ja::processed::unverified = "83日目: マルコの彼女からメッセージが残されていた。「彼は壁を登った。彼らが連れて行った。」それだけだった。",
+Print_Text_NecroaBarricade_Day084::en = "Day 84:
+Sleep won't stick; footsteps pace the hallway outside.
+Peephole shows only flickering light and peeling wallpaper.",
+Print_Text_NecroaBarricade_Day084::ja::processed::unverified = "84日目: 眠れない。外の廊下を行ったり来たりする足音。のぞき穴には、ちらつく光と剥がれた壁紙だけが見える。",
+Print_Text_NecroaBarricade_Day085::en = "Day 85:
+Emergency bulletin said PAX-93 spreads via aerosols and dried blood; they recommend burning contaminated linens.
+I burned two towels in the sink and set off the detector.",
+Print_Text_NecroaBarricade_Day085::ja::processed::unverified = "85日目：緊急放送によるとPAX-93はエアロゾルと乾燥血液を介して広がる。汚染されたリネンは焼却するよう勧告。流しでタオル2枚を燃やしたら警報器が作動した。",
+Print_Text_NecroaBarricade_Day086::en = "Day 86:
+Helicopter dropped a supply crate on the roof, but three neighbors fought over it before I climbed the stairs.
+One man bit another’s wrist; blood splattered the handrail.",
+Print_Text_NecroaBarricade_Day086::ja::processed::unverified = "86日目：ヘリコプターが屋上に補給物資の木箱を投下したが、階段を上る前に隣人3人が争い合った。一人が別の男の手首を噛み、血が手すりに飛び散った。",
+Print_Text_NecroaBarricade_Day087::en = "Day 87:
+City power failed for six hours; when it snapped back, every channel showed red blotches marching across maps.
+The announcer's eyes darted like someone held cue cards at gunpoint.",
+Print_Text_NecroaBarricade_Day087::ja::processed::unverified = "87日目：市の電力が6時間停止。復旧すると、全チャンネルが地図上を進む赤い斑点を映していた。アナウンサーの目は、銃を突きつけられてキューワードカードを持たされているかのように動いていた。",
+Print_Text_NecroaBarricade_Day088::en = "Day 88:
+Rationed to one meal a day, mostly chickpeas and crackers.
+Hands shake constantly—hunger or fear, can't tell.",
+Print_Text_NecroaBarricade_Day088::ja::processed::unverified = "88日目：1日1食に制限。主にひよこ豆とクラッカー。手が絶えず震える――空腹か恐怖か、わからない。",
+Print_Text_NecroaBarricade_Day089::en = "Day 89:
+Heard chanting from the street—\"We are not infected\"—until voices cracked.
+Then a volley of shots, then nothing.",
+Print_Text_NecroaBarricade_Day089::ja::processed::unverified = "89日目：通りから「私たちは感染していない」という唱和が聞こえた。声がかれるまで続き、その後一斉射撃、そして静寂。",
+Print_Text_NecroaBarricade_Day090::en = "Day 90:
+Thick chemical fog rolled between buildings, smelling of bleach and decay.
+Wrapped a bandanna over my face and whispered that I'm still here.",
+Print_Text_NecroaBarricade_Day090::ja::processed::unverified = "90日目：建物の間を濃い化学物質の霧が漂い、漂白剤と腐敗の匂いがした。バンダナで顔を覆い、「まだここにいる」とささやいた。",
+Print_Text_NecroaBarricade_Day091::en = "Day 91:
+Phone lines stutter; calls drop before the first ring.
+Emergency broadcaster repeats yesterday's message word-for-word.",
+Print_Text_NecroaBarricade_Day091::ja::processed::unverified = "91日目：電話線が途切れ途切れ。最初の呼び出し音の前に切れる。緊急放送は昨日のメッセージを一字一句繰り返している。",
+Print_Text_NecroaBarricade_Day092::en = "Day 92:
+Tap water ran brown then coughed air.
+Filled pots and filtered through a torn T-shirt; still tastes of pennies.",
+Print_Text_NecroaBarricade_Day092::ja::processed::unverified = "92日目：水道水が茶色くなり、やがて空気を吐き出した。鍋に汲んで破れたTシャツでろ過。それでも銅の味がする。",
+Print_Text_NecroaBarricade_Day093::en = "Day 93:
+Someone hammered on my door claiming the building was being evacuated.
+When I answered through the wood, they accused me of hoarding and stomped away.",
+Print_Text_NecroaBarricade_Day093::ja::processed::unverified = "93日目：誰かがドアを叩き、建物が避難中だと主張した。木越しに返答すると、物資をため込んでいると非難して足音を立てて去っていった。",
+Print_Text_NecroaBarricade_Day094::en = "Day 94:
+Ventured into the stairwell; walls streaked with dark, sticky handprints.
+A bundle of mail buzzed with flies, cards promising sweepstakes winnings that no one will claim.",
+Print_Text_NecroaBarricade_Day094::ja::processed::unverified = "94日目：階段室に足を踏み入れた。壁には暗くてべとつく手形の跡。ハエがたかる郵便物の束、誰も請求しない懸賞当選を約束するカード。",
+Print_Text_NecroaBarricade_Day095::en = "Day 95:
+Military radio crackled about aid stations near Shepherdsville.
+I can barely stagger that far on my best day.",
+Print_Text_NecroaBarricade_Day095::ja::processed::unverified = "95日目：軍の無線がシェパーズビル近くの支援所についてパチパチと音を立てていた。最高の状態でもそこまでよろめいて行けるかどうか。",
+Print_Text_NecroaBarricade_Day096::en = "Day 96:
+Newsman whispered about \"neural necrosis\" and involuntary spasms before the signal died.
+He muttered a prayer on air.",
+Print_Text_NecroaBarricade_Day096::ja::processed::unverified = "96日目：ニュースキャスターが信号が途絶える前に「神経壊死」と不随意痙攣についてささやいた。彼は放送中に祈りをつぶやいた。",
+Print_Text_NecroaBarricade_Day097::en = "Day 97:
+Dreamt Marco clawed at the window speaking in a voice that wasn't his.
+Woke with crescent bruises where my own nails dug in.",
+Print_Text_NecroaBarricade_Day097::ja::processed::unverified = "97日目：マルコが窓を引っかき、自分ではない声で話す夢を見た。目が覚めると自分の爪が食い込んだ三日月形のあざがあった。",
+Print_Text_NecroaBarricade_Day098::en = "Day 98:
+Generator downstairs coughed to life for thirty minutes.
+Charged batteries and copied back-road maps into this notebook.",
+Print_Text_NecroaBarricade_Day098::ja::processed::unverified = "98日目：階下の発電機がゴホゴホと音を立てて30分間動き出した。バッテリーを充電し、裏道の地図をこのノートに写した。",
+Print_Text_NecroaBarricade_Day099::en = "Day 99:
+Mom left a cassette on my answering machine, voice warped by static; said Dad paces nonstop and she locked him in the cellar.
+Message ended with a crash and a ragged shout.",
+Print_Text_NecroaBarricade_Day099::ja::processed::unverified = "99日目：母が留守番電話にカセットを残した。声はノイズで歪み、父が絶えず歩き回るので地下室に閉じ込めたと言う。メッセージは衝突音とかすれた叫び声で終わった。",
+Print_Text_NecroaBarricade_Day100::en = "Day 100:
+Sirens no longer sound; maybe there’s no one left to steer them.
+Lit candles and talked to myself to fill the silence.",
+Print_Text_NecroaBarricade_Day100::ja::processed::unverified = "100日目：サイレンはもう鳴らない。おそらく運転する人が残っていないのだ。ろうそくを灯し、静寂を埋めるために独り言を言った。",
+Print_Text_NecroaBarricade_Day101::en = "Day 101:
+Stomach rejects the last cans of beans; nausea rolls in waves.
+Found a bruise shaped like a handprint on my thigh though I live alone.",
+Print_Text_NecroaBarricade_Day101::ja::processed::unverified = "101日目：胃が最後の豆缶を受け付けない。吐き気が波のように押し寄せる。一人暮らしなのに太ももに手形のようなあざを見つけた。",
+Print_Text_NecroaBarricade_Day102::en = "Day 102:
+Thunderstorm hammered the building; rain seeped through taped windows.
+Caught myself laughing at the idea of the sky trying to wash us clean.",
+Print_Text_NecroaBarricade_Day102::ja::processed::unverified = "102日目：雷雨が建物を叩きつけ、雨がテープで止めた窓から染み込んできた。空が私たちをきれいに洗おうとしている考えに笑っている自分に気づいた。",
+Print_Text_NecroaBarricade_Day103::en = "Day 103:
+Power blinked at midnight; TV flickered on with a trembling scientist confirming PAX-93 victims \"regain motor function post-mortem.\"
+He said \"walking infected\" without irony before the feed collapsed.",
+Print_Text_NecroaBarricade_Day103::ja::processed::unverified = "103日目：真夜中に電力がちらつき、テレビが点滅して震える科学者がPAX-93の犠牲者は「死後運動機能を回復する」と確認した。彼は皮肉なしで「歩く感染体」と言い、映像が途切れた。",
+Print_Text_NecroaBarricade_Day104::en = "Day 104:
+Minutes later scraping echoed outside; a body in the courtyard convulsed, joints snapping back as it stood.
+Milky eyes lifted toward my window, nostrils flaring like it scented me.",
+Print_Text_NecroaBarricade_Day104::ja::processed::unverified = "104日目：数分後、外で引きずる音が響き、中庭の死体が痙攣し、関節がパキパキと戻りながら立ち上がった。乳白色の目が私の窓に向き、鼻を広げて私の匂いを嗅いだかのようだった。",
+Print_Text_NecroaBarricade_Day105::en = "Day 105:
+Pushed the dresser tighter against the door and hung pots as alarms.
+Heartbeat drums louder than the sporadic gunfire.",
+Print_Text_NecroaBarricade_Day105::ja::processed::unverified = "105日目：箪笥をドアにさらに押し付け、鍋を警報として吊るした。心臓の鼓動が散発的な銃声より大きく鳴り響く。",
+Print_Text_NecroaBarricade_Day106::en = "Day 106:
+Air vents rattle with low moans, or maybe just the wind trapped in ducts.
+I keep the butcher knife beside the journal now.",
+Print_Text_NecroaBarricade_Day106::ja::processed::unverified = "106日目：通気口が低いうめき声でがたついている。あるいは単にダクトに閉じ込められた風かもしれない。今は屠殺用ナイフを日記のそばに置いている。",
+Print_Text_NecroaBarricade_Day107::en = "Day 107:
+AM radio only plays a distorted loop: \"Shelter. Contain. Burn.\"
+I switched it off and stared into the dark, counting breaths.",
+Print_Text_NecroaBarricade_Day107::ja::processed::unverified = "107日目：AMラジオは歪んだループだけを流す：「避難。封じ込め。焼却。」スイッチを切り、暗闇を見つめながら呼吸を数えた。",
+Print_Text_NecroaBarricade_Day108::en = "Day 108:
+Hunger gnaws; chewed multivitamins simply to feel something solid.
+Thoughts crackle and skip like a bad record.",
+Print_Text_NecroaBarricade_Day108::ja::processed::unverified = "108日目：飢えが蝕む。何か固形物を感じるためにマルチビタミンを噛んだ。思考は壊れたレコードのようにパチパチと飛び跳ねる。",
+Print_Text_NecroaBarricade_Day109::en = "Day 109:
+Downstairs someone screamed for help until the words gurgled.
+Sound stopped abruptly, replaced by wet dragging climbing the stairwell.",
+Print_Text_NecroaBarricade_Day109::ja::processed::unverified = "109日目：階下で誰かが助けを叫び、言葉がゴボゴボと音を立てるまで続いた。音が突然止み、代わりに濡れた引きずる音が階段室を上ってくる。",
+Print_Text_NecroaBarricade_Day110::en = "Day 110:
+Fever spiked; sheets soaked through with sweat.
+In the mirror my pupils looked wide as quarters and I wondered if the knock had come.",
+Print_Text_NecroaBarricade_Day110::ja::processed::unverified = "110日目：熱が急上昇。シーツが汗でびっしょり。鏡の中の自分の瞳孔は25セント硬貨のように大きく見え、ノックが来たのかと思った。",
+Print_Text_NecroaBarricade_Day111::en = "Day 111:
+Listened every recipe I've ever cooked to prove memory still works.
+Halfway through I forgot the spice Marco once gave me.",
+Print_Text_NecroaBarricade_Day111::ja::processed::unverified = "111日目：今まで作ったすべてのレシピを暗唱して記憶がまだ機能していることを証明しようとした。途中でマルコがくれたスパイスを忘れた。",
+Print_Text_NecroaBarricade_Day112::en = "Day 112:
+Helicopter hovered low, spotlight slicing through broken blinds.
+Loudspeaker promised evacuation for the healthy, but the courtyard writhed with twitching silhouettes.",
+Print_Text_NecroaBarricade_Day112::ja::processed::unverified = "112日目：ヘリコプターが低空でホバリングし、サーチライトが壊れたブラインドを切り裂く。拡声器が健康な者には避難を約束したが、中庭は痙攣する影たちがうごめいていた。",
+Print_Text_NecroaBarricade_Day113::en = "Day 113:
+Found bite marks dented into the stair rail, deep enough to bend steel.
+What jaws can do that?",
+Print_Text_NecroaBarricade_Day113::ja::processed::unverified = "113日目：階段の手すりに歯型のへこみを発見。鋼鉄を曲げるほど深い。どんな顎がそんなことをできるのか？",
+Print_Text_NecroaBarricade_Day114::en = "Day 114:
+Whispers slither through the vents, hissing my name, or maybe it's just air.
+Stuffed towels into grates yet the whispers linger.",
+Print_Text_NecroaBarricade_Day114::ja::processed::unverified = "114日目：ささやきが通気口を這い回り、私の名前をシューシューとささやく。あるいは単なる空気かもしれない。格子にタオルを詰めたが、ささやきは残る。",
+Print_Text_NecroaBarricade_Day115::en = "Day 115:
+Calendar on the fridge still reminds me to pay the electric bill.
+Laughed until I cried, then couldn't stop either.",
+Print_Text_NecroaBarricade_Day115::ja::processed::unverified = "115日目: 冷蔵庫のカレンダーはまだ電気代の支払いを思い出させる。笑いすぎて泣いた、そして止まれなくなった。",
+Print_Text_NecroaBarricade_Day116::en = "Day 116:
+Distant explosion rattled the glass; a pillar of ash rose beyond the skyline.
+Maybe they're burning whole districts now.",
+Print_Text_NecroaBarricade_Day116::ja::processed::unverified = "116日目: 遠くの爆発がガラスを震わせ、地平線の彼方に灰の柱が立ち昇った。もしかしたらもう地区全体を燃やしているのかもしれない。",
+Print_Text_NecroaBarricade_Day117::en = "Day 117:
+Hands tremble so hard I can barely write.
+Rigged glass bottles on strings across the living room to warn me of intruders.",
+Print_Text_NecroaBarricade_Day117::ja::processed::unverified = "117日目: 手が震えてほとんど字が書けない。居間に紐でガラス瓶を張り巡らせ、侵入者を警告するようにした。",
+Print_Text_NecroaBarricade_Day118::en = "Day 118:
+Woke to shattered glass; one bottle on the floor, syrupy footprints smeared toward the bedroom.
+Hid in the closet for hours clutching the dull knife.",
+Print_Text_NecroaBarricade_Day118::ja::processed::unverified = "118日目: 砕けたガラスで目覚めた。床に瓶が一つ、シロップのような足跡が寝室へと伸びている。鈍いナイフを握りしめて、クローゼットに何時間も隠れていた。",
+Print_Text_NecroaBarricade_Day119::en = "Day 119:
+Skin around my fingernails turned gray; malnutrition or something worse.
+Feel pulses in my skull like footsteps behind me.",
+Print_Text_NecroaBarricade_Day119::ja::processed::unverified = "119日目: 爪の周りの皮膚が灰色になった。栄養失調か、それ以上に悪いものか。頭蓋骨の中で脈打つ音が、背後に迫る足音のように感じる。",
+Print_Text_NecroaBarricade_Day120::en = "Day 120:
+They're outside the door now, wet breaths and slow circles scratched by nails.
+Veins throb with heat, vision blurs, journal slipping from my hands—maybe opening the door is just catching up to what I already am.",
+Print_Text_NecroaBarricade_Day120::ja::processed::unverified = "120日目: 彼らは今、扉の外にいる。湿った息遣いと、爪で描かれたゆっくりとした円。血管が熱く鼓動し、視界が霞み、日記が手から滑り落ちる——もしかすると、扉を開けることは、私がすでになってしまったものに追いつくだけなのかもしれない。",
+Print_Text_NecroaBarricade_JournalTitle::en = "%1's Journal #%2",
+Print_Text_NecroaBarricade_JournalTitle::ja::processed::unverified = "%1の日記 #%2",
 Sandbox_Susceptible::en = "Susceptible (airborne)",
 Sandbox_Susceptible::ja::processed::unverified = "感受性（空気感染）",
 Sandbox_SusceptibleCorpses::en = "Susceptible corpses",
@@ -762,8 +1256,8 @@ UI_NECROA_MaskFaceItems::en = "Face-slot items (equipped + inventory):",
 UI_NECROA_MaskFaceItems::ja::processed::unverified = "顔スロットアイテム（装備中＋インベントリ）:",
 UI_NECROA_MaskHasOverride::en = "(saved override)",
 UI_NECROA_MaskHasOverride::ja::processed::unverified = "（保存済みオーバーライド）",
-UI_NECROA_MaskHelp_tt::en = "In this menu, you can add compatibility with masks from other mods.\\n\\nReference defaults (this mod's Susceptible table):\\n- Normal disposable / surgical style: durability 120, repair: Wash\\n- Cloth bandana / light face wrap: 26, Wash\\n- Gas mask (filter): 400, Filter\\n- SCBA / hazmat (air tank): 600, Oxygen",
-UI_NECROA_MaskHelp_tt::ja::processed::unverified = "このメニューでは、他のMODのマスクとの互換性を追加できます。 参考デフォルト（このMODの感受性テーブル）: - 通常の使い捨て/サージカルタイプ: 耐久120, 修理: 洗濯 - 布のバンダナ/軽いフェイスラップ: 26, 洗濯 - ガスマスク（フィルター）: 400, フィルター - SCBA / 防護服（エアタンク）: 600, 酸素",
+UI_NECROA_MaskHelp_tt::en = "In this menu, you can add compatibility with masks from other mods.\\n\\nReference defaults (this mod's Susceptible table):\\n- Normal disposable / surgical style: durability 120, repair: Wash\\n- Cloth bandana / light face wrap: 26, Wash\\n- Gas mask (filter): 400, Filter\\n- SCBA / hazmat (air tank): 1200, Oxygen",
+UI_NECROA_MaskHelp_tt::ja::processed::unverified = "このメニューでは、他のMODのマスクとの互換性を追加できます。 参考デフォルト（このMODの感受性テーブル）: - 通常の使い捨て / サージカルタイプ: 耐久120, 修理: 洗濯 - 布のバンダナ / 軽いフェイスラップ: 26, 洗濯 - ガスマスク（フィルター）: 400, フィルター - SCBA / 防護服（エアタンク）: 1200, 酸素",
 UI_NECROA_MaskHintNoItems::en = "No face-slot clothing found. Wear a mask or keep one in your inventory, then Refresh.",
 UI_NECROA_MaskHintNoItems::ja::processed::unverified = "顔スロットの衣類が見つかりません。マスクを着用するか、インベントリに入れてから「更新」してください。",
 UI_NECROA_MaskMenuTitle::en = "Custom masks (Susceptible)",
@@ -1006,8 +1500,8 @@ UI_NECROA_Welcome_BtnOK::en = "OK",
 UI_NECROA_Welcome_BtnOK::ja::processed::unverified = "了解",
 UI_NECROA_Welcome_BtnUpdates::en = "Updates",
 UI_NECROA_Welcome_BtnUpdates::ja::processed::unverified = "アップデート",
-UI_NECROA_Welcome_L01::en = "Necroa - Read or Die Update 1.7",
-UI_NECROA_Welcome_L01::ja::processed::unverified = "Necroa - Read or Die アップデート 1.7",
+UI_NECROA_Welcome_L01::en = "Necroa - Read or Die Update 1.8",
+UI_NECROA_Welcome_L01::ja::processed::unverified = "Necroa - Read or Die アップデート 1.8",
 UI_NECROA_Welcome_L03::en = "This mod is more than just zombies.",
 UI_NECROA_Welcome_L03::ja::processed::unverified = "このModは単なるゾンビ以上のものです。",
 UI_NECROA_Welcome_L04::en = "Survival depends on avoiding infection.",
@@ -1038,8 +1532,8 @@ UI_NECROA_Welcome_L19::en = "If you are playing in version 42.18 or below and yo
 UI_NECROA_Welcome_L19::ja::processed::unverified = "バージョン42.18以下でプレイしていて、",
 UI_NECROA_Welcome_L20::en = "have any issues, please update your game.",
 UI_NECROA_Welcome_L20::ja::processed::unverified = "問題がある場合は、ゲームをアップデートしてください。",
-UI_NECROA_Welcome_Updates_L1::en = "Version 1.7",
-UI_NECROA_Welcome_Updates_L1::ja::processed::unverified = "バージョン1.7",
+UI_NECROA_Welcome_Updates_L1::en = "Version 1.8",
+UI_NECROA_Welcome_Updates_L1::ja::processed::unverified = "バージョン1.8",
 UI_NECROA_Welcome_Updates_L3::en = "- The changelog is available on the Steam Workshop.",
 UI_NECROA_Welcome_Updates_L3::ja::processed::unverified = "- 変更履歴はSteamワークショップでご覧いただけます。",
 UI_Susceptible_Bleach_Repair::en = "Wash mask (bleach)",
