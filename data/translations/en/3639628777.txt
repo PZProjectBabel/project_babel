@@ -425,8 +425,7 @@ Tooltip_BurdJournals_Author::en = "Author: %1",
 Tooltip_BurdJournals_AvailableSkill::en = "Available: %1 skill",
 Tooltip_BurdJournals_AvailableSkills::en = "Available: %1 skills",
 Tooltip_BurdJournals_BlankJournal::en = "Blank Survival Journal",
-Tooltip_BurdJournals_BlankJournalDesc::en = "Opens the journal to record your survival progress.
-Requires a writing tool.",
+Tooltip_BurdJournals_BlankJournalDesc::en = "",
 Tooltip_BurdJournals_BloodyDesc::en = "Rare find! May contain valuable traits.",
 Tooltip_BurdJournals_BloodyJournal::en = "Bloody Journal",
 Tooltip_BurdJournals_BloodyJournalDesc::en = "A journal from a fallen survivor. Contains skills and traits that can be absorbed.",
@@ -435,8 +434,7 @@ Tooltip_BurdJournals_CannotClaimDefault::en = "Cannot claim from this journal.",
 Tooltip_BurdJournals_CannotConvert::en = "Cannot Convert",
 Tooltip_BurdJournals_CannotOpen::en = "Cannot Open",
 Tooltip_BurdJournals_ClaimAll::en = "Claim All Skills",
-Tooltip_BurdJournals_ClaimAllDesc::en = "Opens journal and claims all available skills.
-This will take time based on your reading speed.",
+Tooltip_BurdJournals_ClaimAllDesc::en = "",
 Tooltip_BurdJournals_ClaimableRewards::en = "Claimable rewards:",
 Tooltip_BurdJournals_ClaimingInfo::en = "Claiming sets your XP to the recorded level (if higher).",
 Tooltip_BurdJournals_ConditionBlessed::en = "Condition: Blessed",
@@ -446,9 +444,7 @@ Tooltip_BurdJournals_ConditionRestored::en = "Condition: Restored",
 Tooltip_BurdJournals_ConditionWorn::en = "Condition: Worn",
 Tooltip_BurdJournals_ContainsSkills::en = "Contains %1 skill(s) recorded",
 Tooltip_BurdJournals_Contributors::en = "Contributors: %1",
-Tooltip_BurdJournals_ConvertBloodyDesc::en = "Open the crafting menu (B) to find 'Clean and Convert Bloody Journal'.
-Requires: Soap, Cloth, Leather, Thread, Needle, Tailoring Lv1.
-WARNING: Destroys any remaining rewards!",
+Tooltip_BurdJournals_ConvertBloodyDesc::en = "",
 Tooltip_BurdJournals_ConvertBloodyToClean::en = "Convert to Clean Journal",
 Tooltip_BurdJournals_ConvertBloodyToCleanDesc::en = "Use crafting to convert this bloody journal to a clean personal journal.",
 Tooltip_BurdJournals_ConvertToClean::en = "Rebind as Personal Survival Journal",
@@ -468,14 +464,9 @@ Tooltip_BurdJournals_CursedInsightOmenRuin::en = "The seal leans toward ruin.",
 Tooltip_BurdJournals_CursedJournalDesc::en = "Breaking the seal marks the first reader, but unlocks a richer bloody reward journal.",
 Tooltip_BurdJournals_CursedJournalName::en = "Cursed Journal",
 Tooltip_BurdJournals_Disassemble::en = "Disassemble Journal",
-Tooltip_BurdJournals_DisassembleDesc::en = "Tear apart this journal for materials.
-
-You will receive:
-  2x Paper
-  1x Leather Strips",
+Tooltip_BurdJournals_DisassembleDesc::en = "",
 Tooltip_BurdJournals_EraseContents::en = "Erase All Contents",
-Tooltip_BurdJournals_EraseContentsDesc::en = "Erases all recorded data, returning the journal to a blank state.
-Requires an eraser.",
+Tooltip_BurdJournals_EraseContentsDesc::en = "",
 Tooltip_BurdJournals_HiddenCursedInsightDesc::en = "A bloody journal with a few odd details.",
 Tooltip_BurdJournals_IlliterateDesc::en = "You cannot read or write. Journals are useless to you.",
 Tooltip_BurdJournals_IlliterateName::en = "Illiterate",
@@ -506,16 +497,13 @@ Tooltip_BurdJournals_ReadingSpeedNote::en = "This will take time based on your r
 Tooltip_BurdJournals_RecipesAvailable::en = "Recipes: %1/%2 available",
 Tooltip_BurdJournals_RecipesLine::en = "Recipes: %1/%2",
 Tooltip_BurdJournals_RecordProgress::en = "Record Your Progress",
-Tooltip_BurdJournals_RecordProgressDesc::en = "Opens journal to record your current skills and traits.
-Recorded values are only updated if your current level is higher.",
+Tooltip_BurdJournals_RecordProgressDesc::en = "",
 Tooltip_BurdJournals_RecordedItem::en = "Contains %1 recorded item",
 Tooltip_BurdJournals_RecordedItems::en = "Contains %1 recorded items",
 Tooltip_BurdJournals_RewardsRemaining::en = "rewards remaining",
 Tooltip_BurdJournals_SealedDesc::en = "A sealed journal. Break the seal to reveal what lies within.",
 Tooltip_BurdJournals_SealedName::en = "Sealed Journal",
-Tooltip_BurdJournals_SetModeDesc::en = "Reading will SET your XP to match recorded levels (if higher).
-
-",
+Tooltip_BurdJournals_SetModeDesc::en = "",
 Tooltip_BurdJournals_SkillCount::en = "  - %1 skill",
 Tooltip_BurdJournals_SkillsAvailable::en = "Skills: %1/%2 available",
 Tooltip_BurdJournals_SkillsCount::en = "  - %1 skills",
@@ -529,8 +517,7 @@ Tooltip_BurdJournals_TraitsCount::en = "  - %1 traits",
 Tooltip_BurdJournals_TraitsLine::en = "Traits: %1/%2",
 Tooltip_BurdJournals_UnopenedLootRewardDesc::en = "Open to inspect the contents.",
 Tooltip_BurdJournals_UpdateRecords::en = "Update Journal Records",
-Tooltip_BurdJournals_UpdateRecordsDesc::en = "Opens journal to update your recorded skills.
-Recorded values are only updated if your current level is higher.",
+Tooltip_BurdJournals_UpdateRecordsDesc::en = "",
 Tooltip_BurdJournals_ViewOnly::en = "View only",
 Tooltip_BurdJournals_WornJournal::en = "Worn Journal",
 Tooltip_BurdJournals_WrittenBy::en = "Written by: %1",
@@ -803,12 +790,7 @@ UI_BurdJournals_DebugCustomName::en = "Custom Name:",
 UI_BurdJournals_DebugCustomNameTip::en = "Enter a custom owner name for the journal",
 UI_BurdJournals_DebugCustomProfession::en = "Custom Prof:",
 UI_BurdJournals_DebugCustomProfessionTip::en = "Enter custom profession (e.g., 'Former Teacher', 'Ex-Mechanic')",
-UI_BurdJournals_DebugDeleteJournalUUID::en = "Delete journal UUID:
-%1
-
-This permanently removes the live journal item (if found) and purges cached UUID records.
-
-Are you sure?",
+UI_BurdJournals_DebugDeleteJournalUUID::en = "",
 UI_BurdJournals_DebugDiscoveryBrowser::en = "Discovery Browser",
 UI_BurdJournals_DebugDiscoveryHardcodedFallback::en = "Hardcoded fallback",
 UI_BurdJournals_DebugDiscoveryIdFormat::en = "ID: %1",
@@ -1215,631 +1197,187 @@ UI_BurdJournals_LorePool_OmenNoun::en = "the whispering ink|the seal that broke 
 UI_BurdJournals_LorePool_StashNoun::en = "the loose floorboard|the false back of the dresser|the coffee tin behind the flour|the box spring with the tear|the hollow dictionary|the taped vent in the bathroom|the glove compartment that sticks|the flour canister|the basement freezer nobody unplugs|the church donation box|the tackle box with the broken latch|the rusted locker at the bus depot|the motel Bible with the soft cover|the rain barrel lid that doesn't seal|the busted jukebox|the hollowed radio|the pantry wall behind the expired soup|the school desk with initials carved|the ambulance kit with the missing scissors|the station wagon's spare tire well|the septic tank access cover wrapped in plastic|the cremation urn cleaned out|the bag of dog food nobody will eat|the insulation above the water heater|the fake rock in the garden|the tampon box in the women's restroom|the Christmas decoration storage|the hollowed fence post|the AC unit casing|the collection plate at St. Mary's|the mail slot from the inside|the drop ceiling tile with the stain|the ceramic frog by the steps|the birdhouse that never had birds|the propane tank compartment|the under-seat storage in the fishing boat|the dialysis machine in the abandoned clinic|the bulk coffee grinder in the grocery store|the stacked tires at the auto shop|the piano bench with the cracked hinge|the stump hollow in the maple grove|the broken VCR at the pawn shop|the diaper bag in the daycare closet|the accordion case at the music store|the meat grinder in the butcher's back room|the water softener tank|the birdcage at the vet clinic|the locker at the YMCA that jammed shut|the tool crib at the high school woodshop|the specimen freezer at the research lab|the pizza oven at the abandoned parlor|the tanning bed at the salon|the confession booth kneeler|the organ pipes at the Baptist church|the DEA drop box at the police station|the time capsule buried in 1987|the fallout shelter behind the school|the cold storage at the flower shop|the humidor at the cigar store|the locker at the bus station nobody claims|the safe deposit box with no key|the nuclear medicine storage|the quarantine freezer at the CDC field station|the cryogenic tank in the research wing|the pneumatic tube at the hospital|the dumbwaiter in the old hotel|the laundry chute in the apartment building|the ashes in the crematorium retort|the lost and found box at the amusement park|the charity bin at the thrift store|the ballot box from the canceled election|the evidence locker with the rusty padlock|the minibar in the honeymoon suite|the sous-vide tank in the fine dining kitchen|the maple syrup tap bucket|the bear canister in the ranger station|the geocache hidden in the park|the dead drop behind the loose brick|the Faraday cage in the prepper's basement",
 UI_BurdJournals_LorePool_SupplyNoun::en = "the canned food with the dented corners|the dry socks that don't match|the spare batteries from the smoke detector|the clean bandages from the vet clinic|the bottle of bleach that smells like safety|the last insulin in the pharmacy fridge|the map with grease pencil marks|the radio batteries from the abandoned cruiser|the cracked compass that points east-ish|the rainwater jars with the cloth filters|the rolled tarp with the grommets rusted|the sewing kit from the motel welcome basket|the unopened coffee from the break room|the box of shells not the right gauge but close|the antibiotics that might still be good|the hand-crank flashlight that squeaks|the fuel siphon with the cracked bulb|the warm gloves that belonged to someone bigger|the flathead screwdriver that fits most things|the ration crackers from the National Guard crate|the iodine tablets past expiration|the extra laces from the hiking boots|the dental floss stronger than string|the super glue medical grade allegedly|the tampons for sterile packing|the trash bags the thick contractor kind|the duct tape always|the safety pins from the dry cleaning|the fishing line monofilament 20lb test|the wax for canning|the activated charcoal tablets|the condoms for waterproof storage|the coffee filters for water filtration|the petroleum jelly|the aluminum foil|the plastic wrap for wound dressing|the latex gloves box half empty|the sharpie markers|the paper clips for lock picks|the rubber bands|the zip ties|the baking soda|the vinegar|the salt|the pepper spray from the gas station|the road flares|the emergency blanket that crinkles|the potassium iodide|the epinephrine auto-injector expired|the naloxone kit|the glucometer with lancets|the blood pressure cuff|the stethoscope|the thermometer the old mercury kind|the instant cold packs|the heat packs|the magnesium fire starter|the ferro rod|the char cloth|the tinder sticks|the fatwood|the birch bark|the pocket bellows|the Fresnel lens|the signal mirror|the whistle|the glow sticks|the chem lights|the snap lights|the emergency candles|the Shabbat candles|the birthday candles|the lamp oil|the wicks|the mantles for the lantern",
 UI_BurdJournals_LorePool_Verb::en = "whispered|rattled|burned|vanished|coughed|waited|scratched|answered|blinked|groaned|leaked|sang|knocked|counted|split|stared|dripped|begged|clicked|shivered|laughed|hummed|breathed|followed|spat|floated|rang|stuttered|ached|remembered|hollowed out|skipped|squatted|thrusted|languished|lamented|jimmied|fiddled|fondled|messed with|tussled up|tossed around|bludgeoned|kicked|skewered|slayed|crouched|babbled|scattered|scrambled|refused|hesitated|listened anyway|judged|promised|swelled|festooned|arrived too early|left too late|trembled|accumulated|nearly succeeded|failed gracefully|persisted|endured|counted backwards|leaned|expected|hoped against|prepared for|mourned prematurely|celebrated prematurely|organized|barricaded|secured|abandoned|reconsidered|returned against better judgment|accumulated|multiplied|divided|converged|diverged|spiraled|orbited|collapsed|expanded|contracted|distended|recoiled|advanced|retreated|flanked|breached|overran|enveloped|consumed|expelled|rejected|absorbed|digested|metabolized|transmitted|received|broadcast|narrowcast|unicasted|multicast|anycast|geocast|broadcast storm|packet loss|latency|jitter|bufferbloat|throttling|shaping|policing|marking|dropping|queuing|scheduling|forwarding|routing|switching|bridging|tunneling|encapsulating|decapsulating|fragmenting|reassembling|compressing|decompressing|encrypting|decrypting|hashing|salting|peppering|signing|verifying|revoking|renewing",
-UI_BurdJournals_LoreTemplate_BloodyAmbulance::en = "The ambulance stalled near {{noun}} with the lights still turning. We thought the siren would bring help. It brought everything else first, and by the time help arrived, help was wearing masks and pointing rifles.
-
-I wrote what I remembered after the bleeding slowed. {{skillName}} for the next person pinned down, {{recipeName}} for the next person hungry enough to risk a store, and {{traitName}} because fear spends itself faster than blood.",
-UI_BurdJournals_LoreTemplate_BloodyApartmentStairs::en = "Apartment stairs are funnels. We learned that after the third floor started screaming and everyone above us tried to become everyone below us. {{survivorName}} fell near the landing and still told me to write.
-
-So I wrote {{skillName}} with shaking hands. I wrote {{recipeName}} when the hall went quiet. I wrote {{traitName}} because courage is mostly timing with better manners.",
-UI_BurdJournals_LoreTemplate_BloodyBarn::en = "The barn doors held until the horse panicked. After that, everything was hooves, teeth, and people shouting names into dust. {{survivorName}} kept saying animals know sickness before we do.
-
-I believe it now. Read {{skillName}} if you plan to run fences. Read {{recipeName}} if you plan to stay. Avoid {{noun}} when it looks {{adjective}}, even if it used to love you.",
-UI_BurdJournals_LoreTemplate_BloodyBasement::en = "We used the basement because it had no windows. That was the problem and the comfort. When {{dangerNoun}} found the stairs, every sound became bigger in the dark, and every apology arrived too late.
-
-{{authorName}} wrote this by flashlight with one hand wrapped in a shirt. {{skillName}} is the useful part. {{recipeName}} is the hopeful part. The rest is just proof that I tried.",
-UI_BurdJournals_LoreTemplate_BloodyBridge::en = "They blocked the bridge with buses and called it containment. Then the buses caught fire, the river took the ash, and people tried swimming with backpacks full of cans. {{authorName}} made it halfway back.
-
-These pages are lighter than supplies. Keep {{skillName}} in your head, keep {{traitName}} from choosing for you, and do not trust bridges that still have soldiers on only one side.",
-UI_BurdJournals_LoreTemplate_BloodyBroadcast::en = "Triple-N said the situation was stabilizing while the sirens ran all night. Then came the cough, the fever, the neighbors hammering boards over doors, and the soldiers firing warning shots at people who only wanted to leave. {{authorName}} kept repeating that the news was behind the truth by a whole day, maybe more.
-
-If this journal is wet, it is not rain. I bled on the page about {{entryNameA}} after dragging {{supplyNoun}} through {{dangerNoun}}, and I underlined {{entryNameB}} because panic makes hands stupid. Tell {{survivorName}} I was still myself when I wrote this.",
-UI_BurdJournals_LoreTemplate_BloodyCampground::en = "The campground looked peaceful until you counted the tents from inside out. Smoke from wet firewood covered the smell for a while, then the rain stopped and honesty came back.
-
-{{authorName}} put {{entryNameA}} in this journal after losing the map. {{entryNameB}} is for anyone who thinks trees make them safe. Trees mostly give things somewhere to stand.",
-UI_BurdJournals_LoreTemplate_BloodyDriveIn::en = "The drive-in screen kept showing a comedy with no sound. People watched from locked cars while the world outside learned to tap on glass. It would have been funny if the blood had not reached the projector booth.
-
-{{openerName}}, use {{entryNameA}} when the lot fills up. Use {{entryNameB}} when the battery dies. Do not sit through the credits.",
-UI_BurdJournals_LoreTemplate_BloodyFenceLine::en = "The fence did not fail all at once. It sagged in one place, screamed in another, and then a hundred hands found the weak spots like water finding cracks. {{authorName}} was on the wrong side when {{dangerNoun}} pushed through.
-
-There is not much clean page left. Read {{entryNameA}} before the stain eats it, and if {{openerName}} still has time, copy {{entryNameB}} somewhere drier than my pocket.",
-UI_BurdJournals_LoreTemplate_BloodyFirehouse::en = "The firehouse doors were open and the trucks were gone. Someone had painted HELP on the floor in letters big enough for a helicopter that never came. The stain through the P was mine.
-
-I left {{skillName}} because somebody will need hands that know what to do. I left {{recipeName}} because smoke and hunger make cowards of everyone. Tell {{survivorName}} the siren still worked.",
-UI_BurdJournals_LoreTemplate_BloodyGasStation::en = "Everybody needed fuel, so everybody came armed. The pumps clicked dry before noon, but people kept squeezing the handles like mercy might be hiding in the hose. {{authorName}} got cut when {{noun}} {{verb}} and the crowd decided sound meant supplies.
-
-I left notes on {{entryNameA}} and {{entryNameB}} because those were worth more than gasoline by dusk. If you see lights at a station, circle wide.",
-UI_BurdJournals_LoreTemplate_BloodyGeneral::en = "{{authorName}} tried to keep the blood off the useful pages. That was easier before the sirens stopped and every road out of Knox County turned into uniforms, headlights, and people begging to be believed. The official voices kept changing their story, but the fever never changed its work.
-
-If {{openerName}} is reading this, do not waste time wondering which rumor was true. Pack what you can carry, watch the living as carefully as the dead, and remember that panic makes even familiar streets feel hungry.",
-UI_BurdJournals_LoreTemplate_BloodyGroceryAisle::en = "Aisle six was soup, beans, and screaming. The lights flickered just enough to make every person look dead twice. {{supplyNoun}} rolled under the shelves while people fought over things they did not know how to cook.
-
-If {{openerName}} finds this in the red bag, use {{entryNameA}} first. {{entryNameB}} is written on the receipt because the clean pages stuck together.",
-UI_BurdJournals_LoreTemplate_BloodyHazmat::en = "I saw hazmat suits outside the fence two days before they admitted anything was wrong. They sprayed the road, bagged a dog, and waved rifles at a woman who kept asking why her husband smelled bleach whenever he coughed. That is when {{authorName}} stopped believing in accidents.
-
-The dead came later. The fear came first. Use the notes on {{recipeName}} and {{skillName}} if your hands are steadier than mine, and do not let {{traitName}} talk you into trusting a clean uniform.",
-UI_BurdJournals_LoreTemplate_BloodyKitchen::en = "The safehouse kitchen became surgery, confession, and court. We boiled water until the windows sweated and pretended the red towels meant we were prepared. {{survivorName}} kept saying the bite was shallow.
-
-If {{openerName}} finds this, do not believe shallow. Learn {{skillNameA}}, use {{supplyNoun}} sparingly, and burn anything that starts to smell {{adjective}}.",
+UI_BurdJournals_LoreTemplate_BloodyAmbulance::en = "",
+UI_BurdJournals_LoreTemplate_BloodyApartmentStairs::en = "",
+UI_BurdJournals_LoreTemplate_BloodyBarn::en = "",
+UI_BurdJournals_LoreTemplate_BloodyBasement::en = "",
+UI_BurdJournals_LoreTemplate_BloodyBridge::en = "",
+UI_BurdJournals_LoreTemplate_BloodyBroadcast::en = "",
+UI_BurdJournals_LoreTemplate_BloodyCampground::en = "",
+UI_BurdJournals_LoreTemplate_BloodyDriveIn::en = "",
+UI_BurdJournals_LoreTemplate_BloodyFenceLine::en = "",
+UI_BurdJournals_LoreTemplate_BloodyFirehouse::en = "",
+UI_BurdJournals_LoreTemplate_BloodyGasStation::en = "",
+UI_BurdJournals_LoreTemplate_BloodyGeneral::en = "",
+UI_BurdJournals_LoreTemplate_BloodyGroceryAisle::en = "",
+UI_BurdJournals_LoreTemplate_BloodyHazmat::en = "",
+UI_BurdJournals_LoreTemplate_BloodyKitchen::en = "",
 UI_BurdJournals_LoreTemplate_BloodyLastWish::en = "If {{openerName}} found this on me, let {{survivorName}} know {{traitName}} was not enough. Do better with {{entryName}}. {{exclamation}}.",
-UI_BurdJournals_LoreTemplate_BloodyLaundry::en = "The laundromat was a bad place to hide but a good place to bleed. Machines thumped with clothes nobody would claim, and the front window showed {{dangerNoun}} reflected behind us before we heard it.
-
-{{authorName}} used a dryer sheet to blot the page. {{entryNameA}} survived. {{entryNameB}} smells like soap and pennies. If {{openerName}} laughs at that, good. Laughing means you still can.",
-UI_BurdJournals_LoreTemplate_BloodyMadLibsFence::en = "The {{noun}} did not {{verb}} all at once. That would have been {{adjective}}. {{adjective}} to {{noun}}. {{adjective}} to {{noun}}. {{adjective}} to {{noun}}. Instead it {{verb}} in one {{noun}}, {{verb}} in {{noun}}, and then {{noun}} {{noun}} {{verb}} the {{adjective}} {{noun}} like {{noun}} {{verb}} {{noun}} in a {{noun}} that nobody {{verb}} to {{verb}} was {{adjective}}. {{authorName}} was on the {{adjective}} {{noun}} when {{dangerNoun}} {{verb}} through the {{noun}} where the {{adjective}} {{noun}} had been {{verb}} by someone {{adjective}} to {{noun}} out, or maybe {{adjective}} to {{noun}} in, or maybe just {{adjective}}.
-
-There isn't much {{adjective}} {{noun}} left. I {{verb}} this from a {{noun}} I {{verb}} in a {{noun}} that was {{adjective}} near the {{noun}}. The {{noun}} had a {{noun}}: \"{{noun}} of {{noun}}, {{noun}} {{noun}}.\" {{noun}} didn't {{noun}} it anymore. {{noun}} probably didn't {{noun}} anything anymore except maybe a {{noun}} of the {{noun}} where {{noun}} {{verb}} and {{noun}} came {{noun}} and the {{adjective}} {{noun}} {{verb}} {{noun}} was {{verb}} instead of {{noun}} was {{adjective}}.
-
-{{noun}} {{entryNameA}} before the {{noun}} {{noun}} it. I {{verb}} it {{adjective}}, when I still {{verb}} I might {{verb}} out, might {{verb}} {{noun}}, might {{noun}} the {{adjective}} {{noun}} of this. The {{noun}} is from my {{noun}}, where something {{verb}} through the {{noun}}, through the {{noun}}, into the {{adjective}} {{noun}} that don't {{noun}} as {{adjective}} as {{noun}}. If {{openerName}} still has {{noun}} after {{verb}} {{entryNameA}}, {{noun}} {{entryNameB}} somewhere {{adjective}} than my {{noun}}, somewhere {{adjective}} than a {{adjective}} {{noun}} in a {{adjective}} {{noun}}.
-
-The {{noun}} is {{adjective}} now. Not just here. {{adverb}}. I {{verb}} it on the {{noun}} before the {{noun}} became {{noun}} and then the {{noun}} became {{noun}} and then I {{verb}} the {{noun}} off because some {{noun}} you don't {{noun}} to {{noun}}. The {{noun}} is {{adverb}}. The {{noun}} {{noun}} {{noun}}. The {{noun}} are {{adjective}}. The {{noun}} are {{adjective}}. The {{noun}} is {{adjective}}. The only {{noun}} left is {{noun}} and the {{adjective}} {{noun}} that someone like {{openerName}} will {{noun}} it and keep {{verb}}.",
-UI_BurdJournals_LoreTemplate_BloodyMadLibsGasStation::en = "Everybody needed {{noun}}, so everybody came {{adjective}}. The {{noun}} clicked {{adjective}} before {{noun}}, but people kept {{verb}} the {{noun}} like {{noun}} might be {{verb}} in the {{noun}}. {{authorName}} got {{adjective}} when {{noun}} {{verb}} and the {{noun}} {{verb}} that {{noun}} meant {{noun}}.
-
-I {{verb}} {{noun}} on {{entryNameA}} and {{entryNameB}} because those were {{adjective}} more than {{noun}} by {{noun}}. If you see {{noun}} at a {{noun}}, {{noun}} {{adjective}}.",
-UI_BurdJournals_LoreTemplate_BloodyMadLibsPocket::en = "{{authorName}} stuffed {{supplyNoun}}, {{stashNoun}}, and one {{adjective}} {{noun}} into a coat pocket before {{dangerNoun}} {{verb}} {{adverb}}. The pocket tore. The page stayed. {{noun}} {{verb}} {{adverb}} while {{survivorName}} {{verb}} for {{exclamation}}.
-
-Learn {{skillName}}, respect {{traitName}}, and never let {{recipeName}} distract you from a {{adjective}} sound behind {{noun}}. I {{verb}} {{adverb}} when I should have {{verb}}. I reached for {{supplyNoun}} but found only {{adjective}} {{noun}} and the distant sound of {{omenNoun}} {{verb}}.
-
-{{openerName}}, the blood is {{adjective}} and {{adverb}} {{verb}}. {{dangerNoun}} {{verb}} somewhere near {{noun}}. {{stashNoun}} might have {{supplyNoun}} if {{omenNoun}} hasn't {{verb}} it already. {{exclamation}}. Just {{exclamation}}. That's the whole message now. Everything else is {{adjective}} {{noun}} {{verb}} {{adverb}} until the page runs out or I do.",
-UI_BurdJournals_LoreTemplate_BloodyMadLibsRoad::en = "The shoulder of the {{noun}} was full of {{noun}}: {{noun}} escaped, {{noun}} rescued, {{noun}} enough {{noun}}. {{authorName}} {{verb}} under {{noun}} after the {{noun}} started and {{verb}} with {{noun}} because the {{noun}} was {{adjective}}.
-
-{{openerName}} should {{noun}} {{entryNameA}} before {{verb}} the {{noun}}. {{entryNameB}} can {{noun}} until the {{noun}} is {{adjective}}, which is to say it cannot {{noun}} at all.",
-UI_BurdJournals_LoreTemplate_BloodyMadLibsStain::en = "The blood dried {{adverb}} around a {{adjective}} note about {{entryNameA}}. Beside it, {{noun}} {{verb}} like it understood {{traitName}}, and {{dangerNoun}} answered with {{supplyNoun}} in its teeth. {{authorName}} {{verb}} {{adverb}} but the {{adjective}} pain made {{noun}} {{verb}} instead.
-
-{{openerName}}, copy {{entryNameB}} before the stain gets {{adjective}}. If {{recipeName}} starts looking back, say {{exclamation}} and {{verb}} {{adverb}}. Don't stop at {{noun}}. Don't look at {{stashNoun}}. Don't trust {{adjective}} {{omenNoun}} when it {{verb}} your name.
-
-I {{verb}} {{supplyNoun}} from {{noun}} before {{dangerNoun}} {{verb}}. I {{verb}} {{adverb}} toward {{stashNoun}} but {{omenNoun}} was already there, already {{adjective}}, already {{verb}} in a way that made {{exclamation}} the only reasonable response. {{survivorName}} didn't {{verb}} {{adverb}} enough. Now {{noun}} {{verb}} near them, and {{supplyNoun}} is scattered, and {{entryNameA}} is all that's left of {{authorName}} being {{adjective}}.",
-UI_BurdJournals_LoreTemplate_BloodyMeatLocker::en = "The meat locker was cold enough to keep secrets but not cold enough to keep the dead polite. We shut three inside and argued whether they were people until one started knocking in code.
-
-{{authorName}} left {{skillName}} here because practical things do not care what you call the problem. {{recipeName}} is tucked behind the invoice. If {{openerName}} smells thawing meat, leave.",
+UI_BurdJournals_LoreTemplate_BloodyLaundry::en = "",
+UI_BurdJournals_LoreTemplate_BloodyMadLibsFence::en = "",
+UI_BurdJournals_LoreTemplate_BloodyMadLibsGasStation::en = "",
+UI_BurdJournals_LoreTemplate_BloodyMadLibsPocket::en = "",
+UI_BurdJournals_LoreTemplate_BloodyMadLibsRoad::en = "",
+UI_BurdJournals_LoreTemplate_BloodyMadLibsStain::en = "",
+UI_BurdJournals_LoreTemplate_BloodyMeatLocker::en = "",
 UI_BurdJournals_LoreTemplate_BloodyNearMiss::en = "There is blood on the page because {{dangerNoun}} got close. Read the part about {{traitName}} and do better before the world gets {{adjective}} again.",
-UI_BurdJournals_LoreTemplate_BloodyOverpass::en = "From the overpass, the highway looked like a necklace snapped across the county. Headlights, luggage, smoke, and one school bus rocking long after the children stopped crying.
-
-I bled on {{entryNameA}} but the words held. {{entryNameB}} is cleaner. If {{openerName}} has to cross open road, do it {{adverb}} and never stop for a suitcase unless it calls your name.",
+UI_BurdJournals_LoreTemplate_BloodyOverpass::en = "",
 UI_BurdJournals_LoreTemplate_BloodyPage::en = "{{authorName}} did not make it out of {{dangerNoun}}. The bite looked {{adjective}} until my hands {{verb}}. If {{openerName}} is reading this, do not waste the warning.",
-UI_BurdJournals_LoreTemplate_BloodyPoliceTape::en = "Police tape looks official until it is wrapped around a wound. We used it for doors, wrists, and one man who promised he was only scratched. {{authorName}} wrote beside him until his breathing changed.
-
-{{openerName}} gets the lessons without the argument: {{entryNameA}} before pity, {{entryNameB}} before sleep, and {{exclamation}} if anybody says procedure will save us.",
-UI_BurdJournals_LoreTemplate_BloodyRoadShoulder::en = "The shoulder of the road was full of almosts: almost escaped, almost rescued, almost enough fuel. {{authorName}} crawled under {{noun}} after the shooting started and wrote with blood because the pen was gone.
-
-{{openerName}} should read {{entryNameA}} before checking the glove boxes. {{entryNameB}} can wait until the road is quiet, which is to say it cannot wait at all.",
-UI_BurdJournals_LoreTemplate_BloodySkillOnlyAmbulance::en = "The ambulance stalled near {{noun}} with the lights still turning. We thought the siren would bring help. It brought everything else first, and by the time help arrived, help was wearing masks and pointing rifles.
-
-I wrote what I remembered after the bleeding slowed. {{skillName}} for the next person pinned down, {{recipeName}} for the next person hungry enough to risk a store, and {{traitName}} because fear spends itself faster than blood.",
-UI_BurdJournals_LoreTemplate_BloodySkillOnlyBandage::en = "Bandages run out. Tape runs out. Clean water runs out. What stayed useful was {{skillNameA}}, then {{skillNameB}}, then whatever stubborn part of the body kept obeying commands even when the mind had stopped giving them and was just screaming instead.
-
-{{authorName}} left this for {{openerName}} because a learned thing weighs nothing and cannot be stolen from your pack by {{dangerNoun}} or desperate strangers or your own panic that makes you drop everything and run. Knowledge stays. Knowledge is the only thing that stays when everything else goes, and everything else goes eventually. The water goes. The food goes. The people go. The safety goes. But if you know {{skillNameA}}, you still have something. If you know {{skillNameB}}, you still have a chance.
-
-I used the last bandage on someone who didn't make it. I don't know why I'm writing that. Maybe because it's true. Maybe because I want {{openerName}} to know that bandages aren't magic. They just buy time, and time is only useful if you use it to get to somewhere safer, and somewhere safer is only useful if you know what to do when you get there. {{skillNameA}} is what to do. {{skillNameB}} is what to do next.
-
-The bleeding has slowed. That might be good. That might be the end. Either way, the page stays. The knowledge stays. You stay, {{openerName}}. However you got this, whatever you had to do, whatever you saw - stay. Keep knowing things. Keep doing things. Keep being the thing that writes instead of the thing that's written about.",
-UI_BurdJournals_LoreTemplate_BloodySkillOnlyBroadcast::en = "Triple-N said the situation was stabilizing while the sirens ran all night. Then came the cough, the fever, the neighbors hammering boards over doors, and the soldiers firing warning shots at people who only wanted to leave. {{authorName}} kept repeating that the news was behind the truth by a whole day, maybe more.
-
-If this journal is wet, it is not rain. I bled on the page about {{entryNameA}} after dragging {{supplyNoun}} through {{dangerNoun}}, and I underlined {{entryNameB}} because panic makes hands stupid. Tell {{survivorName}} I was still myself when I wrote this.",
-UI_BurdJournals_LoreTemplate_BloodySkillOnlyDoor::en = "There was a door, then a mistake, then a lesson. {{skillNameA}} was the lesson before the door opened. {{skillNameB}} was the lesson after.
-
-If {{openerName}} has a door in front of them now, pause. The dead are patient, but they are not clever. That leaves clever to you.",
-UI_BurdJournals_LoreTemplate_BloodySkillOnlyFence::en = "The fence did not fail all at once. It sagged in one place, screamed in another, and then a hundred hands found the weak spots like water finding cracks. {{authorName}} was on the wrong side when {{dangerNoun}} pushed through.
-
-There is not much clean page left. Read {{entryNameA}} before the stain eats it, and if {{openerName}} still has time, copy {{entryNameB}} somewhere drier than my pocket.",
-UI_BurdJournals_LoreTemplate_BloodySkillOnlyFloor::en = "The journal slid under {{noun}} when everything went bad. {{authorName}} reached it after the screaming stopped and circled {{skillNameA}} so hard the paper tore.
-
-{{skillNameB}} is written on the back in smaller letters. It may not look important until {{openerName}} is on the floor too.",
-UI_BurdJournals_LoreTemplate_BloodySkillOnlyHands::en = "{{authorName}} wrote {{skillNameA}} with one hand that was clean and one hand that would not stop shaking. The shaking hand is the one that held the door while the others got through. The shaking hand is the one that felt the teeth graze the sleeve. The shaking hand is the one that knows {{dangerNoun}} is still outside, still listening, still waiting for the sound of pen on paper because that means meat that hasn't stopped moving yet.
-
-The page about {{skillNameB}} is worse. The blood there isn't mine, or at least it wasn't mine when it was outside my body. I helped someone with {{skillNameB}} and they helped me by bleeding on the lesson. Now I can't read that part without remembering their face, which is good because I don't want to forget their face, but bad because their face makes my hands shake worse and the pen keeps slipping.
-
-If {{openerName}} reads this, start before the blood dries completely. Practice is kinder than necessity. Necessity is what happens when practice wasn't kind enough and you're writing with your off-hand in a closet that smells like copper and fear. Practice now. Practice {{skillNameA}} until you can do it with your eyes closed, because you might have to. Practice {{skillNameB}} until you can teach it to someone who's shaking worse than you are, because you might have to do that too.
-
-The blood is making the ink run. I need to stop. I need to move. I need to hope {{openerName}} can read what remains.",
-UI_BurdJournals_LoreTemplate_BloodySkillOnlyKitchen::en = "The safehouse kitchen became surgery, confession, and court. We boiled water until the windows sweated and pretended the red towels meant we were prepared. {{survivorName}} kept saying the bite was shallow.
-
-If {{openerName}} finds this, do not believe shallow. Learn {{skillNameA}}, use {{supplyNoun}} sparingly, and burn anything that starts to smell {{adjective}}.",
-UI_BurdJournals_LoreTemplate_BloodySkillOnlyLastLesson::en = "Last lesson: {{skillNameA}} saves more time than bravery. Next lesson: {{skillNameB}} saves more noise than luck. Final lesson: learn both before {{dangerNoun}} teaches you itself, because its teaching methods involve teeth and its office hours are whenever you're not ready.
-
-The rest of the page is red. {{openerName}} can still use the clean parts if they dry fast enough. The blood came from my leg, or my arm, or somewhere in between. It's hard to tell when everything hurts and the flashlight is dying and the closet I'm in is too small to check wounds properly and too exposed to risk moving somewhere bigger.
-
-I had time once. I had time to learn {{skillNameA}} properly, with books and videos and a teacher who corrected my form. I wasted that time. I thought I had more. The Knox Event taught me that time is not a renewable resource. It's more like water in a cracked jug. You think you have plenty until you notice the puddle at your feet.
-
-{{skillNameA}} and {{skillNameB}} are all I have to leave. They're not enough. They should be more. They should be a legacy, a monument, something carved in stone. Instead they're scrawled in blood and ballpoint on paper that will probably rot before anyone finds it. But if you do find it, if you are {{openerName}} and you're reading this in better light than I have, make them enough. Make them worth the price. Learn them. Use them. Live.",
-UI_BurdJournals_LoreTemplate_BloodySkillOnlyOverpass::en = "From the overpass, the highway looked like a necklace snapped across the county. Headlights, luggage, smoke, and one school bus rocking long after the children stopped crying.
-
-I bled on {{entryNameA}} but the words held. {{entryNameB}} is cleaner. If {{openerName}} has to cross open road, do it {{adverb}} and never stop for a suitcase unless it calls your name.",
+UI_BurdJournals_LoreTemplate_BloodyPoliceTape::en = "",
+UI_BurdJournals_LoreTemplate_BloodyRoadShoulder::en = "",
+UI_BurdJournals_LoreTemplate_BloodySkillOnlyAmbulance::en = "",
+UI_BurdJournals_LoreTemplate_BloodySkillOnlyBandage::en = "",
+UI_BurdJournals_LoreTemplate_BloodySkillOnlyBroadcast::en = "",
+UI_BurdJournals_LoreTemplate_BloodySkillOnlyDoor::en = "",
+UI_BurdJournals_LoreTemplate_BloodySkillOnlyFence::en = "",
+UI_BurdJournals_LoreTemplate_BloodySkillOnlyFloor::en = "",
+UI_BurdJournals_LoreTemplate_BloodySkillOnlyHands::en = "",
+UI_BurdJournals_LoreTemplate_BloodySkillOnlyKitchen::en = "",
+UI_BurdJournals_LoreTemplate_BloodySkillOnlyLastLesson::en = "",
+UI_BurdJournals_LoreTemplate_BloodySkillOnlyOverpass::en = "",
 UI_BurdJournals_LoreTemplate_BloodySupplies::en = "I lost too much hauling {{supplyNoun}}, but the note on {{skillName}} might still save someone. I wrote it {{adverb}} while {{noun}} {{verb}} downstairs.",
-UI_BurdJournals_LoreTemplate_BloodyTrainTracks::en = "We followed the tracks because trains felt honest. Rails go somewhere, even when roads lie. Then we found the cars stopped outside Knox, doors chained from the outside, and {{dangerNoun}} moving inside them like cargo that learned to hate.
-
-I bled on the page about {{entryNameA}}, but the note still reads. Keep {{entryNameB}} in your head, keep {{supplyNoun}} in your bag, and do not sleep near metal that rings at night.",
-UI_BurdJournals_LoreTemplate_BloodyWarehouse::en = "The warehouse had everything except enough doors. Pallets became walls, forklifts became barricades, and inventory sheets became lists of who was missing after each noise. {{noun}} {{verb}} in the loading bay and the whole place answered.
-
-I wrote {{skillName}} while hiding behind dog food. {{recipeName}} is on the back page. If {{openerName}} finds a key ring, do not trust any key that shines.",
-UI_BurdJournals_LoreTemplate_CursedBlackRain::en = "The rain came down black for nine minutes and left handprints on every car roof. Officials called it soot. The handprints called {{authorName}} by a childhood nickname.
-
-I wrote {{entryNameA}} before the drops dried. {{entryNameB}} bled through from the next page. If {{openerName}} smells smoke during clear weather, keep walking until the sky forgets you.",
-UI_BurdJournals_LoreTemplate_CursedBroadcast::en = "The emergency broadcast had a second voice under it. Not an echo - echoes are simple physics, sound bouncing off surfaces, returning changed but recognizable. This was a listener. It repeated {{authorName}}'s name between weather updates and laughed, actually laughed, whenever the announcer said \"contained\" or \"quarantine\" or \"temporary emergency measures.\"
-
-I tried to tell people. I tried to say, listen closer, listen between the static and the official statements, listen in the pauses where dead air isn't quite dead. They looked at me the way people look at the feverish. They stepped back. They took my batteries for their own radios and left me with the one that couldn't tune to anything but that station, that voice, that second frequency that wasn't on the dial but was in the air anyway, always in the air, waiting for ears that could hear it.
-
-{{openerName}} owns the page now. The ownership transferred when you broke the seal, when you read this far, when you became the reader that {{omenNoun}} was waiting for. {{entryNameA}} will help for a while. {{entryNameB}} will help if the road is kind, if the dead are few, if the living are fewer but friendly. But {{omenNoun}} already knows which door you prefer, which window you check first, which sound means safety to your particular ears. It learned that from the previous owner. It will learn more from you.
-
-The broadcast is still playing. I can hear it even now, even here, even with no radio in the room. It plays in the hum of the refrigerator that stopped working days ago. It plays in the ring of the phone that has no line. It plays in my head, which is where it's been playing all along, using my thoughts as speakers, my fears as amplifiers, my knowledge of {{skillNameA}} as proof that I was worth talking to, worth keeping, worth waiting for.
-
-Don't turn on your radio. Not to check. Not to confirm. Not to hear what I heard. Once you hear it, it hears you back. That's the deal. That's the containment. That's the Knox Event in miniature, playing out in every head that tunes to the wrong frequency at the right time. Stay on the official channels. Stay on the approved frequencies. Stay away from the spaces between.",
-UI_BurdJournals_LoreTemplate_CursedConfession::en = "The confession booth kept whispering after the priest stopped. It knew thefts, lies, checkpoint bargains, and the names people left behind when the road filled with headlights.
-
-{{survivorName}} confessed to surviving. The booth laughed. I wrote {{skillName}} and {{traitName}} because guilt is heavy, but knowledge is portable. {{openerName}} should not kneel unless invited by the living.",
-UI_BurdJournals_LoreTemplate_CursedCourthouse::en = "The courthouse burned green for three hours on the night of July 14th. Nobody mentions that on the radio. They mention disorder, panic, unconfirmed casualties, but not the color, not the shade that fire isn't supposed to be, not the smoke that didn't rise but instead crept along the ground like it was looking for something, checking names, confirming addresses.
-
-They don't mention the judge's shadow walking out by itself and pointing toward {{noun}}, which wasn't on any map of the county until the next morning when it appeared in all of them, drawn in the same hand, labeled in the same ink that I used to write {{entryNameA}} before the pen turned and started writing {{entryNameB}} without my hand moving it.
-
-I copied what I could before the ink turned. {{entryNameA}} is clean, or clean enough. You can use it. {{entryNameB}} copied itself while I wasn't looking, wrote itself into spaces I hadn't left blank, answered questions I hadn't asked. If {{openerName}} sees a signature at the bottom of that entry, don't read it aloud. Don't trace it with your finger. Don't let your eyes linger on the loops and lines long enough to recognize them as familiar, as family, as your own name written backward in a script that looks almost like breathing if breathing were visible and malicious and patient.
-
-The courthouse is still there. I saw it yesterday, or what passes for yesterday when time has stopped behaving properly. The green fire is out but the building is intact, which is wrong. Fire that color should consume. It should leave nothing but ash and apology. Instead it left structure, form, a shell that looks official and important and attracts people who need help, who need justice, who need the system to be working even when the system is just another word for {{omenNoun}} wearing a wig and holding a gavel that sounds like knocking when it falls.
-
-Don't go inside. Don't seek redress. Don't file a complaint about the quarantine or the military response or the way the phones went down the same day the helicopters went up. The courthouse is open for business, but the business is not what you think, and the judgment has already been rendered, and the sentence is written on pages that turn themselves while you sleep, accumulating evidence you didn't know you were providing just by existing in the wrong place with the wrong name at the right time for something hungry.",
-UI_BurdJournals_LoreTemplate_CursedElevator::en = "The elevator in the office building kept opening on floors the building did not have. Basement two smelled like bleach. Basement three smelled like flowers. Basement four had {{omenNoun}} and a clipboard with tomorrow's date.
-
-{{openerName}} should take {{skillName}} from this page and leave the rest in the lobby. If the doors open by themselves, be too busy surviving to step inside.",
-UI_BurdJournals_LoreTemplate_CursedExperiment::en = "{{survivorName}} swore the smell came from a spill, a weapon, a test, anything human enough to blame. I believed that until the margin wrote back. It knew my profession, knew {{traitName}}, and knew which locked doors opened before July Fourth.
-
-If {{openerName}} can read this without hearing scratching under the paper, use {{skillName}} and {{recipeName}} quickly. The dead are only the loud part of what escaped.",
+UI_BurdJournals_LoreTemplate_BloodyTrainTracks::en = "",
+UI_BurdJournals_LoreTemplate_BloodyWarehouse::en = "",
+UI_BurdJournals_LoreTemplate_CursedBlackRain::en = "",
+UI_BurdJournals_LoreTemplate_CursedBroadcast::en = "",
+UI_BurdJournals_LoreTemplate_CursedConfession::en = "",
+UI_BurdJournals_LoreTemplate_CursedCourthouse::en = "",
+UI_BurdJournals_LoreTemplate_CursedElevator::en = "",
+UI_BurdJournals_LoreTemplate_CursedExperiment::en = "",
 UI_BurdJournals_LoreTemplate_CursedFollower::en = "I hid this from {{survivorName}}, but {{omenNoun}} followed anyway. It still wants the note on {{recipeName}}. {{exclamation}}.",
-UI_BurdJournals_LoreTemplate_CursedGeneral::en = "{{openerName}} broke the seal, and the page remembered. They called it infection because infection fits inside reports, fences, and orders shouted through masks. Curse is an older word. It explains why the dead listen when no one speaks.
-
-{{authorName}} wrote this before the ink began correcting itself. If the margin offers you a bargain, count your fingers, count your memories, and ask why the government needed guns to contain something it insisted was only sickness.",
-UI_BurdJournals_LoreTemplate_CursedKnoxPrice::en = "They called it infection because that word fits in a briefing. {{authorName}} called it judgment after {{omenNoun}} appeared in every mirror and the dead began listening for names. The army drew its line around Knox County, but lines only matter to things that respect maps.
-
-This page remembers {{openerName}} now. Take {{entryNameA}} if you want the lesson, take {{entryNameB}} if you want the warning, and understand that every cure rumor has a price written somewhere smaller than the print.",
-UI_BurdJournals_LoreTemplate_CursedLabDoor::en = "There was a door below the clinic that was not on any plan. {{authorName}} found it because {{traitName}} makes people look where they should not. Behind it, {{omenNoun}} breathed like a crowd waiting to be invited.
-
-The notes on {{skillName}} are clean enough to use. The note on {{recipeName}} has teeth in the margins. Leave that part folded unless hunger wins.",
-UI_BurdJournals_LoreTemplate_CursedLedger::en = "Every name in the ledger had a mark beside it: sick, cleared, missing, useful, owed. {{survivorName}} found {{authorName}} written twice, once in ink and once in something that smelled like pennies and stained the fingers that touched it. The second entry had a date next to it that hasn't happened yet. The second entry had a cause of death listed as \"reader.\"
-
-Now {{openerName}} is in the margin. I can see the space where your name will go, where it already goes, where it has always gone since before you were born into this particular version of the Knox Event. Use {{entryNameA}} while the page allows it. Hide {{entryNameB}} from mirrors. They read faster than people do, and they don't forget what they've seen.
-
-The ledger was under {{stashNoun}}, wrapped in oilcloth, weighted down with stones that had holes drilled through them for purposes I don't understand and don't want to. I opened it because I needed to know if my sister had made it out, if her name was cleared or missing or just another sick that got sicker. Her name wasn't there at all, which is worse than any mark. Names that aren't there are names that {{omenNoun}} already collected, already counted, already crossed off in a different book in a different room where the filing system isn't alphabetical.
-
-{{traitName}} was stamped on more folders than seemed fair. Not everyone with {{traitName}} deserved to be filed that way. Some were just careful. Some were just prepared. Some just wanted to live, which shouldn't be a sin, which shouldn't be a classification, which shouldn't put you in the same drawer as the ones who did terrible things on purpose. But the ledger doesn't distinguish between careful and cruel. It just distinguishes between useful and used up.
-
-I am used up. The page says so. The margin confirms. {{openerName}}, you are next in the sequence. Use the knowledge quickly. Use {{skillNameA}} before the page turns on its own. Use {{recipeName}} before the ingredients start arriving without you ordering them. And if you see your name written in a hand you don't recognize, don't read it aloud. Don't confirm it. Don't make it real by speaking it into air that already has too many names in it.",
-UI_BurdJournals_LoreTemplate_CursedMadLibsDoor::en = "Behind {{stashNoun}} was a {{adjective}} door. Behind the door, {{dangerNoun}} {{verb}} {{adverb}} with {{noun}} in one hand and {{supplyNoun}} in the other. The {{adjective}} light made {{omenNoun}} look {{adjective}} and {{adverb}} {{verb}}.
-
-{{survivorName}} opened it for {{entryNameA}}. {{authorName}} closed it with {{entryNameB}}. If {{openerName}} hears {{noun}} {{verb}} {{adverb}}, count backwards from {{skillName}} and pretend {{traitName}} is not {{verb}} behind you. The door {{verb}} {{adverb}}. {{omenNoun}} {{verb}} through the {{adjective}} gap. {{exclamation}} was all I could say before {{noun}} {{verb}} and {{supplyNoun}} fell {{adverb}} to the {{adjective}} floor.
-
-The margin has {{adjective}} {{noun}} now. {{entryNameA}} is {{adjective}}. {{entryNameB}} is {{verb}} {{adverb}}. {{openerName}} should {{verb}} before {{omenNoun}} finishes {{verb}}.",
-UI_BurdJournals_LoreTemplate_CursedMadLibsMargin::en = "The margin drew {{adjective}} {{noun}} around {{entryNameA}} until {{omenNoun}} {{verb}} {{adverb}}. Then it asked {{openerName}} for {{supplyNoun}}, {{traitName}}, and a signature in the space where {{authorName}} used to be. The {{adjective}} ink {{verb}} {{adverb}} while {{noun}} {{verb}} outside {{stashNoun}}.
-
-Do not sign. Read {{entryNameB}} if you must. If {{recipeName}} changes shape, whisper {{exclamation}} and close the book. {{dangerNoun}} {{verb}} {{adverb}} when the page {{verb}}, and {{omenNoun}} {{verb}} in rhythm with your {{adjective}} heartbeat. I {{verb}} {{adverb}} but the margin {{verb}} {{adverb}}.
-
-{{survivorName}} {{verb}} {{entryNameA}}. {{authorName}} {{verb}} with {{entryNameB}}. If {{openerName}} {{verb}} {{adverb}}, count backwards from {{skillName}} and pretend {{traitName}} is not {{verb}}. The {{adjective}} truth is that {{omenNoun}} already {{verb}} your name in {{adjective}} letters at the bottom of {{noun}}.",
-UI_BurdJournals_LoreTemplate_CursedMadLibsStatic::en = "There is a {{noun}} under the {{noun}}. You {{noun}} it best when the {{noun}} are {{verb}} and the {{noun}} is too {{adjective}} to {{noun}}. It {{verb}} {{noun}}, {{noun}}, and sometimes the {{noun}} you {{verb}} yesterday.
-
-{{openerName}}, take {{entryNameA}} and {{entryNameB}} before the {{noun}} {{noun}}. If it {{verb}} with your {{noun}}, {{noun}} the {{noun}} off with a {{noun}}.",
-UI_BurdJournals_LoreTemplate_CursedMadLibsWater::en = "People blamed the {{noun}} because {{noun}} goes everywhere and never testifies. {{survivorName}} {{verb}} it, {{verb}} it, {{verb}} over it, and still {{verb}} of {{omenNoun}} {{verb}} first.
-
-If {{openerName}} wants a {{adjective}} {{noun}}, take {{skillName}} and {{recipeName}}. If you want the {{adjective}} {{noun}}, ask why the {{noun}} stays {{adjective}} when everything else in this {{noun}} {{verb}}.",
-UI_BurdJournals_LoreTemplate_CursedMadLibsWell::en = "The {{noun}} {{noun}} was {{adjective}} until the {{noun}} came up with {{noun}}. After that it {{verb}} {{adjective}} {{noun}}: {{noun}}, {{noun}}, a {{noun}}, one {{adjective}} {{noun}} already covered in {{authorName}}'s {{noun}}.
-
-I {{verb}} {{entryNameA}} because the {{noun}} left {{noun}}. {{entryNameB}} {{verb}} while I {{verb}}. If {{openerName}} {{verb}} a {{noun}}, do not {{noun}} for {{noun}} by {{noun}}.",
+UI_BurdJournals_LoreTemplate_CursedGeneral::en = "",
+UI_BurdJournals_LoreTemplate_CursedKnoxPrice::en = "",
+UI_BurdJournals_LoreTemplate_CursedLabDoor::en = "",
+UI_BurdJournals_LoreTemplate_CursedLedger::en = "",
+UI_BurdJournals_LoreTemplate_CursedMadLibsDoor::en = "",
+UI_BurdJournals_LoreTemplate_CursedMadLibsMargin::en = "",
+UI_BurdJournals_LoreTemplate_CursedMadLibsStatic::en = "",
+UI_BurdJournals_LoreTemplate_CursedMadLibsWater::en = "",
+UI_BurdJournals_LoreTemplate_CursedMadLibsWell::en = "",
 UI_BurdJournals_LoreTemplate_CursedMargin::en = "{{authorName}} scratched {{recipeName}} in the margin and {{omenNoun}} answered. The debt moved to {{openerName}} when {{noun}} {{verb}}.",
-UI_BurdJournals_LoreTemplate_CursedMeat::en = "The butcher said the meat came in wrong before people did. Too warm, too sweet, marked with a stamp nobody at the plant recognized. Then customers started asking why it moved when salted.
-
-The page wants {{openerName}} to blame infection. Do not. Infection does not write recipes in the grease. Take {{skillName}}, take {{recipeName}}, and leave anything that smiles from a hook.",
-UI_BurdJournals_LoreTemplate_CursedMirror::en = "The mirror in the motel did not reflect the room after midnight. It reflected the checkpoint, the fence, and {{authorName}} standing in a line that never moved. {{omenNoun}} watched from behind every face.
-
-{{openerName}} can use {{entryNameA}} safely if the glass stays dark. {{entryNameB}} should be read with the mirror covered. Reflections are excellent thieves.",
-UI_BurdJournals_LoreTemplate_CursedNursery::en = "The nursery mobiles turned without wind. Ducks, moons, stars, little plastic sheep, all circling over empty cribs while the county alert called for calm. {{authorName}} found names scratched into the paint under each mattress.
-
-One name is {{openerName}} now. Use {{entryNameA}} while it still looks useful. Use {{entryNameB}} only if the lullaby starts from a room with no children.",
+UI_BurdJournals_LoreTemplate_CursedMeat::en = "",
+UI_BurdJournals_LoreTemplate_CursedMirror::en = "",
+UI_BurdJournals_LoreTemplate_CursedNursery::en = "",
 UI_BurdJournals_LoreTemplate_CursedPrice::en = "The seal broke because {{traitName}} makes fools brave. Keep the page on {{entryName}} if you want to remember the {{adjective}} price.",
-UI_BurdJournals_LoreTemplate_CursedPuppetShow::en = "The children's puppet stage in the library performed at noon without hands. It told the Knox story with felt soldiers, paper masks, and a little red moon that swallowed the set.
-
-{{survivorName}} clapped before we could stop them. That is when the journal opened. {{skillName}} is useful. {{recipeName}} is useful. Applause is not.",
-UI_BurdJournals_LoreTemplate_CursedRadioTower::en = "The radio tower blinked after the power died. Red light, red light, red light, like a heartbeat nobody authorized. Every time it flashed, {{noun}} {{verb}} somewhere closer.
-
-I wrote {{entryNameA}} while counting the flashes and {{entryNameB}} when the count answered back. If {{openerName}} sees the tower from the road, look at your feet instead. It hates being ignored.",
+UI_BurdJournals_LoreTemplate_CursedPuppetShow::en = "",
+UI_BurdJournals_LoreTemplate_CursedRadioTower::en = "",
 UI_BurdJournals_LoreTemplate_CursedSeal::en = "{{openerName}} broke the seal and {{omenNoun}} answered {{adverb}}. {{authorName}} is not the first name it kept.",
-UI_BurdJournals_LoreTemplate_CursedSilo::en = "Something knocked inside the grain silo for three days. Not a person. Not an animal. It knocked in the rhythm of the emergency broadcast and stopped whenever anyone prayed.
-
-{{survivorName}} climbed up with {{supplyNoun}} and came down older. The page on {{skillName}} is theirs. The page on {{recipeName}} is mine. The scratching under both belongs to {{omenNoun}}.",
-UI_BurdJournals_LoreTemplate_CursedSkillOnlyCounting::en = "Count the dead. Count the doors. Count the lessons that keep you separate from the first category and moving through the second. {{skillNameA}} is one. {{skillNameB}} is two. The third count belongs to {{omenNoun}}, so stop early. Stop while you can still pretend the numbers are just numbers and not a conversation you're having with something that counts back.
-
-{{authorName}} did not stop early. That is why the page has room for {{openerName}}. That is why the margin is wide and the ink is fresh and the binding doesn't crack when you open it. The journal has been waiting. Journals do that, if they're made right, if they're opened right, if they're read by the right eyes at the wrong time.
-
-I counted to fifty before I realized the counting was counting me. Fifty dead I had seen. Fifty doors I had closed. Fifty skills I wished I had, and only two - {{skillNameA}} and {{skillNameB}} - that I had actually learned. The wish counted too. The wish counted as three, and three is {{omenNoun}}'s favorite number, the number of sides on a warning, the number of points on a star that fell over Knox County in 1991 and nobody talks about anymore except in whispers that sound like static.
-
-Practice {{skillNameA}} where mirrors cannot see you practice. Practice {{skillNameB}} where radios cannot hear the repetition. If either lesson improves too quickly, if your hands know the motions before your mind knows the meaning, thank nobody. Thanking is naming. Naming is inviting. Inviting is how the door opens from the outside even when you locked it from the in.",
-UI_BurdJournals_LoreTemplate_CursedSkillOnlyInk::en = "The ink refused every word except {{skillNameA}}. When {{authorName}} tried to write \"help,\" the page sweated until {{skillNameB}} appeared underneath. When I tried to write my name, the letters rearranged into something that sounded almost like a cough. The paper is thirsty. The paper is particular. The paper wants what it wants.
-
-{{openerName}} should learn them in order. The page likes order. It punishes curiosity in ways that don't show up immediately, ways that wait, ways that accumulate like interest on a debt you didn't know you'd signed. I signed. I broke the seal. I opened the cover and read the first line and now I am the first line, written in something that isn't ink but flows like it.
-
-{{skillNameA}} is useful. {{skillNameB}} is useful. Both work. Both teach what they claim to teach. The knowledge is real, tested, practical. You can use it to survive {{dangerNoun}}, to find {{supplyNoun}}, to make it through another night of the Knox Event which is not just an event anymore but a condition, a state of being, a permanent weather system that rains teeth and dead air.
-
-But after you learn, after {{openerName}} closes the book and walks away with new abilities nestled in their muscles and mind, remember that something walks away with you. Something that was waiting for a reader. Something that needed hands to hold it, eyes to read it, a voice to speak its contents aloud even in silence. The page is warm. The page is patient. The page has time that we don't.",
-UI_BurdJournals_LoreTemplate_CursedSkillOnlyName::en = "{{skillNameA}} was written in {{authorName}}'s hand. {{skillNameB}} was written in mine. I had not opened the journal yet.
-
-If {{openerName}} sees their own handwriting later, do not correct the spelling. The page enjoys attention.",
-UI_BurdJournals_LoreTemplate_CursedSkillOnlyOffer::en = "The margin offered power, answers, and the location of every locked pharmacy in Knox County. {{authorName}} chose {{skillNameA}} because it looked least hungry.
-
-{{skillNameB}} chose itself. If {{openerName}} feels the page get warm, close it after the lesson and before the bargain.",
-UI_BurdJournals_LoreTemplate_CursedSkillOnlyPractice::en = "Practice {{skillNameA}} where mirrors cannot watch. Practice {{skillNameB}} where radios cannot listen. If either lesson improves too quickly, thank nobody.
-
-{{authorName}} wrote that warning after {{noun}} {{verb}} {{adverb}}. {{openerName}} should treat it as instruction, not superstition.",
-UI_BurdJournals_LoreTemplate_CursedStaticChoir::en = "There is a choir under the static. You hear it best when the batteries are dying and the room is too tired to lie. It sings numbers, road names, and sometimes the recipe you needed yesterday.
-
-{{openerName}}, take {{entryNameA}} and {{entryNameB}} before the chorus notices. If it harmonizes with your breathing, turn the radio off with a hammer.",
-UI_BurdJournals_LoreTemplate_CursedStormDrain::en = "The storm drains carried more than rain after the sirens stopped. Whispers came up through the grates near {{noun}}, offering shortcuts, cures, and old names nobody should have known.
-
-{{authorName}} followed one. I found the journal instead. If {{openerName}} keeps it, learn {{skillName}}, forget the whisper, and never trade {{traitName}} for an answer.",
-UI_BurdJournals_LoreTemplate_CursedTaxOffice::en = "The tax office survived the first riots because nobody wanted paperwork at the end of the world. Inside, every filing cabinet had been sorted into sins instead of surnames. {{traitName}} was stamped on more folders than seemed fair.
-
-I found {{authorName}} under penalties due. The notes on {{entryNameA}} were audited. The notes on {{entryNameB}} were forgiven. {{openerName}} should avoid the drawer marked extensions.",
-UI_BurdJournals_LoreTemplate_CursedVotingMachine::en = "The voting machine in city hall kept printing results after the election was canceled. Sick won by a landslide. Dead took every precinct. One ballot had {{openerName}} written where the office should be.
-
-{{authorName}} took the tape and hid it behind {{stashNoun}}. These notes on {{skillName}} and {{recipeName}} were printed on the back. Democracy has strange handwriting now.",
-UI_BurdJournals_LoreTemplate_CursedWater::en = "People blamed the water because water goes everywhere and never testifies. {{survivorName}} boiled it, filtered it, prayed over it, and still dreamed of {{omenNoun}} drinking first.
-
-If {{openerName}} wants a practical answer, take {{skillName}} and {{recipeName}}. If you want the true answer, ask why the page stays dry when everything else in this county sweats.",
-UI_BurdJournals_LoreTemplate_CursedWell::en = "The well water was clean until the bucket came up with hair. After that it gave different gifts: teeth, radio parts, a school photograph, one wet page already covered in {{authorName}}'s handwriting.
-
-I added {{entryNameA}} because the page left room. {{entryNameB}} appeared while I slept. If {{openerName}} lowers a bucket, do not ask for water by name.",
+UI_BurdJournals_LoreTemplate_CursedSilo::en = "",
+UI_BurdJournals_LoreTemplate_CursedSkillOnlyCounting::en = "",
+UI_BurdJournals_LoreTemplate_CursedSkillOnlyInk::en = "",
+UI_BurdJournals_LoreTemplate_CursedSkillOnlyName::en = "",
+UI_BurdJournals_LoreTemplate_CursedSkillOnlyOffer::en = "",
+UI_BurdJournals_LoreTemplate_CursedSkillOnlyPractice::en = "",
+UI_BurdJournals_LoreTemplate_CursedStaticChoir::en = "",
+UI_BurdJournals_LoreTemplate_CursedStormDrain::en = "",
+UI_BurdJournals_LoreTemplate_CursedTaxOffice::en = "",
+UI_BurdJournals_LoreTemplate_CursedVotingMachine::en = "",
+UI_BurdJournals_LoreTemplate_CursedWater::en = "",
+UI_BurdJournals_LoreTemplate_CursedWell::en = "",
 UI_BurdJournals_LoreTemplate_KrampusBargain::en = "Even a {{professionName}} cannot bargain with {{omenNoun}}. Take the note on {{entryName}} and run {{adverb}}.",
-UI_BurdJournals_LoreTemplate_KrampusBellTower::en = "The bell tower rang at midnight without a rope. Every dead thing in three blocks turned its head like children hearing dinner. {{survivorName}} cried because the rhythm sounded almost festive.
-
-If {{openerName}} reads this, keep {{supplyNoun}} wrapped, keep {{traitName}} quiet, and remember {{entryName}} before the next bell. Some invitations are shaped like songs.",
-UI_BurdJournals_LoreTemplate_KrampusBroadcast::en = "The broadcast said stay indoors. The voice behind it said be good. Then the signal bent, {{omenNoun}} laughed through the static, and every bad thing we had done felt tall enough to cast a shadow.
-
-{{survivorName}} left these notes before the wrapping sealed itself again. {{skillName}} may keep you warm, {{recipeName}} may keep you fed, but {{traitName}} will decide whether the winter lets you pass.",
+UI_BurdJournals_LoreTemplate_KrampusBellTower::en = "",
+UI_BurdJournals_LoreTemplate_KrampusBroadcast::en = "",
 UI_BurdJournals_LoreTemplate_KrampusBundle::en = "The bundle was meant for {{openerName}}, not as a gift but a warning. {{omenNoun}} never forgets a debt. {{exclamation}}.",
-UI_BurdJournals_LoreTemplate_KrampusCandleFactory::en = "The candle factory kept working after everyone left. Wax poured, wicks twisted, and every label printed the same warning: good enough is not good. {{authorName}} stole three candles and came back with four shadows.
-
-This journal was inside the fourth. {{skillName}} is legible. {{recipeName}} smells faintly of smoke. If {{openerName}} lights anything from that place, do it outdoors.",
-UI_BurdJournals_LoreTemplate_KrampusCheckpoints::en = "Krampus found the checkpoints first. He liked the lists, the stamped passes, the names crossed out by men pretending paperwork could hold back punishment. {{authorName}} saw boot prints in the snow that did not belong to any soldier.
-
-This bundle is for {{openerName}} because the road still wants payment. Learn {{entryNameA}}, keep {{entryNameB}}, and do not answer if the radio uses your childhood name.",
-UI_BurdJournals_LoreTemplate_KrampusChimneyAsh::en = "The chimney ash spelled names after midnight. Not every name belonged to the living, and not every living name stayed in one place. {{authorName}} swept it twice before the broom started bleeding soot.
-
-The gift for {{openerName}} is {{entryNameA}} and {{entryNameB}}, wrapped before the ash could correct them. If the fireplace coughs, do not answer in your own voice.",
-UI_BurdJournals_LoreTemplate_KrampusCoal::en = "Coal would have been kinder. The package left soot on {{survivorName}}'s hands and a smell like old churches after rain. Inside were notes, a ribbon, and a warning that changed words whenever nobody watched.
-
-For {{openerName}}: {{entryNameA}} first, {{entryNameB}} second, and no bargains after sundown. If {{noun}} {{verb}} {{adverb}}, pretend you heard nothing.",
-UI_BurdJournals_LoreTemplate_KrampusConfessionBox::en = "Krampus does not need confession, but he enjoys bookkeeping. The box behind {{noun}} was full of apology notes, ration tickets, and a single gift tag with {{openerName}} already written on it.
-
-{{entryNameA}} is what the tag offered. {{entryNameB}} is what {{authorName}} added in defiance. Keep both, but do not apologize to the box.",
-UI_BurdJournals_LoreTemplate_KrampusDepartmentStore::en = "The department store Santa was gone, but the chair kept asking children what they wanted. Adults sat in it too after the food ran out. Nobody liked the answers.
-
-{{survivorName}} found this journal in the gift wrap aisle. I added {{entryNameA}} beside a roll of red paper and {{entryNameB}} beside the tape. If {{openerName}} sees the chair, keep walking.",
-UI_BurdJournals_LoreTemplate_KrampusFrozenCreek::en = "Krampus crossed the frozen creek without leaving footprints. The convoy did not. We found boots, rifles, candy wrappers, and one package tied with ribbon under {{stashNoun}}.
-
-{{openerName}} can keep {{skillName}} and {{entryNameB}}. The creek keeps the rest. Do not test the ice if it sounds like bells.",
-UI_BurdJournals_LoreTemplate_KrampusGeneral::en = "The wrapping was not festive. It was a warning dressed up so desperate hands would open it anyway. Knox County has lists now: infected, missing, cleared, contained, expendable. Krampus keeps older lists, and his are harder to appeal.
-
-If {{openerName}} hears bells where there should be sirens, move before the snow remembers your footprints. Gifts still exist, but some of them expect payment after dark.",
-UI_BurdJournals_LoreTemplate_KrampusLedger::en = "Santa checks names. Krampus checks balances. The ledger under {{stashNoun}} had pages for cowardice, cruelty, mercy, theft, and one page labeled survival in handwriting that kept changing.
-
-I do not know where {{openerName}} lands. The notes on {{entryNameA}} and {{entryNameB}} are free enough to use, but if the page asks what you did at the roadblock, lie badly.",
-UI_BurdJournals_LoreTemplate_KrampusMadLibsBell::en = "Every {{noun}} meant {{noun}}. One {{noun}} for {{skillNameA}}, two {{noun}} for {{skillNameB}}, three {{noun}} for {{verb}} before the {{noun}} becomes {{adjective}}.
-
-{{authorName}} {{verb}} to {{noun}}. {{openerName}} should not {{noun}} for {{noun}}.",
+UI_BurdJournals_LoreTemplate_KrampusCandleFactory::en = "",
+UI_BurdJournals_LoreTemplate_KrampusCheckpoints::en = "",
+UI_BurdJournals_LoreTemplate_KrampusChimneyAsh::en = "",
+UI_BurdJournals_LoreTemplate_KrampusCoal::en = "",
+UI_BurdJournals_LoreTemplate_KrampusConfessionBox::en = "",
+UI_BurdJournals_LoreTemplate_KrampusDepartmentStore::en = "",
+UI_BurdJournals_LoreTemplate_KrampusFrozenCreek::en = "",
+UI_BurdJournals_LoreTemplate_KrampusGeneral::en = "",
+UI_BurdJournals_LoreTemplate_KrampusLedger::en = "",
+UI_BurdJournals_LoreTemplate_KrampusMadLibsBell::en = "",
 UI_BurdJournals_LoreTemplate_KrampusMadLibsBundle::en = "The {{noun}} was {{adjective}} for {{openerName}}, not as a {{noun}} but a {{noun}}. {{omenNoun}} never {{noun}} a {{noun}}. {{exclamation}}.",
-UI_BurdJournals_LoreTemplate_KrampusMadLibsCoal::en = "{{noun}} would have been {{adjective}}. The {{noun}} left {{noun}} on {{survivorName}}'s {{noun}} and a {{noun}} like {{adjective}} {{noun}} after {{noun}}. Inside were {{noun}}, a {{noun}}, and a {{noun}} that {{verb}} {{noun}} whenever nobody {{verb}}.
-
-For {{openerName}}: {{entryNameA}} first, {{entryNameB}} second, and no {{noun}} after {{noun}}. If {{noun}} {{verb}} {{adverb}}, {{noun}} you {{verb}} {{noun}}.",
-UI_BurdJournals_LoreTemplate_KrampusMadLibsList::en = "The list said {{adjective}} {{noun}}, {{dangerNoun}}, and {{supplyNoun}} were naughty. It said {{authorName}} was pending. It said {{openerName}} would understand when {{omenNoun}} {{verb}} {{adverb}} near {{stashNoun}} with {{noun}} in its {{adjective}} hands.
-
-The useful parts are {{skillName}}, {{entryNameB}}, and whatever courage survives {{exclamation}}. {{survivorName}} {{verb}} {{adverb}} when the {{adjective}} list arrived, and {{recipeName}} couldn't save them from {{omenNoun}}'s {{adjective}} judgment.
-
-Krampus keeps {{supplyNoun}} in {{stashNoun}} for {{adjective}} survivors. {{entryNameA}} is yours if you {{verb}} {{adverb}}. {{entryNameB}} is yours if you {{verb}} {{adjective}}. {{openerName}} is being watched by {{noun}} that {{verb}} {{adverb}} and already knows about {{traitName}}. {{exclamation}} is the only safe response. The rest is just {{adjective}} {{noun}} {{verb}} until the new year.",
-UI_BurdJournals_LoreTemplate_KrampusMadLibsRibbon::en = "The ribbon went {{adverb}} around {{adjective}} {{noun}} while {{omenNoun}} {{verb}} behind {{stashNoun}}. Krampus wrote {{openerName}} on the tag in {{supplyNoun}} and smiled with somebody else's teeth. The {{adjective}} wrapping {{verb}} {{adverb}} when {{authorName}} touched it, and {{noun}} {{verb}} in the distance like {{exclamation}}.
-
-Open {{entryNameA}} first, {{entryNameB}} second, and say {{exclamation}} only if the bells start {{verb}} {{adverb}}. {{survivorName}} {{verb}} when {{dangerNoun}} {{verb}} past {{noun}}, and {{traitName}} wasn't enough to stop {{omenNoun}} from {{verb}} {{supplyNoun}}.
-
-{{openerName}} should learn {{skillName}} before {{noun}} {{verb}}. The list says you're {{adjective}}. The ledger says you're {{adjective}}. {{omenNoun}} says {{exclamation}} and Krampus {{verb}} {{adverb}} in agreement. Happy holidays from the {{adjective}} {{noun}} that {{verb}} {{adverb}} outside.",
-UI_BurdJournals_LoreTemplate_KrampusMilkCookies::en = "Milk spoiled. Cookies molded. The plate stayed full anyway. Something took one bite every night and left a small black hoofprint in the crumbs.
-
-{{survivorName}} said it meant we were chosen. I said chosen for what. The answer was this journal, {{entryNameA}}, {{entryNameB}}, and a ribbon tied too tight to untangle.",
-UI_BurdJournals_LoreTemplate_KrampusParade::en = "The Christmas parade floats were still parked downtown when the quarantine line went up. By the time {{dangerNoun}} reached Main Street, the papier-mache reindeer had real antlers tied to them and nobody admitted doing it.
-
-{{authorName}} found this journal under the sleigh. I added {{skillName}} because survival is a better gift than spectacle, and {{recipeName}} because hunger makes every holiday honest.",
-UI_BurdJournals_LoreTemplate_KrampusSchoolList::en = "The school had two lists on the bulletin board: children accounted for, children missing. Standard emergency protocol. Standard bureaucracy. Standard attempt to impose order on a situation that had stopped responding to order sometime around July 4th when the first dogs got sick and the first rumors started spreading faster than the first fever. Krampus added a third list in careful red ink. It was only adults. It was only names that had made a decision at a checkpoint, on a road, in a dark room with no witnesses. Every name had a tally beside it that didn't correspond to anything visible.
-
-{{openerName}} does not need to know which list this journal came from. You don't need to know if I found it, if it was given to me, if I took it from someone who didn't need it anymore or from someone who needed it very much but had other priorities like breathing, like not being on any list at all, like disappearing completely which is harder than it sounds when {{omenNoun}} keeps excellent records and has a very particular filing system.
-
-Learn {{entryNameA}}. It's useful knowledge, practical, the kind that keeps you alive. Carry {{entryNameB}}. It's heavier, more complicated, the kind of knowledge that keeps you human which is different from keeping you alive and sometimes conflicts with it. Do not laugh if bells ring from an empty classroom. The school is empty. The bells shouldn't ring. If they do, it's not Santa, it's not a holiday announcement, it's not a malfunction of the electrical system that stopped working weeks ago.
-
-Krampus doesn't care about naughty or nice. Those are marketing terms, Santa-brand concepts, consumer-friendly binaries. Krampus cares about survival and what you do to achieve it. The lists aren't moral judgments. They're observations. They're data. They're the record of who made it through and how and whether the how was worth the what. {{openerName}} is being observed now. The page knows you're reading it. The ink is interested. Finish quickly. Move on. Try to stay off any list that requires red ink to maintain.",
-UI_BurdJournals_LoreTemplate_KrampusSkillOnlyBell::en = "Every bell meant practice. One ring for {{skillNameA}}, two rings for {{skillNameB}}, three rings for running before the lesson becomes personal.
-
-{{authorName}} made it to two. {{openerName}} should not wait for three.",
-UI_BurdJournals_LoreTemplate_KrampusSkillOnlyBundle::en = "The bundle had no candy, no coal, and no apology. Only {{skillNameA}} folded around {{skillNameB}}, tied with string that felt warm through gloves.
-
-{{openerName}} should learn both before nightfall. Krampus gives warnings in the shape of gifts because people open gifts faster.",
-UI_BurdJournals_LoreTemplate_KrampusSkillOnlyCoalDust::en = "{{skillNameA}} was written in coal dust across the first page. {{skillNameB}} appeared when the dust was wiped away. The table underneath stayed clean.
-
-That is not a miracle. It is a warning with tidy hands. {{openerName}} should take the knowledge and leave the dust.",
-UI_BurdJournals_LoreTemplate_KrampusSkillOnlyGoodEnough::en = "Good children listen. Living adults practice. {{authorName}} wrote {{skillNameA}} because listening stopped being enough, then added {{skillNameB}} after {{dangerNoun}} reached the porch.
-
-If {{openerName}} wants to stay off the wrong list, usefulness is a better start than innocence.",
-UI_BurdJournals_LoreTemplate_KrampusSkillOnlyWrapping::en = "The wrapping paper showed tiny sleighs circling a county map. Every route ended at the same black square. Inside, {{skillNameA}} and {{skillNameB}} were the only things not crossed out.
-
-{{openerName}} should take that as generosity. Or threat. The difference is mostly timing.",
-UI_BurdJournals_LoreTemplate_KrampusSleighTracks::en = "The tracks behind the school were too narrow for a truck and too deep for a deer. They circled the playground seven times, then stopped at the quarantine notice like something had paused to read.
-
-Inside the package were {{entryNameA}}, {{entryNameB}}, and a smell like old snow. {{openerName}} should use the first two and ignore the smell if it starts giving advice.",
+UI_BurdJournals_LoreTemplate_KrampusMadLibsCoal::en = "",
+UI_BurdJournals_LoreTemplate_KrampusMadLibsList::en = "",
+UI_BurdJournals_LoreTemplate_KrampusMadLibsRibbon::en = "",
+UI_BurdJournals_LoreTemplate_KrampusMilkCookies::en = "",
+UI_BurdJournals_LoreTemplate_KrampusParade::en = "",
+UI_BurdJournals_LoreTemplate_KrampusSchoolList::en = "",
+UI_BurdJournals_LoreTemplate_KrampusSkillOnlyBell::en = "",
+UI_BurdJournals_LoreTemplate_KrampusSkillOnlyBundle::en = "",
+UI_BurdJournals_LoreTemplate_KrampusSkillOnlyCoalDust::en = "",
+UI_BurdJournals_LoreTemplate_KrampusSkillOnlyGoodEnough::en = "",
+UI_BurdJournals_LoreTemplate_KrampusSkillOnlyWrapping::en = "",
+UI_BurdJournals_LoreTemplate_KrampusSleighTracks::en = "",
 UI_BurdJournals_LoreTemplate_KrampusSnow::en = "Krampus kept the page on {{skillName}} and left the rest to the snow. {{survivorName}} should have listened when {{noun}} {{verb}}.",
-UI_BurdJournals_LoreTemplate_KrampusSnowman::en = "The snowman outside city hall had coal eyes, twig arms, and teeth that were not coal. Every morning it faced a different house. Every night one more window went dark.
-
-{{authorName}} hid {{entryNameA}} in the scarf and {{entryNameB}} under the hat. {{openerName}} can take the notes, but leave the teeth. Gifts should not bite back.",
+UI_BurdJournals_LoreTemplate_KrampusSnowman::en = "",
 UI_BurdJournals_LoreTemplate_KrampusTallied::en = "{{openerName}} was marked when the wrapping split. {{omenNoun}} never needed a second invitation, only a {{adjective}} one.",
-UI_BurdJournals_LoreTemplate_KrampusTollBooth::en = "The toll booth kept taking payment after the road closed. Coins, teeth, wedding rings, confessions. {{authorName}} said the basket was empty every morning and full of frost by noon.
-
-This gift passed through that booth. {{skillName}} is yours, {{recipeName}} is borrowed, and {{traitName}} may be collected later if {{omenNoun}} decides you underpaid.",
-UI_BurdJournals_LoreTemplate_WornBackRoad::en = "{{survivorName}} said the state roads were traps, so we followed fence lines and mailboxes until the map stopped admitting we existed. Every farmhouse had the same story: one door kicked in, one radio left on, one pot gone cold on the stove.
-
-For {{openerName}}, the route notes are useless now, but the practice is not. Trust {{skillNameA}}, keep {{entryNameB}} dry, and never assume {{noun}} is empty just because it looks {{adjective}}.",
-UI_BurdJournals_LoreTemplate_WornBirthday::en = "Somebody had a birthday during the first week and we sang because not singing felt worse. The cake was canned peaches on crackers. The candles were cigarette lighters. The wish was obvious and still did not come true.
-
-I wrote {{entryNameA}} after the song and {{entryNameB}} after the screaming. If {{openerName}} finds this, celebrate small things quickly. They attract attention if they last too long.",
-UI_BurdJournals_LoreTemplate_WornChurchBasement::en = "The church basement filled before the sanctuary did. People trusted concrete more than stained glass once {{dangerNoun}} reached the steps, and the preacher traded sermons for inventory lists by candlelight.
-
-{{authorName}} wrote these pages beside {{stashNoun}} while the radio upstairs promised order. Keep {{entryNameA}} close, copy {{entryNameB}} if the page tears, and remember that locked doors make neighbors honest.",
-UI_BurdJournals_LoreTemplate_WornClinic::en = "The clinic smelled like bleach, sweat, and lies. They told us the bites were panic injuries. They told us the fever was stress. They told us the coughing people in the back room were being transferred to Louisville for better care, but the ambulance never moved and the drivers sat in the cab playing cards for six hours until they stopped playing cards and started screaming.
-
-{{authorName}} wrote these notes between shifts because hands need something to do when belief runs out. {{traitName}} kept me useful when the clinic stopped having supplies and started having debates about who deserved the last morphine. I didn't win the debate. I just kept working. {{traitName}} makes you keep working even when working feels pointless.
-
-Use {{skillNameA}} first. Use {{skillNameB}} if supplies hold. Do not let {{traitName}} make you generous with masks, with gloves, with the last of anything. Generosity is a luxury for people who aren't counting days in water bottles and hours in daylight. Be practical. Be alive. Be the person who knows {{skillNameA}} well enough to do it in the dark, because the dark is coming and it doesn't care about your good intentions.
-
-The doctor I worked with had good intentions. He was going to save everyone. He was going to write a book about it afterward, about how we persevered, about the human spirit, about lessons learned. He stopped writing in his journal on July 14th. I found it in his locker. The last entry was about a child he couldn't save. I burned it. Some stories don't need to be told. Some stories just need to end.",
-UI_BurdJournals_LoreTemplate_WornCountyMap::en = "We pinned the county map to drywall and stabbed it full of guesses. Red for blocked roads, blue for water, black for places nobody came back from. By Friday, black was winning.
-
-{{authorName}} wrote what the map could not. {{entryNameA}} is for moving, {{entryNameB}} is for stopping, and {{traitName}} is for knowing which one you are doing before {{dangerNoun}} decides for you.",
-UI_BurdJournals_LoreTemplate_WornDepot::en = "The bus depot became a place for people who almost left. Suitcases stayed packed, tickets stayed in pockets, and every schedule board kept insisting another departure was due. {{survivorName}} laughed at that until {{noun}} {{verb}} by the vending machines.
-
-For {{openerName}}, the route is gone but the method remains. {{skillName}} gets you through crowds, {{recipeName}} gets you through hunger, and {{traitName}} is useful only if it does not make you loud.",
-UI_BurdJournals_LoreTemplate_WornDinerShift::en = "The diner stayed open longer than sense allowed. Coffee made people brave, pancakes made them human, and the bell over the door made everyone reach for something sharp. {{survivorName}} kept saying normal would come back hungry.
-
-It did not. I left {{skillName}} in the margin beside the old specials and folded {{recipeName}} into the register tape. If {{openerName}} finds the place, do not eat anything from the fridge unless you enjoy regret.",
-UI_BurdJournals_LoreTemplate_WornFieldHospital::en = "They put the field hospital on the football field because the bleachers gave people somewhere to watch hope fail. Triage tags moved faster than stretchers, and every mask looked clean until someone spoke through it.
-
-If {{openerName}} is reading this, use {{entryNameA}} before kindness. Use {{entryNameB}} before panic. {{authorName}} learned both while {{dangerNoun}} waited outside the fence like a patient with no chart.",
-UI_BurdJournals_LoreTemplate_WornGeneral::en = "The first week taught {{authorName}} to distrust clean answers. The television called Knox County a disturbance, then a quarantine, then said less and less while the fences said everything. People argued over air, water, meat, a lab, a prank, a punishment. None of the theories opened a locked pharmacy.
-
-If {{openerName}} finds these pages, keep them dry and keep moving. I wrote what I could as a {{professionName}}, but the most useful lesson is simpler than any trade: count your supplies before hope, and trust the quiet only after it has stayed quiet all night.",
-UI_BurdJournals_LoreTemplate_WornHardwareStore::en = "The hardware store sold out of locks before it sold out of hammers. That should have told us plenty. People bought plywood like it was medicine and asked for refunds when the dead did not respect carpentry.
-
-{{authorName}} kept notes by the paint mixer. {{skillName}} is useful, {{recipeName}} is better, and {{supplyNoun}} is worth more than cash if {{openerName}} knows where to hide it.",
-UI_BurdJournals_LoreTemplate_WornLibrary::en = "The library was quiet in a way that felt expensive. People took medical books first, then maps, then anything thick enough to tape over windows. The children hid in the genealogy aisle because family names felt protective.
-
-{{authorName}} copied {{entryNameA}} from memory and tucked {{entryNameB}} between county records. If {{openerName}} finds this, return nothing. Late fees are a luxury.",
-UI_BurdJournals_LoreTemplate_WornMadLibsCounty::en = "The {{adjective}} county map said nothing about {{omenNoun}}, the {{adjective}} {{noun}}, or the way {{supplyNoun}} {{verb}} {{adverb}} whenever the broadcast used the word \"contained.\" It showed {{noun}} where {{dangerNoun}} now {{verb}}, and {{stashNoun}} where {{supplyNoun}} used to be before {{noun}} {{verb}} and took it all.
-
-{{authorName}} {{verb}} past {{noun}} {{adverb}}, trying to find {{stashNoun}} where {{supplyNoun}} was hidden. Instead I found {{survivorName}} arguing with {{noun}} about whether {{entryNameA}} mattered more than {{entryNameB}}. Neither of us noticed {{dangerNoun}} {{verb}} until {{omenNoun}} made a sound like {{exclamation}}.
-
-{{openerName}} should keep {{entryNameA}} under {{stashNoun}}, trade {{entryNameB}} only for {{supplyNoun}}, and never trust {{traitName}} when the road looks {{adjective}}. The road always looks {{adjective}} now. That's not a warning, it's weather. Weather {{verb}} {{adverb}} here, and {{noun}} {{verb}} with it, and {{dangerNoun}} {{verb}} until {{exclamation}} stops being a thing people say and starts being a thing people hear.",
-UI_BurdJournals_LoreTemplate_WornMadLibsFence::en = "{{authorName}} watched {{adjective}} {{noun}} {{verb}} {{adverb}} near {{stashNoun}} while {{survivorName}} argued that {{entryNameA}} was more important than {{entryNameB}}. Neither of us saw {{dangerNoun}} {{verb}} until {{omenNoun}} whispered {{exclamation}} from somewhere inside {{noun}}.
-
-If {{openerName}} finds the page, remember this: {{skillName}} gets {{adjective}} when {{dangerNoun}} {{verb}}, {{recipeName}} belongs beside {{supplyNoun}}, and {{exclamation}} is the only wisdom worth keeping. The fence {{verb}} {{adverb}} in the wind, and every {{adjective}} sound made {{noun}} {{verb}} in response, and {{stashNoun}} rattled like it wanted to give up {{supplyNoun}} to whoever was {{adjective}} enough to ask.
-
-I was {{adjective}}. I asked {{adverb}}. {{survivorName}} was {{adjective}} and {{verb}} when {{noun}} finally {{verb}}. The lesson is {{skillName}}. The reminder is {{exclamation}}. The rest is just {{adjective}} {{noun}} {{verb}} {{adverb}} until everything sounds like {{omenNoun}} laughing.",
-UI_BurdJournals_LoreTemplate_WornMadLibsQuarantine::en = "The television kept calling it a {{adjective}} disturbance, then an {{adjective}} exclusion zone, then {{noun}} at all. {{authorName}} wrote down every {{noun}} that still came through, especially the ones that mentioned {{noun}}, {{noun}}, and the {{adjective}} smell drifting out of {{noun}}. None of it {{verb}} what I saw from the {{noun}}.
-
-I was a {{professionName}} before the {{noun}} died, so I tried to keep this {{adjective}}: {{entryNameA}} first, {{entryNameB}} second, and only trust {{supplyNoun}} if you {{noun}} it yourself. If {{openerName}} finds these {{noun}}, remember that the {{adjective}} voices sounded {{adjective}} right up until they {{verb}}.",
-UI_BurdJournals_LoreTemplate_WornMadLibsRoadblock::en = "We reached the {{noun}} before {{noun}} and the {{noun}} already stretched past {{noun}}. A {{noun}} in {{adjective}} {{noun}} said the {{noun}} was {{adjective}}; another had {{noun}} on his {{noun}} and would not {{noun}} at the {{noun}} {{verb}} to {{noun}}. {{survivorName}} said they {{verb}} {{adjective}} than they {{verb}}, because nobody {{noun}} that many {{noun}} {{adverb}}.
-
-I do not know if it was the {{noun}}, the {{noun}}, or something {{adjective}} under a {{noun}} with no {{noun}}. I only know {{skillNameA}} kept us {{adjective}} longer than {{noun}} did, and the note on {{recipeName}} belongs to whoever can still {{noun}} both {{noun}}.",
-UI_BurdJournals_LoreTemplate_WornMadLibsStorm::en = "Rain made everything {{adjective}}. It hid the {{noun}}, washed {{adjective}} marks off {{stashNoun}}, and turned the ditch by {{noun}} into soup thick enough to keep secrets. By morning, {{dangerNoun}} were {{adjective}} than the living, and {{supplyNoun}} was ruined, and {{authorName}} was writing {{entryNameA}} while {{survivorName}} {{verb}} {{adverb}} at the window.
-
-{{openerName}} should start with {{skillName}}. The rest is just weather and stubbornness, except for the note about {{recipeName}}. That one kept {{survivorName}} alive one more day because {{supplyNoun}} {{verb}} {{adverb}} when {{noun}} {{verb}}, and {{traitName}} made the difference between {{adjective}} and {{adjective}}. The rain {{verb}} for hours. {{omenNoun}} {{verb}} longer.
-
-I left this in {{stashNoun}} because {{dangerNoun}} {{verb}} {{adverb}} near the door, and because {{exclamation}} is easier to write than to scream, and because {{openerName}} needs to know that {{noun}} {{verb}} when you least expect it, especially when {{adjective}} and {{adverb}}.",
-UI_BurdJournals_LoreTemplate_WornMotelRoom::en = "Room 12 had two beds, one working lamp, and a Bible hollowed out for bullets. The guest book said people came from Louisville, Muldraugh, and places they did not want written down after the fence went up.
-
-I was a {{professionName}} before I was a room number. {{skillName}} kept me useful, {{recipeName}} kept me busy, and {{exclamation}} is what I wrote on the mirror before we left.",
+UI_BurdJournals_LoreTemplate_KrampusTollBooth::en = "",
+UI_BurdJournals_LoreTemplate_WornBackRoad::en = "",
+UI_BurdJournals_LoreTemplate_WornBirthday::en = "",
+UI_BurdJournals_LoreTemplate_WornChurchBasement::en = "",
+UI_BurdJournals_LoreTemplate_WornClinic::en = "",
+UI_BurdJournals_LoreTemplate_WornCountyMap::en = "",
+UI_BurdJournals_LoreTemplate_WornDepot::en = "",
+UI_BurdJournals_LoreTemplate_WornDinerShift::en = "",
+UI_BurdJournals_LoreTemplate_WornFieldHospital::en = "",
+UI_BurdJournals_LoreTemplate_WornGeneral::en = "",
+UI_BurdJournals_LoreTemplate_WornHardwareStore::en = "",
+UI_BurdJournals_LoreTemplate_WornLibrary::en = "",
+UI_BurdJournals_LoreTemplate_WornMadLibsCounty::en = "",
+UI_BurdJournals_LoreTemplate_WornMadLibsFence::en = "",
+UI_BurdJournals_LoreTemplate_WornMadLibsQuarantine::en = "",
+UI_BurdJournals_LoreTemplate_WornMadLibsRoadblock::en = "",
+UI_BurdJournals_LoreTemplate_WornMadLibsStorm::en = "",
+UI_BurdJournals_LoreTemplate_WornMotelRoom::en = "",
 UI_BurdJournals_LoreTemplate_WornPages::en = "If {{openerName}} finds this, {{authorName}} meant the pages to outlast them. I kept {{entryName}} notes behind {{stashNoun}} after {{noun}} {{verb}} {{adverb}}.",
-UI_BurdJournals_LoreTemplate_WornPharmacyLine::en = "The pharmacy line wrapped around the building before sunrise. People coughed into sleeves, into scarves, into the hands they used to push each other when the shutters did not open. A deputy said medicine was being distributed fairly, then slipped a bag to his cousin.
-
-I wrote this after fairness became a rumor. {{entryNameA}} may help {{openerName}} more than a bottle ever did, and {{entryNameB}} is what I wish I knew before {{supplyNoun}} became currency.",
+UI_BurdJournals_LoreTemplate_WornPharmacyLine::en = "",
 UI_BurdJournals_LoreTemplate_WornProfession::en = "Being a {{professionName}} taught me {{skillNameA}}, but {{traitName}} kept me breathing when things got {{adjective}}. The rest is in the margins.",
-UI_BurdJournals_LoreTemplate_WornQuarantine::en = "The television kept calling it a disturbance, then an exclusion zone, then nothing at all. {{authorName}} wrote down every broadcast that still came through, especially the ones that mentioned soldiers, roadblocks, and the smell drifting out of Knox County. None of it matched what I saw from the windows.
-
-I was a {{professionName}} before the phones died, so I tried to keep this practical: {{entryNameA}} first, {{entryNameB}} second, and only trust {{supplyNoun}} if you packed it yourself. If {{openerName}} finds these pages, remember that the official voices sounded calm right up until they stopped.",
-UI_BurdJournals_LoreTemplate_WornRadioLog::en = "{{authorName}} kept a broadcast log until the voices started repeating yesterday's weather. The emergency station told us to shelter, the governor told us to cooperate, and one exhausted reporter told us the roads south were already gone before someone cut her microphone.
-
-I wrote the useful parts in plain language: {{entryNameA}} for the hands, {{entryNameB}} for the head, and {{supplyNoun}} if you can find any. If {{openerName}} hears a calm voice promising evacuation, check whether the voice is breathing.",
-UI_BurdJournals_LoreTemplate_WornRailYard::en = "The rail yard smelled like diesel, rain, and old promises. Someone said military trains had moved through at night before the broadcasts changed. Someone else said the cars were empty. Nobody wanted to explain the fresh chains.
-
-{{authorName}} kept notes under {{stashNoun}} because paper is lighter than proof. If {{openerName}} can use {{skillName}}, use it quietly. If {{recipeName}} looks foolish now, wait until the pantry is empty.",
-UI_BurdJournals_LoreTemplate_WornRoadblock::en = "We reached the checkpoint before dawn and the line already stretched past {{noun}}. A man in uniform said the sickness was contained; another had blood on his sleeve and would not look at the families begging to cross. {{survivorName}} said they knew earlier than they admitted, because nobody builds that many barricades overnight.
-
-I do not know if it was the air, the water, or something buried under a lab with no name. I only know {{skillNameA}} kept us alive longer than hope did, and the note on {{recipeName}} belongs to whoever can still use both hands.",
-UI_BurdJournals_LoreTemplate_WornSchoolhouse::en = "The school became a shelter because it had brick walls, wide doors, and enough chairs to pretend this was temporary. By the third night, {{dangerNoun}} was outside and nobody wanted to say the children were quieter than the adults.
-
-I was only a {{professionName}}, not a leader, but I learned which rooms locked and which windows lied. {{skillName}} mattered more than speeches, {{recipeName}} mattered more than prayer, and {{traitName}} was the sort of thing people noticed after the lights went out.",
-UI_BurdJournals_LoreTemplate_WornSkillOnlyFieldNotes::en = "Field Note #1: {{skillNameA}} works {{adjective}} before you are {{adjective}}. Field Note #2: {{skillNameB}} works {{adjective}} before you are {{adjective}}. Field Note #3: You will be both, so {{verb}} until you can do them in your {{noun}}, because you might be doing them in your {{noun}} and not know the difference.
-
-Field Note #4: The textbook says to {{skillNameA}} with proper posture, adequate lighting, and a clear mind. The reality is {{skillNameA}} in a closet with a flashlight between your teeth while {{dangerNoun}} moves through the house looking for the sound of breathing. Posture is a luxury. Breathing is not.
-
-Field Note #5: {{skillNameB}} requires patience that I don't have anymore. I fake it. I count backwards from one hundred. I recite the names of every teacher I ever had. I remember the phone number of my childhood home, even though the phones don't work and the home is inside the Exclusion Zone and probably full of dead people who look like my memories.
-
-{{authorName}} left the rest {{adjective}} for {{openerName}} to fill with better luck than I had. Keep the page dry, keep the lesson closer, and if you meet someone who needs to know {{skillNameA}} or {{skillNameB}}, teach them. Knowledge is the only thing that gets lighter when you give it away.",
-UI_BurdJournals_LoreTemplate_WornSkillOnlyNotebook::en = "{{authorName}} wrote {{skillNameA}} in {{adjective}} block letters because {{noun}} makes small writing {{adjective}}. The {{adjective}} page has {{skillNameB}}, copied twice - once before the {{adjective}} sirens started and once after they {{verb}} and started again and finally {{verb}} for good.
-
-There's a {{adjective}} coffee ring on the third page from the last cup of real coffee at the {{noun}} on Route 31. The {{noun}} is {{adjective}} now. I know because I {{verb}} back looking for more cups, more coffee, more of that {{adjective}} feeling. The {{noun}} were boarded from the inside. The boards had {{adjective}} scratches.
-
-If {{openerName}} finds this, {{verb}} both skills before {{dangerNoun}} gets {{adjective}}. A skill remembered late is just {{noun}} with better spelling. I learned {{skillNameA}} from my {{noun}}, who learned it from his {{noun}}, who {{verb}} in a {{noun}} with {{adjective}} sheets and people who {{verb}} him holding his hands. I learned {{skillNameB}} from a {{noun}} I stole from the {{noun}} while the {{noun}} was arguing with a {{noun}} about due dates. She thought due dates still {{verb}}. He thought staying inside the {{noun}} mattered. They were both {{adjective}} about what mattered.
-
-The pen is {{verb}} out. I can tell because the A's in {{skillNameA}} are getting {{adjective}}. When the pen {{verb}}, I'll use {{noun}}. When the {{noun}} {{verb}}, I'll use {{noun}} from the fire. When the fire {{verb}}, I'll use {{noun}} if I have to. Not mine, {{adverb}}. But the dead don't need theirs anymore, and the living need to know how to {{skillNameB}}.",
-UI_BurdJournals_LoreTemplate_WornSkillOnlyPractice::en = "The first try at {{skillNameA}} was {{adjective}}. The second was {{adjective}}. By the fifth, {{authorName}} understood that competence is mostly embarrassment survived in private, with no witnesses to laugh at the mistakes.
-
-{{skillNameB}} came later, after {{noun}} {{verb}} near {{stashNoun}} and I realized that knowing one thing well is good, but knowing two things well is better, and knowing them both when {{dangerNoun}} is coming is best. I learned {{skillNameB}} from a woman at the checkpoint who traded me a lesson for half my water. She said water runs out but knowledge stays. She was half right. Water does run out.
-
-If {{openerName}} has time to laugh at the mistakes in these notes, there is still time to learn from them. The errors are included because they're honest. The crossed-out sections are where I was wrong about {{skillNameA}}. The margin notes are corrections from someone who came through after me, saw my setup, and left advice. I never met them. The advice was good. I've added my own corrections to their corrections. The journal is becoming a conversation between people who never shook hands.
-
-Keep adding to it. If you find a better way to {{skillNameB}}, write it in. If {{skillNameA}} doesn't work the way I described, cross it out and explain why. The next person who finds this might need your correction more than my original error.",
-UI_BurdJournals_LoreTemplate_WornSkillOnlyRadioLesson::en = "A calm voice on the radio said survival depended on cooperation, community, and sharing resources for the common good. Nobody explained how to cooperate with a locked pharmacy door, a dead car battery, and {{dangerNoun}} tapping on the window in a rhythm that sounds almost like asking to come in.
-
-So {{authorName}} wrote down {{skillNameA}} and {{skillNameB}} instead. They're less polite than speeches, less inspiring than broadcasts, but {{openerName}} may find them more useful when the radio stops playing music and starts playing the emergency broadcast on a loop, and then stops playing anything at all.
-
-The radio was my friend for the first week. It told me what was happening in Louisville, what the military was saying, what the President was saying, what the CDC was saying. Then it told me the same things on repeat. Then it told me static. Then it told me something else, something that wasn't any station I recognized, speaking in a voice that knew my name. I turned it off. I haven't turned it on since.
-
-{{skillNameA}} and {{skillNameB}} don't need batteries. They don't need signals. They don't know your name. They're just skills, sitting on the page, waiting for hands to try them. Try them.",
-UI_BurdJournals_LoreTemplate_WornSkillOnlyRoutine::en = "Routine kept us {{adjective}} longer than {{noun}} did. Every {{noun}}: check the {{noun}}, {{verb}} the {{noun}}, {{verb}} {{skillNameA}} for thirty minutes until the {{noun}} know it without asking permission, then {{verb}} {{skillNameB}} until the {{noun}} remembers even when the {{noun}} is somewhere else.
-
-{{openerName}} should not {{verb}} to feel {{adjective}}. {{verb}} the notes, {{verb}} {{adverb}}, and let {{adjective}} {{noun}} watch from the {{noun}} while you practice inside. {{noun}} is a bad roommate but a worse host. Make it {{verb}} in the {{noun}} while you work.
-
-I used to think survival would be {{adjective}}. Movies made it look like {{verb}} and {{verb}} and {{adjective}} speeches. It's not. It's this: waking up, checking the perimeter, practicing {{skillNameA}} while the coffee heats on the camp stove, practicing {{skillNameB}} while the coffee cools because you got distracted watching the tree line. It's boring. Boring is the goal. Excitement means something went wrong.
-
-The neighbor three houses down used to make everything exciting. He'd {{verb}} at shadows, run into the yard at noises, fire his shotgun at anything that moved after dark. We found him on his roof, still holding the shotgun, surrounded by empty shells. The dead don't climb, but they do wait. He made himself too interesting. Don't be interesting. Be boring. Be alive. Practice {{skillNameA}} and {{skillNameB}} until they're as natural as breathing, then keep breathing.",
-UI_BurdJournals_LoreTemplate_WornSkillOnlyTrade::en = "{{authorName}} meant to trade this knowledge for {{supplyNoun}}. That was three weeks ago, before the roads became owned by whoever had the most visible weapons, before the checkpoint stopped letting anyone through even with valid papers, before \"trade\" became a word that meant \"risk your life for a maybe.\"
-
-The trade never happened. Instead, I'm leaving this in {{stashNoun}} for {{openerName}} to find. {{skillNameA}} is worth more than {{supplyNoun}} now. {{skillNameB}} is worth more than the truck I was going to use to transport the trade goods. The truck is out of gas. The battery is dead. I stripped the tires for barricade material.
-
-If you can use {{skillNameA}}, use it. If you can teach {{skillNameB}}, teach it. The economy collapsed but knowledge is still currency. It doesn't inflate. It doesn't require a central bank. The Federal Reserve is probably full of dead bankers shuffling around looking for someone to foreclose on. But this page, this knowledge, it's still valid. It's still good. It's still worth something, even if that something is just another day of being able to open your eyes in the morning and close them at night by choice.",
-UI_BurdJournals_LoreTemplate_WornStorefront::en = "The first riot was not for guns. It was for batteries, for formula, for anything with a pull tab that promised normal. {{authorName}} watched a man trade his wedding ring for {{supplyNoun}} while the radio insisted supply lines were stable and assistance was en route and please remain calm.
-
-I wrote this after we shuttered the storefront and counted what was left. {{skillNameA}} is what I wish I knew before the shelves emptied. {{skillNameB}} is what I learned after {{noun}} {{verb}} {{adverb}} and the crowd decided that sound meant supplies and supplies meant survival. The recipe for {{recipeName}} is on page four, written in the margin because the main page was full of inventory numbers that don't matter anymore.
-
-{{recipeName}} kept us eating when the canned goods ran out. It's not delicious. It's food. There's a difference. Delicious is for people who have choices. Food is for people who have hunger. We had hunger. We still have hunger. The hunger is quieter now because we're fewer now, but it's still there, waiting, like everything else that's still there waiting.
-
-{{openerName}} should know that {{recipeName}} requires patience I no longer have. I have shortcuts. I have \"good enough.\" I have \"that won't kill us probably.\" If you want to do it right, follow the recipe. If you want to do it fast, follow the crossed-out notes where I wrote what actually worked when {{dangerNoun}} was close and time was short.",
-UI_BurdJournals_LoreTemplate_WornStorm::en = "Rain made everything worse. It hid the footsteps, washed chalk marks off doors, and turned the ditch by {{noun}} into soup thick enough to keep secrets. By morning, the dead were cleaner than the living.
-
-If {{openerName}} finds the dry pages, start with {{skillName}}. The rest is just weather and stubbornness, except for the note about {{recipeName}}. That one kept {{survivorName}} alive one more day.
-
-I left this in {{stashNoun}} because {{dangerNoun}} was moving near the door, and because {{exclamation}} is easier to write than to scream, and because {{openerName}} needs to know that {{noun}} moves when you least expect it, especially when {{adjective}} and {{adverb}}.",
+UI_BurdJournals_LoreTemplate_WornQuarantine::en = "",
+UI_BurdJournals_LoreTemplate_WornRadioLog::en = "",
+UI_BurdJournals_LoreTemplate_WornRailYard::en = "",
+UI_BurdJournals_LoreTemplate_WornRoadblock::en = "",
+UI_BurdJournals_LoreTemplate_WornSchoolhouse::en = "",
+UI_BurdJournals_LoreTemplate_WornSkillOnlyFieldNotes::en = "",
+UI_BurdJournals_LoreTemplate_WornSkillOnlyNotebook::en = "",
+UI_BurdJournals_LoreTemplate_WornSkillOnlyPractice::en = "",
+UI_BurdJournals_LoreTemplate_WornSkillOnlyRadioLesson::en = "",
+UI_BurdJournals_LoreTemplate_WornSkillOnlyRoutine::en = "",
+UI_BurdJournals_LoreTemplate_WornSkillOnlyTrade::en = "",
+UI_BurdJournals_LoreTemplate_WornStorefront::en = "",
+UI_BurdJournals_LoreTemplate_WornStorm::en = "",
 UI_BurdJournals_LoreTemplate_WornTrade::en = "I meant to trade {{recipeName}} with {{survivorName}} before the roads closed. If {{openerName}} reads this now, keep moving. {{exclamation}}.",
-UI_BurdJournals_LoreTemplate_WornTrailerPark::en = "The trailer park organized faster than city hall. Folks knew who had tools, who had fuel, and who would steal both if left alone. We strung cans on wire and called it infrastructure.
-
-{{survivorName}} taught me that {{skillName}} matters most when nobody is impressed by it. I added {{recipeName}} after {{noun}} {{verb}} near the mailboxes, and I left {{traitName}} circled because pride gets noisy in thin walls.",
+UI_BurdJournals_LoreTemplate_WornTrailerPark::en = "",
 UI_BurdJournals_LoreTemplate_WornWarning::en = "{{authorName}} wrote this after a run through {{dangerNoun}} for {{recipeName}} went bad. Trust {{skillName}} more than the map, and never follow {{noun}} {{adverb}}.",
-UI_BurdJournals_LoreTemplate_WornWaterTower::en = "We climbed the water tower to see where the fires stopped. They did not stop. Smoke marked farms, subdivisions, and one place by the highway where headlights still circled like moths around a bad idea.
-
-The view made {{authorName}} practical. {{entryNameA}} became a checklist, {{entryNameB}} became a warning, and {{supplyNoun}} became the difference between plans and prayers. If {{openerName}} climbs, count ladders before horizons.",
-UI_BurdJournals_LoreTemplate_YuletideBlackout::en = "The blackout made the holiday lights more precious and more stupid. Every lit window became a promise, every promise became a target, and every target learned to whisper before it broke.
-
-This package has no batteries, but it has {{entryNameA}} and {{entryNameB}}. That may be better. If {{openerName}} still wants brightness, make it small enough to hide under a coat.",
-UI_BurdJournals_LoreTemplate_YuletideCannedHam::en = "The best gift I saw that year was a canned ham with a bow made from caution tape. {{survivorName}} cried when it opened, not because it was beautiful, but because it was food nobody had to steal.
-
-This journal is the same kind of gift. {{entryNameA}} fills the hands, {{entryNameB}} fills the head, and {{openerName}} should take both before the holiday spirit starts scratching at the door.",
-UI_BurdJournals_LoreTemplate_YuletideChimney::en = "Do not use chimneys anymore. Smoke draws eyes, bells draw teeth, and every rooftop in town sounds like claws if you listen too long. {{authorName}} learned that after {{noun}} {{verb}} {{adverb}}.
-
-The gift is simple: read {{skillName}}, remember {{traitName}}, and keep {{supplyNoun}} where cold hands can find it. Naughty and nice stopped mattering when the dead learned both lists.",
-UI_BurdJournals_LoreTemplate_YuletideEvacuation::en = "Ho ho no. The old routes are gone, the radios lie, and every chimney in Knox County sounds like something hungry testing the bricks. I found {{survivorName}}'s list beside {{supplyNoun}} and added what I could before the sleigh bells turned into sirens.
-
-For {{openerName}}, this is not charity. It is a field manual with ribbon on it. Read {{entryNameA}} before nightfall, keep {{entryNameB}} for when the roads ice over, and leave one light burning only if you can afford visitors.",
-UI_BurdJournals_LoreTemplate_YuletideFrozenLake::en = "The lake froze thin and lied about it. People crossed because the road was worse, dragging sleds full of blankets and cans. The ice made little singing sounds under every mistake.
-
-{{openerName}}, keep {{skillName}} in mind before stepping anywhere white. Keep {{recipeName}} for the far shore. If {{noun}} {{verb}} under the ice, do not look down.",
-UI_BurdJournals_LoreTemplate_YuletideGeneral::en = "This was wrapped because the world kept ending without asking what season it was. Somewhere beyond the fences, someone probably still believed the lights meant safety and the radio meant help. In Knox County, lights draw attention and radios mostly teach you how many ways a calm voice can lie.
-
-For {{openerName}}, take the gift for what it is: paper, memory, and a little stubborn warmth. Be good if you can. Be alive if you cannot. Either one counts this year.",
+UI_BurdJournals_LoreTemplate_WornWaterTower::en = "",
+UI_BurdJournals_LoreTemplate_YuletideBlackout::en = "",
+UI_BurdJournals_LoreTemplate_YuletideCannedHam::en = "",
+UI_BurdJournals_LoreTemplate_YuletideChimney::en = "",
+UI_BurdJournals_LoreTemplate_YuletideEvacuation::en = "",
+UI_BurdJournals_LoreTemplate_YuletideFrozenLake::en = "",
+UI_BurdJournals_LoreTemplate_YuletideGeneral::en = "",
 UI_BurdJournals_LoreTemplate_YuletideGift::en = "I wrapped this so {{openerName}} would have one honest thing left this winter. Use {{recipeName}} before it spoils, and be {{adjective}} about it.",
-UI_BurdJournals_LoreTemplate_YuletideGiftExchange::en = "We held a gift exchange with things nobody owned anymore. A screwdriver, two lighters, clean socks, half a bottle of vitamins. {{survivorName}} gave me this journal and asked me to put something useful in it.
-
-So I did. {{entryNameA}} for the person who opens it first, {{entryNameB}} for the person who survives long enough to need it, and {{exclamation}} for whoever laughs.",
-UI_BurdJournals_LoreTemplate_YuletideHospitalWard::en = "Some nurse hung paper snowflakes in the fever ward. They shook whenever the coughing started, and for a while that was the only weather anyone saw. {{authorName}} kept working after the exits locked.
-
-This gift is for whoever still opens doors carefully. {{skillName}} may help {{openerName}} live. {{recipeName}} may help someone else. That is close enough to Christmas.",
-UI_BurdJournals_LoreTemplate_YuletideMadLibsCarol::en = "The carol went {{adverb}} through {{noun}} while {{adjective}} snow covered {{stashNoun}}. Every verse ended with {{exclamation}}, which felt festive until {{dangerNoun}} started singing harmony and {{omenNoun}} {{verb}} the tempo {{adverb}}.
-
-{{openerName}} should read {{skillName}} by {{adjective}} candlelight, hide {{traitName}} under the {{noun}}, and save {{entryNameA}} for the morning after the bells stop. {{survivorName}} {{verb}} {{adverb}} when the chorus reached {{noun}}, and {{supplyNoun}} {{verb}} out of {{stashNoun}} like it was {{verb}} by {{adjective}} hands.
-
-The {{adjective}} page has {{recipeName}} written in {{adjective}} ink that {{verb}} {{adverb}}. {{entryNameB}} is for {{openerName}} if {{noun}} hasn't {{verb}} yet. {{exclamation}} and {{exclamation}}. That's the whole carol now. Just {{adjective}} {{noun}} {{verb}} {{adverb}} while {{omenNoun}} listens for your voice.",
-UI_BurdJournals_LoreTemplate_YuletideMadLibsEvacuation::en = "Ho ho no. The {{adjective}} {{noun}} are {{adjective}}, the {{noun}} {{noun}}, and every {{noun}} in {{noun}} {{verb}} like something {{adjective}} {{verb}} the {{noun}}. I {{verb}} {{survivorName}}'s {{noun}} beside {{supplyNoun}} and {{verb}} what I could before the {{noun}} {{verb}} into {{noun}}.
-
-For {{openerName}}, this is not {{noun}}. It is a {{noun}} with {{noun}} on it. {{noun}} {{entryNameA}} before {{noun}}, keep {{entryNameB}} for when the {{noun}} {{noun}} over, and {{noun}} one {{noun}} {{verb}} only if you can {{noun}} {{noun}}.",
-UI_BurdJournals_LoreTemplate_YuletideMadLibsGeneral::en = "This was {{adjective}} because the {{noun}} kept {{verb}} without {{verb}} what {{noun}} it was. {{noun}} beyond the {{noun}}, someone probably still {{verb}} the {{noun}} {{verb}} {{noun}} and the {{noun}} {{verb}} {{noun}}. In {{noun}}, {{noun}} draw {{noun}} and {{noun}} mostly {{noun}} you how many ways a {{adjective}} {{noun}} can {{noun}}.
-
-For {{openerName}}, {{noun}} the {{noun}} for what it is: {{noun}}, {{noun}}, and a little {{adjective}} {{noun}}. Be {{adjective}} if you can. Be {{adjective}} if you cannot. Either one {{noun}} this {{noun}}.",
-UI_BurdJournals_LoreTemplate_YuletideMadLibsGift::en = "Santa wrapped {{adjective}} {{noun}}, {{supplyNoun}}, and a warning that {{omenNoun}} {{verb}} {{adverb}} whenever {{openerName}} looked away from {{stashNoun}}. Inside the ribbon: {{entryNameA}} for {{adjective}} mornings, {{entryNameB}} for {{dangerNoun}}, and {{recipeName}} in case {{survivorName}} gets {{adjective}} enough to believe in {{noun}}.
-
-The {{adjective}} paper {{verb}} {{adverb}} when {{authorName}} touched it. {{supplyNoun}} {{verb}} out of {{stashNoun}} and {{noun}} {{verb}} {{adverb}} outside. {{exclamation}} seemed {{adjective}} but {{omenNoun}} {{verb}} in {{noun}}, so I whispered {{skillName}} instead, and {{traitName}} kept me {{adjective}} enough to finish wrapping.
-
-{{openerName}} should open {{entryNameA}} first, {{entryNameB}} second, and say {{exclamation}} only if {{noun}} {{verb}} {{adverb}}. The gift is {{adjective}} but {{dangerNoun}} is {{adjective}} and {{supplyNoun}} is {{adverb}} {{verb}} from {{stashNoun}}. {{adjective}} {{noun}} from {{authorName}} and {{omenNoun}}.",
-UI_BurdJournals_LoreTemplate_YuletideMadLibsNiceList::en = "The {{adjective}} {{noun}} is mostly {{noun}} now, but somebody kept doing the {{noun}}. I saw {{noun}} where {{noun}} used to be, {{noun}} with no {{noun}} left, and {{noun}} {{verb}} {{noun}} on {{noun}} {{noun}} because no one {{verb}} what else to {{noun}} them.
-
-So I {{verb}} these {{noun}} for {{openerName}}. {{skillName}} is the {{adjective}} {{noun}}, {{recipeName}} is the one you {{noun}} when the {{noun}} go {{adjective}}, and {{traitName}} is the {{noun}} that {{verb}} the {{noun}} still {{noun}} as a {{noun}}.",
-UI_BurdJournals_LoreTemplate_YuletideMall::en = "The mall music never stopped. That was the worst part. It played over broken glass, over evacuation notices being read by people who didn't believe them, over the food court full of chairs pushed against doors that wouldn't hold, over the sound of {{dangerNoun}} learning that escalators go both ways and food courts have multiple entrances. The song wished us joy while we waited for the joy to run out along with the food, the water, the hope that someone was coming to restore order because that's what the second verse promised, something about peace on earth, which was a lie, which had always been a lie, which was just now more obvious.
-
-{{survivorName}} laughed once because the absurdity was too much to hold. We were going to die to the sound of a choir singing about winter wonderlands while the actual winter outside was full of teeth and the wonderland was just Kentucky with fewer people and more things that used to be people. I didn't laugh. I was busy writing {{skillNameA}} on a receipt from a store that sold electronics nobody could power anymore. I was busy folding {{recipeName}} into the pages of a holiday catalog that showed families eating turkey dinners in houses with intact windows.
-
-I left the notes in a gift box because boxes are for keeping things safe, even when the things inside aren't safe, even when the safety is temporary, even when the box is just cardboard that will dissolve in rain or blood or the damp of a basement where {{openerName}} might find it months from now when the holiday is just a date and the music has finally stopped either because the power died or because someone found the speakers and did what needed to be done.
-
-If {{openerName}} finds batteries for the mall speaker, turn it off. Don't listen to the songs. They're haunted now, not by ghosts but by memory, by the weight of knowing what those songs meant before and what they mean now and how much space there is between those two meanings. Fill the space with {{skillNameA}}. Fill it with the knowledge that you are still here, still reading, still capable of learning what someone else knew. That's the gift. That's the only gift that matters when the wrapping is torn and the boxes are empty and the season of giving has become the season of taking whatever you can carry.",
+UI_BurdJournals_LoreTemplate_YuletideGiftExchange::en = "",
+UI_BurdJournals_LoreTemplate_YuletideHospitalWard::en = "",
+UI_BurdJournals_LoreTemplate_YuletideMadLibsCarol::en = "",
+UI_BurdJournals_LoreTemplate_YuletideMadLibsEvacuation::en = "",
+UI_BurdJournals_LoreTemplate_YuletideMadLibsGeneral::en = "",
+UI_BurdJournals_LoreTemplate_YuletideMadLibsGift::en = "",
+UI_BurdJournals_LoreTemplate_YuletideMadLibsNiceList::en = "",
+UI_BurdJournals_LoreTemplate_YuletideMall::en = "",
 UI_BurdJournals_LoreTemplate_YuletideMercy::en = "Santa marked {{survivorName}} down for {{traitName}} and a little mercy. The note on {{recipeName}} should help when {{noun}} {{verb}} {{adverb}}.",
-UI_BurdJournals_LoreTemplate_YuletideNativity::en = "The nativity scene outside city hall was missing a shepherd and had gained three sandbags. Somebody tucked ration wrappers in the manger. Somebody else wrote help us where the star should have been.
-
-{{authorName}} left these notes because faith and preparation are not enemies. {{entryNameA}} is practical. {{entryNameB}} is kind. {{openerName}} should try both before deciding which one failed.",
-UI_BurdJournals_LoreTemplate_YuletideNaughtyList::en = "The naughty list used to be a joke. Then the checkpoints started sorting people into useful, exposed, infected, and gone. Santa's handwriting looked kinder than the army forms, but both lists knew where you lived.
-
-I wrapped {{entryNameA}} because {{openerName}} might deserve a chance. I wrapped {{entryNameB}} because deserving stopped being the measure once the snow turned red.",
-UI_BurdJournals_LoreTemplate_YuletideNiceList::en = "The nice list is mostly ash now, but somebody kept doing the work. I saw barricades where parades used to be, aid stations with no nurses left, and children drawing snowmen on quarantine notices because no one knew what else to give them.
-
-So I wrapped these pages for {{openerName}}. {{skillName}} is the practical gift, {{recipeName}} is the one you open when the cupboards go quiet, and {{traitName}} is the reminder that surviving the holidays still counts as a miracle.",
-UI_BurdJournals_LoreTemplate_YuletidePostOffice::en = "The post office kept receiving letters after nobody delivered them. Cards to grandparents, bills, one envelope addressed to Santa in a child's red marker. The dead did not care about mail, which made them poor citizens.
-
-I tucked {{skillName}} and {{recipeName}} behind the sorting bins. If {{openerName}} finds the red envelope, leave it closed. Some wishes deserve privacy.",
+UI_BurdJournals_LoreTemplate_YuletideNativity::en = "",
+UI_BurdJournals_LoreTemplate_YuletideNaughtyList::en = "",
+UI_BurdJournals_LoreTemplate_YuletideNiceList::en = "",
+UI_BurdJournals_LoreTemplate_YuletidePostOffice::en = "",
 UI_BurdJournals_LoreTemplate_YuletideProfession::en = "Even a {{professionName}} needs warmth. Keep {{supplyNoun}} close and read the part on {{entryName}} first.",
-UI_BurdJournals_LoreTemplate_YuletideRadioCarol::en = "A carol played over the emergency band for eleven minutes before a man cut in and begged someone to let his family through the fence at the checkpoint. He had the right papers, he said. He had the stamps, the signatures, the proof that they weren't sick, weren't exposed, weren't any threat to containment. Then the song started again from the first verse like nothing had happened, like no one had been begging, like the music was more important than the voice or the voice had never been there at all or the voice had been part of the song, another instrument, another note in the arrangement.
-
-Santa heard it. So did {{authorName}}. So did {{dangerNoun}}, who don't celebrate holidays but do recognize patterns, do respond to sound, do gather where the music is loudest because the living gather there too, trying to hear, trying to know, trying to feel normal for the length of a song they remember from before the smell came, before the phones died, before the fences went up and the world got small and dangerous and full of teeth.
-
-The gift for {{openerName}} is {{skillNameA}}, which is practical, and {{recipeName}}, which is comforting in a way that music used to be comforting, in the way that warm food and full bellies used to be comforting. There's advice too: turn the dial if the music knows your name. If the carol seems to be addressing you directly, if the lyrics change to include details they shouldn't know, if the third verse mentions your mother's name or your childhood address or the thing you did at the roadblock that you haven't told anyone about - turn it off. Unplug the radio. Remove the batteries. Break the antenna if you have to.
-
-The music is supposed to be a signal that help exists, that order persists, that someone is still broadcasting and therefore someone is still receiving and therefore the connection between people hasn't been completely severed. But the Knox Event changed what broadcasts mean. Changed what signals are for. The music might be bait. The music might be a trap dressed in nostalgia. The music might be {{omenNoun}} learning to sing. Take the gift of {{skillNameA}} and {{recipeName}} and be careful what you listen to. Not all carols are holy. Not all presents are freely given. Not all silence is safe, but some silences are safer than the wrong kind of sound.",
-UI_BurdJournals_LoreTemplate_YuletideRoofLights::en = "The rooftop lights came on by timer every night even after the family vanished. They blinked red, green, red, green, inviting every hungry thing on the block to admire the season.
-
-{{authorName}} climbed up to cut the cord and found this journal under the shingles. I added {{entryNameA}} because survival needs maintenance, and {{entryNameB}} because beauty is dangerous when it glows.",
-UI_BurdJournals_LoreTemplate_YuletideRooftop::en = "The rooftops were safer before the snow started showing footprints that led nowhere, that circled the same HVAC unit three times, that stopped at the edge and started again on the next building over without any way to cross between. Santa saw {{authorName}} leave {{supplyNoun}} under a plastic tree in the break room and call it tradition. That counts, apparently. That counts as Christmas.
-
-For {{openerName}}, these pages are wrapped in the only paper I could find - a map of the county that is wrong now, that shows roads that are ditches and bridges that are ash and towns that are just collections of buildings where the doors don't lock because the locks were removed by people who needed the metal for other purposes. {{entryNameA}} is for surviving the cold, which is the enemy that doesn't stop, that doesn't sleep, that seeps into everything through gaps you didn't know were gaps. {{entryNameB}} is for surviving the living, who are colder than the snow in ways that don't have thermometers.
-
-The ribbon is from the mall. I found it in a store that sold things nobody needed anymore - scented candles, decorative pillows, picture frames for family photos that would never be taken. The ribbon was in a clearance bin, which is funny because everything is clearanced now, everything is reduced to take, to use, to survive. Nothing has a price because money is just paper that isn't as useful as this paper, paper with {{skillNameA}} written on it, paper with {{recipeName}} in the margins, paper that might keep you alive when the scented candles are burned out and the decorative pillows are stuffed with straw for insulation.
-
-Santa is a story. I know that. You know that. But stories are what we have when the facts are too cold to touch. So this is a story about a gift, about {{openerName}} finding something useful in a useless season, about the dead outside not getting in, about the cold outside not winning. It's a true story, or it will be if you make it true. Open the pages. Learn the lessons. Stay alive. That's the miracle. That's the gift. That's the whole story, right there.",
-UI_BurdJournals_LoreTemplate_YuletideShelter::en = "Someone hung stockings in the shelter because children were watching. By morning, the stockings held ration crackers, loose nails, and one note from {{survivorName}} asking Santa to bring the phones back.
-
-I could not manage that. I could manage {{entryNameA}} and {{entryNameB}}. If {{openerName}} finds these pages, give someone else the warm corner when you can afford it.",
-UI_BurdJournals_LoreTemplate_YuletideSkillOnlyNice::en = "Nice people share food. Useful people share knowledge. {{authorName}} tried to be both and wrote {{skillNameA}} while the house smelled like smoke.
-
-The page on {{skillNameB}} is the better gift. {{openerName}} should take it without guilt. Surviving can be polite later.",
-UI_BurdJournals_LoreTemplate_YuletideSkillOnlyRibbon::en = "The ribbon is mostly for morale, and morale is mostly for people who haven't learned that decorations are just targets that sparkle. The real gift is {{skillNameA}}, written carefully enough for cold fingers to follow, and {{skillNameB}}, written twice because winter makes ink stubborn and survivors need redundancy.
-
-{{openerName}} should open this before the candles burn low. A practical lesson is still a present. The paper is wrapping paper, salvaged from the mall that played carols over the sound of barricades being constructed, over the screams of people who thought holiday sales were still happening, over the slow realization that the emergency broadcast had replaced \"Jingle Bells\" and nobody was coming to fix it.
-
-{{authorName}} called it a poor holiday. I call it honest. Last year there was too much, too many gifts, too much food, too much certainty that next year would be the same. This year there is {{skillNameA}}, there is {{skillNameB}}, there is the knowledge that someone cared enough to write them down before the cold or the dead or the despair took them away. That is enough. That is more than enough. That is abundance measured in usefulness instead of calories.
-
-If {{openerName}} survives because of what is in these pages, the gift worked. Santa didn't deliver it. The elves didn't manufacture it in a workshop at the North Pole. A person wrote it, a person who was cold and scared and probably dying, a person who still thought the future deserved a chance to know things. That person was the miracle. These skills are just the proof.",
-UI_BurdJournals_LoreTemplate_YuletideSkillOnlySnowLesson::en = "Snow makes every mistake visible. The footprints that lead nowhere and then lead back. The dropped tools that mark where panic happened. The bad routes that circle the same {{noun}} three times before the person realizes they're walking in their own tracks. The panic circles around {{noun}} that show exactly where hope failed and instinct took over.
-
-{{authorName}} learned {{skillNameA}} by watching what the snow accused them of doing wrong. Every error preserved in white, every misjudgment saved for review, every wrong turn frozen in place until spring or until the dead found the trail and added their own tracks to the record. The snow is an honest witness. The snow does not forget. The snow shows {{openerName}} exactly what happened here, and if {{openerName}} is smart, they will read the snow before they add their own story to it.
-
-{{skillNameB}} came after dark, when the snow stopped being a teacher and started being a blanket that covered sounds and shapes and the difference between a bush and a person standing very still. I learned it by firelight in a house that wasn't mine, using tools that belonged to someone who wouldn't need them anymore, following instructions that were missing steps but had extra warnings that turned out to be more important than the missing steps.
-
-Winter doesn't care about the holiday. December 25th is just another day when the sun sets early and the cold seeps through walls and the dead don't shiver because they don't feel anything. But people care. People need markers, need reasons to keep going, need to pretend that the calendar still means something even when the days blur together into survival. {{skillNameA}} and {{skillNameB}} are reasons. They're proof that someone was here, that someone knew things, that someone wanted you to know things too.",
-UI_BurdJournals_LoreTemplate_YuletideSkillOnlyStocking::en = "The stocking held no candy, only folded pages. {{skillNameA}} was tucked in the toe. {{skillNameB}} was pinned near the cuff with a bent safety pin.
-
-{{authorName}} called it a poor holiday. I call it honest. If {{openerName}} survives because of it, the gift worked.",
-UI_BurdJournals_LoreTemplate_YuletideSkillOnlyWorkshop::en = "Workshop rule: if it keeps someone alive, it is a toy for grownups. {{skillNameA}} belongs on the top shelf. {{skillNameB}} belongs near the door. Everything else is decoration.
-
-{{openerName}} can unwrap the lesson now. No batteries required, no assembly except practice.",
-UI_BurdJournals_LoreTemplate_YuletideSnowplow::en = "The snowplow made it farther than the convoy. It shoved cars, luggage, and bad decisions into the ditch until the fuel died near {{noun}}. After that, winter took the road back one inch at a time.
-
-{{openerName}} gets the useful pieces: {{skillName}} for the body, {{recipeName}} for the pot, and {{traitName}} for whatever stubborn part refuses to lie down.",
-UI_BurdJournals_LoreTemplate_YuletideSoupKitchen::en = "The soup kitchen kept ladling until the pot was mostly water and hope, until the ladle scraped the bottom and the sound was loud enough to make people nervous, to make them look at the door, to make them remember that hunger makes the living dangerous too, not just the dead. People said thank you like manners could keep the fever out, like please and thank you were antibodies, like gratitude was a form of PPE that you could wear over your face instead of a mask that had already been worn by someone else and never properly cleaned.
-
-{{authorName}} wrote names on cups so the living could feel counted, so they could hold something with their identity on it even when the soup was thin and the bread was the kind that gets harder instead of softer when it sits out. The cups were from a donation drive last year, branded with a church logo and a slogan about salvation. The irony was noted but not discussed. Discussion was for people who had calories to spare on talking.
-
-For {{openerName}}, these pages are hot soup in paper form: {{skillNameA}} first, because the body needs to be capable before the mind can be useful. {{recipeName}} second, because the mind needs to know how to feed the body even when the church donations stop and the cups run out and the only thing left is what you can make yourself from what's left in the pantries of people who don't need pantries anymore. {{traitName}} third, because surviving the holidays still counts as a miracle even when the angels are all dead and the herald angels aren't singing anything except the emergency broadcast on a loop.
-
-If you can carry {{traitName}} without spilling it, without letting it leak out and make you vulnerable, without letting it become a burden that slows you down when you need to move - carry it. If you can't, leave it here with the cups and the names and the thin soup. Some gifts are too heavy for some people. That's not failure. That's just physics. That's just the reality of what you can hold versus what the world keeps piling on. Take what you can. Leave what you must. Keep moving. That's the gift that matters: motion, continuation, the refusal to become part of the scenery, the scenery that is increasingly full of things that don't move except to chase things that do.",
-UI_BurdJournals_LoreTemplate_YuletideToyStore::en = "The toy store was untouched because nobody wanted to admit children still existed. We took batteries, blankets, and one stuffed rabbit that smelled like smoke. {{noun}} {{verb}} in the back room and every music box started at once.
-
-{{openerName}} can have the notes on {{entryNameA}} and {{entryNameB}}. Leave the toys unless you need something soft enough to remember mercy.",
-UI_BurdJournals_LoreTemplate_YuletideTreeFarm::en = "The tree farm smelled so normal it hurt. Pine, mud, gasoline, and somebody's old thermos coffee. We cut branches for camouflage and pretended the wreaths on the office door were not covering bullet holes.
-
-{{survivorName}} left {{supplyNoun}} there for strangers. I left {{entryNameA}} and {{entryNameB}} for the same reason. If {{openerName}} hears bells in the rows, do not follow them.",
+UI_BurdJournals_LoreTemplate_YuletideRadioCarol::en = "",
+UI_BurdJournals_LoreTemplate_YuletideRoofLights::en = "",
+UI_BurdJournals_LoreTemplate_YuletideRooftop::en = "",
+UI_BurdJournals_LoreTemplate_YuletideShelter::en = "",
+UI_BurdJournals_LoreTemplate_YuletideSkillOnlyNice::en = "",
+UI_BurdJournals_LoreTemplate_YuletideSkillOnlyRibbon::en = "",
+UI_BurdJournals_LoreTemplate_YuletideSkillOnlySnowLesson::en = "",
+UI_BurdJournals_LoreTemplate_YuletideSkillOnlyStocking::en = "",
+UI_BurdJournals_LoreTemplate_YuletideSkillOnlyWorkshop::en = "",
+UI_BurdJournals_LoreTemplate_YuletideSnowplow::en = "",
+UI_BurdJournals_LoreTemplate_YuletideSoupKitchen::en = "",
+UI_BurdJournals_LoreTemplate_YuletideToyStore::en = "",
+UI_BurdJournals_LoreTemplate_YuletideTreeFarm::en = "",
 UI_BurdJournals_LoreTemplate_YuletideWarm::en = "This was wrapped for {{openerName}} with one last bit of {{adjective}} mercy. Keep {{supplyNoun}} close and make it through the week. {{exclamation}}.",
-UI_BurdJournals_LoreTemplate_YuletideWorkshop::en = "The workshop is not at the North Pole this year. It is any garage with a locked door, any kitchen with a sharp knife, any clinic with one clean bandage left. Good people make gifts out of whatever keeps someone breathing.
-
-So here: {{entryNameA}}, {{entryNameB}}, and a little note saying {{exclamation}}. {{openerName}} can decide which part is festive.",
+UI_BurdJournals_LoreTemplate_YuletideWorkshop::en = "",
 UI_BurdJournals_MaxedSkillsSkipped::en = "Maxed skills and known traits will be skipped.",
 UI_BurdJournals_NeedEraser::en = "Need eraser",
 UI_BurdJournals_NeedsCleaning::en = "Needs Cleaning",
