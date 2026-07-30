@@ -53,9 +53,11 @@ Recipe_MakeWrenchKnife::en = "Craft Wrench Knife",
 Recipe_MakeZuluShortSpear::en = "Craft Zulu Short Spear",
 Sandbox_ElectricWeapon::en = "MadCrafter Setting",
 Sandbox_ElectricWeapon_MalfunctionFactor::en = "Malfunction Factor",
-Sandbox_ElectricWeapon_MalfunctionFactor_tooltip::en = "",
+Sandbox_ElectricWeapon_MalfunctionFactor_tooltip::en = "Adjust the Malfunction Factor of Electrified Weapons.
+ Higher values increase malfunction chances.",
 Sandbox_ElectricWeapon_PowerConsumptionFactor::en = "Battery Consumption Factor",
-Sandbox_ElectricWeapon_PowerConsumptionFactor_tooltip::en = "",
+Sandbox_ElectricWeapon_PowerConsumptionFactor_tooltip::en = "Adjust the battery consumption rate of electrified weapons.
+ The higher the number, the faster the power drains.",
 Tooltip_ElectricWeapon_Charge::en = "Power Level: ",
 Tooltip_ElectricWeapon_MalfunctionRisk::en = "Malfunction Risk: ",
 Tooltip_ElectricWeapon_NeedEquipped::en = "Danger! Can't activate in container.",

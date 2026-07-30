@@ -14,6 +14,14 @@ ContextMenu_TankWater_ConnectOutputHose::en = "Connect output hose to motor",
 ContextMenu_TankWater_ConnectOutputHose::zh-hans::processed::unverified = "将出水软管连接到电机",
 ContextMenu_TankWater_Container::en = "Container",
 ContextMenu_TankWater_Container::zh-hans::processed::unverified = "容器",
+ContextMenu_TankWater_Debug::en = "Tank Water - Debug",
+ContextMenu_TankWater_Debug::zh-hans::processed::unverified = "水箱 - 调试",
+ContextMenu_TankWater_DebugAddWater::en = "Add water",
+ContextMenu_TankWater_DebugAddWater::zh-hans::processed::unverified = "加水",
+ContextMenu_TankWater_DebugAmount::en = "Water amount",
+ContextMenu_TankWater_DebugAmount::zh-hans::processed::unverified = "水量",
+ContextMenu_TankWater_DebugCustomAmount::en = "Custom amount",
+ContextMenu_TankWater_DebugCustomAmount::zh-hans::processed::unverified = "自定义水量",
 ContextMenu_TankWater_DisconnectFixtureOutlet::en = "Disconnect tank outlet",
 ContextMenu_TankWater_DisconnectFixtureOutlet::zh-hans::processed::unverified = "断开水箱出水口",
 ContextMenu_TankWater_DisconnectHose::en = "Disconnect transfer hose",
@@ -22,6 +30,8 @@ ContextMenu_TankWater_DisconnectIntakeHose::en = "Disconnect intake hose",
 ContextMenu_TankWater_DisconnectIntakeHose::zh-hans::processed::unverified = "断开进水软管",
 ContextMenu_TankWater_DisconnectOutputHose::en = "Disconnect output hose",
 ContextMenu_TankWater_DisconnectOutputHose::zh-hans::processed::unverified = "断开出水软管",
+ContextMenu_TankWater_DismantlePump::en = "Dismantle motor pump",
+ContextMenu_TankWater_DismantlePump::zh-hans::processed::unverified = "拆卸水泵电机",
 ContextMenu_TankWater_Drink::en = "Drink",
 ContextMenu_TankWater_Drink::zh-hans::processed::unverified = "饮用",
 ContextMenu_TankWater_EmptyTank::en = "Empty tank",
@@ -84,7 +94,16 @@ ContextMenu_TankWater_RuntimeOff::en = "off",
 ContextMenu_TankWater_RuntimeOff::zh-hans::processed::unverified = "关闭",
 ContextMenu_TankWater_SelectTank::en = "Select Tank",
 ContextMenu_TankWater_SelectTank::zh-hans::processed::unverified = "选择储罐",
-ContextMenu_TankWater_StartupNotice::en = "",
+ContextMenu_TankWater_StartupNotice::en = "Tank Water important notice:
+
+1) This mod is incompatible with:
+- SkillRecoveryJournal
+- LazoloDynamicBackpackUpgrades
+- StarlitLibrary
+Using them together can cause errors.
+
+2) After the latest update, old water tanks must be picked up
+and placed on the ground again to migrate to the new system.",
 ContextMenu_TankWater_StartupNotice::zh-hans::processed::unverified = "储罐重要通知: 1) 此模组与以下模组不兼容: - SkillRecoveryJournal - LazoloDynamicBackpackUpgrades - StarlitLibrary 同时使用可能导致错误. 2) 在最新更新后, 旧水罐必须拾起并重新放置在地面上才能迁移到新系统.",
 ContextMenu_TankWater_StatusConnected::en = "Connected",
 ContextMenu_TankWater_StatusConnected::zh-hans::processed::unverified = "已连接",
@@ -212,7 +231,8 @@ TankWater_UI_RequiredSkillsValue::en = "Electricity 1 | Mechanics 2 | or Generat
 TankWater_UI_RequiredSkillsValue::zh-hans::processed::unverified = "电工 1 | 机械 2 | 或发电机",
 TankWater_UI_RequiredTools::en = "Required Tools: Vise Grips + Screwdriver",
 TankWater_UI_RequiredTools::zh-hans::processed::unverified = "所需工具: 虎钳 + 螺丝刀",
-Tooltip_TankWater_CleanTankUntreated::en = "",
+Tooltip_TankWater_CleanTankUntreated::en = "Tank contains clean water.
+Drain tank before filling with untreated water.",
 Tooltip_TankWater_CleanTankUntreated::zh-hans::processed::unverified = "水箱中含有净水. 在注入未处理水之前, 请排空水箱.",
 Tooltip_TankWater_FilterDepleted::en = "Filter depleted. Replace filter cartridge.",
 Tooltip_TankWater_FilterDepleted::zh-hans::processed::unverified = "滤芯已耗尽. 更换滤芯.",
@@ -220,11 +240,24 @@ Tooltip_TankWater_NoPumpNearby::en = "No pumps nearby.",
 Tooltip_TankWater_NoPumpNearby::zh-hans::processed::unverified = "附近没有泵.",
 Tooltip_TankWater_NoTankNearby::en = "No tanks nearby.",
 Tooltip_TankWater_NoTankNearby::zh-hans::processed::unverified = "附近没有水箱.",
+Tooltip_TankWater_PumpDismantleRequirements::en = "Requires:
+- Vise Grips
+- Screwdriver
+Grants: 10 Mechanics XP.",
+Tooltip_TankWater_PumpDismantleRequirements::zh-hans::processed::unverified = "需要:\\n- 台钳\\n- 螺丝刀\\n获得: 10 机械经验值.",
 Tooltip_TankWater_PumpReady::en = "Ready to start",
 Tooltip_TankWater_PumpReady::zh-hans::processed::unverified = "准备启动",
-Tooltip_TankWater_PumpRepairRequirements::en = "",
+Tooltip_TankWater_PumpRepairRequirements::en = "Requires:
+- Electricity Lv 1
+- Mechanics Lv 2
+- Vise Grips
+- Screwdriver",
 Tooltip_TankWater_PumpRepairRequirements::zh-hans::processed::unverified = "需要: - 电工 Lv 1 - 机械 Lv 2 - 虎钳 - 螺丝刀",
-Tooltip_TankWater_PumpSkillRequirements::en = "",
+Tooltip_TankWater_PumpSkillRequirements::en = "Requires to operate:
+- Electricity Lv 1
+- Mechanics Lv 2
+Or generator knowledge
+(magazine, Electrician or Electricity 3)",
 Tooltip_TankWater_PumpSkillRequirements::zh-hans::processed::unverified = "需要操作: - 电工 Lv 1 - 机械 Lv 2 或发电机知识 (杂志, 电工或电工 3)",
 Tooltip_TankWater_RequiresCleaningTablets::en = "Requires: cleaning tablets.",
 Tooltip_TankWater_RequiresCleaningTablets::zh-hans::processed::unverified = "需要: 清洁片.",

@@ -218,6 +218,8 @@ Sandbox_PK42_FrenzyMaxTime_tooltip::en = "Max time that Adrenaline Frenzy can la
 Sandbox_PK42_FrenzyMoveSpeedBonus::en = "Frenzy Move Speed Bonus (%)",
 Sandbox_PK42_FrenzyMoveSpeedBonus_tooltip::en = "Percentage bonus to movement speed during Adrenaline Frenzy.",
 Sandbox_PK42_FrenzySeparator::en = "=============== Adrenaline Frenzy Settings ===============",
+Sandbox_PK42_FrenzyStreakChainMaxTime::en = "Frenzy Streak Chain Max Time (minutes)",
+Sandbox_PK42_FrenzyStreakChainMaxTime_tooltip::en = "Maximum time (in minutes) between kills to maintain a kill streak for Adrenaline Frenzy. <LINE> If the time between kills exceeds this value, the kill streak resets and the frenzy effect ends.",
 Sandbox_PK42_FrenzyStreakThreshold::en = "Frenzy Kill Streak Threshold",
 Sandbox_PK42_FrenzyStreakThreshold_tooltip::en = "Minimum kill streak required to trigger Adrenaline Frenzy.",
 Sandbox_PK42_HallucinationCeaseLevel::en = "Hallucination Cease Level",
@@ -289,6 +291,10 @@ Tooltip_PK42_ZombieBrain::en = "A zombie brain, extracted for... consumption?
 Are you really going to risk eating this?",
 Tooltip_PKExtractBrain::en = "Extract the brain for culinary purposes.",
 Tooltip_PKHumanBone::en = "Can be used as weapon. But, how would you even get it? You'd have to... You know what? Never mind.",
+Tooltip_PKHumanSkull::en = "A damaged human skull. It appears to have been sawed. 
+Why would anyone do such a thing?",
+Tooltip_PKHumanSkullPart::en = "A fragment of a human skull. 
+It has no use whatsoever.",
 Tooltip_PKHumanSkullWithBrain::en = "A perfectly removed human skull, with the brain still inside.
 What do you intend to do with this? Eat it? Use it as a helmet?
 Either way, it's a terrible idea.",

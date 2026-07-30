@@ -306,8 +306,7 @@ Sandbox_Excrementum::en = "Excrementum",
 Sandbox_Excrementum::ja::processed::unverified = "エクスクレメンタム",
 Sandbox_Excrementum_AdditionalStomachVolume::en = "Additional Stomach Volume",
 Sandbox_Excrementum_AdditionalStomachVolume::ja::processed::unverified = "追加の胃容量",
-Sandbox_Excrementum_AdditionalStomachVolume_tooltip::en = "The stomach may be distended. Max capacity is 'Stomach Volume' plus this.
-Character won't accept food over maximum capacity.",
+Sandbox_Excrementum_AdditionalStomachVolume_tooltip::en = "",
 Sandbox_Excrementum_AdditionalStomachVolume_tooltip::ja::processed::unverified = "胃が膨張する可能性があります。最大容量は'Stomach Volume'にこれを加えたものです。キャラクターは最大容量を超える食べ物を受け付けません。",
 Sandbox_Excrementum_ChymeMultiplier::en = "Chyme Multiplier (hunger units)",
 Sandbox_Excrementum_ChymeMultiplier::ja::processed::unverified = "粥状物倍率（空腹単位）",
@@ -315,8 +314,7 @@ Sandbox_Excrementum_ChymeMultiplier_tooltip::en = "How much food leaves stomach 
 Sandbox_Excrementum_ChymeMultiplier_tooltip::ja::processed::unverified = "ゲーム内10分ごとに胃から粥状物として出る食物の量。",
 Sandbox_Excrementum_ColonBaseThreshold::en = "Colon Threshold (percentage)",
 Sandbox_Excrementum_ColonBaseThreshold::ja::processed::unverified = "結腸閾値（パーセント）",
-Sandbox_Excrementum_ColonBaseThreshold_tooltip::en = "The colon percentage of fullness for urge to defecate.
-Some food may change this threshold.",
+Sandbox_Excrementum_ColonBaseThreshold_tooltip::en = "",
 Sandbox_Excrementum_ColonBaseThreshold_tooltip::ja::processed::unverified = "排便衝動に対する結腸の充満率のパーセンテージ。一部の食べ物はこの閾値を変更する可能性があります。",
 Sandbox_Excrementum_ColonMinutes::en = "Colon Time (minutes)",
 Sandbox_Excrementum_ColonMinutes::ja::processed::unverified = "結腸時間（分）",
@@ -324,24 +322,19 @@ Sandbox_Excrementum_ColonMinutes_tooltip::en = "How much time must pass to start
 Sandbox_Excrementum_ColonMinutes_tooltip::ja::processed::unverified = "結腸閾値が下がり始めるまでにかかる時間",
 Sandbox_Excrementum_DefecateIntMinutes::en = "Intestine Time (minutes)",
 Sandbox_Excrementum_DefecateIntMinutes::ja::processed::unverified = "排便時間（分）",
-Sandbox_Excrementum_DefecateIntMinutes_tooltip::en = "Ingame minutes to pass the intestine
-(between the stomach and the colon).",
+Sandbox_Excrementum_DefecateIntMinutes_tooltip::en = "",
 Sandbox_Excrementum_DefecateIntMinutes_tooltip::ja::processed::unverified = "腸（胃と結腸の間）を通過するのにかかるゲーム内分数。",
 Sandbox_Excrementum_EnabledStatusBars::en = "Status Bars",
 Sandbox_Excrementum_EnabledStatusBars::ja::processed::unverified = "ステータスバー",
-Sandbox_Excrementum_EnabledStatusBars_tooltip::en = "Status window is allowed for clients.
-They will be able to turn it on/off, switch to bars, change position etc.",
+Sandbox_Excrementum_EnabledStatusBars_tooltip::en = "",
 Sandbox_Excrementum_EnabledStatusBars_tooltip::ja::processed::unverified = "ステータスウィンドウがクライアントに許可されます。オン/オフの切り替え、バー表示への変更、位置変更などが可能になります。",
 Sandbox_Excrementum_LifestylePatch::en = "Lifestyle Compatibility Patch",
 Sandbox_Excrementum_LifestylePatch::ja::processed::unverified = "ライフスタイル互換パッチ",
-Sandbox_Excrementum_LifestylePatch_tooltip::en = "Disables Lifestyle mod's BladderNeed system so it does not conflict with Excrementum.
-Also integrates the shower/bathtub to clean Excrementum's dirt data.
-Requires Lifestyle mod to be active.",
+Sandbox_Excrementum_LifestylePatch_tooltip::en = "",
 Sandbox_Excrementum_LifestylePatch_tooltip::ja::processed::unverified = "Lifestyle modのBladderNeedシステムを無効にし、Excrementumと競合しないようにします。また、シャワー/バスタブを統合してExcrementumの汚れデータを洗浄します。Lifestyle modがアクティブである必要があります。",
 Sandbox_Excrementum_OverlayIsAllowed::en = "Health Regen Overlay",
 Sandbox_Excrementum_OverlayIsAllowed::ja::processed::unverified = "体力回復オーバーレイ",
-Sandbox_Excrementum_OverlayIsAllowed_tooltip::en = "Regen overlay is allowed for clients.
-They will be able to turn it on/off and change position by client options.",
+Sandbox_Excrementum_OverlayIsAllowed_tooltip::en = "",
 Sandbox_Excrementum_OverlayIsAllowed_tooltip::ja::processed::unverified = "再生オーバーレイがクライアントに許可されます。クライアントオプションでオン/オフの切り替えや位置の変更が可能になります。",
 Sandbox_Excrementum_Shame::en = "Shame",
 Sandbox_Excrementum_Shame::ja::processed::unverified = "恥",
@@ -357,8 +350,7 @@ Sandbox_Excrementum_Shame_tooltip::en = "How the shame is enabled (including mul
 Sandbox_Excrementum_Shame_tooltip::ja::processed::unverified = "恥の有効化方法（マルチプレイヤーを含む）",
 Sandbox_Excrementum_StomachMultiplier::en = "Stomach Time Multiplier",
 Sandbox_Excrementum_StomachMultiplier::ja::processed::unverified = "胃の時間倍率",
-Sandbox_Excrementum_StomachMultiplier_tooltip::en = "How much time is needed to pass the stomach.
-Default is realistic.",
+Sandbox_Excrementum_StomachMultiplier_tooltip::en = "",
 Sandbox_Excrementum_StomachMultiplier_tooltip::ja::processed::unverified = "胃を通過するのに必要な時間。デフォルトは現実的です。",
 Sandbox_Excrementum_StomachVolume::en = "Stomach Volume (hunger units)",
 Sandbox_Excrementum_StomachVolume::ja::processed::unverified = "胃の容量（空腹度単位）",
@@ -374,14 +366,11 @@ Sandbox_Excrementum_UnclogAnim_tooltip::en = "Which animation plays when unclogg
 Sandbox_Excrementum_UnclogAnim_tooltip::ja::processed::unverified = "プランジャーでトイレの詰まりを解消するときに再生されるアニメーション",
 Sandbox_Excrementum_UrinateIncreaseMultiplier::en = "Urine Multiplier",
 Sandbox_Excrementum_UrinateIncreaseMultiplier::ja::processed::unverified = "尿増加倍率",
-Sandbox_Excrementum_UrinateIncreaseMultiplier_tooltip::en = "Urine production multiplier from drunk water.
-Default is 1:1, where 10 thirst units = 100 ml.
-Also affects diuretic effect.",
+Sandbox_Excrementum_UrinateIncreaseMultiplier_tooltip::en = "",
 Sandbox_Excrementum_UrinateIncreaseMultiplier_tooltip::ja::processed::unverified = "飲んだ水による尿生成倍率。デフォルトは1:1で、10渇きユニット=100mlです。利尿作用にも影響します。",
 Sandbox_Excrementum_UrinatePassiveMultiplier::en = "Passive Urine Multiplier",
 Sandbox_Excrementum_UrinatePassiveMultiplier::ja::processed::unverified = "受動的尿量倍率",
-Sandbox_Excrementum_UrinatePassiveMultiplier_tooltip::en = "Passive urine production multiplier from metabolism.
-By default ~ 30% from all production (if no perks, no cold etc).",
+Sandbox_Excrementum_UrinatePassiveMultiplier_tooltip::en = "",
 Sandbox_Excrementum_UrinatePassiveMultiplier_tooltip::ja::processed::unverified = "代謝による受動的尿生成倍率。デフォルトでは全生成の約30%（パークなし、寒さなしなどの場合）。",
 Sandbox_Excrementum_VomitEnabled::en = "Vomit System",
 Sandbox_Excrementum_VomitEnabled::ja::processed::unverified = "嘔吐システム",

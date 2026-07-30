@@ -14,6 +14,14 @@ ContextMenu_TankWater_ConnectOutputHose::en = "Connect output hose to motor",
 ContextMenu_TankWater_ConnectOutputHose::fr::processed::unverified = "Connecter le tuyau de sortie au moteur",
 ContextMenu_TankWater_Container::en = "Container",
 ContextMenu_TankWater_Container::fr::processed::unverified = "Conteneur",
+ContextMenu_TankWater_Debug::en = "Tank Water - Debug",
+ContextMenu_TankWater_Debug::fr::processed::unverified = "Réservoir d'eau - Débogage",
+ContextMenu_TankWater_DebugAddWater::en = "Add water",
+ContextMenu_TankWater_DebugAddWater::fr::processed::unverified = "Ajouter de l'eau",
+ContextMenu_TankWater_DebugAmount::en = "Water amount",
+ContextMenu_TankWater_DebugAmount::fr::processed::unverified = "Quantité d'eau",
+ContextMenu_TankWater_DebugCustomAmount::en = "Custom amount",
+ContextMenu_TankWater_DebugCustomAmount::fr::processed::unverified = "Quantité personnalisée",
 ContextMenu_TankWater_DisconnectFixtureOutlet::en = "Disconnect tank outlet",
 ContextMenu_TankWater_DisconnectFixtureOutlet::fr::processed::unverified = "Déconnecter la sortie du réservoir",
 ContextMenu_TankWater_DisconnectHose::en = "Disconnect transfer hose",
@@ -22,6 +30,8 @@ ContextMenu_TankWater_DisconnectIntakeHose::en = "Disconnect intake hose",
 ContextMenu_TankWater_DisconnectIntakeHose::fr::processed::unverified = "Déconnecter le tuyau d'admission",
 ContextMenu_TankWater_DisconnectOutputHose::en = "Disconnect output hose",
 ContextMenu_TankWater_DisconnectOutputHose::fr::processed::unverified = "Déconnecter le tuyau de sortie",
+ContextMenu_TankWater_DismantlePump::en = "Dismantle motor pump",
+ContextMenu_TankWater_DismantlePump::fr::processed::unverified = "Démonter la pompe à moteur",
 ContextMenu_TankWater_Drink::en = "Drink",
 ContextMenu_TankWater_Drink::fr::processed::unverified = "Boire",
 ContextMenu_TankWater_EmptyTank::en = "Empty tank",
@@ -84,8 +94,17 @@ ContextMenu_TankWater_RuntimeOff::en = "off",
 ContextMenu_TankWater_RuntimeOff::fr::processed::unverified = "Éteint",
 ContextMenu_TankWater_SelectTank::en = "Select Tank",
 ContextMenu_TankWater_SelectTank::fr::processed::unverified = "Sélectionner le réservoir",
-ContextMenu_TankWater_StartupNotice::en = "",
-ContextMenu_TankWater_StartupNotice::fr::processed::unverified = "",
+ContextMenu_TankWater_StartupNotice::en = "Tank Water important notice:
+
+1) This mod is incompatible with:
+- SkillRecoveryJournal
+- LazoloDynamicBackpackUpgrades
+- StarlitLibrary
+Using them together can cause errors.
+
+2) After the latest update, old water tanks must be picked up
+and placed on the ground again to migrate to the new system.",
+ContextMenu_TankWater_StartupNotice::fr::processed::unverified = "Avis important de Tank Water :\\n\\n1) Ce mod est incompatible avec :\\n- SkillRecoveryJournal\\n- LazoloDynamicBackpackUpgrades\\n- StarlitLibrary\\nLes utiliser ensemble peut causer des erreurs.\\n\\n2) Après la dernière mise à jour, les anciens réservoirs d'eau doivent être ramassés et posés à nouveau sur le sol pour migrer vers le nouveau système.",
 ContextMenu_TankWater_StatusConnected::en = "Connected",
 ContextMenu_TankWater_StatusConnected::fr::processed::unverified = "Connecté",
 ContextMenu_TankWater_StatusNotConnected::en = "Not Connected",
@@ -212,20 +231,34 @@ TankWater_UI_RequiredSkillsValue::en = "Electricity 1 | Mechanics 2 | or Generat
 TankWater_UI_RequiredSkillsValue::fr::processed::unverified = "Électricité 1 | Mécanique 2 | ou générateur",
 TankWater_UI_RequiredTools::en = "Required Tools: Vise Grips + Screwdriver",
 TankWater_UI_RequiredTools::fr::processed::unverified = "Outils requis : Pinces étau + Tournevis",
-Tooltip_TankWater_CleanTankUntreated::en = "",
-Tooltip_TankWater_CleanTankUntreated::fr::processed::unverified = "",
+Tooltip_TankWater_CleanTankUntreated::en = "Tank contains clean water.
+Drain tank before filling with untreated water.",
+Tooltip_TankWater_CleanTankUntreated::fr::processed::unverified = "Le réservoir contient de l'eau propre. Vider le réservoir avant de le remplir avec de l'eau non traitée.",
 Tooltip_TankWater_FilterDepleted::en = "Filter depleted. Replace filter cartridge.",
 Tooltip_TankWater_FilterDepleted::fr::processed::unverified = "Filtre épuisé. Remplacez la cartouche filtrante.",
 Tooltip_TankWater_NoPumpNearby::en = "No pumps nearby.",
 Tooltip_TankWater_NoPumpNearby::fr::processed::unverified = "Aucune pompe à proximité.",
 Tooltip_TankWater_NoTankNearby::en = "No tanks nearby.",
 Tooltip_TankWater_NoTankNearby::fr::processed::unverified = "Aucun réservoir à proximité.",
+Tooltip_TankWater_PumpDismantleRequirements::en = "Requires:
+- Vise Grips
+- Screwdriver
+Grants: 10 Mechanics XP.",
+Tooltip_TankWater_PumpDismantleRequirements::fr::processed::unverified = "Nécessite :\\n- Pinces étau\\n- Tournevis\\nOctroie : 10 XP Mécanique.",
 Tooltip_TankWater_PumpReady::en = "Ready to start",
 Tooltip_TankWater_PumpReady::fr::processed::unverified = "Prêt à commencer.",
-Tooltip_TankWater_PumpRepairRequirements::en = "",
-Tooltip_TankWater_PumpRepairRequirements::fr::processed::unverified = "",
-Tooltip_TankWater_PumpSkillRequirements::en = "",
-Tooltip_TankWater_PumpSkillRequirements::fr::processed::unverified = "",
+Tooltip_TankWater_PumpRepairRequirements::en = "Requires:
+- Electricity Lv 1
+- Mechanics Lv 2
+- Vise Grips
+- Screwdriver",
+Tooltip_TankWater_PumpRepairRequirements::fr::processed::unverified = "Nécessite :\\n- Électricité Niv 1\\n- Mécanique Niv 2\\n- Pinces étau\\n- Tournevis",
+Tooltip_TankWater_PumpSkillRequirements::en = "Requires to operate:
+- Electricity Lv 1
+- Mechanics Lv 2
+Or generator knowledge
+(magazine, Electrician or Electricity 3)",
+Tooltip_TankWater_PumpSkillRequirements::fr::processed::unverified = "Nécessite pour fonctionner :\\n- Électricité Niv 1\\n- Mécanique Niv 2\\n- Ou connaissance du générateur (magazine, électricien ou Électricité 3)",
 Tooltip_TankWater_RequiresCleaningTablets::en = "Requires: cleaning tablets.",
 Tooltip_TankWater_RequiresCleaningTablets::fr::processed::unverified = "Nécessite : pastilles de nettoyage.",
 Tooltip_TankWater_RequiresFilterCartridge::en = "Requires: filter cartridge.",

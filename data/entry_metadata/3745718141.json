@@ -1,6 +1,14 @@
 [
   {
     "mod_id": "3745718141",
+    "translation_key": "AddRemoteTriggerToClaymore",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
+    "source_hash": "b1899ed8a68efaed67ca94ce4c38195f"
+  },
+  {
+    "mod_id": "3745718141",
     "translation_key": "Explosives.Bag_AmmoBox_Granades",
     "is_active": false,
     "last_seen_at": "2026-07-03T17:00:38.9360417Z",
@@ -11,8 +19,8 @@
     "mod_id": "3745718141",
     "translation_key": "Explosives.Bag_AmmoBox_Grenades",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "55020dd52bdca92e09f383725ab58c01"
   },
   {
@@ -27,8 +35,8 @@
     "mod_id": "3745718141",
     "translation_key": "Explosives.Bag_ProtectiveCaseBulkyGrenades",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "255601be0438326557d41eee8716ed61"
   },
   {
@@ -43,24 +51,56 @@
     "mod_id": "3745718141",
     "translation_key": "Explosives.Bag_ProtectiveCaseSmallMilitary_Grenades",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "73281c54d2591a09f9fbca058af6af03"
+  },
+  {
+    "mod_id": "3745718141",
+    "translation_key": "Explosives.Flare",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
+    "source_hash": "1acc20acc1b69a332ad324bb7a506ba2"
+  },
+  {
+    "mod_id": "3745718141",
+    "translation_key": "Explosives.FlareBurning",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
+    "source_hash": "68ece364bfdf00c83cd99f66f116414f"
+  },
+  {
+    "mod_id": "3745718141",
+    "translation_key": "Explosives.FlareSpent",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
+    "source_hash": "60fdfd599008f9b3e14d9012dbd3a7b7"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Explosives.GrenadeBandolier",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "bcfb6790048909ae26a44b62ba6f66fb"
+  },
+  {
+    "mod_id": "3745718141",
+    "translation_key": "Explosives.GrenadeBandolierFull",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
+    "source_hash": "5412d70b0e75c1397af3981cbcdb2ebc"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Explosives.M14Mine",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "a5a8b5632b487103bb9990c8b7717acb"
   },
   {
@@ -75,17 +115,25 @@
     "mod_id": "3745718141",
     "translation_key": "Explosives.M14TH3Grenade",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "8194d6899a1dc11d9077185f1859800a"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Explosives.M18a1Claymore",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "609da9ff7dba099c738c6ca2d9c82865"
+  },
+  {
+    "mod_id": "3745718141",
+    "translation_key": "Explosives.M18a1ClaymoreRemote",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
+    "source_hash": "26fb4f5f93dff7d0c7ff90cdeb3ee9cf"
   },
   {
     "mod_id": "3745718141",
@@ -99,8 +147,8 @@
     "mod_id": "3745718141",
     "translation_key": "Explosives.M26Grenade",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "9320e71f61c318c526613b9524233358"
   },
   {
@@ -115,16 +163,16 @@
     "mod_id": "3745718141",
     "translation_key": "Explosives.M67Grenade",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "5dde1b0bec59430fed860e89cf2a24c2"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Explosives.M84Flashbang",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "d8ca6f252b327045f6f062390024d8bd"
   },
   {
@@ -139,88 +187,120 @@
     "mod_id": "3745718141",
     "translation_key": "Explosives.Mk2Grenade",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "6b6646ef04bd6d2da1517913628c9b6b"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Sandbox_ExplosivesOptions",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "e5cbb51561ae60b1cc263fffed8803ac"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Sandbox_ExplosivesOptions_FireDamageEnabled",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "302750641c40bfb71a2b951f27a0dedc"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Sandbox_ExplosivesOptions_FireDamageEnabled_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "abd2103fef5e968a541d94340201bd4f"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Sandbox_ExplosivesOptions_FireDamageMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "d1eb0ce99359e2d14ad7e0eb57212d76"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Sandbox_ExplosivesOptions_FireDamageMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "407d3c4b7fdb0513f56bba67df1f29ef"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Sandbox_ExplosivesOptions_LootMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "a089f4c0345975b1ce15ee9e4c3413f4"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Sandbox_ExplosivesOptions_LootMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "cac9ffa921df66bab43923c839b9e6cc"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Sandbox_ExplosivesOptions_MinesEnabled",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "d9ae07cb8894f1e4cb11b5d12764313c"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "Sandbox_ExplosivesOptions_MinesEnabled_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "97b3c5026da93a7770e3941c6f8a05f0"
   },
   {
     "mod_id": "3745718141",
     "translation_key": "SewGrenadeBandolier",
     "is_active": true,
-    "last_seen_at": "2026-07-18T19:10:50.6951172Z",
-    "last_seen_mod_updated": "2026-07-17T23:22:38.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
     "source_hash": "a62a69b96a9a09ff4c94db3bf27cdf12"
+  },
+  {
+    "mod_id": "3745718141",
+    "translation_key": "Tooltip_ClaymoreRemote",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
+    "source_hash": "75f50cfe7c559a3fa809ae4e33f3021e"
+  },
+  {
+    "mod_id": "3745718141",
+    "translation_key": "Tooltip_FlareBurning",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
+    "source_hash": "1dc4413674a67b7c8d1ef18b71b50e85"
+  },
+  {
+    "mod_id": "3745718141",
+    "translation_key": "Tooltip_FlareSpent",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
+    "source_hash": "20caaf73da37f9faf2a60a444a598c1c"
+  },
+  {
+    "mod_id": "3745718141",
+    "translation_key": "Tooltip_GrenadeBandolier",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T21:46:51.0000000Z",
+    "source_hash": "a68bac89ca4417cc7498629d074c6014"
   }
 ]

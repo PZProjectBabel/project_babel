@@ -306,8 +306,7 @@ Sandbox_Excrementum::en = "Excrementum",
 Sandbox_Excrementum::fr::processed::unverified = "Excrementum",
 Sandbox_Excrementum_AdditionalStomachVolume::en = "Additional Stomach Volume",
 Sandbox_Excrementum_AdditionalStomachVolume::fr::processed::unverified = "Volume d'estomac supplémentaire",
-Sandbox_Excrementum_AdditionalStomachVolume_tooltip::en = "The stomach may be distended. Max capacity is 'Stomach Volume' plus this.
-Character won't accept food over maximum capacity.",
+Sandbox_Excrementum_AdditionalStomachVolume_tooltip::en = "",
 Sandbox_Excrementum_AdditionalStomachVolume_tooltip::fr::processed::unverified = "L'estomac peut être distendu. La capacité maximale est le « volume de l'estomac » plus ceci. Le personnage n'acceptera pas de nourriture au-delà de la capacité maximale.",
 Sandbox_Excrementum_ChymeMultiplier::en = "Chyme Multiplier (hunger units)",
 Sandbox_Excrementum_ChymeMultiplier::fr::processed::unverified = "Multiplicateur de chyme (unités de faim)",
@@ -315,8 +314,7 @@ Sandbox_Excrementum_ChymeMultiplier_tooltip::en = "How much food leaves stomach 
 Sandbox_Excrementum_ChymeMultiplier_tooltip::fr::processed::unverified = "Quantité de nourriture qui quitte l'estomac sous forme de chyme toutes les 10 minutes de jeu.",
 Sandbox_Excrementum_ColonBaseThreshold::en = "Colon Threshold (percentage)",
 Sandbox_Excrementum_ColonBaseThreshold::fr::processed::unverified = "Seuil du côlon (pourcentage)",
-Sandbox_Excrementum_ColonBaseThreshold_tooltip::en = "The colon percentage of fullness for urge to defecate.
-Some food may change this threshold.",
+Sandbox_Excrementum_ColonBaseThreshold_tooltip::en = "",
 Sandbox_Excrementum_ColonBaseThreshold_tooltip::fr::processed::unverified = "Le pourcentage de remplissage du côlon pour l'envie de déféquer. Certains aliments peuvent modifier ce seuil.",
 Sandbox_Excrementum_ColonMinutes::en = "Colon Time (minutes)",
 Sandbox_Excrementum_ColonMinutes::fr::processed::unverified = "Temps du côlon (minutes)",
@@ -324,24 +322,19 @@ Sandbox_Excrementum_ColonMinutes_tooltip::en = "How much time must pass to start
 Sandbox_Excrementum_ColonMinutes_tooltip::fr::processed::unverified = "Combien de temps doit s'écouler pour que le seuil du côlon commence à diminuer.",
 Sandbox_Excrementum_DefecateIntMinutes::en = "Intestine Time (minutes)",
 Sandbox_Excrementum_DefecateIntMinutes::fr::processed::unverified = "Temps intestinal (minutes)",
-Sandbox_Excrementum_DefecateIntMinutes_tooltip::en = "Ingame minutes to pass the intestine
-(between the stomach and the colon).",
+Sandbox_Excrementum_DefecateIntMinutes_tooltip::en = "",
 Sandbox_Excrementum_DefecateIntMinutes_tooltip::fr::processed::unverified = "Minutes de jeu pour traverser l'intestin (entre l'estomac et le côlon).",
 Sandbox_Excrementum_EnabledStatusBars::en = "Status Bars",
 Sandbox_Excrementum_EnabledStatusBars::fr::processed::unverified = "Barres d'état",
-Sandbox_Excrementum_EnabledStatusBars_tooltip::en = "Status window is allowed for clients.
-They will be able to turn it on/off, switch to bars, change position etc.",
+Sandbox_Excrementum_EnabledStatusBars_tooltip::en = "",
 Sandbox_Excrementum_EnabledStatusBars_tooltip::fr::processed::unverified = "La fenêtre d'état est autorisée pour les clients. Ils pourront l'activer/désactiver, passer aux barres, changer de position, etc.",
 Sandbox_Excrementum_LifestylePatch::en = "Lifestyle Compatibility Patch",
 Sandbox_Excrementum_LifestylePatch::fr::processed::unverified = "Correctif de compatibilité Lifestyle",
-Sandbox_Excrementum_LifestylePatch_tooltip::en = "Disables Lifestyle mod's BladderNeed system so it does not conflict with Excrementum.
-Also integrates the shower/bathtub to clean Excrementum's dirt data.
-Requires Lifestyle mod to be active.",
+Sandbox_Excrementum_LifestylePatch_tooltip::en = "",
 Sandbox_Excrementum_LifestylePatch_tooltip::fr::processed::unverified = "Désactive le système BladderNeed du mod Lifestyle afin qu'il n'entre pas en conflit avec Excrementum. Intègre également la douche/baignoire pour nettoyer les données de saleté d'Excrementum. Nécessite que le mod Lifestyle soit actif.",
 Sandbox_Excrementum_OverlayIsAllowed::en = "Health Regen Overlay",
 Sandbox_Excrementum_OverlayIsAllowed::fr::processed::unverified = "Superposition de régénération de santé",
-Sandbox_Excrementum_OverlayIsAllowed_tooltip::en = "Regen overlay is allowed for clients.
-They will be able to turn it on/off and change position by client options.",
+Sandbox_Excrementum_OverlayIsAllowed_tooltip::en = "",
 Sandbox_Excrementum_OverlayIsAllowed_tooltip::fr::processed::unverified = "La superposition de régénération est autorisée pour les clients. Ils pourront l'activer/désactiver et changer sa position via les options client.",
 Sandbox_Excrementum_Shame::en = "Shame",
 Sandbox_Excrementum_Shame::fr::processed::unverified = "Honte",
@@ -357,8 +350,7 @@ Sandbox_Excrementum_Shame_tooltip::en = "How the shame is enabled (including mul
 Sandbox_Excrementum_Shame_tooltip::fr::processed::unverified = "Comment la honte est activée (y compris en multijoueur).",
 Sandbox_Excrementum_StomachMultiplier::en = "Stomach Time Multiplier",
 Sandbox_Excrementum_StomachMultiplier::fr::processed::unverified = "Multiplicateur de temps de l'estomac",
-Sandbox_Excrementum_StomachMultiplier_tooltip::en = "How much time is needed to pass the stomach.
-Default is realistic.",
+Sandbox_Excrementum_StomachMultiplier_tooltip::en = "",
 Sandbox_Excrementum_StomachMultiplier_tooltip::fr::processed::unverified = "Le temps nécessaire pour traverser l'estomac. Par défaut, réaliste.",
 Sandbox_Excrementum_StomachVolume::en = "Stomach Volume (hunger units)",
 Sandbox_Excrementum_StomachVolume::fr::processed::unverified = "Volume de l'estomac (unités de faim)",
@@ -374,14 +366,11 @@ Sandbox_Excrementum_UnclogAnim_tooltip::en = "Which animation plays when unclogg
 Sandbox_Excrementum_UnclogAnim_tooltip::fr::processed::unverified = "Quelle animation est jouée lors du débouchage des toilettes avec la ventouse.",
 Sandbox_Excrementum_UrinateIncreaseMultiplier::en = "Urine Multiplier",
 Sandbox_Excrementum_UrinateIncreaseMultiplier::fr::processed::unverified = "Multiplicateur d'urine",
-Sandbox_Excrementum_UrinateIncreaseMultiplier_tooltip::en = "Urine production multiplier from drunk water.
-Default is 1:1, where 10 thirst units = 100 ml.
-Also affects diuretic effect.",
+Sandbox_Excrementum_UrinateIncreaseMultiplier_tooltip::en = "",
 Sandbox_Excrementum_UrinateIncreaseMultiplier_tooltip::fr::processed::unverified = "Multiplicateur de production d'urine à partir de l'eau bue. Par défaut, 1:1, où 10 unités de soif = 100 ml. Affecte également l'effet diurétique.",
 Sandbox_Excrementum_UrinatePassiveMultiplier::en = "Passive Urine Multiplier",
 Sandbox_Excrementum_UrinatePassiveMultiplier::fr::processed::unverified = "Multiplicateur d'urine passif",
-Sandbox_Excrementum_UrinatePassiveMultiplier_tooltip::en = "Passive urine production multiplier from metabolism.
-By default ~ 30% from all production (if no perks, no cold etc).",
+Sandbox_Excrementum_UrinatePassiveMultiplier_tooltip::en = "",
 Sandbox_Excrementum_UrinatePassiveMultiplier_tooltip::fr::processed::unverified = "Multiplicateur passif de production d'urine provenant du métabolisme. Par défaut, ~30 % de la production totale (si aucun avantage, pas de froid, etc.).",
 Sandbox_Excrementum_VomitEnabled::en = "Vomit System",
 Sandbox_Excrementum_VomitEnabled::fr::processed::unverified = "Système de vomissement",

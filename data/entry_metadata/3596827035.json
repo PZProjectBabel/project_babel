@@ -1,0 +1,786 @@
+[
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Fluid_Container_HoneyExtractor",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "cf7b8bdf7aa6dae6229f94d807f1baac"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Fluid_Name_RawHoney",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "f06930a3a0580c6f7c381b28d1e35335"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Hold_Hive",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "14929f8ea29942aa34a30cf75c2bf74e"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Hold_HoneyExtractor",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "8be93284e804fc2ad9cc955addb30412"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "IGUI_Hold_Beehive_DisassembleComb",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "a4112aabc93d266739ab39a16df26f1c"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "IGUI_Hold_Beehive_NoBees",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "22b8b51dc1a7f3b06bceda9999eb379e"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "IGUI_Hold_Beehive_NoFullFrameFound",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "9acf4583739828316141e658954bb67c"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "IGUI_Hold_Beehive_NoHiveFramesFound",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "a426cf774a36293cfdc9a0a658982d76"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "IGUI_Hold_Beehive_NoQueenBeesFound",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "9bdd9a9e7e93970df2fa2d699bf27206"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.BaitHive",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "e9372639b5bee5e7ceae08e6a5e5f313"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.BeeKeeperMag",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "2eb2b1138c38b96a35c6b077a062e5d1"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.Beeswax",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "70bbcb77eeeefa90dfe03840d853cab1"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.Bumblebee",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "583f304c34ebb22fc11db667d50a024b"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HiveFrame_Basic",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "d788168b57811f31a3df3d1728e83beb"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HiveFrame_Full",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "fe1b24a412976e408e5cb707710e7222"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HiveFrame_Wax",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "75daf9f15842c8f8c834c52cc18bd6e2"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyBandage",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "7afb4c0f0f703a78a2f4dd9b3d134158"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyBandaid",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "6a2ac8e1a933b79058e38e2cb76dbffe"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyBeef",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "fcb9bbe161952aa4d41f597c4204e4b6"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyCakePrep",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "bc673c941f152d6cf30165f87ccb2ba5"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyCakeRaw",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "e0ebb836e65d37bef5eb0fab684d88d0"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyCakeSlice",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "d4841a5c535c3671110c3ffda6f5e5a7"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyChickenFillet",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "f101dd90457908f3e09b5139890e63c4"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyChickenLeg",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "f5350c7d3e2e04b7e4d53025bd150ced"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyChickenWhole",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "52bc8182bafb439ee14bd40fe6ea8b1f"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyChickenWings",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "bf56f41ab6cdea24f39b246e2a774ac0"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyConeIcecream",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "b78b526fe299e51a6767665000365d20"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyConeIcecreamMelted",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "f33d8c144f5452a8f2f31dfc47c60766"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyConeIcecreamToppings",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "485e96b1952180f8e9406a655aeb0ca1"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyFrogMeat",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "33b91c11874381b5f20b483df2525955"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyLollipop",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "b08dc22f0f9973110e51bef43b6b3e82"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyMuffin",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "1ccd2e6dcbe21f99b32d7cdc7c6fa87e"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyMuffintray",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "72ce29e0e65d83ffd20a1b5bd1e0ec7e"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyMuttonChop",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "4fe2df67bc1ce56f9b5d4e8c94513ed9"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyPork",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "3facbfad4f7c22a8461d5f8b0804a15a"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyPorkChop",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "a71783b384b3727c437b3dd144a37f5e"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyRabbitmeat",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "b266c36b978fe8b10b2f6125d1753a0a"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneySmallanimalmeat",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "cf06a486a80a7b2ec6c885dc2717d221"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneySmallbirdmeat",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "e2d8afb9360cd93576cd3fe5717e40f8"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneySteak",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "ef1e67f646bf74e02dc480777c4b92fc"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyTurkeyFillet",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "6af02ecb40eb85b334ccf9f8b8510a75"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyTurkeyLegs",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "337e40c5e0e561a510e37bb8baa63bdd"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyTurkeyWhole",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "3b0eeb8e807b3467bb237926fb395299"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyTurkeyWings",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "9c12657e361134bbdcd040d3d7e59b26"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.HoneyVenison",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "9c3c986c4a027cc783b5f1d7bf3a4fbc"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.Honeybee",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "13bf84fc3ceed2cf9f9b7502e6af44f0"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.WildHoneyComb",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "8079b45370b93985e684b26a75c5deff"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "ItemName_Hold.Zombee",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "e8b5e2e8cb873b37e61b933bea1d0d20"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_AddHoneyToMeat",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "4461958a339b89d57763699efc974af3"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_CollectBeeswax",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "a9361a472f354fff6237e358ae92f187"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_Get6HoneyMuffins",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "e810a0495c3a636f2f4d771cdfa3c06d"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_MaintenanceWeapon",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "a29680037fae8cc65ca043ed6c80309b"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_MakeBaitHive",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "e7ccb19b0bceb3ae26a969e439b499a0"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_MakeBeehiveBasicFrame",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "86a601ac475a29646cd92b3bed83e23e"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_MakeBottleOfHoney",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "0705a1c4a276821efe0d118751faa253"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_MakeBrownSugar",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "f2e49905a774de93aa83491b974603bf"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_MakeCandle",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "c269ee1be48fd02e7eb9abf444f08bce"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_MakeHoneyBandage",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "abfe2ec6c08a6778e6c5472857edb3ca"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_MakeHoneyIcecreamCone",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "d431448d23253ab0cacb9cc4594b2e29"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_MakeHoneyLollipop",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "6a0788e09a1264305c9a7c7aaabe7b88"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_PrepareHoneyCake",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "3d9606c5e49b655a9873bdcd22f8c254"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_PrepareHoneyMuffins",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "c3cd49d1fca0c19b2e4e991aeded8af6"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Recipe_SliceHoneyCake",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "1b7bee9e6f9d18e6d7037538f59c9d8b"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_AffectedByTemperature",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "02656a784bcead00116dab776b09d245"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_AffectedByTime",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "0fa2f569fb709433b30628520750df92"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_AffectedByWeather",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "db778588d03ec187cd43d221f3231cdc"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_BadWeather",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "46fe408ef6fa1d4dd504cddfdfb7c982"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_BaitHive",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "a6ae7f7a0512b3bb543e73dc88569579"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_BuildBeehive",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "594e4b29c8a053bbd4675efeb717810c"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_Bumblebee",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "10295d03a723d2c0b143bae7a0054127"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_DisassembleComb",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "80833992e6c101561a5a172dcb8e6d8c"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_HiveFrame",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "7801d6a2e7590e383341916b2da90f20"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_HoneyExtractor",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "73fbb3b3a1aeaeba357a1834988b82ee"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_Honeybee",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "9cde248df5d9294593ff1f8297b9e4f6"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_Indoor",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "231267888fff90dbde46f5446d9709e8"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_IndoorInfo",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "c22e95343ec72c027f18c05e8ed88631"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_NearbyPlants",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "0cb0bbf697675b17555d73cf9d3b95ec"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_NeedBee",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "2023ac285a1758373f40f82d3defdb27"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_NeedBeeInfo",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "3702e70e9a565bffd86273bdf35eb029"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_NotAffectedByTemperature",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "3504a480b80508a28b92b101381fbdab"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_NotAffectedByTime",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "5b0dc3433417766d0514d8d18be8388b"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_NotAffectedByWeather",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "6d06e5d9d73d14f1263a837b325dbff5"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_PlantBoostInfo",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "4de200735eb05494bf57b87ce1ee1dcd"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_StopWorkingInfo",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "1fe91cc4e6caa00c6ae8b5dce6579941"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_TooCold",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "58328592bb66c7d3c40c90bf1e8b8650"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_TooHot",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "b26cf8944724fba41ff9a7d0c863c2aa"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_WildHoneyComb",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "25de972134fbda1d63bb42f0519fe165"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_WorkingFine",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "04172ad164587eef442fad230b0d7fa1"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_WorkingFineInfo",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "f942bc629e9805b455e5e3cec7956207"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_Zombee",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "6954bb50ad8ed7e25b1a5dc1d09d52ae"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_isNight",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "8d8f312c976e3cec0698f21c9aa8a6b5"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_Beehive_isNightInfo",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "14326489053f0fb944a0977b6d641010"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_HoldRecipe_CollectBeeswax",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "0f51809dbe1e2936828195701f2f9532"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_HoldRecipe_HoneyBandage",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "09d858dfcee51d4540871c3115ec3597"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_HoldRecipe_MakeBeehiveBasicFrame",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "53b1190c05ea149682f9a1fee0ea5de7"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_HoldRecipe_UseWaxMaintenanceWeapon",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "edd831aa0cdbbc44fa10ee5fb810b438"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_HoneyExtractor_ExtractDetail",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "6442c765f11e98313318cf80e75ffbcf"
+  },
+  {
+    "mod_id": "3596827035",
+    "translation_key": "Tooltip_HoneyExtractor_WouldDamaged",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-28T14:15:26.0000000Z",
+    "source_hash": "ca0e6233a0506a87f275cce08cab2d9e"
+  }
+]

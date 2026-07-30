@@ -140,7 +140,11 @@ Sandbox_AnthroTraits_StinkyDistance_tooltip::en = "The distance in tiles that a 
 Sandbox_AnthroTraits_StinkyLoudness::en = "Stinky Attraction Strength",
 Sandbox_AnthroTraits_StinkyLoudness_tooltip::en = "Stinky makes a 'noise' every minute to attract zombies. This determines how loud that 'noise' is.",
 Sandbox_AnthroTraits_StinkyThreshold::en = "Stinky Threshold",
-Sandbox_AnthroTraits_StinkyThreshold_tooltip::en = "",
+Sandbox_AnthroTraits_StinkyThreshold_tooltip::en = "How dirty a player needs to be before activating the Stinky trait.
+There are 17 body parts, each with a dirtiness rating from 0-1.
+0.01 is any dirtiness on the body at all, 17 is very hard to achieve
+with full dirtiness on every body part.
+Does not factor in clothing dirtiness.",
 Sandbox_AnthroTraits_Stinky_Cost::en = "Stinky Cost",
 Sandbox_AnthroTraits_Stinky_Cost_tooltip::en = "The cost of this trait at character creation.",
 Sandbox_AnthroTraits_TailTripReduction::en = "Tailed Trip Save Chance",

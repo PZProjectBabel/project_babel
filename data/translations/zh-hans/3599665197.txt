@@ -4,47 +4,86 @@ ContextMenu_ImmersiveWaterShutoff_FillBath::en = "Fill Bath",
 ContextMenu_ImmersiveWaterShutoff_FillBath::zh-hans::processed::unverified = "注满浴缸",
 ContextMenu_ImmersiveWaterShutoff_TooltipWater::en = "Water",
 ContextMenu_ImmersiveWaterShutoff_TooltipWater::zh-hans::processed::unverified = "水",
-Sandbox_ImmersiveWaterShutoff::en = "Immersive Water Shutoff",
-Sandbox_ImmersiveWaterShutoff::zh-hans::processed::unverified = "沉浸式停水",
-Sandbox_ImmersiveWaterShutoff_BathPercent::en = "Filled Bath Chance (%)",
+ContextMenu_ImmersiveWaterShutoff_Water::en = "Water",
+ContextMenu_ImmersiveWaterShutoff_Water::zh-hans::processed::unverified = "水",
+Sandbox_ImmersiveWaterShutoff::en = "Immersive Water Shutoff: Settings",
+Sandbox_ImmersiveWaterShutoff::zh-hans::processed::unverified = "沉浸式停水: 设置",
+Sandbox_ImmersiveWaterShutoff_BathPercent::en = "Filled Bath Chance",
 Sandbox_ImmersiveWaterShutoff_BathPercent::zh-hans::processed::unverified = "浴缸注满概率(%)",
-Sandbox_ImmersiveWaterShutoff_BathPercent_tooltip::en = "The percentage chance that a bath has been filled prior to the water shutoff to emulate people filling their tubs for emergency use.\\nThis option only has effect if «Keep Water in Baths» is enabled.\\n",
-Sandbox_ImmersiveWaterShutoff_BathPercent_tooltip::zh-hans::processed::unverified = "停水前浴缸已被注满的百分比概率，模拟人们为应急使用而注满浴缸的情况。\\n仅在启用「保留浴缸中的水」时生效。\\n",
+Sandbox_ImmersiveWaterShutoff_BathPercent_tooltip::en = "The percentage chance that a bath has been filled prior to the water shutoff to emulate people filling their tubs for emergency use.
+This option only has effect if «Keep Water in Baths» is enabled.",
+Sandbox_ImmersiveWaterShutoff_BathPercent_tooltip::zh-hans::processed::unverified = "停水前浴缸已被注满的百分比概率, 模拟人们为应急使用而注满浴缸的情况.\\n仅在启用\"保留浴缸中的水\"时生效.\\n",
 Sandbox_ImmersiveWaterShutoff_BathsKeepWater::en = "Keep Water in Baths",
 Sandbox_ImmersiveWaterShutoff_BathsKeepWater::zh-hans::processed::unverified = "保留浴缸中的水",
-Sandbox_ImmersiveWaterShutoff_BathsKeepWater_tooltip::en = "If enabled, baths may retain water prior to the shutoff to emulate people filling their tubs as emergency water.\\nBath water is randomized from 0 to 100, and the chance a bath has been filled is determined by the «Filled Bath Chance (%)» option.\\n\\nThis option has no effect if «Randomized Reduction» is active.\\n",
-Sandbox_ImmersiveWaterShutoff_BathsKeepWater_tooltip::zh-hans::processed::unverified = "如果启用，浴缸可能会保留停水前的水，模拟人们为应急使用而提前注满浴缸的情况。\\n浴缸中的水量随机为0到100，浴缸被注满的概率由「浴缸注满概率(%)」选项决定。\\n在「随机减少水量」模式下无效。\\n",
+Sandbox_ImmersiveWaterShutoff_BathsKeepWater_tooltip::en = "If enabled, baths may retain water prior to the shutoff to emulate people filling their tubs as emergency water.
+Bath water is randomized from 0 to 100, and the chance a bath has been filled is determined by the «Filled Bath Chance» option.
+
+This option has no effect if «Randomized Reduction» is active.
+",
+Sandbox_ImmersiveWaterShutoff_BathsKeepWater_tooltip::zh-hans::processed::unverified = "如果启用, 浴缸可能会保留停水前的水, 模拟人们为应急使用而提前注满浴缸的情况.\\n浴缸中的水量随机为0到100, 浴缸被注满的概率由\"浴缸注满概率(%)\"选项决定.\\n在\"随机减少水量\"模式下无效.\\n",
 Sandbox_ImmersiveWaterShutoff_FillableBaths::en = "Fillable Baths",
 Sandbox_ImmersiveWaterShutoff_FillableBaths::zh-hans::processed::unverified = "可注满的浴缸",
-Sandbox_ImmersiveWaterShutoff_FillableBaths_tooltip::en = "If enabled, baths can be filled in advance to prepare for the main water supply being shut off.\\nThis allows players to have emergency water stored in their tubs.\\n",
-Sandbox_ImmersiveWaterShutoff_FillableBaths_tooltip::zh-hans::processed::unverified = "如果启用，可以提前注满浴缸，为中央供水系统停水做准备。\\n这让玩家能在浴缸中储备应急用水。\\n",
-Sandbox_ImmersiveWaterShutoff_MaxPercent::en = "Maximum Reduction (%)",
+Sandbox_ImmersiveWaterShutoff_FillableBaths_tooltip::en = "If enabled, baths can be filled in advance to prepare for the main water supply being shut off.
+This allows players to have emergency water stored in their tubs.
+",
+Sandbox_ImmersiveWaterShutoff_FillableBaths_tooltip::zh-hans::processed::unverified = "如果启用, 可以提前注满浴缸, 为中央供水系统停水做准备.\\n这让玩家能在浴缸中储备应急用水.\\n",
+Sandbox_ImmersiveWaterShutoff_MaxPercent::en = "Maximum Reduction",
 Sandbox_ImmersiveWaterShutoff_MaxPercent::zh-hans::processed::unverified = "最大减少量(%)",
-Sandbox_ImmersiveWaterShutoff_MaxPercent_tooltip::en = "The maximum percentage of water to be removed when «Randomized Reduction» or «Keep Water in Toilets» is enabled.\\n",
-Sandbox_ImmersiveWaterShutoff_MaxPercent_tooltip::zh-hans::processed::unverified = "在随机减少水量或启用「保留马桶中的水」参数时，将被移除的最大水量百分比。\\n",
-Sandbox_ImmersiveWaterShutoff_MinPercent::en = "Minimum Reduction (%)",
+Sandbox_ImmersiveWaterShutoff_MaxPercent_tooltip::en = "The maximum percentage of water to be removed when «Randomized Reduction» or «Keep Water in Toilets» is enabled.",
+Sandbox_ImmersiveWaterShutoff_MaxPercent_tooltip::zh-hans::processed::unverified = "在随机减少水量或启用\"保留马桶中的水\"参数时, 将被移除的最大水量百分比.\\n",
+Sandbox_ImmersiveWaterShutoff_MinPercent::en = "Minimum Reduction",
 Sandbox_ImmersiveWaterShutoff_MinPercent::zh-hans::processed::unverified = "最小减少量(%)",
-Sandbox_ImmersiveWaterShutoff_MinPercent_tooltip::en = "The minimum percentage of water to be removed when «Randomized Reduction» or «Keep Water in Toilets» is enabled.\\n",
-Sandbox_ImmersiveWaterShutoff_MinPercent_tooltip::zh-hans::processed::unverified = "在随机减少水量或启用「保留马桶中的水」参数时，将被移除的最小水量百分比。\\n",
+Sandbox_ImmersiveWaterShutoff_MinPercent_tooltip::en = "The minimum percentage of water to be removed when «Randomized Reduction» or «Keep Water in Toilets» is enabled.",
+Sandbox_ImmersiveWaterShutoff_MinPercent_tooltip::zh-hans::processed::unverified = "在随机减少水量或启用\"保留马桶中的水\"参数时, 将被移除的最小水量百分比.\\n",
+Sandbox_ImmersiveWaterShutoff_PlumbingSourceQuality::en = "Shared Plumbing Water Quality",
+Sandbox_ImmersiveWaterShutoff_PlumbingSourceQuality::zh-hans::processed::unverified = "共享管道水质",
+Sandbox_ImmersiveWaterShutoff_PlumbingSourceQuality_tooltip::en = "If enabled, water quality in connected plumbing will depend on the water source. If the connected barrel contains tainted water or another tainted liquid, sinks, baths, and other plumbing objects will also provide tainted liquid.",
+Sandbox_ImmersiveWaterShutoff_PlumbingSourceQuality_tooltip::zh-hans::processed::unverified = "如果水源(例如水桶)中的水变脏, 所有连接的水槽, 浴缸和其他连接管道的物体也将获得脏水.\\n",
 Sandbox_ImmersiveWaterShutoff_PlumbingTaintedWater::en = "Shared Plumbing Water Quality",
 Sandbox_ImmersiveWaterShutoff_PlumbingTaintedWater::zh-hans::processed::unverified = "共享管道水质",
 Sandbox_ImmersiveWaterShutoff_PlumbingTaintedWater_tooltip::en = "If the water in the source (such as a barrel) becomes tainted, all connected sinks, baths, and other plumbing-connected objects will also receive tainted water.\\n",
 Sandbox_ImmersiveWaterShutoff_PlumbingTaintedWater_tooltip::zh-hans::processed::unverified = "如果水源(例如水桶)中的水变脏,所有连接的水槽,浴缸和其他连接管道的物体也将获得脏水.\\n",
 Sandbox_ImmersiveWaterShutoff_TaintedWater::en = "Water Goes Bad",
 Sandbox_ImmersiveWaterShutoff_TaintedWater::zh-hans::processed::unverified = "水变脏",
-Sandbox_ImmersiveWaterShutoff_TaintedWater_tooltip::en = "Determines when water becomes tainted after the main supply is shut off:\\n\\n -1 = disabled\\n 0 = immediately\\n 1+ = water becomes tainted after the specified number of in-game days.\\n",
-Sandbox_ImmersiveWaterShutoff_TaintedWater_tooltip::zh-hans::processed::unverified = "决定从停水时刻起水何时变脏：\\n\\n-1 = 关闭\\n0 = 立即\\n1+ = 水在指定的游戏天数后变质。\\n",
+Sandbox_ImmersiveWaterShutoff_TaintedWaterPoisonMultiplier::en = "Tainted Water Poison Multiplier",
+Sandbox_ImmersiveWaterShutoff_TaintedWaterPoisonMultiplier::zh-hans::processed::unverified = "污染水毒性倍率",
+Sandbox_ImmersiveWaterShutoff_TaintedWaterPoisonMultiplier_tooltip::en = "Determines the strength of poisoning when consuming tainted water.
+
+1 = vanilla value.
+2 = twice as strong.
+3+ = extremely dangerous values.
+
+The Iron Gut trait reduces the poison received, but does not make the character completely immune to tainted water.
+The Weak Stomach trait increases the poison received from tainted water.
+At x2, drinking around 2 liters of tainted water at maximum thirst can result in fatal food poisoning.",
+Sandbox_ImmersiveWaterShutoff_TaintedWaterPoisonMultiplier_tooltip::zh-hans::processed::unverified = "决定消耗污染水时的中毒强度.\\n\\n1 = 原版数值.\\n2 = 两倍强度.\\n3+ = 极端危险值.\\n\\n铁胃特质降低受到的中毒效果, 但不会使角色对污染水完全免疫.\\n弱胃特质增加从污染水中受到的中毒效果.\\n在x2倍率下, 最大口渴时饮用约2升污染水可能导致致命食物中毒.\\n",
+Sandbox_ImmersiveWaterShutoff_TaintedWater_tooltip::en = "Determines when water becomes tainted after the main supply is shut off:
+
+ -1 = disabled
+ 0 = immediately
+ 1+ = water becomes tainted after the specified number of in-game days.
+",
+Sandbox_ImmersiveWaterShutoff_TaintedWater_tooltip::zh-hans::processed::unverified = "决定从停水时刻起水何时变脏:\\n\\n-1 = 关闭\\n0 = 立即\\n1+ = 水在指定的游戏天数后变质.\\n",
 Sandbox_ImmersiveWaterShutoff_ToiletsKeepWater::en = "Keep Water in Toilets",
 Sandbox_ImmersiveWaterShutoff_ToiletsKeepWater::zh-hans::processed::unverified = "保留马桶中的水",
-Sandbox_ImmersiveWaterShutoff_ToiletsKeepWater_tooltip::en = "If enabled, toilets will retain a randomized amount of water in their tanks.\\nToilet water will be reduced based on the Min% and Max% values.\\n\\nThis option has no effect if «Randomized Reduction» is active.\\n",
-Sandbox_ImmersiveWaterShutoff_ToiletsKeepWater_tooltip::zh-hans::processed::unverified = "如果启用，马桶水箱会保留随机数量的水。\\n马桶中的水量会根据最小/最大百分比进行减少。\\n在「随机减少水量」模式下无效。\\n",
+Sandbox_ImmersiveWaterShutoff_ToiletsKeepWater_tooltip::en = "If enabled, toilets will retain a randomized amount of water in their tanks.
+Toilet water will be reduced based on the Min% and Max% values.
+
+This option has no effect if «Randomized Reduction» is active.
+",
+Sandbox_ImmersiveWaterShutoff_ToiletsKeepWater_tooltip::zh-hans::processed::unverified = "如果启用, 马桶水箱会保留随机数量的水.\\n马桶中的水量会根据最小/最大百分比进行减少.\\n在\"随机减少水量\"模式下无效.\\n",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalMode::en = "Water Removal Mode",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalMode::zh-hans::processed::unverified = "停水模式",
-Sandbox_ImmersiveWaterShutoff_WaterRemovalModeOption_option1::en = "Off",
+Sandbox_ImmersiveWaterShutoff_WaterRemovalModeOption_option1::en = "OFF",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalModeOption_option1::zh-hans::processed::unverified = "关闭",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalModeOption_option2::en = "Randomized Reduction",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalModeOption_option2::zh-hans::processed::unverified = "随机减少水量",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalModeOption_option3::en = "Full Shutoff",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalModeOption_option3::zh-hans::processed::unverified = "完全关闭",
-Sandbox_ImmersiveWaterShutoff_WaterRemovalMode_tooltip::en = "Determines how water will be handled once the main supply is shut off.\\n\\nOff — water will not be removed or reduced.\\nRandomized Reduction — water will be reduced by a random amount within the range defined by Minimum Reduction (%) and Maximum Reduction (%).\\nFull Shutoff — completely removes all water sources, except when the «Keep Water in Toilets» or/and «Keep Water in Baths» option is enabled.\\n",
-Sandbox_ImmersiveWaterShutoff_WaterRemovalMode_tooltip::zh-hans::processed::unverified = "决定从停水时刻起如何停止供水。\\n\\n关闭 — 水不会被移除或减少。\\n随机减少水量 — 水量会在最小减少量(%)和最大减少量(%)参数设定的范围内随机减少。\\n完全关闭 — 从水源中彻底移除水，除非启用了「保留马桶中的水」和/或「保留浴缸中的水」参数。\\n",
+Sandbox_ImmersiveWaterShutoff_WaterRemovalMode_tooltip::en = "Determines how water will be handled once the main supply is shut off.
+
+Off — water will not be removed or reduced.
+Randomized Reduction — water will be reduced by a random amount within the range defined by Minimum Reduction and Maximum Reduction.
+Full Shutoff — completely removes all water sources, except when the «Keep Water in Toilets» or/and «Keep Water in Baths» option is enabled.
+",
+Sandbox_ImmersiveWaterShutoff_WaterRemovalMode_tooltip::zh-hans::processed::unverified = "决定从停水时刻起如何停止供水.\\n\\n关闭 - 水不会被移除或减少.\\n随机减少水量 - 水量会在最小减少量(%)和最大减少量(%)参数设定的范围内随机减少.\\n完全关闭 - 从水源中彻底移除水, 除非启用了\"保留马桶中的水\"和/或\"保留浴缸中的水\"参数.\\n",

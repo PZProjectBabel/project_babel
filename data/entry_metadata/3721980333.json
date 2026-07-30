@@ -1,0 +1,1474 @@
+[
+  {
+    "mod_id": "3721980333",
+    "translation_key": "BasementBuilder.BasementStarterKit",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "eda5a61f22dcc6e44213a8f1b16dfea7"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_EnterBasement",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9d91d1de89f5951f0a826c4071edfbbb"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_ExpandEast",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "a7beef173464da8d829bfdf3ea043f4b"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_ExpandNorth",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "94dc95808a25a97ebe17edd6745e8e29"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_ExpandSouth",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "8d6f3db3d4b72675547157448e76f335"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_ExpandWest",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "8ae967a89bd7427a5f602a5884d220b7"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_LeaveBasement",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "83c4212a788e05dc39ca2a54eec5f7f5"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_Log",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "10568dd789b712cc760280b5526b7c47"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_Missing",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "0148d49d0fc534576a6f3740f121887e"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_Nails",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "22356f73c49d9e12e3984d35d4100bf7"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_Need",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "3742661da77fab190eb8c34d7a99ab01"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_UsableShovel",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "cfa55356ae01c6c7cba5457c3838d358"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "ContextMenu_BB_UseStarterKit",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9240fa2e42245325513a79e87653a6d5"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "Tooltip_BB_AdjacentOnly",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "599e6afdd56bd48a09a008fb1de6c5fe"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "Tooltip_BB_AlreadyDug",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "2b1a376a4ec9e7a7c18e50e93d0ee273"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "Tooltip_BB_BasementExists",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "a861f95d9a78f301adecd114a36b3f4a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "Tooltip_BB_BasementStarterKit",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "8272840c6f4d6efd7f0a5df6304f5bfc"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "Tooltip_BB_CantDigHere",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9d92a46b20d6f71cb483c18c57d7452d"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "Tooltip_BB_NoSquare",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "62d3ee2ecf06ca98b8b76d76447151cb"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "Tooltip_BB_NotInBasement",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "0e2de96e46f6c7ef2ffed99688e1b51e"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "Tooltip_BB_OutOfBounds",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "4518b20904c4ebbf9bd853a59542e2f6"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "Tooltip_BB_Overlap",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "34cab5c96116ae2522217ddc11556b6b"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "Tooltip_BB_SurfaceOnly",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "38bd191aaedeea17be5efad9dae91148"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "Tooltip_BB_WrongLevel",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "4315d0e5c0dea0d076a31b8b85ca94c1"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_MaterialPicker_Cancel",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "1eedec37478beabbaf52f9ad60ac55d4"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_MaterialPicker_Confirm",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "7ccfffe77511af5283741ac3669fa4c2"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_MaterialPicker_Floor",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "d4c3f7fef3bfea9acd097a506e58e7cc"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_MaterialPicker_Title",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "3bc70b5de763050945482c6246ef45d9"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_MaterialPicker_Wall",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9c9b7315658339a9b64cd23d626139c5"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_Unknown",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "dfe1b88125f6672d28fce6379e0cd0be"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_blue_stripe",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9683e8f378003d595657dcd03dd285f9"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_blue_stripe_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "e9fba0f91fdea10fb6fcf07b28588da9"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_carpentry",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "91532d75e7f92ef066b8a3981e5de900"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_carpentry_56",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "7780bb705d36be944704660749b1ef2f"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_carpentry_56_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "6662caa4bfa31950b86ea2ed1152881e"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_carpentry_58",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "73cf379b0be58c24854fe79517954690"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_carpentry_58_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "cfb018f4e4b8ffebe92bc5a7f3dcf2e3"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_carpentry_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9662c26af37b44ebfef727957caacbed"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_check_tile",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "c1fa4bf497a3134269e64ff3e0e66cb4"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_check_tile_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "e78bd5fddca020bfd6c92d59da46d975"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_dark_wood",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "2aa8e0acaacf7f58644e9354b39bfb45"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_dark_wood_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "00498973578c6846e782279829387561"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_green_diamond",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "bb6d4ad1a534dad868a96574a4247709"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_green_diamond_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "1efdca411bd659804ecee0eed928e203"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_mall_01_20",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "84c2cc8ee98466fdd1860be5b95a55bb"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_mall_01_20_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "40c545ce9c80f92db1d51cc341b0a67c"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_mall_01_21",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "0995070210aefc78c471675a5913f1fb"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_mall_01_21_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "57e05111de5b4fd7b0461d9f33b974b1"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_mall_01_22",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "5cbc9b8eef90741743c4cc5b2162e464"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_mall_01_22_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "a0eba3606c4eb9c0d760e35d42a53c47"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_mall_01_23",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "f91bbf361539259b3dc93b46b1375219"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_mall_01_23_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "260f917d5faf77e6db27fae321aa14e8"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_black",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "6625080dfaeea931eb7be84939df02cb"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_black_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "e18139d26a8d61867f14de81e131b897"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_blue",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "ee294a250a43fec72a7c3328a50ff266"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_blue_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "201ae977e25c01eb8240db356366448a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_brown",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "5983be5dbdf0a51e28cbb499b0f30a43"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_brown_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "267db3746ba16e637b5817bdd77b7166"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_cyan",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "bb007492a51fe1823765e1c88d77f7e8"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_cyan_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "11fd8bf5b95bb983b1943b999258c609"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_green",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "e134817c767368c262c4050e9d9d0ec1"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_green_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "6a1948dac89f462e0ec07e9ca4b8a363"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_grey",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "f8b6b6f673d7713335ebd3bf94d8c902"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_grey_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9c87814708bd32d74e8613e3da9d0418"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_light_blue",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "d86ad0f3c052c476672f3a13c1ccdf7d"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_light_blue_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "e51378878b7a39eba1b89f08778af243"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_light_brown",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "93ef3f9bc90d29add53df401151702f3"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_light_brown_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "783a21bf47be11769e4eab80d4457fc8"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_orange",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "e89e1373dcdc7626cf74b20745481118"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_orange_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "dfc6aa401f105554b129449a6e7208d8"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_pink",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "b3c6475115e4fbd30acaee26edc781aa"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_pink_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "653e249b89f4b69fa0be777036af35d8"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_purple",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "d944a6f033b3f9a3bbcabce0d475f060"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_purple_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "f8c4ab3adea34e9cd8514c5b0a81034a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_red",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "3b4720e452575cd4114a7431a2b094d5"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_red_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "17c38b7e9f834a531a8c4bbaf2ffea54"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_turquoise",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "ffd2b783eeaf941a6f942eb9f1c2e475"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_turquoise_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "4e1de48b6df44efc372ee9b7b67f74f7"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_yellow",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "0ae9dcdfba72ae71cecf87655d990bc2"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_paint_yellow_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "6527d45b65a65bb54a2dd3c57815581e"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_pale_tile",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "318498356b75213dca164690b89ccd1a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_pale_tile_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "36d144d83789c9822cb102841ca350de"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_pie_01_7",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "b401899767fb3d5753671f7bd706e8f6"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_pie_01_7_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "53d9e656d952c9876bd83bc17f34cda5"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_pileocrepe_01_14",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "445d0a99fda9ea89820098b7a471711a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_pileocrepe_01_14_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "d0a8718f53ea3e8903d97621f2498889"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_pink_floral",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9ce9ac58207456298c4ca43abd4cb932"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_pink_floral_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9fc2c037cb208cb9ee64a22bce1a3657"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_pizzawhirled_01_16",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "d3eeb57d68d220137cbbdd06204b2a1d"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_pizzawhirled_01_16_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "64b07924202358b3d2c0d6ccc4ec5656"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_rough_wood",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "addbb91340711d7cafa5de5b57289e29"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_rough_wood_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "4bc20291101609958100918b2edb0f0f"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_spiffos_01_38",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "d98bf7ef5c26b9b71badb78beb87e578"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_spiffos_01_38_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "6d9182d4c0026445fd49eb311cf8002a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_spiffos_01_39",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "e3db883109a2056426fa7948ee59b49e"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_spiffos_01_39_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "510bc1666013c6fbe45feeedd92362ad"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_1",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "11621e16adab1fd6e91c7e14bb96d4bc"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_1_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "876dfb7f68b141495b788d77948b0813"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_2",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "fdee8a3a70684c028d96b60feeb0e087"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_2_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "f229e23b1484e9372962e15e744dfba6"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_3",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "c7595b9cd36b3eb02c8e5024c9bac9ec"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_3_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "3459bb960c5b74e4c0f4707bad617d2a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_4",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "576820019b11d8286a6f3f832b2de56a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_4_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "4a3d2097ed32189bccd87c02024448f2"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_5",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "d8cd5fa1b06a57987a20ea27b0c03c17"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_5_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "40645b3449a3dce36868395c501ee847"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_6",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "63a2421bf5f0adec1bf5ec61afa51d45"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_6_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "271c86b6ea156f082e924ff7e497abd7"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_7",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "0b1bf89b5605d0e579f1cabd14537136"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_stone_01_7_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "ba2aa3e26937405e5028cd3def54339b"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_1",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "a99ecc995e79a77d07dd0f83f3ae030e"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_10",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "7c68c6b0d9ca9bfb9aeff7e787b41edb"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_10_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "84bf54dbb84084c465372e6b5758ea9f"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_11",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "a82b81490d5dfc42b0349578f446b1c5"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_11_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "532427e6209cb117f36f34709155b7ce"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_12",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "8b91ec362b7455363ddabfc7f751d237"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_12_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "6d6fd088abaf9b5509e7fd753e0c6ab9"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_13",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "8893341040b111a0b3091e7634d4e38e"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_13_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "ed0ef09e9369768a63c3363080026820"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_1_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "b6926976643526195b5dfdaa865970e6"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_2",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "2ae075d66efc68a868068eb5c2aea7b6"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_20",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "90ae8e90f0e64ec7d21843cd2ee49245"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_20_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "7e7c48a33d570ef8ecab45c6ed5ff2ae"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_21",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "ca6bae06ceb4f0114f7751ac273de3e2"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_21_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "0985791710ffcfd1b0d6c7e5631c6ba4"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_22",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "5705b1e6304e2688df0e42fb3485da7b"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_22_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "1b7243444d9a57b01dbc2545fc1b5398"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_23",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "a20627f49241f63e4094fcd5bd0855ec"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_23_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "f629eef8e06eb1c1f690aee639c1ba24"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_28",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "01cd3e7e3437bba0373a17baeb47b2fe"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_28_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "6a3ca21f55837ae774788d6a76dbab74"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_29",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "b07929c9ac85b8de6449fa0e33e3e42e"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_29_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "5736df478dbc47593af848a0eb41c2f6"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_2_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "57a8adc16da012926bf23376970c1334"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_3",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "ff35ea6087ec6adf3cb41aa26e9a67cc"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_30",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "b13fff071fc49fab36ae2adea67cecb4"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_30_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "335974fcf573a03df2a7d87d0a815fd1"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_31",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9e27b6d0fcac74133ec17ea2a5801f3a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_31_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "09acd8707b89017047ccc7d89a9c7b09"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_3_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "3535cea4dc827b7150692aba50f14ebe"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_4",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "1083165e5031ff95bfa0411265967eb4"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_41",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "1e18dc351a1957ca7480f8112bf9484a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_41_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "3e0440e2873926a9d792617d7e9337e3"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_42",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "17fc246dfe01fd849145ead8f4e841bc"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_42_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "fc0f39ddf217e931d0b8b3b981651737"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_43",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "e92ffe650ee0f066f2cde8c1cada677c"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_43_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "101f5b3b754b1d65e1f49c51e4b79056"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_44",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9f249f506b2602120e2352799c671298"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_44_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "0aadbb9b9be38bb454f033efe9c77239"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_45",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "d0d505657849aba357270f85ed828483"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_45_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "c710f8d2771fcc587183ee241b492bd6"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_46",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "22bdcad5330486d24ea1953290e90559"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_46_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "0b9d3a2b4cb0d15308bdd4366150eaaf"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_47",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "da82557d6072bbc64a65c503eb1fb82c"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_47_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "b9b5a68166b05af94f74ca7e15a1b3a7"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_49",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "a1f2bf239eeb3d709b44679bfd23a47f"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_49_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "189c7daf11b5483bc43ec804fcc1a616"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_4_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9e7a810ef7b2de1399db21d6a825cbc6"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_5",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "3087dc0ff206869ded24b2789e09a8b8"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_50",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "66c6106b1f36d4e6ee85f113e49c1668"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_50_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "2a4c9fe1cae9e4c3b9bcf19cef0a310c"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_51",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "ef5cb32efa31541f5100a67b417498d6"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_51_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "5886e94707ec0a25ddb8ec2192dfd81e"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_52",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "d18118c0d0a783a3af02fac0d9aebcae"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_52_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "78c7c843f8652fdfd54ca98fc4c3759b"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_5_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9caa014bc08374553e526f35c150a23b"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_6",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9b102c3c77a5aea53621d8b81ff857a1"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_6_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "7631069af1238e4c927bbdec37237164"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_8",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "b3e5fc86bb9e8426e5d4ad1b243e9eb8"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_8_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "34faaf3b59bc886b40a609eef199e10a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_9",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "86d8280f2dd874582228ccc4f006e565"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_tilewood_01_9_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "3532ae2b4d3a1b5b957a3bc106de4e13"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_wallpaper_beige_stripe",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "797184e088e9e561ad67e2096925cc72"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_wallpaper_beige_stripe_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "73e26896d7f46c6ae03ebe1c97c4993f"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_wallpaper_black_floral",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "7b0a5f888f088146a23c128773205a13"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_wallpaper_black_floral_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "08f367f2d06f74c07cfea92609525961"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_wallpaper_green_floral",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "125128c73fd1b4a2ce705f3c077ed564"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_wallpaper_green_floral_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "c9b12b4fe4b51901217b801bf93ca404"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_wallpaper_pink_chevron",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "fc894df8e42aefcc908d9544e6ebb9d7"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_wallpaper_pink_chevron_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "46138c92aff458c4155ada5c8b1dd43a"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_warm_wood",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "c2dcd9606d6914dfd7a7682e0f12b398"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_warm_wood_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "4ef04ba33cf046ad000b44265573e0ac"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_white_plaster",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "e6a9cb64073d8c0d18c693c4fdeb64e8"
+  },
+  {
+    "mod_id": "3721980333",
+    "translation_key": "UI_BB_Material_white_plaster_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-05-18T02:17:49.0000000Z",
+    "source_hash": "9170e899fb8a0a87fb95ff4c95da75e5"
+  }
+]
