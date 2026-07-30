@@ -1,72 +1,94 @@
-[h2]This is a fully automated LLM translation mod for almost all popular mods and all 26 game languages.[/h2]
+[h1]Project Babel - 多模组、多语种AI自动翻译[/h1]
 
-[h2]Supports 1000+ Mods[/h2]
+[h2]一个模组，本地化一切[/h2]
+[hr]
+[b]Project Babel[/b] 是一个面向《僵尸毁灭工程》Build 42 模组的[b]多语种自动翻译[/b]项目。订阅并启用本模组后，可为创意工坊热门模组提供简体中文文本。项目已经支付大模型的调用费用，玩家订阅后无需额外付费。
 
-[h2]Supported Languages[/h2]
+全自动翻译流水线：
+[list]
+[*]每日监测创意工坊模组上架、更新；
+[*]每周集中提取模组本地化文本；
+[*]模组内容审核；
+[*]自动结合术语、参考译文和向量检索（RAG）生成上下文；
+[*]每周调用 LLM API 集中翻译。
+[/list]
+
+[b]使用说明[/b]
+[list=1]
+[*]订阅本模组。
+[*]在游戏的模组管理中启用本模组。
+[*]翻译模组请置于功能模组之后，建议放在加载顺序底部，以确保翻译文本优先覆盖。
+[*]如果你订阅了多个翻译模组，并且多个翻译模组都翻译了某个功能模组的文本，则后加载的翻译模组会覆盖先加载模组的同名翻译文本。
+[/list]
+
+[h2]项目进度[/h2]
+[hr]
+目前支持1300+模组。项目每天自动检测收录订阅数大于500的工坊历史模组，也会持续检测已收录模组的更新。部分模组因内容审核、缺少可提取文本或其他原因暂未包含。
+
+如果LLM API没有欠费，则自动化脚本会在每周五晚集中自动翻译全部新增文本和变动文本。
+
+详细进度见Github仓库。
+
+[h2]语言支持[/h2]
+[hr]
 [table]
-[tr][th]Language[/th][th][/th][th]Language[/th][th][/th][/tr]
-[tr][td]简体中文[/td][td]✅[/td][td]italiano[/td][td]Planned[/td][/tr]
-[tr][td]Deutsch[/td][td]✅[/td][td]한국어[/td][td]Planned[/td][/tr]
-[tr][td]français[/td][td]✅[/td][td]Nederlands[/td][td]Planned[/td][/tr]
-[tr][td]日本語[/td][td]✅[/td][td]norsk[/td][td]Planned[/td][/tr]
-[tr][td]العربية[/td][td]Planned[/td][td]Tagalog[/td][td]Planned[/td][/tr]
-[tr][td]català[/td][td]Planned[/td][td]polski[/td][td]Planned[/td][/tr]
-[tr][td]繁體中文[/td][td]Planned[/td][td]português[/td][td]Planned[/td][/tr]
-[tr][td]čeština[/td][td]Planned[/td][td]português do Brasil[/td][td]Planned[/td][/tr]
-[tr][td]dansk[/td][td]Planned[/td][td]română[/td][td]Planned[/td][/tr]
-[tr][td]español[/td][td]Planned[/td][td]русский[/td][td]Planned[/td][/tr]
-[tr][td]suomi[/td][td]Planned[/td][td]ภาษาไทย[/td][td]Planned[/td][/tr]
-[tr][td]magyar[/td][td]Planned[/td][td]Türkçe[/td][td]Planned[/td][/tr]
-[tr][td]Bahasa Indonesia[/td][td]Planned[/td][td]українська[/td][td]Planned[/td][/tr]
+[tr][th]语言[/th][th]状态[/th][th]语言[/th][th]状态[/th][/tr]
+[tr][td]简体中文[/td][td]✅[/td][td]italiano[/td][td]暂停[/td][/tr]
+[tr][td]Deutsch[/td][td]✅[/td][td]한국어[/td][td]暂停[/td][/tr]
+[tr][td]français[/td][td]✅[/td][td]Nederlands[/td][td]暂停[/td][/tr]
+[tr][td]日本語[/td][td]✅[/td][td]norsk[/td][td]暂停[/td][/tr]
+[tr][td]العربية[/td][td]暂停[/td][td]Tagalog[/td][td]暂停[/td][/tr]
+[tr][td]català[/td][td]暂停[/td][td]polski[/td][td]暂停[/td][/tr]
+[tr][td]繁體中文[/td][td]暂停[/td][td]português[/td][td]暂停[/td][/tr]
+[tr][td]čeština[/td][td]暂停[/td][td]português do Brasil[/td][td]暂停[/td][/tr]
+[tr][td]dansk[/td][td]暂停[/td][td]română[/td][td]暂停[/td][/tr]
+[tr][td]español[/td][td]暂停[/td][td]русский[/td][td]暂停[/td][/tr]
+[tr][td]suomi[/td][td]暂停[/td][td]ภาษาไทย[/td][td]暂停[/td][/tr]
+[tr][td]magyar[/td][td]暂停[/td][td]Türkçe[/td][td]暂停[/td][/tr]
+[tr][td]Bahasa Indonesia[/td][td]暂停[/td][td]українська[/td][td]暂停[/td][/tr]
 [/table]
 
+[i]暂停原因：项目现有资金不足以支付调用 LLM API 的费用。[/i]
+
+[h2]GitHub[/h2]
 [hr]
-[h2]One Mod to Localize All · 一个模组，本地化一切 · Un seul mod pour tout localiser · Un Mod para Localizarlos Todos · Один мод — локализовать всё · تعديل واحد لترجمة كل شيء[/h2]
-
-LLM-powered auto-translation for Project Zomboid mods. Play without language barriers.
-基于 LLM 的 PZ 模组自动翻译，消除语言障碍。
-Traduction automatique des mods PZ par LLM. Jouez sans barrière linguistique.
-Traducción automática de mods de PZ con LLM. Juega sin barreras.
-Автоперевод модов PZ с помощью LLM. Играйте без языковых барьеров.
-ترجمة تلقائية لتعديلات PZ بالذكاء الاصطناعي. العب بلا حواجز لغوية.
-
-[list]
-[*] Fully automated pipeline · 全自动流水线 · Pipeline automatisé · Canalización automatizada · Автоматический конвейер · خط أنابيب مؤتمت
-[*] RAG-enhanced translation quality · RAG 增强翻译质量 · Qualité améliorée par RAG · Calidad mejorada con RAG · Качество усилено RAG · جودة محسّنة بـ RAG
-[*] Continuous mod update tracking · 持续追踪模组更新 · Suivi continu des mises à jour · Seguimiento continuo de actualizaciones · Отслеживание обновлений модов · تتبع مستمر للتحديثات
-[/list]
-
-[hr]
-[h2]Project Status · 项目现状 · État du projet · Estado del proyecto · Статус проекта · حالة المشروع[/h2]
-
-See · 详见 · Voir · Ver · См. · راجع：
+源码、完整进度、技术文档和问题反馈
 [url=https://github.com/PZProjectBabel/project_babel]https://github.com/PZProjectBabel/project_babel[/url]
 
+[h2]参与贡献[/h2]
 [hr]
-[h2]Project Needs Your Help · 项目需要您的帮助 · Le projet a besoin de votre aide · El proyecto necesita tu ayuda · Проекту нужна ваша помощь · المشروع بحاجة لمساعدتكم[/h2]
-
-[h3]Contribute · 贡献 · Contribuer · Contribuir · Помощь · المساهمة[/h3]
-
+欢迎通过 GitHub Issue 或 Pull Request 参与：
 [list]
-[*] Translation rules & terminology · 翻译规则与术语 · Règles de traduction · Reglas de traducción · Правила перевода · قواعد الترجمة
-[*] Mod corpus authorization · 语料授权 · Autorisation de corpus · Autorización de corpus · Авторизация корпуса · ترخيص المحتوى
-[*] Pipeline code (.NET/C#) · 流水线代码 · Code du pipeline · Código del pipeline · Код конвейера · كود خط الأنابيب
-[*] GitHub Issues · GitHub Issues · GitHub Issues · GitHub Issues · GitHub Issues · GitHub Issues
+[*]报告翻译错误或模组兼容性问题；
+[*]提供术语表、翻译规则与人工校对语料；
+[*]改进提示词、RAG 策略、流水线或自动化脚本；
+[*]为已获授权的翻译模组提供参考语料。
 [/list]
 
-[h3]Funding · 资助 · Financement · Financiación · Финансирование · التمويل[/h3]
-
-Continuous LLM API calls need ongoing funding. We deeply appreciate your generous support — thank you!
-项目持续调用 LLM API，需要资金支持，希望您能慷慨相助，万分感谢！
-Les appels continus à l'API LLM nécessitent un financement. Votre généreux soutien est infiniment apprécié — merci !
-Las llamadas continuas a la API requieren financiación. ¡Agradecemos profundamente tu generoso apoyo — gracias!
-Постоянные вызовы LLM API требуют финансирования. Мы будем глубоко признательны за вашу щедрую поддержку — спасибо!
-استدعاءات API المستمرة تحتاج تمويلاً. نقدر بعمق دعمكم الكريم — شكرًا لكم!
-
+[h2]资助[/h2]
 [hr]
-[h2]Acknowledgement · 致谢 · Remerciements · Agradecimientos · Благодарность · شكر وتقدير[/h2]
+项目需要持续支付调用 LLM API 进行翻译的费用。如果您愿意资助，请留言。
 
-[b]如一汉化组 (As1)[/b]: Provided Chinese translation mods as reference corpus. · 提供中文汉化模组作为参考语料。 · A fourni des mods de traduction chinoise comme corpus de référence. · Proporcionó mods de traducción al chino como corpus de referencia. · Предоставила моды китайского перевода в качестве референсного корпуса. · قدمت تعديلات ترجمة صينية كمجموعة مرجعية.
-
+[h2]致谢[/h2]
 [hr]
+感谢所有模组作者、翻译贡献者、测试者与支持项目的玩家。
+
+特别感谢如一汉化组（As1）提供中文高质量翻译语料：
+[list]
+[*][B42]统一·中文汉化
+[*][B42]统一·模组汉化
+[*][B42]统一·方舟汉化
+[/list]
+
+[h2]许可证与版权[/h2]
+[hr]
+《僵尸毁灭工程》及各原始模组的版权归其各自作者和权利人所有。
+
+本项目的AI翻译文本等采用 CC BY-NC-SA 4.0（署名—非商业性使用—相同方式共享 4.0 国际）授权
+
+自动化程序、脚本及其他开发代码采用 GPL-3.0 授权
+
 [i]© 2025 Project Babel. Translations: CC BY-NC-SA 4.0 | Code: GPL-3.0[/i]
+
+Workshop ID: 3759583822
+Mod ID: project_babel

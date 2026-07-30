@@ -1,72 +1,91 @@
-[h2]This is a fully automated LLM translation mod for almost all popular mods and all 26 game languages.[/h2]
+[h1]Project Babel - Multi-Mod, Multilingual AI Auto-Translation[/h1]
 
-[h2]Supports 1000+ Mods[/h2]
+[h2]One Mod to Localize All[/h2]
+[hr]
+[b]Project Babel[/b] is a [b]multilingual automatic translation[/b] project for Project Zomboid Build 42 mods. Subscribe to and enable this mod to receive translations for popular Steam Workshop mods in supported languages. The project has already covered the cost of large language model calls, so players can subscribe at no additional cost.
+
+Fully automated translation pipeline:
+[list]
+[*]Monitors Steam Workshop mod releases and updates daily;
+[*]Extracts mod localization text in weekly batches;
+[*]Reviews mod content;
+[*]Automatically combines terminology, reference translations, and vector retrieval (RAG) to build context;
+[*]Calls the LLM API weekly for batch translation.
+[/list]
+
+[b]How to Use[/b]
+[list=1]
+[*]Subscribe to this mod.
+[*]Enable this mod in the game's mod manager.
+[*]Place this translation mod after the functional mods, preferably at the bottom of the load order, so its translations take priority.
+[*]If you subscribe to multiple translation mods that translate the same functional mod, the translation mod loaded later will override identically named translations from mods loaded earlier.
+[/list]
+
+[h2]Project Progress[/h2]
+[hr]
+Currently supports 1,300+ mods. The project automatically detects and includes historical Steam Workshop mods with more than 500 subscribers every day, and continuously checks included mods for updates. Some mods are not yet included due to content review, unavailable extractable text, or other reasons.
+
+Provided that the LLM API account remains funded, automation translates all newly added and changed text in a weekly batch every Friday night.
+
+See the GitHub repository for detailed progress.
 
 [h2]Supported Languages[/h2]
+[hr]
 [table]
-[tr][th]Language[/th][th][/th][th]Language[/th][th][/th][/tr]
-[tr][td]简体中文[/td][td]✅[/td][td]italiano[/td][td]Planned[/td][/tr]
-[tr][td]Deutsch[/td][td]✅[/td][td]한국어[/td][td]Planned[/td][/tr]
-[tr][td]français[/td][td]✅[/td][td]Nederlands[/td][td]Planned[/td][/tr]
-[tr][td]日本語[/td][td]✅[/td][td]norsk[/td][td]Planned[/td][/tr]
-[tr][td]العربية[/td][td]Planned[/td][td]Tagalog[/td][td]Planned[/td][/tr]
-[tr][td]català[/td][td]Planned[/td][td]polski[/td][td]Planned[/td][/tr]
-[tr][td]繁體中文[/td][td]Planned[/td][td]português[/td][td]Planned[/td][/tr]
-[tr][td]čeština[/td][td]Planned[/td][td]português do Brasil[/td][td]Planned[/td][/tr]
-[tr][td]dansk[/td][td]Planned[/td][td]română[/td][td]Planned[/td][/tr]
-[tr][td]español[/td][td]Planned[/td][td]русский[/td][td]Planned[/td][/tr]
-[tr][td]suomi[/td][td]Planned[/td][td]ภาษาไทย[/td][td]Planned[/td][/tr]
-[tr][td]magyar[/td][td]Planned[/td][td]Türkçe[/td][td]Planned[/td][/tr]
-[tr][td]Bahasa Indonesia[/td][td]Planned[/td][td]українська[/td][td]Planned[/td][/tr]
+[tr][th]Language[/th][th]Status[/th][th]Language[/th][th]Status[/th][/tr]
+[tr][td]Simplified Chinese[/td][td]✅[/td][td]italiano[/td][td]Paused[/td][/tr]
+[tr][td]Deutsch[/td][td]✅[/td][td]한국어[/td][td]Paused[/td][/tr]
+[tr][td]français[/td][td]✅[/td][td]Nederlands[/td][td]Paused[/td][/tr]
+[tr][td]日本語[/td][td]✅[/td][td]norsk[/td][td]Paused[/td][/tr]
+[tr][td]العربية[/td][td]Paused[/td][td]Tagalog[/td][td]Paused[/td][/tr]
+[tr][td]català[/td][td]Paused[/td][td]polski[/td][td]Paused[/td][/tr]
+[tr][td]Traditional Chinese[/td][td]Paused[/td][td]português[/td][td]Paused[/td][/tr]
+[tr][td]čeština[/td][td]Paused[/td][td]português do Brasil[/td][td]Paused[/td][/tr]
+[tr][td]dansk[/td][td]Paused[/td][td]română[/td][td]Paused[/td][/tr]
+[tr][td]español[/td][td]Paused[/td][td]русский[/td][td]Paused[/td][/tr]
+[tr][td]suomi[/td][td]Paused[/td][td]ภาษาไทย[/td][td]Paused[/td][/tr]
+[tr][td]magyar[/td][td]Paused[/td][td]Türkçe[/td][td]Paused[/td][/tr]
+[tr][td]Bahasa Indonesia[/td][td]Paused[/td][td]українська[/td][td]Paused[/td][/tr]
 [/table]
 
+[i]Reason for pause: current project funding is insufficient to cover LLM API call costs.[/i]
+
+[h2]GitHub[/h2]
 [hr]
-[h2]One Mod to Localize All · 一个模组，本地化一切 · Un seul mod pour tout localiser · Un Mod para Localizarlos Todos · Один мод — локализовать всё · تعديل واحد لترجمة كل شيء[/h2]
-
-LLM-powered auto-translation for Project Zomboid mods. Play without language barriers.
-基于 LLM 的 PZ 模组自动翻译，消除语言障碍。
-Traduction automatique des mods PZ par LLM. Jouez sans barrière linguistique.
-Traducción automática de mods de PZ con LLM. Juega sin barreras.
-Автоперевод модов PZ с помощью LLM. Играйте без языковых барьеров.
-ترجمة تلقائية لتعديلات PZ بالذكاء الاصطناعي. العب بلا حواجز لغوية.
-
-[list]
-[*] Fully automated pipeline · 全自动流水线 · Pipeline automatisé · Canalización automatizada · Автоматический конвейер · خط أنابيب مؤتمت
-[*] RAG-enhanced translation quality · RAG 增强翻译质量 · Qualité améliorée par RAG · Calidad mejorada con RAG · Качество усилено RAG · جودة محسّنة بـ RAG
-[*] Continuous mod update tracking · 持续追踪模组更新 · Suivi continu des mises à jour · Seguimiento continuo de actualizaciones · Отслеживание обновлений модов · تتبع مستمر للتحديثات
-[/list]
-
-[hr]
-[h2]Project Status · 项目现状 · État du projet · Estado del proyecto · Статус проекта · حالة المشروع[/h2]
-
-See · 详见 · Voir · Ver · См. · راجع：
+Source code, detailed progress, technical documentation, and issue reporting:
 [url=https://github.com/PZProjectBabel/project_babel]https://github.com/PZProjectBabel/project_babel[/url]
 
+[h2]Contribute[/h2]
 [hr]
-[h2]Project Needs Your Help · 项目需要您的帮助 · Le projet a besoin de votre aide · El proyecto necesita tu ayuda · Проекту нужна ваша помощь · المشروع بحاجة لمساعدتكم[/h2]
-
-[h3]Contribute · 贡献 · Contribuer · Contribuir · Помощь · المساهمة[/h3]
-
+You are welcome to contribute through GitHub Issues or Pull Requests:
 [list]
-[*] Translation rules & terminology · 翻译规则与术语 · Règles de traduction · Reglas de traducción · Правила перевода · قواعد الترجمة
-[*] Mod corpus authorization · 语料授权 · Autorisation de corpus · Autorización de corpus · Авторизация корпуса · ترخيص المحتوى
-[*] Pipeline code (.NET/C#) · 流水线代码 · Code du pipeline · Código del pipeline · Код конвейера · كود خط الأنابيب
-[*] GitHub Issues · GitHub Issues · GitHub Issues · GitHub Issues · GitHub Issues · GitHub Issues
+[*]Report translation errors or mod compatibility issues;
+[*]Provide terminology lists, translation rules, and manually proofread corpora;
+[*]Improve prompts, RAG strategies, the pipeline, or automation scripts;
+[*]Provide reference corpora from translation mods with authorization.
 [/list]
 
-[h3]Funding · 资助 · Financement · Financiación · Финансирование · التمويل[/h3]
-
-Continuous LLM API calls need ongoing funding. We deeply appreciate your generous support — thank you!
-项目持续调用 LLM API，需要资金支持，希望您能慷慨相助，万分感谢！
-Les appels continus à l'API LLM nécessitent un financement. Votre généreux soutien est infiniment apprécié — merci !
-Las llamadas continuas a la API requieren financiación. ¡Agradecemos profundamente tu generoso apoyo — gracias!
-Постоянные вызовы LLM API требуют финансирования. Мы будем глубоко признательны за вашу щедрую поддержку — спасибо!
-استدعاءات API المستمرة تحتاج تمويلاً. نقدر بعمق دعمكم الكريم — شكرًا لكم!
-
+[h2]Funding[/h2]
 [hr]
-[h2]Acknowledgement · 致谢 · Remerciements · Agradecimientos · Благодарность · شكر وتقدير[/h2]
+The project needs ongoing funding for LLM API calls. If you would like to support it, please leave a comment.
 
-[b]如一汉化组 (As1)[/b]: Provided Chinese translation mods as reference corpus. · 提供中文汉化模组作为参考语料。 · A fourni des mods de traduction chinoise comme corpus de référence. · Proporcionó mods de traducción al chino como corpus de referencia. · Предоставила моды китайского перевода в качестве референсного корпуса. · قدمت تعديلات ترجمة صينية كمجموعة مرجعية.
-
+[h2]Acknowledgements[/h2]
 [hr]
+Thanks to all mod authors, translation contributors, testers, and players who support the project.
+
+Special thanks to As1 Translation Group for providing high-quality Chinese translation corpora:
+[list]
+[*][B42]统一·中文汉化
+[*][B42]统一·模组汉化
+[*][B42]统一·方舟汉化
+[/list]
+
+[h2]Licenses and Copyright[/h2]
+[hr]
+Project Zomboid and all original mods are the property of their respective authors and rights holders.
+
+The project's AI-translated text and related materials are licensed under CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike 4.0 International).
+
+Automation programs, scripts, and other development code are licensed under GPL-3.0.
+
 [i]© 2025 Project Babel. Translations: CC BY-NC-SA 4.0 | Code: GPL-3.0[/i]
