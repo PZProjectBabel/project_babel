@@ -7,9 +7,9 @@ Function: write final mod translation files for PZ mod distribution.
 Inputs: translation entries, ref mod IDs, target languages, base_game_keys dir.
 
 Outputs:
-- `final_outputs/project_babel/contents/mods/project_babel/42.19/media/lua/shared/Translate/<gamecode>/*.json`
+- `final_outputs/project_babel/contents/mods/project_babel/42.20/media/lua/shared/Translate/<gamecode>/*.json`
 - `final_outputs/project_babel/contents/mods/project_babel/42/media/lua/shared/Translate/<gamecode>/*.json`
-- Both dirs identical; write 42.19 first, copy to 42.
+- Both dirs identical; write 42.20 first, copy to 42.
 
 Rules:
 - Group by key root (prefix before first `_`), map to file via base_game_keys prefix→file mapping.

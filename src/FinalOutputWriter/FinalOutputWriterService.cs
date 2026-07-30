@@ -71,13 +71,13 @@ public class FinalOutputWriterService
                 dict[entry.translationKey] = targetText;
             }
 
-            // Write to 42.19 first.
-            var outDir4219 = Path.Combine(_finalOutputBase, "42.19", "media", "lua", "shared", "Translate", gameCode);
-            Directory.CreateDirectory(outDir4219);
+            // Write to 42.20 first.
+            var outDir4220 = Path.Combine(_finalOutputBase, "42.20", "media", "lua", "shared", "Translate", gameCode);
+            Directory.CreateDirectory(outDir4220);
 
             foreach (var (fileName, dict) in fileGroups)
             {
-                var jsonPath = Path.Combine(outDir4219, fileName);
+                var jsonPath = Path.Combine(outDir4220, fileName);
                 var tmpPath = jsonPath + ".tmp";
                 var json = Utf8NoBom.SerializeIndentedJson(dict);
                 Utf8NoBom.WriteAllText(tmpPath, json);
@@ -86,7 +86,7 @@ public class FinalOutputWriterService
 
             // Copy to 42 (identical content).
             var outDir42 = Path.Combine(_finalOutputBase, "42", "media", "lua", "shared", "Translate", gameCode);
-            CopyDirectory(outDir4219, outDir42);
+            CopyDirectory(outDir4220, outDir42);
 
             totalFiles += fileGroups.Count;
             totalEntries += fileGroups.Sum(g => g.Value.Count);
