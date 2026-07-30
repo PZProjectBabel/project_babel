@@ -1,0 +1,94 @@
+[h1]Project Babel - Traducción automática con IA multilingüe para múltiples mods[/h1]
+
+[h2]Un mod para localizarlo todo[/h2]
+[hr]
+[b]Project Babel[/b] es un proyecto de [b]traducción automática multilingüe[/b] para mods de Project Zomboid Build 42. Suscríbete y activa este mod para recibir traducciones de mods populares de Steam Workshop en los idiomas compatibles. El proyecto ya ha cubierto el coste de las llamadas a modelos de lenguaje de gran tamaño, por lo que los jugadores pueden suscribirse sin coste adicional.
+
+Canal de traducción totalmente automatizado:
+[list]
+[*]Supervisa diariamente los lanzamientos y las actualizaciones de mods de Steam Workshop;
+[*]Extrae por lotes semanales los textos de localización de los mods;
+[*]Revisa el contenido de los mods;
+[*]Combina automáticamente terminología, traducciones de referencia y recuperación vectorial (RAG) para crear contexto;
+[*]Llama semanalmente a la API de LLM para la traducción por lotes.
+[/list]
+
+[b]Cómo usarlo[/b]
+[list=1]
+[*]Suscríbete a este mod.
+[*]Activa este mod en el gestor de mods del juego.
+[*]Coloca este mod de traducción después de los mods funcionales, preferiblemente al final del orden de carga, para que sus traducciones tengan prioridad.
+[*]Si estás suscrito a varios mods de traducción que traducen el mismo mod funcional, el mod de traducción cargado más tarde sobrescribirá las traducciones con nombres idénticos de los mods cargados antes.
+[/list]
+
+[h2]Progreso del proyecto[/h2]
+[hr]
+Actualmente es compatible con más de 1300 mods. El proyecto detecta e incluye automáticamente cada día mods históricos de Steam Workshop con más de 500 suscriptores, y comprueba continuamente si hay actualizaciones en los mods incluidos. Algunos mods aún no están incluidos debido a la revisión de contenido, la falta de texto extraíble u otros motivos.
+
+Siempre que la cuenta de la API de LLM siga teniendo fondos, la automatización traduce todo el texto nuevo y modificado en un lote semanal cada viernes por la noche.
+
+Consulta el repositorio de GitHub para ver el progreso detallado.
+
+[h2]Idiomas compatibles[/h2]
+[hr]
+[table]
+[tr][th]Idioma[/th][th]Estado[/th][th]Idioma[/th][th]Estado[/th][/tr]
+[tr][td]Chino simplificado[/td][td]✅[/td][td]italiano[/td][td]En pausa[/td][/tr]
+[tr][td]Deutsch[/td][td]✅[/td][td]한국어[/td][td]En pausa[/td][/tr]
+[tr][td]français[/td][td]✅[/td][td]Nederlands[/td][td]En pausa[/td][/tr]
+[tr][td]日本語[/td][td]✅[/td][td]norsk[/td][td]En pausa[/td][/tr]
+[tr][td]العربية[/td][td]En pausa[/td][td]Tagalog[/td][td]En pausa[/td][/tr]
+[tr][td]català[/td][td]En pausa[/td][td]polski[/td][td]En pausa[/td][/tr]
+[tr][td]Chino tradicional[/td][td]En pausa[/td][td]português[/td][td]En pausa[/td][/tr]
+[tr][td]čeština[/td][td]En pausa[/td][td]português do Brasil[/td][td]En pausa[/td][/tr]
+[tr][td]dansk[/td][td]En pausa[/td][td]română[/td][td]En pausa[/td][/tr]
+[tr][td]español[/td][td]En pausa[/td][td]русский[/td][td]En pausa[/td][/tr]
+[tr][td]suomi[/td][td]En pausa[/td][td]ภาษาไทย[/td][td]En pausa[/td][/tr]
+[tr][td]magyar[/td][td]En pausa[/td][td]Türkçe[/td][td]En pausa[/td][/tr]
+[tr][td]Bahasa Indonesia[/td][td]En pausa[/td][td]українська[/td][td]En pausa[/td][/tr]
+[/table]
+
+[i]Motivo de la pausa: la financiación actual del proyecto es insuficiente para cubrir los costes de las llamadas a la API de LLM.[/i]
+
+[h2]GitHub[/h2]
+[hr]
+Código fuente, progreso detallado, documentación técnica e informes de problemas:
+[url=https://github.com/PZProjectBabel/project_babel]https://github.com/PZProjectBabel/project_babel[/url]
+
+[h2]Contribuir[/h2]
+[hr]
+Puedes contribuir mediante GitHub Issues o Pull Requests:
+[list]
+[*]Informa de errores de traducción o problemas de compatibilidad de mods;
+[*]Proporciona listas de terminología, reglas de traducción y corpus revisados manualmente;
+[*]Mejora los prompts, las estrategias de RAG, el canal o los scripts de automatización;
+[*]Proporciona corpus de referencia de mods de traducción con autorización.
+[/list]
+
+[h2]Financiación[/h2]
+[hr]
+El proyecto necesita financiación continua para las llamadas a la API de LLM. Si deseas apoyarlo, deja un comentario.
+
+[h2]Agradecimientos[/h2]
+[hr]
+Gracias a todos los autores de mods, colaboradores de traducción, probadores y jugadores que apoyan el proyecto.
+
+Agradecimientos especiales al grupo de traducción As1 por proporcionar corpus de traducción china de alta calidad:
+[list]
+[*][B42]统一·中文汉化
+[*][B42]统一·模组汉化
+[*][B42]统一·方舟汉化
+[/list]
+
+[h2]Licencias y derechos de autor[/h2]
+[hr]
+Project Zomboid y todos los mods originales son propiedad de sus respectivos autores y titulares de derechos.
+
+Los textos traducidos por IA y los materiales relacionados del proyecto están bajo la licencia CC BY-NC-SA 4.0 (Atribución-NoComercial-CompartirIgual 4.0 Internacional).
+
+Los programas de automatización, scripts y demás código de desarrollo están bajo la licencia GPL-3.0.
+
+[i]© 2025 Project Babel. Translations: CC BY-NC-SA 4.0 | Code: GPL-3.0[/i]
+
+Workshop ID: 3759583822
+Mod ID: project_babel

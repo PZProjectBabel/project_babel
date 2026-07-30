@@ -1,0 +1,94 @@
+[h1]Project Babel - 多模組、多語種 AI 自動翻譯[/h1]
+
+[h2]一個模組，本地化一切[/h2]
+[hr]
+[b]Project Babel[/b] 是一個面向《僵屍毀滅工程》Build 42 模組的[b]多語種自動翻譯[/b]專案。訂閱並啟用本模組後，可為創意工坊熱門模組提供支援語言的翻譯文字。專案已支付大型語言模型的呼叫費用，玩家訂閱後無須額外付費。
+
+全自動翻譯流水線：
+[list]
+[*]每日監測創意工坊模組上架、更新；
+[*]每週集中提取模組本地化文字；
+[*]模組內容審核；
+[*]自動結合術語、參考譯文和向量檢索（RAG）產生上下文；
+[*]每週呼叫 LLM API 集中翻譯。
+[/list]
+
+[b]使用說明[/b]
+[list=1]
+[*]訂閱本模組。
+[*]在遊戲的模組管理中啟用本模組。
+[*]翻譯模組請置於功能模組之後，建議放在載入順序底部，以確保翻譯文字優先覆蓋。
+[*]如果你訂閱了多個翻譯模組，且多個翻譯模組都翻譯了同一個功能模組的文字，則後載入的翻譯模組會覆蓋先載入模組的同名翻譯文字。
+[/list]
+
+[h2]專案進度[/h2]
+[hr]
+目前支援 1,300+ 個模組。專案每天自動偵測並收錄訂閱數大於 500 的工坊歷史模組，也會持續偵測已收錄模組的更新。部分模組因內容審核、缺少可提取文字或其他原因暫未包含。
+
+如果 LLM API 帳戶仍有資金，自動化指令碼會在每週五晚集中自動翻譯全部新增文字和變動文字。
+
+詳細進度請見 GitHub 儲存庫。
+
+[h2]語言支援[/h2]
+[hr]
+[table]
+[tr][th]語言[/th][th]狀態[/th][th]語言[/th][th]狀態[/th][/tr]
+[tr][td]簡體中文[/td][td]✅[/td][td]italiano[/td][td]暫停[/td][/tr]
+[tr][td]Deutsch[/td][td]✅[/td][td]한국어[/td][td]暫停[/td][/tr]
+[tr][td]français[/td][td]✅[/td][td]Nederlands[/td][td]暫停[/td][/tr]
+[tr][td]日本語[/td][td]✅[/td][td]norsk[/td][td]暫停[/td][/tr]
+[tr][td]العربية[/td][td]暫停[/td][td]Tagalog[/td][td]暫停[/td][/tr]
+[tr][td]català[/td][td]暫停[/td][td]polski[/td][td]暫停[/td][/tr]
+[tr][td]繁體中文[/td][td]暫停[/td][td]português[/td][td]暫停[/td][/tr]
+[tr][td]čeština[/td][td]暫停[/td][td]português do Brasil[/td][td]暫停[/td][/tr]
+[tr][td]dansk[/td][td]暫停[/td][td]română[/td][td]暫停[/td][/tr]
+[tr][td]español[/td][td]暫停[/td][td]русский[/td][td]暫停[/td][/tr]
+[tr][td]suomi[/td][td]暫停[/td][td]ภาษาไทย[/td][td]暫停[/td][/tr]
+[tr][td]magyar[/td][td]暫停[/td][td]Türkçe[/td][td]暫停[/td][/tr]
+[tr][td]Bahasa Indonesia[/td][td]暫停[/td][td]українська[/td][td]暫停[/td][/tr]
+[/table]
+
+[i]暫停原因：專案現有資金不足以支付呼叫 LLM API 的費用。[/i]
+
+[h2]GitHub[/h2]
+[hr]
+原始碼、完整進度、技術文件和問題回報：
+[url=https://github.com/PZProjectBabel/project_babel]https://github.com/PZProjectBabel/project_babel[/url]
+
+[h2]參與貢獻[/h2]
+[hr]
+歡迎透過 GitHub Issue 或 Pull Request 參與：
+[list]
+[*]回報翻譯錯誤或模組相容性問題；
+[*]提供術語表、翻譯規則與人工校對語料；
+[*]改進提示詞、RAG 策略、流水線或自動化指令碼；
+[*]為已獲授權的翻譯模組提供參考語料。
+[/list]
+
+[h2]資助[/h2]
+[hr]
+專案需要持續支付 LLM API 呼叫費用。如果您願意資助，請留言。
+
+[h2]致謝[/h2]
+[hr]
+感謝所有模組作者、翻譯貢獻者、測試者與支援專案的玩家。
+
+特別感謝如一漢化組（As1）提供高品質中文翻譯語料：
+[list]
+[*][B42]統一・中文漢化
+[*][B42]統一・模組漢化
+[*][B42]統一・方舟漢化
+[/list]
+
+[h2]授權條款與著作權[/h2]
+[hr]
+《僵屍毀滅工程》及各原始模組的版權歸其各自作者和權利人所有。
+
+本專案的 AI 翻譯文字及相關資料採用 CC BY-NC-SA 4.0（姓名標示－非商業性－相同方式分享 4.0 國際）授權。
+
+自動化程式、指令碼及其他開發程式碼採用 GPL-3.0 授權。
+
+[i]© 2025 Project Babel. Translations: CC BY-NC-SA 4.0 | Code: GPL-3.0[/i]
+
+Workshop ID: 3759583822
+Mod ID: project_babel

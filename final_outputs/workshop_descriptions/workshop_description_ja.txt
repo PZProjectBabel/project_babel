@@ -1,0 +1,94 @@
+[h1]Project Babel - 複数MOD対応・多言語AI自動翻訳[/h1]
+
+[h2]ひとつのMODですべてをローカライズ[/h2]
+[hr]
+[b]Project Babel[/b] は、Project Zomboid Build 42のMOD向け[b]多言語自動翻訳[/b]プロジェクトです。このMODをサブスクライブして有効化すると、対応言語でSteam Workshopの人気MODの翻訳を利用できます。大規模言語モデルの呼び出し費用はプロジェクト側で負担済みのため、プレイヤーは追加料金なしでサブスクライブできます。
+
+完全自動翻訳パイプライン：
+[list]
+[*]Steam WorkshopのMOD公開・更新を毎日監視します；
+[*]毎週まとめてMODのローカライズテキストを抽出します；
+[*]MODのコンテンツを審査します；
+[*]用語集、参照訳、ベクトル検索（RAG）を自動的に組み合わせてコンテキストを構築します；
+[*]毎週LLM APIを呼び出して一括翻訳を行います。
+[/list]
+
+[b]使い方[/b]
+[list=1]
+[*]このMODをサブスクライブします。
+[*]ゲームのMODマネージャーでこのMODを有効にします。
+[*]この翻訳MODは機能MODの後、できればロード順の一番下に配置してください。翻訳が優先されます。
+[*]同じ機能MODを翻訳する複数の翻訳MODをサブスクライブしている場合、後からロードされる翻訳MODが、先にロードされたMOD内の同名翻訳を上書きします。
+[/list]
+
+[h2]プロジェクトの進捗[/h2]
+[hr]
+現在1,300以上のMODに対応しています。プロジェクトは、購読者数が500を超える過去のSteam Workshop MODを毎日自動検出・収録し、収録済みMODの更新も継続的に確認します。一部のMODは、コンテンツ審査、抽出可能なテキストの不足、またはその他の理由により、まだ収録されていません。
+
+LLM APIアカウントに資金がある場合、自動化処理は毎週金曜夜に、新規および変更されたすべてのテキストを一括翻訳します。
+
+詳細な進捗はGitHubリポジトリをご覧ください。
+
+[h2]対応言語[/h2]
+[hr]
+[table]
+[tr][th]言語[/th][th]状態[/th][th]言語[/th][th]状態[/th][/tr]
+[tr][td]簡体字中国語[/td][td]✅[/td][td]italiano[/td][td]一時停止中[/td][/tr]
+[tr][td]Deutsch[/td][td]✅[/td][td]한국어[/td][td]一時停止中[/td][/tr]
+[tr][td]français[/td][td]✅[/td][td]Nederlands[/td][td]一時停止中[/td][/tr]
+[tr][td]日本語[/td][td]✅[/td][td]norsk[/td][td]一時停止中[/td][/tr]
+[tr][td]العربية[/td][td]一時停止中[/td][td]Tagalog[/td][td]一時停止中[/td][/tr]
+[tr][td]català[/td][td]一時停止中[/td][td]polski[/td][td]一時停止中[/td][/tr]
+[tr][td]繁体字中国語[/td][td]一時停止中[/td][td]português[/td][td]一時停止中[/td][/tr]
+[tr][td]čeština[/td][td]一時停止中[/td][td]português do Brasil[/td][td]一時停止中[/td][/tr]
+[tr][td]dansk[/td][td]一時停止中[/td][td]română[/td][td]一時停止中[/td][/tr]
+[tr][td]español[/td][td]一時停止中[/td][td]русский[/td][td]一時停止中[/td][/tr]
+[tr][td]suomi[/td][td]一時停止中[/td][td]ภาษาไทย[/td][td]一時停止中[/td][/tr]
+[tr][td]magyar[/td][td]一時停止中[/td][td]Türkçe[/td][td]一時停止中[/td][/tr]
+[tr][td]Bahasa Indonesia[/td][td]一時停止中[/td][td]українська[/td][td]一時停止中[/td][/tr]
+[/table]
+
+[i]一時停止の理由：現在のプロジェクト資金では、LLM API呼び出し費用を賄えません。[/i]
+
+[h2]GitHub[/h2]
+[hr]
+ソースコード、詳細な進捗、技術ドキュメント、問題報告：
+[url=https://github.com/PZProjectBabel/project_babel]https://github.com/PZProjectBabel/project_babel[/url]
+
+[h2]貢献[/h2]
+[hr]
+GitHub IssuesまたはPull Requestsを通じて貢献を歓迎します：
+[list]
+[*]翻訳の誤りやMOD互換性の問題を報告する；
+[*]用語集、翻訳ルール、人手で校正されたコーパスを提供する；
+[*]プロンプト、RAG戦略、パイプライン、または自動化スクリプトを改善する；
+[*]許可を得た翻訳MODの参照コーパスを提供する。
+[/list]
+
+[h2]資金提供[/h2]
+[hr]
+プロジェクトにはLLM API呼び出しのための継続的な資金が必要です。支援をご希望の場合は、コメントをお寄せください。
+
+[h2]謝辞[/h2]
+[hr]
+プロジェクトを支援するすべてのMOD作者、翻訳協力者、テスター、プレイヤーに感謝します。
+
+高品質な中国語翻訳コーパスを提供いただいたAs1翻訳グループに特別な感謝を申し上げます：
+[list]
+[*][B42]统一·中文汉化
+[*][B42]统一·模组汉化
+[*][B42]统一·方舟汉化
+[/list]
+
+[h2]ライセンスと著作権[/h2]
+[hr]
+Project ZomboidおよびすべてのオリジナルMODの権利は、それぞれの作者および権利者に帰属します。
+
+プロジェクトのAI翻訳テキストおよび関連資料は、CC BY-NC-SA 4.0（表示-非営利-継承 4.0 国際）ライセンスの下で提供されます。
+
+自動化プログラム、スクリプト、およびその他の開発コードはGPL-3.0ライセンスの下で提供されます。
+
+[i]© 2025 Project Babel. Translations: CC BY-NC-SA 4.0 | Code: GPL-3.0[/i]
+
+Workshop ID: 3759583822
+Mod ID: project_babel
