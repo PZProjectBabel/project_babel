@@ -1,144 +1,2200 @@
 [
   {
     "mod_id": "2812326159",
+    "translation_key": "Base.BoilersuitOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "909b84f1555c89e9a479d8d30f627506"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.BoilersuitTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "320fac28dbcd4c7c14609b4c9a5393fd"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_BlueRedOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "df4ffd3c1670d58bcf7c9ba41a0c730d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_BlueRedTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "c08532292d625e622e1390687b90f364"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_FlyingOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "d931c441b5030da03ab680a11d49e777"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_FlyingTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "71c351747e86380a29f6f2069c3c3891"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_PrisonerKhakiOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "51722c85538ebcdeb23c61db66019fac"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_PrisonerKhakiTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "23e960e68296556d0c0b0090330c7f8c"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_PrisonerOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "12ba65a698b2626ff97f52776e589ead"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_PrisonerTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "e73aa5c78d5cac168cddb12ea7249181"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_SWATOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "25030df1e4f20825889c37dcc9528bde"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_SWATTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0852a6d719022bf8f217ad00ce16381e"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_YellowOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "ed63f88615c6586975bcf3d4669aac11"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Boilersuit_YellowTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "b75da4c85d14b508151af001181cf44f"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.HoodieDOWN_WhiteTINTOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "e77b885310c881eee3620fb5588aa80c"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.HoodieUP_WhiteTINTOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0704298bc3da07607f9935856d8927f7"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Hoodie_WhiteTINTTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "da594b87a401e89e13040d96da16bb11"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_DoctorOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "5b1acbee190336eae0246c8234e21c7c"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_DoctorOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "a8df5546ec4a231fa87c768a384f7d62"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_DoctorROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "ba30daebfe78a1c02c13c12c95faf382"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_Random",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "b3b4cf7ba0760a2ae3aa1c3629193320"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_RandomOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "a0538b8084e16ea1b6f32f167ea4ae78"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_RandomOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "460980b5d5d9218fdcffc1a929ce5dab"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_RandomROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f567da1268d37e72a8842b05bc6c4387"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_SantaGreenOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "d00d68534e81574c8643d198bda0de08"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_SantaGreenOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "5ea7ed7de6056bbe1679f51838e3975e"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_SantaGreenROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "655f3202031093b441d66206296eccb3"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_SantaOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "163e651b50b68527f8283e8f12723e5f"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_SantaOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "4d3ce0bd0f0e0492975d1fbe3dfda502"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.JacketLong_SantaROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "52a61633d355950113e98c2c45cba33d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ArmyCamoDesert",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f29e22a00bae895bedfcc5e8491e01c5"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ArmyCamoDesertOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "169484886b74971786a3a06a7a3e78ce"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ArmyCamoDesertOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "30ac8ba94013fa55803aa010333faa37"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ArmyCamoDesertROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "4ce4d3d1932586adae1d578d0d043935"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ArmyCamoGreen",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "8e599a5298ff5cfc04c7271c87fcb3ba"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ArmyCamoGreenOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "e5891b09cb3a570d46863b87deb9dfd4"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ArmyCamoGreenOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "9a598a98705434f376dda7a7cbe51104"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ArmyCamoGreenROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "a8e5ee4fee3e9e535ec79428cb3fe5a9"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ArmyCamoUrbanOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "3a876d16e2c37c6c7158c53e4d3fdf23"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ArmyCamoUrbanOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0badfaf97168f80f9570770eaf494b14"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ArmyCamoUrbanROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "b784f041c8d20afe756d3d029738a675"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_BlackOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "dcde1ea63bd057bfd36ff943a6363e2e"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_BlackOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "1cb27fe1f709610e5b7bfe8190d07ed1"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_BlackROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "45b08ab2f79e3338af1d9d02522ab730"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_BlackVest",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "534030a55226ecd899d753c0ae398569"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_BlackVestOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "aec90241479cd5de6bf5367c11fd6250"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ChefOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "06a4c4265eba5cb60804776432ad4e1d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ChefOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f6ed8fcc13645c59ca5572639e9a5d7d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_ChefROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0fe8f34605dd8d12389dd56e011596a4"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_CoatArmyOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "dc1bf99b39a2cf86fd2268f8b4feb0af"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_CoatArmyOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "4c5ef6c9868ebbea6c1002a95825e569"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_CoatArmyROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "620ba35a835f08467a5163d2be25a5c6"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_FiremanOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "879bde6377b0a280ef6b97922bd600a4"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_FiremanOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2ad6a0160806b7acd89d1b7315c609ae"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_FiremanROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "647030d39410f135f526902077280172"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherBarrelDogsOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2663b729b29e1f08bf4b6b34829c5be7"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherBarrelDogsOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "9d89c9af1b224d860b63c2bb262f5e57"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherBarrelDogsROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "a66789129f6a0bc98e239803987a144c"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherBarrelDogsVest",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "7579564e791064cd0c3b05b71eb160db"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherBarrelDogsVestOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "5e1673a341942f2a5a62ac07175c8786"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherIronRodentOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "90cee21cf30222ac192393d0285ef76d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherIronRodentOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "db336f5b3b1a1d3c2f0e0f92a3c04a21"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherIronRodentROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "21c0604e7462ab60e40b89f6882517c7"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherIronRodentVest",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2ccdf619e316f45916b8d35a568b0207"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherIronRodentVestOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "7fb93425d8d776e53b6773541cee2900"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherWildRacoonsOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "c99b15f2914e33e28a0d9f2b90331625"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherWildRacoonsOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2a55179d82cddaed09f59a166abf8b78"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherWildRacoonsROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "a136ee58b29acf46c4f64ea95189cb08"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherWildRacoonsVest",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "706c8c20a544122493284fcf9b44dec8"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_LeatherWildRacoonsVestOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "a4c67db2431ece4b4016cee842b7bb1a"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_NavyBlueOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f894ad8719f38f8f69503f55f6377100"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_NavyBlueOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "9fd7ef639af17b3269b343d64eb0faa1"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_NavyBlueROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f4588c5cf290fb808496e813d5101e90"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_PaddedDOWNOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "94a05ead55a63371796ecdc9fed4916a"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_PaddedOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "b120c0b5d7d58955508702c7a6260ce9"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_PoliceOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "96adc092bacd6e7a4add128d398e6f2e"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_PoliceOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "d8e26677bb455d4d073d107f5c03f6b1"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_PoliceROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "183de3df86c1c37cbc7d2546eed6fb7e"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_RangerOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "9ef502dbd1cd93f091fa6bea23cdce8a"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_RangerOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2fd12f42a921db929eda56dd5ef0e010"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_RangerROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "6c3659f79457d2a09d974b9a64bb47ac"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_BlackOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "072b152b0ada58a1ea304c1737f66986"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_BlackOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "26afebd0276063a34536f261a393cfb8"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_BlackROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2fe1163540b6a5a664bee0cd907362b1"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_BlueOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "6899ea2e90352d06032679c35cfa88cf"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_BlueOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "9b681769067dd284d8dc66f66db8cc99"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_BlueROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "661181ba3dda993f5491966862c22f38"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_GreenOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "1a922b13644fe0ada7a575c7ea18f36b"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_GreenOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "804f9e127552565b9f065a8ab3a3929f"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_GreenROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "437c683f030ca02a74f206872b02c326"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_PinkOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "155ab4ca635ccc2e7716f138aa529448"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_PinkOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "65092617616f0d361b58b57e5fb43ac2"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_PinkROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2d3b9c77ee751bb933410ddde61eece7"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_TINTOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "c13b5b5beb21dcfa808e403601363f86"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_TINTOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "70b25a808974b2233a2175c0d105c551"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_TINTROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "bde2828e236038461c7a787168f28d03"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_TealOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "07775a724cc3ab34f2dcdf8c3557a502"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_TealOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "e21c052d12c03e197f60708883571ad4"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_Shellsuit_TealROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "c653c922feb741efbe5c9dac252f675f"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_VarsityOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "7ac95c09a8a76a7877264e89596a0cf3"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_VarsityOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "aece5ed52d0b5a9bfe42371182a0462b"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_VarsityROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "550a73cfcadff777d25db9ae2e1b526f"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_WhiteOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "e4fe89518f95a6e13dede209d5bfdb93"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_WhiteTINTOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "25997fa2b93cff4cc535809765535e63"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_WhiteTINTOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "6c26cab31983ec3ef73a0e786c361f26"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jacket_WhiteTINTROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "95ba740782a9065c2e0161d841d9fb6a"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jumper_DiamondPatternTINTROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "b2e0dd6c472afefcba3a05c2b738f8aa"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jumper_DiamondPatternTINTTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "beead484ad0f51bb95fc945cc5056aad"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jumper_PoloNeckROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "62c99ca65a74f5d46a0a7237480b6e8c"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jumper_PoloNeckTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "58ec4dfd854db33e37ef4bf5680b89e5"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jumper_RoundNeckROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "146685b9a8ec5dc9c4a4e3d8f902588a"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jumper_RoundNeckTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "8eac5d0b873654477d28246cce477153"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jumper_VNeckROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f55903605952661fa7e128e33ecc6b56"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Jumper_VNeckTIED",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "13a4dd12ddacdf900539376bacbfbab9"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Baseball_KYOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "5ab51715472e6cf43fef74e453539373"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Baseball_RangersOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "1dab8c313bbbe2586ffb949eb4d96616"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Baseball_ZOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "6770b5c7419d42ea0dbfceca07e20cc4"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Bowling_BlueOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "92a84c9c737c084184ac8102ff685c5c"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Bowling_BrownOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2b0966d3170397dc7f4ff26fd24b948a"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Bowling_GreenOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "7b811d987def12e4636f90e19ed984bd"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Bowling_LimeGreen",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "435867a7eb98c9ba9b597b09654a9082"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Bowling_LimeGreenOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "609f2ab2673d36a0e4eb77869ef79fba"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Bowling_Pink",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0165ba0f2c30e4691aae416028552764"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Bowling_PinkOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "a216e22caaf23d2f957c33a3f298b5cb"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Bowling_White",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "20abc451205c718e89ec72b5ceb6770b"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Bowling_WhiteOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "6808a32d4d5f1d0e007dfa6ace9fc8e7"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CamoDesertOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "9f00d2172a228d3a2234fdedfd0f929b"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CamoDesertOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "98111f3867f31a67bdea8fe736173d9d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CamoDesertROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "24a65a0c410c6c9a0ceae629a324ad5d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CamoGreenOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "706910ae73ecd5708b43053fe51fe141"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CamoGreenOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "b17e60837a48e83c9174a03d3fa68e6f"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CamoGreenROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "1821a932130a8eaddb13c6f5cb344891"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CamoUrbanOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "5e113f4797f3a2e4e494ed0f4ab267a7"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CamoUrbanOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2e07c2c623dae2d1cf223a1a491f497c"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CamoUrbanROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f111ee866b0d3c0c5d843fc8336e88b4"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CropTopNoArmTINTOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "02dd5fd91fe7cf2d5ae3ff89c8612a55"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CropTopNoArmTINTOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "33be43bf9b9ce719a073a4628f0e7eb5"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CropTopTINTOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2c484c5974c4e1c4888706e3ef86bc44"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_CropTopTINTOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "c2ddc6d27e1de2cd8aa811241f51adae"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_DenimOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "742187d5b1e6fedc84c01deb4e1a19eb"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_DenimOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "dd6f77a4caea7e82d2bbb9fbbfcddfdc"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_DenimROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "badd1cb2d01a70e3d12abd82bab60f84"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_DenimVest",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "65763625641441b281348edbaac079f2"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_DenimVestOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "54686af49552cbbeb6d42779a49e946e"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalTINTOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "a6eef06368d0ff3761331f7e7805f10f"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalTINTOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "182f2302241e4c0187674942a810766f"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalTINTROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f345d7407acd6ccc6076c09bedc62a48"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalWhiteOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "03607089d940b57fbdf5d1aba383b97d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalWhiteOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0cfda0ed93dafaf22a8fb33de50e74ef"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalWhiteROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "6e7faace866669b21a3afb8b3baf9276"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalWhite_ShortSleeveOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "fcc4364eb7778e74416dfc366c3c0e35"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalWhite_ShortSleeveOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "20012916265a7bb050e8730c45774358"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalWhite_ShortSleeveROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "d4d36f9ed7795f44268001285565d21b"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalWhite_ShortSleeveTINTOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "8c3ea8ab8e1ecf30bb9a8d2c9238a1a5"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalWhite_ShortSleeveTINTOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "32646ffa1a575ba59deb747ca8e4a6e2"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_FormalWhite_ShortSleeveTINTROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "cb1d1856afb5e1c4129760ba2de0afe2"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_HawaiianRedOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "46c819ba4367d0c0a8091747259faf6f"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_HawaiianRedOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f724000ec04f04badafd27a936d27d93"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_HawaiianRedROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2f2361fb07931f96b4c02167fdaf5662"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_HawaiianTINTOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0f21f7989a75c9b807f70f1f39b551a1"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_HawaiianTINTOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "ce5b0948a2a6311e86bca727b2cde304"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_HawaiianTINTROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "e9384269f0eeee356ebb4004519c1b1a"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey01OPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f73c5c837f7013d83472afaa6ff23b0d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey01OPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "28c3a9fb572d06f19fa943531e663b76"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey01ROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "8ebeeded04023a6d5f4639a055ef96ee"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey02OPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "704b495e19338d815b4701e3490ca48d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey02OPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "1e0bffdc42ebb7933872a5163150dbb8"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey02ROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "42aeb35babe3edbe4248d93161b054ca"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey03OPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "701d52bc15ae7bc80a17b7ad972a4b00"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey03OPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "ea0d2661eae6c95ffab3161061670f83"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey03ROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "7f0d32eb43abc6a4c2c6a8c86dd56546"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey04OPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "87e62bf175ffa503eb85e5cba0bfd672"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey04OPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "5015d6fde2d7a87a56f342e7f90071fc"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey04ROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "04d197e4394b9f5bef6d7a2460417f9d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey05OPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "3dd8e1db08390597a7334305e7a48c71"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey05OPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2c190d32b410c87f3154774f025e719c"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey05ROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "261adfc4dee3586cc1d7b0c06eccc93b"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey06OPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "9bde9df2b6c08bd44945f260131f3501"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey06OPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "a0da8475e536ac464690cf8d0faae137"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_Jockey06ROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "1c54086377b1cc50986ddb30b5b9d723"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_LumberjackOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "e49b9058639d44d33abb90d764bad02c"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_LumberjackOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "643a508cd77cb9def028f8fe17ca1d9d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_LumberjackROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "9a64b86a4af82ac4ca9434ce0f851402"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_LumberjackVest",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "cbaff7b26b787d7a4a43c5a3bef93478"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_LumberjackVestOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f8c7285b243acbb9a2ce546918639848"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_OfficerWhiteOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "4b06141760b76b09870eb7672baae1b3"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_OfficerWhiteOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "c6e9965275ed08334ec2aecaa96e8a14"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_OfficerWhiteROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "7e848702ad749dfbc1fecea8b08ed61e"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PoliceBlueOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2b8d8e2792312d1bdc1389d671b082ed"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PoliceBlueOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0b7ea55cdd43588424ba18fc4b749dec"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PoliceBlueROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "6304bc98fc14739b2f4d286c3c6a925e"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PoliceGreyOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "a745a3d96a78e4024500581a0ed80db1"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PoliceGreyOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "8dff4da9b20e91e62d41780d6f7669b8"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PoliceGreyROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "39e72fa001e962d1da8c89fc7a4818f2"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PriestOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "a02a7a61a2f01969bc336c16cc450e01"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PriestOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "eb03b337a547406e5590dbbddbc2a56b"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PriestROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "64c62e1cab2edd4071f30a954873a0b9"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PrisonGuardOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "249e0d040dd530aff8c09f27ccdb14cc"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PrisonGuardOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f7f8b47d3e2c7b44025d869afde16fc8"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_PrisonGuardROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "360a146b933f282304636f961b84e3ea"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_RangerOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "4b5f7c4fb61ece66901d46958e909c5b"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_RangerOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "1fc79d362bf82ff1e8bbc06e0a5e1f1e"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_RangerROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "905417be52852040b75355dacdd5f858"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_ScrubsOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "97975f3f83e737af41cba270adb65f46"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_ScrubsROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "dc55ebf73a0fadcbdb663bcda0e47e56"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_WorkmanOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "8dd71c5361c99b15fca61c0e12cd9f09"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_WorkmanOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "8366a11bbc2706735a2ebff7a56ebcff"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Shirt_WorkmanROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "581fbdb95423bd78af2a50dc9c453802"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Suit_JacketOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "3d3b72804c9b23f95e060b278d32372e"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Suit_JacketOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "58324d4feb1138a312e5353d2a83c3e4"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Suit_JacketROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "e5214eb923bb3a10c8f04f14a690fec6"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Suit_JacketTINTOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "aec31b22b80f13e9490f7974bc646900"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Suit_JacketTINTOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "6d189fd96e86e8c0483819bcd3c099ac"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Suit_JacketTINTROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "6037e8c048368412d718ae6c4b61b4f0"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.TrousersMesh_DenimLightTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "64131195221dfcfa8a770fe51d46c1a8"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.TrousersMesh_LeatherTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "d739ba0e8bd393c24857534d46ae5edf"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.TrousersTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "d02b0777750425568752c18738f28824"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_ArmyServiceTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "47f8ac12e13698e774fdde00a1402a41"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_BlackTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "b0799751f9fd2c5984cedccff2ff0841"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_CamoDesertTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "c1889b14c54ecd369bec1add38d57d35"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_CamoGreenTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "9bbca20cd5d3a14c3031aabc620a3736"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_CamoUrbanTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "be187a5f1f5224ca3e7e12edf643c144"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_ChefTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f64c964e923593c44b87609ca08974b0"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_DenimTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "e11a6ce1ec0b91a607b838bfc687218e"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_FiremanTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "7f44c14fefd17d1af29452c86d396531"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_JeanBaggyTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "41c6dbd904ce01f95bc8c33f770db0ae"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_LeatherBlackTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "b7b77922116dc1d823b48b51fad39947"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_NavyBlueTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "3dd721a9c1d26c9cb7641a139f7c58bd"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_PaddedTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "2024ee0bb2c32d4bcf41f31c83e73d9c"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_PoliceGreyTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "fe9e5f4e0dec9999aeab5225d03c6529"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_PoliceTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "bd32559da1d78ec649604acd7481ab05"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_PrisonGuardTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "caa9696c25f71cabc920bf0644183893"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_RangerTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "95d7045a6f51295f58f5aee9bb9c4b28"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_SantaGReenTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "4c3d28bb5cfca5a944018b1cbde86466"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_SantaTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "cab77678f82a157ab15df87996121daf"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_ScrubsTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "abcf483bbf32ba6833760583b52a2fb3"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_Shellsuit_BlackTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "6d66fdfc31bf4156786015247e6422b1"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_Shellsuit_BlueTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "21aaaed32476fa5169e59f920ca8b222"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_Shellsuit_GreenTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "959163fc0d4407787280b52e9c777b2b"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_Shellsuit_PinkTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "7d1113430685c6eda99518bda88f6679"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_Shellsuit_TINTTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "19212a893b603dadb78bf1e1910b18b3"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_Shellsuit_TealTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0096a106415cc89e108403687a373849"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_SuitTEXTURETUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0a430a7934737542643117d1f43f5a09"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_SuitTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "60e63c345e43b3bf640e92484caef6df"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_SuitWhiteTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "7ca5c5a179dd9d87513aade6d5d67903"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Trousers_WhiteTINTTUCK",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "69eb7f35b5a2175bb5d6100eaeae5f60"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Tshirt_CamoDesertROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "e581a863a5f719830c1dde0bdd5c5670"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Tshirt_CamoGreenROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "7ef2e182eae86d9134f48e8e878a337d"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Tshirt_CamoUrbanROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0a3c4c8bef352cb04acbdda7f3270aab"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Tshirt_PoliceBlueOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "ee18c8836f8780a7e5609d03788cb8cb"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Tshirt_PoliceGreyOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "b89da4d4f86c85ca4cdb59afe469de19"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Tshirt_RangerOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "e52171c9460d296fb3a2f74b507aee58"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Tshirt_WhiteLongSleeveROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "0a25ff1056d40b663fff9e97a9e94994"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.Tshirt_WhiteLongSleeveTINTROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "1fb804a7ec71c228d2941aa9a0d7f72f"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.WeddingJacketOPEN",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f321368127e92275c9daf2c986ebb268"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.WeddingJacketOPENROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "3d096869de3a84614622b6206f5d558b"
+  },
+  {
+    "mod_id": "2812326159",
+    "translation_key": "Base.WeddingJacketROLL",
+    "is_active": true,
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "781c62b9dde0279fa711585ae527b53d"
+  },
+  {
+    "mod_id": "2812326159",
     "translation_key": "ContextMenu_CloseHoodDown",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "19a1e41fc22c0ac1c3c3ec990c09bbee"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_CloseHoodUp",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "ab86774b7ebbcedf3135dcabf96d790f"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_CloseJacket",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "755c97d550d74e1334ad72591f49f7ac"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_CloseRollDown",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "554a7cfbc12d673b378b81baee1ad656"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_CloseRollUp",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "01f419707cb2bcacd0bf14f38cfd132c"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_OpenHoodDown",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "ed42fa0d19bf74f35d48ef7ba10b5138"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_OpenHoodUp",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "ccbb312e9557bd621eb063fbf2594214"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_OpenJacket",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "6c165fa677afbbdbd951526328044667"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_OpenRollDown",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "2ae9dfac3064e6138a22fa021193d4d5"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_OpenRollUp",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "7ccdfa250621ce16633bf49fa15cacd6"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_RollDown",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "bac684817ccc8e16758083e2032805ee"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_RollUp",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "8fd0e79d7f89eb21d1fd7ddf1cf5e711"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_TieOnWaist",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "a978a3ce53039909968de4ee066f6bb2"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_TuckIn",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "510e6d4356396e389d29b1095fdd6f50"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_TuckOut",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "7c914d68ca29db781432fe3b03f15d56"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_WearDown",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.7368280Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "3ef6e8bb6e85830b50e5a1b73334cbb8"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ContextMenu_WearUp",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.7368291Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "82f6c20ce51c76c36fd3cbc04a27c841"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.BoilersuitOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "8ce01d322d40118be4e5c9714b35ab61"
@@ -146,7 +2202,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.BoilersuitTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "045e73de9d530992318876c853a17f05"
@@ -154,7 +2210,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_BlueRedOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "4c2da543f4bec0d889870553f1c1a911"
@@ -162,7 +2218,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_BlueRedTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "41117192d1290b98c335d8002e10503a"
@@ -170,7 +2226,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_FlyingOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "bee046518a11be99398a9b5e17c44286"
@@ -178,7 +2234,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_FlyingTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2d393462194f842462e86f2dee5b790f"
@@ -186,7 +2242,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_PrisonerKhakiOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "29635d330ec2eb4bf64e91982afe05b2"
@@ -194,7 +2250,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_PrisonerKhakiTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "fe72e211391a264e34fdb9f4b667f7c5"
@@ -202,7 +2258,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_PrisonerOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "06598651264977dbee86d008cc13f7b9"
@@ -210,7 +2266,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_PrisonerTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f1dfa2ef54a67d3ef74e6cfffcd845f5"
@@ -218,7 +2274,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_SWATOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "7e44609f4c6ba1c4a5915cc62f48e03e"
@@ -226,7 +2282,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_SWATTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f6d1f04a4cb4c9fa41b098ac6cd0c77a"
@@ -234,7 +2290,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_YellowOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "0893d3cbcefcb88847d6d556152ad2ef"
@@ -242,7 +2298,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Boilersuit_YellowTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "e91c1180e4d0c8e58476de9487b71a22"
@@ -250,7 +2306,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.HoodieDOWN_WhiteTINTOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f30f21d2a828fb94539159cf519ce385"
@@ -258,7 +2314,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.HoodieUP_WhiteTINTOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "6994e28c61cb06363163a91084615307"
@@ -266,7 +2322,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Hoodie_WhiteTINTTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "acb991493a4f92a9396da2d1f51e6675"
@@ -274,7 +2330,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_DoctorOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "76c7c4302861340f61eaf334d1156cfa"
@@ -282,7 +2338,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_DoctorOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "7494e778804bd8bdc6722efcb5a80783"
@@ -290,7 +2346,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_DoctorROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c1da1b84a349b2275857048ecda25469"
@@ -298,7 +2354,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_Random",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5145d88ea5ad10d59f2dc035352ec2b6"
@@ -306,7 +2362,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_RandomOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c30378d9377674be09df00b88223cdaa"
@@ -314,7 +2370,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_RandomOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "6fe482f5f1525f72912501b5445aa974"
@@ -322,7 +2378,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_RandomROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "3d67f132f774402e58df235f48a6f32d"
@@ -330,7 +2386,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_SantaGreenOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "a94444e3692fc93586d6095ab2a87f55"
@@ -338,7 +2394,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_SantaGreenOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "b33310ad5d770021be304b37b91ccbb6"
@@ -346,7 +2402,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_SantaGreenROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "0e4f42f0c0623d28672f518e8c78186e"
@@ -354,7 +2410,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_SantaOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "1e8ce7952faa9f771c04e2b16beaea84"
@@ -362,7 +2418,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_SantaOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "ba859332d1a249a80c3ed0de467a25d1"
@@ -370,7 +2426,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.JacketLong_SantaROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "58d2f09dd2d6e6b5b0f0fc66b48053dc"
@@ -378,7 +2434,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ArmyCamoDesert",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "7482b5c3790749b6ce2176cbaf929a51"
@@ -386,7 +2442,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ArmyCamoDesertOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "47e9a9c3ef599e0c4f3d5e8eb1ff9c9a"
@@ -394,7 +2450,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ArmyCamoDesertOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "be8f23eec572981a619c82597ae81779"
@@ -402,7 +2458,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ArmyCamoDesertROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "de7e1afb2707006988a410ec7a3e4818"
@@ -410,7 +2466,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ArmyCamoGreen",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d2f2f825df684a38fc2ba346ec2fc78d"
@@ -418,7 +2474,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ArmyCamoGreenOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "7a3f6355c715cf3e528da53009ed14ef"
@@ -426,7 +2482,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ArmyCamoGreenOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c6216210197b41a1640bf3e24855dac8"
@@ -434,7 +2490,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ArmyCamoGreenROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "449da4b7370b99624f8c1200f1dd56d4"
@@ -442,7 +2498,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ArmyCamoUrbanOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "7d076628ab3d3beb5c17a0c42d1a3595"
@@ -450,7 +2506,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ArmyCamoUrbanOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "8357bbf82dd9dbbec6b6488f407d5fcd"
@@ -458,7 +2514,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ArmyCamoUrbanROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "1776be4bdb10192fdb9fac070bbe10c8"
@@ -466,7 +2522,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_BlackOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "3a9d1fbf4b86d4a719bb3358ebc2b67d"
@@ -474,7 +2530,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_BlackOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d2bc9084e8f954d25eef2ff0deccd2bb"
@@ -482,7 +2538,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_BlackROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "76dae25f6b8aa4875c5b773676dfcd0e"
@@ -490,7 +2546,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_BlackVest",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "608afc1fb97f2cfa9921227ca34e3fb1"
@@ -498,7 +2554,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_BlackVestOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "a6f47df90f15406f516d6902f5779704"
@@ -506,7 +2562,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ChefOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "82f92a13e8349c90ea2cdf8c42158584"
@@ -514,7 +2570,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ChefOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "85ea9dde0d17fde1cc01bc95d7a9ae49"
@@ -522,7 +2578,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_ChefROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "770bd94a7236804d1af62a93979d1fb4"
@@ -530,7 +2586,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_CoatArmyOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "876aac96b9465bae321711df68cbb85c"
@@ -538,7 +2594,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_CoatArmyOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "9336a3e3515d69a1ff296a29021e41d9"
@@ -546,7 +2602,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_CoatArmyROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "58bfed531df2f7788e6ed09143bb47c3"
@@ -554,7 +2610,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_FiremanOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5730c95e9fe82eb5acd0c677144fbc98"
@@ -562,7 +2618,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_FiremanOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c2b78ae1ec8b270f74ed62d854847b5d"
@@ -570,7 +2626,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_FiremanROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "7fe67266d505c1129d500ff2c6c5bacb"
@@ -578,7 +2634,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherBarrelDogsOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "cfcd6d785bf7d10632aa787e2b1d2e29"
@@ -586,7 +2642,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherBarrelDogsOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "250e817d8224015f5ab5ab50bdf63e7f"
@@ -594,7 +2650,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherBarrelDogsROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d6068631099351b2f034ce48ef08607b"
@@ -602,7 +2658,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherBarrelDogsVest",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "9970366b8a09e8746d4df062393cbb2c"
@@ -610,7 +2666,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherBarrelDogsVestOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "44c6a78101bdec306b73e2207f6ef712"
@@ -618,7 +2674,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherIronRodentOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "1e2646760acbb991de3a714f3f9d1e59"
@@ -626,7 +2682,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherIronRodentOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "0fe3676ecea2c2c7ecb9d2602d319146"
@@ -634,7 +2690,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherIronRodentROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d9bd1e96a758d13e4dbe1e2879b5b432"
@@ -642,7 +2698,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherIronRodentVest",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2dab677acacdf34fa4c29deebfbe8f7c"
@@ -650,7 +2706,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherIronRodentVestOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c00082b3bf14dfd80b1ca5dac64ef962"
@@ -658,7 +2714,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherWildRacoonsOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5bf1191ca6f6c7c7ee81ab7617cffee4"
@@ -666,7 +2722,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherWildRacoonsOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5348904b8d32457a74b1b9a4c93c0c93"
@@ -674,7 +2730,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherWildRacoonsROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "15d62e9ff08bd3dcb3a7ee02c891bf2a"
@@ -682,7 +2738,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherWildRacoonsVest",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d3fa8295b3d8c13074653b51037ff982"
@@ -690,7 +2746,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_LeatherWildRacoonsVestOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "38af3f80f703c16300da2e3212d4f52a"
@@ -698,7 +2754,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_NavyBlueOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5e738d39246c27e58b40798c2b214cd2"
@@ -706,7 +2762,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_NavyBlueOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "e9b9b392269786b09c08090b310fb6a7"
@@ -714,7 +2770,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_NavyBlueROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "238fb67c451cb6bdbd4cd2cf089b01e6"
@@ -722,7 +2778,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_PaddedDOWNOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "b38843834c22791838ecb1f1a13cca43"
@@ -730,7 +2786,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_PaddedDOWNOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "6f79de8f45217d7eef2118076c92e3d2"
@@ -738,7 +2794,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_PaddedDOWNROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "79c6518d3bc11ca49c6f175adf3fac41"
@@ -746,7 +2802,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_PaddedOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "1e3ddee7e02ece584d4b3e1d72f91ae5"
@@ -754,7 +2810,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_PaddedOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "fec495cb0d8fbe02babc51d15297ee99"
@@ -762,7 +2818,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_PaddedROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "965b464e08eaf3511d79a366d8702a9b"
@@ -770,7 +2826,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_PoliceOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "4eb302a96ecb81f8d8cbbc1a96cb3843"
@@ -778,7 +2834,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_PoliceOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5f505bde6b8ac3e53fd1caf7e264f98d"
@@ -786,7 +2842,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_PoliceROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "4d0f993d39fadba3962e71ecf2ec0d59"
@@ -794,7 +2850,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_RangerOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "29f4051a12f4d07c3959d3e197458ae5"
@@ -802,7 +2858,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_RangerOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f1228c3d2947ccebd1b0d2c3e0046345"
@@ -810,7 +2866,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_RangerROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "787673a7221cf445beb3014d9561f6f9"
@@ -818,7 +2874,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_BlackOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "db4639fb35e9ff862994240dba3a2393"
@@ -826,7 +2882,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_BlackOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "bc5839c67943bd62608c655d5378b00e"
@@ -834,7 +2890,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_BlackROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "ea5325cb8c763ec9d391e93d328e4b51"
@@ -842,7 +2898,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_BlueOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f8071ad6103182a7d0fb498143f7cc89"
@@ -850,7 +2906,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_BlueOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d43745531302612d26270647871b6f05"
@@ -858,7 +2914,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_BlueROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "966bb1036135eaed58798d8a25772f59"
@@ -866,7 +2922,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_GreenOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "47690331b138d02b3e9c2649f63f76c2"
@@ -874,7 +2930,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_GreenOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "1227f8f7c773ecd9a5cad642402d7c33"
@@ -882,7 +2938,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_GreenROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "06afe932ddc925beed2e9b97e8f981ae"
@@ -890,7 +2946,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_PinkOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f9f3d1a6b7f9bad168277720d25625ff"
@@ -898,7 +2954,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_PinkOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "a55e8446f8d8f63fd736597f9642bf4a"
@@ -906,7 +2962,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_PinkROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "0212c3b4c741eb864616c6234159a063"
@@ -914,7 +2970,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_TINTOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "680b78655e03976833fc43adf5927104"
@@ -922,7 +2978,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_TINTOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "1fde2d9887259f24e978f83bb44145a7"
@@ -930,7 +2986,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_TINTROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "3af7d5953a24dc21002a2f613f1221c1"
@@ -938,7 +2994,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_TealOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "b91a6a7d6a35e4558f10ff866d2748cc"
@@ -946,7 +3002,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_TealOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "e9b4adb42174c37a0b36dc4e9384d903"
@@ -954,7 +3010,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_Shellsuit_TealROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2215fbc2485b75b7cc3fd823addca946"
@@ -962,7 +3018,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_VarsityOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "250716f90781c3f3c428630ce70c4977"
@@ -970,7 +3026,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_VarsityOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "10a1a71c4b44ee91593370c4f1774a14"
@@ -978,7 +3034,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_VarsityROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5ae66ab287a016f42771c3fb4b9cd1e8"
@@ -986,7 +3042,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_WhiteOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "cc23ac2cb7193ed9f4738b4c6582444a"
@@ -994,7 +3050,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_WhiteTINTOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "6e3b6f05f5fc1277b983f159127cd3d2"
@@ -1002,7 +3058,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_WhiteTINTOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "873d4d70aeb7a74086e9f0366c6a7185"
@@ -1010,7 +3066,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jacket_WhiteTINTROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2b7b6ddc0ab22b700c236e4a30018f82"
@@ -1018,7 +3074,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jumper_DiamondPatternTINTROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "9e3c0c32fbc633fd6a33948196a3ee68"
@@ -1026,7 +3082,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jumper_DiamondPatternTINTTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "19801c31e21b647665b6a719299df9d5"
@@ -1034,7 +3090,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jumper_PoloNeckROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "71bc24b64a3022a31713a846a7d820f6"
@@ -1042,7 +3098,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jumper_PoloNeckTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "7b80935145fd41de44a58ae31ae9527d"
@@ -1050,7 +3106,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jumper_RoundNeckROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f250068f5291e9eb960fa8952a7272c6"
@@ -1058,7 +3114,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jumper_RoundNeckTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "6a0d93586e8d50a17228bb2a181c9e3b"
@@ -1066,7 +3122,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jumper_VNeckROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f8c3c048076a9296a317c95fb5f737b6"
@@ -1074,7 +3130,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Jumper_VNeckTIED",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f0ebb53d623b61a4f7cddef9f4f8d1a9"
@@ -1082,7 +3138,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Baseball_KYOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "7a1574f4d4a8d1e423e2fb82d84993c1"
@@ -1090,7 +3146,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Baseball_RangersOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "457f5a67cbb6ad86549c782806c38e2c"
@@ -1098,7 +3154,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Baseball_ZOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "935b40c0cc1d470e0afd5b3bbc2ceed4"
@@ -1106,7 +3162,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Bowling_BlueOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d9b7efa6cd78f8e934c7668569be8a91"
@@ -1114,7 +3170,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Bowling_BrownOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "9bd10223ebb2ab0e680a69c6d789ab10"
@@ -1122,7 +3178,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Bowling_GreenOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "81bead976059c6c7562b330fcb7257ce"
@@ -1130,7 +3186,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Bowling_LimeGreen",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2a6300df96c33e7b7a574fe664a21b63"
@@ -1138,7 +3194,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Bowling_LimeGreenOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "73d46601f24a3090aa97d27adcfc9848"
@@ -1146,7 +3202,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Bowling_Pink",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "0cc85702c0a486890b0339680aabedcd"
@@ -1154,7 +3210,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Bowling_PinkOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "68f6c692fc58349bac781089d782d9a9"
@@ -1162,7 +3218,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Bowling_White",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "4940a04452f2b342f3c3ff2965a88a2c"
@@ -1170,7 +3226,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Bowling_WhiteOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2dcfe0d8e31e04456e35da5e5ecf7b0f"
@@ -1178,7 +3234,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CamoDesertOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "ae2b8d5087ad78088e56808f1476f7e7"
@@ -1186,7 +3242,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CamoDesertOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "8bb1065027970a17f99ca6ed4402398d"
@@ -1194,7 +3250,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CamoDesertROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "31572191a235da8f7f4a8e0cbc5940e1"
@@ -1202,7 +3258,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CamoGreenOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "7d922f820ec1a10177040c9a3dada716"
@@ -1210,7 +3266,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CamoGreenOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "4200938c319dd99a3b509f4e8835739a"
@@ -1218,7 +3274,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CamoGreenROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "404ea6d3aad8ba5869d090fd09db5c0e"
@@ -1226,7 +3282,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CamoUrbanOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d3480e73bfc090c492e57a1064ba4a1b"
@@ -1234,7 +3290,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CamoUrbanOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "75bff8471ebc4f3e072aaee06f6a2f89"
@@ -1242,7 +3298,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CamoUrbanROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "366111f24a462dbd0af54047211a5618"
@@ -1250,7 +3306,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CropTopNoArmTINTOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c374f1ab80917600b46e6633ed8c39e8"
@@ -1258,7 +3314,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CropTopNoArmTINTOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "16a5cb219706a2b7e48d7789d9c97e4f"
@@ -1266,7 +3322,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CropTopTINTOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "931fbeb0eec350b9c26e799b1b332804"
@@ -1274,7 +3330,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_CropTopTINTOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f97179ee1e7ed75be41d595a8c181953"
@@ -1282,7 +3338,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_DenimOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2048f5f8cb348c1824fe38c44a30b453"
@@ -1290,7 +3346,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_DenimOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "98f5a6c0543790684caa83df009eb873"
@@ -1298,7 +3354,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_DenimROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f9591b8e3f482a023ed8c066e7ed4776"
@@ -1306,7 +3362,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_DenimVest",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "646ef2fec7a248461b06e2d5e3c608f7"
@@ -1314,7 +3370,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_DenimVestOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "6bb76385e60d81d8239b05d3461f677d"
@@ -1322,7 +3378,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalTINTOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "49d9cce21b90856d598645a6b8e03f4e"
@@ -1330,7 +3386,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalTINTOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "074f48e13af04b9ccb3c1d7d30114687"
@@ -1338,7 +3394,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalTINTROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5291827c5f3eaa648f9f62190cce47b2"
@@ -1346,7 +3402,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalWhiteOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c9822a35a183be27501042878c741e3a"
@@ -1354,7 +3410,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalWhiteOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2b80d41a1e60ecbf028fdb088ccb6251"
@@ -1362,7 +3418,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalWhiteROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "991414b5550b44618b0d2188adc3be83"
@@ -1370,7 +3426,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalWhite_ShortSleeveOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "25ae7916de4ea43355c6ed2d33e79e38"
@@ -1378,7 +3434,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalWhite_ShortSleeveOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "176acfb9c9c2e463908029d4669761fb"
@@ -1386,7 +3442,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalWhite_ShortSleeveROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f1dce977863a173bb5f2ca5029dac45c"
@@ -1394,7 +3450,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalWhite_ShortSleeveTINTOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f3d2652412ac16df51de53683c350648"
@@ -1402,7 +3458,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalWhite_ShortSleeveTINTOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c38ff2d379cc12f2f35597bad88dfa22"
@@ -1410,7 +3466,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_FormalWhite_ShortSleeveTINTROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "305e8529a13cfc463838ee388aef7969"
@@ -1418,7 +3474,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_HawaiianRedOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2ef0183087f3e2d549092a3cbe2a730a"
@@ -1426,7 +3482,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_HawaiianRedOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "8d7b6ff4be84343deacc64fb091a575d"
@@ -1434,7 +3490,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_HawaiianRedROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "05c65376ae498c78cf40e0790c06bf52"
@@ -1442,7 +3498,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_HawaiianTINTOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "a2da120ef0e7a549e8281df3ad0fd138"
@@ -1450,7 +3506,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_HawaiianTINTOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "48a6606d3c49cbcf40e2a473642e6e09"
@@ -1458,7 +3514,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_HawaiianTINTROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f44df5b895f9556eeb2ae5b3d4f15052"
@@ -1466,7 +3522,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey01OPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5f7906aa8bcbc5c63e9f48ab9c3b23bc"
@@ -1474,7 +3530,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey01OPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d693e06d0585f6409279441826ee89f7"
@@ -1482,7 +3538,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey01ROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "7ffadab0078f01017923f54e760dd7a3"
@@ -1490,7 +3546,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey02OPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "bc3060300b7e12eac752a6f349b241b7"
@@ -1498,7 +3554,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey02OPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "e313acce6954e65bb16687d8027caebf"
@@ -1506,7 +3562,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey02ROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2a52e861418b8db4c520dd5de3557d30"
@@ -1514,7 +3570,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey03OPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5caa3723aaeca0a0c6ae946374af8ff2"
@@ -1522,7 +3578,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey03OPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c0b4adc1be4e4b35a866bc729a9696bf"
@@ -1530,7 +3586,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey03ROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "217352f53136c60a869749fa10fa7823"
@@ -1538,7 +3594,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey04OPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "66f76a87114f0623b7fe03d4034d69cc"
@@ -1546,7 +3602,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey04OPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "76d2ff5e8c198c2e11604444e68d7b36"
@@ -1554,7 +3610,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey04ROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "19c6b3361b270783b513095eae204e57"
@@ -1562,7 +3618,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey05OPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "37a211d7e09a4643bbc02c80b9c23c01"
@@ -1570,7 +3626,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey05OPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c622cf945b32c5f310ec1430a93afe0d"
@@ -1578,7 +3634,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey05ROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2c4f18c23a3c9a7e7f5532f3d3542a28"
@@ -1586,7 +3642,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey06OPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "80a97a6a2397194989b643f6f9f0fa9e"
@@ -1594,7 +3650,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey06OPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "884f1660fe3e621601c0900c5b800299"
@@ -1602,7 +3658,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_Jockey06ROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "10f15d650f8183f7d30ebaf5173488b0"
@@ -1610,7 +3666,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_LumberjackOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "13d4e967a56aca3737ad26e3ed4e58ac"
@@ -1618,7 +3674,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_LumberjackOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "1b662ece8d03c29875c3a4f808f7d8c8"
@@ -1626,7 +3682,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_LumberjackROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "4d055214614a83681a841f00b2d00237"
@@ -1634,7 +3690,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_LumberjackVest",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "53fd636723df00f3dbdd1b763cb51dfd"
@@ -1642,7 +3698,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_LumberjackVestOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5cd0d9fcaae5007ae1ff36184ff1ffbf"
@@ -1650,7 +3706,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_OfficerWhiteOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f98d80a558fe73c735a670d58442b86e"
@@ -1658,7 +3714,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_OfficerWhiteOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "708fdbe98062325f8770b2118d336edd"
@@ -1666,7 +3722,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_OfficerWhiteROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "cff262a561e649a98e5e418bc1297b73"
@@ -1674,7 +3730,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PoliceBlueOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "039a1c44beb80c09a6f235dab16c2be8"
@@ -1682,7 +3738,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PoliceBlueOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "ed6ad4fac6eb817b551fc1096ea3a0bf"
@@ -1690,7 +3746,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PoliceBlueROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "85c4d0ed12392ea98dc224f5b36376f2"
@@ -1698,7 +3754,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PoliceGreyOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "200f09c2465925eecb84cc8b47d6a3c2"
@@ -1706,7 +3762,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PoliceGreyOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "9c8d2f885d7d30d14b8d4b7464250a09"
@@ -1714,7 +3770,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PoliceGreyROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d65a7e2477b0f8d75d87704f3be1a78d"
@@ -1722,7 +3778,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PriestOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "fb8313074e8dcd95a5a308b1757b47d3"
@@ -1730,7 +3786,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PriestOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "fa81d1ebd162f8ab289b4ee712db74e6"
@@ -1738,7 +3794,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PriestROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "137129330ab6d1e0245ad1011e2cb26e"
@@ -1746,7 +3802,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PrisonGuardOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "fc644c52d8dfb6884d775bfb400d46eb"
@@ -1754,7 +3810,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PrisonGuardOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "9bc834906008ee065de664fe3da7eb9c"
@@ -1762,7 +3818,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_PrisonGuardROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "bcf86b68aa29a2f7e964fe4f48bcc1b0"
@@ -1770,7 +3826,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_RangerOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5ee2d0b61374e704e36434e96762b20a"
@@ -1778,7 +3834,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_RangerOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d990937e3224609d56b502e6178e0520"
@@ -1786,7 +3842,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_RangerROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f9db3ef021d18edcfc7c3981e5ff3e36"
@@ -1794,7 +3850,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_ScrubsOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "02a34fa5f769e8366f0bae1854bef33b"
@@ -1802,7 +3858,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_ScrubsROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "86955ad01c46e340c0a02e95afc98646"
@@ -1810,7 +3866,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_WorkmanOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "22c317ec7dd05ed5b367002920e67452"
@@ -1818,7 +3874,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_WorkmanOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "2a91393059201cbd75cebd4fd179ec47"
@@ -1826,7 +3882,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Shirt_WorkmanROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "5eb4972371c33d3416308ee8d73253c4"
@@ -1834,7 +3890,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Suit_JacketOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "be322c369b1254c45c4ce741852ec955"
@@ -1842,7 +3898,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Suit_JacketOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "cbc416b78d6e53dc9331973fb32a0071"
@@ -1850,7 +3906,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Suit_JacketROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c826be5ee0b4d89bbab378f8f6a9dd6d"
@@ -1858,7 +3914,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Suit_JacketTINTOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "6c693a5fd5cb11898ab1c261ea8abe27"
@@ -1866,7 +3922,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Suit_JacketTINTOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "79a4164c51e479bc76b27ad46cd185db"
@@ -1874,7 +3930,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Suit_JacketTINTROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "89fa0be08698a3656534a981545f756d"
@@ -1882,7 +3938,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.TrousersMesh_DenimLightTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "cea87ee95698ae8ac33b5532a945977c"
@@ -1890,7 +3946,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.TrousersMesh_LeatherTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "3f368b0c6ebf1e46e15f9f8bae46a590"
@@ -1898,7 +3954,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.TrousersTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "518e31395687933adf4bd39b093656f9"
@@ -1906,7 +3962,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_ArmyServiceTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c0f03df33950b1b8cc2965be4314f12f"
@@ -1914,7 +3970,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_BlackTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "588914d5f1067e7350d03e841cce03f6"
@@ -1922,7 +3978,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_CamoDesertTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "d734b12ad3b53a1d98ebc025036ee7ea"
@@ -1930,7 +3986,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_CamoGreenTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "6f490cae6bbc2f3eb4a10d7771e194bc"
@@ -1938,7 +3994,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_CamoUrbanTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "655c38fb1d6660910dd6610d4962ced4"
@@ -1946,7 +4002,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_ChefTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "39a3c1c39a69e2ae2fefe9b5651c203d"
@@ -1954,7 +4010,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_DenimTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "ea23e125f03bc43a15972a6de5573432"
@@ -1962,7 +4018,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_FiremanTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "57cea4f9b45765d5ad6096be14c316db"
@@ -1970,7 +4026,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_JeanBaggyTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "e83caaea33744d1746a7f020e1903c72"
@@ -1978,7 +4034,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_LeatherBlackTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "b820a406e946c14ee75f5c9b4cebc779"
@@ -1986,7 +4042,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_NavyBlueTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "94ca132e0fe905662f5479020a557747"
@@ -1994,7 +4050,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_PaddedTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "cec853358b1ada4abb21f8b74e0719a3"
@@ -2002,7 +4058,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_PoliceGreyTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "58c453c427f6d0bb704205169c55322c"
@@ -2010,7 +4066,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_PoliceTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "e581453e91f72ab09497960cfc90601f"
@@ -2018,7 +4074,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_PrisonGuardTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "78b917b6ddc4ca05d5fbb0c5e0fdae2f"
@@ -2026,7 +4082,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_RangerTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "804a59aa4724b6e9e798c235edbc67c4"
@@ -2034,7 +4090,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_SantaGReenTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c8db35435eab17f641d8badf3ef54782"
@@ -2042,7 +4098,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_SantaTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "b3235caa834eab0e04f4d4544c7800cd"
@@ -2050,7 +4106,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_ScrubsTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "4da245fabbe9249e9be8600d1ecb2a1f"
@@ -2058,7 +4114,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_Shellsuit_BlackTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "6e6c056e57fb3e0168d209c1634fb612"
@@ -2066,7 +4122,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_Shellsuit_BlueTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "ac0cdaaac58795ee00e921d9a164c6f2"
@@ -2074,7 +4130,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_Shellsuit_GreenTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "e4ebe01e51810a35e2627cfe8556cd48"
@@ -2082,7 +4138,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_Shellsuit_PinkTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "78e91dc51bfa5914ba2dddd9de31a1ec"
@@ -2090,7 +4146,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_Shellsuit_TINTTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "0b94ed9a9781234fdf0f51016e65dce0"
@@ -2098,7 +4154,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_Shellsuit_TealTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "bd5aedc8d9d3a6c920e9f9dd306b364d"
@@ -2106,7 +4162,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_SuitTEXTURETUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "c690165a4432fa941b795da769ee3f4d"
@@ -2114,7 +4170,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_SuitTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "e01423d8dd3ed1e712b4fbcbf8cf7749"
@@ -2122,7 +4178,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_SuitWhiteTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "ae619a72f3dc0bcb02a5e3ad97021423"
@@ -2130,7 +4186,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Trousers_WhiteTINTTUCK",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "6eac9cce815234eb63a376bc3ec572e0"
@@ -2138,7 +4194,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Tshirt_CamoDesertROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "6080c548f7efc170cfde80cd4c949b82"
@@ -2146,7 +4202,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Tshirt_CamoGreenROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "0dde80b2900785fba83055dd136c60bd"
@@ -2154,7 +4210,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Tshirt_CamoUrbanROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "1a7a3af73158ae20e4b631ad67ecbabb"
@@ -2162,7 +4218,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Tshirt_PoliceBlueOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "592fdef5f0bc326e39cd8e42bd8d6b96"
@@ -2170,7 +4226,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Tshirt_PoliceGreyOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "ddd9b4d2f6eafa4ba3ca8039579352d5"
@@ -2178,7 +4234,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Tshirt_RangerOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "264c21ddf2a6678fb4eb5d0bb1e51f80"
@@ -2186,7 +4242,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Tshirt_WhiteLongSleeveROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "553ba445f6f81fb5e9043cc46b391aa7"
@@ -2194,7 +4250,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.Tshirt_WhiteLongSleeveTINTROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "f2e9b27db4f7580fb066eca68c7de472"
@@ -2202,7 +4258,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.WeddingJacketOPEN",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "1f670594b2ed7932e785829e7bbf61db"
@@ -2210,7 +4266,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.WeddingJacketOPENROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "88a786a64fe0958f758eeb6800abd204"
@@ -2218,7 +4274,7 @@
   {
     "mod_id": "2812326159",
     "translation_key": "ItemName_Base.WeddingJacketROLL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T05:35:17.9633305Z",
     "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
     "source_hash": "87f21ce8a039956b0fc428b80936e0f0"
@@ -2227,72 +4283,72 @@
     "mod_id": "2812326159",
     "translation_key": "Recipe_ConvertShirtDenimIntoVest",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.7369328Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "cbc32b4082a23735f19c23f4a3176736"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "Recipe_ConvertShirtLumberjackIntoVest",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.7369338Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "b0ddf587125fbef16df2aac0277e8573"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "Recipe_Make_Flight_Jacket_Vest",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
+    "last_seen_at": "2026-07-30T10:28:29.7369344Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
     "source_hash": "8688a685ec05a01a1562b83ec193336a"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "Recipe_Make_Jacket_BlackVest",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
-    "source_hash": "effad1e9d359457b6c130239167555b9"
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "f021bb6c4d819e3e0c6111bf837865a1"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "Recipe_Make_Jacket_LeatherBarrelDogsVest",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
-    "source_hash": "9347d2cffe03be600ea5bbd856905ba8"
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "18dd7b26a007f9d3ade37d41410fed64"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "Recipe_Make_Jacket_LeatherIronRodentVest",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
-    "source_hash": "28bb75561e30ea9c1d6f65e7fd4c4d2e"
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "1d84414a7a48f408f0993f287876cbf2"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "Recipe_Make_Jacket_LeatherWildRacoonsVest",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
-    "source_hash": "eb3145f43635c3fa8850cc9142ab6b1c"
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "3693d8c86c0a9c8dc9a571147d280aed"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "Recipe_Make_Shirt_DenimVest",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
-    "source_hash": "8a788767efc3cbfe505e629ebeccca79"
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "4cdd18cee134f0a2df6c909e7bd0f5c1"
   },
   {
     "mod_id": "2812326159",
     "translation_key": "Recipe_Make_Shirt_LumberjackVest",
     "is_active": true,
-    "last_seen_at": "2026-06-30T05:35:17.9633305Z",
-    "last_seen_mod_updated": "2025-12-31T05:17:30.0000000Z",
-    "source_hash": "3e18db394949fedf0ac949cb3541d1cb"
+    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
+    "last_seen_mod_updated": "2026-07-29T07:24:52.0000000Z",
+    "source_hash": "ba2abb0cb3ebadb002314f19774c8877"
   }
 ]

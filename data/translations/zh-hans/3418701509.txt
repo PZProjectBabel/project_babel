@@ -108,12 +108,16 @@ Sandbox_ElectricWeapon::en = "MadCrafter Setting",
 Sandbox_ElectricWeapon::zh-hans::unprocessed::unverified = "MadCrafter Setting",
 Sandbox_ElectricWeapon_MalfunctionFactor::en = "Malfunction Factor",
 Sandbox_ElectricWeapon_MalfunctionFactor::zh-hans::unprocessed::unverified = "电击武器故障系数",
-Sandbox_ElectricWeapon_MalfunctionFactor_tooltip::en = "",
-Sandbox_ElectricWeapon_MalfunctionFactor_tooltip::zh-hans::unprocessed::unverified = "",
+Sandbox_ElectricWeapon_MalfunctionFactor_tooltip::en = "Adjust the Malfunction Factor of Electrified Weapons.
+ Higher values increase malfunction chances.",
+Sandbox_ElectricWeapon_MalfunctionFactor_tooltip::zh-hans::unprocessed::unverified = "调整电击武器故障系数。
+数字越大越容易故障",
 Sandbox_ElectricWeapon_PowerConsumptionFactor::en = "Battery Consumption Factor",
 Sandbox_ElectricWeapon_PowerConsumptionFactor::zh-hans::unprocessed::unverified = "电池消耗系数",
-Sandbox_ElectricWeapon_PowerConsumptionFactor_tooltip::en = "",
-Sandbox_ElectricWeapon_PowerConsumptionFactor_tooltip::zh-hans::unprocessed::unverified = "",
+Sandbox_ElectricWeapon_PowerConsumptionFactor_tooltip::en = "Adjust the battery consumption rate of electrified weapons.
+ The higher the number, the faster the power drains.",
+Sandbox_ElectricWeapon_PowerConsumptionFactor_tooltip::zh-hans::unprocessed::unverified = "调整电击武器的电量消耗速度。
+数字越大越耗电",
 Tooltip_ElectricWeapon_Charge::en = "Power Level: ",
 Tooltip_ElectricWeapon_Charge::zh-hans::unprocessed::unverified = "电量: ",
 Tooltip_ElectricWeapon_MalfunctionRisk::en = "Malfunction Risk: ",

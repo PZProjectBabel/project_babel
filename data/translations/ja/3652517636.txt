@@ -14,6 +14,14 @@ ContextMenu_TankWater_ConnectOutputHose::en = "Connect output hose to motor",
 ContextMenu_TankWater_ConnectOutputHose::ja::processed::unverified = "出力ホースをモーターに接続",
 ContextMenu_TankWater_Container::en = "Container",
 ContextMenu_TankWater_Container::ja::processed::unverified = "容器",
+ContextMenu_TankWater_Debug::en = "Tank Water - Debug",
+ContextMenu_TankWater_Debug::ja::processed::unverified = "タンク水 - デバッグ",
+ContextMenu_TankWater_DebugAddWater::en = "Add water",
+ContextMenu_TankWater_DebugAddWater::ja::processed::unverified = "水を追加",
+ContextMenu_TankWater_DebugAmount::en = "Water amount",
+ContextMenu_TankWater_DebugAmount::ja::processed::unverified = "水量",
+ContextMenu_TankWater_DebugCustomAmount::en = "Custom amount",
+ContextMenu_TankWater_DebugCustomAmount::ja::processed::unverified = "カスタム数量",
 ContextMenu_TankWater_DisconnectFixtureOutlet::en = "Disconnect tank outlet",
 ContextMenu_TankWater_DisconnectFixtureOutlet::ja::processed::unverified = "タンクの出口を切断",
 ContextMenu_TankWater_DisconnectHose::en = "Disconnect transfer hose",
@@ -22,6 +30,8 @@ ContextMenu_TankWater_DisconnectIntakeHose::en = "Disconnect intake hose",
 ContextMenu_TankWater_DisconnectIntakeHose::ja::processed::unverified = "吸入口ホースを切断",
 ContextMenu_TankWater_DisconnectOutputHose::en = "Disconnect output hose",
 ContextMenu_TankWater_DisconnectOutputHose::ja::processed::unverified = "出力ホースを切断",
+ContextMenu_TankWater_DismantlePump::en = "Dismantle motor pump",
+ContextMenu_TankWater_DismantlePump::ja::processed::unverified = "モーターポンプを解体",
 ContextMenu_TankWater_Drink::en = "Drink",
 ContextMenu_TankWater_Drink::ja::processed::unverified = "飲む",
 ContextMenu_TankWater_EmptyTank::en = "Empty tank",
@@ -84,8 +94,17 @@ ContextMenu_TankWater_RuntimeOff::en = "off",
 ContextMenu_TankWater_RuntimeOff::ja::processed::unverified = "オフ",
 ContextMenu_TankWater_SelectTank::en = "Select Tank",
 ContextMenu_TankWater_SelectTank::ja::processed::unverified = "タンクを選択",
-ContextMenu_TankWater_StartupNotice::en = "",
-ContextMenu_TankWater_StartupNotice::ja::processed::unverified = "",
+ContextMenu_TankWater_StartupNotice::en = "Tank Water important notice:
+
+1) This mod is incompatible with:
+- SkillRecoveryJournal
+- LazoloDynamicBackpackUpgrades
+- StarlitLibrary
+Using them together can cause errors.
+
+2) After the latest update, old water tanks must be picked up
+and placed on the ground again to migrate to the new system.",
+ContextMenu_TankWater_StartupNotice::ja::processed::unverified = "Tank Water 重要なお知らせ： 1) このMODは以下と互換性がありません： - SkillRecoveryJournal - LazoloDynamicBackpackUpgrades - StarlitLibrary これらを一緒に使用するとエラーが発生する可能性があります。 2) 最新アップデート後、古いウォータータンクは拾って地面に再度設置し、新しいシステムに移行する必要があります。",
 ContextMenu_TankWater_StatusConnected::en = "Connected",
 ContextMenu_TankWater_StatusConnected::ja::processed::unverified = "接続済み",
 ContextMenu_TankWater_StatusNotConnected::en = "Not Connected",
@@ -212,20 +231,34 @@ TankWater_UI_RequiredSkillsValue::en = "Electricity 1 | Mechanics 2 | or Generat
 TankWater_UI_RequiredSkillsValue::ja::processed::unverified = "電気1 | 機械2 | または発電機",
 TankWater_UI_RequiredTools::en = "Required Tools: Vise Grips + Screwdriver",
 TankWater_UI_RequiredTools::ja::processed::unverified = "必要なツール: バイスグリップ + ドライバー",
-Tooltip_TankWater_CleanTankUntreated::en = "",
-Tooltip_TankWater_CleanTankUntreated::ja::processed::unverified = "",
+Tooltip_TankWater_CleanTankUntreated::en = "Tank contains clean water.
+Drain tank before filling with untreated water.",
+Tooltip_TankWater_CleanTankUntreated::ja::processed::unverified = "タンクには清浄な水が入っています。未処理の水を入れる前にタンクを排水してください。",
 Tooltip_TankWater_FilterDepleted::en = "Filter depleted. Replace filter cartridge.",
 Tooltip_TankWater_FilterDepleted::ja::processed::unverified = "フィルターが消耗しました。フィルターカートリッジを交換してください。",
 Tooltip_TankWater_NoPumpNearby::en = "No pumps nearby.",
 Tooltip_TankWater_NoPumpNearby::ja::processed::unverified = "近くにポンプがありません。",
 Tooltip_TankWater_NoTankNearby::en = "No tanks nearby.",
 Tooltip_TankWater_NoTankNearby::ja::processed::unverified = "近くにタンクがありません。",
+Tooltip_TankWater_PumpDismantleRequirements::en = "Requires:
+- Vise Grips
+- Screwdriver
+Grants: 10 Mechanics XP.",
+Tooltip_TankWater_PumpDismantleRequirements::ja::processed::unverified = "必要： - バイスグリップ - ドライバー 獲得：整備経験値10",
 Tooltip_TankWater_PumpReady::en = "Ready to start",
 Tooltip_TankWater_PumpReady::ja::processed::unverified = "開始準備完了",
-Tooltip_TankWater_PumpRepairRequirements::en = "",
-Tooltip_TankWater_PumpRepairRequirements::ja::processed::unverified = "",
-Tooltip_TankWater_PumpSkillRequirements::en = "",
-Tooltip_TankWater_PumpSkillRequirements::ja::processed::unverified = "",
+Tooltip_TankWater_PumpRepairRequirements::en = "Requires:
+- Electricity Lv 1
+- Mechanics Lv 2
+- Vise Grips
+- Screwdriver",
+Tooltip_TankWater_PumpRepairRequirements::ja::processed::unverified = "必要： - 電気レベル1 - 整備レベル2 - バイスグリップ - ドライバー",
+Tooltip_TankWater_PumpSkillRequirements::en = "Requires to operate:
+- Electricity Lv 1
+- Mechanics Lv 2
+Or generator knowledge
+(magazine, Electrician or Electricity 3)",
+Tooltip_TankWater_PumpSkillRequirements::ja::processed::unverified = "操作に必要： - 電気レベル1 - 整備レベル2 または発電機の知識（雑誌、電気技師、電気レベル3）",
 Tooltip_TankWater_RequiresCleaningTablets::en = "Requires: cleaning tablets.",
 Tooltip_TankWater_RequiresCleaningTablets::ja::processed::unverified = "必要: 洗浄タブレット。",
 Tooltip_TankWater_RequiresFilterCartridge::en = "Requires: filter cartridge.",

@@ -48,39 +48,7 @@ UI_trait_awesomelockpicking_locksmith::en = "Locksmith",
 UI_trait_awesomelockpicking_locksmith::fr::unprocessed::unverified = "",
 UI_trait_awesomelockpicking_locksmith_desc::en = "",
 UI_trait_awesomelockpicking_locksmith_desc::fr::unprocessed::unverified = "",
-description::en = "==== Added Lockpicking Vehicles! B42.19 Multiplayer Compatible! ====
-
-Please give my mod a thumbs up in workshop if you like it!!
-
-Adds a new skill - Lockpicking! Vanilla style chance based lockpicking action, speed and success affected by skill level.
-
-A horde nearby and you need to get into a building quietly, but its locked and the windows wont open?! Garage door locked with no windows, but you're too weak to break it to access the juicy loot inside? Finally found that big van to haul all your loot but cant find a key, and just really hate breaking car windows? Well, now with the right tools you can quietly open doors without the key, with some patience and luck!
-
-Right click a door. In the context menu, there will be a new option for lockpicking the door. You can use a paperclip and screwdriver, but the paperclip may break on failure. The vehicle V context wheel now has a lockpicking option for driver, front passenger, and trunk doors if they are locked and you have a lockpicking tool.
-
-I have added a couple of unique items to help!
-- A craftable Forged Lockpicking Tool Set - Improves lockpicking success chance over paperclip and screwdriver. Can be crafted at any forge with two small metal pieces with at least Lockpicking level 1 and Blacksmithing level 2. Recipe unlocks at Lockpicking level 3 and Blacksmithing level 4.
-- A rare lootable Professional Lockpicking Tool Set - Highest success chance bonus. Can be researched to unlock forged set with at least level 1 in Lockpicking or Blacksmithing.
-
-Each of the lockpicking set items have durability, with the professional set lasting significantly longer.
-
-New Trait: Locksmith - Gives the player lockpicking +2 and a +75% XP bonus.
-
-New Profession: Master Locksmith - Start with a set of professional lockpicking tools! Gives the Locksmith trait and an additional +2 Lockpicking with 2 points left to spend.
-
-The mod also adds a set of skill books for the new skill.
-
-Sandbox Options for success chance multipliers and whether to allow lockpicking of high security doors, vehicles, and player built doors.
-
-UPDATE: Complete overhaul of server-client network code. Added lockpicking vehicles. Adjusted lockpicking chances down a bit. (hopefully) fixed issues with not recieving XP.
-
-Note on success chances: Please let me know if the chances feel too low, but it should be difficult with poor tools at low levels, so lockpicking feels like something that requires an investment to be convenient. If it feels to low to you you can also increase the success chance multiplier a bit. It is multiplicitave on the percent chance so try 1.2 or so first.
-
-Coming Soon: +1 Lockpicking with Burglar occupation, 3d models for lockpicking tool items and better icons. Possibly for future: Auto-retry option to continuously pick lock until success or tool broken. lockpicking larger gates >1 tile.
-
-Mod Poster art commissioned from Smallishbat at @smallishbat (discord username) and https://smallishbat.itch.io/. He is open for commissions.
-
-Note: Not recommended to use this mod with any other lockpicking mod. In my tests it DOES work with existing saves but I reccomend making a backup before adding just in case.",
+description::en = "",
 description::fr::unprocessed::unverified = "",
 name::en = "Awesome Lockpicking",
 name::fr::unprocessed::unverified = "",

@@ -92,29 +92,41 @@ IGUI_BusStop_prot_start::en = "Arrival protection active.",
 IGUI_BusStop_prot_start::zh-hans::processed::unverified = "抵达保护已激活。",
 IGUI_BusStop_sound_label::en = "Sound:",
 IGUI_BusStop_sound_label::zh-hans::processed::unverified = "声音:",
-IGUI_BusStop_tip_avail_no::en = "",
+IGUI_BusStop_tip_avail_no::en = "Stop is hidden from the
+player destination list.",
 IGUI_BusStop_tip_avail_no::zh-hans::processed::unverified = "站点已从玩家目的地列表中隐藏。",
-IGUI_BusStop_tip_avail_yes::en = "",
+IGUI_BusStop_tip_avail_yes::en = "Stop appears as a destination
+for all players.",
 IGUI_BusStop_tip_avail_yes::zh-hans::processed::unverified = "站点作为目的地显示给所有玩家。",
-IGUI_BusStop_tip_coords::en = "",
+IGUI_BusStop_tip_coords::en = "World coordinates set when
+the stop was placed. Read-only.",
 IGUI_BusStop_tip_coords::zh-hans::processed::unverified = "设置站点时设定的世界坐标。只读。",
-IGUI_BusStop_tip_delete::en = "",
+IGUI_BusStop_tip_delete::en = "Permanently remove this stop
+from the world.",
 IGUI_BusStop_tip_delete::zh-hans::processed::unverified = "从世界中永久移除该站点。",
-IGUI_BusStop_tip_dynamic::en = "",
+IGUI_BusStop_tip_dynamic::en = "Price = (Base + dist x PricePerTile) x mult.
+Scales with travel distance.",
 IGUI_BusStop_tip_dynamic::zh-hans::processed::unverified = "价格 = (基础价 + 距离 x 每格价格) x 倍数。随距离缩放。",
-IGUI_BusStop_tip_fixed::en = "",
+IGUI_BusStop_tip_fixed::en = "Price = Base Price x multiplier.
+Ignores distance.",
 IGUI_BusStop_tip_fixed::zh-hans::processed::unverified = "价格 = 基础价格 x 倍数。忽略距离。",
-IGUI_BusStop_tip_free::en = "",
+IGUI_BusStop_tip_free::en = "Travel to this stop is always
+free, ignoring distance and multiplier.",
 IGUI_BusStop_tip_free::zh-hans::processed::unverified = "前往该站点始终免费, 忽略距离和倍数。",
-IGUI_BusStop_tip_goto::en = "",
+IGUI_BusStop_tip_goto::en = "Teleport yourself to
+this stop's location.",
 IGUI_BusStop_tip_goto::zh-hans::processed::unverified = "将自己传送到该站点位置。",
-IGUI_BusStop_tip_mult::en = "",
+IGUI_BusStop_tip_mult::en = "Multiplies the final fare.
+1.0 = standard | 0.5 = half | 2.0 = double",
 IGUI_BusStop_tip_mult::zh-hans::processed::unverified = "乘以最终费用。1.0 = 标准 | 0.5 = 半价 | 2.0 = 双倍",
-IGUI_BusStop_tip_name::en = "",
+IGUI_BusStop_tip_name::en = "Name shown to players in the
+travel UI and on the map.",
 IGUI_BusStop_tip_name::zh-hans::processed::unverified = "在旅行界面和地图上向玩家显示的名称。",
-IGUI_BusStop_tip_rr_no::en = "",
+IGUI_BusStop_tip_rr_no::en = "No return trip is granted
+for this stop.",
 IGUI_BusStop_tip_rr_no::zh-hans::processed::unverified = "此站点不提供回程。",
-IGUI_BusStop_tip_rr_yes::en = "",
+IGUI_BusStop_tip_rr_yes::en = "Players who travel TO this stop get
+a free return trip valid for 1 in-game day.",
 IGUI_BusStop_tip_rr_yes::zh-hans::processed::unverified = "前往此站点的玩家可获得一次免费回程, 有效期为1个游戏日。",
 IGUI_BusStop_tip_save::en = "Save all field changes to the server.",
 IGUI_BusStop_tip_save::zh-hans::processed::unverified = "将所有字段更改保存到服务器。",

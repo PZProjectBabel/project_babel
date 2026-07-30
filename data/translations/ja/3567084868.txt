@@ -4,6 +4,8 @@ UI_ServerSettings_AddSpawnRegion::en = "Add an available spawn region to the lis
 UI_ServerSettings_AddSpawnRegion::ja::processed::unverified = "利用可能なスポーン地域をリストに追加:",
 UI_ServerSettings_SpawnRegions::en = "Spawn Regions used by this server:",
 UI_ServerSettings_SpawnRegions::ja::processed::unverified = "このサーバーで使用されるスポーン地域:",
+UI_alertSystem_noUpdates::en = "No mod updates in the last two weeks.",
+UI_alertSystem_noUpdates::ja::processed::unverified = "過去2週間、Modの更新はありません。",
 UI_btn_deleteAll::en = "DELETE ALL",
 UI_btn_deleteAll::ja::processed::unverified = "すべて削除",
 UI_btn_select::en = "SELECT",
@@ -180,8 +182,12 @@ UI_modpresets_presetsTab::en = "PRESETS",
 UI_modpresets_presetsTab::ja::processed::unverified = "プリセット",
 UI_modpresets_title::en = "PRESET LIST",
 UI_modpresets_title::ja::processed::unverified = "プリセット一覧",
-UI_modselector_LocalMod_tooltip::en = "",
-UI_modselector_LocalMod_tooltip::ja::processed::unverified = "",
+UI_modselector_LocalMod_tooltip::en = "This mod will not be downloaded on the client side.
+
+Reason: Workshop ID not found (local mod).
+
+If you are the author of this mod, you need to publish it to the Workshop and subscribe to it.",
+UI_modselector_LocalMod_tooltip::ja::processed::unverified = "このモッドはクライアント側にダウンロードされません。理由: ワークショップIDが見つかりません（ローカルモッド）。このモッドの作者である場合、ワークショップに公開し、サブスクライブする必要があります。",
 UI_modselector_btn_disable::en = "DISABLE",
 UI_modselector_btn_disable::ja::processed::unverified = "無効化",
 UI_modselector_btn_enable::en = "ENABLE",
