@@ -88,19 +88,15 @@ Sandbox_ImmersiveBlackouts_ElectricityCooldown_tooltip::en = "Cooldown (in hours
 Sandbox_ImmersiveBlackouts_ElectricityCooldown_tooltip::fr::processed::unverified = "Temps de recharge (en heures) entre les coupures ou restaurations d'électricité possibles.",
 Sandbox_ImmersiveBlackouts_ElectricityPercentOFF::en = "Electricity Shutoff Chance",
 Sandbox_ImmersiveBlackouts_ElectricityPercentOFF::fr::processed::unverified = "Chance coupure de l'électricité (%)",
-Sandbox_ImmersiveBlackouts_ElectricityPercentOFF_tooltip::en = "Chance (in percent) that electricity will be shut off.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_ElectricityPercentOFF_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ElectricityPercentOFF_tooltip::fr::processed::unverified = "Chance (en pourcentage) que l'électricité soit coupée.\\nCette chance est vérifiée toutes les 10 minutes.",
 Sandbox_ImmersiveBlackouts_ElectricityPercentON::en = "Electricity Restore Chance",
 Sandbox_ImmersiveBlackouts_ElectricityPercentON::fr::processed::unverified = "Chance rétablissement de l'électricité (%)",
-Sandbox_ImmersiveBlackouts_ElectricityPercentON_tooltip::en = "Chance (in percent) that electricity will be restored.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_ElectricityPercentON_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ElectricityPercentON_tooltip::fr::processed::unverified = "Chance (en pourcentage) que l'électricité soit rétablie.\\nCette chance est vérifiée toutes les 10 minutes.",
 Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange::en = "Electricity Shutoff Day Range",
 Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange::fr::processed::unverified = "Plage de jours de coupure d'électricité",
-Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange_tooltip::en = "Sets the day range for a random electricity shutoff.
-Format: minimum day - maximum day (for example: 0-30).
-Changes the vanilla electricity shutoff day setting.",
+Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange_tooltip::fr::processed::unverified = "Définit la plage de jours pour une coupure d'électricité aléatoire.\\nFormat : jour minimum - jour maximum (par exemple : 0-30).\\nModifie le paramètre de jour de coupure d'électricité vanilla.",
 Sandbox_ImmersiveBlackouts_ElectricityStartDay::en = "Days Before Electricity Shutoff",
 Sandbox_ImmersiveBlackouts_ElectricityStartDay::fr::processed::unverified = "Jours avant la coupure d'électricité",
@@ -128,9 +124,7 @@ Sandbox_ImmersiveBlackouts_LightsFlickering_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_LightsFlickering_tooltip::fr::processed::unverified = "",
 Sandbox_ImmersiveBlackouts_ModReset::en = "Reset Mod Data",
 Sandbox_ImmersiveBlackouts_ModReset::fr::processed::unverified = "Réinitialisation du mod",
-Sandbox_ImmersiveBlackouts_ModReset_tooltip::en = "Enabling this option will reset the mod's saved data.
-Only enable this if you have changed the day when the shutdowns will occur.
-It will automatically disable afterwards.",
+Sandbox_ImmersiveBlackouts_ModReset_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ModReset_tooltip::fr::processed::unverified = "Activer cette option réinitialisera les données sauvegardées du mod.\\nACTIVEZ CECI UNIQUEMENT SI VOUS AVEZ MODIFIÉ LE JOUR OÙ LES COUPURES SE PRODUIRONT DANS LES OPTIONS SANDBOX > MONDE.\\nELLE SE DÉSACTIVERA AUTOMATIQUEMENT PAR LA SUITE.",
 Sandbox_ImmersiveBlackouts_Radio::en = "Radio",
 Sandbox_ImmersiveBlackouts_Radio::fr::processed::unverified = "Radio",
@@ -162,19 +156,15 @@ Sandbox_ImmersiveBlackouts_WaterCooldown_tooltip::en = "Cooldown (in hours) betw
 Sandbox_ImmersiveBlackouts_WaterCooldown_tooltip::fr::processed::unverified = "Temps de recharge (en heures) entre les coupures ou restaurations d'eau possibles.",
 Sandbox_ImmersiveBlackouts_WaterPercentOFF::en = "Water Shutoff Chance",
 Sandbox_ImmersiveBlackouts_WaterPercentOFF::fr::processed::unverified = "Chance coupure de l'eau (%)",
-Sandbox_ImmersiveBlackouts_WaterPercentOFF_tooltip::en = "Chance (in percent) that the water supply will be shut off.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_WaterPercentOFF_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_WaterPercentOFF_tooltip::fr::processed::unverified = "Chance (en pourcentage) que l'alimentation en eau soit coupée.\\nCette chance est vérifiée toutes les 10 minutes.",
 Sandbox_ImmersiveBlackouts_WaterPercentON::en = "Water Restore Chance",
 Sandbox_ImmersiveBlackouts_WaterPercentON::fr::processed::unverified = "Chance rétablissement de l'eau (%)",
-Sandbox_ImmersiveBlackouts_WaterPercentON_tooltip::en = "Chance (in percent) that the water supply will be restored.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_WaterPercentON_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_WaterPercentON_tooltip::fr::processed::unverified = "Chance (en pourcentage) que l'alimentation en eau soit rétablie.\\nCette chance est vérifiée toutes les 10 minutes.",
 Sandbox_ImmersiveBlackouts_WaterShutoffDayRange::en = "Water Shutoff Day Range",
 Sandbox_ImmersiveBlackouts_WaterShutoffDayRange::fr::processed::unverified = "Plage de jours pour la coupure d'eau",
-Sandbox_ImmersiveBlackouts_WaterShutoffDayRange_tooltip::en = "Sets the day range for a random water shutoff.
-Format: minimum day - maximum day (for example: 0-30).
-Changes the vanilla water shutoff day setting.",
+Sandbox_ImmersiveBlackouts_WaterShutoffDayRange_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_WaterShutoffDayRange_tooltip::fr::processed::unverified = "Définit la plage de jours pour une coupure d'eau aléatoire.\\nFormat : jour minimum - jour maximum (exemple : 0-30).\\nModifie le réglage de jour de coupure d'eau vanilla.",
 Sandbox_ImmersiveBlackouts_WaterStartDay::en = "Days Before Water Shutoff",
 Sandbox_ImmersiveBlackouts_WaterStartDay::fr::processed::unverified = "Jours avant la coupure d'eau",

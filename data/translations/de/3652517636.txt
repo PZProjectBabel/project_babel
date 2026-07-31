@@ -94,16 +94,7 @@ ContextMenu_TankWater_RuntimeOff::en = "off",
 ContextMenu_TankWater_RuntimeOff::de::processed::unverified = "Aus",
 ContextMenu_TankWater_SelectTank::en = "Select Tank",
 ContextMenu_TankWater_SelectTank::de::processed::unverified = "Tank auswählen",
-ContextMenu_TankWater_StartupNotice::en = "Tank Water important notice:
-
-1) This mod is incompatible with:
-- SkillRecoveryJournal
-- LazoloDynamicBackpackUpgrades
-- StarlitLibrary
-Using them together can cause errors.
-
-2) After the latest update, old water tanks must be picked up
-and placed on the ground again to migrate to the new system.",
+ContextMenu_TankWater_StartupNotice::en = "",
 ContextMenu_TankWater_StartupNotice::de::processed::unverified = "Wichtiger Hinweis zu Tank Water: 1) Diese Mod ist inkompatibel mit: - SkillRecoveryJournal - LazoloDynamicBackpackUpgrades - StarlitLibrary Die gemeinsame Nutzung kann zu Fehlern führen. 2) Nach dem letzten Update müssen alte Wassertanks aufgenommen und wieder auf den Boden gestellt werden, um auf das neue System zu migrieren.",
 ContextMenu_TankWater_StatusConnected::en = "Connected",
 ContextMenu_TankWater_StatusConnected::de::processed::unverified = "Verbunden",
@@ -231,8 +222,7 @@ TankWater_UI_RequiredSkillsValue::en = "Electricity 1 | Mechanics 2 | or Generat
 TankWater_UI_RequiredSkillsValue::de::processed::unverified = "Elektrik 1 | Mechanik 2 | oder Generator",
 TankWater_UI_RequiredTools::en = "Required Tools: Vise Grips + Screwdriver",
 TankWater_UI_RequiredTools::de::processed::unverified = "Erforderliche Werkzeuge: Schraubstockzange + Schraubendreher",
-Tooltip_TankWater_CleanTankUntreated::en = "Tank contains clean water.
-Drain tank before filling with untreated water.",
+Tooltip_TankWater_CleanTankUntreated::en = "",
 Tooltip_TankWater_CleanTankUntreated::de::processed::unverified = "Der Tank enthält sauberes Wasser. Tank entleeren, bevor er mit unbehandeltem Wasser befüllt wird.",
 Tooltip_TankWater_FilterDepleted::en = "Filter depleted. Replace filter cartridge.",
 Tooltip_TankWater_FilterDepleted::de::processed::unverified = "Filter erschöpft. Filterpatrone ersetzen.",
@@ -240,24 +230,13 @@ Tooltip_TankWater_NoPumpNearby::en = "No pumps nearby.",
 Tooltip_TankWater_NoPumpNearby::de::processed::unverified = "Keine Pumpen in der Nähe.",
 Tooltip_TankWater_NoTankNearby::en = "No tanks nearby.",
 Tooltip_TankWater_NoTankNearby::de::processed::unverified = "Keine Wassertanks in der Nähe.",
-Tooltip_TankWater_PumpDismantleRequirements::en = "Requires:
-- Vise Grips
-- Screwdriver
-Grants: 10 Mechanics XP.",
+Tooltip_TankWater_PumpDismantleRequirements::en = "",
 Tooltip_TankWater_PumpDismantleRequirements::de::processed::unverified = "Erfordert: - Schraubstockzange - Schraubendreher Gewährt: 10 Mechanik-EP.",
 Tooltip_TankWater_PumpReady::en = "Ready to start",
 Tooltip_TankWater_PumpReady::de::processed::unverified = "Bereit zu starten",
-Tooltip_TankWater_PumpRepairRequirements::en = "Requires:
-- Electricity Lv 1
-- Mechanics Lv 2
-- Vise Grips
-- Screwdriver",
+Tooltip_TankWater_PumpRepairRequirements::en = "",
 Tooltip_TankWater_PumpRepairRequirements::de::processed::unverified = "Erfordert: - Elektrizität Stufe 1 - Mechanik Stufe 2 - Schraubstockzange - Schraubendreher",
-Tooltip_TankWater_PumpSkillRequirements::en = "Requires to operate:
-- Electricity Lv 1
-- Mechanics Lv 2
-Or generator knowledge
-(magazine, Electrician or Electricity 3)",
+Tooltip_TankWater_PumpSkillRequirements::en = "",
 Tooltip_TankWater_PumpSkillRequirements::de::processed::unverified = "Erfordert für den Betrieb: - Elektrizität Stufe 1 - Mechanik Stufe 2 Oder Generatorkenntnisse (Zeitschrift, Elektriker oder Elektrizität 3)",
 Tooltip_TankWater_RequiresCleaningTablets::en = "Requires: cleaning tablets.",
 Tooltip_TankWater_RequiresCleaningTablets::de::processed::unverified = "Erfordert: Reinigungstabletten.",

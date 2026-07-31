@@ -182,11 +182,7 @@ UI_modpresets_presetsTab::en = "PRESETS",
 UI_modpresets_presetsTab::ja::processed::unverified = "プリセット",
 UI_modpresets_title::en = "PRESET LIST",
 UI_modpresets_title::ja::processed::unverified = "プリセット一覧",
-UI_modselector_LocalMod_tooltip::en = "This mod will not be downloaded on the client side.
-
-Reason: Workshop ID not found (local mod).
-
-If you are the author of this mod, you need to publish it to the Workshop and subscribe to it.",
+UI_modselector_LocalMod_tooltip::en = "",
 UI_modselector_LocalMod_tooltip::ja::processed::unverified = "このモッドはクライアント側にダウンロードされません。理由: ワークショップIDが見つかりません（ローカルモッド）。このモッドの作者である場合、ワークショップに公開し、サブスクライブする必要があります。",
 UI_modselector_btn_disable::en = "DISABLE",
 UI_modselector_btn_disable::ja::processed::unverified = "無効化",

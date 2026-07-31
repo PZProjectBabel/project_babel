@@ -90,11 +90,7 @@ UI_modpresets_deleteAll_dialog::en = "Delete entire history?",
 UI_modpresets_historyTab::en = "HISTORY",
 UI_modpresets_presetsTab::en = "PRESETS",
 UI_modpresets_title::en = "PRESET LIST",
-UI_modselector_LocalMod_tooltip::en = "This mod will not be downloaded on the client side.
-
-Reason: Workshop ID not found (local mod).
-
-If you are the author of this mod, you need to publish it to the Workshop and subscribe to it.",
+UI_modselector_LocalMod_tooltip::en = "",
 UI_modselector_btn_disable::en = "DISABLE",
 UI_modselector_btn_enable::en = "ENABLE",
 UI_modselector_btn_favorite::en = "FAVORITE",

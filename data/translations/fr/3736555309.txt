@@ -566,13 +566,9 @@ SplitHumanLeather::en = "Split Human Skin",
 SplitHumanLeather::fr::processed::unverified = "Peau humaine fendue",
 TanHumanLeather::en = "Tan Human Skin",
 TanHumanLeather::fr::processed::unverified = "Peau humaine tannée",
-Tooltip_EnhancedLeatherBackpack::en = "An enhanced backpack made from human skin.
-Looks small, but it can hold a lot of stuff. And it looks pretty good too.
-
-You know, if you don't mind the smell.",
+Tooltip_EnhancedLeatherBackpack::en = "",
 Tooltip_EnhancedLeatherBackpack::fr::processed::unverified = "Un sac à dos amélioré fait en peau humaine. Il a l'air petit, mais peut contenir beaucoup de choses. Et il a plutôt belle apparence aussi. Vous savez, si l'odeur ne vous dérange pas.",
-Tooltip_HookHumanLocked::en = "Wait. You're not thinking about really doing that... Are you?
-Requires Insanity level ",
+Tooltip_HookHumanLocked::en = "",
 Tooltip_HookHumanLocked::fr::processed::unverified = "Attends. Tu ne penses pas vraiment faire ça... N'est-ce pas ? Nécessite niveau de Folie",
 Tooltip_HumanLeather::en = "Something is very wrong with this.",
 Tooltip_HumanLeather::fr::processed::unverified = "Quelque chose ne va vraiment pas avec ça.",
@@ -580,34 +576,25 @@ Tooltip_HumanMeat::en = "Immoral. But it might be your only option.",
 Tooltip_HumanMeat::fr::processed::unverified = "Immoral. Mais c'est peut-être votre seule option.",
 Tooltip_HumanTendons::en = "Human sinew extracted in a crude manner.",
 Tooltip_HumanTendons::fr::processed::unverified = "Tendon humain extrait de manière grossière.",
-Tooltip_InfectedTendons::en = "Human sinew extracted from an infected individual.
-Not recommended for consumption. But I know you're going to do it anyway.",
+Tooltip_InfectedTendons::en = "",
 Tooltip_InfectedTendons::fr::processed::unverified = "Tendon humain extrait d'un individu infecté. Déconseillé à la consommation. Mais je sais que vous allez le faire quand même.",
-Tooltip_PK42_HumanBrain::en = "A human brain. It looks quite appetizing.
-How on earth did you manage to get this?",
+Tooltip_PK42_HumanBrain::en = "",
 Tooltip_PK42_HumanBrain::fr::processed::unverified = "Un cerveau humain. Il a l'air assez appétissant. Comment diable avez-vous obtenu ça ?",
-Tooltip_PK42_ZombieBrain::en = "A zombie brain, extracted for... consumption?
-Are you really going to risk eating this?",
+Tooltip_PK42_ZombieBrain::en = "",
 Tooltip_PK42_ZombieBrain::fr::processed::unverified = "Un cerveau de zombie, extrait pour... consommation ? Allez-vous vraiment risquer de manger ça ?",
 Tooltip_PKExtractBrain::en = "Extract the brain for culinary purposes.",
 Tooltip_PKExtractBrain::fr::processed::unverified = "Extraire le cerveau à des fins culinaires.",
 Tooltip_PKHumanBone::en = "Can be used as weapon. But, how would you even get it? You'd have to... You know what? Never mind.",
 Tooltip_PKHumanBone::fr::processed::unverified = "Peut être utilisé comme arme. Mais, comment feriez-vous pour l'obtenir ? Vous devriez... Vous savez quoi ? Laissez tomber.",
-Tooltip_PKHumanSkull::en = "A damaged human skull. It appears to have been sawed. 
-Why would anyone do such a thing?",
+Tooltip_PKHumanSkull::en = "",
 Tooltip_PKHumanSkull::fr::processed::unverified = "Un crâne humain endommagé. Il semble avoir été scié. Pourquoi quelqu'un ferait une telle chose?",
-Tooltip_PKHumanSkullPart::en = "A fragment of a human skull. 
-It has no use whatsoever.",
+Tooltip_PKHumanSkullPart::en = "",
 Tooltip_PKHumanSkullPart::fr::processed::unverified = "Un fragment de crâne humain. Il n'a aucune utilité.",
-Tooltip_PKHumanSkullWithBrain::en = "A perfectly removed human skull, with the brain still inside.
-What do you intend to do with this? Eat it? Use it as a helmet?
-Either way, it's a terrible idea.",
+Tooltip_PKHumanSkullWithBrain::en = "",
 Tooltip_PKHumanSkullWithBrain::fr::processed::unverified = "Un crâne humain parfaitement prélevé, avec le cerveau encore à l'intérieur. Qu'avez-vous l'intention d'en faire ? Le manger ? L'utiliser comme casque ? Dans les deux cas, c'est une terrible idée.",
 Tooltip_PKHumanTeeth::en = "Used to craft trinkets.",
 Tooltip_PKHumanTeeth::fr::processed::unverified = "Utilisé pour fabriquer des babioles.",
-Tooltip_PKInfectedSkullWithBrain::en = "A zombie skull with the brain still inside.
-What do you intend to do with this? Eat it? Use it as a helmet?
-Either way, it's a terrible idea.",
+Tooltip_PKInfectedSkullWithBrain::en = "",
 Tooltip_PKInfectedSkullWithBrain::fr::processed::unverified = "Un crâne de zombie avec le cerveau encore à l'intérieur. Qu'avez-vous l'intention d'en faire ? Le manger ? L'utiliser comme casque ? Dans les deux cas, c'est une terrible idée.",
 Tooltip_PKSmallRandomHumanBones::en = "Used for crafting.",
 Tooltip_PKSmallRandomHumanBones::fr::processed::unverified = "Utilisé pour l'artisanat.",
