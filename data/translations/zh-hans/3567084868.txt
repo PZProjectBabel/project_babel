@@ -182,11 +182,7 @@ UI_modpresets_presetsTab::en = "PRESETS",
 UI_modpresets_presetsTab::zh-hans::processed::unverified = "预设",
 UI_modpresets_title::en = "PRESET LIST",
 UI_modpresets_title::zh-hans::processed::unverified = "预设列表",
-UI_modselector_LocalMod_tooltip::en = "This mod will not be downloaded on the client side.
-
-Reason: Workshop ID not found (local mod).
-
-If you are the author of this mod, you need to publish it to the Workshop and subscribe to it.",
+UI_modselector_LocalMod_tooltip::en = "",
 UI_modselector_LocalMod_tooltip::zh-hans::processed::unverified = "此模组不会在客户端下载.\\n\\n原因: 未找到 Workshop ID (本地模组).\\n\\n如果你是作者, 请将其发布到创意工坊并订阅.",
 UI_modselector_btn_disable::en = "DISABLE",
 UI_modselector_btn_disable::zh-hans::processed::unverified = "禁用",

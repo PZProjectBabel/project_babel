@@ -1,130 +1,794 @@
 [
   {
     "mod_id": "3773911887",
+    "translation_key": "Sandbox_ThisIsYourLife",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "6c546fd0c696ea3125817bd62e546451"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "Sandbox_ThisIsYourLife_EnableOriginTraits",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "4bf5db90ed7966145511d4fc4010971e"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "Sandbox_ThisIsYourLife_EnableOriginTraits_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "ded437a7b6bb2beb704d46fa8e99a24a"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "Sandbox_ThisIsYourLife_EnableScriptedStarts",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "9473500145916f952de401ccb04db4e9"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "Sandbox_ThisIsYourLife_EnableScriptedStarts_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "8e09fd992d513027584e761239f75c43"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_adrenaline_response_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "cc17f1448a38b67a2c9839f8db6664ae"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_adrenaline_response_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "f50a27870338df04120dcffc1af74cd8"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_battle_drill_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "ce175390dd99481312005077fde53a41"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_battle_drill_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "b9889a3bd7441cc6ad3acf886b88f106"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_bench_repair_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "9cd3ec75e1029a40d0fa9dce0bc47776"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_bench_repair_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "af883b211b19736741dd702e0052bf3a"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_brace_up_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "aded3e490b95dc6faa7482de710029c7"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_brace_up_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "046ac46253be7e77d1672cd6fe29eb2d"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_chefs_touch_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "89f474bfff0eb6c4b9cb4ad25504960c"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_chefs_touch_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "7b4693e3f17685dbf0517b050b8fd4d1"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_command_voice_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "7162bbacd6fb2a9e10013945c6a79fdd"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_command_voice_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "682188f38f55d9da8bfd08191b655265"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_design_brief_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "7066b19be33b270fd6abcc0a96ce6ebb"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_design_brief_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "0121e85360ae9e0363ab62fcd412c600"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_emergency_triage_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "eb1e52d1dde7b3798494f11c4128a228"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_emergency_triage_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "e042a67fa10fb19561300278f605e34c"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_field_joinery_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "db44d99656bd133bd184db5524c49ad9"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_field_joinery_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "f93e7ca6acbbb203aafd395dbbf4ef92"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_green_thumb_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "8f406818ab00b26d1236265c231b6a08"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_green_thumb_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "9b67f0176fcd52a1af66ee116c84c945"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_invisible_mending_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "21123e85cb8be9c4aaf128fc17084af8"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_invisible_mending_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "ae1cc6edabda9c2d9acb11c7801b9a42"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_make_do_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "2a82046cc4fa2dc2285417a1a2373a2b"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_make_do_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "32402c886441928d3a5935691caeec27"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_pain_management_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "5e6619f6c6d172c496bda52f473bc41d"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_pain_management_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "7e8238e24dc904dbbb5b9122a05a4e22"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_quiet_entry_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "af4e9b3d2a2003ccb500fe002a9ef00a"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_quiet_entry_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "55b04f7c6f88a5cc95dcc732c79abfa7"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_read_the_water_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "e602b42ee375e7f7fce59124daaa0c7e"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_read_the_water_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "0c5ad411df7643420b7b9c04cec39a8e"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_retemper_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "566c2227c10dbd3d752ac2304e9fe3bc"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_retemper_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "7afba0823443ac527a8cbc93e8d217fe"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_roadside_repair_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "4dc1b8352b52ceb5d2f19b2729275468"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_roadside_repair_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "8a5194bfbb127307a1272be4693f0737"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_second_wind_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "ec777264365129e5509ee78bef1ac1c2"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_second_wind_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "a82ea65e289f1b694e4c99842ab2c080"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_staff_meal_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "f11760cc3b1ffe99e7a3f3903c0459b2"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_staff_meal_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "69438d1697e9c71362c8e121d0d40a33"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_stay_alert_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "9805b74db1dba9ea7bfd4df816f689c0"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_stay_alert_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "94125e7e6a2e1d300b5178f32d322b49"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_steady_hand_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "d4e7a64ad03d08485c093399506fa534"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_steady_hand_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "9acb93c94fd3d9481cc3649d47518436"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_take_it_easy_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "4d39145adf443fb9868a173353846a34"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_take_it_easy_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "2022f6c06d5aab7e7152f05ca0f12a69"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_timber_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "3c1c3a397f64ff147f0c9c1184d46b36"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_timber_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "0d1acc96cd2fe8cc31b03f96b04082e1"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_trail_breather_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "4ad3cba0c60956232bd8e365386e0262"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_trail_breather_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "99f5c497ed99058fae27409a578041e9"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_weld_patch_Description",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "d4c9203f9c7ed461b0182905b34093a8"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Ability_weld_patch_Name",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "83be23db6513600fdfac331c5df1c7f8"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_PartnerSex",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "1f65b31df73f689e8e9af6fa908d8898"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_PartnerSex_Female",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "ff0c9ad5912ef341dee1be44f50375de"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_PartnerSex_Male",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "a3e508a1a97cdfe2d2ac4e4de3823cab"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_PartnerSex_Opposite",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "0b4991396d20d4cdf42f47320e354054"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_PartnerSex_Random",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "91fdead1a127f83c3b2572d94155de81"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_ProfessionAlias_Burglar",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "47dd2fcb7a77dd0a7c2d1abb15229861"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_ProfessionAlias_Veteran",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "205be6a472ee61357747f608b17e0c73"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Dixie_Burial1",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "e42ac78c8b344c9c89620d0cca4bc7e9"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Dixie_Burial2",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "cabe19a15a56102f1c41347e32ff5efd"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Dixie_Death1",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "76d3a57757c636d7762c3c8725195d05"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Dixie_Death2",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "bfb9f7eb05ce724eda857b4213c36f9c"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Dixie_Opening1",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "1ef240501096bc51aa48805cac8a11e6"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Dixie_Opening2",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "abeca0ca34b8d712d33edbb9accf7672"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Dixie_Opening3",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "f04e16629319f80e2adeeab8534d5663"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_HouseKey",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "fb92ec48f86c9200893f5eac40254d49"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_PartnerRing",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "01dbbf3b1b3966f9f6302ca13a71ae34"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Partner_Burial1",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "349c1eee87adb7a6bd680619a28fb6c2"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Partner_Burial2",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "bf3e15d32f74cf214d1220cd1621a683"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Partner_Death1",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "1805dcaae2511a783aa5eb30d52420b4"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Partner_Death2",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "a0a9e31e17df8503e40b09091d86e11a"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Partner_Death3",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "7049ebc176767ac21075430d3b0732ea"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Partner_Death4",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "2b45d5979252babc78e1858d828a100e"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Partner_Opening1",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "9d1cb1541edfad055a596d7ee732eb7a"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Partner_Opening2",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "d2d40780d835141d5823a16f159bd26a"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_Partner_Opening3",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "2ba089fce705c9b2604df1cad4089cb1"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_PlayerRing",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "b8e9ea52586495070d88e6558b7e8c04"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_TIYL_Scripted_ShedKey",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "2738ac6ee509ccbf723c34cd413ac34e"
+  },
+  {
+    "mod_id": "3773911887",
     "translation_key": "UI_optionscreen_binding_Open Riverside Survey",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
+    "last_seen_at": "2026-07-31T16:15:45.9692944Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
     "source_hash": "da8cd4e4072965c994f2ccf5008b413f"
+  },
+  {
+    "mod_id": "3773911887",
+    "translation_key": "UI_optionscreen_binding_Use Profession Ability",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "2010c7c21d8135f948f86fee2822bd0d"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_optionscreen_binding_[This Is Your Life]",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
+    "last_seen_at": "2026-07-31T16:15:45.9692958Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
     "source_hash": "8513fd3361f86433c19c4958c41d62f1"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginDixie",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
+    "last_seen_at": "2026-07-31T16:15:45.9692964Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
     "source_hash": "90a6a951f4b64b43b42641b8f90bddc4"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginDixieDesc",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
-    "source_hash": "fc75c378a4fddf5b5bbff6459fe7d5f1"
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "c9252cee4bb9e62908bc7d1f79810a6f"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginEkron",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
+    "last_seen_at": "2026-07-31T16:15:45.9692973Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
     "source_hash": "daef8f45eaf365aad9fd31c421836aaf"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginEkronDesc",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
-    "source_hash": "077d16fbc3017042883c929c3ea7b20b"
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "f21b556dc546c69c05b48e48335f4698"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginFallasLake",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
+    "last_seen_at": "2026-07-31T16:15:45.9692981Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
     "source_hash": "8423e4c713703d302305fb6c10b4c4e4"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginFallasLakeDesc",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
-    "source_hash": "f69addb1b917d5caac1b54184a4f72d0"
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "4928cf9dbf4320846675699f8160ed44"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginMuldraugh",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
+    "last_seen_at": "2026-07-31T16:15:45.9692991Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
     "source_hash": "d65802ca2fae7208dce27d27cbdbfad5"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginMuldraughDesc",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
-    "source_hash": "cf34557b96ccda4ff16c9d68c8babb45"
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "6bc337dcf9d134412d50a8242c04095c"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginRiverside",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
+    "last_seen_at": "2026-07-31T16:15:45.9693003Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
     "source_hash": "d3dce5271510055cf5b68d8beb86742e"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginRiversideDesc",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
-    "source_hash": "bcce064c041534fb17d9b787866f883e"
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "83382c8ce7a2d3afbfe49c3062d6e931"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginRosewood",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
+    "last_seen_at": "2026-07-31T16:15:45.9693011Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
     "source_hash": "4873f9b7748212e2622474be4ac603c9"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginRosewoodDesc",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
-    "source_hash": "cbe0956677c062305534baf3dedf9ef3"
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "30859971c41e1316c1691955ce1c921f"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginWestPoint",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
+    "last_seen_at": "2026-07-31T16:15:45.9693023Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
     "source_hash": "efdf41ebe7c137fabadb82163eeeb020"
   },
   {
     "mod_id": "3773911887",
     "translation_key": "UI_trait_OriginWestPointDesc",
     "is_active": true,
-    "last_seen_at": "2026-07-30T10:28:29.3807676Z",
-    "last_seen_mod_updated": "2026-07-29T17:48:57.0000000Z",
-    "source_hash": "ba92946b1799c074faa889bbbc19d296"
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-31T14:32:46.0000000Z",
+    "source_hash": "4d8f07ad05dbf99c8d022448e4b682cf"
   }
 ]

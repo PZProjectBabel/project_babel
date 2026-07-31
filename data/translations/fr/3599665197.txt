@@ -10,22 +10,15 @@ Sandbox_ImmersiveWaterShutoff::en = "Immersive Water Shutoff: Settings",
 Sandbox_ImmersiveWaterShutoff::fr::processed::unverified = "Coupure d'eau immersive",
 Sandbox_ImmersiveWaterShutoff_BathPercent::en = "Filled Bath Chance",
 Sandbox_ImmersiveWaterShutoff_BathPercent::fr::processed::unverified = "Chance baignoire remplie (%)",
-Sandbox_ImmersiveWaterShutoff_BathPercent_tooltip::en = "The percentage chance that a bath has been filled prior to the water shutoff to emulate people filling their tubs for emergency use.
-This option only has effect if «Keep Water in Baths» is enabled.",
+Sandbox_ImmersiveWaterShutoff_BathPercent_tooltip::en = "",
 Sandbox_ImmersiveWaterShutoff_BathPercent_tooltip::fr::processed::unverified = "Le pourcentage de chance qu'une baignoire ait été remplie avant la coupure d'eau pour simuler les gens remplissant leurs baignoires pour une utilisation d'urgence.\\nCette option n'a d'effet que si « Conserver l'eau dans les baignoires » est activé.\\n",
 Sandbox_ImmersiveWaterShutoff_BathsKeepWater::en = "Keep Water in Baths",
 Sandbox_ImmersiveWaterShutoff_BathsKeepWater::fr::processed::unverified = "Conserver l'eau dans les baignoires",
-Sandbox_ImmersiveWaterShutoff_BathsKeepWater_tooltip::en = "If enabled, baths may retain water prior to the shutoff to emulate people filling their tubs as emergency water.
-Bath water is randomized from 0 to 100, and the chance a bath has been filled is determined by the «Filled Bath Chance» option.
-
-This option has no effect if «Randomized Reduction» is active.
-",
+Sandbox_ImmersiveWaterShutoff_BathsKeepWater_tooltip::en = "",
 Sandbox_ImmersiveWaterShutoff_BathsKeepWater_tooltip::fr::processed::unverified = "Si activé, les baignoires peuvent conserver de l'eau avant la coupure pour simuler les gens remplissant leurs baignoires comme réserve d'eau d'urgence.\\nL'eau de la baignoire est aléatoire de 0 à 100, et la chance qu'une baignoire ait été remplie est déterminée par l'option « Chance baignoire remplie (%) ».\\nCette option n'a aucun effet si « Réduction aléatoire » est active.\\n",
 Sandbox_ImmersiveWaterShutoff_FillableBaths::en = "Fillable Baths",
 Sandbox_ImmersiveWaterShutoff_FillableBaths::fr::processed::unverified = "Baignoires remplissables",
-Sandbox_ImmersiveWaterShutoff_FillableBaths_tooltip::en = "If enabled, baths can be filled in advance to prepare for the main water supply being shut off.
-This allows players to have emergency water stored in their tubs.
-",
+Sandbox_ImmersiveWaterShutoff_FillableBaths_tooltip::en = "",
 Sandbox_ImmersiveWaterShutoff_FillableBaths_tooltip::fr::processed::unverified = "Si activé, les baignoires peuvent être remplies à l'avance pour se préparer à la coupure de l'alimentation principale en eau.\\nCela permet aux joueurs d'avoir de l'eau d'urgence stockée dans leurs baignoires.\\n",
 Sandbox_ImmersiveWaterShutoff_MaxPercent::en = "Maximum Reduction",
 Sandbox_ImmersiveWaterShutoff_MaxPercent::fr::processed::unverified = "Réduction maximale (%)",
@@ -47,30 +40,13 @@ Sandbox_ImmersiveWaterShutoff_TaintedWater::en = "Water Goes Bad",
 Sandbox_ImmersiveWaterShutoff_TaintedWater::fr::processed::unverified = "L'eau devient croupie",
 Sandbox_ImmersiveWaterShutoff_TaintedWaterPoisonMultiplier::en = "Tainted Water Poison Multiplier",
 Sandbox_ImmersiveWaterShutoff_TaintedWaterPoisonMultiplier::fr::processed::unverified = "Multiplicateur d'empoisonnement de l'eau croupie",
-Sandbox_ImmersiveWaterShutoff_TaintedWaterPoisonMultiplier_tooltip::en = "Determines the strength of poisoning when consuming tainted water.
-
-1 = vanilla value.
-2 = twice as strong.
-3+ = extremely dangerous values.
-
-The Iron Gut trait reduces the poison received, but does not make the character completely immune to tainted water.
-The Weak Stomach trait increases the poison received from tainted water.
-At x2, drinking around 2 liters of tainted water at maximum thirst can result in fatal food poisoning.",
+Sandbox_ImmersiveWaterShutoff_TaintedWaterPoisonMultiplier_tooltip::en = "",
 Sandbox_ImmersiveWaterShutoff_TaintedWaterPoisonMultiplier_tooltip::fr::processed::unverified = "Détermine la force de l'empoisonnement lors de la consommation d'eau croupie.\\n\\n1 = valeur par défaut.\\n2 = deux fois plus fort.\\n3+ = valeurs extrêmement dangereuses.\\n\\nLe trait Estomac de fer réduit le poison reçu, mais ne rend pas le personnage complètement immunisé à l'eau croupie.\\nLe trait Estomac fragile augmente le poison reçu de l'eau croupie.\\nÀ x2, boire environ 2 litres d'eau croupie à soif maximale peut entraîner une intoxication alimentaire mortelle.",
-Sandbox_ImmersiveWaterShutoff_TaintedWater_tooltip::en = "Determines when water becomes tainted after the main supply is shut off:
-
- -1 = disabled
- 0 = immediately
- 1+ = water becomes tainted after the specified number of in-game days.
-",
+Sandbox_ImmersiveWaterShutoff_TaintedWater_tooltip::en = "",
 Sandbox_ImmersiveWaterShutoff_TaintedWater_tooltip::fr::processed::unverified = "Détermine quand l'eau devient croupie après la coupure de l'alimentation principale :\\n\\n -1 = désactivé\\n 0 = immédiatement\\n 1+ = l'eau devient croupie après le nombre de jours en jeu spécifié.\\n",
 Sandbox_ImmersiveWaterShutoff_ToiletsKeepWater::en = "Keep Water in Toilets",
 Sandbox_ImmersiveWaterShutoff_ToiletsKeepWater::fr::processed::unverified = "Conserver l'eau dans les toilettes",
-Sandbox_ImmersiveWaterShutoff_ToiletsKeepWater_tooltip::en = "If enabled, toilets will retain a randomized amount of water in their tanks.
-Toilet water will be reduced based on the Min% and Max% values.
-
-This option has no effect if «Randomized Reduction» is active.
-",
+Sandbox_ImmersiveWaterShutoff_ToiletsKeepWater_tooltip::en = "",
 Sandbox_ImmersiveWaterShutoff_ToiletsKeepWater_tooltip::fr::processed::unverified = "Si activé, les toilettes conserveront une quantité aléatoire d'eau dans leur réservoir.\\nL'eau des toilettes sera réduite en fonction des valeurs Min% et Max%.\\nCette option n'a aucun effet si « Réduction aléatoire » est active.\\n",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalMode::en = "Water Removal Mode",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalMode::fr::processed::unverified = "Mode de suppression de l'eau",
@@ -80,10 +56,5 @@ Sandbox_ImmersiveWaterShutoff_WaterRemovalModeOption_option2::en = "Randomized R
 Sandbox_ImmersiveWaterShutoff_WaterRemovalModeOption_option2::fr::processed::unverified = "Réduction aléatoire",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalModeOption_option3::en = "Full Shutoff",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalModeOption_option3::fr::processed::unverified = "Coupure complète",
-Sandbox_ImmersiveWaterShutoff_WaterRemovalMode_tooltip::en = "Determines how water will be handled once the main supply is shut off.
-
-Off — water will not be removed or reduced.
-Randomized Reduction — water will be reduced by a random amount within the range defined by Minimum Reduction and Maximum Reduction.
-Full Shutoff — completely removes all water sources, except when the «Keep Water in Toilets» or/and «Keep Water in Baths» option is enabled.
-",
+Sandbox_ImmersiveWaterShutoff_WaterRemovalMode_tooltip::en = "",
 Sandbox_ImmersiveWaterShutoff_WaterRemovalMode_tooltip::fr::processed::unverified = "Détermine comment l'eau sera gérée une fois l'alimentation principale coupée.\\n\\nDésactivé — l'eau ne sera ni supprimée ni réduite.\\nRéduction aléatoire — l'eau sera réduite d'une quantité aléatoire dans la plage définie par Réduction minimale (%) et Réduction maximale (%).\\nCoupure complète — supprime complètement toutes les sources d'eau, sauf lorsque l'option « Conserver l'eau dans les toilettes » et/ou « Conserver l'eau dans les baignoires » est activée.\\n",

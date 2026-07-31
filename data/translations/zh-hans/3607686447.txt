@@ -88,19 +88,15 @@ Sandbox_ImmersiveBlackouts_ElectricityCooldown_tooltip::en = "Cooldown (in hours
 Sandbox_ImmersiveBlackouts_ElectricityCooldown_tooltip::zh-hans::processed::unverified = "可能停止供电或恢复供电的间隔时间(小时)。",
 Sandbox_ImmersiveBlackouts_ElectricityPercentOFF::en = "Electricity Shutoff Chance",
 Sandbox_ImmersiveBlackouts_ElectricityPercentOFF::zh-hans::processed::unverified = "停止供电概率 (%)",
-Sandbox_ImmersiveBlackouts_ElectricityPercentOFF_tooltip::en = "Chance (in percent) that electricity will be shut off.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_ElectricityPercentOFF_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ElectricityPercentOFF_tooltip::zh-hans::processed::unverified = "停止供电的概率(百分比)。此概率每10分钟检查一次。",
 Sandbox_ImmersiveBlackouts_ElectricityPercentON::en = "Electricity Restore Chance",
 Sandbox_ImmersiveBlackouts_ElectricityPercentON::zh-hans::processed::unverified = "恢复供电概率 (%)",
-Sandbox_ImmersiveBlackouts_ElectricityPercentON_tooltip::en = "Chance (in percent) that electricity will be restored.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_ElectricityPercentON_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ElectricityPercentON_tooltip::zh-hans::processed::unverified = "恢复供电的概率(百分比)。此概率每10分钟检查一次。",
 Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange::en = "Electricity Shutoff Day Range",
 Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange::zh-hans::processed::unverified = "停电日范围",
-Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange_tooltip::en = "Sets the day range for a random electricity shutoff.
-Format: minimum day - maximum day (for example: 0-30).
-Changes the vanilla electricity shutoff day setting.",
+Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange_tooltip::zh-hans::processed::unverified = "设置随机停电的日范围。格式: 最小天数 - 最大天数 (例如: 0-30)。改变原版停电日设置。",
 Sandbox_ImmersiveBlackouts_ElectricityStartDay::en = "Days Before Electricity Shutoff",
 Sandbox_ImmersiveBlackouts_ElectricityStartDay::zh-hans::processed::unverified = "停电前天数",
@@ -128,9 +124,7 @@ Sandbox_ImmersiveBlackouts_LightsFlickering_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_LightsFlickering_tooltip::zh-hans::processed::unverified = "",
 Sandbox_ImmersiveBlackouts_ModReset::en = "Reset Mod Data",
 Sandbox_ImmersiveBlackouts_ModReset::zh-hans::processed::unverified = "模组重置",
-Sandbox_ImmersiveBlackouts_ModReset_tooltip::en = "Enabling this option will reset the mod's saved data.
-Only enable this if you have changed the day when the shutdowns will occur.
-It will automatically disable afterwards.",
+Sandbox_ImmersiveBlackouts_ModReset_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ModReset_tooltip::zh-hans::processed::unverified = "启用此选项将重置模组的已保存数据. 仅当你在沙盒选项>世界中更改了停电发生的日期时才启用此选项. 之后它会自动禁用.",
 Sandbox_ImmersiveBlackouts_Radio::en = "Radio",
 Sandbox_ImmersiveBlackouts_Radio::zh-hans::processed::unverified = "无线电",
@@ -162,19 +156,15 @@ Sandbox_ImmersiveBlackouts_WaterCooldown_tooltip::en = "Cooldown (in hours) betw
 Sandbox_ImmersiveBlackouts_WaterCooldown_tooltip::zh-hans::processed::unverified = "可能停止供水或恢复供水的间隔时间 (小时).",
 Sandbox_ImmersiveBlackouts_WaterPercentOFF::en = "Water Shutoff Chance",
 Sandbox_ImmersiveBlackouts_WaterPercentOFF::zh-hans::processed::unverified = "停止供水概率 (%)",
-Sandbox_ImmersiveBlackouts_WaterPercentOFF_tooltip::en = "Chance (in percent) that the water supply will be shut off.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_WaterPercentOFF_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_WaterPercentOFF_tooltip::zh-hans::processed::unverified = "停止供水的概率 (百分比). 此概率每10分钟检查一次.",
 Sandbox_ImmersiveBlackouts_WaterPercentON::en = "Water Restore Chance",
 Sandbox_ImmersiveBlackouts_WaterPercentON::zh-hans::processed::unverified = "恢复供水概率 (%)",
-Sandbox_ImmersiveBlackouts_WaterPercentON_tooltip::en = "Chance (in percent) that the water supply will be restored.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_WaterPercentON_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_WaterPercentON_tooltip::zh-hans::processed::unverified = "恢复供水的概率 (百分比). 此概率每10分钟检查一次.",
 Sandbox_ImmersiveBlackouts_WaterShutoffDayRange::en = "Water Shutoff Day Range",
 Sandbox_ImmersiveBlackouts_WaterShutoffDayRange::zh-hans::processed::unverified = "停止供水日期范围",
-Sandbox_ImmersiveBlackouts_WaterShutoffDayRange_tooltip::en = "Sets the day range for a random water shutoff.
-Format: minimum day - maximum day (for example: 0-30).
-Changes the vanilla water shutoff day setting.",
+Sandbox_ImmersiveBlackouts_WaterShutoffDayRange_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_WaterShutoffDayRange_tooltip::zh-hans::processed::unverified = "设置随机停止供水的日期范围. 格式: 最小天数 - 最大天数 (例如: 0-30). 更改原版的停水日期设置.",
 Sandbox_ImmersiveBlackouts_WaterStartDay::en = "Days Before Water Shutoff",
 Sandbox_ImmersiveBlackouts_WaterStartDay::zh-hans::processed::unverified = "停水前天数",

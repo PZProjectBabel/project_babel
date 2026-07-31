@@ -1,0 +1,922 @@
+[
+  {
+    "mod_id": "3774251699",
+    "translation_key": "BindSurvivalPlanner",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "3f2a923ba447d02017e0a56bc95e50c5"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "ContextMenu_SurvivalPlannerList_Open",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "7a587c091721602edf27bc96d70bc43b"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "ContextMenu_SurvivalPlannerList_Rename",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "e91f7f46dc3f7be0801b04913a217d48"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_AutoComplete",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "0eaf185c7029e3206d0c8fdfec5c2731"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Auto_TaskCompleted",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "173a12682cc8433b5f9b92ea8c71002e"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Auto_TasksCompleted",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "c70150b26b3832881e350366347cb409"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_Activate",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "d74923f883821f64297a9a4438376d48"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_AddGoal",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "414129a47c5fe0845947a3e72fbd11d4"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_AddSubtask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "59df9201adef8860f1b0050ab0f5e9ef"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_ApplyQuantity",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "21ff5a3ad6422689ba4626821224a8b9"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_Cancel",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "8880c4af8d79f2b1ca95d0b56b20b223"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_ChangeItem",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "9fc33c9e34976ab9ef059b1390ade191"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_Choose",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "ac5c39ee2319c2be9156e6da3012947b"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_ChooseIcon",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "2715f13dbe8a816172a298e508f33343"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_ChooseMapTarget",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "ac84312588400300a73da941cd3ecfa8"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_ClearDone",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "44c8900eb82fef229609900c6765899c"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_ClearLink",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "a590c25b9e46b223c4fab9344a99d0ab"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_ClearMapTarget",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "b0e161b09556eba335689fabb81d6853"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_Complete",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "9e3d1bd7bc43dbe292b87192e8fb8bb6"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_Confirm",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "4d0e59c6ba0fd3610874f85c530c8d74"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_CurrentPosition",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "2f1b47e4fac98d068376f978278c23d6"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_DeleteTask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "30714450cc9e5e651e9c5c072a05f8b6"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_Edit",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "8a9475a909760fe29880fa8c01569d7e"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_LinkItem",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "bd2babd2198126092908498c0e882eb5"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_NewTask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "d87d08dda55e9aa9dfc0500dcc2518af"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_Plan",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "5e3c328055375f89d45acaa4631bd357"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_RemoveGoal",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "1a461b503685f874008429d9ba86a295"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_RemoveTracking",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "973dabee405890cfa05ee74d2050f942"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_Reopen",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "ff4b9a0b6dceaa8aeda8d701b32a3d8a"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_Save",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "14b6eb01a8c63ba537027d0794809874"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Button_TrackItem",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "27efea3ef316c5a1d959bcd48d17ae79"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Category_PlannerIcon",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "90f85760989bb440f310ec93929b8d24"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Check_AutoArrival",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "a600c5caf60a0969a86a16293aaca193"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Check_AutoSubtask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "7e6e664189d88bceaaea06fa75898d30"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Check_AutoTask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "f1ce99ee7a0c7f715c9da390d544a03b"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Check_TrackTask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "d862bd73f40aee5ec0bae26ea1a53dcf"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Confirm_ActivateTask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "951c86a49d8cb11df246d81926c85947"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Confirm_ClearDone",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "80c455c7605ffcb8c12ced3658553799"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Confirm_CompleteTask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "3f698690b76f88486164b4ca05aeaeff"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Confirm_DeleteSubtask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "3b1ccef6927b1ec7a1fba865298d0d52"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Confirm_DeleteTask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "4531461dcc86faf974de7b1a6ab766d4"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Confirm_PlanTask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "c2b0bf60051aefdacd2d1a2ee3070d7e"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Confirm_RemoveTracking",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "5e08f170428049c822941996ca6ed04d"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Confirm_ReopenTask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "6034dd69abdfd4e9cbf16b76af842dda"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Hint_AutoTools",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "534992b9f4aae3f971beb5d4bbae2b82"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Icon_Animals",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "0567c34ba62ea1b6254d556f5a8f8b31"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Icon_Car",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "006fcb3b763bd55c59306cb77e124ef5"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Icon_CheckLocation",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "87228bb14906de2f1e4f23892edb48e0"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Icon_Travel",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "27f88366df7c12f439387b579b50581e"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Icon_Unknown",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "acc5b785b2c4320c3c519ba1411ccd32"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_Icon",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "e5ac9019785c8d7ca01c1b09dab5eb8a"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_ItemGoal",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "8e53c8d8b1e2ed600c245eb836a562ee"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_ItemGoals",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "f6cf32a0c43ce5d3f795835ea5a7b0c4"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_MapTarget",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "3fd967dcd084579998c417749fd58008"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_NoGoals",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "b6f476233e4c625cb68e5e392ebc2c60"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_NoItemGoal",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "ea0d4ece6ad3b041e14ce6b6c04c8d27"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_NoMapTarget",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "4a8cb9458f0e31e5f67bf96dbb8c4344"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_PlannerName",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "e8eadda92b45cdab06cabcec4fa1c368"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_Quantity",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "ff53db33368c8f05dc67297afcf6064c"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_SubtaskTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "f92aef0740e7d55464dc3609366c7588"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_TaskTitle",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "3679fd0dc8d4626e3fdf5bd4e3b0408a"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Label_Tracking",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "7926dcfb4e4dad6d283f8924db0faa81"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Map_CurrentPosition",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "1273be882e56938cfb5ca411da8942c8"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Map_PlaceHint",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "4bde22609a00068b34bd2ae52862f70a"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Map_Target",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "1780638d395dc33a732cf1858b5f4a7b"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Message_AlreadyTracked",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "2ccba0a544bda4acd03e2cbd5c63a7a2"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Message_NeedBoth",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "bc48df9462a06daffbadd866a443419e"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Message_NeedEraser",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "446ce401767503d4988eb8aa952b4441"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Message_NeedWritingTool",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "a23d4c7948c3223b1fac1b43b00f779b"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Message_PlannerNotCarried",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "22561b2f7667b0004c67a41061068f20"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Options_OpenPlanner",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "1d00ba311190b2a3ec94d5d54be117c1"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Options_OpenPlanner_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "42e3f5f440e6e65b93563ad9f627065b"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Options_Title",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "1b8acc8bb968bef9ccc9d0506cc54474"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Status_Editable",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "41ca61d22572e36e37de3d83d9ff2349"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Status_ReadOnly",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "6734581613f812a344c70691d6e2848d"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Tab_Active",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "7e5ddbfd9cf9ea490081d6530b86e8d4"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Tab_Done",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "9a3792159bf57861a736ab3469f1c77c"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Tab_Planned",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "6e74028977c3d8db4f8776af98348ade"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Tab_Tracking",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "fe35626b55c01a6c0c9afedf5149fb57"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Theme_Green",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "c1bb6d1eadb0a717857140539e19f4ba"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Theme_Neutral",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "bb2e4bcbb1ae974335611a9c58247be0"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Theme_Notebook",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "72bc224f95c0388268f7ca39bd7ef6b7"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Theme_Purple",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "87db80d2d94e35d72db913b2e2f3eb88"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Theme_Red",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "7e2f6aa2188dd7714acd0691265b7093"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Theme_Yellow",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "4d963359c7894156d6a5cabd94359ffe"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_AddItemGoal",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "7839ed5c05fecc9cf4f95d38644544da"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_ChooseIcon",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "e25ac9d8e968d123901367d5380b4ce6"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_Confirmation",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "b505341a254769081db4d3b196df78fc"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_EditSubtask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "ed29b51252f7dc494ab1b7761301fbfb"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_EditTask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "d9ad0cb79e96d7085c80bfd61f5f599f"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_ItemPicker",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "e7bfdf86c0c857433eea4ccb869ec49a"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_LinkItem",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "53c1d25064bf20aa44326dc405872b0d"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_Main",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "369b80237f505f3857dadc30fe9cbd79"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_NewSubtask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "04167749b5c0ecd355571122ee27c30f"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_NewTask",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "437610f9444d5a93e9f101fb1a19de1c"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_Notice",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "432abfa9fd5e48559ddb639deeae078d"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_RenamePlanner",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "2d446f3526292094156390aff302c6b2"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_Theme",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "9603a37bbeab6c972c06491db9283d6d"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Title_TrackItem",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "b4ea88bc4c69834f770793a40af895eb"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Tooltip_ChangeIcon",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "95ec78c75bb400722aa1e0b29aa71a7e"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Tooltip_LinkItem",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "93ceafcfb56b7be00c8f4c6e19c0c104"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Tooltip_SearchIcons",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "930cc711136e945c2d147f07e0c0da1c"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Tooltip_SearchItems",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "ea8ff2b97fba2161db933837062ba4a7"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Tooltip_Theme",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "a917e0f6f033e85e40a268ae899f524c"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Unit_Kilometers",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "c19e5b7982a67d4ca2c05d207f7938b1"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "IGUI_SPL_Unit_Tiles",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "b3f5a28948ffe006b8ca70d27c6dcf1f"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "Sandbox_SurvivalPlannerList",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "abc94f71e33d7b391cce3b1dddb706dd"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "Sandbox_SurvivalPlannerList_ArrivalRadius",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "bac3a80f1586c2a4550265525f5bca2d"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "Sandbox_SurvivalPlannerList_ArrivalRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "ae1f6910081c1c33cc6616aef9cb3167"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "Sandbox_SurvivalPlannerList_InventoryScanInterval",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "82539b2019c8f5c5959ce1c83b8b27ee"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "Sandbox_SurvivalPlannerList_InventoryScanInterval_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "2802302a7311459b308a46897eafdfc3"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "Sandbox_SurvivalPlannerList_NavigationRefreshInterval",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "6441a1f67af95b19c0e4dbfb3785c265"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "Sandbox_SurvivalPlannerList_NavigationRefreshInterval_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "0a6c0c3bf22899755dcf2cc61fce7099"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "SurvivalPlannerList.SurvivalPlanner",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "eae92c386cbc1df7d178ebf9bd941b4c"
+  },
+  {
+    "mod_id": "3774251699",
+    "translation_key": "Tooltip_SurvivalPlannerList_Planner",
+    "is_active": true,
+    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
+    "last_seen_mod_updated": "2026-07-30T03:50:19.0000000Z",
+    "source_hash": "44eeba51c5754c4e339495c8e81a4f83"
+  }
+]

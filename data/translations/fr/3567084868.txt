@@ -182,11 +182,7 @@ UI_modpresets_presetsTab::en = "PRESETS",
 UI_modpresets_presetsTab::fr::processed::unverified = "PRÉRÉGLAGES",
 UI_modpresets_title::en = "PRESET LIST",
 UI_modpresets_title::fr::processed::unverified = "LISTE DES PRÉRÉGLAGES",
-UI_modselector_LocalMod_tooltip::en = "This mod will not be downloaded on the client side.
-
-Reason: Workshop ID not found (local mod).
-
-If you are the author of this mod, you need to publish it to the Workshop and subscribe to it.",
+UI_modselector_LocalMod_tooltip::en = "",
 UI_modselector_LocalMod_tooltip::fr::processed::unverified = "Ce mod ne sera pas téléchargé côté client. Raison : Workshop ID introuvable (mod local). Si vous êtes l'auteur de ce mod, vous devez le publier sur le Workshop et vous y abonner.",
 UI_modselector_btn_disable::en = "DISABLE",
 UI_modselector_btn_disable::fr::processed::unverified = "DÉSACTIVER",

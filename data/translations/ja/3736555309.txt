@@ -566,13 +566,9 @@ SplitHumanLeather::en = "Split Human Skin",
 SplitHumanLeather::ja::processed::unverified = "分割された人間の皮",
 TanHumanLeather::en = "Tan Human Skin",
 TanHumanLeather::ja::processed::unverified = "なめした人間の皮",
-Tooltip_EnhancedLeatherBackpack::en = "An enhanced backpack made from human skin.
-Looks small, but it can hold a lot of stuff. And it looks pretty good too.
-
-You know, if you don't mind the smell.",
+Tooltip_EnhancedLeatherBackpack::en = "",
 Tooltip_EnhancedLeatherBackpack::ja::processed::unverified = "強化された人間の皮膚で作られたバックパック。見た目は小さいが、たくさん物を入れられる。見た目もかなり良い。もし匂いを気にしなければね。",
-Tooltip_HookHumanLocked::en = "Wait. You're not thinking about really doing that... Are you?
-Requires Insanity level ",
+Tooltip_HookHumanLocked::en = "",
 Tooltip_HookHumanLocked::ja::processed::unverified = "待て。まさか本当にやろうと思っているのか...？必要狂気レベル：",
 Tooltip_HumanLeather::en = "Something is very wrong with this.",
 Tooltip_HumanLeather::ja::processed::unverified = "これは明らかに異常だ。",
@@ -580,34 +576,25 @@ Tooltip_HumanMeat::en = "Immoral. But it might be your only option.",
 Tooltip_HumanMeat::ja::processed::unverified = "非道徳的だ。しかし、それが唯一の選択肢かもしれない。",
 Tooltip_HumanTendons::en = "Human sinew extracted in a crude manner.",
 Tooltip_HumanTendons::ja::processed::unverified = "荒い方法で抽出された人間の腱。",
-Tooltip_InfectedTendons::en = "Human sinew extracted from an infected individual.
-Not recommended for consumption. But I know you're going to do it anyway.",
+Tooltip_InfectedTendons::en = "",
 Tooltip_InfectedTendons::ja::processed::unverified = "感染者から抽出された人間の腱。摂取は推奨されない。だが、君はどうせやるんだろうな。",
-Tooltip_PK42_HumanBrain::en = "A human brain. It looks quite appetizing.
-How on earth did you manage to get this?",
+Tooltip_PK42_HumanBrain::en = "",
 Tooltip_PK42_HumanBrain::ja::processed::unverified = "人間の脳。かなり食欲をそそるように見える。いったいどうやってこれを手に入れたんだ？",
-Tooltip_PK42_ZombieBrain::en = "A zombie brain, extracted for... consumption?
-Are you really going to risk eating this?",
+Tooltip_PK42_ZombieBrain::en = "",
 Tooltip_PK42_ZombieBrain::ja::processed::unverified = "ゾンビの脳、抽出されたのは...食用か？本当にこれを食べるリスクを冒すつもりか？",
 Tooltip_PKExtractBrain::en = "Extract the brain for culinary purposes.",
 Tooltip_PKExtractBrain::ja::processed::unverified = "料理目的で脳を抽出する。",
 Tooltip_PKHumanBone::en = "Can be used as weapon. But, how would you even get it? You'd have to... You know what? Never mind.",
 Tooltip_PKHumanBone::ja::processed::unverified = "武器として使用可能。しかし、どうやって手に入れるのか？そのためには…ああ、いいや、やめておく。",
-Tooltip_PKHumanSkull::en = "A damaged human skull. It appears to have been sawed. 
-Why would anyone do such a thing?",
+Tooltip_PKHumanSkull::en = "",
 Tooltip_PKHumanSkull::ja::processed::unverified = "損傷した人間の頭蓋骨。鋸で切断されたように見える。なぜ誰がそんなことをするのだろう？",
-Tooltip_PKHumanSkullPart::en = "A fragment of a human skull. 
-It has no use whatsoever.",
+Tooltip_PKHumanSkullPart::en = "",
 Tooltip_PKHumanSkullPart::ja::processed::unverified = "人間の頭蓋骨の破片。まったく使い道がない。",
-Tooltip_PKHumanSkullWithBrain::en = "A perfectly removed human skull, with the brain still inside.
-What do you intend to do with this? Eat it? Use it as a helmet?
-Either way, it's a terrible idea.",
+Tooltip_PKHumanSkullWithBrain::en = "",
 Tooltip_PKHumanSkullWithBrain::ja::processed::unverified = "完全に取り出された人間の頭蓋骨、脳がまだ中に入っている。これで何をするつもりだ？食べるのか？ヘルメットとして使うのか？どちらにせよ、ひどいアイデアだ。",
 Tooltip_PKHumanTeeth::en = "Used to craft trinkets.",
 Tooltip_PKHumanTeeth::ja::processed::unverified = "装身具のクラフトに使用。",
-Tooltip_PKInfectedSkullWithBrain::en = "A zombie skull with the brain still inside.
-What do you intend to do with this? Eat it? Use it as a helmet?
-Either way, it's a terrible idea.",
+Tooltip_PKInfectedSkullWithBrain::en = "",
 Tooltip_PKInfectedSkullWithBrain::ja::processed::unverified = "脳がまだ中に入っているゾンビの頭蓋骨。これで何をするつもりだ？食べるのか？ヘルメットとして使うのか？どちらにせよ、ひどいアイデアだ。",
 Tooltip_PKSmallRandomHumanBones::en = "Used for crafting.",
 Tooltip_PKSmallRandomHumanBones::ja::processed::unverified = "クラフトに使用。",

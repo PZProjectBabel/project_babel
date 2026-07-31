@@ -101,8 +101,16 @@ IGUI_PlayerText_OnKillZombie7::en = "You were already dead anyway.",
 IGUI_PlayerText_OnKillZombie8::en = "I'll remember you fondly.",
 IGUI_PlayerText_OnKillZombie9::en = "Next.",
 IGUI_perks_Insanidade_Description::en = "",
+IGUI_perks_Insanidade_Description1::en = "",
 IGUI_perks_Insanidade_Description10::en = "",
+IGUI_perks_Insanidade_Description2::en = "",
+IGUI_perks_Insanidade_Description3::en = "",
+IGUI_perks_Insanidade_Description4::en = "",
+IGUI_perks_Insanidade_Description5::en = "",
+IGUI_perks_Insanidade_Description6::en = "",
 IGUI_perks_Insanidade_Description7::en = "",
+IGUI_perks_Insanidade_Description8::en = "",
+IGUI_perks_Insanidade_Description9::en = "",
 IGUI_perks_Insanity::en = "Insanity",
 IGUI_perks_Insanity_Description::en = "Doing crazy shit comes with a cost.",
 IGUI_perks_Insanity_Description1::en = "",
@@ -274,34 +282,21 @@ SewEnhancedCrudeLeatherBackpack::en = "Sew Enhanced Crude Leather Backpack",
 SkullPoleHuman::en = "Human Skull Pole",
 SplitHumanLeather::en = "Split Human Skin",
 TanHumanLeather::en = "Tan Human Skin",
-Tooltip_EnhancedLeatherBackpack::en = "An enhanced backpack made from human skin.
-Looks small, but it can hold a lot of stuff. And it looks pretty good too.
-
-You know, if you don't mind the smell.",
-Tooltip_HookHumanLocked::en = "Wait. You're not thinking about really doing that... Are you?
-Requires Insanity level ",
+Tooltip_EnhancedLeatherBackpack::en = "",
+Tooltip_HookHumanLocked::en = "",
 Tooltip_HumanLeather::en = "Something is very wrong with this.",
 Tooltip_HumanMeat::en = "Immoral. But it might be your only option.",
 Tooltip_HumanTendons::en = "Human sinew extracted in a crude manner.",
-Tooltip_InfectedTendons::en = "Human sinew extracted from an infected individual.
-Not recommended for consumption. But I know you're going to do it anyway.",
-Tooltip_PK42_HumanBrain::en = "A human brain. It looks quite appetizing.
-How on earth did you manage to get this?",
-Tooltip_PK42_ZombieBrain::en = "A zombie brain, extracted for... consumption?
-Are you really going to risk eating this?",
+Tooltip_InfectedTendons::en = "",
+Tooltip_PK42_HumanBrain::en = "",
+Tooltip_PK42_ZombieBrain::en = "",
 Tooltip_PKExtractBrain::en = "Extract the brain for culinary purposes.",
 Tooltip_PKHumanBone::en = "Can be used as weapon. But, how would you even get it? You'd have to... You know what? Never mind.",
-Tooltip_PKHumanSkull::en = "A damaged human skull. It appears to have been sawed. 
-Why would anyone do such a thing?",
-Tooltip_PKHumanSkullPart::en = "A fragment of a human skull. 
-It has no use whatsoever.",
-Tooltip_PKHumanSkullWithBrain::en = "A perfectly removed human skull, with the brain still inside.
-What do you intend to do with this? Eat it? Use it as a helmet?
-Either way, it's a terrible idea.",
+Tooltip_PKHumanSkull::en = "",
+Tooltip_PKHumanSkullPart::en = "",
+Tooltip_PKHumanSkullWithBrain::en = "",
 Tooltip_PKHumanTeeth::en = "Used to craft trinkets.",
-Tooltip_PKInfectedSkullWithBrain::en = "A zombie skull with the brain still inside.
-What do you intend to do with this? Eat it? Use it as a helmet?
-Either way, it's a terrible idea.",
+Tooltip_PKInfectedSkullWithBrain::en = "",
 Tooltip_PKSmallRandomHumanBones::en = "Used for crafting.",
 Tooltip_PsychoFlierPage1::en = "Teaches the secrets of the wilderness culinary arts",
 Tooltip_TaintedMeat::en = "Take a bite. See what happens.",

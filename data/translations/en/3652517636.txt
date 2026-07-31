@@ -46,16 +46,7 @@ ContextMenu_TankWater_RuntimeIdle::en = "idle",
 ContextMenu_TankWater_RuntimeLabel::en = "Status:",
 ContextMenu_TankWater_RuntimeOff::en = "off",
 ContextMenu_TankWater_SelectTank::en = "Select Tank",
-ContextMenu_TankWater_StartupNotice::en = "Tank Water important notice:
-
-1) This mod is incompatible with:
-- SkillRecoveryJournal
-- LazoloDynamicBackpackUpgrades
-- StarlitLibrary
-Using them together can cause errors.
-
-2) After the latest update, old water tanks must be picked up
-and placed on the ground again to migrate to the new system.",
+ContextMenu_TankWater_StartupNotice::en = "",
 ContextMenu_TankWater_StatusConnected::en = "Connected",
 ContextMenu_TankWater_StatusNotConnected::en = "Not Connected",
 ContextMenu_TankWater_StructuralStateContaminated::en = "Requires cleaning",
@@ -119,26 +110,14 @@ TankWater.TankWater5000_Fluid::en = "Water Tank (5000L)",
 TankWater_UI_RequiredSkills::en = "Required Skills:",
 TankWater_UI_RequiredSkillsValue::en = "Electricity 1 | Mechanics 2 | or Generator",
 TankWater_UI_RequiredTools::en = "Required Tools: Vise Grips + Screwdriver",
-Tooltip_TankWater_CleanTankUntreated::en = "Tank contains clean water.
-Drain tank before filling with untreated water.",
+Tooltip_TankWater_CleanTankUntreated::en = "",
 Tooltip_TankWater_FilterDepleted::en = "Filter depleted. Replace filter cartridge.",
 Tooltip_TankWater_NoPumpNearby::en = "No pumps nearby.",
 Tooltip_TankWater_NoTankNearby::en = "No tanks nearby.",
-Tooltip_TankWater_PumpDismantleRequirements::en = "Requires:
-- Vise Grips
-- Screwdriver
-Grants: 10 Mechanics XP.",
+Tooltip_TankWater_PumpDismantleRequirements::en = "",
 Tooltip_TankWater_PumpReady::en = "Ready to start",
-Tooltip_TankWater_PumpRepairRequirements::en = "Requires:
-- Electricity Lv 1
-- Mechanics Lv 2
-- Vise Grips
-- Screwdriver",
-Tooltip_TankWater_PumpSkillRequirements::en = "Requires to operate:
-- Electricity Lv 1
-- Mechanics Lv 2
-Or generator knowledge
-(magazine, Electrician or Electricity 3)",
+Tooltip_TankWater_PumpRepairRequirements::en = "",
+Tooltip_TankWater_PumpSkillRequirements::en = "",
 Tooltip_TankWater_RequiresCleaningTablets::en = "Requires: cleaning tablets.",
 Tooltip_TankWater_RequiresFilterCartridge::en = "Requires: filter cartridge.",
 Tooltip_TankWater_RequiresHose::en = "Requires: pump transfer hose.",
