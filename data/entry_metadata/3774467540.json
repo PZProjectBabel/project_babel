@@ -1,0 +1,650 @@
+[
+  {
+    "mod_id": "3774467540",
+    "translation_key": "ContextMenu_PickLock",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "0db345e0991270065b829a35980b351a"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "ContextMenu_PickLock_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "b9c07d4072e78eeffa9e637e9201d396"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_LockpickFail",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "62378f055a646addaaa577dbd8165e08"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_LockpickFailBreak",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "c9da863e6cb1628365e500f527f8e13e"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_LockpickFailBreak_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "bd416910e0790eeb995e7981ad254ea1"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_LockpickFail_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "b184bd2786718c843ce3397a846ff6cf"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_LockpickSuccess",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "cdf019791c59e6dfd4d0d03030bc6e29"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_NeedClip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "1ef4184adcebdab161265e890d80af25"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_NeedClip_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "3afcd71f01ba4824c71e83413f8f7d9f"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_NeedScrew",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "3b8e0dd71545eb252de1d0b7b342b3c9"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_NeedScrewAndClip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "167978d60da750924dab5fb0d9c11f54"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_NeedScrewAndClip_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "52ce25e2db924b1c257c22364d38fc95"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_NeedScrew_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "5327d77e2b9e23ac24cd3564690a33eb"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_perks_Lock Picking_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "b2a8d7a9004467b281c26c74e40adba8"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_perks_Lockpicking",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "c10c71a9947c84d7e5921b10cefaff8f"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "IGUI_perks_Lockpicking_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "dd198dcbbbe71c4497333d5af732bf46"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "7a623ae191ecedf1f21da2e9c1c00e35"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultDefault",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "e476c35e096603cac8d5ba43ef13042c"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultDefault_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "23e76e79149b8ddf0dadf3b0f9016ab6"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel1",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "0e61777b7717bba56816c76e63fa7f8f"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel10",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "31c68f4c56d166f47bdd4297cf465a0f"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel10_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "62aa61de35457893e83625e1a6af7a31"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel1_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "5fa75e59c1e050efe151f145c56f5eb4"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel2",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "ecf5e741a1b8ce961872da699d05cec9"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel2_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "708cd78ea18c9e7ed767ca8c14f00d49"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel3",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "4c7a0f5bf654adae2769b8ef26b8a473"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel3_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "ae024ce14e2958b252cfd5c3b29807c8"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel4",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "c7a07af1c1c3c51b3ef667d00743c8a5"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel4_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "eff4225dd703457af0ea4080354e4137"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel5",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "0a4c1157a28d636ceadad405b221d27c"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel5_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "9b1ef91993b5af0e07898740c10350eb"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel6",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "668ba3d7c036a45848a86aed4684c889"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel6_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "d1b68a5e180ecca328f722a428e9ffc8"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel7",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "4b9b95d3b4cfc4b3cf57eb817037e9dd"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel7_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "24611453ea4ba084d83be4ce643203dc"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel8",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "82b1926ae818a54d638aefb11768cfee"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel8_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "ae018057515f8d300f54b6701425959a"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel9",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "8ed2a8bf750ff76e336d43e85539531f"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_ActionSpeedMultlevel9_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "e039d59cc8416574fb5c02876e7e6a1b"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevel1",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "c777490ea4752c7a62fa54a29c2fdfb5"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevel1_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "480119b5f1adafb8a522a1ef23cd187a"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevel2",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "a0c41845865638e1e533a7921186666b"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevel2_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "66ee45bf1f9200eb3dc47a7139b9b389"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevel3",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "5eec76dfb00d90c4740de5f101b96bba"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevel3_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "8eba77887fc02d681ca695dcf546fe4f"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevel4",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "b05517381ac3e8159bdfe6bfe79fa792"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevel4_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "90f9936a69a2c31013b5f653776a511c"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevel5",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "e2ec021a560a802ccee8a0eb576e88c9"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevel5_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "9d237a06d94c6380dadbbd70b79953d5"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevelDefault",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "47bf0d39314abb2e899083a861424632"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BreakChanceLevelDefault_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "19976c5c1941b3a92ae52646ab481d87"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BurglarBonus",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "ebc7da5b3d489af7a49d6fb116436442"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_BurglarBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "f5c9ab95c8879e70c3be2c278760a810"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_CanFailLockpick",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "d4fb60558f051ba0cdc1fc9f66f69de6"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_CanFailLockpick_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "24980238d4b1e7c484a2f37b3b83d12e"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceDefault",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "2e516ba9787e1a0aab6fd6327e79727e"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceLevel1",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "d8c8524f8afe5c5561bda1c34f518a74"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceLevel1_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "5e0d463614584200d8b43e2c68fb6f3b"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceLevel2",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "3e018e79ce8e0ac1193aa9ed4bd0301e"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceLevel2_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "7b6231f8ca5c20aab0d4b9603f51f7aa"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceLevel3",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "ce8e50e85bcd6d215f6fc2f5b1fccdbb"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceLevel3_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "831b105e096a11ad087859a4910a4f0c"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceLevel4",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "ba11d43dd1f293b706679b1ac0110295"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceLevel4_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "ce666706cc2e7e758734d0286ebabc96"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceLevel5",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "253e5b26a9b5ead7c6c8fa2f77304845"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceLevel5_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "847693dbedb4870971cef7013a90471d"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_FailChanceLevelDefault_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "d148ce3d216cdb009bc7201d0a7325fd"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_UseDefaultActionspeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "e689291522f5b4f68752130c5afc6ca8"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_UseDefaultActionspeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "b5615692b1ac730cbc013faea86c41bc"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_UsePaperclipbreaksystem",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "496c8cb880e8e5a96fa09e1ea5f430e9"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_UsePaperclipbreaksystem_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "1338778cd40878fa35ea588d8d88118e"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_XPGain_BrokenPick",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "313d9b1e6dcc170a7e2dc06e79a21733"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_XPGain_BrokenPick_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "07db3f622908522ad0ffd4c6c76c386c"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_XPGain_Success",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "1ef1492b41701de1a818c4d566b9f5da"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_XPGain_Success_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "7f357fb76ff949889e99020e93cae227"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_XPindicator",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "10f1f313e6f4af0fc7dd24e0408afdf3"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "Sandbox_LockPickingskill_XPindicator_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "48f70b6536ba2d616bf60fa7d0743be3"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "UI_LockpickingGainSkill",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "83234435bec3db931e03d70bea0a693b"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "UI_LockpickingGainSkill_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "40d60a4c63a8f2efcbef3a7aa34fa517"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "UI_trait_Skilled_hands",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "4825eec9f4ebedb780c1dfd2d28d61ca"
+  },
+  {
+    "mod_id": "3774467540",
+    "translation_key": "UI_trait_Skilled_handsdesc",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T00:37:39.5618020Z",
+    "last_seen_mod_updated": "2026-08-01T20:48:01.0000000Z",
+    "source_hash": "319616c02cc8e003608d5267366b4c15"
+  }
+]

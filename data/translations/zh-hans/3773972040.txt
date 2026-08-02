@@ -122,10 +122,14 @@ UI_noFreeInteriors::en = "There are no more interiors available for this vehicle
 UI_noFreeInteriors::zh-hans::unprocessed::unverified = "没有更多内饰可供此车型使用",
 UI_optionscreen_binding_RV_INTERIOR_ENTER::en = "Enter or Exit Interior",
 UI_optionscreen_binding_RV_INTERIOR_ENTER::zh-hans::unprocessed::unverified = "进入或退出内部",
+UI_rvInteriorExitStreamingRetry::en = "The exterior vehicle did not finish loading. You were returned safely to the RV interior; wait a moment and try Exit again.",
+UI_rvInteriorExitStreamingRetry::zh-hans::unprocessed::unverified = "",
 UI_rvInteriorMapLayoutMismatch::en = "RV Interior files do not match the server. No teleport was attempted. Update the mod, restart Project Zomboid, and reconnect.",
 UI_rvInteriorMapLayoutMismatch::zh-hans::unprocessed::unverified = "",
 UI_rvInteriorMapsMissing::en = "Interior map hasn't loaded.  Return to the vehicle now?",
 UI_rvInteriorMapsMissing::zh-hans::unprocessed::unverified = "内部地图尚未加载。现在返回车辆？",
+UI_rvInteriorRespawnStreamingRetry::en = "The RV safehouse did not finish loading. Returning you to its exterior vehicle.",
+UI_rvInteriorRespawnStreamingRetry::zh-hans::unprocessed::unverified = "",
 UI_rvdebug_adopt_done::en = "Vehicle adopted interior number ",
 UI_rvdebug_adopt_done::zh-hans::unprocessed::unverified = "",
 UI_rvdebug_adopt_failed::en = "Failed to adopt interior (unsupported vehicle or invalid number).",
@@ -162,7 +166,7 @@ UI_rvdebug_mark_here::en = "Mark this interior for adoption.",
 UI_rvdebug_mark_here::zh-hans::unprocessed::unverified = "",
 UI_rvdebug_marked_start::en = "Marked interior number ",
 UI_rvdebug_marked_start::zh-hans::unprocessed::unverified = "",
-UI_rvdebug_menu::en = "[DEBUG] RV Interior",
+UI_rvdebug_menu::en = "[ADMIN] RV Interior",
 UI_rvdebug_menu::zh-hans::unprocessed::unverified = "[调试] RV Interior",
 UI_rvdebug_no_interior::en = "No interiors available for vehicle type: ",
 UI_rvdebug_no_interior::zh-hans::unprocessed::unverified = "没有适用于车型的内饰：",
@@ -176,11 +180,7 @@ UI_rvdebug_reset::en = "Make this vehicle's current interior available again.",
 UI_rvdebug_reset::zh-hans::unprocessed::unverified = "使这辆车的当前内饰再次可用。",
 UI_rvdebug_reset_all::en = "Reset ALL RV interiors (global).",
 UI_rvdebug_reset_all::zh-hans::unprocessed::unverified = "",
-UI_rvdebug_reset_all_confirm::en = "This will clear ALL RV Interior saved interiors for ALL vehicle types on this save.
-
-Existing vehicles will be re-assigned a new random interior the next time someone enters them.
-
-Proceed?",
+UI_rvdebug_reset_all_confirm::en = "",
 UI_rvdebug_reset_all_confirm::zh-hans::unprocessed::unverified = "",
 UI_rvdebug_reset_confirm::en = "This will remove the existing interior assignment from this vehicle, so the next time someone enters its interior they will go to a random available interior instead.
 

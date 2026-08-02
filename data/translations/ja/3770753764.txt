@@ -2,23 +2,15 @@ Sandbox_FullMapLootRespawn::en = "Full Map Loot Respawn",
 Sandbox_FullMapLootRespawn::ja::unprocessed::unverified = "",
 Sandbox_FullMapLootRespawn_IntervalHours::en = "Respawn interval (hours)",
 Sandbox_FullMapLootRespawn_IntervalHours::ja::unprocessed::unverified = "",
-Sandbox_FullMapLootRespawn_IntervalHours_tooltip::en = "How many in-game hours must pass after a container was last refilled
-before it can be refilled again. Default 24 = one day.
-WARNING: these are in-game hours - at default day length,
-1 in-game hour is only about 2.5 real minutes.
-Very low values on a busy server can cause severe lag.",
+Sandbox_FullMapLootRespawn_IntervalHours_tooltip::en = "",
 Sandbox_FullMapLootRespawn_IntervalHours_tooltip::ja::unprocessed::unverified = "",
 Sandbox_FullMapLootRespawn_MaxItems::en = "Max items for respawn",
 Sandbox_FullMapLootRespawn_MaxItems::ja::unprocessed::unverified = "",
-Sandbox_FullMapLootRespawn_MaxItems_tooltip::en = "A container holding this many items or more is never refilled.
-Raise it if you want partially looted containers to restock too.",
+Sandbox_FullMapLootRespawn_MaxItems_tooltip::en = "",
 Sandbox_FullMapLootRespawn_MaxItems_tooltip::ja::unprocessed::unverified = "",
 Sandbox_FullMapLootRespawn_RefillEmpty::en = "Refill empty containers",
 Sandbox_FullMapLootRespawn_RefillEmpty::ja::unprocessed::unverified = "",
-Sandbox_FullMapLootRespawn_RefillEmpty_tooltip::en = "If enabled, completely empty containers refill whether or not
-a player has ever seen or looted them (including empty spawns).
-Containers holding items still require a player to have looted them.
-If disabled, only actually looted containers refill (vanilla behavior).",
+Sandbox_FullMapLootRespawn_RefillEmpty_tooltip::en = "",
 Sandbox_FullMapLootRespawn_RefillEmpty_tooltip::ja::unprocessed::unverified = "",
 Sandbox_FullMapLootRespawn_RespectSafehouse::en = "Skip safehouses",
 Sandbox_FullMapLootRespawn_RespectSafehouse::ja::unprocessed::unverified = "",

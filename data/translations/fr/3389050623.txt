@@ -6,13 +6,31 @@ Sandbox_AmmoLootDropVanillaCarton::en = "Zombies Drop Ammo Carton",
 Sandbox_AmmoLootDropVanillaCarton::fr::processed::unverified = "Les zombies lâchent des cartons de munitions",
 Sandbox_VanillaBoxDropRate::en = "Ammo Box Drop Rate",
 Sandbox_VanillaBoxDropRate::fr::processed::unverified = "Taux d'apparition des boîtes de munitions",
-Sandbox_VanillaBoxDropRate_tooltip::en = "Drop Rate Multiplier",
-Sandbox_VanillaBoxDropRate_tooltip::fr::processed::unverified = "Multiplicateur de taux d'apparition",
+Sandbox_VanillaBoxDropRate_tooltip::en = "Chance in percent, per zombie,
+for each of the 9 box types.
+Default 0.5 is about one box
+every 20 to 25 corpses.
+A box holds 20 to 50 rounds,
+so small values go a long way.
+Set to 0 to turn the drop off.",
+Sandbox_VanillaBoxDropRate_tooltip::fr::processed::unverified = "Pourcentage de chance, par zombie, pour chacun des 9 types de boîtes. Par défaut 0,5 correspond à environ une boîte tous les 20 à 25 corps. Une boîte contient 20 à 50 cartouches, donc les petites valeurs suffisent. Mettez à 0 pour désactiver l'apparition.",
 Sandbox_VanillaCartonDropRate::en = "Ammo Carton Drop Rate",
 Sandbox_VanillaCartonDropRate::fr::processed::unverified = "Taux d'apparition des cartons de munitions",
-Sandbox_VanillaCartonDropRate_tooltip::en = "Drop Rate Multiplier",
-Sandbox_VanillaCartonDropRate_tooltip::fr::processed::unverified = "Multiplicateur de taux d'apparition",
+Sandbox_VanillaCartonDropRate_tooltip::en = "Chance in percent, per zombie,
+for each of the 9 carton types.
+Default 0.05 is about one carton
+every 200 corpses.
+A carton is 12 boxes, so even
+a rate of 1 makes them common.
+Set to 0 to turn the drop off.",
+Sandbox_VanillaCartonDropRate_tooltip::fr::processed::unverified = "Pourcentage de chance, par zombie, pour chacun des 9 types de cartons. Par défaut 0,05 correspond à environ un carton tous les 200 corps. Un carton contient 12 boîtes, donc même un taux de 1 les rend courants. Mettez à 0 pour désactiver l'apparition.",
 Sandbox_VanillaDropRate::en = "Ammo Drop Rate",
 Sandbox_VanillaDropRate::fr::processed::unverified = "Taux d'apparition des munitions",
-Sandbox_VanillaDropRate_tooltip::en = "Drop Rate Multiplier",
-Sandbox_VanillaDropRate_tooltip::fr::processed::unverified = "Multiplicateur de taux d'apparition",
+Sandbox_VanillaDropRate_tooltip::en = "Chance in percent, per zombie,
+for each of the 9 round types.
+Default 5 leaves ammo on about
+a third of all corpses.
+All 9 types roll separately, so 20
+already covers nearly every zombie.
+Set to 0 to turn the drop off.",
+Sandbox_VanillaDropRate_tooltip::fr::processed::unverified = "Pourcentage de chance, par zombie, pour chacun des 9 types de munitions. Par défaut 5 laisse des munitions sur environ un tiers des corps. Les 9 types sont calculés séparément, donc 20 couvre presque tous les zombies. Mettez à 0 pour désactiver l'apparition.",

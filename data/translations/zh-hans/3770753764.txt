@@ -2,30 +2,10 @@ Sandbox_FullMapLootRespawn::en = "Full Map Loot Respawn",
 Sandbox_FullMapLootRespawn::zh-hans::unprocessed::unverified = "全图物资刷新",
 Sandbox_FullMapLootRespawn_IntervalHours::en = "Respawn interval (hours)",
 Sandbox_FullMapLootRespawn_IntervalHours::zh-hans::unprocessed::unverified = "刷新间隔（小时）",
-Sandbox_FullMapLootRespawn_IntervalHours_tooltip::en = "How many in-game hours must pass after a container was last refilled
-before it can be refilled again. Default 24 = one day.
-WARNING: these are in-game hours - at default day length,
-1 in-game hour is only about 2.5 real minutes.
-Very low values on a busy server can cause severe lag.",
-Sandbox_FullMapLootRespawn_IntervalHours_tooltip::zh-hans::unprocessed::unverified = "容器距离上次补货需要经过多少游戏小时才能再次补货。默认 24 = 一天。
-警告：这是游戏时间，默认天数长度下 1 游戏小时只有约 2.5 现实分钟。
-人多的服务器上设得太小会严重卡顿。",
 Sandbox_FullMapLootRespawn_MaxItems::en = "Max items for respawn",
 Sandbox_FullMapLootRespawn_MaxItems::zh-hans::unprocessed::unverified = "刷新物品数上限",
-Sandbox_FullMapLootRespawn_MaxItems_tooltip::en = "A container holding this many items or more is never refilled.
-Raise it if you want partially looted containers to restock too.",
-Sandbox_FullMapLootRespawn_MaxItems_tooltip::zh-hans::unprocessed::unverified = "容器内物品数达到或超过该值时不会补货。
-想让没搬空的容器也能补货就调大它。",
 Sandbox_FullMapLootRespawn_RefillEmpty::en = "Refill empty containers",
 Sandbox_FullMapLootRespawn_RefillEmpty::zh-hans::unprocessed::unverified = "空容器也补货",
-Sandbox_FullMapLootRespawn_RefillEmpty_tooltip::en = "If enabled, completely empty containers refill whether or not
-a player has ever seen or looted them (including empty spawns).
-Containers holding items still require a player to have looted them.
-If disabled, only actually looted containers refill (vanilla behavior).",
-Sandbox_FullMapLootRespawn_RefillEmpty_tooltip::zh-hans::unprocessed::unverified = "开启后，完全空的容器无论是否被玩家见过、搜刮过都会补货
-（含初始就没刷出物资的空容器）。
-里面有东西的容器仍需被搜刮过才补。
-关闭 = 只补被玩家搜刮过的容器（原版行为）。",
 Sandbox_FullMapLootRespawn_RespectSafehouse::en = "Skip safehouses",
 Sandbox_FullMapLootRespawn_RespectSafehouse::zh-hans::unprocessed::unverified = "跳过安全屋",
 Sandbox_FullMapLootRespawn_RespectSafehouse_tooltip::en = "If enabled, containers inside claimed safehouses are never refilled.",

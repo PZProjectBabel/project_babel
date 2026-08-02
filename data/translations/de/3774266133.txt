@@ -1680,8 +1680,7 @@ Tooltip_PA_2xEC::en = "Electromagnetic ammunition manufactured by WESTTECH® in 
 Tooltip_PA_2xEC::de::unprocessed::unverified = "",
 Tooltip_PA_8mmEC::en = "Electromagnetic ammunition produced by WESTTECH® Corporation in the year 5100 for the H-02c Charge Carbine. Its larger caliber provides significantly greater lethality against organic organisms.",
 Tooltip_PA_8mmEC::de::unprocessed::unverified = "",
-Tooltip_PA_AdvancedFuelBattery::en = "A fuel cell genuinely manufactured on WESTTECH® Corporation's standard advanced production line. Lightweight, durable, and equipped with reliable safety features.
-It can be used to recharge most energy weapons in Project Anime. Can be used 8 times.",
+Tooltip_PA_AdvancedFuelBattery::en = "",
 Tooltip_PA_AdvancedFuelBattery::de::unprocessed::unverified = "",
 Tooltip_PA_ArmPouchWESTTECH::en = "Performance can be further improved through upgrades. Check your crafting menu!",
 Tooltip_PA_ArmPouchWESTTECH::de::unprocessed::unverified = "",
@@ -1691,14 +1690,11 @@ Tooltip_PA_ArmPouchWESTTECH_Black::en = "Performance can be further improved thr
 Tooltip_PA_ArmPouchWESTTECH_Black::de::unprocessed::unverified = "",
 Tooltip_PA_ArmPouchWESTTECH_BlackLvMAX::en = "Upgraded to the maximum level. Well done.",
 Tooltip_PA_ArmPouchWESTTECH_BlackLvMAX::de::unprocessed::unverified = "",
-Tooltip_PA_ArmorPlate::en = "The basic personal protective equipment, typically worn by WESTTECH® corporate combatants, uses an energy field to mitigate damage to the body from external impacts.
-It is a disposable piece of equipment that disappears once the energy is depleted.",
+Tooltip_PA_ArmorPlate::en = "",
 Tooltip_PA_ArmorPlate::de::unprocessed::unverified = "",
-Tooltip_PA_ArmorPlate2::en = "The advanced personal protective equipment, typically worn by WESTTECH® corporate combatants, uses an energy field to mitigate damage to the body from external impacts.
-It is a disposable piece of equipment that disappears once the energy is depleted.",
+Tooltip_PA_ArmorPlate2::en = "",
 Tooltip_PA_ArmorPlate2::de::unprocessed::unverified = "",
-Tooltip_PA_ArmorPlate3::en = "The titanium personal protective equipment, typically worn by WESTTECH® corporate combatants, uses an energy field to mitigate damage to the body from external impacts.
-It is a disposable piece of equipment that disappears once the energy is depleted.",
+Tooltip_PA_ArmorPlate3::en = "",
 Tooltip_PA_ArmorPlate3::de::unprocessed::unverified = "",
 Tooltip_PA_AssaultrifleAmmo::en = "Armor-piercing ammunition for the WESTTECH® C-01r Assault Rifle. More commonly found in military areas.",
 Tooltip_PA_AssaultrifleAmmo::de::unprocessed::unverified = "",
@@ -1734,51 +1730,33 @@ Tooltip_PA_BankCardOjousan::en = "Old era WESTTECH® Corporation's highest admin
 Tooltip_PA_BankCardOjousan::de::unprocessed::unverified = "",
 Tooltip_PA_BankCardWhite::en = "WESTTECH® Primary Admin Card. Usually be called White Card. It has widely using ways, such as storing Credits, opening doors and having dishes.",
 Tooltip_PA_BankCardWhite::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_Kaeri::en = "Miss High Lilies' personal maid.
-Anime body performance can be improved through upgrades. Check your crafting menu!",
+Tooltip_PA_BaseAnimeModel_Kaeri::en = "",
 Tooltip_PA_BaseAnimeModel_Kaeri::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_KaeriLvMAX::en = "Miss High Lilies' personal maid.
-Upgraded to the maximum level. Well done.",
+Tooltip_PA_BaseAnimeModel_KaeriLvMAX::en = "",
 Tooltip_PA_BaseAnimeModel_KaeriLvMAX::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_Kikyo::en = "A cute purple-haired Moelotl Cursor.
-Anime Model's performance can be improved through upgrades. Check your crafting menu!",
+Tooltip_PA_BaseAnimeModel_Kikyo::en = "",
 Tooltip_PA_BaseAnimeModel_Kikyo::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_KikyoLvMAX::en = "A cute purple-haired Moelotl Cursor.
-Upgraded to the maximum level. Well done.",
+Tooltip_PA_BaseAnimeModel_KikyoLvMAX::en = "",
 Tooltip_PA_BaseAnimeModel_KikyoLvMAX::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_Lilies::en = "Lilies Kumono, daughter of the former chairman of WESTTECH® Corporation of the old era.
-Anime body performance can be improved through upgrades. Check your crafting menu!",
+Tooltip_PA_BaseAnimeModel_Lilies::en = "",
 Tooltip_PA_BaseAnimeModel_Lilies::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_LiliesLvMAX::en = "Lilies Kumono, daughter of the former chairman of WESTTECH® Corporation of the old era.
-Upgraded to the maximum level. Well done.",
+Tooltip_PA_BaseAnimeModel_LiliesLvMAX::en = "",
 Tooltip_PA_BaseAnimeModel_LiliesLvMAX::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_Rironn::en = "The supreme leader of WESTTECH® Corporation in the New Era, Chairwoman Rironn. Due to a common genetic disease in the Shining World (Cellular Inactivation Type III) that she has suffered from since childhood, her body has retained a childlike appearance for many years.
-The anime body model's performance can be improved through upgrades. Please check your crafting menu!",
+Tooltip_PA_BaseAnimeModel_Rironn::en = "",
 Tooltip_PA_BaseAnimeModel_Rironn::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_RironnLvMAX::en = "The supreme leader of WESTTECH® Corporation in the New Era, Chairwoman Rironn. Due to a common genetic disease in the Shining World (Cellular Inactivation Type III) that she has suffered from since childhood, her body has retained a childlike appearance for many years.
-It has reached the maximum level. You did a great job.",
+Tooltip_PA_BaseAnimeModel_RironnLvMAX::en = "",
 Tooltip_PA_BaseAnimeModel_RironnLvMAX::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_Sugar::en = "A gentle white-haired Moelotl researcher.
-Anime body performance can be improved through upgrades. Check your crafting menu!",
+Tooltip_PA_BaseAnimeModel_Sugar::en = "",
 Tooltip_PA_BaseAnimeModel_Sugar::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_SugarLvMAX::en = "A gentle white-haired Moelotl researcher.
-Upgraded to the maximum level. Well done.",
+Tooltip_PA_BaseAnimeModel_SugarLvMAX::en = "",
 Tooltip_PA_BaseAnimeModel_SugarLvMAX::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_Tina::en = "White haired lazy Trainee Grim Reaper.
-Anime body performance can be improved through upgrades. Check your crafting menu!
-Can be switched into a new look when long blade skill reached lv5.",
+Tooltip_PA_BaseAnimeModel_Tina::en = "",
 Tooltip_PA_BaseAnimeModel_Tina::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_Tina02::en = "White haired lazy Grim Reaper.
-Anime body performance can be improved through upgrades. Check your crafting menu!
-Can be switched into a new look.",
+Tooltip_PA_BaseAnimeModel_Tina02::en = "",
 Tooltip_PA_BaseAnimeModel_Tina02::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_Tina02LvMAX::en = "White haired lazy Grim Reaper.
-Upgraded to the maximum level. Well done.
-Can be switched into a new look.",
+Tooltip_PA_BaseAnimeModel_Tina02LvMAX::en = "",
 Tooltip_PA_BaseAnimeModel_Tina02LvMAX::de::unprocessed::unverified = "",
-Tooltip_PA_BaseAnimeModel_TinaLvMAX::en = "White haired lazy Trainee Grim Reaper.
-Upgraded to the maximum level. Well done.
-Can be switched into a new look when long blade skill reached lv5.",
+Tooltip_PA_BaseAnimeModel_TinaLvMAX::en = "",
 Tooltip_PA_BaseAnimeModel_TinaLvMAX::de::unprocessed::unverified = "",
 Tooltip_PA_BrokenC01p::en = "Judging by its appearance, this was once a WESTTECH® Corporation C-01p pistol. However, it is damaged beyond repair.",
 Tooltip_PA_BrokenC01p::de::unprocessed::unverified = "",
@@ -1808,17 +1786,13 @@ Tooltip_PA_BrokenH04m::en = "Judging by its appearance, this was once a WESTTECH
 Tooltip_PA_BrokenH04m::de::unprocessed::unverified = "",
 Tooltip_PA_BrokenH04p::en = "Judging by its appearance, this was once a WESTTECH® Corporation H-02p Plasma Pistol. However, it has been damaged beyond repair.",
 Tooltip_PA_BrokenH04p::de::unprocessed::unverified = "",
-Tooltip_PA_CarbineH02c::en = "An automatic charge carbine developed and manufactured by WESTTECH® Corporation in 5100 based on the charge rifles deployed by the Shining World.
-Although its penetration capability is far inferior to the H-02r Charge Rifle, making it less effective against the newly emerging mechanical threats,
-it remains an overall superior replacement for all traditional ballistic weapons in terms of firepower, penetration, and portability.",
+Tooltip_PA_CarbineH02c::en = "",
 Tooltip_PA_CarbineH02c::de::unprocessed::unverified = "",
-Tooltip_PA_ChineseCoinSword::en = "Appears to be a powerful ritual weapon from a mysterious Eastern country, possibly imbued with magic to suppress the undead.
-Easter egg item from 'Moelotl: Seven Days Reborn'.",
+Tooltip_PA_ChineseCoinSword::en = "",
 Tooltip_PA_ChineseCoinSword::de::unprocessed::unverified = "",
 Tooltip_PA_ClothesPack::en = "Place it on the ground to preview how it looks when worn.",
 Tooltip_PA_ClothesPack::de::unprocessed::unverified = "",
-Tooltip_PA_ClothesPackTina2::en = "P??c? it ?? ?he grou?? to p?e?ie? h?w it l??ks wh?n ???n.
-(Requires Long Blade skill level 5 to unlock)",
+Tooltip_PA_ClothesPackTina2::en = "",
 Tooltip_PA_ClothesPackTina2::de::unprocessed::unverified = "",
 Tooltip_PA_Credit::en = "The primary currency used in Project Anime's trading system. Can be exchanged for various items via a WESTTECH® pager.",
 Tooltip_PA_Credit::de::unprocessed::unverified = "",
@@ -1828,21 +1802,15 @@ Tooltip_PA_DirtyCoat::en = "A tattered coat. From the armband, it can still be r
 Tooltip_PA_DirtyCoat::de::unprocessed::unverified = "",
 Tooltip_PA_ELINCard::en = "A universal VIP card for ELIN®, WESTTECH®'s food chain brand. Unlocks access to multiple ELIN® food trade services.",
 Tooltip_PA_ELINCard::de::unprocessed::unverified = "",
-Tooltip_PA_EnergySwordWESTTECHMKII::en = "[Unique item, cannot be obtained through normal means, and cannot be retrieved once lost. Please keep it safe!]
-A speacial variation of WESTTECH® Energy Sword, usually only be equipped on units of the Cursor tier.
-More energy capacity and damage, but require more energy when recharging.",
+Tooltip_PA_EnergySwordWESTTECHMKII::en = "",
 Tooltip_PA_EnergySwordWESTTECHMKII::de::unprocessed::unverified = "",
-Tooltip_PA_FlashlightLarge::en = "A larger tactic flashlight produced by WESTTECH®. Has a more widely lighting range but also need more power.
-[Aiming Time(++); Providing Light(++).]",
+Tooltip_PA_FlashlightLarge::en = "",
 Tooltip_PA_FlashlightLarge::de::unprocessed::unverified = "",
-Tooltip_PA_FlashlightSmall::en = "A small tactic flashlight produced by WESTTECH®. Can be mounted on small firearms.
-[Aiming Time(+); Providing Light(+).]",
+Tooltip_PA_FlashlightSmall::en = "",
 Tooltip_PA_FlashlightSmall::de::unprocessed::unverified = "",
-Tooltip_PA_FuelBattery::en = "A poorly made, hand-crafted fuel battery. Its discharge efficiency is only 33% compared to mass-produced models.
-Can recharge most energy weapons in Project Anime. Uses: 2.",
+Tooltip_PA_FuelBattery::en = "",
 Tooltip_PA_FuelBattery::de::unprocessed::unverified = "",
-Tooltip_PA_HoloSight::en = "A short range holosight produced by WESTTECH®.
-[Aiming Time(-); Vision Range(+).]",
+Tooltip_PA_HoloSight::en = "",
 Tooltip_PA_HoloSight::de::unprocessed::unverified = "",
 Tooltip_PA_HyperWeave::en = "A fabric made using advanced space-age technology and polymer materials. Renowned for its exceptional impact resistance. Only the most advanced Glitterworlds can produce it.",
 Tooltip_PA_HyperWeave::de::unprocessed::unverified = "",
@@ -1872,19 +1840,15 @@ Tooltip_PA_PlasmaCanister::en = "A canister filled with neatly arranged plasma f
 Tooltip_PA_PlasmaCanister::de::unprocessed::unverified = "",
 Tooltip_PA_PlasmaCartridge::en = "Plasma-state fuel sealed in a specialized container. Fired via electrical arc to form a high-temperature plasma bolt that burns targets.",
 Tooltip_PA_PlasmaCartridge::de::unprocessed::unverified = "",
-Tooltip_PA_PlasmaMachineGunH04m::en = "A heavy plasma machine gun produced by WESTTECH® in 5400, typically used for base defense.
-No manual reloading required—simply replace the plasma fuel canister.",
+Tooltip_PA_PlasmaMachineGunH04m::en = "",
 Tooltip_PA_PlasmaMachineGunH04m::de::unprocessed::unverified = "",
 Tooltip_PA_PlasmaPistolH04p::en = "A plasma pistol manufactured by WESTTECH® Corporation in the year 5300. As a pioneer among emerging energy weapons, its design influenced the development and production of many subsequent plasma weapons.",
 Tooltip_PA_PlasmaPistolH04p::de::unprocessed::unverified = "",
-Tooltip_PA_RailgunH02r::en = "A charge rifle produced by WESTTECH® in 5225. Still the primary weapon against Mechanoid incursions.
-No manual reloading required—replace the ammunition module instead.",
+Tooltip_PA_RailgunH02r::en = "",
 Tooltip_PA_RailgunH02r::de::unprocessed::unverified = "",
-Tooltip_PA_Railgun_HeavyBattery::en = "A heavy battery produced by WESTTECH®. Suitable for charge rifle.
-[Weight(+++); Aiming Time(++); Reloading Time(+); Damage(MAX); Max Range(MAX)；Firing Speed(-).]",
+Tooltip_PA_Railgun_HeavyBattery::en = "",
 Tooltip_PA_Railgun_HeavyBattery::de::unprocessed::unverified = "",
-Tooltip_PA_RepairKit::en = "A multipurpose repair kit produced by WESTTECH®.
-Can be used to repair most conventional weapons in Project Anime. Uses: 2.",
+Tooltip_PA_RepairKit::en = "",
 Tooltip_PA_RepairKit::de::unprocessed::unverified = "",
 Tooltip_PA_RevolverCSMini::en = "A civilian defense weapon manufactured by WESTTECH® Corporation. Due to its extremely compact and lightweight design, as well as its low recoil when fired, it is especially favored by women.",
 Tooltip_PA_RevolverCSMini::de::unprocessed::unverified = "",
@@ -1892,29 +1856,21 @@ Tooltip_PA_RifleCSStalker::en = "A civilian defense weapon manufactured by WESTT
 Tooltip_PA_RifleCSStalker::de::unprocessed::unverified = "",
 Tooltip_PA_SMGC01s::en = "Standard-issue submachine gun produced by WESTTECH®. Uses .45 caliber ammunition. Cost-effective, powerful, and fed by readily available ammo—one of WESTTECH®'s flagship products.",
 Tooltip_PA_SMGC01s::de::unprocessed::unverified = "",
-Tooltip_PA_SMGC01sLilies::en = "[Unique item, cannot be obtained through normal means, and cannot be retrieved once lost. Please keep it safe!]
-A final keepsake entrusted to Lilies Kumono by her father, the Father of Lilies, as he lay dying after being infected by the Knox Virus. Its performance far surpasses that of a standard C-01s.",
+Tooltip_PA_SMGC01sLilies::en = "",
 Tooltip_PA_SMGC01sLilies::de::unprocessed::unverified = "",
-Tooltip_PA_Scope4x::en = "A mid range scope produced by WESTTECH®.
-[Aiming Time(+++); Vision Range(++).]",
+Tooltip_PA_Scope4x::en = "",
 Tooltip_PA_Scope4x::de::unprocessed::unverified = "",
-Tooltip_PA_ShotgunCSPhantom::en = "A civilian defense weapon produced by WESTTECH®. Uses 10-gauge shotgun shells.
-Its fire rate can be greatly increased by installing the illegal 'Experimental Shotgun Trigger' mod.",
+Tooltip_PA_ShotgunCSPhantom::en = "",
 Tooltip_PA_ShotgunCSPhantom::de::unprocessed::unverified = "",
-Tooltip_PA_Shotgun_AmmoPouch::en = "A shotgun ammo pouch produced by WESTTECH®. Designed to reduce reloading time.
-[Aiming Time(+); Reloading Time(--).]",
+Tooltip_PA_Shotgun_AmmoPouch::en = "",
 Tooltip_PA_Shotgun_AmmoPouch::de::unprocessed::unverified = "",
-Tooltip_PA_Shotgun_Beamer::en = "A shotgun beamer produced by WESTTECH®. Can reduce the pellets spreading and increase range.
-[Aiming Time(+); Pellets Spreading(--); Max Range(++).]",
+Tooltip_PA_Shotgun_Beamer::en = "",
 Tooltip_PA_Shotgun_Beamer::de::unprocessed::unverified = "",
-Tooltip_PA_Shotgun_ExperimentalTrigger::en = "A shotgun part produced by the black market. Warning: This part is illegal!
-[Max Range(-); Firing Speed(++).]",
+Tooltip_PA_Shotgun_ExperimentalTrigger::en = "",
 Tooltip_PA_Shotgun_ExperimentalTrigger::de::unprocessed::unverified = "",
-Tooltip_PA_SuppressorLarge::en = "A large sized suppressor produced by WESTTECH®. It's less effective than a normal suppressor.
-[Weight(++); Aiming Time(MAX); Firing Noise(--).]",
+Tooltip_PA_SuppressorLarge::en = "",
 Tooltip_PA_SuppressorLarge::de::unprocessed::unverified = "",
-Tooltip_PA_SuppressorSmall::en = "A standard sized suppressor produced by WESTTECH®. Can be mounted on pistols, smg and rifles.
-[Weight(+); Aiming Time(+++); Firing Noise(---).]",
+Tooltip_PA_SuppressorSmall::en = "",
 Tooltip_PA_SuppressorSmall::de::unprocessed::unverified = "",
 Tooltip_PA_TreasureGourd::en = "Performance can be further improved through upgrades. Check your crafting menu!",
 Tooltip_PA_TreasureGourd::de::unprocessed::unverified = "",
@@ -1924,20 +1880,15 @@ Tooltip_PA_UmbrellaClosed::en = "An ultra-durable umbrella sold by FALLON'S® De
 Tooltip_PA_UmbrellaClosed::de::unprocessed::unverified = "",
 Tooltip_PA_WESTTECHFiber::en = "Advanced fiber produced by WESTTECH®. Its impact resistance even surpasses Hyperweave.",
 Tooltip_PA_WESTTECHFiber::de::unprocessed::unverified = "",
-Tooltip_PA_WESTTECH_PackageCondiment::en = "One of the relief supply packages distributed by WESTTECH® after the Knox Event.
-Vacuum-sealed to prevent spoilage. Open to receive 2–3 random condiment items.",
+Tooltip_PA_WESTTECH_PackageCondiment::en = "",
 Tooltip_PA_WESTTECH_PackageCondiment::de::unprocessed::unverified = "",
-Tooltip_PA_WESTTECH_PackageFruit::en = "One of the relief supply packages distributed by WESTTECH® after the Knox Event.
-Vacuum-sealed to prevent spoilage. Open to receive 2–3 random fruit items.",
+Tooltip_PA_WESTTECH_PackageFruit::en = "",
 Tooltip_PA_WESTTECH_PackageFruit::de::unprocessed::unverified = "",
-Tooltip_PA_WESTTECH_PackageMeat::en = "One of the relief supply packages distributed by WESTTECH® after the Knox Event.
-Vacuum-sealed to prevent spoilage. Open to receive 2–3 random meat items.",
+Tooltip_PA_WESTTECH_PackageMeat::en = "",
 Tooltip_PA_WESTTECH_PackageMeat::de::unprocessed::unverified = "",
-Tooltip_PA_WESTTECH_PackageVegetable::en = "One of the relief supply packages distributed by WESTTECH® after the Knox Event.
-Vacuum-sealed to prevent spoilage. Open to receive 2–3 random vegetable items.",
+Tooltip_PA_WESTTECH_PackageVegetable::en = "",
 Tooltip_PA_WESTTECH_PackageVegetable::de::unprocessed::unverified = "",
-Tooltip_PA_Walkietalkie::en = "Once a combat ration item of WESTTECH®, now used to call WESTTECH® for trade services.
-Selling items consumes no power, while purchasing does. Fully charged, it can be used 5 times.",
+Tooltip_PA_Walkietalkie::en = "",
 Tooltip_PA_Walkietalkie::de::unprocessed::unverified = "",
 Tooltip_PA_WarmLiner::en = "Want to dress light even in winter? Give this a try!",
 Tooltip_PA_WarmLiner::de::unprocessed::unverified = "",
@@ -1949,11 +1900,9 @@ Tooltip_PA_WorkCardRironn::en = "Rironn's WESTTECH® Work Card, perfect to wear 
 Tooltip_PA_WorkCardRironn::de::unprocessed::unverified = "",
 Tooltip_PA_WorkCardSugar::en = "Sugar's WESTTECH® Work Card, perfect to wear with WESTTECH® Uniform set.",
 Tooltip_PA_WorkCardSugar::de::unprocessed::unverified = "",
-Tooltip_PA_YorunoAka::en = "[Unique item, cannot be obtained through normal means, and cannot be retrieved once lost. Please keep it safe!]
-Tina's Death Scythe. Has a chance to instantly reap the opponent's soul upon attack. The reaping probability increases with the longsword skill level.",
+Tooltip_PA_YorunoAka::en = "",
 Tooltip_PA_YorunoAka::de::unprocessed::unverified = "",
-Tooltip_PA_YorunoMurasaki::en = "[Unique item, cannot be obtained through normal means, and cannot be retrieved once lost. Please keep it safe!]
-Tina's Death Scythe. Has a chance to instantly reap the opponent's soul upon attack. The reaping probability increases with the longsword skill level.",
+Tooltip_PA_YorunoMurasaki::en = "",
 Tooltip_PA_YorunoMurasaki::de::unprocessed::unverified = "",
 Tooltip_Recipe_PA_RepairWeapon::en = "Please uninstall all parts before repairing or recharging.",
 Tooltip_Recipe_PA_RepairWeapon::de::unprocessed::unverified = "",
@@ -1969,36 +1918,19 @@ UI_prof_PA_Ojousan::en = "[Project Anime] {The Glorious Finale} (High Difficulty
 UI_prof_PA_Ojousan::de::unprocessed::unverified = "",
 UI_prof_PA_Reaper::en = "[Project Anime] {A Journey Home from Another World} (Very Easy)",
 UI_prof_PA_Reaper::de::unprocessed::unverified = "",
-UI_profdesc_PA_Chairman::en = "Your concern for Kikyo and Sugar, two close friends who grew up together since childhood, leaves you restless. 
-Ignoring the objections of other corporate members, you resolutely step into the portal. 
-Well, perhaps you should also pray that the acting chairperson can manage the company properly.
-Starting Character: Rironn
-Starting Equipment: WESTTECH® Energy Knife, WESTTECH® H-02c Charge Carbine (300 ammunition, 3 magazines), WESTTECH® H-04p Plasma Pistol (200 ammunition); WESTTECH® Work Uniform Set, WESTTECH® Standard Tactical Bag",
+UI_profdesc_PA_Chairman::en = "",
 UI_profdesc_PA_Chairman::de::unprocessed::unverified = "",
-UI_profdesc_PA_LittleMaid::en = "Staying with Miss High Lilies is always your top priority. 
-Find her as soon as possible. Time is running out.
-Starting Character: Kaeri Koromi
-Starting Equipment: FALLON'S® Alloy Umbrella, WESTTECH® CS-Phantom Automatic Shotgun (134 ammunition); Casual Outfit II Set, FALLON'S® Doll Backpack (Blue)",
+UI_profdesc_PA_LittleMaid::en = "",
 UI_profdesc_PA_LittleMaid::de::unprocessed::unverified = "",
-UI_profdesc_PA_Moelotl::en = "You are a traveler sent here from the future. You are known as a Corrector, and your mission is to fix the mistakes of the past. 
-However, once a mistake has been made, can it truly be corrected?
-Starting Character: Kikyo (Can be switched to Sugar after entering the game)
-Starting Equipment: WESTTECH® Energy Knife, WESTTECH® H-04p Plasma Pistol (200 ammunition); Casual Outfit Set, WESTTECH® Custom Moelotl Duffle Bag",
+UI_profdesc_PA_Moelotl::en = "",
 UI_profdesc_PA_Moelotl::de::unprocessed::unverified = "",
-UI_profdesc_PA_Ojousan::en = "You are the daughter of the former chairperson of WESTTECH® Corporation in the Old Era. 
-The glorious past is gone, but by inheriting your father's will, there is still a chance to restore everything to its former state...
-Starting Character: Lilies Kumono
-Starting Equipment: FALLON'S® Alloy Umbrella, 'Goodbye Gift by Lilies' Father' (250 ammunition, 3 magazines); Miss High Outfit Set, FALLON'S® Doll Backpack (Purple)",
+UI_profdesc_PA_Ojousan::en = "",
 UI_profdesc_PA_Ojousan::de::unprocessed::unverified = "",
-UI_profdesc_PA_Reaper::en = "The temporal and spatial chaos caused by the Project Anime brought you here. 
-Now, surviving and finding a way home has become an unprecedented challenge for a useless Reaper like you.
-Starting Character: Tina
-Starting Equipment: Reaper Scythe 'Yoru no Murasaki'; Apprentice Reaper Outfit Set, Blue Shoulder Bag",
+UI_profdesc_PA_Reaper::en = "",
 UI_profdesc_PA_Reaper::de::unprocessed::unverified = "",
 UI_trait_PA_Bioscience::en = "Life Science Expert",
 UI_trait_PA_Bioscience::de::unprocessed::unverified = "",
-UI_trait_PA_Bioscience_desc::en = "Rironn showed an interest in medicine and various plants from an early age and successfully obtained a Life Science Expert certification. 
-She joined the Life Science Department of WESTTECH® Corporation at a very young age.",
+UI_trait_PA_Bioscience_desc::en = "",
 UI_trait_PA_Bioscience_desc::de::unprocessed::unverified = "",
 UI_trait_PA_CombatMaid::en = "Advanced Maid Training: Combat",
 UI_trait_PA_CombatMaid::de::unprocessed::unverified = "",
@@ -2014,8 +1946,7 @@ UI_trait_PA_KaeriStart::en = "{Maid and Master}Starting Items",
 UI_trait_PA_KaeriStart::de::unprocessed::unverified = "",
 UI_trait_PA_KaeriStart_desc::en = "At the start of the game, you will receive essential items related to the {Maid and Master} scenario.",
 UI_trait_PA_KaeriStart_desc::de::unprocessed::unverified = "",
-UI_trait_PA_Kaeri_desc::en = "In reality, Kaeri is not yet old enough to live independently. 
-However, in this cruel world, she still has many things she must accomplish.",
+UI_trait_PA_Kaeri_desc::en = "",
 UI_trait_PA_Kaeri_desc::de::unprocessed::unverified = "",
 UI_trait_PA_LiliesStart::en = "{The Glorious Finale}Starting Items",
 UI_trait_PA_LiliesStart::de::unprocessed::unverified = "",
@@ -2023,9 +1954,7 @@ UI_trait_PA_LiliesStart_desc::en = "At the start of the game, you will receive e
 UI_trait_PA_LiliesStart_desc::de::unprocessed::unverified = "",
 UI_trait_PA_Modified::en = "Perfect Genetic and Body Modification",
 UI_trait_PA_Modified::de::unprocessed::unverified = "",
-UI_trait_PA_Modified_desc::en = "WESTTECH® Corporation has repaired all defects in your Moelotl genes. 
-You no longer need to stay submerged in water forever, your skin is as smooth and dry as a human's, your face can charm everyone who sees you, your intelligence is now comparable to that of humans, and so on.
-Rather than saying you are a Moelotl, it would be more accurate to say that you are a human with a Moelotl appearance.",
+UI_trait_PA_Modified_desc::en = "",
 UI_trait_PA_Modified_desc::de::unprocessed::unverified = "",
 UI_trait_PA_Moelotl::en = "Moelotl",
 UI_trait_PA_Moelotl::de::unprocessed::unverified = "",
@@ -2033,28 +1962,23 @@ UI_trait_PA_MoelotlStart::en = "{Past and Future}Starting Items",
 UI_trait_PA_MoelotlStart::de::unprocessed::unverified = "",
 UI_trait_PA_MoelotlStart_desc::en = "At the start of the game, you will receive essential items related to the {Past and Future} scenario.",
 UI_trait_PA_MoelotlStart_desc::de::unprocessed::unverified = "",
-UI_trait_PA_Moelotl_desc::en = "You were once a member of the Moelotl race, whose home planet suffered a devastating attack by the mechanical race. 
-However, you were rescued and raised by a Corrector from WESTTECH® Corporation.",
+UI_trait_PA_Moelotl_desc::en = "",
 UI_trait_PA_Moelotl_desc::de::unprocessed::unverified = "",
 UI_trait_PA_Ojousan1::en = "Miss High",
 UI_trait_PA_Ojousan1::de::unprocessed::unverified = "",
-UI_trait_PA_Ojousan1_desc::en = "Maid and workers usually address you as 'Miss High'. 
-Under their care, you have lived a pampered life where everything is provided for you.",
+UI_trait_PA_Ojousan1_desc::en = "",
 UI_trait_PA_Ojousan1_desc::de::unprocessed::unverified = "",
 UI_trait_PA_Ojousan2::en = "Father's Secret Training",
 UI_trait_PA_Ojousan2::de::unprocessed::unverified = "",
-UI_trait_PA_Ojousan2_desc::en = "Your father often secretly trained you in the use of firearms. 
-He said that one day you would need these skills. It seems that day has finally arrived.",
+UI_trait_PA_Ojousan2_desc::en = "",
 UI_trait_PA_Ojousan2_desc::de::unprocessed::unverified = "",
 UI_trait_PA_Ojousan3::en = "Excellent in All Fields",
 UI_trait_PA_Ojousan3::de::unprocessed::unverified = "",
-UI_trait_PA_Ojousan3_desc::en = "Your father and mother provided you with elite education from a young age. 
-As a result, you possess many practical life skills.",
+UI_trait_PA_Ojousan3_desc::en = "",
 UI_trait_PA_Ojousan3_desc::de::unprocessed::unverified = "",
 UI_trait_PA_Reaper::en = "Reaper",
 UI_trait_PA_Reaper::de::unprocessed::unverified = "",
-UI_trait_PA_Reaper_desc::en = "Your duty and mission are to guide the souls of the dead. 
-However, for those walking corpses wandering the streets, you cannot determine whether these 'things' that transcend the laws of death should be under your jurisdiction.",
+UI_trait_PA_Reaper_desc::en = "",
 UI_trait_PA_Reaper_desc::de::unprocessed::unverified = "",
 UI_trait_PA_Rironn::en = "Cellular Inactivation Type III",
 UI_trait_PA_Rironn::de::unprocessed::unverified = "",
@@ -2062,15 +1986,11 @@ UI_trait_PA_RironnStart::en = "{The Chairman's Redemption}Starting Items",
 UI_trait_PA_RironnStart::de::unprocessed::unverified = "",
 UI_trait_PA_RironnStart_desc::en = "At the start of the game, you will receive essential items related to the {The Chairman's Redemption} scenario.",
 UI_trait_PA_RironnStart_desc::de::unprocessed::unverified = "",
-UI_trait_PA_Rironn_desc::en = "A common genetic disease in the Glitter World. 
-Patients suffer from a series of symptoms caused by abnormal cellular metabolism and division. 
-Type III is the most severe stage of this disease, causing symptoms such as fatigue, weakened immunity, fragile bones, abnormal blood coagulation, and many others. The body is on the verge of collapse.",
+UI_trait_PA_Rironn_desc::en = "",
 UI_trait_PA_Rironn_desc::de::unprocessed::unverified = "",
 UI_trait_PA_SelfHealing::en = "Self-Healing Factor (Enhanced)",
 UI_trait_PA_SelfHealing::de::unprocessed::unverified = "",
-UI_trait_PA_SelfHealing_desc::en = "Your body still retains the rapid wound-healing ability shared by other Moelotl. 
-However, the nanomedical machines inside your body assist you in achieving this process.
-(Players with this trait heal wounds extremely quickly. However, health regeneration speed remains unchanged, and you are still susceptible to the Nox Virus.)",
+UI_trait_PA_SelfHealing_desc::en = "",
 UI_trait_PA_SelfHealing_desc::de::unprocessed::unverified = "",
 UI_trait_PA_Tina::en = "Koi no Yousei(Fairy of Love)",
 UI_trait_PA_Tina::de::unprocessed::unverified = "",
@@ -2090,7 +2010,5 @@ UI_trait_PA_Training2_desc::en = "Advanced physical conditioning and combat trai
 UI_trait_PA_Training2_desc::de::unprocessed::unverified = "",
 UI_trait_PA_Traveler::en = "Beyond Time and Space",
 UI_trait_PA_Traveler::de::unprocessed::unverified = "",
-UI_trait_PA_Traveler_desc::en = "You do not seem to belong to this world. 
-However, thanks to Lilies's father, the chaotic overlap of time and space brought you here.
-Before causing even greater chaos, you must stop the implementation of the Project Anime!",
+UI_trait_PA_Traveler_desc::en = "",
 UI_trait_PA_Traveler_desc::de::unprocessed::unverified = "",
