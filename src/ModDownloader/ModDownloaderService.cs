@@ -115,11 +115,18 @@ public class ModDownloaderService
 
             if (Directory.Exists(srcModDir))
             {
-                if (Directory.Exists(dstModDir))
-                    Directory.Delete(dstModDir, true);
-                Directory.CreateDirectory(Path.GetDirectoryName(dstModDir)!);
-                Directory.Move(srcModDir, dstModDir);
-                Console.WriteLine($"  [OK] {modId} -> {dstModDir}");
+                try
+                {
+                    MoveDownloadedDirectory(srcModDir, dstModDir);
+                    Console.WriteLine($"  [OK] {modId} -> {dstModDir}");
+                }
+                catch (Exception ex)
+                {
+                    // Keep the mod readable from its steamcmd output location for this run
+                    // instead of aborting the whole pipeline.
+                    GitHubActions.Warning($"Mod {modId} could not be moved to {dstModDir}: {ex.Message}. Using source path.", "ModDownloader");
+                    dstModDir = srcModDir;
+                }
             }
             else if (!succeeded.Contains(modId))
             {
@@ -516,6 +523,80 @@ public class ModDownloaderService
             info.modName = modId;
         info.localDownloadedPath = localPath;
         modInfoDict[modId] = info;
+    }
+
+    /// <summary>Maximum attempts when moving a downloaded mod directory.</summary>
+    private const int MaxMoveAttempts = 8;
+
+    /// <summary>
+    /// Moves a downloaded mod directory with retries and a copy fallback.
+    /// On Windows, freshly downloaded content can be transiently locked by antivirus
+    /// scans or lingering steamcmd handles, so a single Directory.Move may fail.
+    /// </summary>
+    private static void MoveDownloadedDirectory(string source, string dest)
+    {
+        for (int attempt = 1; ; attempt++)
+        {
+            try
+            {
+                if (Directory.Exists(dest))
+                    Directory.Delete(dest, true);
+                Directory.CreateDirectory(Path.GetDirectoryName(dest)!);
+                Directory.Move(source, dest);
+                return;
+            }
+            catch (Exception ex) when ((ex is IOException || ex is UnauthorizedAccessException) && attempt < MaxMoveAttempts)
+            {
+                Console.WriteLine($"  move {Path.GetFileName(source)} locked (attempt {attempt}/{MaxMoveAttempts}), retrying...");
+                Thread.Sleep(Math.Min(5000, 500 * attempt));
+            }
+            catch (Exception ex) when ((ex is IOException || ex is UnauthorizedAccessException) && attempt >= MaxMoveAttempts)
+            {
+                // Fallback: copy the contents instead of moving (helps when the source
+                // directory itself is briefly locked but its files remain readable).
+                if (TryCopyDirectory(source, dest))
+                {
+                    TryDeleteDirectory(source);
+                    return;
+                }
+                throw;
+            }
+        }
+    }
+
+    private static bool TryCopyDirectory(string source, string dest)
+    {
+        try
+        {
+            if (Directory.Exists(dest))
+                Directory.Delete(dest, true);
+            Directory.CreateDirectory(dest);
+
+            foreach (var file in Directory.GetFiles(source, "*", SearchOption.AllDirectories))
+            {
+                string destFile = Path.Combine(dest, Path.GetRelativePath(source, file));
+                Directory.CreateDirectory(Path.GetDirectoryName(destFile)!);
+                File.Copy(file, destFile, true);
+            }
+            return true;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+
+    private static void TryDeleteDirectory(string path)
+    {
+        try
+        {
+            if (Directory.Exists(path))
+                Directory.Delete(path, true);
+        }
+        catch
+        {
+            // Best-effort; leftovers live in the run temp dir and are cleaned up later.
+        }
     }
 
     private static void CopyDirectory(string src, string dst)

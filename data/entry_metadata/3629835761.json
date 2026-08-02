@@ -1,40 +1,72 @@
 [
   {
     "mod_id": "3629835761",
+    "translation_key": "Base.CollapsibleLadder",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T16:32:14.9547151Z",
+    "last_seen_mod_updated": "2026-08-02T13:24:19.0000000Z",
+    "source_hash": "75424a2dc39e1a1e444f81aea0acc29a"
+  },
+  {
+    "mod_id": "3629835761",
+    "translation_key": "Base.CollapsibleLadder_Packed",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T16:32:14.9547151Z",
+    "last_seen_mod_updated": "2026-08-02T13:24:19.0000000Z",
+    "source_hash": "cdd1eec2e0c552b39cad4084f4d085a2"
+  },
+  {
+    "mod_id": "3629835761",
     "translation_key": "Base.SteelLadder",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-04-09T06:27:57.0000000Z",
+    "last_seen_at": "2026-08-02T16:32:15.3282642Z",
+    "last_seen_mod_updated": "2026-08-02T13:24:19.0000000Z",
     "source_hash": "3df9be5195c0e673bb299f5173b547d9"
   },
   {
     "mod_id": "3629835761",
     "translation_key": "Base.WoodenLadder",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-04-09T06:27:57.0000000Z",
+    "last_seen_at": "2026-08-02T16:32:15.3282651Z",
+    "last_seen_mod_updated": "2026-08-02T13:24:19.0000000Z",
     "source_hash": "0d03946383ab56c7197bedbf7bb14ef4"
+  },
+  {
+    "mod_id": "3629835761",
+    "translation_key": "CraftCollapsibleLadder",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T16:32:14.9547151Z",
+    "last_seen_mod_updated": "2026-08-02T13:24:19.0000000Z",
+    "source_hash": "8098b4c4af839d81ebc57f2d286c4b1a"
   },
   {
     "mod_id": "3629835761",
     "translation_key": "MakeSteelLadder",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-04-09T06:27:57.0000000Z",
+    "last_seen_at": "2026-08-02T16:32:15.3282655Z",
+    "last_seen_mod_updated": "2026-08-02T13:24:19.0000000Z",
     "source_hash": "d932a12e0bceba269a35c2ee1e556dda"
   },
   {
     "mod_id": "3629835761",
     "translation_key": "MakeWoodenLadder",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-04-09T06:27:57.0000000Z",
+    "last_seen_at": "2026-08-02T16:32:15.3282658Z",
+    "last_seen_mod_updated": "2026-08-02T13:24:19.0000000Z",
     "source_hash": "f8371cdbb4596da56fcef5202fb69907"
   },
   {
     "mod_id": "3629835761",
-    "translation_key": "Recipe_Make_Steel_Ladder",
+    "translation_key": "PackCollapsibleLadder",
     "is_active": true,
+    "last_seen_at": "2026-08-02T16:32:14.9547151Z",
+    "last_seen_mod_updated": "2026-08-02T13:24:19.0000000Z",
+    "source_hash": "8dd733b42e3b8dda89021590f550e364"
+  },
+  {
+    "mod_id": "3629835761",
+    "translation_key": "Recipe_Make_Steel_Ladder",
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-04-09T06:27:57.0000000Z",
     "source_hash": "d2a050cef528b198365a5494a9130079"
@@ -42,7 +74,7 @@
   {
     "mod_id": "3629835761",
     "translation_key": "Recipe_Make_Wooden_Ladder",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-04-09T06:27:57.0000000Z",
     "source_hash": "c73baf058bbd4d927bb09027399da0e8"
@@ -51,8 +83,16 @@
     "mod_id": "3629835761",
     "translation_key": "UI_Ladders_Climb",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-04-09T06:27:57.0000000Z",
+    "last_seen_at": "2026-08-02T16:32:15.3282667Z",
+    "last_seen_mod_updated": "2026-08-02T13:24:19.0000000Z",
     "source_hash": "fed6cd25c4d92d47deabdc9127499dcb"
+  },
+  {
+    "mod_id": "3629835761",
+    "translation_key": "UnpackCollapsibleLadder",
+    "is_active": true,
+    "last_seen_at": "2026-08-02T16:32:14.9547151Z",
+    "last_seen_mod_updated": "2026-08-02T13:24:19.0000000Z",
+    "source_hash": "4bdcc6367a97f7131d1d4d3ce863434a"
   }
 ]

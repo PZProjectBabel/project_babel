@@ -1,3 +1,5 @@
+AVCS.ClaimOrb::en = "Mysterious Vehicle Claim Orb",
+AVCS.ClaimOrb::de::processed::unverified = "Geheimnisvoller Fahrzeuganspruchsorb",
 ContextMenu_AVCS_AdminUserUI::en = "Admin Vehicles Manager",
 ContextMenu_AVCS_AdminUserUI::de::processed::unverified = "Admin-Fahrzeugverwaltung",
 ContextMenu_AVCS_ClaimVehicle::en = "Claim Vehicle",
@@ -89,7 +91,6 @@ ItemName_AVCS.ClaimOrb::de::processed::unverified = "Mysteriöse Fahrzeug-Anford
 ItemName_Base.AVCSClaimOrb::en = "Mysterious Vehicle Claim Orb",
 ItemName_Base.AVCSClaimOrb::de::processed::unverified = "Mysteriöse Fahrzeug-Anforderungskugel",
 Recipe_Craft_Mysterious_Vehicle_Claim_Orb::en = "",
-Recipe_Craft_Mysterious_Vehicle_Claim_Orb::de::processed::unverified = "",
 Sandbox_AVCS::en = "Another Vehicle Claim System",
 Sandbox_AVCS::de::processed::unverified = "Another Vehicle Claim System",
 Sandbox_AVCS_AllowFaction::en = "Allow Same Faction",

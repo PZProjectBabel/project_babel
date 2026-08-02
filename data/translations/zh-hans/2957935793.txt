@@ -1,3 +1,5 @@
+AVCS.ClaimOrb::en = "Mysterious Vehicle Claim Orb",
+AVCS.ClaimOrb::zh-hans::processed::unverified = "神秘车辆认领宝珠",
 ContextMenu_AVCS_AdminUserUI::en = "Admin Vehicles Manager",
 ContextMenu_AVCS_AdminUserUI::zh-hans::processed::unverified = "管理员车辆管理器",
 ContextMenu_AVCS_ClaimVehicle::en = "Claim Vehicle",
@@ -89,7 +91,6 @@ ItemName_AVCS.ClaimOrb::zh-hans::processed::unverified = "神秘车辆认领宝�
 ItemName_Base.AVCSClaimOrb::en = "Mysterious Vehicle Claim Orb",
 ItemName_Base.AVCSClaimOrb::zh-hans::processed::unverified = "神秘车辆认领宝珠",
 Recipe_Craft_Mysterious_Vehicle_Claim_Orb::en = "",
-Recipe_Craft_Mysterious_Vehicle_Claim_Orb::zh-hans::processed::unverified = "",
 Sandbox_AVCS::en = "Another Vehicle Claim System",
 Sandbox_AVCS::zh-hans::processed::unverified = "另一个车辆认领系统",
 Sandbox_AVCS_AllowFaction::en = "Allow Same Faction",

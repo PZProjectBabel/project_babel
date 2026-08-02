@@ -86,8 +86,11 @@ public class ResultWriterService
                 // Source/base line
                 lines.Add($"{entry.translationKey}::{source.lang} = \"{Escape(source.text)}\",");
 
-                // Target line (only when target != source lang)
-                if (!string.Equals(targetLang, source.lang, StringComparison.OrdinalIgnoreCase))
+                // Target line (only when target != source lang and a real translation exists).
+                // Untranslated entries (e.g. mods awaiting content review) must not emit
+                // empty "unprocessed::unverified" placeholders into the translation files.
+                if (!string.Equals(targetLang, source.lang, StringComparison.OrdinalIgnoreCase)
+                    && !string.IsNullOrWhiteSpace(targetData.text))
                 {
                     var processed = GetProcessStatus(targetData);
                     var verified = GetVerifyStatus(targetData);

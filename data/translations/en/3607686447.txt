@@ -43,15 +43,11 @@ Sandbox_ImmersiveBlackouts::en = "Immersive Blackouts: Settings",
 Sandbox_ImmersiveBlackouts_ElectricityCooldown::en = "Electricity Check Cooldown",
 Sandbox_ImmersiveBlackouts_ElectricityCooldown_tooltip::en = "Cooldown (in hours) between possible electricity shutoffs and restorations.",
 Sandbox_ImmersiveBlackouts_ElectricityPercentOFF::en = "Electricity Shutoff Chance",
-Sandbox_ImmersiveBlackouts_ElectricityPercentOFF_tooltip::en = "Chance (in percent) that electricity will be shut off.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_ElectricityPercentOFF_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ElectricityPercentON::en = "Electricity Restore Chance",
-Sandbox_ImmersiveBlackouts_ElectricityPercentON_tooltip::en = "Chance (in percent) that electricity will be restored.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_ElectricityPercentON_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange::en = "Electricity Shutoff Day Range",
-Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange_tooltip::en = "Sets the day range for a random electricity shutoff.
-Format: minimum day - maximum day (for example: 0-30).
-Changes the vanilla 'Electricity Shutoff' day setting.",
+Sandbox_ImmersiveBlackouts_ElectricityShutoffDayRange_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ElectricityStartDay::en = "Days Before Electricity Shutoff",
 Sandbox_ImmersiveBlackouts_ElectricityStartDay_tooltip::en = "How many days before the scheduled electricity shutoff random outages will begin.",
 Sandbox_ImmersiveBlackouts_FlickerAroundPlayers::en = "",
@@ -65,12 +61,9 @@ Sandbox_ImmersiveBlackouts_IgnoreWaterStartDay_tooltip::en = "If enabled, random
 Sandbox_ImmersiveBlackouts_LightsFlickering::en = "",
 Sandbox_ImmersiveBlackouts_LightsFlickering_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_ModReset::en = "Reset Mod Data",
-Sandbox_ImmersiveBlackouts_ModReset_tooltip::en = "Enabling this option will reset the mod's saved data.
-Only enable this if you have changed the day when the shutdowns will occur.
-It will automatically disable afterwards.",
+Sandbox_ImmersiveBlackouts_ModReset_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_Radio::en = "Radio",
-Sandbox_ImmersiveBlackouts_Radio_tooltip::en = "Enables automatic emergency radio broadcasts from the Knox Emergency Regional Infrastructure Service on 89.2 MHz.
-The radio will provide information about upcoming water and power outages, current infrastructure status, and other emergency events.",
+Sandbox_ImmersiveBlackouts_Radio_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_RandomPowerChance::en = "Electricity Activation Chance (%)",
 Sandbox_ImmersiveBlackouts_RandomPowerChance_tooltip::en = "Chance (in percent) that the electricity will be restored at midnight.\\nThis chance is checked every day at 00:00.\\nDoesn't work if 'Always Enable Blackouts' is enabled.",
 Sandbox_ImmersiveBlackouts_RandomPowerUntil::en = "Electricity Active Until (Hours)",
@@ -84,15 +77,11 @@ Sandbox_ImmersiveBlackouts_StartDay_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_WaterCooldown::en = "Water Check Cooldown",
 Sandbox_ImmersiveBlackouts_WaterCooldown_tooltip::en = "Cooldown (in hours) between possible water shutoffs and restorations.",
 Sandbox_ImmersiveBlackouts_WaterPercentOFF::en = "Water Shutoff Chance",
-Sandbox_ImmersiveBlackouts_WaterPercentOFF_tooltip::en = "Chance (in percent) that the water supply will be shut off.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_WaterPercentOFF_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_WaterPercentON::en = "Water Restore Chance",
-Sandbox_ImmersiveBlackouts_WaterPercentON_tooltip::en = "Chance (in percent) that the water supply will be restored.
-This chance is checked every 10 minutes.",
+Sandbox_ImmersiveBlackouts_WaterPercentON_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_WaterShutoffDayRange::en = "Water Shutoff Day Range",
-Sandbox_ImmersiveBlackouts_WaterShutoffDayRange_tooltip::en = "Sets the day range for a random water shutoff.
-Format: minimum day - maximum day (for example: 0-30).
-Changes the vanilla 'Water Shutoff' day setting.",
+Sandbox_ImmersiveBlackouts_WaterShutoffDayRange_tooltip::en = "",
 Sandbox_ImmersiveBlackouts_WaterStartDay::en = "Days Before Water Shutoff",
 Sandbox_ImmersiveBlackouts_WaterStartDay_tooltip::en = "How many days before the scheduled water shutoff random outages will begin.",
 UI_ImmersiveBlackouts_LightFlickeringMode::en = "Light Flickering",

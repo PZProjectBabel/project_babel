@@ -166,6 +166,183 @@ public class Utf8NoBomTests
     }
 }
 
+/// <summary>
+/// Verifies BinaryEmbeddingSerializer's .bin format is byte-stable across Windows/Linux:
+/// explicit little-endian ints/halves, raw UTF-8 keys, raw SHA-256 bytes, zstd container.
+/// </summary>
+public class BinaryEmbeddingSerializerTests
+{
+    private static float[] Vector(params float[] first)
+    {
+        var vec = new float[BinaryEmbeddingSerializer.EMBEDDING_DIM];
+        for (int i = 0; i < first.Length && i < vec.Length; i++)
+            vec[i] = first[i];
+        return vec;
+    }
+
+    private static byte[] HashBytes(int seed)
+    {
+        var hash = new byte[BinaryEmbeddingSerializer.HASH_RAW_BYTES];
+        for (int i = 0; i < hash.Length; i++)
+            hash[i] = (byte)((seed + i) & 0xFF);
+        return hash;
+    }
+
+    private static void AssertVectorsClose(float[] expected, float[] actual)
+    {
+        Assert.Equal(expected.Length, actual.Length);
+        for (int i = 0; i < expected.Length; i++)
+            Assert.True(MathF.Abs(expected[i] - actual[i]) <= 2e-3f,
+                $"Vector mismatch at index {i}: {expected[i]} vs {actual[i]}");
+    }
+
+    [Fact]
+    public void RoundTrip_PreservesKeysHashAndVector()
+    {
+        var rand = new Random(42);
+        var records = new List<BinaryEmbeddingSerializer.Record>();
+        for (int i = 0; i < 50; i++)
+        {
+            var vec = new float[BinaryEmbeddingSerializer.EMBEDDING_DIM];
+            for (int j = 0; j < vec.Length; j++)
+                vec[j] = (float)(rand.NextDouble() * 2 - 1);
+            records.Add(new BinaryEmbeddingSerializer.Record(
+                i % 3 == 0 ? "翻译_Key_" + i : "Key_" + i,
+                i % 2 == 0 ? "ref_target_text" : "normal_base_text",
+                i % 3 == 0 ? "zh-hans" : (i % 3 == 1 ? "ja" : ""),
+                HashBytes(i),
+                vec));
+        }
+
+        var parsed = BinaryEmbeddingSerializer.Deserialize(BinaryEmbeddingSerializer.Serialize(records));
+
+        Assert.Equal(records.Count, parsed.Count);
+        for (int i = 0; i < records.Count; i++)
+        {
+            Assert.Equal(records[i].TranslationKey, parsed[i].TranslationKey);
+            Assert.Equal(records[i].SourceKind, parsed[i].SourceKind);
+            Assert.Equal(records[i].TargetLang, parsed[i].TargetLang);
+            Assert.Equal(records[i].Hash, parsed[i].Hash);
+            AssertVectorsClose(records[i].Vector, parsed[i].Vector);
+        }
+    }
+
+    [Fact]
+    public void ByteLayout_IsLittleEndianUtf8AndFp16()
+    {
+        var records = new List<BinaryEmbeddingSerializer.Record>
+        {
+            new("Key_0", "normal_base_text", "", HashBytes(1), Vector(1.0f, -1.0f))
+        };
+
+        var raw = BinaryEmbeddingSerializer.Serialize(records);
+        var expectedKey = "Key_0|normal_base_text|";
+        var expectedKeyLen = System.Text.Encoding.UTF8.GetByteCount(expectedKey);
+
+        // int32 keyLen (little-endian) + UTF-8 key + 32 raw hash bytes + 768 fp16 bytes.
+        Assert.Equal(4 + expectedKeyLen + BinaryEmbeddingSerializer.HASH_RAW_BYTES + BinaryEmbeddingSerializer.FP16_VEC_BYTES, raw.Length);
+        Assert.Equal(expectedKeyLen, raw[0] | (raw[1] << 8) | (raw[2] << 16) | (raw[3] << 24));
+        Assert.Equal(expectedKey, System.Text.Encoding.UTF8.GetString(raw, 4, expectedKeyLen));
+
+        int hashOffset = 4 + expectedKeyLen;
+        for (int i = 0; i < BinaryEmbeddingSerializer.HASH_RAW_BYTES; i++)
+            Assert.Equal(HashBytes(1)[i], raw[hashOffset + i]);
+
+        int vecOffset = hashOffset + BinaryEmbeddingSerializer.HASH_RAW_BYTES;
+        // fp16 little-endian: 1.0f -> 0x3C00 -> [0x00, 0x3C], -1.0f -> 0xBC00 -> [0x00, 0xBC].
+        Assert.Equal(0x00, raw[vecOffset]);
+        Assert.Equal(0x3C, raw[vecOffset + 1]);
+        Assert.Equal(0x00, raw[vecOffset + 2]);
+        Assert.Equal(0xBC, raw[vecOffset + 3]);
+
+        // Deserializing the exact raw bytes must recover the original record.
+        var parsed = BinaryEmbeddingSerializer.Deserialize(raw);
+        Assert.Single(parsed);
+        Assert.Equal("Key_0", parsed[0].TranslationKey);
+        Assert.Equal("normal_base_text", parsed[0].SourceKind);
+        Assert.Equal("", parsed[0].TargetLang);
+        Assert.Equal(HashBytes(1), parsed[0].Hash);
+        AssertVectorsClose(records[0].Vector, parsed[0].Vector);
+    }
+
+    [Fact]
+    public void CompressedFileRoundTrip_MatchesRawBytes()
+    {
+        var records = new List<BinaryEmbeddingSerializer.Record>
+        {
+            new("Key_A", "ref_target_text", "zh-hans", HashBytes(7), Vector(0.5f)),
+            new("Key_B", "normal_base_text", "", HashBytes(9), Vector(-0.25f, 0.125f))
+        };
+
+        var tempDir = Path.Combine(Path.GetTempPath(), "babel_ser_test_" + Guid.NewGuid().ToString("N"));
+        Directory.CreateDirectory(tempDir);
+        try
+        {
+            var filePath = Path.Combine(tempDir, "test.bin");
+            BinaryEmbeddingSerializer.WriteCompressed(filePath, records);
+
+            var loaded = BinaryEmbeddingSerializer.ReadCompressed(filePath, Path.Combine(tempDir, "decomp"));
+
+            Assert.Equal(records.Count, loaded.Count);
+            for (int i = 0; i < records.Count; i++)
+            {
+                Assert.Equal(records[i].TranslationKey, loaded[i].TranslationKey);
+                Assert.Equal(records[i].SourceKind, loaded[i].SourceKind);
+                Assert.Equal(records[i].TargetLang, loaded[i].TargetLang);
+                Assert.Equal(records[i].Hash, loaded[i].Hash);
+                AssertVectorsClose(records[i].Vector, loaded[i].Vector);
+            }
+        }
+        finally
+        {
+            if (Directory.Exists(tempDir))
+                Directory.Delete(tempDir, recursive: true);
+        }
+    }
+
+    [Fact]
+    public void ReadsCommittedEmbeddingBinFiles()
+    {
+        // Walk up from the test output dir to the repo root, then parse committed .bin files
+        // that may have been written on Windows or Linux.
+        var dir = new DirectoryInfo(AppContext.BaseDirectory);
+        while (dir != null && (!Directory.Exists(Path.Combine(dir.FullName, "data", "embeddings"))
+            || !Directory.Exists(Path.Combine(dir.FullName, "translation_ref", "embeddings"))))
+        {
+            dir = dir.Parent;
+        }
+        if (dir == null)
+            return; // repo files not present, skip.
+
+        var tempDir = Path.Combine(Path.GetTempPath(), "babel_ser_read_" + Guid.NewGuid().ToString("N"));
+        Directory.CreateDirectory(tempDir);
+        try
+        {
+            foreach (var embDir in new[] { "data/embeddings", "translation_ref/embeddings" })
+            {
+                var fullDir = Path.Combine(dir.FullName, embDir);
+                var files = Directory.GetFiles(fullDir, "*.bin");
+                Assert.NotEmpty(files);
+                foreach (var file in files)
+                {
+                    var records = BinaryEmbeddingSerializer.ReadCompressed(file, tempDir);
+                    Assert.NotEmpty(records);
+                    foreach (var rec in records)
+                    {
+                        Assert.False(string.IsNullOrEmpty(rec.TranslationKey));
+                        Assert.Equal(BinaryEmbeddingSerializer.HASH_RAW_BYTES, rec.Hash.Length);
+                        Assert.Equal(BinaryEmbeddingSerializer.EMBEDDING_DIM, rec.Vector.Length);
+                    }
+                }
+            }
+        }
+        finally
+        {
+            if (Directory.Exists(tempDir))
+                Directory.Delete(tempDir, recursive: true);
+        }
+    }
+}
 /// <summary>Tests ConfigReaderService parsing of config.json, secrets, and language files.</summary>
 public class ConfigReaderTests
 {
@@ -440,7 +617,7 @@ public class TranslationStateCacheTests
     }
 
     [Fact]
-    /// <summary>Result writer should emit empty target line for missing translations.</summary>
+    /// <summary>Result writer should omit the target line entirely for missing translations.</summary>
     public async Task WriteResults_ShouldWriteEmptyTargetForMissingTranslation()
     {
         var tempDir = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString("N"));
@@ -460,7 +637,7 @@ public class TranslationStateCacheTests
 
             var text = Utf8NoBom.ReadAllText(Path.Combine(config.dataDir, "translations", "ar", "1.txt"));
             Assert.Contains("Key_0::en = \"Hello\",", text);
-            Assert.Contains("Key_0::ar::unprocessed::unverified = \"\",", text);
+            Assert.DoesNotContain("Key_0::ar::unprocessed::unverified", text);
         }
         finally
         {
@@ -961,6 +1138,79 @@ public class ContentCheckerTests
             Assert.Contains("status=ACCEPTED", consoleOut.ToString());
             Assert.DoesNotContain("checkedCount", result.summaryJson);
             Assert.DoesNotContain("skippedCount", result.summaryJson);
+        }
+        finally
+        {
+            Directory.Delete(tempDir, recursive: true);
+        }
+    }
+
+    [Fact]
+    /// <summary>Available UNKNOWN mods (newly added, never reviewed) should be content-checked.</summary>
+    public async Task CheckContents_ShouldReviewAvailableUnknownMod()
+    {
+        var tempDir = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString("N"));
+        Directory.CreateDirectory(tempDir);
+
+        try
+        {
+            var config = TestConfig.Create();
+            TestConfig.ConfigureTempFolders(config, tempDir);
+            config.contentCheckEnabled = true;
+            var handler = new StubHttpMessageHandler(ChatResponse(
+                """{"is_harmful":false,"confidence":0.99,"need_human_review":false,"risk_level":"safe","reason":"clean","violated_rules":[]}"""));
+            using var httpClient = new HttpClient(handler);
+            var service = new ContentCheckerService(config, httpClient);
+            var modInfo = new Dictionary<string, ModInfo>
+            {
+                ["1"] = new() { modId = "1", modName = "Fresh Mod", contentCheckStatus = ContentCheckStatus.UNKNOWN, isAvailable = true }
+            };
+            var entries = TestTranslations.Entries("hello");
+            var diff = new Dictionary<string, TranslationEntry>();
+
+            var result = await service.CheckContentsAsync(modInfo, entries, diff);
+
+            Assert.True(result.isSuccess);
+            Assert.Single(diff);
+            Assert.Equal(1, handler.RequestCount);
+            Assert.Equal(ContentCheckStatus.ACCEPTED, modInfo["1"].contentCheckStatus);
+            Assert.True(modInfo["1"].timeNextContentCheck > DateTime.UtcNow);
+        }
+        finally
+        {
+            Directory.Delete(tempDir, recursive: true);
+        }
+    }
+
+    [Fact]
+    /// <summary>Unavailable UNKNOWN mods (delisted / removed from Steam) should stay frozen.</summary>
+    public async Task CheckContents_ShouldFreezeUnavailableUnknownMod()
+    {
+        var tempDir = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString("N"));
+        Directory.CreateDirectory(tempDir);
+
+        try
+        {
+            var config = TestConfig.Create();
+            TestConfig.ConfigureTempFolders(config, tempDir);
+            config.contentCheckEnabled = true;
+            var handler = new StubHttpMessageHandler(ChatResponse(
+                """{"is_harmful":false,"confidence":0.99,"need_human_review":false,"risk_level":"safe","reason":"clean","violated_rules":[]}"""));
+            using var httpClient = new HttpClient(handler);
+            var service = new ContentCheckerService(config, httpClient);
+            var modInfo = new Dictionary<string, ModInfo>
+            {
+                ["1"] = new() { modId = "1", modName = "Delisted Mod", contentCheckStatus = ContentCheckStatus.UNKNOWN, isAvailable = false }
+            };
+            var entries = TestTranslations.Entries("hello");
+            var diff = new Dictionary<string, TranslationEntry>();
+
+            var result = await service.CheckContentsAsync(modInfo, entries, diff);
+
+            Assert.True(result.isSuccess);
+            Assert.Empty(diff);
+            Assert.Equal(0, handler.RequestCount);
+            Assert.Equal(ContentCheckStatus.UNKNOWN, modInfo["1"].contentCheckStatus);
         }
         finally
         {

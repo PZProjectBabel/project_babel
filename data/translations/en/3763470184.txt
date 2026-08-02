@@ -12,6 +12,8 @@ Sandbox_PropaneExchangeCabinet_MagazineOnePerSave::en = "Limit magazine to one p
 Sandbox_PropaneExchangeCabinet_MagazineOnePerSave_tooltip::en = "If enabled, the magazine stops dropping after the first copy is found on this save (not per player -- see mod notes for the multiplayer caveat). If disabled, it can drop repeatedly at the chance above.",
 Sandbox_PropaneExchangeCabinet_MaxTanks::en = "Max propane tanks per cabinet",
 Sandbox_PropaneExchangeCabinet_MaxTanks_tooltip::en = "Upper limit on how many propane tanks a spawned cabinet is stocked with (actual count is random from 0 to this).",
+Sandbox_PropaneExchangeCabinet_RemoveNewCabinets::en = "Remove [New - ultra white] cabinets from spawn list",
+Sandbox_PropaneExchangeCabinet_RemoveNewCabinets_tooltip::en = "If selected only weathered cabinets will spawn, existing cabinets are not affected.",
 Sandbox_PropaneExchangeCabinet_SpawnChance::en = "Spawn chance per gas station (%)",
 Sandbox_PropaneExchangeCabinet_SpawnChance_tooltip::en = "Chance that a propane exchange cabinet spawns at each eligible location (Fossoil/Gas2Go gas stations, Zippee's convenience stores). 0 = never, 100 = always.",
 Tooltip_craft_propaneCabinetDesc::en = "A homemade propane tank storage cabinet, welded together from scrap metal.",

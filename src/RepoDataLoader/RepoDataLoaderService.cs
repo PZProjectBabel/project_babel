@@ -258,8 +258,15 @@ public class RepoDataLoaderService
         Dictionary<string, TranslationEntry> freshEntries,
         Dictionary<string, TranslationEntry> cachedEntries,
         string baseLang = "en",
-        Dictionary<string, ModInfo>? modInfoDict = null)
+        Dictionary<string, ModInfo>? modInfoDict = null,
+        IReadOnlySet<string>? pipelineTargetLangs = null)
     {
+        // Only pipeline target languages count as "new target languages" below;
+        // mod-shipped non-target languages (e.g. pt-br when targets are de/fr/ja/zh-hans)
+        // must not mark every entry of a multilingual mod as changed.
+        var targetLangSet = pipelineTargetLangs == null
+            ? null
+            : new HashSet<string>(pipelineTargetLangs.Select(lang => lang.ToLowerInvariant()), StringComparer.Ordinal);
         var diff = new Dictionary<string, TranslationEntry>(StringComparer.Ordinal);
         var nowUtc = DateTime.UtcNow;
         foreach (var (key, fresh) in freshEntries)
@@ -288,10 +295,16 @@ public class RepoDataLoaderService
                 continue;
             }
             MergeTargetTranslations(fresh, cached, invalidateTargets: false);
-            // Check for new target languages (not in cached), excluding baseLang.
+            // Check for new pipeline target languages (not in cached), excluding baseLang.
             var hasNewTargetLangs = fresh.translationValues.Keys
-                .Any(lang => !string.Equals(lang, baseLang, StringComparison.OrdinalIgnoreCase)
-                    && !cached.translationValues.ContainsKey(lang));
+                .Any(lang =>
+                {
+                    if (string.Equals(lang, baseLang, StringComparison.OrdinalIgnoreCase))
+                        return false;
+                    if (targetLangSet != null && !targetLangSet.Contains(lang.ToLowerInvariant()))
+                        return false;
+                    return !cached.translationValues.ContainsKey(lang);
+                });
             if (hasNewTargetLangs)
             {
                 fresh.embeddingVector = [];

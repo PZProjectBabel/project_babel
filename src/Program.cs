@@ -76,6 +76,7 @@ public class PipelineRunner
         // Init dictionaries.
         var refModInfoDict = config.referenceTranslationMods
             .Where(mod => !string.IsNullOrWhiteSpace(mod.modId))
+            .Where(mod => !PipelineExclusions.IsExcluded(mod.modId))
             .GroupBy(mod => mod.modId, StringComparer.Ordinal)
             .ToDictionary(group => group.Key, group => group.First(), StringComparer.Ordinal);
         var modInfoDict = new Dictionary<string, ModInfo>(StringComparer.Ordinal);
@@ -99,6 +100,7 @@ public class PipelineRunner
         repoLoader.LoadRefEntryMetadataCache(refTranslationEntryDict);
         repoLoader.LoadRefEmbeddingCache(refTranslationEntryDict);
         MergeConfiguredRefMods(config.referenceTranslationMods, refModInfoDict);
+        PurgeExcludedMod(PipelineExclusions.ProjectBabelWorkshopId, refModInfoDict, refTranslationEntryDict);
         MarkReferenceEntriesVerified(refTranslationEntryDict);
 
         // 2b. Fetch latest Steam state for ref mods.
@@ -126,6 +128,11 @@ public class PipelineRunner
             foreach (var (modId, info) in staleRefDict)
                 refModInfoDict[modId] = info;
 
+            // Snapshot cached entries for stale mods before extraction, so unchanged texts can keep their embeddings.
+            var staleRefEntrySnapshot = refTranslationEntryDict
+                .Where(kvp => staleRefModIds.Contains(kvp.Value.modId))
+                .ToDictionary(kvp => kvp.Key, kvp => kvp.Value, StringComparer.Ordinal);
+
             var refConfig = new PipelineConfig
             {
                 baseDir = config.baseDir,
@@ -137,6 +144,7 @@ public class PipelineRunner
             };
             var refExtractor = new ContentExtractorService(refConfig);
             allTaskResults.Add(await refExtractor.ExtractContentsAsync(staleRefDict, refTranslationEntryDict, "ref"));
+            RestoreUnchangedRefEntries(refTranslationEntryDict, staleRefEntrySnapshot);
             MarkReferenceEntriesVerified(refTranslationEntryDict);
             Console.WriteLine($"  [OK] Refreshed {staleRefModIds.Count} ref mod(s), total ref entries: {refTranslationEntryDict.Count}");
 
@@ -164,6 +172,7 @@ public class PipelineRunner
         repoLoader.LoadTranslationCache(translationEntryDict);
         repoLoader.LoadEntryMetadataCache(translationEntryDict);
         repoLoader.LoadEmbeddingCache(translationEntryDict);
+        PurgeExcludedMod(PipelineExclusions.ProjectBabelWorkshopId, modInfoDict, translationEntryDict);
         // Keep cached entries as a shallow snapshot; deep-copying embeddings doubles retained memory.
         foreach (var (key, entry) in translationEntryDict)
             cachedTranslationEntryDict[key] = entry;
@@ -275,7 +284,11 @@ public class PipelineRunner
         var baseLangIso = ResolveLanguage(config.supportedLanguages, config.baseLanguage)?.isoCode.ToLowerInvariant()
             ?? config.baseLanguage.ToLowerInvariant();
         RepoDataLoaderService.MarkMissingFreshEntriesInactive(cachedTranslationEntryDict, freshEntries, updatedModIdSet);
-        diffTranslationEntryDict = RepoDataLoaderService.DiffTranslationEntries(freshEntries, cachedTranslationEntryDict, baseLangIso, modInfoDict);
+        var enabledTargetLangSet = enabledTargetLanguages
+            .Select(lang => lang.isoCode)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+        diffTranslationEntryDict = RepoDataLoaderService.DiffTranslationEntries(
+            freshEntries, cachedTranslationEntryDict, baseLangIso, modInfoDict, enabledTargetLangSet);
         // Merge: for unchanged entries, restore cached (with translations + embeddings).
         foreach (var (key, cached) in cachedTranslationEntryDict)
         {
@@ -422,6 +435,70 @@ public class PipelineRunner
                 info.language = cfg.language;
             refModInfoDict[cfg.modId] = info;
         }
+    }
+
+    /// <summary>
+    /// Restores cached ref entries whose translation texts are unchanged by the refresh,
+    /// preserving their cached embeddings so only actually-changed entries are re-embedded.
+    /// </summary>
+    private static void RestoreUnchangedRefEntries(
+        Dictionary<string, TranslationEntry> refTranslationEntryDict,
+        Dictionary<string, TranslationEntry> staleRefEntrySnapshot)
+    {
+        if (staleRefEntrySnapshot.Count == 0)
+            return;
+
+        var restored = 0;
+        foreach (var (key, cached) in staleRefEntrySnapshot)
+        {
+            if (!refTranslationEntryDict.TryGetValue(key, out var fresh))
+                continue;
+            if (!RefEntryTextsEqual(fresh, cached))
+                continue;
+
+            refTranslationEntryDict[key] = cached;
+            restored++;
+        }
+
+        if (restored > 0)
+            Console.WriteLine($"  Ref merge: kept {restored} unchanged cached entry(s), reusing their embeddings.");
+    }
+
+    /// <summary>Compares two ref entries by per-language translation text only.</summary>
+    private static bool RefEntryTextsEqual(TranslationEntry a, TranslationEntry b)
+    {
+        if (a.translationValues.Count != b.translationValues.Count)
+            return false;
+
+        foreach (var (lang, data) in a.translationValues)
+        {
+            if (!b.translationValues.TryGetValue(lang, out var other))
+                return false;
+            if (!string.Equals(data.text, other.text, StringComparison.Ordinal))
+                return false;
+        }
+
+        return true;
+    }
+
+    /// <summary>
+    /// Removes a hardcoded-excluded workshop mod (and all of its entries) from the runtime
+    /// dictionaries so it is never fetched, downloaded, translated, embedded, or used as a reference.
+    /// </summary>
+    private static void PurgeExcludedMod(
+        string workshopId,
+        Dictionary<string, ModInfo> modInfoDict,
+        Dictionary<string, TranslationEntry> translationEntryDict)
+    {
+        if (modInfoDict.Remove(workshopId))
+            Console.WriteLine($"  Excluded mod {workshopId} removed from processing.");
+
+        var removedKeys = translationEntryDict
+            .Where(kvp => string.Equals(kvp.Value.modId, workshopId, StringComparison.Ordinal))
+            .Select(kvp => kvp.Key)
+            .ToList();
+        foreach (var key in removedKeys)
+            translationEntryDict.Remove(key);
     }
 
     /// <summary>Marks all reference translation entries as active and verified.</summary>

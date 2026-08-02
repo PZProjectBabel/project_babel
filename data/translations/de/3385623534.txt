@@ -21,7 +21,6 @@ Sandbox_RechargeableBatteries.DoContinuousCharging::de::processed::unverified = 
 Sandbox_RechargeableBatteries.DoContinuousCharging_tooltip::en = "If enabled: Batteries will slowly charge during the recharge action, letting you cancel it midway.   If disabled: the recharge action has to be completed for the battery to be recharged at all.",
 Sandbox_RechargeableBatteries.DoContinuousCharging_tooltip::de::processed::unverified = "Wenn aktiviert: Batterien laden sich während der Wiederaufladeaktion langsam auf, sodass Sie sie mittendrin abbrechen können. Wenn deaktiviert: Die Wiederaufladeaktion muss abgeschlossen werden, damit die Batterie überhaupt aufgeladen wird.",
 Sandbox_RechargeableBatteries.FillerBlock::en = " ",
-Sandbox_RechargeableBatteries.FillerBlock::de::processed::unverified = "",
 Sandbox_RechargeableBatteries.FillerBlock_tooltip::en = "This option does nothing, and is just here to make the format better.",
 Sandbox_RechargeableBatteries.FillerBlock_tooltip::de::processed::unverified = "Diese Option tut nichts und ist nur hier, um das Format zu verbessern.",
 Sandbox_RechargeableBatteries.FillerLine::en = "  ==============================  ",

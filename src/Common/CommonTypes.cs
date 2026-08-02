@@ -428,3 +428,17 @@ public class PipelineConfig
     /// <summary>Reference translation mods loaded from config/ref_translation_mods.json.</summary>
     public List<ModInfo> referenceTranslationMods { get; set; } = new List<ModInfo>();
 }
+
+/// <summary>
+/// Workshop IDs that are hardcoded exclusions: never translated, downloaded, embedded,
+/// or used as reference mods.
+/// </summary>
+public static class PipelineExclusions
+{
+    /// <summary>Workshop ID of the project's own mod "project_babel".</summary>
+    public const string ProjectBabelWorkshopId = "3759583822";
+
+    /// <summary>Returns true for workshop IDs that must be excluded from the pipeline.</summary>
+    public static bool IsExcluded(string workshopId)
+        => string.Equals(workshopId, ProjectBabelWorkshopId, StringComparison.Ordinal);
+}

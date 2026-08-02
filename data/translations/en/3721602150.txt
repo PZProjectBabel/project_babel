@@ -94,21 +94,17 @@ UI_MSM_Help_AIPlaceholders_05::en = "If you are an artist and would like your wo
 UI_MSM_Help_AIPlaceholders_06::en = "Submissions should be 16:9 landscape JPG or PNG, at least 1280x720 (1920x1080 preferred), matching the format of the existing placeholders.",
 UI_MSM_Help_AIPlaceholders_07::en = "Thank you for considering it.",
 UI_MSM_Help_BackupDir_01::en = "WHAT IT IS",
-UI_MSM_Help_BackupDir_02::en = "The backup folder is where Manual Save stores your save slots.
-Each slot is a subfolder organised by game mode and world name.",
+UI_MSM_Help_BackupDir_02::en = "",
 UI_MSM_Help_BackupDir_03::en = "DEFAULT LOCATION",
 UI_MSM_Help_BackupDir_04::en = "If left empty, slots are stored in:",
 UI_MSM_Help_BackupDir_05::en = "%USERPROFILE%\\Zomboid\\ManualSaves\\",
 UI_MSM_Help_BackupDir_06::en = "CHANGING THE PATH",
-UI_MSM_Help_BackupDir_07::en = "Type a full path and press Enter or click away to save.
-The folder must already exist on disk.",
+UI_MSM_Help_BackupDir_07::en = "",
 UI_MSM_Help_BackupDir_08::en = "RESTART REQUIRED",
-UI_MSM_Help_BackupDir_09::en = "The Watcher reads this setting once at startup.
-Restart it after changing the path.",
+UI_MSM_Help_BackupDir_09::en = "",
 UI_MSM_Help_BackupDir_10::en = "Until then, saves continue going to the old location.",
 UI_MSM_Help_BackupDir_11::en = "RESET",
-UI_MSM_Help_BackupDir_12::en = "Click Reset to default to return to the default location.
-Existing saves in the old folder are not moved automatically.",
+UI_MSM_Help_BackupDir_12::en = "",
 UI_MSM_Help_CatLinks::en = "Links",
 UI_MSM_Help_CatLoad::en = "Load",
 UI_MSM_Help_CatRecovery::en = "Recovery",
@@ -134,114 +130,69 @@ UI_MSM_Help_CrashBackup_12::en = "WHEN THIS DOES NOT TRIGGER",
 UI_MSM_Help_CrashBackup_13::en = "",
 UI_MSM_Help_Delete_01::en = "WHAT IT DOES",
 UI_MSM_Help_Delete_02::en = "Permanently removes the slot folder and thumbnail.",
-UI_MSM_Help_Delete_03::en = "There is no recycle bin.
-Once confirmed, the data is gone.",
+UI_MSM_Help_Delete_03::en = "",
 UI_MSM_Help_Delete_04::en = "CONFIRMATION",
-UI_MSM_Help_Delete_05::en = "A dialog asks before deleting.
-You must explicitly confirm to proceed.",
+UI_MSM_Help_Delete_05::en = "",
 UI_MSM_Help_Delete_06::en = "SCOPE",
-UI_MSM_Help_Delete_07::en = "Only the selected slot is removed.
-Other slots in the same world stay intact.
-If a temporary vanilla copy was created by a Load, it is also removed.
-Exported copies (slot_exported) are never touched.",
+UI_MSM_Help_Delete_07::en = "",
 UI_MSM_Help_Duplicate_01::en = "WHAT IT DOES",
-UI_MSM_Help_Duplicate_02::en = "Creates an independent full-folder copy of the
-selected save. The original is untouched.",
+UI_MSM_Help_Duplicate_02::en = "",
 UI_MSM_Help_Duplicate_03::en = "DEFAULT NAMING",
-UI_MSM_Help_Duplicate_04::en = "First copy:  MySlot_copy
-If taken:    MySlot_copy_(2)
-Then:        MySlot_copy_(3) and so on.",
-UI_MSM_Help_Duplicate_05::en = "The dialog pre-fills the next free name.
-Type any name you prefer before confirming.",
+UI_MSM_Help_Duplicate_04::en = "",
+UI_MSM_Help_Duplicate_05::en = "",
 UI_MSM_Help_Duplicate_06::en = "DISK COST",
-UI_MSM_Help_Duplicate_07::en = "A duplicate is a full folder copy.
-200 MB save = +200 MB on disk. Use deliberately.",
+UI_MSM_Help_Duplicate_07::en = "",
 UI_MSM_Help_Duplicate_08::en = "USEFUL COMBOS",
-UI_MSM_Help_Duplicate_09::en = "Duplicate before risky moves (NPC raids, events).
-Duplicate then Edit Mods: create a minimal mod snapshot
-you can boot if a future PZ patch breaks a mod.",
+UI_MSM_Help_Duplicate_09::en = "",
 UI_MSM_Help_EditMods_01::en = "WHAT IT DOES",
-UI_MSM_Help_EditMods_02::en = "Edit Mods shows every installed mod alongside the ones recorded in the save.
-Mods in the save start checked. Checked = included in the clone.
-Uncheck a mod to drop it; check an unchecked mod to add it.",
+UI_MSM_Help_EditMods_02::en = "",
 UI_MSM_Help_EditMods_03::en = "The original slot is always kept. Edit Mods only creates clones.",
 UI_MSM_Help_EditMods_04::en = "COLOR CODING",
 UI_MSM_Help_EditMods_05::en = "White",
 UI_MSM_Help_EditMods_06::en = "Mod is in the save and installed. Starts checked. Safe to keep or uncheck.",
 UI_MSM_Help_EditMods_07::en = "Gray (dimmed)",
-UI_MSM_Help_EditMods_08::en = "Mod is installed but not in this save. Starts unchecked.
-Check it to add it to the clone's mod list.",
+UI_MSM_Help_EditMods_08::en = "",
 UI_MSM_Help_EditMods_09::en = "Amber",
-UI_MSM_Help_EditMods_10::en = "Mod is listed in the save but not installed on this PC. Starts checked.
-Use Exclude missing to uncheck all amber mods at once.",
+UI_MSM_Help_EditMods_10::en = "",
 UI_MSM_Help_EditMods_11::en = "QUICK ACTIONS",
-UI_MSM_Help_EditMods_12::en = "Exclude missing  - unchecks all amber mods at once.
-Reset            - restores all checkboxes to the original save state.",
+UI_MSM_Help_EditMods_12::en = "",
 UI_MSM_Help_EditMods_13::en = "HOW TO USE",
 UI_MSM_Help_EditMods_14::en = "Uncheck mods to remove them from the clone, or check unchecked mods to add them.",
 UI_MSM_Help_EditMods_15::en = "Use Sort and the category dropdown to browse. Search filters by name.",
 UI_MSM_Help_EditMods_16::en = "Give the clone a name at the bottom and click Create copy.",
 UI_MSM_Help_EditMods_17::en = "AFTER THE CLONE",
-UI_MSM_Help_EditMods_18::en = "The clone lists only the checked mods in its mods.txt.
-Mod content already in the world (items, structures) is not changed.",
+UI_MSM_Help_EditMods_18::en = "",
 UI_MSM_Help_EditMods_19::en = "The original slot stays untouched. Load it to return to the full mod state.",
 UI_MSM_Help_EditMods_20::en = "Items, recipes, vehicles, or traits from removed mods will appear broken on first load of the clone.",
 UI_MSM_Help_ExportVanilla_01::en = "WHAT IT DOES",
-UI_MSM_Help_ExportVanilla_02::en = "Creates a standalone copy of a manual save slot in PZ's standard
-save folder, visible in the vanilla load screen without this mod.",
+UI_MSM_Help_ExportVanilla_02::en = "",
 UI_MSM_Help_ExportVanilla_03::en = "THE EXPORTED NAME",
-UI_MSM_Help_ExportVanilla_04::en = "The copy is named SLOT_exported in PZ's save folder.
-This keeps it separate from the temporary copy created by Load.",
+UI_MSM_Help_ExportVanilla_04::en = "",
 UI_MSM_Help_ExportVanilla_05::en = "SAFETY",
-UI_MSM_Help_ExportVanilla_06::en = "Deleting the original slot does NOT remove the exported copy.
-The exported copy is yours to manage from the vanilla load screen.",
+UI_MSM_Help_ExportVanilla_06::en = "",
 UI_MSM_Help_ExportVanilla_07::en = "THUMBNAIL",
-UI_MSM_Help_ExportVanilla_08::en = "The thumbnail is cropped to 250x250 from the center of the
-original screenshot, matching PZ's native thumbnail size.",
+UI_MSM_Help_ExportVanilla_08::en = "",
 UI_MSM_Help_ExportVanilla_09::en = "WHEN TO USE IT",
-UI_MSM_Help_ExportVanilla_10::en = "Sharing a save with someone who does not have the mod.
-Keeping a vanilla copy as a permanent checkpoint.
-Migrating away from the mod entirely.",
+UI_MSM_Help_ExportVanilla_10::en = "",
 UI_MSM_Help_Fullsave_01::en = "WHAT IT IS",
-UI_MSM_Help_Fullsave_02::en = "A save that exits to the main menu, lets PZ flush
-all in-memory state to disk, then copies the
-consistent folder to a backup slot.",
-UI_MSM_Help_Fullsave_03::en = "The only save type guaranteed to capture
-the full world state.",
+UI_MSM_Help_Fullsave_02::en = "",
+UI_MSM_Help_Fullsave_03::en = "",
 UI_MSM_Help_Fullsave_04::en = "THE TWO OPTIONS",
 UI_MSM_Help_Fullsave_05::en = "Save & Exit",
-UI_MSM_Help_Fullsave_06::en = "Saves, returns to the main menu, stays there.
-Use when you actually want to stop playing.",
-UI_MSM_Help_Fullsave_07::en = "1. A screenshot is taken before the game closes.
-2. The game exits to the main menu.
-   This lets PZ write all data to disk completely.
-3. The Watcher copies the save folder to a backup slot.
-4. The main menu appears. The save is done.",
+UI_MSM_Help_Fullsave_06::en = "",
+UI_MSM_Help_Fullsave_07::en = "",
 UI_MSM_Help_Fullsave_08::en = "Save & Return",
-UI_MSM_Help_Fullsave_09::en = "Saves, returns to menu briefly, then immediately
-reloads the world. Reliable as Full Save.",
-UI_MSM_Help_Fullsave_10::en = "1. A screenshot is taken before the game closes.
-2. The game exits to the main menu.
-3. The Watcher copies the save folder to a backup slot.
-4. The game automatically reloads the slot you just saved.
-   No button press needed.",
+UI_MSM_Help_Fullsave_09::en = "",
+UI_MSM_Help_Fullsave_10::en = "",
 UI_MSM_Help_Fullsave_11::en = "DISPLAY MODE CAVEAT",
 UI_MSM_Help_Fullsave_12::en = "Save & Return calls quit() then re-enters the world.",
-UI_MSM_Help_Fullsave_13::en = "In exclusive fullscreen the GPU display mode swaps
-twice - some drivers leave the screen blank/stuck.",
-UI_MSM_Help_Fullsave_14::en = "Options > Display > Borderless Windowed.
-The compositor handles the round-trip cleanly.",
+UI_MSM_Help_Fullsave_13::en = "",
+UI_MSM_Help_Fullsave_14::en = "",
 UI_MSM_Help_Fullsave_15::en = "WHAT IS CAPTURED",
-UI_MSM_Help_Fullsave_16::en = "Everything: player, inventory, world, every chunk,
-all zombies, weather, in-game clock.
-Thumbnail is captured before the quit.",
+UI_MSM_Help_Fullsave_16::en = "",
 UI_MSM_Help_Fullsave_17::en = "WHEN TO USE IT",
-UI_MSM_Help_Fullsave_18::en = "Default to Full Save - it is the only trustworthy
-backup. Cost: time to exit and re-enter the world.",
-UI_MSM_Help_Fullsave_19::en = "End of session, the before-bed save.
-Before any mod change.
-Before Edit Mods or Rename World operations.
-Any time there is no specific reason for Quick Save.",
+UI_MSM_Help_Fullsave_18::en = "",
+UI_MSM_Help_Fullsave_19::en = "",
 UI_MSM_Help_General_01::en = "SCREENSHOT ON SAVE",
 UI_MSM_Help_General_02::en = "Takes a screenshot at the moment of each save and uses it as the slot thumbnail in the load screen.",
 UI_MSM_Help_General_03::en = "If disabled, slots show a placeholder image instead.",
@@ -252,149 +203,95 @@ UI_MSM_Help_General_07::en = "CONFIRM BEFORE DELETING",
 UI_MSM_Help_General_08::en = "Shows a confirmation dialog before permanently deleting a slot.",
 UI_MSM_Help_General_09::en = "Leave this on. Deleted slots cannot be recovered from the load screen.",
 UI_MSM_Help_General_10::en = "WATCHER OFFLINE WARNING",
-UI_MSM_Help_General_11::en = "Shows a warning strip at the bottom of the screen when the Watcher is not running.
-Saves and screenshots require the Watcher.",
+UI_MSM_Help_General_11::en = "",
 UI_MSM_Help_General_12::en = "Disable it if you run the Watcher manually and find the reminder distracting.",
 UI_MSM_Help_Glossary_01::en = "Slot",
-UI_MSM_Help_Glossary_02::en = "Named manual backup. Folder at
-ManualSaves/<gmode>/<world>/<slot>/.
-Multiple slots can belong to the same world.",
+UI_MSM_Help_Glossary_02::en = "",
 UI_MSM_Help_Glossary_03::en = "World",
-UI_MSM_Help_Glossary_04::en = "A PZ world folder (Sandbox/Riverside, etc.).
-Contains chunks, zombie data, weather, seed.",
+UI_MSM_Help_Glossary_04::en = "",
 UI_MSM_Help_Glossary_05::en = "Game mode (gmode)",
-UI_MSM_Help_Glossary_06::en = "PZ game mode group: Sandbox, Apocalypse,
-Survivor, Builder, Custom.",
+UI_MSM_Help_Glossary_06::en = "",
 UI_MSM_Help_Glossary_07::en = "Watcher",
-UI_MSM_Help_Glossary_08::en = "The external Windows process (Watcher.cmd/.ps1) that
-performs file operations Lua cannot.",
+UI_MSM_Help_Glossary_08::en = "",
 UI_MSM_Help_Glossary_09::en = "Signal / Done",
-UI_MSM_Help_Glossary_10::en = "Small .txt files in Zomboid/Lua/ used to pass
-commands and results between Lua and Watcher.",
+UI_MSM_Help_Glossary_10::en = "",
 UI_MSM_Help_Glossary_11::en = "Heartbeat",
-UI_MSM_Help_Glossary_12::en = "A counter the Watcher increments every tick.
-If it stops changing, the game knows Watcher died.",
+UI_MSM_Help_Glossary_12::en = "",
 UI_MSM_Help_Glossary_13::en = "Quick Save",
-UI_MSM_Help_Glossary_14::en = "Instant in-game backup. Fast but state held only
-in memory (zombies, weather) may not match.",
+UI_MSM_Help_Glossary_14::en = "",
 UI_MSM_Help_Glossary_15::en = "Full Save",
-UI_MSM_Help_Glossary_16::en = "Backup that exits to main menu so PZ flushes
-everything before the copy. Slower, fully consistent.",
+UI_MSM_Help_Glossary_16::en = "",
 UI_MSM_Help_Glossary_17::en = "Save & Return",
-UI_MSM_Help_Glossary_18::en = "Full Save that auto-reloads the slot it just saved.
-Works best in Borderless Windowed display mode.",
+UI_MSM_Help_Glossary_18::en = "",
 UI_MSM_Help_Glossary_19::en = "Edit Mods",
-UI_MSM_Help_Glossary_20::en = "Creates a clone of a slot with a custom mod list.
-Checked mods are included; unchecked are excluded.
-Mod-added content from removed mods may break.",
+UI_MSM_Help_Glossary_20::en = "",
 UI_MSM_Help_Glossary_21::en = "Recovery Flag",
-UI_MSM_Help_Glossary_22::en = "One-shot modifier for a slot. Applied once on
-Load with Flags, then cleared automatically.",
+UI_MSM_Help_Glossary_22::en = "",
 UI_MSM_Help_Glossary_23::en = "Index",
-UI_MSM_Help_Glossary_24::en = "Flat list of all slots, rebuilt by the Watcher
-whenever slots change. Drives the Load screen.",
+UI_MSM_Help_Glossary_24::en = "",
 UI_MSM_Help_Glossary_25::en = "Thumbnail",
-UI_MSM_Help_Glossary_26::en = "PNG screenshot (thumb.png) inside each slot.
-Captured via PrintWindow(PW_RENDERFULLCONTENT).",
+UI_MSM_Help_Glossary_26::en = "",
 UI_MSM_Help_HudPos_01::en = "THE SAVE INDICATOR",
-UI_MSM_Help_HudPos_02::en = "The indicator appears on screen while a save is in progress.
-Its position, size, and style are all configurable from the Progress HUD tab.",
+UI_MSM_Help_HudPos_02::en = "",
 UI_MSM_Help_HudPos_03::en = "PLACING IT",
 UI_MSM_Help_HudPos_04::en = "Click anywhere on the position picker to place the indicator.",
 UI_MSM_Help_HudPos_05::en = "Drag to fine-tune the position.",
 UI_MSM_Help_HudPos_06::en = "COMPASS GRID",
-UI_MSM_Help_HudPos_07::en = "Nine snap points: four corners, four edges, and centre.
-Click a dot to jump to that position.",
+UI_MSM_Help_HudPos_07::en = "",
 UI_MSM_Help_HudPos_08::en = "SPINNER SIZE",
-UI_MSM_Help_HudPos_09::en = "The size slider sets the indicator between 24 and 128 px.
-The animated preview updates in real time as you drag.",
+UI_MSM_Help_HudPos_09::en = "",
 UI_MSM_Help_HudPos_10::en = "HIDE HUD",
 UI_MSM_Help_HudPos_11::en = "Enabling Hide HUD removes the indicator entirely. Saves still run normally.",
 UI_MSM_Help_HudPos_12::en = "Re-enable it here when you want it back.",
 UI_MSM_Help_Import_01::en = "WHAT IT DOES",
-UI_MSM_Help_Import_02::en = "Brings existing vanilla saves (Zomboid/Saves/) into
-the ManualSave system so they appear alongside
-manual saves and can be renamed, duplicated, etc.",
-UI_MSM_Help_Import_03::en = "The originals are not moved or deleted.
-Import is a copy.",
+UI_MSM_Help_Import_02::en = "",
+UI_MSM_Help_Import_03::en = "",
 UI_MSM_Help_Import_04::en = "WHEN IT IS AVAILABLE",
-UI_MSM_Help_Import_05::en = "Main menu only.
-Import is disabled in-game because scanning
-Zomboid/Saves/ requires no world to be locked.",
+UI_MSM_Help_Import_05::en = "",
 UI_MSM_Help_Import_06::en = "THE FLOW",
-UI_MSM_Help_Import_07::en = "1. Click Import. Watcher scans Zomboid/Saves/.
-2. Import screen shows every vanilla save found in
-   a flat list. Already-imported saves are marked.
-3. Use filters (All / Unimported / Imported) and sort
-   to find what you need. Select All for bulk work.
-4. Tick the saves you want and click Import.
-5. Watcher copies each one. Entries appear in list.",
+UI_MSM_Help_Import_07::en = "",
 UI_MSM_Help_Import_08::en = "WHAT YOU GET",
-UI_MSM_Help_Import_09::en = "Each imported world becomes one slot whose name
-matches the world name.
-Mod list is parsed from the world's mods.txt.",
+UI_MSM_Help_Import_09::en = "",
 UI_MSM_Help_Import_10::en = "Map list and thumbnail fill lazily on first load.",
 UI_MSM_Help_Limits_01::en = "PLATFORM",
-UI_MSM_Help_Limits_02::en = "cmd.exe, robocopy, PowerShell, and user32.dll
-have no working substitutes on other platforms
-without rewriting the Watcher entirely.",
+UI_MSM_Help_Limits_02::en = "",
 UI_MSM_Help_Limits_03::en = "WHAT QUICK SAVE MISSES",
-UI_MSM_Help_Limits_04::en = "PZ flushes to disk lazily, so:
-Zombie positions are typically stale or partial.
-Distant chunks may be in an outdated state.
-Weather and time of day may not match on-screen.",
+UI_MSM_Help_Limits_04::en = "",
 UI_MSM_Help_Limits_05::en = "For fully consistent state: use Full Save.",
 UI_MSM_Help_Limits_06::en = "THE WATCHER IS A SEPARATE PROCESS",
 UI_MSM_Help_Limits_07::en = "Forgetting to start the .cmd disables all operations.",
-UI_MSM_Help_Limits_08::en = "The Lua side will not auto-launch the Watcher -
-that would break the trivially-uninstall guarantee.",
+UI_MSM_Help_Limits_08::en = "",
 UI_MSM_Help_Limits_09::en = "FILESYSTEM ENCODING",
 UI_MSM_Help_Limits_10::en = "Slot names go through Windows path rules.",
-UI_MSM_Help_Limits_11::en = "Emoji, RTL chars, and some CJK sequences may be
-sanitized to _.",
+UI_MSM_Help_Limits_11::en = "",
 UI_MSM_Help_Limits_12::en = "RECOVERY FLAGS STATUS",
 UI_MSM_Help_Limits_13::en = "Reset zombies: stable.",
 UI_MSM_Help_Limits_14::en = "Reset time of day: stable.",
 UI_MSM_Help_Limits_15::en = "Heal player / Reset weather: stable.",
 UI_MSM_Help_Limits_16::en = "",
 UI_MSM_Help_Limits_17::en = "SAVE SIZE",
-UI_MSM_Help_Limits_18::en = "Each backup is a full folder copy.
-Late-game worlds: 200-500 MB per slot.",
+UI_MSM_Help_Limits_18::en = "",
 UI_MSM_Help_Limits_19::en = "Delete pruned slots periodically.",
 UI_MSM_Help_LinksBtnWorkshop::en = "Open Steam Workshop page",
 UI_MSM_Help_Links_01::en = "STEAM WORKSHOP",
-UI_MSM_Help_Links_02::en = "Search Manual Save & Slot Manager [B42] on the Steam Workshop
-for updates, changelogs, and to leave a rating.",
+UI_MSM_Help_Links_02::en = "",
 UI_MSM_Help_Links_03::en = "BUG REPORTS",
-UI_MSM_Help_Links_04::en = "If you hit a bug, please include:
-What you were doing (screen, button).
-Your console log (Zomboid/Logs/ folder).
-Whether the Watcher was running.
-Your Windows version and PZ display mode.",
+UI_MSM_Help_Links_04::en = "",
 UI_MSM_Help_Links_05::en = "WHERE TO POST",
-UI_MSM_Help_Links_06::en = "Workshop comments - fastest, public, indexed.
-GitHub issues - for reproducible bugs with logs.",
+UI_MSM_Help_Links_06::en = "",
 UI_MSM_Help_Links_07::en = "Link to GitHub is in the Workshop description.",
 UI_MSM_Help_Loadscreen_01::en = "OPENING IT",
-UI_MSM_Help_Loadscreen_02::en = "In game: ESC > Load Save.
-From main menu: Load Manual Save.",
+UI_MSM_Help_Loadscreen_02::en = "",
 UI_MSM_Help_Loadscreen_03::en = "THE SAVE LIST",
-UI_MSM_Help_Loadscreen_04::en = "Every manual save listed on the left, sortable
-by Date, Name, or Size.
-Click a save to select it and see its thumbnail
-and metadata on the right.",
+UI_MSM_Help_Loadscreen_04::en = "",
 UI_MSM_Help_Loadscreen_05::en = "Sorting",
-UI_MSM_Help_Loadscreen_06::en = "Click Date / Name / Size to switch sort field.
-Click the active button again to flip direction.",
+UI_MSM_Help_Loadscreen_06::en = "",
 UI_MSM_Help_Loadscreen_07::en = "Search",
 UI_MSM_Help_Loadscreen_08::en = "Type to filter by slot name or world name.",
 UI_MSM_Help_Loadscreen_09::en = "LOADING A SAVE",
 UI_MSM_Help_Loadscreen_10::en = "Two ways to load the selected save:",
-UI_MSM_Help_Loadscreen_11::en = "- Click LOAD SAVE button (bottom right).
-- Double-click the save in the list.",
-UI_MSM_Help_Loadscreen_12::en = "Requires Watcher to be running.
-All three methods are disabled when the Watcher
-dot is red. Start the .cmd file first.",
+UI_MSM_Help_Loadscreen_11::en = "",
+UI_MSM_Help_Loadscreen_12::en = "",
 UI_MSM_Help_Loadscreen_13::en = "KEYBOARD SHORTCUTS",
 UI_MSM_Help_Loadscreen_14::en = "When a save is selected:",
 UI_MSM_Help_Loadscreen_15::en = "Enter loads it (from main menu only)",
@@ -403,56 +300,35 @@ UI_MSM_Help_Loadscreen_17::en = "Delete deletes it (with confirmation)",
 UI_MSM_Help_Loadscreen_18::en = "Ctrl+D duplicates it",
 UI_MSM_Help_Loadscreen_19::en = "These only fire while the Load screen is open. They never interfere with gameplay.",
 UI_MSM_Help_Locations_01::en = "WHERE THE MOD LIVES",
-UI_MSM_Help_Locations_02::en = "Steam/steamapps/workshop/content/108600/
-3721602150/Contents/mods/ManualSaveMod/",
+UI_MSM_Help_Locations_02::en = "",
 UI_MSM_Help_Locations_03::en = "mod.info, icon.png, poster.png",
 UI_MSM_Help_Locations_04::en = "WHERE BACKUPS LIVE",
-UI_MSM_Help_Locations_05::en = "%USERPROFILE%\\\\Zomboid\\\\ManualSaves\\\\
-    <gmode>\\\\<world>\\\\<slot>\\\\",
+UI_MSM_Help_Locations_05::en = "",
 UI_MSM_Help_Locations_06::en = "Each slot folder: world snapshot + thumb.png.",
 UI_MSM_Help_Locations_07::en = "WHERE VANILLA SAVES LIVE",
 UI_MSM_Help_Locations_08::en = "%USERPROFILE%\\\\Zomboid\\\\Saves\\\\<gmode>\\\\<world>\\\\",
-UI_MSM_Help_Locations_09::en = "Load creates a temporary copy here (tracked internally).
-Delete removes it automatically if it was created by Load.
-Export to Vanilla writes slot_exported here (never auto-deleted).
-Import reads from here (read only).",
+UI_MSM_Help_Locations_09::en = "",
 UI_MSM_Help_Locations_10::en = "WHERE THE BUS FILES LIVE",
 UI_MSM_Help_Locations_11::en = "%USERPROFILE%\\\\Zomboid\\\\Lua\\\\   (all start ManualSave_)",
-UI_MSM_Help_Locations_12::en = "Signal.txt      Lua > Watcher: command to run.
-Done.txt        Watcher > Lua: result.
-Heartbeat.txt   Watcher liveness counter.
-Watcher.lock    Single-instance lock.
-Index.txt       Cached list of all slots.
-VanillaScan.txt  Vanilla save list for Import.
-ImportQueue.txt  Worlds queued for import.
-Pending.txt     Save & Return re-entry info.
-Meta_*.txt      Per-slot metadata.
-Flags_*.txt     Per-slot recovery flags.",
+UI_MSM_Help_Locations_12::en = "",
 UI_MSM_Help_Locations_13::en = "THUMBNAILS",
-UI_MSM_Help_Locations_14::en = "%USERPROFILE%\\\\Zomboid\\\\Saves\\\\ManualSave_Thumbs\\\\
-<slot>.png  (one file per save slot)",
-UI_MSM_Help_Locations_15::en = "Managed by Watcher. Cannot be relocated: PZ's
-texture API only reads from inside Zomboid/Saves/.",
+UI_MSM_Help_Locations_14::en = "",
+UI_MSM_Help_Locations_15::en = "",
 UI_MSM_Help_More_01::en = "WHAT IT IS",
-UI_MSM_Help_More_02::en = "An expanded view of a single save, opened with
-the More button on the Load screen.",
+UI_MSM_Help_More_02::en = "",
 UI_MSM_Help_More_03::en = "LEFT COLUMN - METADATA",
 UI_MSM_Help_More_04::en = "Save File",
-UI_MSM_Help_More_05::en = "Game mode, save type (Quick/Full/Native),
-last saved date, playtime, size on disk.",
+UI_MSM_Help_More_05::en = "",
 UI_MSM_Help_More_06::en = "World State",
 UI_MSM_Help_More_07::en = "World folder name, current in-game day, seed.",
 UI_MSM_Help_More_08::en = "Map and Mods",
-UI_MSM_Help_More_09::en = "Compact lists with an expand icon.
-Click to open a scrollable floating panel,
-useful when a save has 60+ mods.",
+UI_MSM_Help_More_09::en = "",
 UI_MSM_Help_More_10::en = "RIGHT COLUMN - ACTIONS",
 UI_MSM_Help_More_11::en = "Save Actions",
 UI_MSM_Help_More_12::en = "Export to Vanilla, Duplicate.",
 UI_MSM_Help_More_13::en = "World Actions",
 UI_MSM_Help_More_14::en = "Rename World, Edit Mods.",
-UI_MSM_Help_More_15::en = "These touch the folder shared by all slots.
-See World ops pages for caveats.",
+UI_MSM_Help_More_15::en = "",
 UI_MSM_Help_More_16::en = "Recovery Flags",
 UI_MSM_Help_More_17::en = "One-time modifiers applied on the next load.",
 UI_MSM_Help_More_18::en = "See Recovery > Flags for full explanation.",
@@ -488,145 +364,89 @@ UI_MSM_Help_PageTrouble::en = "Common issues",
 UI_MSM_Help_PageWatcher::en = "What it is",
 UI_MSM_Help_PageWatcherRun::en = "Convenience",
 UI_MSM_Help_Quicksave_01::en = "WHAT IT IS",
-UI_MSM_Help_Quicksave_02::en = "An instant copy of the active save folder taken
-without leaving the game. The world keeps running
-while the copy happens in the background.",
-UI_MSM_Help_Quicksave_03::en = "Use Quick Save sparingly. Full Save is the right
-choice in most situations - see Save > Full Save.",
+UI_MSM_Help_Quicksave_02::en = "",
+UI_MSM_Help_Quicksave_03::en = "",
 UI_MSM_Help_Quicksave_04::en = "WHAT HAPPENS WHEN YOU CLICK QUICK SAVE",
 UI_MSM_Help_Quicksave_05::en = "1. A screenshot of your game is taken automatically.",
 UI_MSM_Help_Quicksave_06::en = "   Used as the save thumbnail. Works in any display mode.",
 UI_MSM_Help_Quicksave_07::en = "2. The mod waits for the screenshot to finish.",
 UI_MSM_Help_Quicksave_08::en = "   Gives up after ~5 seconds if something goes wrong.",
-UI_MSM_Help_Quicksave_09::en = "3. Your save info is recorded (world name, date, playtime).
-4. The Watcher copies your save folder to a backup slot.",
-UI_MSM_Help_Quicksave_10::en = "   The copy runs in the background while you keep playing.
-   A thumbnail and the save size are stored alongside it.",
-UI_MSM_Help_Quicksave_11::en = "5. Done - the UI confirms the save completed.
-   The game keeps running throughout.",
+UI_MSM_Help_Quicksave_09::en = "",
+UI_MSM_Help_Quicksave_10::en = "",
+UI_MSM_Help_Quicksave_11::en = "",
 UI_MSM_Help_Quicksave_12::en = "WHAT IS NOT FULLY CAPTURED",
-UI_MSM_Help_Quicksave_13::en = "Quick Save copies what is on disk. PZ flushes
-lazily - the copied state is 'recent past',
-not 'this exact frame'.",
+UI_MSM_Help_Quicksave_13::en = "",
 UI_MSM_Help_Quicksave_14::en = "Zombie positions",
 UI_MSM_Help_Quicksave_15::en = "Not flushed mid-game. On reload zombies may be",
 UI_MSM_Help_Quicksave_16::en = "in different positions, including next to you.",
 UI_MSM_Help_Quicksave_17::en = "Distant chunks",
 UI_MSM_Help_Quicksave_18::en = "Chunks far from the player may be outdated.",
 UI_MSM_Help_Quicksave_19::en = "Weather and time of day",
-UI_MSM_Help_Quicksave_20::en = "Live in memory. Reloaded value is whatever was
-last flushed, which may differ from on-screen.",
+UI_MSM_Help_Quicksave_20::en = "",
 UI_MSM_Help_Quicksave_21::en = "WHEN TO USE IT",
-UI_MSM_Help_Quicksave_22::en = "Before a risky move you may want to undo.
-Testing a mod or craft where zombie drift is OK.",
+UI_MSM_Help_Quicksave_22::en = "",
 UI_MSM_Help_Quicksave_23::en = "PREFER FULL SAVE WHEN",
-UI_MSM_Help_Quicksave_24::en = "Logging off for the night.
-Before installing or removing mods.
-When zombie positions and weather must match.",
+UI_MSM_Help_Quicksave_24::en = "",
 UI_MSM_Help_Recovery_01::en = "WHAT THEY ARE",
-UI_MSM_Help_Recovery_02::en = "One-shot modifiers attached to a specific slot.
-Take effect once on the next Load with Flags,
-then cleared.",
-UI_MSM_Help_Recovery_03::en = "Reset zombies cannot be undone after loading.
-For other flags, reloading an earlier backup is enough.
-Duplicate the slot before using Reset zombies.",
+UI_MSM_Help_Recovery_02::en = "",
+UI_MSM_Help_Recovery_03::en = "",
 UI_MSM_Help_Recovery_04::en = "AVAILABLE FLAGS",
 UI_MSM_Help_Recovery_05::en = "Reset zombies",
-UI_MSM_Help_Recovery_06::en = "Strips zombie data from chunk files before load.
-They respawn fresh according to world settings.",
+UI_MSM_Help_Recovery_06::en = "",
 UI_MSM_Help_Recovery_07::en = "Useful if zombies are corrupted or blocking spawn.",
 UI_MSM_Help_Recovery_08::en = "Cannot be undone after loading. Duplicate the slot first.",
 UI_MSM_Help_Recovery_12::en = "Heal player",
 UI_MSM_Help_Recovery_13::en = "Restores health to full, clears injuries and infections.",
 UI_MSM_Help_Recovery_14::en = "Does not clear hunger, thirst, or other moodles.",
 UI_MSM_Help_Recovery_15::en = "Reset weather",
-UI_MSM_Help_Recovery_16::en = "Clears weather to clear sky for ~6 in-game hours,
-then the natural cycle resumes.
-Should work even with weather mods active.",
+UI_MSM_Help_Recovery_16::en = "",
 UI_MSM_Help_Recovery_17::en = "Reset time of day",
-UI_MSM_Help_Recovery_18::en = "Sets the clock to a preset:
-Dawn 06:00 / Midday 12:00 / Dusk 18:00 / Midnight 00:00.",
+UI_MSM_Help_Recovery_18::en = "",
 UI_MSM_Help_Recovery_19::en = "Day count and calendar are not affected.",
 UI_MSM_Help_Recovery_20::en = "HOW TO APPLY",
 UI_MSM_Help_Recovery_21::en = "Select a save > More > tick flags > Load with Flags.",
 UI_MSM_Help_Recovery_22::en = "Normal Load button does NOT apply flags.",
 UI_MSM_Help_Rename_01::en = "WHAT IT DOES",
-UI_MSM_Help_Rename_02::en = "Renames the slot folder on disk.
-The new name is what the Load screen displays.",
+UI_MSM_Help_Rename_02::en = "",
 UI_MSM_Help_Rename_03::en = "NAME RULES",
 UI_MSM_Help_Rename_04::en = "Names are sanitized automatically.",
-UI_MSM_Help_Rename_05::en = "Spaces become underscores.
-Characters invalid in Windows paths are replaced
-with _  (< > : \\\" / \\\\ | ? *)
-Unicode allowed; avoid emoji for compatibility.",
+UI_MSM_Help_Rename_05::en = "",
 UI_MSM_Help_Rename_08::en = "RENAME vs RENAME WORLD",
-UI_MSM_Help_Rename_09::en = "Rename changes only the slot folder.
-The world folder and its name in PZ stay the same.",
+UI_MSM_Help_Rename_09::en = "",
 UI_MSM_Help_Rename_10::en = "To rename the world: World ops > Rename World.",
 UI_MSM_Help_Renameworld_01::en = "WHAT IT DOES",
-UI_MSM_Help_Renameworld_02::en = "Renames the world folder under
-ManualSaves/<gmode>/<world>/.
-Every slot inside that world is now grouped under
-the new world name.",
+UI_MSM_Help_Renameworld_02::en = "",
 UI_MSM_Help_Renameworld_03::en = "Different from Rename, which changes only one slot.",
 UI_MSM_Help_Renameworld_04::en = "WHEN TO USE IT",
-UI_MSM_Help_Renameworld_05::en = "You imported a world named something generic
-(Sandbox_2026-04-22) and want a meaningful name.
-You spawned with a typo in the world name and want
-to fix it once, not per slot.",
+UI_MSM_Help_Renameworld_05::en = "",
 UI_MSM_Help_Renameworld_06::en = "CAVEATS",
-UI_MSM_Help_Renameworld_07::en = "Cannot rename while that world is loaded.
-The folder must be free of locks.
-Go to main menu before renaming.",
-UI_MSM_Help_Renameworld_08::en = "All slots reload metadata after the rename.
-Thumbnails persist.",
+UI_MSM_Help_Renameworld_07::en = "",
+UI_MSM_Help_Renameworld_08::en = "",
 UI_MSM_Help_Safety_01::en = "SHORT ANSWER",
-UI_MSM_Help_Safety_02::en = "Yes. The mod ships open .ps1 and .cmd scripts,
-both plain text, both readable in Notepad.",
-UI_MSM_Help_Safety_03::en = "Nothing in the mod has network access.
-Nothing modifies the PZ executable.
-Uninstall returns your saves to vanilla state.",
+UI_MSM_Help_Safety_02::en = "",
+UI_MSM_Help_Safety_03::en = "",
 UI_MSM_Help_Safety_04::en = "WHAT THE WATCHER ACTUALLY DOES",
-UI_MSM_Help_Safety_05::en = "On a 500ms loop it does four things:
-1. Reads small .txt signal files from Zomboid/Lua/.
-2. Copies, moves, or deletes folders in Zomboid/
-   using robocopy.
-3. Runs PowerShell to capture the game window.
-4. Writes a Done file back so the game sees the result.",
-UI_MSM_Help_Safety_06::en = "No registry edits.
-No external network calls.
-No background services or autostart.",
+UI_MSM_Help_Safety_05::en = "",
+UI_MSM_Help_Safety_06::en = "",
 UI_MSM_Help_Safety_07::en = "HOW TO VERIFY THIS YOURSELF",
-UI_MSM_Help_Safety_08::en = "Open ManualSave_Watcher.ps1 in Notepad.
-Task Manager > Details: Watcher = powershell.exe",
+UI_MSM_Help_Safety_08::en = "",
 UI_MSM_Help_Safety_09::en = "  with ManualSave_Watcher.ps1 in the command line.",
 UI_MSM_Help_Safety_10::en = "Resource Monitor > Network: no sockets opened.",
 UI_MSM_Help_Safety_11::en = "WHY ANTIVIRUS MAY FLAG IT",
-UI_MSM_Help_Safety_12::en = "Some AVs flag any unsigned .ps1 that calls
-robocopy - a heuristic, not a real
-detection of malicious behaviour.",
-UI_MSM_Help_Safety_13::en = "Read the file first, then decide.
-If you don't trust it: don't run it.
-Lua side stays disabled; PZ behaves as vanilla.",
-UI_MSM_Help_Safety_14::en = "Both files are byte-identical across all Steam
-Workshop installs of the same mod version.",
+UI_MSM_Help_Safety_12::en = "",
+UI_MSM_Help_Safety_13::en = "",
+UI_MSM_Help_Safety_14::en = "",
 UI_MSM_Help_SaveBusy_01::en = "SAVE IN PROGRESS",
-UI_MSM_Help_SaveBusy_02::en = "The mod is copying your save to the backup folder.
-This runs in the background while the game is open.",
-UI_MSM_Help_SaveBusy_03::en = "The progress overlay shows the percentage, copy speed,
-and estimated time remaining.",
+UI_MSM_Help_SaveBusy_02::en = "",
+UI_MSM_Help_SaveBusy_03::en = "",
 UI_MSM_Help_SaveBusy_04::en = "OPERATIONS DISABLED",
-UI_MSM_Help_SaveBusy_05::en = "Load, clone, rename, delete, and export are blocked
-while a save is in progress to prevent data corruption.",
+UI_MSM_Help_SaveBusy_05::en = "",
 UI_MSM_Help_SaveBusy_06::en = "WHAT TO DO",
 UI_MSM_Help_SaveBusy_07::en = "Wait for the progress overlay to close automatically.",
-UI_MSM_Help_SaveBusy_08::en = "Do not close the game or the Watcher while a save
-is running.",
-UI_MSM_Help_SaveBusy_09::en = "All operations re-enable automatically once the
-save completes.",
+UI_MSM_Help_SaveBusy_08::en = "",
+UI_MSM_Help_SaveBusy_09::en = "",
 UI_MSM_Help_Settings_01::en = "WHAT IT IS",
-UI_MSM_Help_Settings_02::en = "The Settings screen lets you configure Manual Save's behaviour and interface.
-Open it with the gear icon at the bottom of any screen.",
+UI_MSM_Help_Settings_02::en = "",
 UI_MSM_Help_Settings_03::en = "TABS",
 UI_MSM_Help_Settings_04::en = "General",
 UI_MSM_Help_Settings_05::en = "Screenshot on save, load and delete confirmations, and the Watcher offline warning.",
@@ -661,104 +481,61 @@ UI_MSM_Help_ShortcutsHlp_18::en = "Delete deletes the selected save (with confir
 UI_MSM_Help_ShortcutsHlp_19::en = "Ctrl+D duplicates the selected save",
 UI_MSM_Help_ShortcutsHlp_20::en = "List shortcuts only fire while the Load screen is open. They never interfere with normal gameplay.",
 UI_MSM_Help_Start_02::en = "WHAT YOU GET",
-UI_MSM_Help_Start_03::en = "Multiple named save slots per world.
-Quick Save - instant in-game checkpoint.
-Full Save - exit to menu, flush all state, reload.
-Rename, duplicate, delete, and import vanilla saves.
-Auto thumbnail screenshot for every save.",
+UI_MSM_Help_Start_03::en = "",
 UI_MSM_Help_Start_04::en = "REQUIREMENTS",
 UI_MSM_Help_Start_05::en = "Windows 10 or 11",
-UI_MSM_Help_Start_06::en = "The Watcher uses cmd.exe, robocopy, PowerShell,
-and user32.dll - all standard Windows components.",
+UI_MSM_Help_Start_06::en = "",
 UI_MSM_Help_Start_07::en = "Build 42 only",
-UI_MSM_Help_Start_08::en = "The Lua API on B41 differs; the mod will not load
-cleanly on that version.",
+UI_MSM_Help_Start_08::en = "",
 UI_MSM_Help_Start_09::en = "SETUP - STEP BY STEP",
 UI_MSM_Help_Start_10::en = "1. Subscribe on Steam and let it install",
-UI_MSM_Help_Start_11::en = "Mod folder: Steam/steamapps/workshop/content/
-108600/3721602150/mods/ManualSaveMod/",
+UI_MSM_Help_Start_11::en = "",
 UI_MSM_Help_Start_12::en = "2. Enable the mod in your save",
-UI_MSM_Help_Start_13::en = "Main menu > Mods > Manual Save Mod [B42] > enable.
-For an existing world: also enable from the world
-mod list before loading.",
+UI_MSM_Help_Start_13::en = "",
 UI_MSM_Help_Start_14::en = "3. Locate ManualSave_Watcher.cmd",
 UI_MSM_Help_Start_15::en = "ManualSave_Watcher.cmd   (launcher script)",
 UI_MSM_Help_Start_16::en = "ManualSave_Watcher.ps1   (watcher logic)",
 UI_MSM_Help_Start_17::en = "4. Start the Watcher",
-UI_MSM_Help_Start_18::en = "Open the subfolder for your operating system inside the mod folder and double-click the launcher inside:
-- Windows: Windows/ManualSave_Watcher.cmd
-- Linux / Steam Deck / macOS: Linux/ or MacOS/ManualSave_Watcher.sh
-A terminal window opens, leave it running in the background, then start PZ.",
+UI_MSM_Help_Start_18::en = "",
 UI_MSM_Help_Start_19::en = "Pin a shortcut on your desktop for convenience.",
 UI_MSM_Help_Start_20::en = "5. Confirm it is talking to the game",
-UI_MSM_Help_Start_21::en = "In game: ESC > Save. All buttons should be enabled
-and the dot at the top reads 'Watcher running'.",
+UI_MSM_Help_Start_21::en = "",
 UI_MSM_Help_Start_22::en = "Red dot = .cmd is not running. Double-click it again.",
 UI_MSM_Help_Start_23::en = "FROM HERE",
-UI_MSM_Help_Start_24::en = "Save > Quick Save - fast in-game checkpoint.
-Save > Full Save - reliable end-of-session save.
-Load - manage and restore saves.
-Reference > Glossary - unfamiliar terms explained.
-Troubleshooting - if something does not work.",
+UI_MSM_Help_Start_24::en = "",
 UI_MSM_Help_Stripmods_01::en = "WHAT IT DOES",
-UI_MSM_Help_Stripmods_02::en = "Empties the mods.txt of a slot so the next load
-does not require any of the original mods.",
+UI_MSM_Help_Stripmods_02::en = "",
 UI_MSM_Help_Stripmods_03::en = "WHY YOU MIGHT WANT THIS",
-UI_MSM_Help_Stripmods_04::en = "A mod the world needs was broken by a PZ patch.
-A mod was removed from Workshop and is gone.
-Recovering character state without the full mod list.",
+UI_MSM_Help_Stripmods_04::en = "",
 UI_MSM_Help_Stripmods_05::en = "WHAT IT DOES NOT DO",
-UI_MSM_Help_Stripmods_06::en = "Not a clean migration.
-Mods that added custom items, recipes, traits, or
-vehicles will appear broken on load.
-The save loads; mod-added content may not behave.",
+UI_MSM_Help_Stripmods_06::en = "",
 UI_MSM_Help_Stripmods_07::en = "SAFER PATTERN: DUPLICATE + STRIP",
-UI_MSM_Help_Stripmods_08::en = "1. Select the slot.
-2. Duplicate it - original is untouched.
-3. Strip Mods on the duplicate.
-4. Load the clone to inspect.",
+UI_MSM_Help_Stripmods_08::en = "",
 UI_MSM_Help_Stripmods_09::en = "Your original slot stays mod-bound.",
 UI_MSM_Help_Thumbnail_01::en = "WHAT IT IS",
-UI_MSM_Help_Thumbnail_02::en = "A screenshot taken automatically on every Save,
-displayed in the Load and More screens.",
+UI_MSM_Help_Thumbnail_02::en = "",
 UI_MSM_Help_Thumbnail_03::en = "WHERE IT APPEARS",
-UI_MSM_Help_Thumbnail_04::en = "Load screen - detail panel on the right.
-More screen - banner across the top.",
+UI_MSM_Help_Thumbnail_04::en = "",
 UI_MSM_Help_Thumbnail_05::en = "WHERE THUMBNAILS ARE STORED",
 UI_MSM_Help_Thumbnail_06::en = "Zomboid\\\\Saves\\\\ManualSave_Thumbs\\\\<slot>.png",
-UI_MSM_Help_Thumbnail_07::en = "The Watcher manages this folder automatically:
-creates on save, renames on rename, deletes on delete.",
+UI_MSM_Help_Thumbnail_07::en = "",
 UI_MSM_Help_Thumbnail_08::en = "WHY THEY CANNOT LEAVE Zomboid\\\\Saves\\\\",
-UI_MSM_Help_Thumbnail_09::en = "PZ's only runtime texture loader (getTextureFromSaveDir)
-can read exclusively from inside Zomboid/Saves/.",
-UI_MSM_Help_Thumbnail_10::en = "Relative paths (../) are explicitly blocked by PZ.
-No filesystem path API exists in PZ's Lua runtime.",
-UI_MSM_Help_Thumbnail_11::en = "ManualSave_Thumbs/ inside Saves/ is the only
-location PZ will let Lua load images from.",
+UI_MSM_Help_Thumbnail_09::en = "",
+UI_MSM_Help_Thumbnail_10::en = "",
+UI_MSM_Help_Thumbnail_11::en = "",
 UI_MSM_Help_Thumbnail_12::en = "HOW IT IS CAPTURED",
-UI_MSM_Help_Thumbnail_13::en = "PZ runs OpenGL. Classic BitBlt returns a black
-rectangle for OpenGL windows.",
+UI_MSM_Help_Thumbnail_13::en = "",
 UI_MSM_Help_Thumbnail_14::en = "The Watcher uses PrintWindow(PW_RENDERFULLCONTENT).",
-UI_MSM_Help_Thumbnail_15::en = "This asks the DWM compositor to render GPU contents
-into a normal bitmap. Works in windowed and
-borderless modes without stealing focus.",
-UI_MSM_Help_Thumbnail_16::en = "If capture fails a placeholder dark PNG is written
-with a 'Manual Save' label.",
+UI_MSM_Help_Thumbnail_15::en = "",
+UI_MSM_Help_Thumbnail_16::en = "",
 UI_MSM_Help_Title::en = "Help",
 UI_MSM_Help_Trouble_01::en = "'WATCHER OFFLINE' RED BAR",
 UI_MSM_Help_Trouble_02::en = "The Watcher is not running or has crashed.",
-UI_MSM_Help_Trouble_03::en = "Double-click ManualSave_Watcher.cmd.
-Wait 2 seconds. The bar should disappear.
-If it stays red: see Watcher won't start below.",
+UI_MSM_Help_Trouble_03::en = "",
 UI_MSM_Help_Trouble_04::en = "WATCHER WON'T START",
 UI_MSM_Help_Trouble_05::en = "Most common cause: stale .lock file from a crash.",
-UI_MSM_Help_Trouble_06::en = "Open %USERPROFILE%\\\\Zomboid\\\\Lua\\\\
-Delete ManualSave_Watcher.lock.
-Double-click the .cmd again.",
-UI_MSM_Help_Trouble_07::en = "Other causes:
-PowerShell execution policy blocked the script.
-Antivirus quarantined the .cmd or .ps1 file.
-Windows in S Mode (cannot run unsigned scripts).",
+UI_MSM_Help_Trouble_06::en = "",
+UI_MSM_Help_Trouble_07::en = "",
 UI_MSM_Help_Trouble_08::en = "THUMBNAIL IS BLACK OR PLACEHOLDER",
 UI_MSM_Help_Trouble_09::en = "Running PZ in exclusive fullscreen?",
 UI_MSM_Help_Trouble_10::en = "  Switch to Borderless Windowed: Options > Display.",
@@ -767,81 +544,43 @@ UI_MSM_Help_Trouble_12::en = "  PrintWindow(PW_RENDERFULLCONTENT) needs Win 8.1+
 UI_MSM_Help_Trouble_13::en = "PZ window minimized when saving?",
 UI_MSM_Help_Trouble_14::en = "  Keep it visible; compositor needs an active surface.",
 UI_MSM_Help_Trouble_15::en = "A SAVE IS MISSING FROM THE LIST",
-UI_MSM_Help_Trouble_16::en = "Is the Watcher running?
-Check Zomboid\\\\Lua\\\\ManualSave_Index.txt.",
-UI_MSM_Help_Trouble_17::en = "Slot in Index but not in UI: close/reopen Load screen.
-Slot not in Index: folder moved outside mod. Use Import.",
+UI_MSM_Help_Trouble_16::en = "",
+UI_MSM_Help_Trouble_17::en = "",
 UI_MSM_Help_Trouble_18::en = "SAVE & RETURN BREAKS THE DISPLAY",
-UI_MSM_Help_Trouble_19::en = "Exclusive fullscreen + display mode swap on reload.
-Fix: Options > Display > Borderless Windowed.",
+UI_MSM_Help_Trouble_19::en = "",
 UI_MSM_Help_Trouble_20::en = "PZ FREEZES DURING A SAVE",
-UI_MSM_Help_Trouble_21::en = "robocopy on a large save can take several seconds.
-Wait 10 seconds before assuming a freeze.
-If truly frozen: Task Manager > kill the Watcher
-cmd.exe, then resume PZ and restart the Watcher.",
+UI_MSM_Help_Trouble_21::en = "",
 UI_MSM_Help_WatcherRun_01::en = "STARTING IT MANUALLY",
-UI_MSM_Help_WatcherRun_02::en = "Open the folder for your operating system inside the mod folder (Windows, Linux, or MacOS) and start the launcher inside:
-- Windows: ManualSave_Watcher.cmd  (double-click)
-- macOS: ManualSave_Watcher.command  (double-click; Terminal.app opens and runs it)
-- Linux / Steam Deck (Desktop Mode): ManualSave_Watcher.command. First time only, open a terminal in that folder and run \"chmod +x ManualSave_Watcher.command\" (or use right-click > Properties > Permissions > Allow executing as program). After that, double-click works.
-- Steam Deck (Gaming Mode): cannot double-click files directly. In Desktop Mode, add ManualSave_Watcher.command as a Non-Steam Game in Steam (Games > Add a Non-Steam Game). Then in Gaming Mode launch the Watcher from your Steam library before launching Project Zomboid.
-A terminal window opens - leave it running. The Watcher is now in the background.",
+UI_MSM_Help_WatcherRun_02::en = "",
 UI_MSM_Help_WatcherRun_03::en = "WHERE THE FILE IS",
-UI_MSM_Help_WatcherRun_04::en = "In the mod folder. To open it:
-PZ main menu > Mods > Manual Save Mod > Open Folder",
+UI_MSM_Help_WatcherRun_04::en = "",
 UI_MSM_Help_WatcherRun_05::en = "ManualSave_Watcher.cmd   (launcher)",
 UI_MSM_Help_WatcherRun_06::en = "ManualSave_Watcher.ps1   (watcher logic)",
-UI_MSM_Help_WatcherRun_07::en = "Tip: Open Folder opens the mod folder directly.
-The Watcher files are inside it.",
+UI_MSM_Help_WatcherRun_07::en = "",
 UI_MSM_Help_WatcherRun_08::en = "DESKTOP SHORTCUT",
-UI_MSM_Help_WatcherRun_09::en = "Right-click ManualSave_Watcher.cmd > Send to >
-Desktop (create shortcut).",
+UI_MSM_Help_WatcherRun_09::en = "",
 UI_MSM_Help_WatcherRun_10::en = "START IT WITH THE GAME (RECOMMENDED)",
 UI_MSM_Help_WatcherRun_11::en = "Create a launcher.bat with these lines:",
-UI_MSM_Help_WatcherRun_12::en = "  @echo off
-  start /min \"\" \"%~dp0ManualSave_Watcher.cmd\"
-  start steam://run/108600",
+UI_MSM_Help_WatcherRun_12::en = "",
 UI_MSM_Help_WatcherRun_13::en = "Double-click that launcher instead of PZ directly.",
 UI_MSM_Help_WatcherRun_14::en = "The Watcher boots first, then the game does.",
 UI_MSM_Help_WatcherRun_15::en = "RUN ON LOGIN (OPTIONAL)",
-UI_MSM_Help_WatcherRun_16::en = "Win+R > type shell:startup > Enter.
-Drop a shortcut to ManualSave_Watcher.cmd there.
-The Watcher now starts every time you log in.",
+UI_MSM_Help_WatcherRun_16::en = "",
 UI_MSM_Help_WatcherRun_17::en = "Only useful if you play PZ frequently.",
 UI_MSM_Help_WatcherRun_18::en = "HOW TO STOP IT",
-UI_MSM_Help_WatcherRun_19::en = "Task Manager > Details > find cmd.exe with
-ManualSave_Watcher in the command > End task.",
-UI_MSM_Help_WatcherRun_20::en = "Watcher cleans up its lock file on clean close.
-If it crashes the lock may persist.
-See Troubleshooting > Watcher won't start.",
+UI_MSM_Help_WatcherRun_19::en = "",
+UI_MSM_Help_WatcherRun_20::en = "",
 UI_MSM_Help_WatcherRun_LocationCaption::en = "Windows shown. Linux and macOS users find an equivalent .sh launcher inside their own subfolder.",
 UI_MSM_Help_Watcher_01::en = "WHY THE WATCHER EXISTS",
-UI_MSM_Help_Watcher_02::en = "PZ runs Lua through Kahlua, a stripped interpreter.
-Kahlua hides almost the entire os.* library:",
+UI_MSM_Help_Watcher_02::en = "",
 UI_MSM_Help_Watcher_03::en = "no os.execute, os.rename, os.remove, no mkdir.",
-UI_MSM_Help_Watcher_04::en = "A manual save is a folder copy. Lua inside PZ
-cannot do that. The Watcher is the smallest
-possible workaround: an external Windows process.",
+UI_MSM_Help_Watcher_04::en = "",
 UI_MSM_Help_Watcher_05::en = "WHAT IT DOES",
-UI_MSM_Help_Watcher_06::en = "SAVE           Copy active world to a named slot.
-LOAD           Copy a slot back to the active world.
-DELETE         Recursively remove a slot folder.
-RENAME         Rename a slot folder.
-CLONE          Copy a slot to a new name.
-CLONE_MODS     Clone a slot with a custom mod list.
-RENAME_WORLD   Rename the world folder itself.
-EXPORT_VANILLA Copy a slot to PZ's Saves folder as slot_exported.
-SCAN_VANILLA   List existing vanilla saves.
-IMPORT         Copy vanilla saves into ManualSave.",
+UI_MSM_Help_Watcher_06::en = "",
 UI_MSM_Help_Watcher_07::en = "HOW IT TALKS TO THE GAME",
-UI_MSM_Help_Watcher_08::en = "The Watcher polls %USERPROFILE%\\\\Zomboid\\\\Lua\\\\
-for ManualSave_Signal.txt written by the Lua side.
-Parses the op > runs it > writes Done.txt back.",
-UI_MSM_Help_Watcher_09::en = "A heartbeat counter increments every tick so the
-game can detect if the Watcher process dies.",
-UI_MSM_Help_Watcher_10::en = "No install, no service, no autostart.
-If you don't start the .cmd the mod is inert.
-This keeps the install trivially reversible.",
+UI_MSM_Help_Watcher_08::en = "",
+UI_MSM_Help_Watcher_09::en = "",
+UI_MSM_Help_Watcher_10::en = "",
 UI_MSM_Help_Watcher_GifCaption::en = "Step-by-step: open the mod folder, enter your OS subfolder (Windows / Linux / MacOS), double-click the launcher, and the Watcher starts in a terminal window.",
 UI_MSM_Help_Zoom_Tip::en = "Hover any image or save thumbnail to reveal a \"+\" button in the top-right corner. Clicking the button (or the image itself) opens the picture full-screen. Press Esc or click outside to close.",
 UI_MSM_Import_BadgReimport::en = "(reimport)",
@@ -897,9 +636,7 @@ UI_MSM_Ops_BtnRenameWorld::en = "Rename world",
 UI_MSM_Ops_BtnStripMods::en = "Strip mods",
 UI_MSM_Ops_ConfirmFlags::en = "[!] Confirm recovery flags",
 UI_MSM_Ops_DuplicateTitle::en = "Duplicate save as:",
-UI_MSM_Ops_ExportVanillaBody::en = "Creates a standalone copy of \"%1\" in PZ's save folder as \"%1_exported\".
-Visible in the standard load screen without this mod.
-Deleting the original slot does NOT remove this copy.",
+UI_MSM_Ops_ExportVanillaBody::en = "",
 UI_MSM_Ops_ExportVanillaTitle::en = "Export to Vanilla",
 UI_MSM_Ops_FlagHeal::en = "Heal player",
 UI_MSM_Ops_FlagHealDesc::en = "Restores health and removes all injuries.",

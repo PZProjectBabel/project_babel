@@ -2,26 +2,8 @@ Sandbox_AmmoLootDropVanilla::en = "Zombies Drop Ammo",
 Sandbox_AmmoLootDropVanillaBox::en = "Zombies Drop Ammo Box",
 Sandbox_AmmoLootDropVanillaCarton::en = "Zombies Drop Ammo Carton",
 Sandbox_VanillaBoxDropRate::en = "Ammo Box Drop Rate",
-Sandbox_VanillaBoxDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 box types.
-Default 0.5 is about one box
-every 20 to 25 corpses.
-A box holds 20 to 50 rounds,
-so small values go a long way.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaBoxDropRate_tooltip::en = "",
 Sandbox_VanillaCartonDropRate::en = "Ammo Carton Drop Rate",
-Sandbox_VanillaCartonDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 carton types.
-Default 0.05 is about one carton
-every 200 corpses.
-A carton is 12 boxes, so even
-a rate of 1 makes them common.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaCartonDropRate_tooltip::en = "",
 Sandbox_VanillaDropRate::en = "Ammo Drop Rate",
-Sandbox_VanillaDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 round types.
-Default 5 leaves ammo on about
-a third of all corpses.
-All 9 types roll separately, so 20
-already covers nearly every zombie.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaDropRate_tooltip::en = "",

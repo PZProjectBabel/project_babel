@@ -59,6 +59,9 @@ public class SteamCmdBootstrapperService
 
     private static async Task UpdateBundledWindowsSteamCmdAsync(string destinationDirectory, string executablePath)
     {
+        // 更新前不删除/移动现有 exe：steamcmd 自更新只会在覆盖文件时才把旧版本备份为 .old。
+        // 若上次更新中断导致 exe 缺失（仅剩 .old 备份），先从备份恢复再继续。
+        TryRestoreFromBackup(executablePath);
         if (!File.Exists(executablePath))
             throw new FileNotFoundException($"Bundled Windows steamcmd executable not found: {executablePath}");
 
@@ -72,10 +75,31 @@ public class SteamCmdBootstrapperService
         }) ?? throw new InvalidOperationException($"Failed to start bundled steamcmd: {executablePath}");
 
         await process.WaitForExitAsync();
+
+        // 更新后：若 steamcmd 覆盖文件失败导致 exe 缺失，再次尝试从 .old 备份恢复。
+        if (!File.Exists(executablePath))
+        {
+            TryRestoreFromBackup(executablePath);
+            if (!File.Exists(executablePath))
+                throw new InvalidOperationException($"Bundled steamcmd update failed: executable missing after update: {executablePath}");
+        }
         if (process.ExitCode != 0)
             throw new InvalidOperationException($"Bundled steamcmd update failed with exit code {process.ExitCode}.");
 
         Console.WriteLine($"  [OK] bundled steamcmd updated: {executablePath}");
+    }
+
+    /// <summary>
+    /// 若 exe 缺失但存在 steamcmd 自更新留下的 .old 备份，则复制恢复（保留 .old，便于再次恢复）。
+    /// </summary>
+    private static void TryRestoreFromBackup(string executablePath)
+    {
+        string backupPath = executablePath + ".old";
+        if (File.Exists(executablePath) || !File.Exists(backupPath))
+            return;
+
+        File.Copy(backupPath, executablePath, overwrite: true);
+        Console.WriteLine($"  [steamcmd] Restored {Path.GetFileName(executablePath)} from {Path.GetFileName(backupPath)}");
     }
 
     private static void RecreateDestinationDirectory(string destinationDirectory)
@@ -88,7 +112,13 @@ public class SteamCmdBootstrapperService
 
         foreach (string entry in Directory.GetFileSystemEntries(destinationDirectory))
         {
-            if (Path.GetFileName(entry) == ".gitignore")
+            string fileName = Path.GetFileName(entry);
+            // 保留 .gitignore 以及 Windows 平台二进制与其 .old 备份：
+            // Windows 版本由 Windows 分支维护，Linux 更新不得删除。
+            if (fileName == ".gitignore" ||
+                fileName.EndsWith(".exe", StringComparison.OrdinalIgnoreCase) ||
+                fileName.EndsWith(".dll", StringComparison.OrdinalIgnoreCase) ||
+                fileName.EndsWith(".old", StringComparison.OrdinalIgnoreCase))
                 continue;
 
             if (Directory.Exists(entry))

@@ -139,32 +139,20 @@ UI_HiResClock_ResetPositions_Tooltip::en = "Removes all custom Watch Slot positi
 UI_HiResClock_RevertColor::en = "Revert Color",
 UI_HiResClock_SaveSkinColors::en = "Save Color Settings to Active Skin",
 UI_HiResClock_SaveSkinColors_Tooltip::en = "Writes the current Border, Digit, Analog FPS, Dial, AM/PM, and AM/PM Background colors to the selected skin settings.json.",
-UI_HiResClock_ScaleHint::en = "Slider steps 1 and 7 are consistent with Vanilla Small and Large clock sizes, respectively. good for 1080p and lower resolutions.
-For 4K Resolution Slider Steps 7 and 14 Scale the Vanilla Small and Large from 1080p to 4K respectively.
-For 8K Resolution Slider Steps 14 and 20 Scale the Vanilla Small and Large from 1080p to 8K respectively.",
 UI_HiResClock_SetAlarmPosition::en = "Set Alarm Position",
 UI_HiResClock_ShowClockScaleHint::en = "Show Clock Scale Hint",
 UI_HiResClock_ShowFPS::en = "Show FPS",
 UI_HiResClock_ShowFPS_Tooltip::en = "Shows a vanilla-style FPS readout on the primary Hi-Res clock.",
 UI_HiResClock_ShowRenderPreview::en = "Show Clock Render Preview",
-UI_HiResClock_ShowRenderPreview_Tooltip::en = "Shows a temporary preview of the Hi-Res clock and speed controls while this Mod Options tab is open.
-This setting is not saved.",
 UI_HiResClock_ShowSpeedScaleHint::en = "Show Speed Scale Hint",
 UI_HiResClock_Skin::en = "Choose Skin",
 UI_HiResClock_SkinBackgroundDarkness::en = "Skin Background Darkness",
 UI_HiResClock_SkinIsLegacy::en = "Skin is Legacy",
 UI_HiResClock_SkinSettings::en = "Skin Settings",
-UI_HiResClock_SkinSetupInstructions::en = "To Activate Skin Settings Manually copy the HiResClock-Skins Folder from
-Steam\\steamapps\\workshop\\content\\108600\\3676283016\\mods\\Hi-Res-Clock\\common
-to
-C:\\Users\\YourUser\\Zomboid\\Lua
-then Restart the game",
 UI_HiResClock_Slot1::en = "Slot 1",
 UI_HiResClock_Slot2::en = "Slot 2",
 UI_HiResClock_Slot3::en = "Slot 3",
 UI_HiResClock_Slot4::en = "Slot 4",
-UI_HiResClock_SpeedHint::en = "Slider Step 2 is Vanilla standard. Step 1 is good for resolutions <1080p.
-Steps 3-4 scale for 4K and 8K resolutions.",
 UI_HiResClock_SpeedScale::en = "Speed Controls Scale",
 UI_HiResClock_SwapPrimaryWatch::en = "Swap Primary Watch: Right → Left",
 UI_HiResClock_SwapPrimaryWatch_Tooltip::en = "Makes the left-wrist watch preferred for Slot 1 and the right-wrist watch preferred for Slot 2.",

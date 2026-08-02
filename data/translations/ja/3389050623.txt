@@ -6,31 +6,13 @@ Sandbox_AmmoLootDropVanillaCarton::en = "Zombies Drop Ammo Carton",
 Sandbox_AmmoLootDropVanillaCarton::ja::processed::unverified = "ゾンビの弾薬カートンドロップ",
 Sandbox_VanillaBoxDropRate::en = "Ammo Box Drop Rate",
 Sandbox_VanillaBoxDropRate::ja::processed::unverified = "弾薬箱ドロップ率",
-Sandbox_VanillaBoxDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 box types.
-Default 0.5 is about one box
-every 20 to 25 corpses.
-A box holds 20 to 50 rounds,
-so small values go a long way.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaBoxDropRate_tooltip::en = "",
 Sandbox_VanillaBoxDropRate_tooltip::ja::processed::unverified = "各ゾンビにつき、9種類の箱それぞれのドロップ確率（%）。初期値0.5は、遺体20～25体につき箱1個程度。箱1個には20～50発入っているので、小さな値でも効果があります。0にするとドロップしなくなります。",
 Sandbox_VanillaCartonDropRate::en = "Ammo Carton Drop Rate",
 Sandbox_VanillaCartonDropRate::ja::processed::unverified = "弾薬カートンドロップ率",
-Sandbox_VanillaCartonDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 carton types.
-Default 0.05 is about one carton
-every 200 corpses.
-A carton is 12 boxes, so even
-a rate of 1 makes them common.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaCartonDropRate_tooltip::en = "",
 Sandbox_VanillaCartonDropRate_tooltip::ja::processed::unverified = "各ゾンビにつき、9種類のカートンそれぞれのドロップ確率（%）。初期値0.05は、遺体200体につきカートン1個程度。カートン1個は箱12個分なので、率を1にしてもかなり出やすくなります。0にするとドロップしなくなります。",
 Sandbox_VanillaDropRate::en = "Ammo Drop Rate",
 Sandbox_VanillaDropRate::ja::processed::unverified = "弾薬ドロップ率",
-Sandbox_VanillaDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 round types.
-Default 5 leaves ammo on about
-a third of all corpses.
-All 9 types roll separately, so 20
-already covers nearly every zombie.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaDropRate_tooltip::en = "",
 Sandbox_VanillaDropRate_tooltip::ja::processed::unverified = "各ゾンビにつき、9種類の弾薬それぞれのドロップ確率（%）。初期値5では、全遺体の約3分の1に弾薬が残ります。9種類すべてが個別に判定されるため、20にすればほぼすべてのゾンビが対象になります。0にするとドロップしなくなります。",

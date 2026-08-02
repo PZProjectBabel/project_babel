@@ -92,41 +92,29 @@ IGUI_BusStop_prot_start::en = "Arrival protection active.",
 IGUI_BusStop_prot_start::ja::processed::unverified = "到着保護がアクティブです。",
 IGUI_BusStop_sound_label::en = "Sound:",
 IGUI_BusStop_sound_label::ja::processed::unverified = "サウンド:",
-IGUI_BusStop_tip_avail_no::en = "Stop is hidden from the
-player destination list.",
+IGUI_BusStop_tip_avail_no::en = "",
 IGUI_BusStop_tip_avail_no::ja::processed::unverified = "この停留所はプレイヤーの目的地リストから隠されています。",
-IGUI_BusStop_tip_avail_yes::en = "Stop appears as a destination
-for all players.",
+IGUI_BusStop_tip_avail_yes::en = "",
 IGUI_BusStop_tip_avail_yes::ja::processed::unverified = "この停留所は全プレイヤーの目的地として表示されます。",
-IGUI_BusStop_tip_coords::en = "World coordinates set when
-the stop was placed. Read-only.",
+IGUI_BusStop_tip_coords::en = "",
 IGUI_BusStop_tip_coords::ja::processed::unverified = "停留所設置時に設定されたワールド座標です。読み取り専用。",
-IGUI_BusStop_tip_delete::en = "Permanently remove this stop
-from the world.",
+IGUI_BusStop_tip_delete::en = "",
 IGUI_BusStop_tip_delete::ja::processed::unverified = "この停留所をワールドから完全に削除します。",
-IGUI_BusStop_tip_dynamic::en = "Price = (Base + dist x PricePerTile) x mult.
-Scales with travel distance.",
+IGUI_BusStop_tip_dynamic::en = "",
 IGUI_BusStop_tip_dynamic::ja::processed::unverified = "料金 = (基本料金 + 距離 × 距離単価) × 倍率。移動距離に応じて変動します。",
-IGUI_BusStop_tip_fixed::en = "Price = Base Price x multiplier.
-Ignores distance.",
+IGUI_BusStop_tip_fixed::en = "",
 IGUI_BusStop_tip_fixed::ja::processed::unverified = "料金 = 基本料金 × 倍率。距離は無視されます。",
-IGUI_BusStop_tip_free::en = "Travel to this stop is always
-free, ignoring distance and multiplier.",
+IGUI_BusStop_tip_free::en = "",
 IGUI_BusStop_tip_free::ja::processed::unverified = "この停留所への移動は常に無料で、距離と倍率は無視されます。",
-IGUI_BusStop_tip_goto::en = "Teleport yourself to
-this stop's location.",
+IGUI_BusStop_tip_goto::en = "",
 IGUI_BusStop_tip_goto::ja::processed::unverified = "自分をこの停留所の場所にテレポートします。",
-IGUI_BusStop_tip_mult::en = "Multiplies the final fare.
-1.0 = standard | 0.5 = half | 2.0 = double",
+IGUI_BusStop_tip_mult::en = "",
 IGUI_BusStop_tip_mult::ja::processed::unverified = "最終運賃を乗算します。1.0 = 標準 | 0.5 = 半額 | 2.0 = 倍額",
-IGUI_BusStop_tip_name::en = "Name shown to players in the
-travel UI and on the map.",
+IGUI_BusStop_tip_name::en = "",
 IGUI_BusStop_tip_name::ja::processed::unverified = "移動UIとマップ上でプレイヤーに表示される名前です。",
-IGUI_BusStop_tip_rr_no::en = "No return trip is granted
-for this stop.",
+IGUI_BusStop_tip_rr_no::en = "",
 IGUI_BusStop_tip_rr_no::ja::processed::unverified = "この停留所では復路チケットは付与されません。",
-IGUI_BusStop_tip_rr_yes::en = "Players who travel TO this stop get
-a free return trip valid for 1 in-game day.",
+IGUI_BusStop_tip_rr_yes::en = "",
 IGUI_BusStop_tip_rr_yes::ja::processed::unverified = "この停留所に移動したプレイヤーは、ゲーム内1日有効の無料復路チケットを取得します。",
 IGUI_BusStop_tip_save::en = "Save all field changes to the server.",
 IGUI_BusStop_tip_save::ja::processed::unverified = "すべてのフィールド変更をサーバーに保存します。",

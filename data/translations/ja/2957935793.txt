@@ -1,3 +1,5 @@
+AVCS.ClaimOrb::en = "Mysterious Vehicle Claim Orb",
+AVCS.ClaimOrb::ja::processed::unverified = "神秘的な車両クレームオーブ",
 ContextMenu_AVCS_AdminUserUI::en = "Admin Vehicles Manager",
 ContextMenu_AVCS_AdminUserUI::ja::processed::unverified = "管理車両マネージャー",
 ContextMenu_AVCS_ClaimVehicle::en = "Claim Vehicle",
@@ -89,7 +91,6 @@ ItemName_AVCS.ClaimOrb::ja::processed::unverified = "神秘的な車両クレー
 ItemName_Base.AVCSClaimOrb::en = "Mysterious Vehicle Claim Orb",
 ItemName_Base.AVCSClaimOrb::ja::processed::unverified = "神秘的な車両クレームオーブ",
 Recipe_Craft_Mysterious_Vehicle_Claim_Orb::en = "",
-Recipe_Craft_Mysterious_Vehicle_Claim_Orb::ja::processed::unverified = "",
 Sandbox_AVCS::en = "Another Vehicle Claim System",
 Sandbox_AVCS::ja::processed::unverified = "アナザービークルクレームシステム",
 Sandbox_AVCS_AllowFaction::en = "Allow Same Faction",

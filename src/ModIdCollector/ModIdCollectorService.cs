@@ -47,6 +47,8 @@ public class ModIdCollectorService
                 Console.WriteLine($"  Collected {asOneModInfos.Count} mod IDs from AsOne.");
                 foreach (var (modId, info) in asOneModInfos)
                 {
+                    if (PipelineExclusions.IsExcluded(modId))
+                        continue;
                     if (modInfoDict.ContainsKey(modId))
                         continue;
                     modInfoDict[modId] = info;
@@ -66,6 +68,7 @@ public class ModIdCollectorService
                 .Select(ParseLocalModId)
                 .Where(id => id != null)
                 .Select(id => id!)
+                .Where(id => !PipelineExclusions.IsExcluded(id))
                 .Distinct()
                 .ToList();
             Console.WriteLine($"  Collected {localIds.Count} mod IDs from request_for_translation.txt.");

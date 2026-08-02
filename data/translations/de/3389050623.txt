@@ -6,31 +6,13 @@ Sandbox_AmmoLootDropVanillaCarton::en = "Zombies Drop Ammo Carton",
 Sandbox_AmmoLootDropVanillaCarton::de::processed::unverified = "Zombies lassen Munitionskartons fallen",
 Sandbox_VanillaBoxDropRate::en = "Ammo Box Drop Rate",
 Sandbox_VanillaBoxDropRate::de::processed::unverified = "Munitionskisten-Fallrate",
-Sandbox_VanillaBoxDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 box types.
-Default 0.5 is about one box
-every 20 to 25 corpses.
-A box holds 20 to 50 rounds,
-so small values go a long way.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaBoxDropRate_tooltip::en = "",
 Sandbox_VanillaBoxDropRate_tooltip::de::processed::unverified = "Chance in Prozent pro Zombie für jeden der 9 Kisten-Typen. Standard 0,5 bedeutet etwa eine Kiste alle 20 bis 25 Leichen. Eine Kiste enthält 20 bis 50 Patronen, also reichen kleine Werte weit. Auf 0 setzen, um den Drop zu deaktivieren.",
 Sandbox_VanillaCartonDropRate::en = "Ammo Carton Drop Rate",
 Sandbox_VanillaCartonDropRate::de::processed::unverified = "Munitionskarton-Fallrate",
-Sandbox_VanillaCartonDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 carton types.
-Default 0.05 is about one carton
-every 200 corpses.
-A carton is 12 boxes, so even
-a rate of 1 makes them common.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaCartonDropRate_tooltip::en = "",
 Sandbox_VanillaCartonDropRate_tooltip::de::processed::unverified = "Chance in Prozent pro Zombie für jeden der 9 Kartontypen. Standard 0,05 bedeutet etwa einen Karton alle 200 Leichen. Ein Karton enthält 12 Kisten, selbst ein Wert von 1 macht sie häufig. Auf 0 setzen, um den Drop zu deaktivieren.",
 Sandbox_VanillaDropRate::en = "Ammo Drop Rate",
 Sandbox_VanillaDropRate::de::processed::unverified = "Munitions-Fallrate",
-Sandbox_VanillaDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 round types.
-Default 5 leaves ammo on about
-a third of all corpses.
-All 9 types roll separately, so 20
-already covers nearly every zombie.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaDropRate_tooltip::en = "",
 Sandbox_VanillaDropRate_tooltip::de::processed::unverified = "Chance in Prozent pro Zombie für jeden der 9 Patronentypen. Standard 5 hinterlässt bei etwa einem Drittel aller Leichen Munition. Alle 9 Typen werden separat gewürfelt, daher deckt 20 fast jeden Zombie ab. Auf 0 setzen, um den Drop zu deaktivieren.",

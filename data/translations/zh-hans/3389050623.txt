@@ -6,31 +6,13 @@ Sandbox_AmmoLootDropVanillaCarton::en = "Zombies Drop Ammo Carton",
 Sandbox_AmmoLootDropVanillaCarton::zh-hans::processed::unverified = "僵尸掉落弹药箱",
 Sandbox_VanillaBoxDropRate::en = "Ammo Box Drop Rate",
 Sandbox_VanillaBoxDropRate::zh-hans::processed::unverified = "弹药盒掉落率",
-Sandbox_VanillaBoxDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 box types.
-Default 0.5 is about one box
-every 20 to 25 corpses.
-A box holds 20 to 50 rounds,
-so small values go a long way.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaBoxDropRate_tooltip::en = "",
 Sandbox_VanillaBoxDropRate_tooltip::zh-hans::processed::unverified = "每个僵尸, 对9种盒装类型中的每一种, 均有按百分比计算的掉落几率. 默认0.5约等于每20到25具尸体掉落一盒. 每盒装有20到50发子弹, 所以小数值也能发挥大作用. 设为0可关闭掉落.",
 Sandbox_VanillaCartonDropRate::en = "Ammo Carton Drop Rate",
 Sandbox_VanillaCartonDropRate::zh-hans::processed::unverified = "弹药箱掉落率",
-Sandbox_VanillaCartonDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 carton types.
-Default 0.05 is about one carton
-every 200 corpses.
-A carton is 12 boxes, so even
-a rate of 1 makes them common.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaCartonDropRate_tooltip::en = "",
 Sandbox_VanillaCartonDropRate_tooltip::zh-hans::processed::unverified = "每个僵尸, 对9种箱装类型中的每一种, 掉落几率以百分比计算. 默认0.05约等于每200具尸体掉落一箱. 一箱等于12盒, 所以即使1%的掉率也会让它们变得常见. 设为0可关闭掉落.",
 Sandbox_VanillaDropRate::en = "Ammo Drop Rate",
 Sandbox_VanillaDropRate::zh-hans::processed::unverified = "弹药掉落率",
-Sandbox_VanillaDropRate_tooltip::en = "Chance in percent, per zombie,
-for each of the 9 round types.
-Default 5 leaves ammo on about
-a third of all corpses.
-All 9 types roll separately, so 20
-already covers nearly every zombie.
-Set to 0 to turn the drop off.",
+Sandbox_VanillaDropRate_tooltip::en = "",
 Sandbox_VanillaDropRate_tooltip::zh-hans::processed::unverified = "每个僵尸, 对9种子弹类型中的每一种, 掉落几率以百分比计算. 默认5%的掉率会让大约三分之一的尸体掉落子弹. 9种类型各自独立判定, 所以20%的掉率已能覆盖几乎每个僵尸. 设为0可关闭掉落.",

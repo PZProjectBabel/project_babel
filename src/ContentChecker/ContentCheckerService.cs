@@ -172,8 +172,9 @@ public class ContentCheckerService
 
     private bool NeedsContentReview(ModInfo modInfo, DateTime nowUtc)
     {
-        // Rule 2: UNKNOWN (delisted / Steam removed) — freeze, never re-review.
-        if (modInfo.contentCheckStatus == ContentCheckStatus.UNKNOWN)
+        // Rule 2: UNKNOWN + unavailable (delisted / Steam removed) — freeze, never re-review.
+        // Available mods with UNKNOWN status are newly added and never content-checked → review them.
+        if (modInfo.contentCheckStatus == ContentCheckStatus.UNKNOWN && !modInfo.isAvailable)
             return false;
 
         // NEEDVERIFICATION always triggers re-review.

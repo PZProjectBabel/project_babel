@@ -89,11 +89,7 @@ UI_rvdebug_not_inside::en = "You are not inside an RV interior.",
 UI_rvdebug_num::en = "Show this vehicle's assigned interior.",
 UI_rvdebug_reset::en = "Make this vehicle's current interior available again.",
 UI_rvdebug_reset_all::en = "Reset ALL RV interiors (global).",
-UI_rvdebug_reset_confirm::en = "This will remove the existing interior assignment from this vehicle, so the next time someone enters its interior they will go to a random available interior instead.
-
-It will also make the interior (in its current state) available to be discovered by players entering this vehicle type in future.
-
-Proceed?",
+UI_rvdebug_reset_all_confirm::en = "",
 UI_rvdebug_sit::en = "Sit in (or stand by) the vehicle to debug.",
 UI_rvdebug_teleport_dialog::en = "Select the interior number to teleport to.",
 UI_rvdebug_teleport_vehicle::en = "Teleport to a vehicle assigned to an interior.",
