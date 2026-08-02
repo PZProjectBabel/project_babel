@@ -35,6 +35,7 @@ public class FinalOutputWriterService
         List<LangInfoData> outputLanguages)
     {
         LoadBaseGameKeys();
+        EnsureAnimationScanDirectories();
 
         var refModIdSet = refModInfoDict.Keys.ToHashSet(StringComparer.Ordinal);
         int totalFiles = 0;
@@ -96,6 +97,16 @@ public class FinalOutputWriterService
 
         Console.WriteLine($"  Final output done: {totalFiles} files, {totalEntries} entries across {outputLanguages.Count} languages");
         return Task.FromResult(new TaskResult { isSuccess = true });
+    }
+
+    private void EnsureAnimationScanDirectories()
+    {
+        foreach (var versionDir in new[] { "common", "42", "42.20" })
+        {
+            var mediaDir = Path.Combine(_finalOutputBase, versionDir, "media");
+            Directory.CreateDirectory(Path.Combine(mediaDir, "AnimSets"));
+            Directory.CreateDirectory(Path.Combine(mediaDir, "actiongroups"));
+        }
     }
 
     private void LoadBaseGameKeys()
