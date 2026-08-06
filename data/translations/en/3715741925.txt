@@ -1,5 +1,5 @@
 Sandbox_DynamicObjectives::en = "Dynamic Objectives",
-Sandbox_DynamicObjectives.EscortIncidentChancePercent::en = "Escort Extra Chance (%)",
+Sandbox_DynamicObjectives.EscortIncidentChancePercent::en = "Escort Extra Chance (%%)",
 Sandbox_DynamicObjectives.EscortIncidentChancePercent_tooltip::en = "After the minimum escort incident floor is satisfied, this percent chance adds one extra pending escort incident when eligible traders exist.",
 Sandbox_DynamicObjectives.MinimumEscortIncidents::en = "Minimum Escort Incidents",
 Sandbox_DynamicObjectives.MinimumEscortIncidents_tooltip::en = "Guarantees at least this many pending escort incidents when eligible traders and rescue sites exist. If the floor cannot be met, debug logs explain why.",
@@ -19,5 +19,5 @@ Sandbox_DynamicObjectives.QuestRewardPoolMedicine::en = "Quest Rewards: Medicine
 Sandbox_DynamicObjectives.QuestRewardPoolMedicine_tooltip::en = "Allows Dynamic Objectives procedural quest rewards to include medicine and medical-tool items from the Dynamic Trading item registry.",
 Sandbox_DynamicObjectives.QuestRewardPoolWeapons::en = "Quest Rewards: Weapons",
 Sandbox_DynamicObjectives.QuestRewardPoolWeapons_tooltip::en = "Allows Dynamic Objectives procedural quest rewards to include weapon items from the Dynamic Trading item registry.",
-Sandbox_DynamicObjectives.RestingContractChancePercent::en = "Resting Contract Extra Chance (%)",
+Sandbox_DynamicObjectives.RestingContractChancePercent::en = "Resting Contract Extra Chance (%%)",
 Sandbox_DynamicObjectives.RestingContractChancePercent_tooltip::en = "After the minimum resting quest family floor is satisfied, each remaining resting contract family gets this percent chance to appear as another available job.",

@@ -73,5 +73,5 @@ UI_options_SMP_LethalStealth_ShowHud_tooltip::en = "Choose if you want to see th
 UI_options_SMP_LethalStealth_ShowHud_tooltip::fr::processed::unverified = "Choisissez si vous voulez voir le HUD de posture. <LINE>Recommandé : <RGB:0,1,0> <SPACE>[Activé]",
 UI_options_SMP_LethalStealth_TransparencyHud::en = "Transparency of the Posture Hud (percent)",
 UI_options_SMP_LethalStealth_TransparencyHud::fr::processed::unverified = "Transparence du HUD de posture (pourcentage)",
-UI_options_SMP_LethalStealth_TransparencyHud_tooltip::en = "A higher value will increase the Hud transparency. <LINE>Recommended: <RGB:0,1,0> <SPACE>[35%]",
-UI_options_SMP_LethalStealth_TransparencyHud_tooltip::fr::processed::unverified = "Une valeur plus élevée augmentera la transparence du HUD. <LINE>Recommandé : <RGB:0,1,0> <SPACE>[35%]",
+UI_options_SMP_LethalStealth_TransparencyHud_tooltip::en = "A higher value will increase the Hud transparency. <LINE>Recommended: <RGB:0,1,0> <SPACE>[35%%]",
+UI_options_SMP_LethalStealth_TransparencyHud_tooltip::fr::processed::unverified = "Une valeur plus élevée augmentera la transparence du HUD. <LINE>Recommandé : <RGB:0,1,0> <SPACE>[35%%]",

@@ -108,7 +108,11 @@ public class EmbeddingFetcherService
         var warningCount = 0;
         var failedEntries = new List<object>();
 
-        using var ownedClient = _httpClient == null ? new HttpClient() : null;
+        // Local embedding service traffic must never be routed through a system proxy
+        // (Windows system proxy settings can otherwise intercept localhost requests).
+        using var ownedClient = _httpClient == null
+            ? new HttpClient(new SocketsHttpHandler { UseProxy = false })
+            : null;
         var client = _httpClient ?? ownedClient!;
         if (ownedClient != null)
             client.Timeout = TimeSpan.FromSeconds(RequestTimeoutSeconds);

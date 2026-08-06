@@ -90,7 +90,7 @@ Sandbox_DecayVehicle_RustShelteredMultiplier_tooltip::en = "How much slower rust
 Sandbox_DecayVehicle_SunFadeEnabled::en = "Sun Fade Paint Enabled",
 Sandbox_DecayVehicle_SunFadeEnabled_tooltip::en = "If enabled, vehicles left exposed to the sun will gradually lose paint saturation due to UV damage (simulating 80s/90s paint).",
 Sandbox_DecayVehicle_SunFadeMinSaturation::en = "Minimum Sun Fade Saturation",
-Sandbox_DecayVehicle_SunFadeMinSaturation_tooltip::en = "The lowest color saturation limit (0.0 to 1.0) the vehicle paint can reach from sun fading. (Default: 0.50 = 50% saturation).",
+Sandbox_DecayVehicle_SunFadeMinSaturation_tooltip::en = "The lowest color saturation limit (0.0 to 1.0) the vehicle paint can reach from sun fading. (Default: 0.50 = 50%% saturation).",
 Sandbox_DecayVehicle_SunFadeRate::en = "Sun Fade Rate Multiplier",
 Sandbox_DecayVehicle_SunFadeRate_tooltip::en = "Adjusts how quickly the vehicle paint fades over time. 1.0 simulates realistic fading over 10-15 years.",
 Sandbox_DecayVehicle_TallGrassRustEnabled::en = "Tall Grass Rust Penalty",

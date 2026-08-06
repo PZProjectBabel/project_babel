@@ -3,14 +3,46 @@
     "mod_id": "3774499542",
     "translation_key": "ContextMenu_FillTorchFromStorageTank",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0696236Z",
-    "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
-    "source_hash": "53c4a86ec4a4099ded9f2647a889c746"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "f2f39b91203b4319cd6a0d39dfe5b613"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "ContextMenu_LPS_NeedsHose",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "20a11e8d04de6886c95eb6b931316771"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "ContextMenu_LPS_PropaneRemaining",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "529dd1fb8cb786f1b0dc472afe762554"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "ContextMenu_LPS_PropaneUnknown",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "fe3d63939b608c5d43fdab845b980d93"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "ContextMenu_LPS_TankEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "c28a7358091f2313c564f3857e9270a1"
   },
   {
     "mod_id": "3774499542",
     "translation_key": "ContextMenu_THP_PropaneRemaining",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696246Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "a45da0f2b139d9dd64fe493b06f883c9"
@@ -18,7 +50,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "ContextMenu_THP_PropaneUnknown",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696250Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "38534fd44e8ba0d0a1f5de7ba3002ad8"
@@ -26,7 +58,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "ContextMenu_THP_TankEmpty",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696253Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "5140ced6491849006e09392ba9060dd6"
@@ -35,22 +67,166 @@
     "mod_id": "3774499542",
     "translation_key": "ContextMenu_TakePropaneFromStorageTank",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0696257Z",
-    "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
-    "source_hash": "873ada3b15dbeced97b9ca58cb6575cb"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "d5ef7d244707bea65588df16fedbe172"
   },
   {
     "mod_id": "3774499542",
     "translation_key": "ContextMenu_TakePropaneFromTank",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0696261Z",
-    "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
-    "source_hash": "eed2e5b13eba39571253d969022a16a7"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "a0e8885b3181bef18f80be000fa6b32f"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "MakePropaneTank",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "fe43df0ce420abf005846cfaa7a98f42"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "9a232406f3926948fd2fa667d7672f15"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_AllowGasPumps",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "fe6a028dbb9d18e900af90c4b389d623"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_AllowGasPumps_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "c0b061ad96e6532e10bbb728a008d6cc"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_AllowSmallIndustrialTanks",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "a5fc79728ee49487012c0974df2b11bf"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_AllowSmallIndustrialTanks_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "4e5d8cb47259a404da0dc5556395c204"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_LargeTankCapacity",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "66a9eb3a59732039a46ce674eeb5e8de"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_LargeTankCapacity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "331c8d71b62e0ea8dab4089440f97b29"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_MaxFillPercent",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "1aba97eece749fbe2eb0b4114f5fa116"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_MaxFillPercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "5a5d86744c9e65642094139e1d4e83ab"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_MinFillPercent",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "f7b4cd3855ea6a2c72cdd007a0810cb4"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_MinFillPercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "5b14324d42539adf44c2265b3f6ca4ed"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_RequireHose",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "102893a9fc02cae6d4928c0c0c2563c0"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_RequireHose_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "8b568e4f71bd5c7ccc1c250d5b5da96a"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_SearchRadius",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "6e695098d89a5319d8f6154965cb483e"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_SearchRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "df52cfe45b49d5f91e9af998714a8915"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_SmallTankCapacity",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "4c837b6fe8f03b8d05d5ac6bcdc186e3"
+  },
+  {
+    "mod_id": "3774499542",
+    "translation_key": "Sandbox_LimitedPropaneSupply_SmallTankCapacity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-04T12:16:36.0000000Z",
+    "source_hash": "710a4247a12d87ac70db8288a4fe4bca"
   },
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696264Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "c2e2f9e2a74d7a9af561426823ab7e5b"
@@ -58,7 +234,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_AllowGasPumps",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696268Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "8a952ad8d3a603a21126917eb1e7d8f2"
@@ -66,7 +242,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_AllowGasPumps_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696273Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "d9654773fe86b5c44c50c2ee4bc540bf"
@@ -74,7 +250,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_AllowSmallIndustrialTanks",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696277Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "4d1790346b2396b9b67e13f041af9a60"
@@ -82,7 +258,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_AllowSmallIndustrialTanks_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696281Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "ae304d46b12cd01ac9afa1e184ea42c5"
@@ -90,7 +266,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_LargeTankCapacity",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696285Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "0bc6b67e48551934057a0d9d97689e7d"
@@ -98,7 +274,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_LargeTankCapacity_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696289Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "4ec675ccd4123ee30f7a1a7fcaa345c5"
@@ -106,15 +282,15 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_MaxFillPercent",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696293Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
-    "source_hash": "dafcc4989777186d9ccde3ffd928f750"
+    "source_hash": "3bead0f76982fa7e76100ad828bd5eff"
   },
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_MaxFillPercent_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696298Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "df00f2ac37d8d79673f1b10e07a45a0d"
@@ -122,15 +298,15 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_MinFillPercent",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696302Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
-    "source_hash": "07fcca3c07a1380e64921364d265b9db"
+    "source_hash": "8a87f0373cd761d454b9e03869989032"
   },
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_MinFillPercent_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696309Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "5b7d94afcf47f3e9558f4f982977c7c2"
@@ -138,7 +314,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_SearchRadius",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696313Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "9d32a63206e0bb1dc342690bcca1ae30"
@@ -146,7 +322,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_SearchRadius_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696318Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "9ce703f9185aeec30ba174f12e3341fe"
@@ -154,7 +330,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_SmallTankCapacity",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696321Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "02a3d4dacd043a3a55011b4343e67d8d"
@@ -162,7 +338,7 @@
   {
     "mod_id": "3774499542",
     "translation_key": "Sandbox_TanksHavePropane_SmallTankCapacity_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:23.0696325Z",
     "last_seen_mod_updated": "2026-08-02T17:58:08.0000000Z",
     "source_hash": "ef3090a2187ce67520ecbd15b882dde9"

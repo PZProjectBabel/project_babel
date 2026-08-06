@@ -1,138 +1,218 @@
 [
   {
     "mod_id": "3772415251",
+    "translation_key": "IGUI_VM_AddEngineCoolant",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
+    "source_hash": "1d017d77f98bd14efe97192d6021cf23"
+  },
+  {
+    "mod_id": "3772415251",
+    "translation_key": "IGUI_VM_AddMotorOil",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
+    "source_hash": "59ae6d94d54ff138dd7bb71adea70554"
+  },
+  {
+    "mod_id": "3772415251",
+    "translation_key": "IGUI_VM_AddWaterEmergency",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
+    "source_hash": "1352f7c1deff7bfe56f1a531b7025a91"
+  },
+  {
+    "mod_id": "3772415251",
+    "translation_key": "IGUI_VM_CheckEngineOil",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
+    "source_hash": "e623f9a92af30c1ebbfef140dd14ff0b"
+  },
+  {
+    "mod_id": "3772415251",
+    "translation_key": "IGUI_VM_DrainEngineOil",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
+    "source_hash": "30c5c6721615655a00354c89c67504b2"
+  },
+  {
+    "mod_id": "3772415251",
+    "translation_key": "IGUI_VM_RepairAlternator",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
+    "source_hash": "cdcf21cab23db5faedcb8e404b27f48e"
+  },
+  {
+    "mod_id": "3772415251",
+    "translation_key": "IGUI_VM_RepairGearbox",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
+    "source_hash": "ce95886441f9e4fe7b9a088e0f17582f"
+  },
+  {
+    "mod_id": "3772415251",
+    "translation_key": "IGUI_VM_RepairRadiator",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
+    "source_hash": "3e56185c75ba8261b0947ffaaa68864a"
+  },
+  {
+    "mod_id": "3772415251",
+    "translation_key": "IGUI_VM_ReplaceBelt",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
+    "source_hash": "d57460af4ce24482df7c9153b3c4d380"
+  },
+  {
+    "mod_id": "3772415251",
+    "translation_key": "IGUI_VM_SiphonRadiatorCoolant",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
+    "source_hash": "629e51604a40b9de94b08c158730f6d1"
+  },
+  {
+    "mod_id": "3772415251",
     "translation_key": "Sandbox_VehicleMaintenance",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687271Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342444Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "e2b2587abc33070c92844d97daa540e1"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Sandbox_VehicleMaintenance_AlternatorWearRate",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687282Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342455Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "88b3d052ac856364582c70bce5be1ec6"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Sandbox_VehicleMaintenance_AlternatorWearRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687289Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342460Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "a907f0f80ab40e61988f68dce618ca6f"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Sandbox_VehicleMaintenance_BeltWearRate",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687295Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342463Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "50cdbe99bc75a574541b1faa5402f5af"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Sandbox_VehicleMaintenance_BeltWearRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687300Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342467Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "acf369836fea7e212869d82edce821e0"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Sandbox_VehicleMaintenance_CoolantLeakRate",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687304Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342473Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "cc2f7aeba09426aa06f79b2354310dab"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Sandbox_VehicleMaintenance_CoolantLeakRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687310Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342478Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "8f044521a78848c0269103fa91f126f1"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Sandbox_VehicleMaintenance_GearboxWearRate",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687314Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342483Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "3a9e4f2a95ef9e56943f4355860e5637"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Sandbox_VehicleMaintenance_GearboxWearRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687319Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342491Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "9aceb9522f54ca5bcf2ab2d9e805db89"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Sandbox_VehicleMaintenance_OilWearRate",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687322Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342495Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "89016989a8eed31c422300b1a2f44334"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Sandbox_VehicleMaintenance_OilWearRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687329Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
-    "source_hash": "a4cacb5e1220448fddea288ab241de6f"
+    "last_seen_at": "2026-08-05T23:41:19.1342499Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
+    "source_hash": "086646ff97c8d8f7777c0615e2292639"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Tooltip_AlternatorItem",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687334Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342503Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "e939bf61515205c1d9f1bcc321ff9b90"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Tooltip_CoolantBottle",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687340Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342506Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "776dd6ed4dde4c8da6877a84f4f988b0"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Tooltip_GearboxItem",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687343Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342510Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "67ba60e8e84324355e8e0b08b845efbc"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Tooltip_MotorOil",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687346Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342514Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "3720dbd20199f056d15fce2cf7b6c59d"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Tooltip_TransmissionBelt",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687349Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342517Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "b0332c5402da9b401995881ef1d958c3"
   },
   {
     "mod_id": "3772415251",
     "translation_key": "Tooltip_VehicleRadiator",
     "is_active": true,
-    "last_seen_at": "2026-08-02T18:54:23.0687354Z",
-    "last_seen_mod_updated": "2026-08-02T18:30:21.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1342520Z",
+    "last_seen_mod_updated": "2026-08-05T20:38:56.0000000Z",
     "source_hash": "3523d14be27f6919e53e35b9fdc71b11"
   }
 ]

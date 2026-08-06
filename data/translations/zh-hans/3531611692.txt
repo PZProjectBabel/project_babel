@@ -73,5 +73,5 @@ UI_options_SMP_LethalStealth_ShowHud_tooltip::en = "Choose if you want to see th
 UI_options_SMP_LethalStealth_ShowHud_tooltip::zh-hans::processed::unverified = "选择是否显示姿态HUD. <LINE>推荐: <RGB:0,1,0> <SPACE>[启用]",
 UI_options_SMP_LethalStealth_TransparencyHud::en = "Transparency of the Posture Hud (percent)",
 UI_options_SMP_LethalStealth_TransparencyHud::zh-hans::processed::unverified = "姿态HUD透明度 (百分比)",
-UI_options_SMP_LethalStealth_TransparencyHud_tooltip::en = "A higher value will increase the Hud transparency. <LINE>Recommended: <RGB:0,1,0> <SPACE>[35%]",
-UI_options_SMP_LethalStealth_TransparencyHud_tooltip::zh-hans::processed::unverified = "更高的值将增大HUD透明度. <LINE>推荐: <RGB:0,1,0> <SPACE>[35%]",
+UI_options_SMP_LethalStealth_TransparencyHud_tooltip::en = "A higher value will increase the Hud transparency. <LINE>Recommended: <RGB:0,1,0> <SPACE>[35%%]",
+UI_options_SMP_LethalStealth_TransparencyHud_tooltip::zh-hans::processed::unverified = "更高的值将增大HUD透明度. <LINE>推荐: <RGB:0,1,0> <SPACE>[35%%]",

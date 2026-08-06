@@ -1,0 +1,1026 @@
+[
+  {
+    "mod_id": "3776795836",
+    "translation_key": "Base.RR_DieselCan",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "66e9033adc7a30a9093565d3dab94511"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "Base.RR_EngineerNotebook",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "590e806f4711c42968f6638da39715c8"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "Fluid_Name_Diesel",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "fa714f8d777c7ea66ceb581511ff6973"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_BatteryFlat",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "26dbed687b981c3c87fb034d11240fc1"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_CabLightOff",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "407f80e24c41ef40c411154714f5b036"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_CabLightOn",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "15a991c9363fb012d0808cd234e0f11a"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Cooling",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "22e64383790676c27963ba2594338dc3"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotBattFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "68d2c2ce152b3be385c37aaaa74487b3"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotCanFilled",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "db1b5b400efcbebb9418608a8f42b4d2"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotCharge",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "3ffe586d27103fbc127514b7844f7b41"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotCharged",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "52949dbf088d96ee9768df7e8dabd4a4"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotDry",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "db52c364d1307f5cc28d2cd6332dcaff"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotFillCan",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "7b8400e8fdea031029ddfb3ae2c94d71"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotNoContainer",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "4dc39179e46f9e4121920190855e4467"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotNoLoco",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "81de915e186030773f74ad97475b9c20"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotNoPower",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "69812fa50240a086c0c6a7e379ea6023"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotRefuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "3a12dc5d3b4be7093dd33afa1aab6f69"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotRefuelled",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "82e8b004949b64857d8a9c3e6fe9e20e"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DepotTankFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "4f079b080962f3361954d65682cd8fa2"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Derailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "321235f2d36438bdef98863485f1e05c"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DieselLocoEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "9af60afcf9cf2ebf2524b4566d4067cc"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DieselNeedCan",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "0b8b4260853eaebe20ba5b7f32b222a6"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DieselNeedHose",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "9fb4011146a5dee0b0565d214927a563"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DieselNoCan",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "9ebdd7e12108d27322a46214cf2e5410"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DieselNoLoco",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "918aaf3a3adffa388cdf46c83566aa45"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DieselNoRoom",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "1fbb237ca36c2ed4da24dc2b71b8a8d8"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DieselPourOption",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "7387ffe1d5098177907c7677bfd864fb"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DieselPoured",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "13d1ef4c79201622846c648d7d6d9d0b"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_DieselSiphonOption",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "b081530fa9aebbcb05caf62bfc9cb93d"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HeadlightBright",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "d64fe86dcc980dcf964175b47565602a"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HeadlightDim",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "fa963b1c3a3d6ff25970eaeeb92981f5"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HeadlightNoPower",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "c42075ca0f8185c476239c936ec36114"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HeadlightOff",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "eb72c0186f6c3f80f47badfc053a531f"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HintReverser",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "e4a9756d60c217472571faf41542e2ea"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HintStart",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "6f2dd37645c6e6e4518f1722da4734ee"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HintStop",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "42dbd654d03b84a77ae32a1a297543fe"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HintThrottle",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "b7ddd48c70d16f4464b4b3d08e940242"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudCrank",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "990c5d7857aa96a6f06577dc8ef95c2c"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudDead",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "383de4964aa0722ce6ceac1c64d963ea"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudIdle",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "9c5641261051d3a6be258ee166a12742"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudLampBatt",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "fc668aa6cd7ad74a42e77c3c107e766a"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudLampCab",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "5947aa406ac55734481bef45e6cbd80f"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudLampCond",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "c87a74460e91d15c4452b409d263d6ce"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudLampGen",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "db6d6f5602405cb30c076f7a819223f6"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudLampHead",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "1d75e0444d93aefc44bdf565c50637cd"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudModeCompact",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "5fafa2ebf83ac41d77515bfde8b3ad95"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudModeFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "2f8ba8de107c86507d67bde14ef6362a"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudModeOff",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "9a4ff85d4e34061f1ca142aa833570cd"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudPrime",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "bd5ef7beecf7f3993eb7ac55946d75be"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudRange",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "326df9e056274fe05e66953feb5ac29c"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudRevF",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "1da093b1a8c531203cbd56cb30c124fd"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudRevN",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "56a339ba94b51e12cd5600c640b78418"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudRevR",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "d3aba133772bc1aadbdcade17f2e6390"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudReverser",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "f7e2380039e6cb041d3f301b8db3a06e"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudRun",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "d9918da3fad154080fbd2ecdfa438353"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudStart",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "81e25f46c2d5f2c68fd07190d7ee90d0"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudStarter",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "38883543260817244ecd1169f488b651"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudThrottle",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "d475f8a6ed4bb01a4c0d28eb7993f52d"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_HudWarming",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "e777ba703d4b7a2c0e617cc6cbe8ac04"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_LeaveCab",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "76edfa0ff8beacdb4eae22a594f54506"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_LocoServiced",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "317711ad590744800a37a4404c964090"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_MPOff",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "17d93d8bfdb82d061cd0bdab1c2b65fa"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_NoAir",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "7259d7ab27c8095478df4a11bd6995d7"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_NoFastForward",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "8885cc883c8a7d5777b9a3d8bb611011"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_NoFuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "688112a4496b3a1f7aa3a0e4d4b0aee9"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_NoLicense",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "d75c8e9505832fc0de25f31d7dac671e"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_NoSleepMoving",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "08c37841aea539cea422ace7c3b63111"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Note_Derail",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "ecfd21abf62cd9ff2f661e8148a74a4b"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Note_Fuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "9613c49e41be943e025bf9ba0dea1ddb"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Note_Panel",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "f13de552bf8e13e0527f54a6a3a3c274"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Note_Place",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "c0522a5dcaf11a21b3a6f921bc22293d"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Note_Run",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "093a7252118dab71b945b8fdd5c376a3"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Note_Signals",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "f8cf1af9c455ed2d85bd6783cb401e6f"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Note_Start",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "305b9768c6303067d25710c33fbd8749"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Note_Track",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "c181657ea0172d9d80bb210b6d29d4c8"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_OutOfOrder",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "30944bd1bafb7b66ac752eb13cad9517"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Photo_Bar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "96360ed6e6511fc0b1624df1594b4a17"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Photo_Crew",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "bc7a054894905ce4e7c6c4ebb1254b55"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Photo_Crossing",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "17e859204925bd22796d77fee373842c"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Photo_Flagger",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "0a56b41cdaeb599782df0b8bf9033a22"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Photo_Nose",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "dc4c492f3dc54600ec69d520800fd414"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Photo_Shift",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "623e8da1a00aa7bc6f31e06d60449f49"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_Derailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "85740522b7a95eed0095321ace81de5d"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_DieselCan",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "ec1ca720e432f081ce5033929cb1a8cd"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_DriverSeat",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "a45facf3c5602e7dadb671412cf1776c"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_EmptyContainer",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "76a61df77f0022d324d663dcb8e7dc4e"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_LocoNotAtTank",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "e340e0578a12f59f50db538c3770d3da"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_LocoTooFar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "94deeb16b38c3f631ac9f6cdba47a2c4"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_NoLoco",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "a24a98e3a1626630e5dc87dc4042f533"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_NoProfession",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "b3f8b4643f8628b9c8cdd216d3849b74"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_NotAboard",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "fb3070850b14c212ebfbcea60983b45d"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_NotAdmin",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "b0c54d9d889e5de3cbee3995e3dfff50"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_NotDerailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "21e7e40eb1a5ee844fd0ce48e0bf5e23"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_RateLimit",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "5efa47dc0951f66d4b1bcef9f46ffa11"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_SeatsFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "17d5f4eea7c422da67229cea18653a9d"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_StopToLeave",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "7c3066c9d81ba6dee738b4fda808bcda"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_SwitchNotFound",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "121dcffacb36b3311367a7d871bfc82b"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_SwitchTooFar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "31b2803b619f65c42ad6795e10edcb8f"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_TankTooFar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "a3a40fe34e284a52ffb0b9a9f4c42438"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_TooFastBoard",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "3837ef255b2dbbfa4856a68b5758cf92"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_TooFastLeave",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "17171b37229e614bb37924d8199e512d"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_Transfer",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "6833ebc376ae54e9a7c3e1443bc0829b"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_Unknown",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "1a3cc7c751c8cc26fca56778405c9434"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_Wrench",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "5c04796bfcf6d21c44c41839f66c8dbc"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Reject_WrenchBroken",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "c0c20fbec811074e5bf4c6286ca5b2bb"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_RepairOption",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "a72b6ce15ec4cabd31a9786e8552f161"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Repaired",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "14c1ed8f897b4e915273e72991a4f7b4"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Rerail",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "2f9017c9dd1ddb727bcf46f9c554af7a"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_RerailFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "3b4d8a5c50be1295afc36b4bd87d6f90"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Rerailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "b43ba953e4fb603d3cb5520880616810"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_ReverserCentred",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "c1043fb90c2ca07c9855aecf1b0fd4d4"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_ReverserNeutral",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "426844a119629847a02c2ded7392d0c2"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_SleepEngineRunning",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "ba01b82b428ae6dd04d5bba515bf01d7"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_SleepInCab",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "bc1805e8712e85d5880d4eb8e7a26b17"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_SleepLightsOn",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "645925006495f9a03f3eb001c2e5af63"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Stalled",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "492d2419ce9e38be42a9d020ae18e51f"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_StartEngine",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "02026f0b3a3f08351585f861fbf2d555"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_StopEngine",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "9b45815579fb1ff9aef8f10cf9c078b0"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_StopEngineBusy",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "0418bcf666f2e263ce6bec25ab280ddc"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_Switch",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "d8b40d16466ee5452d0f896f36ffd1a2"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_SwitchDiverge",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "71bfbb07a55ef12f15b36edb7264c5de"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_SwitchMain",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "97ad2ce2ed809e1b252d8b751ebe4302"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_SwitchThrown",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "b47e91331829fdd7589ab4babfde645a"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "IGUI_RR_WrenchRequired",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "5acc5d2569a367f5afced07705832308"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "UI_prof_Railroader",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "7452245d5786ddf00f958d1c6147be59"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "UI_prof_RailroaderDesc",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "0ba22eeb9b4b4d481a6a927d554179f5"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "UI_trait_RRRailroader",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "dab9ebdbbe7250d5265b4fa95fcb4517"
+  },
+  {
+    "mod_id": "3776795836",
+    "translation_key": "UI_trait_RRRailroader_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T21:04:23.0000000Z",
+    "source_hash": "90292f0d49f949502b5bd57978fc07f7"
+  }
+]

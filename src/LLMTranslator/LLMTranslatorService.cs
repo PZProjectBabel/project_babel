@@ -1,4 +1,5 @@
 using Common;
+using PercentNormalizer;
 using System.Diagnostics;
 using System.Globalization;
 using System.Net;
@@ -1397,7 +1398,9 @@ public partial class LLMTranslatorService
     private void ApplyTargetWrite(LlmTargetWrite targetWrite)
     {
         var targetData = targetWrite.Entry.translationValues.GetValueOrDefault(targetWrite.TargetLang) ?? new TranslationData();
-        targetData.text = targetWrite.Text;
+        // Every text entering the translation database must be in the canonical
+        // PZ Build 42.20.1+ percent format.
+        targetData.text = PercentNormalizerService.Normalize(targetWrite.Text);
         targetData.confidence = targetWrite.Confidence;
         targetData.status = targetWrite.Status;
         targetData.isVerified = string.Equals(targetWrite.Status, "verified", StringComparison.OrdinalIgnoreCase);

@@ -25,6 +25,7 @@
     <ProjectReference Include="..\ModInfoFetcher\ModInfoFetcher.csproj" />
     <ProjectReference Include="..\ModDownloader\ModDownloader.csproj" />
     <ProjectReference Include="..\ContentExtractor\ContentExtractor.csproj" />
+    <ProjectReference Include="..\PercentNormalizer\PercentNormalizer.csproj" />
     <ProjectReference Include="..\TranslationBatcher\TranslationBatcher.csproj" />
     <ProjectReference Include="..\EmbeddingFetcher\EmbeddingFetcher.csproj" />
     <ProjectReference Include="..\RepoDataLoader\RepoDataLoader.csproj" />

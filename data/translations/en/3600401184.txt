@@ -92,7 +92,7 @@ Sandbox_RealisticCold_HypothermiaDamageIntervalMin_tooltip::en = "Minimum game-h
 Sandbox_RealisticCold_HypothermiaDamagePerTick::en = "Hypothermia - Damage Per Tick (HP)",
 Sandbox_RealisticCold_HypothermiaDamagePerTick_tooltip::en = "Health lost per hypothermia damage tick. 0.2 is the default.",
 Sandbox_RealisticCold_Indoor::en = "Realistic Cold - Buildings",
-Sandbox_RealisticCold_IndustrialHeaterSpawnRate::en = "Industrial Heater - Spawn Chance (%)",
+Sandbox_RealisticCold_IndustrialHeaterSpawnRate::en = "Industrial Heater - Spawn Chance (%%)",
 Sandbox_RealisticCold_IndustrialHeaterSpawnRate_tooltip::en = "Percent chance an industrial heater appears in large industrial buildings. Set to 0 to disable industrial-heater spawns entirely.",
 Sandbox_RealisticCold_InsulationSpreadBias::en = "Per-Body-Part Insulation Bias (default 0.30)",
 Sandbox_RealisticCold_InsulationSpreadBias_tooltip::en = "Controls how strongly uneven loadouts (e.g. parka + bare legs) deviate from the simple body-wide average. 0.0 = pure average (all parts treated equally); 1.0 = always pulled toward the weakest part in cold and the most-trapping part in heat. 0.30 is the recommended middle ground.",

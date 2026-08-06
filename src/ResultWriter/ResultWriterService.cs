@@ -301,7 +301,11 @@ public class ResultWriterService
 
     private static string Escape(string text)
     {
-        return text.Replace("\\", "\\\\").Replace("\"", "\\\"");
+        return text.Replace("\\", "\\\\")
+            .Replace("\"", "\\\"")
+            .Replace("\r", "\\r")
+            .Replace("\n", "\\n")
+            .Replace("\t", "\\t");
     }
 
     private static bool ShouldWriteEntry(TranslationEntry entry, string targetLang, string baseLang)

@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="../Common/Common.csproj" />
     <ProjectReference Include="..\ModDownloader\ModDownloader.csproj" />
+    <ProjectReference Include="..\PercentNormalizer\PercentNormalizer.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

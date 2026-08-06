@@ -1,6 +1,7 @@
 using Common;
 using System.Globalization;
 using System.Security.Cryptography;
+using System.Text;
 using System.Text.Json;
 
 namespace RepoDataLoader;
@@ -340,8 +341,9 @@ public class RepoDataLoaderService
     {
         line = line.TrimEnd();
         if (string.IsNullOrWhiteSpace(line)) return default;
-        // Find value: last = " ... ",
-        var eqIdx = line.LastIndexOf(" = \"", StringComparison.Ordinal);
+        // Find value: the FIRST ' = "' is the key/value separator. A value may itself
+        // contain ' = "', so scanning from the end would pick the wrong separator.
+        var eqIdx = line.IndexOf(" = \"", StringComparison.Ordinal);
         if (eqIdx < 0) return default;
         var head = line[..eqIdx];
         var valueStr = line[(eqIdx + 4)..]; // skip " = \""
@@ -502,7 +504,30 @@ public class RepoDataLoaderService
 
     private static string Unescape(string s)
     {
-        return s.Replace("\\\"", "\"").Replace("\\\\", "\\");
+        if (s.IndexOf('\\') < 0)
+            return s;
+
+        var sb = new StringBuilder(s.Length);
+        for (var i = 0; i < s.Length; i++)
+        {
+            var c = s[i];
+            if (c != '\\' || i + 1 >= s.Length)
+            {
+                sb.Append(c);
+                continue;
+            }
+
+            switch (s[i + 1])
+            {
+                case 'n': sb.Append('\n'); i++; break;
+                case 'r': sb.Append('\r'); i++; break;
+                case 't': sb.Append('\t'); i++; break;
+                case '"': sb.Append('"'); i++; break;
+                case '\\': sb.Append('\\'); i++; break;
+                default: sb.Append(c); break;
+            }
+        }
+        return sb.ToString();
     }
 
     /// <summary>Strips NUL bytes commonly found when UTF-16 LE data was read as UTF-8.</summary>

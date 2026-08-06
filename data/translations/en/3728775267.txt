@@ -48,7 +48,7 @@ Sandbox_BVD_LoadAffectsFuel_tooltip::en = "Carrying a heavy load burns extra fue
 Sandbox_BVD_LoadAffectsHandling::en = "Load affects handling",
 Sandbox_BVD_LoadAffectsHandling_tooltip::en = "A heavily loaded vehicle is slow to pull away from a stop, as if the engine is straining against the weight.",
 Sandbox_BVD_LoadMaxPenalty::en = "Max launch penalty when fully loaded",
-Sandbox_BVD_LoadMaxPenalty_tooltip::en = "Biggest drop in launch force for a fully loaded vehicle (0.50 = up to 50% less force from a stop). Fades out as the vehicle speeds up. Requires 'Load affects handling'.",
+Sandbox_BVD_LoadMaxPenalty_tooltip::en = "Biggest drop in launch force for a fully loaded vehicle (0.50 = up to 50%% less force from a stop). Fades out as the vehicle speeds up. Requires 'Load affects handling'.",
 Sandbox_BVD_LowSpeedGrunt::en = "Crawl-speed shove",
 Sandbox_BVD_LowSpeedGrunt_tooltip::en = "Extra pulling force available at very low wheel speed — the force used to push wrecks and shove through crowds. Lower it for a weaker, more cautious low-end.",
 Sandbox_BVD_Mode::en = "Tuning preset",

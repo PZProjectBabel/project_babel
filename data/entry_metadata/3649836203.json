@@ -2,15 +2,23 @@
   {
     "mod_id": "3649836203",
     "translation_key": "Vac19CastGoldBar",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-06-07T12:31:01.0000000Z",
     "source_hash": "a444cc1bf8614571b9401bd870350621"
   },
   {
     "mod_id": "3649836203",
-    "translation_key": "Vac19CastSilverBar",
+    "translation_key": "Vac19CastIngot",
     "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T13:26:43.0000000Z",
+    "source_hash": "7268f1539b78e88a04261106e6f24266"
+  },
+  {
+    "mod_id": "3649836203",
+    "translation_key": "Vac19CastSilverBar",
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-06-07T12:31:01.0000000Z",
     "source_hash": "1630e6f92e5c3a5fd0fe7ba875209e94"
@@ -19,40 +27,80 @@
     "mod_id": "3649836203",
     "translation_key": "Vac19MakeGoldPallet",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-06-07T12:31:01.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1155719Z",
+    "last_seen_mod_updated": "2026-08-05T13:26:43.0000000Z",
     "source_hash": "1a1678d54ea8394bc082f3854ef040b4"
+  },
+  {
+    "mod_id": "3649836203",
+    "translation_key": "Vac19ScrapGoldSilverSheet",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T13:26:43.0000000Z",
+    "source_hash": "2e905282ff7c0d22c115aeb8a4d35b36"
+  },
+  {
+    "mod_id": "3649836203",
+    "translation_key": "Vac19SmeltSmallGoldIngot",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T13:26:43.0000000Z",
+    "source_hash": "8219ff6b8f1e3afac6e8ecf7b4787d7a"
+  },
+  {
+    "mod_id": "3649836203",
+    "translation_key": "Vac19SmeltSmallSilverIngot",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T13:26:43.0000000Z",
+    "source_hash": "b990d335b0aca54a6356798e87edfa5c"
   },
   {
     "mod_id": "3649836203",
     "translation_key": "Vac19SmeltTinyGoldObject",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-06-07T12:31:01.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1155725Z",
+    "last_seen_mod_updated": "2026-08-05T13:26:43.0000000Z",
     "source_hash": "6cf37075b50e15095110b4dd274d1a98"
   },
   {
     "mod_id": "3649836203",
     "translation_key": "Vac19SmeltTinySilverObject",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-06-07T12:31:01.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1155729Z",
+    "last_seen_mod_updated": "2026-08-05T13:26:43.0000000Z",
     "source_hash": "1045efb19363559fc22bc08229d64c44"
+  },
+  {
+    "mod_id": "3649836203",
+    "translation_key": "VacMod19.CeramicCrucible_Copper",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T13:26:43.0000000Z",
+    "source_hash": "aab33b918f4cfb934fb4c00203097fe3"
   },
   {
     "mod_id": "3649836203",
     "translation_key": "VacMod19.CeramicCrucible_Gold",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-06-07T12:31:01.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1155732Z",
+    "last_seen_mod_updated": "2026-08-05T13:26:43.0000000Z",
     "source_hash": "3b5f365d89e525c86675077536f1ae8d"
   },
   {
     "mod_id": "3649836203",
     "translation_key": "VacMod19.CeramicCrucible_Silver",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-06-07T12:31:01.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.1155735Z",
+    "last_seen_mod_updated": "2026-08-05T13:26:43.0000000Z",
     "source_hash": "0623113665df5805b1206e5bed1ee941"
+  },
+  {
+    "mod_id": "3649836203",
+    "translation_key": "name",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T13:26:43.0000000Z",
+    "source_hash": "420ff333e148ba8b616603645968c0f0"
   }
 ]

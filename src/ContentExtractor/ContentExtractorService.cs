@@ -1,4 +1,5 @@
 using Common;
+using PercentNormalizer;
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
@@ -629,7 +630,7 @@ public class ContentExtractorService
         winners[winnerKey] = candidate;
         entry.translationValues[raw.IsoCode] = new TranslationData
         {
-            text = raw.Text,
+            text = PercentNormalizerService.Normalize(raw.Text),
             isVerified = false,
             status = "unverified",
             processStatus = string.Equals(raw.IsoCode, baseIso, StringComparison.OrdinalIgnoreCase) ? "processed" : "unprocessed",

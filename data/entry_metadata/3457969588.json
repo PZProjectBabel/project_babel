@@ -1,42 +1,506 @@
 [
   {
     "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Backpack_Radio_Tight",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "0f0afaec926d575657d4159448095874"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Balaclava",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "768032e092bc8ea271cb494f3ab0b134"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Boots",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "150256a195b2c86c447590067d910758"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Elbow_Pads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "b5917b38df124c3ca7aa0f75b198f44a"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_GasMask-M80",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "2badcd43ef4badae44bf88a8ebf4c9f1"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_GasMask-M80_NoFilter",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "572f35c787f50faf10b59e3199c6c19d"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Gloves",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "58780dc76364743061453871b105caa3"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Hat",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "6b18ab2b0bcfa6ae956ac73922ef2350"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Helmet",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "5d35baac06872836b326e4c7cd7a9cae"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Helmet_AM-95_VisorDown",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "77296c854524c2e55f991a9537356089"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Helmet_AM-95_VisorUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "27ba9e15ede67b9cf7c4ee95e86c5835"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Helmet_NoBelts",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "1bc94a97a1f1fc9d1d64690932a3379c"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Helmet_Patriot",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "c1bde845204d30cc229aec282361211b"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Helmet_Patriot_NoBelts",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "975e2c306f0042aedef0740025bd90d7"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Helmet_Rook_FaceShield",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "d34b78a0ae59b52a08fa53ad75f845f4"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Helmet_Rook_FaceShieldUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "2a0ea9764ab80503047a81b95d3052f2"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Jacket",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "135b744ae012a93548117cf2f743d3a8"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Jacket_Closed_SleevesUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "28f3b4aed603889c6d3e41d660f4f912"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Jacket_Open",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "7de34efe62214109343e11ed2c687e10"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Jacket_Open_SleevesUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "bb7b439c25953bb410f9b932082baac9"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_KneePads_Defender",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "a70f08246df1db6c73af74a43bc64600"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Knee_Pads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "15dc405092f7f05b40b8f4d4c2a4b608"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_LightVest",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "16782227e86103ad770c4840d1893a53"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Pants",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "afd1713ba8c83a4b9f79de0f19c976f2"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Pants_Tuck",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "0ee1c774daff66ac96f5321287b3dc61"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_ShoulderPads_Patriot",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "c7d5217a4c146a7ad391f755aa8e503e"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_ShoulderPads_Vanguard",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "38bcb1380895e5b902504a1e71e00e6a"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_TacBoots",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "c730c75e7cda05d5b77d90939c0a8117"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Thigh_Pads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "07107863b5ee636e802b443c10bf22fb"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "Base.SWAT_Vest",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "0f5c3638338160c4683046b483f90327"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "ContextMenu_HelmetVisorDown",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "61da6387a0ad612b01a31639d97e9f33"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "ContextMenu_HelmetVisorUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "5017c10fc8aa702e65f079ce8305db43"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "ContextMenu_PutOn",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "3a1a3851a6f14d83b7b7c067e47d6af1"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "ContextMenu_PutOnOpen",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "74c60615b8fd795fa112fd767480d735"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "ContextMenu_PutOnOpenRolledUpSleeves",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "72ab21e124eb256976722dbccd464452"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "ContextMenu_PutOnRolledUpSleeves",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "d76bdbda9b7229ac0435655fb6c309ac"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "ContextMenu_PutOnTucked",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "cbbb8d1f21533352b40830b6765db8e0"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATBackpackRadio",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "c4ac573cccddc22ca37dc20f904e6092"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATBalaclava",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "38664bb2bdcf92e419437ffe8094bbaa"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATBoots",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "4d2e60546163f7032f87fc8fafd19d88"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATCap",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "1613397360d62f22fae0e82e67e5ce5c"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATElbowPads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "058e1b0091da4e802b09b61d6bb2c205"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATGasMask",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "f0eb582867eef53b7d9ca63eab965979"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATGloves",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "e6cefc85c15f952d0a0989ea467e9d4c"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATHelmetAM-95Visor",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "b3512d0bfa913bf79f59040134047056"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATHelmetDefender",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "82ada53c7e910cf1eb9090ac03654d6a"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATHelmetPatriot",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "7a599761a3b1e80cfd4c45fbaab8340b"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATJacket",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "10b0bf4df012c4f4479a81089915b92f"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATKneePads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "4bd261acd59363f2d617e03fe8df4ddc"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATKneePadsHeavy",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "f296c1b1e86ad92c93b6fe709674ceb5"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATPants",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "338d517a9fe9fb6099f872e1976ab00d"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATShoulderPads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "bde0776c3cfa1c6f5c63ada65c9e617b"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATShoulderPadsHeavy",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "2140732aa8064255c6d82db0b2700267"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATTacBoots",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "282b294e939a0c279bd905573fd859a1"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATThighPads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "386d9a81030cb9ad206cab2cf2e13831"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATVestHeavy",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "23d5c161f2593c4ef2065a75ebd719ae"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATVestLight",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "65b289d5a2778d83fdb8be6d6fd3f8e8"
+  },
+  {
+    "mod_id": "3457969588",
+    "translation_key": "SWATVisorHelmetRook",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
+    "source_hash": "be61c61b9da305ef9fb59c298a812c69"
+  },
+  {
+    "mod_id": "3457969588",
     "translation_key": "Sandbox_JordanalSpawns",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:07:56.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0876070Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
     "source_hash": "c44e1f318921e79a55925015cfc51a27"
   },
   {
     "mod_id": "3457969588",
     "translation_key": "Sandbox_JordanalSpawns.SWAT_UnitChance",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:07:56.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0876076Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
     "source_hash": "0a6f2bae23d269779911ba7daaf6b3f9"
   },
   {
     "mod_id": "3457969588",
     "translation_key": "Sandbox_JordanalSpawns.SWAT_UnitChance_General",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:07:56.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0876080Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
     "source_hash": "4e1aa2a8aa122317ea0c35e712db1d4d"
   },
   {
     "mod_id": "3457969588",
     "translation_key": "Sandbox_JordanalSpawns.SWAT_UnitChance_General_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:07:56.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0876088Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
     "source_hash": "046911ff5d5d778a283b5110ad3bd722"
   },
   {
     "mod_id": "3457969588",
     "translation_key": "Sandbox_JordanalSpawns.SWAT_UnitChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:07:56.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0876093Z",
+    "last_seen_mod_updated": "2026-08-05T22:07:38.0000000Z",
     "source_hash": "ec22fb50e1d44ebacdbd3a3fd3ac87ee"
   }
 ]

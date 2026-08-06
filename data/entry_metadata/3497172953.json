@@ -1,114 +1,562 @@
 [
   {
     "mod_id": "3497172953",
+    "translation_key": "Base.Js_MotoHelmet_VisorDown",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "0d51070f49543e0d1d9d45a3647ba226"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Js_MotoHelmet_VisorUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "6f16d24b41b42941efff39d80e03e926"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Js_PunkScrapMotoHelmet_VisorDown",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "ac0c70bdbfb401fda31daac0f6e80b74"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Js_PunkScrapMotoHelmet_VisorUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "9f12e54aa783f54c30aa07ebc8fe6935"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Js_ScrapMotoHelmet_VisorDown",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "2ede0c2c4df38dc8f9ce15c838303ea1"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Js_ScrapMotoHelmet_VisorUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "370d69018eae8d58acc9ce0c61d83e42"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_BallisticMask",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "92a6cf9d46ad2514e03e679e56cc0bd6"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_BallisticMask_NoBelts",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "10600ebb33e7decf7dc4f2aed40cf444"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Boots",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "5af0fc54f1af526c9b5d24041b0d402d"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_CatBiker_Helmet",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "07c8e13cba1482bf88318b5da7e167e5"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_DarkZoneBag",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "7addc5e5e75339310d6fdb34652b41af"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Elbow_Pads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "eaf6259b6d6fd1deca1fc85831eba017"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_FaceMask",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "12f389ee7b6c4a434aace9cc04db3844"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_GasMask-M80",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "f96c20be3fef2ecb936f41992387f859"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_GasMask-M80_NoFilter",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "c67f35e3ddddef5ff7b3992be6ca15e4"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Gloves",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "5516648371cac43e46fa5d235b721150"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Helmet",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "2b2bc7bc2a15bfa1dfe66ecc02894ec4"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Helmet_NoBelts",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "0851a537b60dd75d37d2f7e00e61866f"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Helmet_Patriot",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "0e9f3dcd1d25e399677fb5755924bb21"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Helmet_Patriot_NoBelts",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "75a2d9b1d8a8b0c7ef951ce78c8dcf2b"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Jacket",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "b836411820e646636852d1efcb57f98c"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Jacket_Closed_SleevesUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "90c2823ad57f3fc63525387595fa9bbd"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Jacket_Open",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "d2d16e34a51fdef7c43d16c8ec212730"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Jacket_Open_SleevesUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "0c13d7bc0cfc32eab80bde55b970aa0c"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_KneePads_Defender",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "7568a40d79fc45e94f4697f7b3db2f5c"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Knee_Pads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "e010dde370456b2d9f7c28a5bacf3c7f"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Pants",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "91599e10c005fa5a51e035bdf885a90e"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Pants_Tuck",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "94299e2dd217b29045861a356d3528b9"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_ShoulderPads_Patriot",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "20e8e0bca037298a299edeb0404b261d"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "Base.Neon_Vandals_Vest",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "407aeb39c81e71d4ebc3a9cd71989e6b"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "ContextMenu_HelmetVisorDown",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "b9ab8a0f3832bb8f886ceeb554f413e4"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "ContextMenu_HelmetVisorUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "36a1305d957e039fdffea0a985bcff7a"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "ContextMenu_PutOn",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "aadf7f431625153184621544a01fd8b5"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "ContextMenu_PutOnOpen",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "b7ad037f3b5176c3aab83351b1e4e39c"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "ContextMenu_PutOnOpenRolledUpSleeves",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "153975d84f6fb5aaf351491c6fcbc25a"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "ContextMenu_PutOnRolledUpSleeves",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "219cf9bf4c3780db75b5631e5f1c85d3"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "ContextMenu_PutOnTucked",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "753a3b0319752294e798e4f8f1bf6a32"
+  },
+  {
+    "mod_id": "3497172953",
     "translation_key": "IGUI_VehicleNameRenegades_Humvee",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925562Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "92f953585e41387f11cb057bca430a1d"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "IGUI_VehiclePartHumvee_FrontBumper",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925573Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "784d92d08b83df3c6bd554529e33fe38"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "IGUI_VehiclePartHumvee_RearBumper",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925578Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "422810d4daa16ad4178424c9e44f55c1"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "IGUI_VehiclePartHumvee_Roofrack_MiliCrates",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925582Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "a0da6c5821a63b533f233eb1261732d1"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "IGUI_VehiclePartSideWindowProtection_FL",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925586Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "f468c4b33dd3ceea8c851aabd095e22c"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "IGUI_VehiclePartSideWindowProtection_FR",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925592Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "a4455490378a81f6b18f55758e65e0ed"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "IGUI_VehiclePartSideWindowProtection_RL",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925596Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "b7d78af266af85d86dfcf83871431eb0"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "IGUI_VehiclePartSideWindowProtection_RR",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925601Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "1a5b99007c9b66c06c7778889b701404"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "IGUI_VehiclePartWindscreenProtection",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925605Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "d0bb32c342da1b98ecc9be77fea09e69"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsBallisticMask",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "e025c887c5f66f1adba29466252c874c"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsBoots",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "b4e84a0f1bf9161f0efa976e632dd641"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsCatBikerHelmet",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "7720c445eb1b18c13170f1c26b15e7d2"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsContainer",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "c45ce42766b0d5fba745076cecf4cbdd"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsElbowPads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "edd967988e8a96ee2f981ed5dc5b4aef"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsFaceMask",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "cafd215848eed3dfeea92e85fabaf472"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsGasMask",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "27693e488247082c3f34a935bf8dbcad"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsGloves",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "28190af68dd6f873ee5c85ada45de328"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsHeavyScrapMotoHelmet",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "ea5feb36dca7633c25d6d7a3993f7071"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsHelmetDefender",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "882c0806b01d42b9a0d170a17b9c4e41"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsHelmetPatriot",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "5ea4d2e2d89394481157237799578552"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsJacket",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "501c4b65217d78e039836732ffd31795"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsKneePads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "3f4cb01f7e64630b1673fd56e7d0f268"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsKneePadsHeavy",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "69550b36773264c2f547e721c177649b"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsMotoHelmet",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "78aa7ae5861a00dc7e477d0d33a3886d"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsPants",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "0a2c2bb656dd402f217a7fb80af482a0"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsScrapMotoHelmet",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "57e0308f927065d113d6a2825601c5ef"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsShoulderPads",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "60540506e8d36a7f6f3183771880a6f5"
+  },
+  {
+    "mod_id": "3497172953",
+    "translation_key": "NeonVandalsVest",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
+    "source_hash": "40687f936a02b770725bf8c10ef79e92"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "Sandbox_JordanalSpawns",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925611Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "f6557b34d6d849520ac0d4deac28a09f"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "Sandbox_JordanalSpawns.Neon_Vandals_UnitChance",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925614Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "b3d1c7eef2504c9b564f8635c9ee4071"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "Sandbox_JordanalSpawns.Neon_Vandals_UnitChance_General",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925618Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "b4a0a664d0922093e3097f1017790916"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "Sandbox_JordanalSpawns.Neon_Vandals_UnitChance_General_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925623Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "dac1404d197bae0468b8698eef953c9f"
   },
   {
     "mod_id": "3497172953",
     "translation_key": "Sandbox_JordanalSpawns.Neon_Vandals_UnitChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-19T19:39:19.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0925628Z",
+    "last_seen_mod_updated": "2026-08-05T22:06:54.0000000Z",
     "source_hash": "8232b93cedbfebdf7d355e2078b6d688"
   }
 ]

@@ -196,7 +196,7 @@ Sandbox_WDecay_roofCustomGrassPercentage_tooltip::en = "How much custom grass an
 Sandbox_WDecay_roofGrassPercentage::en = "Roof Grass Percentage",
 Sandbox_WDecay_roofGrassPercentage_tooltip::en = "How much vanilla grass spawns on roof tiles (Z > 1).",
 Sandbox_WDecay_roofPercentage::en = "Roof Destruction Percentage",
-Sandbox_WDecay_roofPercentage_tooltip::en = "How many roofs on upper floors are destroyed, with 80% chance of replacing with a destroyed variant.",
+Sandbox_WDecay_roofPercentage_tooltip::en = "How many roofs on upper floors are destroyed, with 80%% chance of replacing with a destroyed variant.",
 Sandbox_WDecay_scanInterval::en = "Scan Interval (ticks)",
 Sandbox_WDecay_scanInterval_tooltip::en = "How often the mod scans for new chunks around the player. Lower = more responsive but higher CPU usage. In Multiplayer, this value is automatically doubled.",
 Sandbox_WDecay_scanRadius::en = "Scan Radius (chunks)",

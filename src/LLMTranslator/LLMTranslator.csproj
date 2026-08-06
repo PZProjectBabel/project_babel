@@ -5,6 +5,7 @@
     <ProjectReference Include="..\TranslationBatcher\TranslationBatcher.csproj" />
     <ProjectReference Include="..\RagContextRetriever\RagContextRetriever.csproj" />
     <ProjectReference Include="..\ContentChecker\ContentChecker.csproj" />
+    <ProjectReference Include="..\PercentNormalizer\PercentNormalizer.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

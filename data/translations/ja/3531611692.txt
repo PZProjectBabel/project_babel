@@ -73,5 +73,5 @@ UI_options_SMP_LethalStealth_ShowHud_tooltip::en = "Choose if you want to see th
 UI_options_SMP_LethalStealth_ShowHud_tooltip::ja::processed::unverified = "姿勢HUDを表示するか選択します。<LINE>推奨: <RGB:0,1,0> <SPACE>[有効]",
 UI_options_SMP_LethalStealth_TransparencyHud::en = "Transparency of the Posture Hud (percent)",
 UI_options_SMP_LethalStealth_TransparencyHud::ja::processed::unverified = "姿勢HUDの透明度（パーセント）",
-UI_options_SMP_LethalStealth_TransparencyHud_tooltip::en = "A higher value will increase the Hud transparency. <LINE>Recommended: <RGB:0,1,0> <SPACE>[35%]",
-UI_options_SMP_LethalStealth_TransparencyHud_tooltip::ja::processed::unverified = "数値が大きいほどHUDの透明度が高くなります。<LINE>推奨: <RGB:0,1,0> <SPACE>[35%]",
+UI_options_SMP_LethalStealth_TransparencyHud_tooltip::en = "A higher value will increase the Hud transparency. <LINE>Recommended: <RGB:0,1,0> <SPACE>[35%%]",
+UI_options_SMP_LethalStealth_TransparencyHud_tooltip::ja::processed::unverified = "数値が大きいほどHUDの透明度が高くなります。<LINE>推奨: <RGB:0,1,0> <SPACE>[35%%]",

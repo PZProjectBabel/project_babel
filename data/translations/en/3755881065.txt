@@ -1,5 +1,6 @@
+IGUI_CraftingCategories_Vac&Pack::en = "Vac & Pack",
 Sandbox_VacPack::en = "Vac & Pack",
-Sandbox_VacPack_DarkCraftSpillChance::en = "Dark-crafting spill chance (%)",
+Sandbox_VacPack_DarkCraftSpillChance::en = "Dark-crafting spill chance (%%)",
 Sandbox_VacPack_DarkCraftSpillChance_tooltip::en = "Chance to spill/lose a meal when sealing it in the dark (0 = never, 100 = always). Only applies when it's too dark to see what you're doing.",
 Sandbox_VacPack_SealerCraftable::en = "Vacuum Sealer can be crafted",
 Sandbox_VacPack_SealerCraftable_tooltip::en = "If disabled, the Vacuum Sealer can no longer be built from scavenged parts - it can only be found as loot in Electronics Stores and similar locations.",

@@ -1,16 +1,80 @@
 [
   {
     "mod_id": "3774063062",
+    "translation_key": "UI_FCCB42_BagCapacity",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "9c1c4774f4f5c25294f7c5776e8b29af"
+  },
+  {
+    "mod_id": "3774063062",
+    "translation_key": "UI_FCCB42_BagCapacity_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "34f644b6d07c18202e95e72b8af2d65e"
+  },
+  {
+    "mod_id": "3774063062",
+    "translation_key": "UI_FCCB42_BagNote",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "aacbe9b092630483217db1fee6fc553a"
+  },
+  {
+    "mod_id": "3774063062",
+    "translation_key": "UI_FCCB42_BagSection",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "6a57314f770fbc254a1626093ab63ba1"
+  },
+  {
+    "mod_id": "3774063062",
+    "translation_key": "UI_FCCB42_BagWeightReduction",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "b59c1f21478cca72528b19b1fa179816"
+  },
+  {
+    "mod_id": "3774063062",
+    "translation_key": "UI_FCCB42_BagWeightReduction_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "3dd27a2e393ecd33b6eaa71bc917e0db"
+  },
+  {
+    "mod_id": "3774063062",
+    "translation_key": "UI_FCCB42_BagsEnable",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "1a8e554d6b07efcdc32d83902fb5ace3"
+  },
+  {
+    "mod_id": "3774063062",
+    "translation_key": "UI_FCCB42_BagsEnable_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "1380851997bd9cda8863f0fd5c62f4f2"
+  },
+  {
+    "mod_id": "3774063062",
     "translation_key": "UI_FCCB42_Capacity",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T02:49:38.0000000Z",
-    "source_hash": "65376a345647baa65abacc315a2d4118"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "103279a1bc44ddc42d59072daaa81b24"
   },
   {
     "mod_id": "3774063062",
     "translation_key": "UI_FCCB42_CapacitySection",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-07-31T16:15:45.7907850Z",
     "last_seen_mod_updated": "2026-07-31T02:49:38.0000000Z",
     "source_hash": "f0e5f364da5b869aea569dc517b67c93"
@@ -19,72 +83,80 @@
     "mod_id": "3774063062",
     "translation_key": "UI_FCCB42_Capacity_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T02:49:38.0000000Z",
-    "source_hash": "728f6262cc5f311dd9afa35e8e94bdd7"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "a2afb5c3434c16895b9a2ba8fa4e8038"
   },
   {
     "mod_id": "3774063062",
     "translation_key": "UI_FCCB42_Description",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T02:49:38.0000000Z",
-    "source_hash": "95d4dfd62fdbf5f9283df1e91f71bb91"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "6c34e6ca1a854483ee7891889dbb32e2"
   },
   {
     "mod_id": "3774063062",
     "translation_key": "UI_FCCB42_Enable",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T02:49:38.0000000Z",
-    "source_hash": "9cfea58dec7fffa92edb6c855df52f67"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "05cdf66561dfba1aedfa024d57bcadd1"
   },
   {
     "mod_id": "3774063062",
     "translation_key": "UI_FCCB42_Enable_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T02:49:38.0000000Z",
-    "source_hash": "0a382e5c4c71762ac452be530e184d8d"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "b9b7a64b1309a40a870d1f2b1e9fce60"
   },
   {
     "mod_id": "3774063062",
     "translation_key": "UI_FCCB42_Name",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T02:49:38.0000000Z",
-    "source_hash": "28015bf9ad957cb43c01f8e3957871d7"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "8a8be2c71a64234cbeeea180a70d7e44"
   },
   {
     "mod_id": "3774063062",
     "translation_key": "UI_FCCB42_Note",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T02:49:38.0000000Z",
-    "source_hash": "25a49dcc3014abd4420658280e927d4a"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "77a672523402b26ddacd531a547e090d"
+  },
+  {
+    "mod_id": "3774063062",
+    "translation_key": "UI_FCCB42_PlayerSection",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "60759609e50eda41cecec954cb70b905"
   },
   {
     "mod_id": "3774063062",
     "translation_key": "UI_FCCB42_SafeMode",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T02:49:38.0000000Z",
-    "source_hash": "b3ba0365bd62b00a6b2e0ac568e6271f"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "677cb5648628003dc2a1290eda6460cc"
   },
   {
     "mod_id": "3774063062",
     "translation_key": "UI_FCCB42_SafeMode_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T02:49:38.0000000Z",
-    "source_hash": "a6fa9c1086abd842c58ba78a8fcf637d"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "99d6525669a5525428582734f19f5da1"
   },
   {
     "mod_id": "3774063062",
     "translation_key": "UI_FCCB42_SafetySection",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T02:49:38.0000000Z",
-    "source_hash": "f8cad2209ffe10188db0b60d030dfde4"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T08:13:22.0000000Z",
+    "source_hash": "2c2a042f8f9225e44362a5233a1aa65d"
   }
 ]

@@ -1,288 +1,928 @@
 [
   {
     "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHBalls",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "202c168ebc3dfb1b0355aa6d0130d69c"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHBallsGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "38743e32edc81b69f8430b46027f07ca"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHBallsStar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "7d06ef619a0ebb2f8dc06a6767cc3efc"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHBallsTop",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "a1b1f2ca2ebdb431afec249c0eeea61f"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHBare",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "2a16de0ff178a6140ff0a21dac3ca2f5"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "1c2e6492648a1968cfaa09fa980e0e38"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHFullBalls",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "db85b004c3bc023c792b224987e7bd5a"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "7c5e1b2a817ac4dc6b2483348742be4c"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHStar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "a45fcb4dea15ed6e006da8e17a38c16f"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHStarFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "d514319f173d2c5c7614b5cb32916553"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHStarFull1",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "3c274678dd8d7cb63ee92ef0559d8987"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHStarGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "c55273e5b89c0175d7fb3d612d82fe79"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHStarToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "c97dd222a15f9abfbe08cbb81e0c51db"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHTop",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "89637796c10819e310b356cf7a888494"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHTopGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "c21258af9861c0b18bf37355ac23e687"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHTopToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "c3fce223eb5e41364b2c5caeb93575ba"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "24480d9686d19e6a9552aab1c4835684"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasAHToysGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "1a0cf9eba4389a706c392cf194247c9e"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHBalls",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "ef594a4407b70924de777148271b5838"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHBallsGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "f1b915c0eb68416889e5ff73dffcfd81"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHBallsStar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "0bf2efa3390c7f2872a59ea2873859cf"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHBallsTop",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "fc370d0dbca91b92aca7a32f8b6e35f2"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHBare",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "d9b9f58755e2e36dd5bf2cb62589cc21"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "9c0b6477557b111c4078e2a45fa1b6fe"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHFullBalls",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "f9a20478afaf1d60593a13e7d6f8afd0"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "d675b4363614163074b751e042ce0569"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHStar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "25c42c0893091f2fb1be28ccd5f09460"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHStarFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "0789a5227b6db2653192d2519170314f"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHStarFull1",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "e83b8752e3683198407be290fc0da143"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHStarGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "91decdcd5ed7ac8ff0b70cecbc9a989d"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHStarToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "28c62e0ebd9bbe3fd7a3a076d7de209e"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHTop",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "0c3584ac46249eda87bf553fe45ef6f1"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHTopGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "9f5cc7f556ef74591ef69435c35c4920"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHTopToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "6735144d9656483ac9327b31c9d6e420"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "dd87a29caa15ab44289c63727088e1ef"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigAHToysGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "0068ce7206ac81511865b786c71ba55d"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHBalls",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "f4cda813dc0dc5a92888511ddb3b36f4"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHBallsGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "a5130678c5021b32f5ba9563e2d257ec"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHBallsStar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "2823027e2351907ce016401093e3c6b6"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHBallsTop",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "4ae2cbba9a6a5f59bb04154dbb71f9ad"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHBare",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "f7cfeedd6fc00971b08603f35fe21ba7"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "9c81fa58214c393fd3a8639ab931f63b"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHFullBalls",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "83a9469e112805c91964d696b2cdfcc4"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "b2aa26d6ba8283026625767f3a514004"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHStar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "4b1810635475714d9faadce0dfa7b26b"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHStarFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "0f51f73fa6a5631cd711edf6cb238c5e"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHStarFull1",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "94b5f18bc7e9386db65aa70c8684e766"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHStarGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "f010a6eb27098a6b70e49c50cf8d3771"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHStarToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "fc0e0316aeabae130155f328529e141f"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHTop",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "d3bf82af9387d67e7921fc5af3c09af1"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHTopGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "3cafb521e0606e47adda1dd5568f773f"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHTopToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "424949e739c0681d7a479fa048127d5b"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "afc53e9e2f08aedfef6a373cc3ea480a"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasBigCHToysGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "eeab379124c88e8b720008b1546206b8"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHBalls",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "a4caefc64dab1d70a94d852f05af4fca"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHBallsGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "543f2529ce00b3fab34430612d1526e1"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHBallsStar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "f12622482892d7b79837568496bb1fb7"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHBallsTop",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "6e266141fcdddb53158bb65ae9d3c574"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHBare",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "8823aa291548b0a70c980dc3b1533c4d"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "d13146b3e75e4983caf67743f178ed34"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHFullBalls",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "562a2ee0bb1a05653a747c61439db03c"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "992ff56ace93f2006270eb69a802523e"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHStar",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "39248f0e2b4689b91bcfeb5460e48d20"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHStarFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "1c1cec247d82e5a910496cda635f4511"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHStarFull1",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "dbec807a9c92bc76b88d19e669df31d7"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHStarGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "2fc7c5a0027a144018d2f909f223eaef"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHStarToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "99e2276c4cfb777364cc31dc57ff997d"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHTop",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "8160b309b4ef9168de0ece0ea884cea3"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHTopGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "0d0549b6cd155a65cd30fe2b23637eb2"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHTopToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "fe888574284cbb89d2cdcb714b721904"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHToys",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "f2be3126a9c17d9cedad301789a71e3a"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasCHToysGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "50d48c5ddd1306deade5d7f19c959660"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasToysSet",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "a97750ce0542629fb35fefe921d9bb35"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.ChristmasTreeTopper",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "842e88ed2e36259bf84acc090a2d0112"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.Garland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "da5be2b7e037287b0ab847171d99179c"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.JunkTreeDecorations",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "443696688b1211a4052826fd7da0950b"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.PresentBoxBeige",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "787e1ef040bdba036aaf700af765908a"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.PresentBoxBlue",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "826477f552ea375d4992f1cf7b67dbe2"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Christmas.PresentBoxGreen",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "3281eb58478ddaeda1323dd574429a1b"
+  },
+  {
+    "mod_id": "2903870217",
     "translation_key": "ContextMenu_CristmasTree",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713010Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "70188cf35557e5cdf6f0443274badabd"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713021Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "e37d32ad912d016a9ab6c1f14f563808"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoGarlandBig",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713027Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "b70ae9b601ec570c327ea3173e491c16"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoGarlandBigCH",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713032Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "62195d968cd3a4519950aa130fb1a105"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoGarlandCH",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713035Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "4d26009b14b6d1fbc6f6c7eb8112e67a"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoTop",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713041Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "c40ee3fcdb16d73ae0c8381f4d599837"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoTopBig",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713045Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "1abe1d0439cefbb99a94847e0c90f3dd"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoTopBigCH",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713055Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "6c98ef967cc0fc1cf2a1f1c32c602211"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoTopCH",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713059Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "9653e456405071c02a7c2cb631a68166"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713064Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "faabd84772dee525d380e42ab8e4be3b"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoToysBig",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713069Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "6fe8a8f59ddcdf605908cde254614f67"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoToysBigCH",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713078Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "0ac9b4468a4938a3a6e37b9c0370b66f"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DecoToysCH",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713082Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "3a2662e7313b294969ad2a38a8c7b982"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DigChristmasTreeAH",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713085Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "4a28594ec6c5d49cfea6f193dd8fad3f"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DigChristmasTreeBigAH",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713091Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "ec67a386537f95098391c54bb4f08c47"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DigChristmasTreeBigCH",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713096Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "b73e9e506165d8f1ebedbfae1df228e7"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DigChristmasTreeCH",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713101Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "bd994a64bfc7dc3b21ff65b2bc05476f"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_DigOutChristmasTree",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713107Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "79f2bcd78383399f212fb739c2fb7345"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_RemoveDecoBig",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713112Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "bd6b94872ca4871555126fa0b19396a5"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_RemoveDecoCH",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713116Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "0ee3336b7215d8ec16c7bb04d5a5e403"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_RemoveGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713121Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "31486507e799e1a653c5d85c1dbf8fb9"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_RemoveGarlandBig",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713124Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "d89a83c087e779a8176179f6ba6df529"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_RemoveTop",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713128Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "fca3d84ee1338cf75f6f225ae05fc896"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_RemoveTopBig",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713135Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "dc0dff24c813885299d2e8a99d144d2f"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_RemoveToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713140Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "d3ebae3bfc65287c1d6691c0af5449eb"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_RemoveToysBig",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713144Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "ccdbd0ad5f54260bfc79ac39d12da2e5"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_addGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713150Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "96112ed4f88e823b644ad7c929e649b2"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_addGoodToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713153Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "a5466e3ab3918b3ad17143a771ca37df"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_addStarTop",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713160Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "5197b20cedaee69dd0754293a6c5af3b"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_addTop",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713167Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "d6a94232005a82e38a3409121c1d0cf3"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_addToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713170Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "6f008b27ab06c586c5abcfbaedbe2cc6"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ContextMenu_removeDeco",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713175Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "0d88053c52fb0cf5971181fa8936d776"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "DestroyChristmasTree",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "07d19c07ba5c9cd0200abefadde1a0b8"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "IGUI_ContainerTitle_Christmas Tree",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713179Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "c42140e22e360e5e8f0cf93b5bf93f9a"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "IGUI_CraftCategory_Christmas",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713186Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "12b224f6895617edb59d9942e6daaf83"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "IGUI_CraftCategory_LightChristmasTrees",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713192Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "147725b5cb17e2419f7cf3229b8597cc"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHBalls",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "3621a37cd0201e5b2207079a2bb1e09b"
@@ -290,7 +930,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHBallsGarland",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "1df87b80bc26cdc867bdbdf3db264248"
@@ -298,7 +938,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHBallsStar",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "7e55bef49473d9fda02a8876b6951c62"
@@ -306,7 +946,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHBallsTop",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "76ee980f866d96f3fba5ca5ad486837e"
@@ -315,22 +955,22 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHBare",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "6135c11b9c600ef7c967fe39c8a7d1e1"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "56b1a190181820390dcdd77a07f7b075"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHFull",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "cd33b8ff4176d2876a5bdc6be0d3b91d"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "64375f8ec90fdf58abb60b6f0c600f5d"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHFullBalls",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "989765ab9f53c4cdaa286c85bb7204c8"
@@ -339,14 +979,14 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "543aea599455c962a485aa0b39def94f"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "f42ca8453982816d715271cc3c6ad05e"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHStar",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "b9a94758feb78687f08b192a725a948b"
@@ -354,7 +994,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHStarFull",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "ffef075528ebbe656ba61f1cceb0a8b1"
@@ -362,7 +1002,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHStarFull1",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "915728536ba6ffc84bafa6ee15361f43"
@@ -370,7 +1010,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHStarGarland",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "2a3200b7d2791f10e03529c004d675d3"
@@ -378,7 +1018,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHStarToys",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "1a83a0d05e6cf4e1874ee43fe2e5acd6"
@@ -387,46 +1027,46 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHTop",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "7a4745a523f4f9d1a01805e87a554657"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "ebd284e4b8ff9ce7b8f9d960418baa13"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHTopGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "3b1bb08bf525a7fb9d9505350c699c86"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "364c7406e0c3ef2f293d93193ae77807"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHTopToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "d0e99a60fa4b934f671966bb80964879"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "30a321d19caf22c710ef826a409688d4"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "a539e8f012e1b3fd818fe79ecac12ac3"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "ebbde5cdbcc43ecd5554887af0357ebe"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasAHToysGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "faf854ddc6b21586c885188a6b8f922b"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "cc0f87759f67dcc9be089a819c470dae"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHBalls",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "1f5f23275a0e5bcec41eb6bc47ae3e77"
@@ -434,7 +1074,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHBallsGarland",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "e939c96eb67f80fed4f33ce3c1e99f88"
@@ -442,7 +1082,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHBallsStar",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "1749d900d4b04cab9f8020f7aad0f705"
@@ -450,7 +1090,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHBallsTop",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "01568814bf02ffa8ac7cff14e28f3de9"
@@ -459,22 +1099,22 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHBare",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "c621eaec38dedd63ed2d29c9282e77b1"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "0ef240f524c2e3c90800c6a9cc77c2fb"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHFull",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "d0247577ddbb46dc1a36596b2a9d0f19"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "cd8cee38aef2a55246ef8b2d3d988a4f"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHFullBalls",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "f874996d021cc72e0afac96c5e58344b"
@@ -483,14 +1123,14 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "416ee67d339ef95de2b7642bf28d9fdd"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "fdcc6d7e8d4cc97448d026e089b4e43e"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHStar",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "7d0c0a9b311316608176e4112eff5e39"
@@ -498,7 +1138,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHStarFull",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "e8bf97964b701a9dbf134f7b418d8717"
@@ -506,7 +1146,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHStarFull1",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "8fd914abab07f574ac16ca33d598ec89"
@@ -514,7 +1154,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHStarGarland",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "59925d7050b8570edb7a4e98b1804494"
@@ -522,7 +1162,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHStarToys",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "528daca4da6797d13625ea791dcf638b"
@@ -531,46 +1171,46 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHTop",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "ace71b16ad148625f9d8a235d7f0a01f"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "769e81a7ddb343082d2fdfc45f451a2a"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHTopGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "5a5fc454a76d043e5d23ac14d21dac5b"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "90a006f6725e74b13030cd53392c1352"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHTopToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "95781484aba6584c0202f89bcfb40a64"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "b00010bc8d102e772fa63d63e739df3e"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "6f31a71adc6c9ae0a04cbc8fbf92c194"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "3addb29ab1bc456906758d404cdac7d3"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigAHToysGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "fd284e9f3f6ff11e458dece8c523389d"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "5d6f4d41a8d5237621acf2f6b50ceac0"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHBalls",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "6ded163e23cbea5a5fc9282c900c1ac3"
@@ -578,7 +1218,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHBallsGarland",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "098539e951fb4d21d33301b9b223bff0"
@@ -586,7 +1226,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHBallsStar",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "de221a4466f0b1769e98ca33e78d8949"
@@ -594,7 +1234,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHBallsTop",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "4f755633c477755d186c489076fad49e"
@@ -603,22 +1243,22 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHBare",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "941e5a5853d5fea0ab82c9e76bf0ada7"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "11c927769162ca858504796d3d0f63c8"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHFull",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "3494f710fc08a0a290a4ddead49a5af7"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "da065cf523c2ef56eecd939d2d174593"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHFullBalls",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "60352cf2ee27ab46fdc363770ec8c314"
@@ -627,14 +1267,14 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "0cb1fd3688a7d93a4367dd7c3c733284"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "b62d57b83914863704e286ec10041d9d"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHStar",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "442f241de4f3455159326f7eda26ab7b"
@@ -642,7 +1282,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHStarFull",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "ff855a00eae7a8a1970f884cb363f8bd"
@@ -650,7 +1290,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHStarFull1",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "46c1c976eabef77340053cd9c2e23390"
@@ -658,7 +1298,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHStarGarland",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "98d2c4cba62bc9a559cc9db06285fb97"
@@ -666,7 +1306,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHStarToys",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "26bf1ba241141889ff8e1c78ec9e5879"
@@ -675,46 +1315,46 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHTop",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "7b7e685e20ac77b992c00fc606492c3a"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "32630b4925c1ee9d6d7253ee5f96162b"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHTopGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "3516273766daa22e286c85f51f68846e"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "b7284411b2c3a984fc54798264850300"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHTopToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "76377f1442b95b5d2f0f21fc7e2eeab2"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "4aabb7efe6cdad9ed68efa55a1186f14"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "0dd6d9fac71c22c75620c86a0bbe4947"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "d17e359edd08487cf3f07335db535b57"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasBigCHToysGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "b2aaf6ceb875da535f969635d12aab04"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "2d5fd2b24f46833ddb72e5fea058c259"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHBalls",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "9a79e282a5fdd764f4def68ed2261196"
@@ -722,7 +1362,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHBallsGarland",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "ffb146d317d7337005011968350815a7"
@@ -730,7 +1370,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHBallsStar",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "dd6a6859b0dffd5b0c847269cc9127e8"
@@ -738,7 +1378,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHBallsTop",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "12f521833c1bb61d485b3506ef8521e8"
@@ -747,22 +1387,22 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHBare",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "7a8e3dd9c11617d8c9ee8b5e738b5410"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "47ce35cf2322013dd36f20ffdf34384b"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHFull",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "f347332ff8c28b1c94aa96f1c2e4b606"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "37eb84b73fcbf5a210931222514b5e95"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHFullBalls",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "56be8698f385f5cae5204420dd9b1351"
@@ -771,14 +1411,14 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "69aa1be7ca38ea147b10c4434d7179e3"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "89a5ac53aaed55c758a1575f464e0827"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHStar",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "23c7793fe860d5a8821072d5239e4f98"
@@ -786,7 +1426,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHStarFull",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "6a53129238218b4acb34858bb3dd72d0"
@@ -794,7 +1434,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHStarFull1",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "c1bb5f3b20101c672b9bd04a97c0649a"
@@ -802,7 +1442,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHStarGarland",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "8bf1989df2c0f8b97c0863faeb7e416f"
@@ -810,7 +1450,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHStarToys",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "136c056d9b92e187c59afe0868608a35"
@@ -819,46 +1459,46 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHTop",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "1217c55421a654e936f9306beafbb6e1"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "f6f2b190e89496239aab5eae95206976"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHTopGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "332afc7335d61779a9a999f14e9df450"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "7ccdb0ff3c5f4139c98ec4338626ddc3"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHTopToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "432563a89e56532ec0507828259936e8"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "dd5f4fb5675abf5c7af8a0bb161fb2d7"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHToys",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "840d96a246afc9995882dcb36dd0153d"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "94624516b17c11a21469fccec7d2d128"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasCHToysGarland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "5abb75d700075005825335b357c2da81"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "4bf70299c1981c5868591fe7d5669e2b"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasToysSet",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "60bd10e726ff10311dd2e675b653d289"
@@ -866,7 +1506,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.ChristmasTreeTopper",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "dea68bc466d7676595abd2ba93a3393e"
@@ -875,14 +1515,14 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.Garland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "3ce882d8ffe778a7ab0fb7ef63fceea6"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "9d0603ba8c15c302c660ac32b1d99219"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.JunkTreeDecorations",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "181299a1bfd3a4d0a847e96708fc0c97"
@@ -891,158 +1531,214 @@
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.PresentBoxBeige",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "8875c7a566f92c73e5bc48ba910e17ed"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "86c287483aae160908d4490e0b600659"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.PresentBoxBlue",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "ca912cac76714b33ada173922188efb9"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "b09aeed36bcc6da4b40f1149eec4af1d"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_Christmas.PresentBoxGreen",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
-    "source_hash": "272d38afab6a295d36d3fc7ed2cb8060"
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "1f6287765cc5ae2c152339335776ac37"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasAHFullLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713473Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "f6b57e4fd5949ec8af42d026e7182ab8"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasAHGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713478Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "05c7e8612d8d7f18d246316bedb63adb"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasAHTopGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713488Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "252a8c51ea6ae629bcad568f758a587b"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasAHToysGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713492Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "a5051169fd7e957de34430767b3b6389"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasBigAHFullLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713498Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "e94d831cfcfe1f3045a1e84dd3873425"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasBigAHGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713504Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "b47f57887117334a341d4a0c432d7c9d"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasBigAHTopGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713507Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "643fc200d86a1f348b8b3b2f8304208d"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasBigAHToysGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713514Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "2424bd4a1aefc41862b40d71861e9a52"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasBigCHFullLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713519Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "b4c43ef594ff19e42fcecf514327e966"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasBigCHGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713525Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "161c1b630fa8ab445eb31d2a936cebbe"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasBigCHTopGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713530Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "6ad7449afb1982fc8ad77375df50a8e2"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasBigCHToysGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713536Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "a19c2608ab19ba82246ec2b8d91dbdc9"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasCHFullLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713542Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "ddf7ddf64e5a35b009596e0b860081be"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasCHGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713548Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "9a9c388cf923fb7703b5c947f678208e"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasCHTopGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713553Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "a33960c37ac4aa49f500eef59b91ca5d"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "ItemName_ChristmasLights.ChristmasCHToysGarlandLight",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713558Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "350ba732a509b08db8b59f62ebd78abe"
   },
   {
     "mod_id": "2903870217",
-    "translation_key": "Recipe_DestroyChristmasTree",
+    "translation_key": "MakeBeigePresentBox",
     "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "00a6b568203343259321ecc473e34b0f"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "MakeBluePresentBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "bbd50a36bcb2e76a21c812c6b3dedadc"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "MakeChristmasToysSet",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "e8f389381dcd6b3b57ab8e527a443630"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "MakeGarland",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "85b73e6c8bbf07d6d35e980514c4efe0"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "MakeGreenPresentBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "bc021490dc1e2de252c452276b04cacc"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "MakeJunkTreeDecorations",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "c0991427c46ac6eb2cbf61b9da220070"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "MakeSantaHat",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "7fcf74019dbd9c3759fcbc1617b41b92"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "Recipe_DestroyChristmasTree",
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "9934b13cb84accfa95c9eddb0159e6c1"
@@ -1050,7 +1746,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_MakeBeigePresentBox",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "a0cf19e9b2ef947d1fbe07139b99c76c"
@@ -1058,7 +1754,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_MakeBluePresentBox",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "606bb39cad67745819eee41817e0cd2d"
@@ -1066,7 +1762,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_MakeChristmasToysSet",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "7e01872c039eb91bfb397d5c6d1da811"
@@ -1074,7 +1770,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_MakeGarland",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "e4cfc9f76f21afbb577a158be7e5a524"
@@ -1082,7 +1778,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_MakeGreenPresentBox",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "84d3d00d43006711d4e74ed173afd3da"
@@ -1090,7 +1786,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_MakeJunkTreeDecorations",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "3d3d51d7de9d82c4ff38191e75e2db34"
@@ -1098,7 +1794,7 @@
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_MakeSantaHat",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "d1467d698e297b9ce30652dbd721e1ef"
@@ -1107,304 +1803,312 @@
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Beige_Present Box",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713585Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "4ecf79407cddf17bd9f801fc092df74f"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Blue_Present Box",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713589Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "d4eb72a89da370e278614c964fad70a8"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Garland",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713594Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "d43bee0d64de073db1f1924afd0660eb"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Green_Present Box",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713598Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "d99b0d7e3cd0b35aa0d6553c7acbc353"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Santa_Hat",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713603Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "a13c50b16b16b1ec9cf0a17080efa144"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_AH1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713608Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "45091a20df388081c373b3270ebb6765"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_AH2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713613Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "aa0604ada9b9f0645e986b199c170d9a"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_AH3",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713619Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "6159b169f58c0a068bd8a996015e0048"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_AH4",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713626Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "e73b77c4bb5fa2ce827c16d9a7557dd0"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_AH5",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713629Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "9297c3bc5b245a2105617cf9ada6d820"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_AH6",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713633Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "ba3fe96984d4013cf868ead4c8fb3ff4"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_AH7",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713637Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "b63e082b9ce64b7bb4985b6006be802a"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_AH8",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713642Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "ac6f7f11c9763be52eebb25509b21d08"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_CH1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713646Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "5f315310b25263b5ff958c85db6257ef"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_CH2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713648Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "77e3125590beebb3e69b2f0ef6dfa76c"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_CH3",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713653Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "a3d732ee5aa973c4e8628d0b39b79110"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_CH4",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713657Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "0fac4928c123e8a0e85f8a6abe7bddf4"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_CH5",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713660Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "9af1c0cc6176760cb0b6492b46bde1e1"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_CH6",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713665Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "4d32d8e9bf5df9e7491b2622f460dc07"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_CH7",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713671Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "c0913ba4a8e88fb6d1d2484d9eb0356e"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Lightable_CH8",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713678Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "a11748e0ce1ff6b2d74f91df77b3a984"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_AH1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713682Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "41fe45dbe1129ea6bffb95128c13eaa8"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_AH2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713685Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "987faca56359ea5b4ca7f254deaac7f3"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_AH3",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713690Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "de8a1913bf845d0c1f2da23f6c424383"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_AH4",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713692Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "13fd4c518cd4d1ca7d3632e36b95e5ce"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_AH5",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713697Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "6aec9abd0adfd62a59a1dff813e20ec2"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_AH6",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713699Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "c490b2697471db94f6229198a6329d2f"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_AH7",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713706Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "abaad717d4e55ebbb3e1728b67480b68"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_AH8",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713709Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "9333f21e7faaad15326096111f7407fb"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_CH1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713713Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "79610c43a419ed934ef3e8d5e8f206cf"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_CH2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713716Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "5b5f68cf996c19a6507cc0a7038e3ce4"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_CH3",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713719Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "c125cf2f31bbead957fe7bb92089d5af"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_CH4",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713722Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "61ecce0679865f72c63f97d7cafe3b48"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_CH5",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713728Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "878a9625d3cbabbb55f5a1596b4f9abe"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_CH6",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713731Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "05fdde3de29f643e2a9b95e90769f8e1"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_CH7",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713737Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "b06a434fe1fc10ec476484758da84713"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_Make_Tree_Nonlightable_CH8",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
+    "last_seen_at": "2026-08-05T23:41:19.0713744Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
     "source_hash": "fd7f814c6a6f547ef3c39986b9b0f277"
   },
   {
     "mod_id": "2903870217",
     "translation_key": "Recipe_UnpackJunkTreeDecorations",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2026-01-09T17:45:36.0000000Z",
     "source_hash": "649566bea4dd1f27cac33ea2d0772831"
+  },
+  {
+    "mod_id": "2903870217",
+    "translation_key": "UnpackJunkTreeDecorations",
+    "is_active": true,
+    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_mod_updated": "2026-08-05T11:59:00.0000000Z",
+    "source_hash": "ad2a88bd4c03f8d2b2b46bb429b6cf57"
   }
 ]
