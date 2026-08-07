@@ -1,3 +1,6 @@
-Base.Bag_SheetSlingBag_Side::en = "Sheet Sling Bag",
+Base.Bag_SheetSlingBag::en = "Sheet Sling Bag (Back)",
+Base.Bag_SheetSlingBag_Side::en = "Sheet Sling Bag (Side)",
+ContextMenu_SideSlingBag_UnmakeBack::en = "Reclaim Sling Bag (Back)",
+ContextMenu_SideSlingBag_UnmakeSide::en = "Reclaim Sling Bag (Side)",
 ContextMenu_SlingBag_WearBack::en = "on Back",
 ContextMenu_SlingBag_WearSide::en = "on Side",

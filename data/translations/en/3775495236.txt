@@ -1,0 +1,5 @@
+Sandbox_AdvancedDeathLog4220MP::en = "Advanced Death Log",
+Sandbox_AdvancedDeathLog4220MP_AllowSelfGearRecovery::en = "Allow Players to Recover Their Own Gear",
+Sandbox_AdvancedDeathLog4220MP_AllowSelfGearRecovery_tooltip::en = "Adds a ModularUI Home button that recreates the one-time gear snapshot from the player's most recent death in their current inventory. This can duplicate items still present on the corpse, so it is disabled by default.",
+Sandbox_AdvancedDeathLog4220MP_AllowSelfXPRecovery::en = "Initial Default: Allow Player XP Recovery",
+Sandbox_AdvancedDeathLog4220MP_AllowSelfXPRecovery_tooltip::en = "Compatibility default used only when this save first creates XP recovery settings. After initialization, admins control player XP recovery from Death Logs > XP Options. Disabled by default.",

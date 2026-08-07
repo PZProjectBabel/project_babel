@@ -1,0 +1,8 @@
+Sandbox_SitReadFaster::en = "Sit Read Faster",
+Sandbox_SitReadFaster::fr::processed::unverified = "Lecture assise plus rapide",
+Sandbox_SitReadFaster_SpeedMultiplier::en = "Seated reading speed multiplier",
+Sandbox_SitReadFaster_SpeedMultiplier::fr::processed::unverified = "Multiplicateur de vitesse de lecture assise",
+Sandbox_SitReadFaster_SpeedMultiplier_tooltip::en = "Changes reading speed when reading begins while seated on the ground, furniture, or in a vehicle.\\n1.0 = vanilla seated reading speed.\\n2.0 = twice that speed.",
+Sandbox_SitReadFaster_SpeedMultiplier_tooltip::fr::processed::unverified = "Modifie la vitesse de lecture lorsque la lecture commence en étant assis sur le sol, un meuble ou dans un véhicule.\\n1.0 = vitesse de lecture assise standard.\\n2.0 = deux fois cette vitesse.",
+UI_SitReadFaster_Active::en = "Seated reading speed x%1",
+UI_SitReadFaster_Active::fr::processed::unverified = "Vitesse de lecture assise x%1",

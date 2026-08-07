@@ -1,0 +1,6 @@
+Sandbox_LemonsAID::en = "Lemon's Aid",
+Sandbox_LemonsAID::fr::processed::unverified = "Lemon's Aid",
+Sandbox_LemonsAID_EnableLoginZombieProtection::en = "45-Second Login Invisibility",
+Sandbox_LemonsAID_EnableLoginZombieProtection::fr::processed::unverified = "Invisibilité de connexion de 45 secondes",
+Sandbox_LemonsAID_EnableLoginZombieProtection_tooltip::en = "Makes a player invisible for 45 seconds when they log in. Each account can receive it only once per real-time hour. Players who are already invisible are left unchanged.",
+Sandbox_LemonsAID_EnableLoginZombieProtection_tooltip::fr::processed::unverified = "Rend un joueur invisible pendant 45 secondes lors de sa connexion. Chaque compte ne peut en bénéficier qu'une fois par heure réelle. Les joueurs déjà invisibles ne sont pas modifiés.",
