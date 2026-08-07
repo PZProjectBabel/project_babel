@@ -1,0 +1,8 @@
+Sandbox_SitReadFaster::en = "Sit Read Faster",
+Sandbox_SitReadFaster::zh-hans::processed::unverified = "坐姿阅读加速",
+Sandbox_SitReadFaster_SpeedMultiplier::en = "Seated reading speed multiplier",
+Sandbox_SitReadFaster_SpeedMultiplier::zh-hans::processed::unverified = "坐姿阅读速度倍率",
+Sandbox_SitReadFaster_SpeedMultiplier_tooltip::en = "Changes reading speed when reading begins while seated on the ground, furniture, or in a vehicle.\\n1.0 = vanilla seated reading speed.\\n2.0 = twice that speed.",
+Sandbox_SitReadFaster_SpeedMultiplier_tooltip::zh-hans::processed::unverified = "当坐在地面、家具或车辆中开始阅读时, 改变阅读速度.\\n1.0 = 原版坐姿阅读速度.\\n2.0 = 该速度的两倍.",
+UI_SitReadFaster_Active::en = "Seated reading speed x%1",
+UI_SitReadFaster_Active::zh-hans::processed::unverified = "坐姿阅读速度 x%1",

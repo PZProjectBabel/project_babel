@@ -1,0 +1,5 @@
+Sandbox_CarryWeightMultiplier::en = "Carry Weight Multiplier",
+Sandbox_CarryWeightMultiplier_KeepTraitBonus::en = "Keep Strength Trait Bonuses",
+Sandbox_CarryWeightMultiplier_KeepTraitBonus_tooltip::en = "Off (default): every character gets exactly the multiplier above, whatever traits they picked. On: the Strong / Stout / Weak / Feeble carry bonus is applied underneath it, so a Strong character at 2.5 ends up on 3.75x. Only carry capacity is affected either way - the traits keep all of their other effects.",
+Sandbox_CarryWeightMultiplier_Multiplier::en = "Carry Capacity Multiplier",
+Sandbox_CarryWeightMultiplier_Multiplier_tooltip::en = "Carry capacity for every player, as a multiple of the normal amount. 2.5 means two and a half times the usual capacity. Both the displayed capacity and the hard limit on what will physically go in are scaled. Item weights are not changed. The game refuses to let the hard limit past 100, which is reached at a multiplier of 2.",

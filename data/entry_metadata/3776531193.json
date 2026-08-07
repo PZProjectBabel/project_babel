@@ -1,0 +1,818 @@
+[
+  {
+    "mod_id": "3776531193",
+    "translation_key": "ContextMenu_PalmPilots_Open",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "be621c5ae4cbdbef7bd47e5bcef96922"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "PalmPilots.PalmPilot",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "ea18bbb589ac8a8f521056b1681f26f7"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_AM",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "3e0e98e4f434252bc494f349a9050a0e"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_AllData",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "2c2ddac2d9fe532ab1be5cf8eadc2879"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Back",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "9b4b3ea13c44a79dd0a7627b330b8c09"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BatteryEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "2e911167122ac2c0598df5bea499a551"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Beam",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "9f3d5fe97fa46dea9ca6dd2e79b93672"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamAll",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "f6049f700829ea9e098fa60cc86a085d"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamAllReceived",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "207646286a225e85ac821d0837452db2"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamAllSent",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "f5e910562097523195431a2048982e37"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamDeclined",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "da192702a97682601ecb8588c639b867"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamExpired",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "e32cb08bc9ff3321d489cff3687a9000"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "0f86d8af3a19eb87c4e015befb5a7bf3"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamInstructions",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "12799a78f64c24e5ec22810ea4d2282c"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamNew",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "4177b47763ab8e742ba24ebfb90f3a53"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamOff",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "e0a8147eca1047cd939c2fd83c94e1fa"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamOffHint",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "871ff27ed3f8cf3db463bc7bb0031b49"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamOffer",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "a81b085a796b0ee1359f50240f51ad3b"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamOn",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "49a58e3041fc45f28bff4c2c4f5583a7"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamOnHint",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "6f181f43a3e7b4179b8a4e736b655c3d"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamPrivacy",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "e21ada6ae0733a700bef1d4dacad3658"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamPrivate",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "72c9cc36832eb896679a248ea4af2ce6"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamReceived",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "3964f29b666d68a57c4de0f0178c3770"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamSent",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "0cebdae07b076acaaf3754c0878559bc"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_BeamUpdate",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "913b9dae0867aa901fecc41f6a94b109"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_CalcShort",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "985051dccd7debc6aceeac559b23491f"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Calculator",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "16ecd1d25248fcc675f9fcba58037e6c"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Calendar",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "0d4d9f0d3edbe55d29cbe8889a521eb3"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_ChangeNickname",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "0b6ff58030a376b92c4f1940bea5abae"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Checklist",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "e9443987d876fcd33c525a9bec74a7fc"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_ChecklistHint",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "d174df4099df2833c00b4c991f99dc13"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_ChecklistItem",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "dddcc6c07c43b042b4daf06f0f998528"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_ClearNickname",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "ea9a8b53a338d710744b204489d94c24"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_ConfirmDelete",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "017960baed66ff1ae6c3ef14560921f5"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_CreatedNewest",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "738f4843a8be1d06916ba42cb0011100"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_CreatedOldest",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "4a0d439729e0e08587897f6c06840280"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Delete",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "df0d1bb64637cd0fb7f3c407e2314ce8"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_DeviceMissing",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "1cb72ab592a0d37ad29a5bde8fc47ab1"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_DeviceNickname",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "9650160e2f77bf5b98063feb9eec0c13"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_DeviceOutOfRange",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "7c4dfd588cc413557c49446c0221fa38"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_DeviceOwner",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "e994544327574f24eaaf60ab289b4751"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_DivZero",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "02ac0f32ecab968f7a9b97cfd51e2509"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Edit",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "226f4a120e1935c2bfe7b060c6da7b65"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_EmptyText",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "b3aa5515688d455c4f13a8d41d1cdc9f"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_EntryMissing",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "a5648b83e575798521872f2f9e0bbe7f"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Find",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "8a6e1367ce64c2478c5fbdc5f69d0ef1"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_GameOver",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "cd72886f11bd7bb1fd07fa242e3285b4"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_HighScore",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "e1fd9ed22fd77250442d42246d56bbe8"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Home",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "9bdde4dfb472cb5c4005712b7e08ab3c"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_HomeHint",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "a518f8e98c67cb34e3904aff995c58b2"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_InvalidReceiver",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "d9555a3cc44a18b598fe7799cacce4d6"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_MPOnly",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "66576405f41add9bc4bba9424104eca9"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Memo",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "2eb79206027bc98d12a3f56bfb8eaab5"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_1",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "32fb16b587a002f42beda7a58159fac1"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_10",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "14ab38c40a48c10e8b36c567a51ed5ae"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_11",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "8d29c9ebe68d6b1f62d65fae9f18a244"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_12",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "38e3ffcb2fd8d7df3b0c17b70af93359"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_2",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "969e6b53e2ee7cfb734ee25004f5a3c0"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_3",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "bb4498ff67f33e03b7a2d3599d3fe602"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_4",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "1ef39504417e74d3d6d035dfcd7b0737"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_5",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "fb4a348a9e84ee946a3432cf10c3d8b3"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_6",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "3400ac0bd2f5c94ee4654027a27dfd58"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_7",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "a488c7bbf22e940dda8cae509e0d4557"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_8",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "a45be277e32ed3903b39964bb800e1eb"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Month_9",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "a21a2bc504f0b0d69cb1594a7fa9566f"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_NameAZ",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "896400239dca4e10f12226f2ff9e8ce1"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_NameZA",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "712712690b2c331ffdf113401e5b5093"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_NearbyDevices",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "ea671efa6e199c4fd05750e78851cc95"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_New",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "470f242a4953ae6f6d4f231fe01f68f2"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Next",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "bcadbd3e66738686e3c84621a0a1dec1"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_NicknameHint",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "a8da4e0728a0e2352df068093fa2deda"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_NoBeamData",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "c8080c9348e79ce74a3ff86af0650185"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_NoNearbyDevices",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "6cebaa04185df36c3215689f7b6e58ce"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_NoReceivers",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "2a54d98f3122a728ce2941d93c601065"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_NotSet",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "6bf2aa793e3924fa4ad3679bcc0748b5"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_NoteBody",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "193a6fd995e37ea1371f62615e2e7bf7"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_NoteTitle",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "dca736ae32ade8e0f29c5f99d0c59c70"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_OpenFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "ac035ee8240f473a5cde36be725ab81a"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_PM",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "52975fe61e1d229b0e401994e37fd487"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Pause",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "a4b7353694243833607de31a4e4dbaf9"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Previous",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "a0403b02aab2966193ba7155bf5a1649"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Restart",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "1b5f06d0ebfb7d41072326fae763e599"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Resume",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "58968f428b5b5e3876d04ad7c78906ab"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Score",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "f8365bddef406271c90d972dba16bde8"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_SelectReceiver",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "6c3777ea186ba9d77aa93aac5b058a3f"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Settings",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "c29cdccc4252e4d1eedafe457d66148a"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Snake",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "000eb9f0265a0211d41d0e629d3e6cf6"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_SnakeControls",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "67cfe3da24b8599e612e0aec6450ce7d"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_SortFor",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "9c884c54d15a77492a6ed06bf840445a"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Start",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "aafbb50217bbd1135fa467858c7ec768"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_TaskListHint",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "580a0102769d8a79c7512da27b7b3c8b"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_TaskListName",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "eaa5aaac0e0b6c83afb44e788db9762a"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_TaskText",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "2dad9361609380353c8be33cb2228055"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Today",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "7d13655d2bd18d523787ff0d6718f48d"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Todo",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "dfc5bf77b518aeb321602a6e93b55e1b"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Weekday_1",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "5b0a3ea0fe578dac4affea15bcd99626"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Weekday_2",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "fa65d4bdfcce368c81b5ee45b1dbb9f2"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Weekday_3",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "09ce19911de653d18ee86693ba925153"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Weekday_4",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "21ea443630d09e1f891f106e90a1e8a1"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Weekday_5",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "fb50738b246742942916f2f7ef31bc6d"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Weekday_6",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "fd2d74d0dbd8a147497957b704274226"
+  },
+  {
+    "mod_id": "3776531193",
+    "translation_key": "UI_PalmPilots_Weekday_7",
+    "is_active": true,
+    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
+    "last_seen_mod_updated": "2026-08-07T05:52:39.0000000Z",
+    "source_hash": "e5b4f4c8a946b25c95fd3dd43184e202"
+  }
+]

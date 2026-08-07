@@ -1,0 +1,7 @@
+Sandbox_FasterSkillBooks::en = "Faster Skill Books",
+Sandbox_FasterSkillBooksAffectAllLiterature::en = "Affect All Literature",
+Sandbox_FasterSkillBooksAffectAllLiterature_tooltip::en = "Apply the speedup to everything readable (magazines, newspapers, leisure books), not just skill books.",
+Sandbox_FasterSkillBooksInstantReading::en = "Instant Reading",
+Sandbox_FasterSkillBooksInstantReading_tooltip::en = "Books finish in a single tick. Books above your skill level (and any book, for Illiterate characters) still read at vanilla speed so the usual 'too complicated' handling applies.",
+Sandbox_FasterSkillBooksReadSpeedMultiplier::en = "Reading Speed Multiplier",
+Sandbox_FasterSkillBooksReadSpeedMultiplier_tooltip::en = "How many times faster skill books are read (1-1000). 5.0 means a book that took 5 hours takes 1 hour. Stacks with Fast Reader, reading glasses, sitting, and the vanilla Minutes Per Page option. Ignored when Instant Reading is on.",

@@ -1,0 +1,7 @@
+Sandbox_DoomedRoadkillPhysics::en = "Mass Matters: Roadkill Physics",
+Sandbox_DoomedRoadkillPhysics_AnimalImpulseMultiplier::en = "Live animal vehicle reaction",
+Sandbox_DoomedRoadkillPhysics_AnimalImpulseMultiplier_tooltip::en = "Scales the weight-derived reaction a vehicle receives from a live animal. 1.0 is the intended mass-based fix; 0 removes the vehicle kick; values above 1 remain capped at Build 42.20's original force.",
+Sandbox_DoomedRoadkillPhysics_CorpseImpulseMultiplier::en = "Corpse vehicle reaction",
+Sandbox_DoomedRoadkillPhysics_CorpseImpulseMultiplier_tooltip::en = "Scales the mass-derived wheel lift and torque a vehicle receives from a corpse. 1.0 is the intended mass-based fix; 0 removes corpse lift; values above 1 remain capped at Build 42.20's original force.",
+Sandbox_DoomedRoadkillPhysics_ZombieImpulseMultiplier::en = "Live zombie horizontal slowdown",
+Sandbox_DoomedRoadkillPhysics_ZombieImpulseMultiplier_tooltip::en = "Scales the targeted horizontal slowdown a vehicle receives from hitting a live zombie. 1.0 keeps Build 42.20's reaction, 0.5 halves it, and 0 removes that horizontal impulse. Zombie damage, sounds, and prone wheel lift are unchanged.",
