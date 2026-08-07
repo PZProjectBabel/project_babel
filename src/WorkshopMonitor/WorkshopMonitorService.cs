@@ -15,7 +15,7 @@ namespace WorkshopMonitor;
 public class WorkshopMonitorService
 {
     private const string UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0";
-    private const int MinSubs = 500, SafetyPages = 5, AppId = 108600, PageSize = 30;
+    private const int MinSubs = 2000, SafetyPages = 5, AppId = 108600, PageSize = 30;
     private static readonly TimeSpan Lookback = TimeSpan.FromHours(48);
     private static readonly Regex ModIdRe = new(@"sharedfiles/filedetails/\?id=(\d+)", RegexOptions.Compiled | RegexOptions.IgnoreCase);
 
