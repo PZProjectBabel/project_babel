@@ -1,0 +1,6 @@
+Sandbox_FastHoodOpening::en = "Fast Hood Opening",
+Sandbox_FastHoodOpening::de::processed::unverified = "Schnelles Öffnen der Motorhaube",
+Sandbox_FastHoodOpening_HoodTime::en = "Hood Opening Time",
+Sandbox_FastHoodOpening_HoodTime::de::processed::unverified = "Öffnungszeit der Motorhaube",
+Sandbox_FastHoodOpening_HoodTime_tooltip::en = "Value in seconds, where 1.0 equals one second. The lower the number, the faster the hood opens. Recommended: 0.7",
+Sandbox_FastHoodOpening_HoodTime_tooltip::de::processed::unverified = "Wert in Sekunden, wobei 1.0 einer Sekunde entspricht. Je niedriger der Wert, desto schneller öffnet sich die Motorhaube. Empfohlen: 0.7",

@@ -1,0 +1,6 @@
+Sandbox_FastHoodOpening::en = "Fast Hood Opening",
+Sandbox_FastHoodOpening::zh-hans::processed::unverified = "快速引擎盖开启",
+Sandbox_FastHoodOpening_HoodTime::en = "Hood Opening Time",
+Sandbox_FastHoodOpening_HoodTime::zh-hans::processed::unverified = "引擎盖开启时间",
+Sandbox_FastHoodOpening_HoodTime_tooltip::en = "Value in seconds, where 1.0 equals one second. The lower the number, the faster the hood opens. Recommended: 0.7",
+Sandbox_FastHoodOpening_HoodTime_tooltip::zh-hans::processed::unverified = "秒数, 其中1.0等于一秒. 数值越低, 引擎盖开启越快. 推荐: 0.7",

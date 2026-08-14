@@ -1,0 +1,6 @@
+Sandbox_NoPlantRot::en = "No Plant Rot",
+Sandbox_NoPlantRot_tooltip::en = "Controls over-mature rotting of mature crops",
+Sandbox_ResetGrowthOnRot::en = "Reset Growth on Rot",
+Sandbox_ResetGrowthOnRot_tooltip::en = "How the crop is handled each time its rot is postponed.<br>On = Reset to seed-bearing stage and regrow (default); Off = Keep as-is",
+Sandbox_RotDelay::en = "Rot Delay",
+Sandbox_RotDelay_tooltip::en = "How many rot checks a mature crop survives before finally rotting.<br>0 = Never rot (default); N = rots after N postponed checks",

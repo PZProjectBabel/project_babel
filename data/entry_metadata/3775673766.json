@@ -1,0 +1,938 @@
+[
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_aim_control",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "4508022c42c5f5f814be4ae5c399aa24"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_bite_defense",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "1d2cfac801e9c7bb950124e3235111a4"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_bullet_defense",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "ccaf4ed04c07ba7a6d7e5f05cc49a584"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_carry_weight",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "cbf8bbec51c917e70819069262e833cc"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_combat_speed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "f15ab4fe2454ba58e429cd7cf6e4a750"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_durability",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "138c3ed2b1d91c77016de8599b11f262"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_endurance_capacity",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "192f7edbf49517744e083d07d6dd1d0f"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_firearm_accuracy",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "3546701fed69b0e1e3464ee4336790fd"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_insulation",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "2890f78e0eb58d635d043ff40b58aaa6"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_lightweight",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "66c320177bfb12694661d9a895a2e9b6"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_movement_speed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "3b936acff49b80c777f44249fc864474"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_passive_healing",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "a020890d9c8b219999626b3f28b2a1cf"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_recoil_control",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "690f2e5acdf017c9bcd3da44a4845e45"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_scratch_defense",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "12b86ee84d8ffacb1f2a10c054a988b2"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_stamina_cost",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "1cd44c8f86695743c5ddd0699ba46cc8"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_stamina_recovery",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "8491764447551f6298447487e76fec54"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_water_resistance",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "81b2eb6a9045e48ba12a47095a674ed7"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_weapon_angle",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "7fa93ab733062fced7a9257241a15447"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_weapon_damage",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "8d2c66aee939fe417bda92cc13e025c8"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_weapon_range",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "359fac54b876bd0e75f71b5bc09b5c63"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Affix_wind_resistance",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "14dbc661fd24cdd8c9617f7bdfe5c99c"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Gem_grey",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "6aaa14094a11987eb112be1ff5adc84c"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Gem_red",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "3ba51e42ee0d4033051364010c0dba12"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Gem_violet",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "3a584386948cdb6322fc2cda04f18b00"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Halo_ItemLevelUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "03470a916b4c128654764b86e6037b3f"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Halo_ItemMastered",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "7ec11cec93ed468db86c8cb353e28f4c"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Halo_SocketInserted",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "84fe41c439737d59baf04736c882add8"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Halo_StatusShown",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "cf519ea5ffb6387f034c7db1ee1a4d0a"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Item_Clothing",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "5c16cf07189290c3fb6243dcff3b8a70"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Item_RarityItem",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "f94190688ffa70b699e30339294c8237"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Item_RarityName",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "1e5d115819822fbc411e614f23ff1047"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Item_SocketStone",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "02acec15cd20dcd181a78ca881e6aebf"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Menu_InsertGem",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "b875a6d59b08b2b521573599caca2879"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Menu_ShowOutfitBonuses",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "696d55c9888a1f46e2982e7e7ed51b8d"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Menu_Sockets",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "a94abb2140befa70c22a181147000c27"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Menu_SocketsPermanent",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "ec1675f30315de49fa3e99e087e18ead"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_ModName",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "a0ff943d1940c98b55cd8bf28ba795c8"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Options_StatusKey",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "0f1a0664c56525556ec78cdb774df67c"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Options_StatusKey_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "1f38107d2fe11d2d673e0471a4d1ac6b"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Options_Title",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "0dba8bdce479da01e5f1541416a6543b"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Options_WorldContext",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "c926ba74e544b9c87fe54c1d00a00ac4"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Options_WorldContext_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "5fd38d1e53f5a3b426886e3746282a88"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "e257706441294cfff6388ddd8ca66301"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_Consume",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "4bb20107147f589187a63287c1f762f0"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_ContactServer",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "a153593605cf8b0e815e544f18872727"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_Insert",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "73fd1e9d8e302301a362c2844d75493b"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_InvalidGem",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "e83776707f7719d444fe4fc30eab2d00"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_NoChannel",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "b667322a8dbd13b56ecf14e014eb38db"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_Owned",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "6e328e4b0c13e70d160a054aeb2812fe"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_ServerRejected",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "0f39edf1094049e9c769915bb9ce74d5"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_busy",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "cc85d86fbbb84c41a00b80743c8169d3"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_consume_failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "1f7505bded4ab20c7848e61afa282f94"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_full",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "abe18a4280846af1060e9119189334de"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_insert_failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "e51eeaf52e09f8cdaa7714172bb46440"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_invalid_gem",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "ae6155052ac790d2da23c42ce5bb39fb"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_invalid_request",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "c5ec63102c1a0340ceea87a32518d9d5"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_no_sockets",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "d2b09676bbbc63b75ee9a978409fd595"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_not_owned",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "a9538dc119d5d1b7eac8228708b1319a"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Socket_Error_not_rarity",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "0d66309c8c3748df4e1f8cc92a89d6f9"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Status_CombatActive",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "dd10c854d340c0b05148e3a056195b8c"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Status_CombatPending",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "1bb5e55981313da149972f324d568c24"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Status_EnduranceReserve",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "0d472867228d01c1410af114ea851735"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Status_MinimumPenalty",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "db18b0b3b0acc6e869d07c24672c01e4"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Status_ServerAuthoritative",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "c18f41bf23c702bf36c6f4183ad99641"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Status_Title",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "7853efd9976393140d306635cec42403"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Status_Unavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "0cab3236de617182137badb8be7d792c"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Status_Value",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "072e5c4baa0bbb6a52973ffc38c6e133"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tier_common",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "e21147f9a9620d008ee996ac66cd15ee"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tier_legendary",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "a54e6855bbf76959992cd91b8590cf06"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tier_mythical",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "1c83346425598b9fe8abdf02fe353e42"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tier_rare",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "806bbb2cb3f3bd38c4cde4bfc928ec2b"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tier_super_rare",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "961f2ce2a4dec0ced348136447f06f2e"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tier_uncommon",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "785886ed0bd4f367678c7e722c993c26"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_TooltipLib_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "37ae82d6985a87f49171670fb19d5752"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_Affix",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "d21045cb31ac8cb86e65933e4700aa2c"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_ClothingStats",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "ce4ed82e25d57071542bf77869ab1408"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_Gem",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "3a7cfb654557d848d32c3de1c80092cf"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_ItemLevel",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "51cc359d0384011f52c81706f14e8064"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_KillProgress",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "679647f8217b8bcc79961f0d2a7c776f"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_KillProgressMastered",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "8564f07bd5bb967d8ae6ec345e53e894"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_LevelBonus",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "3adac9ac1fdb4d0f9dc5dbe6646d6dc5"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_MasteryAffix",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "3a0cbc645be00f50eba212eace1370a9"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_MovementInactive",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "0fec7a9d12672ae89a13d2e2f16906df"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_Penalty",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "e023ca608210751020a506012b9164af"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_Rarity",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "b2dfb5cf3a087e9c8599ae00561bc464"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_SocketBonus",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "f7e1b9d7b569585c4ad870ee1dbe3cc7"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_SocketsEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "13438f9e94ec0ad3672d356fa4d455bd"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Tooltip_SocketsFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "0504c20efac6eba2926ac6431f324cf0"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Unit_Degrees",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "8209a18f74b991b0b2276419a312d774"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Unit_PercentagePoints",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "e405d9d142a4d79aa4f989eebccba158"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "IGUI_RarityThreads_Unit_Points",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "0c5b4792e2ae5959bc7a305b9af97473"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "RarityThreads.GreySocketStone",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "755d3e5be6a7166a7a7a3fd6504466c4"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "RarityThreads.RedSocketStone",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "50848a8378b5d96b3dd3584794ae11df"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "RarityThreads.VioletSocketStone",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "e5443420a400afba2a67aa85b1323fbf"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "4f2761d06dd71ea19ad587844e832e33"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_AllowDrawbacks",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "c7d493d25aef858b7aeebe820fd86223"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_AllowDrawbacks_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "5f1a3b2a8787beff35d8daef6cfcb895"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_DebugLogging",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "4d0efa8489c6c8a71d4c03c299777f4a"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_DebugLogging_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "6e9daff1a7f4c4815ec30bb4b36e5117"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableCommonTier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "7338a0952eaf656375818ae523640eb3"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableCommonTier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "58b6a5c2302e89db56067d1c20c63d59"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableLegendaryTier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "0ad0b54b881abc2268d767ea81880113"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableLegendaryTier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "1711dd869d4eb82985c588918a262422"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableMythicalTier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "78d085f25ffe90ea48c41248610d65ee"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableMythicalTier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "497a1074ec49e5b505e009ba9e6cfc83"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableRareTier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "38265d55469d37c9fd04cc9fa77f9c14"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableRareTier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "d7d1f33e0073d21bbc80c1bfad338717"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableSuperRareTier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "b397f21fb4910df4b3cf7259dc17d8d3"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableSuperRareTier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "08c5ce0e263fcd47d4fba63feb59bea8"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableUncommonTier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "1cff97377fba2b2708ffb7853b4f1d60"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableUncommonTier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "d75f8d223c0a9aae1a10a4641fe80bd7"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableVirtualStamina",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "679e82ad4894705cc158a5e20f255d60"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_EnableVirtualStamina_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "843b3eba56d4abc7148dacef87e5966d"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_RarityMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "7085af58d63fd7235f634801a17cc540"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_RarityMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "18f0b71bbf669c7fd7d7f7d534dd6eaa"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_RollExistingInventory",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "8045bae78559bcbd5e3a7364b4578305"
+  },
+  {
+    "mod_id": "3775673766",
+    "translation_key": "Sandbox_RarityThreads_RollExistingInventory_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-10T17:10:07.0000000Z",
+    "source_hash": "70acb22596cdd77684d180feb41611ad"
+  }
+]

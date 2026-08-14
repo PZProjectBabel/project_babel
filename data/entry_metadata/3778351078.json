@@ -1,0 +1,1634 @@
+[
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Base.MoneyBundle",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "d74c7b494c096d14f4de8a1f1416ab34"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "KnoxChroniclesTraders.MoneyBundleExtraLarge",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "093bd39aa215f8dacd659ab2948811c5"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "KnoxChroniclesTraders.MoneyBundleLarge",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "33dbb391ffd0d5792eec388b231a6b9f"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "f6825f6b21c405fda5a73b3af9e8c2eb"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_BulkPackagePriceMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "4a6e5e66face7ffe90b4a435b41238e0"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_BulkPackagePriceMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "36aebffd33e46ddcab885bec17d26b24"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_CommercialModel",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "61a642d5c6be90f34f21762191034a10"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_CommercialModel_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "9e2e740737ec66015ffc029b0ba5425f"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_CommercialModel_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "8cfdb3c9ef0e80d90238395e25ba91af"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_CommercialModel_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "34eef9442a514d622b9b3ba1cd93333e"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_CommercialModel_option4",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "104a5512c0812a774665444fdf822802"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_CommercialModel_option5",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "e6909e31a9f2f892135d74480f73e872"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_CommercialModel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "c3609411eceacdd3e2c070ae62f8f410"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_DemandIntensity",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "4b2ceb2ff4c486bf62a6b8eb6c4abaf8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_DemandIntensity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "d66508b273a6ca9419ecd9a78371d981"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EconomyItemDeltaMax",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "3e7bfd18dbed0c96f60f1a952fa917b0"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EconomyItemDeltaMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "4be59c497fd5eb2b76cf068deb9788e4"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EconomyItemDeltaMin",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "02f1d74c0636707d29265c604f9b406b"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EconomyItemDeltaMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "bd75d7f355b5fb92c8a70091461e3da4"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EconomyMoneyDeltaMax",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "fbd1da2f8356275678cc291a84790cf9"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EconomyMoneyDeltaMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "1e2c48b01359093e3948293b814ceceb"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EconomyMoneyDeltaMin",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "b28cb433d8e40b545c6c7636881e4f38"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EconomyMoneyDeltaMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "7d38f9a142a4e12217ec1a94a4493894"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EconomySimulationIntervalHours",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "bbaf22d25114cb4baa8dd16ec252702e"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EconomySimulationIntervalHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "4f72834e6c046d0512452e9e79e0bbb6"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableDemandPricing",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "4f51d993c1c4f3b7a1c398d509669454"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableDemandPricing_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "2c833c3ae0c16caa191a03c87ee928a5"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableEconomySimulation",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "649a47b0e5478ad934c9c675dfc840de"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableEconomySimulation_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "ecdf307880037e7bc464e3203cd7f717"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableMerchantPriceModifiers",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "b04c5a99e601816c2d16ef719b45530c"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableMerchantPriceModifiers_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "598c342a785e83c4bb3976957606b48e"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableReputationPricing",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "6eda3c05d4051d7580ee8646909ad2b3"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableReputationPricing_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "bb0c082d573e8627b0e73eb38a5bcc8f"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableRestock",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "1b3e1f66fb05f8b55706b8691b2b079f"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableRestock_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "3029b47644ff1ca22d73b9839697437c"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableStockPricing",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "e47646dc6db328a53773e571468b378e"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_EnableStockPricing_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "524e76295b41b2df37b453134c546086"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_FullRestockIntervalHours",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "26208c8d1b73ebb1247175d9bc31ca83"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_FullRestockIntervalHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "a5f1dbde973f7906f481303571151422"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MarketPriceFactor",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "38986b63f0c1b3d9644aa772df613fb8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MarketPriceFactor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "459d65c1870b1c1177cb8b7942225714"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MaxReputationBuyMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "1a8ad1355b5e9605c79b76a965503c1b"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MaxReputationBuyMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "7cb40339a4421f4a7abb4c17d1531e2e"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MaxReputationSellMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "92a02d1e6c6ebae4268d1712639c23b1"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MaxReputationSellMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "22826fa2136558452bf4ac7f6805981f"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MerchantItemVarietyMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "2ac1d04f061efdb3c088cbd15a72287b"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MerchantItemVarietyMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "4007c1abcc54aab6d4d81dddb99199d0"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MerchantMoneyMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "9726a37555a2e71710a382c44fad238c"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MerchantMoneyMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "b246b98d80dd17b9db6b1853230e8cb9"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MinReputationBuyMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "aac91d45189c1da8058e193a03e3b729"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MinReputationBuyMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "a8bff32e63ed89b8f14e47fd9b632d5b"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MinReputationSellMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "01a13beb27e73f3b78dfef61f9f6e06d"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_MinReputationSellMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "89f2d27ff39950f68c7c2aa70d0e5a43"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_NestedPackagePriceMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "ce8f77efefa7f9c6101214710b03f8f4"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_NestedPackagePriceMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "916b2b54b083a83b31afb8023f7ffcff"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_PlayerBuyPriceMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "ea96ea16f86681116e06d49f3ce1209e"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_PlayerBuyPriceMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "aa55486244a0f3e8201824097854fa58"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_PlayerSellPriceMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "f359cff657199934818f532e41cfb928"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_PlayerSellPriceMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "55aa7556c7b5c7f09b59650fe19da4f1"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_StockPriceIntensity",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "3f985510ee196f017506efc73be689f9"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_StockPriceIntensity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "b6af1c12b284ce90f3e22af12278059b"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_StockQuantityMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "9b297f265dd2dca31843aee8854f5657"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_KnoxChroniclesTraders_StockQuantityMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "b126170363b55e628b2d668074d2e166"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_Title_KCTradersDynamic",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "640ff55f24b1e7408d1b1992b61954a9"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_Title_KCTradersInventory",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "30ae705a33513c3b494abf4d02d82420"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_Title_KCTradersMerchant",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "fdee68168602718791edafc9d4dbc9ae"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_Title_KCTradersModel",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "87a8da2c6a1815afd0be936a207238dd"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_Title_KCTradersPackages",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "8e146aacb5b2a6c6f1070e7cb6bedcad"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_Title_KCTradersPrices",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "963f9d6ebb5f4fd7d07c772473e64c70"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_Title_KCTradersReputation",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "e2dd87390006cf89f9938066d6e3f4b6"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "Sandbox_Title_KCTradersRestock",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "171a1b382c73a79cd5e1622dd86105d8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_AMMUNITION",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "e13d25342f8b579a1053406bb419cd4d"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_BOOKS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "2390781cc486fdb857a4cbb469d4bf6b"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_CLOTHING",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "76c40531ad4696e9a17aea6355eb16ba"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_CONTAINERS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "bb922cf28a8161cdd0943f1673bc0abe"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_ELECTRONICS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "a21825f071c0d119f36677c7ea325fc8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_FIREARMS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "57ea05cb761c86ce3b9cde18993c3338"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_FOOD",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "7c63aa784e4089fa64f5f1209d7f60e3"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_MATERIALS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "17ff002b930f1bf53ac7c88ad644803c"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_MEDICINE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "f126c67b8a7444db87fc5a0a1494d9e2"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_MELEEWEAPONS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "af19c0d5e2ca8e872dfa2c1d261645ee"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_MISCELLANEOUS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "632ef684ec9bd41bb340d0b714d7d105"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_TOOLS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "7e90b4b64ba97580922e031869ecd494"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_VALUABLES",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "a9b60f4a4d7480f54e1032bc9b00a20d"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_CATEGORY_VEHICLEPARTS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "cc63aba9fa581d532eebcf10d2a0a972"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_TRADE_DESCRIPTION_ELAINE_FOSTER_CLINIC",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "db93deb5d04483e6bd6c18802550c9af"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_CURRENCY_MENU",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "012a26ef3f8c3da9e017e728f3a15af9"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_CURRENCY_PACK_BUNDLE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "3e30d171492d90471ea19cbce1391121"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_CURRENCY_PACK_EXTRA_LARGE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "4e62665c433f890928ae143fd6701a41"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_CURRENCY_PACK_LARGE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "85a67ce03decc254b0fb7958bed90966"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_CURRENCY_UNPACK_BUNDLE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "8465a09547fc4f4ada6626345b0887e9"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_CURRENCY_UNPACK_EXTRA_LARGE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "9558ec3ebbb825a20ca71b127b3f6215"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_CURRENCY_UNPACK_LARGE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "a35aeb55407f95913491d2e8e4f6a59e"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_ACCOUNT",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "3ffa9d69725b66cfdaa4f0af6da799ad"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_ACTIVE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "5da08e5441a2235cdebc1fd211c8c353"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_ACTIVE_CHANGED",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "abb7d30d37c0063ca6e11f45c03707cb"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_AMOUNT",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "3b75424fa04be737552f02cd5d0c6efd"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_CARD",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "b7647ddb2894af12b51a7094bf17a745"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_DESTINATION",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "371a5d9f2ba94a761e38e2b022bc6da8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_HELP",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "c08567f93d79e1a0da46f5697e2b85a5"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_INVALID_TRANSFER",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "7ae5240b426ae074532ca429e45b7eb8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_REFRESH",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "cab52d8b529fceeddf167d6c60178c65"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_SOURCE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "5a576ae8797f42aa29cf6d0d6030dd06"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_TERMINAL_REQUIRED",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "47a20d05cd8cb48e6b873be4c85bcaec"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_TITLE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "de426c7ca15687360c089b5fde7cddd8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_TRANSFER",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "da0c6fe173eb895869f1b666daa5f4ec"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_TRANSFERRED",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "7079d96be7388b8260d23859dca9cbbd"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_TYPE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "38b4f950b346c533247b7e13e2a93a97"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_WALLET",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "c7673adb36d910c274cf5bc29468d941"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_MONEY_MANAGER_WITHDRAWN",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "bd59f135e207e46158510e96c78e537d"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TOOLTIP_ACCOUNT_ACTIVE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "645394deb04ade8f80cfd9d6105036bf"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TOOLTIP_ACCOUNT_BALANCE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "145e82f47210e975f6e6daef7c9bc692"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TOOLTIP_BASE_PRICE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "6e6153d988c9c5d1166fe18703507573"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TOOLTIP_STACK_PRICE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "b75bdf5bcb80392d5d528dcbd045a75d"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TOOLTIP_YES",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "c846d594285eb3f060ff4258d124c9bc"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_BALANCE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "9ea73e2f1304dae9657e1ca734e5335d"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_BUTTON_BUY",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "bd1dd4f3a25afb786be6a23eb9091d8f"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_BUTTON_EXCHANGE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "c0fc6ba1cba02d443cb3f31aeba46823"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_BUTTON_SELL",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "06547c7739a8261eb3131a28b949d794"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_COLUMN_CATEGORY",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "4f1ff63cc309cd0452380883e65938be"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_COLUMN_ITEM",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "7d6a800b2e4dd0d3fba4dff4c123e33f"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_COLUMN_QUANTITY",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "0ff00504d5161c8b2407696f57685037"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_FILTER_ALL",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "630a0df6b98e360cf8b76f8cbcd13dc5"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_BENEFITS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "3f19ba6972dd2b2b1835143a34efa381"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_BUY_BENEFIT",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "41e3236d63cc31353598cbb78c219c73"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_BUY_RULES",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "d7a516944f01b2048507a5a3c51b68db"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_EFFECTIVE_REPUTATION",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "2677f45978313b40fa48902aafc9ba01"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_FACTION",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "f397b591245bb9aba720d4e1c166da87"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_FACTION_REPUTATION",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "28657a109bd2080fdc826ac3c67e9d37"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_ITEMS_BOUGHT_SOLD",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "4c7745cbb670aeded1fe3ccbaa2c6314"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_MERCHANT_BUYS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "1be00a41d906c23bd40209d47a564c6f"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_MERCHANT_SELLS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "3471f856a24593ba8760d261e7790dac"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_NEXT_STOCK",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "c610fc7251dbfe10535aef90b8f1c99d"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_NPC_REPUTATION",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "2fecfe888a74828996a9459a1f3deca6"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_REPUTATION",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "d15ece41c5e8f20f76fb33178f00fea8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_REPUTATION_EFFECTS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "2bdd247fd6d35754f10fb3587a5c9dd7"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_RESTOCK",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "78cb8ad31a7371d8909400559785969b"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_SELL_BENEFIT",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "c10e575046ee573a9069f3ad59016dc0"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_HEADER_SELL_RULES",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "45e1f2291c2418ec891d2609cd0d80ef"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_INVENTORY_MERCHANT",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "5577f91a34885de39a19bcc6532f8cd1"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_INVENTORY_PLAYER",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "a33c852a1d9224b10e91c12a503d5d51"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MERCHANT",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "d934b82aceee1de080fcd3e9df9278eb"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_BUY_ONLY",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "17443a83a878d6e710d4b30be3fd8d6a"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_EMPTY_OFFER",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "0874dad5d7a6531e4d63895d14ee6bbb"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_INVENTORY_CHANGED",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "c4ab4d0bb8ad86ab3d90e6cbfd958a93"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_ITEM_ADDED",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "74024196443bdad420d3788593b551dd"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_ITEM_REMOVED",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "958a2c1218ede99362e850134e71b831"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_LOCKED_ITEM",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "23ad5579341d48e6547553a216c3eb68"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_MAX_QUANTITY",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "7d09c14233917b1c8df9d3f6f7407872"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_MERCHANT_REFUSES_ITEM",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "815d73d3c81c80ef3faa017fb9c8d09c"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_MONEY_DESTINATION_UNAVAILABLE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "e0fc9528a9fae3189e91f87654f58bfb"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_NOT_ENOUGH_MERCHANT_MONEY",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "92417d844733743e5dd0d6c9e5d6e561"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_NOT_ENOUGH_PLAYER_MONEY",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "5f42ef7904e0fcbd2816d9771deb1b5c"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_SELECT_ITEMS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "00067fb8510c87197a8a54214ec3a3b8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_SELL_ONLY",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "4156e0e3fbb265b1833e8f7630d093b8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_STOCK_CHANGED",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "81e0da0427eff9efd639862f24a64ce8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MESSAGE_TRADE_COMPLETE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "4810b514f4161390a3ae24df283bdd22"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MONEY",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "72b95dd4275e81b66fcc19e6c69b5a94"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_MONEY_INFINITE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "8708002071e677d63f6b100a1a21fbf6"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_OFFER_BUYING",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "6732f7aba7c7a149ba0664985c3d3c4c"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_OFFER_MERCHANT",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "29dd85a3820aad43ff3a9d27739a9fef"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_OFFER_PLAYER",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "2d48ff22b1e771ba96d34d444f7829bf"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_OFFER_SELLING",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "8ee4844a93bfa7382690b6bc07268810"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_PANEL_MERCHANT_ITEMS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "648ab771d8c93074a876bad74a2b192c"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_PANEL_OFFER",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "9769412f91613c0c2f84924579f5cdf7"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_PANEL_PLAYER_ITEMS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "aa34b4ac869f18967075f3e1aa2ce0d0"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_PLAYER",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "54884ed5d24c4d35e1606294837136f2"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_RESTOCK_ECONOMY",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "f8dcd54b82ddb432a4a74f23f355d4b4"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_RESTOCK_FULL",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "b55924d06f7f403002e9102ace8e7701"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_RESTOCK_NONE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "11d727470b165e7796946674d6eb2aba"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_RULES_ANY",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "b413417955e3206707f08835140b422c"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_RULES_CATEGORIES",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "bfa27b2bb4165d32b1bd693198be99b1"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_RULES_FIREARMS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "863f36302ff3fe4933ee1d278ab9fee1"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_RULES_ITEMS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "d7af7b52d06f665a6090007f60589e32"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_RULES_MEDICINE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "7c3d9f2cf1bc82bf5df213a1f4aaaa1b"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_RULES_NONE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "f79f1a593538e298a7cb1fdbc6b3b75d"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_RULES_TEMPLATE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "2e6b725ce4681130fa4276bc1f0aef17"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_SEARCH",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "fd272ae9daa31baed8d34795ec329957"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_SEARCH_PLACEHOLDER",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "f5cd948adfdc04e5e873a221cd93f30a"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_TIME_DAYS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "7c74ba12b39983cf810ea3fd050a457d"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_TIME_DAYS_HOURS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "c96d103430bb8c6799fcbd2f2fe13e97"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_TIME_HOURS",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "488f7f0cd8978af995ecf00ac543456c"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_TITLE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "06f05365f8d73c104ec244d851319d15"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_VALUE_MERCHANT",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "84f2f71fbd9d6f33ddfc60aff0ea4d97"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_VALUE_PLAYER",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "814df0583feb25355c906da4b48a91d6"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_AMOUNT",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "c9b4e23f7556ca21c58f8795a9e1f093"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_AVAILABLE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "88418b3b2a2e38d4af1a4a949ffea5d3"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_DEPOSIT",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "8a3add427027505c4438072647a08aa8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_DEPOSITED",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "0480335e8ed6a07d94298d7cb7fc26b8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_DESTINATION_NEW_CARD",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "8258dc9d7cf4e2cbc1e92ef912286af0"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_DESTINATION_OPTION",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "b9e22c75cae9005138b4313d1a4d7ffc"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_DESTINATION_UNAVAILABLE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "db67114187c0c79ab5c075e240b57d8d"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_LABEL",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "a1e4519695de6aa3062eb0bc2c124066"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_NO_CASH",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "ae10fc8d61eb44f9e0a514e984dd99e0"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_WITHDRAW",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "657df63f3804c71ae19066d039c6a6e6"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_WITHDRAWN",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "a410911633fd700117ba901af3108ef8"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_TRADE_WALLET_WITHDRAW_FAILED",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "3b70244b1fbf89a03887da279708fd68"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_WALLET_DEPOSIT_IN",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "7cade0342fbfee97b73f0f7b9b8df4ab"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_WALLET_MANAGE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "d5689ee1d4a37e7ee1588e456c6bae95"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_WALLET_SET_ACTIVE",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "313c30f42ac3bb4412052961c1819bc7"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_WALLET_TERMINAL_REQUIRED",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "5bea631c2bc9a4e1fb9a1127dd344933"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_WALLET_TRANSFER_AMOUNT",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "122d9c1f21173844abac2a97233cbac0"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_WALLET_TRANSFER_TO",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "ce5e6f8b30e6fc04625791300e06a4b3"
+  },
+  {
+    "mod_id": "3778351078",
+    "translation_key": "UI_KCTRADERS_UI_WALLET_WITHDRAW_CASH",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T19:40:33.0000000Z",
+    "source_hash": "d4868e74c125662dbc8fc9328ff71084"
+  }
+]

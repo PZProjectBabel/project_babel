@@ -1446,6 +1446,8 @@ UI_News_Anim::fr::processed::unverified = "<LINE> <LINE> <H1> Soutenez les modde
 UI_News_Anim3::en = "<LINE> <LINE> <H1> Support the Modders Who Keep Project Zomboid Alive! <LINE> <TEXT> <LINE> <IMAGECENTRE:media/ui/uiWeNeedYouPZK.png> <LINE><LINE>",
 UI_News_Anim3::fr::processed::unverified = "<LINE> <LINE> <H1> Soutenez les moddeurs qui gardent Project Zomboid vivant ! <LINE> <TEXT> <LINE> <IMAGECENTRE:media/ui/uiWeNeedYouPZK.png> <LINE><LINE>",
 UI_News_Anim3 = UI_News_Anim3::en = "",
+UI_Text_Dumpmessage::en = "This server is using an unauthorized and copyrighted version of a mod that is not an official Steam Workshop release.",
+UI_Text_Dumpmessage::fr::processed::unverified = "Ce serveur utilise une version non autorisée et protégée par le droit d'auteur d'un mod qui n'est pas une version officielle du Steam Workshop.",
 UI_Text_Towing_attach::en = "Attach",
 UI_Text_Towing_attach::fr::processed::unverified = "Attacher",
 UI_Text_Towing_byHook::en = "By Hook",

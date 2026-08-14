@@ -1,3 +1,7 @@
+Sandbox_ComputerPowerConsumption::en = "Desktop Computer Power Consumption",
+Sandbox_ComputerPowerConsumption::ja::processed::unverified = "デスクトップコンピュータの消費電力",
+Sandbox_ComputerPowerConsumption_tooltip::en = "Base hourly fuel draw of one running Desktop Computer, before the Generator Fuel Consumption multiplier. Set to 0 to make computers free to run. Vanilla references: fridge 0.08, fridge+freezer 0.13.",
+Sandbox_ComputerPowerConsumption_tooltip::ja::processed::unverified = "稼働中のデスクトップコンピュータ1台の1時間あたりの基本燃料消費量（発電機の燃料消費倍率を適用する前）。0に設定すると、コンピュータを無料で稼働できます。バニラ参考値: 冷蔵庫 0.08、冷蔵庫+冷凍庫 0.13。",
 Sandbox_ConnectedGeneratorsB42::en = "Connected Generators B42",
 Sandbox_ConnectedGeneratorsB42::ja::processed::unverified = "接続発電機 B42",
 Sandbox_DisableComputerSystem::en = "Disable Computer System",

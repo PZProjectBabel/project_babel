@@ -1,882 +1,1130 @@
 [
   {
     "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_AirCombat",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "be186264fb4adef7eb41fb1ce7e16d74"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_AirUnsafe",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "30ec3216b9780cf5f5832a52bc42a196"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_Broadcast",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "06c794c5fbf8d5400de265e96ade9b7b"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_Crash",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "dd23802e8a05940b43123c76425d87b5"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_DangerClose",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "5bda23cb284dcce9b2200d8d98641650"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_Ended",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "43f96a1034e218eaab552e18590539f4"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_Generic",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "268ef43c2678d1d28c74ccdc48ca0136"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_Interference",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "bd60b4466af3d9844804b8e0ba3505fc"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_Observed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "f063055ea30e3f05e14f0878fb2c25ae"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_PermanentCessation",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "888854a9d04e2d5affddd276a4afdf1e"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_Resources",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "15f455582927c9815de8bb8e3a655269"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "IGUI_HTT_EventHint_Smoke",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "dd046d529efbfb3d793234a1ffe4243a"
+  },
+  {
+    "mod_id": "3672792485",
     "translation_key": "IGUI_HTT_Opt_Audio_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169063Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007410Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "19d3e1e4ac005563941acfc360aa8187"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "IGUI_HTT_Opt_Audio_Title",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169069Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007419Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "3bd1790eeffedd3b95dc8500a5d83e96"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "IGUI_HTT_Opt_EffectVolume",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169073Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007425Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "6183c77c9097181b5be9cab14a67e2a7"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "IGUI_HTT_Opt_EffectVolume_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169077Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007431Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "6612090360268797987235c2cebd465a"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "IGUI_HTT_Opt_EventVolume",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169081Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007436Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "bbf1a97158975e1d158acd30dd84f15a"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "IGUI_HTT_Opt_EventVolume_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169084Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007442Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "e6a9d26592eb18a60edba838253f0d33"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "IGUI_HTT_Opt_Mod_Title",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169090Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007447Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "ff560e78b0dba5c9808cec6086a7b7f8"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "IGUI_HTT_Opt_RotorVolume",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169093Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007451Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "fd2eb7df56fd9b430f2d7993d52f67a6"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "IGUI_HTT_Opt_RotorVolume_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169097Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007457Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "be6c12915f7312bd564b552e947e4fce"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_BalancePreset",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169100Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007461Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "5a4fbff254f0e8441fbd10b82f0bf13e"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_BalancePreset_Casual",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169104Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007466Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "c1214a0423689089cb67de417bb236dc"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_BalancePreset_Hardcore",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169107Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007472Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "07a150001dd50316bdc366e271f8b7bb"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_BalancePreset_Normal",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169111Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007476Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "8e57aac5ddbcb012c12cf59afd24987f"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_BalancePreset_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169114Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007483Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "d5f814086abf924523d4230e0cd52088"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_BalancePreset_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169116Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007489Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "e4cf077196a1a4ed5d5ca2865026e0ad"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_BalancePreset_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169119Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007493Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "467858262cb32e2205b6799ba8d072c3"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_BalancePreset_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169124Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007497Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "a1d1d29b6763d151d7c5cec14631f01f"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_DefaultEventDurationHours",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169128Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007502Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "2378299b17608b646345fbc91ee62983"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_DefaultEventDurationHours_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169131Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007507Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "270f52ad7f3d4c4116d5732d39806be7"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_DisableEventsDuringSleep",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169134Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007512Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "c2fca116f622dcc2887e3d15ca98506b"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_DisableEventsDuringSleep_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169138Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007520Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "dd32e1622e0c771b47f00dec9cfb7eb1"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventAirBombardment",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169141Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007525Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "a33234f7dc804356488ab9de525f2c4f"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventAirBombardment_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169144Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007530Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "d877c6a1e03eb90c4573192e6439ef14"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EnableEventCharacterHints",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "fac028e3f99dd60cac9fe9703b6a6838"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EnableEventCharacterHints_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "c600fca53224ac1107f565f5b9d20230"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventDownedHeli",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169146Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007535Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "8e2d85cd386a445b5d08b0fbca268f0a"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventDownedHeli_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169151Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007539Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "30b8446565aa9324f3f8ea868e607379"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventEMIInterference",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169156Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007545Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "427486eb294136c5eb36b38b0dc68ef2"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventEMIInterference_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169160Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007550Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "7d6ca784f785651fc2e0d1df903a3e67"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventFuelReclamation",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169163Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007555Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "dcb30f34e6ca62b61a377ac6981d3490"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventFuelReclamation_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169166Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007560Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "13455e4770e60d2cf559c6a5615facec"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventHostileAttack",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169171Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007564Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "79ffb2379ec97e4a363a88e48441a922"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventHostileAttack_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169175Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007568Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "61f92b0ff98d89d5e85ddae022477b17"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventIncendiarySweep",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169178Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007573Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "6f037949ffb2b9d80ea43a7b35568e24"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventIncendiarySweep_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169182Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007578Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "2f77d2aad91958649427c5a0a2b4c2cd"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventMilitaryVehicleStrike",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169187Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007583Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "35dc9486a88c1eb2ac93cf3f86e8be42"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventMilitaryVehicleStrike_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169191Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007587Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "8587bb931b2d3a1111e6c8b9ecee7f0c"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventPropagandaBroadcast",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169196Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007593Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "64e570183c6d1c91a23e9dfb37b7725a"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventPropagandaBroadcast_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169200Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007598Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "d555577603e9d0bc9b3782a4149adabc"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventSmokeCurtainEvent",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169203Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007604Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "33e75ac5c1f0405f0a0031aaa12427d7"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventSmokeCurtainEvent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169207Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007609Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "ba6069c96b215715263d6aff5aa9ad88"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventSniperCover",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169210Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007614Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "ae0be7c67320a056e50d49e0f2695581"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventSniperCover_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169214Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007619Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "4bfd709eb965096a42f09b19fea326f6"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventSupportAttack",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169218Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007623Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "634f81655ff0555d5bdc699380d00318"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventSupportAttack_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169221Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007629Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "8dc365b85f2306fdaf9badbc31c7b17a"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventSurveillanceEvent",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169225Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007633Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "ce41921f2188098b062ee4f7db86dcc7"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventSurveillanceEvent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169229Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007639Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "72788f2996e4eeb7b029f9bb746b56f6"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventToxic",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169232Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007643Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "c87ecba8a5b1ed67ea510f446b66cd00"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventToxic_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169235Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007648Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "b4c7ea0acad744cb85d4d226d4edc6df"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventUAVScan",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169238Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007652Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "2bf61cb3c62f8623162e62319a347835"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableEventUAVScan_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169261Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007659Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "360cbbaee4ce095d3fcffa00534ea208"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableFixedDailyEventHour",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169266Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007663Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "f1ed51bd37633adfc5be09acfc61c524"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableFixedDailyEventHour_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169270Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007667Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "ec3d41ce7d55edfc2a82942844890efa"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EnableGradualEventCessation",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "6320c9d714093849d55cc731a4e76a39"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EnableGradualEventCessation_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "5f789e172dff29aebe35dc2c54eb840f"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableIncendiarySweepPlayerRisk",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169274Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007675Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "b58aaf7f3e52e0f01bcc54bda57cd416"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableIncendiarySweepPlayerRisk_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169284Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007680Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "71971012f2cf46ecdbac1890b69a5c9f"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableMod",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169287Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007686Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "dc33427c1f5d3d58378f00acb4bcb4a6"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableMod_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169292Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007690Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "8faa4206e82877eebd84b026f9a27958"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableRandomEventCooldown",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169297Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007695Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "e0a5d2aa3d9221f7976586e37cbeaa77"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableRandomEventCooldown_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169300Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007699Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "3cc021a59325dd0d1d88616b6686277c"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableVanillaHelicopterHook",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169307Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007704Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "06725e6ab84fd967a9141bb00daf3474"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EnableVanillaHelicopterHook_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169311Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007709Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "40679ba7640b721a179da5b3915027d0"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EventCessationTimeRange",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "35ecbf7719f31fbb5ed0687cda7496c7"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EventCessationTimeRange_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "58d5e345bb25947253b0865c0b692b89"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EventCessationTimeRange_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "8591d2deed641b34b48ac9d9267212f2"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EventCessationTimeRange_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "77f26c08097a3eaace1761d526444178"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EventCessationTimeRange_option4",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "4eb7976bb5cc9c78513d5ed0f1b89903"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EventCessationTimeRange_option5",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "3c75824a66aa6382fce729fd3a5cac5f"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EventCessationTimeRange_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "074904df8c77ff3cbacfc35cd2355522"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EventCooldownHours",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169316Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007713Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "e5250051fdfca282685de4f46f1a187d"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EventCooldownHours_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169319Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007717Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "e8b474bf78e9a3ef98582953af79e7a0"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EventWeightHostileAttack",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169324Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007722Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "cb239eb303a2386854880475f780585b"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EventWeightHostileAttack_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169328Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007727Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "1792abf9c0fa44b627f04583b4e762e1"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EventWeightSupportAttack",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169332Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007731Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "43f46c609fc11c932bd61fe30a1f3b56"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EventWeightSupportAttack_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169336Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007735Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "e2b58a110c89ccd8a357895118739a7c"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EventWeightToxic",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169340Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007740Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "081bba78ee9514282bcead93f8f52373"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_EventWeightToxic_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169347Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007745Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "eee65a47d7aadec3cac7386d135d0c7f"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EventZombieAttractionRadiusPercent",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "55e082db4951dba71bf96281d2c83762"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_EventZombieAttractionRadiusPercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "332279e0a0aea252c5474e0987fd0d85"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_FixedDailyEventHour",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169353Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007753Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "9b14928b0dfb29db6994c59eaef93248"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_FixedDailyEventHour_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169356Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007757Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "2e80145f8d46d6d853a5283a18875054"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_FuelReclamationDrainPercent",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169360Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007761Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "6776d5062dcf702e464a6a2de90e5ec9"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_FuelReclamationDrainPercent_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169364Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007770Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "913164378c0919ee10a0c004973681fe"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_FuelReclamationDrainPercent_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169369Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007774Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "f91732bb12785542c3f99c83896cb5d2"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_FuelReclamationDrainPercent_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169373Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007781Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "174fb87b760b0437348c291d5cce3619"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_FuelReclamationDrainPercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169377Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007787Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "1df0ca1c071ffc7de91de49802d3cc0f"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_HTT",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169381Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007792Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "57e0a36139f0d1b5942b4e5361204a24"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_HostileAttackHitChance",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169386Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007798Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "aa5ad717e70b4987b2f110c5d51b6855"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_HostileAttackHitChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169394Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007802Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "b74c6c0dffd4c1beaa8ad257a24d0459"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_MilitaryVehicleStrikeChance",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169397Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007807Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "589b2b5a23f4dbde4a7729a717c4f53c"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_MilitaryVehicleStrikeChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169400Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007811Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "ef1020951c5543523bf782214598d169"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamageCurvePower",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169405Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007816Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "b2781dbd018e863ccc6168d97d67bf2d"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamageCurvePower_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169409Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007821Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "86f98f4e6167bd6c98eb11d3593fb64c"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamageMinPerMinute",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169419Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007826Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "1413b44ec4cc90ac86392936bb225d46"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamageMinPerMinute_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169426Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007831Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "e9f368c7f765d233462b6469bfc28559"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePerMinuteAtFullExposure",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169432Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007837Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "106069ba3a6a80da7a7793f8c5134ef4"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePerMinuteAtFullExposure_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169437Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007841Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "78d3ed354d0f7fec886a0598bad5a753"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePerTick",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169441Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007847Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "4ea634d96e3e6a49daafff35332e0495"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePerTick_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169446Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007852Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "c680a348cb5f93d53effefc96a30de6f"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePreset",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169452Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007857Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "8e2c523fdcbe44a2ca8f406b563f5142"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePreset_Hardcore",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169457Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007862Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "b8cf35baaa6c7c42e563480b337a59dd"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePreset_Medium",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169462Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007867Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "41b3d4f3571ad5da31e0bd78d86b0f45"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePreset_Soft",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169466Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007871Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "5e88d05781c352677cb512743233284c"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePreset_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169470Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007876Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "2153bbac19b85770999de947d92ed2f7"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePreset_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169474Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007881Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "964f1396759728212d3b040a2dd6a59d"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePreset_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169480Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007886Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "cd87d944ed9b10ad93e5c0ae0e7edff9"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicDamagePreset_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169484Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007891Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "b5a569aef020a652faf20a7a4bec08b8"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicEventDurationHours",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169490Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007896Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "7687258a6150b16c9a1fe06f38d123bf"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicEventDurationHours_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169494Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007901Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "00fcb49683c6111ca7150435d2f4b213"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicExposureGainPerMin",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169499Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007907Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "bb203776b54bb57978f5bb57a7ea9c2d"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicExposureGainPerMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169502Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007912Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "542b11c1a062cf33d6bf599fc7c8c3aa"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicExtraDamagePerMinuteOnMaxExposure",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169508Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007917Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "1bee8203702d1f11025190e7b82851f8"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicExtraDamagePerMinuteOnMaxExposure_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169514Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007923Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "ad311c9a178de320716aed1c9d57e339"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_ToxicFilterMaxWearPercentPerEvent",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "85a46e3cccc59f95b7f7631559c95ec1"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_ToxicFilterMaxWearPercentPerEvent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "8ffb91568d22d91a4d1af97dc362956e"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_ToxicFilterWearPercentPerHour",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "a21bc55d5270f5be88334a322c75cdc9"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_ToxicFilterWearPercentPerHour_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "ee5fb2d25f11228761a500cd45fc5cec"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_ToxicMaskMinHealth",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "4f97944ff801ba371112c918cd15d08e"
+  },
+  {
+    "mod_id": "3672792485",
+    "translation_key": "Sandbox_ToxicMaskMinHealth_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
+    "source_hash": "961dc0c93f9fef4d6e8a6fd29433f4b3"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicMaxExposureHealthDamage",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169519Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007927Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "39b1497559d2163acd41314b49621900"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicMaxExposureHealthDamage_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169524Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007932Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "494c083b408f2bb317047cb5b8686569"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicTickSeconds",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169527Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007936Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "c59d515760afa86479b2569dfc86f5bc"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_ToxicTickSeconds_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169530Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007940Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "099ffce0a354f928e8768b4fbf755ebd"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_UseVanillaRotorSoundsInEvents",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169533Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007946Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "efad04c5a8f11f4f2da3f843148f7e04"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_UseVanillaRotorSoundsInEvents_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169536Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007951Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "5b4044f54d407a9290e14704086b3fdd"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_VanillaHookTriggerChance",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169540Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007957Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "b08c984c343fca7f7de6bd52b0994f7f"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "Sandbox_VanillaHookTriggerChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169544Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007962Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "76e99c626393aac9ab7e8909fe597b78"
   },
   {
     "mod_id": "3672792485",
     "translation_key": "sandbox_HTT",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.1169547Z",
-    "last_seen_mod_updated": "2026-08-05T22:40:10.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.7007967Z",
+    "last_seen_mod_updated": "2026-08-13T22:44:00.0000000Z",
     "source_hash": "144c66bbf0dfb43f9c294695f4d49a11"
   }
 ]

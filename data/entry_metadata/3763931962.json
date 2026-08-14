@@ -1,0 +1,906 @@
+[
+  {
+    "mod_id": "3763931962",
+    "translation_key": "ContextMenu_VTF_FollowTrail",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "54f62b0eff2188ecb0377a5b9de46cca"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "ContextMenu_VTF_InspectClue",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "77738176fbc43245a8ce30fc3acefcee"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "ContextMenu_VTF_InspectClueQuality",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "518c8fc481e0b20c061a59a098d9f315"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_AdultDeer",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "69ded867c20b68c3fbfada6813d279fd"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_AdultRabbit",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "ec1fdbc2b4ab71581cfb8a0b0c5228fe"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_AlreadyTracking",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "313275baeddc41d13bf148d12ef06645"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_AmbientTrail",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "16d6d6501edc6cb6f71111f2020ea2be"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Animal",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "dc4ab1138457fd1de3ab136d7e788e23"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_ConsoleClearing",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "680250b21d23c03aa33ddad95f7dd509"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_ConsoleCooling",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "0cccd138b7622e34f4856b7558f1e677"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_ConsoleDirectionChanged",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "8e4fd9110861d2e2c7c94e3fa4d1a1aa"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_ConsoleFreshDeer",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "057f50d353a028caaacca6a054068699"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_ConsoleFreshRabbit",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "0ac7edfa190c17828476ea4459f0aefc"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_ConsoleFreshTracks",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "0e2e0ebde991cd61934f591ddbac9f29"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_ConsoleMovement",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "83bd083588287190589169acbb495007"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Deer",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "dbb461d119173c5ccfb8acb46c79a86a"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Direction",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "3ec4e3cfa89cfda53335b985069872a9"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Distance",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "dafebb00d95f61458d7c40ab50e03c8d"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_DistanceClose",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "03feeadec31966726bf1fe1ecea9f19b"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_DistanceFar",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "552887a33289168968ee4ebb19dc13fc"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_DistanceLost",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "c41fe9a062e319e69c0b17d983ac087c"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_DistanceNear",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "3f019fb7f0b97388e547f6449df7df7f"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Encounter",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "035af1e70a5087a26c173560e937fc9b"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterDeer",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "1eec28ee9bc07cf3975be127d24ed372"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterDeerFamily",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "fd1a5ad54024efc939ee1f6f80ec3138"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterDeerFawn",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "769bb3ee9a708b9012b2d0077413e3ab"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterDeerGrazing",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "21879759518745eb7f75b840a2a9eb74"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterDeerGroup",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "c8a09a61143b54cdf5e11475e914e1ff"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterDeerHerdGrazing",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "e93657187c6215046dead8109fa9b076"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterDeerHerdMoving",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "30b17916670b323a2f587dc6f86573b0"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterDeerHerdResting",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "ebfc361ac7ea391a0bb00af63013137e"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterDeerResting",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "3adf01ebdbc0c162723f1e989d109791"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterRabbit",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "ed6ffe17fe6aa8b7464f041b1b389654"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterRabbitEating",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "fe4bc806536ef2928e3936ae2cb1b40d"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EncounterRabbitPair",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "e58dca781cfa06b37bc54c27cc28b44f"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EndCorpse",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "52422999c84f5b75d59f628ccae72162"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EndDetected",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "a8856cea8d145e5db86db7252a9ec6b3"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EndDung",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "970e9c5042963eeb3351ea0db8e8195c"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EndFog",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "999b339c4b3ef990c33f8ee660ea2a9c"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EndLost",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "9e9f984ba5844a5bacc3a68f9dc7db6c"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EndRain",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "7f836f0a921eb03d3dfa6e580aee0304"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EndStale",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "201a7e5b92f7469d3d86ddbd7768286d"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_EndStopped",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "42f825a2173ab62fc87e3389a61aacc3"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Fading",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "2a253019df272f80aabe54fb2d52af4d"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_FogLostTrack",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "407524765afa2f7289b651042677f0bc"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_FogObscuredTrack",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "de078f0c1c727c1fac6c55b2e5ca85ef"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Fresh",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "2a706e3640160203aa2d7a90b32ea7be"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Freshness",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "a02c6c7cbfd33b62a8a92253e475ff19"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_LargeAnimal",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "05c4d4ee2cc4de108183bfe568d02f06"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Old",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "645b28c5cd81064542765da9ab19f63a"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Progress",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "0a20c5c5c79ace3917e7c4b3e18e15e8"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Quality",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "c002ee380d4041a678c0aa55c4e665cb"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_QualityExcellent",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "8994da72895b280eb94166af62f2f052"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_QualityFresh",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "15ce7c4239327eedd185092eea91f650"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_QualityGood",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "bbbe096dc9d820f15ae69c80c7259804"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_QualityNormal",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "278e400ad8ec7dd52b49e20346272720"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_QualityPoor",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "1be9a0f017f59ab54da10e8dd5f186e3"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_QualityVeryPoor",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "59b2a89ed13e405f7af79c1ffeaedc76"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Rabbit",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "3cc259485fb6dd0b000769f55acb493a"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_RainDamagedTrack",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "6ff9782efe55d532413ff169cf8c2703"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_RainWashedTrack",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "792ec15a45625685303fcd0b0dbf9262"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Recent",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "6b7e704853933686a4ebf79a1a220d41"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_SmallAnimal",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "0794a5f19db39042d0986c0528137f62"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_Stale",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "ad8ba91aeffb2f29c1c270323e4c073b"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_TooDarkToTrack",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "66eb9e37f10692ecf902561db2e766fe"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_TrackAdvanced",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "66e9350c8d2062dce825f86eb8857f39"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_TrackLost",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "118be02fbc1eeeb54ad6947914c615d1"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_TrackStarted",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "f3b0cd5a535bb79c257daf3d3e87255a"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_TrailCooldown",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "5d485f4f10628fd89513e544b9b41b74"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_UnknownAnimal",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "421b12b7cd552060d19f55726c5ceff1"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_UnknownValue",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "6dc0324b8541e860193826c02e6d0ae6"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_VeryOld",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "a7b22de916d309ed9dfcf4e5950abdc6"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "IGUI_VTF_WindowTitle",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "bac9dd689c3c5b5d7f4248dab53afba8"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "ItemName_VanillaTrackingFix.TrackClue",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "1d374621d23c446605beba141ec59d7e"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "b11465e85136645d8cb9b5a5599bde12"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "310ea56d4080e8e88c20a1dbbba5f9cf"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "511ffaceeeee466cbbb68ee5631a54e5"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option10",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "4c737016d4297e1fd19efa25a42ea312"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option11",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "cd410f97459c4cb2754a17da959f2429"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option12",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "70a1e06e450621925f440d273c26f1ff"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option13",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "1d6436ef63b3df90e27375564f9480f1"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option14",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "8045f6138222f330d78ce792371fb5b4"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option15",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "c5f41498e7d7757a87704836a87f8c33"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option16",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "519869f10ca0d4820455f53b1fc2b37d"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option17",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "9e4be3321cdb0deda18fb03a4ea6effc"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "2b951ec562a036c0c2eb38876a8af7df"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "50ae6774949936f98fa68f0b08b4689f"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option4",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "a056517c651c322897a5bc90339ba27c"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option5",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "2f96c947eae57156646a6fc159322433"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option6",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "cb49ee65f3d0f19e8424dc372cf6b4fe"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option7",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "528a29bd80306864f689cdfb7d03fa13"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option8",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "90120a46ff463a7b899fcb3ef57a7df3"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_option9",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "d27bb726af352ba85960f9d13e05ac4e"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerMeatCaloriesBonusPreset_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "2ef920a0bd8e8cc3e04d79a3b52c7eee"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerSpottingDistance",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "8320510748f3c4b31e5280b44b91360c"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_DeerSpottingDistance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "ae3d12fe2d821a2ee1e9ab94180b893a"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_EnableDirectionalSound",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "e83ec3fd90d981a07c1bb394622b494e"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_EnableDirectionalSound_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "9b1b0e9ecfafbfcfa85894a29aa2a4fa"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_EnableTrackingMinigame",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "8e18c0bcf56ae47181bb9c21d9e675fa"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_EnableTrackingMinigame_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "8625337fcb81a095473c8ac5bb440d82"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_LiveAnimalEncounter",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "59c9757c2b8f1a998c6756cb0d62ceea"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_LiveAnimalEncounter_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "e5cfea303bad2d3b6d2a74d90384308e"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_RainDamagesTracks",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "abd2d03a8715cec61e4aac21d47737e2"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_RainDamagesTracks_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "b41f9bf71b41726aa2c5a295816655a5"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_ReduceDeerDetection",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "e07709fdbde9094bada4d717116945a3"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_ReduceDeerDetection_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "deb1d8a083213a58a117ef804d371989"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_TrackingXPOnEncounter",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "7c50160590d354a0a069995bf86df399"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_TrackingXPOnEncounter_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "220fd698ebf3a987734b531edda52659"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_TrackingXPPerClue",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "068b41e7b140d5402503194d4c28794c"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_TrackingXPPerClue_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "784ab6a343b6ebd27f4435eebcf33d60"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_UseModTrackChance",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "108ebd663ca8c6eb78553f007a25d98d"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "Sandbox_VanillaTrackingFix_UseModTrackChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "ea4d7a3b8d6ffae99964874b58b8d6a6"
+  },
+  {
+    "mod_id": "3763931962",
+    "translation_key": "VanillaTrackingFix.TrackClue",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-09T12:24:15.0000000Z",
+    "source_hash": "ccd5cff66ea60c03992f6c2b2f57653e"
+  }
+]

@@ -1,0 +1,6 @@
+Sandbox_FastHoodOpening::en = "Fast Hood Opening",
+Sandbox_FastHoodOpening::fr::processed::unverified = "Ouverture rapide du capot",
+Sandbox_FastHoodOpening_HoodTime::en = "Hood Opening Time",
+Sandbox_FastHoodOpening_HoodTime::fr::processed::unverified = "Temps d'ouverture du capot",
+Sandbox_FastHoodOpening_HoodTime_tooltip::en = "Value in seconds, where 1.0 equals one second. The lower the number, the faster the hood opens. Recommended: 0.7",
+Sandbox_FastHoodOpening_HoodTime_tooltip::fr::processed::unverified = "Valeur en secondes, où 1,0 équivaut à une seconde. Plus le nombre est bas, plus le capot s'ouvre rapidement. Recommandé : 0,7",

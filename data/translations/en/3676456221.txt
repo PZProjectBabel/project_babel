@@ -1,0 +1,6 @@
+Sandbox_LuaDigitalWatchUI::en = "Lua Digital Watch",
+Sandbox_LuaDigitalWatchUI_MinuteResolution::en = "Minute Display Resolution",
+Sandbox_LuaDigitalWatchUI_MinuteResolution_option1::en = "Mod Default",
+Sandbox_LuaDigitalWatchUI_MinuteResolution_option2::en = "1 Minute",
+Sandbox_LuaDigitalWatchUI_MinuteResolution_option3::en = "10 Minutes",
+Sandbox_LuaDigitalWatchUI_MinuteResolution_tooltip::en = "Controls how often the minute display updates. 'Mod Default' uses the framework or mod author's preference (1-minute by default). '1 Minute' forces the display to update every in-game minute. '10 Minutes' matches the vanilla clock behavior.",
