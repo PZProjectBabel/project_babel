@@ -1,3 +1,5 @@
+Sandbox_ComputerPowerConsumption::en = "Desktop Computer Power Consumption",
+Sandbox_ComputerPowerConsumption_tooltip::en = "Base hourly fuel draw of one running Desktop Computer, before the Generator Fuel Consumption multiplier. Set to 0 to make computers free to run. Vanilla references: fridge 0.08, fridge+freezer 0.13.",
 Sandbox_ConnectedGeneratorsB42::en = "Connected Generators B42",
 Sandbox_DisableComputerSystem::en = "Disable Computer System",
 Sandbox_DisableComputerSystem_tooltip::en = "Disables the 'Computer - Generators' context menu, all terminal tabs, pager inventory options (Read Alerts, Volume, Date Format), and the Set/Rename Generator Network ID option.",

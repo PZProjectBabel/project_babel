@@ -35,5 +35,7 @@ UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Name::en = "Return Materials 
 UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Tooltip::en = "Returns materials obtained by dismantling an item to the container the dismantled item came from.",
 UI_P4TidyUpMeister_Options_RestoreLocation_Name::en = "Restore Original Location",
 UI_P4TidyUpMeister_Options_RestoreLocation_Tooltip::en = "When returning used items to the ground, they will be restored to their original placement location.",
+UI_P4TidyUpMeister_Options_RestoreOpeningOutputs_Name::en = "Return Items after Opening or Unpacking",
+UI_P4TidyUpMeister_Options_RestoreOpeningOutputs_Tooltip::en = "Returns items obtained by opening containers or unpacking boxes to their original container. Leftovers and empty containers produced by opening and eating are returned regardless of this setting.",
 UI_P4TidyUpMeister_Options_UseContextMenu_Name::en = "Show Re-Equip Toggle in Context Menu",
 UI_P4TidyUpMeister_Options_UseContextMenu_Tooltip::en = "Adds an option to the context menu that enables or disables automatic re-equipping after actions.",

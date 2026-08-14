@@ -2,7 +2,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_ModName",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "48a6d5e985db592aa48f77939029866d"
@@ -10,7 +10,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_done",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "78f5fabb26fd9a25121eeb5728b63142"
@@ -18,7 +18,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_dry",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "2f64e75810d5f85cc950c688894ae135"
@@ -26,7 +26,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_natural_note",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "dc3f29f94370d799b2ad591405623bc7"
@@ -34,7 +34,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_no_soap",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "3471f634757e1cc274d5affa9db6f31f"
@@ -42,7 +42,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_no_water",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "59840f7493148d5d1971f3131b5769ae"
@@ -50,7 +50,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_nothing",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "268a704c678eec944ad64195e6a3e0ed"
@@ -58,7 +58,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_option",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "c42b84e8e466d3fd78e12caaac98a1f4"
@@ -66,7 +66,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_started",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "04b640fcfb82823a6d5916535206760d"
@@ -74,7 +74,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_stop",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "995fe917b70126ba5eb167dd8b2ca62f"
@@ -82,7 +82,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_unreachable",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "d5861db495ae583bd9befce40526679d"
@@ -90,7 +90,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_with_soap",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "8cd07cec8978e93e280092f86c788bf5"
@@ -98,7 +98,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_with_soap_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "570ed15d0d0215fa927641ed932b0780"
@@ -106,7 +106,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_without_soap",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "b3c785212eb39d6ba534f73028985211"
@@ -114,7 +114,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_without_soap_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "04f0a0ff886723f7e35dfed2c34523b6"
@@ -122,7 +122,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_adding",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "f6989ff2089a76573fb67c29cc54ff70"
@@ -130,7 +130,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_done",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "79cf122ac5636f27c5e75b5eae2f1c85"
@@ -138,7 +138,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_interrupted",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "4e0d97b47b4cfb4f13aa4fbf1bcfa521"
@@ -146,7 +146,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_noingredients",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "e4216467b9d5c27d9ac78494a185dab3"
@@ -154,7 +154,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_option",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "89d70aa73facfd31bfef070b78307560"
@@ -162,7 +162,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_option_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "7e11f4a0976fd08a9475c2d403d3b40e"
@@ -170,7 +170,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_return_failed",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "a04744b2f05bd6b843ad6df0ee6ee81f"
@@ -178,7 +178,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_skilled",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "c0b2c3e10f8ab90f93b1070112ea13a1"
@@ -186,7 +186,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_started",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "61ea9cb0a53d92a3ed56eae4867402f3"
@@ -194,7 +194,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_stop",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "c58586d48fa36a23547cee038f1bc17d"
@@ -202,7 +202,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_done",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "e7cf6b91d0d4b5477b00225b655c8044"
@@ -210,7 +210,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_inuse",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "1c67ab107e9ffe2d3b6f3ecc1b4be614"
@@ -218,7 +218,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_keeping",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "8f8e764193cb5517d47f3edfb741120c"
@@ -226,7 +226,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_nothing",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "7a0f6e4d1706e57883aeff14c85b1b20"
@@ -234,7 +234,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_notool",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "9fa281ae2c90857ec954d1f15dcb1f96"
@@ -242,7 +242,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_option",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "a18c419bfd78f6fad32204984d448a27"
@@ -250,7 +250,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_option_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "0a5cc22a875e43e154de01aae0313bcf"
@@ -258,7 +258,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_started",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "7a8621f3ef3dfb59226e9d9f8958de69"
@@ -266,7 +266,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_stop",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "f5d78048e3ef9156cdb249e7b8ed698e"
@@ -274,7 +274,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_working",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "fd2289f1752d4c5d55c0154508d0407d"
@@ -282,7 +282,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_fabric_any",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "2bd61dd98ae6390d5ba5e398f560c665"
@@ -290,7 +290,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_fabric_denim",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "45b3d63e4333ed6d4eef7d01a962cecb"
@@ -298,7 +298,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_fabric_leather",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "87ab4b56148c47c4743451a366a13bff"
@@ -306,7 +306,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_fabric_sheets",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "587fa3e45c049b69faee0877416a2d28"
@@ -314,7 +314,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_notify_halo",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "8f3aa7add3c21c94a9056384feb486ed"
@@ -322,7 +322,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_notify_off",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "0fdd6ac5f2945c58eb62b442a5dbee4e"
@@ -330,7 +330,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_notify_say",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "a8afcda1ad558276f84dd3b1b5415632"
@@ -338,7 +338,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cleanSelf",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "e4e8843f069accf5656671d09e48ef92"
@@ -346,7 +346,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cleanSelf_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "d12a1bb78858956afbb708292d6180a4"
@@ -354,7 +354,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cleanWring",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "8b60afab16eb8512307174fa1b42cbc5"
@@ -362,7 +362,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cleanWring_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "b53b350424a1e9480df9edcd03553f2d"
@@ -370,7 +370,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookBadFromLevel",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "9d0031341169b970e70cce804635c58e"
@@ -378,7 +378,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookBadFromLevel_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "fd081795c1e7ba66465bf2d33f59bf0b"
@@ -386,7 +386,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookMaxIngredients",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "d745d4403e605140b1b905c16764636c"
@@ -394,7 +394,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookMaxIngredients_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "9bf5af69ce5f452ce238d8fec0c1f25b"
@@ -402,7 +402,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookPriority",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "74976f049b4b492adf55ba2460a6a162"
@@ -410,7 +410,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookPriority_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "b06c03f5f4957c781962a35ddff82f83"
@@ -418,7 +418,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookReturnItems",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "fb1ee190e2ee5fa6ac80b57f5c8f9d72"
@@ -426,7 +426,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookReturnItems_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "179e40a3735d0e78a103dade0facec5c"
@@ -434,7 +434,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSameTypeMax",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "0659a57eb557df9160997d75120f129f"
@@ -442,7 +442,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSameTypeMax_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "e7ea2e64134f603dab28abef89e80f46"
@@ -450,7 +450,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipFavorite",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "5b12c52fcbf4557547aa47b65bcb39eb"
@@ -458,7 +458,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipFavorite_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "f8092dcda220977c51c33b7958e77c55"
@@ -466,7 +466,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipPoison",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "8053833b1ef39dfae5ed881e6b77880c"
@@ -474,7 +474,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipPoison_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "bf1ac9210fb0dfcd5673716a8674da94"
@@ -482,7 +482,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipRotten",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "0ace412e03c576726492171581c8462f"
@@ -490,7 +490,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipRotten_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "1403b9f3eb573443bf05571167aec260"
@@ -498,7 +498,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipUnhappy",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "8bdbbbd9a718d320e5c94faee4ad4562"
@@ -506,7 +506,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipUnhappy_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "7dfcbb371a2926423da58a21adc9a870"
@@ -514,7 +514,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSpiceMax",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "c084f5d4c17659957c06c4fed5d59d54"
@@ -522,7 +522,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSpiceMax_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "9b60b7bc5cfcf9b4907daac67d9a4620"
@@ -530,7 +530,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSpices",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "6145b84e3b8633639da73a6aa6b03621"
@@ -538,7 +538,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSpices_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "a563c7b8b9617b865f585f4132efa267"
@@ -546,7 +546,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleMax",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "3d50c442af454269095daf3e5c2e41f9"
@@ -554,7 +554,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleMax_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "50d06630a14b3d2ff503c91d439d0a10"
@@ -562,7 +562,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleResultsToSource",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "1e7fb53ecf9ad06453dc0a9b3dfe26b7"
@@ -570,7 +570,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleResultsToSource_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "ac9ac3250908f22f18b522db732c553a"
@@ -578,7 +578,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleReturnItems",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "d5939d68c266fb357c933025cba5a5a9"
@@ -586,7 +586,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleReturnItems_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "048670e8e49db52b0a78adfc4d4237f9"
@@ -594,7 +594,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_fastForward",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "0d7a99b200e08c3834391072fdf948b5"
@@ -602,7 +602,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_fastForward_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "a27bfea70a76cdba260eb7affce898bc"
@@ -610,7 +610,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_notify",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "32524be0a83cb68c6fc88832331884f0"
@@ -618,7 +618,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_notifyEvery",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "850b57841ffeb6c34c91c83cde9f1d5f"
@@ -626,7 +626,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_notifyEvery_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "b9873283f578990e35a8c08a1fceaf07"
@@ -634,7 +634,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_notify_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "688c3eea8ee4bc96654a3ca50c32aa5b"
@@ -642,7 +642,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readMagazines",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "1abec305027a272a1813c93b70ca7ecf"
@@ -650,7 +650,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readMagazines_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "0b26c844c3e6a4861bf571dffa9a2cba"
@@ -658,7 +658,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readMaxBooks",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "4cab66d717f1c325b90d0be0350dc451"
@@ -666,7 +666,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readMaxBooks_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "3198ba5a78f24b7f480cf6eb21966859"
@@ -674,7 +674,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readNearby",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "7ea836c58703754a7471d90ab5a8371e"
@@ -682,7 +682,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readNearby_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "f1469a38f458184128e2ba623fc9c663"
@@ -690,7 +690,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readReturnItems",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "43ed8663771922ff3d7d765c52234077"
@@ -698,7 +698,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readReturnItems_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "b35477e820c56ac2472ef7003933b0db"
@@ -706,7 +706,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readSkillBooks",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "4c42f857b0286a627ce00494024b0bfd"
@@ -714,7 +714,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readSkillBooks_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "730fc7c588532ba28b81712302722115"
@@ -722,7 +722,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_reloadMaxCycles",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "ec5b5c7e11dc02a65c2236477954a07d"
@@ -730,7 +730,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_reloadMaxCycles_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "3e111561b7acfcd478586fba17612131"
@@ -738,7 +738,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_sterilReturnItems",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "6c4b689e8fc856e22ea9e189804ab105"
@@ -746,7 +746,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_sterilReturnItems_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "91ce5d2a1969911cc13d7d9bba05e377"
@@ -754,7 +754,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopDamage",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "8c1b97725d36fe24e16477db6a035c63"
@@ -762,7 +762,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopDamage_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "86ae650006b5ff18fdcdeb38befb2927"
@@ -770,7 +770,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnAim",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "acb5620c8ddf27a1db77aa5ce297f81e"
@@ -778,7 +778,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnAim_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "44656cec4b8303f6e7a2e3345f6bc742"
@@ -786,7 +786,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnEsc",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "7651da51fc949d7c1a9b19aeb74a01fa"
@@ -794,7 +794,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnEsc_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "8780144cba1578c3ef5fbffce1ebb500"
@@ -802,7 +802,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnMove",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "78290b81a485f43a2424ea83c1b3148d"
@@ -810,7 +810,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnMove_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "d3fe841637e87b99b5faa6c9fe7299d6"
@@ -818,7 +818,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopZombie",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "09589a28f52cbbf6ed427b1a8ea8babc"
@@ -826,7 +826,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopZombie_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "f79704dd7296ae76e1ee1e8ecaa4d33d"
@@ -834,7 +834,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorFabric",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "4c1ecd248083cf2955f95c6c13917a3f"
@@ -842,7 +842,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorFabric_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "006b0f6f793060cb0afc1f2c42801784"
@@ -850,7 +850,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorHolesFirst",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "f9397487bb2edb4e40e13dbd8edfc290"
@@ -858,7 +858,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorHolesFirst_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "037fbc5958bddc5f7152f967cf8f6bd2"
@@ -866,7 +866,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorMaxCycles",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "017583e8701f994e27729cdcf4223177"
@@ -874,7 +874,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorMaxCycles_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "2b1d23204e7ae4d7df790d733ed2088e"
@@ -882,7 +882,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleClean",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "4d1e9b14b7e4692e7c2fc9dd6800921a"
@@ -890,7 +890,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleCook",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "d88a6dfa4b4532985fffdfccd0930e70"
@@ -898,7 +898,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleDismantle",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "bd7b1ac6993778195ea4f21aba6e7535"
@@ -906,7 +906,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleMisc",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "eaf515dda1433ac60bc80ed731a7f714"
@@ -914,7 +914,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleRead",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "edd523dda7ef95ec8cf5247f805ba50b"
@@ -922,7 +922,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleReload",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "402de1d0a6188e4a6b56e245c9415ca2"
@@ -930,7 +930,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleSafety",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "9fb3401e8b68e86a5d24793b929a5099"
@@ -938,7 +938,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleSteril",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "7b2808a7777f258e2e23823d6297cf8f"
@@ -946,7 +946,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleTailor",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "e4c7c33cc5631b6ace91b0a6b50cbaeb"
@@ -954,7 +954,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_prio_balanced",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "8c4e8c1085779ad1f26f35a1f1fd30ce"
@@ -962,7 +962,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_prio_calories",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "98656ce03364abe26408aa5785f27b4d"
@@ -970,7 +970,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_prio_hunger",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "b77824d602a2577614e225ed1b2f6b70"
@@ -978,7 +978,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_done",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "6bef8c5f1449c7db9f3f41a4fd6d7ee0"
@@ -986,7 +986,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_illiterate",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "53e8d8de20f89b5242ec6f7fa887befd"
@@ -994,7 +994,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_nothing",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "bd9874c74de02ead13d6dea3079cf82f"
@@ -1002,7 +1002,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_option",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "f4c69073cccf53dae743d42182215fe3"
@@ -1010,7 +1010,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_option_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "c8f13c803daa6b4ee072c5749157d537"
@@ -1018,7 +1018,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_started",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "630d42e0ff82d5402db8ecd3d97f3d5e"
@@ -1026,7 +1026,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_stop",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "3cb38b57a1e5ac47a989f18766ce3bae"
@@ -1034,7 +1034,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_stopped",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "7d0872a71fc9a589428fbad68b9b8598"
@@ -1042,7 +1042,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_toodark",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "f86cbdcdef40028336248bd7970f2445"
@@ -1050,7 +1050,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_cycling",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "808cb8ca392cf4ccddd55e241d101d02"
@@ -1058,7 +1058,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_done",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "796ee9f9211fd1a4ac017d696a00d945"
@@ -1066,7 +1066,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_interrupted",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "6fab0c4d884c732e34bd6524fea550b2"
@@ -1074,7 +1074,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_lost",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "1e22489dd52487a1fc984f391375e6b5"
@@ -1082,7 +1082,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_noammo",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "40b055dfb8b867d850a557462b3e13fd"
@@ -1090,7 +1090,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_nomagazine",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "bebc55c56b7789adbfbdae7b32038106"
@@ -1098,7 +1098,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_option",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "bd91baff5ff79b3884309519b6e291d1"
@@ -1106,7 +1106,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_option_mag_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "b42021a492b4e5dc8dafa2990f337014"
@@ -1114,7 +1114,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_option_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "efaa7e079f8c8b5578a11cb317bf1e80"
@@ -1122,7 +1122,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_started",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "c489f0cc9091bf89257fec9e140555d9"
@@ -1130,7 +1130,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_stop",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "d597ec32696aca3e05252c0de2aebd33"
@@ -1138,7 +1138,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_speed_2x",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "5655ad23164e64965375483aa7d0c1a8"
@@ -1146,7 +1146,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_speed_3x",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "1aa5897df3e13005f73607b01842a76c"
@@ -1154,7 +1154,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_speed_5x",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "f8167e4bd60c255168fddc83624d4744"
@@ -1162,7 +1162,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_speed_off",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "e8348b8510c6d70f683aa6141f6d3833"
@@ -1170,7 +1170,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_bandages",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "fb67a05af09d15550cdca883461ccef5"
@@ -1178,7 +1178,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_bandages_option",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "562a12b7fe69fa0c7c1d9c395a9b3933"
@@ -1186,7 +1186,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_done",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "51b2f7827cdffc712da3be421b407cd8"
@@ -1194,7 +1194,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_nosupplies",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "d94da999e77a20fd1afccdea86e2a4b9"
@@ -1202,7 +1202,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_nothing",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "8af7cba3dd3341a44349f6d8c4419eeb"
@@ -1210,7 +1210,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_option_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "9c4476eefc89c10356a20b0ff2475cfa"
@@ -1218,7 +1218,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_rags",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "d6337bf917f8a7d8514a24ec8971efd5"
@@ -1226,7 +1226,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_rags_option",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "fc4bce7cfe53852227352d43b2fefd3d"
@@ -1234,7 +1234,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_started",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "49aef7a4c440120388ae6603f61ec675"
@@ -1242,7 +1242,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_stop",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "89fdbd4f7a3d236bead1cffaf35203da"
@@ -1250,7 +1250,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_working",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "4465564b6591390cfb53acf0b09b190e"
@@ -1258,7 +1258,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_damage",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "8b7489e0f52dc73cbfa671751a4a2cbd"
@@ -1266,7 +1266,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_error",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "bd5cd2672ba94cc0b03940103100cae9"
@@ -1274,7 +1274,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_generic",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "358af490bc490f6c83e9d0123e89c030"
@@ -1282,7 +1282,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_manual",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "579f86f163857ab707c5a6d3b59af3d8"
@@ -1290,7 +1290,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_replaced",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "4cc32e34205da17e5bfa1dd1c7466097"
@@ -1298,7 +1298,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_zombie",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "c5023150d52a39d7cd421d66e73c0f81"
@@ -1306,7 +1306,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stopped",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "b2a1950e90f5ab20a66354eb3746760e"
@@ -1314,7 +1314,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_button",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "579cdb00f9dcdbd1560a3bfaa19469f7"
@@ -1322,7 +1322,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_button_stop",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "6394542d71cd1f1279e17c77c9d26b9d"
@@ -1330,7 +1330,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_button_tt",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "fbb37598e9aa10d88294d0d68c567d25"
@@ -1338,7 +1338,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_done",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "75e6d350351f99647355bcb86c4d3791"
@@ -1346,7 +1346,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_interrupted",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "d8a6ce11de26daef2c8710ddee59968f"
@@ -1354,7 +1354,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_lost",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "3745655761a2f7747595cf8021735044"
@@ -1362,7 +1362,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_nofabric",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "94c5096573784ae5ececed3c7e6c2730"
@@ -1370,7 +1370,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_noneedle",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "b00592640ca7292e3b261bd8ec6f2b84"
@@ -1378,7 +1378,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_nothread",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "eb25b62499585e3ae38a784db14f59ac"
@@ -1386,7 +1386,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_sewing",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "335c02c1cfef34a036487a6683e85385"
@@ -1394,7 +1394,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_started",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "1eb5e97de7ad62cd9baa6d7edba9bc9d"
@@ -1402,7 +1402,7 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_status",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
     "source_hash": "93bdd055e3559d1c574947c196dde609"

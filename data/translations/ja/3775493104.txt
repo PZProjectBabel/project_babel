@@ -4,3 +4,7 @@ Sandbox_LemonsAID_EnableLoginZombieProtection::en = "45-Second Login Invisibilit
 Sandbox_LemonsAID_EnableLoginZombieProtection::ja::processed::unverified = "45秒のログイン不可視化",
 Sandbox_LemonsAID_EnableLoginZombieProtection_tooltip::en = "Makes a player invisible for 45 seconds when they log in. Each account can receive it only once per real-time hour. Players who are already invisible are left unchanged.",
 Sandbox_LemonsAID_EnableLoginZombieProtection_tooltip::ja::processed::unverified = "ログイン時にプレイヤーを45秒間不可視にします。各アカウントはリアルタイムで1時間に1回のみ受けられます。すでに不可視状態のプレイヤーは変更されません。",
+Sandbox_LemonsAID_EnableServerBannerStreaming::en = "Server-Hosted Banner Streaming",
+Sandbox_LemonsAID_EnableServerBannerStreaming::ja::processed::unverified = "サーバーホスト型バナー配信",
+Sandbox_LemonsAID_EnableServerBannerStreaming_tooltip::en = "Lets Lemon's Aid send PNG banners from the server data folder. Disable this emergency switch if banner delivery must be stopped; packaged fallback images still work.",
+Sandbox_LemonsAID_EnableServerBannerStreaming_tooltip::ja::processed::unverified = "Lemon's AidがサーバーのデータフォルダからPNGバナーを送信できるようにします。バナー配信を停止する必要がある場合は、この緊急スイッチを無効にしてください。同梱のフォールバック画像は引き続き機能します。",

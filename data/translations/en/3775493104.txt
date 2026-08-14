@@ -1,3 +1,5 @@
 Sandbox_LemonsAID::en = "Lemon's Aid",
 Sandbox_LemonsAID_EnableLoginZombieProtection::en = "45-Second Login Invisibility",
 Sandbox_LemonsAID_EnableLoginZombieProtection_tooltip::en = "Makes a player invisible for 45 seconds when they log in. Each account can receive it only once per real-time hour. Players who are already invisible are left unchanged.",
+Sandbox_LemonsAID_EnableServerBannerStreaming::en = "Server-Hosted Banner Streaming",
+Sandbox_LemonsAID_EnableServerBannerStreaming_tooltip::en = "Lets Lemon's Aid send PNG banners from the server data folder. Disable this emergency switch if banner delivery must be stopped; packaged fallback images still work.",

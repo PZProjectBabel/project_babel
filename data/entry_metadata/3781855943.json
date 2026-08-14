@@ -1,0 +1,946 @@
+[
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_CantPickup",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "f4d1d9a300efe652e43d4c42a4835a55"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_EmptyFirst",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "49be87fa53d0f8caa52c8d6a0636200a"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_NeedLoader",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "2a2a0347c077bede2868f8e07fc5d11b"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_OpenStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "944df862df17a1ae5bc754380624fde3"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_PickupStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "fc971ea1afe0656a7fcab16a64c8ed88"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_PlaceStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "ffa95d16d42461f2b2dc08ccbefe7d38"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_alreadyFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "89b1aa5a5867876dc3b32ffa2a917149"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_badRequest",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "f6bcb85378c69e1efef3dd0857826705"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_busy",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "d218b442a586e4527910f5b42455f26d"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_consumeFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "c41b89703c125e911b4c207100566c04"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_createFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "e66043f43839651feee1657207929dcd"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_emptySelection",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "452d92aaa3e32f3147f97a6e20a40b4c"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_full",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "5f18eae7495f84d2f1a1635b9c86671b"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_inventoryFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "5ef35eaea1faf762b11b4cab7b9482aa"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_magazineGone",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "cace948ff1427fc87ebebfe06f2d1769"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_noAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "8fb705220e153baa60e8465e2120ce8f"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_noAmmoType",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "9cfa826ebd78bf3b2ec9202244a0c848"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_noLoader",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "38916397b52ec3ecb37d0a02bf7db4de"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_noMagazine",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "33ed5249b227c08adc8fb6fb18528b4d"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_noQueue",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "1c4e763b50dfc789ef698f3af7baac24"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_noState",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "03cbc46918f0c14a2d4dc056a7730bda"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_noTarget",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "42f3a392f618d0797796fdfb04292f9b"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_noValidMagazines",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "3c9186491023c0805fea5a0e82355827"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_notAuthority",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "0eec79f9331c138a9a5d83f88ab681a2"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_notEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "8743ce1438f89b8a7ca0db1e2477f237"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_notFound",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "dc9cd6bf4ceb92f6715d8d134e5bb8b6"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_occupied",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "6ed52ae3d70b573820d1aff184c2c69a"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_outOfOrder",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "2fa6d3d4925eac34e1dbc9485a45e62d"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_queueDone",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "4f9a0a685b82f162333c4b1c7873d9a8"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_seatFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "1da6d0d6d77dae7fce067a9658475801"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_setFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "216a81f78ec827db1ab8de4d66145936"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_spawnFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "8acf92db76aeb54ac9d1696b00378933"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_storeEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "6634b15c26f94a35be573a8636ce38e7"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_takeFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "19d0d4630ce8db5be0c9cc858239c686"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_tooFar",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "d9a5018ace763fc2c0e816b32ff5e86b"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_tooMany",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "0dfc8c4835d956336e144616bad65d51"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_Reason_wrongPlayer",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "14699459bdbde8863f232c5bf5e30d02"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ContextMenu_MagLoad_SpeedLoad",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "54d46e77d7e2265b58eb73297f610f17"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_ContainerTitle_MagLoadStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "c822bbd304821ebb9027c381e9a9d2f6"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_AmmoSupply",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "c963c1b96d079c96e0ae016ed2e7b6e9"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Cancel",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "6a83ec625b7bd46025c5d66a2624a7f0"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Cancelled",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "80d931ba6544c0c900b4a1f99bbc3c42"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Close",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "251b7bbe0436537f1ecead1568a1ffa9"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Done",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "6c3f709aadf229705dfa35ef4bd2f723"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Full",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "fd80b37dbcf4fc42f55da4cc8e6b79cc"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_InStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "2f7ad82681e00b1bbaa7acccb5788d5b"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_ListTitle",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "87cff5b46dc9576fb82f41f9881a2b69"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_LoadAll",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "3fd6c6b115ce570a0f0df5ab04a8e224"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_LoadFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "f6e8507d0029e56492a334c28b2f14a0"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_LoadSelected",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "dbde46a19c747aac9643feec5c83ebe2"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Loaded",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "e3b48648f0f663a069f20b73b178734f"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Magazines",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "0b084e33e65b99057a5c656b5556838d"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_NoMagazines",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "545262d16044491f89f597070614d83c"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_NoStock",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "5539e57ddf4151999d9f2abdb1db0b3a"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_NoneSelected",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "89498795be696b6987752af0cbfa6515"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_PageNext",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "83aaeda7fe474944cf306d73e954683c"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_PagePrev",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "2c5cf1dd8c6dc04aba45207d6729a344"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_PickedUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "3722eda7c0bf6c6e1e7169fd82ed47ab"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_PickupFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "771e5d0a0d18add0b0cda29d59852337"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_PlaceFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "d870b5f5a27d7f6786cf2fac19f10bd0"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Placed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "170d80e762094e21ad20c298ac8fc7de"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Ready",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "10ffc8eacd314ae9eee04f2e33fe854a"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_RequestingQueue",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "050b9cd133e131c3d4c11c2ea81c5ea4"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Running",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "748b848a00e2ad7b18e6c12020a76f50"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_SelectionCleared",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "0e5aa48aee1014af3d120b128b65aebd"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_State",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "ce044c2b5fc510d7946569c443b408f8"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_State_A0",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "f615ae6d0e73c6749bec08244d182b89"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_State_A10",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "3d2129e68e87e0f74251ed807c962e4e"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_State_A20",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "0857a9b9f03f886d6021d78b5598d259"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_State_A30",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "acec80fd15ebabdcaafb3e7021c59812"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_State_MAG",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "2b0f87e7fd5bcdebfd9b6d16099efc3f"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_State_NOMAG",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "49ef631e8a74f42a045132a3d8d96353"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_StationStatus",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "c151de5438b4f598bc56bad3082075fc"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_StationTitle",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "e25cb132b87d5510d612c28b5f8e3bb1"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_alreadyFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "5771b35330d1b4afa45a6c1b3bc0338a"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_badRequest",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "97ccfc3d72ea4ed46e201857f10d18fa"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_busy",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "becf79315d136cecf91e428e8d565f7b"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_emptySelection",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "39433110a05c8372821e28627b6b40fb"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_magazineGone",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "3c16aa4c5c8ec9f733f43a5a6a99fc0d"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_noQueue",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "670f47db4c937b90a24cc9d2138ff560"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_noValidMagazines",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "eee722e1922cd0adcf27b7937cc4c1a2"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_notFound",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "3608b0481bd190666cd33dc9a89857fe"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_ok",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "11fdc66fb1841bc71fe78f9cbdb2c9e4"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_outOfOrder",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "48fcc510ef4d236be467987effa813cb"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_placed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "413ca6d7de53ba5748131f65dcfbfbad"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_queueAborted",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "967999e686d195425ac11590fbaba1f3"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_queueDone",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "335726b1a2de920708ad9c92f7e5ed00"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_queueStarted",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "6bc2972e18378e55b2155d73cbc2c52b"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_seatFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "90441f7db49f5943ffa8503c25b78271"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_setFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "cb9a5a540291f818114ea48400f421c1"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_stepStarted",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "6b89d1b48cfc31576151bebbdbd8e8de"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_storeEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "aca0ab9bd5342922558023e6b8a9b7f2"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_takeFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "0f792dc224206f0644f21b44c5d53323"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_tooFar",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "0f624ac30d37ca236e14b3664477c643"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_tooMany",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "89f8f90ba6d13d9da3d749703c2b69e1"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Status_wrongPlayer",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "eaf86e4024eb4f2a0a97a269a1fb4aba"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_StoredAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "b3def2ddd7aab0c451c086cf828817e4"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "IGUI_MagLoad_Subtitle",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "d1a9d9d3faaa40d26221d78a1ded6872"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ItemName_MagazineSpeedLoaders.LoadingStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "a5c79528854b8da15bec06c2a3c63a8e"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ItemName_MagazineSpeedLoaders.SpeedLoader_Civilian",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "6c99e06dd9f53ca40a6feeb7cb04ced4"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ItemName_MagazineSpeedLoaders.SpeedLoader_Military",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "c9f762c02c74d1791f4b721d49d7150b"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ItemName_MagazineSpeedLoaders.SpeedLoader_Professional",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "9447de83bad8fc17019c0f5c29134fbe"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "ItemName_MagazineSpeedLoaders.SpeedLoader_SpecOps",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "01e8e72fd3fe11f76058ea00bbcdb5fc"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "f1b56e27f38c29db4f0fc538080bcfc1"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_LootSpawnMult",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "8f31afec9c6f1b05dc23f9259c2a3f68"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_LootSpawnMult_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "c0a0603db2142c29a67034f23eed51fc"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_LootSpawnMult_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "75a33f878eeebff4328637034cb74dad"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_LootSpawnMult_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "a20b37883221eb319d87d2b9da27d6e2"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_LootSpawnMult_option4",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "3bd4bd07d1a1f80ac1e8d69c7cc0bd00"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_LootSpawnMult_option5",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "bbc79bd93c684802a9e55014723bb976"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_LootSpawnMult_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "a21ecb803bcb2ad22a1361d60c172668"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_ReloadXP",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "95a8a046f7674c80642d3d84148d1169"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_ReloadXP_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "a2fc8fc8d0c9c145f1260b98ceee96c3"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_ReloadXP_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "56040f3f46032bf16a622d1dcb048805"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_ReloadXP_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "5ad280844dab80acbee1fdb020d57a52"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_ReloadXP_option4",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "0fdaed3290fbd89c04d8e3d7247f1c7e"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_ReloadXP_option5",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "f1fa0529d067bede22d8567489f5af2f"
+  },
+  {
+    "mod_id": "3781855943",
+    "translation_key": "Sandbox_MagazineSpeedLoaders_ReloadXP_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-13T10:02:56.0000000Z",
+    "source_hash": "4ad01943b78a8178513543f8b80cc531"
+  }
+]

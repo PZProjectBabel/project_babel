@@ -1,0 +1,954 @@
+[
+  {
+    "mod_id": "3777762166",
+    "translation_key": "ContextMenu_PlayableChess_PlayChess",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "116325060b27a396162d16683b2e6c1e"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "Sandbox_PlayableChess",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "2d6b809118369c8f1db78c8ea06e9701"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "Sandbox_PlayableChess_ImmersiveMode",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "9e4572e229a25460f21485b2a43dc584"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "Sandbox_PlayableChess_ImmersiveMode_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "cf340ba77ec9cfc55d9b96994d82770f"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "Sandbox_PlayableChess_RequireChessPieces",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "c0fd1b2453f84645ee6d8fa5fd5d0a72"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "Sandbox_PlayableChess_RequireChessPieces_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "e55f0864cc0694a81dc6a094ad969c88"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Abandoned",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "20ed7b8247e9c18e2e5fe042826d3294"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_AcceptDraw",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "fece974137fdd9507b7d316592c5b6dc"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_AcceptRematch",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "888ce715bd1ca933de6c52f1734800c5"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_AccessDenied",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "808ea032588543fee35889f33ccd8781"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_AgainstBot",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "c6b4d4a3ab4246e24ff138691c716177"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_AgainstBotImmersive",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "8d1071b97f3fb9f606bb61279f9d7add"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Bishop",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "f020e9219cbbf2d5b725d3f5a4c197df"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Black",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "90bc50e96a9bdea61d80dcd3f036dc7f"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_BlackWins",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "c39f1348a88fd313e3ce4f09ef6702e4"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Board",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "5270f356af518fe8e8c49df6149890bb"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_BoardBusy",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "7b451f0552b899436bec5782cfbbd043"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_BoardRemoved",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "1b3f8e6f62d7825ecd832fc4c0da6aaa"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_BotDifficulty",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "2580a0b061fc2214f18c3c5de88f4b70"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_BotDifficultyValue",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "ce77ca0b3d876b937fa8f8d6c7bf8886"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_BotThinking",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "dd230ec01432f2f0aef4df6505a0e87b"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Cancel",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "973137726957e420dd5cec967412edbb"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Captured",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "f9d8836eed9ec7003292eda5c2fbb99d"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Casual",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "d5cd781787871e259aa5a348fdf20489"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Check",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "f824bf453b323cfcd5447076d44270ac"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Checkmate",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "a7e7e5174df3316e2a41074f1205f798"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Close",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "71a190c12571fd918ddb434960ccce44"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Color",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "ddc127b947e933cd9ab5dff79f086f34"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_ConfirmLeave",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "bec3c633e2c8f65e6abb579c290eafeb"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_ConfirmResign",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "49ca6443466e57432f9f98f22730656c"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_ConsideringReply",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "4428e825912496df2a74182e731135f4"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Countdown",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "3c7badb7f5654b1e81a954464d89ef94"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Create",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "caf1d20c2a457fa2de09359d352db023"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_DeclineDraw",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "cb9b36a9db0b30d70d4bb3ba3e9ce00f"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_DeclineRematch",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "3be2d16a5e0f2b04f479b5d75e7e4d27"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Draw",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "ba631653d91fbb7d146fc2bc92193e69"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_DrawAgreed",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "c518613cb0fb3008042b64fa9c924bac"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_DrawDeclined",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "76926358f78cd0e3bec006ead9d6468b"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_DrawOfferSent",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "d875dfb6e44dcb2e8d810f4afc19e59a"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_DrawUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "18a43a9fc2dc01a97aafb71d936dffca"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Easy",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "98cda903af9d1864d694357de839d058"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_FiftyMoveDraw",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "4ed8090500e766cf3189a9ab4befdf87"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Flip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "a894453d71de25b1f062f5dc0683736d"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_GameAborted",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "9476ccbcbb824a459e96aff065396d27"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_GameAbortedDetail",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "dde1cbe8668e7b43f09328537fe9e17d"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_GameDrawn",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "9aa2df56cc6510d77bdaa8edbc45f02e"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_GameFinished",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "a7e7f7ba807622aabcc8614167de8d88"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_GameFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "9198fa6494317861e23d7a67e851ab68"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Hard",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "49bf5b508fbadb8567b0ce9c4cc34dee"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_IllegalMove",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "ce23f8d941c004a4aa442514ca547fc6"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_InsufficientMaterialDraw",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "7ba180ae2465bfef1228db9b3242e449"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_InvalidPayload",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "6ac3201b851fdb15d6d27fbf3fe0b38f"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_InvalidPromotion",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "b4eef998fa5cb92bb1cbb81e2c678882"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_InvalidSettings",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "5eaa6922ba2f8ba4b6e5963189fbf323"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_InvalidState",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "d338d6b358173913b3eea91b47756d0f"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Join",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "e82c05bb10f6edec9e6aa4e44f52fc73"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Knight",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "2a0a009558fdfc6b20a8518d2968dfc5"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Medium",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "7f2fb1898a98d8c9fb55af58362f65d3"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_MissingChessPieces",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "4fc4aad910283635b0bcbe6d3b3d9485"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_MoveHistory",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "b6c1d622d871236142a0fd9d66001c24"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_NoDrawOffer",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "e60c353646642ee44a776411bb4e3f05"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_NoGame",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "979b1d9811699e54bb1e48635827ba70"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_NoRematchOffer",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "86d9322afc9f6c6dec7a6bdca6b29d67"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_NoSpectators",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "d2c0db7b399b8d004e3f876d6a2be2f7"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_NotReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "263f471070aace93f9316a2d1757b430"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_NotReadyBadge",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "428e8a0699bd0dca86916b52e94d3e4f"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_NotSeated",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "f8adbc4290750b900d16f32401029c17"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_NotYourTurn",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "ae99b8efde8b9394d10d70c9a4e36bfa"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_OfferDraw",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "4de50a6d89f85050d066f56025f13498"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_OpenSeat",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "78ec67daebdd7489d2025aac58347865"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_OpenSeatCard",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "c70cad13938d973649297eab7b6f3e51"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Opening",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "61d7fa322e5c2e9c9b5339e3eefabf9a"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Opponent",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "2c98e5455fac4d3cdd8c744ba84ec52d"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_OpponentTurn",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "aa6c47110c1ff018880aeee52ac02b2c"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_PlayStyle",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "7fb049d61ea531cc5373ca2397644c9d"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_PlayerBusy",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "3b43a608a92592fdd57d47783fea1a7e"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_PlayerForfeited",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "016b9dfec77be4c14f8fd0b0393b7282"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_PlayerOfferedDraw",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "9c612e8156679d59722401d5a6d1a05d"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_PlayerResigned",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "a3db574804b2b6a454b2da163bcc0630"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_PlayerTimedOut",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "52007e20e9ded03b3dcab8b701c7f1d9"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_PlayerTurn",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "71ed815ec3301ba26cdb328654adef5f"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_PlayerWins",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "6cb76fb2e5005f22b9358f1974897533"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Promote",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "42ae440f60c3a733655619ffd6eea8f9"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Queen",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "651431d7076852dc9d34d2f873818581"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Random",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "1f8f6af2ea5b9cd794a9686b9625ce22"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Ready",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "4dcaef56bdab19df8d60c65473219437"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_ReadyBadge",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "35be07a8b35918bcd96d920581c909b0"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Rematch",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "d94f0b2429917b02c0662e511bb0ff81"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_RematchDeclined",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "8f10541a132a0ec4259716727b60a715"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_RematchUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "88e2ad06719fdd12088472a95caba9f4"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_ResetBoard",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "5b19c8802878f0e4c9d23b8dcaff944a"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Resign",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "4caa2903726cffa543b00d3e95189a3e"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Rook",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "66c7fa49774bc17bdad351a720f20618"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_SelfChallenge",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "30b271dffbe02bc761618fd0ed0e07af"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_SelfChallengeValue",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "f742525762a2e7da3e7331d57e7e7e3d"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_ServerError",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "c45e981626b3253e41b3fc3b6420e602"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Spectating",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "3f23baa38c1d92c3d73f1690ff344657"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_SpectatorBanner",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "d9214a396b5f13464731296bdf68f061"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_SpectatorLimit",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "e924c69adbdac52c8529ae75dbe67377"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_SpectatorsCount",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "a89eee8940803723d8d48ef02263bb35"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_StaleMove",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "b0aa1fcdf8440a919139258ed03b6b39"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Stalemate",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "56f70e41874c9b6034308d3286d5f55d"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_ThreefoldDraw",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "9b1f321cd3cf6ec24750072297bda8ba"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_TimeControl",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "cefee2a50dcc1983f34ccecdc863d38b"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_TimeoutDraw",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "54a87d921f5ec0c881851a3003c5a456"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Title",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "99537d0474ca128f68448eeb89ea029a"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_TooFar",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "4f66a85afa39a1dbccf7dab96135b715"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_TooFarWarning",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "986ba73b29942c2a96a135a822381423"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_VersionMismatch",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "f1b76fd16a6a630c3bc556e8187f2293"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_WaitingBadge",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "d9bed1424c6665c35cbbfa9555adedfa"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_WaitingReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "ab57f578846104d15a9b544810ddef5a"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_WaitingSeat",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "6a47c789a1023002c2d895cf84eb8ac5"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_Watch",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "fe90002cb86bac4169233d7ead178e69"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_White",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "1f2f2a060a031fe974eb052d85a95397"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_WhiteWins",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "77909db34d305b70f8bd8396a523de08"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_YouLose",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "7bc7af0bbd772ea9ba612c8c951f8c02"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_YouWin",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "5285a1c91f44d4a906f5716c58a9e2d9"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_YourOtherSide",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "3efe3dd1fda8a1fdaf55a34f813b0d2d"
+  },
+  {
+    "mod_id": "3777762166",
+    "translation_key": "UI_PlayableChess_YourTurn",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-12T15:05:50.0000000Z",
+    "source_hash": "35dca40c27b9feae7616f347f28ae0ec"
+  }
+]

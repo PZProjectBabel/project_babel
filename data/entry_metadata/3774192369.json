@@ -1,58 +1,154 @@
 [
   {
     "mod_id": "3774192369",
+    "translation_key": "Sandbox_KnoxAcoustics",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "3bb3f6a9c6edfc55d7dec737e8265446"
+  },
+  {
+    "mod_id": "3774192369",
+    "translation_key": "Sandbox_KnoxAcoustics_RangeNormal",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "5c939a5098d3e1f5d3aad1ac73a09c76"
+  },
+  {
+    "mod_id": "3774192369",
+    "translation_key": "Sandbox_KnoxAcoustics_RangeNormal_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "775b31ab662140d210e2c21c428048b4"
+  },
+  {
+    "mod_id": "3774192369",
+    "translation_key": "Sandbox_KnoxAcoustics_RangeShout",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "5f3cc170a2eb8c7522c221244e0e7ae5"
+  },
+  {
+    "mod_id": "3774192369",
+    "translation_key": "Sandbox_KnoxAcoustics_RangeShout_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "034a6a1c59cc0633a7216a85a15e35ac"
+  },
+  {
+    "mod_id": "3774192369",
+    "translation_key": "Sandbox_KnoxAcoustics_RangeWhisper",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "78376f157bf78a04734388b1967bfa2b"
+  },
+  {
+    "mod_id": "3774192369",
+    "translation_key": "Sandbox_KnoxAcoustics_RangeWhisper_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "db1ec537e371b08d31dd2c7f65b1c644"
+  },
+  {
+    "mod_id": "3774192369",
+    "translation_key": "Sandbox_KnoxAcoustics_StationAdminOnly",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "c7201d886a308fa4cf2f52f8e29dd488"
+  },
+  {
+    "mod_id": "3774192369",
+    "translation_key": "Sandbox_KnoxAcoustics_StationAdminOnly_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "c1708fd58a61de857663197c7101b1b8"
+  },
+  {
+    "mod_id": "3774192369",
+    "translation_key": "Sandbox_KnoxAcoustics_ZombieHearing",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "ea9e0285ffa55726221b185c0a46c5c1"
+  },
+  {
+    "mod_id": "3774192369",
+    "translation_key": "Sandbox_KnoxAcoustics_ZombieHearing_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "5d05489e14f5b5c6342c2baea88008d2"
+  },
+  {
+    "mod_id": "3774192369",
+    "translation_key": "UI_optionscreen_binding_Knox Acoustics",
+    "is_active": true,
+    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
+    "source_hash": "5a2a53f5255ee579588d961942f3b621"
+  },
+  {
+    "mod_id": "3774192369",
     "translation_key": "UI_optionscreen_binding_Knox Shout",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.8524422Z",
-    "last_seen_mod_updated": "2026-08-07T05:56:11.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.6747086Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
     "source_hash": "9087b35ca7872638f1eeacf3cb767717"
   },
   {
     "mod_id": "3774192369",
     "translation_key": "UI_optionscreen_binding_Knox Whisper",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.8524433Z",
-    "last_seen_mod_updated": "2026-08-07T05:56:11.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.6747098Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
     "source_hash": "12416515c52b8dab1c9694aa08837831"
   },
   {
     "mod_id": "3774192369",
     "translation_key": "UI_optionscreen_binding_[Knox Acoustics]",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.8524440Z",
-    "last_seen_mod_updated": "2026-08-07T05:56:11.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.6747104Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
     "source_hash": "77c0a90f9b1d1f5650efaa777d1a87a2"
   },
   {
     "mod_id": "3774192369",
     "translation_key": "UI_trait_knoxleftdeaf",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.8524446Z",
-    "last_seen_mod_updated": "2026-08-07T05:56:11.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.6747110Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
     "source_hash": "0b183ea687d28dcd3ac5f6a696124036"
   },
   {
     "mod_id": "3774192369",
     "translation_key": "UI_trait_knoxleftdeafdesc",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.8524451Z",
-    "last_seen_mod_updated": "2026-08-07T05:56:11.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.6747117Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
     "source_hash": "0352ce7a0dbb0fddc0e23c4f39ad6299"
   },
   {
     "mod_id": "3774192369",
     "translation_key": "UI_trait_knoxrightdeaf",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.8524459Z",
-    "last_seen_mod_updated": "2026-08-07T05:56:11.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.6747128Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
     "source_hash": "3ed5b75ae3d8cf2363655ba0a11fe908"
   },
   {
     "mod_id": "3774192369",
     "translation_key": "UI_trait_knoxrightdeafdesc",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.8524465Z",
-    "last_seen_mod_updated": "2026-08-07T05:56:11.0000000Z",
+    "last_seen_at": "2026-08-14T15:59:10.6747134Z",
+    "last_seen_mod_updated": "2026-08-08T23:20:15.0000000Z",
     "source_hash": "837e0e513b0b03a81e48de56712e49b4"
   }
 ]

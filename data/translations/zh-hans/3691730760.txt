@@ -1,3 +1,7 @@
+Sandbox_ComputerPowerConsumption::en = "Desktop Computer Power Consumption",
+Sandbox_ComputerPowerConsumption::zh-hans::processed::unverified = "台式电脑电力消耗",
+Sandbox_ComputerPowerConsumption_tooltip::en = "Base hourly fuel draw of one running Desktop Computer, before the Generator Fuel Consumption multiplier. Set to 0 to make computers free to run. Vanilla references: fridge 0.08, fridge+freezer 0.13.",
+Sandbox_ComputerPowerConsumption_tooltip::zh-hans::processed::unverified = "一台运行中的台式电脑每小时的基础燃料消耗, 不计入发电机燃料消耗倍率. 设为0可让电脑免费运行. 原版参考: 冰箱0.08, 冰箱+冰柜0.13.",
 Sandbox_ConnectedGeneratorsB42::en = "Connected Generators B42",
 Sandbox_ConnectedGeneratorsB42::zh-hans::processed::unverified = "连接发电机B42",
 Sandbox_DisableComputerSystem::en = "Disable Computer System",

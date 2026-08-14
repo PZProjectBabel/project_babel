@@ -4,3 +4,7 @@ Sandbox_LemonsAID_EnableLoginZombieProtection::en = "45-Second Login Invisibilit
 Sandbox_LemonsAID_EnableLoginZombieProtection::zh-hans::processed::unverified = "45秒登录隐身",
 Sandbox_LemonsAID_EnableLoginZombieProtection_tooltip::en = "Makes a player invisible for 45 seconds when they log in. Each account can receive it only once per real-time hour. Players who are already invisible are left unchanged.",
 Sandbox_LemonsAID_EnableLoginZombieProtection_tooltip::zh-hans::processed::unverified = "玩家登录后隐身45秒. 每个账号每现实小时只能获得一次. 已隐身的玩家保持不变.",
+Sandbox_LemonsAID_EnableServerBannerStreaming::en = "Server-Hosted Banner Streaming",
+Sandbox_LemonsAID_EnableServerBannerStreaming::zh-hans::processed::unverified = "服务器托管横幅流式传输",
+Sandbox_LemonsAID_EnableServerBannerStreaming_tooltip::en = "Lets Lemon's Aid send PNG banners from the server data folder. Disable this emergency switch if banner delivery must be stopped; packaged fallback images still work.",
+Sandbox_LemonsAID_EnableServerBannerStreaming_tooltip::zh-hans::processed::unverified = "允许Lemon's Aid从服务器数据文件夹发送PNG横幅. 如果必须停止横幅传输, 请禁用此紧急开关; 打包的备用图片仍然有效.",

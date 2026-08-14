@@ -2,7 +2,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Admin_ForceAmputation",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "c939e943feb177c7502a8f53e7e8ab20"
@@ -10,7 +10,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Admin_ResetTOC",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "b0685b4d0c08fc0d0795dc5812a5e547"
@@ -18,7 +18,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Admin_TOC",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "bdf7bd4e11359329452f488560c2e175"
@@ -26,7 +26,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Amputate",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "bd01bec72d710d271babd3e92d7448cd"
@@ -34,7 +34,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Amputate_Bandage",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "9d8b8bb7ad1feb99185c28ad348840ce"
@@ -42,7 +42,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Amputate_Stitch",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "f4b88c38b4553fe7ecc32b54a5a15abc"
@@ -50,7 +50,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Amputate_Stitch_Bandage",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "1a2fe3852a7ad2617d1bae64890d8cb0"
@@ -58,7 +58,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Cauterize",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "c76d1d7b6fc2d2be5243261dbd6cc0a6"
@@ -66,7 +66,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_CleanWound",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "4be838f9e74815c3941aba8d9c6084c6"
@@ -74,7 +74,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_InstallProstLeft",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "7ad16b2aa7253f2b6e3c354a7aa2bd22"
@@ -82,7 +82,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_InstallProstRight",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "dfed9592137590cb484697e542eed0ff"
@@ -90,7 +90,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Limb_ForeArm_L",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "3ae17861ec9eeeb4cc99d579c9a828be"
@@ -98,7 +98,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Limb_ForeArm_R",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "c9427de6fab084d1fd61a109582192a2"
@@ -106,7 +106,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Limb_Hand_L",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "8da35231065c3ca64124cfb5071b741d"
@@ -114,7 +114,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Limb_Hand_R",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "e14bb6b43c57cda905b3ea2d0e3e9ba6"
@@ -122,7 +122,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Limb_UpperArm_L",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "1b576dce286eacf93290959b23efad06"
@@ -130,7 +130,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_Limb_UpperArm_R",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "0796471e2b5e1465599847cf24db4ff6"
@@ -138,7 +138,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_PutTourniquetArmLeft",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "9678b756ce7ecb65d1ec50831915372c"
@@ -146,7 +146,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_PutTourniquetArmRight",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "e4b7f6aa80fdfcc8345966ad8ab44342"
@@ -154,7 +154,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_PutTourniquetLegL",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "6e7732b8b038a55efa8bb951538f15ed"
@@ -162,7 +162,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_PutTourniquetLegR",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "cdf32ce335a8309720f73678eb82e2b6"
@@ -170,7 +170,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_TOC_GlovesMissing",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "07ef24911177e0983508f10bf47d33f2"
@@ -178,7 +178,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_TOC_LimbMissing",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "aa3180bf1ac43594f958f363ba83149f"
@@ -186,7 +186,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_TOC_NoHands",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "526e4d2f4b6dcd9aedc1c46d41f84da3"
@@ -194,7 +194,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_TOC_TwoHandsRequired",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "060a6c09c8b738437ccf1ebc128a38a3"
@@ -202,7 +202,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "ContextMenu_TOC_WatchMissing",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "c8b35d6c54c2f91096e9b13a7639c828"
@@ -210,7 +210,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_Confirmation_Amputate",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "908dc3bb14372e5b33a0afc08d22bca0"
@@ -218,7 +218,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_HealthPanel_Cauterized",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "8d43c6ec96b7bfc61752c9ee28765cc8"
@@ -226,7 +226,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_HealthPanel_Cicatrization",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "0118809ea3a330e47136c7124a86a836"
@@ -234,7 +234,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_HealthPanel_Cicatrized",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "0fc554fb02baf8a892d2613e6b29fba8"
@@ -242,7 +242,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_HealthPanel_ProstEquipped",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "a5dd03362efee9515d35e94d78903f20"
@@ -250,7 +250,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_HealthPanel_WoundDirtyness",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "d92b0f4dc3bac914959208ce6a0f1597"
@@ -258,7 +258,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_ItemCat_Amputation",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "7c26ad52cf0eeb618812614de07e4065"
@@ -266,7 +266,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_ItemCat_Prosthesis",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "f459e8b650d8a7df7662fe54bae446bc"
@@ -274,7 +274,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_ItemCat_Surgery",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "271e7ac35f571c75f1010f7a4d3ddf48"
@@ -282,7 +282,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_No",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "674810698b8f0086db45c096e414c049"
@@ -290,7 +290,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_Yes",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "140e13957391677393093675ca19c392"
@@ -298,7 +298,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_perks_Amputations",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "45505c0f8c2a0559bc6af4430f2cf2ed"
@@ -306,7 +306,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_perks_Left Side_Description",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "3523fe8a444549d4402bf1ae4c88373f"
@@ -314,7 +314,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_perks_ProstFamiliarity",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "5d525a9a1316ed25e85f3372353746e6"
@@ -322,7 +322,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_perks_Prosthesis",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "9f08e9ccc438e7daf638eae39d2aea2d"
@@ -330,7 +330,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_perks_Prosthesis Familiarity_Description",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "9c6cba73cd969b26ae97e885a640ebb8"
@@ -338,7 +338,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_perks_Right Side_Description",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "02e7196ce943a38e0a4d5a10abd845a6"
@@ -346,7 +346,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_perks_Side_L",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "1371f86ca88ded000de4e5ce1d319299"
@@ -354,7 +354,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "IGUI_perks_Side_R",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "72464b2b15513b87d8f3a287e1b66a44"
@@ -362,7 +362,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Recipe_Craft_Prosthetic_Arm",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "1e4af2170c802019bf9a11fbd9e19f69"
@@ -370,7 +370,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Recipe_Craft_Prosthetic_Hook",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "a63fe38dee640c8df69823e01df13a88"
@@ -378,7 +378,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Sandbox_TOC",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "f8871733a0e16de8ddfe7bcf117c114b"
@@ -386,7 +386,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Sandbox_TOC_CicatrizationSpeed",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "c3a20db0578044bbe19580d455dfd338"
@@ -394,7 +394,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Sandbox_TOC_EnableZombieAmputations",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "0f96ffab5bf9ea1f149abdc9193fe1aa"
@@ -402,7 +402,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Sandbox_TOC_SurgeonAbilityImportance",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "8b76c0ccb9615c302b9873abc8bbf082"
@@ -410,7 +410,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Sandbox_TOC_WoundDirtynessMultiplier",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "6f23927e5956475e228f19fe6128de15"
@@ -418,7 +418,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Sandbox_TOC_ZombieAmputationDamageChance",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "0ec4c494230d5d54279a1c14d2470753"
@@ -426,7 +426,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Sandbox_TOC_ZombieAmputationDamageThreshold",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "b56507ed14bfc7ff4d8d03408bffd519"
@@ -434,7 +434,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "TOC.Prost_HookArm_L",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "8eab8d4439bf1bb3ce649860c1f48dd7"
@@ -442,7 +442,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "TOC.Prost_HookArm_R",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "e63fa893ca579727e05717510c80bd4a"
@@ -450,7 +450,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "TOC.Prost_NormalArm_L",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "cb8e08c8cafa37363f55ca205708ecd5"
@@ -458,7 +458,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "TOC.Prost_NormalArm_R",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "00c62068607a835dc4574dbf3449bf82"
@@ -466,7 +466,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "TOC.Surg_Arm_Tourniquet_L",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "0ff2ae223a2e06a6b8b3008f0c1c3f05"
@@ -474,7 +474,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "TOC.Surg_Arm_Tourniquet_R",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "a2a9c466ad14bc88f99097d40432481d"
@@ -482,7 +482,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Tooltip_Surgery_And",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "41972cf4c59cbf140aa3e873fec0e3b4"
@@ -490,7 +490,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Tooltip_Surgery_CantCauterize",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "eee237ffd20c80cd753afca7f20451b1"
@@ -498,7 +498,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Tooltip_Surgery_Coward",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "b1dbe92b18ebbcb18d2f586a9c679cfc"
@@ -506,7 +506,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Tooltip_Surgery_LimbNotFree",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "0b560c6d52965f37b55335524747d8f0"
@@ -514,7 +514,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "Tooltip_Surgery_TempTooLow",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "cb7933ddc2a5edfb5f4df60f7d7e8cbc"
@@ -522,7 +522,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "UI_Say_CantEquip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "6417baa46c0e215e85d9a2ebbe29aba2"
@@ -530,7 +530,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "UI_trait_Amputee_ForeArm",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "8f3a1067e1ff0345043454a3f9d67955"
@@ -538,7 +538,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "UI_trait_Amputee_ForeArm_desc",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "f7f169cdd8a677a646d85e84999e855a"
@@ -546,7 +546,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "UI_trait_Amputee_Hand",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "3cd78499d01ce86b58e1107f092cad14"
@@ -554,7 +554,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "UI_trait_Amputee_Hand_desc",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "1c708f4ae06baaf55f6b56b79f4c95ea"
@@ -562,7 +562,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "UI_trait_Amputee_UpperArm",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "9509185e71fac1d1aec0edf4d6de8941"
@@ -570,7 +570,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "UI_trait_Amputee_UpperArm_desc",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "18a374eace27a5b2eb78b6794274a424"
@@ -578,7 +578,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "UI_trait_Insensitive",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "f0379350dd762f4d268770d6889fb650"
@@ -586,7 +586,7 @@
   {
     "mod_id": "3775152804",
     "translation_key": "UI_trait_Insensitive_desc",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-02T18:54:22.9898523Z",
     "last_seen_mod_updated": "2026-08-02T13:45:55.0000000Z",
     "source_hash": "b3336a010d4bd907c32d8cee77bf1c5a"

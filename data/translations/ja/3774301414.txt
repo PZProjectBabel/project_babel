@@ -1,0 +1,6 @@
+Sandbox_FastHoodOpening::en = "Fast Hood Opening",
+Sandbox_FastHoodOpening::ja::processed::unverified = "ボンネット高速開放",
+Sandbox_FastHoodOpening_HoodTime::en = "Hood Opening Time",
+Sandbox_FastHoodOpening_HoodTime::ja::processed::unverified = "ボンネット開放時間",
+Sandbox_FastHoodOpening_HoodTime_tooltip::en = "Value in seconds, where 1.0 equals one second. The lower the number, the faster the hood opens. Recommended: 0.7",
+Sandbox_FastHoodOpening_HoodTime_tooltip::ja::processed::unverified = "秒単位の値で、1.0で1秒です。数値が低いほどボンネットが早く開きます。推奨: 0.7",
