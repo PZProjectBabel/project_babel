@@ -1,2 +1,8 @@
+Sandbox_PZ_Map::en = "PZ Map",
+Sandbox_PZ_Map::de::processed::unverified = "PZ Map",
+Sandbox_PZ_Map_SendPlayerPositions::en = "Send player positions to PZ Map",
+Sandbox_PZ_Map_SendPlayerPositions::de::processed::unverified = "Spielerpositionen an PZ Map senden",
+Sandbox_PZ_Map_SendPlayerPositions_tooltip::en = "Lets the PZ Map browser page draw other players. It does not change who may see whom - that is decided by MapRemotePlayerVisibility, and PZ Map never shows anyone the in-game world map would not. Turning this off only stops PZ Map sending positions, which cost roughly 55 bytes per visible player per second. The in-game world map is unaffected either way.",
+Sandbox_PZ_Map_SendPlayerPositions_tooltip::de::processed::unverified = "Lässt die PZ-Map-Browserseite andere Spieler anzeigen. Es ändert nichts daran, wer wen sehen darf – das entscheidet MapRemotePlayerVisibility, und PZ Map zeigt nie jemanden, den die In-Game-Weltkarte nicht zeigen würde. Das Deaktivieren stoppt nur das Senden der Positionen durch PZ Map, was etwa 55 Bytes pro sichtbarem Spieler pro Sekunde kostet. Die In-Game-Weltkarte ist davon in beiden Fällen nicht betroffen.",
 UI_PZMap_Name::en = "PZ Map",
 UI_PZMap_Name::de::processed::unverified = "PZ Map",

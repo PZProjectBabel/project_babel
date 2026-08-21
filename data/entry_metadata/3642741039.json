@@ -3,30 +3,38 @@
     "mod_id": "3642741039",
     "translation_key": "GetRidOfTrash",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-04-22T11:54:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1509510Z",
+    "last_seen_mod_updated": "2026-08-21T12:20:29.0000000Z",
     "source_hash": "d6aef9bbb483958e25c40e903bd46c1f"
   },
   {
     "mod_id": "3642741039",
     "translation_key": "PackGarbageBags",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-04-22T11:54:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1509520Z",
+    "last_seen_mod_updated": "2026-08-21T12:20:29.0000000Z",
     "source_hash": "5f4f4598ea9d910cf8f128dc09543bb9"
   },
   {
     "mod_id": "3642741039",
     "translation_key": "PutBackGarbageBags",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-04-22T11:54:01.0000000Z",
     "source_hash": "ece8526a5c5b9e5bc9cd7d37958f8247"
   },
   {
     "mod_id": "3642741039",
-    "translation_key": "Recipe_GetRidOfTrash",
+    "translation_key": "PutBackTrashBags",
     "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:20:29.0000000Z",
+    "source_hash": "4f18700834dd5c4a91bb2b2009cce865"
+  },
+  {
+    "mod_id": "3642741039",
+    "translation_key": "Recipe_GetRidOfTrash",
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-04-22T11:54:01.0000000Z",
     "source_hash": "dab035f14493ba17d24bcd1e5ca73593"
@@ -34,7 +42,7 @@
   {
     "mod_id": "3642741039",
     "translation_key": "Recipe_PackGarbageBags",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-04-22T11:54:01.0000000Z",
     "source_hash": "7e6c8a1d485a20d6f8d11e7b5c6c3dca"
@@ -42,9 +50,25 @@
   {
     "mod_id": "3642741039",
     "translation_key": "Recipe_PutBackGarbageBags",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-04-22T11:54:01.0000000Z",
     "source_hash": "4d28702c845af3df20cdcad73c62967c"
+  },
+  {
+    "mod_id": "3642741039",
+    "translation_key": "description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:20:29.0000000Z",
+    "source_hash": "21a74e4f0db3f5439060a29e212444cf"
+  },
+  {
+    "mod_id": "3642741039",
+    "translation_key": "name",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:20:29.0000000Z",
+    "source_hash": "a2d77af0cbd45b8607bef5a440b40118"
   }
 ]

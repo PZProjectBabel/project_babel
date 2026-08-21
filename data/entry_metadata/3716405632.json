@@ -1,826 +1,1266 @@
 [
   {
     "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Cataclysm_1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "8cab2ffc8d062008aef40fb4e8b96668"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Cataclysm_2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "8a4746d15369151bbbc6efe9928951aa"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Cataclysm_3",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "7add0ac888f8723d4fe1987dc77a7a08"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Cataclysm_4",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "3f5355f9e4c4d83555ece9ba544309b1"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Cataclysm_5",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "911856f7a0122e0183d5bdd8af43980a"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Cataclysm_6",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "c4c85115ade920bd19fa6dd95821be82"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Normal_1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "3785d26123b88ebadaf58b750aa13857"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Normal_2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "1f299bb73f49e775c70a1c1f50464722"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Normal_3",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "6577449e2e9cb07b20ffdcadd091d4e2"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Normal_4",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "e49a80f893de72260355b85df2820cda"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Normal_5",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "4efe74479981dc0674a5a18d5cc44254"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Normal_6",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "a1df2aaea791303ab9b07cca0a8b5503"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Normal_7",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "a849ccec2217f536e58301f2a4d4e364"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Normal_8",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "5f99e81b6faee9b0ef64436baeef8f4b"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Normal_9",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "5f2bd343c1792bec153a0549a9f90003"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Wandering_1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "eb1a1c024a654e050d5e0f02927bbaad"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Wandering_2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "9d1e782547d27d171548c576ce97eae3"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Wandering_3",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "62fc674e7d75ac0197b4b8634c5236e1"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Wandering_4",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "1c4427899086ffbfed8d56a26937fcbe"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Wandering_5",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "4fcbf9c8fcc33e263354e034159130b7"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "IGUI_DHE_Speech_Wandering_6",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "bb467abe49c17ea4320526d1110c643d"
+  },
+  {
+    "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337482Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572160Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "5067c8871250aa0e68bbb26e8c6f1e4f"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_AttractionRadius",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337494Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572169Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "c3e262a7d632d30ac05c82c6222c56cd"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_AttractionVolume",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337502Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572174Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "b4c2a9c2ab5b5fd0859e76bdcf45f47b"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_AvoidIndoorSpawn",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337510Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572181Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "0832cb7578db0b6f99df894e289922c7"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_Cataclysm",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337521Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572187Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "576f6e02aff61bbc5dd877aa3168041f"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmAttractionRadius",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337530Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572194Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "763013e8c694fbe61402c6bed61997e2"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmAttractionVolume",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337538Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572199Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "5768ee43f3efe9757d00cf4c237dbffc"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmCloudIntensity",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337544Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572205Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "c7278e6ffac35011c37a95293c500a0d"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmCloudIntensity_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337550Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572210Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "dc47cdd0bb5a80334be556800a49b686"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmDesaturation",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337559Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572217Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "5b500d016498bf049622928f40f8a857"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmDesaturation_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337565Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572223Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "367c25ab49dbbe407c5df991a1f02469"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_CataclysmFixedHour",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "b199ddf58d385d8f3f0065db189f86f1"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_CataclysmFixedHour_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "9649df90d6525f688b134b229d57b2af"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_CataclysmFixedIntervalDays",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "e7e41f3a4c70f7a8932913553abf14d6"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_CataclysmFixedIntervalDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "5ac165804933fb72602220c36f95f382"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmFogIntensity",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337571Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572228Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "4be9b30b828038c361a13ae36c01cf92"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmFogIntensity_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337579Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572233Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "1bef9199cef96d485740eebffcf89748"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmIndicatorSeconds",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337585Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572237Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "60e7e47593e7d053b61138fd2b62323f"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmMaxDays",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337591Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572244Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "bce58b2d32cca6ab1c235f435d0e50c1"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_CataclysmMaxDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "5d919366702bef595ff4924c0066006c"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmMaxSpawnRadius",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337600Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572248Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "c6111cffd53a8191d7e882af49bca4b2"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmMaxZombies",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337607Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572253Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "063ab704fa8a28d261b34474210e5275"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmMinDays",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337615Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572258Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "aec1cf31c5c9de76258d0f0d45be95e2"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_CataclysmMinDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "603703cf11263cee218059859d66f839"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmMinSpawnRadius",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337622Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572263Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "16b0e64abada19a0549a26b1009d7fa3"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmMinZombies",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337629Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572268Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "441896249cfd764f8b6a4097fdad59b7"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmPursuitHours",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337639Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572273Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "cc4964d711b9801d1fee25638a02a5dd"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmPursuitHours_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337645Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572277Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "101d3727e4e3f1563720841357657b0e"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_CataclysmScheduleMode",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "9aed51e85fbbe06745c50787948af53d"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_CataclysmScheduleMode_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "5836759d1ef961f46bb582e729e64d3d"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmScreenEffectSeconds",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337652Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572281Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "4b1778f1f4be0259b6e9d95e07391f1a"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmWeatherDurationHours",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337658Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572287Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "f86cd444b99d5cca6af76272965a3865"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmWeatherDurationHours_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337663Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572293Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "adc874d799a655eb444db6e93dc87ab1"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmWindIntensity",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337668Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572298Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "718c81ed575ac3847d2a9f44d6c34bba"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CataclysmWindIntensity_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337676Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572302Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "867dbd22b9df4ff2edc179cf1ed09f46"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_CooldownHours",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337684Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572308Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "557a2fff58cc99d3926d28b9c565b3d7"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_Debug",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337690Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572312Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "4f67554101188d999b0836a0fd3fbdf2"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_DebugPage",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337697Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572316Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "557630131be6dbf45d5ca55fb8036365"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_DisableAtNight",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337703Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
-    "source_hash": "05e728687b452709322d95662d67584b"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "57c14e3dd1c8ec3e12338d50936c5d33"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_DisableAtNight_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "cd465eda8db6f0c8b6fa0c4eca659c5b"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableCataclysmFogWind",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337709Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572326Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "c80ad6fcb4e6b9bf133241fd6d127964"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableCataclysmFogWind_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337716Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572332Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "d3b5f247f97a8995afaf9bbc9952c48e"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableCataclysmHorde",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337723Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572340Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "ede6294a8d97641fdc3bdb6410e6b643"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableCataclysmHordeSpeech",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337730Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572344Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "f295b47382e0c76f3c2f6196f058e2be"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableCataclysmHordeSpeech_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337738Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572349Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "e8503eda68d06b49762c16009afeef0e"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableCataclysmHorde_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337743Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572355Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "8db2b6c226ffef530dfabe2c85aeea46"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableCataclysmPursuit",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337749Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572360Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "10ea7f0bd4e399388273fdf9441dd753"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableCataclysmPursuit_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337757Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572364Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "9c762928b5451fda0d312d02e4791d37"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableCataclysmScreenEffect",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337763Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572369Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "b3958077411e9c96c1e04bdc8fd1da13"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableCataclysmWeather",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337769Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572373Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "2a7de952afb7c678a9012c4c41cd3dfc"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableCataclysmWeather_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337774Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572377Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "f0f78d6aab71504d5b1e1fe62c5e62ae"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableDebugContextMenu",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337783Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572382Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "b1e2de2c9673b91ec59e59ebcce6924d"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableDebugHotkey",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337787Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572387Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "3ccec7f797525b3eaa91c623c6275e7e"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableDirectionIndicator",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337797Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
-    "source_hash": "da23283780c7b80502fe222e1e85f7d6"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "f196851abfc826d22e600927aabf3b71"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_EnableDirectionIndicator_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "8900fc4b421b8f91b64108213cebc450"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_EnableEventNotifications",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "783625f929d31f9c30e2df3a90e57e34"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_EnableEventNotifications_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "10dc2adac8de3e0231952cd8f8d0541a"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableMPActiveSpawnClamp",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337801Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572395Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "762b5b738d02c0e51a40db7b91e43c14"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableMPActiveSpawnClamp_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337807Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572400Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "93b5d5a5dea534437561e44435da21a0"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableNormalHorde",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337813Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572404Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "433c09b4a1ff7e2681f5025a42a7b0bf"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableNormalHordePathAssist",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337819Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572409Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "177271bf936dde37548837b84b7fd3fc"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableNormalHordePathAssist_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337825Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572417Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "35f8f5b1eb6a204587d754a74ae6401e"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableNormalHordePursuit",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337833Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572421Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "b2384f9898d363528ba5944c9a0a7b36"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableNormalHordePursuit_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337839Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572426Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "ce3c5e66ecfe67eb33f59610a3635905"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableNormalHordeSpeech",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337847Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572433Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "9da4ab4dd53c6e3a0e712943e935e722"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableNormalHordeSpeech_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337853Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572439Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "9b05796ccbf210b1574c2ddb13cc3d31"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableNormalHorde_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337861Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572443Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "1b15cd36975f0d62794c68236d639665"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableWanderingHorde",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337870Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572448Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "22344f088b772939c375004420034680"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableWanderingHordeSpeech",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337877Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572454Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "4cb572733589e34916fb4d7377e9210b"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableWanderingHordeSpeech_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337882Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572459Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "859f8c2d55a153124f0933e19b165a06"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableWanderingHorde_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337887Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572463Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "103c25c587e13071409f0af207328f48"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_EnableWarningSound",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337893Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
-    "source_hash": "28ca9ab4e73c18ccc34d1f64a0a751d0"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "9ef99e0697f488e2c001787f2874242c"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_EnableWarningSound_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "17e8cb1dbbc03134b9c1ad4cb6565f56"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_Enabled",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337900Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572473Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "779dcbd729eef1953f2d5ecf076d0449"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_Enabled_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337906Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
-    "source_hash": "c94c33b5c11f66576579fbc232d9f561"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "8275352bd27e4e45ecc1c79874aeb6f3"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_General",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337913Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572481Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "f794ec78e1700301dfd20f92490c4616"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_IndicatorSeconds",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337921Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572487Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "cf750789cb5ee3640f6acfcac11470c5"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_MP",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337926Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572492Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "b475b1ef5cd2d059fa3e57f8b2cff55b"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_MPActiveSpawnMaxRadius",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337932Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572497Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "88eb7d99820a6b6f8740285dc62a1351"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_MPActiveSpawnMaxRadius_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337938Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572503Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "f70bab117832e0192e179617d089a19b"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_MPAttractionDelaySeconds",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337949Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572511Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "35afd45783ee588d49c30241bfdb8442"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_MPAttractionDelaySeconds_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337956Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572516Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "4866d076cfe6802b4d5100b07a0465b4"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_MaxSpawnHours",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337962Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572520Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "8c5e8ceeaccc79642a25502d1584af41"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_MaxSpawnHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "127551da6ea6d651fc01d3e77bf49992"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_MaxSpawnRadius",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337967Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572525Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "ecedea2bf78ab087b890937b60f33aac"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_MaxZombies",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337974Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572530Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "09f29fe1ba693aaad6b535b530e5452e"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_MinSpawnHours",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337979Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572534Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "09d4f87ca1b4270ea24da22313573aaf"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_MinSpawnHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "017e68d89e29eb8bcdaf84185adb1482"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_MinSpawnRadius",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337983Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572540Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "cf84fe2a4789b99c78398d0032b32aff"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_MinZombies",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337991Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572545Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "3fcf4ab0aadc424154a1667fef68655c"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_NightEndHour",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9337998Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572549Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "240bc7116e2a5b50aa85e6ba84d327fb"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_NightStartHour",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338007Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572553Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "aee645ed9b7197be61765b06a3dbd09c"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_Normal",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338012Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572558Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "52091e10b63cc7d686ba0b7a6a69fcf8"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_NormalFixedHour",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "4f479cacb1001cc8a449fa55bda274ff"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_NormalFixedHour_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "9b584525306810211a8c81c5f28f28c5"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_NormalFixedIntervalDays",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "d6b3869efa992c9f0ff37f20a803574b"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_NormalFixedIntervalDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "d9885ddb8f9fcafe0a8ebc426ce48350"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_NormalScheduleMode",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "362dd9891bd7b8eb70288de5594da9b1"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_NormalScheduleMode_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "fec7d55ed4599752756c55f2b978e180"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_ScalingInterval",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338019Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572562Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "5f488f2258fa64bd64a7a70cb9d291eb"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_ScalingInterval_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338028Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572567Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "bbb9c7f3a6d1ca8641e901df518d70cf"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_ScalingMaxMultiplierPercent",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338032Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572575Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "e477abfe3e725cc274e95972cb6a9693"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_ScalingMaxMultiplierPercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338039Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572582Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "25ed1f0c333f3b3a827cef00211ff8af"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_ScalingMode",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338046Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572589Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "398d17b1fd172fcc3931463f3bace3a5"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_ScalingModeValue_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "3771646a48a44d9f555d7cf205c86c61"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_ScalingModeValue_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "c1940f05ada254dfd596e7a44bd0dd07"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_ScalingModeValue_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "8415c9f551982b82f077a0fb455c0a93"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_ScalingMode_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338054Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572595Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "8bfa234b814ee0d7659e154a8ef9f9d9"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_ScalingMultiplierPercent",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338059Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572599Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "0949b5273a87777337d22ea12b4613d1"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_ScalingMultiplierPercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338068Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572605Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "5aeb6eee1b763b1c6362ba53a6e51ba9"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_ScheduleMode_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "bfb594e14d9e1413364907ecc7071b6f"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_ScheduleMode_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "88ec175fb4f2670def7cd96829acbfed"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_SpawnSearchAttempts",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338074Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572610Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "a589b43df9c3d8b8349d96b5ee0991d3"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_TestSpawnRadius",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338081Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572615Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "32fdf2a5dde1ba763c1e83a65e0e228b"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_TestZombieCount",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338086Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572620Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "e6fa8296f85730f35a9922b84ba0a49e"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_Wandering",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338092Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572624Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "0b0612dbf97614fccaa3184a10822d84"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingAttractionRadius",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338099Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572629Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "99ba13dfae9f8e14ecdac93aefe505ca"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingAttractionVolume",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338106Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572633Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "bc2b9212ba7d742358a4ff791832b5e2"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingExitDistance",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338113Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572638Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "0dbe12fdb94eb1edfe81e8c79c0eee1d"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingExitDistance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338117Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572643Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "e084f3e7b501bb5e7f585880bb514f7e"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_WanderingFixedHour",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "8d58db31cdcc3bd72f947a86dce4d30e"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_WanderingFixedHour_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "ba257ff61262f5b6dd2b49349ee1fe31"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_WanderingFixedIntervalDays",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "024d383911c524a2a0445c279a381d63"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_WanderingFixedIntervalDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "2b19a813b1df8f70bedf36f5d2c3aeed"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingIndicatorSeconds",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338123Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572650Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "e62d68f359b5a8d2d6fe2c869cf908e1"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingMaxHours",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338128Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572655Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "5a2a9abde200746ebf8087c817e81bc9"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_WanderingMaxHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "6b0215086c57f861714158fae4293b22"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingMaxSpawnRadius",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338134Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572661Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "db8cf2a5c8d355cf9a92020c4739e1b5"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingMaxZombies",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338144Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572668Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "6079a708775bba17e562b8c3f1310f5b"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingMinHours",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338148Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572672Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "ba94b41569583c10a16d37d8f3023c80"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_WanderingMinHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "75c7e46ddddafa16fe58325425e61c9c"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingMinSpawnRadius",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338153Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572677Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "45c30e874ce0ffc6e041af200a447368"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingMinZombies",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338159Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572681Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "0837ffa78b2ea06432123b31f08a36bd"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_WanderingScheduleMode",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "6f50fea628fb098aee84491aa07b4c80"
+  },
+  {
+    "mod_id": "3716405632",
+    "translation_key": "Sandbox_DynamicHordeEvents_WanderingScheduleMode_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
+    "source_hash": "423ad187dafae438e7c2319381845666"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingSpread",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338163Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572686Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "14452961d43db2ff7398b85deafbb6e5"
   },
   {
     "mod_id": "3716405632",
     "translation_key": "Sandbox_DynamicHordeEvents_WanderingSpread_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.9338169Z",
-    "last_seen_mod_updated": "2026-07-31T02:02:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1572692Z",
+    "last_seen_mod_updated": "2026-08-17T12:33:01.0000000Z",
     "source_hash": "eafd27c309797538766ca99ac2383d3a"
   }
 ]

@@ -1,56 +1,256 @@
 [
   {
     "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "88aeb67b1b1045d4e0d98ad0278d0b0c"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "343d9ac4720422f35e23abf4b8c6c402"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_Enabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "db87385071046b1fda28462648516e7e"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_ForceThisModsCapacity",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "51d8672e7f81add5b3ab812cdb43fa96"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_ForceThisModsCapacity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "2ac4266ec169184f74862929a504ba70"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_MaxCapAtStr10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "8e2f5107b295855d4c7cb67e5941a082"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_MaxCapAtStr10_Values_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "b948a5cb0f337c4eb195f3ab40372156"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_MaxCapAtStr10_Values_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "e253d9bcf438ad74e0f39c1333cdc6ba"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_MaxCapAtStr10_Values_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "b1b73504a5fb7e9c6e9b74ec3b8d16a2"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_MaxCapAtStr10_Values_option4",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "34318dba37f15779d157ff453ba1d20c"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_MaxCapAtStr10_Values_option5",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "2dfe416b3e831c5f47843d210d020e60"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_MaxCapAtStr10_Values_option6",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "204d4ee49584303168ba286193c888d0"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_MaxCapAtStr10_Values_option7",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "e9e29cd38974e55ff579ceb12d2d7558"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_MaxCapAtStr10_Values_option8",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "f5c8581bd7fe8baecef8086bad1cde3d"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_MaxCapAtStr10_Values_option9",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "00487c53c24ec96c09a55ee8acf7e924"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryCapacityTweak_MaxCapAtStr10_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "64d0d8900f3b5cb657d9c460b0635a09"
+  },
+  {
+    "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1023713Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
     "source_hash": "2a614b876a63f236d81687fb17a9a770"
   },
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_Enabled",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1023723Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
     "source_hash": "8c4187f4aaa3ac1816cb3a525b6a4cb4"
   },
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_Enabled_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
-    "source_hash": "20f6cf18d84797368165d26c90630ea6"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "9eef05a9d1b230a23b4197a7e4ff27f2"
   },
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_ForceThisModsCapacity",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1023733Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
     "source_hash": "50b1da13a5a3287ec05f42bf5aaf2e6e"
   },
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_ForceThisModsCapacity_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
-    "source_hash": "6be226773a4043af82e4bd9290180156"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "a724cc141965bd879c5516088871b1d0"
   },
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1023743Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
     "source_hash": "29c4bac76e160c6bd64867944c0b9fdb"
   },
   {
     "mod_id": "3634740886",
-    "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_option1",
+    "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_Values_option1",
     "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "abb16803460f11dcaa324ffa41f99def"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_Values_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "ce9cee0f63550e781d99c7619ff61288"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_Values_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "1da5f2552313ebc89ea18016a68025a7"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_Values_option4",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "e31c3deabf20cdb1ffdc3f045515636d"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_Values_option5",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "96d13f33972e3f03bf50a3fa4ba6b0be"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_Values_option6",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "8f22e5c3033e4f04623b43ed830eea6d"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_Values_option7",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "8651d49bb7320e01d1f5c4f9edc21e5b"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_Values_option8",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "8ef9f5cd343a80d6c453df25bcc7e069"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_Values_option9",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "c03190d0d1bec9b0af65ea3f4d623a2a"
+  },
+  {
+    "mod_id": "3634740886",
+    "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_option1",
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
     "source_hash": "bdf44b017ea5794b84255c420ea88e3d"
@@ -58,7 +258,7 @@
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_option2",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
     "source_hash": "3e0967e48fce249a64e7740fe9e1e21c"
@@ -66,7 +266,7 @@
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_option3",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
     "source_hash": "84dc8fabdd7444036039cde56b3bb254"
@@ -74,7 +274,7 @@
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_option4",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
     "source_hash": "a04e0c031c72af7231cdc5b3b21586eb"
@@ -82,7 +282,7 @@
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_option5",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
     "source_hash": "c0d33f1ad926cb0c4ac9afbee421aa3f"
@@ -90,7 +290,7 @@
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_option6",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
     "source_hash": "dbb52fe9c1f9c51598030b7e7bc0e18f"
@@ -98,7 +298,7 @@
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_option7",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
     "source_hash": "6853b8480dc1c9f4dccb4354e3265d29"
@@ -106,7 +306,7 @@
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_option8",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
     "source_hash": "84bc50f07795781b3e4166bb2d1d2ebf"
@@ -114,7 +314,7 @@
   {
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_option9",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
     "source_hash": "79f6cf04085a93f0d3e6a7afc88fd978"
@@ -123,8 +323,8 @@
     "mod_id": "3634740886",
     "translation_key": "Sandbox_CarryingCapacityTweak_MaxCapAtStr10_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2026-01-05T16:36:38.0000000Z",
-    "source_hash": "86f80de09513c37a3b614ad0837da010"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-19T20:28:42.0000000Z",
+    "source_hash": "6aeb2b6e7ef6e7d643f0a249c6f92398"
   }
 ]

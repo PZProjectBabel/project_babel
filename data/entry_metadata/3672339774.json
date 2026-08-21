@@ -1,0 +1,330 @@
+[
+  {
+    "mod_id": "3672339774",
+    "translation_key": "IGUI_SpawnHorseOnStart_AlreadySpawnedPlayer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "a473762f65d7b1d27f085e6fa2de7572"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "IGUI_SpawnHorseOnStart_AlreadySpawnedSave",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "60372e82a9b78df2fea32cf01c8cdfaf"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "IGUI_SpawnHorseOnStart_CooldownActive",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "2ae510f857740bd714608c5c8c6e514f"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "IGUI_SpawnHorseOnStart_Spawned_Cooldown",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "765379eb5766105f3a7827886682860c"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "IGUI_SpawnHorseOnStart_Spawned_NoCooldown",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "a9ed177f355b3c3ba5532fa463bedd00"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "IGUI_SpawnHorseOnStart_Spawned_OncePlayer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "8f1a3bade0b224295016bdb0a09b0fd3"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "IGUI_SpawnHorseOnStart_Spawned_OnceSave",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "3e702b325bef8e9ae1f228f7645de277"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "df34335bf286728465f078e07dda716f"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_ChanceToSpawnPercent",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "67bd8e468ab0a2822615d5f6d88e7dd3"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_ChanceToSpawnPercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "3de4f6dad3f7fe3e308981114fc51fee"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_CooldownHours",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "ba583a8756796b24bd8888a3b13f1e2f"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_CooldownHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "b34e8c6bc815c74dd800091d57e4d2c0"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_DebugLevel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "770b9d015bedcbc8e3524944bcd91da5"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_DebugLevel_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "a4305566ea14eae6bf2f24a3059b9d52"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_DebugLevel_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "401f870b23bcb3405b162c3004b183a5"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_DebugLevel_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "e2a2b50e414831222baf2d7a47d51fa8"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_Enabled",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "b0beac402701e382e596be871cd4852c"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_Enabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "8a09b4230e03a5bf0934253b1ebec10c"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_GiveReins",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "319746f0fbf4649ee3ab5e743fb65461"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_GiveRope",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "956d2887370e16232efd70610f8f9f08"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_GiveSaddle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "f7d558cdbf306bd73caf9a3c3408cf43"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_GiveSaddlebags",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "889091189eccdcac452b8ca34a066b07"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_MaxAttempts",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "b85c7af4e1947b10c572697c847146e1"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_MaxAttempts_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "9060bbdcc4339730d711e3ee24097808"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_MaxDistance",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "4389c3e54d7c1b7200dcef955376ea47"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_MaxDistance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "42c1eb5e23914d7182c4676ada48061a"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_MinDistance",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "fbb03653286b223176a28592e805236b"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_MinDistance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "5754833b398ae4501866500e60967ecc"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_RequireOutside",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "d93cf1e68a572d7e9e5e2dcdce415706"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_RequireOutside_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "7303938a948bdad9bbfbdea1e8e5690d"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_ShowMessages",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "f4a638e2c92453efcaf96cdd1ef39a62"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_ShowMessages_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "1433ed6a3105563ce3556ca508be6dd2"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_SpawnMode",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "3b3e9ff7b21a8de6e0b4449643d6c394"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_SpawnMode_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "a07e7ebd741b42f2c7a50b3f21334183"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_SpawnMode_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "95399b913f4a9bf61936f3e70b69430a"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_SpawnMode_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "edfdbbb621372744d87d8ec80503c37f"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_SpawnMode_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "17a13f182e5276275a6642ec014cb6d7"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_UseDynamicEquipment",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "976b5f8ffb6e20d2c64374045a330383"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "Sandbox_SpawnHorseOnStart_UseDynamicEquipment_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "109179ce62535a3c11fb34cab019010d"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "UI_trait_SpawnHorseOnStartCowBoy",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "f8fdf98e44a61889b277f99dcc6ac5d8"
+  },
+  {
+    "mod_id": "3672339774",
+    "translation_key": "UI_trait_SpawnHorseOnStartCowBoydesc",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-04T07:01:41.0000000Z",
+    "source_hash": "d7633335233a26ff848cc3675aba148e"
+  }
+]

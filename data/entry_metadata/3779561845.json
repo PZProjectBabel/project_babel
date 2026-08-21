@@ -3,22 +3,38 @@
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_ClearReserve",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0835365Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
     "source_hash": "04496f1176d4ba3d06db260703f2e5fa"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_ClearReserve_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
-    "source_hash": "7a7c96ed8de31172a5405644e15ecd17"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "2f628aa176acc11de82d7be89df3e1a2"
+  },
+  {
+    "mod_id": "3779561845",
+    "translation_key": "ContextMenu_LGEP_Disconnect",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "bbb832f044821f8ba90ce731b5119175"
+  },
+  {
+    "mod_id": "3779561845",
+    "translation_key": "ContextMenu_LGEP_Disconnect_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "d5937414662ed4f430ec92543f4c9c99"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_Exclude",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.0615411Z",
     "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
     "source_hash": "77c1cfe047858bf4bbbfe89d9fc38cfc"
@@ -26,7 +42,7 @@
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_Exclude_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.0615411Z",
     "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
     "source_hash": "925de31b794aa6a3ffa187587fc1edf0"
@@ -34,7 +50,7 @@
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_Include",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.0615411Z",
     "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
     "source_hash": "2b81e47acc35026ffb9fcc951789367f"
@@ -42,7 +58,7 @@
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_Include_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.0615411Z",
     "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
     "source_hash": "b307357e35685e5c298a25b3f0aa94b2"
@@ -51,110 +67,158 @@
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_KeptFor",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0835391Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
     "source_hash": "228e804564f1c35f3bfefa8fa8c41eab"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_KeptFor_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
-    "source_hash": "0500c1926d4603577b2dc3bad615ff19"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "b666393f3dda8dc39682fcd644d11313"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_LiquidAmount",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0835400Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
     "source_hash": "17796f80b6b27e923afb07199dcb88d9"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_LiquidNone",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0835406Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
     "source_hash": "82d96b6e7d61d2a7374cc26cee4a8238"
+  },
+  {
+    "mod_id": "3779561845",
+    "translation_key": "ContextMenu_LGEP_LiquidPart",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "0c112dfb33a06342ef25f3db8ef43c06"
+  },
+  {
+    "mod_id": "3779561845",
+    "translation_key": "ContextMenu_LGEP_Plumb",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "e22808de6edb395c02b3602d7ea92229"
+  },
+  {
+    "mod_id": "3779561845",
+    "translation_key": "ContextMenu_LGEP_PlumbFed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "71c3c090eba772d9cff5af4392b04054"
+  },
+  {
+    "mod_id": "3779561845",
+    "translation_key": "ContextMenu_LGEP_Plumb_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "216154ae48257b1587c0e35c067598dc"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_PlumbedLiquid",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0835410Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
     "source_hash": "8be73c9bf03d5d7ae627f1524859cf9b"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_PlumbedLiquid_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
-    "source_hash": "02d60baaf9c98aba34785ec060e497f9"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "07690c4cb78bbbfee974f2c66ae796d4"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_SetReserve",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0835417Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
     "source_hash": "25721cdc4d2c06c0a06552ea88a4a42a"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "ContextMenu_LGEP_SetReserve_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
-    "source_hash": "18b0986623a5fe208f7700a009308e76"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "3ce87f6dc0ba8603bc739d8d1773776b"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "Sandbox_LGExtendedPlumbing",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0835425Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
     "source_hash": "7c5d81824a6893134f2cdf5d335f7357"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "Sandbox_LGExtendedPlumbing_Debug",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0835429Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
     "source_hash": "4b7ba8567753197a92f2cf99e11c4480"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "Sandbox_LGExtendedPlumbing_Debug_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
-    "source_hash": "5a429063c02703817aebc8383788583c"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "e4134c272d6e600e61f51886ca38c08a"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "Sandbox_LGExtendedPlumbing_Enabled",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0835443Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
     "source_hash": "322ae83602bb88ec91e3bbebeee7200e"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "Sandbox_LGExtendedPlumbing_Enabled_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
-    "source_hash": "005ffeeed3328ebac98f432cd00a16ee"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "93bd4b7e269188e455cc5eec3a01e85c"
+  },
+  {
+    "mod_id": "3779561845",
+    "translation_key": "Sandbox_LGExtendedPlumbing_FedFixtures",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "92a6819140314fb5611055e6a1790624"
+  },
+  {
+    "mod_id": "3779561845",
+    "translation_key": "Sandbox_LGExtendedPlumbing_FedFixtures_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "4c5d81bc50ac4500c55b534bd8c9379d"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "Sandbox_LGExtendedPlumbing_IncludeByDefault",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.0615411Z",
     "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
     "source_hash": "e604eb3d53b0f8024d2085abacd7979c"
@@ -162,7 +226,7 @@
   {
     "mod_id": "3779561845",
     "translation_key": "Sandbox_LGExtendedPlumbing_IncludeByDefault_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.0615411Z",
     "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
     "source_hash": "cb08ad2d5115f27928dc8342f7048d25"
@@ -171,32 +235,48 @@
     "mod_id": "3779561845",
     "translation_key": "Sandbox_LGExtendedPlumbing_Reach",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0835461Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
     "source_hash": "325fcb31f0964d5d8903f3020a2d4a22"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "Sandbox_LGExtendedPlumbing_Reach_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
-    "source_hash": "1cb990a2bc56c3152711351839f1db30"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "58ffa63e56d953a4ee688a1cc7491771"
+  },
+  {
+    "mod_id": "3779561845",
+    "translation_key": "Sandbox_LGExtendedPlumbing_WasherPatch",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "14ba6e5b4b1b75b4f277125efdac1f42"
+  },
+  {
+    "mod_id": "3779561845",
+    "translation_key": "Sandbox_LGExtendedPlumbing_WasherPatch_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "c506f91fb6344895e35816618bc0a032"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "description",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
-    "source_hash": "024c4381fefd3404e47bc80924917ec7"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
+    "source_hash": "40f47bd25e879faa5d3592c5131e7b7a"
   },
   {
     "mod_id": "3779561845",
     "translation_key": "name",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:30:35.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0835472Z",
+    "last_seen_mod_updated": "2026-08-17T21:41:51.0000000Z",
     "source_hash": "6df69304932d46d85900dacea61695c6"
   }
 ]

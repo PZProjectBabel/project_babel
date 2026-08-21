@@ -3,136 +3,184 @@
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6141531Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710244Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "96ffca19f17359fb11569c50e623e402"
+  },
+  {
+    "mod_id": "3773933038",
+    "translation_key": "Sandbox_ArcadiaQOLSafehouse_AllowAdminSafehouseLimitOverride",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
+    "source_hash": "724891ba29ab299607cddce0abda7885"
+  },
+  {
+    "mod_id": "3773933038",
+    "translation_key": "Sandbox_ArcadiaQOLSafehouse_AllowAdminSafehouseLimitOverride_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
+    "source_hash": "70473c53c23868e6838147543e70bbbc"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_ClosedSafehouseRequestRetentionDays",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710254Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "1afd3b5a08883dbd59acd49bfc25dc73"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_ClosedSafehouseRequestRetentionDays_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710264Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "fbe9ad811cac8e3b1ce0ba3641aad4da"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_EnableCustomClaimManagement",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
-    "source_hash": "8dcf87e2ece0a98a7a6b308abe5b5c49"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
+    "source_hash": "4c7cc53895c9139d71029f7485da6787"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_EnableCustomClaimManagement_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
-    "source_hash": "ef4f95d70ca9c0b1d073bbd4965f28dc"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
+    "source_hash": "fa383f3cc2d07194f0a797a7a9dd64ae"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_EnableMultiSafehouseMembers",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6141545Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710282Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "fa87b8198e53affa0eb219358bd0b834"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_EnableMultiSafehouseMembers_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710289Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "8d5e9de381436df9acd235701fc1bc9f"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_EnableOfflineFactionAdds",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6141564Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710297Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "5f4483d7d57991ff3bc4e9e67cb77423"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_EnableOfflineFactionAdds_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6141573Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710303Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "348498374454d1ac43205aca65c373a8"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_EnableSafehouseRespawnPicker",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6141583Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710311Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "79d701a6501b498ef9bd102201a63771"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_EnableSafehouseRespawnPicker_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6141591Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710318Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "9433b8d0af7336cacc1e5c8b00c78386"
+  },
+  {
+    "mod_id": "3773933038",
+    "translation_key": "Sandbox_ArcadiaQOLSafehouse_FixMapAllKnownVisibility",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
+    "source_hash": "895057a4f07851d1b7b7674e7081e4d9"
+  },
+  {
+    "mod_id": "3773933038",
+    "translation_key": "Sandbox_ArcadiaQOLSafehouse_FixMapAllKnownVisibility_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
+    "source_hash": "e72a655d2cc88d72d789315131b42fa6"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_KeyRingsNeverDrop",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710324Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "6e212bcad4706ac73cec5a8a521b6905"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_KeyRingsNeverDrop_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710330Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "f2a110a1ae3376b02541a968965a619a"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_MaxOwnedSafehouses",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6141601Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710336Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "1db6eb28b42d7787e58cf1931eff2f2e"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_MaxOwnedSafehouses_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
-    "source_hash": "9cf26dd1ff71f0c0ce745d004fd64fcc"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
+    "source_hash": "baff6f9aaa0a65aa19ac7d870aacb46b"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_ShowAllPlayersOnMiniMap",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6141615Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710350Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "5f3a2df470a50f621ae15458a305619a"
   },
   {
     "mod_id": "3773933038",
     "translation_key": "Sandbox_ArcadiaQOLSafehouse_ShowAllPlayersOnMiniMap_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6141622Z",
-    "last_seen_mod_updated": "2026-08-14T12:02:01.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0710355Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
     "source_hash": "e27073fd6686f20294442aefb665f911"
+  },
+  {
+    "mod_id": "3773933038",
+    "translation_key": "Sandbox_ArcadiaQOLSafehouse_ShowDiscoveredMiniMap",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
+    "source_hash": "d15a61e893673f822ec182247fbed393"
+  },
+  {
+    "mod_id": "3773933038",
+    "translation_key": "Sandbox_ArcadiaQOLSafehouse_ShowDiscoveredMiniMap_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-20T12:46:32.0000000Z",
+    "source_hash": "2deae1c14dfecd36f52fee9fe6ca6fef"
   }
 ]

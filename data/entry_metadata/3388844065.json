@@ -1,146 +1,3266 @@
 [
   {
     "mod_id": "3388844065",
+    "translation_key": "ConvertTo10mmAuto",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a9947497e8839a3bc7bb32f77f164d2f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo10mmAutoBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "22a31d4b07c546a0ca4f642a571f95e2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo10mmBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "5bc299263132c4dd08e3189db22f407a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo10mmBullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "15568861c57fa52efdc415b5aa951791"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo10mmCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "38ea7655425474a127ceafb84de241ba"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo11x59mmRGras",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "234db59080a19135a9b8ad14d89bfafa"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo11x59mmRGrasBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b14c082ea646663fcb2be73781cde01c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo12x70ShotgunShells",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "deb47b577cef972c813cdaa38b922a5d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo12x70ShotgunShells_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "4e0515f49fc1b712f5ee4be6c3107098"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo145Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e61404f1f3e4e51c24db6a09da9193b2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo223Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f549cae1f3ad9ccbad64982b76969265"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo223Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "08766ed4401a12f3e6f35dc8c772b8b2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo223Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "003d079fc6d027a3324de5d51c41d496"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo22Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c58aafd6f16ed6f70d848a871bad8037"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo22Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a613a9853fe5af125c9eea1a21881b30"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo22Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ce92e23537e26b242975590d1b3d0c97"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo23x75ShotgunShells",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f8db401fddc72029178806a9ba714b05"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo23x75ShotgunShells_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2d67930fc18712c0cdf879b5a3a2993c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo25ACP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "3c8042f9b4f9f2bd8de4eaf76071c320"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo25ACPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0e2f207b811aff02c1923043cdb722bc"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo25Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "53400a8dd50604e2b543e16c2f2fe266"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo25Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "dc35f190d2124aed48b35f6f5e71cfe8"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo25Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ceec7f8881715a6db2c6f6a733fdc13e"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo3006",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8d8cbbeb92f33ceb2a477eabec3d240a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo3006Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "69cc583dcac563e2cfe50c1618745bb2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo3006Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f3960ab9ef0a813c77ad56ca5e46ce9f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo3006Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e9164b79a3b72aa2c99bf647ab741043"
+  },
+  {
+    "mod_id": "3388844065",
     "translation_key": "ConvertTo3030",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0755254Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
     "source_hash": "b671a48b9885c73187a070afbd5e1976"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo3030Box",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0755262Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
     "source_hash": "e098159098e0e03e0149de55aac35029"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo3030Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d62a94deba3dfbdbbbfad18d15890c96"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo303Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f1bb73334cf344b394854a40b0a3ea23"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo303Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "93070187b4571fd04ea1c72a602225d1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo303BulletsAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e519e4464af910c3ab7e071609b156d1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo303BulletsAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7a0e8683518e10d272b2e7c8c5b6d073"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo303BulletsTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "cf7f7b7e4c774848d1aac9e1475a8561"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo303BulletsTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c24545bb1a011fdd77426c1c2621bfef"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo303Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d500811030e3e589b0312977bb1df04d"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo308",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
-    "source_hash": "19a86b19633606082162545f3ab434bc"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f0bd33feae3cf5bf9b6a9a802ea28c5f"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo308Box",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
-    "source_hash": "9db8b97da8599851ef7a9c08d520e7fe"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1f6b4e052428fffbc09f088bf174581a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo308BulletsAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "703e7891f75ad53bd2ac90ac30485aa4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo308BulletsAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7b99b46b58744f570f7683a932bace8a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo308BulletsTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7fd8dc5f4f0bae79ebdd0576907df319"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo308BulletsTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c8504e642993c918d9bf6b695c106c17"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo308Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "37c64438441ef94dd96cb2dd54a9896a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30CarBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0be29aec8194a75e897f7c6ea35186a2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30CarBullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "37d5340b53a63c4f5fb6b30b6b9fa7ae"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30CarCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fc7a03a4ec9a804f7eb53c922f427c29"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30Carbine",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ee8e5f0c618f02296c6774f914da8de7"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30CarbineBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "9fb60b692c85d8e2ce16c9d33754480d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30_06Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "9e06577bf13b21fc07b8f760ad34a97b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30_06Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "846144543a177c7094cbe6a158a0fb0f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30_06BulletsAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1d2958e656fddbed3b0a787961648a36"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30_06BulletsAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c384628fb5e7f7d7f5ff10f696a7b9f5"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30_06BulletsTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "de5cde62bd8ada1c894db794eb4adc43"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30_06BulletsTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7403069e679e0175d00253bc2b877e72"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo30_06Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ef32fa07f227abec8b996f6db00b8d0c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo32ACP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "18fb63baed4147fab866020daad0e909"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo32ACPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "294bc3cc12285336ab8e5ddea56f015e"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo357Magnum",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0755276Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
     "source_hash": "70e1de55c03d008e724f3ac3d6baf7d5"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo357MagnumBox",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0755281Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
     "source_hash": "da3b2541ec6ff9d4701fa547eda35537"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo357MagnumCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "6bc4c37b8ca712cfd1fede5e10928036"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo380ACP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c048845d2547bcb6f2e212684664c588"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo380ACPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "53279af8bf3a71dc23f313596d93cf48"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo380Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c1fbcfe1222c28b8fa120c8ea5ef53f5"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo380Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d89dd62bd022e62857fbe8b1d6fc3ccd"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo380Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a7f205fe7011a1c175f13f114a46f392"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo38Special",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0755285Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
     "source_hash": "015f985c95d5635ad9b2ff0a2a9d8b16"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo38SpecialBox",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0755290Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
     "source_hash": "6e70953f7b8f9e1db6d25085aac1b7f1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo38SpecialCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1db8995276ad16dfb413f0c7510bbbf7"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo40Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7762c68421629912467fa7cb37a46e5a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo40Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "bc937fb27e5d2f7f7a6dadf9f86df28f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo40Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "55f7033d8165b892f1d35048c98553aa"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo44Magnum",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0755296Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
     "source_hash": "73c44609f6a75fcbcdcdbae889168992"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo44MagnumBox",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0755302Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
     "source_hash": "caef37527d2487b59349ade6b9bed3b2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo44MagnumCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "29b2a0b9a9818d5b31402c88075eafff"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo45Auto",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
-    "source_hash": "c84a50ae751b014bf7e5aa9d932749e8"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "324a179e18789976d80ef3650c893da5"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo45AutoBox",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
-    "source_hash": "de2148698e8268c6ae80b454efd8ee94"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "6d1f340d3be802a6c4331d0e3bbcc764"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo45AutoCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f0fd5405e390babbdda5b1cab6aef262"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo45LCBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c1ca53959c7f87a9ad46774ecbdf6625"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo45LCBullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "19e705119ec25b108a18bd21a2486082"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo45LCCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0cfce98589272247254656d4f78fb9b2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo50Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8f8c25fc4911ac4d769b617c5f962533"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo545Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f59b1dd13fa8a69cd810380aef7f1aaf"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo545Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "db897489235c291ffd01f14de2e02423"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo545Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7a222102f1b006e095a0f968fc5d927f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo545x39",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "993f5ba6b548025321f48184bea6c86c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo545x39Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0866753dfdabdd78fc22ac80013f5fe4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo545x39BulletsAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ffe48513611d82a3885b5a5dbddf2e96"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo545x39BulletsAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "12d7e061d519dd0b88a9a4ab9e2a612e"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo545x39BulletsTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "49e0b88c7ff7f46191753882f59d574b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo545x39BulletsTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "74caf89a308db15d74f56be77706a3c6"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo545x39Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "692630391bfd45523602f9bc74725a9b"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo556",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
-    "source_hash": "e4579340443103abee3cea769bf4d9f1"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7d9048c422675a6ff3fec72023fa28bb"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo556Box",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
-    "source_hash": "eee66e97aba6cdf0eabed855d085367f"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d25aa83b9fd7e99b90445c8b478839f0"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo556BulletsAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "508899d4d106c033f6333e770f963a33"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo556BulletsAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e39708b2627c757aaf57d6412c874fa8"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo556BulletsTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "701ebe0db9e00c00008d1ab6bbb637d1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo556BulletsTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e2be3e619478a370d07a803e8bd13024"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo556Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2d2f251c5fb517face3d12f980b86818"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo58Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "51e5d7de4608fe2c2be17b16f055dce2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo58Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "566e62ec763a9f37a08228fe8d6cc7d5"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo75x54French",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d5161e0156293e6904e6d484b7c5e38a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo75x54FrenchBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "9ad6920bb550412902ce1c90604f0be1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo76239Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8d4ffd3411e4ccbcd5e2f397dd26729b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo76239Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8ce3f26e7d1f080aca705325d0efa756"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo76239Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "496ea70761d5035604d021512998550d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d96ec48f5fe2692fc930663759df4d10"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x39",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8fac95722f0df16c65506e9b01b72a92"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x39Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c4a3a5358fc42ff63e6cc4d009733187"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x39Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1f09b9e6ff77e976e0975e521761b204"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x39BulletsAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "bcf2d4a1fca3d44ffdedfaffc55de153"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x39BulletsAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e7f0bd016fde89ef1e757778e9c8c199"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x39BulletsCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b94755f5b3a8b735a8ed6b69eb508fe8"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x39BulletsTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1951334b023e24dc93cd76f550d28723"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x39BulletsTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "57dfd66f0a5b9548c9e84afd925a1c0b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x39Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b2cbfee3202ce6468b69ed7acbc91752"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x54R",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "24018310df553361d5679a490639ffa1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x54RBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "52e2f04b4d0d2a1a87b39c509e550b2b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x54rBullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0193536127066a90cf76d0fcbe88a78a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x54rBulletsAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "afb66112f2eee88f25dfab27e5fc91fb"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x54rBulletsAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "5aea7de37471e13b3cd2f67bb57507be"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x54rBulletsTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "20b4d2277cae972d030fbfe1e8a871a6"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x54rBulletsTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "cceea2c89414f62e689d9b32da88d609"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo762x54rCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "229c2c363cbf9e05ee3d4defbabd7303"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo792Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "3ab2b9b63b3ff12b7389f30bb0164cd3"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo792Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a5c369a777e89ac758223d28d8a0e8a5"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo792Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2126e0d42ccdf222c0a15ad9ea69d8b9"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo792x57Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8961af2e84e1f4e49adaf0788a9aaff3"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo792x57Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0d6e980af01af854247a5aa44719ab0b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo792x57BulletsAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c493d489f56e120c40522216981400fe"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo792x57BulletsAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1bbe6f88eab3c1e5eaae7fdb6c70828e"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo792x57BulletsTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "92231f1372c59cd9c45bb6fe6ed37f9f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo792x57BulletsTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1fcead0f4aaccc2c54cbc5365bd39430"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo792x57Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ca34b0ea9de1dd2c04067d9c6b121589"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo86Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fd9accbe3cefef7babb183ce20b92997"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo8mmLebel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "554f6647d7a58e409bfd72da8b1fd641"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo8mmLebelBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "88f1037f4cf607913c41ec11e75effc5"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo8x27mm",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ff8ecdd001e42bcb68a2bc6d472b1970"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo8x27mmBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "366bc2f61d922ba68509ab457eaca049"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo9mm",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
-    "source_hash": "4dd66e4f769e67c2e1fa2197fe41fdd1"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "6a320abfcf6079a986a4122580db0322"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertTo9mmBox",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
-    "source_hash": "5cbad15926e0de55bc270ee6cdf5c51a"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "00d26fe1cc200893146e55284e6408fb"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo9mmCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a0987d354ac0f33e43136ac604795fc3"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo9x18mm",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f68bb7654f86a31e6271f6a2154dd71a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo9x18mmBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "37f0a706f5f88fd0fa555f1b211c4409"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo9x39",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "6949323d03c9b42b413c0496e5020caa"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo9x39Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "5e20cf8642ac4a3e6b21d953316f40a9"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo9x39Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "18f57d3a4f001226ee49ebacf2ba18bd"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo9x39BulletsAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "3fe120ec4457eaaa2c7313dd6a3c433f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo9x39BulletsAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "38a0c75e7b61cef8e7cb65fa076e1a0b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo9x39BulletsTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "43fc1bdd2191c5dd095a04e99da984f1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTo9x39BulletsTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ea25c4003c79810689dfb6f4086fc85d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToA_58bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fa548b9b79f55df0ff25c3b152d905c2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToAmmoCan_545x39",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c04cf77957cf68b07fdd89b1c0f1d45f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToAmmoCan_762x39",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "68b2b721fa1e14ac0fd2ee340e28631c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToAmmoCan_762x54R",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "774182aa244b01077972237a660ed177"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToAmmoCan_9x18mm",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c3bc583a402ea92db35fe11cc2498546"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToAmmoCan_9x39mm",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "09ffae106509c1c6729ba43a17e1bae3"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToAmmoCrate_545x39",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f63ea77022f6f8e0954122a49e84ec4b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToAmmoCrate_762x39",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8d5ca775b628f063bde38c2a746c4bd0"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToAmmoCrate_762x54R",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a07222ad458b2b989dfbc55e9d14773c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToAmmoCrate_9x18mm",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "79dbc526cd53d2a88b21f38a0f78ff07"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToAmmoCrate_9x39mm",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fd9d38d888aed947df21e04292d6ed5c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBase_3006Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "4e6a099c828cfbab250d3058e7436771"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBase_762x39Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "87461c070e96b86167ab1efc6cf2ffd4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBase_762x54rBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0411a193a1829a5fb3f3bcbdcb92bef0"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBase_9x39Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d131b10b32ce2924be1f982c2143b86c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets10mmCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "638022a0edf00d8380a970c036dc5e0e"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets145",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "9dbd39a62368d2bffad8b971f7e497e6"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets145Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e5a769a2c3dfdd9b9621cb4effc6548b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets22",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "69b74f9bd1b7a29086d553e5456eee56"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets22Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "cf7bfd7d776461fa46ccf40a7e85f81d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets22Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "259c2356ca813add8d07d313d842f6eb"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets22LR",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b51f98c41666d1b266d05100a5d90479"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets22LRAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "48f15be8c794efad1abedcbbe12f988c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets22LRAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "118f0bc9e11f7faecdad361259eab43b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets22LRBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "69884c7816a2bce7cc7f38e165f1e223"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets22LRTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d1326441bb8556ad06b50e02be59ead4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets22LRTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "5c8deb28318e1b28f28fe0c504d9d98c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets22LR_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "3aa5a452fc4da82efa092f71a4874b78"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets3006Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0781bdb859def7bdb197d2924b2f02b0"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets32AP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fb1ebfcb0a6c9bfcd9631493e9edd942"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets32APBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fd0597785435d6844d0a4a643cb066c4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets32Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a6d0bdb917ab88371abd37dde9d47173"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets32Tracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "db8df64f3d9285232f04281487194a9a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets32TracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2bd5e77a7fce56bf7089aaca96a5d657"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets357AP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "6ab48ed83503f883c950d936384c569b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets357APBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ddf4083209ab0c3023164a10b919aaa1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets357Tracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0e4d8e330a2ffa3c78c7977b86795405"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets357TracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f47ca871502755c8acc2565c03499ef1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets38AP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "eda406133c09a1b06001b302af47c584"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets38APBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "4288d33b266f9705fdd4da7426cfec08"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets38Tracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8c542299d5273b98fa5259d4655c87c6"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets38TracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d964b8206d41d823eb855a29a6e62550"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets4440",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "91f36f254160007bf4b446cde8a66d3d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets4440Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f1e7762ab60b222805fc094da2c485f2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets4440Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f41bfccc49a2c471b2cfebcc6632fcd3"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets44AP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e9a59674cddba15a6e0f983d55bb8f26"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets44APBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a4cae2ca2afe3124c32eccfc54ae7d5b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets44Tracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2f19a3ecc5f20ddae5073136c2075f10"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets44TracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "4902c8f546164be4a59814728d6106ae"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets45AP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "93fa9405195330a76bcf747b2ccb09bf"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets45APBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "19c5e0b7be4dec8f687281196cff1464"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets45Tracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "4acc35aca2b7c563980b3ee324101545"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets45TracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2e61cd9e527d09a835859c71c03f0055"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ea630a2b610833a186ef63164cf25ba5"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50AP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f13db65949fc137a858bd2df3afa7e61"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50APBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fefcc4d346d58eefa70db6aa04bd81ad"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f8538eeed8242f3bf69e45999c466fbf"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50CalCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2d8bc70d1ddcc1ab9744259c37ef440f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50Magnum",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "3c154c5b65e861c8c1feac0b00058e71"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50MagnumAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "07599149e23b18abb111f3053d29c55d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50MagnumAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c6bd70c69fa6e4c47035f23ddd1867c3"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50MagnumBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "3f5e4918b0b876f2c3bcb0521aaa7426"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50MagnumCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "3862679cdb55c96c966079550e496d46"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50MagnumTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1cd2b442ffa0aea6512b23c9b1ff5d23"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50MagnumTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "344982b1190a2624336ac9266abf2ad2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50Tracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "456b46961c0ae3d8f62ff418bc4879ac"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets50TracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "9069e486d733ed48eada2b23aa0d8bb4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets545x39",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "46ea81a8e8661f3c1066b413cec9f638"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets545x39_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1e7c4e59118841aa14854ca664ff5262"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets762x25",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "19eda05aae85b344edd71c7762281ffc"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets762x25_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "63a06595d9a1790464e37740fa5e587a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets762x38R",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "073beaf069867d37b2fad681e3502293"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets762x38R_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "93a1ad96a7a8063e1cc726a7e3edc5a1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets762x39",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1f166f01a532eaf038f8ce0b897a9394"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets762x39_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "df33916c6358d365a25dfc9895669ee1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets762x54R",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0fc675fc1e35a6d5dd35ca57232de430"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets762x54R_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fec67cf50ff39546f96fb2038d564070"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets86",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "984d07085c26fdcf2882170d6afdddec"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets86Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a2afcfc38080e5d3aa800c231330a950"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets9mmAP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fd463f540bc6927a00803ecb7540c890"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets9mmAPBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1016a06cdec7ce7c7e4b1f2deb78e46f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets9mmTracer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "05ec2292fed5c456a54d7aa6759d3a8e"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets9mmTracerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8d59509aedae3454957fd884ae3fe60a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets9x18mm_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "82837eccfc52550a1ff6b72982913818"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets9x19mm",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "074093665344174aa8bebaa4eaca3d35"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets9x19mm_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "5b5042df3d7339370cc66b356dabc498"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets9x39Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "487b289a3c202e4f9189a7380b6a244b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets9x39mm",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "83ed4658a83657c584cccec3b6e219c1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToBullets9x39mm_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "afd3fd20a5f5fc12035cb1fc61318044"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToDragonBreathShell",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "48212554ae1bc2cddcaf7d0675e7c445"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToDragonBreathShellBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "401463ec74d995dd25ac692507cbf78b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_12Gauge_Box_Buckshot",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1c60853c23f0403b125d72e6f296b76d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_12Gauge_Box_Slug",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b812346d438e25fa154b3022a994d27a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_12Gauge_Carton_Buckshot",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a42ef71a6f3c9ec1f829dd74f5d55686"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_12Gauge_Carton_Slug",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e4e7eed36b1fdef55b5d76fe7fd0df5c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_12Gauge_Crate_Buckshot",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "84028fc7925ce33945e0b26d1756498a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_12Gauge_Crate_Slug",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d998a9927d39f96c7dcb3e3a9e23e007"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_12Gauge_Shell_Buckshot",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "980ee716a7af47db552485d40a71dcc9"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_12Gauge_Shell_Slug",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "68ded5385a14b43656cfb55e41d4bf3c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_223_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "582b824e03940d9bce2f42ca50ae603c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_223_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "901566d7c6abc047fce82656680d134c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_223_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "caaf67ffc0ceb8c9938e3d7a934313bd"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_223_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7813ba643674f14806f9ba013d0fa4e8"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_3006_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d46559a2f37d78d01c49775ccaccfa96"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_3006_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b58a73c26cc1195a0de33ff4cb992e24"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_3006_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b0e1fc3ee3f22f1abd5136fd01fde179"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_3006_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0106b5411b3f2b14be401860e7d909d1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_3030_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "814e3f2d2c759f8ddb4cde55c0970ac8"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_3030_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c6b4e14fa6321a438eade1ac03ac58d6"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_3030_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "5e939971af9543503e009a291e61af0f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_3030_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ac20ecf8e1ae9043c68167d11267a513"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_308_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ca67791920fa15b0a02323120c4a9633"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_308_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "992c1ce2a02b519c70bda8404b5426ac"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_308_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8f0dd0d171fc3b78200602a6220bc6c3"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_308_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "91a25ef4a30a960424763c12fdfc49b8"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_357_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e4b4dd746986d649d5c3a1a594a739f4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_357_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "aa6e33f6f0eeba1518207d5000b3d3ea"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_357_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "bf784fdaa27a610081fce4794df92849"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_357_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0ea033aa32431f159874bd4070abc0cf"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_38_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f606d56284b437091fd010b1aadc3962"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_38_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b7a55fee14a0e91d7d4e8077f3a7a182"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_38_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "420afd202af321f3993ea24d8dc71683"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_38_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f4220a1ce0f8ae377978f462eeeab52d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_44_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "679d7bffaec6daf844cda5d78ef1d13a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_44_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8af7054a56cd1aee5ed6eedc994fd241"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_44_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "14cee6d8689190cfd90b1444cc23dd76"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_44_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7b64dec6781a31923ab4ab656af867b2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_4570_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d86e34e926ff90c974fdf41b4edc7b8c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_4570_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "82c6e6c527a7c8700c60cd01ffbbc234"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_4570_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c767d4a1852eb2c4a83b1f1ef7bb7dac"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_4570_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f506ff70f0eaf9043823012e8ee33faa"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_45_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0a91c7bba74135f8f6e2c7d62c4321c3"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_45_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0caaaee4fecee089848f371a4c8e9061"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_45_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d9fff27348b9dc6aa907c9a21e3c3d9d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_45_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e4101a9a4d368babfe4063fe2d4c6d69"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_50_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "4f60c4e78f2918ab2d6f302be87821e8"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_50_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c17339ee2ed4147b5b14dd42e3199e9e"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_50_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2c46cfa0457291c01babf76186130016"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_50_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0e038cdc75826c103678e509df6591ca"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_545x39_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "813027e6a21eac882399f08c77716327"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_545x39_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c5fd116f9fad05bad9e584ec907c76c4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_545x39_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "af16780d20dd34746c757c792614eb07"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_545x39_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1d0c8fdd76f568cf9fdf43c1383d2d4a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "208fc6778aba7c1f1e5eb5b1c9b76d1f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Box_ArmorPiercing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0571bd7bde086e213fdfc32853c72f9b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Box_HollowPoint",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fd9297e988bdc4f5cb3ac682c38c0dc9"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Box_Overpressured",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "769f3cdde2d3b45ba3fe9719926506c8"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Box_Subsonic",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "3b22ad3c1b63cce727aac291725b1f2c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a6faa960a4009cd713912879ddfe7b30"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Bullet_ArmorPiercing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "06802ffcb9a16a0a15ac20dba428a49c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Bullet_HollowPoint",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a5b4c768aab01f5bd4250271734e5676"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Bullet_Overpressured",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0f82e451f20f04919d86d93adabf1359"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Bullet_Subsonic",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8024ebb605f0dcace4a2e3ef39042509"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8b583d73d9dd8e9dfdadcdf6d8348be9"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Carton_ArmorPiercing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "73787238df07826f68128fa6b3c268bb"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Carton_HollowPoint",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "95e66d155c96ad4091283eef19feb87b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Carton_Overpressured",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "94a29a0634b13b72cc5d5d1c61b94a04"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Carton_Subsonic",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2598ccdd2e8e707fcdf2f24711781b5f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "066ddf3551ca97b081ee96cd1d38cc27"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Crate_ArmorPiercing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "275d7795eb9b7ca3a079d71f45f2e49c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Crate_HollowPoint",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8e4bd591b7b93de712196c21f5297eda"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Crate_Overpressured",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e0b6aeed7d7d6885ee74a39e97b44cc2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_556x45_Crate_Subsonic",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fdb8d5c606e2e2b28b8f5cdb5874ddc5"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x39_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a5324293e10be7d15732cf36b166147f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x39_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "09d8841395b2148f7f45edc85d70dbc1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x39_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1d193d98f1d073ce5572eea2da63589f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x39_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b1650f6dccc4caca7d98e5f5b4b896a9"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x51_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "4c9bdf2de9d53dd0308d8c989b492759"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x51_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "437a6443d4c6c3e75defa9910a5f6976"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x51_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a4524d82450170376ba609159d677476"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x51_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2922455cc97f086478dbe538adb60fe1"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x54_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e2d215fb640c6bd5863dd19e3fd2bc62"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x54_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f7242c76dd3d1c74abc7961381e47bb0"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x54_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "fb792799289a86c73b3c3aa946ebcad3"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_762x54_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b9e76c89185bfb729e9f03d11b58561f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_9x19_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "029665320b331986628030c0beae531c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_9x19_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "358c039f8e8583a9c3d9d6cdcf9469a4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_9x19_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a336c123bd64fee385aa49bb8b86c4b4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_9x19_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "51bfacce3424b9182bb26118c9363972"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_9x39_Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d8aadb6aa932c2bb50f721f01f1056c0"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_9x39_Bullet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b18c9c358587507eaf0cb632c522e170"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_9x39_Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "500ace6534b99927997d898653d9f879"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToMarzGuns_9x39_Crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c24a5f4a801d2920c7a0124415dec85c"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_127x55Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "00cd6fc335624b569a71dc0f07db2251"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_127x55Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "5097cddb8cd769d34bf61afbdbe9c6be"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_127x55Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "0117017cf0b2c991ac44d64bd196649b"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_12GaugeBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7054a7b00f58e80b40bdca965fd9d3fd"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_12GaugeBullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f9721db9100330ad43c712949dd521a5"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_12GaugeCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2ea423800bbe6118820c62ec0a80e4bc"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_3006Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ac44c1e4e4b5cf3e84ff66984d550f70"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_3006Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "284dd801df83c68fb2c797b23e0df017"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_3006Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "88196c3b9b8d808fada9786344d2a0a2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_30CarbineBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "4622df85067d74aca604ac3ba26eaef4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_30CarbineBullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c7b48b2da5b08e98538e89ff12f9665d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_30CarbineCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "3688a35b36f451f74e6addae004e3ea7"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_357Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "74df0acedfa0881013b66070a7f60b63"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_357Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ccd49704d6c75e0ac0a1309928f46b2e"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_357Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d93663a4d332befbe023fee3f9f96f99"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_380Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b3896c4d543b386c6d43ad6f3b7a2691"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_380Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "76f3d4ea40c4e9b530a163e71471f02f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_380Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "98c1bc8a292a452926ec083cfdaa259d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_45Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1d6f7a77061fbbf367d8d47da919b93f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_45Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "bdcc8b2e0ce1196f1746d03cff479604"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_45Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "6ba99089fc382c1143bb8714fd0ff5dd"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_500Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "877e49d5f81b9f4bf50b080197862852"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_500Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "5563126b3534c0e3f93581ceb0be2045"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_500Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "719d3c8a94adf0639ca112ea5e6fdf12"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_545x39Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "d68d0004432f29ca96662e7e48f67f4d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_545x39Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1c3504641af207894f35524d6337f611"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_545x39Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a809cf230daf05a6df01b8e81c23fab7"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_556x45Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "3269c182971d3ba3f81e281c1769b48f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_556x45Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c41cc388f366d16b2b8c1dbcfbaa2373"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_556x45Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "6f77499afa82aab9dafcdfe56ec23f1f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x25Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "6ec7c5dcfede53e2554a6f19f545cb30"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x25Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f5788b176ebc9ec76235dc3be535c96e"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x25Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1d64b8c6f5d171b07c46464e6d0d9fcb"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x39Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "331cf1ce84da7a0a70df1bd60c915f81"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x39Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "35f9bd9a7706d917c472bf70c358bc69"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x39Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "851c886cfbcf8b172091a73e21158505"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x51Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "06277e647695d035aac23c852998a8af"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x51Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ffe4469c026374a7b5ae7c5f65b51f7e"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x51Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7c8c26ebb325b96bab3be306046c23dc"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x54Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "3a9fbf734727786206a0497908661b29"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x54Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "2277b31eb1697acd8ec9c9777d3bc277"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_762x54Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "96bc23c7fcec04d469a417f929c3a900"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_792x33Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a7ebce919480a8d8ca62e39a1c4c77d4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_792x33Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c66d88095b55910dee6927f8b5dc7ca6"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_792x33Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a71337a9c982480c421ebd77230a1656"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_792x57Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "e96bbaaa85e3044552ae3faf63a8bc2a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_792x57Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "78258b57bd843eebe2f9895d577a67a4"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_792x57Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "59f76db10f1cf5c4e0d351b59c926f4d"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_9x18Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "cae713900ef321153d18133689aae6fb"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_9x18Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "6de5f4202b5cd1dbe61c3dc00df5119e"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_9x18Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "7fbd6e948d679b11166066b7dccd7361"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_9x19Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "ea38288b26d5995fe1054eafd9e70317"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_9x19Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8c29a01016c2980facaf68b62a53289a"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToRF_9x19Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "b4c89f17416743aa4ef84520d3b4d544"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertToShotgunShells",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
-    "source_hash": "4e7cbf30d4f327e12fd3e517395ad2e4"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "85292233831a26b5a3844d2be93da884"
   },
   {
     "mod_id": "3388844065",
     "translation_key": "ConvertToShotgunShellsBox",
     "is_active": true,
-    "last_seen_at": "2026-06-30T07:06:27.3685432Z",
-    "last_seen_mod_updated": "2026-04-11T20:25:03.0000000Z",
-    "source_hash": "d831d90a00aa3e0790e7dfc6d94068d4"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "1a83e6dc2b07399318323c39b6151630"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToShotgunShellsCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a4333e2cddb8f1764d1cb79035dd775f"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToShotgunSlug",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "8706fd22f9510a879e99e80987bf09e8"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToShotgunSlugBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "4c700757adc462d3628c7e2c6ba69ee2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToSlugBulletBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "bc44f59ba4e140c8e082fe457bfd07a2"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToSlugBullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "4586f419009c12d74a83609882fb14c8"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertToSlugCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "6738fceeeba34abc9e65eef5277aec98"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_22LR",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "a0ec193f1b660aaf198a34e33e32c403"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_22LRBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "985d10fd8cdf5bf07b4367738938d857"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_50Bmg",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "5cadec8d8af9229e328ca6d391ea01d0"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_50BmgBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "25b3fa4cc629a337094c27615b05d7ab"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_545",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "9162e6c77dd9ba93118a196f2c11cd30"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_545Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "461a1e851eb7104e702628b658e9625e"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_762",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "c4eaf6ae9b04762b8608dcce7db2c822"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_762Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "f1295f3cef54ca5559dbb3bbaea1ffa6"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_762_54R",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "446f034cd3a63f791c57647a9a4c0a87"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_762_54RBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "74a5971c3b39a51b56222cbb364a5838"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_9_39",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "130be4da730e65e39d2f8f5524efdd08"
+  },
+  {
+    "mod_id": "3388844065",
+    "translation_key": "ConvertTokra_9_39Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T10:21:58.0000000Z",
+    "source_hash": "47eb8e58942254ea650b2cb10e050cb1"
   }
 ]

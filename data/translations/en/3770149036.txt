@@ -1,1 +1,4 @@
+Sandbox_PZ_Map::en = "PZ Map",
+Sandbox_PZ_Map_SendPlayerPositions::en = "Send player positions to PZ Map",
+Sandbox_PZ_Map_SendPlayerPositions_tooltip::en = "Lets the PZ Map browser page draw other players. It does not change who may see whom - that is decided by MapRemotePlayerVisibility, and PZ Map never shows anyone the in-game world map would not. Turning this off only stops PZ Map sending positions, which cost roughly 55 bytes per visible player per second. The in-game world map is unaffected either way.",
 UI_PZMap_Name::en = "PZ Map",

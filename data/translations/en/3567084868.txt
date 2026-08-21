@@ -5,6 +5,7 @@ UI_ServerSettings_ButtonEditAdvanced_tooltip::en = "Edit all server settings wit
 UI_ServerSettings_ButtonEditBasic::en = "Quick Edit",
 UI_ServerSettings_ButtonEditBasic_tooltip::en = "Edit main server settings only. Changing active mods, maps, spawn points, and sandbox options is disabled in this mode.",
 UI_ServerSettings_ListOfMods::en = "Mods used by this server (%1 / %2):",
+UI_ServerSettings_ListOfMods_VN::en = "Mods used by this server (%1 / %2):",
 UI_ServerSettings_SpawnRegions::en = "Spawn Regions used by this server:",
 UI_alertSystem_noUpdates::en = "No mod updates in the last two weeks.",
 UI_btn_deleteAll::en = "DELETE ALL",

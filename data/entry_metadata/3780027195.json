@@ -1,986 +1,3298 @@
 [
   {
     "mod_id": "3780027195",
+    "translation_key": "Base.MachineryBandsawBlade",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "1ec9b4136c766f357bd347b8d79f5dc8"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Base.MachineryDrillBitSet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "483c4774eed478681c7b5805e25b06cc"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Base.MachineryGrindingWheel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "81a60820d853ffc9ec9f3ff5c8a2ded0"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Base.MachineryHydraulicServiceKit",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a20552a4f2d98f4cdfb4458fedcb9d7d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Base.MachineryLatheToolSet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "296dec71a740c4318a52c317c91e41e5"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Base.MachineryMachineOil",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ad0bb2093bd6d50243d43aa1e4f287cb"
+  },
+  {
+    "mod_id": "3780027195",
     "translation_key": "Fluid_Container_CabinetTableSawFuelTank",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834100Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "84b10be82d3a56b11d290bbdca2f1ba3"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_CraftingWindow_MachineryTableSaw",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834106Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "576caf29c63f0773bd5b9fa366328758"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Accident_Cut",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834112Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "2014c7b7a2cde8ab2f622b5e2e188a4b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Accident_MetalCut",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c16c45b42393fb004c15a6692c1c51bc"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Accident_MetalScratch",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d8a7d3bc2f77c6ba9fe484bdd8e47704"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Accident_Scratch",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834119Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "03ac1fbc5dd43e271616a62a3f5f1acb"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_BenchGrinderStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a0906d25a18b0a7b47e45f619b11c264"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Card_Blocked",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c236c32d7e56fef2f557b70cfb9ed786"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Card_InstallPart",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "2ffeb91113e6a2715d11a5c016a3eae3"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Card_NeedsFuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "24bb1d79108f63e7095b598c65d6d0c5"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Card_NeedsItem",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "3775bff718f8576479b3d3a0805b81c3"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Card_NeedsPower",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c7cb1c33face1de80a9cc36b83f338e8"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Card_NeedsSkill",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "58271aa4ffcfd21ec54c80d51c872267"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Card_Ready",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ca56c6b0da46370a2545c846e47386a1"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Card_ReplacePart",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "58a872a18f684d27a81de8b4a9df8388"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Check_Fuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "b18d9325cdfd270b79429f3bbadd952d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Check_MaterialMissing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "44ca32e523c53583651bbba5f0000b05"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Check_MaterialReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "9769fc3c1a2c3ab8ff3b999706fdc41a"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Check_PartMissing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "923064e2f3d1d8b22916edc0f15c7186"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Check_PartReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "3dcdc713efcf44e98e2f346a64c97fc0"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Check_PartWorn",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "5a035d3cbeaebdae771728c4b552faec"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Check_PowerMissing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "6c6b1838184feb8af62b86ed0c9ea4f0"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Check_PowerReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "35fb41f1589d79f0d0d45a35bad16920"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Check_Skill",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "02019682e99897ecb738328d5def114d"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Close",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834125Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "d898d5f4c859cd4367e4c8b59a4b6bcb"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Empty",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834131Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "506e7df52827de0de80b867f3900e411"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Error_AlreadyServiced",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "3ec38c4d7bdd3166ef83cedbad42f163"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_DragInput",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834137Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "4f9860e369302df6ba41023da0a60197"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_InvalidCommand",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834143Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "d8d954a912e65d6bb3d41798489a9f69"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_InvalidMachine",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834147Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "1bd333811c7d4565703cce2c679df2b7"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_InvalidPart",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834155Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "355609ac37a93fab4ae8c21cd683ab94"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_Inventory",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834160Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "f624a1e9f60e550b70358d62a94fdb59"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_MissingAccessibleInput",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834167Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "33d39bc9560f525e5a7654d6267de327"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_MissingInput",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834172Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "97fae149c5f00d99f0d9e98ba0c326d6"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_MissingPart",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834177Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "5e56a63be7714d1861072cd21122d63f"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_MissingPartItem",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834182Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "f1a583563e4cf9adb81a01131071ef7c"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_MissingTool",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834192Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "a05323081a41cad42e369fd310d14e56"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_NoFuel",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834196Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "57a3c59e188c2be2137f931749b25ae8"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_NoPartInstalled",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834200Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "139114a3d2334b92d7c47b9beb1906ad"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_NoPower",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834208Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "51eed3a66604d37fe6211959101ee7fd"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_PartInstalled",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834213Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "188641d40f85993c6ca07b29eee2ae69"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_PartWorn",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
-    "source_hash": "e1a62dd1bcf32a3cef32cf8a06c1b0c8"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "be5b87a997eb134b9521faab02554cc8"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Error_PropaneContainer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "346581965aeb7df79681b5a0c4074f4c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Error_PropaneStorageEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "888685003b662395460ce8fc7218c968"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Error_PropaneStorageFull",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "1ff40baa4c50f946e2b87e7ce6aa93ea"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Error_PropaneStorageInsufficient",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c453eee3235eadf3cda203e10e927e3f"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_SelectedInput",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834222Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "4893be19fc162c5a0cf3a48cc50cffb7"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Error_SkillRequired",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "4ac3f266408f2f7c5e20d50ba0ddc9cf"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Error_TooFar",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834226Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "d468dee654fc489ef508d0336293ea7b"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_EstimatedBatchWear",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834231Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "0d52391f69a519b26432f5b253c71c5c"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_EstimatedCuts",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
-    "source_hash": "0f87f924ab83b30fb3c1357ab713e416"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "5af3391f80dc4b0ec984a3a9cfaa8e77"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_EstimatedCutsCompact",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
-    "source_hash": "c9596fd1a88568ac5c860462be18eae3"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "cb3e9c8c9b7e9310ff73ec8fb2fc3c13"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_EstimatedPartWear",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834243Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "d268138bd8680ff3676643186f7639a9"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Fuel",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834247Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "e29ba9e7614add5a1810da0f96d064c0"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_FuelAmount",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834252Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "37c700575325a87a919f872c81e9f74b"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_FuelForBatch",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834257Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "82b80b7d9132799a4f1106dae6fa4e29"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_FuelPerRun",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834262Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "9a1049b431e714c913ae288e5f1b7ccc"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Fuel_Gasoline",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834271Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "fb4a6f29963089896cc927005450155c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_GrinderGroup_Axes",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "76c845f2431996a339845804923984cd"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_GrinderGroup_LongBlades",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "99fe574c5569af602cc096b85b5135fa"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_GrinderGroup_OtherEdges",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "bc0918d12b64418edb1a4d4b6a5e5303"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_GrinderGroup_SmallBlades",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "2e8db96c46bfbbfe1a7855b11ce295bb"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_HydraulicPress",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "de1145dd39cc60031f3ac95753532594"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_HydraulicPress_Blue",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "32b0eba333c2d7ea875c36f9d84df216"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_HydraulicPress_Green",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "efa91efd0d0a133917a31384bc2d971b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_IndoorExhaustExposure",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "383636c32c8deccb138f709652f13a27"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_IndoorExhaustWarning",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "f1793b52d0bc506291660866a9693aa5"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Inputs",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834277Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "c328265855cd1babb84a2cadcead2ea6"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_InstallPart",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834282Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "26e24e15aff9796049b71247df588141"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_InstallPartCompact",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "b6196fd402e9a219c928dee85d7eeccf"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_JobSummary",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "b831fcd2a2783f901341be1c98d1baf4"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_LoadMaterial",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834287Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "d18ce13b78eb0cdca046633e2363a54e"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_LoadMaterialAvailable",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834295Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "2b4533c1e81e334dc6ebaca65fe94a27"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_LoadMaterialsNearby",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834301Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "d936d3f855244580a4ed08fc914650e3"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_MachinePreview",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834306Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "0f796e2da6b6e6c7c1b01c9fc5159e2a"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_ManageFuel",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834313Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "b28fb099abe7553674a4a2c2bdbd5e0f"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_MaterialsAutomatic",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "10ff7419ef57bf94c109d0b73b8ab7ee"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_MaterialsAutomaticCompact",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ceff30fa898e923026a0006aa63591ec"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_MaterialsHeader",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "11c7f95ff36c5f4162687f68f4bf158f"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Max",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834318Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "1fd25a4ea73ea426d8cd49b056ae69b8"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_MetalBandsaw",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "bf033144cafc79b73ee07ec98dd5bab5"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_MetalworkLathe",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e507bf3382d76ac94de0c92f675833ab"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_MetalworkLathe_Blue",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "83e4409addc7c2cef8835192c67093c6"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_MetalworkLathe_Green",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "810d0abc5485f726ba1ceb3c9d276c8f"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Monitor_Progress",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "9e3dfa0a596558053669fd7534b5c9ef"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Monitor_Running",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "816b8bfcfc44335a31b96734a0212444"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Monitor_RunningCompact",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "31cf8e737adf31d75aa9fef46a49ade8"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Monitor_Standby",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "bdb7c1c91ac572505dd9cdab92dab2ed"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Monitor_StandbyCompact",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "78d0680a6b0c8e68967fb9abcaea964b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_NoLoopXP",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "4a2d8ba58c91b5c845856f62df14218b"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Operation",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834323Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "ababdb7957252db3ab6d13e84cf19f89"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawAluminumScrap",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a9371b21ecdc522e8e1563f04af36713"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawAluminumScrap_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "5800f8507fa04a946269427a296705b8"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronBand",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d6f49a80d407559f5a839bb9fded08b5"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronBand_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "13544bcf16b15f6ab66b2c47f4739ae2"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronBar",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "38ef08003afd231809422333ed1c754c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronBarHalf",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "3a933ad4d2f017cb776cbb1b51ac52a2"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronBarHalf_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "9b66c155b8dceeb8085ededeacf9f88a"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronBar_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "b3956933d63821f7e9cdf42cc7daf98f"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronBlock",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ad2ce2aa0dcc34453a3a9b4b2f96db39"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronBlock_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "405b9c5a2c099321383f1b64db7dee8b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronIngot",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "9380a937e10d60c106af4d7a4d5535df"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronIngot_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "24922241dc82fd320cd7dad4d97fd482"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronPieces",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "07d2ee99e4d8ec715cc9be9c88e5956c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawIronPieces_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d852716b8e42366d62c878e2b00e4ba3"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSawblade",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "9284e63675f82bcafe654bd626e6706e"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSawblade_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "be0b5de6a99211cc084b40e1141375b2"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelBar",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "337b7c6fabc51a30a20776da254cc689"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelBarHalf",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "dc04d11928418c9d65be9e54cc4dec24"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelBarHalf_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a182c72b1030691132a5e4efe1a7fffa"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelBar_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ffa5143d3f56e37d1b24d3cf63d5cb8e"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelBlock",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "31d5984b64bbb3dd75bf74e90693f845"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelBlock_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "0d629a251aec4608dfe3181d4c7b205a"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelIngot",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e3754d62c9eba8e155fba522d7c32e74"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelIngot_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "8a89765604282ac3b5d03e52abd21090"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelPieces",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "42fec7fcc694fc8e4826c5a81f9ff8c2"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelPieces_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "eb4696fae1241d53dce0b910d3fb4854"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelRod",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d99ee2348cd21c9ceed5d748580c302a"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelRodHalf",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "b0e838b53919f991151a7d207da5b13b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelRodHalf_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "6c5e33f18897b0f2976f28a172609436"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelRod_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "99cb6e3ce5d606c0b9e40b2f599b1f6d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelSheet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "600a3c47fdb666c461f0aeafef07149e"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawSteelSheet_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "11b1f7cd5c39f92f380cdb141ca5fe1b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawTire",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "f659f1aa5057fa15b20c0da38b156845"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_BandsawTire_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "52df2dcc767fd50e81761a0817e687c2"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Operation_CutLargeBranch",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834329Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "34df07a4d8e066be9ef80501b124f99e"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Operation_CutLargeBranch_Description",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834333Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "b0c2b065ef9ab551a7418cb064435e2a"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Operation_CutLog",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834339Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "38864a8ad24ef5353ebb9f09d5e5907d"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Operation_CutLog_Description",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834346Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "58289ff5ab97f9aa0069e5d9d3c99b3f"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillDrawPlate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "65a32aa865b98f3dd6cf78313e6b587d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillDrawPlate_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "070c5b869c1bf35b84488ebb6f95498c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillHeadingTool",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "f38cf33e155ba86cd608e8aa41b39ecb"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillHeadingTool_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "39bcf05987831aeedda7598ad9db3a70"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillIronBlock",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c1de4f9266c44f48fecc6fd10d323ce5"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillIronBlock_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "f5b4e94c7a2adef674769653303ae5e8"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillIronChunk",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e936634468d7da45c832c2e91a152f20"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillIronChunk_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "6f8db598c057dc3041166781b30cd540"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillIronIngot",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "0b408562acc9b4e56037dbdc742f221f"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillIronIngot_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "13a955f70ca7aa3d97d2db16eddcea0a"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillSteelBlock",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ec73a11f40095ddf989726a91567a9c1"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillSteelBlock_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "dfc19d1338aeb49cf711501043d03fb6"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillSteelChunk",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "868836e25f7e8fa46c21a7432374cb42"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillSteelChunk_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "98342aa34bcc2fd5e703694022ba9a0c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillSteelIngot",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "489666b70ea30eb9cfb7a2b2fd997ff5"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_DrillSteelIngot_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "9aa40cbe16c2dea7142fcfeb4eb1fad9"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindAxe",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "772ccb67867cadb5ddd8cabff800c493"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindAxe_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d1f7271715d7a47f6ddead100918676d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindAxes",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c90e3c235d26da2bc71e8879bafac19f"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindAxes_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a7163f5b053ce4b661c663d0df80a6b0"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindHuntingKnife",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "987886fa08ade31f17c876aeceacdc0c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindHuntingKnife_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "707db3017109c2d9b3070bab34c9a8ba"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindLongBlades",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "33d7412c21676092358c3c71da20be0d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindLongBlades_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "7258cd055f1a78ce29baa2cd9f43e84c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindMachete",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "1242092b1d3873e8c5bac2623af23521"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindMachete_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "4d3ffea1f86ec126ea01d3c7f1ffee59"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindOtherEdges",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a2d0480ba7bde076930de40cffc2390b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindOtherEdges_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a849a826d8f365b17782bb216cb5ba05"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindSmallBlades",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "fe544b3ea1b5bdf86d8007c4f2e233ea"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindSmallBlades_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e1ed379c6dc86fcfb1515bfc059522ab"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindWoodAxe",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "40b604fb0db884dea109d68497c3353e"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_GrindWoodAxe_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "aca5a10960d194eabc63c72eefc4be53"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressFullSheet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ba455c1dc6cb41ff9fd09b0188a42b9b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressFullSheet_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "41cbbc0830eee664ae5ccdbf7d6449b0"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressIronBar",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "929e1ac18f6e4e5491ef54b97b1d23ea"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressIronBarQuarter",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "3ec74754f9998ec05648f6eb6edaa782"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressIronBarQuarter_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "94123491de1823454f571481733a20e0"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressIronBar_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "fd29c89aaae45b06064b4913bcfe6660"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressIronBlock",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "3d3c0a95f8493a229a3c838b6e4c816e"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressIronBlock_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e832577b0c998768d58a142a2a30454b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressSawblade",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "542e3da570e085521676a31f4d6d6ac2"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressSawblade_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "5e6ae3afc87ae398587bc7cc7fc83c60"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressScrapSheet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "5a519b424e9daba1b938d618d1b19358"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressScrapSheet_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "1c07a9679281e74252bda3c016ac1662"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressSteelBar",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "433b979ed7585f87dc412b89e2b52700"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressSteelBarQuarter",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "db8cb5d34aea3f98fb6fa19dabdbade9"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressSteelBarQuarter_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "41d95fc7ee9aade3b13005840d7b67fc"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressSteelBar_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e29f0d5fa760184061e10f7538319719"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressSteelBlock",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "1ef66888af39df45901fa96dc5b49f8d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_PressSteelBlock_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a03b4fe55c5b35f8ce2c9800c1dd26c3"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_TurnFullBar",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "809032fac49efb6b38169d883ec3872e"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_TurnFullBar_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "3ab2176ee180f6cb22fce72b22606067"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_TurnHalfBar",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "72ac2ab68b69445ebba3a29dc0d1ceb9"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_TurnHalfBar_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "de374978f61b177a0f4c42e9408d05b4"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_TurnSlugs",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "de03a3b4adbadf664ae583b0dca8a21c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Operation_TurnSlugs_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "32feb400c3bedbb3203d72af6f02f20d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_OutputCarriedBags",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "6021200ddbc7e132e7b052ea20aba6b1"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_OutputDestinationHint",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "fa7cbea27aea4c3aa5923c008b9ec421"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_OutputFloor",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "68358fcb338ec4caa45dc4d724bcbc35"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_OutputMainInventory",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "010e0a8244320f116662418842baf701"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_OutputNearbyContainer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "7e516877127795009b1c2725c0334f9f"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_OutputNearbyContainers",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "559b21fd1217c219c649d0a661c22aec"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_OutputPreview",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834350Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "f5d4e22526e699028fdb503705049940"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Outputs",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834354Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "52863f5639a550853ab4df3dacb5eefc"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_PartCondition",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834360Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "c32f3ee0231a2024110da5b35687bb11"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_PartMissing",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834363Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "ab7315e91ccf906405ddf2fdb381be11"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_PartWear",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834367Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "f0174ecd2a836f502420f4d3f89d7824"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Part_BandsawBlade",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e8be3a6149228df335a06607f88457a7"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Part_CircularBlade",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834372Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "0b9a667924fac8844b7ba35ac1943e1c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Part_DrillBits",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c69683a74d39ca9d6118189f4ee2ce91"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Part_GrindingWheel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "67b5728237ca661da17a542ef729087d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Part_HydraulicService",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "304aef5f83a1a264f0fb982486e59613"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Part_LatheTooling",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e0e3472addb7b536fb83aa646d7e6c20"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Part_MachineOil",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "2b8f91ec6f41960fa61fcd511667979d"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Parts",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834378Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "a8a383e29555cf112a5b74c63f520d4f"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Percent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834381Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "bd1d0f4b6caae09a0635b5c3bc38202c"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Power",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834385Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "d2d1dc687fceb6a1c3f6f6c9ea96c29f"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Power_Connected",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834389Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "45ba408358989e5ca17e3574471eb131"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Power_Disconnected",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834394Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "8ea2e25a948c9b81e794c64fba98289a"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Power_NotRequired",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834400Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "9606818153ebed6f46d4ee8133f307be"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Processing",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834404Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "276ae4b90356e6392d0b073d2e604693"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneAllNearby",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d0b3c08708a9ec833087e1d5bead74ab"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneAmount",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "4575339c4e987096fc36d79472b54d52"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneBulkStorage",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "cc70685a70fd7c4a3db31633cbe66e07"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneExplanation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "4ef432e2e6a39165ace7c0bfa92059c9"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneExplanation2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a63f17edfd19533d60404d02e5305b73"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropanePercent",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "9ad77fa4319827e0900132eefa3d24fa"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "5e8309684734258e2dadd51b8d6d2261"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneRefill",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a4a6b5ef5a85485a7b7aea530184f7f9"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneRefillAll",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "65ba05b68575208cea5d5b5b49e71bda"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneRefillDirection",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "84812fca7c48227f123b4f13c450bead"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneRefillInfo",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "742caba46240d0ec6da076352bf7a6b3"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneRefillSelected",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "4620fbd7233febb5218030d490dd6944"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneRefillSlotHint",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d974949b30278c3345afd59d6d2f7367"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneRefillTitle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "aee64424b8cd9639610e5fad7422aadd"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneSelected",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "4f9777b529f80747ef94329716711fe3"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneSlotClear",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "8864c9f83043de2e141f4a024a13592f"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneSlotSelectedRefill",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "b16db7ac9179a8a153af96bc3bc1d974"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneSlotSelectedStore",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "2a4f8dab86f79550f9103fd16e89b551"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneStorage",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e040be55b022f05dca3e04e163475585"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneStorageCompact",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "15c9468749ec48bc7cce62777bc4a26d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneStore",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c4a38fc42b68d561873b49e3bd617325"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneStoreAll",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "520602d908d2d47b9d4fecdfe813f778"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneStoreDirection",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "6e8799978b348bf94b1d5d27c9b3a0ed"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneStoreInfo",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "0433483f753fa0f4cd1c7a041761df92"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneStoreSelected",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "7f9b3e092bfc4942fe7c4b51d5cddfcb"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneStoreSlotHint",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "458f2efdd9c84d4d96ddb5dcd6859b78"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneStoreTitle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "edcf2a98ee8d089869d4dca2c3488c2b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_PropaneTransferring",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "7829fed9a17fc3fd353b8cd49e9e13c4"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Propane_DepositAllReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "066ba0b75234f3b68564f1460d2de0b9"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Propane_DepositReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ebc008d5c107103ceaa857e2bbca70d4"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Propane_NoDepositItems",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "79dffd8a5db5c1cdd2397f779fbb02b3"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Propane_NoRefillItems",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "f75b8ff18e262ea4e76e88b7c5631404"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Propane_NoSelection",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "03ee3a647b94113c5f6316ceb60250fc"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Propane_RefillAllReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "45aa3162a1caf679805c58daa36c99a0"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Propane_RefillReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d9a641dc0820890a54199f5995c11339"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Propane_SelectDeposit",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "07e2067895225d586c21b8fc0424c153"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Propane_SelectRefill",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "b25006959c46e19af513d0208e487b0e"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Quantity",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834410Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "38fd96ed78b4115961ad3e2863e309ea"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Ready",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834414Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "601cedd4b4c60e03fd5f12442a8a47a4"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_RemovePart",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834418Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "a65115d0d2d3d2c0e58268ece2fcb9cb"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_RemovePartCompact",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c89e99b584023e5a818e26ca8e6aa756"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_BlockedCompact",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "897364f4c9cca0c7d95c99a9ba769bc7"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_DamagedItem",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "822f4ec46d3afd6de857a574d03e565b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_DullItem",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "51c06eaff79822b7832ac6803faa7833"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_FuelAmount",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "2177ccc067413cb2be44816f863af2c2"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_FuelMissing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "7100c8a41928e181813835f6e7103a34"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_FuelReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e86bc532f69e0bba4f58adc3734c8158"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_Item",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "1178ec2211d0718587d7681aee3072c1"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_PartMissing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "5148ece37cad902413efe10a21145152"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_PartReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "37d5958f2ec492651c93d2426b1bef02"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_PartWorn",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "262d0ba8043a826c3831eadbee97b0ea"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_PowerMissing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "295d66d8e55ae7ec25afc0867d069db5"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_PowerReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "3eaff1de842153a6eca9de289d417d82"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_ReadyCompact",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ad3e62de9d2272aec4eda1bbdfae4520"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirement_Skill",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "8c28147a05324174e7d7061d450f8e6e"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Requirements",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "8fe253b9a22db0069826eedce1de9a92"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_RequirementsBlocked",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "473f20c96a1da6b1a61c1bb12c4586d8"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_RequirementsReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "26d427155cf2ab8bd370bdc7db2a70f3"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_ResultsHeader",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "7b3767de97232e75754b0da6d752d615"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_ResultsRetained",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "44a8a634db0b770acf9f9c6b62dd08a1"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_RiskTimeCompact",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834427Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "97966b5b2dbaee22527aecebc6d954fb"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Run",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834431Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "c11bd4e09efd38e73efd0c6bfb3b4921"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_RunQuantity",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834434Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "313f5eb534ce8841edd33b7079e832a6"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_SelectJob",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
-    "source_hash": "df9b698f0d404265ca05d6717909d97d"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "13ae1573a2c12188c4827d8f7d0d5573"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_SelectedJobRequirements",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ac16b693f870d6d2dd6b5d5ffb23b814"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_ServiceAndPower",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834445Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "27c7144a76f4f2125bf0e6c4dbf6aa5f"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_ServiceCard_NeedReplacement",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d2c0d01bd8f4668efa9fd927e1609ce5"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_ServiceCard_NeedReplacementNamed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a42177dfb869b4f3318e747dfbe5bf82"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_ServiceCard_NeedTool",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "88907d26657f3635cf092009d597368d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_ServiceCard_ReadyToInstall",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "5a6afa26a0a41cacd9fbca4c815534e5"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_CraftHint",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "253ee0d171896bb98ac1039507089640"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_InstallBlocked",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "2d50a7230e3611371ff7849137c35ecf"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_InstallReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a6b60613bf98255424f8514a109b457c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_Installed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "af9ffc09eca9a087e1c622dbd02994d0"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_Inventory",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "4cf6eafe6e825fdcfea7ed2a1a000a4d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_Next",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "13228e6a99558bbe4b5cf88a7823b6ac"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_Page",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ab31030a7e79f80af27a4129a9744120"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_Previous",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "4f24309b30b59c3faeaba834bf73d59b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_RecipeUnlock",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "0eb6467900a41feee10856b78e731986"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_RemoveBlocked",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "5ffd903b20a7c4ea456bded850ab7ab2"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_RemoveReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "6836b67a965a6407064334a74ed68208"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_ShortRemove",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "07ab31527529a6ea85ce6b0ff87ae6d4"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_Tool",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a838a4ae22d5a6d63130b2df5e5ca153"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_ToolAvailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "7fd725c00e51893a25b42880daebea1a"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_ToolMissing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "24dbcae2a01e7d2183c6cfd4363e7df3"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Service_ToolReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "db6aca9ff2fb01cf02001dad9f99b5ba"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Serviced",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "045fc8504f398b8a566f40ce7797d8c6"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_SkillOutcome",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834451Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "2e8e6f496e3840f5b969724486c3fd07"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_SkillOutcomeCompact",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834455Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "2d467d785b0a8b89eb857236f96166a5"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_SkillOutcomeCompactGeneric",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "bef053d132edb4801c922e97e306de90"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_SkillOutcomeGeneric",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "77a509d925c778f36525a7ca3772663e"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Skill_Carpentry",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c66123cbb85ebb9cd8c510b54a7a7e27"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Skill_Metalworking",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "582c2b38637dc41ba14194c6f52f5d47"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Slot_FuelHint",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834460Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "b5221fc4d8f43385071dc682cb1234c7"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Slot_InputHint",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834466Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "853166231443641003e88219f2d2beb1"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Slot_InputOptional",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834472Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "cc4c9225c929086b0bc8ae3c3899ac9f"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Slot_InputOptionalType",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834479Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "82ce7d08c60776bf0500f3da7ef3a15b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Slot_InputSelected",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "898d160f93686739082f9fe6c7d08933"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Slot_InputType",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834484Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "685b6cbcfb347cd60f5f72e928b89fac"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Slot_OutputHint",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834489Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "9ed4650ebf0b644c588f03c3e46c87d1"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Slot_OutputType",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834495Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "db1e319d0536a63ef78754d62e7091df"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Slot_PartHint",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834503Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "bfaf889569f1a2f0cae03200bcacde66"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Slot_RemoveHint",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834507Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "ac320f2c49999789d3331ee66390b0ff"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_StandingDrillPress",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "86cfc1485c5de9ebcb1006f46d9dc289"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Status_BlockedBy",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "054aa6ca34f0b4933727db0d39c136a9"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Stock_BarQuarter",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d1eeb3d6dca0314f5c93e80c96b7455a"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Stock_IronOffcut",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ba4a6c7ada993defffbc962bf669c972"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Stock_SteelOffcut",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "ab7213fbd561083e8f8c4b67eb559695"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Summary_SkillRisk",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "291740b068abf14576737145e589c001"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Summary_XPTime",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "b23ed33fb79c8d41387d52d00f1e1e64"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_TableSaw",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834511Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "eb0803c0c3558082751f026134d1bc17"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_TableSaw_Cabinet",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834517Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "f04f3053b01116874d34958677869747"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_TableSaw_Contractor",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834521Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "883a7ddee2a7e3e5cab6c9b3a4545d14"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_TableSaw_Industrial",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834525Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "6797f1bb1868ed1a5a97ac454d61f48d"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Title",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834530Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "771c4363a632c45688a10276d4c7bf14"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_ToolRequired",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834533Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "484ab7abcff3a8cb3b9c8e751802fb6b"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Tool_Wrench",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834538Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "c6de455b347ec4891ebe90c404c4517e"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Variant_Blue",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "abb7d9cb7f403e3360b0800ccc028ed5"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Variant_Cabinet",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834543Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "921be882615c76ef6401b88e078287f0"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Variant_Contractor",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834547Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "d4afff9faf0bd208580f7cd1394b1175"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "IGUI_Machinery_Variant_Green",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "aab369eab79b292b79466f838ec4f293"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_Variant_Industrial",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834553Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "6a646505509b6ec23b0b65c00a027763"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "IGUI_Machinery_WearDisabled",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834558Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "d547df9d5ac9e17ca2c7fdd2ba35e9fa"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "LargePropaneStorage",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "68999eb0c2d528c751d933753aced0f8"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MachineryBenchGrinderStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "4785fc51303d5355cf51cf477d018a01"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MachineryHydraulicPress",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "40bc01e9f8c74541496ae6162b835ad7"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MachineryHydraulicPressBlue",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "87f24280c238d8dd145c5b7c25d04eca"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MachineryMetalBandsaw",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "0edef385ab51986ebfa278798251fb9c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MachineryMetalworkLathe",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "cd4aefbbcc88aca7fec5405bf709a597"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MachineryMetalworkLatheBlue",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "8a167f894fea4c86f5847b675d3c1847"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MachineryStandingDrillPress",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "a15e3226770d7d1b071158ba83f50141"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Machinery_Bench_Grinder_Station",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "2ead98f6a066e763ec1c4e71b351e83c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Machinery_Hydraulic_Press",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "b3f1c2397d2fe52d7bdb647b579a6c2a"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Machinery_Hydraulic_Press_Blue",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "03f7794cd04b4a1a4fdce2d48ffc3271"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Machinery_Metal_Bandsaw",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "130dfc1b44d83f0cdc2f1c8f04e806b7"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Machinery_Metalwork_Lathe",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "7aec6eb862fa1213c1c42a71b4e8b60c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Machinery_Metalwork_Lathe_Blue",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "fb9975d62345a71ee7d64a2dcc4295a5"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Machinery_Standing_Drill_Press",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "5d5e2ccd0e2a4365418cc61dfbf08198"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MakeMachineryBandsawBlade",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "69d8ddb345980490b680afe7b74574c1"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MakeMachineryDrillBitSet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "999d996c1088660f0f9c69ce082c7225"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MakeMachineryGrindingWheel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "1a5732a7225c03e1185f5c73122bf3bb"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MakeMachineryHydraulicServiceKit",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "48aa9a68ca35342c51a5218048429cab"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MakeMachineryLatheToolSet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "9cfd4793922f035a9cf2f32de99e6de3"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "MakeMachineryMachineOil",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "94e0941b0f61eb1368e3b84683e9b44e"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Moveable_LargePropaneStorage",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e5f64cdc4e17b834f32ba45394c2e21a"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834561Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "42b00a8f2bf193d9a968fabc5a1331c7"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_AccidentRiskMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834567Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "c4ae9a56f05082d59372c67584317a0d"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_AccidentRiskMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834572Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "143cb219d06bb85c284fed2ac41de104"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_ActionTimeMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834581Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "ee3793eea8d78966546d951043bd4013"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_ActionTimeMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834586Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "0f466e8eb9055ca6821d1d257e6a883d"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_EnableFuelConsumption",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834591Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "41b4560d2c9f6e245a242ab54234cbdf"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_EnableFuelConsumption_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834598Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "636e95ed245a68a053edb7725c789cba"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Sandbox_Machinery_EnableIndoorExhaust",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c1f655782aa2138f717d99f1746187b4"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Sandbox_Machinery_EnableIndoorExhaust_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "e8968f691a5e02ed3fe481d65ceb9865"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_EnableInjuries",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834603Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "1337711ed256e4c37c4ca64f59bac049"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_EnableInjuries_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834608Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "ff35b20863ec0497fb036cf4d075d673"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_EnablePartWear",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834612Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "3a79c855f93e00cc607ed546be5392a6"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_EnablePartWear_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834620Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "83462b905198955a6487aeb0745aee97"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_EnableSkillScaling",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834624Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "7ceb47b6df9b1014f399e7d87f11230c"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_EnableSkillScaling_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834629Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "6ead863783302760ababa39a980c5350"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_FuelUseMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834634Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "68babc421d724680d69f955e331c383f"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_FuelUseMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834641Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "cc6a99d0afe79b16ebfa14504e9e69d6"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Sandbox_Machinery_IndoorExhaustMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "eccfaaa12ea16cd39042942e63d60600"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Sandbox_Machinery_IndoorExhaustMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "49daf2b0038a43bccbef1122c74ec4cf"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_PartWearMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834646Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "7b4590683c65706f7a65766ec8f79145"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_PartWearMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834650Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "40ae411fcac76d018c3d390c3de9262f"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_SkillDifficulty",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834655Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "c5554e541f9cddd9133ffa8bf954b941"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_SkillDifficulty_Values_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834660Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "f09d05dffc6f146ad4702d16bd02cf67"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_SkillDifficulty_Values_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834665Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "4c5a02a7c9a37b5e31c0771ede095b1d"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_SkillDifficulty_Values_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834671Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "1efb7f451c4fcfeb403f37bad32810e2"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_SkillDifficulty_Values_option4",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834681Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "64a6964a47798c83e438a1c409919ab4"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_SkillDifficulty_Values_option5",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834686Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "a0e22b2c8372a3b32874178a638018d9"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_SkillDifficulty_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834691Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "5314ff653c29845aee42d873f3d2bada"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_XPMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834696Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "a340c0742b49bef4fda1b87c1d777179"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_XPMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834701Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "182c251bee5ffdf388bf8a0b722dd6af"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_YieldMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834706Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "9548b432935f90a7ca8403eef9c44816"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Sandbox_Machinery_YieldMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834713Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "4b5879cff237355b9ebeffcc2476e9f4"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "TableSawCabinet",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834717Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "8671da965831a0125de6238d42027e49"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "TableSawContractor",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834722Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "8279df1386aef39a950b97c42227cb34"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "TableSawIndustrial",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834728Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "7860b56e383c58c3dee2587350043c49"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Table_Saw_Cabinet",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834736Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "ea0202724cefb72d78b59262740b8424"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Table_Saw_Contractor",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834741Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "999f73cb3c678a47ea6615285859f28f"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Table_Saw_Industrial",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0834744Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
     "source_hash": "fb80d06bb4a3943433d1383e33b86cbd"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_BenchGrinderStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "1484344f593e6ce52f4b1e3bfaa3ad4c"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_HydraulicPress",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "779671dc920bab1710055a8b668c083d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_Item_BandsawBlade",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "790567b2915ad65b4db9fae7cb0b1af9"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_Item_DrillBitSet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "c0459f195527505d9fb32a841cd7c96b"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_Item_GrindingWheel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "34cb1c0e915ceb82baf1c449434b2819"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_Item_HydraulicServiceKit",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "bf756bb79fe700119d6ec6f49305d392"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_Item_LatheToolSet",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "6dfc7f07cb78fa4330035cdbafb76389"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_Item_MachineOil",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d65e9b61a1a2f41d4dd33891cc15a965"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_MetalBandsaw",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "0785acaa056ffedb2a5161e4ce09265d"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_MetalworkLathe",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "204fac63e312aa7d648531eb70a0abc8"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_PropaneStorage",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "d864c500f9d27e139b9a383eeacfb9dc"
+  },
+  {
+    "mod_id": "3780027195",
+    "translation_key": "Tooltip_Machinery_StandingDrillPress",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "5f20c3dfe46bd7bbad085e4d65fdc9f1"
   },
   {
     "mod_id": "3780027195",
     "translation_key": "Tooltip_Machinery_TableSaw",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T20:14:13.0000000Z",
-    "source_hash": "e8ad750325e5e736b361a97ffa4f66ce"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T02:56:03.0000000Z",
+    "source_hash": "2f171ce3b19c4e8f4277b250c5c12779"
   }
 ]
