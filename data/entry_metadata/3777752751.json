@@ -1,330 +1,474 @@
 [
   {
     "mod_id": "3777752751",
+    "translation_key": "Sandbox_BanditsFixPlus",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "bcc38af1b2000a12d4f4f856f44ca4eb"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "Sandbox_BanditsFixPlus_MapBandits",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "bf44da6be2441493e59d549fa055cd0b"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "Sandbox_BanditsFixPlus_MapBandits_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "2f9d74d16f4832710ebe9d4774b707fa"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "Sandbox_BanditsFixPlus_MapCompanions",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "d54000fb5609f044fea185bcc3967cc8"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "Sandbox_BanditsFixPlus_MapCompanions_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "017b22d13308d19f63db0eb47a7a2280"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "Sandbox_BanditsFixPlus_MapSymbols",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "a57a6790b836c1e6003b9222bf1c3374"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "Sandbox_BanditsFixPlus_MapSymbols_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "af5db0012ca5300d1836f608f469e433"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "Sandbox_BanditsFixPlus_MinimapBandits",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "b0287cf05088f55e80f656cfaabc5dde"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "Sandbox_BanditsFixPlus_MinimapBandits_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "dd821f8abd0f6ce6b24d0499c903df98"
+  },
+  {
+    "mod_id": "3777752751",
     "translation_key": "UI_BFP_blockPath",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589641Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "c001dfac4219a11ba3781a6701fe3fdf"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_blockPath_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589649Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "7899f4be50a8cab73022938d03c2c643"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_debug",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589654Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "d18cd3d3dc1de7ef8d2eab8d3b119980"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_debug_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589658Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "ab8c73c258ccede6f9a8c7c6cea989ce"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_guardTolerance",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589662Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "5c0733096c7da57a9d16f93b51605be7"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_guardTolerance_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589667Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "f9bf8bb41953797e10a18176364efcdc"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_hearDist",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589672Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "de3b3b38fe404a07854ef9d465c34c1c"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_hearDist_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589676Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "bd80ccb0e8b4f9b37855a071370832ba"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_lootClothing",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589681Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "bdd7b22a2c7f234df868232735aee7dc"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_lootClothing_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589686Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "a00d0991f423831ff627ed22ccd5b43f"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "UI_BFP_mapBandits",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "2dcb11b460369f1327cb87727b653f8a"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "UI_BFP_mapBandits_tt",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "81bcb129c00d90168a7b7a2ecc6d3ee5"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "UI_BFP_mapCompanions",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "e14d9a7c3b5e2290faf1b9df636ae360"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "UI_BFP_mapCompanions_tt",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "80063793cf0b6e379913dd4b4415b537"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "UI_BFP_mapSymbols",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "2ea2ae6d43e16aa60c17f7d71514e0e6"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "UI_BFP_mapSymbols_tt",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "5416a0fc2bcee6552c841b16eb4dc408"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_markerClear",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589690Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "ced751425af20eb26a85787e92fa8bd3"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_markerClearDist",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589694Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "ac1576be6c4d93a4a68fb85eda07a8a9"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_markerClearDist_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589698Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "19065aef76126a7826ededf64aa08519"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_markerClear_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589705Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "c1118f59ef6c7662995a2f760f5db416"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_markerLive",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589710Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "bcaa4cab7fc1db5a295babb7c51d3d39"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_markerLive_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589714Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "80ea4b217690e0533559667418442547"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_markerMerge",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589719Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "e4eb5a26e80d84bedd1892de752b0c9d"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_markerMerge_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589723Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "92c876aa24a0e4862b4580b2980e0f35"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_memory",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589727Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "b5d0720a739f390daeecb5c2736db36a"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_memory_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589730Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "38bfa5f4f6325b8324edac35b689877f"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "UI_BFP_minimapBandits",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "e7330a35e0036f0e40ad497fe9fc5c15"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "UI_BFP_minimapBandits_tt",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "abc514bbabe4ae0e58792ab2d3ed9d36"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_protectMode",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589734Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "47de9329a6146d0a1ec63968eb7abb3f"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_protectMode_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589738Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "eae37e2f15512706f0a4b45e9d810141"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_protect_all",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589742Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "96b8744d445f2943349b50cf074eb958"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_protect_built",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589746Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "3815416c2371bffdfb7a616400cf6635"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_protect_off",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589750Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "8876475f33d36c96eab078276f35ff99"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_sec_companions",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589753Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "b7a8dc65d9abb21428b2adec3916ce09"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_sec_guard",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589758Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "1538e1286f1996de0b2191159bc9e576"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_sec_loot",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589766Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "bf27a385a19eef6a7eb1bc9cec66ec65"
+  },
+  {
+    "mod_id": "3777752751",
+    "translation_key": "UI_BFP_sec_map",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
+    "source_hash": "1c0fd80d77aad48edcbd059ecaa25498"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_sec_marker",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589769Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "054742577a59d205c635add532c83f53"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_sec_misc",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589773Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "33f6c2598a9e074653b48ad1e7102f84"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_sec_stealth",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589777Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "8dcffef6cc002630931b6bad037eb1b4"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_sec_watchdog",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589783Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "ff39d9d227f022bd52ad96884ea9847c"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_softGuard",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589787Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "a9abb197447582f123072cd82e58b432"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_softGuard_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589791Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "6c4dbfdbcdc74260bef56c9b817643b9"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_stealth",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589794Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "c640525a334a377191243db2a782a32f"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_stealth_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589798Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "dcfb0d1f022267141d4b5ac09f44aa1e"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_title",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589802Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "bd5869dde61110ad40e3bfbd18122c62"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_watchdog",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589805Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "26148afc296cd09b6444614b1bf47c9b"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_watchdogSeconds",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589809Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "a182f1983a9eec2fd33d1d190a80353c"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_watchdogSeconds_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589814Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "01a65560e2ae87fc45d0ecbda6374b70"
   },
   {
     "mod_id": "3777752751",
     "translation_key": "UI_BFP_watchdog_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:22:34.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1589817Z",
+    "last_seen_mod_updated": "2026-08-15T17:12:50.0000000Z",
     "source_hash": "af22891646c478000eb999b073da2838"
   }
 ]

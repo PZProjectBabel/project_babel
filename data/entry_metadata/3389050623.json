@@ -3,72 +3,552 @@
     "mod_id": "3389050623",
     "translation_key": "Sandbox_AmmoLootDropVanilla",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6206590Z",
-    "last_seen_mod_updated": "2026-08-08T01:21:08.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0775164Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
     "source_hash": "c14ca8bf69159f9169d24257338c8540"
   },
   {
     "mod_id": "3389050623",
     "translation_key": "Sandbox_AmmoLootDropVanillaBox",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6206603Z",
-    "last_seen_mod_updated": "2026-08-08T01:21:08.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0775175Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
     "source_hash": "a0b8205031c60f37e221b064235175b4"
   },
   {
     "mod_id": "3389050623",
     "translation_key": "Sandbox_AmmoLootDropVanillaCarton",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6206611Z",
-    "last_seen_mod_updated": "2026-08-08T01:21:08.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0775182Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
     "source_hash": "e7549c048d70dff4cfce9a336a768d77"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_AmmoLootDropVanillaWeapon",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "9c75eba44625ea31f2b4f01f93ccbcdb"
   },
   {
     "mod_id": "3389050623",
     "translation_key": "Sandbox_VanillaBoxDropRate",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6206621Z",
-    "last_seen_mod_updated": "2026-08-08T01:21:08.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0775189Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
     "source_hash": "84002fdcf708de4a20187f931a64d178"
   },
   {
     "mod_id": "3389050623",
     "translation_key": "Sandbox_VanillaBoxDropRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T01:21:08.0000000Z",
-    "source_hash": "86e7c1669c43b4470e50f73725b60200"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "1a7d7b7b60f499f7c19f775f62288c4a"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaBox_Ammo3030Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "bc1c0c8986f3f12523ab19a352755fb6"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaBox_Ammo308Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "95caa45fb3f9af7ba699826ae05724e4"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaBox_Ammo556Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "d76eac3f89d52d0e5cf14fc27b782ea3"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaBox_AmmoBullets357Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "a2d57dae96a94fee83190f737d7e5676"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaBox_AmmoBullets38Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "58e0ee1eab902f6450e53d5e1a1fe06a"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaBox_AmmoBullets44Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "0ae805ca24abb33e0a7d1a06b7401743"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaBox_AmmoBullets45Box",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "afdbc5b8cd76d3d704f0bcbe0998ad9b"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaBox_AmmoBullets9mmBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "d43fc7eac2e96c29de89483cd589afd6"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaBox_AmmoShotgunShellsBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "0e8a5dc4acb540e212d495d774268ad3"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaBox_ArmedZombiesOnly",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "1cbe28e5e4f7d49c8de2cfeac4feafd4"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaBox_ArmedZombiesOnly_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "3d924d517ffc73383d502e49d36210ee"
   },
   {
     "mod_id": "3389050623",
     "translation_key": "Sandbox_VanillaCartonDropRate",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6206634Z",
-    "last_seen_mod_updated": "2026-08-08T01:21:08.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0775200Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
     "source_hash": "6f82f9419c3955a4588275da0306e0f7"
   },
   {
     "mod_id": "3389050623",
     "translation_key": "Sandbox_VanillaCartonDropRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T01:21:08.0000000Z",
-    "source_hash": "4692807396a33983ed7361c73ae98f52"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "d227c7d19e2efedecd454e700f5087db"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaCarton_Ammo3030Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "1abed4c32fbf13f8ccec13de4e8b83e6"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaCarton_Ammo308Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "ac09f76e929fbdc4bddb516e8045e755"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaCarton_Ammo556Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "924c73a9930c9ab8b12026ae02b26eeb"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaCarton_AmmoBullets357Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "42894101aa8f51bb9cf6b950fb0ffa21"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaCarton_AmmoBullets38Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "67be70882df9c176f94a914a2faee335"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaCarton_AmmoBullets44Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "11662939bf3181a2cc5cc1f8a267e265"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaCarton_AmmoBullets45Carton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "3435f0b876a3ffbb08f000da091e7939"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaCarton_AmmoBullets9mmCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "dc72e753edbc3d5093604b47d381c2fb"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaCarton_AmmoShotgunShellsCarton",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "b33906405293d7a74627b1c68db2b85f"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaCarton_ArmedZombiesOnly",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "a0fb4b514effe044e9e6db4124c6f089"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaCarton_ArmedZombiesOnly_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "80379f0c41e5d4103f4a3383eb291447"
   },
   {
     "mod_id": "3389050623",
     "translation_key": "Sandbox_VanillaDropRate",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6206644Z",
-    "last_seen_mod_updated": "2026-08-08T01:21:08.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0775209Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
     "source_hash": "9b2cc6f65990abe1b483c7cf3926d392"
   },
   {
     "mod_id": "3389050623",
     "translation_key": "Sandbox_VanillaDropRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-08T01:21:08.0000000Z",
-    "source_hash": "1f6e58cd2938751964ec68dadbb54e21"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "2b313bc1ba65ba0fb2c69ed355b416bf"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeaponDropRate",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "d74f8c15206f2663626d112d90a130be"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeaponDropRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "96d211845cd17edcea766b3ef4bfc8b4"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_ArmedZombiesOnly",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "a26b46304f1c2abb785c31098c40b4b3"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_ArmedZombiesOnly_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "fd5bb0ad4a7c46b0af409aa302fe616c"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_DropMagazine",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "1f53ede4ec487f911d01ec329ad4c7c6"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_DropMagazine_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "5a25e21df8ca557b7f6fc9d61e6e0538"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns3030",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "5e514f98b442e75b796453a7018ccc0c"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns3030_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "5d4b2875adc56b9d588e3a316fee3e9e"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns308",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "d6a8cd5d2c3a5c3717cb45b9d412b721"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns308_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "6bb311830e03c491e625e385bd223e62"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns357",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "0e151ea1759a20b478998944ef4e4687"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns357_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "121add601ea4e0458abd3d40a7a2c752"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns38",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "c4e1f61b15d01dc8f158ef2e4cc83fa0"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns38_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "0b0e5e648b857ffde4b4b1b45fe1b19e"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns44",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "d6c18eba9b305fa8299c1d50bc851570"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns44_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "15946e2868403b7f004e628ee3664c57"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns45",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "f7297e917787928fc55c12d6a53cb734"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns45_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "7541ef0fa842822ea6994c5923956373"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns556",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "a53df033584598d5bf9a7b0a9418d9cd"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns556_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "77ba293b69804bfd6e455202257db187"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns9mm",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "5543ac34b839a92d0c929b553a4ea0a0"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_Guns9mm_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "30fd8697f47992d306296540cfc929d9"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_GunsShotgun",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "8256ed23fbf3e6efbd2a898eedc18727"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_VanillaWeapon_GunsShotgun_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "41d11e0a927914657d8d414ab81dfee7"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_Ammo3030Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "cb093d8137da52c03a7bed2cf80a381f"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_Ammo308Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "164aadd1f98b2f4310a7c29468dfe13b"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_Ammo556Bullets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "535ba9c83a1eeaf2f9e7b805b5d9bba6"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_AmmoBullets357",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "4e1cf0f1179bd73600ab9dbedd050254"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_AmmoBullets38",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "046bd2832d2f0d4e0e14042e63e358c5"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_AmmoBullets44",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "95d0a1ceef5825a405307dda22e19f66"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_AmmoBullets45",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "537cc0311cf3881e989e1c754105cdef"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_AmmoBullets9mm",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "2d83e0d895dbb332d6d4c5df7fa3e893"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_AmmoShotgunShells",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "a438eb5c5bc5da6c19ddb044d33d87a6"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_ArmedZombiesOnly",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "0e6127e0ec567589de109931bba7ecff"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_ArmedZombiesOnly_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "65d8443b92971b256bcd6c2b4042b03a"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_LooseRoundsMax",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "bce4df00175ceb393d3d10e0d720ce2d"
+  },
+  {
+    "mod_id": "3389050623",
+    "translation_key": "Sandbox_Vanilla_LooseRoundsMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T12:49:54.0000000Z",
+    "source_hash": "ac96f021ad7ab5afb22d8347ee7c3a21"
   }
 ]

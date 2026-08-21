@@ -1,0 +1,1034 @@
+[
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.Avionics10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "72d696fbf25a096b9e5e802fbe0efa7d"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.BigGasTank10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "136e526155e8ae3667480ed899019bf8"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.BigTrunk10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "54e3adf89ac1351e0e10ad253ec04665"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.CarBattery10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "d6c03c8abd6c213e6ae7140f36a71eda"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.EngineDoor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "0f82cd5ca133a9ae985968114a5f2235"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.FlightControls10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "8ffc39327cf234993b5e2313d2ad0734"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.FrontCarDoor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "7f8bb4901e0821db3d3b27e8746dce9d"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.FrontWindow10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "c1efb223228c0482843e26a3b0cfe14a"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.GloveBox10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "669d4daa8a41e80d9254facb79f4f8eb"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.HelicopterSeat",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "da69dcc665c372d9aa5b9d4ab0b18c54"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.JetFuelJerryCan",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "b07136868f16e3524f48b7eb04089b3b"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.LandingSkids10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "f04f64818a9e1c7824d26fe4ca680b2a"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.LightBulb10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "2008c3c26fdbb33b5d3f88c02cbb43de"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.MainRotor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "b540a55211c1e70851cb562b34931158"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.MediumHelicopterFuelTank",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "f9e3773aa342e31366e9f78124f48958"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.ModernBrake10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "0a48d9699dd7acae003581602abdd4b2"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.ModernCarMuffler10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "495a3ab21fa0ae8c39ec38496b08496d"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.ModernSuspension10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "4ba55b4f5e85437057ed76fec2939dff"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.ModernTire10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "d548fbd2a51c2d6cf4547634f20b7de5"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.NormalBrake10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "f1a2e2853c132303eca4f50810557749"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.NormalCarMuffler10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "178948337f9dbd760929e627038ea95c"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.NormalCarSeat10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "f086300d9dd58135c7adb44fed413a37"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.NormalGasTank10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "32b140b5ff147a78222390b4074ca637"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.NormalSuspension10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "1913819150411f3ebd9cca7945b828c9"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.NormalTire10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "a72764aa62bc5eb0935310168fa12b55"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.NormalTrunk10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "b614883404cde42c59ac35c7f7803fce"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.OldBrake10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "a3b26ee3c6fa913d3cda1b893fea8fe8"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.OldCarMuffler10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "22c26a3c2a17e7fc4c0081d3139de8c3"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.OldTire10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "75b05132bf5159de1a02b167b78d7cee"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.RadioBlack10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "af81b1cd43e148527a2c38d6f8457b2d"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.RadioMakeShift10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "2a0c8a6d27a541658a2d1a60a8ba03f9"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.RadioRed10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "e932eb31afebea4f9a13e308f6b8aeba"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.RearCarDoor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "14a0966f2add38dc468d6243b0e89f2a"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.RearCarDoorDouble10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "a9a0cbea18ace5595db03439b815ddd6"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.RearWindow10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "20a181fbb721daaf209e2ab351af2396"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.RearWindshield10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "7fe09e291e6c02e95df280cae490d225"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.RotorGearbox10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "61c057c4a3c4d81e309eac879acb8ab0"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.SecondaryRotor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "64fd9c6ebce42c2eda7050aa348916c6"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.SmallGasTank10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "59c0d575e627b17cb6670d3b765acad2"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.TailRotor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "66545748cf8f5b3a8233d20a606610ac"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.TrailerTrunk10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "3b995680a208ddbfbf08a26f7d19477e"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.TrunkDoor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "c2c088b4758ef88f8e8b7e73cbf62489"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Base.Windshield10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "41a4c419b89216f34f9175a611f577bf"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ContextMenu_AddJetFuelToBarrel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "b31f7fc64384c2a12a2e2705c3473795"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ContextMenu_AttachSlingLoad",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "787fea06370f1d4ece8197c2ddd5332a"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ContextMenu_FillContainerWithJetFuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "4d93b265734b86c415aba378b84d8dd0"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ContextMenu_ReleaseSlingLoad",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "1df5e42bde9a888a29aa3dff5de255cc"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ContextMenu_SlingLoadTooHigh",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "9dfc9d81af334a926a38cfa4734eb80d"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ContextMenu_VehicleAddJetFuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "96e7f07d9b0ceb784936b7470806125f"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ContextMenu_VehicleNeedJetFuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "f3f4ca5adb2b612264f378500970ca8c"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ContextMenu_VehicleRefuelFromJetFuelBarrel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "f5a1a9dff4c3963b4882bd0822a53a03"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ContextMenu_VehicleSiphonJetFuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "a457a39fadcad2abe3e4c39ec74626d2"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ContextMenu_VehicleWrongFuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "64b177c46c77ba80ae1e0ed9365f9097"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Fluid_Container_JetFuelBarrel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "c550dc2304925cb0b434f3cf1dcfa616"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Fluid_Name_JetFuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "c38bc6c544fe2e6a644b594f2279d443"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_AutoBalance",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "c5ce111b075f653e8c1ca4ab72042b04"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_AutoBalanceOff",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "e00a67b2a09ddd81f8b4866242c8ae0c"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_AutoBalanceOn",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "1503ab6458c00b3cf31851cdc03fbdec"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_AviationCoreAircraftOperatingKnowledgeRequired",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "a639b821c323c993654e09481952ce8e"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_BlackZoneWarn",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "e44c744e5a124e22235b525e3717bf5f"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_Helicopter_HUD_Heading",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "aba5fa12cb1118393e195fbbcfaab1c8"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_Helicopter_HUD_Height",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "115680b043a32efbcf2f35fbb5be0242"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_Helicopter_HUD_Speed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "91a1b8a8d395608cd4aedbddf4ab5218"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_LightOff",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "a9654f66c0ea59150215be8e3fd309cb"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_LightOn",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "a16fec9cc0e2e6c58337869840f5fb8f"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_NightLight",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "e8fb549e39ff222e7f4846198ce3dbf1"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_NightLight_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "c7f0fbeb7f23f93a4b9e79459e0edca1"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_SwitchLight",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "7b1b617284d376cdb49b62b185efd0da"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartAvionics",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "3fb3992dce600003ed65810554c42590"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartCopilotSeat",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "74939eeab4ef119faa6ead5992d5b0f0"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartFlightControls",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "e284503f1e59bde035e023731e48b8f2"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartLandingSkids",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "1de873e2bfa7a7efc958c55980a2ecb9"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartMainRotor",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "78b2193c302a4ff967d096d2a96aa20e"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartPilotSeat",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "1acac837373cd4f2f00747f60c5ee6e5"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartRotorGearbox",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "25674dedf85be9326c764860a4a9314c"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartSeatFrontLeft",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "73b54001264f2f98a626a8304fe6f565"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartSeatFrontRight",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "7773c0d1cf2cbc87d23af013e5a66dd2"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartSeatMiddleLeft",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "3d3c3360c4381bd1026225e11c1e51f8"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartSeatMiddleRight",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "9df7e2a0758d456d7be857ed33496b63"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartSeatRearLeft",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "57042c139e9560be7b792962d1356da4"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartSeatRearRight",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "8f747d84aa7655ec3e8c29bbb67fe4a5"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartSeatSideLeft1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "d9e29d71afec0f31f40c1d15437bbbf5"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartSeatSideLeft2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "11c4d190740c6f5d22b7d10106b367e2"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartSeatSideRight1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "5211d10abdf627b8408ae04871535292"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartSeatSideRight2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "a40c46fcd64d16a297cba78cfec886a6"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartSecondaryRotor",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "d0153d26977e6e8783e093d84c8f6dbd"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehiclePartTailRotor",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "0a7f2d388bfea38dcddb780dc97ed7b8"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_VehicleType_10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "44b68a71c554b97cc9b28fdf4452015c"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "IGUI_Vehicle_ContainerCapacity_JetFuel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "2c53cfa111f535066930d9fc3dfcf0ab"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.Avionics10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "5eeb4502eeb5183f344bb4cf26cccc13"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.BigTrunk10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "26ef254fd094ef6b604111591f8df1ee"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.CarBattery10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "c9729b559515a5a96215f953383bce31"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.EngineDoor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "1278528f95362a65da8a1c9aef1e51fc"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.FlightControls10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "251920e79c4a308b54f316b3078ceec9"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.FrontCarDoor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "3bd0707bbc8c0f807cc3ffbf4d69f5c5"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.FrontWindow10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "7b601afd22f9f0e96077c2645ff62f29"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.JetFuelJerryCan",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "a04e600bf73815244ece8a14a7bd9aa6"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.LandingSkids10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "1d8e358278c344a530b648ec48771a07"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.MainRotor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "81ecd575e7c3659879f59481b7a323cd"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.MediumHelicopterFuelTank",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "e9b411395e6c1084be6e15e898b4afb8"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.ModernBrake10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "de17ab617ec57b6cbebc0c239b07a439"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.ModernCarMuffler10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "76e7935d71d5455f7ebed1ca9908e604"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.ModernSuspension10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "c575d80a1aad070beb8656ee82b34802"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.ModernTire10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "a1ef8d787eef00ab1cf5282735f602ce"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.NormalBrake10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "15b89ea36990351346d41799cf01809a"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.NormalCarMuffler10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "4f37f23bfb2292833cc58ffdc72847a8"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.NormalCarSeat10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "7db77a1e680bf101ad7042d36d3ee2b1"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.NormalSuspension10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "25add75c2e05db2518f0b2f6d04c6b69"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.NormalTire10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "43c11b175ee8ea33b346e1f09cbc6751"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.OldBrake10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "b0f448d894d2b1252a472761074e8275"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.OldCarMuffler10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "7ad3f2866cd18f2ce40ab86014b5cb69"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.OldTire10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "738a310922b751765370e0bb728e3bd6"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.RearWindow10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "bb46e4d985af87692042dd1ce76f6e37"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.RearWindshield10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "82af8018695a71063456f3b74fbac1bd"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.RotorGearbox10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "0d1dd918121794e8617f1f98fdfb87a2"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.SecondaryRotor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "d40e60b0b7d3734e614d1950d6d066c3"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.TailRotor10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "2969ab7f6e00e51e596867418c01bfed"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "ItemName_Base.Windshield10",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "b9d06f41d10003d51f0772332d9a3a54"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Sandbox_AviationCore",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "ed4c77a122edfd58d928b2a49558e670"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "Sandbox_AviationCore_MaxWorldHelicopters",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "5f85a9019396a1c6fc2a92c5e3ceb2cc"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "UI_optionscreen_binding_HelicopterKey",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "720c0e5202db4f0472a4152a177cff6e"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "UI_optionscreen_binding_Helicopter_LiftDown",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "1877764b7e80886986a52f62b2e768f2"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "UI_optionscreen_binding_Helicopter_LiftUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "f4d0bcd1c543bf8fe1b71425b53a6e32"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "UI_optionscreen_binding_Helicopter_PitchDown",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "39ac410c4d6dc7409e212f51179b8111"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "UI_optionscreen_binding_Helicopter_PitchUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "ce1ffd0a3886587ef30fd59cf8b8245d"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "UI_optionscreen_binding_Helicopter_RollLeft",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "237661ea072dc843b255d1ba74f8abdd"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "UI_optionscreen_binding_Helicopter_RollRight",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "212b986eab48ea2116b8d36af3026896"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "UI_optionscreen_binding_Helicopter_YawLeft",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "3f69a71b2010b93ad1aed22952f8f621"
+  },
+  {
+    "mod_id": "3783444342",
+    "translation_key": "UI_optionscreen_binding_Helicopter_YawRight",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T21:07:30.0000000Z",
+    "source_hash": "631cc9c13078bf9abc4e94c8dce08a32"
+  }
+]

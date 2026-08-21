@@ -3,206 +3,422 @@
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_AddFire",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904041Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462895Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "3b64c804cdffcdc0a7ac84f4e2de69ea"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AddFirewood",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "0e14512613c949a664d243bfb7a46b4e"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_AllRecipesLearned",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904053Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462904Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "1bd497ad0b8c50709ccd28510a6d7fb6"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_AssembleVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462909Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "5aff2322d7820c5c227be2645c220153"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistBot",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "6b37f63593ae38a7f008328d56a97418"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistBotOff",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "bb5fc37e628eb3ed618463e29bb421b1"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistBotOn",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "32fed0ce4775b84196431a1e6f5add8c"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistCaught",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "05636fc8336185d088d97a2fa3eb6479"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistClearCatches",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "e587de1a92543626da6ab15f7ea564b5"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistGiveHook",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "0e37dd931cc1d42e5ebc24973b9dd409"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistGiveLine",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "cf1b125e30add9dfe869c04fec0ad168"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistGiveLure",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "c118eae6ae541dfa402c0642f89e873e"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistHook",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "e3dfdbdeef2fcf5908d01bafe8b9ff9f"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistLine",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "c186da99bd75aa473ba894c4a27b0e81"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistLure",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "edabc899834e47dc5ff9a90878fc2dd6"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistNoRod",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "0baa18f9c0abd921051cc90081e88b5e"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistNone",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "024e507ec2b09405ff08c272eba2e11e"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistRod",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "9ddf868b61d6302261f61515dac4f4af"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistRodCondition",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "6b1b5e0071e94f8389e0a3969a572be2"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistTension",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "8190e75b8655c9167c5637d4174e6776"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistUse",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "6e9df55468a44b4f35f0320de94330cf"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_AssistZombies",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "ea0122f28a633d42b9473f0cd158fcd3"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Barricade",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462914Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "5622169d513b4f0d2eedcc631c47fbc8"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_BarricadeBar",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462922Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "ee8c6d0fcd4ecc59ef406c8b9d6906a1"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_BarricadeSheet",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462927Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "2ffa2c49664da100eaee193facfa21bd"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_BarricadeWood",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462933Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "f504aedeacdb155ec9931e7b53ed3b4c"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_BrushTool",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462941Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "5f300145d0b33a7bee1ebeaa13b7ade7"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_BuildMode",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904058Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462947Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "6db303a05dd4058c9a33025ddabd32aa"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_CancelSelection",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904064Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462951Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "6091a682b29e1544c9d3ad0c862732a3"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_CheatMenu",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462956Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "f0522e02f328b95459042a8c4229e99d"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_CivilFence",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904070Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462961Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "b2eaebc657fe58367b4860d29a7d5c4f"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_CleanBloodArea",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904076Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462966Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "68dbfedeed6b898072cd2d680049a8c8"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Consume",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904082Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462971Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "036479e2d3829f0f7174bb302374bf52"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Consume_Times",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904087Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462975Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "fee636dd8c022f869c1bfd2c51c5560c"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_CookAuto",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "486265cc734c1e80387d3ce74db930c6"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_CookDone",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "4eb4f556482e74e93713c2aae34462de"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_CookNothing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "d9ce67212bea2887a5ecbb6767f38122"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_CookRescue",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "cea3b0d6ac619ff15858c5b2cda8a230"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_Cooking",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "ccea31d1877baabc94e5921df01799ca"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_CurbErase",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462979Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "312e09a9447f880e896ee829b31fbfc0"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_CurbOpen",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462985Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "a67eaa8ad7408a20c62256705e557507"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Delete",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904091Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462989Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "feea391110324066f2b8de291465d108"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_DestroyArea",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904096Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1462994Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "45e67b9e10a8836a574c03ad3c9bb6b6"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_DismantleVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463000Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "7377b728526a8d3f04561c7b4b68d9b8"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Drink",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904101Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463005Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "4bdeb28f1c1d923bc1fe8ccbff01a6cc"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Drink_Times",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904107Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463010Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "a15672bf847494fe0d95e73793bcfb54"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_EmptyFuelTank",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463014Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "76b8e50df97b6dba22afd0b7665bae0e"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_EnginePartsGiven",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "ffaeede339d06bb78497f8f34a6de993"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_FenceBrush",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904112Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463022Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "c433e56707a476e2bf93bd4798fad413"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_FirewoodAdded",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "ba9bb887190012d468d5a3316e4aadf5"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_FishingAssist",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "d2b75419efed71d7878129279c92f32c"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_FixGenerator",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904119Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
-    "source_hash": "839ea3b4b0a7bdae395d24b32ab710b2"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "feb1a65ed4c86c6f39bedc1e0601f881"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_ForceCraft",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.0615411Z",
     "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
     "source_hash": "90a2ee3684e979228650798fa415f954"
@@ -211,313 +427,385 @@
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_FuelTankEmptied",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463034Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "deae516fb462b7638ff958599c87367c"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_GiveIngredients",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463039Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "2d9581478b7eeaa4e51e78c2e5923bd2"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_GroupBuilding",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "8aa97756fb3d9279069240d4dc41e2d7"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_GroupDebug",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "688f4ce266e258a0f9699000a49a781d"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_HealPlayer",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904124Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463043Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "a18e9ef375d688bd1e05f07ef26d29c9"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_HeaterRepaired",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "d932cb7c7bd2b1e2e7fa044aad2d2129"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_InfiniteAmmo",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904128Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463048Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "0dba8fee6fa548abfb6b35b65cd5f255"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_InfiniteFishing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "4199b6208bc31c2b8d47bf1b1a183e70"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_InfiniteFluid",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904134Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463054Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "0cc88f5f38c12d2944e2a24a12a5765e"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_InfiniteGenerator",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "1dddd2345343c3010bc94743d82c8a4f"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_InflateTires",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463058Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "e77387540969aa13dce8feeeb6082e75"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_IngredientsGiven",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463062Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "58baa935afd5af4a08dded8798d3ae35"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_IngredientsNone",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463067Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "963b8ab6c6395dba0ff99d0edb19f907"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_ItemsRefilled",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904140Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463073Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "53053b194fe0690fb503dbe157a1def2"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_ItemsRepaired",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904146Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463078Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "f366f5e7c0f4458ba2fa5d61cb316a99"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_LearnAllRecipes",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904153Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463083Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "60d470cd2da149394d7deab080e30385"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_LightFire",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "4f07daa9d4972f783acffe5fcce7a337"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatClay",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463089Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "7ace967a89063cc04954aaee3e37df8f"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatDirt",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463093Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "6fdb560b1fbc41850531023e8ad424d0"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatDirtGrass",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463100Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "367992239568c91be317ea7db172e99a"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatGrassDark",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463104Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "fe64ca27f2037033f9d14e5ba1414d11"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatGrassLight",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463110Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "3e2478345daf884024489f5bddadb7ad"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatGrassMedium",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463115Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "1b1b4aac02657805677ff054eba053c5"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatRoad01",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463119Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "2005224559c3dbbe11c272c239b642d6"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatRoad02",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463123Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "7b0e48f2b3d24fd8ba239130b69086c2"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatRoad03",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463127Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "a06f9be490a34622cfb367a71b0f4f2d"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatRoad04",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463132Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "e5c323dbe2c559fb1ba7e7c39a36aa0b"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatRoad05",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463136Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "f7d4a3f506e3e6041767192bef65ad81"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatRoad06",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463140Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "b2782a1a2489c254a8f11105f7fe9177"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatRoad07",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463146Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "9d201cf296033fe447191371ecbc977f"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MatSand",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463149Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "8d3dbeeec809b815cfc4b018927244e2"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MaxAllSkills",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904158Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463157Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "981e33389f6d64c35ac241fa9b661c06"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MaxFirearmsSkill",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904164Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463162Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "6637b7fbde7cb73bb578b567838f52d2"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_MilitaryFence",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904168Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463166Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "4638aa5e21be4f01010c4d87ff45e867"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_NeedsDebug",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "ef95b63f60b631a433b9df3779d7b71a"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_NoBoredomUnhappy",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904174Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463171Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "513c13221017c154991f2be94c1345cd"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_NoTirePump",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463181Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "eea483fad601465f65953c21a9fd9670"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_NoWrench",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "0f2a9e1f030d0a7d05633161942b0787"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_OpenItemListViewer",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904180Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463186Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "2be6baab17af84832699c19a2503a148"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_PlayerHealed",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904184Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463190Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "a41e50162eab4d74ddcaffb0430c120d"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_PryOpen",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904188Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463194Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "2caca86bab909b8e2266cbef93117b2f"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_PryOpenVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904192Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463198Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "22073df12b7158e2af094e90dc97101b"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_PutOutFire",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "eab7e3ef7490645a69b03c1b8b075c30"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Reconstructor",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904197Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463202Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "24fdb4460dfab05d4381afaa901cd578"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Refill",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904203Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463207Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "cf1501250ae53277682c05f3cee9c5e3"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_RefillEquippedItems",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904208Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463213Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "5a9766d30621b2fb081f145abf7d2f2e"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_RemoveFire",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904212Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463218Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "fd28990fc5b78b1aabf160782853f999"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_RemoveHotwire",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904222Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
-    "source_hash": "f35873fbd760dbf258c8adb85b7a0bbd"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "e7d3cdc7f5aa01ac92b3630c5fa2c628"
   },
   {
     "mod_id": "3495695428",
@@ -539,128 +827,280 @@
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_RemoveTrashGrassArea",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904231Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463234Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "19dd49ed01456067267016a2bef5df34"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Repair",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904235Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463238Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "79396f523eda0d295ee084c4baeb09f6"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_RepairEngine",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "e36c2f87023372774410ff15a3bbdc4b"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_RepairEquippedItems",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904240Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463245Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "27d23428dce5024754fc3724c8df8ea5"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_RepairHeater",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "ed0e1c4df7e9d31ac49b0aff580e8e5f"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_RepairVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904245Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
-    "source_hash": "27319b524a4b17817874758e346b3fab"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "6cc2456a850c8975f898600a246eb73a"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_SandboxSettings",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463255Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "e239b8ace0bd6af8610064196b3bdab0"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_SectionActions",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463260Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "7925b11aff97e1d781b7605df02e2956"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_SectionModes",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463265Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "23d7b1b5c0e64b257b799e00d00fe005"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_SectionSkills",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463269Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "62bd129e98592392bb7f5ba5b9977ad9"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_SectionStats",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463273Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "801a7c850c66ed22de25534e04ed8ed5"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Selected",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904251Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463277Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "2b0e9fb69abb455387f83ff41aa14fee"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_SetRust",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904256Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
-    "source_hash": "45f509932c4924f4f83015564a2f3d0a"
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "e0c5a8e09d068bb5982564c5a7235a3c"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Settings",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463285Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "cf4bb81ab7b3852a54dd85ae7215eda1"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatBoredom",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "9ca75c2e76bdc432ffc765f451d89461"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatDrunkenness",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "f54387c0d06db7779b04431fda508784"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatFatigue",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "a3c887442a14affee8c8c59a30b34b25"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatHealth",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "b4196e5856643c113e26821655e0f1cb"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatHunger",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "86fd85090f2ec5db2bdbc749e5c10055"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatNausea",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "d7c4c31e8e3a054463ea331b469b796d"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatPain",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "487fec4e7c279618afa08d6f9304d129"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatPanic",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "a8e481a65ed78d09190e1745b807793f"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatSickness",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "40e270ec0b221dfbb703d45706631ffe"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatStamina",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "53217a35a145c06a8bfaa6b8e8427e1a"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatStress",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "77bbc00f8897fc0295ae67ae18a841fd"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatTemperature",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "b7e1d26142e1a9f5c28eef93389c536e"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatThirst",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "b015f9a4c607618070ec6703d5882cbc"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatUnhappiness",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "6a66c817fa1fa1d1d756212de40951d2"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatWeight",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "3af9e19873ddde6e6b0dc3b9026d59ed"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_StatWetness",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "07ebe0c158744ab2530f8748d1ec34cd"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_StateOff",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463291Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "ab117046e744a224881abbcb17dd9998"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_StateOn",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463297Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "1296b66a0afabc53fd853e3f4cefe5bd"
+  },
+  {
+    "mod_id": "3495695428",
+    "translation_key": "ContextMenu_MCM_Status",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
+    "source_hash": "dc6ba4506a3b459ea5850fd831f5e35d"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_Terraform",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463301Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "1aa74d5216f9ddda40dcdc30fcbf67c9"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_TerraformApply",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463307Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "a700974b1dbe920601115a38da54ecc7"
   },
   {
@@ -675,8 +1115,8 @@
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_TerraformAutoBlend",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463314Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "db92b5e59bc718fdfae591f8aa412c2d"
   },
   {
@@ -691,8 +1131,8 @@
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_TerraformCurb",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463320Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "8deda0354a156b0729aedca671e9a6a0"
   },
   {
@@ -723,24 +1163,24 @@
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_TerraformMaterial",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463334Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "6faa75a2109f8977811806169e3e84af"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_TerraformPick",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463339Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "1cce9d7d3e38b8afdc274d1e13cbcfb7"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_TerraformPickFailed",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463344Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "d4d2c928ffc3429516b3dae87c5e854f"
   },
   {
@@ -763,88 +1203,88 @@
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_TerraformUndo",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463353Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "713165418320a9b709a7824355963768"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_TimedActionInstantMode",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904277Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463359Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "9f143fa1969ffc0cd43bd5bdbe6d87fb"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_TiresInflating",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463363Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "8fe0be5ba19ef832bd67a54e64a3809a"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_ToggleNightVision",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904282Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463368Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "c9a1bd4489d8d1043006030352222eb0"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_UnlimitedCarry",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904287Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463373Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "79124e8c34ca8ec92751d8564148f39c"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_UnlimitedEndurance",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904294Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463378Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "a9259fbde95b7fb7065c3a131b43d80f"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_UnlimitedItemCondition",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904298Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463383Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "141ad64bb29ff141e182a4bb44297f15"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_VehicleDismantling",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463392Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "e05ac533d3fb6a5e75e8904ebbd3f8a6"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_VehicleGodMode",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904304Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463396Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "ea7a86e73988e85b7b34b99c8320b5a9"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_VehicleMechanics",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6904309Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463400Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "c8e696f85b321b4c7f5cf00d2f261c61"
   },
   {
     "mod_id": "3495695428",
     "translation_key": "ContextMenu_MCM_VehicleNothingToDo",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-13T02:07:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1463406Z",
+    "last_seen_mod_updated": "2026-08-21T00:21:48.0000000Z",
     "source_hash": "e8312a7bf22dfa8a6b29d473d690ffdf"
   }
 ]

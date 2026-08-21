@@ -1,106 +1,202 @@
 [
   {
     "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkA10wreck",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "6c7acc86ca4bbf9c0d4a0e589ab51f62"
+  },
+  {
+    "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkHeli350MedWreck",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "b5264356d13b4362b5604fe3fcd51ac5"
+  },
+  {
+    "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkHeli350PoliceWreck",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "2648b4cc4b124cf270052efe861a2fc4"
+  },
+  {
+    "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkPlaneEngine",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "f473416dd69f69ae6e3c0f50b5f5adca"
+  },
+  {
+    "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkPlaneSection1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "a8f5b04eb57581a2157861def01cd7db"
+  },
+  {
+    "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkPlaneSection2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "d441805e68c55b5476cfabcd566afe46"
+  },
+  {
+    "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkPlaneSection3",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "5277e6267df93d40d3c4753e03ed8250"
+  },
+  {
+    "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkPlaneSection4",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "0f6e56e10f1480dfbf342f32f7814a45"
+  },
+  {
+    "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkPlaneWingL1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "27feab7cfb4524c0425c174bd6a91ac9"
+  },
+  {
+    "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkPlaneWingL2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "befa4070e6ede04ba2df43e23e5a6b85"
+  },
+  {
+    "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkPlaneWingR1",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "2426052f7938cbc389370cdca95fcc66"
+  },
+  {
+    "mod_id": "3773663869",
+    "translation_key": "IGUI_VehicleNamepzkPlaneWingR2",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
+    "source_hash": "0a97d6000c98f6add5e7eb85e64baf76"
+  },
+  {
+    "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1557973Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "30e0a4ae7bdc61112de31610ec56f07a"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_EnableFire",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1557982Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "2cc587a45ef0cd69d34a019295b2996d"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_EnableFire_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1557987Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "f3b6c43d014f390980a4eeb24b12ecd9"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_HelicopterCrashWeight",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1557991Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "8a018e40d732c89703c4949fb2c40860"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_HelicopterCrashWeight_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1557997Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "cf3ff4973e13125d915980ea71009342"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_JetCrashWeight",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1558003Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "d180539615d315cfa45805d062456081"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_JetCrashWeight_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1558008Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "c96eda3ef2e8df6f208da7f2d76bb7df"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_MetaCrashChance",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1558012Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "bc122a9ee89735dbea6217f44b2ddee2"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_MetaCrashChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1558017Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "85812f6b64402382861fd6f139a4c516"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_PassengerZombies",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1558022Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "ed8bde318c1a98333fb8cea1b9d9c395"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_PassengerZombies_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1558027Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "7c84e4f2a7c3f22a84fd709437a90076"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_PlaneCrashWeight",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1558033Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "78345c3477169024eed703333d1325b3"
   },
   {
     "mod_id": "3773663869",
     "translation_key": "Sandbox_PlaneCrashMod_PlaneCrashWeight_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-07-31T16:15:45.7907850Z",
-    "last_seen_mod_updated": "2026-07-31T00:02:41.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.1558038Z",
+    "last_seen_mod_updated": "2026-08-14T16:47:32.0000000Z",
     "source_hash": "1ecba8d0375dd4b18c7e9e400aff04d0"
   }
 ]

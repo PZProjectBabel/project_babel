@@ -1,0 +1,2146 @@
+[
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_Cancel",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "8fa542da9717ca205250c5a334527385"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_Character",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "76cd60d83bce34ed1892a4d3675ea5e7"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_Coordinates",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c4dfff7f0ee0254ab416bb35be7c8757"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_CreateMarketZone",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "655322a74ff29b84315e128597217c4e"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_DeleteMarket",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "e078a1130d113b78a15cfa2e8db6e2be"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_DeleteMarketHeader",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "20b0c91ee0796a6a57e2dd5c645133f4"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_DeleteMarketListingPlural",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b73d982511f012f788ae66c72962df96"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_DeleteMarketListingSingular",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "e5ef7beeb6041ce3701bc7ccd128f26c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_DeleteMarketQuestion",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "a24fc270fe4329a076f7bc8f1bd9c1a3"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_DeleteMarketUnclaimedPayouts",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "64ae082a135b58c5a8afc0751115be2b"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_DeleteMarketWithPayoutsQuestion",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "3fa3618616bd9d2ae28ac9e919373554"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_ExternalCurrencyConflict",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "2e0a8201c6b209cb36606463ede44b57"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_FinishZoneHere",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "3c05cee98f3d7768890a07322c96dd50"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_ListedTitle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c08098495c325f97021ac9e41662a379"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_ListedVehiclesCount",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ca90fc7cf4ad1eac710455aba17d40f6"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_ListingRow",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "7e8afe696fe2a2e899f04bf182e2fc9e"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_MarketCurrency",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "6505ff8649df56b8ad8ce717926a4b0d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_MarketDetails",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "912275a3e59d02a7f48b41882927f57c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_MarketName",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "4d90b843501dcac1ca9c70d8a4c8b3e5"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_Markets",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "606771c016db000a5ec29d791e8a9717"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_MaxVehiclesPerPlayer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "8fc3a1eb60bfdc06496d23d1a61f02f2"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_MoveNpc",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "52ece0cf32344b514e38d2bde5b3dad2"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_NoListedVehicles",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "76739de0da858d6599818be3da738186"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_NotPlaced",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "05afd11dbedbb6da5edd1121d1e8aeab"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_Npc",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ec41a3a5d479920bda1dbc579aeea236"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_NpcName",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "0fd295c903617f3daf55765b1569f25b"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_NpcSquareUnloaded",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ba1253a32396cc4699735944251034c7"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_PermitPrice",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "9af9716d88a3e8b9f565c59bd32df27b"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_PlaceNpc",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ac45b14ca6af0072e7971c37e6c292d6"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_Placed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "84950af10d8d6c1c2ef5aa5a3df097b7"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_PreviewUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "5d74368b8b1e4d3f703e7bd3124cf9d5"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_RemoveNpc",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "191dca374ec937018fbac57e3d1854f3"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_RemoveNpcHeader",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "4a79fd03b241ab202b402a3db45ecba1"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_RemoveNpcListedVehiclePlural",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c5d961ca27e8e743858036372517054d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_RemoveNpcListedVehicleSingular",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "54b760ba70081d918e8a0a615cebb985"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_RemoveNpcNoServices",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "48db283759bf42f2c4ed94cf4b9bf2cc"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_RemoveNpcPayoutPlural",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "f9652cb4dfe344180dad1b5193793a2d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_RemoveNpcPayoutSingular",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "bb1af3bdcdbae18113b7de176fca84ed"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_RemoveNpcQuestion",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "56c358f181e335f711cde3458c918e86"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_RemoveNpcReplacement",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "46c7968807b1b166d8df86d025ba3051"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_SaveMarketDetails",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c058dff189efd5b66877150c2bc4e3d7"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_SaveNpc",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "54501a5f999266383b41fce2f790a696"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_SelectMarket",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "016afa652cc8d1ad0c4611e1c377eb3d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_SetFirstCorner",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b6287a613edb0c18b954e4515adc40a1"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_ShowAllZones",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "9b4cf1c181e4944873e90e97af9bc669"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_TeleportMarketCentre",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "dec17d907c888cdae2fe64030bedfe53"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_TeleportNpc",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "09933b4374d01bbc72974a6ddaca3415"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_TeleportSelectedVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "fef7f2c7a74f8333d4398c43811de71a"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_Title",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1ead75829bba5c4ef04faa2397e82893"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_ZoneCorners",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "bfba4b624e50a4e933a5861b52d62bea"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_ZoneDetails",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "970b03450f2837f46d08428495346be8"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_ZoneStepOne",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "e3fdb20e13514fa3ab51abbcd1a8405c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Admin_ZoneStepTwo",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "6b8941fc917dea53128d3d8015286ae4"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_CallBanner_Answer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "a356c07b2b0f4404388e3aebdba2c895"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_CallBanner_Drop",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "d70f0e448e3f39ccd7865e725b217928"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_CallBanner_From",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "7276b27c84d62bb63f7c9b972cc089c6"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Context_AdminCancelConfirmation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "568b4794ae5c1851f056e9e8e9c1c3d2"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Context_AdminCancelListing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1ae533c4eb6a30db422b982a8f0c2e1c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Context_AdminOpen",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "3d57e434fa1afb8e91f125d7b37f8d0c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Context_BuyVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "7310d21370efe1b64d6d94ae220c5bc2"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Context_CancelListing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "6d90aa091f145aad224507654a3db448"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Context_ListVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "2280a2a1896a20914409839dae7c7701"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Context_MissingOperator",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b09b1febd8889c3fbf26187fe99ff19d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Context_MissingPermit",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "92099016e2e38df8acc95cd1813fd136"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Context_PriceTitle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "cc3d027d4e54498c93041ed1df635eb6"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Context_TalkTo",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c09862197511d9325cf325621bad1386"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Context_TotalWeight",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "e035fec515fa20ed234ce119caf4d2f1"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Currency_Unknown",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "a526cc4ecaa0e56e1c7e3ae7f94b512c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Call_Defer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c35108de926de81233426f8af6b46658"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Call_Dismissed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ffc9d81d6f001b45b0d70ca179b2ae8e"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Call_SaleNotice",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "663f8859ca75c8fbee09a0c9dc15d64a"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Goodbye",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "42939fce5c9f87e7c4957845b7891de1"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Greeting_Opening",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "da0d3c1730881dd1dd236076b7cd7e51"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Greeting_Returning",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b04ce54308b122d7526247cc448ff8ff"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Listing_ClaimedVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "867f2a6dfdf4f6ddac450572105a8e46"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Listing_Created",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "287ca9b5806a9b301cc7f5bbc3b34116"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Listing_InvalidPrice",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1ff4d59bea27ac29963dd51d6da837dc"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Listing_LimitReached",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "233ef7f2d91b7d290747cf73e8573d8c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Listing_NeedsKeyOrHotwire",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "e4555f85b16aff3481865d23cce26ded"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Listing_VehicleNotReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c1ca6f90ef515d8b71cebb92974f4d02"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Payout_Available",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1ae200d8eeffe6a209079d0109eb05eb"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Payout_Empty",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "fcf307f857fa0e3c5034c3888af8d626"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Payout_Failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "dc3a11815981b398da5d65d9c1884425"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Payout_Success",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1a567f079f0c8f77e98b0582ffe9b899"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Purchase_Completed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "33e351e5714f2951688889fe4801d76a"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Purchase_Confirmation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "904bd0d21a95a663737acfdd11d68ea6"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Purchase_InsufficientFunds",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "571c718c1792af128fd1c51bff4ebf6a"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Rules_Inspection",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "87d4ff71769b85f78d43232720b6d0eb"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Rules_Intro",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "8b96905d59f716fc1d824acb46cc6d74"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Rules_Listing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "487c0d41d5088cf935dbd41f0f8d296b"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Rules_Payout",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "2f7de701fe8596779ff9ab0174293d05"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Sell_Intro",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "115240d6b364e0dfdc5ad8edcdd6a784"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Sell_PermitFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "67f000b2cddfb4e509378acb8cb6ffb9"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Sell_PermitInfo",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1bb82dfef2db31cf756b1fa88919afb3"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Sell_PermitInsufficientFunds",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "4aeda2563971d2d48c394295ac5833de"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Sell_PermitSuccess",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ed320b60bfcbdb34f0781bcb8af37b1a"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_BigVern_Trader_TooFar",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "78bef6ba4cae2889c434ab45703bb2f0"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_Back",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b4adb1b526a77b0b5847d0a9de507b8d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_BuyPermit",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "85e5020989c6a1a2f3176954bc0a826b"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_BuyVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "38b95b17c3ee2667ec61fc11e08f9f24"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_CollectAll",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b39440f56d3477bd47142af1c09efc52"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_CollectAvailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "d87b10f91e122d5064c91dd625f9873f"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_DeferCall",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "3747952f4aa83bd9870657a19830c217"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_DismissCall",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "f3e3dab0e2c4bc577b0f05db89c9f424"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_EndConversation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "43fe0428dfc98197c6ce8547e7bac21d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_Exit",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "d3ae26b931db60f1521cc2cfe9667ec4"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_NotNow",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "7fcd080b4680d642bec8bae1425ad4ff"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_Ok",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "7af8b958578049ff59c796e526deaf63"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_Payout",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "7268edb7e1fc148997ff751e32318a8d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_Rules",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "164bf04b2e27a8aa6f55683410c9079b"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_RulesInspection",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "5279d8a4372cf5b72ee3d2f385d90299"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_RulesListing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "3d967638f9538568fa07fc28a000a9de"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_RulesPayout",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "5a12bbfd3d0c25393dfa32aecd90f463"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Choice_Sell",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "830c84281a17ede1157be2655cac372c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Call_Defer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "852c03f87af0157eeb74ae4bda6ebf8d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Call_Dismissed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "183df6331a297271bbb9bfd8a3299782"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Call_SaleNotice",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "58ae53652c5f8e479e110cefcf0c066e"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Goodbye",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "2ee6f33cf832046a5097b4bf49fa7892"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Greeting_Opening",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "f823e6bdf05ba97d4b8d42b4a57c456e"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Greeting_Returning",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "68ccb0aab1a77662cfe3c69b29000e36"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Listing_ClaimedVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "73dd7c6e4429625e686bbc97276bc9a3"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Listing_Created",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "f719f36abae67845df2f4ff9ff9b4f52"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Listing_InvalidPrice",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "70c403f176e84bb2602dc5302b8114cc"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Listing_LimitReached",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "353b263d9981a2cd990209d8dd4e442e"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Listing_NeedsKeyOrHotwire",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "5ee67eda4142f4322a392cc454cd7aef"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Listing_VehicleNotReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c02082284f9e9d1dd46766b2bcc0c7f4"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Payout_Available",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "7cad5e3e16b433dc894fa88c314e2053"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Payout_Empty",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "21f67db14c5765a38fe7f490d8822307"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Payout_Failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "179fc82e5939648e32a279865fcded34"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Payout_Success",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c5ef5427e986c79ab1829e0a172e8cfd"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Purchase_Completed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "80a0ba6e0cce139a365fe34105ed8017"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Purchase_Confirmation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ff5665fbb28388ebd0fb2e8fa0ba9e31"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Purchase_InsufficientFunds",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b61d1be24fd9f2dc513e9b05554d1c41"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Rules_Inspection",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1a4b4104719174fe8c570ed85c18c1b1"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Rules_Intro",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "fbee2e98f62168bd9fed6c75034b573e"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Rules_Listing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "58b93453d0ccb65b59de5fc7599cd71c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Rules_Payout",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "810d49a63b414f44277dc0754bf08c68"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Sell_Intro",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "60ae7b4e59e2d0e75673bcefa6c9c7ea"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Sell_PermitFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "3b64834fc85e47f1700ac8a139ff871d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Sell_PermitInfo",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "e1843a899750399c2cc70496a9f72f95"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Sell_PermitInsufficientFunds",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "72a9ac7275b8fca28049354bef897fb5"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Sell_PermitSuccess",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ef1ab2851ffe64254648bd232c96067c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Jimmy_Trader_TooFar",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b2822f8bf422bdffe1022c73dbe6ef5d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_Back",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "188a2f3d12d9b8bc2e3b5380a68183ee"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_BuyPermit",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1442f29d68f7bf0f3bfdb5ffe9274e0d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_BuyVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "0e5230a7134fa899d4738f47a2a88ece"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_CollectAll",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "9c08968f41f0eef67499ed076f442f34"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_CollectAvailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1efdbb1b621b2256b62e8b0e304d34dd"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_DeferCall",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "85eb09aa3bb1dfc657a727eda67b8f17"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_DismissCall",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "d7005a0ee2a320c3b83cf4c7eb822e6b"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_Exit",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "8e648f6f5620e5d62d38ea161fdb778f"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_NotNow",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "42474fb1953f5383edeea268a24dcb75"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_Payout",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "df98d0e4d2f7818e618a6e708d0d0692"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_Rules",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c1647c5a6f2e2f0376fc73a9abe5ef70"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Player_Sell",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "da4cd2213a765be5c0de911257c96cc6"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Call_Defer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "68a2fb438b3d66d5f1a63aa2ff129c16"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Call_Dismissed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "7369a81230e083255c32b5d6994c4900"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Call_SaleNotice",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "8c08b066b22e548fdba021d981c2dcbf"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Goodbye",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "749909c5643be10730c8a53face97618"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Greeting_Opening",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "7e7eed58097e007db0ea50ed185a8f83"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Greeting_Returning",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "0b1de20958d45a6b6fa59704f2c17817"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Listing_ClaimedVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ad5e16002f544092febf4928c964d7f5"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Listing_Created",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "854fa0053a23894e2d2c5ea7265b87ea"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Listing_InvalidPrice",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "a157cfbce83a0f87d8aef0af7e9d697f"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Listing_LimitReached",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "4c28305d976c6d8937c463389838f6ca"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Listing_NeedsKeyOrHotwire",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "e3100690057ee47a087cd8224b327bf2"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Listing_VehicleNotReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "5cea6f1a3d4eff18bc1922632fb3b91e"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Payout_Available",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "d37d8de77e6298a8b3d823c4466bd742"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Payout_Empty",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "3695818e59ae09b1fc12b867ca9a7c58"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Payout_Failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "96a73ef6406da5bb5680b4e9bcacbd91"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Payout_Success",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "2ad1525434b00e6dce72fd82f7be0c58"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Purchase_Completed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "a6bcf88297eac60f634c6ab1dc79823f"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Purchase_Confirmation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "5567ac83ac026d1461c56c0a0361c882"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Purchase_InsufficientFunds",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "3d89711d047fae7e2865647810f126ac"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Rules_Inspection",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "f8db0f930666f49bfe67cb0b36a0248f"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Rules_Intro",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "57f871352116c20db2d67ca89b3e7a90"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Rules_Listing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1f2d70e5fbce29577ac2ea501b56637b"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Rules_Payout",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "817c65c32968f0f7bd7b8154f278748d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Sell_Intro",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "64c58ffdd2b3ee01c6dba6bf1c7b57fe"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Sell_PermitFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "0292ba6541a7259ed4486a0757e2b57a"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Sell_PermitInfo",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "6571a8a189ef9d9acda28af6ac4438aa"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Sell_PermitInsufficientFunds",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "733ce52445d2da4f8dc768e001034c46"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Sell_PermitSuccess",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "602fd63ff2f3c167744a4c445789b035"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Randy_Trader_TooFar",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "72ff7a117725991e6959fb3e38bc89f7"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_System_Busy",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "bda77f00c29fd3d6e0d1dbbc7bbb0f5a"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_System_ServerUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "e40806d2f76c769a2638e20d1deda477"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Title",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ea3aac3bda77b70b9488146d7eeb98ed"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Call_Defer",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "0ebb7aa0063c3a915034595704ddf259"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Call_Dismissed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1b3bc15dff3d6ce9437d6ed98e6d632c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Call_SaleNotice",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "dd3b13aedf06b568ec548bac0a4d5dd1"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Goodbye",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "030e7e4c2248881229538d38923b55c8"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Greeting_Opening",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ccc2dc6dffcea99526e1d54344cc7722"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Greeting_Returning",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "d70b2ffd1f3ad19d11cb108dfd1a7090"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Listing_ClaimedVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "bc5c0b6c6fdc5e7797df7d976b1f404d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Listing_Created",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "42513a2aa1292e44fca8448fe12f5d55"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Listing_InvalidPrice",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "a6f827116d88ce1709214206d9e6bd45"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Listing_LimitReached",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b7ad6cf56682dd9c59a8ff802e5e38a6"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Listing_NeedsKeyOrHotwire",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "46f48e4e203ae14a496386466772d08e"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Listing_VehicleNotReady",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "151b4b22e52907a3c5bfd6910e565778"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Payout_Available",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "991dc7d2b4d31bdcb5ca44a436e33879"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Payout_Empty",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "eb7d1edf2c5c996c1a7998403dc7c05b"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Payout_Failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "64565718cee2500b91c17118a053e1c6"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Payout_Success",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "89efa681c5f8129505c9df3cbcb95f6d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Purchase_Completed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "2a752de777acf03de4b4e0586b1ed899"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Purchase_Confirmation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "de15389f43a777a8e25afefd3802df29"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Purchase_InsufficientFunds",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "99cd4e0e152719d47d01ceaef7b9df09"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Rules_Inspection",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "7c80ee4766eae7922804c9af9cdbcd97"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Rules_Intro",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ba74321368d269abd3676e1e1bc298f7"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Rules_Listing",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "8fe5ee4960bd6aa1d7035cb94d118697"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Rules_Payout",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "9f597e780ab8518dcc9cde936f80a807"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Sell_Intro",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b50ef861b77b047c028fdfcd65cab9cc"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Sell_PermitFailed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "d12c0fd8311ec942592917401aaadd26"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Sell_PermitInfo",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b92a399d68386040a0d92902f80923ca"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Sell_PermitInsufficientFunds",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "43eb860bf92ef3dd26ebafb4f9ee65aa"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Sell_PermitSuccess",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "df745597e2d7c7dbd5aa56b86ffe5cb6"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Dialogue_Viktor_Trader_TooFar",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "39d753956f89524ea643a17d85c9cf44"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_account_credit_failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "583ccf413ed0cad49210c68234d91078"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_admin_access_required",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "230a78b35bd0a26fdeb2350a7c5d847d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_listing_cancel_not_owner",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "85c9d8edd18b1d5eb852f2524b189482"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_listing_not_for_sale",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "d0db678854b31c55fe8a867a54e283ed"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_listing_not_found",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "76efb798a3880efed8b687cb9bbe1cee"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_listing_outside_market",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "aeb4afe78aa84751ca4b44f03860f433"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_listing_own_purchase",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "d64ad5c5d76f8bda13b47a80cff2a261"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_listing_vehicle_not_ready",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "b09d58c8419814c58cc55f8157869662"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_market_details_invalid",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "26e244b41891bd61a7898e46c135ca80"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_market_not_found",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "5fc8839e5dcf232938a22d4cb5ec04e0"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_market_npc_invalid",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "11cd8b24ffb4995212633c5dee15549b"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_market_npc_not_found",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "4cc188e67e9a08eda35bdec5713fd7fd"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_payout_currency_unavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1a4790f8ef20084b9491667d873620bb"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_payout_issue_failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "d2b56b9586c11d2e33fea6cc8af0ad82"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_permit_issue_failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "fa362e12d5281a98dc6f1241b3c2225a"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_permit_required",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "5b50f29eeffac16de9cfae82da78d5ce"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_permit_unavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "2a6a060c1a5f7f67ebb83db03f6fb72c"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_unknown",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "5fdf219019e08da92e50a36d8b86a666"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_vehicle_already_listed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "05e377289b95f7b01611bd31032a2123"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_vehicle_claim_status_unavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "f767f3141e9b4052c5cb9bd7a4ea25a2"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_vehicle_data_unavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c6fc7ca57e36fabf8d9bc7ebd60a9b4e"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_vehicle_not_found_or_too_far",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "17bc344d0996a87d66224bf4410c018d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_vehicle_outside_market",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "a10c0899be5458df091459aeab85125f"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_vehicle_protection_failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "dca1e89eead4e50f7196532060d67cf6"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_zone_different_z",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "db51fab49caa32f2c7a456717a6d5a15"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_zone_overlap",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "9297b39622bc49765679f9f3b8508e64"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Error_zone_too_large",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "c8141c3bef9ef9daf0ef012ebcc87c96"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_ListingLock_LeavingVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "407dd207c7a8e8bd129efef93ff68f07"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_DefaultName",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "fd70d2810505132ed2d3446f93002f5d"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_DefaultTownName",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "cc503e8d682599c008a3f7c00a1e6eaf"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_Brandenburg",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "65dcbc8df59980e02571073acebd2325"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_EchoCreek",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "843706e2b8e74822f40273f2fd929ad1"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_Ekron",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1ded095fcfc3ec544dbccf645c982f91"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_FallasLake",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "875093c9342679db8a6817fea0469f6e"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_Irvington",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "0b287cddd2a3929095953e8920350c80"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_Louisville",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "bdb84ec62b42d7bc2f3edc485bc8148a"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_MarchRidge",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "16218b43b9e83c632390b1e718b1b5d4"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_Muldraugh",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "f407214bc65b27eef912d98a833b6088"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_Riverside",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ff835dcfcef4e766531e6820dc3bc007"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_Rosewood",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "d1aa9946667bc72f59ab78d9d14c5631"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_ValleyStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "ae8eba65d4e9de88bbfdf7aa5472903a"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_Market_Town_WestPoint",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "1b71b2dc3049baf14031ef4e089b5dbd"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_NPC_BigVern_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "32b1f8841c45ad639812f90a3b9b2d38"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_NPC_BigVern_Name",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "41660c843f4086d48519614944de9095"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_NPC_Jimmy_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "16cbde72ce4b65f8dc19207c695966b5"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_NPC_Jimmy_Name",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "4b8db8acb56f354388cb4b155cb99b30"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_NPC_Randy_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "659a95741d02d80c8847399f6ac656f1"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_NPC_Randy_Name",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "183ff1472af8bdc7ef8a776c833fa086"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_NPC_Viktor_Description",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "fa52679b001bed5f2bf060d36a103de1"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "IGUI_MRTVehicleMarket_NPC_Viktor_Name",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "8a76d3d7600ac2b125870c8a0ead9fa8"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "MRT.SalePermit",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "f67abcb9fa94c423c07df0281a234479"
+  },
+  {
+    "mod_id": "3777490033",
+    "translation_key": "Tooltip_MRT_VehicleMarket_SalePermit",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-12T11:57:17.0000000Z",
+    "source_hash": "9d185043908b2796b6264e798cdeb425"
+  }
+]

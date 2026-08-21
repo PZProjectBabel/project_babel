@@ -1,58 +1,90 @@
 [
   {
     "mod_id": "3742961627",
+    "translation_key": "CFTFMakeDeerTrap",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T10:47:49.0000000Z",
+    "source_hash": "8b68a1c602b62e82d3984cac3f431ca2"
+  },
+  {
+    "mod_id": "3742961627",
     "translation_key": "IGUI_CFTF_TrapInteraction",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6389915Z",
-    "last_seen_mod_updated": "2026-08-12T09:26:27.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0967387Z",
+    "last_seen_mod_updated": "2026-08-15T10:47:49.0000000Z",
     "source_hash": "5ba2f0df7247350d6dbe8d4ff412c902"
   },
   {
     "mod_id": "3742961627",
     "translation_key": "IGUI_CraftCategory_Traps",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6389925Z",
-    "last_seen_mod_updated": "2026-08-12T09:26:27.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0967394Z",
+    "last_seen_mod_updated": "2026-08-15T10:47:49.0000000Z",
     "source_hash": "7e684969a3f7713a172b1f982a2f2645"
   },
   {
     "mod_id": "3742961627",
     "translation_key": "IGUI_CraftingCategories_Traps",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
-    "last_seen_mod_updated": "2026-08-12T09:26:27.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0967399Z",
+    "last_seen_mod_updated": "2026-08-15T10:47:49.0000000Z",
     "source_hash": "324bf9b0ca463c71e8b5daf6254ca179"
+  },
+  {
+    "mod_id": "3742961627",
+    "translation_key": "IGUI_CraftingCategory_Traps",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T10:47:49.0000000Z",
+    "source_hash": "27ba6641c70577f31b5a59fe2733c009"
   },
   {
     "mod_id": "3742961627",
     "translation_key": "IGUI_Recipecategory_Traps",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6389929Z",
-    "last_seen_mod_updated": "2026-08-12T09:26:27.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0967404Z",
+    "last_seen_mod_updated": "2026-08-15T10:47:49.0000000Z",
     "source_hash": "2addd33f4322f4b175be30cdd8ff3093"
+  },
+  {
+    "mod_id": "3742961627",
+    "translation_key": "ItemName_VanillaTrappingFix.DeerTrap",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T10:47:49.0000000Z",
+    "source_hash": "be9747c4c398d2dff62e5f89e7f62a1a"
   },
   {
     "mod_id": "3742961627",
     "translation_key": "Sandbox_VanillaTrappingFix",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6389935Z",
-    "last_seen_mod_updated": "2026-08-12T09:26:27.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0967408Z",
+    "last_seen_mod_updated": "2026-08-15T10:47:49.0000000Z",
     "source_hash": "a65175516b9bd888b71479ec8e8a7a45"
   },
   {
     "mod_id": "3742961627",
     "translation_key": "Sandbox_VanillaTrappingFix_EnableTrapWarnings",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6389943Z",
-    "last_seen_mod_updated": "2026-08-12T09:26:27.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0967413Z",
+    "last_seen_mod_updated": "2026-08-15T10:47:49.0000000Z",
     "source_hash": "13f8f380ba5ff738acd05108271cef7e"
   },
   {
     "mod_id": "3742961627",
     "translation_key": "Sandbox_VanillaTrappingFix_EnableTrapWarnings_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6389952Z",
-    "last_seen_mod_updated": "2026-08-12T09:26:27.0000000Z",
+    "last_seen_at": "2026-08-21T16:14:22.0967418Z",
+    "last_seen_mod_updated": "2026-08-15T10:47:49.0000000Z",
     "source_hash": "2c38e86f8683feb3a7827ff5de27b519"
+  },
+  {
+    "mod_id": "3742961627",
+    "translation_key": "VanillaTrappingFix.DeerTrap",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-15T10:47:49.0000000Z",
+    "source_hash": "d0507643a95415e47ee940e1ccc97e83"
   }
 ]

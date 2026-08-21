@@ -1,2 +1,8 @@
+Sandbox_PZ_Map::en = "PZ Map",
+Sandbox_PZ_Map::ja::processed::unverified = "PZ Map",
+Sandbox_PZ_Map_SendPlayerPositions::en = "Send player positions to PZ Map",
+Sandbox_PZ_Map_SendPlayerPositions::ja::processed::unverified = "プレイヤーの位置をPZ Mapに送信",
+Sandbox_PZ_Map_SendPlayerPositions_tooltip::en = "Lets the PZ Map browser page draw other players. It does not change who may see whom - that is decided by MapRemotePlayerVisibility, and PZ Map never shows anyone the in-game world map would not. Turning this off only stops PZ Map sending positions, which cost roughly 55 bytes per visible player per second. The in-game world map is unaffected either way.",
+Sandbox_PZ_Map_SendPlayerPositions_tooltip::ja::processed::unverified = "PZ Mapブラウザページが他のプレイヤーを表示できるようにします。誰が誰を見えるかは変わりません。それはMapRemotePlayerVisibilityによって決定され、PZ Mapはゲーム内ワールドマップが表示しないものを誰にも表示しません。これをオフにすると、PZ Mapが位置を送信しなくなるだけです。これは、表示中のプレイヤー1人につき毎秒約55バイトを消費します。ゲーム内ワールドマップはどちらの場合も影響を受けません。",
 UI_PZMap_Name::en = "PZ Map",
 UI_PZMap_Name::ja::processed::unverified = "PZ Map",

@@ -32,7 +32,7 @@ Sandbox_PropaneExchangeCabinet_RemoveNewCabinets_tooltip::en = "If selected only
 Sandbox_PropaneExchangeCabinet_RemoveNewCabinets_tooltip::fr::processed::unverified = "Si sélectionné, seules les armoires patinées apparaîtront, les armoires existantes ne sont pas affectées.",
 Sandbox_PropaneExchangeCabinet_SpawnChance::en = "Spawn chance per gas station (%%)",
 Sandbox_PropaneExchangeCabinet_SpawnChance::fr::processed::unverified = "Chance d'apparition par station-service (%%)",
-Sandbox_PropaneExchangeCabinet_SpawnChance_tooltip::en = "Chance that a propane exchange cabinet spawns at each eligible location (Fossoil/Gas2Go gas stations, Zippee's convenience stores). 0 = never, 100 = always.",
+Sandbox_PropaneExchangeCabinet_SpawnChance_tooltip::en = "Chance that a propane exchange cabinet spawns at each eligible location (Fossoil/Gas2Go gas stations, Zippee's convenience stores). Rolled ONCE per station per save - a station that rolls empty stays empty on that save. 0 = never, 100 = always.",
 Sandbox_PropaneExchangeCabinet_SpawnChance_tooltip::fr::processed::unverified = "Chance qu'une armoire d'échange de propane apparaisse à chaque emplacement éligible (stations-service Fossoil/Gas2Go, dépanneurs Zippee's). 0 = jamais, 100 = toujours.",
 Tooltip_craft_propaneCabinetDesc::en = "A homemade propane tank storage cabinet, welded together from scrap metal.",
 Tooltip_craft_propaneCabinetDesc::fr::processed::unverified = "Une armoire de stockage de bouteilles de propane artisanale, soudée à partir de ferraille.",

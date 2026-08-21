@@ -334,7 +334,7 @@ Sandbox_ScrapSurvival_RecyclingYieldMultiplier_tooltip::en = "Controls how many 
 Sandbox_ScrapSurvival_RecyclingYieldMultiplier_tooltip::zh-hans::processed::unverified = "控制回收时获得的材料数量. 1.00 = 正常产出, 0.50 = 一半产出, 2.00 = 双倍产出. 物品状态和角色的相关技能仍会影响最终结果.",
 Sandbox_ScrapSurvival_SkillRequirements::en = "Skill Requirements",
 Sandbox_ScrapSurvival_SkillRequirements::zh-hans::processed::unverified = "技能需求",
-Sandbox_ScrapSurvival_SkillRequirements_tooltip::en = "Yes: Scrap & Survival recipes require their intended skill levels. No: mod recipes are not blocked by skill level; required materials, tools and workstations are still needed. Skills may still influence recycling yield and repair quality.",
+Sandbox_ScrapSurvival_SkillRequirements_tooltip::en = "Yes: Salvage Works recipes use their intended skill levels. No: skill levels do not block mod recipes. Materials, tools and workstations are still required. This option is applied when the world/server is loaded; after changing it during a running game, reload the save or reconnect before testing recipes.",
 Sandbox_ScrapSurvival_SkillRequirements_tooltip::zh-hans::processed::unverified = "是: 拆解与生存配方需要相应的技能等级. 否: 模组配方不受技能等级限制; 所需材料, 工具和工作台仍然需要. 技能仍可能影响回收产出和修理质量.",
 Tooltip_SNS_Material_Aluminum::en = "Aluminum",
 Tooltip_SNS_Material_Aluminum::zh-hans::processed::unverified = "铝",

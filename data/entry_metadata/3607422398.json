@@ -1,0 +1,514 @@
+[
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Build_Chemical_Workstation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "78194a6a02a27f26a6fe92e9cc1b51da"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ContextMenu_Take_Blood_Sample",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "26b93d1aeb6b64ed692976757904074a"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Create_Strong_Antiserum",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "194adb2dd3b0a20da4d427395590c41c"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Create_The_Cure",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "25554eb49921f4e3d310cbe35ddd5ca9"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Create_Weak_Antiserum",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "991c98f7dc5b29504336b42e264c7e7b"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumAntigenA",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "c18284499093fbb6bfa8fd6b8e0f06b5"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumChemicalWorkstation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "5260cc4cefb7c861602071d9f053cb2c"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumChemicals",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "822d18122b7d4e3bfd9fc5391cc8a453"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumCure",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "6e8f003bd86f0a8be34a8f36cb9552da"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumEmptyInjector",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "445d2122f6c98d32e2cf2524446c9b78"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumEmptyInjectorPack",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "6d0ecbf3572eb6bd80cebd99d9e361ca"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumJournalOfResearch",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "150c7121b6ef4a2c6654aeb8e1f5e2f7"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumSample",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "7de53a4a033f3a5f11b207bc402b9a11"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumStrong",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "ff963b76295d7e6f2b42c51b18b54597"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumTestTube",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "90362339b4aae1457553e02cd7ff19ed"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumTestTubePack",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "7793fbd792ef5212f06660f9a6743d20"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumUsedInjector",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "ef339ae17ad7f6fd2457bc92f4736f92"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "DisplayName_AntiserumWeak",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "c3edafe22562ba1cf6e5d470c124409c"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Inject_Yourself",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "f79a40c4dc0e3becf5378fa1b6d4e797"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumAntigenA",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "90b2ecfe325569cb6d05398a111c8c95"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumChemicalWorkstation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "f208201be5911044d290a7d01c334ef1"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumChemicals",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "4e47b961c3134479ebf430a5a78d9818"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumCure",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "9ee73941872d9f47dbb9e81ba89aa648"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumEmptyInjector",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "d0aaff1631350bcb9b09a1ef1880857a"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumEmptyInjectorPack",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "20029c7d88c3aed6861772d716670c0a"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumJournalOfResearch",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "e52927dc9e045cb9633f088756877d4c"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumSample",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "2cd800157e5d8c3c0df137c7acc08d03"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumStrong",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "eeb96354b4cc98aaeb754b36a880971a"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumTestTube",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "3319802700cba79f93cc9049a3999fa6"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumTestTubePack",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "cec9bbf182577aea9f505fa34a08d3eb"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumUsedInjector",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "73ff36446d2ddd81e4b484e7fb7498ed"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "ItemName_Antiserum.AntiserumWeak",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "99364c2ea30bac080ffb4f666f1159b6"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Pack_Empty_Injectors",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "2fb1e07c35309eba5d3de5be505f655e"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Pack_Test_Tubes",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "effff9ec3df1ebe7381b493e3e6313be"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Build_Chemical_Workstation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "87f0ed5e2c13f823a9235591fa7bb276"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Create_Strong_Antiserum",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "7fa85faa193fa3d011e34c1aeb245763"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Create_The_Cure",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "2bb9ddf6bf4a56a6b74b0f34aa2646a3"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Create_Weak_Antiserum",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "cbeb4818dee2bbaebe55e3d88d447ab3"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Inject_Yourself",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "82c674dfd79bb84cb1334333c099afd6"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Pack_Empty_Injectors",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "63b9b5b96eb8a18f3ca64d41fd608eee"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Pack_Test_Tubes",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "700ffa9b180868327afa9d44801ffc4b"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Start_Research_Journal",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "28f9811ad638ff6c5dea19a234efda66"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Test_For_Infection",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "4d9059db8b13a48a6a29e00da46cdb24"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_The_Cure",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "544cc38702cf30770e152849cfdded4b"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Unpack_Empty_Injectors",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "b05900ebe5d6c49ae7bd10f4f55bac12"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Unpack_Test_Tubes",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "47d990637aca15947cffe2bd1dca58a3"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Recipe_Weak_Antiserum",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "a437c036847fdadc47a6043094777c73"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Start_Research_Journal",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "052084eff8897991e9ec941959129f57"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Test_For_Infection",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "1188c7d8cb278df3643b0467410731ab"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumAntigenA",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "b5c5cc7d0e50dbef86c50bd67201ee93"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumChemicalWorkstation",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "882d091ca44f34d2a2ec20364ed925ef"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumChemicals",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "bc4e2dd9df166f0375fe5964b747c38d"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumCure",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "a7de04fdb49d8b15a78c839898000548"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumEmptyInjector",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "a15cd56ee081d540bbe88d2d0ae9fce4"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumEmptyInjectorPack",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "09d95d39f826af9ae185a9a723cc2ff4"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumJournalOfResearch",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "1e68ecaf2cb18a59cacece4a3b607a88"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumSample",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "d8235b963cbad2c3c4ab6a01e73bce18"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumStrong",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "4539fee564948b8d7ffc652920a891f4"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumTestTube",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "8c65330ba73a16b4b386779081af11eb"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumTestTubePack",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "1c12d9e8edb9b093182921e41910b5ce"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumUsedInjector",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "7c6a88104a0e9dc694b2a572c68c1baa"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Tooltip_AntiserumWeak",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "aadc7a799c15cd6fc4512dd4384f13e9"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Unpack_Empty_Injectors",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "fa89fa6d0d6b469c1fecaff73effd3af"
+  },
+  {
+    "mod_id": "3607422398",
+    "translation_key": "Unpack_Test_Tubes",
+    "is_active": true,
+    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_mod_updated": "2026-08-16T22:07:42.0000000Z",
+    "source_hash": "1e28da69ad3a9914d9c24c254960f921"
+  }
+]
