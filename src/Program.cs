@@ -36,6 +36,8 @@ public class PipelineRunner
 {
     /// <summary>Enable debug mode to limit mods and languages for fast testing.</summary>
     private const bool DebugOn = false;
+    /// <summary>Maximum number of download/extraction batches handled in one pipeline run.</summary>
+    public const int MaxDownloadExtractionBatchesPerRun = 30;
     /// <summary>Maximum number of mods to process in debug mode.</summary>
     private const int DebugModLimit = 1400;
     /// <summary>Number of additional target languages in debug mode (beyond base + zh-hans).</summary>
@@ -238,12 +240,17 @@ public class PipelineRunner
             .Select(kvp => kvp.Key)
             .ToList();
         var freshEntries = new Dictionary<string, TranslationEntry>(StringComparer.Ordinal);
+        var processedUpdateModIds = new List<string>();
         if (updateModIds.Count > 0)
         {
-            Console.WriteLine($"Downloading and extracting {updateModIds.Count} updated mod(s) in batches.");
-            var downloadBatches = updateModIds.Chunk(config.pipelineBatchSize).Select((b, i) => (batch: b, idx: i)).ToList();
-            int totalBatches = downloadBatches.Count;
-            foreach (var (batch, idx) in downloadBatches)
+            int totalBatches = (updateModIds.Count + config.pipelineBatchSize - 1) / config.pipelineBatchSize;
+            var downloadBatches = CreateDownloadExtractionBatches(updateModIds, config.pipelineBatchSize);
+            processedUpdateModIds = downloadBatches.SelectMany(batch => batch).ToList();
+            Console.WriteLine($"Downloading and extracting {updateModIds.Count} updated mod(s) in batches (processing {downloadBatches.Count}/{totalBatches} batch(es) this run).");
+            if (processedUpdateModIds.Count < updateModIds.Count)
+                Console.WriteLine($"  [OK] {updateModIds.Count - processedUpdateModIds.Count} mod(s) remain queued for the next pipeline run.");
+
+            foreach (var (batch, idx) in downloadBatches.Select((batch, idx) => (batch, idx)))
             {
                 string batchTempFolder = Path.Combine(config.downloadingBatchesTempDir, $"batch_{idx + 1}");
                 Directory.CreateDirectory(batchTempFolder);
@@ -287,7 +294,7 @@ public class PipelineRunner
         Console.WriteLine();
 
         // Mark force-updated mods that still produced 0 entries → ACCEPTED (empty mod, no content to review).
-        foreach (var modId in updateModIds)
+        foreach (var modId in processedUpdateModIds)
         {
             bool hasEntries = freshEntries.Values.Any(e => e.modId == modId)
                               || translationEntryDict.Values.Any(e => e.modId == modId);
@@ -301,7 +308,7 @@ public class PipelineRunner
 
         // 3e. Merge & diff entries (fresh vs cached snapshot).
         Console.WriteLine($"[{currentStep++}/{totalSteps}] Diffing translation entries...");
-        var updatedModIdSet = updateModIds.ToHashSet(StringComparer.Ordinal);
+        var updatedModIdSet = processedUpdateModIds.ToHashSet(StringComparer.Ordinal);
         var baseLangIso = ResolveLanguage(config.supportedLanguages, config.baseLanguage)?.isoCode.ToLowerInvariant()
             ?? config.baseLanguage.ToLowerInvariant();
         RepoDataLoaderService.MarkMissingFreshEntriesInactive(cachedTranslationEntryDict, freshEntries, updatedModIdSet);
@@ -408,7 +415,7 @@ public class PipelineRunner
         // --- Phase 4: Write Back ---
         // 4a. Write data (merged).
         Console.WriteLine($"[{currentStep++}/{totalSteps}] Writing data...");
-        ClearHandledUpdateFlags(updateModIds, modInfoDict);
+        ClearHandledUpdateFlags(processedUpdateModIds, modInfoDict);
         MergeUpdatedModInfos(modInfoDict, persistedModInfoDict);
         var resultWriter = new ResultWriterService(config);
         allTaskResults.Add(await resultWriter.WriteDataAsync(persistedModInfoDict, translationEntryDict, refModInfoDict, refTranslationEntryDict));
@@ -634,6 +641,21 @@ public class PipelineRunner
         if (data.IsProcessed && !string.IsNullOrWhiteSpace(data.text))
             return false;
         return true;
+    }
+
+    /// <summary>
+    /// Creates the download/extraction batches for this run. Excess batches remain flagged
+    /// for the next pipeline run instead of being downloaded or extracted now.
+    /// </summary>
+    public static List<string[]> CreateDownloadExtractionBatches(IEnumerable<string> modIds, int batchSize)
+    {
+        if (batchSize <= 0)
+            throw new ArgumentOutOfRangeException(nameof(batchSize), batchSize, "Batch size must be positive.");
+
+        return modIds
+            .Chunk(batchSize)
+            .Take(MaxDownloadExtractionBatchesPerRun)
+            .ToList();
     }
 
     /// <summary>Clears the needsUpdate flag for mods that were successfully downloaded and extracted.</summary>

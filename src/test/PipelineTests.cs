@@ -1344,6 +1344,21 @@ public class ContentCheckerTests
     }
 
     [Fact]
+    public void CreateDownloadExtractionBatches_ShouldCapRunAtThirtyBatches()
+    {
+        var modIds = Enumerable.Range(0, 31 * 2)
+            .Select(index => $"mod_{index}")
+            .ToList();
+
+        var batches = global::PipelineRunner.CreateDownloadExtractionBatches(modIds, batchSize: 2);
+
+        Assert.Equal(30, batches.Count);
+        Assert.Equal(["mod_0", "mod_1"], batches[0]);
+        Assert.DoesNotContain("mod_60", batches.SelectMany(batch => batch));
+        Assert.DoesNotContain("mod_61", batches.SelectMany(batch => batch));
+    }
+
+    [Fact]
     public void HasPendingTargetEntries_ShouldReturnFalseWhenTargetAlreadyProcessed()
     {
         var entry = TestTranslations.Entry("Done_Key", "hello");

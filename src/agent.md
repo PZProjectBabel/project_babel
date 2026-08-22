@@ -6,7 +6,7 @@ Entry:
 - `Program.cs`: pipeline runner, debug mod/language subset controls, known-mod filtered target work queue, persisted modinfo merge before write-back, stage numbering, per-target RAG/LLM short-circuit for languages with no pending entries, and per-language output loops.
 - `TranslationPipeline.csproj`: entry project references all modules; module folders own their service classes.
 - `SteamCmdBootstrapper/`: refreshes the platform-specific SteamCMD runtime before mod downloads.
-- `ModDownloader/`: resolves SteamCMD's reported Workshop output path before moving downloaded mod folders.
+- `ModDownloader/`: resolves SteamCMD's reported Workshop output path before moving downloaded mod folders. The main translation flow handles at most 30 download/extraction batches per run; remaining `needsUpdate` mods stay queued for the next run.
 - `EmbeddingFetcher/`: uses a dedicated 300-second embedding HTTP timeout, independent of Steam API timeouts.
 
 Support folders:
