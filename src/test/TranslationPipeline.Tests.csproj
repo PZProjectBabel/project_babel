@@ -33,6 +33,7 @@
     <ProjectReference Include="..\ContentChecker\ContentChecker.csproj" />
     <ProjectReference Include="..\LLMTranslator\LLMTranslator.csproj" />
     <ProjectReference Include="..\ResultWriter\ResultWriter.csproj" />
+    <ProjectReference Include="..\FinalOutputWriter\FinalOutputWriter.csproj" />
     <ProjectReference Include="..\WorkshopMonitor\WorkshopMonitor.csproj" />
   </ItemGroup>
 

@@ -8,6 +8,9 @@ Inputs: `ModInfo.localDownloadedPath`, supported languages, base language, downl
 
 Outputs:
 - fills `Dictionary<string, TranslationEntry>` keyed by `modId::translationKey`.
+- records the winning source file stem in `TranslationEntry.outputFileStem` as optional
+  output-routing metadata; txt/json precedence and game-version winner selection remain
+  unchanged, and language suffixes are removed from the stem.
 - writes debug text files to `extractedContentsTempDir/<iso>/<modid>.txt`.
 - writes key/file mapping under `extracted_contents/translation_key_to_file_mapping/`.
 

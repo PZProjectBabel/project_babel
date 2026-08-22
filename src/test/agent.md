@@ -2,7 +2,11 @@
 
 Structure: xUnit project referencing the pipeline entry/modules.
 
-Function: regression tests for shared types, config, collectors, download parsing, extraction, content checking, cross-language review cache reuse, debug-subset queue filtering, persisted modinfo merge, state cache read/write, key-only missing-source handling, embeddings, batching, RAG, adaptive LLM task-pool behavior, and result writing.
+Function: regression tests for shared types, config, collectors, download parsing, extraction,
+output-file routing/metadata compatibility, route-only queue/provider no-op behavior, content
+checking, cross-language review cache reuse, debug-subset queue filtering, persisted modinfo
+merge, state cache read/write, key-only missing-source handling, embeddings, batching, RAG,
+adaptive LLM task-pool behavior, and result writing.
 
 Inputs: in-memory fixtures, temp folders, stub `HttpMessageHandler` instances. No real network or steamcmd calls.
 

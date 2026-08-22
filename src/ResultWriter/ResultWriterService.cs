@@ -446,7 +446,10 @@ public class ResultWriterService
                     ["is_active"] = e.isActive,
                     ["last_seen_at"] = FormatDateTime(e.lastSeenAt),
                     ["last_seen_mod_updated"] = FormatDateTime(e.lastSeenModUpdated),
-                    ["source_hash"] = e.sourceHash
+                    ["source_hash"] = e.sourceHash,
+                    ["output_file_stem"] = string.IsNullOrWhiteSpace(e.outputFileStem)
+                        ? null
+                        : e.outputFileStem
                 })
                 .ToList();
 

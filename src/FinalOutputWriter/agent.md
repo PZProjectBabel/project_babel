@@ -13,7 +13,11 @@ Outputs:
 - Both dirs identical; write 42.20 first, copy to 42.
 
 Rules:
-- Group by key root (prefix before first `_`), map to file via base_game_keys prefix→file mapping.
+- Prefer a validated explicit `TranslationEntry.outputFileStem`; otherwise group by key root
+  (prefix before first `_`) and map to file via base_game_keys prefix→file mapping. Skip with a
+  warning when neither route is valid.
+- Reject rooted paths, separators, traversal segments, invalid filename characters, and embedded
+  extensions before appending `.json`.
 - Exclude keys present in base_game_keys (no override).
 - Exclude entries from reference translation mods.
 - Only non-empty translated text.

@@ -199,6 +199,11 @@ public class TranslationEntry
     public DateTime lastSeenModUpdated { get; set; } = DateTime.MinValue;
     /// <summary>Hash of the source text for change detection.</summary>
     public string sourceHash { get; set; } = "";
+    /// <summary>
+    /// Optional output JSON file stem selected from the winning mod source file.
+    /// This is routing metadata only and is not part of source or embedding identity.
+    /// </summary>
+    public string outputFileStem { get; set; } = "";
     /// <summary>List of files containing this translation entry.</summary>
     public List<ContainingFileInfo> containingFileInfos { get; set; } = [];
 

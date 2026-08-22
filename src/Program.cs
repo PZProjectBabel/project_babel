@@ -296,6 +296,10 @@ public class PipelineRunner
                 translationEntryDict[key] = cached; // mod not in this update batch, keep cached
             else if (!diffTranslationEntryDict.ContainsKey(key))
             {
+                // Preserve cached translations/embeddings for unchanged content,
+                // while allowing newly extracted routing metadata to catch up.
+                // This helper intentionally changes only outputFileStem.
+                BackfillOutputRoute(cached, freshEntries[key]);
                 cached.isActive = true;
                 cached.lastSeenAt = DateTime.UtcNow;
                 if (modInfoDict.TryGetValue(cached.modId, out var modInfo))
@@ -418,6 +422,17 @@ public class PipelineRunner
         Console.WriteLine();
 
         Console.WriteLine("Pipeline complete.");
+    }
+
+    /// <summary>
+    /// Copies only the fresh output route onto a cached entry. Route metadata is
+    /// deliberately excluded from source hashes, translation work, and embeddings.
+    /// An empty fresh route never erases a previously known route.
+    /// </summary>
+    public static void BackfillOutputRoute(TranslationEntry cached, TranslationEntry fresh)
+    {
+        if (!string.IsNullOrWhiteSpace(fresh.outputFileStem))
+            cached.outputFileStem = fresh.outputFileStem;
     }
 
     /// <summary>Merges configured reference mod metadata into the runtime ref mod dictionary.</summary>

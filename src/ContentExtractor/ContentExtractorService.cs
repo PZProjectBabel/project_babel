@@ -628,6 +628,16 @@ public class ContentExtractorService
             return;
 
         winners[winnerKey] = candidate;
+        // Keep the selected winning source file stem as routing metadata for final
+        // output. Prefer the base-language winner, matching GetBestWinner; if no
+        // base-language value exists, retain the first language winner as fallback.
+        // The winner already applies txt/json precedence and game-version ordering;
+        // FileStem also removes the language suffix (e.g. UI_EN -> UI).
+        if (string.Equals(raw.IsoCode, baseIso, StringComparison.OrdinalIgnoreCase)
+            || string.IsNullOrWhiteSpace(entry.outputFileStem))
+        {
+            entry.outputFileStem = candidate.FileStem;
+        }
         entry.translationValues[raw.IsoCode] = new TranslationData
         {
             text = PercentNormalizerService.Normalize(raw.Text),

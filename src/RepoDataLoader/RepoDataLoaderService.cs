@@ -451,6 +451,9 @@ public class RepoDataLoaderService
             entry.lastSeenAt = ParseDt(item.last_seen_at);
             entry.lastSeenModUpdated = ParseDt(item.last_seen_mod_updated);
             entry.sourceHash = item.source_hash ?? "";
+            // Older metadata files do not contain output_file_stem; null keeps
+            // the route optional and allows fresh extraction to backfill it.
+            entry.outputFileStem = item.output_file_stem ?? "";
             loaded++;
         }
         return loaded;
@@ -577,7 +580,8 @@ public class RepoDataLoaderService
         bool? is_active,
         string? last_seen_at,
         string? last_seen_mod_updated,
-        string? source_hash
+        string? source_hash,
+        string? output_file_stem
     );
 
     private static DateTime ParseDt(string? v)
