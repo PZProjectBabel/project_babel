@@ -22,7 +22,7 @@ Pipeline order:
 4. `ModInfoFetcher`: fetch Steam metadata.
 5. `SteamCmdBootstrapper`: refresh platform-specific SteamCMD runtime.
 6. `ModDownloader`: copy/run steamcmd and download Workshop content.
-7. `ContentExtractor`: parse mod translation files into shared `TranslationEntry` dictionaries.
+7. `ContentExtractor`: parse mod translation files into shared `TranslationEntry` dictionaries, then the runner removes that batch's downloaded mod files and SteamCMD workspace.
 8. `ContentChecker`: review normal mods and filter queued entries.
 9. `EmbeddingFetcher`: embed normal base/key-only and ref target text by source kind.
 10. `TranslationBatcher`: create target-independent batches from checked target work queues; inactive work lowest priority.

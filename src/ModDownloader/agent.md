@@ -12,6 +12,6 @@ Flow:
 5. Condense steamcmd self-update lines as transient progress.
 6. Move `steamapps/workshop/content/108600/<id>` to `downloadedModsTempDir/<id>`.
 
-Outputs: sets `ModInfo.localDownloadedPath`; returns failed count for missing downloads.
+Outputs: sets `ModInfo.localDownloadedPath`; returns failed count for missing downloads. The pipeline runner deletes the downloaded mod directory and per-batch SteamCMD workspace immediately after extraction.
 
 Notes: Ctrl+C/process-exit handlers synchronously kill running steamcmd process trees. Killing steamcmd directly is intentional.

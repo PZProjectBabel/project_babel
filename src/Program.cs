@@ -143,9 +143,20 @@ public class PipelineRunner
                 supportedLanguages = config.supportedLanguages
             };
             var refExtractor = new ContentExtractorService(refConfig);
-            allTaskResults.Add(await refExtractor.ExtractContentsAsync(staleRefDict, refTranslationEntryDict, "ref"));
-            RestoreUnchangedRefEntries(refTranslationEntryDict, staleRefEntrySnapshot);
-            MarkReferenceEntriesVerified(refTranslationEntryDict);
+            try
+            {
+                var extractionResult = await refExtractor.ExtractContentsAsync(staleRefDict, refTranslationEntryDict, "ref");
+                allTaskResults.Add(extractionResult);
+                if (extractionResult.isSuccess)
+                    ClearHandledUpdateFlags(staleRefModIds.ToList(), refModInfoDict);
+
+                RestoreUnchangedRefEntries(refTranslationEntryDict, staleRefEntrySnapshot);
+                MarkReferenceEntriesVerified(refTranslationEntryDict);
+            }
+            finally
+            {
+                CleanupDownloadedBatch(config, refBatchFolder);
+            }
             Console.WriteLine($"  [OK] Refreshed {staleRefModIds.Count} ref mod(s), total ref entries: {refTranslationEntryDict.Count}");
 
             // 2d. Compute embeddings for refreshed ref entries.
@@ -248,7 +259,17 @@ public class PipelineRunner
 
                 Console.WriteLine($"  Extracting content [batch {idx + 1}/{totalBatches}]...");
                 var contentExtractor = new ContentExtractorService(config);
-                allTaskResults.Add(await contentExtractor.ExtractContentsAsync(batchModInfoDict, freshEntries, $"batch_{idx + 1}"));
+                try
+                {
+                    var extractionResult = await contentExtractor.ExtractContentsAsync(batchModInfoDict, freshEntries, $"batch_{idx + 1}");
+                    allTaskResults.Add(extractionResult);
+                    if (extractionResult.isSuccess)
+                        ClearHandledUpdateFlags(batchIds, modInfoDict);
+                }
+                finally
+                {
+                    CleanupDownloadedBatch(config, batchTempFolder);
+                }
                 Console.WriteLine();
             }
             currentStep++; // download consumed
@@ -630,6 +651,109 @@ public class PipelineRunner
             info.needsUpdate = false;
             modInfoDict[modId] = info;
         }
+    }
+
+    /// <summary>
+    /// Removes downloaded mod content and the per-batch SteamCMD workspace after extraction.
+    /// When extraction succeeds, the update flags are cleared before this method is called
+    /// because the downloaded directories are intentionally no longer available afterwards.
+    /// </summary>
+    private static void CleanupDownloadedBatch(
+        PipelineConfig config,
+        string batchTempFolder)
+    {
+        var runTempDir = config.runTempDir;
+        if (string.IsNullOrWhiteSpace(runTempDir))
+            return;
+
+        var deletedMods = 0;
+        if (!string.IsNullOrWhiteSpace(config.downloadedModsTempDir)
+            && Directory.Exists(config.downloadedModsTempDir))
+        {
+            if (!IsChildPathOf(config.downloadedModsTempDir, runTempDir))
+            {
+                GitHubActions.Warning($"Skipping downloaded mod cleanup outside run temp: {config.downloadedModsTempDir}", "Cleanup");
+            }
+            else
+            {
+                try
+                {
+                    foreach (var modPath in Directory.EnumerateDirectories(config.downloadedModsTempDir))
+                    {
+                        if (TryDeleteRunTempPath(modPath, runTempDir))
+                            deletedMods++;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    GitHubActions.Warning($"Could not enumerate downloaded mod directories: {ex.Message}", "Cleanup");
+                }
+            }
+        }
+
+        if (TryDeleteRunTempPath(batchTempFolder, runTempDir))
+            Console.WriteLine($"  [OK] Removed downloaded workspace: {batchTempFolder}");
+
+        if (deletedMods > 0)
+            Console.WriteLine($"  [OK] Removed {deletedMods} downloaded mod director{(deletedMods == 1 ? "y" : "ies")} after extraction.");
+    }
+
+    private static bool TryDeleteRunTempPath(string path, string runTempDir)
+    {
+        if (string.IsNullOrWhiteSpace(path) || !Directory.Exists(path))
+            return false;
+
+        string fullPath;
+        try
+        {
+            fullPath = Path.GetFullPath(path);
+        }
+        catch
+        {
+            return false;
+        }
+
+        if (!IsChildPathOf(fullPath, runTempDir))
+        {
+            GitHubActions.Warning($"Skipping workspace cleanup outside run temp: {fullPath}", "Cleanup");
+            return false;
+        }
+
+        try
+        {
+            Directory.Delete(fullPath, recursive: true);
+            return true;
+        }
+        catch (Exception ex)
+        {
+            GitHubActions.Warning($"Could not remove downloaded workspace '{fullPath}': {ex.Message}", "Cleanup");
+            return false;
+        }
+    }
+
+    private static bool IsChildPathOf(string path, string parent)
+    {
+        string fullPath;
+        string fullParent;
+        try
+        {
+            fullPath = Path.GetFullPath(path);
+            fullParent = Path.GetFullPath(parent);
+        }
+        catch
+        {
+            return false;
+        }
+
+        var relative = Path.GetRelativePath(fullParent, fullPath);
+        if (relative == "." || relative == ".." || Path.IsPathRooted(relative))
+            return false;
+
+        var comparison = OperatingSystem.IsWindows()
+            ? StringComparison.OrdinalIgnoreCase
+            : StringComparison.Ordinal;
+        return !relative.StartsWith(".." + Path.DirectorySeparatorChar, comparison)
+            && !relative.StartsWith(".." + Path.AltDirectorySeparatorChar, comparison);
     }
 
     /// <summary>Marks all entries belonging to unavailable mods as inactive.</summary>
