@@ -3,1200 +3,1350 @@
     "mod_id": "3651954650",
     "translation_key": "AssembleShoppingCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746096Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768558Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "8e4e1f55f93f221c9d6c5b66cf0c4d2a"
+    "source_hash": "8e4e1f55f93f221c9d6c5b66cf0c4d2a",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "DisplayName_SaucedCarts_ShoppingCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746106Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768565Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "b6d3cf9d67a01d23772fc5833e61567f"
+    "source_hash": "b6d3cf9d67a01d23772fc5833e61567f",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Recipe_AssembleShoppingCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746113Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768572Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "ebd0081c372d4411fff628df547fb10e"
+    "source_hash": "ebd0081c372d4411fff628df547fb10e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Recipe_MakeCartAttachmentKit",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746118Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768577Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "c1695e8253de25cb97e1be7e9adba995"
+    "source_hash": "c1695e8253de25cb97e1be7e9adba995",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746125Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768584Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "ee7a1f7e6575ba50b33acb078bf5cd3e"
+    "source_hash": "ee7a1f7e6575ba50b33acb078bf5cd3e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_CapacityMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746134Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768589Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "675d8241a21d75efc2dfe355c39077a4"
+    "source_hash": "675d8241a21d75efc2dfe355c39077a4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_CapacityMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746142Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768593Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "9dab2c26432e5a799da2707edbde26a7"
+    "source_hash": "9dab2c26432e5a799da2707edbde26a7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_DurabilityMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746147Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768599Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "601f2c53bd472cfa5062d763ce9a064f"
+    "source_hash": "601f2c53bd472cfa5062d763ce9a064f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_DurabilityMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746153Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768603Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "074bc60e191d65b13850ebdd6eaa81a3"
+    "source_hash": "074bc60e191d65b13850ebdd6eaa81a3",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_EnableCorpseStorage",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746160Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768607Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "baff304bc92028b0eacda37ba3a0f05b"
+    "source_hash": "baff304bc92028b0eacda37ba3a0f05b",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_EnableCorpseStorage_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746168Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768614Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "7b843da2c075ffa0a2e476c4595a198f"
+    "source_hash": "7b843da2c075ffa0a2e476c4595a198f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_EnableDebugLogs",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746174Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768620Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "bce7c97a271e439da922e0185f41d7b0"
+    "source_hash": "bce7c97a271e439da922e0185f41d7b0",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_EnableDebugLogs_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746180Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768628Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "072c9ce8f83dbef501e726c909fb0c4a"
+    "source_hash": "072c9ce8f83dbef501e726c909fb0c4a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_EnableMod",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746184Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768637Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "39acd1532243890471fa16d34c8694e7"
+    "source_hash": "39acd1532243890471fa16d34c8694e7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_EnableMod_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746192Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768642Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "f5658310287026f9990f60ce69c7cb5b"
+    "source_hash": "f5658310287026f9990f60ce69c7cb5b",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_LoadedCartSpawns",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768649Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "4bdf329547d32ebec6d06e756547c72e"
+    "source_hash": "4bdf329547d32ebec6d06e756547c72e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_LoadedCartSpawns_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746203Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768654Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "f7385ff94b360b95bc5cdc12f5749c45"
+    "source_hash": "f7385ff94b360b95bc5cdc12f5749c45",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_LoadedCartSpawns_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746211Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768659Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "7c88c4b73d6dfa93edb968e517a6df52"
+    "source_hash": "7c88c4b73d6dfa93edb968e517a6df52",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_LoadedCartSpawns_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746220Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768663Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "d20ccbfb76a34243cb95f5d418496039"
+    "source_hash": "d20ccbfb76a34243cb95f5d418496039",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_LoadedCartSpawns_option4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746228Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768665Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "131b8cda6086387659cfabe1e1ec14d1"
+    "source_hash": "131b8cda6086387659cfabe1e1ec14d1",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_LoadedCartSpawns_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746236Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768669Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "3d7aee9316eca73acb5b2caa69dd1cad"
+    "source_hash": "3d7aee9316eca73acb5b2caa69dd1cad",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_MaintenanceSkillBonus",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746243Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768676Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "fb14d3a96bf79838a15c4baef7e50b15"
+    "source_hash": "fb14d3a96bf79838a15c4baef7e50b15",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_MaintenanceSkillBonus_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746248Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768680Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "41f2560ce4db4e2bed8cd5975701a6f8"
+    "source_hash": "41f2560ce4db4e2bed8cd5975701a6f8",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_MaxCartsPerBuilding",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746253Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768687Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "b69b0d4f214953d9bf889e3f2ce77bb4"
+    "source_hash": "b69b0d4f214953d9bf889e3f2ce77bb4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_MaxCartsPerBuilding_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746258Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768691Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "3f28a786ebb425a2ef40dd0abc6035b8"
+    "source_hash": "3f28a786ebb425a2ef40dd0abc6035b8",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_OutdoorSpawnDensity",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746264Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768696Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "fbbd90b5301660125c7fdcadff877e9e"
+    "source_hash": "fbbd90b5301660125c7fdcadff877e9e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_OutdoorSpawnDensity_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746270Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768703Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "efc52641f932a77f6a9d9168e080b321"
+    "source_hash": "efc52641f932a77f6a9d9168e080b321",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_OutdoorSpawnDensity_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746276Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768708Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "629548788aa8682b20911e90e35962bc"
+    "source_hash": "629548788aa8682b20911e90e35962bc",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_OutdoorSpawnDensity_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746281Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768713Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "a02ee6993f0bf104e64491f0218f74c9"
+    "source_hash": "a02ee6993f0bf104e64491f0218f74c9",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_OutdoorSpawnDensity_option4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746289Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768718Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "c610ae41074202208798bb74c4ff2f3c"
+    "source_hash": "c610ae41074202208798bb74c4ff2f3c",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_OutdoorSpawnDensity_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746295Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768722Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "5c087e737f39f4b90c968eb3e62d3880"
+    "source_hash": "5c087e737f39f4b90c968eb3e62d3880",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_ProtectFromWorldCleanup",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768730Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "12d213a56ad5ca580c35ea455058ae09"
+    "source_hash": "12d213a56ad5ca580c35ea455058ae09",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_ProtectFromWorldCleanup_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768735Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "be66a2f865b7198c16d5e140a93cddb7"
+    "source_hash": "be66a2f865b7198c16d5e140a93cddb7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_RepairAmountMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746304Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768742Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "020da31534c9693104a358453a59f5cd"
+    "source_hash": "020da31534c9693104a358453a59f5cd",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_RepairAmountMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746310Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768747Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "9756b7742e8536f73a1974b848df7e2b"
+    "source_hash": "9756b7742e8536f73a1974b848df7e2b",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_RepairTimeMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746318Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768753Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "11117fe44eb61afd4c7fcac186b9be7d"
+    "source_hash": "11117fe44eb61afd4c7fcac186b9be7d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_RepairTimeMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746323Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768755Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "13e0070eeff6e38d557da280e5e96ba8"
+    "source_hash": "13e0070eeff6e38d557da280e5e96ba8",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_SpawnRate",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746330Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768758Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "f0d77b6f4b57cdb1cc02c6b073a5d3bd"
+    "source_hash": "f0d77b6f4b57cdb1cc02c6b073a5d3bd",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_SpawnRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746336Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768762Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "03fc1240bf207bd9538bf4cf4b1bba03"
+    "source_hash": "03fc1240bf207bd9538bf4cf4b1bba03",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_SpeedPenaltyMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746347Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768768Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "742ff218d8ec1f178e746a953f1fa4b7"
+    "source_hash": "742ff218d8ec1f178e746a953f1fa4b7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_SpeedPenaltyMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768773Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "4438089d906da05329f5ae848976ec7a"
+    "source_hash": "4438089d906da05329f5ae848976ec7a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_StrictShopOnly",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746357Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768778Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "ea682692af4a59401c28be9b7b066982"
+    "source_hash": "ea682692af4a59401c28be9b7b066982",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_StrictShopOnly_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746365Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768783Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "f70fe4ae0d00018359e5afa89cf0d811"
+    "source_hash": "f70fe4ae0d00018359e5afa89cf0d811",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_WeightReduction",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746371Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768787Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "2b4e1ac4364a8e133f65cdbb1ec2d946"
+    "source_hash": "2b4e1ac4364a8e133f65cdbb1ec2d946",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Sandbox_SaucedCarts_WeightReduction_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746377Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768793Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "34d9ce084ce20ebf8840ed0e8ce478bb"
+    "source_hash": "34d9ce084ce20ebf8840ed0e8ce478bb",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Tooltip_SaucedCarts_AttachmentKit",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746382Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768797Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "9ff2ba2416194d039e5c8a1595e9e09f"
+    "source_hash": "9ff2ba2416194d039e5c8a1595e9e09f",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "Tooltip_SaucedCarts_ShoppingCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746388Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768804Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "3e211fd088ff1b10c2778c6b0fc90a26"
+    "source_hash": "3e211fd088ff1b10c2778c6b0fc90a26",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Accepts",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746393Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768811Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "51e6efae48620d81eee39922e7f4a22f"
+    "source_hash": "51e6efae48620d81eee39922e7f4a22f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Active",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746397Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768817Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "1bd063016b88d785a129f1ebb34f07cb"
+    "source_hash": "1bd063016b88d785a129f1ebb34f07cb",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_AnimLoadFailed",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768825Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "0ab5484c6d2414b520ad1fcba55b0333"
+    "source_hash": "0ab5484c6d2414b520ad1fcba55b0333",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Attach",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746404Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768830Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "6150bf7eb589e13be9c7b8e1c0f2d035"
+    "source_hash": "6150bf7eb589e13be9c7b8e1c0f2d035",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_AttachToCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746409Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768840Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "68eca3c465b80e75610ff2227fa7af89"
+    "source_hash": "68eca3c465b80e75610ff2227fa7af89",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Attached",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746413Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768844Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "617407f1be1ba4905f5157a8f9da7467"
+    "source_hash": "617407f1be1ba4905f5157a8f9da7467",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_AttachingItem",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746418Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768849Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "efe6fe3a3b540852ad8bd9dc8a2abe6f"
+    "source_hash": "efe6fe3a3b540852ad8bd9dc8a2abe6f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Attachments",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746424Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768854Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "10427a50ad8c16974d15bd1d5c54424e"
+    "source_hash": "10427a50ad8c16974d15bd1d5c54424e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_AvailableSlots",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746428Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768860Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "08f59fed1c4e58bb14f803cb79079e45"
+    "source_hash": "08f59fed1c4e58bb14f803cb79079e45",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_BatteryDepleted",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746436Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768867Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "8d38bd926a7eb3b9ebd5e6bf283c6935"
+    "source_hash": "8d38bd926a7eb3b9ebd5e6bf283c6935",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_BatteryStatus",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746445Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768872Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "9baea2ff19658aa847a84bd4684fb82d"
+    "source_hash": "9baea2ff19658aa847a84bd4684fb82d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CantDoThatWithCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746452Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768877Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "bede266c629d108ccf6e5e048535cfb8"
+    "source_hash": "bede266c629d108ccf6e5e048535cfb8",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CantDragCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746457Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768884Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "d72554a45ff089ca3ce6ba9c6a4f7c38"
+    "source_hash": "d72554a45ff089ca3ce6ba9c6a4f7c38",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CantGrabCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746463Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768890Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "23c9c5d29a7de40d773d01fdcf7a8b39"
+    "source_hash": "23c9c5d29a7de40d773d01fdcf7a8b39",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CantPickupSleeping",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746468Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768895Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "44539a7690edd726741c44fff0f21da6"
+    "source_hash": "44539a7690edd726741c44fff0f21da6",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CantPushSleeping",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746473Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768899Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "2967e8a02861f66e8a2fd3d03bd1a9d4"
+    "source_hash": "2967e8a02861f66e8a2fd3d03bd1a9d4",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CantWhileHoldingCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746480Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768905Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "8fb9f9182e1b32e3e9404f9765d5a302"
+    "source_hash": "8fb9f9182e1b32e3e9404f9765d5a302",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Capacity",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746485Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768911Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "657cb01b0562def283818d04ad970809"
+    "source_hash": "657cb01b0562def283818d04ad970809",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Cart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746491Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768915Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "183cd395ae4b60fd8881d6b15d761454"
+    "source_hash": "183cd395ae4b60fd8881d6b15d761454",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CartBroke",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746495Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768920Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "edd4f6d77d756a49f4d1c047fd6406f9"
+    "source_hash": "edd4f6d77d756a49f4d1c047fd6406f9",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CartCreaking",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746500Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768927Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "e5aea9ca7ed969709714d2a66a463eea"
+    "source_hash": "e5aea9ca7ed969709714d2a66a463eea",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CartDamaged",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746506Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768930Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "20dd3333d12217642106cfd639c1a245"
+    "source_hash": "20dd3333d12217642106cfd639c1a245",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CartFailing",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746511Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768934Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "eb2a9464f9056ac759ed3f05e5660ef7"
+    "source_hash": "eb2a9464f9056ac759ed3f05e5660ef7",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CartRepaired",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746515Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768940Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "cf638b83ab7730c45a1ce091d09f041a"
+    "source_hash": "cf638b83ab7730c45a1ce091d09f041a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CartUpgraded",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746523Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768944Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "6cd0ff388b6e61209abc21f899c45579"
+    "source_hash": "6cd0ff388b6e61209abc21f899c45579",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Carts",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746529Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768950Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "625084f6e693c098119cd0e6b5d40c0e"
+    "source_hash": "625084f6e693c098119cd0e6b5d40c0e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Condition",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746534Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768954Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "5f116044b76b0b8f9c9887eb493756db"
+    "source_hash": "5f116044b76b0b8f9c9887eb493756db",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_ConsumesItem",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746539Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768961Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "8104d3771c87d7290a87218b673246ac"
+    "source_hash": "8104d3771c87d7290a87218b673246ac",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Contents",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746544Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768966Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "edbe8ea14eb9f8dc4d70ad1210063909"
+    "source_hash": "edbe8ea14eb9f8dc4d70ad1210063909",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CorpseDataCorrupted",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746550Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768970Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "c79ce194cfd7fe6507a25bdba9b0090e"
+    "source_hash": "c79ce194cfd7fe6507a25bdba9b0090e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_CorpseDecomposed",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746555Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768975Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "3a70e4c8a6e5c919a2945b0780bec82d"
+    "source_hash": "3a70e4c8a6e5c919a2945b0780bec82d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Detach",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746560Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768979Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "f4beb908737cd383cbeae765a616faf0"
+    "source_hash": "f4beb908737cd383cbeae765a616faf0",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_DetachingItem",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746565Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768985Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "c0136ce2c89870474de0000240009284"
+    "source_hash": "c0136ce2c89870474de0000240009284",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_DropBodyFirst",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746571Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768990Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "62be86fee368fc80da81e8515d2cb9bc"
+    "source_hash": "62be86fee368fc80da81e8515d2cb9bc",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_DropCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746576Z",
+    "last_seen_at": "2026-08-23T03:10:36.0768997Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "dbba5f6a118b1a6fd7e49b1ae845e235"
+    "source_hash": "dbba5f6a118b1a6fd7e49b1ae845e235",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Empty",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746583Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769004Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "81c4226d84af650c1f7e867429f9f556"
+    "source_hash": "81c4226d84af650c1f7e867429f9f556",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_Flashlight",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746588Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769008Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "a24a84ac0facaae4dd32244f70d289d2"
+    "source_hash": "a24a84ac0facaae4dd32244f70d289d2",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_InsertBattery",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746599Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769014Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "6babeeb28f9a000bd28b34c27f0bd973"
+    "source_hash": "6babeeb28f9a000bd28b34c27f0bd973",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_InstallFlashlight",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746604Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769018Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "b9e34eea2b01aefe63314b6c154c875f"
+    "source_hash": "b9e34eea2b01aefe63314b6c154c875f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_InstallFlashlightTooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746609Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769024Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "d0d221bbf3bd5e407cd4232af1ae95df"
+    "source_hash": "d0d221bbf3bd5e407cd4232af1ae95df",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_InstallFlashlightWarning",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746614Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769030Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "6d58258b3e1a3fc4bcdf4b9a7b2034f6"
+    "source_hash": "6d58258b3e1a3fc4bcdf4b9a7b2034f6",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_InstallOnCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746621Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769036Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "ce8f4e5da3f9856a14127e58809c28ce"
+    "source_hash": "ce8f4e5da3f9856a14127e58809c28ce",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_ItemAttached",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746626Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769041Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "e8a76f42d8fd2ef4662d778266975b49"
+    "source_hash": "e8a76f42d8fd2ef4662d778266975b49",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_ItemCount",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746631Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769047Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "e428ff83404e160f4565e9d2f45ec9ba"
+    "source_hash": "e428ff83404e160f4565e9d2f45ec9ba",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_ItemDetached",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746637Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769050Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "42b6807c5b3d07a0389d291cef0b4c43"
+    "source_hash": "42b6807c5b3d07a0389d291cef0b4c43",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_LoadBlocked_cart_full",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746645Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769055Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "24b5b407357f5c11bce6d559a597864e"
+    "source_hash": "24b5b407357f5c11bce6d559a597864e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_LoadBlocked_fallback",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746650Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769060Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "11be82a7f90afaf21aaa6db8f56b5103"
+    "source_hash": "11be82a7f90afaf21aaa6db8f56b5103",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_LoadCorpse",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746659Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769065Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "3de27e50d2548d4438ef097f96a71794"
+    "source_hash": "3de27e50d2548d4438ef097f96a71794",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_LoadCorpseBlocked",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746664Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769070Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "e47e82c733e6f6e7bbfde160f6701f50"
+    "source_hash": "e47e82c733e6f6e7bbfde160f6701f50",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_LoadCorpseInto",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746670Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769078Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "7755adbe250e600f3b5fb7c60403aecd"
+    "source_hash": "7755adbe250e600f3b5fb7c60403aecd",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_LoadNoCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746677Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769085Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "b8269efa28980a837a575018c9c9e3b2"
+    "source_hash": "b8269efa28980a837a575018c9c9e3b2",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_ManageAttachments",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746683Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769089Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "7ef0037d49c0d967b3dc1af0390b6f77"
+    "source_hash": "7ef0037d49c0d967b3dc1af0390b6f77",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_MissingRequirements",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746688Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769095Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "9d64d2f8b0795f9112d36197d7242e4a"
+    "source_hash": "9d64d2f8b0795f9112d36197d7242e4a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_MustEquipCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746694Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769099Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "64b5404069ccb44711c7006a6f18d7ab"
+    "source_hash": "64b5404069ccb44711c7006a6f18d7ab",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_NeedUpgradeKit",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746700Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769105Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "d36ccb85f40e4ca0204e6aa1e162c90e"
+    "source_hash": "d36ccb85f40e4ca0204e6aa1e162c90e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_NeedUpgradeKitDesc",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746706Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769112Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "af806a0f43403c26f85696ff3ddaf90c"
+    "source_hash": "af806a0f43403c26f85696ff3ddaf90c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_NoBattery",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746711Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769116Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "4c1f59c4daa96e5e613758cda24d31a7"
+    "source_hash": "4c1f59c4daa96e5e613758cda24d31a7",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_NoFlashlightAvailable",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746720Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769124Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "747853cc67a5dc733bffaf893a58782d"
+    "source_hash": "747853cc67a5dc733bffaf893a58782d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OpenCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746726Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769129Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "b15fc0298a6a68a468cd4a87235a2a14"
+    "source_hash": "b15fc0298a6a68a468cd4a87235a2a14",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OrphanFound_Multi",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746731Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769135Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "58856c30118cdb4117d711f69fecf504"
+    "source_hash": "58856c30118cdb4117d711f69fecf504",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OrphanFound_Single",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746740Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769142Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "bc7b2262d699f83c36f4ab208150f40e"
+    "source_hash": "bc7b2262d699f83c36f4ab208150f40e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OrphanTooltip_Contains",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746746Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769148Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "443e9f21b6ad50ef430cb9118f0f3c93"
+    "source_hash": "443e9f21b6ad50ef430cb9118f0f3c93",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OrphanTooltip_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746756Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769155Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "4913bffe0e8bb5cb4a269adc521ee5ff"
+    "source_hash": "4913bffe0e8bb5cb4a269adc521ee5ff",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OrphanTooltip_Empty",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746764Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769158Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "f23063214bfcc61831549968e8f89669"
+    "source_hash": "f23063214bfcc61831549968e8f89669",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OrphanTooltip_OriginalType",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746769Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769165Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "bf92ddc8ddc1924d4cec43fa606b2120"
+    "source_hash": "bf92ddc8ddc1924d4cec43fa606b2120",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OrphanTooltip_Reason",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746774Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769172Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "a83779e0773cbd3c7b4f4c739693d9e1"
+    "source_hash": "a83779e0773cbd3c7b4f4c739693d9e1",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OrphanTooltip_Recover",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746781Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769178Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "678861d9fa92bd7ed7bbc1272d35fa44"
+    "source_hash": "678861d9fa92bd7ed7bbc1272d35fa44",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OrphanWorldTooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746787Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769183Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "5e89e9912c6501c2ba0d58ad42da2655"
+    "source_hash": "5e89e9912c6501c2ba0d58ad42da2655",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OrphanedCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746793Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769189Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "b3efaad2ce1f1321cf569176ca81c647"
+    "source_hash": "b3efaad2ce1f1321cf569176ca81c647",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_OrphansFound",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746798Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769195Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "3275ac0984249dfcec5a9594a77d7ee3"
+    "source_hash": "3275ac0984249dfcec5a9594a77d7ee3",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_PickupBrokenCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746805Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769200Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "932fa256b1540029dc010d21aa9a0340"
+    "source_hash": "932fa256b1540029dc010d21aa9a0340",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_PushCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746810Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769205Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "7d7044e8724262cc7aeb1fdf0cf9ff8d"
+    "source_hash": "7d7044e8724262cc7aeb1fdf0cf9ff8d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RecoverItems",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746815Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769212Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "b961a6fc20cdbfa905ffa468c0867a93"
+    "source_hash": "b961a6fc20cdbfa905ffa468c0867a93",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RecoveredItems",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746821Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769216Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "f1a8ed832a0c0201379b7c03630f08f8"
+    "source_hash": "f1a8ed832a0c0201379b7c03630f08f8",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RecoveryFailed",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746825Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769219Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "7e6338f5ea9b9d1c2c253adc95830de1"
+    "source_hash": "7e6338f5ea9b9d1c2c253adc95830de1",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RemoveBattery",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746834Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769226Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "b8f76e036640fd54bd15a732c026867a"
+    "source_hash": "b8f76e036640fd54bd15a732c026867a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RemoveFlashlight",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746839Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769232Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "83e3f76788c479595e7bedde3353a63e"
+    "source_hash": "83e3f76788c479595e7bedde3353a63e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RemoveFlashlightNote",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746846Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769240Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "fe54773dcf78e3c7a5f632ac97565982"
+    "source_hash": "fe54773dcf78e3c7a5f632ac97565982",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RemoveFlashlightReturns",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746854Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769246Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "51385395980752547e374823ff12b410"
+    "source_hash": "51385395980752547e374823ff12b410",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RepairCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746860Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769249Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "36d6f6042151d1bcd5cdcaefa88d985d"
+    "source_hash": "36d6f6042151d1bcd5cdcaefa88d985d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RepairOption_Have",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746864Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769254Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "c5ea4aeec6ab949fabb483d215711c9a"
+    "source_hash": "c5ea4aeec6ab949fabb483d215711c9a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RepairOption_Need",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746870Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769257Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "645546f232509bed5f8cfc28b1548dc3"
+    "source_hash": "645546f232509bed5f8cfc28b1548dc3",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RepairTooltip_ConditionPercent",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746874Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769264Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "9e685bc1d95daabf79697d1b96e800f2"
+    "source_hash": "9e685bc1d95daabf79697d1b96e800f2",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RepairTooltip_Current",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746881Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769270Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "a70f1680ce6883bb747b6574e7e848e4"
+    "source_hash": "a70f1680ce6883bb747b6574e7e848e4",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RepairTooltip_NeedMaterial",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746887Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769273Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "2a24b4a8b439614af9fb7e6d626c6680"
+    "source_hash": "2a24b4a8b439614af9fb7e6d626c6680",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RepairTooltip_Requires",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746895Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769281Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "150c135dc7c7617e951ff199b6790b15"
+    "source_hash": "150c135dc7c7617e951ff199b6790b15",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RepairTooltip_Restores",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746902Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769289Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "9cf529369156381a1186fa0b3e775341"
+    "source_hash": "9cf529369156381a1186fa0b3e775341",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RepairTooltip_SkillBonus",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746912Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769294Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "e9ef599be3b53ff1e23823d98445c432"
+    "source_hash": "e9ef599be3b53ff1e23823d98445c432",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RequiresMask",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746918Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769298Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "553340d5e8df9688c12ee3615ddba0f7"
+    "source_hash": "553340d5e8df9688c12ee3615ddba0f7",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RequiresTorch",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746923Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769304Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "e7ec33163de8de70906f65b091ebcc5d"
+    "source_hash": "e7ec33163de8de70906f65b091ebcc5d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RequiresWelding",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746931Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769308Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "0ffb67252941af943e3dd3a4d272ddfb"
+    "source_hash": "0ffb67252941af943e3dd3a4d272ddfb",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_RequiresWire",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746936Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769314Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "2964e634395767f8d7acb66b074eadaf"
+    "source_hash": "2964e634395767f8d7acb66b074eadaf",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_TurnOff",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746942Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769317Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "d1dd1e4ffbe9dae5a11f6f1928349a07"
+    "source_hash": "d1dd1e4ffbe9dae5a11f6f1928349a07",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_TurnOn",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746948Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769323Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "3d80581fe649ecae50cc4c78be54a0d2"
+    "source_hash": "3d80581fe649ecae50cc4c78be54a0d2",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_UpgradeCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746955Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769329Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "1b0ddf460504fe774a507b3531b2bd04"
+    "source_hash": "1b0ddf460504fe774a507b3531b2bd04",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_UpgradeTooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746962Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769334Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "ce86fe1188cae300b7f4f26da4bdefff"
+    "source_hash": "ce86fe1188cae300b7f4f26da4bdefff",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_UpgradingCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746967Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769339Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "e0180e1483a02f43f86d524151ac560d"
+    "source_hash": "e0180e1483a02f43f86d524151ac560d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_SaucedCarts_VehicleFull",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746974Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769343Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "c30ef610bf38f235ca217952858cdeb9"
+    "source_hash": "c30ef610bf38f235ca217952858cdeb9",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_optionscreen_SaucedCarts",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746979Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769348Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "e772a84e002e042283d47ae1e89a65d0"
+    "source_hash": "e772a84e002e042283d47ae1e89a65d0",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_optionscreen_binding_SaucedCarts_PushCart",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746990Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769354Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "ac9d9a8b5f891259e81ce9e9b49dccc7"
+    "source_hash": "ac9d9a8b5f891259e81ce9e9b49dccc7",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "UI_optionscreen_binding_SaucedCarts_PushCart_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0746997Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769360Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "0a988e7d99a73d3a1e0b6df338bfaa23"
+    "source_hash": "0a988e7d99a73d3a1e0b6df338bfaa23",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "description",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0747001Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769364Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "b6b30b095a2affb60889ded12fc22974"
+    "source_hash": "b6b30b095a2affb60889ded12fc22974",
+    "output_file_stem": "Mod"
   },
   {
     "mod_id": "3651954650",
     "translation_key": "name",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0747006Z",
+    "last_seen_at": "2026-08-23T03:10:36.0769370Z",
     "last_seen_mod_updated": "2026-08-21T15:09:08.0000000Z",
-    "source_hash": "6dd53a3e54f95471a95abfab69361815"
+    "source_hash": "6dd53a3e54f95471a95abfab69361815",
+    "output_file_stem": "Mod"
   }
 ]

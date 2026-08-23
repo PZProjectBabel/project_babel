@@ -1,4 +1,4 @@
 Sandbox_KBWMC_ContainerCapacity::en = "Container Capacity (0 = original)",
 Sandbox_KBWMC_ContainerCapacity::ja::processed::unverified = "コンテナ容量（0 = オリジナル）",
-Sandbox_KBWMC_ContainerCapacity_tooltip::en = "",
-Sandbox_KBWMC_ContainerCapacity_tooltip::ja::processed::unverified = "Knox Buildworksの全コンテナの統一ストレージ容量。 0に設定すると各コンテナの元の容量を維持します。 1〜100に設定すると全コンテナにカスタム値を適用します。",
+Sandbox_KBWMC_ContainerCapacity_tooltip::en = "Unified storage capacity for all Knox Buildworks containers.\nSet to 0 to keep each container's original capacity.\nSet 1 - 100 to apply a custom value to every container.",
+Sandbox_KBWMC_ContainerCapacity_tooltip::ja::processed::unverified = "Knox Buildworksの全コンテナの統一ストレージ容量。0に設定すると各コンテナの元の容量を維持します。1〜100に設定すると全コンテナにカスタム値を適用します。",

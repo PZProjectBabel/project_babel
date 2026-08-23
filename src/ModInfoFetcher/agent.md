@@ -10,4 +10,4 @@ Outputs: `ModInfo` metadata, update flags, `isAvailable`, and `lastFetchStatus`.
 
 API: `FetchModInfosAsync(Dictionary<string, ModInfo>)` returns `TaskResult`.
 
-Notes: Batch by `steamApiChunkSize`. `fetch_failed` preserves availability. Explicit missing/private/non-PZ marks unavailable. Log PZ/non-PZ/unknown summary.
+Notes: Batch by `steamApiChunkSize`. `fetch_failed` preserves availability. An existing `needsUpdate` flag is preserved until download and extraction clear it; metadata fetches for later download batches must not dequeue pending mods. Explicit missing/private/non-PZ marks unavailable. Log PZ/non-PZ/unknown summary.

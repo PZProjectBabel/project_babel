@@ -3,1984 +3,2232 @@
     "mod_id": "3543913011",
     "translation_key": "Base.BloodTransfusionBag",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938575Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209056Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "6f2ed5a329c6667fdf7d3376032e627f"
+    "source_hash": "6f2ed5a329c6667fdf7d3376032e627f",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Base.EmptyBloodBag",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938585Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209065Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "bbb1f1a04a5176a42e14178a7e268e90"
+    "source_hash": "bbb1f1a04a5176a42e14178a7e268e90",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "ContextMenu_VVZ_BloodBag",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938590Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209073Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "14b61a1b955dc69b9b6b46d14acb860c"
+    "source_hash": "14b61a1b955dc69b9b6b46d14acb860c",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "ContextMenu_VVZ_DrinkBlood",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938596Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209079Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "77ce48a8d9be39c52f7c026d5a063386"
+    "source_hash": "77ce48a8d9be39c52f7c026d5a063386",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "ContextMenu_VVZ_DrinkBlood_All",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938598Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209085Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "37c9bed23cfbd406998046f8e1d35642"
+    "source_hash": "37c9bed23cfbd406998046f8e1d35642",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "ContextMenu_VVZ_DrinkBlood_Satiate",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938602Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209089Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2780f13f00bd6680805fa3d6024e9284"
+    "source_hash": "2780f13f00bd6680805fa3d6024e9284",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "ContextMenu_VVZ_ExtractBlood",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938605Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209094Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e166d3090f32357dce84782110c38351"
+    "source_hash": "e166d3090f32357dce84782110c38351",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "ContextMenu_VVZ_NoBag",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938609Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209099Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e67acc0a63220b29a3b23843cc7c5ad9"
+    "source_hash": "e67acc0a63220b29a3b23843cc7c5ad9",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "ContextMenu_VVZ_NoBlood",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938612Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209105Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ff40225d1615f6ab8163a3e2e8135110"
+    "source_hash": "ff40225d1615f6ab8163a3e2e8135110",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "ContextMenu_Vampire_Feed",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938616Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209115Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "540ece6b2389e866910a00949ea5d4e8"
+    "source_hash": "540ece6b2389e866910a00949ea5d4e8",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "ContextMenu_Vampire_Feed_Animal",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938622Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209120Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "656baf8141274f550226fea60d916e55"
+    "source_hash": "656baf8141274f550226fea60d916e55",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "ContextMenu_Vampire_Feed_Baby",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938625Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209125Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "5d6777f435646c1f0a0a94beae14b246"
+    "source_hash": "5d6777f435646c1f0a0a94beae14b246",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_BloodState",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938628Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209134Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "4ab96e936006ce1998c66520c94da21e"
+    "source_hash": "4ab96e936006ce1998c66520c94da21e",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_BloodState_Coagulated",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938634Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209140Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "88ea3f2f937149dc5ff9483102b46a76"
+    "source_hash": "88ea3f2f937149dc5ff9483102b46a76",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_BloodState_Fresh",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938637Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209145Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "bbbee3280304713e188c1d732350d41d"
+    "source_hash": "bbbee3280304713e188c1d732350d41d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_BloodState_Rotten",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938641Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209152Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a1ccd09961dc6070b4cc1033165eb4c3"
+    "source_hash": "a1ccd09961dc6070b4cc1033165eb4c3",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_BloodTransfusionBag_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938645Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209159Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2df4c7599394ec508f2e9938fcffe9ef"
+    "source_hash": "2df4c7599394ec508f2e9938fcffe9ef",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_BloodType",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938650Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209165Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "94b967450b1c0ec9c63e208ef165dbab"
+    "source_hash": "94b967450b1c0ec9c63e208ef165dbab",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_CannotEatFood",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938653Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209175Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "7efaa04ba154d1b8b10c7d219f7641b3"
+    "source_hash": "7efaa04ba154d1b8b10c7d219f7641b3",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_ContextMenu_xtMenu_Empty",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938659Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209182Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e31020e0a76bf8ad18312968e95c1e50"
+    "source_hash": "e31020e0a76bf8ad18312968e95c1e50",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_ContextMenu_xtMenu_Vampire_Feed",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938664Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209190Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "f98758a4b191b3c26cb9495c176cc3e7"
+    "source_hash": "f98758a4b191b3c26cb9495c176cc3e7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_ContextMenu_xtMenu_Vampire_Feed_Animal",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938669Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209194Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "705ff3a42fe6c46efe8dc9a03771b374"
+    "source_hash": "705ff3a42fe6c46efe8dc9a03771b374",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_ContextMenu_xtMenu_Vampire_Feed_Baby",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938674Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209198Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "7e5b1af9a64f39987014af4dabd51820"
+    "source_hash": "7e5b1af9a64f39987014af4dabd51820",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_EmptyBloodBag_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938678Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209205Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "7f7bdb643263778ef39ea1a2df0b42e0"
+    "source_hash": "7f7bdb643263778ef39ea1a2df0b42e0",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_FeedLine_Animal",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938682Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209210Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "b6de3a00f72dbc0fa2ca5d86af32e034"
+    "source_hash": "b6de3a00f72dbc0fa2ca5d86af32e034",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_FeedLine_BagBad",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938685Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209213Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a3ae1f41c1c1e76de7027fcea4c126b4"
+    "source_hash": "a3ae1f41c1c1e76de7027fcea4c126b4",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_FeedLine_Neg1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938688Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209222Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "d2ba1727cf8631b67f8f5bfcecff66f4"
+    "source_hash": "d2ba1727cf8631b67f8f5bfcecff66f4",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_FeedLine_Neg2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938693Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209227Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "998576f13a6b70da1cadfad0f09170f6"
+    "source_hash": "998576f13a6b70da1cadfad0f09170f6",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_FeedLine_Neg3",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938697Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209232Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "da3ea2fd4ed4acc23cec45c80f40ff1b"
+    "source_hash": "da3ea2fd4ed4acc23cec45c80f40ff1b",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_FeedLine_Neg4",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938700Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209238Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "dcaa31200a3d6c8e8eac8d3a8df40763"
+    "source_hash": "dcaa31200a3d6c8e8eac8d3a8df40763",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_FeedLine_Positive",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938704Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209244Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "d3414c0821ca58463d9b5e31166617d7"
+    "source_hash": "d3414c0821ca58463d9b5e31166617d7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_LordAwakening_Line1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938711Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209250Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2c1a174e48601c57d828530c68cfd6be"
+    "source_hash": "2c1a174e48601c57d828530c68cfd6be",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_LordAwakening_Slain",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938714Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209258Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "b73f5e08db3297816e4971cde5025c84"
+    "source_hash": "b73f5e08db3297816e4971cde5025c84",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_LordAwakening_Title",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938718Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209263Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "3ba1b46f518da206e4518fba7d1a6013"
+    "source_hash": "3ba1b46f518da206e4518fba7d1a6013",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_LordVampire_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938722Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209269Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "8683bf3bfc755425970d7017058031c7"
+    "source_hash": "8683bf3bfc755425970d7017058031c7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_LordVampire_Title",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938726Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209275Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a4c8db19dbe7fa433e73086d11ee646d"
+    "source_hash": "a4c8db19dbe7fa433e73086d11ee646d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_NightSense_Off",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938730Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209281Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "cc4abbf34128c4ca5bf1c26c71f72fd0"
+    "source_hash": "cc4abbf34128c4ca5bf1c26c71f72fd0",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_NightSense_On",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938734Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209286Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "db851258967313c88004e63e5dcaab6d"
+    "source_hash": "db851258967313c88004e63e5dcaab6d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Opt_Audio_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938739Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209295Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "13fa8fdb4db5b0845feaca132060092a"
+    "source_hash": "13fa8fdb4db5b0845feaca132060092a",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Opt_Audio_Title",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938743Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209301Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a95bbdb928fe20539836a8ae5abdaac1"
+    "source_hash": "a95bbdb928fe20539836a8ae5abdaac1",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Opt_Mod_Title",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938745Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209307Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "23c26d5b216f3da130ffbfd8778550f3"
+    "source_hash": "23c26d5b216f3da130ffbfd8778550f3",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Opt_SolarBurnSoundVolume",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938751Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209313Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ac0efe87a18b67b8ca19d4e1af377cad"
+    "source_hash": "ac0efe87a18b67b8ca19d4e1af377cad",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Opt_SolarBurnSoundVolume_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938755Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209320Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "eb5009522a5738948d54d28a1b94f871"
+    "source_hash": "eb5009522a5738948d54d28a1b94f871",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Tooltip_Vampire_NoEat",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938761Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209323Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "3844c9a5b5ca564553f083338cb43bfa"
+    "source_hash": "3844c9a5b5ca564553f083338cb43bfa",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_VampSun_High",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938766Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209329Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "aa6c5cb228ff6dfb8ee0dba38eb53e8d"
+    "source_hash": "aa6c5cb228ff6dfb8ee0dba38eb53e8d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_VampSun_Low",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938770Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209334Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "5aafc0bc57180ed0b2b00ceae283c8a2"
+    "source_hash": "5aafc0bc57180ed0b2b00ceae283c8a2",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_VampSun_Normal",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938773Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209340Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "d6e69dbe69ebe111619601543726a1cd"
+    "source_hash": "d6e69dbe69ebe111619601543726a1cd",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_VampSun_Off",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938777Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209346Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "21a12b76691e331b0a62feeb78a5b1ec"
+    "source_hash": "21a12b76691e331b0a62feeb78a5b1ec",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_BloodThirstRate",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938780Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209355Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "7f471d712d1ae09090ba9a6fd2366c8f"
+    "source_hash": "7f471d712d1ae09090ba9a6fd2366c8f",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_BloodThirstRate_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938784Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209361Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "26a4e414002710b4fbca9ddb38cab2e4"
+    "source_hash": "26a4e414002710b4fbca9ddb38cab2e4",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_Enable",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938788Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209367Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2fa35994a7ced0903d73a15d5f14b75f"
+    "source_hash": "2fa35994a7ced0903d73a15d5f14b75f",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_Enable_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938791Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209375Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "784d4cf851ae50005b917481c18aa4dc"
+    "source_hash": "784d4cf851ae50005b917481c18aa4dc",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_FeedFeedbackEnabled",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938794Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209381Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "017c501d9f7221c4b2fcf97e55c1eec4"
+    "source_hash": "017c501d9f7221c4b2fcf97e55c1eec4",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_FeedFeedbackEnabled_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938797Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209386Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2db47224dbfce30e6191a344a261388a"
+    "source_hash": "2db47224dbfce30e6191a344a261388a",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_FeedHealAmount",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938802Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209391Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "4e944017a764af884c0862f34a03d9ca"
+    "source_hash": "4e944017a764af884c0862f34a03d9ca",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_FeedHealAmount_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938807Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209396Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "9d1e407a0a319f66f75cca6370687de3"
+    "source_hash": "9d1e407a0a319f66f75cca6370687de3",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_InfectionOnBiteChance",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938810Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209401Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "0cb2f1ca9aa1546cada49fe988b8c48f"
+    "source_hash": "0cb2f1ca9aa1546cada49fe988b8c48f",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_InfectionOnBiteChance_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938815Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209410Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "1f3f9db383e290b0cde3e34331dcfe6b"
+    "source_hash": "1f3f9db383e290b0cde3e34331dcfe6b",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordAscensionKills",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938821Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209414Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "4554ca479e51168a8015a604bbeb5c04"
+    "source_hash": "4554ca479e51168a8015a604bbeb5c04",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordAscensionKills_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938824Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209418Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "1d551a8bfaeecd664bbe464458282d3c"
+    "source_hash": "1d551a8bfaeecd664bbe464458282d3c",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordAttackSpeedT1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938829Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209426Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a339e956d00f682a7c71b5b362cee0d7"
+    "source_hash": "a339e956d00f682a7c71b5b362cee0d7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordAttackSpeedT1_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938833Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209435Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "47ac7899f1d4b5bc3a7f151a874c630f"
+    "source_hash": "47ac7899f1d4b5bc3a7f151a874c630f",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordAuraRadius",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938837Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209442Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ca13ff7a2ce4a60c6e8271d66bbdf9d6"
+    "source_hash": "ca13ff7a2ce4a60c6e8271d66bbdf9d6",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordAuraRadius_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938841Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209448Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a0bd5ba2d4e1ae71e33de719f5214321"
+    "source_hash": "a0bd5ba2d4e1ae71e33de719f5214321",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordAuraReactionDelay",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938847Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209455Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "5f3b5897845ca7228634568f58c75106"
+    "source_hash": "5f3b5897845ca7228634568f58c75106",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordAuraReactionDelay_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938850Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209460Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ba7816661a1e0c779658f2912b9427e7"
+    "source_hash": "ba7816661a1e0c779658f2912b9427e7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordAuraZombieHitReduce",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938855Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209464Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "8d577a4870fa7b4097afa462863dc54d"
+    "source_hash": "8d577a4870fa7b4097afa462863dc54d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordAuraZombieHitReduce_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938858Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209468Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "8a2c3e7a9fe087d790ecea1518681514"
+    "source_hash": "8a2c3e7a9fe087d790ecea1518681514",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordBloodOnKill",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938862Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209471Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "f8ca21c8d6ea71fc34d584f6fc55a5c1"
+    "source_hash": "f8ca21c8d6ea71fc34d584f6fc55a5c1",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordBloodOnKill_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938865Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209478Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "0c3b073d260d82bed0bd03586db5757d"
+    "source_hash": "0c3b073d260d82bed0bd03586db5757d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordBloodRegenMin",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938870Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209485Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "bbdafb708c265fb30bcd4913c61626db"
+    "source_hash": "bbdafb708c265fb30bcd4913c61626db",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordBloodRegenMin_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938873Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209491Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "760ef03d6676d1a0a7b8bd6814d7e905"
+    "source_hash": "760ef03d6676d1a0a7b8bd6814d7e905",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordBloodTier1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938878Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209495Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "b9aa4e266a86544f3661ff345d5c0707"
+    "source_hash": "b9aa4e266a86544f3661ff345d5c0707",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordBloodTier1_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938881Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209501Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e5a7a43ca1c0aa33c3ef8814608c3c14"
+    "source_hash": "e5a7a43ca1c0aa33c3ef8814608c3c14",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordBloodTier2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938886Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209507Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "d64a0ffc59402b9c7c8c9b45df81d656"
+    "source_hash": "d64a0ffc59402b9c7c8c9b45df81d656",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordBloodTier2_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938889Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209513Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2e76a8f894f1d66c737dedb2bb253a26"
+    "source_hash": "2e76a8f894f1d66c737dedb2bb253a26",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordCritChanceT2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938894Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209521Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "68599b13df1db26fe7b835b256841ea4"
+    "source_hash": "68599b13df1db26fe7b835b256841ea4",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordCritChanceT2_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938898Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209526Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "18148633955ba99ca88915a40d1bd2c8"
+    "source_hash": "18148633955ba99ca88915a40d1bd2c8",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordEvalIntervalSec",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938903Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209533Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "d1ab4eb8f0bc82e34bdbd191ad70f973"
+    "source_hash": "d1ab4eb8f0bc82e34bdbd191ad70f973",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordEvalIntervalSec_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938907Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209539Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a9bfa76f46adb4a3caeaa3537b786ba4"
+    "source_hash": "a9bfa76f46adb4a3caeaa3537b786ba4",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordKnockdownChanceT2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938912Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209544Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "88169d05b02f61803077b0004bfd4b38"
+    "source_hash": "88169d05b02f61803077b0004bfd4b38",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordKnockdownChanceT2_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938915Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209549Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "dc32129eaff9d26e411c08f45a5d0017"
+    "source_hash": "dc32129eaff9d26e411c08f45a5d0017",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordMeleeDmgT1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938917Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209555Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a1f5f5a8e31da581d05d36aad5091a45"
+    "source_hash": "a1f5f5a8e31da581d05d36aad5091a45",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordMeleeDmgT1_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938922Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209558Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "6df685b1b301dce06aab1bee577b2fa9"
+    "source_hash": "6df685b1b301dce06aab1bee577b2fa9",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordMeleeDmgT2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938927Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209564Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "d9721f2533e1b55afafc94083c698779"
+    "source_hash": "d9721f2533e1b55afafc94083c698779",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordMeleeDmgT2_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938930Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209571Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ba6c77d6871ac12a32242fd6751fe56c"
+    "source_hash": "ba6c77d6871ac12a32242fd6751fe56c",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordNightEndHour",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938935Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209578Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "c29682ab54280f44492f5f26e9921cca"
+    "source_hash": "c29682ab54280f44492f5f26e9921cca",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordNightEndHour_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938937Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209584Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "40138cf1de1857461085f9ff70d16423"
+    "source_hash": "40138cf1de1857461085f9ff70d16423",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordNightFitBonus",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938941Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209591Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "4cb151758ab41b669c43e0298b780edd"
+    "source_hash": "4cb151758ab41b669c43e0298b780edd",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordNightFitBonus_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938945Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209594Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "9848e8ad5492d83639a86a125e05fda2"
+    "source_hash": "9848e8ad5492d83639a86a125e05fda2",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordNightStaminaRegen",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938949Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209598Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "be8ab2f5cf58ab865d54166c0c922d51"
+    "source_hash": "be8ab2f5cf58ab865d54166c0c922d51",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordNightStaminaRegen_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938952Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209601Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "08c1f973d5f46723f8ed1194a364070d"
+    "source_hash": "08c1f973d5f46723f8ed1194a364070d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordNightStartHour",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938956Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209607Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "d25c5c7ccc7662121be6b1f7ad78020a"
+    "source_hash": "d25c5c7ccc7662121be6b1f7ad78020a",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordNightStartHour_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938961Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209612Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "c3c5d85939e546f799d71652224d8709"
+    "source_hash": "c3c5d85939e546f799d71652224d8709",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordNightStrBonus",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938965Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209620Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "038d3433541bd2f09e886d12203a77b6"
+    "source_hash": "038d3433541bd2f09e886d12203a77b6",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordNightStrBonus_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938970Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209627Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "fa29ddeade4b2b66a286130b36310a78"
+    "source_hash": "fa29ddeade4b2b66a286130b36310a78",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordRegenBleedReduce",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938974Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209633Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "3edd38d892c4b937295d99d7ed118169"
+    "source_hash": "3edd38d892c4b937295d99d7ed118169",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordRegenBleedReduce_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938978Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209638Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "3c9a1107dabdbff7fc750d62f06c62e3"
+    "source_hash": "3c9a1107dabdbff7fc750d62f06c62e3",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordRegenCombatGraceSec",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938981Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209644Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e8b904947f918bc26ac01b26ac4d8e15"
+    "source_hash": "e8b904947f918bc26ac01b26ac4d8e15",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordRegenCombatGraceSec_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938987Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209649Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "b6ef76f8cbc9da45c8fb93c36e437e4c"
+    "source_hash": "b6ef76f8cbc9da45c8fb93c36e437e4c",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordRegenScratchHeal",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938989Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209656Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "afd34e51fd5ade0dd88568f852ea326f"
+    "source_hash": "afd34e51fd5ade0dd88568f852ea326f",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordRegenScratchHeal_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938995Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209660Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "c9aa7b0c62754aadc6ec3deb7f46ca9c"
+    "source_hash": "c9aa7b0c62754aadc6ec3deb7f46ca9c",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordRegenTickSec",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0938998Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209664Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ab72c32b29f6580391fc7b244ca961c1"
+    "source_hash": "ab72c32b29f6580391fc7b244ca961c1",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordRegenTickSec_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939003Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209670Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "7f512423e2c5d784cf3c72be9afdf481"
+    "source_hash": "7f512423e2c5d784cf3c72be9afdf481",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordShovePowerT1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939006Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209675Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a6803d2f128d969abe87ae2ed6e53f8c"
+    "source_hash": "a6803d2f128d969abe87ae2ed6e53f8c",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordShovePowerT1_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939010Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209680Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2f9a1871e208c0affcd04a2fcb50377f"
+    "source_hash": "2f9a1871e208c0affcd04a2fcb50377f",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordSurgeBloodMin",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939014Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209685Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "1f35e8330d8b1253cd065e76305e88ff"
+    "source_hash": "1f35e8330d8b1253cd065e76305e88ff",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordSurgeBloodMin_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939018Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209691Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "0aee16cfa12cfad1bad6e6d4c888645f"
+    "source_hash": "0aee16cfa12cfad1bad6e6d4c888645f",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordSurgeChance",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939021Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209696Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "c774da3ff84adc53ba64efd3396a7fac"
+    "source_hash": "c774da3ff84adc53ba64efd3396a7fac",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordSurgeChance_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939024Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209700Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2890d3e2ee6a49e827803ead39c8354d"
+    "source_hash": "2890d3e2ee6a49e827803ead39c8354d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordSurgeDuration",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939028Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209706Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "48a920bb4679453918e4b24f0e4bb5b6"
+    "source_hash": "48a920bb4679453918e4b24f0e4bb5b6",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordSurgeDuration_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939034Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209709Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "69d3102c35e37746732b961bfb32ed47"
+    "source_hash": "69d3102c35e37746732b961bfb32ed47",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordSurgeMeleeDmg",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939038Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209714Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "9f305517a10dbeae58330b1041904b2d"
+    "source_hash": "9f305517a10dbeae58330b1041904b2d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordSurgeMeleeDmg_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939043Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209718Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "77dd07f5dea2f478c5964253e2c4d995"
+    "source_hash": "77dd07f5dea2f478c5964253e2c4d995",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordSurgeSpeed",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939046Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209724Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "16408c67199a74372151eef6af348ea8"
+    "source_hash": "16408c67199a74372151eef6af348ea8",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_LordSurgeSpeed_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939050Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209728Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "5890675d0725ca5e9b51404cd44df9d8"
+    "source_hash": "5890675d0725ca5e9b51404cd44df9d8",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_NightBuffStrength",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939054Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209732Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "69b2b91f688abeb488e8d57ffce18719"
+    "source_hash": "69b2b91f688abeb488e8d57ffce18719",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_NightBuffStrength_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939057Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209737Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e315a4c1ba7cf5ce72b2e0c3f51c8ecd"
+    "source_hash": "e315a4c1ba7cf5ce72b2e0c3f51c8ecd",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_Page",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939061Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209742Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "241e5000a79fb16b8ba7a4187fac79e6"
+    "source_hash": "241e5000a79fb16b8ba7a4187fac79e6",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_SafeInteriorSP",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939064Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209750Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "69286c88e90258617f3e094d10b4756a"
+    "source_hash": "69286c88e90258617f3e094d10b4756a",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_SafeInteriorSP_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939068Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209754Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "3355a66770286afb264c7c79c012bacb"
+    "source_hash": "3355a66770286afb264c7c79c012bacb",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_SunlightDamage",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939071Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209761Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "9bc7c2f724fc607108179d10c643b12b"
+    "source_hash": "9bc7c2f724fc607108179d10c643b12b",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_Vampire_SunlightDamage_tt",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939074Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209765Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "215d6a46c7a35f8382a2b0e673720222"
+    "source_hash": "215d6a46c7a35f8382a2b0e673720222",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_item_BloodTransfusionBag",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939078Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209768Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "63311bcec04d5775953a09a4483c079e"
+    "source_hash": "63311bcec04d5775953a09a4483c079e",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_item_EmptyBloodBag",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939082Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209774Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "9e73364382ded2404ec2f0685eac8400"
+    "source_hash": "9e73364382ded2404ec2f0685eac8400",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_profession_Prof_Vampiro",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939085Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209779Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "50d6062dbefe240763212ca120d6a5b4"
+    "source_hash": "50d6062dbefe240763212ca120d6a5b4",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_profession_Prof_Vampiro_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939090Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209782Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "0772d482d7eeea24301a827d7992b6d8"
+    "source_hash": "0772d482d7eeea24301a827d7992b6d8",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_profession_Vampire",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939093Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209787Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "d7a86ee1aab20c98445a468214a716ae"
+    "source_hash": "d7a86ee1aab20c98445a468214a716ae",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_profession_Vampire_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939097Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209792Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "1d0947b7b05bbe2b9eb69de118ab75b7"
+    "source_hash": "1d0947b7b05bbe2b9eb69de118ab75b7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_profession_vampire",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209797Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e5258dec6224fe2ad301abef025fb541"
+    "source_hash": "e5258dec6224fe2ad301abef025fb541",
+    "output_file_stem": null
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_profession_vampire_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:18.2882042Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209804Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "bd056a56e33b0b109a5d03d0e321671c"
+    "source_hash": "bd056a56e33b0b109a5d03d0e321671c",
+    "output_file_stem": null
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_BloodThirst",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939100Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209808Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "1eaf0d44ad4d2d2c680c4b90b3d4bba9"
+    "source_hash": "1eaf0d44ad4d2d2c680c4b90b3d4bba9",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_BloodThirst_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939104Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209819Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "51d5b9180cd6b64e506f155cc5ecaf30"
+    "source_hash": "51d5b9180cd6b64e506f155cc5ecaf30",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_CondenaSolar",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939109Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209824Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "444ab4e768d91b0936bd3082861253fd"
+    "source_hash": "444ab4e768d91b0936bd3082861253fd",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_CondenaSolar_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939112Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209829Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "053f0c5d66067f05502322ad4a5d63b0"
+    "source_hash": "053f0c5d66067f05502322ad4a5d63b0",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_DayTorpor",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939116Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209839Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "acb7f684d72fe22ac0daa1e7015fbc23"
+    "source_hash": "acb7f684d72fe22ac0daa1e7015fbc23",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_DayTorpor_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939121Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209847Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "5a5c2c4c0665af73642f8e2b5277a93d"
+    "source_hash": "5a5c2c4c0665af73642f8e2b5277a93d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_LordVampire",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939124Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209853Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "4db7a28dcfa3bfbf240f773970620c2e"
+    "source_hash": "4db7a28dcfa3bfbf240f773970620c2e",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_LordVampire_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939129Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209859Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "31daf4a1cba47309e2e7c6afc846d2f7"
+    "source_hash": "31daf4a1cba47309e2e7c6afc846d2f7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_NightHunter",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939132Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209865Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e68be34b5046b20ab2ed0c839ad8b4fb"
+    "source_hash": "e68be34b5046b20ab2ed0c839ad8b4fb",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_NightHunter_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939138Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209870Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "8868713737da643d9a2a2ded285d980c"
+    "source_hash": "8868713737da643d9a2a2ded285d980c",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_NightThirst",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939142Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209878Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "7c2e0c174e02149696c7d845e9de229d"
+    "source_hash": "7c2e0c174e02149696c7d845e9de229d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_NightThirst_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939148Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209884Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e2fb7c4ea1df775f5a8c76c9d4a09701"
+    "source_hash": "e2fb7c4ea1df775f5a8c76c9d4a09701",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_SombrasEternas",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939151Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209891Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e608d00f4c5c4b7532daf9bf3df32cb1"
+    "source_hash": "e608d00f4c5c4b7532daf9bf3df32cb1",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_SombrasEternas_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939157Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209897Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "33a7ab69a0debeb05972293004dac966"
+    "source_hash": "33a7ab69a0debeb05972293004dac966",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_SunTolerant",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939160Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209903Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "b5e33be62b804384bd2c93e573c56217"
+    "source_hash": "b5e33be62b804384bd2c93e573c56217",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_SunTolerant_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939165Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209908Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "1da4f4a994cfd04fd180518046ea6f75"
+    "source_hash": "1da4f4a994cfd04fd180518046ea6f75",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_VampNightVision",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939170Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209915Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "c685e8bd8de484e6bb699edf951c608a"
+    "source_hash": "c685e8bd8de484e6bb699edf951c608a",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "IGUI_VVZ_trait_VampNightVision_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939173Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209920Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a223ad4d7e5944778f057089fc49a033"
+    "source_hash": "a223ad4d7e5944778f057089fc49a033",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939177Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209928Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "6d7892986411fa8d507ad91aeed18aec"
+    "source_hash": "6d7892986411fa8d507ad91aeed18aec",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_BloodThirstRate",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939182Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209934Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "c22c6c3b6c64459099e1afc9d59235aa"
+    "source_hash": "c22c6c3b6c64459099e1afc9d59235aa",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_BloodThirstRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939186Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209939Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "363c998d58beca5915e02f030838e721"
+    "source_hash": "363c998d58beca5915e02f030838e721",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_EnableVampire",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939191Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209944Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2ac47ba0f027d35ad46a5cc1b87fe999"
+    "source_hash": "2ac47ba0f027d35ad46a5cc1b87fe999",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_EnableVampire_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939197Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209950Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e1e53bdb6dcb2992f90390f02ba40cae"
+    "source_hash": "e1e53bdb6dcb2992f90390f02ba40cae",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_FeedFeedbackEnabled",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939201Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209958Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ce003d0c4ffd063c78076fb5ea97da68"
+    "source_hash": "ce003d0c4ffd063c78076fb5ea97da68",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_FeedFeedbackEnabled_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939206Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209963Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "8f359be30f4e7d0da1158a3b0d89ee95"
+    "source_hash": "8f359be30f4e7d0da1158a3b0d89ee95",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_FeedHealAmount",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939211Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209967Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "79b4b0d34630cb7b5f3a1b7d3ae48325"
+    "source_hash": "79b4b0d34630cb7b5f3a1b7d3ae48325",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_FeedHealAmount_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939213Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209975Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "d500a583f8088d71742978b64bcf0cc1"
+    "source_hash": "d500a583f8088d71742978b64bcf0cc1",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_InfectionOnBiteChance",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939218Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209981Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "87856c7d656b5688ab084e1772946e84"
+    "source_hash": "87856c7d656b5688ab084e1772946e84",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_InfectionOnBiteChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939222Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209987Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "27edade4b29d077524efb72240cffc82"
+    "source_hash": "27edade4b29d077524efb72240cffc82",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordAscensionKills",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939226Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209994Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "0957c0b59dd9ba18269853e1795fe938"
+    "source_hash": "0957c0b59dd9ba18269853e1795fe938",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordAscensionKills_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939230Z",
+    "last_seen_at": "2026-08-23T03:10:36.0209999Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "c5af4ccd1cefc90793f320864c68661c"
+    "source_hash": "c5af4ccd1cefc90793f320864c68661c",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordAttackSpeedT1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939234Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210008Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a82b46c5310b07514a6117444688aaa1"
+    "source_hash": "a82b46c5310b07514a6117444688aaa1",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordAttackSpeedT1_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939239Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210015Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "5aae1729321373c5f01ce5bcb40fc7a8"
+    "source_hash": "5aae1729321373c5f01ce5bcb40fc7a8",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordAuraRadius",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939242Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210023Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ee5f3552a9bf8e9c32a8ae7e8f48dc93"
+    "source_hash": "ee5f3552a9bf8e9c32a8ae7e8f48dc93",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordAuraRadius_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939246Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210030Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e888cfe4e3c9907c37fa1370b996201f"
+    "source_hash": "e888cfe4e3c9907c37fa1370b996201f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordAuraReactionDelay",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939249Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210037Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ccfe169036684cbd60296dc80e67525d"
+    "source_hash": "ccfe169036684cbd60296dc80e67525d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordAuraReactionDelay_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939257Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210045Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "8e64b73c901993acdc8ad14a8c784853"
+    "source_hash": "8e64b73c901993acdc8ad14a8c784853",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordAuraZombieHitReduce",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939263Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210049Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "f93b8625a123cb4ddf1796bfff540270"
+    "source_hash": "f93b8625a123cb4ddf1796bfff540270",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordAuraZombieHitReduce_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939266Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210055Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "1fc5aaea7746318ec1f11c7e8c3d3311"
+    "source_hash": "1fc5aaea7746318ec1f11c7e8c3d3311",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordBloodOnKill",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939271Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210061Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ea6eafb92c51f6a5da3ef213bf537ea5"
+    "source_hash": "ea6eafb92c51f6a5da3ef213bf537ea5",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordBloodOnKill_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939273Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210065Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "f94eeeca878eeee073b66df077da7a3a"
+    "source_hash": "f94eeeca878eeee073b66df077da7a3a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordBloodRegenMin",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939278Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210074Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "3b2e98266231b53a2698bdbe21060374"
+    "source_hash": "3b2e98266231b53a2698bdbe21060374",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordBloodRegenMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939285Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210079Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "9108a2637bf6cec811753ee1b9d98ed7"
+    "source_hash": "9108a2637bf6cec811753ee1b9d98ed7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordBloodTier1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939288Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210084Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "53e5fa543fc9ee8cc8e1013f2efeece6"
+    "source_hash": "53e5fa543fc9ee8cc8e1013f2efeece6",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordBloodTier1_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939291Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210091Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "0e7f525206ce101452f523963c12c2af"
+    "source_hash": "0e7f525206ce101452f523963c12c2af",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordBloodTier2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939295Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210098Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ab1c1042debd21664698e1e11d924fa7"
+    "source_hash": "ab1c1042debd21664698e1e11d924fa7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordBloodTier2_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939299Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210101Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "b5df28028f0d3a117a4f4dcbc6d026f4"
+    "source_hash": "b5df28028f0d3a117a4f4dcbc6d026f4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordCritChanceT2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939303Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210108Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "29e686013ff273249f4de6e3f3975e28"
+    "source_hash": "29e686013ff273249f4de6e3f3975e28",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordCritChanceT2_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939306Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210112Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "c852ff5bf7e24f08657427a464f8eeed"
+    "source_hash": "c852ff5bf7e24f08657427a464f8eeed",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordEvalIntervalSec",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939310Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210119Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "7894257e529d78bc6c662764d882b0a4"
+    "source_hash": "7894257e529d78bc6c662764d882b0a4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordEvalIntervalSec_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939313Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210124Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "029e3d8fe9190a05501574b0b8151b92"
+    "source_hash": "029e3d8fe9190a05501574b0b8151b92",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordKnockdownChanceT2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939318Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210129Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "08c7c4359942569327bf74048a871dad"
+    "source_hash": "08c7c4359942569327bf74048a871dad",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordKnockdownChanceT2_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939326Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210134Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ad36812e4aff33a3e72a82dc9f265a2b"
+    "source_hash": "ad36812e4aff33a3e72a82dc9f265a2b",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordMeleeDmgT1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939329Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210139Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "bbf7cad75db1e5595f2ebfa723559ee9"
+    "source_hash": "bbf7cad75db1e5595f2ebfa723559ee9",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordMeleeDmgT1_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939333Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210143Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "28feae6db7d720f923758f1cc30f884e"
+    "source_hash": "28feae6db7d720f923758f1cc30f884e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordMeleeDmgT2",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939337Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210147Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "77fc44fbefb7e60e8131984a8d2db3db"
+    "source_hash": "77fc44fbefb7e60e8131984a8d2db3db",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordMeleeDmgT2_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939340Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210153Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "58113476c71029d4068893c6ffab9a3f"
+    "source_hash": "58113476c71029d4068893c6ffab9a3f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordNightEndHour",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939344Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210160Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "b5a5e230ab90aef1bdd62fc8b2d9aa29"
+    "source_hash": "b5a5e230ab90aef1bdd62fc8b2d9aa29",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordNightEndHour_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939348Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210165Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "cd65f43720593ca0077741b3416d25da"
+    "source_hash": "cd65f43720593ca0077741b3416d25da",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordNightFitBonus",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939352Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210170Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "d0234f2cc8bf377fbfd370ff9c0c2951"
+    "source_hash": "d0234f2cc8bf377fbfd370ff9c0c2951",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordNightFitBonus_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939356Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210175Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "df5c8f9e57e6fc42f839382ad91ede62"
+    "source_hash": "df5c8f9e57e6fc42f839382ad91ede62",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordNightStaminaRegen",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939359Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210179Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "91dda58db678614b7d9ca5061a87f304"
+    "source_hash": "91dda58db678614b7d9ca5061a87f304",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordNightStaminaRegen_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939364Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210183Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "3c2a41da8921dfa864fd94da409dc691"
+    "source_hash": "3c2a41da8921dfa864fd94da409dc691",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordNightStartHour",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939368Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210190Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "915be6e00896ab5f7fae267b132b0f52"
+    "source_hash": "915be6e00896ab5f7fae267b132b0f52",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordNightStartHour_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939373Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210194Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "317d0976f098eb653f9d9442081ff2cb"
+    "source_hash": "317d0976f098eb653f9d9442081ff2cb",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordNightStrBonus",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939377Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210199Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "b3491cd4fd5392e1b24d5652f0332359"
+    "source_hash": "b3491cd4fd5392e1b24d5652f0332359",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordNightStrBonus_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939381Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210203Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "29491e2a56e03f93f744548790ab9cb4"
+    "source_hash": "29491e2a56e03f93f744548790ab9cb4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordRegenBleedReduce",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939384Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210208Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "b2be5ea225286196d09e794c5cff73e3"
+    "source_hash": "b2be5ea225286196d09e794c5cff73e3",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordRegenBleedReduce_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939388Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210214Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "b71e823781206ac820396a1dbc91fdc7"
+    "source_hash": "b71e823781206ac820396a1dbc91fdc7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordRegenCombatGraceSec",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939393Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210218Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "fbcf30deaac98f59dc3b40e878340ea6"
+    "source_hash": "fbcf30deaac98f59dc3b40e878340ea6",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordRegenCombatGraceSec_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939399Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210223Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "53fd3ea7e3cc461120087f818237c5ae"
+    "source_hash": "53fd3ea7e3cc461120087f818237c5ae",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordRegenScratchHeal",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939401Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210228Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "bb04e2cee2b6c5ebd6fb1aa1118fee2f"
+    "source_hash": "bb04e2cee2b6c5ebd6fb1aa1118fee2f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordRegenScratchHeal_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939406Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210233Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "233115caa3b41002f8d7e8668bfc9127"
+    "source_hash": "233115caa3b41002f8d7e8668bfc9127",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordRegenTickSec",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939410Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210237Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "1e7794925fa7e4a22e497e5fb3a25d82"
+    "source_hash": "1e7794925fa7e4a22e497e5fb3a25d82",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordRegenTickSec_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939414Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210241Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "dbe3f61b341787a863ae6053e534559e"
+    "source_hash": "dbe3f61b341787a863ae6053e534559e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordShovePowerT1",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939418Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210248Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "095fa303debbdbfde75635090494b29a"
+    "source_hash": "095fa303debbdbfde75635090494b29a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordShovePowerT1_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939424Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210253Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "3dd25beb280c73afedcb9bb124255f37"
+    "source_hash": "3dd25beb280c73afedcb9bb124255f37",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordSurgeBloodMin",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939427Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210258Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "f4c456c33f2dc67524d046ab70d1e008"
+    "source_hash": "f4c456c33f2dc67524d046ab70d1e008",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordSurgeBloodMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939432Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210263Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "80e9c1d927e41783375c3a4eba943c0a"
+    "source_hash": "80e9c1d927e41783375c3a4eba943c0a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordSurgeChance",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939435Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210267Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "0e05b6acdfadbd676b4335061083e677"
+    "source_hash": "0e05b6acdfadbd676b4335061083e677",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordSurgeChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939440Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210273Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "98cca7c70af5d9a62ecc4cb357edeeeb"
+    "source_hash": "98cca7c70af5d9a62ecc4cb357edeeeb",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordSurgeDuration",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939443Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210279Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "4babaeec0a3d6d11ef8b4dc1be56c4dd"
+    "source_hash": "4babaeec0a3d6d11ef8b4dc1be56c4dd",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordSurgeDuration_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939448Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210284Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "c3c75d502e54e9a308bf3896482ca86a"
+    "source_hash": "c3c75d502e54e9a308bf3896482ca86a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordSurgeMeleeDmg",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939452Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210289Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "15e2cfdb3f0fff0b239421b923d65d32"
+    "source_hash": "15e2cfdb3f0fff0b239421b923d65d32",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordSurgeMeleeDmg_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939456Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210295Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "7c71ab405fd849a0aec2d9d786cce37e"
+    "source_hash": "7c71ab405fd849a0aec2d9d786cce37e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordSurgeSpeed",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939460Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210301Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "342cd2432d9c97742d5e495451564d79"
+    "source_hash": "342cd2432d9c97742d5e495451564d79",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_LordSurgeSpeed_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939463Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210305Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "743de7b326dbcab7d73375f1f4665c2f"
+    "source_hash": "743de7b326dbcab7d73375f1f4665c2f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_NightBuffStrenght",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939466Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210311Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ee53c7ac2bcea2994b4a2ea150126f43"
+    "source_hash": "ee53c7ac2bcea2994b4a2ea150126f43",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_NightBuffStrength",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939471Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210316Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "baaa5239963db688aa3cffd1d4dc9dee"
+    "source_hash": "baaa5239963db688aa3cffd1d4dc9dee",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_NightBuffStrength_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939475Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210321Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "5e935aedf0271e182231e53f0c55e7b9"
+    "source_hash": "5e935aedf0271e182231e53f0c55e7b9",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_SafeInteriorSP",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939478Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210327Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "5f208ffd08cea9d78b0d826ec53b8398"
+    "source_hash": "5f208ffd08cea9d78b0d826ec53b8398",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_SafeInteriorSP_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939481Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210332Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a78c6972107fbedd7627ea816757a4a0"
+    "source_hash": "a78c6972107fbedd7627ea816757a4a0",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_SunlightDamage",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939485Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210336Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "8f96434501108ce8ebf72f4d812b7049"
+    "source_hash": "8f96434501108ce8ebf72f4d812b7049",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_SunlightDamage_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939489Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210343Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "df27641feb8def7b2d83c868d525e3bb"
+    "source_hash": "df27641feb8def7b2d83c868d525e3bb",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_VisualNightSP",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939493Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210348Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e51bde71524bb64d3e433ad3f5283d8e"
+    "source_hash": "e51bde71524bb64d3e433ad3f5283d8e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_VisualNightSPStrength",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939496Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210354Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "9808d8fff6388c28e48a8711b7517a2f"
+    "source_hash": "9808d8fff6388c28e48a8711b7517a2f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_VisualNightSPStrength_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939500Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210360Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2f34f7d953ba113a0207d231bbaf3705"
+    "source_hash": "2f34f7d953ba113a0207d231bbaf3705",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampire_VisualNightSP_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939505Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210366Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "472553a5262c059065e7d7039c9a305f"
+    "source_hash": "472553a5262c059065e7d7039c9a305f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "Sandbox_Vampiro",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939509Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210377Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "843674939e1f7d7cd972d8df5cae960a"
+    "source_hash": "843674939e1f7d7cd972d8df5cae960a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_profession_vampire",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939515Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210383Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a91bf5cac374526a0b541341b811b6a8"
+    "source_hash": "a91bf5cac374526a0b541341b811b6a8",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_profession_vampire_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939521Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210388Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "25d25564e6f6319ab8ced4dfd4f70aa1"
+    "source_hash": "25d25564e6f6319ab8ced4dfd4f70aa1",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_BloodThirst",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939524Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210394Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "69d6a3a1b372b949388efbc186c8f23e"
+    "source_hash": "69d6a3a1b372b949388efbc186c8f23e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_BloodThirst_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939528Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210399Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "a89dcc56be6613cf5cbbf055693bc620"
+    "source_hash": "a89dcc56be6613cf5cbbf055693bc620",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_CondenaSolar",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939533Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210403Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "430450a4d41f962b4b8b2fd89d51935a"
+    "source_hash": "430450a4d41f962b4b8b2fd89d51935a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_CondenaSolar_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939537Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210410Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "76a06a60eb929bf30bd35c85c7465aa9"
+    "source_hash": "76a06a60eb929bf30bd35c85c7465aa9",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_DayTorpor",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939542Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210416Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "9954b9e377bab6b7c6a0b42ac77da6aa"
+    "source_hash": "9954b9e377bab6b7c6a0b42ac77da6aa",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_DayTorpor_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939548Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210421Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "e26eeda1487b65341950c4702a8caea8"
+    "source_hash": "e26eeda1487b65341950c4702a8caea8",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_LordVampire",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939552Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210425Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2ff5d5972de2a3393042275553167122"
+    "source_hash": "2ff5d5972de2a3393042275553167122",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_LordVampire_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939555Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210433Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "f1560f148eac03064d4f3ef012d04e69"
+    "source_hash": "f1560f148eac03064d4f3ef012d04e69",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_NightHunter",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939562Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210440Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "2ed9a05d5eddc222e5c70014fcc831b6"
+    "source_hash": "2ed9a05d5eddc222e5c70014fcc831b6",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_NightHunter_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939567Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210445Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "43beb83f704620dbe00223bb22aaa879"
+    "source_hash": "43beb83f704620dbe00223bb22aaa879",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_NightThirst",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939570Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210450Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "04daec5c29e85726c9729f2ed12dee8c"
+    "source_hash": "04daec5c29e85726c9729f2ed12dee8c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_NightThirst_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939574Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210454Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "5682060150901b352580a0ff8324de15"
+    "source_hash": "5682060150901b352580a0ff8324de15",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_SombrasEternas",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939578Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210459Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "ca8779d4150990fbe040f42b93d4d9f1"
+    "source_hash": "ca8779d4150990fbe040f42b93d4d9f1",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_SombrasEternas_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939582Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210467Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "cd88517772c8f78bef1c0dc93319f1a2"
+    "source_hash": "cd88517772c8f78bef1c0dc93319f1a2",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_SunTolerant",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939586Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210473Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "f739c8cdada6a224f88394b542b6111d"
+    "source_hash": "f739c8cdada6a224f88394b542b6111d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3543913011",
     "translation_key": "UI_trait_SunTolerant_desc",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0939591Z",
+    "last_seen_at": "2026-08-23T03:10:36.0210479Z",
     "last_seen_mod_updated": "2026-08-05T21:55:01.0000000Z",
-    "source_hash": "1c6a9ae085f2f2e5fa7805a4396c6551"
+    "source_hash": "1c6a9ae085f2f2e5fa7805a4396c6551",
+    "output_file_stem": "UI"
   }
 ]

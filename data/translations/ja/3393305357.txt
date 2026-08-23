@@ -4,4 +4,5 @@ UI_trait_PaniqeurDesc::en = "Extreme situations make you swing weapons faster.<b
 UI_trait_PaniqeurDesc::ja::processed::unverified = "極限状況では、武器をより速く振ることができる。<br>近くにいるゾンビと追跡中のゾンビの数に応じて、最大+25%%の攻撃速度上昇。<br>斧使いなどの攻撃速度上昇特性と組み合わせると最大+12.5%%。<br>重武器には影響しない。",
 UI_trait_SWPaniqeur::en = "Paniqeur",
 UI_trait_SWPaniqeur::ja::processed::unverified = "パニケール",
-UI_trait_SWPaniqeur_Desc::en = "",
+UI_trait_SWPaniqeur_Desc::en = "Extreme situations make you swing weapons faster.\nUp to +25%% attack speed increase bazed on the amount of close and chasing zombies.",
+UI_trait_SWPaniqeur_Desc::ja::processed::unverified = "極限状況では、武器をより速く振ることができる。 近くにいるゾンビと追跡中のゾンビの数に応じて、最大+25%%の攻撃速度上昇。",

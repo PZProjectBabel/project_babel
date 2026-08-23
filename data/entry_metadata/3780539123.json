@@ -1,0 +1,2045 @@
+[
+  {
+    "mod_id": "3780539123",
+    "translation_key": "BeyondTheInfection.PillReverser",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "70f8cbbeda942f51d6ed41612d58eede",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "BeyondTheInfection.PillSerum",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "f521445e95a630f74fab2e0224df150f",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "BeyondTheInfection.PillStabilizer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "563e06a56ab7da7df882db5830d43512",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "IGUI_XP_Infection",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "82b117c3d33f7c01afe81b0f5b1f7e8a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "b29e2219218f3a3baefdc234c5b56a62",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_EnableHydrophobia",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e02a16d86aa38527db2dcd60a46cef80",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_EnableHydrophobia_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "c1638c842815ca27a675fa37da2d5356",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_EnableMadness",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "6750ebaea5f7fb2fe017dbb1e70e426c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_EnableMadness_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "2436c77e4399b7c5a92f6c03903b44b6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_EnableNotifications",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e1fcabef61dd10b458278157426d6618",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_EnableNotifications_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "5e1bf0b441183d0d4d2c82a3b2d30d53",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_EnableSystemicFailure",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "c23399093979a1ba1c7a437987c10429",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_EnableSystemicFailure_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "87b0a3876500685b8f1b1af66c223654",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaKeptQ2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "cc5225178c87e33416ad3579574074bb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaKeptQ2_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "bd251a81a237fc6c8eb92e433dbd4b12",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaKeptQ3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "83aaaa5b1099cf4e6970449c06c90647",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaKeptQ3_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "78d33d5c87427046896f3a0f5d2b5247",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaKeptQ4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "4ec9b1887cacf1487d87f52e77ab8787",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaKeptQ4_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "9926e42144253d9d836d2aa309e1404f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaMagnitudeQ2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "1118da1450d6eb9c0f6bd0fb783fcbf6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaMagnitudeQ2_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "a2611f75c5ba1c0df9edc6e9ee16debf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaMagnitudeQ3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "dc778b00046c60e0152dc681d2be18c8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaMagnitudeQ3_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "fb1f286f98ede24d600c823681160ab1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaMagnitudeQ4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "9945692ae5fd8fd24f7f095fdc1bb58e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_HydrophobiaMagnitudeQ4_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "054d5e9b18dcf46f0769b5de47e3a42e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_LootReverserMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "c15ba0380ce6e07f401674a9657c353b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_LootReverserMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "1c028f2ba75448d37c05f7d12658a905",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_LootStabilizerMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "78518d57273075d531c6fb9b08f15b2b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_LootStabilizerMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "32f87a75b7d0e52579285eda67812c73",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareIntervalMax",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "dd187c19f08deb988950596c8f6d1a51",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareIntervalMax_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "c0b095789fef8092c64078aa6283cd34",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareIntervalMin",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "27dd98fe2231bf5dfc60561d89ee5b0f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareIntervalMin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "91b7bac7984682fbac79646099256f7c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareIntervalQ4Max",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "45e2a8fff3da0fd9ffdd4080855a2e28",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareIntervalQ4Max_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "ae1efeadf871fcb40bca114ee8c99ffe",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareIntervalQ4Min",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "0c79c4c34227c56513934b26d479634a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareIntervalQ4Min_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "bad3f106e00866d9e7d9b2d742023baa",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareRollQ3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "ddf23b61d561f181722ccb68335f2474",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareRollQ3_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "cabe5f997906e7dc5cc131b808db3015",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareRollQ4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "548b511983b704811bdcc2fd5c2e725c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessScareRollQ4_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "8770045c7434a410ff82eadc5291ad97",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessSoundIntervalQ3Max",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "0e47aeff99646f673c80111b526eb68e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessSoundIntervalQ3Max_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "52db109f6273e208fde6ed1beaf6323b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessSoundIntervalQ3Min",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "4cbcf578fd8ad575e7eb52633758b203",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessSoundIntervalQ3Min_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "117954e3227a6fe4da4b970f8afa65a4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessSoundIntervalQ4Max",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "dedcada6d893a730b1c4df426b8fae2a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessSoundIntervalQ4Max_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "4754966f690340c9d69faa5e1a54f263",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessSoundIntervalQ4Min",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "81780da72d3424abc3f16b517eb1b117",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_MadnessSoundIntervalQ4Min_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "4fa0c48fcfdc3f5baf993b9b4e48a063",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillReverserBlockDuration",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "a19231d574787482fedb88b65fe655a0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillReverserBlockDuration_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "d670d27da1ba4243fdae13b05fe9bab3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillReverserRegress",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "ff9db3584950414707692a549011b370",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillReverserRegress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "785fd7c324352669414d1e68eba48e61",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillSerumBlockDuration",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "a0174489bb711b189826059e02c96c02",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillSerumBlockDuration_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "d25f8b7d1a6947ba1e8bee3972a22242",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillSerumRegress",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "d6c5a8b955797f9bebd129493da05cea",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillSerumRegress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "992d1729bb8390dbc724c477cd5d5c65",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillStabilizerBlockDuration",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "6698f0c4108a6100738648146e71f6e9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillStabilizerBlockDuration_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "5b4bf41ba1402768e88b8cb0e62a41da",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillStabilizerRegress",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "c20e9850040c2cd9c0129a538d16014b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_PillStabilizerRegress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "9fccd212fbef96cd95754d0055e1eb5c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter1Speed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "14a7aa03bed022f35476553e069d5ade",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter1Speed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "4ae130c141e5454d05351fe0a8679aa3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter1Unhappy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "8a95711f7e19da429dd2a8333f598046",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter1Unhappy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "0b24b1d4359d244462cc411b71d06011",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2AttackSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "256c5e869813dcdf975e5b3471e5c72d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2AttackSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "2d757ff994d9e95a3ddffe13cd6301cb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2DmgTaken",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "0c8909e7fafed7b64d3745469e4f795e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2DmgTaken_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "4d8f6174285d427790f71316b5eb712d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2Endurance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "00bbcc776b0b1ba6da5cafb8c6bea3b6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2Endurance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "f83899284750ed46d96291d82dca454b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2HungerRate",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "765b8c62a7d20b933c1af68da598c808",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2HungerRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "d9dbfd9852b53a5b12ab55f82ab077b6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2PainTolerance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "0a2b558bb0f7c5e0fe44c12904a682c4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2PainTolerance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "a8fc549a20ddbfd777b655d98db492c3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2RawMeatRelief",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "ee9638d0a570d3ccddb4794032951097",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2RawMeatRelief_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e4e8fcbb8fd850ce13b5d21912af3c10",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2Speed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "884214a6e0345a2a915e8944dc288759",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2Speed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "8843c8eb946faa275c9db6d471bfb42f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2Stress",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "3e461a9f9e0614fd96b845e750881f8c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2Stress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "425ee58a63c9732cccb1640ce9d08a1c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2Unhappy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "14b914e29bfbbf9d9d8149f08d8db8b9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter2Unhappy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "4c41627346bd490c226410790c41628e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3AttackSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "3ec4ec5b1a91a1fce06b18178dfcc5c3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3AttackSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "f20027ab8af00b7bdacb3fe451559a37",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3DmgTaken",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "5af10ae97135c492bf7443ffd66f22de",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3DmgTaken_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "be06e4c0b0e3cc306de60967286cd058",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Endurance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "afa0a578e0e88d2b3df9d9eec59db86d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Endurance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "960023abd51572eaf73e78f8067ab3c7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3HungerRate",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "eebf37926a192ec4b031c7f921e1dade",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3HungerRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "b45ed7ed79188448cf2cfe7ca5dbd859",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3PainTolerance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "c0c81fc3c04c55b70cb2d27eabd844a5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3PainTolerance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "1c5d8df41afa1b1bce06ce0d77270096",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Panic",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "8b05aad6a6723dc382c68fc972884e84",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Panic_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e262ac66bdd2ef7ae942a78fff1e2957",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3RawMeatRelief",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "d76836eb6d393598e323818e02b8040b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3RawMeatRelief_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e3a542328fe38d8f3a6b577a42fa1429",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Speed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "8590b3c8ff379e958c1c765eeceee732",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Speed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "9f3e7ab5cf02210be40407a10beb2636",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Strength",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "6e552a1d02daa33406d39f0e353914a4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Strength_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "d3f963085bca7225fdeb60860af57a99",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Stress",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "88ffa0aa695b617f63b7f52cab4f9b03",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Stress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "fb1d0a2991d18a7528d7c76b9bb30320",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Unhappy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "794abae87defea5949897e7289afefeb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter3Unhappy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "4d6313271b6b21dd75515940b4352c04",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4AttackSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "d14e4f2f5f0373f980143737374be7f2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4AttackSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "a81ddeab19504533dc08d9a86472214a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4DmgTaken",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "3b33b54fb0d8865b0f840a7e482341b3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4DmgTaken_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "518f17fedf3415db51d06887e97d8693",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Endurance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "6c47b0f4d6fa8fea7f90a825feee0f0b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Endurance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "2c2050b604d46e048cdbd8f7ab0dadce",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4HungerRate",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "ff3c8bd300cfaec4d871a489d420848d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4HungerRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "07adc2a5573272c420299633874880e1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4PainTolerance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "8b02687e95da601edfdaf80271bc2fe9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4PainTolerance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "b4ae09377c0a57e9c98d04e29dcbf1c2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Panic",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "9458e05509ad8d0ad95cd87dcb456c76",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Panic_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "32912d8e29e2e2e0610c98e51df4f41b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4RawMeatRelief",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "878cc0939d752b392acefc1bb61d05a4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4RawMeatRelief_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "1b6145bef7e412c2781b260ce48e2ce6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Speed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e7d785adfb15c3fc813dce579ccdc4ee",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Speed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "1211d4f3ad5950a639a4a17eb2487370",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Strength",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "eea4bdca8955deff83f04c0fa451bfcc",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Strength_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "3a8a54766159c759617dd2f0c6c8ff5f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Stress",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "4bbfdf67ca07696520f9b6d105740fa8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Stress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "c16d8b8c1da82a6000c9d6b9b343bce7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Unhappy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "1cea25122b56a6de9a06d4411242e7e2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_Quarter4Unhappy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "0169ceae0f85b666db18b8dbb7862a1a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SerumDoubleThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "ebd54c6bac2a8853b7e820c4412ce9ce",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SerumDoubleThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "24c8efd5698b6a8cc8ba40f5e54eca96",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SerumTripleThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "64e5d8a63e7cb75487b9aa3960d52ec0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SerumTripleThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "0ea59b36235c500bd605c580733b17d4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectAEndurance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e42c87ce0c6587541a13c7ea00cc307d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectAEndurance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e0e344ee7064fbf622aea195bea75dc2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectAFatigue",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "326b2b07f33bb96cb0b4f23b564b7f7f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectAFatigue_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "174e5ae1d8cc6291db5a8ba4f9071b0b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectASickness",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "2a9f1441455d7e3bddcc481868baedb2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectASickness_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e815a339ca4c68122abc9bd46f2910ba",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectAStress",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "7fc9c7a55f8487e6a7b9f542ca8091f7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectAStress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "788c24d51b1f29f68b5e50badec212e2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectAUnhappy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "db6c5b8a79e0e60484bcca1a5401ab16",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectAUnhappy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "2e8f86c2948f9fcaf8e2a35ddf78543d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectBEndurance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "34c5f3ce46f6f6988501a0a9f576a4d4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectBEndurance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "ba2e2445f1a5315a918caa7bdd263111",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectBFatigue",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "f8a989f7b2ce1f02a8caa3d38d5d746e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectBFatigue_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "0249d0baac103688333d8a47bd3e384d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectBSickness",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "549702b2319e62703435300fbeaa8dae",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectBSickness_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "6c95b0cf2032b391523e38e438a43caf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectBStress",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "706d8c5ff24e1ec081d7acf369041faf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectBStress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "f118949eeb9d61eae9036aa91ec37d76",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectBUnhappy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "529f9007bbe9587f9df26d0a7537e719",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectBUnhappy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e563e2769dce67702e1694a69e03cc34",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectCEndurance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "a7d582f037128ab54b5fa4fe2028df8f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectCEndurance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "a728258e304ed898c0ece1cce2d59d4a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectCFatigue",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "22cd40e4a6b519cab9a84fb6e94d189d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectCFatigue_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "9fb258cf1bec31ae6e42e0436bec112d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectCSickness",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "0a9615dd3e5d331998299ab01d9e73a3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectCSickness_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "d28c936abf150e8d57eb5855118c76de",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectCStress",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "4302fac7b0a3f95bc39ed74a10afea58",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectCStress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "9d8a62f820c57bc75fe246be7ec0c774",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectCUnhappy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "ef6bc84a3af46a5dcbb24676f1259f1f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_BTI_SideEffectCUnhappy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "d66d3fdaf2183d159ebc1fd4fa1d5f2e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_Title_BTI_General",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "89d20377298746432b49a89c25870649",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_Title_BTI_Hydrophobia",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "20e88fb38c44ea7fd2cedb8fb9e00751",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_Title_BTI_Loot",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "07904f7d0624349b1b775f34f317195a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_Title_BTI_Madness",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e4dde0a4f93cf2d539e6e32809270bb5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_Title_BTI_Pills",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "183035a50275ec50d42c63d328c8063e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_Title_BTI_Quarters",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "95c8cd7be9aa2bc869d891375b1c73cf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Sandbox_Title_BTI_SideEffects",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "a4f4d99d3d2884ea97293dd32b4d1c0f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Tooltip_BTI_PillA",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "757f2183de067a27d3fe2135e0a940da",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Tooltip_BTI_PillB",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "aadbd5425e1fe5f4603eab58367628c9",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "Tooltip_BTI_PillC",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "c51b9da49200a69bd52e3064a3df607e",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Context_FeedOnCorpse",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "78c6258ba5f57779f2752e91a8d0b822",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_DetachCheck",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "dc1158d47c9b5e857dc77ae5a95a3185",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Dose_Warning",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "1bcc73a460c922604c23396668fa65e9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_InfectionPanel",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "3eb9258913bf49116eb4597895103121",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Info_Healthy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "ae0f3d8dffbdb929664034cc6b352a82",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Info_Zero",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "a123b94fe6779c158e72d1a2242543b2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Med_History",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "8059c56a33431b699f4e5addd0dc24f0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Med_HistoryEntry",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "46eec4c059d681eca9ea86a1969f5de1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Med_Taken",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "94cd26da28d2e390fdeb2b9e20be9adb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Med_Until",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "df278f533efe4a3a1095b46a8cfe69dc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_AttackSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "7dbfa262256709f803f8746294c8e38d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_Depression",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "548cff654e9f4752a61e1a4f024496c3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_DmgTaken",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e45c78317fb1d98c2b05d3181dea0d7f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_Hydrophobia",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "edfc8982660ea888da47a9be6a10bb99",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_Madness",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "fc077a7dc2adb0cb8dbec5e6b1f7c19f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_PainTolerance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "32d1f33d643c48fbbbd47d8e8c9e50e1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_RawMeat",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "ea937a9561872dfed56da35e54eca2c8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_RawMeatNeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "6441a32cecdda83d3c11b3096fd76e3c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_Speed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "48fd04644376e286d0079e079dca421b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_Strength",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "cfdf3a2680eb09d88edc3d5e88d0c66c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_Stress",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "aa84886d6107798a793ca7630a0bf377",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mod_Tireless",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "fab70ef7c925cab6ef6b370b6993ac6b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Mods_Title",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "49f5dae9e1c587072c2c3a8c54c294ee",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Notif_CravingSatisfied",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "91a46414c453d8887467cda5afb222e6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Notif_CravingStart",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e650e8742fa85de533b0b5b5f5eabc9d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Notif_FeedRelief",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "5468ecff027944ef68442a674b1489ca",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Notif_Hydrophobia",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e13710ef08a33a77e74f3b8e170e19d3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Notif_Madness",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "a32e50310524bbe1caeacce5fc3c292c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Notif_QuarterDown",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "4b836b140889ae2ab85d512b19ea8949",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Notif_QuarterUp",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "b00f6dc275990e721e22ba29d1502e12",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Notif_RawMeat",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "b2ce56b3b99c7d20d763574ede3fc291",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Quarter_1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "d81d096821c1cf097e5ee260dad45dcc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Quarter_2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "f140862fdf69da09b0fb8158cba25335",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Quarter_3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "5e8b638c1466cb1c91f53b7696206a03",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Quarter_4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "56292450cc9394af0b32b4d963100941",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_SE_Endurance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "6a932980cb1e08de711aa3d177ed71ac",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_SE_Fatigue",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "b60a119ab49c11d50971e13a8d7cd771",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_SE_From",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "87718b6324b5b591ec180987cdff5f0b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_SE_Sickness",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "b070eeb73cefef180d89d8f2e3a91d62",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_SE_Stress",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "10018431a6ba5174e15e38444707a40d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_SE_Title",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "3aad4d3eba01084ba6450ec8f813e54f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_SE_Unhappy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "a8d55355b8a9e0edff6c1e23f31f13e6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_SE_Until",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "9baccccae5a90dbad488db80770bc40c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_SidebarTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "37372dfc44619d209aed3497719dd441",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_State_Healthy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "574970dc264eb335694bd8903ceac360",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_State_Infected",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "507ae800365b6b0e91d31a131873e03e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_State_Stopped",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "c21c9d84738254df26c123d714434890",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_State_Zero",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "5fdd77365e8b198de9dec0f762b5a2e0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Status_CravingActive",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "0bf8548cfbe26358ea5b73c5ef95b61d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Status_CravingSatisfied",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "b7cc3b90be9be3765c5384cd4043eb52",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Status_DmgRed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "d3a4e74badb4801819ef6384db96b4a5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Status_Hydrophobia",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "7386d6b69b68336c30ff8a28a3b79ba8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Status_Madness",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "e5ba5a3fcd3a0e1f398ee520187388a9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Status_RawMeatTol",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "140f639cfe63fad371679aa85deee30c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Status_Title",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "727e99a49272f2c89474d2e09f4d464b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780539123",
+    "translation_key": "UI_BTI_Stopped_Until",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T05:15:08.0000000Z",
+    "source_hash": "b4a7178914ddd12b5f6df7b2b3c8c674",
+    "output_file_stem": "UI"
+  }
+]

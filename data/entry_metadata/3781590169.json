@@ -1,0 +1,497 @@
+[
+  {
+    "mod_id": "3781590169",
+    "translation_key": "AssembleWeatherStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "ac5f958f1ce10438876907349d0af0f8",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_AirMass",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "ccbecd83433e457dc117be0b572dc42e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Bearing",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "cf94239ee740ce21ee382d46276d493d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Broken",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "699193de9b197b16d2492aace2f1a752",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Bulletin",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "4ab93a2b0f1abfbef04dcdd549e1485a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Cloud",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "eb1389f6d341a3667e2d8e078afc1665",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Div",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "92f9fb4cf92cf166cc8e93f10f65e25c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Fog",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "af8a71c6f5328396dd3cda8e8f9ad525",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Future",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "89de86ce6a1fc9116d68fc7ef93f29e4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Gaps",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "faab9dd6d7dedd8b3be95090bda45fec",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Humidity",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "f6bdcc640fe1aad498b5de8c1a0fbbc0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_NoForecast",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "137b144012b664106c7327143a053562",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_NoSignal",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "82d36f632d2109468367fce082b71cdd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_NoStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "070f16d5b87b4b3882d18fcf0c272401",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Nominal",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "c2d81c6565c53ca2900a1a58884290f2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Past",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "ee4ed72552e2d94dab5f01c826c20fab",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Rain",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "57afb13c27f03992acbc065a7d7e0910",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Snow",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "7a61fcf2fabc95dc134cc9fe020b7cfd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Storm",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "0963e71c82bf6cbb65f1cfac52555110",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Sunrise",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "503d034347d549ac36cc4bf29ceaaead",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Sunset",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "ba60f825c8ca3503aa5f8b2576dd742c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Temp",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "039670885e53f625a8bfc76857ae248c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Title",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "81ce1742d3153edb1fdc8e04cb747d6e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_Computer_Wind",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "6acd3583f0cb00dde90cf5dd474612b4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_NoPower",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "3252d3dff16ecf19a7352b434a2ab388",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_OpenComputer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "826ec7ec1b7f0f3c819405a772bbacf3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "IGUI_PWS_ReadInstruments",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "6c04470779f0e67c05c3dfe8a19b5c8a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "MakeAnemometer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "caf9a472b3022a94a75ceea47de2c3d5",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "MakeBarometer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "4630cb420904980c8344fb3b4f422767",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "MakeLoggerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "7e3f6b9979e08c36c5219e3228d8fce2",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "MakeMast",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "deb12045a1beeec46e145735f92d6d2d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "MakeRainGauge",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "b33d6f438916448912cd2fd374a1a388",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "MakeScreen",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "bfbb79d6177ccc9115c91886e0b2d7e8",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "MakeVane",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "88310652204f33cf3d9ba471e66e6970",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "PWS.Anemometer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "6cebf6428621f670d0d1539323ef0e3e",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "PWS.Barometer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "28e442c551990bd82cbcb2aff6e20ddc",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "PWS.LoggerBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "c7db5a38307c873d8681ce6f852e11e2",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "PWS.Mast",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "3a1fe4c395bb35e33d6ec65f6776f4fe",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "PWS.PWSMagazine",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "ff3c29473ffe197ce5a09affc2ef8a51",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "PWS.RainGauge",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "42b23d8dbfb591915280c13f74a50529",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "PWS.Screen",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "5c26d235ea50789826a6ae741957caf5",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "PWS.Vane",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "85b935ab272ca214811f6f4420b05ec2",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "PWS.WeatherStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "ca72400e08255856ee4e9f2995563d13",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Sandbox_PWS",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "29ec09dea14c2031f7701231618301dc",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Sandbox_PWS_ComputerRange",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "9413f08e97a7a04da0504479eef7fd04",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Sandbox_PWS_ComputerRange_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "d7de520e59de53b4db029b7ccf8eab83",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Sandbox_PWS_HistoryDays",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "d7b8d83e859c459ec00f6b511c1dc459",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Sandbox_PWS_HistoryDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "7345a86d53821d0f33594ac7fd8efec2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Sandbox_PWS_MagazineLootMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "74c27859be48b62d8d0a20969e86ec2e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Sandbox_PWS_MagazineLootMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "0a587129d90c1dcb4a8f4010045c0b39",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Sandbox_PWS_PreciseForecastDays",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "6ae6d824d38ecf46d1ebceab838fb73e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Sandbox_PWS_PreciseForecastDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "166a21b803bddae3ca64ff97dd90163e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Sandbox_PWS_TrendForecastDays",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "635a01e577b6821592d7eecfb174bf89",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Sandbox_PWS_TrendForecastDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "727801ba2a0c005053874ed85a2ee1d7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781590169",
+    "translation_key": "Tooltip_PWS_WeatherStation",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-19T12:57:57.0000000Z",
+    "source_hash": "01a319bbb631f76158d375fb5f4f70f4",
+    "output_file_stem": "Tooltip"
+  }
+]

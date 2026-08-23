@@ -5,7 +5,8 @@
     "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.0615411Z",
     "last_seen_mod_updated": "2026-08-11T10:57:06.0000000Z",
-    "source_hash": "42947d1ba96e026579743515f4f66cb6"
+    "source_hash": "42947d1ba96e026579743515f4f66cb6",
+    "output_file_stem": null
   },
   {
     "mod_id": "3743082626",
@@ -13,510 +14,574 @@
     "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.0615411Z",
     "last_seen_mod_updated": "2026-08-11T10:57:06.0000000Z",
-    "source_hash": "c2410a9d1c1750744b32fce333bcd968"
+    "source_hash": "c2410a9d1c1750744b32fce333bcd968",
+    "output_file_stem": null
   },
   {
     "mod_id": "3743082626",
     "translation_key": "RetroDash_Scale",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031129Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "421a973848d04e6933e1a95a6e08fee6"
+    "source_hash": "421a973848d04e6933e1a95a6e08fee6",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "RetroDash_Style",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031137Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "2491cf476f7b4bb48bc719fcae91691f"
+    "source_hash": "2491cf476f7b4bb48bc719fcae91691f",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031143Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "1ee0afe5974728f048b80dea1c7d5461"
+    "source_hash": "1ee0afe5974728f048b80dea1c7d5461",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_RandomizationMode",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031147Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "7b5f1957bf3b1369f5cfc30d4eccc903"
+    "source_hash": "7b5f1957bf3b1369f5cfc30d4eccc903",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_RandomizationMode_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031154Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "8abcb81fba658e33ae6564a775c175ab"
+    "source_hash": "8abcb81fba658e33ae6564a775c175ab",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_RandomizationMode_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031159Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "c90b841cae42bed1bf8697bd118bdd06"
+    "source_hash": "c90b841cae42bed1bf8697bd118bdd06",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_RandomizationMode_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031162Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "3c6c8f10b56b9228883cc3f59af6a4c2"
+    "source_hash": "3c6c8f10b56b9228883cc3f59af6a4c2",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_SimulateWindshield",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031168Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "51c57fbd006d2f3c3e33abcd788f2187"
+    "source_hash": "51c57fbd006d2f3c3e33abcd788f2187",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_SimulateWindshield_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031170Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "02e2fdb0a32903304ce3246c31aa8bdc"
+    "source_hash": "02e2fdb0a32903304ce3246c31aa8bdc",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031179Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "751c6aae0960517f5d70cc3f4a112776"
+    "source_hash": "751c6aae0960517f5d70cc3f4a112776",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy1_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031186Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "2ba2227397ca047928c750fe2174ec22"
+    "source_hash": "2ba2227397ca047928c750fe2174ec22",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy1_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031190Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "4bdf7e3c752b2a1dbf087441b392b07e"
+    "source_hash": "4bdf7e3c752b2a1dbf087441b392b07e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy1_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031195Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "63fd8836f235d8206b1c71152b55b23d"
+    "source_hash": "63fd8836f235d8206b1c71152b55b23d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy1_option4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031200Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "fb0e74a88271e349d0441c1823f6fe6d"
+    "source_hash": "fb0e74a88271e349d0441c1823f6fe6d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy1_option5",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031204Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "b661206fddb2ca6296aae2169ea2bf99"
+    "source_hash": "b661206fddb2ca6296aae2169ea2bf99",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy1_option6",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031208Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "6f3e07b09fe296562d52708c8a458a10"
+    "source_hash": "6f3e07b09fe296562d52708c8a458a10",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy1_option7",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031212Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "fcacdb2e167fef47052d5e5a576a721e"
+    "source_hash": "fcacdb2e167fef47052d5e5a576a721e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy1_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031217Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "caeffd140eac99aa7eff24f48605721f"
+    "source_hash": "caeffd140eac99aa7eff24f48605721f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031222Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "823558d7650e5ed7251773018e80b575"
+    "source_hash": "823558d7650e5ed7251773018e80b575",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy2_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031228Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "4eb6d95b26b274c3de989ed7c1d2daf1"
+    "source_hash": "4eb6d95b26b274c3de989ed7c1d2daf1",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy2_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031231Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "8b404ced14647b5a7c69fe4200551eb4"
+    "source_hash": "8b404ced14647b5a7c69fe4200551eb4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy2_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031234Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "55f3dbde233a9c720000d9eb5674f5b2"
+    "source_hash": "55f3dbde233a9c720000d9eb5674f5b2",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy2_option4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031240Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "bd11b830f61f82deeed35ec551bf5e6a"
+    "source_hash": "bd11b830f61f82deeed35ec551bf5e6a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy2_option5",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031246Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "2b76f945678b1154fc3d883488116d6b"
+    "source_hash": "2b76f945678b1154fc3d883488116d6b",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy2_option6",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031250Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "4e3ce1230c1f47cff905080e2042a013"
+    "source_hash": "4e3ce1230c1f47cff905080e2042a013",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy2_option7",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031253Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "b8f2942663e8c40d65ca74e0dc52fcb7"
+    "source_hash": "b8f2942663e8c40d65ca74e0dc52fcb7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleHeavy2_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031257Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "86d206261ff48d322d9e16f07f40984d"
+    "source_hash": "86d206261ff48d322d9e16f07f40984d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031260Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "2751d8f166f8fe4acff3f9ad40eca421"
+    "source_hash": "2751d8f166f8fe4acff3f9ad40eca421",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport1_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031265Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "73e5e837b6b5ed59e54b0c4296112fde"
+    "source_hash": "73e5e837b6b5ed59e54b0c4296112fde",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport1_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031271Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "e4850b6fa78aab8fbc20dcd68267661d"
+    "source_hash": "e4850b6fa78aab8fbc20dcd68267661d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport1_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031274Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "9d0c00ca2377e003ce03899af58ae30c"
+    "source_hash": "9d0c00ca2377e003ce03899af58ae30c",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport1_option4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031278Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "47c2562c03eef622ef02d426b10f831c"
+    "source_hash": "47c2562c03eef622ef02d426b10f831c",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport1_option5",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031283Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "26f14367da7be763e99fa301a1bba134"
+    "source_hash": "26f14367da7be763e99fa301a1bba134",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport1_option6",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031289Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "6f594cec0d1e9dadbda185c05659d042"
+    "source_hash": "6f594cec0d1e9dadbda185c05659d042",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport1_option7",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031294Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "d3a026588808818d1a2318629ed0a256"
+    "source_hash": "d3a026588808818d1a2318629ed0a256",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport1_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031299Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "831e90a309cfb7a55ada47e85c3a54d7"
+    "source_hash": "831e90a309cfb7a55ada47e85c3a54d7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031305Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "30afd0f8444529b63d58a35c2a13e4d1"
+    "source_hash": "30afd0f8444529b63d58a35c2a13e4d1",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport2_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031309Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "9aadf99b29b8eb5a6ad6ffe735221807"
+    "source_hash": "9aadf99b29b8eb5a6ad6ffe735221807",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport2_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031313Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "18eb73ce3f3c75d25468ee07cf5d4c25"
+    "source_hash": "18eb73ce3f3c75d25468ee07cf5d4c25",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport2_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031316Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "f5b526e8f52bf880e262d607eaafd9d3"
+    "source_hash": "f5b526e8f52bf880e262d607eaafd9d3",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport2_option4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031320Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "747db4b9028556a21094c0a2c5a998bd"
+    "source_hash": "747db4b9028556a21094c0a2c5a998bd",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport2_option5",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031326Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "82be08fbadc822969ea6f5531caa7158"
+    "source_hash": "82be08fbadc822969ea6f5531caa7158",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport2_option6",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031330Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "e8d1908a259a8626902448283237e8ba"
+    "source_hash": "e8d1908a259a8626902448283237e8ba",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport2_option7",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031333Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "6d676b2815f625eeed0007e20c4da045"
+    "source_hash": "6d676b2815f625eeed0007e20c4da045",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleSport2_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031338Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "2b71f2cd62a73578e04a9934f6ec1e44"
+    "source_hash": "2b71f2cd62a73578e04a9934f6ec1e44",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031344Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "c3420da04c64b7c2f511b8cdfbda2879"
+    "source_hash": "c3420da04c64b7c2f511b8cdfbda2879",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard1_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031350Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "c67f69ec596a85f632914d0404ccfce5"
+    "source_hash": "c67f69ec596a85f632914d0404ccfce5",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard1_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031354Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "6d31b83c6066896b0e1e0df0bb383dcd"
+    "source_hash": "6d31b83c6066896b0e1e0df0bb383dcd",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard1_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031360Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "abbe39e5bbf88073f20b157a425331f3"
+    "source_hash": "abbe39e5bbf88073f20b157a425331f3",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard1_option4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031364Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "b1c85c42b648e4b5b7e663b5cdf0682c"
+    "source_hash": "b1c85c42b648e4b5b7e663b5cdf0682c",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard1_option5",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031367Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "1a0d62f991e6b4f5bd6a9fd8fd0b53d6"
+    "source_hash": "1a0d62f991e6b4f5bd6a9fd8fd0b53d6",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard1_option6",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031371Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "c925774bc2f42880857b052898d67551"
+    "source_hash": "c925774bc2f42880857b052898d67551",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard1_option7",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031375Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "4f19409f7bc9d8c88c8c8c8dc3c324e1"
+    "source_hash": "4f19409f7bc9d8c88c8c8c8dc3c324e1",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard1_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031382Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "78dbb877dd49feb495180e2b29bdb866"
+    "source_hash": "78dbb877dd49feb495180e2b29bdb866",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031386Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "496566172500b1af6dd46f8f50244f09"
+    "source_hash": "496566172500b1af6dd46f8f50244f09",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard2_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031391Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "292591323a29ad8b5942cd9b9b33d843"
+    "source_hash": "292591323a29ad8b5942cd9b9b33d843",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard2_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031396Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "8f0053e677fb7ea86b9d13a08dfaa89a"
+    "source_hash": "8f0053e677fb7ea86b9d13a08dfaa89a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard2_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031400Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "18bea8af5be7fd1fc0d091422b392133"
+    "source_hash": "18bea8af5be7fd1fc0d091422b392133",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard2_option4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031406Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "f76a3bcc72eea2bf2a71e2a3b22049b2"
+    "source_hash": "f76a3bcc72eea2bf2a71e2a3b22049b2",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard2_option5",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031411Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "bcca8d937de400d7b29be1c1a6515bca"
+    "source_hash": "bcca8d937de400d7b29be1c1a6515bca",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard2_option6",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031413Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "7eaddae3aaf46d8fe0493f74cbfe39f5"
+    "source_hash": "7eaddae3aaf46d8fe0493f74cbfe39f5",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard2_option7",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031417Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "6699b36bd8fd1b8f20b0243f956c78c1"
+    "source_hash": "6699b36bd8fd1b8f20b0243f956c78c1",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3743082626",
     "translation_key": "Sandbox_RetroDashboardDigital_StyleStandard2_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1031422Z",
     "last_seen_mod_updated": "2026-08-20T12:56:07.0000000Z",
-    "source_hash": "9d71d2114c044b3d6d4454a001cec5cc"
+    "source_hash": "9d71d2114c044b3d6d4454a001cec5cc",
+    "output_file_stem": "Sandbox"
   }
 ]

@@ -2,7 +2,7 @@
 
 Structure: service project referencing `Common`, `ModIdCollector`, and `ModInfoFetcher`.
 
-Function: download Steam Workshop content through a copied steamcmd instance per batch.
+Function: download Steam Workshop content through an independent copied steamcmd instance per batch. The pipeline runs at most eight batch downloads concurrently.
 
 Flow:
 1. Copy `src/3rd_party/steamcmd` to the batch temp folder.

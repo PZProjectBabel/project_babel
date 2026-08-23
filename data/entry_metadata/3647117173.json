@@ -3,1184 +3,1332 @@
     "mod_id": "3647117173",
     "translation_key": "Battery_Bank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761540Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "4769a5651cd063ef5f78e9bdb42ff2ee"
+    "source_hash": "4769a5651cd063ef5f78e9bdb42ff2ee",
+    "output_file_stem": "Moveables"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ContextMenu_ISA_BatteryBank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761548Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "aaf81537a602474026457ff6456e0382"
+    "source_hash": "aaf81537a602474026457ff6456e0382",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ContextMenu_ISA_BatteryBankStatus",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761554Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "5ee6aa8e5562371be1dca694f84830b8"
+    "source_hash": "5ee6aa8e5562371be1dca694f84830b8",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ContextMenu_ISA_ConnectPanels",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761560Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "8535622a5aa6df6e9d7bda737ac5437c"
+    "source_hash": "8535622a5aa6df6e9d7bda737ac5437c",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ContextMenu_ISA_Connect_Panel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761567Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "68e9c7086b621d4bf06fe60246d54e3f"
+    "source_hash": "68e9c7086b621d4bf06fe60246d54e3f",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ContextMenu_ISA_Connect_Panel_NoPowerbank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761574Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "0d3c11b9bef2e4ee52d86bb5b68d10ce"
+    "source_hash": "0d3c11b9bef2e4ee52d86bb5b68d10ce",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ContextMenu_ISA_Connect_Panel_toolTip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761580Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "5ce058c6d966a9d41e837439627edc0b"
+    "source_hash": "5ce058c6d966a9d41e837439627edc0b",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ContextMenu_ISA_Connect_Panel_toolTip_isConnected",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761588Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "77ea5e7a8541dc0e9b551a80d8751659"
+    "source_hash": "77ea5e7a8541dc0e9b551a80d8751659",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ContextMenu_ISA_Connect_Panel_toolTip_isConnected_false",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761593Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "eda3cf74d145863e5ba7c10e968c73b2"
+    "source_hash": "eda3cf74d145863e5ba7c10e968c73b2",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ContextMenu_ISA_Connect_Panel_toolTip_isOutside",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761600Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "bb5578c4be4d88138836ea23d65acc02"
+    "source_hash": "bb5578c4be4d88138836ea23d65acc02",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ContextMenu_ISA_SolarPanel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761605Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "1f45236ee317ff591ec9f9762626504a"
+    "source_hash": "1f45236ee317ff591ec9f9762626504a",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Failsafe_Trigger",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761614Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "34ba635e254dedd48c367502b888b189"
+    "source_hash": "34ba635e254dedd48c367502b888b189",
+    "output_file_stem": "Moveables"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Floor_Mounted_Solar_Panel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761619Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "e53328a9deb9445e4287943bad0d5db3"
+    "source_hash": "e53328a9deb9445e4287943bad0d5db3",
+    "output_file_stem": "Moveables"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ContainerTitle_BatteryBank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761624Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "aeebff311899690935c8af83cba69dfb"
+    "source_hash": "aeebff311899690935c8af83cba69dfb",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ContainerTitle_SolarBox",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761630Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "afb15276116d0c40b232db51426a5b08"
+    "source_hash": "afb15276116d0c40b232db51426a5b08",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAContainerNotBattery",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761637Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "f69287554b4e3e8907a066ee05ade62c"
+    "source_hash": "f69287554b4e3e8907a066ee05ade62c",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Debug_HideBackup",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761641Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "fb2ad55c404ef3a9ecac4cfc9c3408af"
+    "source_hash": "fb2ad55c404ef3a9ecac4cfc9c3408af",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Debug_ShowBackup",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761645Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "713bbf5d838cf24ad01f849f9fb65147"
+    "source_hash": "713bbf5d838cf24ad01f849f9fb65147",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_BackupDebugLowCondition",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761652Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "39b117b335bfe0dd25426fc263185e58"
+    "source_hash": "39b117b335bfe0dd25426fc263185e58",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_BackupDebugNoFailsafe",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761659Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "1b2f576a78b31c5da67295f6e66b1a03"
+    "source_hash": "1b2f576a78b31c5da67295f6e66b1a03",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_BackupDebugNoFuel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761667Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "a019fde0097707ed54a25f88193019bf"
+    "source_hash": "a019fde0097707ed54a25f88193019bf",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_BackupDebugNoGenerator",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761673Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "230c0c9cf45c63488763f8adcebef5ee"
+    "source_hash": "230c0c9cf45c63488763f8adcebef5ee",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_BackupDebugNoSquare",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761678Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "381f0b98e90737022d0bba0d4d512e18"
+    "source_hash": "381f0b98e90737022d0bba0d4d512e18",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_BackupDebugNotBackup",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761683Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "ab53075029444f021649ee0389b8cf17"
+    "source_hash": "ab53075029444f021649ee0389b8cf17",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_BackupDebugNotConnected",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761691Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "e80be50e0c77152402018befa9ed8396"
+    "source_hash": "e80be50e0c77152402018befa9ed8396",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_BackupDebugOK",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761697Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "3fcafac2d5e9f114950c5b6e37989bc7"
+    "source_hash": "3fcafac2d5e9f114950c5b6e37989bc7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_BackupDebugPowerbank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761703Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "15e63f6056599b1f672dbe07b871969d"
+    "source_hash": "15e63f6056599b1f672dbe07b871969d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_CantSee",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761710Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "ff363e0617420181bdabdc77d40310c7"
+    "source_hash": "ff363e0617420181bdabdc77d40310c7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_ConnectedPanels",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761717Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "203cca134400331b5f7e346bde6ca24c"
+    "source_hash": "203cca134400331b5f7e346bde6ca24c",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_ElectricalDevices",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761724Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "9bc67cd057126824741ffa05aac38cf1"
+    "source_hash": "9bc67cd057126824741ffa05aac38cf1",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_ElectricityExternal",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761730Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "57871e07144d0af1746f0503643d375b"
+    "source_hash": "57871e07144d0af1746f0503643d375b",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_Failsafe",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761737Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "b30096eef2b2ca6f495fffeabb6ecaff"
+    "source_hash": "b30096eef2b2ca6f495fffeabb6ecaff",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_GenInRange",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761744Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "3a0511f18fa7c158ad13d147a0057f01"
+    "source_hash": "3a0511f18fa7c158ad13d147a0057f01",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_MaxCapacity",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761751Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "6605732d9da25c266f888ed763f6d5e8"
+    "source_hash": "6605732d9da25c266f888ed763f6d5e8",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_MaxPanelOutput",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761756Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "835199f8e7242fc7bbc2a93344712047"
+    "source_hash": "835199f8e7242fc7bbc2a93344712047",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_TabTitle",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761762Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "5ee56450d85057984466085ce8c34f83"
+    "source_hash": "5ee56450d85057984466085ce8c34f83",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_ValidAreaPlayer",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761768Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "faf871e7a4bc8d9939aef17ad1ec9f46"
+    "source_hash": "faf871e7a4bc8d9939aef17ad1ec9f46",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindow_Details_conGenerator",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761772Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "9a37f607de5e0f9735958aef076a6eb6"
+    "source_hash": "9a37f607de5e0f9735958aef076a6eb6",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsStatus_Title",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761777Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "6a468295c025b4868d3c146b46956042"
+    "source_hash": "6a468295c025b4868d3c146b46956042",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_BatteryLevel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761783Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "11f509e8bdc7612c42f6de6da93d0a25"
+    "source_hash": "11f509e8bdc7612c42f6de6da93d0a25",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_BatteryRemaining",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761787Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "2332ef73b78b91446a660e0462d9e587"
+    "source_hash": "2332ef73b78b91446a660e0462d9e587",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_BatteryStatus",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761791Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "1267d09e07935861734990c92f426e89"
+    "source_hash": "1267d09e07935861734990c92f426e89",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_ChargedIn",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761796Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "44b0ae29ebeb337d1ee4522512927330"
+    "source_hash": "44b0ae29ebeb337d1ee4522512927330",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_DischargedIn",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761802Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "aa55b34497ecb0f913c6818c9aa864ff"
+    "source_hash": "aa55b34497ecb0f913c6818c9aa864ff",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_FullyCharged",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761807Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "4c5193652f6de37048afcc2d27d753ac"
+    "source_hash": "4c5193652f6de37048afcc2d27d753ac",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_FullyDischarged",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761813Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "b8507c26b73a753bc9a36124982c34e5"
+    "source_hash": "b8507c26b73a753bc9a36124982c34e5",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_InfoText",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761819Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "35b68b2f8165a0cd8f8e2ed282cd19d2"
+    "source_hash": "35b68b2f8165a0cd8f8e2ed282cd19d2",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_NoBatteries",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761824Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "2eb0e96a119e863f3aa36fc43e5df299"
+    "source_hash": "2eb0e96a119e863f3aa36fc43e5df299",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_NoEnoughPanels",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761831Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "4344a3863f60596b284c65c0f7b56b18"
+    "source_hash": "4344a3863f60596b284c65c0f7b56b18",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_NoEnoughSun",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761837Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "09af70afb8c5c24b46b1e137dc016afd"
+    "source_hash": "09af70afb8c5c24b46b1e137dc016afd",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_NotCharging",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761844Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "16315b52542ed62eb146704982aec55e"
+    "source_hash": "16315b52542ed62eb146704982aec55e",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_PanelsStatus",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761848Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "3ea0d8c881db30db2024b4219c2c36ab"
+    "source_hash": "3ea0d8c881db30db2024b4219c2c36ab",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_TabTitle",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761854Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "40b15614e9051256b52447afb21f337f"
+    "source_hash": "40b15614e9051256b52447afb21f337f",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISAWindowsSumaryTab_Working",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761859Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "dcc4600290daad555bafe9c3d48cec05"
+    "source_hash": "dcc4600290daad555bafe9c3d48cec05",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "IGUI_ISA_Update",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761865Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "9164627622b5847731a0d932c2f219e8"
+    "source_hash": "9164627622b5847731a0d932c2f219e8",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ISACreateBatteryBank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761873Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "fc2c282ff55b0d534d82d557ca31bb0e"
+    "source_hash": "fc2c282ff55b0d534d82d557ca31bb0e",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ISACreateSolarFailsafe",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761878Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "a1ac28ab47185f529719132a23775a05"
+    "source_hash": "a1ac28ab47185f529719132a23775a05",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ISAMakeDIYBattery",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761885Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "82c3fdb366ca33c7d8ee115fd62d0696"
+    "source_hash": "82c3fdb366ca33c7d8ee115fd62d0696",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ISAMakeFloorMountedSolarPanel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761892Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "bc0052dd6f832a6a22de0082d6b0b5ef"
+    "source_hash": "bc0052dd6f832a6a22de0082d6b0b5ef",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ISAMakeInverter",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761897Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "444abfdb3e893a5b1868cd3782804111"
+    "source_hash": "444abfdb3e893a5b1868cd3782804111",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ISAMakeSolarPanel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761902Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "0abde74d5a137352d632b0ff12f03437"
+    "source_hash": "0abde74d5a137352d632b0ff12f03437",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ISAMakeSolarRoofTile",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761910Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "c40a34c4a84485e67c586872b720e61c"
+    "source_hash": "c40a34c4a84485e67c586872b720e61c",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ISAMakeWallMountedSolarPanel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761915Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "93f4172f032543be69b0ed30e847c73d"
+    "source_hash": "93f4172f032543be69b0ed30e847c73d",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ISAReverseSolarPanel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761919Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "43cf935a2efd25dcaccb509d894d4480"
+    "source_hash": "43cf935a2efd25dcaccb509d894d4480",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ISAUnwireCarBattery",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761927Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "7fbe87de8c56e9f1f04df435c7de5799"
+    "source_hash": "7fbe87de8c56e9f1f04df435c7de5799",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ISAWireCarBattery",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761933Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "468eaddd6aa3177e8b8d94a397d3eb3c"
+    "source_hash": "468eaddd6aa3177e8b8d94a397d3eb3c",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.DIYBattery",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761938Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "dd9acaf02eec9125b7b111e2c4585e1b"
+    "source_hash": "dd9acaf02eec9125b7b111e2c4585e1b",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.DeepCycleBattery",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761944Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "49c60ddc503247ebc9f5a0540458f0c4"
+    "source_hash": "49c60ddc503247ebc9f5a0540458f0c4",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.ISAInverter",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761947Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "7d88f12731cba1439a54abda165ac9e2"
+    "source_hash": "7d88f12731cba1439a54abda165ac9e2",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.ISAMag1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761952Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "32ad38c7728b47649f7b8d815f3d21a4"
+    "source_hash": "32ad38c7728b47649f7b8d815f3d21a4",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.PowerBank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761958Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "b4006036ab74c06d2ae835fe655642f6"
+    "source_hash": "b4006036ab74c06d2ae835fe655642f6",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.SolarFailsafe",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761964Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "1dbc0e83b9bb148c4950243e5504b8b6"
+    "source_hash": "1dbc0e83b9bb148c4950243e5504b8b6",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.SolarPanel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761968Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "21cb5021ba67ef394f0dd540be197e46"
+    "source_hash": "21cb5021ba67ef394f0dd540be197e46",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.SolarPanelFlat",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761975Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "eeadd29b11b974ce4ee3486c88701e6c"
+    "source_hash": "eeadd29b11b974ce4ee3486c88701e6c",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.SolarPanelMounted",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761979Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "0223a4d6aefa042a4969f934a1792931"
+    "source_hash": "0223a4d6aefa042a4969f934a1792931",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.SolarPanelWall",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761986Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "4cba1bc80b5f845aec35a1431816da51"
+    "source_hash": "4cba1bc80b5f845aec35a1431816da51",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.SuperBattery",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761994Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "43c0b830f4961a1d475199345eb81227"
+    "source_hash": "43c0b830f4961a1d475199345eb81227",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "ItemName_ISA.WiredCarBattery",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0761998Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "aa30e7bbaaeffa95e479c00d16b94212"
+    "source_hash": "aa30e7bbaaeffa95e479c00d16b94212",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "PowerBank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762003Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "5a07fbca6e301e7a2cd0357f8be63461"
+    "source_hash": "5a07fbca6e301e7a2cd0357f8be63461",
+    "output_file_stem": "Moveables"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Recipe_ISACreateBatteryBank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762010Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "98da734402431d2ce6319071aa32d1a0"
+    "source_hash": "98da734402431d2ce6319071aa32d1a0",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Recipe_ISACreateSolarFailsafe",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762018Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "82fa042345dd2c8cad6aa557b1f432e5"
+    "source_hash": "82fa042345dd2c8cad6aa557b1f432e5",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Recipe_ISAMakeDIYBattery",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762023Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "d08090d3eed7a8d90c8c57a8cf22dea3"
+    "source_hash": "d08090d3eed7a8d90c8c57a8cf22dea3",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Recipe_ISAMakeFloorMountedSolarPanel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762027Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "8e6dadbecd0059e3ab219827dfc6e5d7"
+    "source_hash": "8e6dadbecd0059e3ab219827dfc6e5d7",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Recipe_ISAMakeInverter",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762031Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "81c20a4877092fc5a1a3436fa95bc259"
+    "source_hash": "81c20a4877092fc5a1a3436fa95bc259",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Recipe_ISAMakeSolarPanel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762037Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "ccfde1d17b4b29a901566c9da4c60789"
+    "source_hash": "ccfde1d17b4b29a901566c9da4c60789",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Recipe_ISAMakeSolarRoofTile",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762044Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "6ec67bad45d9451a3b885f19a76b82f1"
+    "source_hash": "6ec67bad45d9451a3b885f19a76b82f1",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Recipe_ISAMakeWallMountedSolarPanel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762051Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "d0cf5c0eeaca3099dff7cc69a158d1bd"
+    "source_hash": "d0cf5c0eeaca3099dff7cc69a158d1bd",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Recipe_ISAReverseSolarPanel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762057Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "592b5e9d91370377718120c0edb15c70"
+    "source_hash": "592b5e9d91370377718120c0edb15c70",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Recipe_ISAUnwireCarBattery",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762062Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "eb4ebc34f78bde3b6fbc53ed16a4eebe"
+    "source_hash": "eb4ebc34f78bde3b6fbc53ed16a4eebe",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Recipe_ISAWireCarBattery",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762068Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "6dc1953dd05a6daea031ca5cf92b8130"
+    "source_hash": "6dc1953dd05a6daea031ca5cf92b8130",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762072Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "49652aa488ed6a293102026bd460ffaf"
+    "source_hash": "49652aa488ed6a293102026bd460ffaf",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_BatteryBankSpawn",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762077Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "620fa623a2b7199be2bdccfcba75a77e"
+    "source_hash": "620fa623a2b7199be2bdccfcba75a77e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_BatteryBankSpawn_option1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762082Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "e3d76388a4a7dfa930128727b7a9c780"
+    "source_hash": "e3d76388a4a7dfa930128727b7a9c780",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_BatteryBankSpawn_option2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762086Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "0f858b9e2210a9e398e5cea7c5b4eaa2"
+    "source_hash": "0f858b9e2210a9e398e5cea7c5b4eaa2",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_BatteryBankSpawn_option3",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762091Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "032e98f80b0f9e6e93c0ec7fba55a91a"
+    "source_hash": "032e98f80b0f9e6e93c0ec7fba55a91a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_BatteryBankSpawn_option4",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762099Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "8031507ddb7261144be75c5604126a54"
+    "source_hash": "8031507ddb7261144be75c5604126a54",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_BatteryBankSpawn_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762103Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "8c5196e1c487d4e0f2e73dee59f0711c"
+    "source_hash": "8c5196e1c487d4e0f2e73dee59f0711c",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_ChargeFreq",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762109Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "49745da6fd8e36bc20e47fb83493514b"
+    "source_hash": "49745da6fd8e36bc20e47fb83493514b",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_ChargeFreq_option1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762115Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "6a883ca61e17f7868740af2dd657c4f7"
+    "source_hash": "6a883ca61e17f7868740af2dd657c4f7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_ChargeFreq_option2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762119Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "cd7651f2950aef54c303e79b8cbc15ae"
+    "source_hash": "cd7651f2950aef54c303e79b8cbc15ae",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_ChargeFreq_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762124Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "a46a44fb51219b7ae9b0feda7ea28fb2"
+    "source_hash": "a46a44fb51219b7ae9b0feda7ea28fb2",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_ConnectPanelMin",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762128Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "45fee503977aa62dace8da29c5ac8d59"
+    "source_hash": "45fee503977aa62dace8da29c5ac8d59",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_ConnectPanelMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762132Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "25362e1724237e2520967f1a9965e7ad"
+    "source_hash": "25362e1724237e2520967f1a9965e7ad",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_DIYBatteryMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762137Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "657e03ff31938c836904dd6882ba2cf0"
+    "source_hash": "657e03ff31938c836904dd6882ba2cf0",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_DIYBatteryMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762140Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "4adcf5c7df9c59276b6b2a1c94c8467d"
+    "source_hash": "4adcf5c7df9c59276b6b2a1c94c8467d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_DrainCalc",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762145Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "0afe4662f2d35084a7b18d6016dc7d02"
+    "source_hash": "0afe4662f2d35084a7b18d6016dc7d02",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_DrainCalc_option1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762152Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "e1a0b75d626c00d9f5e58661bfffa766"
+    "source_hash": "e1a0b75d626c00d9f5e58661bfffa766",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_DrainCalc_option2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762159Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "609fcb12c8a32cbd7c8026ec6e0e9ffd"
+    "source_hash": "609fcb12c8a32cbd7c8026ec6e0e9ffd",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_DrainCalc_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762164Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "a3cf231a1b7329a1bc5e0d0e6b81f6fa"
+    "source_hash": "a3cf231a1b7329a1bc5e0d0e6b81f6fa",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_LRMBatteries",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762168Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "cc14fcc4a16373493245ae3502b4f949"
+    "source_hash": "cc14fcc4a16373493245ae3502b4f949",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_LRMBatteries_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762175Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "6924841e3374d55b29cd797a82614aa4"
+    "source_hash": "6924841e3374d55b29cd797a82614aa4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_LRMMisc",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762179Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "b1d1d13a9d597f2ffe6939106c9d9e87"
+    "source_hash": "b1d1d13a9d597f2ffe6939106c9d9e87",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_LRMMisc_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762184Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "d95c1b4d9e5665f40616346ae1e181b0"
+    "source_hash": "d95c1b4d9e5665f40616346ae1e181b0",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_LRMSolarPanels",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762190Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "1bf5bc62e9d1617166e7551141f34870"
+    "source_hash": "1bf5bc62e9d1617166e7551141f34870",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_LRMSolarPanels_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762197Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "5d9d8eac8a1f865d8fab775a34b3a856"
+    "source_hash": "5d9d8eac8a1f865d8fab775a34b3a856",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_StashMode",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762202Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "2a4355616526f97a9a0846212c9a8ff2"
+    "source_hash": "2a4355616526f97a9a0846212c9a8ff2",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_StashMode_option1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762208Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "3d2d444813ff61dc53404786e29a7eeb"
+    "source_hash": "3d2d444813ff61dc53404786e29a7eeb",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_StashMode_option2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762214Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "cb9879506ac4c18991a392687684e268"
+    "source_hash": "cb9879506ac4c18991a392687684e268",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_StashMode_option3",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762222Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "7c76cd2a4434785c3fd3aba6559c9407"
+    "source_hash": "7c76cd2a4434785c3fd3aba6559c9407",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_StashMode_option4",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762227Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "3f236d006a73d27ba9c24517d10985a0"
+    "source_hash": "3f236d006a73d27ba9c24517d10985a0",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_StashMode_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762234Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "74c185081bfc4773e01a493565f05918"
+    "source_hash": "74c185081bfc4773e01a493565f05918",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_batteryDegradeChance",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762240Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "79f20aa2717e2c864904cb671bf67c8e"
+    "source_hash": "79f20aa2717e2c864904cb671bf67c8e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_batteryDegradeChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "6d7f36c79766f815739036919d27d352"
+    "source_hash": "b59c37ad0565ba0ff3642115a6e89e32",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_enableExpandedRecipes",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762253Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "abdcbf10744929e25f0a217b788b1a04"
+    "source_hash": "abdcbf10744929e25f0a217b788b1a04",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_enableExpandedRecipes_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762258Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "c210805198de8a0da7fdf4aec7e6e06d"
+    "source_hash": "c210805198de8a0da7fdf4aec7e6e06d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_solarPanelEfficiency",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762266Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "a853c2c462b662e7ff59d52205dba211"
+    "source_hash": "a853c2c462b662e7ff59d52205dba211",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_solarPanelEfficiency_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762272Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "2f1e83c9598b324f240ffeb187d20bff"
+    "source_hash": "2f1e83c9598b324f240ffeb187d20bff",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_solarPanelWorldSpawns",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762277Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "524eb40d005d579473e6b07b13391719"
+    "source_hash": "524eb40d005d579473e6b07b13391719",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Sandbox_ISA_solarPanelWorldSpawns_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762283Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "1065661565727a0063abcce582f924c6"
+    "source_hash": "1065661565727a0063abcce582f924c6",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "SolarFailsafe",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762288Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "12f47849b2359ac1f58fa4ea212910e9"
+    "source_hash": "12f47849b2359ac1f58fa4ea212910e9",
+    "output_file_stem": "Moveables"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "SolarPanelFlat",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762293Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "a34ec4b7fab1996598b37d4ce071f1e4"
+    "source_hash": "a34ec4b7fab1996598b37d4ce071f1e4",
+    "output_file_stem": "Moveables"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "SolarPanelMounted",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762296Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "05822012494d68a1a59a564f206954d3"
+    "source_hash": "05822012494d68a1a59a564f206954d3",
+    "output_file_stem": "Moveables"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "SolarPanelWall",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762302Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "59ece8b446454898949c70aca9ed7a78"
+    "source_hash": "59ece8b446454898949c70aca9ed7a78",
+    "output_file_stem": "Moveables"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Solar_Box",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762307Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "f3032c939102d193725150d1b000afb5"
+    "source_hash": "f3032c939102d193725150d1b000afb5",
+    "output_file_stem": "Moveables"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Solar_Roof_Tile",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762312Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "b82175402b4d5f995cde6010b011a857"
+    "source_hash": "b82175402b4d5f995cde6010b011a857",
+    "output_file_stem": "Moveables"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Stash_ISA_Stash_Louisville1_t1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762318Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "fdd3842f9e455a64500d6adf6e854005"
+    "source_hash": "fdd3842f9e455a64500d6adf6e854005",
+    "output_file_stem": "Stash"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Stash_ISA_Stash_Muldraugh1_t1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762325Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "8b6e9bcd431999cb47b5930bf0275fc7"
+    "source_hash": "8b6e9bcd431999cb47b5930bf0275fc7",
+    "output_file_stem": "Stash"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Stash_ISA_Stash_Muldraugh1_t2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762332Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "1fc00a42b3ecdcf89919e04fc6c0cab1"
+    "source_hash": "1fc00a42b3ecdcf89919e04fc6c0cab1",
+    "output_file_stem": "Stash"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Stash_ISA_Stash_RiversideW1_t1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762338Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "c1a1b691720eb4aaedae856cbee12b24"
+    "source_hash": "c1a1b691720eb4aaedae856cbee12b24",
+    "output_file_stem": "Stash"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Stash_ISA_Stash_RiversideW1_t2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762344Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "db0fbf7ef797b492ba093cac3a856470"
+    "source_hash": "db0fbf7ef797b492ba093cac3a856470",
+    "output_file_stem": "Stash"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Stash_ISA_Stash_RosewoodE1_t1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762351Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "8eb827b8c189cba35decb3d7f239dd8e"
+    "source_hash": "8eb827b8c189cba35decb3d7f239dd8e",
+    "output_file_stem": "Stash"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Stash_ISA_Stash_RosewoodE1_t2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762357Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "617e78120138eceafa5689b578e198b6"
+    "source_hash": "617e78120138eceafa5689b578e198b6",
+    "output_file_stem": "Stash"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Stash_ISA_Stash_Westpoint1_t1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762363Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "660d7e7da030df37941de04e9ce057da"
+    "source_hash": "660d7e7da030df37941de04e9ce057da",
+    "output_file_stem": "Stash"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Stash_ISA_Stash_Westpoint1_t2",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762367Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "d097c4af305f78291d1f7343de2afd79"
+    "source_hash": "d097c4af305f78291d1f7343de2afd79",
+    "output_file_stem": "Stash"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Stash_ISA_Stash_Westpoint1_t3",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762374Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "397e763ecf50377a8508140f70bbad86"
+    "source_hash": "397e763ecf50377a8508140f70bbad86",
+    "output_file_stem": "Stash"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Tooltip_ISA_NoPanels",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762379Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "c6e38a178f4ce8d2b084da66be21545e"
+    "source_hash": "c6e38a178f4ce8d2b084da66be21545e",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Tooltip_ISA_PanelFar",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762385Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "4d8abb20d7119c202f2373e8a603432e"
+    "source_hash": "4d8abb20d7119c202f2373e8a603432e",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3647117173",
     "translation_key": "Wall_Mounted_Solar_Panel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0762391Z",
     "last_seen_mod_updated": "2026-04-28T18:35:13.0000000Z",
-    "source_hash": "b14024f5fe86e0f91350bc0d274f1829"
+    "source_hash": "b14024f5fe86e0f91350bc0d274f1829",
+    "output_file_stem": "Moveables"
   }
 ]

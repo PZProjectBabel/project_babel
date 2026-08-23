@@ -1,4 +1,4 @@
 Sandbox_KBWMC_ContainerCapacity::en = "Container Capacity (0 = original)",
 Sandbox_KBWMC_ContainerCapacity::zh-hans::processed::unverified = "容器容量 (0 = 原始数值)",
-Sandbox_KBWMC_ContainerCapacity_tooltip::en = "",
-Sandbox_KBWMC_ContainerCapacity_tooltip::zh-hans::processed::unverified = "统一设置 Knox Buildworks 容器的存储容量。 设为 0 保留原始数值。 设为 1 - 100 对所有容器应用自定义值。",
+Sandbox_KBWMC_ContainerCapacity_tooltip::en = "Unified storage capacity for all Knox Buildworks containers.\nSet to 0 to keep each container's original capacity.\nSet 1 - 100 to apply a custom value to every container.",
+Sandbox_KBWMC_ContainerCapacity_tooltip::zh-hans::processed::unverified = "沙盒_KBWMC_容器容量_提示",

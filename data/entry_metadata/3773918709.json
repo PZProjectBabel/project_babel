@@ -5,7 +5,8 @@
     "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.9065127Z",
     "last_seen_mod_updated": "2026-08-05T14:00:13.0000000Z",
-    "source_hash": "e3facd621f00a2fe50501b0dd4c1dcfa"
+    "source_hash": "e3facd621f00a2fe50501b0dd4c1dcfa",
+    "output_file_stem": null
   },
   {
     "mod_id": "3773918709",
@@ -13,7 +14,8 @@
     "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.9065138Z",
     "last_seen_mod_updated": "2026-08-05T14:00:13.0000000Z",
-    "source_hash": "6e759dc1ed92cf4d79aa9260435229ee"
+    "source_hash": "6e759dc1ed92cf4d79aa9260435229ee",
+    "output_file_stem": null
   },
   {
     "mod_id": "3773918709",
@@ -21,15 +23,17 @@
     "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.9065144Z",
     "last_seen_mod_updated": "2026-08-05T14:00:13.0000000Z",
-    "source_hash": "47bd7392eaa7c8281f4304dc937fcffc"
+    "source_hash": "47bd7392eaa7c8281f4304dc937fcffc",
+    "output_file_stem": null
   },
   {
     "mod_id": "3773918709",
     "translation_key": "IGUI_VehicleNameInt4700Arm",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.9065149Z",
-    "last_seen_mod_updated": "2026-08-05T14:00:13.0000000Z",
-    "source_hash": "8f2309b7f1098ff2ace583fb4144cd68"
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.1293329Z",
+    "last_seen_mod_updated": "2026-08-22T23:55:56.0000000Z",
+    "source_hash": "8f2309b7f1098ff2ace583fb4144cd68",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3773918709",
@@ -37,14 +41,16 @@
     "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.9065156Z",
     "last_seen_mod_updated": "2026-08-05T14:00:13.0000000Z",
-    "source_hash": "9ca2d5e81704d7c68ea05409251eb1e7"
+    "source_hash": "9ca2d5e81704d7c68ea05409251eb1e7",
+    "output_file_stem": null
   },
   {
     "mod_id": "3773918709",
     "translation_key": "IGUI_VehiclePartInt4700ArmBodyBar",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.9065161Z",
-    "last_seen_mod_updated": "2026-08-05T14:00:13.0000000Z",
-    "source_hash": "37b9d4b0068861f0812ed553104f9795"
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.1293339Z",
+    "last_seen_mod_updated": "2026-08-22T23:55:56.0000000Z",
+    "source_hash": "37b9d4b0068861f0812ed553104f9795",
+    "output_file_stem": "IG_UI"
   }
 ]

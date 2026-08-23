@@ -1,75 +1,111 @@
 [
   {
     "mod_id": "3409723807",
+    "translation_key": "Base.UH1BHueyRocketPod",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0016255Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "c855b5b0e301dec1cff257e433bcc633",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3409723807",
+    "translation_key": "Base.UH1BHueyRocketPod10",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0016266Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "0397ccc9eb21740797565f0bf1f3e568",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3409723807",
+    "translation_key": "Base.UH1BHueyRocketPod1010",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0016273Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "8e56710f08ad837c16a52fff1c5d63b3",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3409723807",
     "translation_key": "Base.UH1BOperatorManual",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-14T21:18:53.0000000Z",
-    "source_hash": "31d740cc7374e321289e21476e26ef91"
+    "last_seen_at": "2026-08-23T03:10:36.0016285Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "31d740cc7374e321289e21476e26ef91",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3409723807",
     "translation_key": "IGUI_Off_Auto",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-14T21:18:53.0000000Z",
-    "source_hash": "02fbd2cd2717ed09a900f22b43a89162"
+    "last_seen_at": "2026-08-23T03:10:36.0016293Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "02fbd2cd2717ed09a900f22b43a89162",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3409723807",
     "translation_key": "IGUI_On_Auto",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-14T21:18:53.0000000Z",
-    "source_hash": "67f348f2e3583262b669eb2f0df97ea0"
+    "last_seen_at": "2026-08-23T03:10:36.0016299Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "67f348f2e3583262b669eb2f0df97ea0",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3409723807",
     "translation_key": "IGUI_VehicleNameUH1BHuey",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.1523591Z",
-    "last_seen_mod_updated": "2026-08-14T21:18:53.0000000Z",
-    "source_hash": "891b60db94a80ab4224e13429fb6fbeb"
+    "last_seen_at": "2026-08-23T03:10:36.0016306Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "891b60db94a80ab4224e13429fb6fbeb",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3409723807",
     "translation_key": "IGUI_VehiclePartCatblade",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-14T21:18:53.0000000Z",
-    "source_hash": "94ddee3b3353a0fa592c02cb51a5d8a5"
+    "last_seen_at": "2026-08-23T03:10:36.0016313Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "94ddee3b3353a0fa592c02cb51a5d8a5",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3409723807",
     "translation_key": "IGUI_VehiclePartRocketPod",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-14T21:18:53.0000000Z",
-    "source_hash": "c50127a77a489465c28e1e969c4fd099"
+    "last_seen_at": "2026-08-23T03:10:36.0016321Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "c50127a77a489465c28e1e969c4fd099",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3409723807",
     "translation_key": "IGUI_VehiclePartUH1BHuey_blade",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-14T21:18:53.0000000Z",
-    "source_hash": "cf1da47b074a7deb95597d62eaa71648"
+    "last_seen_at": "2026-08-23T03:10:36.0016325Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "cf1da47b074a7deb95597d62eaa71648",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3409723807",
     "translation_key": "IGUI_VehiclePartUH1BHuey_bladeSmall",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-14T21:18:53.0000000Z",
-    "source_hash": "65dd4b7e3b0c27b5a4441cfadbb7e795"
+    "last_seen_at": "2026-08-23T03:10:36.0016332Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "65dd4b7e3b0c27b5a4441cfadbb7e795",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3409723807",
     "translation_key": "ItemName_Base.UH1BOperatorManual",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-21T16:14:21.5732789Z",
     "last_seen_mod_updated": "2026-08-14T21:18:53.0000000Z",
-    "source_hash": "ec3f51ba43ce670b17842e90a0769ef8"
+    "source_hash": "ec3f51ba43ce670b17842e90a0769ef8",
+    "output_file_stem": null
   },
   {
     "mod_id": "3409723807",
@@ -77,7 +113,8 @@
     "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2025-01-23T20:04:31.0000000Z",
-    "source_hash": "7b4ff69629630bb63c06b28580521335"
+    "source_hash": "7b4ff69629630bb63c06b28580521335",
+    "output_file_stem": null
   },
   {
     "mod_id": "3409723807",
@@ -85,7 +122,8 @@
     "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2025-01-23T20:04:31.0000000Z",
-    "source_hash": "e12316d29d435346d86b2147848dda3e"
+    "source_hash": "e12316d29d435346d86b2147848dda3e",
+    "output_file_stem": null
   },
   {
     "mod_id": "3409723807",
@@ -93,6 +131,16 @@
     "is_active": false,
     "last_seen_at": "2026-06-30T07:06:27.3685432Z",
     "last_seen_mod_updated": "2025-01-23T20:04:31.0000000Z",
-    "source_hash": "5c053529fafd2a10b4ab33ffc304932d"
+    "source_hash": "5c053529fafd2a10b4ab33ffc304932d",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3409723807",
+    "translation_key": "UI_UH1B_Attach_Dual_Chopper",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0016352Z",
+    "last_seen_mod_updated": "2026-08-22T16:27:07.0000000Z",
+    "source_hash": "385a93a132006accb51c49c168fe151e",
+    "output_file_stem": "UI"
   }
 ]

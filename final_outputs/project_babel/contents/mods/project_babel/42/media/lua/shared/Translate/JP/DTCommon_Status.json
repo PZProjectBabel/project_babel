@@ -1,0 +1,18 @@
+{
+  "DTCommon_Status_CalledFollowing": "呼び出され、追従中",
+  "DTCommon_Status_CalledTrading": "呼び出され、取引中",
+  "DTCommon_Status_Deceased": "状態: 死亡",
+  "DTCommon_Status_DeceasedFlavor": "状態: 死亡 ({flavor})",
+  "DTCommon_Status_DepartingNow": "状態: 今出発中...",
+  "DTCommon_Status_EnRouteTrade": "取引へ向かう途中",
+  "DTCommon_Status_LeavingHours": "状態: 出発まで ({hours}時間)",
+  "DTCommon_Status_LeavingMinutes": "状態: 出発まで ({minutes}分)",
+  "DTCommon_Status_MovingTowardArea": "状態: あなたのエリアへ移動中",
+  "DTCommon_Status_MovingTowardAreaEta": "状態: あなたのエリアへ移動中 (到着予定 {eta})",
+  "DTCommon_Status_Permanent": "状態: 永続",
+  "DTCommon_Status_RestingAtBase": "拠点で休息中",
+  "DTCommon_Status_ReturningHome": "状態: 帰宅中",
+  "DTCommon_Status_TradingInField": "現場で取引中",
+  "DTCommon_Status_Unknown": "状態不明",
+  "DTCommon_Status_Value": "状態: {value}"
+}

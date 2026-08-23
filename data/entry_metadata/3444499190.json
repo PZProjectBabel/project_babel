@@ -1,642 +1,1298 @@
 [
   {
     "mod_id": "3444499190",
+    "translation_key": "Base.AppleSaplingBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069181Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "13b6ca3e9e99a4e090e53e1fc7532888",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.AppleTree",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069188Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "336cf13d799ce3b5f1b0e03a71064e64",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.BigBochka",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069193Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "ad743cfa5a25c940b1665192441d9f60",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.Bochka",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069200Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "4acf01141d83080967ab654d70e5a25f",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.BochkaBeer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069208Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "5b737d4bd893b24ce6a0e1395767939a",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.BochkaCider",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069214Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "f1dd0f394110203823eaf3c9d5d04070",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.BochkaMaturingBeer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069222Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "0d07b874d8f389304b57f7a37e862e23",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.BochkaMaturingCider",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069226Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "322065240c724abb7c0f07b3b1052369",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.BochkaMaturingWhiskey",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069231Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "3a3bbf9f34d49e839dd13aaa743fbff1",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.BochkaMaturingWine",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069238Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "aded60ddfb3e12956ab4d4ed69d29688",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.BochkaWhiskey",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069243Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "6fd824a7cac08062ca591ef2eb0ec0dd",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.BochkaWine",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069250Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "b76732e483aaa3b1e858a577ee8e3af5",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.CherrySaplingBox",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069260Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "305ac91c86d9d48905b27f3f0e4601eb",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.CherryTree",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069266Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "1fc226c72265ab53ef409a1aeb4771bc",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.FermentatingWhiskeyWort",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069271Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "47df607121b85eb2bf610bfe5992d644",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.FermnentatedWhiskeyWort",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069277Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "0e03a7c196bb8576d841989a06cba349",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.GrapeSeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069283Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "bdcef28f9feea4baec7c224c3baaa078",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.Kastrulya",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069290Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "6d66c872fb2176f25c81d2835d3180d7",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.MaturingVinegarJar",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069296Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "e1c643025a568e674fd638252dc95d4e",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.MaturingYeastJar",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069300Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "90e37f0abefdda4d6fec69f09d4c50bb",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.RockSalt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069303Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "2288e2402ee33a1e4a6d51c4f8cdf34e",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.SugarBase",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069309Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "2b2b62f66826a28dd9729544071296f1",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.VinegarJar",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069316Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "ed18789b8c174633c5b6e1514e0e332f",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.WhiskeyPowder",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069320Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "35e614d65295a229f2a91c09dca1acec",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.WhiskeyWort",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069329Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "5db5d300be7cd50ec811d2c5c188e533",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.YeastJar",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069335Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "58506d4fd0e4e8f718ce29d5bd1861f8",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.driedmalt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069339Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "ea402630a58b91284b0b56dc69b70d87",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.germinatingMalt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069346Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "303052f40205d11f7ce1bbb6cdced06f",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Base.germinatingMalt1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069350Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "4d9adb93ac906ddae229e1a6243ee3f0",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Distill whiskey",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069361Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "5764a829416762ebf2faaca5d2921758",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Dry malt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069367Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "528288d02720fa3b1d152efb6566bc0f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
     "translation_key": "Farming_AppleTree",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "bfb4ff495d93aaa25a77f2833dda8f5c"
+    "last_seen_at": "2026-08-23T03:10:36.0069373Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "bfb4ff495d93aaa25a77f2833dda8f5c",
+    "output_file_stem": "Farming"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Farming_CherryTree",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "9016ae2b2f7ae341e9bce7d27fef45b8"
+    "last_seen_at": "2026-08-23T03:10:36.0069379Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "9016ae2b2f7ae341e9bce7d27fef45b8",
+    "output_file_stem": "Farming"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Farming_GrapeSeed",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "56d460d82b584c706cd8a5ede6e48bc2"
+    "last_seen_at": "2026-08-23T03:10:36.0069384Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "56d460d82b584c706cd8a5ede6e48bc2",
+    "output_file_stem": "Farming"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Fermentate Cider",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069395Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "4abeb62ac5859357cdf184f03b58aa4d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Fermentate Wine",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069404Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "2e3d0de601667ce4fb35337f14afd75d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Fermentate wort",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069412Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "3999f78863ed50f7d8704a191da20c9e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Finish making beer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069418Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "74444e5544b2320438bb504978e4e077",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Finish making cider",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069422Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "217a9b0ec2509fafd94d0313ef9f411c",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Finish making whiskey",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069429Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "99747300b93613c394f86c4e004af47c",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Finish making wine",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069437Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "b8f80e822da3258dd9ec172c98800dc7",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Fluid_Container_FermentationPot",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "f67ae69e58043f6f60fd9ca9edf67834"
+    "last_seen_at": "2026-08-23T03:10:36.0069444Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "f67ae69e58043f6f60fd9ca9edf67834",
+    "output_file_stem": "Fluids"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Fluid_Container_Fermentationbarrel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "82c402937f34c031fe638ba8e4508b06"
+    "last_seen_at": "2026-08-23T03:10:36.0069448Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "82c402937f34c031fe638ba8e4508b06",
+    "output_file_stem": "Fluids"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Fluid_Container_WoodenBarrel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "addd4d3df1d40467c82d5632f27ea33c"
+    "last_seen_at": "2026-08-23T03:10:36.0069455Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "addd4d3df1d40467c82d5632f27ea33c",
+    "output_file_stem": "Fluids"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Germinate Malt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069461Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "b4130d899c4f3d72abf6d8bd89068530",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "IGUI_CraftingCategories_Farming Expansion",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069468Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "d8c1480797343050618a24beeb0f2711",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.AppleSaplingBox",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "d5336337730e05fd2939e55f8763bfd3"
+    "last_seen_at": "2026-08-23T03:10:36.0069474Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "d5336337730e05fd2939e55f8763bfd3",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.AppleTree",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "c32609b08f4c45b56597534b906976e4"
+    "last_seen_at": "2026-08-23T03:10:36.0069479Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "c32609b08f4c45b56597534b906976e4",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.BigBochka",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "f5ad80624d7daf410224858a4028cb9a"
+    "last_seen_at": "2026-08-23T03:10:36.0069485Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "f5ad80624d7daf410224858a4028cb9a",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.Bochka",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "418a48b378dace22ddab9eecc911df17"
+    "last_seen_at": "2026-08-23T03:10:36.0069491Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "418a48b378dace22ddab9eecc911df17",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.BochkaBeer",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "ee2b6e856efd1d219bce949ecd55dc55"
+    "last_seen_at": "2026-08-23T03:10:36.0069497Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "ee2b6e856efd1d219bce949ecd55dc55",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.BochkaCider",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "8c47371a69045474c2225e156fee80bd"
+    "last_seen_at": "2026-08-23T03:10:36.0069505Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "8c47371a69045474c2225e156fee80bd",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.BochkaMaturingBeer",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "b2dd0d108f4ddca5b0e0c3aac3b40286"
+    "last_seen_at": "2026-08-23T03:10:36.0069510Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "b2dd0d108f4ddca5b0e0c3aac3b40286",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.BochkaMaturingCider",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "780245b06b2e1368828199bf004e9390"
+    "last_seen_at": "2026-08-23T03:10:36.0069517Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "780245b06b2e1368828199bf004e9390",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.BochkaMaturingWhiskey",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "ddadb65808b11282b51a9d9d8b4db11b"
+    "last_seen_at": "2026-08-23T03:10:36.0069525Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "ddadb65808b11282b51a9d9d8b4db11b",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.BochkaMaturingWine",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "9a9636ee29c58f8fd8f357784a59ce3c"
+    "last_seen_at": "2026-08-23T03:10:36.0069531Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "9a9636ee29c58f8fd8f357784a59ce3c",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.BochkaWhiskey",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "d73db7ff3c3c360ef954f44687ae049d"
+    "last_seen_at": "2026-08-23T03:10:36.0069534Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "d73db7ff3c3c360ef954f44687ae049d",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.BochkaWine",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "982981a26395510f9c34e0eb67ce882d"
+    "last_seen_at": "2026-08-23T03:10:36.0069539Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "982981a26395510f9c34e0eb67ce882d",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.CherrySaplingBox",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "59b4f132c4bdc31705bb539bac382040"
+    "last_seen_at": "2026-08-23T03:10:36.0069547Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "59b4f132c4bdc31705bb539bac382040",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.CherryTree",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "d3f53c1ce397cac7358f0d6fecd24bed"
+    "last_seen_at": "2026-08-23T03:10:36.0069553Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "d3f53c1ce397cac7358f0d6fecd24bed",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.FermentatingWhiskeyWort",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "e69ec12477432df1aa2be16c4524dd65"
+    "last_seen_at": "2026-08-23T03:10:36.0069561Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "e69ec12477432df1aa2be16c4524dd65",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.FermnentatedWhiskeyWort",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "9eec0993a0f6d16656e62a16090947d3"
+    "last_seen_at": "2026-08-23T03:10:36.0069571Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "9eec0993a0f6d16656e62a16090947d3",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.GrapeSeed",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "adaa26449412bea18e15555146b0c830"
+    "last_seen_at": "2026-08-23T03:10:36.0069575Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "adaa26449412bea18e15555146b0c830",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.Kastrulya",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "de9c890c9a86eb88bf05bc4f0dd922ee"
+    "last_seen_at": "2026-08-23T03:10:36.0069583Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "de9c890c9a86eb88bf05bc4f0dd922ee",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.MaturingVinegarJar",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "22018a174f26f3132ef2f76cac58d4cb"
+    "last_seen_at": "2026-08-23T03:10:36.0069589Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "22018a174f26f3132ef2f76cac58d4cb",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.MaturingYeastJar",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "42ef3712f853dc2235f4d8d6f4ab16f0"
+    "last_seen_at": "2026-08-23T03:10:36.0069597Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "42ef3712f853dc2235f4d8d6f4ab16f0",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.RockSalt",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "75870c2e9e5cde7a9fd099354f97e214"
+    "last_seen_at": "2026-08-23T03:10:36.0069603Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "75870c2e9e5cde7a9fd099354f97e214",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.SugarBase",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "aea2f5c0fee0deb9d30ea8b5c619adc7"
+    "last_seen_at": "2026-08-23T03:10:36.0069609Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "aea2f5c0fee0deb9d30ea8b5c619adc7",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.VinegarJar",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "32965bfd6fc504864644706943a2125e"
+    "last_seen_at": "2026-08-23T03:10:36.0069613Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "32965bfd6fc504864644706943a2125e",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.WhiskeyPowder",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "ea9c95cb2453c109992349a3cd7da890"
+    "last_seen_at": "2026-08-23T03:10:36.0069620Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "ea9c95cb2453c109992349a3cd7da890",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.WhiskeyWort",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "2ab3054061752a9ad5f3403a69990987"
+    "last_seen_at": "2026-08-23T03:10:36.0069624Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "2ab3054061752a9ad5f3403a69990987",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.YeastJar",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "a534ce76aae2099d45cf27005fef5e69"
+    "last_seen_at": "2026-08-23T03:10:36.0069631Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "a534ce76aae2099d45cf27005fef5e69",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.driedmalt",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "d97a93dbc626bf98dbe51a6b584ceac3"
+    "last_seen_at": "2026-08-23T03:10:36.0069634Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "d97a93dbc626bf98dbe51a6b584ceac3",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.germinatingMalt",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "d1d1b8bb005c326d51992e6575e53c59"
+    "last_seen_at": "2026-08-23T03:10:36.0069642Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "d1d1b8bb005c326d51992e6575e53c59",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "ItemName_Base.germinatingMalt1",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "9cd7febce9ffebe5a44b9ae81e2fd579"
+    "last_seen_at": "2026-08-23T03:10:36.0069649Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "9cd7febce9ffebe5a44b9ae81e2fd579",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make 10L of Apple Juice",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069656Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "97285e4dff26e9aef8b7071fdc7bf120",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make 10L of Grape Juice",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069661Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "51884ca2c73791d13c0380f61bb7d78f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make 1L of Apple Juice",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069668Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "260fd522dd3129bf14a81ed06bebf09a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make 1L of Grape Juice",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069674Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "464da13cfd54bf158d3d5f033d7427dc",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make 5L of Apple Juice",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069679Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "48d3ae7348fc8887515c5e58fc8cb257",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make 5L of Grape Juice",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069684Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "88e30dffdb48ddc0c6de05edb6216222",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make Apple Sapling",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069689Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "02915d3c415e72b9dd0060076612fa3d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make Cherry Sapling",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069694Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "105141b3ef5eceb502ffe9cc2ce5a427",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make Fermentation Barrel",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069698Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "86be2529f4eda500133ec5e511b26acf",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make Fermentation Pot",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069706Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "e925d8e33a68e2249184d14e07d6656e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make Grape Seed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069711Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "a02164329e6d0f3630ed1b9ce2088ee2",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make Salt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069716Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "e27511b243d1a9d0337cb95b9d77864a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make Sugar",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069723Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "314fdd880505423aef7d17c6a53aa608",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make Sugar Base",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069730Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "037c97a55bd0a5d71f492e40b51f10b6",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make Wooden Barrel",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069739Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "b558b69f7a92eb3cc3566fe6ee3bb3b4",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make Yeast",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069744Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "7d0205182ea519be8aeae883ef962d09",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make powder for whiskey wort",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069749Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "33e35ead7379d34ab48caaeec80c7f2e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make vinegar from apple juice",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069757Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "b2102ddb20082c603b8da959b833ef4d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Make wort",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069765Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "d0e51e3cfc25351a76fad281e489ba62",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Prepare beer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069771Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "5d00d966ff7a2b2a4bcdf25b25d7f8c1",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Distill_whiskey",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "560f706f65d8b21a30768d74a295cfe0"
+    "last_seen_at": "2026-08-23T03:10:36.0069780Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "560f706f65d8b21a30768d74a295cfe0",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Dry_malt",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "a0fabbd15d441582710d23b17fd42865"
+    "last_seen_at": "2026-08-23T03:10:36.0069785Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "a0fabbd15d441582710d23b17fd42865",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Fermentate_Cider",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "166fc56e18129010a9ee7db15961a32d"
+    "last_seen_at": "2026-08-23T03:10:36.0069795Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "166fc56e18129010a9ee7db15961a32d",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Fermentate_Wine",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "ab8626ad72cebc37646ab9052c6d78ec"
+    "last_seen_at": "2026-08-23T03:10:36.0069801Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "ab8626ad72cebc37646ab9052c6d78ec",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Fermentate_wort",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "e717185bec5a98a15d6fb3f92b0fc6d5"
+    "last_seen_at": "2026-08-23T03:10:36.0069807Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "e717185bec5a98a15d6fb3f92b0fc6d5",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Finish_making_beer",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "094c9c25d98ccc46d6c1117dfcc111ef"
+    "last_seen_at": "2026-08-23T03:10:36.0069815Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "094c9c25d98ccc46d6c1117dfcc111ef",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Finish_making_cider",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "9b1a9a80869ce86aa0bd53ee7f225b44"
+    "last_seen_at": "2026-08-23T03:10:36.0069818Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "9b1a9a80869ce86aa0bd53ee7f225b44",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Finish_making_whiskey",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "3c5a9acad225149ae6571b3403674e43"
+    "last_seen_at": "2026-08-23T03:10:36.0069824Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "3c5a9acad225149ae6571b3403674e43",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Finish_making_wine",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "80d75ca8ccc518a30014fe206a2dd19a"
+    "last_seen_at": "2026-08-23T03:10:36.0069830Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "80d75ca8ccc518a30014fe206a2dd19a",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Germinate_Malt",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "8e73e2d06da60b261d59b63814c87fe4"
+    "last_seen_at": "2026-08-23T03:10:36.0069837Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "8e73e2d06da60b261d59b63814c87fe4",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_10L_of_Apple_Juice",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "010bf22ff2b27cd642bb281efeb46ea2"
+    "last_seen_at": "2026-08-23T03:10:36.0069843Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "010bf22ff2b27cd642bb281efeb46ea2",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_10L_of_Grape_Juice",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "ccf1826643ac32d7792d9ef9c045200b"
+    "last_seen_at": "2026-08-23T03:10:36.0069851Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "ccf1826643ac32d7792d9ef9c045200b",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_1L_of_Apple_Juice",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "75da76ac8b8ae64aa191428e91a5fc91"
+    "last_seen_at": "2026-08-23T03:10:36.0069856Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "75da76ac8b8ae64aa191428e91a5fc91",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_1L_of_Grape_Juice",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "0dfe51c5eb4a73cfbff3d92c2a973a37"
+    "last_seen_at": "2026-08-23T03:10:36.0069860Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "0dfe51c5eb4a73cfbff3d92c2a973a37",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_5L_of_Apple_Juice",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "4bc4c9d41718a48c63b164f1076f3f6a"
+    "last_seen_at": "2026-08-23T03:10:36.0069867Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "4bc4c9d41718a48c63b164f1076f3f6a",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_5L_of_Grape_Juice",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "4ab9bca2245e290783c1324a34ed05a6"
+    "last_seen_at": "2026-08-23T03:10:36.0069877Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "4ab9bca2245e290783c1324a34ed05a6",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_Apple_Sapling",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "1875f419be1859bffabd789640c7df35"
+    "last_seen_at": "2026-08-23T03:10:36.0069881Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "1875f419be1859bffabd789640c7df35",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_Fermentation_Barrel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "c95b24adebd6fd8f69d7765a4fb3087d"
+    "last_seen_at": "2026-08-23T03:10:36.0069890Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "c95b24adebd6fd8f69d7765a4fb3087d",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_Fermentation_Pot",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "b3fa18dd3a5a614efc87741952d17682"
+    "last_seen_at": "2026-08-23T03:10:36.0069897Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "b3fa18dd3a5a614efc87741952d17682",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_Grape_Seed",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "a18d547be3f6b915de35207c7e0fc49f"
+    "last_seen_at": "2026-08-23T03:10:36.0069904Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "a18d547be3f6b915de35207c7e0fc49f",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_Salt",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "930afb438cdaccc51af16ecc2cb17798"
+    "last_seen_at": "2026-08-23T03:10:36.0069911Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "930afb438cdaccc51af16ecc2cb17798",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_Sugar",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "8803db2ed1cb4d5e3b5045a9c45d8130"
+    "last_seen_at": "2026-08-23T03:10:36.0069916Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "8803db2ed1cb4d5e3b5045a9c45d8130",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_Sugar_Base",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "36a2b3eef2fc62f4acc4a7e0d72468c1"
+    "last_seen_at": "2026-08-23T03:10:36.0069922Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "36a2b3eef2fc62f4acc4a7e0d72468c1",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_Wooden_Barrel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "0776bcc18a2430b8a9b13f53b3864608"
+    "last_seen_at": "2026-08-23T03:10:36.0069926Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "0776bcc18a2430b8a9b13f53b3864608",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_Yeast",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "3e2edf79d3987996fc04f80b52b149bb"
+    "last_seen_at": "2026-08-23T03:10:36.0069932Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "3e2edf79d3987996fc04f80b52b149bb",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_powder_for_whiskey_wort",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "b3cfaf4eb55af19ef3efce29def0b6e0"
+    "last_seen_at": "2026-08-23T03:10:36.0069939Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "b3cfaf4eb55af19ef3efce29def0b6e0",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_vinegar_from_apple_juice",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "1e9d10f0bfbfeb743bb9368172c8b163"
+    "last_seen_at": "2026-08-23T03:10:36.0069947Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "1e9d10f0bfbfeb743bb9368172c8b163",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Make_wort",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "08575a098e8587b0b5c77014abf81009"
+    "last_seen_at": "2026-08-23T03:10:36.0069954Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "08575a098e8587b0b5c77014abf81009",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Prepare_beer",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "cfd38bad5a6db20e9395503ecad78883"
+    "last_seen_at": "2026-08-23T03:10:36.0069959Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "cfd38bad5a6db20e9395503ecad78883",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Remove_vinegar_from_jar",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "bb495d54f4eef3c0acf26169d974434c"
+    "last_seen_at": "2026-08-23T03:10:36.0069965Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "bb495d54f4eef3c0acf26169d974434c",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Remove_yeast_from_jar",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "31d6868c8a6172904a2b1cff34562e8d"
+    "last_seen_at": "2026-08-23T03:10:36.0069972Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "31d6868c8a6172904a2b1cff34562e8d",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Recipe_Unpack_Apple_Sapling",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "506124956e3f5e3af14d7850d63d9d0a"
+    "last_seen_at": "2026-08-23T03:10:36.0069978Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "506124956e3f5e3af14d7850d63d9d0a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Remove vinegar from jar",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069983Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "95596c8dc82f6234dfe975cd37848126",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Remove yeast from jar",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0069991Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "7920ce612e165ea163327fd748043895",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_driedmalt",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "707ff6460435c76901ecf86baf0e9075"
+    "last_seen_at": "2026-08-23T03:10:36.0069999Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "707ff6460435c76901ecf86baf0e9075",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_fermentatedwhiskeywort",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "097ec87d2f7b7ae87ca2c3eca826d21f"
+    "last_seen_at": "2026-08-23T03:10:36.0070005Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "097ec87d2f7b7ae87ca2c3eca826d21f",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_fermentatingwhiskeywort",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "52dfbf7048f9e9721ae4975c0a796a1f"
+    "last_seen_at": "2026-08-23T03:10:36.0070011Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "52dfbf7048f9e9721ae4975c0a796a1f",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_germinatingmalt",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "c4d70a53f3afd80b1e30ab3514e63995"
+    "last_seen_at": "2026-08-23T03:10:36.0070020Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "c4d70a53f3afd80b1e30ab3514e63995",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_maturingbeerbarrel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "13f053a9636b3773e045acc55fd5aebf"
+    "last_seen_at": "2026-08-23T03:10:36.0070026Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "13f053a9636b3773e045acc55fd5aebf",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_maturingwhiskeybarrel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "285f1dff26f06cc21f201d67701b5de1"
+    "last_seen_at": "2026-08-23T03:10:36.0070030Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "285f1dff26f06cc21f201d67701b5de1",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_maturingwinebarrel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "d193a4e360d0bab10eaf69519c061d72"
+    "last_seen_at": "2026-08-23T03:10:36.0070035Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "d193a4e360d0bab10eaf69519c061d72",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_readybarrel",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "688e2557e8b285b97e9b1c347ded57c0"
+    "last_seen_at": "2026-08-23T03:10:36.0070041Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "688e2557e8b285b97e9b1c347ded57c0",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_sproutedmalt",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "e193746a906455ec084ce0fb0feb7fb8"
+    "last_seen_at": "2026-08-23T03:10:36.0070045Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "e193746a906455ec084ce0fb0feb7fb8",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_vinegarjar",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "2cf47ed9f4569a99467522cc32091d01"
+    "last_seen_at": "2026-08-23T03:10:36.0070049Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "2cf47ed9f4569a99467522cc32091d01",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_whiskeypowder",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "0291f1180dd46a9e1f4fb868f8b3936e"
+    "last_seen_at": "2026-08-23T03:10:36.0070053Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "0291f1180dd46a9e1f4fb868f8b3936e",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_whiskeywort",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "7cb5458d3c7198d634cac9b6b4064350"
+    "last_seen_at": "2026-08-23T03:10:36.0070060Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "7cb5458d3c7198d634cac9b6b4064350",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3444499190",
     "translation_key": "Tooltip_yeastjar",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
-    "last_seen_mod_updated": "2025-12-23T19:06:35.0000000Z",
-    "source_hash": "bee6e0e96fadc7e65b97c03dec00dae5"
+    "last_seen_at": "2026-08-23T03:10:36.0070069Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "bee6e0e96fadc7e65b97c03dec00dae5",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Unpack Apple Sapling",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0070076Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "09edb8fe73afac301a938d4802263a2d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3444499190",
+    "translation_key": "Unpack Cherry Sapling",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:36.0070081Z",
+    "last_seen_mod_updated": "2026-08-22T17:42:37.0000000Z",
+    "source_hash": "d3466ceb846161339a1eb66484493d48",
+    "output_file_stem": "Recipes"
   }
 ]

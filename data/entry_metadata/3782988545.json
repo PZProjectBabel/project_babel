@@ -1,1322 +1,1748 @@
 [
   {
     "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_DirE",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "f29fb91bd5c06dc4419482cf5e5a6ea5",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_DirN",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "93846f59bbaba2643814e1d04acb4956",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_DirNE",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "56696fc4b5340b670707e8700b176cbc",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_DirNW",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "3c8efb315df2bd412593c963dd86edc0",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_DirS",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "75ab2a574e5e8f72633b7e74d2cef55a",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_DirSE",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "8cb19cd256746a5afc900e3fea30ecf1",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_DirSW",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "6801858fe5323eacae57a38ad8b6b6c7",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_DirW",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ab96382ce30604ceb2c162d53173b077",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RadioAt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "9f1b77462a20d98e00987b9a67877a28",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RadioHeader",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "46f3e3bae864d720e9d6484c5cfe76f7",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RadioNear",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "864354863143fccdd77a9c09a84bf7d4",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RadioNoOffers",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "fbdc983dff48408ea3145651994e4f71",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RadioOffAir",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ba99e07e0429b44772e6a3099267f483",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RadioOffAirDead",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "0c44c3857579895728472ff9568ec6c0",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RadioOfferItem",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "06f7f52c1620246594d1f2e1d3e4dffc",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RadioOffers",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ad8175c301d90f76acf677c4df612d65",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RadioRoad",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ad46c043eab39d37ab9f37dc741195a1",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RadioSignOff",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ab1a9ba9ba369dcf7cf5a39ae225259e",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RadioWhere",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "2126a702e1d76fe43cc9056025be4b4e",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RestockDays",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "bd67a969951616613d95470c28d9001c",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RestockNow",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "fa0fa14606ab06fceccaa8e68963096c",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RestockSoldOut",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "2319e912632dcbd486c75dbaf19fa3a4",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_RestockToday",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "38d269fbc6752bc94a94ff7d4923b7eb",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_TownCoords",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "6fbbdcd621092111d33249697cfd72a9",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_TownMuldraugh",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "c5c51aa4fed9fb3315dd7ade8f7c4e15",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_TownRosewood",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "bddd2ba59bb54a65f873f4dc3e6ae28b",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_TownUnknown",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "092b22426d0b6af72b598fd9e1985c53",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "MBMRADIO_MBM_TownWestPoint",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "f31c4af59bce48e06756c7ed2526e7df",
+    "output_file_stem": "DynamicRadio"
+  },
+  {
+    "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Bounties",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "bdc5a231c963010e75a6b5ff82f57e16"
+    "last_seen_at": "2026-08-23T03:10:36.1491645Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "bdc5a231c963010e75a6b5ff82f57e16",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.CarSabotage",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "cf91d274b87017b9f94ca9e338aed090"
+    "last_seen_at": "2026-08-23T03:10:36.1491652Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "cf91d274b87017b9f94ca9e338aed090",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Dialogues",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "db07f4c96d976b32d31a041c852d2638"
+    "last_seen_at": "2026-08-23T03:10:36.1491657Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "db07f4c96d976b32d31a041c852d2638",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.FakeSurrender",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "de0f73899a6b8b51a1460f7b4563e541"
+    "last_seen_at": "2026-08-23T03:10:36.1491662Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "de0f73899a6b8b51a1460f7b4563e541",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.HordeBait",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "886fea35df9a55e7974e42d0b09a73fe"
+    "last_seen_at": "2026-08-23T03:10:36.1491665Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "886fea35df9a55e7974e42d0b09a73fe",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Limp",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "aef654cb2ba8afe763360d70b88a0210"
+    "last_seen_at": "2026-08-23T03:10:36.1491669Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "aef654cb2ba8afe763360d70b88a0210",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Loot",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "c1e7436216666cbb54d765b7c487876b"
+    "last_seen_at": "2026-08-23T03:10:36.1491674Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "c1e7436216666cbb54d765b7c487876b",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Market",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "567867cf2073684fe28305aadbfaa1df"
+    "last_seen_at": "2026-08-23T03:10:36.1491677Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "567867cf2073684fe28305aadbfaa1df",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3782988545",
+    "translation_key": "Sandbox_BEP.MarketRarity",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "5ef6d270d5717020630d417d0508102c",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Medic",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "a7be664522929c077af558e6283ef3f0"
+    "last_seen_at": "2026-08-23T03:10:36.1491682Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "a7be664522929c077af558e6283ef3f0",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Meds",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "f08a4469026fdb340e4d48e738c07f4d"
+    "last_seen_at": "2026-08-23T03:10:36.1491687Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "f08a4469026fdb340e4d48e738c07f4d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Morale",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "ae203078c55b9bf55e30a4e9a07bee9d"
+    "last_seen_at": "2026-08-23T03:10:36.1491693Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ae203078c55b9bf55e30a4e9a07bee9d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Negotiator",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "bf6e4cf16deab4e6dc0c560cfb2d01bc"
+    "last_seen_at": "2026-08-23T03:10:36.1491697Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "bf6e4cf16deab4e6dc0c560cfb2d01bc",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Pyro",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "1f47e9f17a05dc136aa3d0ecfa4bcb20"
+    "last_seen_at": "2026-08-23T03:10:36.1491702Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "1f47e9f17a05dc136aa3d0ecfa4bcb20",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Radio",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "6537658db1c020a946a6d675be4bc5c2"
+    "last_seen_at": "2026-08-23T03:10:36.1491704Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "6537658db1c020a946a6d675be4bc5c2",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Roadblock",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "0822eba0c1729983cbab23f6dc625e5a"
+    "last_seen_at": "2026-08-23T03:10:36.1491708Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "0822eba0c1729983cbab23f6dc625e5a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Scavenger",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "efeb3118065824168c16933a61427395"
+    "last_seen_at": "2026-08-23T03:10:36.1491712Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "efeb3118065824168c16933a61427395",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Sidearm",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "cdc4b64373f4221f326f37a6532971a4"
+    "last_seen_at": "2026-08-23T03:10:36.1491715Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "cdc4b64373f4221f326f37a6532971a4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.SmokeAmbush",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "66767fd6242c6a68ddd96639c8586ccd"
+    "last_seen_at": "2026-08-23T03:10:36.1491719Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "66767fd6242c6a68ddd96639c8586ccd",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.TeamPVC",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "cb5008bcd05dd90adcb1709c269bf66f"
+    "last_seen_at": "2026-08-23T03:10:36.1491723Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "cb5008bcd05dd90adcb1709c269bf66f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.TeamPVCDebut",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "bfb2ae9b88237c3b8abfde540b05b3eb"
+    "last_seen_at": "2026-08-23T03:10:36.1491725Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "bfb2ae9b88237c3b8abfde540b05b3eb",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP.Torch",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "e287742e31a76ce5b489097ce6535334"
+    "last_seen_at": "2026-08-23T03:10:36.1491731Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "e287742e31a76ce5b489097ce6535334",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP_Content",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "5a8afb2e8727b73a3f26229f97aeb10f"
+    "last_seen_at": "2026-08-23T03:10:36.1491736Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "5a8afb2e8727b73a3f26229f97aeb10f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP_General",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "9df2114a7e973ad1f6b08f71d4af8db0"
+    "last_seen_at": "2026-08-23T03:10:36.1491742Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "9df2114a7e973ad1f6b08f71d4af8db0",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "Sandbox_BEP_Tactics",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "a606236856f941d9121cd7308fe1b225"
+    "last_seen_at": "2026-08-23T03:10:36.1491746Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "a606236856f941d9121cd7308fe1b225",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_ChispaBoom",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "899a787f57a4608ae71ff7929027fc9a"
+    "last_seen_at": "2026-08-23T03:10:36.1491753Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "899a787f57a4608ae71ff7929027fc9a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_ChispaWarn10",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "e1789d771d24955437cdaf374d048b06"
+    "last_seen_at": "2026-08-23T03:10:36.1491757Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "e1789d771d24955437cdaf374d048b06",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_ChispaWarn30",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "095ef2a89100c15720326f1e6706cf7b"
+    "last_seen_at": "2026-08-23T03:10:36.1491764Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "095ef2a89100c15720326f1e6706cf7b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_ChispaWarn5",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "5ab6925e6b325dd2f27211d36886f89c"
+    "last_seen_at": "2026-08-23T03:10:36.1491768Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "5ab6925e6b325dd2f27211d36886f89c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_ChispaWarn60",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "eea884226d8079fa32f37d04e5fc7ec9"
+    "last_seen_at": "2026-08-23T03:10:36.1491773Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "eea884226d8079fa32f37d04e5fc7ec9",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_DebugDiagnose",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "2bb29cf8c508058bfa74f5469b823dc6"
+    "last_seen_at": "2026-08-23T03:10:36.1491776Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "2bb29cf8c508058bfa74f5469b823dc6",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_DebugMenu",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "850d45ddc73ae8258f51a3a4d9571f3f"
+    "last_seen_at": "2026-08-23T03:10:36.1491782Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "850d45ddc73ae8258f51a3a4d9571f3f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_DebugReinject",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "6163f2909022d0a7937092ebe77bb143"
+    "last_seen_at": "2026-08-23T03:10:36.1491788Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "6163f2909022d0a7937092ebe77bb143",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_DebugSpawnChispa",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "36c0b77da1b4b978d452f2f27b6e441a"
+    "last_seen_at": "2026-08-23T03:10:36.1491792Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "36c0b77da1b4b978d452f2f27b6e441a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_DebugSpawnElite",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "6fed60b53893014b994cb7b2d02386a8"
+    "last_seen_at": "2026-08-23T03:10:36.1491796Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "6fed60b53893014b994cb7b2d02386a8",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_DebugSpawnHere",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "409b5dd733bf733beaf8dfb0079574a7"
+    "last_seen_at": "2026-08-23T03:10:36.1491801Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "409b5dd733bf733beaf8dfb0079574a7",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_IntroChispa",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "ca0403f5926491e29478896a7a539cbb"
+    "last_seen_at": "2026-08-23T03:10:36.1491808Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ca0403f5926491e29478896a7a539cbb",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_IntroEvaristo",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "ec5dd4e5fcda86065bf825109eb50e30"
+    "last_seen_at": "2026-08-23T03:10:36.1491811Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ec5dd4e5fcda86065bf825109eb50e30",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_IntroGaston",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "053f5dc1d24fdb3ae3afed6407c75457"
+    "last_seen_at": "2026-08-23T03:10:36.1491816Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "053f5dc1d24fdb3ae3afed6407c75457",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_IntroKhris",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "ec2aed45dcc20d3cae3fe68e4f44ff0f"
+    "last_seen_at": "2026-08-23T03:10:36.1491820Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ec2aed45dcc20d3cae3fe68e4f44ff0f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_IntroMauricio",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "7dfb24c784746e64c36ef140749d0e17"
+    "last_seen_at": "2026-08-23T03:10:36.1491823Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "7dfb24c784746e64c36ef140749d0e17",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_IntroNealcito",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "2ec2009cf4bd2e2b51a145af2d087158"
+    "last_seen_at": "2026-08-23T03:10:36.1491827Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "2ec2009cf4bd2e2b51a145af2d087158",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_IntroNep",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "707166a687b5c58d4e920a08801ddb15"
+    "last_seen_at": "2026-08-23T03:10:36.1491831Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "707166a687b5c58d4e920a08801ddb15",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_Phrase1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "0e5805c8641795d1e1897abbc5c9c283"
+    "last_seen_at": "2026-08-23T03:10:36.1491834Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "0e5805c8641795d1e1897abbc5c9c283",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_Phrase2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "8fb14a1fbc93238931cf695c8d2275c3"
+    "last_seen_at": "2026-08-23T03:10:36.1491839Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "8fb14a1fbc93238931cf695c8d2275c3",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_PVC_Phrase3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "59cce78c6b55f9b82fcf575e3beb117d"
+    "last_seen_at": "2026-08-23T03:10:36.1491842Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "59cce78c6b55f9b82fcf575e3beb117d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TA2_EvaristoLastWords",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "a424daf829c6777a90727aae654cc21e"
+    "last_seen_at": "2026-08-23T03:10:36.1491847Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "a424daf829c6777a90727aae654cc21e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TA2_HordeBaitTaunt",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "efbe86804906c3a504ba9e4638786dac"
+    "last_seen_at": "2026-08-23T03:10:36.1491852Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "efbe86804906c3a504ba9e4638786dac",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TA2_SurrenderBetray",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "4aed9b2d2e2d1871e5c59d282860aca8"
+    "last_seen_at": "2026-08-23T03:10:36.1491856Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "4aed9b2d2e2d1871e5c59d282860aca8",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TA2_SurrenderFake",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "ea3167293e5fdfad28ae85e92f3db772"
+    "last_seen_at": "2026-08-23T03:10:36.1491860Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ea3167293e5fdfad28ae85e92f3db772",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TA_CaptainDown",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "15e1e87ffc74f2172943dbd34b52cc95"
+    "last_seen_at": "2026-08-23T03:10:36.1491865Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "15e1e87ffc74f2172943dbd34b52cc95",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TB_NoteBody",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "2015af4565628c3029e0d430560b6356"
+    "last_seen_at": "2026-08-23T03:10:36.1491870Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "2015af4565628c3029e0d430560b6356",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TB_NoteTitle",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "2689af32ed9e31f1c2f8fc7accd63a76"
+    "last_seen_at": "2026-08-23T03:10:36.1491873Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "2689af32ed9e31f1c2f8fc7accd63a76",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_AllyDied1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "8bfa1586ec7d8d20b2fde8db178f3256"
+    "last_seen_at": "2026-08-23T03:10:36.1491876Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "8bfa1586ec7d8d20b2fde8db178f3256",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_AllyDied2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "b19acafbc35ed43c264477d2125bacc4"
+    "last_seen_at": "2026-08-23T03:10:36.1491879Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "b19acafbc35ed43c264477d2125bacc4",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_AllyDied3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "27e217ca31d838b34019da42cebb0ee0"
+    "last_seen_at": "2026-08-23T03:10:36.1491884Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "27e217ca31d838b34019da42cebb0ee0",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_AllyDied4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "a423e795c549f338ab319860a9879efd"
+    "last_seen_at": "2026-08-23T03:10:36.1491889Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "a423e795c549f338ab319860a9879efd",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_Dmg1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "23d2660ade036e09f1cc193d4af7636c"
+    "last_seen_at": "2026-08-23T03:10:36.1491893Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "23d2660ade036e09f1cc193d4af7636c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_Dmg2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "5a76afbed853e61dbdfa057b8ed2b8e8"
+    "last_seen_at": "2026-08-23T03:10:36.1491898Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "5a76afbed853e61dbdfa057b8ed2b8e8",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_Dmg3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "25e19f718019669685a26227fa66f54f"
+    "last_seen_at": "2026-08-23T03:10:36.1491901Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "25e19f718019669685a26227fa66f54f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_Dmg4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "fcbe6155ef14246adea5c303922622a6"
+    "last_seen_at": "2026-08-23T03:10:36.1491904Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "fcbe6155ef14246adea5c303922622a6",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_Dmg5",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "029c48ea682c5bcd15569a7ea9e2132c"
+    "last_seen_at": "2026-08-23T03:10:36.1491908Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "029c48ea682c5bcd15569a7ea9e2132c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_Reload1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "112c8275d7416e7c0b496fb385fb27db"
+    "last_seen_at": "2026-08-23T03:10:36.1491911Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "112c8275d7416e7c0b496fb385fb27db",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_Reload2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "bfd4c0d65bb0d5a9372b7a7df5960405"
+    "last_seen_at": "2026-08-23T03:10:36.1491916Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "bfd4c0d65bb0d5a9372b7a7df5960405",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_Reload3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "325d0ced9294601972b4b7dc6d6bebea"
+    "last_seen_at": "2026-08-23T03:10:36.1491920Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "325d0ced9294601972b4b7dc6d6bebea",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_Reload4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "c80b9a6ecfa2e68adc94138d14a965e5"
+    "last_seen_at": "2026-08-23T03:10:36.1491923Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "c80b9a6ecfa2e68adc94138d14a965e5",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TD_Unknown",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "9f831935dabda336966aad26c14b6e78"
+    "last_seen_at": "2026-08-23T03:10:36.1491926Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "9f831935dabda336966aad26c14b6e78",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Meds1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "6f25fb73025eef57f4d44e1e862d5a9b"
+    "last_seen_at": "2026-08-23T03:10:36.1491930Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "6f25fb73025eef57f4d44e1e862d5a9b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Meds2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "28f66ba09d85255398fd06e34f262d88"
+    "last_seen_at": "2026-08-23T03:10:36.1491936Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "28f66ba09d85255398fd06e34f262d88",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Meds3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "c436ec57d1c32c2247a5f808ab7878f5"
+    "last_seen_at": "2026-08-23T03:10:36.1491939Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "c436ec57d1c32c2247a5f808ab7878f5",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Negotiate1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "cd202909dfcc42fc48b40147f54e9d38"
+    "last_seen_at": "2026-08-23T03:10:36.1491946Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "cd202909dfcc42fc48b40147f54e9d38",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Negotiate2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "2294d497038aa9ed55c5936893114f08"
+    "last_seen_at": "2026-08-23T03:10:36.1491951Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "2294d497038aa9ed55c5936893114f08",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Negotiate3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "46888bb4889f3c616a7871160319cd23"
+    "last_seen_at": "2026-08-23T03:10:36.1491956Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "46888bb4889f3c616a7871160319cd23",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Negotiate4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "c27d094c6079826c7590af6ccbbd4370"
+    "last_seen_at": "2026-08-23T03:10:36.1491962Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "c27d094c6079826c7590af6ccbbd4370",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_NegotiateFail",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "a17e9d4f7fd6753e210743207ca67c0e"
+    "last_seen_at": "2026-08-23T03:10:36.1491968Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "a17e9d4f7fd6753e210743207ca67c0e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_NegotiateSuccess",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "cb7fed1bab14fe7446a42fb6657ec023"
+    "last_seen_at": "2026-08-23T03:10:36.1491972Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "cb7fed1bab14fe7446a42fb6657ec023",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Note1Body",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "f80cacd43b52da6f1491eb3f87fcb10b"
+    "last_seen_at": "2026-08-23T03:10:36.1491979Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "f80cacd43b52da6f1491eb3f87fcb10b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Note1Title",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "ca4bff4be63081fc6170ab5683976e62"
+    "last_seen_at": "2026-08-23T03:10:36.1491982Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ca4bff4be63081fc6170ab5683976e62",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Note2Body",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "a16f8d40087cf785f160d4f8be27ee39"
+    "last_seen_at": "2026-08-23T03:10:36.1491986Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "a16f8d40087cf785f160d4f8be27ee39",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Note2Title",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "ec917c116ba53677fb58987821e8934b"
+    "last_seen_at": "2026-08-23T03:10:36.1491989Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ec917c116ba53677fb58987821e8934b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Note3Body",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "acddd9a0f62fd54635135c18fe3775ff"
+    "last_seen_at": "2026-08-23T03:10:36.1491994Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "acddd9a0f62fd54635135c18fe3775ff",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Note3Title",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "c086f12118802fb00d195efe5716d50a"
+    "last_seen_at": "2026-08-23T03:10:36.1491999Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "c086f12118802fb00d195efe5716d50a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Note4Body",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "bf8c9a511806669e2df37e83ecdf386b"
+    "last_seen_at": "2026-08-23T03:10:36.1492003Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "bf8c9a511806669e2df37e83ecdf386b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Note4Title",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "72e6fa6018063a9b62b7bc8120517451"
+    "last_seen_at": "2026-08-23T03:10:36.1492007Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "72e6fa6018063a9b62b7bc8120517451",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Pyro1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "8c74fcb17669ab99567c1267198abeec"
+    "last_seen_at": "2026-08-23T03:10:36.1492011Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "8c74fcb17669ab99567c1267198abeec",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Pyro2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "aa7daaaa71662e005f0cc1ab04968329"
+    "last_seen_at": "2026-08-23T03:10:36.1492016Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "aa7daaaa71662e005f0cc1ab04968329",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Pyro3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "271396f73e3b6c0a6c986bb709f39730"
+    "last_seen_at": "2026-08-23T03:10:36.1492020Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "271396f73e3b6c0a6c986bb709f39730",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Radio1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "38a68239b72ba4f42e238537c23760e4"
+    "last_seen_at": "2026-08-23T03:10:36.1492026Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "38a68239b72ba4f42e238537c23760e4",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Radio2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "a32976a89a5ec0d5165dbd2f949f3054"
+    "last_seen_at": "2026-08-23T03:10:36.1492032Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "a32976a89a5ec0d5165dbd2f949f3054",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Radio3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "426d90e689354fed73cc077624aa7d8f"
+    "last_seen_at": "2026-08-23T03:10:36.1492037Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "426d90e689354fed73cc077624aa7d8f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Scavenge1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "7a2360445878d980da11c0cc7256bdc3"
+    "last_seen_at": "2026-08-23T03:10:36.1492042Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "7a2360445878d980da11c0cc7256bdc3",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Scavenge2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "abc146b922bbf56781916fa3be744f66"
+    "last_seen_at": "2026-08-23T03:10:36.1492047Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "abc146b922bbf56781916fa3be744f66",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Scavenge3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "8735069da3d07a4d8cea0edb0fdcd1cf"
+    "last_seen_at": "2026-08-23T03:10:36.1492052Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "8735069da3d07a4d8cea0edb0fdcd1cf",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Sidearm1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "8de1ca560a772198d6f13f2789202deb"
+    "last_seen_at": "2026-08-23T03:10:36.1492056Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "8de1ca560a772198d6f13f2789202deb",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Sidearm2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "7b23377a7c3ffb6811fb26dac8d7357b"
+    "last_seen_at": "2026-08-23T03:10:36.1492062Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "7b23377a7c3ffb6811fb26dac8d7357b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_Sidearm3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "9c1d27bc8cfac04b65fc29a0112ff26c"
+    "last_seen_at": "2026-08-23T03:10:36.1492065Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "9c1d27bc8cfac04b65fc29a0112ff26c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TQW_UnknownBandit",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "edda304d119354b38e197a54b795164d"
+    "last_seen_at": "2026-08-23T03:10:36.1492070Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "edda304d119354b38e197a54b795164d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TR_DebugForce",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "981ed3ac0df1b4c8aae8f0486f5f9010"
+    "last_seen_at": "2026-08-23T03:10:36.1492074Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "981ed3ac0df1b4c8aae8f0486f5f9010",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TR_DebugMenu",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "e0f5250bf9896ea0c3b2075d28ec8178"
+    "last_seen_at": "2026-08-23T03:10:36.1492079Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "e0f5250bf9896ea0c3b2075d28ec8178",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TR_DebugTeleport",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "d82703f7fd0ff3bf22ebe811d61b8d2c"
+    "last_seen_at": "2026-08-23T03:10:36.1492083Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "d82703f7fd0ff3bf22ebe811d61b8d2c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TR_NoteBody",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "fc8d61741b6b7c233caefe77ec4d1fc0"
+    "last_seen_at": "2026-08-23T03:10:36.1492086Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "fc8d61741b6b7c233caefe77ec4d1fc0",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_BEP_TR_NoteTitle",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "b9135185b6b3ba2786ff5e8860755326"
+    "last_seen_at": "2026-08-23T03:10:36.1492092Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "b9135185b6b3ba2786ff5e8860755326",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_Buy",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "bd890909c868944bd388a3651f305323"
+    "last_seen_at": "2026-08-23T03:10:36.1492096Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "bd890909c868944bd388a3651f305323",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_BuyOk",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "dcdbc4cf13f4e2f996d3ac2aca3b1741"
+    "last_seen_at": "2026-08-23T03:10:36.1492101Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "dcdbc4cf13f4e2f996d3ac2aca3b1741",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_Close",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "75937a64ffd85f8e056ba4631901692d"
+    "last_seen_at": "2026-08-23T03:10:36.1492105Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "75937a64ffd85f8e056ba4631901692d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_ContextTrade",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "412112c02c84df90fd895b4c2649227e"
+    "last_seen_at": "2026-08-23T03:10:36.1492110Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "412112c02c84df90fd895b4c2649227e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_DebugMenu",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "0a9666160ac6d0140baa3bcf67e541d6"
+    "last_seen_at": "2026-08-23T03:10:36.1492114Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "0a9666160ac6d0140baa3bcf67e541d6",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_DebugSpawnHere",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "9267fa308e79961475f2df311c0acf59"
+    "last_seen_at": "2026-08-23T03:10:36.1492118Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "9267fa308e79961475f2df311c0acf59",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_DirE",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "ddfbc8f01770ae5f70f9bf1d298ca839"
+    "last_seen_at": "2026-08-23T03:10:36.1492123Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "ddfbc8f01770ae5f70f9bf1d298ca839",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_DirN",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "7dc00dafc413e2388753ba405bd03d05"
+    "last_seen_at": "2026-08-23T03:10:36.1492130Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "7dc00dafc413e2388753ba405bd03d05",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_DirNE",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "bd13314002ca3126ad7f2ac3d1018e8d"
+    "last_seen_at": "2026-08-23T03:10:36.1492133Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "bd13314002ca3126ad7f2ac3d1018e8d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_DirNW",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "3b5c395441439ae071ac0f777ccb2aef"
+    "last_seen_at": "2026-08-23T03:10:36.1492136Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "3b5c395441439ae071ac0f777ccb2aef",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_DirS",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "f850a7c46b4b85f285c5425e074097a1"
+    "last_seen_at": "2026-08-23T03:10:36.1492142Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "f850a7c46b4b85f285c5425e074097a1",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_DirSE",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "529fb9e3b542e2d8adcf9e9b9e401f27"
+    "last_seen_at": "2026-08-23T03:10:36.1492145Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "529fb9e3b542e2d8adcf9e9b9e401f27",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_DirSW",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "55f988d5e903a926c4b90ba634268c9a"
+    "last_seen_at": "2026-08-23T03:10:36.1492147Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "55f988d5e903a926c4b90ba634268c9a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_DirW",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "a6106fe0c0e67fe16a4722a999f80858"
+    "last_seen_at": "2026-08-23T03:10:36.1492151Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "a6106fe0c0e67fe16a4722a999f80858",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_ErrBadRequest",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "689d2412216b0a95eddb1a6853763806"
+    "last_seen_at": "2026-08-23T03:10:36.1492154Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "689d2412216b0a95eddb1a6853763806",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_ErrBusy",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "e2b7ef52bceec3a2a6bbfc4d82e0123a"
+    "last_seen_at": "2026-08-23T03:10:36.1492157Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "e2b7ef52bceec3a2a6bbfc4d82e0123a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_ErrFailed",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "31601c56ac48e6215d6f5158a6c94c20"
+    "last_seen_at": "2026-08-23T03:10:36.1492160Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "31601c56ac48e6215d6f5158a6c94c20",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_ErrNoMarket",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "4ebc6d85e19a78e826cba683abce9288"
+    "last_seen_at": "2026-08-23T03:10:36.1492164Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "4ebc6d85e19a78e826cba683abce9288",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_ErrNoMoney",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "2bb8919f996ccbb1590b79774e2fc79f"
+    "last_seen_at": "2026-08-23T03:10:36.1492169Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "2bb8919f996ccbb1590b79774e2fc79f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_ErrNoStock",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "7c5c6267037693db2d285c7c5b12d1cd"
+    "last_seen_at": "2026-08-23T03:10:36.1492172Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "7c5c6267037693db2d285c7c5b12d1cd",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_ErrTooFar",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "1bff296b2620ce8c84edccd7abc86764"
+    "last_seen_at": "2026-08-23T03:10:36.1492179Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "1bff296b2620ce8c84edccd7abc86764",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardAvenge1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "988ccf9f7ab9cc14dfaa37332616b6c0"
+    "last_seen_at": "2026-08-23T03:10:36.1492184Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "988ccf9f7ab9cc14dfaa37332616b6c0",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardAvenge2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "f088b9734cf3414fe4c6b1bf5c863300"
+    "last_seen_at": "2026-08-23T03:10:36.1492189Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "f088b9734cf3414fe4c6b1bf5c863300",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardAvenge3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "f1a99e71b3807512bd638ee541c965ef"
+    "last_seen_at": "2026-08-23T03:10:36.1492193Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "f1a99e71b3807512bd638ee541c965ef",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardBetray1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "88dd542910f8a4128d976fa981265d79"
+    "last_seen_at": "2026-08-23T03:10:36.1492197Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "88dd542910f8a4128d976fa981265d79",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardBetray2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "3c3b811ab0d3c42532d1738b64c445b3"
+    "last_seen_at": "2026-08-23T03:10:36.1492201Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "3c3b811ab0d3c42532d1738b64c445b3",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardBetray3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "53c16137603ae1b251ff28be0b3f7a69"
+    "last_seen_at": "2026-08-23T03:10:36.1492205Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "53c16137603ae1b251ff28be0b3f7a69",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardCombat1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "a5b178260467061da6d93623fb9f9b1e"
+    "last_seen_at": "2026-08-23T03:10:36.1492208Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "a5b178260467061da6d93623fb9f9b1e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardCombat2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "fbc3bf737e989276485995cf6a6f001f"
+    "last_seen_at": "2026-08-23T03:10:36.1492211Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "fbc3bf737e989276485995cf6a6f001f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardCombat3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "c52788e4051729d898a38d2e02dc74cf"
+    "last_seen_at": "2026-08-23T03:10:36.1492214Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "c52788e4051729d898a38d2e02dc74cf",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardWarn1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "5abd73ad16889c39b1cbab271f84f7b7"
+    "last_seen_at": "2026-08-23T03:10:36.1492219Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "5abd73ad16889c39b1cbab271f84f7b7",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardWarn2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "32c9b4acbe97ce33f962468d95ac7250"
+    "last_seen_at": "2026-08-23T03:10:36.1492222Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "32c9b4acbe97ce33f962468d95ac7250",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardWarn3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "bb5e7f2e4ef1f68ebda3909a4c3e27af"
+    "last_seen_at": "2026-08-23T03:10:36.1492226Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "bb5e7f2e4ef1f68ebda3909a4c3e27af",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_GuardWarn4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "3aafce88fa0106977025038aa21848bc"
+    "last_seen_at": "2026-08-23T03:10:36.1492228Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "3aafce88fa0106977025038aa21848bc",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_MerchantBetray1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "5e8a84befddddbc5a0ab18a47b2e92ae"
+    "last_seen_at": "2026-08-23T03:10:36.1492233Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "5e8a84befddddbc5a0ab18a47b2e92ae",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_MerchantBetray2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "f8d1dc24af2f7e598272d283b53af89a"
+    "last_seen_at": "2026-08-23T03:10:36.1492237Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "f8d1dc24af2f7e598272d283b53af89a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_MerchantGreet1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "57cad6f2d3d36708c7ef06e1ef88e38b"
+    "last_seen_at": "2026-08-23T03:10:36.1492239Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "57cad6f2d3d36708c7ef06e1ef88e38b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_MerchantGreet2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "da63f7ce9e491f89bc30be8a475416bc"
+    "last_seen_at": "2026-08-23T03:10:36.1492242Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "da63f7ce9e491f89bc30be8a475416bc",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_MerchantGreet3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "14940c7d28907abc5d75e7f3dd6efdd0"
+    "last_seen_at": "2026-08-23T03:10:36.1492246Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "14940c7d28907abc5d75e7f3dd6efdd0",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_MerchantIdle1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "b12ccbabe53378f42bb2f2acb0483621"
+    "last_seen_at": "2026-08-23T03:10:36.1492251Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "b12ccbabe53378f42bb2f2acb0483621",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_MerchantIdle2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "e252f65ed3b4cbc2d5300cc105fb009c"
+    "last_seen_at": "2026-08-23T03:10:36.1492256Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "e252f65ed3b4cbc2d5300cc105fb009c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_MerchantIdle3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "2379976418f3aa22398f2c359f5f991d"
+    "last_seen_at": "2026-08-23T03:10:36.1492260Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "2379976418f3aa22398f2c359f5f991d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_MoneyLine",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "432d4a8ef57552e396c28055d30e74b0"
+    "last_seen_at": "2026-08-23T03:10:36.1492264Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "432d4a8ef57552e396c28055d30e74b0",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RadioAt",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "3c207991b3d8a3dd50d35382ad06b314"
+    "last_seen_at": "2026-08-23T03:10:36.1492270Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "3c207991b3d8a3dd50d35382ad06b314",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RadioHeader",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "b5ee1a6f23e9c699b63b9300be342459"
+    "last_seen_at": "2026-08-23T03:10:36.1492274Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "b5ee1a6f23e9c699b63b9300be342459",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RadioNear",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "cfd803566aa0fbd7314d4fbb1d1b4f3b"
+    "last_seen_at": "2026-08-23T03:10:36.1492277Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "cfd803566aa0fbd7314d4fbb1d1b4f3b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RadioNoOffers",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "8f8dea0a8fb4dd2d013a927bf27c853a"
+    "last_seen_at": "2026-08-23T03:10:36.1492281Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "8f8dea0a8fb4dd2d013a927bf27c853a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RadioOffAir",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "608ce339585fe5418cef50d1b6b4d702"
+    "last_seen_at": "2026-08-23T03:10:36.1492285Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "608ce339585fe5418cef50d1b6b4d702",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RadioOffAirDead",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "e604cfa1dd8017c87844c4fc9c07af2a"
+    "last_seen_at": "2026-08-23T03:10:36.1492290Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "e604cfa1dd8017c87844c4fc9c07af2a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RadioOfferItem",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "c48adc5030e8d77b7cd3e3aa0870441a"
+    "last_seen_at": "2026-08-23T03:10:36.1492294Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "c48adc5030e8d77b7cd3e3aa0870441a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RadioOffers",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "3fc3091f4c9d7db6b4f1f2c60dc2d9f2"
+    "last_seen_at": "2026-08-23T03:10:36.1492298Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "3fc3091f4c9d7db6b4f1f2c60dc2d9f2",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RadioRoad",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "af510dbdfe79ffd8ae82bef5d199f36c"
+    "last_seen_at": "2026-08-23T03:10:36.1492302Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "af510dbdfe79ffd8ae82bef5d199f36c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RadioSignOff",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "4d7fd2608cafe66e0cb27b85d61e2f71"
+    "last_seen_at": "2026-08-23T03:10:36.1492308Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "4d7fd2608cafe66e0cb27b85d61e2f71",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RadioWhere",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "4c9629fb0d3f4a8169ac42590f920d60"
+    "last_seen_at": "2026-08-23T03:10:36.1492310Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "4c9629fb0d3f4a8169ac42590f920d60",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RestockDays",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "32e977e484650de7536a541f97a54bbb"
+    "last_seen_at": "2026-08-23T03:10:36.1492314Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "32e977e484650de7536a541f97a54bbb",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RestockNow",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "7dddb136cdfa2abda380d3d129c7ac8e"
+    "last_seen_at": "2026-08-23T03:10:36.1492317Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "7dddb136cdfa2abda380d3d129c7ac8e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RestockSoldOut",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "b6dc09a3cec6f9ae58d3608ea399022d"
+    "last_seen_at": "2026-08-23T03:10:36.1492321Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "b6dc09a3cec6f9ae58d3608ea399022d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_RestockToday",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "aabc2abd489d9df47ca952d8d7f564d5"
+    "last_seen_at": "2026-08-23T03:10:36.1492326Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "aabc2abd489d9df47ca952d8d7f564d5",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_Title",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "93ab910e4b499788a8fd05343c5f531f"
+    "last_seen_at": "2026-08-23T03:10:36.1492330Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "93ab910e4b499788a8fd05343c5f531f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_TownCoords",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "7ad003135e7e10f1cf768b39494f49e2"
+    "last_seen_at": "2026-08-23T03:10:36.1492335Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "7ad003135e7e10f1cf768b39494f49e2",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_TownMuldraugh",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "0d2c2cd8df8a93d1fc822a149980e88a"
+    "last_seen_at": "2026-08-23T03:10:36.1492337Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "0d2c2cd8df8a93d1fc822a149980e88a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_TownRosewood",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "bda2056432d473cc085c0a435d011179"
+    "last_seen_at": "2026-08-23T03:10:36.1492342Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "bda2056432d473cc085c0a435d011179",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_TownUnknown",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "e48fd478cb441cd2b9193d9729a6d73b"
+    "last_seen_at": "2026-08-23T03:10:36.1492349Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "e48fd478cb441cd2b9193d9729a6d73b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3782988545",
     "translation_key": "UI_MBM_TownWestPoint",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-21T02:29:36.0000000Z",
-    "source_hash": "a322e30c1e307e5a62b5033ee9a125e9"
+    "last_seen_at": "2026-08-23T03:10:36.1492353Z",
+    "last_seen_mod_updated": "2026-08-23T02:12:58.0000000Z",
+    "source_hash": "a322e30c1e307e5a62b5033ee9a125e9",
+    "output_file_stem": "UI"
   }
 ]

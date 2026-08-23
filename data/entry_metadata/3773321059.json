@@ -1,138 +1,2549 @@
 [
   {
     "mod_id": "3773321059",
+    "translation_key": "ContextMenu_playermissions_manage_missions",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "9ae42f11992f94f60461413de85c71d9",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "ContextMenu_playermissions_mission_definitions",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b38aa06bc56b0356fda930b947d8cc8b",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "ContextMenu_playermissions_mission_statistics",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "22c66c0429dda94b963752b52fdbf3cf",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "ContextMenu_playermissions_mission_totem_elsewhere",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "98b6e6f7045febc92d251f4b2bc53728",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "ContextMenu_playermissions_root",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "7563b8169239e7b76ea6bed19c6416e0",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "85ec209e58b1de513780115085c35584"
+    "last_seen_at": "2026-08-23T03:10:36.1283643Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "85ec209e58b1de513780115085c35584",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_AutoImportNewMissions",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "9b733f27692f6f4a455b418049f2cd9e"
+    "last_seen_at": "2026-08-23T03:10:36.1283654Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "9b733f27692f6f4a455b418049f2cd9e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_CooldownIRLHours",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "775c9c84a5470423d0cdd86f49f86dba"
+    "last_seen_at": "2026-08-23T03:10:36.1283661Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "775c9c84a5470423d0cdd86f49f86dba",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Sandbox_CBBPlayerMissions_MaxMissionOffers",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "eeed3c42b2f296e05cbf5d8087b5603c",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_MissionDifficultyChances",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "77c5228107bc7410d332595b409bab1d"
+    "last_seen_at": "2026-08-23T03:10:36.1283668Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "77c5228107bc7410d332595b409bab1d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_MissionDifficultyChances_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "6439fb7efe4c639972e12c2c5b336b71"
+    "last_seen_at": "2026-08-23T03:10:36.1283673Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "6439fb7efe4c639972e12c2c5b336b71",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_MissionDifficultyChances_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "b2b769590789fe27580202aa1785962f"
+    "last_seen_at": "2026-08-23T03:10:36.1283679Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b2b769590789fe27580202aa1785962f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_MissionDifficultyChances_option3",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "895dfbf94d7703e092af1831d96be742"
+    "last_seen_at": "2026-08-23T03:10:36.1283682Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "895dfbf94d7703e092af1831d96be742",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_MissionDifficultyChances_option4",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "5ff0f462ba17de6911c0455e4bd912e8"
+    "last_seen_at": "2026-08-23T03:10:36.1283685Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "5ff0f462ba17de6911c0455e4bd912e8",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_MissionDifficultyChances_option5",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "a2dcd2225aba6ba340ccc922b7040daf"
+    "last_seen_at": "2026-08-23T03:10:36.1283691Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a2dcd2225aba6ba340ccc922b7040daf",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_MissionMapBounds",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "a4443bffae136fa9ee5be59bcdf63d61"
+    "last_seen_at": "2026-08-23T03:10:36.1283698Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a4443bffae136fa9ee5be59bcdf63d61",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_NewMissionChance",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "c6eaf7a3884a32d0e078a1076275782e"
+    "last_seen_at": "2026-08-23T03:10:36.1283703Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "c6eaf7a3884a32d0e078a1076275782e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_NewMissionChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "7fe65db6157f22a678ea952e59a17460"
+    "last_seen_at": "2026-08-23T03:10:36.1283709Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "7fe65db6157f22a678ea952e59a17460",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_RewardXP",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "db0aef22871cd549511dc6be57b4d188"
+    "last_seen_at": "2026-08-23T03:10:36.1283714Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "db0aef22871cd549511dc6be57b4d188",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_SearchRadiusTiles",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "28dde23b20e4387cc6e27d25c9aa4975"
+    "last_seen_at": "2026-08-23T03:10:36.1283719Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "28dde23b20e4387cc6e27d25c9aa4975",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_TotemCoordinates",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "339e8740556ca602664779981ba57fee"
+    "last_seen_at": "2026-08-23T03:10:36.1283725Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "339e8740556ca602664779981ba57fee",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_TotemEnabled",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "caddb9f703e7961d265d9c0ab73620fe"
+    "last_seen_at": "2026-08-23T03:10:36.1283731Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "caddb9f703e7961d265d9c0ab73620fe",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3773321059",
     "translation_key": "Sandbox_CBBPlayerMissions_TotemRadius",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
-    "last_seen_mod_updated": "2026-08-16T16:37:42.0000000Z",
-    "source_hash": "8f195de13f38fc11acd3338278656e28"
+    "last_seen_at": "2026-08-23T03:10:36.1283734Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "8f195de13f38fc11acd3338278656e28",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_description",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "c85538812045e334ad43d82557812b89",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_difficulty",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "2e5a2579adc90369e52e6fa318b2168e",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_execute_in",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "7d76d87ecaa3ada3e88fe0b2b16219c3",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_id",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "f02bfff59cd345b991a3aae8ce029249",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_maximum_distance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "af8af6466d0f7ed660ad9efba99b8558",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_min_distance_collect",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "ea84c542b56d4a42ed608d66fc7406cb",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_min_distance_default",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "d6eb1e77d649bd15feb062bd2b24a0c4",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_min_distance_fetch",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "93909a0fed8b742c3c20e7b11fffb103",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_min_distance_kill",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "4e5a2268a07b460df27c5dbe4f1355e3",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_min_distance_kill_bandits",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "56c1ef5ed2e80c1f4bfa167e762abe83",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_min_distance_trailer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "78028847e49bdae38b3e618ad5c2a8d2",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_min_distance_vehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "89fe6e3a6c5a75311207223d3d9d40e1",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_name",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "95c31494ffc79ad2a4d185380052b5e0",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_needed_items_collect",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "91ceb6f75d9cbf1162373b888339acd5",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_needed_items_default",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "93222b31cbbe46457af6ea0af0a410db",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_needed_items_fetch",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "6813e6219c49085ec583e56b670394ee",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_needed_items_kill",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3e9b8da7c46a149860024d22a211862d",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_needed_items_kill_bandits",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "8633fecf4885c096934ca038eedec2fd",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_needed_items_trailer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "23407ddc0309ae891b7b3b7b707b112e",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_needed_items_vehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3a599dcc0ee3936fcab33adb5ce1a8da",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_reward_items",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "61f879475e6ce41fbfb3c4b0c1228d22",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_status",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "bf3514d051ff09d524ae3653eb49b536",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "Tooltip_playermissions_mission_definition_type",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "fba867ad68c46f6f9a275654fb6c2b10",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_abandon",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "283e1933245d521649f4b73f1a23fba4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_abandoned_header",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "00624340953a459369afdd353ae955aa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_accept",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "fa399c87270e105342ef05428b8d048c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_accepted_header",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "026fbefb119293c1ca051caba32c3e12",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_active",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "1dc7ba8c3d44b04321c3164ee647f9fb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_available",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "0c950b2bd0f6b36bd85d41ee1af59e18",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_available_missions",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "48f5a5e107381db8ab7d6f5a2b1b8056",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_available_missions_header",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a91f44069facac4c7c295cf3613ed984",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_bandits_mod_required",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "7c7b831aa22d4151cee07162af5e4c73",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_busy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "7564c0ef625baf8cc217976aea28e219",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_chat_prefix",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "482c73306ececa296e50ce8332db5e86",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_claim_rewards",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3173ca864f0bcb572ce7574303848bcb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_close",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "23d33a19b31465de50c2cf28b92d06c4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_complete",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3d4aae71b2cfa41cc64bea6676f88262",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_completed_header",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "9e261a91bb8a0d446fc38210f2343763",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_current_mission",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "20f26e0d08a5eef7cde8b1eb41b7dde1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_decline",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "32a1a31a2c3910d2b20796ce8d6cda74",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_declined_header",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "25d4ae5bad7251bdf9acaa89d360abb6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_delete",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a26ebe90765e26888ffc0805d649b6b0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_deleting_mission_mod_data",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "97ce1147cfb3150cf035390c13b647d3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_difficulty_easy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "53a4a75338b9ae431f2e966f2284af8f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_difficulty_hard",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "26dd063492517e24cec4f766b604b3f7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_difficulty_low",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "c022dc8019c599d66f105fd41be146c5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_difficulty_moderate",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3177e78239c967f133fa9031286c82ea",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_difficulty_very_hard",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "7c83a9514b26de7d2489a21d97548dd1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_enabled",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b0c71ef8787e5645aed41f8ae455192b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_expired",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "e21c434db01b99aacb9965e69466a6cb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_expired_header",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "ae9180d044ae4d16fb66e930071f8e2c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_field_description",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "fb77d7262bb4c69034bf5add7618e38b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_field_difficulty",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "728f0c0e63f7bb4ab383278b33e928c6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_field_execute_in",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "800f4ac1731caf1ab8c9a40564a84e16",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_field_id",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "78577f609235f366560661dfabf81bae",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_field_maximum_distance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "d0f65231c792bcd232bec64179cbf656",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_field_minimum_distance",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "dbe8d0a3323faa2a021354c3a5f4d7ef",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_field_mission_name",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "db8557ced1e8d5abb8656257237a0e89",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_field_mission_type",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "edf3a08aa655c37df40f15bf979f3b9c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_field_needed_items",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "111297eb1f5f0d12ac6fed1af8e12eaa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_field_reward_items",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "0587cf0368e9b013d899f54774dc557a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_field_status",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "ffa481a5d572d61257a4e71e6d69c466",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_file",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "1dcbb41f13160fc8cdf63eee8ec4508e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_import_missions",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "96ae30092190e79a7e01b7c2938eb5ce",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_imported_missions",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "e732365e5127a50db636bb0806519a1f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_imported_one_mission",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "846f2d1d83ee74b7c5d4b5bd85406c49",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_importing_missions",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "63933c536fa119bbc8c5c97318dde070",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_invited",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3cb2e03ac549a2c57182ccf3c6f460f6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_joined",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "f4432f5243db913f97e13c99bc92c2fd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_less_than_one_world_hour",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "732b93670e87fbf63bb2729368ecca97",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loaded_mission_statistics",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "f541a584ce98403caff182f36ee8c568",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loaded_mission_statistics_one_player",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "27a3d4f889614b4b345a9bbb40018504",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loaded_mission_statistics_players",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "04fa798c58daa3d83ded3fd77b937ea4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loaded_missions_from_server",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "22dc70cd3428e74b19e2edb0e515c480",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loaded_one_online_player",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "23048afbd3beffeb45131bbe91a0a741",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loaded_online_mod_data_entries",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b61f9d99dd5fa257961a88cef591563c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loaded_online_players",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "baa00940a24c78d5455783aca8dc0704",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loaded_player_entries",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "9667ab43ca02d5801d17fe915f8f9b34",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loading_mission_definitions",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "7066800293230a733b70b861935435f3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loading_mission_statistics",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "900dc3189d710f991f8e678b091c1377",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loading_online_players",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "e244b2f60b7acd4e861c93e48f8543d6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_loading_server_mission_mod_data",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "093e089c8bc807c78295d4e642de1568",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_board",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "9e1f8d4cd7dd814e98920cbee7effdcf",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_created_save_to_server",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "80c54197310a0f26285aa9f68042ed87",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_definitions",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a7876b26b3ab1a637a679ff410ed86f5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_definitions_still_loading",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "0115c05b8036b9914d9b6116292ff37d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_details",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "4296c1a34feb4c49432f75815a360b91",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_mod_data",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "26107034d6b297fa625523e7f291ff2b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_number",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "193347a91baec8bfdef226983ababdff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_offer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "8f2781c5445e5c1527b12bcdd03450cb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_offer_number",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "47b75e41f6896fc46fc7fef0dc841690",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_shared",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "8500a4ed33c3967db463f698d1c7a5cd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_shared_number",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "450b8271f389ca0b048753d48cff489b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_statistics",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "16d731a5c256fc1062d6f96ee06e2168",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_type_collect_items",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "2c17d6ebfebce41e7f49c6ad1124df0e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_type_fetch_item",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "ca59eeac007f8cd71c7c3d79a305a874",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_type_kill_bandits",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "d5e7a5c5b90826139e90577a6a4a15b9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_type_kill_building",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "91ace498456aea8d4833344c4c55f894",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_type_player_mission",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "4ce69ec8d1a0e0adc96416af79939de5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_type_trailer_delivery",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "1962de4fb5a8d46da1cd90b4f29d092c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_type_vehicle_delivery",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "cf5ec6a9c2c2a5748321bb13dd02c370",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mission_validation_error",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "aff4d67531ad72dab127d1b262a0c2de",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_mod_data",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "e4c2b22e04e6d218cd08cb8e69f51873",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_move_to_totem_to_accept",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "f60d3a8a5764f605345a0d20d0ed19b0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_admin_required_clear_mod_data",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "fb6fbaee417231d653feca4d5a6f3fff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_admin_required_inspect_mod_data",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "4cf56fd9645ed6d54620ba2da2d39842",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_admin_required_manage_definitions",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a6018c0ef135d3a960006779b6d542ff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_already_have_active_mission",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "ba1b4fb45a35bf82e5d29ad08dc28152",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_cleared_mission_mod_data_for",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "53238dd310084b137ec0c31406d142b4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_could_not_open_file",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "75d990ebc996ea42c7704b7c8523cb11",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_could_not_place_delivery_crate",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "f9520de0a8061a7525be6a8182964149",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_could_not_place_mission_items",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "df3252ac5a835dc705220757790a2549",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_could_not_place_mission_trailer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "d51b09fc0e4e3cbd7de108d25ec11188",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_could_not_place_mission_vehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "92dbdf36a9ed04716196fe2b8395e3d5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_could_not_prepare_target_building",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "c4ab543d5f530953dcb25da43047358e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_could_not_read_file",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "76e9f43552d79b8de85db7e59f2a286f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_definition_list_empty_entry",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a06de091a639106eda6d06c0137e483c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_definition_list_format",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a9b24907f35458d6152299a258dcc660",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_definition_list_required",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "30c18bcd52bb829777dc57514ed94525",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_file_writer_unavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "0018ea28a710ed5dedc3d75b38995cf4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_import_failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "6f2cc63f7f6fc51eed311ca6046f51a0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_control_character_in_string",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "069aeba1253eb96cc6b16880f2b969de",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_error_at_character",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "f58a4e16f42da862ab9a3f011a18ba0d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_expected_colon_after_object_key",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "36b5c52815a4aff76fa2d0b54c5c9422",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_expected_comma_or_array_end",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "d9428ff276a065e676f1d3680e603b76",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_expected_comma_or_object_end",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3ebdc0f517c384c7c9bbff49f54e6e7b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_expected_string",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a7fdb9b3bd0d25add6601b531a71120a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_invalid_number",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "f287d75c18f4f18c6178ab4a8553a4e1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_invalid_string_escape",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "e07b2d0be1479ba753ff18a5521454a7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_invalid_unicode_escape",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "d6511357e699964d323471dc1d15ca54",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_trailing_content",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "d1425de82106f9d45340ecdc80eadf56",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_unexpected_value",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "6727650192729317d0e00314614ecc15",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_json_unterminated_string",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "d413c28ee55c64744d90424948cb3ed9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_abandoned",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "77e5f4f291d6433cd67b80643e7406b1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_complete_claim_rewards",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "8413fe78284ef5104f557e374b9ca41c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_declined",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "1ca6e14b423beb57fc0edd726c44fcbe",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_definition_invalid_target_count",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "2685f58fbd2fc631f8212385e9a2b66e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_definition_invalid_vehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "2e1e69abf107ba1e9c5b9ebf68481d49",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_disabled",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "cd1447a9eb626f9caac10e3d7f398d48",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "67276d01df09576c76c648f302644092",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_failed_player_nearby",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "749b97d458a6bc14ca7811fc2172e35d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_failed_safehouse",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "47c635edf18291d6d9b319a79e2256b6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_failed_time_ran_out",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "32b6a2c98220bc1201aeddc22381c839",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_items_located",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "ebc0a2817c970c6406d3bdee8a549395",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_mod_data_cleared",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "2686a0ba989c8d20f0566dfddee7865c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_no_longer_enabled",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "8ffc07b8cecd904495244baf85b6c221",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_offer_cleared",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "02556939dd2dcbb1d61849e61354cdfa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_offer_cleared_disabled",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "580305f697c358ce893f5f89585b58e3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_offer_cleared_type_disabled",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "abad4ab62fded7fc5f6e694a944f3076",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_offer_definition_mismatch",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a784964febbb31b6245f9de96c6d4c73",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_offer_invalid",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3d5780429fd3f69c08fb7fb1b307dab7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_offer_missing_dropoff",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "6d12ac22d3bfb6ace09d40e8caf9c464",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_offer_missing_pickup_dropoff",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "7322805835ead6b390932bbd90adc0cd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_offer_missing_target",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "e72b9d0e19bf99faa70376278467d8cd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_offer_refused",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a2f6f5b5a10e8e9e67c97a33538d20c4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_offer_unavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "debf68b6898d5e7b2db5da7fec9c3e46",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_trailer_located",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "38025d20844f7e65c37574b7f2719fa4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_type_not_supported",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "42a63efa0678989b95f3ac0bbd772de0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_vehicle_located",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "4118b9b2f922975fab3770539d68e774",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_mission_waiting_at_totem",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "60b12689ae33829fa798ad0cb897f27c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_must_be_near_totem",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "4dc5975a54ea7656da29c30ecafbd458",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_new_mission_available",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "ce7ca091bff2eeb29abf743d0fd64ad5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_no_active_mission_to_share",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "824a981c877d0fd601b442e3874f7411",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_no_rewards_ready",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "d82b20b38308e37e397d1c330f5fa616",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_only_owner_can_share",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "bf6c9454dd88269cfd280e41a5aeb89c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_player_accepted_your_shared_mission",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "076294e0a9bfcabb660d7bd83c6dee23",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_player_missions_updated",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b34a52a276e7fe493da22fbd8bff770e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_player_no_longer_online",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b7084100d2b982c0a7034d18b3a1e287",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_player_no_longer_online_name",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "2a206aa33fdacd40a8cdc36de9bbb5a0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_player_shared_mission_with_you",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "ddecfb9506d937dc18068d29b4776a5b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_player_tried_share_but_you_have_active",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "1d5e884b55cf2fe61388a413250e8087",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_rewards_received",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "cc4f5f2fbb0955a5dc62e0cd550bf735",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_server_mission_defaults_unavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "c4550cdd9fba59ac11433f9623092bc0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_shared_mission_available",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "f056b5014b9108000408bbe2c3b77425",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_shared_mission_complete_rewards_reserved_for",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "fbbabbb4bea75494b4c1df8489745235",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_shared_mission_declined",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "6e7a93531d385bdb56bf374fa685df05",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_shared_mission_failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "ddcc37767933e10423fd1f237470ef5f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_shared_mission_left",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "394582ee7bb658fa26b5f2dff28dba6a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_shared_mission_offered_to",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "45d3011aaf6c323c0cc5a04d00f3efae",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_shared_offer_unavailable",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3af8231736174c5f0118258f48b40ae1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_shared_rewards_reserved",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b02d4831b400ffd568a70ccfc6574528",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_target_already_has_active",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "33d4c2ee8bd9a0bc1190c3c3d61c6080",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_target_already_has_shared_offer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a7da5854b6078f9adb3a9813e67d789d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_target_already_joined_shared",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "eab7154742e8e5aa3e9b0491146575d3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_trailer_acquired",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "daaa080057f66a782aa6bf2a1949095f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_unknown_import_error",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "9ecabbd18e28c1aeea1e79f3274d2d2d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_difficulty_range",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "595081aa3778e4075f0e54afb21275cf",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_duplicate_mission",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "a4d2ee9e21e80ef7861f599f8e1da8a7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_execute_hours_range",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "ad41768ca5327189f540875b383f4aaf",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_id_format",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "0bc0178ddbe6c69666982581bce7ecb9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_item_missing",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "d59523868691aec0670dea4657abf2c9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_max_100_chars",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b396eebd95e0b72df612eb17b1a2cb3f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_max_distance_range",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "f912b88e20fff00cc804331b4b4feea9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_min_distance_range",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "76fb762c3000c39b666fbe91732030b1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_must_be_json_array",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "f54ca8c1d075e960170d0c50fd55311a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_must_be_json_object",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "802579b1883ec6484aa384ef28e17b86",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_required",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "280b7be38a64e748747c324d2677cbac",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_status_enabled_disabled",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "196e4ce313ca101bf80ab67d224ac965",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_unsupported_mission_type",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "ce86b09dbf2e9b0f2fdfba5b657a5b56",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_vehicle_must_be_drivable",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "6a80184435ecae3c67da610873613578",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_vehicle_must_be_trailer",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "c3244879e8a78983f7ffa5415ad6b9f6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_vehicle_script_missing",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "e49819a29a79339a9c06cb70a9b4382e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_vehicle_single_entry",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "dd7dfa2499f2d9508148a54c597dff26",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_version_must_be",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "87fc198983b95ca897a39f4aa818a050",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_validation_zombie_outfit_missing",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "e88e65ed8eeb8b856f33254b116f15c2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_msg_vehicle_acquired",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b7fc84d81bc9e66a4cda6f0e1f152114",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_new",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3079d7d9df1d7df0f1e9b71dd8023cd2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_no_active_mission",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "44b0bcd1cba94ff0b140c6ac62a6646d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_no_available_mission",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "324de7fbe5e78b729674fd7053735231",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_no_mission",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "9f4199d02709803c3737b5edc319e7ab",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_no_mission_statistics",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "10ae34c2b90492ed175fa2363e5a71fc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_no_new_missions",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "fd332ff6eb12c4b8577f5fdc26e4eaeb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_no_online_players_returned",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "0fb25081a5cb2295606ad6e4744beab5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_no_other_online_players",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "59c13d594555ff7e7e4f9ff7d3c335f3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_no_player_selected",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "5a9e3cfdc2f943f41391bb08a6cac1ba",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_one_world_hour",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "e2ec3e08bee5414ca8c79a827c4c75a5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_online_players",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3432811fbff493e13a13ebe51911972a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_original_player",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "30a50b77356c0fc144948066ee7b7c30",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_original_player_only",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "43d1b1fcc444a3f5c54a9bd91a8902eb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_player",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "adcdabac4d0e60c56c2241d059311912",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_player_header",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "82a6918b4c4dda6e292fab0db483c273",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_player_number",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "1a7d9652a3f200f9f2ce0f29f9ee86e8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_players",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "4416f301df5c3fae10f4254657ccaa7c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_refresh",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "6ae9bdf2b0caf2f3ac84c1b4d0dec12a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_refresh_to_check_new_work",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b7c8be30e647b4bee1c357566e52006e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_refreshing_mission_statistics",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "8e7ac58f8cd09965fc30a63f8d940276",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_refreshing_online_players",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "14b9f65abc47cf5c85a7d82dfa6f93a1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_refreshing_server_mission_mod_data",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "02641d6c6667246f6d8fa8d880c61803",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_description",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b5c7c42c8fd4bc62b5114900ffa1d691",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_difficulty",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "23fbc4018cb7e84a23c51ce52e4a7d2f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_dropoff",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "aa8cb52fb9524fdf4e8a3e2d76b22675",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_execute_in",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "559801905d5afe1a107da4496abea8e8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_items",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "0e1c8aaaa3bdd156d24838d6789a39fd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_mission_name",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "742546e33c2531c9624f8e90342eea59",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_owner",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "24b921d816f091ef3aee86a64d9c185e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_pickup",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "22ef293767cb4d071a8911b7226836fd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_radius",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "d79a4873d2ffdd417cefc312d992a34c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_remaining",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "c974ab8dd4ddf17ba3237ed237bb08fb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_reward",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3362d59a748baef4b9d78cdf45334b23",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_reward_claim",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "3d4e4d70a7c1faf2265a9c25b5a034f7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_rewards",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "55b3af6b2e768a58811462cae67097b1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_shared_by",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "700955ef06a91c184605b0710f7defd2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_target",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b87ff0abfd38c8ba64722cf44ebbc5bd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_type",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "bba264a8b1e8f6595122d573c796c182",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_row_vehicle",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "da7b5f197e7be3f10d60e2fdc7e724f1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_save",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "4a20c8eb89ed2b78c77a3b92d45ea916",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_save_changes_before_import",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "0caee943e19c2426d2573346e02a884f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_saved_missions_to_server_file",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "4afddf8f6bb84a812f0c5252d890451d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_select_online_player_to_share",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "174feb5c9211f8b17b01807975363f45",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_server_mission_data",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "eafad0a2bfcc902cfacfb97ddd7f79bd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_share",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "08527c1d3d8765f7b4135dac37c9ab92",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_share_mission",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "4c266570b1fe495131dcc725e59f5b33",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_sharing_mission_with",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "c3f38a2a09a529885492684b3b1dedc5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_squares",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "6a7e338cc5ba2dd5a2161dbd111639e1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_unknown",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "2dae8f283d19fe4b620d84cb6f97af07",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_unnamed_mission",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "dbf888d90291c48a7f29e5bf0c30d77c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_validating_saving",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "0e964a0653998fc9d5e2cdc712be7358",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_validation_failed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "19815ddb2dd6ea891555d1d520361919",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_world_hours",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "034336b8e52f2f0fb760b35ba8be1e59",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3773321059",
+    "translation_key": "UI_playermissions_you",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T08:06:51.0000000Z",
+    "source_hash": "b1004102d11e2d0e921e083cc226372a",
+    "output_file_stem": "UI"
   }
 ]

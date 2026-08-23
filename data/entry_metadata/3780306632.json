@@ -3,104 +3,117 @@
     "mod_id": "3780306632",
     "translation_key": "ContextMenu_ELV_Elevator",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467891Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "2bd3b5a912d25115797a8f9eee1f4b40"
+    "source_hash": "2bd3b5a912d25115797a8f9eee1f4b40",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "ContextMenu_ELV_Floor",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467897Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "56320b9f5c5a2527b1415dac3c7c0fda"
+    "source_hash": "56320b9f5c5a2527b1415dac3c7c0fda",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "IGUI_ELV_Blocked",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467901Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "44906479653dc9f9951f31d6df93d2f1"
+    "source_hash": "44906479653dc9f9951f31d6df93d2f1",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "IGUI_ELV_NoPower",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467905Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "788274096fb5b1bd91198a7469d62ae5"
+    "source_hash": "788274096fb5b1bd91198a7469d62ae5",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "IGUI_ELV_OutOfService",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467910Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "3353faaf4f2b2a368f571f759abffda3"
+    "source_hash": "3353faaf4f2b2a368f571f759abffda3",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "IGUI_ELV_YouAreHere",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467914Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "b8ce51b9c48a532c5d08b39b6617257d"
+    "source_hash": "b8ce51b9c48a532c5d08b39b6617257d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "Sandbox_ELV_RequirePower",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467918Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "d6450371c5d74ce0cac18c1ed7c549da"
+    "source_hash": "d6450371c5d74ce0cac18c1ed7c549da",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "Sandbox_ELV_RequirePower_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467923Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "7d1703a4b673f69d6407e2a7520813b0"
+    "source_hash": "7d1703a4b673f69d6407e2a7520813b0",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "Sandbox_ELV_TicksPerFloor",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467927Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "051a615e1ff9ba368149cd3728464368"
+    "source_hash": "051a615e1ff9ba368149cd3728464368",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "Sandbox_ELV_TicksPerFloor_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467931Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "eaecba0f31198dc88eaf03c02e4f72a4"
+    "source_hash": "eaecba0f31198dc88eaf03c02e4f72a4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "Sandbox_ELV_WaitTicks",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467936Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "ebad3102460fc26b2c93b07d8662e17b"
+    "source_hash": "ebad3102460fc26b2c93b07d8662e17b",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "Sandbox_ELV_WaitTicks_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467941Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "6d5f7c3858d37baa349a8814d41205bc"
+    "source_hash": "6d5f7c3858d37baa349a8814d41205bc",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780306632",
     "translation_key": "Sandbox_Elevators",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1467945Z",
     "last_seen_mod_updated": "2026-08-09T08:08:45.0000000Z",
-    "source_hash": "61b2b28bbbe1686d02372183a23bf047"
+    "source_hash": "61b2b28bbbe1686d02372183a23bf047",
+    "output_file_stem": "Sandbox"
   }
 ]

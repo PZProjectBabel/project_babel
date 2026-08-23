@@ -793,6 +793,43 @@ public class ModInfoFetcherTests
     }
 
     [Fact]
+    public async Task FetchModInfos_ShouldPreserveQueuedUpdateWhenMetadataIsUnchanged()
+    {
+        const string steamResponse = """
+        {
+          "response": {
+            "publishedfiledetails": [
+              {
+                "publishedfileid": "1234567890",
+                "result": 1,
+                "title": "First Mod",
+                "time_updated": 1700000100,
+                "consumer_app_id": 108600
+              }
+            ]
+          }
+        }
+        """;
+        var handler = new StubHttpMessageHandler(steamResponse);
+        using var httpClient = new HttpClient(handler);
+        var service = new ModInfoFetcherService(TestConfig.Create(), httpClient);
+        var modInfoDict = new Dictionary<string, ModInfo>
+        {
+            ["1234567890"] = new()
+            {
+                modId = "1234567890",
+                timeModUpdated = DateTimeOffset.FromUnixTimeSeconds(1700000100).UtcDateTime,
+                needsUpdate = true
+            }
+        };
+
+        var result = await service.FetchModInfosAsync(modInfoDict);
+
+        Assert.True(result.isSuccess);
+        Assert.True(modInfoDict["1234567890"].needsUpdate);
+    }
+
+    [Fact]
     public async Task FetchModInfos_ShouldStopAfterFiveConsecutiveFailures()
     {
         var config = TestConfig.Create();
@@ -1356,6 +1393,43 @@ public class ContentCheckerTests
         Assert.Equal(["mod_0", "mod_1"], batches[0]);
         Assert.DoesNotContain("mod_60", batches.SelectMany(batch => batch));
         Assert.DoesNotContain("mod_61", batches.SelectMany(batch => batch));
+    }
+
+    [Fact]
+    public void DownloadBatchConcurrency_ShouldBeEight()
+    {
+        Assert.Equal(8, global::PipelineRunner.DownloadBatchConcurrency);
+    }
+
+    [Fact]
+    public void CreateDownloadExtractionBatches_ShouldAllowRuntimeLimitOverride()
+    {
+        var modIds = Enumerable.Range(0, 10)
+            .Select(index => $"mod_{index}")
+            .ToList();
+
+        var batches = global::PipelineRunner.CreateDownloadExtractionBatches(modIds, batchSize: 2, maxBatches: 2);
+
+        Assert.Equal(2, batches.Count);
+        Assert.Equal(["mod_0", "mod_1"], batches[0]);
+        Assert.Equal(["mod_2", "mod_3"], batches[1]);
+        Assert.DoesNotContain("mod_4", batches.SelectMany(batch => batch));
+    }
+
+    [Fact]
+    public void ParseMaxDownloadExtractionBatches_ShouldUseDefaultOrExplicitValue()
+    {
+        Assert.Equal(
+            global::PipelineRunner.MaxDownloadExtractionBatchesPerRun,
+            global::PipelineRunner.ParseMaxDownloadExtractionBatches([]));
+        Assert.Equal(
+            7,
+            global::PipelineRunner.ParseMaxDownloadExtractionBatches(["--max-download-batches", "7"]));
+        Assert.Equal(
+            9,
+            global::PipelineRunner.ParseMaxDownloadExtractionBatches(["--max-download-batches=9"]));
+        Assert.Throws<ArgumentException>(() =>
+            global::PipelineRunner.ParseMaxDownloadExtractionBatches(["--max-download-batches", "0"]));
     }
 
     [Fact]

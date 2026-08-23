@@ -162,8 +162,10 @@ public class ModInfoFetcherService
                 current.consumerAppId = ReadInt(detail, "consumer_app_id", current.consumerAppId);
                 current.isAvailable = current.consumerAppId == 108600;
                 current.lastFetchStatus = current.isAvailable ? "ok" : "not_pz";
-                // incremental: mark needsUpdate if new mod or timeModUpdated changed
-                current.needsUpdate = oldTimeUpdated == DateTime.MinValue
+                // Keep an already queued update until the download/extraction stage clears it.
+                // Fetching metadata for a later batch must not dequeue that mod prematurely.
+                current.needsUpdate = current.needsUpdate
+                    || oldTimeUpdated == DateTime.MinValue
                     || current.timeModUpdated > oldTimeUpdated;
                 result[modId] = current;
 

@@ -1,0 +1,2252 @@
+[
+  {
+    "mod_id": "3784734412",
+    "translation_key": "AcidTab",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "0ef7ee2028a64443a1f214880aeab00e",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "BagOfCocaine",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "bb3dc357755c72d3b045717b3fe45886",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "BagOfCrack",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "87f4dcdc8c85a37fb98e1a41c67fdfb8",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "BagOfEcstasy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "8cf292a464fa6d204a938e7ed26cc2b8",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "BagOfMagicMushrooms",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "0f310921638e9b8d22bb8af266f42be2",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "BagOfMeth",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "c36dd3295290bacc979f39ce22bbff3d",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "BagOfWeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "29c8785bad1621758cea8b8c2d27fb73",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Blunt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e9288df3c1d2fab6a89b0b16edd50ce1",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "BrickOfMeth",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "dd6da0f790f2a98fb19130630ad7d6c6",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "BrickOfWeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "1f5fd6e7c1ebeba8574aa0a31fb50c51",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "ContextMenu_DO93_BreakDownBrickOfWeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "cfc4a1a24b9e6dc55dc41c0e24daa60c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "ContextMenu_DO93_MakeBrickOfWeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "f86b8b1d67d4fcd42e79c36a0b8fcb7d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "ContextMenu_DO93_OpenBagOfWeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b9bf4f19d7ea761f2091f59ea173afb1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "ContextMenu_DO93_OpenWeedSeedPacket",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "117920b7ee67faea669bba2e7d84b466",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "ContextMenu_DO93_PackBagOfWeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d98bc98560e1b924aff4b9fcd278985c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "ContextMenu_DO93_RollBlunt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "af2cabd6c3223fb52fd03376648a1161",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "ContextMenu_DO93_RollJoint",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "6c0b65cff075b4c62be0988f8ec14cb8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "ContextMenu_DO93_SmokeBlunt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e57d4f946edf0711720be85de66bd0fe",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "ContextMenu_DO93_SmokeJoint",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "25e215c77906e1e0ccc26dcdb613ba22",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "ContextMenu_DO93_SmokeWeedFromPipe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "aea3adbcb6373794a069b189cd9a817e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "CrackRock",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "27e194e4493df82c473a864fd11587e2",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "EcstasyTablet",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "7d65166512cb9df6dd020ee827e7d370",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Farming_D093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "6c93ebe991c7d76513e006f7379c49c1",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Farming_DO93Weed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "6e039de732b0532940e44dd9ca76792b",
+    "output_file_stem": "Farming"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Farming_DO93WeedPlant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "fa07cc4e25f1d968df07ce663724124f",
+    "output_file_stem": "Farming"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Farming_DO93_WeedPlant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "4b43bc367f31e2f49ce1c9430b1b6ac3",
+    "output_file_stem": "Farming"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Farming_DO93weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e8ff62448f812fd0e7d78bc0b42baa69",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Farming_WeedPlant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "1f39fe82a5cda87880539364e4ae0978",
+    "output_file_stem": "Farming"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Farming_d093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "1aa4d74e3ebd2bf3f99b36a40c929429",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Farming_do93weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "42eabe6ed6a8d346bbd3c6611ea03d8d",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "GlassPipe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a38afed1daf512c742d9ac7a0e4707f6",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "HeroinBrick",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e2dffdc26aeeb0f0be0a20d9b813968a",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "HeroinBundle",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d6b71d1ee9dda702027456802426ae64",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "HeroinSyringe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d8c2ed6ebe66f323f51327dd74fcaf28",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "HeroinWrap",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "2866f324fb92ee6f06d99add69114ef0",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Joint",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "0adc6d1f623dbc3e8dec1f76087fede7",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "MagicMushroom",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "3268b55e3a2b9f17d069aaa7a355b94a",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "MethShard",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a549fb2c569bb3e043edc52371631925",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Bad_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "1af276b654cbb932517bb194fc88c035",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Bad_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "9445c9e336e4a1afbe586fd4c3c2bd47",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Bad_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "23b863cd09b81249dafde5f80a1a02a0",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Bad_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b024f81170da3b8fedbb75c98eb933a4",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "f7ed63d838cfcd5e5977986e73759bb0",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d4a26f49e11b1d004ff78d6632d426ea",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "0eb42c6277dafdad92b0c930107da994",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a469368a72e66002b1f6318efdb93d14",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Good_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "5fda5b8e166f4691de33444b2ba8d2cf",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Good_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "1281c01b47a4acf2e5cc2fbb9b368d59",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Good_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "95180201568f504804ff8365996bb7c4",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Good_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "1b2ebc3bd679c087f2da853a50f3c9cc",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d6dd191a417e8e9d52c07046173f39dc",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "37f9aff5f2f14e9fba2871eeed44ad16",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "9caf2549658f2d0624590ba7df472592",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Crashing_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "72d5134e5846f4f58e972ba6dbc4be80",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Bad_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "2771be9a1a1ff5e3d84668eaeabb500f",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Bad_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "fa0cafd79da8c51580ce95f855a3f5b8",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Bad_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "7c9d74078a91102f0687d9c3bcfb390c",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Bad_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "91c3c044749e6ebb4a47d27da3a9b975",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "2cec3f2e81ea829dd7999312ce17e66d",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "f5bbcf9a4d425b78f9191ad264211260",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "52e2c6b458cf1914c96b09f76f374efb",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "93ac5bf5cf0b1ff84e9833ca1fd98e6a",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Good_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "4cb02c506ffa6f07518a14d8cb47ae93",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Good_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b897a0542e15a4cc476aa8305a1a730b",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Good_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e7181c8f6de34c9e95e458459f2264aa",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Good_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "909f30ea4e75a91e1b4d7726379e46fb",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "9179d3785cf687c6ea942abfe2b86a8b",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b5b8516174068a1c35408d8c6ed8e7e4",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "367774ecbfff45563c7b98060af51327",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Overdose_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "743011f3b1f5deaed7422c9632645459",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Bad_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "19ada359bd07cb6e8ac782be5a97588c",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Bad_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "363f1568d34e1a12dab29f5d667ecde8",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Bad_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "0b7f032b7b900a8e0a029dccc7e15510",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Bad_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e57e138e24cf1bb4eb15cfbd1eaf4bdd",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "9e9c8b2f7e4f1394c59795afbc56198d",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "ee3ae2c0208a9b1d76764c10fc69ea99",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "84b5b3d2e1d0cb502245b3b6cfa16d48",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e45610a61b9457fb02e3a08110d3c823",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Good_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "0db59fb1984abfff3424525b4f320b7b",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Good_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "cf77f29f2efce9bf2dc9e7b031d993df",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Good_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "0094396623d84233f46913bc8f6afe69",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Good_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e6befebecdceabb1b8405241ee3bdd1c",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "5f10048e81859ea731683966315ab45c",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "3431ab80958b51f057b7ad2c1ecd7103",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "401996c8c2152d5f26328952986bbd10",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Sedated_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "28731aad8fdea1882683daa2bfd649fc",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Stoned_Good_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "fb56620a04712499a1cc8494916fb45a",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Stoned_Good_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "8b09e3838c0e9d78b06e84f56111ce48",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Stoned_Good_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "042998874037cafc265976fa01bca399",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Stoned_Good_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d81f4d073514ac625d3a74231fd7645b",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Stoned_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d0b653f26bbbd45b203c6b389f751d65",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Stoned_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "717571ed739a2da92791e8e16ae1b1d5",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Stoned_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a0bcd59c7668be40f820fc458d661a21",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Stoned_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "89d6f9d65ce13d707ff0365bb594129c",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Bad_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "fd47ffb78261d009c529afaf2f2c70e8",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Bad_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "67ec2ed75311269ea318cea1f73bd4f4",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Bad_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "26e8092ff80b91aa526a03f80f03e182",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Bad_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b08198309052709f1b9f0333a15bafc0",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "64d50bce66dbb3df1d060e0755a74e98",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "61128f074026bcf0af4354de9e284177",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "19ca26240093fc780bb4ae124b5a0d28",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "204d0a8edd710fc5198abb4a95b4f133",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Good_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "cc24e7397d4c595d8533e229f721f807",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Good_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b216c0ec30684e3e0d921e3190c08817",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Good_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "21058b446e3f962676838725fdcf9bc0",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Good_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "fbe2b396a5d1f622fb5e0df3bbe53ce0",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b23131eca7efb4732d6f98abf71d5438",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "22788974c2ad3914394ec93710fd7d89",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "26443cdd646604792cbf990d089dd98f",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Tripping_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a52f9b08d41c2cba8af676d763ad6f6f",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Bad_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "9472b7425eda19b01156fe573a74891d",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Bad_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "af6deecfdc9cc0f3fdc1382bdd80f2ba",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Bad_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "248efd671408b63ea9b88edd87fe7dad",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Bad_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "c71f8902c988ce078a0ddec33462cea5",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a912303baa44640e501d18dca7dfa43f",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "0a56c23237d43ab7b895492b5bf5eca5",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e061dccc96e086220188f37dcfd43bde",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "867bc411f7cc575045d5fad3d749c835",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Good_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "f6c53c1904ba275190c187bbaefeb0ce",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Good_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "ea94f94e02590114de7799a38049a2ed",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Good_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "42c52982a1e66063731846363aeecabc",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Good_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d8aec017e38840791f93742f26c8d218",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "58ff3b82389aed465fd7c9a4f04ba1f4",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "47f63c936f0e4667b6cbf94b9589f259",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e806e52cbd537ec6bcb1d62d24bf5f96",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Wired_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "fc522933474dc45ed803ce90deca295a",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Bad_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "409b195d618048178337ac868be95e42",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Bad_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "f50bc3c57acdc96d213a414a10b18fca",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Bad_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "1b56f5924d23604a111ace16458e9cef",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Bad_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "c780beae30eab49e2fe8a2839f8ad57d",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Bad_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e5af356a4c7a3a5193e2c7ecdc8a8c98",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Bad_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b76220e8494efe143444d687c01e6f21",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Bad_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "fcd3d4c177c7a2c57da88570fbd4ad46",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Bad_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "8f0aacc1b2d460708c750584b57415bd",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Good_desc_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "4df8b1df6cf765aba7b288571cb80cb6",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Good_desc_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "69437158307e38c60b3b60cdcfc01546",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Good_desc_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "067194220561042e78a2b76ec04cf92b",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Good_desc_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d17e79db89e8e114ad1f973923cb9245",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Good_lvl1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a22ee4e478854bdec2afe63435353606",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Good_lvl2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "258282dff831b51f61473f617448d27f",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Good_lvl3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "69b3cb58a47b1b350a0beeb323d38c62",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Moodles_Withdrawal_Good_lvl4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "7769f54aad24a41f44b5bfc83b57826f",
+    "output_file_stem": "Moodles"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Bag_Ecstasy_Tablets",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "6a92cd2280de452125a873495d594d5f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Bag_Magic_Mushrooms",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "dbc08c208b9c45de8b1eea84bcb35b01",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Bag_Meth",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "7d0bc3f7268a25748acb742fe134c4c0",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Break_Down_Bag_of_Ecstasy_Tablets",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "5be3918fafac413a545bdf07af557e38",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Break_Down_Bag_of_Magic_Mushrooms",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "fdc9e215f2c8bfd8f85b44abaf44b0ea",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Break_Down_Bag_of_Meth",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "3d0329cb5bda0aa71071056d41ee69a1",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Break_Down_Brick_of_Meth",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "f07667851eb72643e838e552742f9a10",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Break_Down_Brick_of_Weed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "234dcaf29e3cfcd067004b7465462c0c",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_MakeGlassPipe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "57433a3181d6af4f3a256827017ca6fc",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Make_Brick_of_Weed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "34cd97a377f59a41d6dcb2204106e3a2",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Make_Glass_Pipe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "dc523698c5bbc49c0975e148ef08acbc",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Make_Glass_Pipe_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "cf36e161788ea98811c90a2fdff80034",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Open_Bag_of_Weed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "34c2f66aee1374292303785d7bdb4675",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Open_Packet_of_Weed_Seeds",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "6936f598a192b3a51ae521a81761cb84",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Pack_Bag_of_Weed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e612c9c948797051d6b9fa42330433ab",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Pack_Brick_of_Meth",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "edb2538978ea8184185a65a3913aa24f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_PrepareCrackRock",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e5222bcd32c1219f20bdf62ec59bbafb",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_PrepareHeroinSyringe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "792c533e1cf99b7c9050b9d586e88eaf",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Prepare_CrackRock",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "65b3d2a9eedaa71162afc6bdf6a130d0",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Prepare_Crack_Rock",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "5572259ee1b7b6da5716afcb2e2f791f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Prepare_Crack_Rock_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "65b94d1d98742a55772649abff0e00f9",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Prepare_HeroinSyringe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "5874a5eb303c9df79ad00134a7b9908b",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Prepare_Heroin_Syringe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "4af35813a829d435414eb74333528eba",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Prepare_Heroin_Syringe_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a18a133d8bc967196b435805ff05422a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Process_Dried_Poppy_Pods",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d998aec0999249e60ba439bf2f15a304",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Roll_Blunt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "bce9492e11d1bd85d81502624326f9e9",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Roll_Joint",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a9eda12269a6854318ea90b9a12e55e5",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Recipe_Tear_Sheet_of_Acid_Tabs",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a316cd3e64e004feb587d037524269a8",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Rotten_D093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "1fd4b9e5459799fb7e85d019157b9061",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Rotten_DO93WeedPlant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "72283259462876c91f94892e40540e47",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Rotten_d093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d28b191dacaf387fe0efe68886fdcff8",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Rotten_do93weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b31aa938f057d8cb428065b70e7f8165",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Rotting_D093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "3e58b988deae2ead4509e6d104db6c47",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Rotting_DO93WeedPlant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "dada88c77f5c9d8212aec2b4919bae2f",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Rotting_d093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "9ee647cf3d7a9ebea4ebe7f7e6dd9b1a",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Rotting_do93weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "62f5aef44dff17730f9547c00c3a9288",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_LootRarity",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "8a496d2e814ee490322c9a43f149a295",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_LootRarity_Values_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "50c565c650160481965baa0238fcf4ab",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_LootRarity_Values_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e40f0eaca13ec57a2429f951eb3a8e98",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_LootRarity_Values_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "88809730c997ca734b4b4ee85689b659",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_LootRarity_Values_option4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a7b381b34846d2ec123085d87795093d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_LootRarity_Values_option5",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "67e700a9b167abc150635efb9cd4e5fd",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_LootRarity_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "dd7968e3cd21599108795bb575968e51",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_WeedGrowTime",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "8d9ef74ccad706aee4b4c735bbc53a8c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_WeedGrowTime_Values_option1",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "615567343021acfd1d6de94dd2ff9e20",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_WeedGrowTime_Values_option2",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e83fe0f1e136f02fe2b4b7c97f2cc372",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_WeedGrowTime_Values_option3",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b20639b2583b4c37a7dca885c6c6134d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_WeedGrowTime_Values_option4",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "7a34fbaa45d6760b2d92cba2a6e8a8cf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_WeedGrowTime_Values_option5",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "7bd796dfe2c36d985ed210910697e759",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_WeedGrowTime_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "6bf3fa7426a9cba9749a23ea4cc2cb6f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_WeedSpawns",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "81f2220681bb0f303c125bf40826051b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DO93_WeedSpawns_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "39d47959a059e644f8f0f9721fc165c3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Sandbox_DrugsOf93",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b8bac3e986fd7d6a4acc431f279f3b75",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "SheetOfAcidTabs",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "ac84484d1294e2277f987d4c0089f59f",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Syringe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "1d61d13acf5460f5a7f4a020f25d63aa",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_AcidTab",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "3ca0ed23fd6724a77e4c05aa618bb5a4",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_BagOfCocaine",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "17d8edd3fc32153c56989f785a302344",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_BagOfCrack",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "3d2db64d9e05295e0ecb9b6032f7d4cc",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_BagOfEcstasy",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "ae7e38ed87c1b64314fba11861cb59aa",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_BagOfMagicMushrooms",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "9572db217f669166309688511fe565ee",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_BagOfMeth",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "5d7bf31f3d617dfac14576f007095db6",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_BagOfWeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a47be2a5b4bc5526da14bb6f6e64403a",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_Blunt",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b1dcbb79385b6892aba638c2639fd5fc",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_BrickOfMeth",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a0308bd8c0530348cb68fb1d90c3e31c",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_BrickOfWeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "915e3c4e7b13f45e1345e3c1e16cae83",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_CocaineBrick",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "48d5b888da49255b6ac7ac68f1c40d99",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_CocaineBundle",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "6916088101b99ecf517d58bd164002cc",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_CrackRock",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a411055f40f7072fef46db1a65c07e59",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_EcstasyTablet",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "5bd366f0f01932fe3327c3f073cfc5c2",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_GlassPipe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "da6f7a763a9c3c67f2f2665344177957",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_HeroinBrick",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "538441c60fa64a77745601fd2c0adaf8",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_HeroinBundle",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "46594ca988067a44b64da28fbefe86dd",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_HeroinSyringe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "172e280cb61c2a122ed9933af1536ebb",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_HeroinWrap",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b45fa2b45e2e6eedabd6659259e04f50",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_Joint",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "458210be8a6c9de2affc04726da1d252",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_MagicMushroom",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d71d15810bab58760700acb289add34e",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_MethShard",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "5f865037041c65906e8810924612ccbc",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_SheetOfAcidTabs",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "9273fccf6e58c8adc9c7fc8d145b2666",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_Syringe",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d3a2db17998a12ccb7f78b59fba704ca",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_WeedBud",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "83304f436de090de8760dc917d11d9e9",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_WeedSeedPacket",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "6afaa0db41e5eb45f03a61be7dc45d48",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "Tooltip_DO93_WeedSeedPacketEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "66c634abfca5af9193b5e89318c5d3c9",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "UI_trait_cocainedependent",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a443ad3cfc841bb0abc80a4adb646543",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "UI_trait_cocainedependentdesc",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e9b7a70d6304a165bb37e9f468e268a9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "UI_trait_exaddict",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "54e1ce21384a6f80d94b5a4159825b7c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "UI_trait_exaddictdesc",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "6ebc0b131a740c4e4ed3e73b60c31bd8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "UI_trait_heroindependent",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "2b98f1607771f4826995eba887f55b1c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "UI_trait_heroindependentdesc",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "7000e1d1c81a983418c9522a50bc69a7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "UI_trait_methdependent",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "ccf705b8de2705f75384123ef6adf3bc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "UI_trait_methdependentdesc",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e10350f8730a7a55dd2f2fddb1619642",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "WeedBud",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "8a448704980c980b42c575e6334746c7",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "WeedSeed",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "f37c57fab1f9c74995e4884b566514c1",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "WeedSeedPacket",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "299ab97bf9370346311cddfbdef338d9",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "WeedSeedPacketEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "49388f89d5cdec6db2985c026d00f0ff",
+    "output_file_stem": "Items"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "farming_D093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "030fff87e806eb6d612e9d0c1483b48d",
+    "output_file_stem": "Farming"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "farming_DO93WeedPlant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "5fb2f9c3f4b151e9aaf15d8bae7b844e",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "farming_d093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e2b1832e44a1b33d3b33838c335cfba5",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "farming_do93weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "7ac32396bf103970cac09d50eee25b14",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "rotten_D093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "92003a2d1571c301bad605e1e6a02f7c",
+    "output_file_stem": "Farming"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "rotten_DO93WeedPlant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "b3b183c2fa2995bb54c9764c7745a51d",
+    "output_file_stem": "Farming"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "rotten_d093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "d13f89b4b8f763b9c41cbaa991461a42",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "rotten_do93weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "feb5a1c6606e5903275b2dd7e2331ac4",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "rotting_D093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "1af31916d5f9aab5ded74f61d546d057",
+    "output_file_stem": "Farming"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "rotting_DO93WeedPlant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "e47094528ae38ff65d7d3cef8aebdc03",
+    "output_file_stem": "Farming"
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "rotting_DO93weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "a4a5be6ce41ba7858564bf83232350d3",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "rotting_d093weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "39153bad2227f8aa618333533de6896c",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "rotting_do93weedPlant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "3510e3effb8fb89e908f90d47e130ba7",
+    "output_file_stem": null
+  },
+  {
+    "mod_id": "3784734412",
+    "translation_key": "rotting_do93weedplant",
+    "is_active": true,
+    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
+    "last_seen_mod_updated": "2026-08-22T09:16:42.0000000Z",
+    "source_hash": "ffab680e868867f57024e7049bf69d43",
+    "output_file_stem": null
+  }
+]

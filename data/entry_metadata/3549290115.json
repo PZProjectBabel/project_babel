@@ -3,240 +3,270 @@
     "mod_id": "3549290115",
     "translation_key": "PumpWellsConstructionDisplay",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026684Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211521Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "f3e85343634424ad33b09eec78b1a839"
+    "source_hash": "f3e85343634424ad33b09eec78b1a839",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_AllowUndergroundWell",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026694Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211529Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "c25defa9f847a1deddf5987ca5ca3012"
+    "source_hash": "c25defa9f847a1deddf5987ca5ca3012",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_AllowUndergroundWell_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026700Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211533Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "6751e8b538ceaf0d65c6a45ecddbf712"
+    "source_hash": "6751e8b538ceaf0d65c6a45ecddbf712",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_CanWellBeContaminated",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026704Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211538Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "7bdaf8858e8cc9296cd22807e5d07265"
+    "source_hash": "7bdaf8858e8cc9296cd22807e5d07265",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_CanWellBeContaminated_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026709Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211544Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "cd6d72e966a2f988bbdefa4635026488"
+    "source_hash": "cd6d72e966a2f988bbdefa4635026488",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_CharcoalNeededPerLiter",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026714Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211551Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "fc3bc079c89b4ace5127be87ebef14b7"
+    "source_hash": "fc3bc079c89b4ace5127be87ebef14b7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_CharcoalNeededPerLiter_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026718Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211558Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "66db3ca540538fbf7678ec0ddf901166"
+    "source_hash": "66db3ca540538fbf7678ec0ddf901166",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_ContaminationChancePerBody",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026724Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211564Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "84121692f7ecc9041b69c15ccefc0ae0"
+    "source_hash": "84121692f7ecc9041b69c15ccefc0ae0",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_ContaminationChancePerBody_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026731Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211568Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "19e13cba1483e4f2c43abd42de74fba5"
+    "source_hash": "19e13cba1483e4f2c43abd42de74fba5",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_MaxWellWaterPerCycle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026735Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211574Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "01b26798e9e4adb6fc15179c490ff39b"
+    "source_hash": "01b26798e9e4adb6fc15179c490ff39b",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_MaxWellWaterPerCycle_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026741Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211581Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "aaea49a4c0003ced0fce9815fe02bf6c"
+    "source_hash": "aaea49a4c0003ced0fce9815fe02bf6c",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_MinHoursWithBodiesToContaminate",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026747Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211587Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "82bd1dafc4c2fd2aa6064675b5f7265a"
+    "source_hash": "82bd1dafc4c2fd2aa6064675b5f7265a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_MinHoursWithBodiesToContaminate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026752Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211594Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "edbc86ac3104d49235f9a76b1d48d6b7"
+    "source_hash": "edbc86ac3104d49235f9a76b1d48d6b7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_MinWellWaterPerCycle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026757Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211602Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "6c879597313f0b3ee0bead462873fdee"
+    "source_hash": "6c879597313f0b3ee0bead462873fdee",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_MinWellWaterPerCycle_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026763Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211609Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "36b37956d6cba192d102de1df99307f5"
+    "source_hash": "36b37956d6cba192d102de1df99307f5",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_MyOwnWell",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026767Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211613Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "f4871989da5b6fd2f621d575048f4801"
+    "source_hash": "f4871989da5b6fd2f621d575048f4801",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_WellDeadBodiesRadius",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026772Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211618Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "60dace30a0e33e3f1dfbf09703fe1b70"
+    "source_hash": "60dace30a0e33e3f1dfbf09703fe1b70",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_WellDeadBodiesRadius_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026777Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211625Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "5f01b44acc8b764120864b659dbf4778"
+    "source_hash": "5f01b44acc8b764120864b659dbf4778",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_WellMinBetweenDistanceToFullRefil",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026782Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211631Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "c411540a2a2923ff8fea0cdcb10b44a5"
+    "source_hash": "c411540a2a2923ff8fea0cdcb10b44a5",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_WellMinBetweenDistanceToFullRefil_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026787Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211635Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "de1746d4214c73bf6e232a55c00d948a"
+    "source_hash": "de1746d4214c73bf6e232a55c00d948a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_WellWaterPerCycleMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026792Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211642Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "3dbf60683de09c63424bdea25b91c0f4"
+    "source_hash": "3dbf60683de09c63424bdea25b91c0f4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_WellWaterPerCycleMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026797Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211648Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "bff71b399df3c81aaa93429423d0dbd0"
+    "source_hash": "bff71b399df3c81aaa93429423d0dbd0",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_WellWaterRainFactor",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026801Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211653Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "8eb7ca107126b5cbd74b855823fe8acb"
+    "source_hash": "8eb7ca107126b5cbd74b855823fe8acb",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Sandbox_WellWaterRainFactor_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026807Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211659Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "9b8f4bad54f2bf985a538d42ad3b8154"
+    "source_hash": "9b8f4bad54f2bf985a538d42ad3b8154",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Tooltip_PumpWellsConstruction",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026811Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211666Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "6cf1d40f43415884642420eb04826e5a"
+    "source_hash": "6cf1d40f43415884642420eb04826e5a",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "Tooltip_WellsConstruction",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026815Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211673Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "4f869b3e7cfc89a3b33ca50158248594"
+    "source_hash": "4f869b3e7cfc89a3b33ca50158248594",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "UI_MSG_MyOwnWell_Abort_NewWell",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026824Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211680Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "73d271c1267e65317c51f7864688f8cc"
+    "source_hash": "73d271c1267e65317c51f7864688f8cc",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "UI_MyOwnWell_MENU_CleanWater",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026829Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211684Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "58feb31e241327f747c2be610dfd7751"
+    "source_hash": "58feb31e241327f747c2be610dfd7751",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "UI_MyOwnWell_MENU_CleanWater_Rain",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026834Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211689Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "a1ae96e2933c9dec0cbdcd0223e5f169"
+    "source_hash": "a1ae96e2933c9dec0cbdcd0223e5f169",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3549290115",
     "translation_key": "WellsConstructionDisplay",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7026840Z",
+    "last_seen_at": "2026-08-23T03:10:36.0211694Z",
     "last_seen_mod_updated": "2026-08-10T23:41:08.0000000Z",
-    "source_hash": "a4c71dcf2f84e44bc307362acba43758"
+    "source_hash": "a4c71dcf2f84e44bc307362acba43758",
+    "output_file_stem": "Recipes"
   }
 ]

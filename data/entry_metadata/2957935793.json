@@ -3,728 +3,819 @@
     "mod_id": "2957935793",
     "translation_key": "AVCS.ClaimOrb",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6969990Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706743Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "38a8320d32023437a8a93af5358ef86b"
+    "source_hash": "38a8320d32023437a8a93af5358ef86b",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "ContextMenu_AVCS_AdminUserUI",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970004Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706755Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "c23bf45f1018a92e092cb5183bc1b7d8"
+    "source_hash": "c23bf45f1018a92e092cb5183bc1b7d8",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "ContextMenu_AVCS_ClaimVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970013Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706761Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "060e078e893745ec241040782b0d1397"
+    "source_hash": "060e078e893745ec241040782b0d1397",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "ContextMenu_AVCS_ClientUserUI",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970018Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706770Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "149a42d973686648d4f13f8c9a82d20b"
+    "source_hash": "149a42d973686648d4f13f8c9a82d20b",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "ContextMenu_AVCS_UnclaimVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970023Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706777Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "3c90244b1501171417aeb012f2002e34"
+    "source_hash": "3c90244b1501171417aeb012f2002e34",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "ContextMenu_AVCS_UnsupportedVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970028Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706784Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "cdc1c8bfb8cccbb8c2181ee31b98eac7"
+    "source_hash": "cdc1c8bfb8cccbb8c2181ee31b98eac7",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "CraftMysteriousVehicleClaimOrb",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970034Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706790Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "a874f92ff31e11755898233e2ee34c7e"
+    "source_hash": "a874f92ff31e11755898233e2ee34c7e",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_Title",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970038Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706797Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "7ed1818a58db4f083c06c7e39fdac76a"
+    "source_hash": "7ed1818a58db4f083c06c7e39fdac76a",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_btnDelete_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970044Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706810Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "53299ef557a14d0bb04ce513d48162ce"
+    "source_hash": "53299ef557a14d0bb04ce513d48162ce",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_btnModifyPermissions_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970051Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706817Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "85d755d9014a4d4f03c2dc9088c0c345"
+    "source_hash": "85d755d9014a4d4f03c2dc9088c0c345",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_btnViewFaction_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970055Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706824Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "4c99b7a09a186679c43ef0b4bb2203e7"
+    "source_hash": "4c99b7a09a186679c43ef0b4bb2203e7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_btnViewSafehouse_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970060Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706833Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "842075349402f03904e992507fed3005"
+    "source_hash": "842075349402f03904e992507fed3005",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_lblFilter",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970066Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706839Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "f5668918e2058e33167813eceb47f7b6"
+    "source_hash": "f5668918e2058e33167813eceb47f7b6",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_listCarName",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970071Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706846Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "c8805793cd6323ab43bdc8f0a54245d1"
+    "source_hash": "c8805793cd6323ab43bdc8f0a54245d1",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_listClaimedDate",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970076Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706853Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "c6cd0f3a418d09ee7cf6da4edca90ed6"
+    "source_hash": "c6cd0f3a418d09ee7cf6da4edca90ed6",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_listExpireon",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970083Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706858Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "5a5df10d9f44f1219ee2def1bef6bc5a"
+    "source_hash": "5a5df10d9f44f1219ee2def1bef6bc5a",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_listLocation",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970089Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706866Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "68d757ae6ce2f54f11f08a6dce8de7b8"
+    "source_hash": "68d757ae6ce2f54f11f08a6dce8de7b8",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_listUsername",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970094Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706873Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "89cdf4796d35eb427a32bff2041775cf"
+    "source_hash": "89cdf4796d35eb427a32bff2041775cf",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Admin_Manager_listVehicleID",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970100Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706879Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "48c910b21d47ccca9b3086fd45c9f447"
+    "source_hash": "48c910b21d47ccca9b3086fd45c9f447",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Manager_Title",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970104Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706886Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "d136bb79444977b230352de19cc510f7"
+    "source_hash": "d136bb79444977b230352de19cc510f7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Manager_btnModify_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970109Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706893Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "a2856dbe86d42e55fa522fa445b4fde0"
+    "source_hash": "a2856dbe86d42e55fa522fa445b4fde0",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Manager_btnUnclaim_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970114Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706900Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "2086002fe5b5d9855b5949f6068a1132"
+    "source_hash": "2086002fe5b5d9855b5949f6068a1132",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Manager_lblVehicleExpire",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970119Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706906Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "b04641915cd9703beb1d413ecf5975a5"
+    "source_hash": "b04641915cd9703beb1d413ecf5975a5",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Manager_lblVehicleLastLocationUpdate",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970125Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706912Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "5759c63d08eb414e39fc8c83d4060887"
+    "source_hash": "5759c63d08eb414e39fc8c83d4060887",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Manager_lblVehicleLocation",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970129Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706917Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "3a8f7f438f80906950eaf3255261424e"
+    "source_hash": "3a8f7f438f80906950eaf3255261424e",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Manager_lblVehicleOwner",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970135Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706926Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "ecb4138e5eafdf8516050d174d74515d"
+    "source_hash": "ecb4138e5eafdf8516050d174d74515d",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Manager_listVehicles_NoVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970139Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706937Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "1cdcb850b077ae072c2f3791fbccabd6"
+    "source_hash": "1cdcb850b077ae072c2f3791fbccabd6",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Manager_tabButton_Faction_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970144Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706943Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "e62870aee66b3098ed2d3a46ba12cf03"
+    "source_hash": "e62870aee66b3098ed2d3a46ba12cf03",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Manager_tabButton_Personal_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970149Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706953Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "aa80091d7d4cbee6725c4fad5bf28fd5"
+    "source_hash": "aa80091d7d4cbee6725c4fad5bf28fd5",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Manager_tabButton_Safehouse_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970154Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706962Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "a51af2306bc5d5e2d211302117bb719c"
+    "source_hash": "a51af2306bc5d5e2d211302117bb719c",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblAllowAttachVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970166Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706969Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "de7f462b27adbd0ea6880ebf0c49edca"
+    "source_hash": "de7f462b27adbd0ea6880ebf0c49edca",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblAllowContainersAccess",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970171Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706978Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "a8849ecc53870d2d7faf80f678e8fea2"
+    "source_hash": "a8849ecc53870d2d7faf80f678e8fea2",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblAllowDeflatTires",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970176Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706984Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "a01bfa8abc666e512e913c2d3673c2b8"
+    "source_hash": "a01bfa8abc666e512e913c2d3673c2b8",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblAllowDetechVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970182Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706988Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "3621a98aa5cff59a1927fe95b88721ef"
+    "source_hash": "3621a98aa5cff59a1927fe95b88721ef",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblAllowDrive",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970187Z",
+    "last_seen_at": "2026-08-23T03:10:35.9706993Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "7e0dd9ff54b7faaf97a3dd9382b33960"
+    "source_hash": "7e0dd9ff54b7faaf97a3dd9382b33960",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblAllowInflatTires",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970192Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707002Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "ce2ddbb96517c79da2021cd977f3a0b3"
+    "source_hash": "ce2ddbb96517c79da2021cd977f3a0b3",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblAllowOpeningTrunk",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970197Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707010Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "62121bd3a51fcafbb20f9436bd92daff"
+    "source_hash": "62121bd3a51fcafbb20f9436bd92daff",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblAllowPassenger",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970202Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707015Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "fa2f7012420054b649bf4a7f2dca30ba"
+    "source_hash": "fa2f7012420054b649bf4a7f2dca30ba",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblAllowSiphonFuel",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970208Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707022Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "5f1ae2a5f24c2856bc85b943533e5a95"
+    "source_hash": "5f1ae2a5f24c2856bc85b943533e5a95",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblAllowTakeEngineParts",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970213Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707030Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "186f43797facdc475e766ebdbcf25ed7"
+    "source_hash": "186f43797facdc475e766ebdbcf25ed7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblAllowUninstallParts",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970217Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707036Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "d66954cd4791f882058f3a4e7c3027c9"
+    "source_hash": "d66954cd4791f882058f3a4e7c3027c9",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_User_Permissions_lblPublicPermissions",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970222Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707044Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "4dc6d1ab8a404426100c0d1e3e10435b"
+    "source_hash": "4dc6d1ab8a404426100c0d1e3e10435b",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_AVCS_Vehicle_No_Permission",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970226Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707051Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "9aba400fe35387788028970ce9727614"
+    "source_hash": "9aba400fe35387788028970ce9727614",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "IGUI_ItemCat_AVCS",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970230Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707057Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "c31e7988bebc35cdacc27c929fed6f0a"
+    "source_hash": "c31e7988bebc35cdacc27c929fed6f0a",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "ItemName_AVCS.ClaimOrb",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970241Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707065Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "08894698b99796c297c3fbe0b92ff1ea"
+    "source_hash": "08894698b99796c297c3fbe0b92ff1ea",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "ItemName_Base.AVCSClaimOrb",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970246Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707070Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "4677ebc48655645bddd93508525b5fd2"
+    "source_hash": "4677ebc48655645bddd93508525b5fd2",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Recipe_Craft_Mysterious_Vehicle_Claim_Orb",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970256Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707078Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "2773d148e0114b5b759f3a10e8d20583"
+    "source_hash": "2773d148e0114b5b759f3a10e8d20583",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970261Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707083Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "1681dee49cce35cb184997ec721dfd61"
+    "source_hash": "1681dee49cce35cb184997ec721dfd61",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_AllowFaction",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970265Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707089Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "1ceacd7107df305b8459453fd81982b6"
+    "source_hash": "1ceacd7107df305b8459453fd81982b6",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_AllowFaction_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970269Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707098Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "f2705ffa660c22a8677659af7c72c12d"
+    "source_hash": "f2705ffa660c22a8677659af7c72c12d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_AllowFaction_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970275Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707103Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "3fe10637ec1afdb069d6da1f589150af"
+    "source_hash": "3fe10637ec1afdb069d6da1f589150af",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_AllowSafehouse",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970282Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707109Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "dc5b2750568f24641ddee053be4bb6b6"
+    "source_hash": "dc5b2750568f24641ddee053be4bb6b6",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_AllowSafehouse_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970288Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707115Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "198df00a2f4541e5ca02bb77def33f7e"
+    "source_hash": "198df00a2f4541e5ca02bb77def33f7e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_AllowSafehouse_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970292Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707123Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "96172c2df59f590a418786113ed84f7d"
+    "source_hash": "96172c2df59f590a418786113ed84f7d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_ClaimTimeout",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970297Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707130Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "f2bf429e1d35b53b40c8343b3eeab958"
+    "source_hash": "f2bf429e1d35b53b40c8343b3eeab958",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_ClaimTimeout_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970302Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707136Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "cd37d47b6419b8e2530cd1c3305d4c7c"
+    "source_hash": "cd37d47b6419b8e2530cd1c3305d4c7c",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_ClaimTimeout_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970307Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707145Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "8d8bb2157750097524b7b452c83ab44d"
+    "source_hash": "8d8bb2157750097524b7b452c83ab44d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_MaxVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970312Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707151Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "b6ddbe4f941bffdfe41fa91374eb4675"
+    "source_hash": "b6ddbe4f941bffdfe41fa91374eb4675",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_MaxVehicle_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970319Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707156Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "4ad13728b11a4e585be98accb90531fc"
+    "source_hash": "4ad13728b11a4e585be98accb90531fc",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_MaxVehicle_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970324Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707164Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "0f7a82deef5200469bf6f976d1049bbf"
+    "source_hash": "0f7a82deef5200469bf6f976d1049bbf",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_MuleParts",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970328Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707171Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "250c8ecf6cd3a0039ca394f1b84f5956"
+    "source_hash": "250c8ecf6cd3a0039ca394f1b84f5956",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_MuleParts_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970334Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707178Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "7a8033658f0c70547c40db09e64a6ea6"
+    "source_hash": "7a8033658f0c70547c40db09e64a6ea6",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_MuleParts_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970338Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707186Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "1e18e4e479e1853c2598ffeb31e071c1"
+    "source_hash": "1e18e4e479e1853c2598ffeb31e071c1",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_RebuildDB",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970342Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707194Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "197896dd1e7adac05a1b129aa25ad257"
+    "source_hash": "197896dd1e7adac05a1b129aa25ad257",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_RebuildDB_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970348Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707201Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "11f9c7a70e371aae4e485f6515be7404"
+    "source_hash": "11f9c7a70e371aae4e485f6515be7404",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_RebuildDB_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970352Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707207Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "a9868793d83b9ab807587b18e6943521"
+    "source_hash": "a9868793d83b9ab807587b18e6943521",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_RequireTicket",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970357Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707216Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "20b463e5b62236438666e294ad09c4dd"
+    "source_hash": "20b463e5b62236438666e294ad09c4dd",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_RequireTicket_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970361Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707224Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "163b0bcc77d54922fbee2291b6d2f782"
+    "source_hash": "163b0bcc77d54922fbee2291b6d2f782",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_RequireTicket_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970366Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707232Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "b3441cb1153ff0886594064438c23105"
+    "source_hash": "b3441cb1153ff0886594064438c23105",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_ReturnTicket",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970371Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707239Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "84d7c2b1acde31cf98a3ea7eaedcae80"
+    "source_hash": "84d7c2b1acde31cf98a3ea7eaedcae80",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_ReturnTicket_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970375Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707247Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "218450e7b17a10bca24ac1a9a9fc8651"
+    "source_hash": "218450e7b17a10bca24ac1a9a9fc8651",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_ReturnTicket_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970381Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707252Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "0681a77389a7bc37fe46ebe82bc30b28"
+    "source_hash": "0681a77389a7bc37fe46ebe82bc30b28",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_ServerSideChecking",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970386Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707260Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "44b1a25d076585d9d867ee7594d3e83b"
+    "source_hash": "44b1a25d076585d9d867ee7594d3e83b",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_ServerSideChecking_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970395Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707266Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "a4ac2adcbf68a6a70b524e38b96ba8f0"
+    "source_hash": "a4ac2adcbf68a6a70b524e38b96ba8f0",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_ServerSideChecking_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970399Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707274Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "6e4897265205f494316fb0145b862756"
+    "source_hash": "6e4897265205f494316fb0145b862756",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_TrunkParts",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970404Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707283Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "c57eac7daa1b5b5b8cb6055b1ab2e058"
+    "source_hash": "c57eac7daa1b5b5b8cb6055b1ab2e058",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_TrunkParts_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970409Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707296Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "c8726d4cc039673fb3af5b34e79dbe39"
+    "source_hash": "c8726d4cc039673fb3af5b34e79dbe39",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_TrunkParts_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970415Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707302Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "24cbe9da49064b1c93fe8f174148a4f4"
+    "source_hash": "24cbe9da49064b1c93fe8f174148a4f4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_UdderlyRespawn",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970419Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707309Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "6568e456a49bd2e37e1567356f584be6"
+    "source_hash": "6568e456a49bd2e37e1567356f584be6",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_UdderlyRespawn_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970423Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707317Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "be1a4156a6a8169545feb15c87226ade"
+    "source_hash": "be1a4156a6a8169545feb15c87226ade",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_UdderlyRespawn_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970427Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707322Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "eab65ddedca5319085fd56c413f6b582"
+    "source_hash": "eab65ddedca5319085fd56c413f6b582",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_VehicleCoordinateUpdateThrottle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970432Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707328Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "48ba332f6931a0bb91da62e8ff47f726"
+    "source_hash": "48ba332f6931a0bb91da62e8ff47f726",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_VehicleCoordinateUpdateThrottle_help",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970438Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707336Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "d28979499d5505ad959fe909339d62a3"
+    "source_hash": "d28979499d5505ad959fe909339d62a3",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Sandbox_AVCS_VehicleCoordinateUpdateThrottle_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970443Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707344Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "af47a1e06432706cc71ea5a71c264e50"
+    "source_hash": "af47a1e06432706cc71ea5a71c264e50",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Tooltip_AVCS_ClaimVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970448Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707349Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "d363f2eb014e43f3fb1fc0e46364ed0f"
+    "source_hash": "d363f2eb014e43f3fb1fc0e46364ed0f",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Tooltip_AVCS_ExceedLimit",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970452Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707359Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "c26ba9c6618f46b4ba52d1efe21fd2ac"
+    "source_hash": "c26ba9c6618f46b4ba52d1efe21fd2ac",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Tooltip_AVCS_Expire",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970456Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707367Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "ca602bde4be4e4d809f8f629715cdd3f"
+    "source_hash": "ca602bde4be4e4d809f8f629715cdd3f",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Tooltip_AVCS_Needs",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970460Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707373Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "d8f443b62469b6a47f4b30125a95de88"
+    "source_hash": "d8f443b62469b6a47f4b30125a95de88",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Tooltip_AVCS_Owner",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970464Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707379Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "da8ea538d86df9cf5d9230cf1394bedf"
+    "source_hash": "da8ea538d86df9cf5d9230cf1394bedf",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Tooltip_AVCS_Towed",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970471Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707386Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "d46a32938642269ca74ea1491e6b0147"
+    "source_hash": "d46a32938642269ca74ea1491e6b0147",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "2957935793",
     "translation_key": "Tooltip_AVCS_Unsupported",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.6970476Z",
+    "last_seen_at": "2026-08-23T03:10:35.9707393Z",
     "last_seen_mod_updated": "2026-08-12T13:23:01.0000000Z",
-    "source_hash": "7a6b5059b7e57fb6e007faec8f4a0f93"
+    "source_hash": "7a6b5059b7e57fb6e007faec8f4a0f93",
+    "output_file_stem": "Tooltip"
   }
 ]

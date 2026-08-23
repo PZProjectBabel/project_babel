@@ -2,6 +2,12 @@ name: Update Translations
 
 on:
   workflow_dispatch:
+    inputs:
+      max_download_batches:
+        description: Maximum number of download batches to process in this run
+        required: false
+        default: '30'
+        type: string
 
 concurrency:
   group: translation-pipeline
@@ -33,7 +39,7 @@ jobs:
           EMBEDDING_KEY: ${{ secrets.EMBEDDING_KEY }}
           LLM_KEY: ${{ secrets.LLM_KEY }}
           STEAM_KEY: ${{ secrets.STEAM_KEY }}
-        run: dotnet run --project src/TranslationPipeline.csproj
+        run: dotnet run --project src/TranslationPipeline.csproj -- --max-download-batches "${{ inputs.max_download_batches }}"
 
       - name: Check for changes
         id: changes

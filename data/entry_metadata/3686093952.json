@@ -3,160 +3,180 @@
     "mod_id": "3686093952",
     "translation_key": "ContextMenu_OxygenRefill_DuplicateTankIds",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823904Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "38f43c7b7651a65dbad52eaa0bfc1340"
+    "source_hash": "38f43c7b7651a65dbad52eaa0bfc1340",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "ContextMenu_OxygenRefill_InvalidTankInstance",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823913Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "82e4cefea8e39f98aa5c0b238457c501"
+    "source_hash": "82e4cefea8e39f98aa5c0b238457c501",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "ContextMenu_OxygenRefill_NoRefillableTank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823924Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "aa35550b499cf147d6652e242e08289a"
+    "source_hash": "aa35550b499cf147d6652e242e08289a",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "ContextMenu_OxygenRefill_NoTank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823931Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "1df8f380607cf47e1c86862264c9300c"
+    "source_hash": "1df8f380607cf47e1c86862264c9300c",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "ContextMenu_OxygenRefill_RefillTank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823936Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "d5bf4f02480aceb756efa852135aaec5"
+    "source_hash": "d5bf4f02480aceb756efa852135aaec5",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "ContextMenu_OxygenRefill_RefillTanks",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823941Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "662127114324fc8f74b34fc78e01e234"
+    "source_hash": "662127114324fc8f74b34fc78e01e234",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "CraftOxygenHandPump",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823945Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "4a69f7783f88e1605a32def5bda51cf4"
+    "source_hash": "4a69f7783f88e1605a32def5bda51cf4",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "IGUI_JobType_OxygenRefill_RefillTank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823951Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "99e5dae8198d41e3d25152a71ec82e77"
+    "source_hash": "99e5dae8198d41e3d25152a71ec82e77",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "IGUI_OxygenRefill_OxygenCompressor",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823956Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "d72506f0b61a21bfc1987171a3827c8a"
+    "source_hash": "d72506f0b61a21bfc1987171a3827c8a",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "OxygenCompressor",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823964Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "bfdb8642e0657ae4befe8f0654a96141"
+    "source_hash": "bfdb8642e0657ae4befe8f0654a96141",
+    "output_file_stem": "Moveables"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "OxygenRefill.OxygenCompressor",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823971Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "c1667d6b744ffadf3a388d55388d580c"
+    "source_hash": "c1667d6b744ffadf3a388d55388d580c",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "OxygenRefill.OxygenHandPump",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823977Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "70d77b3644908f2cd0337fb2d038179c"
+    "source_hash": "70d77b3644908f2cd0337fb2d038179c",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "Tooltip_OxygenRefill_CompressorBuildDesc",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823985Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "e094a0385e294d4cbb8b3346954977e8"
+    "source_hash": "e094a0385e294d4cbb8b3346954977e8",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "Tooltip_OxygenRefill_DuplicateTankIds",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0823993Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "152fad1b141fcea3122d0a9582c19736"
+    "source_hash": "152fad1b141fcea3122d0a9582c19736",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "Tooltip_OxygenRefill_InvalidTankInstance",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0824001Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "38b58aaad7d4d84efd1cf8cb32a62c30"
+    "source_hash": "38b58aaad7d4d84efd1cf8cb32a62c30",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "Tooltip_OxygenRefill_NoRefillableTank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0824007Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "c046eda4dc36ba58fb847d9860f4be37"
+    "source_hash": "c046eda4dc36ba58fb847d9860f4be37",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "Tooltip_OxygenRefill_NoTank",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0824013Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "4cb15314b9ac09449e9119d486ccb513"
+    "source_hash": "4cb15314b9ac09449e9119d486ccb513",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "Tooltip_OxygenRefill_RequiresItem",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0824018Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "e01f5c4456a8d3be00cb17ef409c6d44"
+    "source_hash": "e01f5c4456a8d3be00cb17ef409c6d44",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "Tooltip_OxygenRefill_RequiresPower",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0824024Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "53db5041a393cba11875bff262e3fdf2"
+    "source_hash": "53db5041a393cba11875bff262e3fdf2",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3686093952",
     "translation_key": "Tooltip_OxygenRefill_TooFarFromCompressor",
     "is_active": true,
-    "last_seen_at": "2026-06-30T20:32:41.9785198Z",
+    "last_seen_at": "2026-08-23T03:10:36.0824031Z",
     "last_seen_mod_updated": "2026-05-19T18:01:47.0000000Z",
-    "source_hash": "07ddc28c703886e450628c85dcdadc68"
+    "source_hash": "07ddc28c703886e450628c85dcdadc68",
+    "output_file_stem": "Tooltip"
   }
 ]

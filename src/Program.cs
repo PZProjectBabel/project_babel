@@ -19,7 +19,7 @@ Console.InputEncoding = Utf8NoBom.Encoding;
 try
 {
     var pipeline = new PipelineRunner();
-    await pipeline.RunAsync();
+    await pipeline.RunAsync(PipelineRunner.ParseMaxDownloadExtractionBatches(args));
 }
 catch (Exception ex)
 {
@@ -38,6 +38,10 @@ public class PipelineRunner
     private const bool DebugOn = false;
     /// <summary>Maximum number of download/extraction batches handled in one pipeline run.</summary>
     public const int MaxDownloadExtractionBatchesPerRun = 30;
+    /// <summary>Maximum number of SteamCMD-backed download batches that may run concurrently.</summary>
+    public const int DownloadBatchConcurrency = 8;
+    /// <summary>Command-line option that overrides the per-run download/extraction batch limit.</summary>
+    public const string MaxDownloadExtractionBatchesArgument = "--max-download-batches";
     /// <summary>Maximum number of mods to process in debug mode.</summary>
     private const int DebugModLimit = 1400;
     /// <summary>Number of additional target languages in debug mode (beyond base + zh-hans).</summary>
@@ -47,8 +51,9 @@ public class PipelineRunner
     /// Executes all pipeline phases in sequence: Config → Reference mods → Collect IDs → Fetch info →
     /// Download/Extract → Content check → Embeddings → Batching → RAG + LLM → Write results → Final output.
     /// </summary>
-    public async Task RunAsync()
+    public async Task RunAsync(int maxDownloadExtractionBatches = MaxDownloadExtractionBatchesPerRun)
     {
+        ValidatePositive(maxDownloadExtractionBatches, nameof(maxDownloadExtractionBatches), "Maximum download batches must be positive.");
         int currentStep = 1;
         var allTaskResults = new List<TaskResult>();
 
@@ -157,7 +162,7 @@ public class PipelineRunner
             }
             finally
             {
-                CleanupDownloadedBatch(config, refBatchFolder);
+                CleanupDownloadedBatch(config, refBatchFolder, staleRefModIds);
             }
             Console.WriteLine($"  [OK] Refreshed {staleRefModIds.Count} ref mod(s), total ref entries: {refTranslationEntryDict.Count}");
 
@@ -244,40 +249,68 @@ public class PipelineRunner
         if (updateModIds.Count > 0)
         {
             int totalBatches = (updateModIds.Count + config.pipelineBatchSize - 1) / config.pipelineBatchSize;
-            var downloadBatches = CreateDownloadExtractionBatches(updateModIds, config.pipelineBatchSize);
+            var downloadBatches = CreateDownloadExtractionBatches(
+                updateModIds,
+                config.pipelineBatchSize,
+                maxDownloadExtractionBatches);
             processedUpdateModIds = downloadBatches.SelectMany(batch => batch).ToList();
-            Console.WriteLine($"Downloading and extracting {updateModIds.Count} updated mod(s) in batches (processing {downloadBatches.Count}/{totalBatches} batch(es) this run).");
+            Console.WriteLine($"Downloading and extracting {updateModIds.Count} updated mod(s) in batches (processing {downloadBatches.Count}/{totalBatches} batch(es) this run; limit={maxDownloadExtractionBatches}; up to {DownloadBatchConcurrency} concurrent downloads; each batch uses an independent SteamCMD copy).");
             if (processedUpdateModIds.Count < updateModIds.Count)
                 Console.WriteLine($"  [OK] {updateModIds.Count - processedUpdateModIds.Count} mod(s) remain queued for the next pipeline run.");
 
-            foreach (var (batch, idx) in downloadBatches.Select((batch, idx) => (batch, idx)))
+            // Download batches in waves of up to eight, but keep extraction sequential because
+            // it merges into the shared freshEntries dictionary. Processing a wave before
+            // starting the next one also keeps downloaded content from accumulating in temp.
+            using var downloadConcurrency = new SemaphoreSlim(DownloadBatchConcurrency);
+            for (var waveStart = 0; waveStart < downloadBatches.Count; waveStart += DownloadBatchConcurrency)
             {
-                string batchTempFolder = Path.Combine(config.downloadingBatchesTempDir, $"batch_{idx + 1}");
-                Directory.CreateDirectory(batchTempFolder);
-                var batchIds = batch.ToList();
-                var batchModInfoDict = batchIds.ToDictionary(id => id, id => modInfoDict[id], StringComparer.Ordinal);
+                var downloadTasks = downloadBatches
+                    .Skip(waveStart)
+                    .Take(DownloadBatchConcurrency)
+                    .Select((batch, offset) => DownloadBatchAsync(
+                        config,
+                        batch,
+                        waveStart + offset,
+                        totalBatches,
+                        currentStep,
+                        totalSteps,
+                        modInfoDict,
+                        downloadConcurrency))
+                    .ToList();
+                var completedDownloads = await Task.WhenAll(downloadTasks);
 
-                Console.WriteLine($"[{currentStep}/{totalSteps}] Downloading mods [batch {idx + 1}/{totalBatches}]: {batchIds.Count} mod(s)...");
-                var modDownloader = new ModDownloaderService(config);
-                allTaskResults.Add(await modDownloader.DownloadModsAsync(batchIds, batchModInfoDict, batchTempFolder));
-                foreach (var (modId, info) in batchModInfoDict)
-                    modInfoDict[modId] = info;
-                Console.WriteLine();
-
-                Console.WriteLine($"  Extracting content [batch {idx + 1}/{totalBatches}]...");
-                var contentExtractor = new ContentExtractorService(config);
-                try
+                foreach (var download in completedDownloads)
                 {
-                    var extractionResult = await contentExtractor.ExtractContentsAsync(batchModInfoDict, freshEntries, $"batch_{idx + 1}");
-                    allTaskResults.Add(extractionResult);
-                    if (extractionResult.isSuccess)
-                        ClearHandledUpdateFlags(batchIds, modInfoDict);
-                }
-                finally
-                {
-                    CleanupDownloadedBatch(config, batchTempFolder);
+                    allTaskResults.Add(download.DownloadResult);
+                    foreach (var (modId, info) in download.ModInfoDict)
+                        modInfoDict[modId] = info;
                 }
                 Console.WriteLine();
+
+                // Extraction remains ordered and single-threaded so that freshEntries and the
+                // content extractor's shared output folders are not mutated concurrently.
+                foreach (var download in completedDownloads)
+                {
+                    Console.WriteLine($"  Extracting content [batch {download.BatchIndex + 1}/{totalBatches}]...");
+                    var contentExtractor = new ContentExtractorService(config);
+                    try
+                    {
+                        var extractionResult = await contentExtractor.ExtractContentsAsync(
+                            download.ModInfoDict,
+                            freshEntries,
+                            $"batch_{download.BatchIndex + 1}");
+                        allTaskResults.Add(extractionResult);
+                        if (extractionResult.isSuccess)
+                            ClearHandledUpdateFlags(download.BatchIds, modInfoDict);
+                    }
+                    finally
+                    {
+                        // Only remove this batch's downloaded mods. Other batches in the
+                        // current wave still need their files for extraction.
+                        CleanupDownloadedBatch(config, download.BatchTempFolder, download.BatchIds);
+                    }
+                    Console.WriteLine();
+                }
             }
             currentStep++; // download consumed
             currentStep++; // extract consumed
@@ -647,15 +680,106 @@ public class PipelineRunner
     /// Creates the download/extraction batches for this run. Excess batches remain flagged
     /// for the next pipeline run instead of being downloaded or extracted now.
     /// </summary>
-    public static List<string[]> CreateDownloadExtractionBatches(IEnumerable<string> modIds, int batchSize)
+    public static List<string[]> CreateDownloadExtractionBatches(
+        IEnumerable<string> modIds,
+        int batchSize,
+        int maxBatches = MaxDownloadExtractionBatchesPerRun)
     {
-        if (batchSize <= 0)
-            throw new ArgumentOutOfRangeException(nameof(batchSize), batchSize, "Batch size must be positive.");
+        ValidatePositive(batchSize, nameof(batchSize), "Batch size must be positive.");
+        ValidatePositive(maxBatches, nameof(maxBatches), "Maximum download batches must be positive.");
 
         return modIds
             .Chunk(batchSize)
-            .Take(MaxDownloadExtractionBatchesPerRun)
+            .Take(maxBatches)
             .ToList();
+    }
+
+    /// <summary>
+    /// Downloads one batch after acquiring the global download concurrency slot.
+    /// The batch receives a dedicated temp folder, so ModDownloaderService copies
+    /// an independent SteamCMD workspace for this download.
+    /// </summary>
+    private static async Task<DownloadBatchExecution> DownloadBatchAsync(
+        PipelineConfig config,
+        IReadOnlyList<string> batch,
+        int batchIndex,
+        int totalBatches,
+        int currentStep,
+        int totalSteps,
+        Dictionary<string, ModInfo> allModInfoDict,
+        SemaphoreSlim downloadConcurrency)
+    {
+        await downloadConcurrency.WaitAsync();
+        try
+        {
+            string batchTempFolder = Path.Combine(config.downloadingBatchesTempDir, $"batch_{batchIndex + 1}");
+            Directory.CreateDirectory(batchTempFolder);
+            var batchIds = batch.ToList();
+            var batchModInfoDict = batchIds.ToDictionary(id => id, id => allModInfoDict[id], StringComparer.Ordinal);
+
+            Console.WriteLine($"[{currentStep}/{totalSteps}] Downloading mods [batch {batchIndex + 1}/{totalBatches}]: {batchIds.Count} mod(s)...");
+            var modDownloader = new ModDownloaderService(config);
+            var downloadResult = await modDownloader.DownloadModsAsync(batchIds, batchModInfoDict, batchTempFolder);
+
+            return new DownloadBatchExecution(
+                batchIndex,
+                batchIds,
+                batchModInfoDict,
+                batchTempFolder,
+                downloadResult);
+        }
+        finally
+        {
+            downloadConcurrency.Release();
+        }
+    }
+
+    private sealed record DownloadBatchExecution(
+        int BatchIndex,
+        List<string> BatchIds,
+        Dictionary<string, ModInfo> ModInfoDict,
+        string BatchTempFolder,
+        TaskResult DownloadResult);
+
+    /// <summary>
+    /// Parses the optional runtime limit from command-line arguments. The default is 30 batches.
+    /// Supports both <c>--max-download-batches 10</c> and <c>--max-download-batches=10</c>.
+    /// </summary>
+    public static int ParseMaxDownloadExtractionBatches(IReadOnlyList<string> args)
+    {
+        for (var index = 0; index < args.Count; index++)
+        {
+            var argument = args[index];
+            if (argument.StartsWith(MaxDownloadExtractionBatchesArgument + "=", StringComparison.OrdinalIgnoreCase))
+            {
+                var value = argument[(MaxDownloadExtractionBatchesArgument.Length + 1)..];
+                return ParsePositive(value, MaxDownloadExtractionBatchesArgument);
+            }
+
+            if (!string.Equals(argument, MaxDownloadExtractionBatchesArgument, StringComparison.OrdinalIgnoreCase))
+                continue;
+
+            if (index + 1 >= args.Count)
+                throw new ArgumentException($"{MaxDownloadExtractionBatchesArgument} requires a positive integer value.");
+
+            return ParsePositive(args[++index], MaxDownloadExtractionBatchesArgument);
+        }
+
+        return MaxDownloadExtractionBatchesPerRun;
+    }
+
+    private static int ParsePositive(string value, string argumentName)
+    {
+        if (int.TryParse(value, out var parsed) && parsed > 0)
+            return parsed;
+
+        throw new ArgumentException($"{argumentName} must be a positive integer, but was '{value}'.");
+    }
+
+    private static void ValidatePositive(int value, string parameterName, string message)
+    {
+        if (value <= 0)
+            throw new ArgumentOutOfRangeException(parameterName, value, message);
     }
 
     /// <summary>Clears the needsUpdate flag for mods that were successfully downloaded and extracted.</summary>
@@ -682,7 +806,8 @@ public class PipelineRunner
     /// </summary>
     private static void CleanupDownloadedBatch(
         PipelineConfig config,
-        string batchTempFolder)
+        string batchTempFolder,
+        IEnumerable<string>? modIds = null)
     {
         var runTempDir = config.runTempDir;
         if (string.IsNullOrWhiteSpace(runTempDir))
@@ -700,7 +825,13 @@ public class PipelineRunner
             {
                 try
                 {
-                    foreach (var modPath in Directory.EnumerateDirectories(config.downloadedModsTempDir))
+                    var modPaths = modIds == null
+                        ? Directory.EnumerateDirectories(config.downloadedModsTempDir).ToList()
+                        : modIds
+                            .Where(modId => !string.IsNullOrWhiteSpace(modId))
+                            .Select(modId => Path.Combine(config.downloadedModsTempDir, modId))
+                            .ToList();
+                    foreach (var modPath in modPaths)
                     {
                         if (TryDeleteRunTempPath(modPath, runTempDir))
                             deletedMods++;

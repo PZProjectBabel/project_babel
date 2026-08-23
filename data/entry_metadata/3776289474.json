@@ -3,1736 +3,1953 @@
     "mod_id": "3776289474",
     "translation_key": "Base.SOS_Laser",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031493Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360765Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "6483cfc2b46590539f05a1b19297ad8c"
+    "source_hash": "6483cfc2b46590539f05a1b19297ad8c",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Base.SOS_Suppressor",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031500Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360772Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "97ab12505af9d9df4ec0cfe567034c2c"
+    "source_hash": "97ab12505af9d9df4ec0cfe567034c2c",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "ContextMenu_SOS_FieldTriage",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360776Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "4b00454ecea1f2ed82f8b7373a02dd43"
+    "source_hash": "4b00454ecea1f2ed82f8b7373a02dd43",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "ContextMenu_SOS_PlaceBreachCharge",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031507Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360781Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "73b352149d55d6ebc6159c6571233b14"
+    "source_hash": "73b352149d55d6ebc6159c6571233b14",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "ContextMenu_SOS_ScoutSense_Off",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031515Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360787Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c0a38a80ce52903455cb9ea0b332739a"
+    "source_hash": "c0a38a80ce52903455cb9ea0b332739a",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "ContextMenu_SOS_ScoutSense_On",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031519Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360791Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "51283cd40f42201198f0ee7bccf96004"
+    "source_hash": "51283cd40f42201198f0ee7bccf96004",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "IGUI_SOS_FieldTriage_Dead",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360797Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e81d99f30ec26ad290ebf341b112add9"
+    "source_hash": "e81d99f30ec26ad290ebf341b112add9",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "IGUI_SOS_FieldTriage_Disabled",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360801Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "a6ac84ef2d4c8be3ea7ae16a37eb4693"
+    "source_hash": "a6ac84ef2d4c8be3ea7ae16a37eb4693",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "IGUI_SOS_FieldTriage_NotAuthority",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360804Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "f3cfb6c7e8e0d024570b29b463dcc7ce"
+    "source_hash": "f3cfb6c7e8e0d024570b29b463dcc7ce",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "IGUI_SOS_FieldTriage_NotMedic",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360808Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "23c7a3d2c416cb40ac813106301c4419"
+    "source_hash": "23c7a3d2c416cb40ac813106301c4419",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "IGUI_SOS_FieldTriage_OutOfRange",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360815Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "01e96586e4d5f992007a498ede90b2e6"
+    "source_hash": "01e96586e4d5f992007a498ede90b2e6",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "IGUI_SOS_FieldTriage_Target",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360819Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "0adb235026719705eca85c607422b9fd"
+    "source_hash": "0adb235026719705eca85c607422b9fd",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "IGUI_SOS_FieldTriage_WoundOrSupplies",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360825Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "5de885885ab2817ea72bb73323c1fcff"
+    "source_hash": "5de885885ab2817ea72bb73323c1fcff",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "IGUI_SOS_ScoutSense_Off",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031528Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360829Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "f3744b2eda92eec33d17cf0dfb7fbeb1"
+    "source_hash": "f3744b2eda92eec33d17cf0dfb7fbeb1",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "IGUI_SOS_ScoutSense_On",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031532Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360834Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c4a553ca7075d432aaf1b34f1889935c"
+    "source_hash": "c4a553ca7075d432aaf1b34f1889935c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "MakeSOSBreachCharge",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031537Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360841Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "dd9e024d74fff4291fb9fe23cb963e32"
+    "source_hash": "dd9e024d74fff4291fb9fe23cb963e32",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "MakeSOSFieldRepair",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031540Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360847Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "71664a53476da653a1468c3d00a608d4"
+    "source_hash": "71664a53476da653a1468c3d00a608d4",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "MakeSOSFieldRepairAdvanced",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031544Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360851Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "9f5b9a0f73edde2ed6791eb9432793bb"
+    "source_hash": "9f5b9a0f73edde2ed6791eb9432793bb",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "MakeSOSLaser",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031548Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360855Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "effa1dee6e1f8442bc78826e6061e47e"
+    "source_hash": "effa1dee6e1f8442bc78826e6061e47e",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "MakeSOSNoiseMaker",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031552Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360860Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "837534bc16261d522be5322e2d064612"
+    "source_hash": "837534bc16261d522be5322e2d064612",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "MakeSOSPipeBomb",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031556Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360866Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "9e8bf414031c30e84fd97e11451e7b3c"
+    "source_hash": "9e8bf414031c30e84fd97e11451e7b3c",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "MakeSOSSuppressor",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031561Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360871Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "4b34f684fe6d3b92fc0d825b6653a864"
+    "source_hash": "4b34f684fe6d3b92fc0d825b6653a864",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_AmmoPercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031567Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360875Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "81566234568e76fd3b60663021e33ae1"
+    "source_hash": "81566234568e76fd3b60663021e33ae1",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_AmmoPercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031571Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360879Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "74345ca4dfc5c9263736ce2c7beece6a"
+    "source_hash": "74345ca4dfc5c9263736ce2c7beece6a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_Assault",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031575Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360884Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "ada7932c99e052499d0c27ac488b4b50"
+    "source_hash": "ada7932c99e052499d0c27ac488b4b50",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_BreachNoisePercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031580Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360890Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "368c546cf89e7539c093f138cf7d09ab"
+    "source_hash": "368c546cf89e7539c093f138cf7d09ab",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_BreachNoisePercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031588Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360897Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "b5bb88ed2463f6e57856ec506ef97a37"
+    "source_hash": "b5bb88ed2463f6e57856ec506ef97a37",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_BreachSeconds",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031592Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360902Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "4796db1ad5ecf8f100e741b8065034d6"
+    "source_hash": "4796db1ad5ecf8f100e741b8065034d6",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_BreachSeconds_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031596Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360906Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "9dcbb5d1873ef880b660bb8a93cac67a"
+    "source_hash": "9dcbb5d1873ef880b660bb8a93cac67a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_BreacherDemo",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031601Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360912Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "0df40a0b79ef8f2c36d07ac14fd89cf4"
+    "source_hash": "0df40a0b79ef8f2c36d07ac14fd89cf4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_CombatAbilityPercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031608Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360917Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "22510d0612aedf4c5efb4e95d6bb74ca"
+    "source_hash": "22510d0612aedf4c5efb4e95d6bb74ca",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_CombatAbilityPercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031613Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360920Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "66d9b801eb97ddf3f7b0d57d523d8a66"
+    "source_hash": "66d9b801eb97ddf3f7b0d57d523d8a66",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_CombatRecoveryPercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360926Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "903ee9ed5f32626d01933887a373fb45"
+    "source_hash": "903ee9ed5f32626d01933887a373fb45",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_CombatRecoveryPercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360929Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "2b84ef89334f77cb1cd4b8df45e0e209"
+    "source_hash": "2b84ef89334f77cb1cd4b8df45e0e209",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_Command",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031617Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360934Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "6337990414ce448a652b70611b87e8dd"
+    "source_hash": "6337990414ce448a652b70611b87e8dd",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_DeadOperatorCount",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031622Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360937Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "cc994e4472ad31487edd64e2aebbdb58"
+    "source_hash": "cc994e4472ad31487edd64e2aebbdb58",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_DeadOperatorCount_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031628Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360943Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "bec0c38ad14794303c40ee5e05865003"
+    "source_hash": "bec0c38ad14794303c40ee5e05865003",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_DropzoneEnabled",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031633Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360950Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "555bc8acf4336b6a5321d0a1612ea68f"
+    "source_hash": "555bc8acf4336b6a5321d0a1612ea68f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_DropzoneEnabled_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031639Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360956Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "fc4b6d5ed1e431a5c603721149afd729"
+    "source_hash": "fc4b6d5ed1e431a5c603721149afd729",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_EnduranceResistancePercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360961Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "16af587a93db92618314638b399e2e03"
+    "source_hash": "16af587a93db92618314638b399e2e03",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_EnduranceResistancePercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360965Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "0244733a951afc614d7ca6edd39d5bab"
+    "source_hash": "0244733a951afc614d7ca6edd39d5bab",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_FatigueResistancePercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360970Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "9bf82acf7fab06b2abd8f4fd79ac2850"
+    "source_hash": "9bf82acf7fab06b2abd8f4fd79ac2850",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_FatigueResistancePercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360974Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "72c92145b704e6c9c8404c3b83ddb545"
+    "source_hash": "72c92145b704e6c9c8404c3b83ddb545",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_General",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031643Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360978Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "f579fed8b7b176b626c64b84e930345e"
+    "source_hash": "f579fed8b7b176b626c64b84e930345e",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_GhostStealthRange",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031647Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360983Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "66f88111acc3e0f667ddec90cff7eac6"
+    "source_hash": "66f88111acc3e0f667ddec90cff7eac6",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_GhostStealthRange_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031652Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360987Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "3d96b0665750ffcf3b65d2efb59fc335"
+    "source_hash": "3d96b0665750ffcf3b65d2efb59fc335",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_Medic",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031656Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360991Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "202a70a02a5f529b0b2c359124530a07"
+    "source_hash": "202a70a02a5f529b0b2c359124530a07",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_MedicHealingPercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031661Z",
+    "last_seen_at": "2026-08-23T03:10:36.1360998Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "4bdc378478b5d07483bb81ffd7ed0c76"
+    "source_hash": "4bdc378478b5d07483bb81ffd7ed0c76",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_MedicHealingPercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031665Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361002Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "a1eb6c657edcc5f59d28b48ad7b01c5a"
+    "source_hash": "a1eb6c657edcc5f59d28b48ad7b01c5a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_MedicSupplyUsePercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361007Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "83733e829e94d2309532a5d389c06a79"
+    "source_hash": "83733e829e94d2309532a5d389c06a79",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_MedicSupplyUsePercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361010Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "8537a815222cf9a3a50d28a34d8b51b4"
+    "source_hash": "8537a815222cf9a3a50d28a34d8b51b4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_MedicTreatmentPercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361014Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e271bae5306dff218e16e3219d883239"
+    "source_hash": "e271bae5306dff218e16e3219d883239",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_MedicTreatmentPercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361018Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "eee6ac193072edf86eb5604e74f184ff"
+    "source_hash": "eee6ac193072edf86eb5604e74f184ff",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_MedicalSupplyPercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031669Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361023Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "010218ebc64bd61256842f9f72af19eb"
+    "source_hash": "010218ebc64bd61256842f9f72af19eb",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_MedicalSupplyPercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031675Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361027Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e830dc2469b66332eb71b0db432fff91"
+    "source_hash": "e830dc2469b66332eb71b0db432fff91",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_PainResistancePercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361034Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "3947c163a54d0072f83e879af09f0e8d"
+    "source_hash": "3947c163a54d0072f83e879af09f0e8d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_PainResistancePercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361038Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "707a308a8d07f135fd671afee69d47b3"
+    "source_hash": "707a308a8d07f135fd671afee69d47b3",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_ProfessionGrantsPoints",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031679Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361043Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "4a50a5168d1c89e4f7481d970aad4d93"
+    "source_hash": "4a50a5168d1c89e4f7481d970aad4d93",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_ProfessionGrantsPoints_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031689Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361049Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "ff34768215728d0e1c78ec8965cf5840"
+    "source_hash": "ff34768215728d0e1c78ec8965cf5840",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_ProfessionPointValue",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031695Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361052Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "14426d81856bfdaa7cefbdc5c6163ab3"
+    "source_hash": "14426d81856bfdaa7cefbdc5c6163ab3",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_ProfessionPointValue_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031701Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361057Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "b07757af54eece850ca129ed08e725ef"
+    "source_hash": "b07757af54eece850ca129ed08e725ef",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_ScoutGhost",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031705Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361061Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "ce8393c141f55f298d2d74d1351495fd"
+    "source_hash": "ce8393c141f55f298d2d74d1351495fd",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_ScoutSenseRange",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031710Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361066Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e253f39824a27b62cfd9f8ecdebce858"
+    "source_hash": "e253f39824a27b62cfd9f8ecdebce858",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_ScoutSenseRange_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031714Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361070Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "34523a84363f9544a0b5c5e885db0173"
+    "source_hash": "34523a84363f9544a0b5c5e885db0173",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_SquadAuraRange",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031718Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361076Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "3e9d139e80ac4e287f4eeb2cfcc61a48"
+    "source_hash": "3e9d139e80ac4e287f4eeb2cfcc61a48",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_SquadAuraRange_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361080Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "3bd53664c09bfe816f2dd1a0f611a2bb"
+    "source_hash": "3bd53664c09bfe816f2dd1a0f611a2bb",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_StartingKitLevel",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031726Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361084Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "ea9e23c31c3e03ea9efcdf24d6beaa6d"
+    "source_hash": "ea9e23c31c3e03ea9efcdf24d6beaa6d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_StartingKitLevel_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031731Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361088Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e58a438dd554ffa0760e693367a69e6d"
+    "source_hash": "e58a438dd554ffa0760e693367a69e6d",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_SuppressorReductionPercent",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031735Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361094Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "52ff9acae726a1be46a89e8acc184900"
+    "source_hash": "52ff9acae726a1be46a89e8acc184900",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_SuppressorReductionPercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031743Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361098Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "cf13c0f40d0cdf140eb4486a945f9a2a"
+    "source_hash": "cf13c0f40d0cdf140eb4486a945f9a2a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Sandbox_SOS_Survival",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361105Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "98050d0b8c40334777005e8b9fb4fbd3"
+    "source_hash": "98050d0b8c40334777005e8b9fb4fbd3",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_Balaclava",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031748Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361110Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "463c3c5efcf181201bbedd8f944b7b89"
+    "source_hash": "463c3c5efcf181201bbedd8f944b7b89",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_Boots",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031752Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361114Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "bd5b0066dabc8c23663418c614533285"
+    "source_hash": "bd5b0066dabc8c23663418c614533285",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_BreachCharge",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031759Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361118Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e4b02db8ee2f7d8bc6cbff37a4fa8c7e"
+    "source_hash": "e4b02db8ee2f7d8bc6cbff37a4fa8c7e",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_ElbowLeft",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031764Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361122Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "adf0bf016f768ecdf7704025890af254"
+    "source_hash": "adf0bf016f768ecdf7704025890af254",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_ElbowRight",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031768Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361128Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "5c79ddc6f0865fc15d20fc031235a042"
+    "source_hash": "5c79ddc6f0865fc15d20fc031235a042",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_GasMask",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031773Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361132Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "58b99ad887e9a75a02c1dfe01d34cf88"
+    "source_hash": "58b99ad887e9a75a02c1dfe01d34cf88",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_Gloves",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031777Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361137Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "7e91110e185267233cc4cad8821ba4d1"
+    "source_hash": "7e91110e185267233cc4cad8821ba4d1",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_Goggles",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031782Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361140Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "f2af8b5343b082a93adfeee8ec4e3c64"
+    "source_hash": "f2af8b5343b082a93adfeee8ec4e3c64",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_Helmet",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031786Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361144Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "1a9a11a05ba2952fd16fb68e8de82196"
+    "source_hash": "1a9a11a05ba2952fd16fb68e8de82196",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_Holster",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361150Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "b3fe03a5fad97636668180ecace076f7"
+    "source_hash": "b3fe03a5fad97636668180ecace076f7",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_Jacket",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031794Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361154Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "61b45507c23afd62f2ab7658ee74f00e"
+    "source_hash": "61b45507c23afd62f2ab7658ee74f00e",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_KneepadLeft",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031798Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361158Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c34b9ce2d8e69ddc384e5fe22c2c8902"
+    "source_hash": "c34b9ce2d8e69ddc384e5fe22c2c8902",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_KneepadRight",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031803Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361163Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "7c208c557dadad911a83e36c63858032"
+    "source_hash": "7c208c557dadad911a83e36c63858032",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_OperatorManual",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031807Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361168Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "111ca3b2ebd5a8f47acae4ef4a76c7ed"
+    "source_hash": "111ca3b2ebd5a8f47acae4ef4a76c7ed",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_Pants",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031811Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361172Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "4afdf5c3afc16965c8418516cc1b0ca6"
+    "source_hash": "4afdf5c3afc16965c8418516cc1b0ca6",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_Shirt",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031817Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361175Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "5449b81ac28a7948685473d0f5768a7c"
+    "source_hash": "5449b81ac28a7948685473d0f5768a7c",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_ThighArmorLeft",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031822Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361177Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "af1aa5116f96a986b836ef7688c75795"
+    "source_hash": "af1aa5116f96a986b836ef7688c75795",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_ThighArmorRight",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031828Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361182Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c088fbf9fe5af2a1fd970e72169a4d41"
+    "source_hash": "c088fbf9fe5af2a1fd970e72169a4d41",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "SpecialOpsSquad.SOS_Vest",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031832Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361186Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "f70ebd94c7a0eb245178b2e5a02d3ba5"
+    "source_hash": "f70ebd94c7a0eb245178b2e5a02d3ba5",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Tooltip_SOS_BreachCharge",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031837Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361191Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "aca2ae7334dbf8b57ec7343603544d44"
+    "source_hash": "aca2ae7334dbf8b57ec7343603544d44",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Tooltip_SOS_FieldRepair",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031842Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361194Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "daa6884616e3ecd5757418e1fab5cd6c"
+    "source_hash": "daa6884616e3ecd5757418e1fab5cd6c",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Tooltip_SOS_FieldRepairAdvanced",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031846Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361198Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "f72cd8e192319545b90a640030cdf7e5"
+    "source_hash": "f72cd8e192319545b90a640030cdf7e5",
+    "output_file_stem": "Tooltip"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Tooltip_SOS_Laser",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031850Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361206Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e584de503f66814dba9e4ec9ffb81ccf"
+    "source_hash": "e584de503f66814dba9e4ec9ffb81ccf",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "Tooltip_SOS_Suppressor",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031854Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361212Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "a94479b3efceb667b803004f19d12ee3"
+    "source_hash": "a94479b3efceb667b803004f19d12ee3",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_optionscreen_binding_SOS Toggle Scout Sense",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031859Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361218Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "38c48d39f6926685eb2592fe9b59d3a9"
+    "source_hash": "38c48d39f6926685eb2592fe9b59d3a9",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_optionscreen_binding_Special Ops Squad",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031863Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361223Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "dfd9833becba7be0838c317704c72210"
+    "source_hash": "dfd9833becba7be0838c317704c72210",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_prof_specialops_breacher",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031868Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361232Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e2eb209d9b21c924d22ef4e5d74ae8fa"
+    "source_hash": "e2eb209d9b21c924d22ef4e5d74ae8fa",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_prof_specialops_demoengineer",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031873Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361236Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "81e740606e0f30ace43f3ef33fd1180a"
+    "source_hash": "81e740606e0f30ace43f3ef33fd1180a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_prof_specialops_marksman",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031877Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361240Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "1cb55b00ad58f473075226ebaaccf9a4"
+    "source_hash": "1cb55b00ad58f473075226ebaaccf9a4",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_prof_specialops_medic",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031882Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361244Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "5e2fd91f33729daf707b181c9e376c08"
+    "source_hash": "5e2fd91f33729daf707b181c9e376c08",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_prof_specialops_rifleman",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031887Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361249Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "73068150f47ad118a6fa2d13cad06a94"
+    "source_hash": "73068150f47ad118a6fa2d13cad06a94",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_prof_specialops_scoutghost",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031892Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361253Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "a45db71e42c00d30fbbd6d140263fdba"
+    "source_hash": "a45db71e42c00d30fbbd6d140263fdba",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_prof_specialops_squadleader",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031897Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361256Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "9dbe4ffb3a9d49296d5840b9de1bac04"
+    "source_hash": "9dbe4ffb3a9d49296d5840b9de1bac04",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_profdesc_specialops_breacher",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031902Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361260Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "40bb71c857c779972989fe0e6284c985"
+    "source_hash": "40bb71c857c779972989fe0e6284c985",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_profdesc_specialops_demoengineer",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031906Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361265Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "897246ae3cf4224480a5ed8344481849"
+    "source_hash": "897246ae3cf4224480a5ed8344481849",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_profdesc_specialops_marksman",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031910Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361269Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "be4b57c15743f860bcfa11586621bd52"
+    "source_hash": "be4b57c15743f860bcfa11586621bd52",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_profdesc_specialops_medic",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361276Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "edeaa08e1eb3fed089651bde480dd706"
+    "source_hash": "edeaa08e1eb3fed089651bde480dd706",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_profdesc_specialops_rifleman",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031917Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361282Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e1f9e0611d12914fb4fbbf8d353b224b"
+    "source_hash": "e1f9e0611d12914fb4fbbf8d353b224b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_profdesc_specialops_scoutghost",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031921Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361288Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "0e974c434e14f260885faeba8e3a84f8"
+    "source_hash": "0e974c434e14f260885faeba8e3a84f8",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_profdesc_specialops_squadleader",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361293Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "fa141e2b025e32131678d902abb0185a"
+    "source_hash": "fa141e2b025e32131678d902abb0185a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_adrenalinesurge",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031929Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361298Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "b66b3989418c757f6985eca0cb4b95c9"
+    "source_hash": "b66b3989418c757f6985eca0cb4b95c9",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_adrenalinesurge_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361304Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "70c7283861ed6b9c8b1de7929c128e5c"
+    "source_hash": "70c7283861ed6b9c8b1de7929c128e5c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_ballisticgenius",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031941Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361310Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "50720547a449ce912b9fa8f4fe715429"
+    "source_hash": "50720547a449ce912b9fa8f4fe715429",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_ballisticgenius_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031945Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361316Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e6c7522e4d71f1fcfde23044759b6c4e"
+    "source_hash": "e6c7522e4d71f1fcfde23044759b6c4e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_bloodlust",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031949Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361321Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "13425adf3c65769ea36fa8d4cf2f662f"
+    "source_hash": "13425adf3c65769ea36fa8d4cf2f662f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_bloodlust_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361326Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "1c8981cc30db327c8f3a1394006b054f"
+    "source_hash": "1c8981cc30db327c8f3a1394006b054f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_breachercharge",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031956Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361331Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "66e490c009297435f0696613a694bbd4"
+    "source_hash": "66e490c009297435f0696613a694bbd4",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_breachercharge_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031961Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361335Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "08d24c8652afdc28bddf3d6990993411"
+    "source_hash": "08d24c8652afdc28bddf3d6990993411",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_closequarters",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031966Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361343Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c1c82e0d17c44d41404b73f52d2f843e"
+    "source_hash": "c1c82e0d17c44d41404b73f52d2f843e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_closequarters_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031971Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361347Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "ff58b802ed735bf34be99b186b596da1"
+    "source_hash": "ff58b802ed735bf34be99b186b596da1",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_combathardened",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031975Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361352Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "aabfcd92c80fc1bb7e3e18916e36bcbb"
+    "source_hash": "aabfcd92c80fc1bb7e3e18916e36bcbb",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_combathardened_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031979Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361355Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "b8328af82b739f8c67c98630e4b13a72"
+    "source_hash": "b8328af82b739f8c67c98630e4b13a72",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_combatmobility",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031985Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361362Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "0c2697ac7e0d9ef105ce8d17b472f178"
+    "source_hash": "0c2697ac7e0d9ef105ce8d17b472f178",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_combatmobility_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361367Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "ccd993019843f1a93361471774886538"
+    "source_hash": "ccd993019843f1a93361471774886538",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_combattriage",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7031992Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361370Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "643fcbc4193606678d448c27a0671de9"
+    "source_hash": "643fcbc4193606678d448c27a0671de9",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_combattriage_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361375Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "fc2a439d27069cedd5dade50927bf467"
+    "source_hash": "fc2a439d27069cedd5dade50927bf467",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_commandpresence",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032000Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361380Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "21d6e192610f07ca2ac9e8d8e6adb518"
+    "source_hash": "21d6e192610f07ca2ac9e8d8e6adb518",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_commandpresence_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361384Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "d522fa404c3fcdb565d7bdfb7aef3f1f"
+    "source_hash": "d522fa404c3fcdb565d7bdfb7aef3f1f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_conditioning",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032007Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361389Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "25da860f0c1f10b2f43553af7b2c1fa5"
+    "source_hash": "25da860f0c1f10b2f43553af7b2c1fa5",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_conditioning_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032011Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361394Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "63365448af754cc18614d5d8c81f66bf"
+    "source_hash": "63365448af754cc18614d5d8c81f66bf",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_controlleddemo",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032016Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361398Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "62c47e3b2f2a7ca16fa7a0e38c02152f"
+    "source_hash": "62c47e3b2f2a7ca16fa7a0e38c02152f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_controlleddemo_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032020Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361402Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "335a733a0d8ed4637bd8bc9873640965"
+    "source_hash": "335a733a0d8ed4637bd8bc9873640965",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_deadeye",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032025Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361409Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "9716cb571fae815fc2224a4aeda18bd5"
+    "source_hash": "9716cb571fae815fc2224a4aeda18bd5",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_deadeye_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032029Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361414Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "11c2bda2ac859340fa4485d84211e294"
+    "source_hash": "11c2bda2ac859340fa4485d84211e294",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_demolitions",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032033Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361420Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "cc971890b9a76e8c5cacc537e39cfdca"
+    "source_hash": "cc971890b9a76e8c5cacc537e39cfdca",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_demolitions_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032038Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361425Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "603229f16a028a25ecc950d369e86a0f"
+    "source_hash": "603229f16a028a25ecc950d369e86a0f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_demolitionsspec",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032042Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361430Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "535227f2e3abb4efadb738d00df25a2c"
+    "source_hash": "535227f2e3abb4efadb738d00df25a2c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_demolitionsspec_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032048Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361432Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "edfd304c5960d98c6b743eaaec75b503"
+    "source_hash": "edfd304c5960d98c6b743eaaec75b503",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_fieldbreaching",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032052Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361437Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c348a84611fb1a4aac48be1d33d7894f"
+    "source_hash": "c348a84611fb1a4aac48be1d33d7894f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_fieldbreaching_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032058Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361441Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "4801bc99a4c78d1aa2ea14821b35ba5e"
+    "source_hash": "4801bc99a4c78d1aa2ea14821b35ba5e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_fieldmedic",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032062Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361446Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "40b65a3235a50a5f8e2e6c84115a08d3"
+    "source_hash": "40b65a3235a50a5f8e2e6c84115a08d3",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_fieldmedic_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361450Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c04edec12f86440e0a5f5e63a64d7d18"
+    "source_hash": "c04edec12f86440e0a5f5e63a64d7d18",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_fieldsurgeon",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032069Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361454Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "7411e42872639bc825cbdd519c1de331"
+    "source_hash": "7411e42872639bc825cbdd519c1de331",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_fieldsurgeon_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032077Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361459Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "a4bbd1f8d0b1e04df1bf63cf3eed8f9c"
+    "source_hash": "a4bbd1f8d0b1e04df1bf63cf3eed8f9c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_fortifier",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032083Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361461Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "7f890f9ad3539852c990153bf5d7685e"
+    "source_hash": "7f890f9ad3539852c990153bf5d7685e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_fortifier_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032088Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361466Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "04cb9b3712c2153d2166832cba5f0d07"
+    "source_hash": "04cb9b3712c2153d2166832cba5f0d07",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_ghostprotocol",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032093Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361471Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "a7f3d67ff595428073e0a144a875ec63"
+    "source_hash": "a7f3d67ff595428073e0a144a875ec63",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_ghostprotocol_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032098Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361474Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "bef7e9821b025c5202c7a328c302af9d"
+    "source_hash": "bef7e9821b025c5202c7a328c302af9d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_gunfighter",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032102Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361478Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "47795bc578a3eb0d780ca71002e01d00"
+    "source_hash": "47795bc578a3eb0d780ca71002e01d00",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_gunfighter_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032107Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361482Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "71ccedb5e6f834cb39fd17bc5ffbfa79"
+    "source_hash": "71ccedb5e6f834cb39fd17bc5ffbfa79",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_ironwill",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032111Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361487Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "ee085b46d6a713140ca090a1ddd881cd"
+    "source_hash": "ee085b46d6a713140ca090a1ddd881cd",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_ironwill_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032116Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361493Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "794d273975f5f52b69ece778105adfba"
+    "source_hash": "794d273975f5f52b69ece778105adfba",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_juryrig",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032121Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361496Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e92071d378ca4811b560260d8bfee0a5"
+    "source_hash": "e92071d378ca4811b560260d8bfee0a5",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_juryrig_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032127Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361500Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "074cd0032f939fe8aba5d696bf8c8fda"
+    "source_hash": "074cd0032f939fe8aba5d696bf8c8fda",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_lightweapons",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032131Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361504Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "d3da8159d4ddf2b64063b799d580f9ef"
+    "source_hash": "d3da8159d4ddf2b64063b799d580f9ef",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_lightweapons_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032137Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361508Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c324467d6b4f33e230af17f6dd54d35f"
+    "source_hash": "c324467d6b4f33e230af17f6dd54d35f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutassault",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032142Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361512Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "27ab800f4601adc942b582faa76a8de9"
+    "source_hash": "27ab800f4601adc942b582faa76a8de9",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutassault_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032147Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361516Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "db49adb3625ffafc092dfbe50230a956"
+    "source_hash": "db49adb3625ffafc092dfbe50230a956",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutcarbine",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032154Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361522Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "317a6e0048c040021a8baede4f1d4b3c"
+    "source_hash": "317a6e0048c040021a8baede4f1d4b3c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutcarbine_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032159Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361527Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "a2405f9cf05f9120b6e3a287d29094de"
+    "source_hash": "a2405f9cf05f9120b6e3a287d29094de",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutcovert",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032164Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361532Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c1c5723f157760941f558ef20e34331e"
+    "source_hash": "c1c5723f157760941f558ef20e34331e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutcovert_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032169Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361538Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "feb548b91785e831eac85ba150e3a20f"
+    "source_hash": "feb548b91785e831eac85ba150e3a20f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutcqc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032173Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361541Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "d697aea57d51c71401d84ef061fd6d07"
+    "source_hash": "d697aea57d51c71401d84ef061fd6d07",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutcqc_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032180Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361545Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "8fc29757743adb29b091d1b5e23d92b1"
+    "source_hash": "8fc29757743adb29b091d1b5e23d92b1",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutheavy",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032185Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361551Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "ee0e877c46b60ee5e30d8e7c2017e212"
+    "source_hash": "ee0e877c46b60ee5e30d8e7c2017e212",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutheavy_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032189Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361554Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "7d83644b2d79b738297d9935b5c62898"
+    "source_hash": "7d83644b2d79b738297d9935b5c62898",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutmarksman",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032195Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361559Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "cf14596288f998785be19d8931240a2e"
+    "source_hash": "cf14596288f998785be19d8931240a2e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutmarksman_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032199Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361564Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "b051d27afae195bcde7be37428ce7069"
+    "source_hash": "b051d27afae195bcde7be37428ce7069",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutparatrooper",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032204Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361567Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "47d419111aa71979a8622f1f5adeaea1"
+    "source_hash": "47d419111aa71979a8622f1f5adeaea1",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutparatrooper_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032208Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361571Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "08fd2f7d1fcb31f45730223421df2d87"
+    "source_hash": "08fd2f7d1fcb31f45730223421df2d87",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutsupport",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032214Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361574Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c0d1684d7f9cf9686a5ef78e82da5ef0"
+    "source_hash": "c0d1684d7f9cf9686a5ef78e82da5ef0",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_loadoutsupport_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032219Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361579Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c57a3a90f6934270c9955e38220dfafa"
+    "source_hash": "c57a3a90f6934270c9955e38220dfafa",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_nightops",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032223Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361585Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "4f48189f3bd80535dee44d91807d9c20"
+    "source_hash": "4f48189f3bd80535dee44d91807d9c20",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_nightops_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032227Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361587Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "6bc2f923021fe7aec6d34151d0d4108c"
+    "source_hash": "6bc2f923021fe7aec6d34151d0d4108c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_oneshotdoctrine",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032231Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361592Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "596128fc6de880798567d94ea1656f68"
+    "source_hash": "596128fc6de880798567d94ea1656f68",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_oneshotdoctrine_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032235Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361596Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "1d7c271601fe67498ffd5b3f547668c7"
+    "source_hash": "1d7c271601fe67498ffd5b3f547668c7",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_operator",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032241Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361604Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "027e2436e87bcf14c5dfc1179eb9977b"
+    "source_hash": "027e2436e87bcf14c5dfc1179eb9977b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_operator_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032245Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361608Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "612fb25c19cac995e56f5c6d30228b6b"
+    "source_hash": "612fb25c19cac995e56f5c6d30228b6b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_painkiller",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032249Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361614Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "ddd319a2010615156b5cd86d13044c62"
+    "source_hash": "ddd319a2010615156b5cd86d13044c62",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_painkiller_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361617Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "1b3fdd78a5eb1c2c7d7c910557cae023"
+    "source_hash": "1b3fdd78a5eb1c2c7d7c910557cae023",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_pathfinder",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032257Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361622Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "71af079d063c4c866ec1d405f39dff49"
+    "source_hash": "71af079d063c4c866ec1d405f39dff49",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_pathfinder_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032262Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361627Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "11960fb63cba236986522bab50e44a95"
+    "source_hash": "11960fb63cba236986522bab50e44a95",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_quickdraw",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032267Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361633Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "3ca4b617b7e165948f016377ed8b2712"
+    "source_hash": "3ca4b617b7e165948f016377ed8b2712",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_quickdraw_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032272Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361639Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "f9da181e16b8141e34736383d3721a89"
+    "source_hash": "f9da181e16b8141e34736383d3721a89",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_runngun",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032277Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361644Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "00484e9d7e7d0d71f1c73cc201b0ca73"
+    "source_hash": "00484e9d7e7d0d71f1c73cc201b0ca73",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_runngun_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032282Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361649Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "464ebef0e82fd22f8ebeeb0250ecdcd6"
+    "source_hash": "464ebef0e82fd22f8ebeeb0250ecdcd6",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_scoutsense",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032286Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361654Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "a625ed6e5fd510fdc85a13505c06d37c"
+    "source_hash": "a625ed6e5fd510fdc85a13505c06d37c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_scoutsense_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032292Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361659Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "d850d1748bb53930664e8790bf26da9d"
+    "source_hash": "d850d1748bb53930664e8790bf26da9d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_secondwind",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032297Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361664Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "7aad6662d721dbb3d90528b57da6519c"
+    "source_hash": "7aad6662d721dbb3d90528b57da6519c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_secondwind_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361667Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "55151bed552f1a127d9421532f1bed7c"
+    "source_hash": "55151bed552f1a127d9421532f1bed7c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_shadowcloak",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032304Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361674Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e7f9ebdbda8f7892f608524a2787afe2"
+    "source_hash": "e7f9ebdbda8f7892f608524a2787afe2",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_shadowcloak_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032311Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361677Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "3b141ac46cb57e7b3d76f8d2f5a4ae2f"
+    "source_hash": "3b141ac46cb57e7b3d76f8d2f5a4ae2f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_shadowops",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032315Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361680Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "359ff28c532e1fb467f8c74415f30a40"
+    "source_hash": "359ff28c532e1fb467f8c74415f30a40",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_shadowops_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032319Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361684Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "3146183ca1a1477cb817eb67653a1c1e"
+    "source_hash": "3146183ca1a1477cb817eb67653a1c1e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_sharpshooter",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032324Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361688Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e3b374291518476c29fefbdf6cdeed20"
+    "source_hash": "e3b374291518476c29fefbdf6cdeed20",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_sharpshooter_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032328Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361693Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "f87af8508b41ebc828e194f648de7b62"
+    "source_hash": "f87af8508b41ebc828e194f648de7b62",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_silentstep",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032333Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361697Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "391a8f6e181f7e039d31ccb378fc175d"
+    "source_hash": "391a8f6e181f7e039d31ccb378fc175d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_silentstep_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032337Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361699Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "69e34a0c6380e128d86623631832f58b"
+    "source_hash": "69e34a0c6380e128d86623631832f58b",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_squadaura",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032341Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361705Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "18ca24905054f4700a6b84bfaae6f9f7"
+    "source_hash": "18ca24905054f4700a6b84bfaae6f9f7",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_squadaura_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361708Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "252bd66a5161b610d9b59dfa71d52d05"
+    "source_hash": "252bd66a5161b610d9b59dfa71d52d05",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_steadyhands",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032348Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361712Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "191d92206e0a16757be71a024205102d"
+    "source_hash": "191d92206e0a16757be71a024205102d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_steadyhands_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361715Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "f90a4baca7131ce00cee856fc0ed23f7"
+    "source_hash": "f90a4baca7131ce00cee856fc0ed23f7",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_stimulantprotocol",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032356Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361720Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "463ef8d555214c7f781ce0681a2832d9"
+    "source_hash": "463ef8d555214c7f781ce0681a2832d9",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_stimulantprotocol_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361726Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "7d1cca2b1e77a331a5790a23a2903f79"
+    "source_hash": "7d1cca2b1e77a331a5790a23a2903f79",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_survivalexpert",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032364Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361732Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "7fd3b092b05dfebcf4b492ccf13b8484"
+    "source_hash": "7fd3b092b05dfebcf4b492ccf13b8484",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_survivalexpert_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032370Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361734Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "0c1a72df68405cfaddc2bb910338be04"
+    "source_hash": "0c1a72df68405cfaddc2bb910338be04",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_tacticalawareness",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032375Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361737Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "3de73aa1733df934c2783564843f5b59"
+    "source_hash": "3de73aa1733df934c2783564843f5b59",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_tacticalawareness_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032380Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361743Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "d9dca18c86b3300456b530ea55b57fb9"
+    "source_hash": "d9dca18c86b3300456b530ea55b57fb9",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_tacticalelectronics",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032388Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361747Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "faf3870191dd17df19984826d789830e"
+    "source_hash": "faf3870191dd17df19984826d789830e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_tacticalelectronics_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032396Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361753Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "ae87d9a95222370ed22fe162d1770505"
+    "source_hash": "ae87d9a95222370ed22fe162d1770505",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_traumaresponse",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032401Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361756Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "0f053c8c1a8643a4937b4386a8bc13e1"
+    "source_hash": "0f053c8c1a8643a4937b4386a8bc13e1",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_traumaresponse_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361762Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "0ae4209ddd5525d8d6a9a0ec885e320c"
+    "source_hash": "0ae4209ddd5525d8d6a9a0ec885e320c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_unstoppable",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032409Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361767Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e4817cfc06ea3205cc03921582a0cfd1"
+    "source_hash": "e4817cfc06ea3205cc03921582a0cfd1",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_unstoppable_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.0615411Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361769Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "a5c6522cdb02565f7bffb7dab636322c"
+    "source_hash": "a5c6522cdb02565f7bffb7dab636322c",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_warhero",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032417Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361775Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "e334d928a747bd030a07e67e032e0213"
+    "source_hash": "e334d928a747bd030a07e67e032e0213",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3776289474",
     "translation_key": "UI_trait_specialops_warhero_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-14T15:59:10.7032422Z",
+    "last_seen_at": "2026-08-23T03:10:36.1361779Z",
     "last_seen_mod_updated": "2026-08-11T05:02:45.0000000Z",
-    "source_hash": "c141d5b74557839615d6a3f9cce067f8"
+    "source_hash": "c141d5b74557839615d6a3f9cce067f8",
+    "output_file_stem": "UI"
   }
 ]

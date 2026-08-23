@@ -3,65 +3,73 @@
     "mod_id": "3776641628",
     "translation_key": "Base.SkillJournalBook",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967424Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362621Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "6a5113fdbcc4cd36116058078f9cef2b"
+    "source_hash": "6a5113fdbcc4cd36116058078f9cef2b",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "BindSkillJournal",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967431Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362629Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "71ba58fd49c83ef56b39a83d123e3f66"
+    "source_hash": "71ba58fd49c83ef56b39a83d123e3f66",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "ContextMenu_SkillJournal_Inspect",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967440Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362636Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "0cf7701191ca7e3761b1c4b01796d023"
+    "source_hash": "0cf7701191ca7e3761b1c4b01796d023",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "ContextMenu_SkillJournal_Read",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967445Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362641Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "d05877e8ca78b6acea2a59ad3e225c8b"
+    "source_hash": "d05877e8ca78b6acea2a59ad3e225c8b",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "ContextMenu_SkillJournal_Write",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967449Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362645Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "9c02b44628c77c94cf4acea366949bdf"
+    "source_hash": "9c02b44628c77c94cf4acea366949bdf",
+    "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_AlreadyClaimed",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362650Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "7dfaa097767a0ea1dc48620b6f060e5b"
+    "source_hash": "7dfaa097767a0ea1dc48620b6f060e5b",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_AlreadyClaimedUI",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362655Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "8eb0b77f9e9397377440db26792c70be"
+    "source_hash": "8eb0b77f9e9397377440db26792c70be",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_Blank",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967463Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362661Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "cea44e5b121c091deea6ab99a58305a8"
+    "source_hash": "cea44e5b121c091deea6ab99a58305a8",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
@@ -69,7 +77,8 @@
     "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.0615411Z",
     "last_seen_mod_updated": "2026-08-12T07:32:25.0000000Z",
-    "source_hash": "2daf7f2bf82bc1be594d2ef4d6db240c"
+    "source_hash": "2daf7f2bf82bc1be594d2ef4d6db240c",
+    "output_file_stem": null
   },
   {
     "mod_id": "3776641628",
@@ -77,263 +86,296 @@
     "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-07T14:19:45.0000000Z",
-    "source_hash": "233e47a7246f81d75ec71fd1d7fbae52"
+    "source_hash": "233e47a7246f81d75ec71fd1d7fbae52",
+    "output_file_stem": null
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_ColLevel",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967474Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362672Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "e29e5ee62bf3d01f4899b726ab4575dc"
+    "source_hash": "e29e5ee62bf3d01f4899b726ab4575dc",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_ColSkill",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967478Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362680Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "fcef1beee5ae9481da8e0fd56bea8677"
+    "source_hash": "fcef1beee5ae9481da8e0fd56bea8677",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_ColXP",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967482Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362684Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "0596eaecde137aac80d3d538f2f88911"
+    "source_hash": "0596eaecde137aac80d3d538f2f88911",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_InspectTooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967487Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362688Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "adbe61ff7f3b77d1db63465b5bb9beb7"
+    "source_hash": "adbe61ff7f3b77d1db63465b5bb9beb7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_KillsRestored",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967495Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362694Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "dee4a42379b17d5d88ceaad02efe34ac"
+    "source_hash": "dee4a42379b17d5d88ceaad02efe34ac",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_KillsToRecover",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967500Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362700Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "3e2004dbb596faad300ae4f2d983a7ed"
+    "source_hash": "3e2004dbb596faad300ae4f2d983a7ed",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_KillsUnsaved",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967505Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362705Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "3113c1becaaaf2fa313b4588d287f149"
+    "source_hash": "3113c1becaaaf2fa313b4588d287f149",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_MultipliersRestored",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967510Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362709Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "c839961747cfda4b16b878591cf5a183"
+    "source_hash": "c839961747cfda4b16b878591cf5a183",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_MultipliersStored",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967517Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362713Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "974c337be54cf25848778f36b684be69"
+    "source_hash": "974c337be54cf25848778f36b684be69",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_NamedJournal",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967522Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362720Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "93ee3b00421c0c04da1ffc1fee043f74"
+    "source_hash": "93ee3b00421c0c04da1ffc1fee043f74",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_NeedPen",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967526Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362726Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "385704a07007b9d232110c1f226cb4d7"
+    "source_hash": "385704a07007b9d232110c1f226cb4d7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_NeedPenHalo",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362730Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "44105e61c3c9fd05c29edbdb796abe33"
+    "source_hash": "44105e61c3c9fd05c29edbdb796abe33",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_NotYours",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967531Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362735Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "e0a1cbc7269cac8136bca4c95b4c2d7b"
+    "source_hash": "e0a1cbc7269cac8136bca4c95b4c2d7b",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_NotYoursHalo",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362738Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "9dc4c00d336db16416656bb80eddc6c2"
+    "source_hash": "9dc4c00d336db16416656bb80eddc6c2",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_NotYoursWrite",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967537Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362742Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "9586f07fba2dcf84a2df70821e6858a7"
+    "source_hash": "9586f07fba2dcf84a2df70821e6858a7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_NothingNew",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967541Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362747Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "6d1ec0a1d4a3f1c870c4596fafb63eb4"
+    "source_hash": "6d1ec0a1d4a3f1c870c4596fafb63eb4",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_NothingToRecover",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967546Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362752Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "e412bf8d59083a9208e1bdb06e81e570"
+    "source_hash": "e412bf8d59083a9208e1bdb06e81e570",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_RateMatched",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362757Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "252bdea317f3f6f88fc1c92d1a43ae8b"
+    "source_hash": "252bdea317f3f6f88fc1c92d1a43ae8b",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_Reading",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967554Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362761Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "6f04ecb9e0656a1cccf0fb13b81652d2"
+    "source_hash": "6f04ecb9e0656a1cccf0fb13b81652d2",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_ReadingRestored",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967559Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362766Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "c5319d5159c9576076fa06eda9914663"
+    "source_hash": "c5319d5159c9576076fa06eda9914663",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_ReadingStored",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967565Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362770Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "a52571ecd6203c97a1191bf02bca1a38"
+    "source_hash": "a52571ecd6203c97a1191bf02bca1a38",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_RecipesPreview",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967570Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362775Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "5c6cdc1f6041dda015822e287c774e39"
+    "source_hash": "5c6cdc1f6041dda015822e287c774e39",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_RecipesRestored",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967575Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362780Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "e113497e825332c22e38e6c7ac2e4d8c"
+    "source_hash": "e113497e825332c22e38e6c7ac2e4d8c",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_Recorded",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967579Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362783Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "1c6789aedcccdf2e14db2a9e4085f8b7"
+    "source_hash": "1c6789aedcccdf2e14db2a9e4085f8b7",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_RecoveryRate",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967584Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362788Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "5b1cb24ee3340b66dee4d2910ce28ee5"
+    "source_hash": "5b1cb24ee3340b66dee4d2910ce28ee5",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_RegularityRestored",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967589Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362792Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "b3e14d664dbce3123c1f3c319231a999"
+    "source_hash": "b3e14d664dbce3123c1f3c319231a999",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_RegularityStored",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967597Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362798Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "0dc8410522cf61d848d2b5fc4def2942"
+    "source_hash": "0dc8410522cf61d848d2b5fc4def2942",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_UnknownSkills",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362801Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "096d24f1c2f40eed59bb86baa9a443f1"
+    "source_hash": "096d24f1c2f40eed59bb86baa9a443f1",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_Unrecorded",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967604Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362806Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "0abfb7e0994f2cd2d6278c66f903d26e"
+    "source_hash": "0abfb7e0994f2cd2d6278c66f903d26e",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_WillOverwrite",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967613Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362810Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "1310fd269c653bcfb286b0a84e50c271"
+    "source_hash": "1310fd269c653bcfb286b0a84e50c271",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_Writing",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967617Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362814Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "d28f9a82e2089ed35ff352747b72e007"
+    "source_hash": "d28f9a82e2089ed35ff352747b72e007",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "IGUI_SkillJournal_WrittenAfter",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967621Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362818Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "98937622f98030b1d115802603e43d43"
+    "source_hash": "98937622f98030b1d115802603e43d43",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776641628",
@@ -341,15 +383,17 @@
     "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-07T14:19:45.0000000Z",
-    "source_hash": "d4c5ca49238c5cd81394d39dea8063da"
+    "source_hash": "d4c5ca49238c5cd81394d39dea8063da",
+    "output_file_stem": null
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournal",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967630Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362827Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "de2afdc9263ed5e1319c2265b0f2e0d1"
+    "source_hash": "de2afdc9263ed5e1319c2265b0f2e0d1",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
@@ -357,7 +401,8 @@
     "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.6390146Z",
     "last_seen_mod_updated": "2026-08-12T07:32:25.0000000Z",
-    "source_hash": "81a480e1eba06a746ce52db0dd9234f9"
+    "source_hash": "81a480e1eba06a746ce52db0dd9234f9",
+    "output_file_stem": null
   },
   {
     "mod_id": "3776641628",
@@ -365,71 +410,80 @@
     "is_active": false,
     "last_seen_at": "2026-08-14T15:59:10.0615411Z",
     "last_seen_mod_updated": "2026-08-12T07:32:25.0000000Z",
-    "source_hash": "92c63a1dafcf45ceb6a10c6256698c8f"
+    "source_hash": "92c63a1dafcf45ceb6a10c6256698c8f",
+    "output_file_stem": null
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalMatchReaderLearningRate",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967641Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362842Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "04c83e7ce19e8d315a4ccb0648aa1887"
+    "source_hash": "04c83e7ce19e8d315a4ccb0648aa1887",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalMatchReaderLearningRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967647Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362848Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "a97d0e86e3bacd44e8eae976efb18851"
+    "source_hash": "a97d0e86e3bacd44e8eae976efb18851",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalOneReadPerEntry",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967653Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362855Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "56d0d2a76488c57db79d05381a8e5565"
+    "source_hash": "56d0d2a76488c57db79d05381a8e5565",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalOneReadPerEntry_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967658Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362860Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "2ee72de14617c43080d3a6080257a64a"
+    "source_hash": "2ee72de14617c43080d3a6080257a64a",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalRecoverExerciseRegularity",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967665Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362863Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "518ff8766dc30a1929b93f4ff8979c9c"
+    "source_hash": "518ff8766dc30a1929b93f4ff8979c9c",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalRecoverExerciseRegularity_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967673Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362868Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "b71f5931fcecf9e0e8bb4ae52a55c3c8"
+    "source_hash": "b71f5931fcecf9e0e8bb4ae52a55c3c8",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalRecoverKills",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967680Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362875Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "fb28dc80b1fe18128ba961f656ab37cd"
+    "source_hash": "fb28dc80b1fe18128ba961f656ab37cd",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalRecoverKills_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967685Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362880Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "8d41a7997c40aaf373e9343803530ee7"
+    "source_hash": "8d41a7997c40aaf373e9343803530ee7",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
@@ -437,7 +491,8 @@
     "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-07T14:19:45.0000000Z",
-    "source_hash": "28328414d75a9c602ea2dce89213258f"
+    "source_hash": "28328414d75a9c602ea2dce89213258f",
+    "output_file_stem": null
   },
   {
     "mod_id": "3776641628",
@@ -445,70 +500,79 @@
     "is_active": false,
     "last_seen_at": "2026-08-07T15:46:26.5806935Z",
     "last_seen_mod_updated": "2026-08-07T14:19:45.0000000Z",
-    "source_hash": "a73e62cd830a1136199f537cbde77c4c"
+    "source_hash": "a73e62cd830a1136199f537cbde77c4c",
+    "output_file_stem": null
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalRecoverRecipes",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967696Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362893Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "b4909084bd17b08373a37e11bcb150a4"
+    "source_hash": "b4909084bd17b08373a37e11bcb150a4",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalRecoverRecipes_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967699Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362897Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "40965cfa92577deef4ae5aeb3d4bb75f"
+    "source_hash": "40965cfa92577deef4ae5aeb3d4bb75f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalRecoverSkillBookProgress",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362902Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "72e0cba0885cfe31c7decf8e9c9aa093"
+    "source_hash": "72e0cba0885cfe31c7decf8e9c9aa093",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalRecoverSkillBookProgress_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:21.5732789Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362908Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "4be61d8d079b6ff584e4fc211cc481d5"
+    "source_hash": "4be61d8d079b6ff584e4fc211cc481d5",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalRecoveryPercentage",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967704Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362913Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "00c7ae3f030c01689d72172cf018323f"
+    "source_hash": "00c7ae3f030c01689d72172cf018323f",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalRecoveryPercentage_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967708Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362917Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "896aec7eb6c93f9a40777a73f5d671ba"
+    "source_hash": "896aec7eb6c93f9a40777a73f5d671ba",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalSkipPhysical",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967713Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362921Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "20b07f6f9a03f15f1b43b4b4b5a54306"
+    "source_hash": "20b07f6f9a03f15f1b43b4b4b5a54306",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3776641628",
     "translation_key": "Sandbox_SkillJournalSkipPhysical_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-21T16:14:22.0967718Z",
+    "last_seen_at": "2026-08-23T03:10:36.1362926Z",
     "last_seen_mod_updated": "2026-08-17T22:21:56.0000000Z",
-    "source_hash": "5b7f0c92aa68101523084a7d5e02fbd3"
+    "source_hash": "5b7f0c92aa68101523084a7d5e02fbd3",
+    "output_file_stem": "Sandbox"
   }
 ]

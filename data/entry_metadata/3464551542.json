@@ -3,65 +3,73 @@
     "mod_id": "3464551542",
     "translation_key": "CraftCarLiftCenter",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886548Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105188Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "c6bceb9b979ccb791bf8f552bd212665"
+    "source_hash": "c6bceb9b979ccb791bf8f552bd212665",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "CraftCarLiftColumn",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886556Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105194Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "687643cacc21ce6f47670e9b47c9e785"
+    "source_hash": "687643cacc21ce6f47670e9b47c9e785",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "FunctionalCarLift.CarLiftCenter",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886563Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105201Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "d0c71593665c9b3f20dd54036754dccb"
+    "source_hash": "d0c71593665c9b3f20dd54036754dccb",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "FunctionalCarLift.CarLiftColumn",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886566Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105206Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "89ae6a05ed543bf4a05da549a1b75ffa"
+    "source_hash": "89ae6a05ed543bf4a05da549a1b75ffa",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "FunctionalCarLift.CarLiftMag",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886572Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105212Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "f78ba1cc3747fa032bcd1ba0b693156b"
+    "source_hash": "f78ba1cc3747fa032bcd1ba0b693156b",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "ItemName_FunctionalCarLift.CarLiftCenter",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886576Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105219Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "e624ba0ffa2002dc3340e9803f738b7c"
+    "source_hash": "e624ba0ffa2002dc3340e9803f738b7c",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "ItemName_FunctionalCarLift.CarLiftColumn",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886579Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105228Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "689c6ee0acacc2ed7935996b375092f8"
+    "source_hash": "689c6ee0acacc2ed7935996b375092f8",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "ItemName_FunctionalCarLift.CarLiftMag",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886585Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105235Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "c92602fcbe07213e172d83107d6993c7"
+    "source_hash": "c92602fcbe07213e172d83107d6993c7",
+    "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3464551542",
@@ -69,7 +77,8 @@
     "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-04-21T19:49:53.0000000Z",
-    "source_hash": "8c98dbda675d802508781042d718c66e"
+    "source_hash": "8c98dbda675d802508781042d718c66e",
+    "output_file_stem": null
   },
   {
     "mod_id": "3464551542",
@@ -77,94 +86,106 @@
     "is_active": false,
     "last_seen_at": "2026-06-30T20:32:41.9785198Z",
     "last_seen_mod_updated": "2026-04-21T19:49:53.0000000Z",
-    "source_hash": "24a7ca6ffac73d5f8b6074bda1a713a3"
+    "source_hash": "24a7ca6ffac73d5f8b6074bda1a713a3",
+    "output_file_stem": null
   },
   {
     "mod_id": "3464551542",
     "translation_key": "Recipe_Craft_Car_Lift_Center",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886594Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105250Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "b633321de00b6617c208c45b7c2dad8e"
+    "source_hash": "b633321de00b6617c208c45b7c2dad8e",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "Recipe_Craft_Car_Lift_Column",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886597Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105255Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "3c481df45f75118b553db11a6eb52bd1"
+    "source_hash": "3c481df45f75118b553db11a6eb52bd1",
+    "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "Sandbox_CarLift",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886601Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105260Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "42bf49cef4d31234a4519f7979cbfede"
+    "source_hash": "42bf49cef4d31234a4519f7979cbfede",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "Sandbox_FunctionalCarLift_ConvertVanilla",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886605Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105267Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "9981579fac05d39be2eb1d4617a42133"
+    "source_hash": "9981579fac05d39be2eb1d4617a42133",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "Sandbox_FunctionalCarLift_ConvertVanilla_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886611Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105275Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "1d6cd40d1c84a6489957c384fe71f932"
+    "source_hash": "1d6cd40d1c84a6489957c384fe71f932",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "Sandbox_FunctionalCarLift_Range",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886615Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105284Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "eeb7a66d0aedad0f04c2e26ded8d7652"
+    "source_hash": "eeb7a66d0aedad0f04c2e26ded8d7652",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "Sandbox_FunctionalCarLift_Range_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886621Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105290Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "cac2339db82d1be3c278314555b774bf"
+    "source_hash": "cac2339db82d1be3c278314555b774bf",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "Sandbox_FunctionalCarLift_RequirePower",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886625Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105296Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "fa423483701b86bd9a1694f90d6d7478"
+    "source_hash": "fa423483701b86bd9a1694f90d6d7478",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "Sandbox_FunctionalCarLift_RequirePower_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886631Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105302Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "8050c465812a0e831d93e95451bd6905"
+    "source_hash": "8050c465812a0e831d93e95451bd6905",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "Sandbox_FunctionalCarLift_RevertVanilla",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886634Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105309Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "d133aac749e4bff99d379d8d40397b03"
+    "source_hash": "d133aac749e4bff99d379d8d40397b03",
+    "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3464551542",
     "translation_key": "Sandbox_FunctionalCarLift_RevertVanilla_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-05T23:41:19.0886639Z",
+    "last_seen_at": "2026-08-23T03:10:36.0105316Z",
     "last_seen_mod_updated": "2026-08-04T18:10:25.0000000Z",
-    "source_hash": "4e8666e89c451a36eebd4d1dc23d768a"
+    "source_hash": "4e8666e89c451a36eebd4d1dc23d768a",
+    "output_file_stem": "Sandbox"
   }
 ]
