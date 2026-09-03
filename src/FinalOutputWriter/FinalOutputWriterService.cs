@@ -104,7 +104,9 @@ public class FinalOutputWriterService
             {
                 var jsonPath = Path.Combine(outDir4220, group.FileName + ".json");
                 var tmpPath = jsonPath + ".tmp";
-                var json = Utf8NoBom.SerializeIndentedJson(group.ToOutputDictionary());
+                var output = group.ToOutputDictionary();
+                RemoveForbiddenModNameField(group.FileName, output);
+                var json = Utf8NoBom.SerializeIndentedJson(output);
                 Utf8NoBom.WriteAllText(tmpPath, json);
                 RemoveCaseVariantFiles(outDir4220, group.FileName + ".json");
                 MoveFileAtomic(tmpPath, jsonPath);
@@ -478,6 +480,19 @@ public class FinalOutputWriterService
         }
 
         return "";
+    }
+
+    private static void RemoveForbiddenModNameField(string fileStem, Dictionary<string, string> output)
+    {
+        if (!string.Equals(fileStem, "mod", StringComparison.OrdinalIgnoreCase))
+            return;
+
+        foreach (var key in output.Keys
+                     .Where(key => string.Equals(key, "name", StringComparison.OrdinalIgnoreCase))
+                     .ToArray())
+        {
+            output.Remove(key);
+        }
     }
 
     private static void MoveFileAtomic(string source, string dest)

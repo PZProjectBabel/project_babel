@@ -180,6 +180,46 @@ public sealed class OutputRoutingTests
     }
 
     [Fact]
+    public async Task FinalOutput_ShouldNeverWriteNameFieldToModJson()
+    {
+        var tempDir = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString("N"));
+        Directory.CreateDirectory(Path.Combine(tempDir, "base_game_keys"));
+
+        var entries = new Dictionary<string, TranslationEntry>
+        {
+            ["fixture::name"] = TargetEntry("name", "must not be emitted", "Mod"),
+            ["fixture::Mod_Fixture_name"] = TargetEntry("Mod_Fixture_name", "must remain", "Mod")
+        };
+
+        try
+        {
+            var config = TestConfig.Create();
+            config.baseDir = tempDir;
+            var result = await new FinalOutputWriterService(config).WriteFinalOutputAsync(
+                entries,
+                new Dictionary<string, ModInfo>(),
+                [new LangInfoData { ingameCode = "CN", isoCode = "zh-hans" }]);
+            Assert.True(result.isSuccess);
+
+            foreach (var versionDir in new[] { "42.20", "42" })
+            {
+                var outputPath = Path.Combine(
+                    tempDir, "final_outputs", "project_babel", "contents", "mods", "project_babel",
+                    versionDir, "media", "lua", "shared", "Translate", "CN", "Mod.json");
+                using var document = JsonDocument.Parse(Utf8NoBom.ReadAllText(outputPath));
+                var root = document.RootElement;
+                Assert.DoesNotContain(root.EnumerateObject(), property =>
+                    string.Equals(property.Name, "name", StringComparison.OrdinalIgnoreCase));
+                Assert.Equal("must remain", root.GetProperty("Mod_Fixture_name").GetString());
+            }
+        }
+        finally
+        {
+            Directory.Delete(tempDir, recursive: true);
+        }
+    }
+
+    [Fact]
     public async Task OutputFileStemValidation_ShouldBeStableAcrossPlatforms()
     {
         var tempDir = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString("N"));
