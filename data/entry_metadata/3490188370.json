@@ -1,10 +1,19 @@
 [
   {
     "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_AddBaseItem",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "9a8a842efc61b09628758d6b708bd5ff",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_AddOneFirst",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146480Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277318Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "0256c95905e967cae07ebc7792ca70ad",
     "output_file_stem": "IG_UI"
   },
@@ -12,8 +21,8 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_AddSelectedIngredient",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146490Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277328Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "9509b7f7702c15855377b50be71aca89",
     "output_file_stem": "IG_UI"
   },
@@ -21,8 +30,8 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_AddSelectedIngredients",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146494Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277336Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "896fb0bde6fa1d3ffd4b1b99677f3469",
     "output_file_stem": "IG_UI"
   },
@@ -30,35 +39,62 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_AllContainers",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146502Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277343Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "11e063741f08a03a4add5d5fc8d0c42b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_Appearance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "e24d24b7191fd00756f7698c44108bd8",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_Back",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146510Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277349Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "ecd4795d3fc60a38355fc079ba71173f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_BackgroundOpacity",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "4c93812e7fbe46eef47ba485b8a0f78b",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_BaseItem",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146516Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277353Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "31d8399d7c023df52a18b4ae2af9cf5f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_ClearBaseItem",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "5ba034d44da563c2a8804921c54a13ed",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_Cooker",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146523Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277363Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "0fc494c9f48f58b36521384072f2b824",
     "output_file_stem": "IG_UI"
   },
@@ -66,17 +102,17 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_CookerAdjustment",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146530Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
-    "source_hash": "f81adcc65ee078caf411d9ef21c1e7ac",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "e8dc89627e1cccdb07bf0ebb503f920d",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_CookerContainer",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146535Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277374Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "f476fbf0cef803e3ae5effd5fd2f9529",
     "output_file_stem": "IG_UI"
   },
@@ -84,8 +120,8 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_CookingInfo",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146547Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277382Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "86b9bea029f9a6b7e28fcfa4d53ba2b5",
     "output_file_stem": "IG_UI"
   },
@@ -93,8 +129,8 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_CookingTooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146554Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277389Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "b118869cea0813aad4ac225de905cdc7",
     "output_file_stem": "IG_UI"
   },
@@ -102,8 +138,8 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_CraftRecipe",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146560Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277395Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "9150844039421455553fa414cec37d38",
     "output_file_stem": "IG_UI"
   },
@@ -111,62 +147,161 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_EmptyContainer",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146567Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277402Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "c640604da995fa2dc5220f88b139c4d4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_EnableAutoCollapse",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "304b72e8236d4e205ac128c90832661e",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_EvolvedRecipe",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146573Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277407Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "f0bf7755ec1e22960e41963bddf3e089",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_FullPortion",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "05284067f055a1b12e3222c213dd4b06",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_FullPortionsFirst",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "43c839d4f4a33496a3512e0f4b081dba",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_FullPortionsOnly",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "f06a14d1f3b9971aabaa3ce64e3d9398",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_IngredientAmountAll",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "ec5491b70fd8176831bc5faa78336dbe",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_IngredientAmountFilter",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "47872d51388ee9c4e0c07dc8ee4024d4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_IngredientAmountFullPortion",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "71699de59c8d94b558ad7f641b4b434f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_IngredientAmountIntact",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "e9ca45cd3048a2432ce8fa5128c88196",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_IngredientAmountPartialOnly",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "9e8e758efc2553c78d0068f711b610f6",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_Ingredients",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146578Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277413Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "515285da9b956e25730b2a0fa3895440",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_InnerPanelOpacity",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "b856f50b13d2b7877fad848553954e00",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_InputItemSelected",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146584Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277420Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "68873b27aadabc3a5e11ed08b1bbdc62",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_KeepExpanded",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "3c5a116ad17e8dcb90229c70034850f5",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_NeedWater",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146590Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
-    "source_hash": "e56b4c8d03c96a7aa2aafcbb50462f96",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "5a59be0da6e5ac02e908f75d69cda87b",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_NoBaseItemSelected",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146598Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
-    "source_hash": "96f9f18ce7f0fd7e88b9cbd686d94e5e",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "9f1550d5a52364b09e6c8a11e30d6ab6",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_NoCookerSelected",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146603Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277433Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "269914eb380439eead2020ed32963762",
     "output_file_stem": "IG_UI"
   },
@@ -174,8 +309,8 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_NoItemsAvailable",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146608Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277439Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "5a27a2fd16c517aec6a7f469d1e50cf7",
     "output_file_stem": "IG_UI"
   },
@@ -183,17 +318,44 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_NotAvailable",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146614Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277446Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "ba50b71939ec7808e398edb88c40783b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_PartialPortion",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "f362a0485900c734ae2af9389450b041",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_PartialPortionsFirst",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "b9a435b64afedecd6eae052b74e53d84",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_PortionUsage",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "36edbe2f883b95dfd566accb81f9d915",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_RandomAdd",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146620Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277453Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "6616fb24113daa9a4dbda9ffe9ab404d",
     "output_file_stem": "IG_UI"
   },
@@ -201,17 +363,35 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_RequiredCookingLevel",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146626Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277460Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "70988df99b0ea583153798e53a496fb2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_ResetDefaults",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "e15b56ef1a4518f8af4b5bd349d4d50c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_ReturnBaseItem",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "018d499dfcce16d0bc2d40050bd9f3af",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_Seasonings",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146633Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277466Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "71b382bdc373017214b50de38c8d2484",
     "output_file_stem": "IG_UI"
   },
@@ -219,8 +399,8 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_SelectBaseItem",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146640Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277471Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "331172c9dc96569044dfa282739cce6d",
     "output_file_stem": "IG_UI"
   },
@@ -228,17 +408,53 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_SelectCooker",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146644Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277476Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "8a254d53f9766af56ed7adc297021c38",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_SetAsBaseItem",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "28c54d32df57b61c4660cb8b99d2e6b5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_Settings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "c18a943a56d0865ffa6faf7a489ee9d6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_ShowBurnt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "9598a1e5426000004426f7c6e899b057",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_ShowFrozen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "dcea72a9faf353b65e5d767478d185c7",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_ShowFull",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146650Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277481Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "b5d87806b0a22d85f1552d561d63074a",
     "output_file_stem": "IG_UI"
   },
@@ -246,17 +462,35 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_ShowPossible",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146654Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277487Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "dad99830679807fd4aedb539e2a031e3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_ShowRotten",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "11e94a39b685d2a40d24345fa03494b8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_ShowStale",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "41b60b74e443bd01bb0034073837faa2",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_ShowToDigits",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146659Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277492Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "4b8dbfe37e8db6b70fd2db4c0c1de330",
     "output_file_stem": "IG_UI"
   },
@@ -264,8 +498,8 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_ShowToHundreds",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146665Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277496Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "c331254cf83412f3f156eab85a605885",
     "output_file_stem": "IG_UI"
   },
@@ -273,27 +507,144 @@
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_ShowToTens",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146670Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277502Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "74880e47b58f13cc2a1b4af52203434e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_ShowUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "dc4f52fb8d6b2c1c4b2ffcbec4d5d13a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_SlotOpacity",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "f2b351f301561799e79eaab752ea53e1",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_SortInput",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146676Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277508Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "90f0844ed9db01adb6ecd4a7f8890040",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_SwitchBaseItem",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "31982e97cc4a3e83b10b64a09a99319f",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3490188370",
     "translation_key": "IGUI_PJCK_SwitchItem",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0146683Z",
-    "last_seen_mod_updated": "2026-08-20T12:56:05.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2277514Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
     "source_hash": "70f8cd5a3be46bf4336da94c2e7ce4ad",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_TabInitFailed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "2ee5437744333107b1cc18ece63b4d67",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_TabLoadFailed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "a8fbd93c730ea0121be38b36391f0687",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_TabUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "b5875e76ac526eea22a856d1b3983e0c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_Title",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "ba8fb3cb6d9dee797d09a77fbd39473d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_TitleBarBottom",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "13905955ebd58872bb22c90d8ab55d44",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_TitleBarHeight",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "fe6f3929687d21dee26058a0a57cc166",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_TitleBarPosition",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "ee5b5e2dd0f5b2a337f1c3211625d697",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_TitleBarTop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "e9c9ff016a5ec86d39c7e4bbe251280b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_Visibility",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "69a017b7a80058d68157fdf59dcd4f0c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3490188370",
+    "translation_key": "IGUI_PJCK_WorkSurfaceAvailable",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T13:53:11.0000000Z",
+    "source_hash": "f9ed5b0fe8b4812c8473cd6df3042242",
     "output_file_stem": "IG_UI"
   }
 ]

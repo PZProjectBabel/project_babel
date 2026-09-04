@@ -3,8 +3,8 @@
     "mod_id": "3780639614",
     "translation_key": "Sandbox_PushVehicle",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1467974Z",
-    "last_seen_mod_updated": "2026-08-16T14:20:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3185537Z",
+    "last_seen_mod_updated": "2026-08-31T23:16:29.0000000Z",
     "source_hash": "75bd28ab86e280f4a9c6e14327177b28",
     "output_file_stem": "sandbox"
   },
@@ -12,8 +12,8 @@
     "mod_id": "3780639614",
     "translation_key": "Sandbox_PushVehicle_AllowSidePushing",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1467982Z",
-    "last_seen_mod_updated": "2026-08-16T14:20:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3185545Z",
+    "last_seen_mod_updated": "2026-08-31T23:16:29.0000000Z",
     "source_hash": "58dfe8de456a03efdc3f1f0d24b24c4e",
     "output_file_stem": "sandbox"
   },
@@ -21,17 +21,71 @@
     "mod_id": "3780639614",
     "translation_key": "Sandbox_PushVehicle_AllowSidePushing_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1467987Z",
-    "last_seen_mod_updated": "2026-08-16T14:20:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3185550Z",
+    "last_seen_mod_updated": "2026-08-31T23:16:29.0000000Z",
     "source_hash": "18100af78d94e182c8a0196e186ded59",
+    "output_file_stem": "sandbox"
+  },
+  {
+    "mod_id": "3780639614",
+    "translation_key": "Sandbox_PushVehicle_MaximumPushableWeight",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T23:16:29.0000000Z",
+    "source_hash": "c69cf366f8d981a75e9999d7d4a42356",
+    "output_file_stem": "sandbox"
+  },
+  {
+    "mod_id": "3780639614",
+    "translation_key": "Sandbox_PushVehicle_MaximumPushableWeight_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T23:16:29.0000000Z",
+    "source_hash": "985a88ce1865bc9160c44f693bac4247",
+    "output_file_stem": "sandbox"
+  },
+  {
+    "mod_id": "3780639614",
+    "translation_key": "Sandbox_PushVehicle_PushCooldownSeconds",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T23:16:29.0000000Z",
+    "source_hash": "89aab10e27769b0adf093f86f1efd48b",
+    "output_file_stem": "sandbox"
+  },
+  {
+    "mod_id": "3780639614",
+    "translation_key": "Sandbox_PushVehicle_PushCooldownSeconds_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T23:16:29.0000000Z",
+    "source_hash": "ddb994ca13b4a3de857cba090600a296",
+    "output_file_stem": "sandbox"
+  },
+  {
+    "mod_id": "3780639614",
+    "translation_key": "Sandbox_PushVehicle_StaminaCostMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T23:16:29.0000000Z",
+    "source_hash": "ac6f08764eaa7d5a303c20e720767197",
+    "output_file_stem": "sandbox"
+  },
+  {
+    "mod_id": "3780639614",
+    "translation_key": "Sandbox_PushVehicle_StaminaCostMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T23:16:29.0000000Z",
+    "source_hash": "eb2254f8e84ceb816717fd48421fe33c",
     "output_file_stem": "sandbox"
   },
   {
     "mod_id": "3780639614",
     "translation_key": "UI_PushVehicle_Action",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1467993Z",
-    "last_seen_mod_updated": "2026-08-16T14:20:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3185554Z",
+    "last_seen_mod_updated": "2026-08-31T23:16:29.0000000Z",
     "source_hash": "16cea83ba0d1143f831de20bc7ab0992",
     "output_file_stem": "UI"
   },
@@ -39,8 +93,8 @@
     "mod_id": "3780639614",
     "translation_key": "UI_optionscreen_binding_PushVehicle_Hotkey",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1467998Z",
-    "last_seen_mod_updated": "2026-08-16T14:20:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3185561Z",
+    "last_seen_mod_updated": "2026-08-31T23:16:29.0000000Z",
     "source_hash": "687023fbbddb0757339631b448550063",
     "output_file_stem": "UI"
   }

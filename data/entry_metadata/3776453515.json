@@ -1,0 +1,1541 @@
+[
+  {
+    "mod_id": "3776453515",
+    "translation_key": "AssembleFunctionalJukebox",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "9edbe60e0167f93bf94c1055162df6c6",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "AssembleFunctionalJukeboxNM",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "19dae1e9e4b416e52f8f3c8b5d785402",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "ContextMenu_DWTB_JukeboxNM_DeviceOptions",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "0b298b4ac4be31acbdb9b6a72681da2e",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "ContextMenu_DWTB_JukeboxNM_Install",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "256ce4c3bd62c816eab922055f0340c4",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "ContextMenu_DWTB_JukeboxNM_LoadSong",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "3b516947fc8cbe74b9a8c8f2ee2fd4b9",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "ContextMenu_DWTB_JukeboxNM_LoadSongs",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "f1119c08f7512c8fd209571f4d5ba626",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "ContextMenu_DWTB_JukeboxNM_Research",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "15584b6289854ecfbd64fc4cd64593a4",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "ContextMenu_DWTB_Jukebox_DeviceOptions",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "46f5dfb0a5182384297accbcefffdc69",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "ContextMenu_DWTB_Jukebox_Install",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "a573a4fce7a023bf244b6d8cc1de3900",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "ContextMenu_DWTB_Jukebox_LoadSong",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "7bcd5b9b1be15d20d31b9e61e69ba403",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "ContextMenu_DWTB_Jukebox_LoadSongs",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "7f6f82fd255d87fb57cf3896d9c1ebe1",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "ContextMenu_DWTB_Jukebox_Research",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "dcec3a68375daf276fb5e83dba0781d0",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "IGUI_ContainerTitle_jukebox",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "1a3658226308c2ea34be1d6bcae60d31",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Recipe_AssembleFunctionalJukebox",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "a6ab0e2d4b97af6720c21c99c08d0054",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Recipe_AssembleFunctionalJukeboxNM",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "548122185c0a34f969affa6c6028b82a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "0ff98cc82d25f2407849d717a7c406e1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "4cc3051bb356395353d6ada2547868bc",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_AttractZombies",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "2b6d80be5f6104ae9563db899a54f599",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_AttractZombies_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "4737e47555415a2c4511ccdd623312d3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_Audio3D",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "dfd52a6357a78f30ccc2941a2a6ca297",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_Audio3D_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "6b783b76c2a39c19ccdf5d255c820d9a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_BoredomRate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "8cbaaf1cf7cbe01ee2ce61d07e3a50f9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_BoredomRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "4cdab2acdfd2a8ec539c871e11fb992e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_Debug",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "b64d0feaec62a74a739df523414d0f70",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_Debug_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "2073d20fd82aef5f97a106a0984f9300",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_DefaultVolume",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "0f427066c1e16d21862e0a29e29ae3dd",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_DefaultVolume_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "845df53b77d4c889c8f7e0f134d0a09f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_MasterVolumePct",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "b2d5212d9b5bc53511b51638b5313afb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_MasterVolumePct_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "ee28ea0f5cc50d19ef0f3c13eed8078a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_MoodBonus",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "6dcf454ad4314aded666a0dd70c4abed",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_MoodBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "ae06e16fde7215e52b4e38ca68e60dc8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_PanicRate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "718ba97f7a9b507c488f0a869448ed78",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_PanicRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "f2904b25935bec0e2727b43380e43b1f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_RVWorldAnchor",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "2a3f4cad9548e6f57d8802ece7f14236",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_RVWorldAnchor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "4a1ab147c1cce43c6b80cfe1b2a458cc",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_RequirePower",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "297092a516abfcf0c7a4438ed14ca304",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_RequirePower_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "1927ce7a4a3d2744f29961ce37d6ab53",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_SootheBoredom",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "7c956ca83640b2fdb65e46e9eb2aeb8d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_SootheBoredom_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "c400d3fb8e9c11d3d4c149cfa6fde024",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_SoothePanic",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "74f0268f8256785db43276a14b4821b5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_SoothePanic_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "b0b376d9251fb3140e57d5bf25e81c02",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_SootheStress",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "9995cfcb5bf23b8af0d0de4744bc18bf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_SootheStress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "16b7c2c493a826ccc1c2f32e8f6e34b9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_SootheUnhappiness",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "8b680bfcdac36ef7132acf19fcec90ee",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_SootheUnhappiness_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "b7514625fe386d110d7f3a55755ad0ff",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_StressRate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "5133599ce1074b2d06724ca285b440b1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_StressRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "a35c6f8681e20b6b0617995bbf059501",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_UnhappinessRate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "fe82af5578989278f6d6c3f59e680dd0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_UnhappinessRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "adff415a6bdb013e4905e88aa5efe2ca",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_ZombieRadius",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "b9c3f3df9f28b599b4a7938ec4750813",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_JukeboxNM_ZombieRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "dc29b408dee8f8e8278b0de87757be76",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_AttractZombies",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "8e151031bbf66769873f8e1ed8e81717",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_AttractZombies_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "251ad34856de8edf38ad700ed23cfaf5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_Audio3D",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "c7c9bd3c13c4c571ab00f76657236584",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_Audio3D_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "2cd0db67849682587860317faef4c600",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_BoredomRate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "b9fd614fe56b7568ac277fff5a00a60f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_BoredomRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "a19f9a500f23ba324d5a02353c8c20c0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_Debug",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "1f48a9f73e4f22f4888605807c2f40a9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_Debug_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "6229c90cfea17591b481e918f6ac0422",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_DefaultVolume",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "8549c67c4c5be3b5ba90c09e72492516",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_DefaultVolume_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "1ce09d3fadde72a9a43847d7d8aee433",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_MasterVolumePct",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "999fa4272cc3ad7e959491527e94756d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_MasterVolumePct_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "a9b4b16dcee1d54340b29eabd9054cfd",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_MoodBonus",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "c29603599e11b34066ce4fb07279bb77",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_MoodBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "4ed9458c02ef281a6f573e170dfea2d2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_PanicRate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "7d3cde17854eeb88ccda3d1e62827f31",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_PanicRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "61fa1e24551877f0f193035350f64073",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_RequirePower",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "388903866c21ea9f2392dd999c4aa63b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_RequirePower_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "078bde162665d0da69badc35ee89efab",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_SootheBoredom",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "e8907baec8ca9fc32e90bf277f13873e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_SootheBoredom_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "58bb802539b0c69bff535c49f423178d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_SoothePanic",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "3e65ea8e11ed0e14a4f0acccd3a9784c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_SoothePanic_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "4c67dee84043237581e4de27018dd85d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_SootheStress",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "a0dfc9495c0c62a870349c3f621fd82a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_SootheStress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "2651b453e0642dc0e47714db9b5cdae6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_SootheUnhappiness",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "4440d3de87c3826b05e28b3c2e4df4f8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_SootheUnhappiness_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "6cd99a0efa30e01a4d66708d26c95ae3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_StressRate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "8b592a28298a299495a4ef72bcbd1b43",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_StressRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "2e096de269db80a84c374e80d2e7f8bb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_UnhappinessRate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "9a958a989315cbdfd397d3c2e57dce79",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Sandbox_DWTB_Jukebox_UnhappinessRate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "a19fdcfb9ce59cd0f3cb4a4f66c91c18",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Tooltip_DWTB_Jukebox",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "77bf6ac3d320aa99e086a82f964804d7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Tooltip_DWTB_JukeboxNM",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "66c075d7708a14a2fae210b47b34d29a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Tooltip_JukeboxCore",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "86344da0dcb385af83ed10f720a40393",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "Tooltip_JukeboxCoreNM",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "f768ae8b0afbdb454b28aab5a0d77fff",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_AddToPlaylist",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "2452e72c6e13199bd20e685ee4a9438d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Fail_JukeboxOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "5fee812aa5e8863a0bb0c9fdb56c7597",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Fail_NoMediaInPlaylist",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "6370cb68184f62009d6c5790afe4ecfe",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Fail_NoPower",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "b8ab8ad5703142accb42834f3ca72aab",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Fail_NoPowerGrid",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "f48cba1af1c6fcf7718acab189920b7e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Fail_NoTrackSelected",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "d3d2725839f698e9f89d5b95f10d0881",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Fail_TurnOnFirst",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "1ea8b27da9d2439004a5b9f9757ea6b6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_HasPower",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "3bb0bd1c0f1faf96b3ff256b856e7a54",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_LoadPlaylist",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "57e433668cf1cb089c2cd70c58180cbc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Master",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "6b8c6885e63962e6115bc5a46a0f5fe0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_NoPower",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "4c6ff1d59545f64deebd3475b9c6e3d6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_NothingLoaded",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "831d133e5e36be970abe3c791c37ce70",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_NowPlaying",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "48dd314a330ec0b5288b08a1e164107c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Play",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "51525700d9c2c0f515d7ace5e7328596",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Playing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "ed238208ffe10b41504af13fe2c912d5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Playlist",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "4eec92649365107ade8ce5b31496c58c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_RemoveFromPlaylist",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "591973892747db09d9d26c770a86757e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Rename",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "b5e2f3382e3c91832bdf55a3a1a99230",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_SavedPlaylists",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "aacf4b4f00b7f51f209f06c026d8a19f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_AdminOnly",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "a5669f47bf96a084def9217a7edbf19c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_AlreadyLoaded",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "8c92285adbdc191474d5add2f1496ff6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_AlreadyStudied",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "d4cea43afa80fef4a12466dc86642a26",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_CannotRemoveMaster",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "18a4854e9e298b29153e843af41cbc95",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_CantPlaceHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "d0d3b7f68634f9e1fd3bc331b123c792",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_FailedPlace",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "4a19712fa855bc28fe07942f9432f3ff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_MasterNoRename",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "ea93c4b6151535509c87449d89abb6ef",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_NoJukeboxHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "78022da9f73a3cef40a2f27b0b720717",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_NoMediaScripts",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "7d7e75c3c96f698746274cf23bd541af",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_NoOldiesToPlace",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "ad7c9be5bb58c36d55617b5eb748e41d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_NotEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "f08033214b3b973c2db5150ca0256aad",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_PlaylistEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "b8bf594b2b7dd006bdf5366f761d6e5b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_ReadTrack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "b09e24b82b8736090d522a8bebb61967",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_ResearchFail",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "054d1be267b65f7306331bfbc71a4445",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_SelectSong",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "817bdf2b5e00d41d508d2d3e75931149",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Say_SlotIsMaster",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "ff2b35b167917e736511b0a3ae8ad572",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_ShuffleOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "9d428f89bcd48d5cf7e90859ebf48afc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_ShuffleOn",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "ba849b23b33adfe80b6b6ceb3e7b6b75",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Stop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "64338ab4cede7503d05c96dfce5fc108",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Tracks",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "04caa228d016d7bc6d5e7cec2c703c9e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_TurnOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "1eb84d43391043a10d944d6c8a83cd56",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_TurnOn",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "72a637df02c30762566e1d1380f8f024",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_Volume",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "0f45ed1fe5c7b28db8bffefa095a79b2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_JukeboxNM_WindowTitle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "15fa653e675fa580a3de78385bfbd93d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_AddToPlaylist",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "00c1e4a5a7057e249fe44801923fa7f7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Fail_JukeboxOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "d45b2fda1c986b56bf3722eeff338b5c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Fail_NoMediaInPlaylist",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "6ce4e4bacea6c207ce396841b3e8963f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Fail_NoPower",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "61249054bca1d1b45c53c7de5f85ecb8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Fail_NoPowerGrid",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "de0b8287efa257cc434eb7da9a8f0381",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Fail_NoTrackSelected",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "7534fc4bcdb3e2ff2f51a888dcc4e368",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Fail_TurnOnFirst",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "7e7ed7320e01e4034bab640b9c05f288",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_HasPower",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "3599f39dc8e77cb05e594c4436ce16b0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_LoadPlaylist",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "51c48d9cf51fd2eb4adce06f12b1610b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Master",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "9edf299c15856969ade345a0a4a9d7b7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_NoPower",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "9ba14f9eb9133d1d282e8126670f6b37",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_NothingLoaded",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "14d9ea9b62bb5b0761e4d678fcfea0c9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_NowPlaying",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "2a8e67141ce120ddda93d2d7a842f196",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Play",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "6b61060635733c6c82d059cda80b5193",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Playing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "ad328e00d5bd649cd2da7f4b12d93657",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Playlist",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "20ce3a59f1ab8d887f3262c6b7c3d6ff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_RemoveFromPlaylist",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "5f5124ef69c3e4d3375df406f80eb96c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Rename",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "c1abbca75d6e71d96061d7aa88270de3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_SavedPlaylists",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "f88630e851dbfb84a90ec7755aa67605",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_AdminOnly",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "a31372bd8d70741dc6ccb03c34723fe9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_AlreadyLoaded",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "82b92065332a08cde8e6ed3ffdbb005f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_AlreadyStudied",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "206504bd291cadafa065313210f93d07",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_CannotRemoveMaster",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "ee2ea8427b1199c4b7a3778d419c10dd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_CantPlaceHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "6f9b7ec69f91dbdfb15319750a6ef706",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_FailedPlace",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "f5e26672c9574a96a5fdb472e6fadbce",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_MasterNoRename",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "09de6f7bcc4fe4331128540be6e8b32a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_NoJukeboxHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "47b4aa0fe0f610a5ae4fb532d3cc2031",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_NoMediaScripts",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "a355c740501de8668029214d6fabaa83",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_NoOldiesToPlace",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "53128d1c478158195a0dda4c956f39bb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_NotEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "8b14248fd9d78b37910d21c6d0268f64",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_PlaylistEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "00c734cf67487b23e0fb629e31c91995",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_ReadTrack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "3d8b9f0055f44e21d13a81f46c55e967",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_ResearchFail",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "3c4dae67cbfc651f7a173c53a7712b41",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_SelectSong",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "9f70eb92fef9d524dfda42d3afaccc02",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Say_SlotIsMaster",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "dbcff2bef3e8f94ba9d9664dc93128b4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_ShuffleOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "93acd2227733a7989ff214d6f2b4e266",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_ShuffleOn",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "03a23aaf1cfdb033924f66478ad81952",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Stop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "d54a9d249711ae4b952320c191d2d056",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Tracks",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "271b83c26868057e6c07041d32905ee9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_TurnOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "1c5e2e1e4750f9f223ac63fed6ebdb1e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_TurnOn",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "7acbc52864481c42590e678cf8859424",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_Volume",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "0391cc73fde26fed4f88040b026188bc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3776453515",
+    "translation_key": "UI_DWTB_Jukebox_WindowTitle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-24T03:41:02.0000000Z",
+    "source_hash": "9d9f9afaa5d02f6db3e7bc6266c88cfc",
+    "output_file_stem": "UI"
+  }
+]

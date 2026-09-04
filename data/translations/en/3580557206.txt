@@ -1,5 +1,7 @@
-UI_DRJ_Options_Title::en = "Daily Report Journal [Reforged]",
+UI_DRJ_Options_Title::en = "Better Daily Reports",
 UI_DRJ_Options_showXPWindow::en = "Show XP Window",
 UI_DRJ_Options_showXPWindow_tooltip::en = "Shows a movable XP bar and XP drops. <LINE>Multiplayer XP logging remains active when this is disabled.",
 UI_DRJ_Options_toggleJournalKeyBind::en = "Toggle Journal Key",
 UI_DRJ_Options_toggleJournalKeyBind_tooltip::en = "Key Binding to show/hide the Journal Window. <LINE>Due to API restrictions modifiers (SHIFT etc.) do not get saved.",
+UI_DRJ_showXPWindow::en = "Show XP Window",
+UI_DRJ_showXPWindow_tooltip::en = "Shows a movable XP bar and XP drops. <LINE>Multiplayer XP logging remains active when this is disabled.",

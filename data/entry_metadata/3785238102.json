@@ -1,0 +1,848 @@
+[
+  {
+    "mod_id": "3785238102",
+    "translation_key": "KnoxGPS.NavMan",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "fe70c9ed92236ad0e0db43ab4edcf4ed",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "Sandbox_KnoxGPS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "b1ce64db1d381cc350777d5c705f5c4c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "Sandbox_KnoxGPS_RequireDevice",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "a0e1de22bdbb8525cc4571f8238942bf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "Sandbox_KnoxGPS_RequireDevice_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "8e90c0b5f7e0da73a48a522453ce2b04",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "Sandbox_KnoxGPS_RequireVehicleUnit",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "41e81ac31186cde965b947376c021f5a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "Sandbox_KnoxGPS_RequireVehicleUnit_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "ce9abc6a1edf9d36435196065004093c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_AddPoint",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "405358b61897453df310f28d47e9a692",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_AddStopHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "4937183438f7baf2db03ae680e2297cb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Arrived",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "1229449f9646a88431e59210c39dfc01",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_CancelAll",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "40f685246eb3e9e415aecc192ae3d3e4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Cat_food",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "9824ef28b2cc25b709f1122a16202e2c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Cat_fuel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "9f7e8fa2781b74d3287ded0e27523eb9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Cat_medical",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "54176d727f59e8e15bbb0619f5b4b9f9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Cat_military",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "2f0e4e1436386d201366e4a52279d3fb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Cat_police",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "c7ae7f8aa0ef85d651e4a9be2c29d4c1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Cat_shop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "9c6d63256f941cece915f78bf4e3a7e5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_ClearPings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "ce5f8ec8fbe0954c07caa7b8c10e933f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_ClearRally",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "a80b9fb240491cfafb252cbfe4fc4a98",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_ClearRoute",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "27c14a859f54b0997e9653d2f65ef392",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Custom",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "feca5fb92576cebfecaf638a26fa0419",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_DangerWord",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "5a5118769e4cf39dc996e3a5a7eabe2f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Dangers",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "925e588100dd4a2ea3edb6b1e93c8d23",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Fuel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "f59495881e227c38d5163172e9bffcff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_GoRally",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "68c2d5df18c036d45ac3e6c464714901",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_GoSafehouse",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "06a12c97f1a72eaf44f3ff2d47bbec6f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_GoTo",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "b78319088023d85d96496c74dc129a73",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_InstallUnit",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "02852e29e4d9f18aaa201eb85c5c73b0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_MarkDanger",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "2b4c5a5756c45b28eb0a64412100f3f8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_MarkPoint",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "47101eb68ed72dc5cd9440e38953965f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Min",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "54fedf5d12c9bc2be52116c7934d0d6d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_NamePrompt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "339c1895f7f437a71e220f3519e9c7e5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_NeedScrewdriver",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "26a17599e4cdcbcd302c68e6a5d1495f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_NeedSkills",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "2517230951dc0c7cffd477ab7c5487df",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_NeedsDevice",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "a3ce8b58a8af344c54d257a2e25c2e86",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_NeedsVehicleUnit",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "38af2f1d232ea344e9fed7de4d80d05f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_NoMatch",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "bb1d5e6bcc2f3db0b2e5a488717a2530",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_NoRoute",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "c8c1c3f940598745647a84e537aec898",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptColor",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "a29275c074d3314d79549d62cb65768c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptColorTip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "be94441daf009ad1a9bb7ebdd30a4eda",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptFaction",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "2b00e2490c6c1d7ab64fb1e6ddb7766a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptFactionTip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "0aa6741a8feba6ebc3585a3836c4db54",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptFuel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "96a8a88fda02c3d13d404f4de73b7d55",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptFuelTip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "399b221f9435ce97029638e34cc9244a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptMinimap",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "4c1dbcf99efe95de7690d89f6a13bfcb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptMinimapTip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "1b89e71bb3ccb52ce557604565cab772",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptPoiLayer",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "d952654a330d8563403182163dcfabeb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptPoiLayerTip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "f0631739e3b788e347e98933c4bef894",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptRealism",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "4b92ed3fb2e8cdcfc8e2c6361896d42c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptRealismDevice",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "b585ee7f28c9afd321b707ee73c235c0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptRealismOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "30b8117bac31eef873740ed672e1f657",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptRealismTip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "6bdbe21d3180e8e50027e13977a08cbf",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptRealismVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "2ec87376cd7cda626e95a93ed1712e63",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptReveal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "3266bd15781541142dc27d872f310e06",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptRevealTip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "5c5f73fe57bb950f8ea5941635765cf6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptSounds",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "b0cdc70789b10c25c102d29d0cbf1d68",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptSoundsAnnoying",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "19a15d491851baaa126d018fb7183fc3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptSoundsNormal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "45b8ea6af44a415328b16344492694af",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptSoundsOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "516bff6c948746d4071d29493802a521",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptSoundsTip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "8ad39a93d4362b99fdb000a7d60ffdae",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptStreet",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "ce2b45d41c6448ad77ed4c176ca6d51c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptStreetAlpha",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "c09f7a456868a0be77154dd55956ec53",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptStreetAlphaTip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "bee62eeacdfe7e92d0648f0193e32a48",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptStreetTip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "9f36f54b11b24e3c88181a97fa7efb28",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptStreetWidth",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "7b77464ba82fc8ba5bfb93b247a11666",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptStreetWidthTip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "b3ec3a730c61ba05a8af1d2def9946e0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_OptionsDesc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "c8fd20d0aa7d4b525da156151fcde391",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_PingHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "e8650d5e0d67439ff182b1d063799631",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_PingWord",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "f9e3e55fb48bc322aeb616f9f71200ae",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_PointWord",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "b56fdcef3483108a8561d1b2401e5434",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Points",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "90d81dd7727d5ae9fe35d0ae4e694fe9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Pt_fuel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "3daaecffec31a691a9b60034ac6a437a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Pt_generator",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "f86781c2a32310520725cb1464188dbd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Pt_locked",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "a6a7682be67534e515b6d1685870cf11",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Pt_loot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "7a320bb15ca9013a7daa55bf11b8ed4d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Pt_looted",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "f2b7d16f590155ab53c6bc74b762a863",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Pt_materials",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "9379945e4d12c76bc593e55d376be8ab",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Pt_shelter",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "9464bb7529e87a890600d3a62dedc7b9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Pt_vehicle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "7c8229d3a074b41aa3444b8fcff9ee49",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Pt_water",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "fa6b7addaa65b8ac9bbdbc55ceb10580",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Pt_weapons",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "9a7e148b34ecb26a31576a84dc9ca509",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Rally",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "2ae8d6dff12a445cc8c7ea773f401bb2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_RallyHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "7c74e61c995bfcf341509e35472e8fa4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_RemoveDanger",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "98a908d6f80432fc8c46a736c2a76e93",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_RemoveHint",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "045f9eda8bde4de307f6b84645a91f86",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_RemovePing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "b3d915d8d455ec808712c71fe0abd6a2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_RemovePoint",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "73f25a8cde316f32fe9d6da6ba503c9d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_RemoveRally",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "bc186861ac0bb500d80a060fa0f362b5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_RouteHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "23ebd599e50ff58262922331f9720db8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_SearchMenu",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "5d1b0564362c619b38f89a08b66670f4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_SearchPrompt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "fa4f6ae8e299dad7e8e9c3970d440efa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_StopReached",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "36127d0f4a08d040ffa617749ad85fa2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_Tank",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "6ceee45eed1dbe83f176675e25481282",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_TooClose",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "2ca1feeda477f44407ad3ff3d764c752",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785238102",
+    "translation_key": "UI_KnoxGPS_UninstallUnit",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-19T11:56:19.0000000Z",
+    "source_hash": "6b26091a80dd70b1859d0048f57cebed",
+    "output_file_stem": "UI"
+  }
+]

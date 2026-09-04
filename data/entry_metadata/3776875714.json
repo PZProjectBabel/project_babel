@@ -3,8 +3,8 @@
     "mod_id": "3776875714",
     "translation_key": "ContextMenu_AddWaterFromItem",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365304Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316284Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "b1dc5d936497fb741bad68e7cf34a754",
     "output_file_stem": "ContextMenu"
   },
@@ -12,8 +12,8 @@
     "mod_id": "3776875714",
     "translation_key": "ContextMenu_Add_Water_To_Trailer",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365312Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316295Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "0a8c228b8c189bb60a982ecfaa3c6944",
     "output_file_stem": "ContextMenu"
   },
@@ -21,8 +21,8 @@
     "mod_id": "3776875714",
     "translation_key": "ContextMenu_Close_TankLid",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365317Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316299Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "3934bcdf1a0e2d4d480ba5366a573dc6",
     "output_file_stem": "ContextMenu"
   },
@@ -30,8 +30,8 @@
     "mod_id": "3776875714",
     "translation_key": "ContextMenu_Drain_Tank",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365324Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316303Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "8d5ddaf4914087dd92482cecc9ba14fe",
     "output_file_stem": "ContextMenu"
   },
@@ -39,17 +39,152 @@
     "mod_id": "3776875714",
     "translation_key": "ContextMenu_Open_TankLid",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365328Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316306Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "b11e2dcb89128264a56353ed15886828",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_AddFluid",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316312Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "c4e7c36f64d759d0523fa13e3fc66d82",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_AddFluidGeneric",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316318Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "fc6d2f6d18b8b8d9ef423f14a6cbf979",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_Drain",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316324Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "04d715abc604b3377ac9956a812edab9",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_Drink",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316330Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "98c4fc29398c3340713a2f5890c364a7",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_FillFromSupply",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316336Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "f2dff02f225a0eebc458c32f86bfecd8",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_From",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316340Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "56f26d3aa00795c407cee0152deca0b0",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_Info",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316347Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "2b0753aaeafc524b82ab73f2fb0447cd",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_RefillTorch",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316350Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "cd9faf158213c0c5c1ae23af716a2436",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_RefuelFrom",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316356Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "fe0c1c7f7dc31f9f292355e4f65b0841",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_TakeFluid",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316362Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "57d6a68e1bfeea0dd1a5cb5c2e49f9ae",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_To",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316368Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "8ae2558c9332785613bc2376bb06fe28",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_Transfer",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316371Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "d97da1c8a53fd952ab5a007b1db49f04",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_Wash",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316376Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "d09abb183d1206cc65671b552ed9a197",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_WashAllClothing",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316381Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "de5340612b08ebd94b8aa0595db497ed",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "ContextMenu_VFluid_WashYourself",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316385Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "d09000f503594da722718a10f9d43f00",
     "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3776875714",
     "translation_key": "ContextMenu_VehicleAddSingleWater",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365335Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316389Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "aa0f43540a78d5b5c434e2263213de18",
     "output_file_stem": "ContextMenu"
   },
@@ -57,8 +192,8 @@
     "mod_id": "3776875714",
     "translation_key": "ContextMenu_VehicleAddWater",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365341Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316393Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "ec83c36edb64127c926f713e8934f185",
     "output_file_stem": "ContextMenu"
   },
@@ -66,8 +201,8 @@
     "mod_id": "3776875714",
     "translation_key": "ContextMenu_VehicleAddWaterToItem",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365345Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316395Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "58c274f8a363be4e586c913038fa6988",
     "output_file_stem": "ContextMenu"
   },
@@ -75,8 +210,8 @@
     "mod_id": "3776875714",
     "translation_key": "ContextMenu_VehicleAddWaterToSingleItem",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365349Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316399Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "1d2482522ebc50c69ca536b91e49fc40",
     "output_file_stem": "ContextMenu"
   },
@@ -84,26 +219,575 @@
     "mod_id": "3776875714",
     "translation_key": "ContextMenu_VehicleSiphonWater",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365354Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316404Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "01faea444d633f0af86c9635ac0cfe2f",
     "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_AVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316408Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "d97bc29a12200660ed9fb8ee6e16df87",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_AxisMix_beverage",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316412Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "8a306f511066fd37b72e3abed6207850",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_AxisMix_chemical",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316416Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "0dc0d81f901f1294c35648bd7f2e6cab",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_AxisMix_dye",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316421Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "2fd11b70c81804bb8e0d960a207b1fbe",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_AxisMix_fuel",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316426Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "7c7ff5ee62b0ed1d933cec3f22df4160",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_AxisMix_industrial",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316430Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "999ba612f190c816873979b54810ea60",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_AxisMix_potable",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316435Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "5c310f94be7f4f20cbab33cfedca8a25",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_AxisMix_propane",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316438Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "3977060b4f02225b6d18772d70eb5675",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Axis_beverage",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316442Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "25f9446c6242f8c9f2d2abe8cc2d4908",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Axis_chemical",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316447Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "019703040dadcd87221eab2ffd64a26b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Axis_dye",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316452Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "fa7d3ed2728935fb4817c665fa8d3990",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Axis_fuel",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316457Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "9cb41734174ad995b3f5945bc26f3a05",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Axis_industrial",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316463Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "c016f83961e59e97ad707cc3ad1a506f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Axis_potable",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316467Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "96b67979a03a483190e81b63cae1cd5e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Axis_propane",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316471Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "7de9c338a8af5de0d5682dab3c42cd17",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_BarFree",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316475Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "9dc1e12fd5f38dfc7db7ce4bcda4fa24",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_DesignationFixed",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316480Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "391863c2dd22a9d14cdbf0a2087742dd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_DesignationLock",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316484Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "f15c59cc725d73c57ffcc9cca85cb188",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_DesignationMode",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316488Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "752522306e516aeb86103b566b3bba94",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_FluidDesignation",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316491Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "80b224bb0937e7db3610f437c5cfc059",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_FluidEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316497Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "81f1fdf8c6be3fdca3819e202d7f12f7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_FluidMixture",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316501Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "25f122cfc5fdc3a74b01e5165d8f997b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_FluidWord",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316507Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "f74b8458f6eee30f9d8b4dff16cd0a49",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_InfoTitle",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316511Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "c8f64fc3850973d522060a609613c9f8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_ModeMulti",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316515Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "859f52e92b7f28362e76820fcdcf4b8d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_ModeSingle",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316520Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "146c5b7d136db80948018d334a29a2ee",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_NoEmptyHandContainer",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316524Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "02f7211eda1364de56310c1b05332bea",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_NoFullHandContainer",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316528Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "767d49c8656b07e7ed38d26582bb1698",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_NoPower",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316534Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "c86ece1029fd8377f5aa1dd8bb36b111",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_NoPropaneCarried",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316539Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "cb19d77b0c282c5d79467e30f3f98284",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_NoTanks",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316544Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "42a2fa29dc0b4c0229b1e298631849bb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_NoUsableSupply",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316549Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "93f9807952f397b375f5d6292ebc7f53",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_NotPersisted",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316553Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "d4b99548e09890d8e4d7e4aa050ef113",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_RowFluid",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316557Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "4a36f149cce8c85e39b0d4b4ac00d862",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_RowMode",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316561Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "e6e5585af11ce75f7c46eb75f566665f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_RowService",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316565Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "b7a72cae1579d9678a8e6790aafa02f7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Runtime",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316569Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "8e2ec272db8fd4a58ef54d1a80ead812",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_SectionAppliances",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316571Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "dd8499e6220251e55c4eaea40b53e06e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_SectionDesignation",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316577Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "b86c197416103f5e0f0aada6b1aa830a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_SectionMounted",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316582Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "eff4c65a4868104ec11dbb1a009ad68e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_SectionSupply",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316585Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "f785e4ca858f820cebf37af4fb4c5624",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_SectionTanks",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316593Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "e75bcb654ffff2d1eb881427b9b2a7a2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_ServiceCompromised",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316596Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "6f60271a7f4b553a5ed2b5a01ddb07bc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_StorageSuffix",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316601Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "d31e73c590177723656d97a393d12a1b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Supply",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316607Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "b2148191f4dc45bd65459aa45db8891c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_SupplyEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316613Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "20706fcda40dcdd1f04d199e14837e79",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Tainted",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316617Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "c6f13c2809c0f69703f72c05d76b1722",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_TaintedWord",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316622Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "48cc1d305ea578f85eed4c17a210922b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_TankDesignation",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316626Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "92414fc594ca3c06adc1ea6a6d0c3419",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_ThisVehicle",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316630Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "4afdf386b8117192147888d806abac74",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_TipClean",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316636Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "1193ccb65423b89b46e4d9a4c085664d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_TipCleanNone",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316640Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "62973165764f1453b620ab3d0a94836d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_TipCleanOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316645Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "9d95e19211ef8e6b4d3bae0b4cd3136e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_TipClosedSystem",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316651Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "4ac66c8aafd8022d9ca15bc7936430ab",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_TipCompromised",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316655Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "f522f67e5084ce27e57a3cdb7acb7040",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_TipLocked",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316662Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "edaae77e8acef2c36a73f46637ee97ad",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_TipRequiresClean",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316670Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "634faa7b8fd6964f488db717ec9255fa",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_TipUnlocked",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316673Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "11d7ecb0e12f3a6674c152a81e3464b9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Total",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316679Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "8af27a300fbb51f0495bf6dd3b89eb42",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VFluid_Usage",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316684Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "a7764920c390b94f7c123e16c754c56c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
     "translation_key": "IGUI_VehicleNameTrailerM967tankerWater",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365360Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316692Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "6fbdca90d47284e913d2554265cd5488",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VehicleNameTrailerPropane",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316699Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "e4fcf88627719cb3316a09f5bd704b43",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehicleNameTrailerWaterBig",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365365Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316703Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "13d1f8dc8b33bcf86e5b18aa951514fb",
     "output_file_stem": "IG_UI"
   },
@@ -111,8 +795,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehicleNameTrailerWaterSmall",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365369Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316709Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "d8ab99ea5d3fbb6f0a7d8d52c01fc83e",
     "output_file_stem": "IG_UI"
   },
@@ -120,8 +804,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehiclePart1500WaterTank",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365375Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316715Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "e880cfff21ffceafa71ae09d3839016b",
     "output_file_stem": "IG_UI"
   },
@@ -129,8 +813,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehiclePart3000WaterTank",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365380Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316720Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "110ce892309d561c6044c81a89c55528",
     "output_file_stem": "IG_UI"
   },
@@ -138,17 +822,35 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehiclePart5000WaterTank",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365386Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316724Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "630d29850b3d49afbe28500f74ce41ed",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VehiclePart800PropaneTank",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316729Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "64654fecc767bf99b4d80e57aadf3d17",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_VehiclePartCatpropanetank",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316733Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "594371d7690bcd43e7f0d8654f826f99",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehiclePartCatwatertank",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365391Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316738Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "5ef22b5c11d57c6d116849e27129b7ca",
     "output_file_stem": "IG_UI"
   },
@@ -156,8 +858,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehiclePartTrunkDoorLeft",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365395Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316742Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "71402c6eb2dad2aa689f2b8ce00fb5f3",
     "output_file_stem": "IG_UI"
   },
@@ -165,8 +867,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehiclePartTrunkDoorRight",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365400Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316747Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "6c8d2c3f814c526ebc57b3433aeef2a3",
     "output_file_stem": "IG_UI"
   },
@@ -174,8 +876,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehiclePartTrunkLeft",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365406Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316751Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "b9721ac7390067e107fe4b83a2f1469e",
     "output_file_stem": "IG_UI"
   },
@@ -183,8 +885,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehiclePartTrunkRight",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365412Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316755Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "dfc61eff9e1cfc9527a96a7327912502",
     "output_file_stem": "IG_UI"
   },
@@ -192,8 +894,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehiclePartWaterTankFilter",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365416Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316760Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "0eaf2ef04777c3d4ebebc01c97037aa8",
     "output_file_stem": "IG_UI"
   },
@@ -201,8 +903,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehiclePartWaterTankLid",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365420Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316764Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "8603278323f3e73db717ddfb117aefd9",
     "output_file_stem": "IG_UI"
   },
@@ -210,8 +912,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_VehiclePartWaterTankPump",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365424Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316770Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "716b5a304a719d85657f9a7245b92eb8",
     "output_file_stem": "IG_UI"
   },
@@ -219,8 +921,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_Vehicle_CondInfo1500WaterTank",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365429Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316773Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "0f1148bb6607f60320a853d938d95214",
     "output_file_stem": "IG_UI"
   },
@@ -228,8 +930,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_Vehicle_CondInfo3000WaterTank",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365432Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316779Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "3173bd4024c0bfd70f518f86c1f595d6",
     "output_file_stem": "IG_UI"
   },
@@ -237,17 +939,26 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_Vehicle_CondInfo5000WaterTank",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365436Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316782Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "b1e32660f03aa1b92e84185c085c68cd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_Vehicle_CondInfo800PropaneTank",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316787Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "1409afb314916206ca82fcf3be8b09fd",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776875714",
     "translation_key": "IGUI_Vehicle_CondInfoTrunkDoorLeft",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365441Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316791Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "38873d29d6eb7b39e494b31d08d2a935",
     "output_file_stem": "IG_UI"
   },
@@ -255,8 +966,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_Vehicle_CondInfoTrunkDoorRight",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365447Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316796Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "eaff3822a2734b39995ed42788c924dd",
     "output_file_stem": "IG_UI"
   },
@@ -264,8 +975,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_Vehicle_CondInfoTrunkLeft",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365452Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316801Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "7a843bda1ccb7d0c9390e1c9e9e1b061",
     "output_file_stem": "IG_UI"
   },
@@ -273,8 +984,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_Vehicle_CondInfoTrunkRight",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365456Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316807Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "aeb53fcfdbbd4ad449c5a83b2e3be16b",
     "output_file_stem": "IG_UI"
   },
@@ -282,8 +993,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_Vehicle_CondInfoWaterTankFilter",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365460Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316812Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "80871f8085565b6cc8f3f6eaad98e264",
     "output_file_stem": "IG_UI"
   },
@@ -291,8 +1002,8 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_Vehicle_CondInfoWaterTankLid",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365464Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316819Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "4d61b7efaedb5c77eca6a4fbcbcc8317",
     "output_file_stem": "IG_UI"
   },
@@ -300,26 +1011,44 @@
     "mod_id": "3776875714",
     "translation_key": "IGUI_Vehicle_CondInfoWaterTankPump",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365470Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316823Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "bcb1ac6316d4ecb584da264ada22397c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "IGUI_Vehicle_ContainerCapacity_Propane Storage",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316828Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "5abd3c6d4135d7af439d6ec3c79d0188",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776875714",
     "translation_key": "IGUI_Vehicle_ContainerCapacity_Water Storage",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365474Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316833Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "d36e785a44f40f0f869c64988c79cead",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3776875714",
+    "translation_key": "PropaneTrailer.800TankPropane",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316838Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "4e6623271c08e8e2783e0edad31ea30c",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3776875714",
     "translation_key": "RotatorsB42.1000TankWater1",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365479Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316843Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "00ecb44af4394e08a82095338f8e1e03",
     "output_file_stem": "ItemName"
   },
@@ -327,8 +1056,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.1000TankWater2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365485Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316846Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "7fa4a4554686ae8c95a9102b19b53f42",
     "output_file_stem": "ItemName"
   },
@@ -336,8 +1065,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.1000TankWater3",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365492Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316850Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "d5f8c32f08e744dac1380e9143d0757b",
     "output_file_stem": "ItemName"
   },
@@ -345,8 +1074,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.1500TankWater1",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365497Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316853Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "eca655382fb5e97038f151a200588d57",
     "output_file_stem": "ItemName"
   },
@@ -354,8 +1083,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.1500TankWater2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365500Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316859Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "77c7becd356aefec007b941883ba25f9",
     "output_file_stem": "ItemName"
   },
@@ -363,8 +1092,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.1500TankWater3",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365503Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316862Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "b17bc1fa081523197fbc893f293c33bf",
     "output_file_stem": "ItemName"
   },
@@ -372,8 +1101,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.3000TankWater1",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365505Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316866Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "15c8de4ab34b5ac59d5230d2948693c2",
     "output_file_stem": "ItemName"
   },
@@ -381,8 +1110,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.3000TankWater2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365508Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316869Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "9b01e23baf986462e5514f88a9abd34f",
     "output_file_stem": "ItemName"
   },
@@ -390,8 +1119,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.3000TankWater3",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365511Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316872Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "3ea57caa3f92720257f9708404cf94bd",
     "output_file_stem": "ItemName"
   },
@@ -399,8 +1128,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.5000TankWater1",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365516Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316875Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "96d56b2d51799a6d00242fd20cd39ff8",
     "output_file_stem": "ItemName"
   },
@@ -408,8 +1137,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.5000TankWater2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365520Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316878Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "321cf0a152b0ef23467520315474f30a",
     "output_file_stem": "ItemName"
   },
@@ -417,8 +1146,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.5000TankWater3",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365523Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316880Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "aa28284e89da14cf54250ca6a036877e",
     "output_file_stem": "ItemName"
   },
@@ -426,8 +1155,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.TShirt_RotatorsBlack",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365528Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316886Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "6d7a78073de41291849227ead3247dda",
     "output_file_stem": "ItemName"
   },
@@ -435,8 +1164,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.WaterTrailerTankFilter2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365532Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316891Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "e6f17a02942be23cc015a8db684ce711",
     "output_file_stem": "ItemName"
   },
@@ -444,8 +1173,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.WaterTrailerTankLid1",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365536Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316893Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "f4e3c2e2ecade99d6e510e0bd375475a",
     "output_file_stem": "ItemName"
   },
@@ -453,8 +1182,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.WaterTrailerTankLid2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365540Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316896Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "abf2e811175024725faec7ec51b8433e",
     "output_file_stem": "ItemName"
   },
@@ -462,8 +1191,8 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.WaterTrailerTankPump1",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365546Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316901Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "7ee0e4148a68e2835d61978175f6ccb3",
     "output_file_stem": "ItemName"
   },
@@ -471,17 +1200,287 @@
     "mod_id": "3776875714",
     "translation_key": "RotatorsB42.WaterTrailerTankPump2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365549Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4316904Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "17665dd4fc19caccf205d84105e8550f",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316908Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "e86f82bb0fd255696c0e2451b5960cac",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_DrinkHarmful",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316914Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "e0020030de9606a3ead9d08b52a03a42",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_DrinkHarmful_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316919Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "485e63d807a939068a725666c142f476",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_HitchedRefuel",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316925Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "55c4252763a0d6a47455f3bf56c6b7e5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_HitchedRefuel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316932Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "6a1efd6bc2fcf43a5b96302eaada8650",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_MountedHandContainers",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316936Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "60fbd353a0edb2f3bf2685a22b1f6e5f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_MountedHandContainers_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316939Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "6cb97755cc7426f46e71f189e0a0180d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_PumpsEnabled",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316944Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "5af136f131f72ddccd5a22998b457c25",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_PumpsEnabled_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316948Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "4059329ddbce40379e6adb4cb0bb5beb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_ServiceOverride",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316952Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "723cbf420bf67499d1d134232a1bd0c3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_ServiceOverride_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316957Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "2e504958a1ca5f20e3c955c08d794158",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_SpawnFlavor",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316962Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "23747f6d6ac346ff4df44e08416b7ac6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_SpawnFlavor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316966Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "f38ff984f30ed5f52c806832dc11bf80",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_SpawnMixLarge",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316971Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "786c076520cc05f097b3b2ac61bb605c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_SpawnMixLarge_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316975Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "6e6f4c02c60426ac1adfe81f172fff0d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_SpawnMixMedium",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316979Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "b37b14464bc23e392c8587c3c1dffbf4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_SpawnMixMedium_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316982Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "2a33804a74445efdd79fa3ee16512c45",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_SpawnMixSmall",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316986Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "d62fc1d773e8460ad0ee45291207f29d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_SpawnMixSmall_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316991Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "08c4f1f978f3ae5c7b29aeb2c0ff9871",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_SpawnOrigin",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4316997Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "edd0530145ce2a8d3f3dede3b86a8b89",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_SpawnOrigin_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4317000Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "71c314266e5ffdf9e7ce778656b3fa51",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_TankCleaning",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4317005Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "b660e8c4e921cea48e121418daa249d0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_TankCleaning_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4317009Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "840605dcbb7b510a91899d537bbfdd90",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_TankCleanings_option1",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4317012Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "fe1833df86613cb4a824592c95750b88",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_TankCleanings_option2",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4317015Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "9cebce5553f6212792cced1bcff21523",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_TankCleanings_option3",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4317018Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "34cdb847f51b4696b864fe69a10a4861",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_TransferRange",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4317021Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "900b1a16683aabcd21fdafa58bf1332d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_TransferRange_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4317026Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "7b7d182a9a0a192370a339b5fb935f10",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_VanillaRules",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4317032Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "cfa0482b58cd16f0c95faed1445a8452",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
+    "translation_key": "Sandbox_VFluidLib_VanillaRules_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4317035Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
+    "source_hash": "347f7e17e35b3ab8aa2fefc71ba2f5d7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3776875714",
     "translation_key": "Tooltip_item_DrinkableWater",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365553Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4317040Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "fb0e3bb548aa030dab306622f363df2d",
     "output_file_stem": "Tooltip"
   },
@@ -489,8 +1488,8 @@
     "mod_id": "3776875714",
     "translation_key": "Tooltip_item_WaterTrailerTankFilter",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1365557Z",
-    "last_seen_mod_updated": "2026-08-08T18:27:44.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4317043Z",
+    "last_seen_mod_updated": "2026-09-03T21:31:21.0000000Z",
     "source_hash": "936a638481111935c3e1c04ddebf2728",
     "output_file_stem": "Tooltip"
   }

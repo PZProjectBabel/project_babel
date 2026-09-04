@@ -1,0 +1,6 @@
+Sandbox_SBFPlus::en = "Simple Belt Flashlight+",
+Sandbox_SBFPlus::zh-hans::processed::unverified = "简单腰带手电筒+",
+Sandbox_SBFPlus_DebugLogging::en = "Enable multiplayer diagnostic logging",
+Sandbox_SBFPlus_DebugLogging::zh-hans::processed::unverified = "启用多人游戏诊断日志",
+Sandbox_SBFPlus_DebugLogging_tooltip::en = "Writes passive flashlight attachment and light-state diagnostics to console.txt. Disabled by default. It does not send extra network packets, change items, or record player names. Enable only while reproducing a multiplayer light-visibility issue.",
+Sandbox_SBFPlus_DebugLogging_tooltip::zh-hans::processed::unverified = "将被动手电筒附件和光源状态诊断写入 console.txt. 默认禁用. 它不会发送额外网络数据包, 更改物品, 或记录玩家名称. 仅在复现多人游戏中手电筒可见性问题时启用.",

@@ -1,0 +1,578 @@
+[
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWAcrophobic",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "42f2fa792d358e097330364584484ccc",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWAcrophobic_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "a032221f3df54f09659ce549fbd08837",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWAdaptiveMetabolism",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "cc3958597794eff25d532bc7d11b2b39",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWAdaptiveMetabolism_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "6d73cb2e247c138be99ace52c7c4d20c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWBouncer",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "4eb77a93a22ffd97c507dceacdea7887",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWBouncer_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "6b63863154a54966406e1711767c9de1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWBrittle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "eb50b6fd059710a151ae72666f8f044e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWBrittle_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "2a06a2f4d7352c9f2754eba30657422d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWColdSensitive",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "bc93a7d89c41cc70f747cc005186f7ef",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWColdSensitive_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "2abf4e7667b5c5b39c16c7cbc67b68d2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWCompanion",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "89f200e802bde5c55a6af86ef27ffef8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWCompanion_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "106cf1cf66e54f0daf4b771af2363ef1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWCompetitiveEater",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "cb654d4454e69cf6cb9618a96e03d454",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWCompetitiveEater_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "eaa4bddcb7d9a89bb3e67567d72da1e6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWCouchDweller",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "c551de7d4af6e48740c81b18091a8ec0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWCouchDweller_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "326bb15afb8002b75ccf8b9e802f4fd0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWDrunkard",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "1d517f48e391f9f02c4d0e4589a2421c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWDrunkard_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "c7b9ef331e1b0f40c04c4ad60dde8f25",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWFlailer",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "915abb6788992785e0675ee2c820a047",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWFlailer_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "2681fec701606fb77a540e8ce6198870",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWFlatEarther",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "148336bc063de904d3b30f2bdfc90023",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWFlatEarther_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "6160948ceb24bf1fe30455ac984c152d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWFlimsy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "cc68ee8680cd9bba6d1bbe4917d27553",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWFlimsy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "68d020b7dd51647cf8228efc99fe81bd",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWHeatSensitive",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "c71824614e51abb4353bfcfd393e6abf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWHeatSensitive_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "644d4cc4de860131734ccb9ddd1ff5ee",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWImmuneResponse",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "cb305ebd16af05f2e6be3364a89f4875",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWImmuneResponse_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "cd2fd9a47d71e14d90792009b15978a3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWInjured",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "1166a20183830ff44eaa42a38a751d4f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWInjured_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "dba517e39f81cd927611a4a845186ea7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWIronLiver",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "6910b18cabd025bd992de626af4a8506",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWIronLiver_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "830b7e2bed0ff6703551a8c13d721cca",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWLuddite",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "a39eec609cf3b53c0cc05f6ca2695911",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWLuddite_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "4d4717758064b57a6999e6a778a20f5a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWLurcher",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "424849fd5578bae91d73399cb0b02272",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWLurcher_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "6d34d41c73b0d5f366ba7519a57c51c3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWManiac",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "fbbaa5534f3e1c352be0fe8c73dcd5f6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWManiac_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "6178309612f30d8aa5996788bc740ef4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWOneTrickPony",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "35aed15e86d08c4a427333806b0af025",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWOneTrickPony_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "2e98ffeb9b669401316f7bf0373efc7b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWPacer",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "6e5e5efc9e56131829740565bbca1c79",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWPacer_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "e33a686b8dcd5655b88ad6bfae174353",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWParamedic",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "efe3e96a6a00e04b0e4d18ab6724b35d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWParamedic_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "d951bf64576cbd63824e0c4d37fef089",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWPitCrew",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "cce86dcb40a3964f59ed9dc12788175d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWPitCrew_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "dc3681ca6686d288ee2a90b234bb4c52",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWProductive",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "d79ceecc3f3f6a46f53e96a8e6d6092e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWProductive_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "d992d7333612a56de1e67e99d09724b8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWRavenous",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "fc10dd1057747b530f17acaa43045bbc",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWRavenous_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "3ad3b3b2ec1e118162c98c1fa6e8b3eb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWScaredycat",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "d6a8d1aba01e48e2d19a2fdae9e29aad",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWScaredycat_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "c881659cd1260d94cbb15a5eac97de72",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWSloth",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "a144d8ef4301a73425d549e4ccd70752",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWSloth_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "0a747dbb0f6d00dfda9d43dcd3ccb401",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWSprintDemon",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "767547d45a9564260fa9bf003724f5af",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWSprintDemon_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "85848a60ad72d5043ec1035d0c0d305b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWSquirrel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "732ff06ba5fceb430af8d9dea060e859",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWSquirrel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "e0ba8b8a6c397cbdc8ae30e0a9f2581f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWSundayRunner",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "2c0a58f93a6b5db78dea027a1b985396",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWSundayRunner_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "224652d26c0f38fd29c6d0876fd8c921",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWTrekker",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "84fbf0fa88b494eb7edc198eb5e35737",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWTrekker_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "d84dd2465bdc207e21cf72b3df2ba57b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWVehophobic",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "ad3d01e95abae1f0c8bcdd7b67b94ab4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3773770389",
+    "translation_key": "Sandbox_BCR_Addon_Enable_SWVehophobic_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-07-29T08:27:36.0000000Z",
+    "source_hash": "d3e73fa3bae4c6b75f079f0caa0d2503",
+    "output_file_stem": "Sandbox"
+  }
+]

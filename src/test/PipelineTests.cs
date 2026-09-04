@@ -363,6 +363,7 @@ public class ConfigReaderTests
               "LLM": {
                 "api_endpoint": "https://test.example.com/chat/completions",
                 "model": "test-model",
+                "reasoning_effort": "low",
                 "temperature": 0.1,
                 "max_tokens": 1000,
                 "batch_size": 10,
@@ -413,6 +414,7 @@ public class ConfigReaderTests
 
             Assert.False(config.contentCheckEnabled);
             Assert.Equal(42, config.contentCheckIntervalDays);
+            Assert.Equal("low", config.llmReasoningEffort);
             Assert.Equal(3, config.llmConcurrencyInitial);
             Assert.Equal(9, config.llmConcurrencyMaximum);
             Assert.Equal(2, config.llmConcurrencyMinimum);
@@ -1165,6 +1167,11 @@ public class ContentCheckerTests
             Assert.True(modInfo["1"].timeNextContentCheck > DateTime.UtcNow);
             Assert.Equal(1, handler.RequestCount);
             Assert.Contains("\"model\":\"deepseek-v4-flash\"", handler.LastRequestBody);
+            using (var request = JsonDocument.Parse(handler.LastRequestBody))
+            {
+                Assert.Equal("low", request.RootElement.GetProperty("reasoning_effort").GetString());
+                Assert.Equal("enabled", request.RootElement.GetProperty("thinking").GetProperty("type").GetString());
+            }
             Assert.Contains("Key_0", handler.LastRequestBody);
             Assert.Contains("hello", handler.LastRequestBody);
             Assert.True(File.Exists(Path.Combine(config.contentCheckingPromptsTempDir, "1", "content_review_prompt.json")));
@@ -1779,6 +1786,7 @@ public class PlaceholderServiceTests
     public async Task LlmTranslator_ShouldParseTabSeparatedOutput()
     {
         var config = TestConfig.Create();
+        config.llmModel = "deepseek-v4-flash";
         config.llmConcurrencyMaxRetries = 0;
         var entries = TestTranslations.Entries("hello");
         var batch = new TranslationBatch
@@ -1800,6 +1808,9 @@ public class PlaceholderServiceTests
         Assert.Equal(0, result.warningCount);
         Assert.Equal("你好", entries["1::Key_0"].translationValues["zh-hans"].text);
         Assert.DoesNotContain("\"response_format\"", handler.LastRequestBody);
+        using var request = JsonDocument.Parse(handler.LastRequestBody);
+        Assert.Equal("low", request.RootElement.GetProperty("reasoning_effort").GetString());
+        Assert.Equal("enabled", request.RootElement.GetProperty("thinking").GetProperty("type").GetString());
     }
 
     [Fact]

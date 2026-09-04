@@ -1,0 +1,3 @@
+Sandbox_VVisibleSpeedReload::en = "V'isible Speed Reload - Hardcore",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick::en = "Visible Drop Multiplayer Visual Tick Buffer",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick_tooltip::en = "Controls how many client visual ticks are skipped between multiplayer magazine fall-position updates. 0 is smoothest; higher values reduce visual update frequency.",

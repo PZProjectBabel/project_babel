@@ -1,0 +1,6 @@
+Sandbox_SBFPlus::en = "Simple Belt Flashlight+",
+Sandbox_SBFPlus::ja::processed::unverified = "シンプルベルトフラッシュライト+",
+Sandbox_SBFPlus_DebugLogging::en = "Enable multiplayer diagnostic logging",
+Sandbox_SBFPlus_DebugLogging::ja::processed::unverified = "マルチプレイヤー診断ログを有効にする",
+Sandbox_SBFPlus_DebugLogging_tooltip::en = "Writes passive flashlight attachment and light-state diagnostics to console.txt. Disabled by default. It does not send extra network packets, change items, or record player names. Enable only while reproducing a multiplayer light-visibility issue.",
+Sandbox_SBFPlus_DebugLogging_tooltip::ja::processed::unverified = "コンソール.txtに、パッシブなフラッシュライト装着状態とライト状態の診断情報を書き込みます。デフォルトでは無効です。追加のネットワークパケットを送信したり、アイテムを変更したり、プレイヤー名を記録したりしません。マルチプレイヤーでのライト視認性の問題を再現している間のみ有効にしてください。",

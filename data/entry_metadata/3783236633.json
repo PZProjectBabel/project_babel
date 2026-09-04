@@ -3,8 +3,8 @@
     "mod_id": "3783236633",
     "translation_key": "UI_SW_Crawling",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-21T19:18:12.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3201858Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
     "source_hash": "dd1ba54b9de783b3f5ecfe3d346742dd",
     "output_file_stem": "UI"
   },
@@ -12,8 +12,8 @@
     "mod_id": "3783236633",
     "translation_key": "UI_SW_Down",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-21T19:18:12.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3201864Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
     "source_hash": "1d7b0d3d2a50fd6ef998ed200b70fb8c",
     "output_file_stem": "UI"
   },
@@ -21,8 +21,8 @@
     "mod_id": "3783236633",
     "translation_key": "UI_SW_ModName",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-21T19:18:12.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3201870Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
     "source_hash": "f01da9a1560938e80318bd118bed3f9a",
     "output_file_stem": "UI"
   },
@@ -30,26 +30,44 @@
     "mod_id": "3783236633",
     "translation_key": "UI_SW_Opt_Alpha",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-21T19:18:12.0000000Z",
-    "source_hash": "935d0e7f89bdc43b88c80100fd4a2576",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "c12e9813c41ce7f97d63544b57ac1671",
     "output_file_stem": "UI"
   },
   {
     "mod_id": "3783236633",
     "translation_key": "UI_SW_Opt_Alpha_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-21T19:18:12.0000000Z",
-    "source_hash": "bdda3409699bc2a9ca9df966d8153f96",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "391b8d2cc4c8af3e0d8c8330d66cec84",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3783236633",
+    "translation_key": "UI_SW_Opt_AnimalSize",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "476b4d99ac65eba41d782f9d14af927e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3783236633",
+    "translation_key": "UI_SW_Opt_AnimalSize_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "459b07e65f66135aef78e10793aa28d3",
     "output_file_stem": "UI"
   },
   {
     "mod_id": "3783236633",
     "translation_key": "UI_SW_Opt_Enabled",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-21T19:18:12.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3201880Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
     "source_hash": "12abcf7b8a3436b59dec8cf5e123753b",
     "output_file_stem": "UI"
   },
@@ -57,35 +75,35 @@
     "mod_id": "3783236633",
     "translation_key": "UI_SW_Opt_Enabled_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-21T19:18:12.0000000Z",
-    "source_hash": "e3da2e71eb3a518ff85e1c6a04aa76e3",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "4712f47da10d0b8cafd4c94d176f426d",
     "output_file_stem": "UI"
   },
   {
     "mod_id": "3783236633",
     "translation_key": "UI_SW_Opt_FigureSize",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-21T19:18:12.0000000Z",
-    "source_hash": "f61bb6f733bc3a03fac0a6845a796fc0",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "4ba5265fc964325cab1ec9748882f0d3",
     "output_file_stem": "UI"
   },
   {
     "mod_id": "3783236633",
     "translation_key": "UI_SW_Opt_FigureSize_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-21T19:18:12.0000000Z",
-    "source_hash": "6370a7793be01a9123b7d61cbc38cc4d",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "3e96db6b6a1da005f92ec2705ee7548d",
     "output_file_stem": "UI"
   },
   {
     "mod_id": "3783236633",
     "translation_key": "UI_SW_Opt_Range",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-21T19:18:12.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3201895Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
     "source_hash": "3a138e4613b1882f73cea4f850c773c5",
     "output_file_stem": "UI"
   },
@@ -93,9 +111,63 @@
     "mod_id": "3783236633",
     "translation_key": "UI_SW_Opt_Range_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-21T19:18:12.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3201900Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
     "source_hash": "c015ce25cd3b4355887074d82bf35600",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3783236633",
+    "translation_key": "UI_SW_Opt_ShowAnimals",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "7270bbdf8d6c0447f82ea7d63724943e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3783236633",
+    "translation_key": "UI_SW_Opt_ShowAnimals_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "bd0a00ad380073e1d30415b5b9069d8a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3783236633",
+    "translation_key": "UI_SW_Opt_ShowUnknown",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "97ad6bc410b49ecfd460a2c7b5482800",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3783236633",
+    "translation_key": "UI_SW_Opt_ShowUnknown_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "00684ccc8397f318d6fe6ef0dad7280d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3783236633",
+    "translation_key": "UI_SW_Opt_UnknownSize",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "c1ce48a6ab19dfd6f6f4e454fb2c7c91",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3783236633",
+    "translation_key": "UI_SW_Opt_UnknownSize_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T16:53:34.0000000Z",
+    "source_hash": "c28aad7fa732842b7af64ccf3dcf27da",
     "output_file_stem": "UI"
   }
 ]

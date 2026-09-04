@@ -1,0 +1,6 @@
+UI_HCTS_OptAutoWalkIcon::en = "Show an auto-walk icon above the character",
+UI_HCTS_OptAutoWalkIcon_TT::en = "Shows the vanilla auto-walk icon above the character while auto-walk is on, whichever way it was turned on (double-tap or the radial menu).",
+UI_HCTS_OptHideContextSit::en = "Hide \"Sit on ground\" in the right-click menu",
+UI_HCTS_OptHideContextSit_TT::en = "Removes the vanilla \"Sit on ground\" entry from the right-click menu. Sitting by holding the Crouch key keeps working.",
+UI_HCTS_OptHoldMs::en = "Hold threshold (ms)",
+UI_HCTS_OptHoldMs_TT::en = "How long the Crouch key must be held to sit / stand. On a controller the effective minimum is 400ms.",

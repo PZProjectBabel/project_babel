@@ -1,1560 +1,3243 @@
 [
   {
     "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "e9f83323c4f524d0780da4e6e2184840",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableClean",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "c5ee2551643623296b12252c4785cf3c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableClean_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "79a510b9dbdd5ce99e8a946639970ec6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableCook",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ad759fa37a8fd07721dc4390ce2ae423",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableCook_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8fdcfe53f665d56ac36aba356061e2d5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableDismantle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d67d276d456168de1ce612f6650af158",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableDismantle_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0fdceb3d26193d9d9b429895e8ebff4e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableExercise",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "34efbce2a87d80cb96291bd77be149de",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableExercise_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f9eb3d71ea810c8dc7dd2a8bf419ea33",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableMechanics",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "aa31170249c51e13e102c8c5f1493575",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableMechanics_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8d4dbe3a15681c1f0fbebda4a9de168d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableMedicine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "482e3932648adeb622f1b49d8f97ddd0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableMedicine_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "2b8c8d735fa894f87ffc8615e453efb1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableOpen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "21564efd72014fbd9d153a6c6be55ed8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableOpen_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "b25b1ad2a3192f7ece36d193c695eef5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableRead",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ddef5a70cc3a81129abab0b11b99f312",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableRead_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "843f900c674339d9222638159ba32af1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableReload",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0474d63f70dfb6f884684ce08eb68bce",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableReload_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d8db08b31f6d56683d89e251f49bb05e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableRepair",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8c4186e86d322ba9c41e67b5a9f089fa",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableRepair_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ba0e30ab15b46ea9afc9b5cbf7b4c931",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableRip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "680cd5d699897d0bf4e18092e0c99511",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableRip_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fceef9f5ff1a424253230d1aa30f5568",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableSterilize",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "b2e79e2bdac64d780134351e55bfcb3c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableSterilize_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f8213c21fbaeb7f6c28b37ac154a28e7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableTailoring",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "7d5ba04ac2afb8904544c682e3b7988c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableTailoring_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0674cae25a493868a472e6458b4badb9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableVHS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "4520e9ac2413e3e9b0c32038371bd558",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "Sandbox_AutoAll_EnableVHS_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "71364f25c677c63e16633f9cec7d0a93",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777237134",
     "translation_key": "UI_AA_ModName",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113541Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "48a6d5e985db592aa48f77939029866d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_done",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113552Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "78f5fabb26fd9a25121eeb5728b63142",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_dry",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113557Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "2f64e75810d5f85cc950c688894ae135",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_natural_note",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
-    "source_hash": "dc3f29f94370d799b2ad591405623bc7",
-    "output_file_stem": null
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f5118da8b8ce88e373a56b12db740f5d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_no_soap",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113565Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "3471f634757e1cc274d5affa9db6f31f",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_no_water",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113571Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "59840f7493148d5d1971f3131b5769ae",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_nothing",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113574Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "268a704c678eec944ad64195e6a3e0ed",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_option",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113578Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "c42b84e8e466d3fd78e12caaac98a1f4",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_started",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113584Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "04b640fcfb82823a6d5916535206760d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_stop",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113588Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "995fe917b70126ba5eb167dd8b2ca62f",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_unreachable",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113592Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "d5861db495ae583bd9befce40526679d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_with_soap",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113597Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "8cd07cec8978e93e280092f86c788bf5",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_with_soap_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113601Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "570ed15d0d0215fa927641ed932b0780",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_without_soap",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113607Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "b3c785212eb39d6ba534f73028985211",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_clean_without_soap_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113611Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "04f0a0ff886723f7e35dfed2c34523b6",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_adding",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113617Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "f6989ff2089a76573fb67c29cc54ff70",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_done",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113622Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "79cf122ac5636f27c5e75b5eae2f1c85",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_interrupted",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113627Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "4e0d97b47b4cfb4f13aa4fbf1bcfa521",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_noingredients",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113634Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "e4216467b9d5c27d9ac78494a185dab3",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_norecipes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "7aca33f9a0080d98049114a32e2c67fa",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_option",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113638Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "89d70aa73facfd31bfef070b78307560",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_option_hidden",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "929b02a47e4d1718456d9e6d57daa027",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_option_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113643Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "7e11f4a0976fd08a9475c2d403d3b40e",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_return_failed",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113647Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "a04744b2f05bd6b843ad6df0ee6ee81f",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_setup",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "34a8910c42f64392ace92455609691a8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_setup_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0f55336d737fdd6f450d3ff54d1ae930",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_size_auto",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fc5b8e5454b7ee716583bad3e227a306",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_skilled",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113652Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "c0b2c3e10f8ab90f93b1070112ea13a1",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_started",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113657Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "61ea9cb0a53d92a3ed56eae4867402f3",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_cook_stop",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113667Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "c58586d48fa36a23547cee038f1bc17d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_auto",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d62a2729ec19e296b672d261c88be7b8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_cancel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "51c75810d11197bfb19f923806a6e415",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_dish",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "9b8495d406abdaa418be833bd2d2deaa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_forget",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1d6fe3024ec275de83c843e44ab868e0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_goal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "b165ff448126be933eac9dcd68d2b9ff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_hint",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "adcc0c492262af02243327572d80ed58",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_load",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0a6f839075b939331ba99738ed5d9d77",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_nosaved",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "aea55483e56a64879c0a7001507687f9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_save",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "6166ea7f4c3608523e2ce87d7b50f52a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_saved",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ff843e143c5cbc46ee5e6ff7b27beecb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_size",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "14716fa71488cc34ae75ddf4d4ea6700",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_skip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "2328a892e649c175bdb63c84555c18e2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_start",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "58593cc6b82429e72a7ba714b6efaf88",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_title",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0d0ed9992b52274c1bf55b64ecd788df",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_cook_ui_use",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "30da11ce1c34a2c5a8d1029120530452",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_discord_copied",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "21cde9e22ab7e05faa2f3ee026ba9500",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_discord_copy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "db92fb9e58f18ba41a741604a114881d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_discord_copybtn",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0c830b0c7fa96ef3d770ed27041a58d5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_dismantle_blocked",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1992f00c1abf8fc97de3b824964d1ca3",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_done",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113672Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "e7cf6b91d0d4b5477b00225b655c8044",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_inuse",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113677Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "1c67ab107e9ffe2d3b6f3ecc1b4be614",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_keeping",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113684Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "8f8e764193cb5517d47f3edfb741120c",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_dismantle_label_all",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8216bdc72c541313a0d3a05b01d199ea",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_nothing",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113689Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "7a0f6e4d1706e57883aeff14c85b1b20",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_notool",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113692Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "9fa281ae2c90857ec954d1f15dcb1f96",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_option",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113697Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "a18c419bfd78f6fad32204984d448a27",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_dismantle_option_all",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ed3778752d44fa82b4a65256f337c6b5",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_option_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113703Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "0a5cc22a875e43e154de01aae0313bcf",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_started",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113707Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "7a8621f3ef3dfb59226e9d9f8958de69",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_stop",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113710Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "f5d78048e3ef9156cdb249e7b8ed698e",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_dismantle_working",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113715Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "fd2289f1752d4c5d55c0154508d0407d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_fabric_any",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113720Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "2bd61dd98ae6390d5ba5e398f560c665",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_fabric_denim",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113725Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "45b3d63e4333ed6d4eef7d01a962cecb",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_fabric_leather",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113731Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "87ab4b56148c47c4743451a366a13bff",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_fabric_sheets",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113735Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "587fa3e45c049b69faee0877416a2d28",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_goal_slim",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "3bad0a47580ec1e7373701c4046411e5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_disposable",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "891f532ea0d7b4cc851902587cffc950",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_done",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "143fef68e5a9c65e8d45ed26cdddb81f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_inside",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "afe121c28bfe667ca69e47f8858d3753",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_left_off",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "797f8bb34f061d1dbfafeba5559f4e4c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_level",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "26f405c7e60d5893eb24b019450a330c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_might_break",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "dcd1826aa136f8bab10adc293e9b0d47",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_minchance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "42072667c5ad6cf4f44f4a1910d4a182",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_needs",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "619008f6e317e4aaf18bf2da0eccab4a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_nokey",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "56a102cb68da2f7b6b847ba00a2f26dd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_nothing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "c28436259607ac8926d0a1ecbd21fea5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_novehicle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "9f383c8937a4c8dda0b3c55031b8da2f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_parts_safe",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "b0bf818c8630c2460712640c0d30584e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_recipes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "115b4061ab4cb3c7836cceebc10c1c1c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_seats",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "c39153480712075ca4b59520ea147b16",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_skipping",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "15864a05f225f9a227cd24655aec90b3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_started",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "947219cda1db4a71bcf72d03fd25e1bf",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_stop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "87a6b21cfd44e0f43fca029ad9616b3b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_stuck",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "521966023e6d945109ad54a92de3b8ba",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_toofar",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "b2fd5d6bf26a719409607b93d77748ed",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_train",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ca04dcfefee8fc913ec5abb916aa34b9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_mech_will_break",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "111fc1f496075d3d3529162b7af9fed4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_med_done",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "41f646f5ce1264d9193101b27fd35ab0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_med_nosupplies",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f2a3944259470802032d0525121e3c7f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_med_nothing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "2df942fd8db85d996b519e9cb6894521",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_med_option",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "c2f6bc6c7d9dfc6e758cb3494ddc182b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_med_option_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0bf4ed80230aca7e1e642f3e1752e0d9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_med_started",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d8a1d69684811a673631c7f593923eb7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_med_stop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1f23dfa1ab0870e6cf9ecf90f8807c1b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_med_stuck",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "35dff8db08dfd61558a4a4aafdedd770",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_notify_halo",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113739Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "8f3aa7add3c21c94a9056384feb486ed",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_notify_off",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113744Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "0fdd6ac5f2945c58eb62b442a5dbee4e",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_notify_say",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113748Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "a8afcda1ad558276f84dd3b1b5415632",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_open_done",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "080ef55b7fb3747dc45bb1a68bf0c709",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_open_label_all",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "9b3756e77fe1cde2c66254e57105b965",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_open_nothing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "32a89fa6a43021f32ae91b004ba8b04d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_open_notool",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "7cc89a93f5f4acf7d88b71a32307be19",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_open_option",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fef810c9a0c46253f64d821e84819262",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_open_option_all",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "7382e84cbe511a0b8d803a05ab3d2e97",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_open_option_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f6246db102a40f1aacd7e8d1d76275e0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_open_started",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "bec8d36f50203ffd9d480ccc0ff56d78",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_open_stop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "c70befc16f6cc076892ac8e1a69a10dc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_open_working",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8b812194cdcaf79d2b9d9d3a2d99ae51",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_advanced_btn",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f3b6c439bce128485306b65993c059dc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_advanced_title",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "5d6c5db1205ec034fb9dc8b739d6fc66",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cleanSelf",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113753Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "e4e8843f069accf5656671d09e48ef92",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cleanSelf_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113757Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "d12a1bb78858956afbb708292d6180a4",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cleanWring",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113763Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "8b60afab16eb8512307174fa1b42cbc5",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cleanWring_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113766Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "b53b350424a1e9480df9edcd03553f2d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookBadFromLevel",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113770Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "9d0031341169b970e70cce804635c58e",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookBadFromLevel_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113777Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "fd081795c1e7ba66465bf2d33f59bf0b",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookMaxIngredients",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113781Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "d745d4403e605140b1b905c16764636c",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookMaxIngredients_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113786Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "9bf5af69ce5f452ce238d8fec0c1f25b",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookPriority",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113790Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "74976f049b4b492adf55ba2460a6a162",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookPriority_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113794Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "b06c03f5f4957c781962a35ddff82f83",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookReturnItems",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113799Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "fb1ee190e2ee5fa6ac80b57f5c8f9d72",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookReturnItems_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113804Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "179e40a3735d0e78a103dade0facec5c",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSameTypeMax",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113809Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "0659a57eb557df9160997d75120f129f",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSameTypeMax_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113813Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "e7ea2e64134f603dab28abef89e80f46",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipFavorite",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113818Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "5b12c52fcbf4557547aa47b65bcb39eb",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipFavorite_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113822Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "f8092dcda220977c51c33b7958e77c55",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipPoison",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113827Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "8053833b1ef39dfae5ed881e6b77880c",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipPoison_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113831Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "bf1ac9210fb0dfcd5673716a8674da94",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipRotten",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113836Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "0ace412e03c576726492171581c8462f",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipRotten_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113840Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "1403b9f3eb573443bf05571167aec260",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipUnhappy",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113844Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "8bdbbbd9a718d320e5c94faee4ad4562",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSkipUnhappy_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113850Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "7dfcbb371a2926423da58a21adc9a870",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSpiceMax",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113856Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "c084f5d4c17659957c06c4fed5d59d54",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSpiceMax_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113860Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "9b60b7bc5cfcf9b4907daac67d9a4620",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSpices",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113864Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "6145b84e3b8633639da73a6aa6b03621",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_cookSpices_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113868Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "a563c7b8b9617b865f585f4132efa267",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_cookSpoilFirst",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "b69607dc8373ec17e1fe6ddabdddcf9d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_cookSpoilFirst_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d2f24ddac70d788e62f1c153d0c2b42a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_discord_btn",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "41c97c6df82ca9463b25b10f6fdd3a10",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_discord_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "61ba06d95fb2eac0702a612c78dc6421",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_discord_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "51eb5bc3b39baf506e27d0f34ec83308",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleMax",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113872Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "3d50c442af454269095daf3e5c2e41f9",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleMax_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113878Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "50d06630a14b3d2ff503c91d439d0a10",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleResultsToSource",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113883Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "1e7fb53ecf9ad06453dc0a9b3dfe26b7",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleResultsToSource_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113888Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "ac9ac3250908f22f18b522db732c553a",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleReturnItems",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113892Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "d5939d68c266fb357c933025cba5a5a9",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_dismantleReturnItems_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113898Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "048670e8e49db52b0a78adfc4d4237f9",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableClean",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "998ba518c115ac6e293c79bfe1f4fa31",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableCook",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "4c27ee55c29bf7a783ac44cfb8c81bfe",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableDismantle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "4ee39554b526de3ad97e78485169d0d6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableExercise",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d9d9e035b77e4b50b6f5af9740f917df",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableMechanics",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "88f6aa3159da63d80fd36af73b12d50e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableMedicine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "e58c8c17ddea4146f7a9bfb5833f7838",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableOpen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ab85516c4c88630d184b333aca886b1b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableRead",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "194a77539295b4d5a42227c14254703b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableReload",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "c90f251dd377b7a04fcc28a5de96d162",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableRepair",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "99c4fd13304ab7674efdb99816254a7f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableRip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "04e08f69bf1430ac5165317b19cdda55",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableSterilize",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1a320a9d7f0c23683de0d2d538be5bfd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableTailoring",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "b820d9da6674b292c334d7055520252f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_enableVHS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "16d1e904bf092edb4e08385d671b4b1e",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_fastForward",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113902Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "0d7a99b200e08c3834391072fdf948b5",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_fastForward_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
-    "source_hash": "a27bfea70a76cdba260eb7affce898bc",
-    "output_file_stem": null
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "995d497a4884445e95082631e64c0377",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_mechFailSound",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "62db60344e178507e4e49ea2e27beaba",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_mechFailSound_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ba5e9de43bcb13be8472e1bd604118cf",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_mechMax",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "e68a0b4e0cebcf5a4d0a607e02161317",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_mechMax_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f9b5eb930689871ec43d090741ec506d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_mechMinSuccess",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "5b0af4248af3fc8507be7dada7e59f5c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_mechMinSuccess_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "32fa68a5985ea8badbbb72cc0ddfca8c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_medDisinfect",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "7526813015ef219a9ccd6b182992b0b0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_medDisinfect_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "6245c5c7d207fe5f46cd796b245c2ac2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_modules_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "9129a426c36a804e893a86475c4cbd7b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_modules_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "6f5a8ba496b4d28ad4c61a0c52053c9a",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_notify",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113909Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "32524be0a83cb68c6fc88832331884f0",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_notifyEvery",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113914Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "850b57841ffeb6c34c91c83cde9f1d5f",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_notifyEvery_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113920Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "b9873283f578990e35a8c08a1fceaf07",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_notify_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113925Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "688c3eea8ee4bc96654a3ca50c32aa5b",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_openMax",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "4393533fb2696e142ff6193381b0fb11",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_openMax_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "a718f34cfa4551f2107fa3f3e5e22b82",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_openResultsToSource",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "2929f0d28ff57a1cc382b813464242d6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_openResultsToSource_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1ef39958c057999d8e34c655e057934f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_openReturnItems",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fcac7449b8505f3c969a023361283b5b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_openReturnItems_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0798454e4a3ae768b9d108687ec24853",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readMagazines",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113930Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "1abec305027a272a1813c93b70ca7ecf",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readMagazines_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113935Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "0b26c844c3e6a4861bf571dffa9a2cba",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readMaxBooks",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113939Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "4cab66d717f1c325b90d0be0350dc451",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readMaxBooks_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113942Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "3198ba5a78f24b7f480cf6eb21966859",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readNearby",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113948Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "7ea836c58703754a7471d90ab5a8371e",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readNearby_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113953Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "f1469a38f458184128e2ba623fc9c663",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readReturnItems",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113956Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "43ed8663771922ff3d7d765c52234077",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readReturnItems_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113960Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "b35477e820c56ac2472ef7003933b0db",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readSkillBooks",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113968Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "4c42f857b0286a627ce00494024b0bfd",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_readSkillBooks_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113971Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "730fc7c588532ba28b81712302722115",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_reloadMaxCycles",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113976Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "ec5b5c7e11dc02a65c2236477954a07d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_reloadMaxCycles_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113980Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "3e111561b7acfcd478586fba17612131",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_ripMax",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "5dc6eb26fe9e23c41e4b584c0e572567",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_ripMax_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "5259ede95757cbc91b1919c75d7d9d6d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_ripResultsToSource",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "76e456df6b52c3d0b8e23e4d6ac28485",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_ripResultsToSource_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "6261797c28b10b081c3cd06365b24222",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_ripReturnItems",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "3ec5de4c7c2b3d966dcef0ca49ed6fa0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_ripReturnItems_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8ab9e4d7420c9758cc879b0a1fc8b5c2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_ripSkipFavorite",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "26f65341ee98faa7d9544955f178a5fe",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_ripSkipFavorite_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0d4d0b475d99805832295dbc4e518bb2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_showTab",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "5baba7517390904391c48998d131a00b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_showTab_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "64fc8b04424be74d0dfceba4f4647cad",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_sterilReturnItems",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113985Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "6c4b689e8fc856e22ea9e189804ab105",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_sterilReturnItems_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113990Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "91ce5d2a1969911cc13d7d9bba05e377",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopDamage",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113994Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "8c1b97725d36fe24e16477db6a035c63",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopDamage_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3113998Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "86ae650006b5ff18fdcdeb38befb2927",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnAim",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114003Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "acb5620c8ddf27a1db77aa5ce297f81e",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnAim_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114006Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "44656cec4b8303f6e7a2e3345f6bc742",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnEsc",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114011Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "7651da51fc949d7c1a9b19aeb74a01fa",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnEsc_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114015Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "8780144cba1578c3ef5fbffce1ebb500",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnMove",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114020Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "78290b81a485f43a2424ea83c1b3148d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopOnMove_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114025Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "d3fe841637e87b99b5faa6c9fe7299d6",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopZombie",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114029Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "09589a28f52cbbf6ed427b1a8ea8babc",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_stopZombie_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114035Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "f79704dd7296ae76e1ee1e8ecaa4d33d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorFabric",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114038Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "4c1ecd248083cf2955f95c6c13917a3f",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorFabric_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114043Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "006b0f6f793060cb0afc1f2c42801784",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorHolesFirst",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114047Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "f9397487bb2edb4e40e13dbd8edfc290",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorHolesFirst_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114050Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "037fbc5958bddc5f7152f967cf8f6bd2",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorMaxCycles",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114055Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "017583e8701f994e27729cdcf4223177",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_tailorMaxCycles_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114060Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "2b1d23204e7ae4d7df790d733ed2088e",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleClean",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114065Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "4d1e9b14b7e4692e7c2fc9dd6800921a",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_titleCommunity",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0e4c0d01461e1be17507e58a62d92e64",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleCook",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114071Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "d88a6dfa4b4532985fffdfccd0930e70",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleDismantle",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114075Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "bd7b1ac6993778195ea4f21aba6e7535",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_titleMech",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "42994487f5456f6041bd995879afb73b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_titleMed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "77a8b21f43b440cf1671edf3f227f4ac",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleMisc",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114079Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "eaf515dda1433ac60bc80ed731a7f714",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_titleModules",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "b41b61e5f86f1ccb941be7aa9529ae81",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_titleOpen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "00d0e862f93209abc3a8138f4d3c4118",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleRead",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114083Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "edd523dda7ef95ec8cf5247f805ba50b",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleReload",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114087Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "402de1d0a6188e4a6b56e245c9415ca2",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_titleRip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "c0f5d8e16e40556a519ca3445edc2c1d",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleSafety",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114092Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "9fb3401e8b68e86a5d24793b929a5099",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleSteril",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114096Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "7b2808a7777f258e2e23823d6297cf8f",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_opt_titleTailor",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114101Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "e4c7c33cc5631b6ace91b0a6b50cbaeb",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_titleVHS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "3ef325c33f902d14ae01c37d8a897d3d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_vhsMaxTapes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "36133b4e166e02d1e3b56f16f833491f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_vhsMaxTapes_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1e5cbe9a62975615e8ccb8689afc09c8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_vhsNearby",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8fdac924aaf30acf5fa12647b0c6872a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_vhsNearby_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "b945afd0ae1adc497c767b66d34ab92f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_vhsReturnItems",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1f464a49da51a3fd6d105fdb7bcfa979",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_opt_vhsReturnItems_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "7e7a58d189fd44da541dc31dd76be2a2",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_prio_balanced",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114106Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "8c4e8c1085779ad1f26f35a1f1fd30ce",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_prio_calories",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114111Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "98656ce03364abe26408aa5785f27b4d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_prio_hunger",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114115Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "b77824d602a2577614e225ed1b2f6b70",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_done",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114122Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "6bef8c5f1449c7db9f3f41a4fd6d7ee0",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_illiterate",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114126Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "53e8d8de20f89b5242ec6f7fa887befd",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_nothing",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114129Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "bd9874c74de02ead13d6dea3079cf82f",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_option",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114134Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "f4c69073cccf53dae743d42182215fe3",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_option_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114138Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "c8f13c803daa6b4ee072c5749157d537",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_started",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114142Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "630d42e0ff82d5402db8ecd3d97f3d5e",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_stop",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114146Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "3cb38b57a1e5ac47a989f18766ce3bae",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_stopped",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114150Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "7d0872a71fc9a589428fbad68b9b8598",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_read_toodark",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114154Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "f86cbdcdef40028336248bd7970f2445",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_cycling",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114159Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "808cb8ca392cf4ccddd55e241d101d02",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_done",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114164Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "796ee9f9211fd1a4ac017d696a00d945",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_reload_ejecting",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "5366dcefe90c27812da28580dda7b667",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_interrupted",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114168Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "6fab0c4d884c732e34bd6524fea550b2",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_lost",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114172Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "1e22489dd52487a1fc984f391375e6b5",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_noammo",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114177Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "40b055dfb8b867d850a557462b3e13fd",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_nomagazine",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114182Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "bebc55c56b7789adbfbdae7b32038106",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_option",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114188Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "bd91baff5ff79b3884309519b6e291d1",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_option_mag_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114194Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "b42021a492b4e5dc8dafa2990f337014",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_option_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114199Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "efaa7e079f8c8b5578a11cb317bf1e80",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_started",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114204Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "c489f0cc9091bf89257fec9e140555d9",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_reload_stop",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114210Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "d597ec32696aca3e05252c0de2aebd33",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_reload_stuck",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8926219b529335fd0adf45bc634143bb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_button",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f80f43143d2845b51447fb0a093c8346",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_button_stop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "c64454604bc1c9cfc4129608197b10b1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_done",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "3ad8259b11cbe0fb5184bbfa7f1a8de8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_noholes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "77e5edfdac1653d11a129510f3a1c684",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_nomaterials",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "7dbbd96b8614f4cc462a3d80b2051117",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_option",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f495c9e23c8653a891e30ffb967a1674",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_option_all",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "a80bee081808c7bcb88cc9e698b5734b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_option_all_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "9a382bd452c5afbc4e6b9481aae5516e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_option_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "96497a6d92ededcca898ca3bf496d41d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_partial",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "530dd34959e6b0ae68f38ecf1a199681",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_started",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "e37b19367a5d9cfeec0c992540c7f0db",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_repair_stop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "71336abd8a2953c70506d4a69caba96e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_blocked",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "cd1a434c9ae96daa014830e7a158389a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_done",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "597e47378a025b19e33d62d446c8f61c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_from_body",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "875d4a8ec12c4fdfa657cce1d371604e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_keeping",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "6934889894de7af1247df9ddfb584e07",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_label_all",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "986898c6ac6a84147d63f0631e6bd7c8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_looting",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8c66debba3b523c963504c379f765498",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_nothing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "cc2f7ee6eeb273889e3df3b7a3110269",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_notool",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8b59fa4a4dd1a58cbeab14a70ed0f2ae",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_option",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fdd6d01b49730ba7c2676da92539b3ee",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_option_all",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "cccae5baa8b39931937bc9c8b1c4a254",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_option_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fe660198c4a2c52271eb06d7b751ab5e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_protected",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "6040f9c6ae775e6c3cd6a55fafae7941",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_started",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "4f301da5e019f2fdeb7607b223d9bd6e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_stop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "708049cd55e3107bccc5f0e9ae913719",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_rip_working",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "2bb3972bfdd8e9b4be0fe70f155b7aee",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_speed_2x",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
-    "source_hash": "5655ad23164e64965375483aa7d0c1a8",
-    "output_file_stem": null
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "cfca6d9d9ae56bc11190d9c9f51e6f29",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_speed_3x",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
-    "source_hash": "1aa5897df3e13005f73607b01842a76c",
-    "output_file_stem": null
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fac658836110aa392f85c4ea9f4b0374",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_speed_5x",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
-    "source_hash": "f8167e4bd60c255168fddc83624d4744",
-    "output_file_stem": null
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "387e9cf221d26f5edec1ffdac7f2120f",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_speed_off",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114222Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "e8348b8510c6d70f683aa6141f6d3833",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_bandages",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114227Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "fb67a05af09d15550cdca883461ccef5",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_bandages_option",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114231Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "562a12b7fe69fa0c7c1d9c395a9b3933",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_done",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114236Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "51b2f7827cdffc712da3be421b407cd8",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_nosupplies",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114240Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "d94da999e77a20fd1afccdea86e2a4b9",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_nothing",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114244Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "8af7cba3dd3341a44349f6d8c4419eeb",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_option_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114249Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "9c4476eefc89c10356a20b0ff2475cfa",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_rags",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114254Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "d6337bf917f8a7d8514a24ec8971efd5",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_rags_option",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114258Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "fc4bce7cfe53852227352d43b2fefd3d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_started",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114262Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "49aef7a4c440120388ae6603f61ec675",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_stop",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114266Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "89fdbd4f7a3d236bead1cffaf35203da",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_steril_working",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114271Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "4465564b6591390cfb53acf0b09b190e",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_damage",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114276Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "8b7489e0f52dc73cbfa671751a4a2cbd",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_error",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114280Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "bd5cd2672ba94cc0b03940103100cae9",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_generic",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114284Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "358af490bc490f6c83e9d0123e89c030",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_stop_hurt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "464241c7dc14531284f8b110a47f28a0",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_manual",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114288Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "579f86f163857ab707c5a6d3b59af3d8",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_replaced",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114292Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "4cc32e34205da17e5bfa1dd1c7466097",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_stop_stuck",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "9a62712424cd987ee55fb9cce04a65b2",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stop_zombie",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114296Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "c5023150d52a39d7cd421d66e73c0f81",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_stopped",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114301Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "b2a1950e90f5ab20a66354eb3746760e",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_tab_name",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "665f832a83907ff710c3e05454902978",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_button",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114306Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "579cdb00f9dcdbd1560a3bfaa19469f7",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_button_stop",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114310Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "6394542d71cd1f1279e17c77c9d26b9d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_button_tt",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114315Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "fbb37598e9aa10d88294d0d68c567d25",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_done",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114320Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "75e6d350351f99647355bcb86c4d3791",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_interrupted",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114325Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "d8a6ce11de26daef2c8710ddee59968f",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_lost",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114329Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "3745655761a2f7747595cf8021735044",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_nofabric",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114333Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "94c5096573784ae5ececed3c7e6c2730",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_noneedle",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114337Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "b00592640ca7292e3b261bd8ec6f2b84",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_nothread",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114342Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "eb25b62499585e3ae38a784db14f59ac",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
@@ -1568,19 +3251,1297 @@
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_started",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114348Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "1eb5e97de7ad62cd9baa6d7edba9bc9d",
-    "output_file_stem": null
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3777237134",
     "translation_key": "UI_AA_tailor_status",
-    "is_active": false,
-    "last_seen_at": "2026-08-07T15:46:26.5806935Z",
-    "last_seen_mod_updated": "2026-08-06T23:20:17.0000000Z",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:14.3114353Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
     "source_hash": "93bdd055e3559d1c574947c196dde609",
-    "output_file_stem": null
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_button",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "184c6cb527e9240df7314726d72e8e5d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_done",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0f291acfd84e133ee47c3e2cc85b7c3e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_gone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "562c39bea4ddce1d00b84632b434f4f4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_nodevice",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "27e7e68e78ca74708bdd262adc7e6ca1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_nopower",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1082888e3fe0ffdd1fc2777c533192e1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_nothing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "4375c23fee1b7f42d479ae67fac42a40",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_option",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "2627e66502281bc06548e59ba0dd8f2f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_option_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1994c65b65fbd64e4129b79d757b5639",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_started",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "85a89338d6afafcc18dee7deb629f8e7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_stop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "bfe9b0391d9870d72bea3577974196f8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_stopbtn",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "a9223ffb4e027f4e20e3670e8d708ca4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_stuck",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1923c7ca871ace88f920815452185155",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_toofar",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "193b31285861ab34852c90fc5a46d00c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_unreachable",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "70bfe60cd5cf4b5d4904bbf34b3152e4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_vhs_watching",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "c8f8398e1888ab343a19ddb714a5df99",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_wring_done",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ec93a2f27a8e5863c1b65dc9465068ea",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_wring_nothing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "896d3e5018a4e23c2390eac63540c7cb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_wring_option",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "5d6ae3b7158d06ee2c5cc82cb100611d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_wring_option_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "96ed07a852950e139d1258cd706dea33",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_wring_started",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "cf1e1b27ec632be3fd9086b2cd8d8a0c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_wring_stop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ae62b0bab43d6ac69493e88c3f041381",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_AA_wring_working",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "9188b741db5ff10f631508ed3617136f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_ModName",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1424a876356119b470b500b51ab7693b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_auto",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "4fe9093f822af8d9cb6b2ddb498c3357",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_auto_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "724421ca5048c7e901297ce8fae5f1bd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_discord_button",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "54add2439cb8299ddbcdf7f996b52745",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_discord_button_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "718c8005fb7ea2f56e86a611527b2725",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_discord_copied",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "cc3f469e5f59806f4620e9dfe7dbe5a3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_discord_copy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1c5ace1e5c4602ec9c70d3a77f23e0ca",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_discord_hint",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "279e3fa22d0a5fa05d6449d25b84c45b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_discord_title",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fcc64469aa32124b642d549a2628c971",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_eating",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "046de9833713b4e08f0336ec6ef57740",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_noFood",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fef73bf68182cb3ca8d2929810466e5c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_notify_halo",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "5bef28df6974414e4cbf50df646e7747",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_notify_off",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "70aa4b89bb9783c0fedd4a820f1f440d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_notify_say",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f9212f5b00c8a02117f328ee96b25065",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_autoDefault",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ad33e2d0b6271c42cdfd56116734e3c0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_autoDefault_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "215e9e9f47b9861bb990c7723ea09028",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_autoEat",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "379ad1e27879915591af466906debf4c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_autoEat_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "7252c35b534bad15041d98174167453c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_boozeSip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "983eb431afeb160e2ea60fa1835698b6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_boozeSip_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0bfc6a9cc3671c4abb717b94fdbbae27",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_eatAt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d8538c2769a7502d880adfa18817bbcb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_eatAt_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0d73480fa8c94613182c06735f7c627c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_fastForward",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "62a8fc1abfbd7cd3b72314f16ca7388d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_fastForward_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ade59018bbe4ce563122ecc71dae9cd2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_holdSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "685949b52ef0f74c0e851512147349f8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_holdSpeed_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "e7a655fb7c1b87a029685c8f781343d8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_maxDrunk",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fd93cc9b107b8d0112ac15ef7629b8a3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_maxDrunk_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "a16d2e1f00eb715483b9ab636f2376b1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_maxSets",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "72542ef6ed82cbf29e8dea5a61d66b9a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_maxSets_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "3ef40e9d18075445fcb9009dbcf66ff7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_minHealth",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f2085e45bfabda656228384ecddf15f1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_minHealth_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "c5872793e2fcd47304c3af2f11a3f8b0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_nearbyRange",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "de043e2d968471fc04adbf12d59b9149",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_nearbyRange_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "e8ac87dc1c911f8f912aec3e781c213e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_notify",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "275bcfea2e24fb32a2435c072b2eb04a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_notifyEvery",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "83eaef1926ae2adf33b4873fcd8a9475",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_notifyEvery_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f749f94e7034c66ba056640df6ece179",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_notify_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "e833252ce78c6080f67783f7c16e3248",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_painLevel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0ddb5b7b6b625c4e033fc99ff9759187",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_painLevel_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f9494d9d24a79a545610c731b41155ab",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_putItemBack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8d05972a888021d259b72744d04d409a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_putItemBack_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "72f8ddb75d0bbc888047d16e45390544",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_restAt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fde8e444df78cd566c1a1fd6cbfb3057",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_restAt_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f0acef47f0debcca45b5cbd01a45ef5d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_restOnFurniture",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "e30fa6f7d76b4c2bab6b201987bf1059",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_restOnFurniture_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "06957bfe11e7930360d887bf3ee5c6b7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_resumeAt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "650ce40c3bc7a7344ba483d041851fea",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_resumeAt_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "cfa2b8e1d9a9a9e0e7ded37723e6a61d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_rotate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "92899ce259604581e442ee08928d163b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_rotate_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "b5aa444020679b4931ad6c1c63f074e4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_setMinutes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d728c197ea191f65df6df50dde99e80e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_setMinutes_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ddd966994f1c7fd8cc732f8cf551d9d3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_showSummary",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "196f0a75df96adccad1441053e7a321f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_showSummary_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fcb8647f90146970325fd99e3a1211ba",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_sitToRest",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "7e1cdc00d86286e05451247ee88dbafd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_sitToRest_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "6eb8294ce999c0f127fdc2dd07fda89f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopDamage",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "5b554a4dda03016f65108424eaa56e37",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopDamage_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "7360a8dfece41a2bf2a82b9306384ba4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopHeavyLoad",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "23936da6fc1933ecd3a6881dc8941a70",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopHeavyLoad_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "a5b1a73ecca2089a91c6a7a9d4dabc40",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopLowHealth",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ab3b6c07961a24d1fe34e09482cd56fa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopLowHealth_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "77d067138ef0a8d123d3b3b8769f9bf5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopManual",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "249c7b080ec54deb171c7f1c57816a43",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopManual_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ae8846f0d8bcdae1ba321ccd97f2e8ec",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopOnClose",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "809fe8b1b5aea24cbdaf1a456d8bf640",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopOnClose_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "584c2f0e765029ccbb51ce0e1badfc38",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopZombie",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "34c1284f4603c81d9ae9c72b668fd075",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_stopZombie_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d22e6de83b0488f401a28ed5969ed9cd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_titleFood",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f5ea89079aff62ec36aba4541611ab93",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_titleItems",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8bbd6f2d5c0f0d6039186b48f236ea35",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_titleMisc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "53de0cc44aad41a5f6539bb8c1f71105",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_titlePace",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "35b95d26f1d6047d03f840b1cbe7ff87",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_titlePain",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "4a3421e4b90b5d98880b43ff82410b04",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_titleSafety",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d37bf58317d13263d0ab46dff86d3cc6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_travelRange",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "85dfc5827b10ac534650963af658e659",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_travelRange_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "93739f7a6267d006bbe34ece50b2fa8c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_treatPain",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "e164939423d129093a1441e8e3151ee8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_treatPain_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "b15fa3870111c624e07e661a9f05f6e7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_useBooze",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "a98fcc82f55bd651df0b5814a6496e0a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_useBooze_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d8dbc01419424f442eb2cbcb17d68962",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_useNearby",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1a1701c9836dbe61106d7781ea41c591",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_useNearby_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ba665871c154b0a8f619e0e83ebfacef",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_usePills",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "885d8a13158532452ac498cc94c3869d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_opt_usePills_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "cb836bb0f002dc51972842cef1237782",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_resting",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "119e0d6df1684e0b6c164a89a4cfef03",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_running_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "a2225bf160497e48f4a80389bb7b5995",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_speed_2x",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "038c0d849e21a6bf37db244c8c74c413",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_speed_3x",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "251df440caa96410d0438c168188629b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_speed_off",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "54629b04eac10d1db50a44671aea0387",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_speed_vfast",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ebe4d58770cd0042356ff565ad0d110e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_started",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0095d9bfaeaf705acc5cf49a028b7445",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_status_exercising",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "4162fc222ea6e3d21b21083ad5ea400c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_status_resting",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f769f7101c9c8b749284c9be60f7b13e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stop_cantstart",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "fd3c805b7bb8ffb23ebd3457324e6e99",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stop_damage",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "3d310c4140bd0a7dc683e23e6dcc403a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stop_generic",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ae74c165047683e8f88a6e11555fb7d4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stop_health",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "3f6fed0e191c2c81bfc3b33e9aa3d09f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stop_load",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ab09464296a9d9b9b16ede3a744b1090",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stop_manual",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "25d439b79c8b919fc26bf872b58ed9f3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stop_noitem",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "7abb824b06af4a80abfce9fa66e137bb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stop_panel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "d9c6ec0eecf52fde8b9c821dfa1b5ed6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stop_sets",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "3b19825c394a0ed67b57550dd09e8fe6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stop_vehicle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "8fd873aa12442770df15945d67bc3a5c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stop_zombie",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "24976155f517046cb64a1974ab790f1c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_stopped",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "cfb16232a3d2edde9e33d3402ba89f1a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_summary_fitness",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "204dc9ef51317005e874ab96752e8e9e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_summary_levelUp",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "56530cb532caeaac36b682cf9c8c1fa7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_summary_sets",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "376f1901b495f4178986bb9bd108e699",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_summary_strength",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "89d5d9c1735411852642420920e7785d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_summary_time",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "450f2cf327e95df085d7a6983577b86e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_summary_title",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "5f30f0997db6b2a1ecb226ecba7a9ebe",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_takingBooze",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "a21b587792e935122342ef4b1bb13c5a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_takingPills",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0077f34c363152b3cef70bddd2804aca",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_wait_endurance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "0aa78321260c88084002ed2f23d77210",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_wait_pain",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "2ff28b40767a044ab7d918586c6a38ed",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_win_button",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "1c4516a1ed62a40446479c36fa5900d2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_win_button_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "f2cb5fa06459d3ccbc674183a89db3fa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_win_close",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "af017e52cd1c84c70ddddc8e5a982f9d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_win_defaults",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "ac9cef7ade1a294f9b56454c1f79f9f7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3777237134",
+    "translation_key": "UI_MM_win_title",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T22:34:11.0000000Z",
+    "source_hash": "162b5efca1ace7812afae07f872c4ebb",
+    "output_file_stem": "UI"
   }
 ]

@@ -40,6 +40,7 @@ public class ConfigReaderService
             {
                 config.llmApiEndpoint = GetString(llm, "api_endpoint", config.llmApiEndpoint);
                 config.llmModel = GetString(llm, "model", config.llmModel);
+                config.llmReasoningEffort = GetString(llm, "reasoning_effort", config.llmReasoningEffort);
                 config.llmTemperature = GetFloat(llm, "temperature", config.llmTemperature);
                 config.llmMaxTokens = GetInt(llm, "max_tokens", config.llmMaxTokens);
                 config.llmBatchSize = GetInt(llm, "batch_size", config.llmBatchSize);

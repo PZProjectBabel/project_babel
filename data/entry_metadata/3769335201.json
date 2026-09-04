@@ -3,8 +3,8 @@
     "mod_id": "3769335201",
     "translation_key": "IGUI_HotbarAttachment_HelmetFlashlight",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224414Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011173Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "0bb5c606e3b79c147fe177d02d1fb83c",
     "output_file_stem": "IG_UI"
   },
@@ -12,17 +12,53 @@
     "mod_id": "3769335201",
     "translation_key": "IGUI_HotbarAttachment_HelmetNVG",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224422Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011179Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "f2ad5b8cc83c0d018bedfc2861e0cda4",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3769335201",
+    "translation_key": "IGUI_NVG_Overlay_Hide",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "d2685557515ee7f131865da8d2e2ef94",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "IGUI_NVG_Overlay_IR",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "e2b2bf9e5044c89961444bfeaece8586",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "IGUI_NVG_Overlay_Power",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "616a3842ba95a32f829a2434f0fedd73",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "NVG.ANPVS4",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "8e8d089f864da8231b6e8d3412d7c001",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3769335201",
     "translation_key": "NVG.ANPVS7A",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224427Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011186Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "ff7f5fbee639ffe0d8f2b60eb58f6d22",
     "output_file_stem": "ItemName"
   },
@@ -30,8 +66,8 @@
     "mod_id": "3769335201",
     "translation_key": "NVG.ANPVS7HardCase",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011192Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "1148e65233572d950e32bcaf9a891602",
     "output_file_stem": "ItemName"
   },
@@ -39,8 +75,8 @@
     "mod_id": "3769335201",
     "translation_key": "NVG.ANPVS7Strap",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224433Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011196Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "52107d32f1126e92f7e20b148b7ae05d",
     "output_file_stem": "ItemName"
   },
@@ -48,8 +84,8 @@
     "mod_id": "3769335201",
     "translation_key": "NVG.StrapNVGCombined",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011199Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "5e5eeca970be324f0bcee4e6ad9b6025",
     "output_file_stem": "ItemName"
   },
@@ -57,8 +93,8 @@
     "mod_id": "3769335201",
     "translation_key": "NVG.Surefire6C",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224439Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011203Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "909007bb229cb25f16027497cb9f0754",
     "output_file_stem": "ItemName"
   },
@@ -66,8 +102,8 @@
     "mod_id": "3769335201",
     "translation_key": "NVG.Surefire6P",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224443Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011206Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "32ce7d3d224c767ddf5b2e87ba2024b7",
     "output_file_stem": "ItemName"
   },
@@ -75,8 +111,8 @@
     "mod_id": "3769335201",
     "translation_key": "Sandbox_NVGOptions",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224447Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011211Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "c2402b521376c2015d61d59fe3601b08",
     "output_file_stem": "Sandbox"
   },
@@ -84,8 +120,8 @@
     "mod_id": "3769335201",
     "translation_key": "Sandbox_NVGOptions_VignetteEnabled",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224452Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011216Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "6bbf9aaff816223976f9fae9a53d2a5f",
     "output_file_stem": "Sandbox"
   },
@@ -93,8 +129,8 @@
     "mod_id": "3769335201",
     "translation_key": "Sandbox_NVGOptions_VignetteEnabled_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224457Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011221Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "cf4325252ea8e87d2895deaca39ded58",
     "output_file_stem": "Sandbox"
   },
@@ -102,8 +138,8 @@
     "mod_id": "3769335201",
     "translation_key": "Sandbox_NVGOptions_WeightMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224461Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011225Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "e6fc2440856e57b69f647bef413446a2",
     "output_file_stem": "Sandbox"
   },
@@ -111,8 +147,8 @@
     "mod_id": "3769335201",
     "translation_key": "Sandbox_NVGOptions_WeightMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224466Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011230Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "45b30e2e3353064ce9a24b7ddb07dd80",
     "output_file_stem": "Sandbox"
   },
@@ -120,15 +156,42 @@
     "mod_id": "3769335201",
     "translation_key": "SewNVGStrap",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011235Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "4bd028e5b10c934754591e1d5aad2b11",
     "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3769335201",
-    "translation_key": "Tooltip_NVG_DARKNESS",
+    "translation_key": "Tooltip_NVG_BRIGHTEN_KEY",
     "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "134b186a6deb1228e0907fe23a97dc11",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "Tooltip_NVG_BRIGHTNESS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "b62d06af03166b7de17055a70b5d3b02",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "Tooltip_NVG_DARKEN_KEY",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "527878159edad8c1889af56ba9f3456d",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "Tooltip_NVG_DARKNESS",
+    "is_active": false,
     "last_seen_at": "2026-08-23T03:10:36.1224470Z",
     "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
     "source_hash": "81cb343613f70353dceded55197ab82d",
@@ -136,17 +199,125 @@
   },
   {
     "mod_id": "3769335201",
+    "translation_key": "Tooltip_NVG_FEATHER_QUALITY",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "67c507fb6f5566854a6c793d6a11bc24",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "Tooltip_NVG_HIDE_OVERLAYS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "279b23ea7ed23b59380e668a7c8b1006",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3769335201",
     "translation_key": "Tooltip_NVG_IR_KEY",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224475Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011241Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "755dd64e29b493e209c2744a3eeda730",
-    "output_file_stem": "IG_UI"
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "Tooltip_NVG_OVERLAY_STYLE",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "b73998f348d8bf14ff1ac673b35a4fc7",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "Tooltip_NVG_ROW_STEP_QUALITY",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "db21dcbafb27f9bfbffdeddf730e7e06",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "Tooltip_NVG_SCOPE_TOGGLE_KEY",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "f9794718df19c844d263e6fa28144fce",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "UI_NVG_OverlayStyle_Cone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "be3928b64d83a3586a2537ffa8937414",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "UI_NVG_OverlayStyle_FullScreen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "7ace268b5ddb0ec9de4e6d972e843514",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "UI_NVG_OverlayStyle_MovingCircle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "119ad9d21eaa84e7528a91a308df3e81",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "UI_NVG_OverlayStyle_ScreenCircle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "f0f630bfda0fd13e8338500edb5c5721",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "UI_Options_NVG_BRIGHTEN_KEY",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "139e03e0cab87e933d8429eabbb60ccb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "UI_Options_NVG_BRIGHTNESS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "5081a0b31244d46021b2a9bfd1ada0f8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "UI_Options_NVG_DARKEN_KEY",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "df0f8559d0f497a5578e0ac3723fd8fe",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3769335201",
     "translation_key": "UI_Options_NVG_DARKNESS",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-23T03:10:36.1224479Z",
     "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
     "source_hash": "ab3c6310741c63dae64c397dd5917ae2",
@@ -154,11 +325,56 @@
   },
   {
     "mod_id": "3769335201",
+    "translation_key": "UI_Options_NVG_FEATHER_QUALITY",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "bac74cff63893e3380454ed004cadb35",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "UI_Options_NVG_HIDE_OVERLAYS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "f0a8b2ff01e26bdb75424f144c863371",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3769335201",
     "translation_key": "UI_Options_NVG_IR_KEY",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1224483Z",
-    "last_seen_mod_updated": "2026-08-22T00:31:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3011249Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
     "source_hash": "f1e9fdbcf834354a6d85000e8a9cc73e",
-    "output_file_stem": "IG_UI"
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "UI_Options_NVG_OVERLAY_STYLE",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "27aa1b0ac668d85591e9ab102dd1f03e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "UI_Options_NVG_ROW_STEP_QUALITY",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "238ff6be9235bf1c504f8101bc39ff1c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3769335201",
+    "translation_key": "UI_Options_NVG_SCOPE_TOGGLE_KEY",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T19:47:38.0000000Z",
+    "source_hash": "6b594551e06688f6191a401eb927c4d5",
+    "output_file_stem": "UI"
   }
 ]

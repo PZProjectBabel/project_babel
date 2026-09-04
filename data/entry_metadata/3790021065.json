@@ -1,0 +1,245 @@
+[
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_Back",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "4c99e581df084da5bbaf376d9b769933",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_CargoTank",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "1901c2f516d3ffb5119917709c5cdb02",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_DrainFuelTanker",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "fe8f84238cf819d4795a66844498cdf3",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_DrainWaterTanker",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "837c8acf8215e987b11307ab8e826560",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_FillFuelTankerFromContainer",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "79185dcb23b5165357468b4e8d620e8c",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_FillFuelTankerFromPump",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "c51e8f4bc62f1ada1f52deb8df128b88",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_FillFuelTankerFromPumpNeedHose",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "012e60ef1847f8786f5a4e8c147aad9c",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_FillWaterTankerFromContainer",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "3c55721e0886fdaafb22860050b54b1a",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_FillWaterTankerFromHydrant",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "c701296f17b06998c852019a64c6096e",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_FillWaterTankerFromHydrantEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "a84d6ebc11ba263db63a90d10ff159b6",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_FillWaterTankerFromHydrantNeedHose",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "fe6a9cf2e0b6e935a189757762b23e1c",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_FillWaterTankerFromHydrantNeedPower",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "8dba9362e8d676cdb92c3bcbd43fc55e",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_FillWaterTankerFromHydrantTankFull",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "502db482407b6e7639ba3f4fdb9df78e",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_HydrantWaterAvailableLiters",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "8f434197e6e5925c2f658de9d8e67cc7",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_HydrantWaterAvailableUnlimited",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "6e4acbdd13a760a5f17ddba45c929fad",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_PumpFuelToStation",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "92de6d6d713fb035e9433566b0424c8d",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_PumpFuelToStationNeedHose",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "9bcfb218bc20b65e77e1b7ebbdd7289f",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_RainCollectorBarrelTarp",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "a20af8bad81d7b9942a8313f412eae19",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_RainCollectorCrateTarp",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "9857366ca417d652fd9038be3d010cf5",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_RefuelFromTanker",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "bdb3b19448c297cd3fe0a41d029e5296",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "ContextMenu_AMGTF_RefuelFromTankerNeedHose",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "f57cee8260d2107af41c4d45e8ebc3f9",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "IGUI_VehiclePart1000FuelTank",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "8c755b182577fa76cd798ef4ebabd44b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "IGUI_VehiclePartAMGTF_M49A2CCargoTank",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "2e640d0dc677e7abeb963da114acd2f0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "IGUI_VehiclePartAMGTF_M50A3CargoTank",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "a6a730ea5987d4a32c75381a9987648a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "Tooltip_AMGTF_FillFuelTankerFromPump",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "7955b6bcc677f6fc50ad312b68422b12",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "Tooltip_AMGTF_PumpFuelToStation",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "957f677ec328ef4734a32148f4276ab7",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3790021065",
+    "translation_key": "Tooltip_AMGTF_RefuelFromTanker",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-30T16:56:33.0000000Z",
+    "source_hash": "55f5804bced0eb901b7d4912ada37904",
+    "output_file_stem": "Tooltip"
+  }
+]

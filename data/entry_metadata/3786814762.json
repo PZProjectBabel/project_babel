@@ -1,0 +1,407 @@
+[
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "61aa41b4db6d106f2074d502b1e851df",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_AmmoBonusChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "4fe2c3bb613758574281e608f250956e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_AmmoBonusChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "9d47d77ee2e07599335feeca9cbd6af5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_AmmoBonusRolls",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "48c44655b7597d0e9652eed39b24bb44",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_AmmoBonusRolls_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "19394709e551be990ba6ae34c568037d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_AttachmentBonusChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "edf5629ac919e672eda14d19b8ca8990",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_AttachmentBonusChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "a2a1cc6f8b2a45c3c35b6acf63240612",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_AttachmentBonusRolls",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "1151ca66c12d30a81df99ab3dd1dd9cb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_AttachmentBonusRolls_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "f36870a8c4d3fd2895c53ad9bd4ceacf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_EnableBonusLoot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "bfbcb4e90a4ca27a08b755696ae4ed4c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_EnableBonusLoot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "2fe496dab42c1fa87215b7efd7ab6b97",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_EnableRandomWorldLoot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "5b0521b1acacc032710cbca0722f22e2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_EnableRandomWorldLoot_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "de1925aab219b4d1fc4919950ef1f353",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_EnableZombieGunCases",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "16e0770b8d552ef97de7b6f15e3ed85a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_EnableZombieGunCases_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "27d9284154bbf07437c77d6bd515c4e0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_EnableZombieLooseAmmo",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "1239edaa27da72c65a84d86792e15b21",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_EnableZombieLooseAmmo_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "17c63929b38b0fad4bc6724f4dcf033b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_LooseAmmoBonusChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "347985d043237b3f0db84c0270b059bf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_LooseAmmoBonusChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "65bce38f7a9053ff981bf89574850616",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_LooseAmmoBonusRolls",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "4a5312027b3c22dfd4799591a284e33d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_LooseAmmoBonusRolls_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "7c6dc21dc89d9f07d73effef52d1813e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_MagazineBonusChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "221fbf1368ff3c5eaf2ddfeb6f8d5643",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_MagazineBonusChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "6d42e182333d10ec8384c4b378380393",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_MagazineBonusRolls",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "fe5822379495fa3058b8bf10c7819f96",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_MagazineBonusRolls_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "792491028544baaabfa8d92c518bf021",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_RandomWorldLootContainerChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "3a3c03c549f1c116a5006f67d0f76904",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_RandomWorldLootContainerChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "4abe081d94befd04c0b6e0bcf05ade0c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_RandomWorldLootStrength",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "cb56a0d1fc5778b9f4cec49abcf55c2f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_RandomWorldLootStrength_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "8a71e1bc480397f9f45f0bca94d1408b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_TriggerHappyMode",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "8043d0602d16eb953ddace0a193030b9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_TriggerHappyMode_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "5c8e513e8f244ca2fef0bf988d8743ad",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_VerboseLogging",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "192aa20853c03df08f21e60eb7aa958e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_VerboseLogging_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "c26ee41c33620780640d76c85ff5b9c6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_WeaponBonusChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "f118254bd723bd6ec9be47f6fea9aea8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_WeaponBonusChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "3d34cf15e935de9b4adac09849618d56",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_WeaponBonusRolls",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "366b7d9c60c69e8ab8b0851494894f2b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_WeaponBonusRolls_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "64d2bb25f5ebc291ab48ffcfd1997811",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_ZombieGunCaseChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "3579ef34bfbb9e79e12895bfc4ce847b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_ZombieGunCaseChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "e8e3be6123476b2483342958eca7b04f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_ZombieLooseAmmoChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "6ed90ce395835b05657c3528661e1524",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_ZombieLooseAmmoChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "25e3253ff437470b8897a6e5b78167e5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_ZombieLooseAmmoMaxStacks",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "7d41bcbdb27dbb5bd031e570530576a6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_ZombieLooseAmmoMaxStacks_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "bbf60328a4a06df32e1ebd18850a8664",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_ZombieLooseAmmoMinStacks",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "39601a826bfc09c3c6ecd642286ef485",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3786814762",
+    "translation_key": "Sandbox_GoMLootTweaks_ZombieLooseAmmoMinStacks_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T13:45:06.0000000Z",
+    "source_hash": "983a88acd98c2bf544020764a5334a14",
+    "output_file_stem": "Sandbox"
+  }
+]

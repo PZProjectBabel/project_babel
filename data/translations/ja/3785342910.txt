@@ -1,0 +1,6 @@
+Sandbox_CigoEngineRepair::en = "Cigo Engine Repair",
+Sandbox_CigoEngineRepair::ja::processed::unverified = "Cigoエンジン修理",
+Sandbox_CigoEngineRepair_RepairPerPart::en = "Repair per Spare Engine Part (%%)",
+Sandbox_CigoEngineRepair_RepairPerPart::ja::processed::unverified = "スペアエンジンパーツごとの修理 (%%)",
+Sandbox_CigoEngineRepair_RepairPerPart_tooltip::en = "How many percentage points of Engine Condition each Spare Engine Part restores.<br><br>Default: 10%%.<br>Range: 1%% to 100%%.<br><br>This is a server/world Sandbox setting and applies to all players.",
+Sandbox_CigoEngineRepair_RepairPerPart_tooltip::ja::processed::unverified = "各スペアエンジンパーツがエンジンの状態を何パーセントポイント回復するか。<br><br>デフォルト: 10%%。<br>範囲: 1%%から100%%。<br><br>これはサーバー/ワールドのサンドボックス設定であり、すべてのプレイヤーに適用されます。",

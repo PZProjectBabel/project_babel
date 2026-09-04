@@ -1,0 +1,5 @@
+Sandbox_NoStressBuddy::en = "No Stress Buddy",
+Sandbox_NoStressBuddyEnabled::en = "Disable animal stress",
+Sandbox_NoStressBuddyEnabled_tooltip::en = "Keeps farm animals at zero stress. Bulls and rams no longer charge, stressed animals no longer break fences, and taming runs at full speed. Wild animals are left alone.",
+Sandbox_NoStressBuddyMinFamiliarity::en = "Minimum familiarity",
+Sandbox_NoStressBuddyMinFamiliarity_tooltip::en = "Farm animals are kept at least this familiar with every player. The game stops making an animal run at 40 familiarity: below that it bolts on distance alone, whatever its stress level. Default 50, for a little margin. Set to 0 to leave taming exactly as vanilla. Wild animals are never tamed by this.",

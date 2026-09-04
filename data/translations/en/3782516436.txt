@@ -1,0 +1,8 @@
+Chest Freezer::en = "Chest Freezer",
+PotBelly Stove::en = "Potbelly Stove",
+Sandbox_VAE_Storage::en = "Vanilla Appliances Extended",
+Sandbox_VanillaAppliancesExtended_FreezerCapacity::en = "Chest freezer capacity per compartment",
+Sandbox_VanillaAppliancesExtended_FreezerCapacity_tooltip::en = "How much each of the chest freezer's two compartments holds. Default 100, for 200 across the whole unit. The engine caps world containers at 100, so this can only lower it. With the Organized trait the effective capacity is about a third higher again. Applied on world load, so it affects freezers that already exist.",
+Tooltip_VAE_ChestFreezer::en = "A large chest freezer with two 100-slot frozen<br>compartments. Needs refrigeration components<br>salvaged from fridges.",
+Tooltip_VAE_PotBellyStove::en = "A craftable alternative to the wood stove.<br>Heavy on metal, and liable to break if you move it.",
+Tooltip_item_StrippedFromRefrigerators::en = "Stripped from refrigerators and used to make new cooling devices.",

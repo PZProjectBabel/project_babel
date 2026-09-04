@@ -1,0 +1,6 @@
+Sandbox_VVisibleSpeedReload::en = "V'isible Speed Reload - Hardcore",
+Sandbox_VVisibleSpeedReload::zh-hans::processed::unverified = "V'isible Speed Reload - 硬核",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick::en = "Visible Drop Multiplayer Visual Tick Buffer",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick::zh-hans::processed::unverified = "可见掉落多人游戏视觉更新缓冲",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick_tooltip::en = "Controls how many client visual ticks are skipped between multiplayer magazine fall-position updates. 0 is smoothest; higher values reduce visual update frequency.",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick_tooltip::zh-hans::processed::unverified = "控制多人游戏弹匣掉落位置更新之间跳过的客户端视觉更新次数. 0 是最顺畅的; 更高的值会降低视觉更新频率.",

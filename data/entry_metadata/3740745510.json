@@ -3,8 +3,8 @@
     "mod_id": "3740745510",
     "translation_key": "Sandbox_SignatureWeapons",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1025208Z",
-    "last_seen_mod_updated": "2026-07-11T02:46:04.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2865025Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
     "source_hash": "302d88c9f8f35d50e9e83a6ab8d55f85",
     "output_file_stem": "Sandbox"
   },
@@ -12,8 +12,8 @@
     "mod_id": "3740745510",
     "translation_key": "Sandbox_SignatureWeapons_AutoUnclaimOnDeath",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1025217Z",
-    "last_seen_mod_updated": "2026-07-11T02:46:04.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2865033Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
     "source_hash": "71e175508605afe36579d1f1a8cc21c8",
     "output_file_stem": "Sandbox"
   },
@@ -21,17 +21,35 @@
     "mod_id": "3740745510",
     "translation_key": "Sandbox_SignatureWeapons_AutoUnclaimOnDeath_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1025223Z",
-    "last_seen_mod_updated": "2026-07-11T02:46:04.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2865039Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
     "source_hash": "583d82fa4487678bbdea1305fe18418b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3740745510",
+    "translation_key": "Sandbox_SignatureWeapons_InfiniteDurability",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
+    "source_hash": "bd0d4ff5bb3162002d3338120e8be137",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3740745510",
+    "translation_key": "Sandbox_SignatureWeapons_InfiniteDurability_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
+    "source_hash": "928f810f0fc224e414e93e2392da961c",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3740745510",
     "translation_key": "Sandbox_SignatureWeapons_InfiniteSharpness",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1025228Z",
-    "last_seen_mod_updated": "2026-07-11T02:46:04.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2865044Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
     "source_hash": "d14fa21e6bf7947560f7bc5ca6eec660",
     "output_file_stem": "Sandbox"
   },
@@ -39,17 +57,35 @@
     "mod_id": "3740745510",
     "translation_key": "Sandbox_SignatureWeapons_InfiniteSharpness_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1025236Z",
-    "last_seen_mod_updated": "2026-07-11T02:46:04.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2865049Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
     "source_hash": "1f09813149570193b627bfeb3307017b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3740745510",
+    "translation_key": "Sandbox_SignatureWeapons_LegacyRewards",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
+    "source_hash": "232c19006a23e0beb36e65f956f3b085",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3740745510",
+    "translation_key": "Sandbox_SignatureWeapons_LegacyRewards_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
+    "source_hash": "d05ffeebeab5950e476bbda690872e9f",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3740745510",
     "translation_key": "Sandbox_SignatureWeapons_MaxClaims",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1025242Z",
-    "last_seen_mod_updated": "2026-07-11T02:46:04.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2865053Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
     "source_hash": "ca88f68cb005a077fd446a12096a11b7",
     "output_file_stem": "Sandbox"
   },
@@ -57,17 +93,71 @@
     "mod_id": "3740745510",
     "translation_key": "Sandbox_SignatureWeapons_MaxClaims_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1025246Z",
-    "last_seen_mod_updated": "2026-07-11T02:46:04.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2865058Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
     "source_hash": "17297803154eaeba7e48758c68c7083d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3740745510",
+    "translation_key": "Sandbox_SignatureWeapons_PerkAttackSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
+    "source_hash": "e8db0d85ae323dc5906316461fbe191b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3740745510",
+    "translation_key": "Sandbox_SignatureWeapons_PerkAttackSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
+    "source_hash": "05009397e8e2bd67129c6b9e768a5c59",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3740745510",
+    "translation_key": "Sandbox_SignatureWeapons_PerkCritChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
+    "source_hash": "05684b86e09c79ac8f110a0df4fb6d2c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3740745510",
+    "translation_key": "Sandbox_SignatureWeapons_PerkCritChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
+    "source_hash": "c9d29f2e8f222729e441d216aa9a7f9c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3740745510",
+    "translation_key": "Sandbox_SignatureWeapons_PerkRangeBonus",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
+    "source_hash": "9990e1af2a5f88133f31c895881dcd18",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3740745510",
+    "translation_key": "Sandbox_SignatureWeapons_PerkRangeBonus_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
+    "source_hash": "7563b809d8c505407ecc9c9f11306183",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3740745510",
     "translation_key": "Sandbox_SignatureWeapons_ProgressionRate",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1025251Z",
-    "last_seen_mod_updated": "2026-07-11T02:46:04.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2865060Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
     "source_hash": "934f84f5a6d26f8bccea58673c68b48e",
     "output_file_stem": "Sandbox"
   },
@@ -75,8 +165,8 @@
     "mod_id": "3740745510",
     "translation_key": "Sandbox_SignatureWeapons_ProgressionRate_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1025254Z",
-    "last_seen_mod_updated": "2026-07-11T02:46:04.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2865064Z",
+    "last_seen_mod_updated": "2026-09-02T01:18:17.0000000Z",
     "source_hash": "b889ba7920c4652f0c98d848adced625",
     "output_file_stem": "Sandbox"
   }

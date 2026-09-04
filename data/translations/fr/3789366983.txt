@@ -1,0 +1,6 @@
+Sandbox_KI5GF::en = "KI5 General Fixes",
+Sandbox_KI5GF::fr::processed::unverified = "KI5 Correctifs généraux",
+Sandbox_KI5GF_FixKat1Suspension::en = "Fix the '80 MAN KAT1 sinking",
+Sandbox_KI5GF_FixKat1Suspension::fr::processed::unverified = "Corriger l'enfoncement du '80 MAN KAT1",
+Sandbox_KI5GF_FixKat1Suspension_tooltip::en = "Raises the MAN KAT1's suspension travel and rest length so it climbs back out of the ground instead of staying sunk, and stiffens it so the extra travel does not turn into a bounce. Turn off to leave the truck exactly as KI5 ships it.",
+Sandbox_KI5GF_FixKat1Suspension_tooltip::fr::processed::unverified = "Augmente le débattement et la longueur au repos de la suspension du MAN KAT1 afin qu'il remonte du sol au lieu de rester enfoncé, et le rigidifie pour que le débattement supplémentaire ne se transforme pas en rebond. Désactivez cette option pour laisser le camion exactement tel que KI5 le fournit.",

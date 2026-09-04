@@ -3,35 +3,125 @@
     "mod_id": "3770149036",
     "translation_key": "Sandbox_PZ_Map",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1231741Z",
-    "last_seen_mod_updated": "2026-08-16T00:29:26.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3014309Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
     "source_hash": "c277aa6d98b647b763cca8f5019591b1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3770149036",
+    "translation_key": "Sandbox_PZ_Map_DisableCompassDirection",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "1f1adee299744fceaebf822dbed2ed2a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3770149036",
+    "translation_key": "Sandbox_PZ_Map_DisableCompassDirection_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "03fb3f6459a3acd805da5abf2faca1a6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3770149036",
+    "translation_key": "Sandbox_PZ_Map_DisablePlayerMarker",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "61a52ff1fe42b0f8eca4cfa4654e5285",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3770149036",
+    "translation_key": "Sandbox_PZ_Map_DisablePlayerMarker_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "a34f2165a76af0f85f12f70c7d1d4e67",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3770149036",
+    "translation_key": "Sandbox_PZ_Map_MandatoryDarkness",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "2e945f8b7df4cc97a2446b14ea592220",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3770149036",
+    "translation_key": "Sandbox_PZ_Map_MandatoryDarkness_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "99ea491be231d1c9f6c4c9e59e379842",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3770149036",
+    "translation_key": "Sandbox_PZ_Map_MandatoryFog",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "930f4813ea99431e42b76f2d172c6591",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3770149036",
+    "translation_key": "Sandbox_PZ_Map_MandatoryFog_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "17f61eb18285319d3d23ea47a7d5731f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3770149036",
+    "translation_key": "Sandbox_PZ_Map_RequireCompass",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "4b583d90396aeabe6c9c5e7977e1002f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3770149036",
+    "translation_key": "Sandbox_PZ_Map_RequireCompass_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "604d314bc5ae18691026f81d9362ff8d",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3770149036",
     "translation_key": "Sandbox_PZ_Map_SendPlayerPositions",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1231745Z",
-    "last_seen_mod_updated": "2026-08-16T00:29:26.0000000Z",
-    "source_hash": "3b26c9e8886d84741537f460d11b64f2",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "fa7f61bd97688ba9847544dc4cb51ed9",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3770149036",
     "translation_key": "Sandbox_PZ_Map_SendPlayerPositions_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1231749Z",
-    "last_seen_mod_updated": "2026-08-16T00:29:26.0000000Z",
-    "source_hash": "796c10e8c003151b1c8fd4c7e887bbe0",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
+    "source_hash": "510c06b026fa49bf51171e7985fbd0a6",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3770149036",
     "translation_key": "UI_PZMap_Name",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1231755Z",
-    "last_seen_mod_updated": "2026-08-16T00:29:26.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3014324Z",
+    "last_seen_mod_updated": "2026-09-03T16:05:04.0000000Z",
     "source_hash": "35dae7c34a9fe2990aa067902b84f56c",
     "output_file_stem": "UI"
   }

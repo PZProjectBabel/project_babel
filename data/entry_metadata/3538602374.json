@@ -1,10 +1,514 @@
 [
   {
     "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Aluminum_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "2729d198a52586341a4d38452b2c92e6",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Aluminum_Rod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "3c3009bb3c99bc892d5010c047c0134a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Copper_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "a744340bf6267d4e67610d35620fb164",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Copper_Rod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "567a50e3a0d990f856cbc7296f5253e9",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Gold_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "03717783ad8365af13d5da8d17b16c77",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Gold_Rod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "9497012a35333f76e0cf95ea4b37c95d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Iron_Bar",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "5ca279ad9c72a7beeaf310917967ff8a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Iron_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "8231fc5b5ddebfafc4b6cac39f90f07e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Metal_Bar",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "3b8cca244e3d6da7cc31e4a36fd9d4c3",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Metal_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "2559458c1d498f24ae2c2202ccec1e3a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Silver_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "4543ce12c3f98c02f7ee70e88f22c34f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Silver_Rod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "d428250fbea9c4d14a09fe90314e23a6",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Small_Gold_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "917323891fa1383a4fc34382a5c17afd",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Small_Silver_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "0bef9cebe5184ff42ed419999ab46bcf",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Steel_Bar",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "71fab18116cb6d9b35a294daf932d1a1",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Cast_Steel_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "936f65481cbc0a7d5d38171f1f073b8a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Forge_Metal_Bar_Mold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "30115621e101cdd061703a29601d25f7",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Forge_Metal_Ingot_Mold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "4cf1d474a611ce3c2ba1faf42230971e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Aluminum",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "ad8dae611cbbfe358cc5c28e8cc2b4cc",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Copper",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "7a5be5bdeec1bf0f49ca323225d0ff4c",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Gold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "f749e74061a090049d4d19c284d59363",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Iron",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "e9f0077bf0b4adf8a9b0631bbd644bb9",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Iron_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "3e251c4be7d707698cb078c7350dec11",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Iron_Large",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "6f228dbd31faac39a66cedc4a6087fc7",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Iron_Medium",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "a6513c6c955276fc5053e5f2ad4d3a46",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Iron_Medium_Plus",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "eff463e405a976a35c478c36331b739f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Iron_Small",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "06f831e11bee6091ccb0285d658b49a5",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Iron_Small_Parts",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "fccf60ef564196137bb0cc9ef11cf70d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Metal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "49a988d0953a33e776d4fcf18ce2fba4",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Metal_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "3c10211c51928fa1de781626aee6d4a1",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Metal_Large",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "ccff096fec896cfcf386720b8ddea470",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Metal_Small",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "3f31c40ffd3afbd113c26aee7eaf1df4",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Silver",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "301a3981c4f7c3cc27c1b68346570e16",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Steel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "be950563c9fb19ddc4b43f70430c5ed8",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Steel_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "e57b89a75b901b387f40c9686fa75553",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Steel_Large",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "4301bf0472eb8183909624a18e1d1cb1",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Steel_Medium",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "6f1b51a600c5e845f0957fd73f18862c",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Steel_Medium_Plus",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "aa35bfb1511d63007393a810e14a9629",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Steel_Small",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "e4824f2fef172b6d1eeea0f77edf2988",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BBR_Smelt_Steel_Small_Parts",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "f5df678018f73df41e1c2990992f9618",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.AluminumIngot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "5933095c060e0e79d5c048165004087d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.AluminumRod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "9ee17ec45727d95c422bf3f0001b2a86",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.CeramicCrucibleSmall_Aluminum",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "d0fdf154c9deec23505e2fab47b466a0",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.CeramicCrucibleSmall_Copper",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "fb3f44a7280da85ae175fec3d8efac0d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.CeramicCrucibleSmall_Gold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "ba9669a78794e4d3e7f1b070f0fb3e75",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.CeramicCrucibleSmall_Metal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "6442bd232d7daafa0087277f912a4115",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.CeramicCrucibleSmall_Silver",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "cc112af0e77259b944ba39cae22d0a71",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.CeramicCrucible_Aluminum",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "37317e8ef9a09a9c68689379ce9e3ae1",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.CeramicCrucible_Copper",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "561b18ca84e972e5e1d700e4de1b1794",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.CeramicCrucible_Gold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "95cec68825db55424c5cc4f7006f26d7",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.CeramicCrucible_Metal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "ec8551634f11f080e3674f761826315d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.CeramicCrucible_Silver",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "8a742b8a12a0e997697ff158058257e0",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.CopperRod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "487b0b02190bde12ea7c5b59f3faf472",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.GoldRod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "f69fb743aa07c21faca5b0c397eb2c66",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.MetalIngot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "ff58f4024b2fee71a90fb1b2dbef291c",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "BreakBigRocks.SilverRod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "cca34e4a84e4a2ede09a288c1097b64a",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
     "translation_key": "ContextMenu_DestroyBoulder",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203206Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302349Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "62274f64bec457c9f01aea0d8d0f4da4",
     "output_file_stem": "ContextMenu"
   },
@@ -12,8 +516,8 @@
     "mod_id": "3538602374",
     "translation_key": "IGUI_BBR_BlacksmithRecipesLearned",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203215Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302362Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "6a720556e83c16253a67971e3ecb0886",
     "output_file_stem": "IG_UI"
   },
@@ -21,17 +525,521 @@
     "mod_id": "3538602374",
     "translation_key": "IGUI_CraftCategory_BBRSmithing",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203224Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302370Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "1d11a1beba8214717c015a4a8524c530",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.AluminumIngot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "4c6c4b27ed9368511ffe97cd3cad05e6",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.AluminumRod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "b6794f2bd99b1552bac42ea461e2150d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.CeramicCrucibleSmall_Aluminum",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "cdaf06df4c2d343fe9875db705d9c0b7",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.CeramicCrucibleSmall_Copper",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "5ee51f206085e8e79be1968872b8e2d1",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.CeramicCrucibleSmall_Gold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "7720ca4a1d853b6426d298916bcc89cf",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.CeramicCrucibleSmall_Metal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "58aa6dbc20e619efb64459031df06eb2",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.CeramicCrucibleSmall_Silver",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "f139b89c6d625108e4f9a62d525bdedc",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.CeramicCrucible_Aluminum",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "621af5eaaba8911b87b5dcea95ead193",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.CeramicCrucible_Copper",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "408784fd57ff0574bafcbeb118a73b00",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.CeramicCrucible_Gold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "a77936d2733857fdabc5b686ce64ba96",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.CeramicCrucible_Metal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "090870bdc9d0b6329d466cecc5bad836",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.CeramicCrucible_Silver",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "0f2323e07e333e19d3a86928f7703350",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.CopperRod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "fc3fbde9babc8f7062414c531272f985",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.GoldRod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "7a7d25217329fd1a589cfb4b7e4217cb",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.MetalIngot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "d05260750ae558b0f21ca92f5fe64133",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "ItemName_BreakBigRocks.SilverRod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "e0fcde4d01845613dea516f864527f92",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Aluminum_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "0aeb0726ad7946ed545734b1c804d79d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Aluminum_Rod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "113aa5a87aa9937ffb1973cf2dfd246b",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Copper_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "581a954966365f695527d8f80c1dc0bf",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Copper_Rod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "544bdff7e8f57f45298176c86027ce82",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Gold_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "ec1210c65263fade4f811f2698739b99",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Gold_Rod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "185a143f132e20b8cb57c0531f539d51",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Iron_Bar",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "a50500e3bd3bb595a0f01ea6aa3f9dec",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Iron_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "534c86eb00bf686f119690eb871c2d3f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Metal_Bar",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "0d28a1425310a09117eca2f10c5bf0cd",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Metal_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "8766e150e29fc6a024b61f254bd0a91c",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Silver_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "52e5ee053841106ddc690595d414ad92",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Silver_Rod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "bc86e72a80e52eb7c0ed27acd4ac5a80",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Small_Gold_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "824ab0f22f90502f2f6836254fcaeef2",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Small_Silver_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "cf25982c5b8a1ae07de2a67815ee6d5b",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Steel_Bar",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "957cf904e48cb3f2c9d81ec7653073e5",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Cast_Steel_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "145ee673b983a3557a09502c8d3a832f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Forge_Metal_Bar_Mold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "90c740d20c002b28dc91b569e6217a59",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Forge_Metal_Ingot_Mold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "7ba2c3888e745fe00c21c613ab9aea78",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Aluminum",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "9baa3a15efb1a71cf92af36ee4e768ba",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Copper",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "ca6ac5526c8383d57e8ffee6c891ca32",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Gold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "010d665b84783cd0b9668caeffbf67d8",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Iron",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "27bb105a6bb9825c5092bba2af8f5e71",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Iron_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "07b971962e500d877c34814698481d34",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Iron_Large",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "c30335acf3c2ef8f437f28327c22f55e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Iron_Medium",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "e77862b715bd8e27181630b16900d21d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Iron_Medium_Plus",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "2f2bc53c1d268ce926f7b9b1cf581316",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Iron_Small",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "1548769bae003725fe24a4cf9cc53061",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Iron_Small_Parts",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "b042c1b1e0d6bbdbb2fd41324e726d91",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Metal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "c596180a4b3b03ee8373b4bf0868d7b6",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Metal_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "a748667c57759260e40fe50919adedf2",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Metal_Large",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "2efe06460de4a47afbcd2392674b4bc8",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Metal_Small",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "a263669e2663a5ea7c2e321d2d6534d8",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Silver",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "66df8e1fd634252bc2408182b4bdf8e7",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Steel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "b8b2630a5fd42205b8c1d95d63bdb1be",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Steel_Ingot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "bbc285e166c6c47e20564d228501a941",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Steel_Large",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "583f9c9df33eee23e597c2c79c247c6e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Steel_Medium",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "6183bc4dca81a01c1456b88200853ea6",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Steel_Medium_Plus",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "be079f07333d9f3b823bae4ebb05f5ee",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Steel_Small",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "a11ac99f9eaa96aadfb47295cd8ba11e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "Recipe_BBR_Smelt_Steel_Small_Parts",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "6a0fbc4d3a05e5d0066d1ed98900a485",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203231Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302376Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "a7c96c0183abd7c0e2ba80236218b7bc",
     "output_file_stem": "Sandbox"
   },
@@ -39,8 +1047,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203240Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302383Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "01a1bcb8bd380098897b5b3f120c0626",
     "output_file_stem": "Sandbox"
   },
@@ -48,8 +1056,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203246Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302393Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "6710bec0dc9b16173d2698a510127439",
     "output_file_stem": "Sandbox"
   },
@@ -57,8 +1065,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203252Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302402Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "60cb87a3f6115fc549887153ba05c8ee",
     "output_file_stem": "Sandbox"
   },
@@ -66,8 +1074,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203258Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302407Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "4bddc373f7f9ccc8f023f3d20a2be8b5",
     "output_file_stem": "Sandbox"
   },
@@ -75,8 +1083,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203262Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302410Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "7072b3f810afd75152c93f856014d614",
     "output_file_stem": "Sandbox"
   },
@@ -84,8 +1092,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_AluminumFragmentsMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203267Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302418Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "07ce57463b3ffdc651c6cc63078d0acf",
     "output_file_stem": "Sandbox"
   },
@@ -93,8 +1101,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_CopperOreChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203271Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302422Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "79f9b1192b424bb97ca2e700ce8c28f6",
     "output_file_stem": "Sandbox"
   },
@@ -102,8 +1110,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_CopperOreChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203277Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302429Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "0c867a98d420039c1a96c46ad17e865a",
     "output_file_stem": "Sandbox"
   },
@@ -111,8 +1119,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_CopperOreMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203289Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302438Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "cd0f3e1e7285a24793453c3f14d69b5e",
     "output_file_stem": "Sandbox"
   },
@@ -120,8 +1128,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_CopperOreMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203296Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302445Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "2fc4f45ce9556d6ad7ff6ca31f014beb",
     "output_file_stem": "Sandbox"
   },
@@ -129,8 +1137,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_CopperOreMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203299Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302450Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "a5b2f6e606cd6a4351f62214412b607b",
     "output_file_stem": "Sandbox"
   },
@@ -138,8 +1146,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_CopperOreMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203306Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302457Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "dad99c2f65980acf7207a7e6053a6ff0",
     "output_file_stem": "Sandbox"
   },
@@ -147,8 +1155,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_EnableCraftingAdditions",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302464Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "383cbaf1d936795aa4fd16d5cd53ff9b",
     "output_file_stem": "Sandbox"
   },
@@ -156,8 +1164,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_EnableCraftingAdditions_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302468Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "89f22ce4926a8151e6edd5909dcf9fca",
     "output_file_stem": "Sandbox"
   },
@@ -165,8 +1173,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlatStoneChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203310Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302474Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "8e0d41359a25c1291ddccfe481a022d6",
     "output_file_stem": "Sandbox"
   },
@@ -174,8 +1182,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlatStoneChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203315Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302479Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "1bafe8c05ed84dd3d2af6e5348080317",
     "output_file_stem": "Sandbox"
   },
@@ -183,8 +1191,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlatStoneMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203321Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302484Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "f001839d44332e1e4b1ab6a10b920cff",
     "output_file_stem": "Sandbox"
   },
@@ -192,8 +1200,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlatStoneMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203326Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302487Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "4aeaefbb8c5e82b60112ef3540a4706a",
     "output_file_stem": "Sandbox"
   },
@@ -201,8 +1209,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlatStoneMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203330Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302494Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "d78dd3a34a688cc7572f703d9e26277a",
     "output_file_stem": "Sandbox"
   },
@@ -210,8 +1218,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlatStoneMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203336Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302499Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "2d809de2a068fb19d00e78c2e72f963e",
     "output_file_stem": "Sandbox"
   },
@@ -219,8 +1227,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlintChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203343Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302504Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "8827d9b85f7ed32bdda2a8f2846eae23",
     "output_file_stem": "Sandbox"
   },
@@ -228,8 +1236,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlintChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203348Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302508Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "9147749aa564c123974009e37a46c7f8",
     "output_file_stem": "Sandbox"
   },
@@ -237,8 +1245,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlintMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203356Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302514Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "744d1966cc75e98ad618f212da22bc3c",
     "output_file_stem": "Sandbox"
   },
@@ -246,8 +1254,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlintMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203362Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302519Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "89490c97e0bdd7996a8b13b18fb9dd27",
     "output_file_stem": "Sandbox"
   },
@@ -255,8 +1263,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlintMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203367Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302525Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "d26abed84fe624b8f7789a48227faaaf",
     "output_file_stem": "Sandbox"
   },
@@ -264,8 +1272,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_FlintMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203372Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302529Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "783c0d613068f8ebdc6946c13038203b",
     "output_file_stem": "Sandbox"
   },
@@ -273,8 +1281,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronBloomChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203376Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302534Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "361299b5025673383acb45007140b92f",
     "output_file_stem": "Sandbox"
   },
@@ -282,8 +1290,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronBloomChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203382Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302538Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "f2802f6c52d50d140ebbeb391e0b2a2f",
     "output_file_stem": "Sandbox"
   },
@@ -291,8 +1299,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronBloomMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203388Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302542Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "1a209a39767b38fcab7f19af2d6c781a",
     "output_file_stem": "Sandbox"
   },
@@ -300,8 +1308,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronBloomMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203394Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302547Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "19f7239604997fac90609be23ba8538e",
     "output_file_stem": "Sandbox"
   },
@@ -309,8 +1317,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronBloomMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203396Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302553Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "55f8cbabded53abb625ee32a626534d5",
     "output_file_stem": "Sandbox"
   },
@@ -318,8 +1326,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronBloomMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203401Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302558Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "a4b89b6984d8a05b55b26e7239cd9cfb",
     "output_file_stem": "Sandbox"
   },
@@ -327,8 +1335,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronOreChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203408Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302564Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "75782f6b3f550a614e6e8d27701cd45a",
     "output_file_stem": "Sandbox"
   },
@@ -336,8 +1344,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronOreChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203415Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302567Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "b7da8736640e4c7275a543d01185afa9",
     "output_file_stem": "Sandbox"
   },
@@ -345,8 +1353,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronOreMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203425Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302574Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "a845964ccd8cd3e4153aa2d5bbda6af5",
     "output_file_stem": "Sandbox"
   },
@@ -354,8 +1362,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronOreMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203431Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302578Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "b256b54ced303422f642c1fc36668ff8",
     "output_file_stem": "Sandbox"
   },
@@ -363,8 +1371,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronOreMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203436Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302582Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "db62467653e3c68c92662d1aafd2bcc8",
     "output_file_stem": "Sandbox"
   },
@@ -372,8 +1380,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_IronOreMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203443Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302589Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "93593ebfed04a3c4e80f67979245c6c9",
     "output_file_stem": "Sandbox"
   },
@@ -381,8 +1389,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_LargeStoneChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203447Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302594Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "a672aaf9e1e5f2b656d14ac2a3ec97dc",
     "output_file_stem": "Sandbox"
   },
@@ -390,8 +1398,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_LargeStoneChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203455Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302598Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "c379bfe9e3b2385deaf6e4469cb8b989",
     "output_file_stem": "Sandbox"
   },
@@ -399,8 +1407,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_LargeStoneMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203463Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302603Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "32f5aa42ce400e1231cb4738047f4109",
     "output_file_stem": "Sandbox"
   },
@@ -408,8 +1416,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_LargeStoneMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203468Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302607Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "de36882df50130aad9f9e46de5404793",
     "output_file_stem": "Sandbox"
   },
@@ -417,8 +1425,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_LargeStoneMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203474Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302612Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "04b8fe6c7601f70c31149c2cdf68038a",
     "output_file_stem": "Sandbox"
   },
@@ -426,8 +1434,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_LargeStoneMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203482Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302617Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "10c3640a6afc24991964edfc1b4b2799",
     "output_file_stem": "Sandbox"
   },
@@ -435,8 +1443,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_MiningSoundsAttractZombies",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203492Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302627Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "1cf132eef538cdab39f7ebca1310751c",
     "output_file_stem": "Sandbox"
   },
@@ -444,8 +1452,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_MiningSoundsAttractZombies_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203500Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302634Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "38c3d81213469689fc233b0e2aa98cc7",
     "output_file_stem": "Sandbox"
   },
@@ -453,8 +1461,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_RocksMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203509Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302640Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "7004fa0194d7478fc62f8e08d7118eed",
     "output_file_stem": "Sandbox"
   },
@@ -462,8 +1470,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_RocksMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203516Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302646Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "a10c13b7e2dff25cfd930edb599d34c0",
     "output_file_stem": "Sandbox"
   },
@@ -471,8 +1479,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_RocksMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203523Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302650Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "4690989b3ebc333dc424bfb8cff0ddc0",
     "output_file_stem": "Sandbox"
   },
@@ -480,8 +1488,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_RocksMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203526Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302655Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "574b9d9082faa757944e561cb8c6d974",
     "output_file_stem": "Sandbox"
   },
@@ -489,8 +1497,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SharpenStoneChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203534Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302664Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "4588a6bafcdcc15c7b03efe310579174",
     "output_file_stem": "Sandbox"
   },
@@ -498,8 +1506,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SharpenStoneChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203539Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302668Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "6bf4627e8c0b94111146bdaf5a5442af",
     "output_file_stem": "Sandbox"
   },
@@ -507,8 +1515,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SharpenStoneMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203545Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302673Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "0595fc4e38fc9de8fc821701751e5106",
     "output_file_stem": "Sandbox"
   },
@@ -516,8 +1524,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SharpenStoneMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203550Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302676Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "f1bad7a3a6356564d144d972d3cfcde3",
     "output_file_stem": "Sandbox"
   },
@@ -525,8 +1533,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SharpenStoneMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203553Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302680Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "15e4d324e8b02541fcee87aa005a4f2e",
     "output_file_stem": "Sandbox"
   },
@@ -534,8 +1542,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SharpenStoneMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203560Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302685Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "88a4ed2b8ad9c6951fe4ddd9b6289a17",
     "output_file_stem": "Sandbox"
   },
@@ -543,8 +1551,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelBlockChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203567Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302694Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "aefd4c486e1b5d3d279bdc7b538518e6",
     "output_file_stem": "Sandbox"
   },
@@ -552,8 +1560,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelBlockChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203571Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302698Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "099bf15c73a15db09324db0011c2f1ab",
     "output_file_stem": "Sandbox"
   },
@@ -561,8 +1569,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelBlockMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203576Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302704Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "3374b5148c73de62b6663f98a27147a1",
     "output_file_stem": "Sandbox"
   },
@@ -570,8 +1578,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelBlockMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203582Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302709Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "3f35e2ce38a766b84c3ffa2fcec308a0",
     "output_file_stem": "Sandbox"
   },
@@ -579,8 +1587,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelBlockMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203589Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302715Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "30feb7456896a3a291cae4e1e47090c5",
     "output_file_stem": "Sandbox"
   },
@@ -588,8 +1596,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelBlockMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203595Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302721Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "b7a1dded55763376012a7067e5f7e594",
     "output_file_stem": "Sandbox"
   },
@@ -597,8 +1605,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelPieceChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203601Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302727Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "36fe97705c5574be5b03cd241d87b1b6",
     "output_file_stem": "Sandbox"
   },
@@ -606,8 +1614,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelPieceChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203608Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302732Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "16d989f5bd12ac474948c7b55cbeed9a",
     "output_file_stem": "Sandbox"
   },
@@ -615,8 +1623,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelPieceMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203614Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302738Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "f92be1200cca5f9aa52d52f8af7e4a13",
     "output_file_stem": "Sandbox"
   },
@@ -624,8 +1632,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelPieceMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203621Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302742Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "6ff312a0b960e1b914abe1b58f873524",
     "output_file_stem": "Sandbox"
   },
@@ -633,8 +1641,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelPieceMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203629Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302747Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "9575a6150b065c51ccf0e80d31f65bec",
     "output_file_stem": "Sandbox"
   },
@@ -642,8 +1650,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelPieceMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203637Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302752Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "864787ad9ea7567fea551c92c0c79ef3",
     "output_file_stem": "Sandbox"
   },
@@ -651,8 +1659,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelSlugChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203641Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302759Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "90be1e836bb63ae955b535f5c86e0093",
     "output_file_stem": "Sandbox"
   },
@@ -660,8 +1668,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelSlugChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203646Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302763Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "58d597ff010b303e9fafa4bf7d05a2f9",
     "output_file_stem": "Sandbox"
   },
@@ -669,8 +1677,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelSlugMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203657Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302769Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "818b660ae94715eb2b03560a2e005db4",
     "output_file_stem": "Sandbox"
   },
@@ -678,8 +1686,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelSlugMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203663Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302776Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "628f8d9785639ce031d0038f66c8c416",
     "output_file_stem": "Sandbox"
   },
@@ -687,8 +1695,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelSlugMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203670Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302782Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "9450b71de545770a28c3b59483933dd7",
     "output_file_stem": "Sandbox"
   },
@@ -696,8 +1704,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_SteelSlugMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203678Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302789Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "0ed061481881c04dc6ffd6816d8724e7",
     "output_file_stem": "Sandbox"
   },
@@ -705,8 +1713,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_StoneBlockChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203682Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302793Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "b12acdc7a4d1544ad943d1e848d72b82",
     "output_file_stem": "Sandbox"
   },
@@ -714,8 +1722,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_StoneBlockChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203689Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302800Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "be893aa6d6ae20e2d22bc0987e453088",
     "output_file_stem": "Sandbox"
   },
@@ -723,8 +1731,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_StoneBlockMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203696Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302805Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "094262cc95235eec27c7f213dd0f796b",
     "output_file_stem": "Sandbox"
   },
@@ -732,8 +1740,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_StoneBlockMax_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203701Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302811Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "3fe74327b8215832aace66383ac2553c",
     "output_file_stem": "Sandbox"
   },
@@ -741,8 +1749,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_StoneBlockMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203706Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302817Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "d9b79b18f3a30d120fdd19bf1da5c3d8",
     "output_file_stem": "Sandbox"
   },
@@ -750,8 +1758,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_StoneBlockMin_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203711Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302821Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "31f647b1d8d9a482c4c5475db76cacb4",
     "output_file_stem": "Sandbox"
   },
@@ -759,8 +1767,8 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_ToolUsesPerConditionLoss",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203716Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302827Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "244d034500cf340e5f28d5de8cdc269b",
     "output_file_stem": "Sandbox"
   },
@@ -768,9 +1776,297 @@
     "mod_id": "3538602374",
     "translation_key": "Sandbox_DestroyBoulder_ToolUsesPerConditionLoss_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0203723Z",
-    "last_seen_mod_updated": "2026-08-22T10:42:41.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2302833Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
     "source_hash": "3b2b146536c62ebf64af042a2acce6af",
     "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.AluminumIngot\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "9316da25c7847dd1bf3e0ac22e3bff7a",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.AluminumRod\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "73a7b05ab978230bf1204ccae1b3613c",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.CeramicCrucibleSmall_Aluminum\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "9d6c1367bea91d17c26df95fc6868504",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.CeramicCrucibleSmall_Copper\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "5160da7cf8a81db91d597da55e000043",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.CeramicCrucibleSmall_Gold\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "04df9f58ceb697803d561f044cc5b6d5",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.CeramicCrucibleSmall_Metal\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "f6b6f0b5acc2dc6eaf0072def3db6158",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.CeramicCrucibleSmall_Silver\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "e7f4ffdea34636e73c476bf4c7828f5e",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.CeramicCrucible_Aluminum\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "cb4b210e3205ef54ac4cdf5092994517",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.CeramicCrucible_Copper\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "9d908f66421dec86f92b31abf0e6993c",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.CeramicCrucible_Gold\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "9a3e630076f3eb9c36676789c40844cf",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.CeramicCrucible_Metal\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "837fb3b428dc60e3100ab0317a34485d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.CeramicCrucible_Silver\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "08f06bed522ed0edd5601353e19b081f",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.CopperRod\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "bbd405bd491771bbb5a4fbaf930d9687",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.GoldRod\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "f7f2fde77a02578108354cfb9c700f3d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.MetalIngot\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "1ca61808334aeceb894bedcac92fb6cf",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"BreakBigRocks.SilverRod\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "c120f7410ddfcfcf24024e1051b994da",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.AluminumIngot\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "cdc03f10546b00e6123da845e41abc37",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.AluminumRod\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "844a4b15f520644b280f1a5da46a0c3b",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.CeramicCrucibleSmall_Aluminum\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "011056d9dadc9351db7b5b4ef0684ab5",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.CeramicCrucibleSmall_Copper\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "22bfcb94d4970e1c9c1fa71b8300bba0",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.CeramicCrucibleSmall_Gold\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "b840c8710d036c178414400d807aae87",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.CeramicCrucibleSmall_Metal\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "68a5b7b87aa5318986b43620db4affa9",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.CeramicCrucibleSmall_Silver\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "519ee3e26256d33fffaaffd23c7c115f",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.CeramicCrucible_Aluminum\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "5e2851d19e504184cf7bda7adb9aae13",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.CeramicCrucible_Copper\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "fc267ab0d7295993238997ba072f798a",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.CeramicCrucible_Gold\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "6608e6af464b30d5b96245cb017a105c",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.CeramicCrucible_Metal\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "416ab8bb35ae28820a0547526dead3d4",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.CeramicCrucible_Silver\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "36605408e30fad868fdacafc24516e4b",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.CopperRod\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "d61de120dcff1ad0931a8222199d9a33",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.GoldRod\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "eebc6f75564c3faa6140c2dd1ca3d43d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.MetalIngot\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "efe9690c52241b13a9210024deba5529",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3538602374",
+    "translation_key": "[\"ItemName_BreakBigRocks.SilverRod\"]",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-02T21:56:30.0000000Z",
+    "source_hash": "4f202bbf942636dd86f6d63eea4341b0",
+    "output_file_stem": "ItemName"
   }
 ]

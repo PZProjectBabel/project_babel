@@ -1,0 +1,8 @@
+ContextMenu_SZB_SpawnBloater::en = "Spawn Bloater",
+ContextMenu_SZB_SpawnBloater::ja::processed::unverified = "ブローターを出現させる",
+Sandbox_SpecialZombies::en = "Special Zombies",
+Sandbox_SpecialZombies::ja::processed::unverified = "特殊ゾンビ",
+Sandbox_SpecialZombies_BloaterSpawnMultiplier::en = "Bloater spawn multiplier",
+Sandbox_SpecialZombies_BloaterSpawnMultiplier::ja::processed::unverified = "ブローターのスポーン倍率",
+Sandbox_SpecialZombies_BloaterSpawnMultiplier_tooltip::en = "Multiplies the base Bloater spawn chance (1.5%%). 0 disables natural spawning; 1 uses the normal 1.5%% chance.",
+Sandbox_SpecialZombies_BloaterSpawnMultiplier_tooltip::ja::processed::unverified = "基本のブローターのスポーン率 (1.5%%) を乗算します。0 にすると自然スポーンが無効になり、1 では通常の 1.5%% の確率を使用します。",

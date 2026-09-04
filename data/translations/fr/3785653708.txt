@@ -1,0 +1,8 @@
+UI_CS_DoubleSmokeTime::en = "The smoking animation takes twice as long",
+UI_CS_DoubleSmokeTime::fr::processed::unverified = "L'animation de fumage prend deux fois plus de temps",
+UI_CS_DoubleSmokeTime_TT::en = "Doubles the length of the smoking animation, so finishing a cigarette, pipe or cigar takes twice as long and there is more time to watch the smoke. Nicotine, stress and consumption are not affected. Does not apply in multiplayer.",
+UI_CS_DoubleSmokeTime_TT::fr::processed::unverified = "Double la durée de l'animation de fumage, donc finir une cigarette, une pipe ou un cigare prend deux fois plus de temps et laisse plus de temps pour regarder la fumée. La nicotine, le stress et la consommation ne sont pas affectés. Ne s'applique pas en multijoueur.",
+UI_CS_LightUpAnim::en = "Light-up motion",
+UI_CS_LightUpAnim::fr::processed::unverified = "Animation d'allumage",
+UI_CS_LightUpAnim_TT::en = "Play a motion for lighting the cigarette before smoking starts. This adds one action, so finishing a cigarette takes a little longer. Game values are not affected.",
+UI_CS_LightUpAnim_TT::fr::processed::unverified = "Joue une animation pour allumer la cigarette avant que le fumage commence. Cela ajoute une action, donc finir une cigarette prend un peu plus de temps. Les valeurs du jeu ne sont pas affectées.",

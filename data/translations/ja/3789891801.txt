@@ -1,0 +1,6 @@
+Sandbox_VVisibleSpeedReload::en = "V'isible Speed Reload - Hardcore",
+Sandbox_VVisibleSpeedReload::ja::processed::unverified = "V'isible Speed Reload - ハードコア",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick::en = "Visible Drop Multiplayer Visual Tick Buffer",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick::ja::processed::unverified = "可視ドロップ マルチプレイヤービジュアルティックバッファ",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick_tooltip::en = "Controls how many client visual ticks are skipped between multiplayer magazine fall-position updates. 0 is smoothest; higher values reduce visual update frequency.",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick_tooltip::ja::processed::unverified = "マルチプレイヤーのマガジン落下位置更新間でスキップされるクライアントのビジュアルティック数を制御します。0が最も滑らかで、値が高いほどビジュアル更新頻度が低下します。",

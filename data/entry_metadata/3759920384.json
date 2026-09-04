@@ -1,28 +1,64 @@
 [
   {
     "mod_id": "3759920384",
+    "translation_key": "Sandbox_Title_WanderingHordes_BasicSettings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "569f6f417d8b94eb55b48e523dcf594b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_Title_WanderingHordes_BasicSpawnChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "4a88265ded80f5a0eb78a9f9c0d13c07",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
     "translation_key": "Sandbox_Title_WanderingHordes_MigrationSystem",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1187996Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
-    "source_hash": "790b77c81a8ed90255e9ec9f0c2cdca2",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "2f9855e81f11d06a6a407afa88162adf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_Title_WanderingHordes_Parameters",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "f065938e9f3396cd5551affbbdb245f6",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3759920384",
     "translation_key": "Sandbox_Title_WanderingHordes_SpawnChances",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188002Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988388Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "fe4d45b1a5826bc4b841fa0e8a6e9f94",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_Title_WanderingHordes_TDZB",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "6ca79ead53f7c60cbe12e2997dfbfc6b",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3759920384",
     "translation_key": "Sandbox_Title_WanderingHordes_ZombiePassability",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188008Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988398Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "bfa89575d8da30897598a997320cba7d",
     "output_file_stem": "Sandbox"
   },
@@ -30,8 +66,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188013Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988404Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "adc1c1b2b1bc21a915d8c96f24382b1d",
     "output_file_stem": "Sandbox"
   },
@@ -39,17 +75,26 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordesMigration",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188020Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988409Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "ed5a6255c2a9f1e938428ec58d55607a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordesTimeDependentZombieBehavior",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "431c2a14c9a9fa362a5c2e61d043e042",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_EnableMigrationSystem",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988413Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "c7471f09d67ab3b34fae64a96863669a",
     "output_file_stem": "Sandbox"
   },
@@ -57,8 +102,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_EnableMigrationSystem_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988418Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "ba0979a6fb90af3d8a965ee4ea9c4113",
     "output_file_stem": "Sandbox"
   },
@@ -66,8 +111,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_EnableWanderingHorde",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988424Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "2ab7f0cf6fef8743795a3e4399360eed",
     "output_file_stem": "Sandbox"
   },
@@ -75,8 +120,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_EnableWanderingHorde_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988427Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "b8bda760b30e1b645b74e9af9f1279e5",
     "output_file_stem": "Sandbox"
   },
@@ -84,8 +129,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_Enabled",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188039Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988433Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "9f0bf034e949f67d521cfa77ec469ccb",
     "output_file_stem": "Sandbox"
   },
@@ -93,8 +138,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_Enabled_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188042Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988438Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "a86a3b1562357de2647233751bda32ba",
     "output_file_stem": "Sandbox"
   },
@@ -102,17 +147,449 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_General",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188047Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988441Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "95bf082ec4257be9b211b5d3662774f6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour0SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "d3916d232abd234be92a3bab003aa7d7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour0spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "82af19928bae236cfa6984541c058432",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour10SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "95485e2f76e8ed1cf1da4ce38675775b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour10spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "6fc881857c00bd521878457fca5dbb29",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour11SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "a092f6e15b50326c6e7772a45479fccf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour11spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "3935975554b679db0175d1d34569d108",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour12SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "bd9a4a6ca38142f2222b1cc1ebaa3712",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour12spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "28437243ab4769d88686b44a2286a805",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour13SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "4dbe35577b69cf52843c049972fc356b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour13spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "839a2882dfe9ffd602d1764e017752b4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour14SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "38089a8a1c86c926a067c481581316ca",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour14spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "1384975acb4b3e00dae4f1dbe4fb4a97",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour15SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "d04f164cd5973ccf45d51c8248f8adb1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour15spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "041c4b667912c2e29c00f810f397552c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour16SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "71750a41efe2eae8666a55a6638a366c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour16spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "3d45c82bf6a58843e5aa953c6d057e75",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour17SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "2d2d53a5e8e2da12bbc706babd5f6672",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour17spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "dbbde275d5f42c0eb51d878d02609368",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour18SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "bf478be5c87efae069855afcf6e37c31",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour18spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "a280b86798f4e566feb39320ac87112c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour19SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "4c6e592824709aebf9e9763fea4eb3ef",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour19spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "442e204c4ec4b37d2d8282168567e974",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour1SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "07dcae165c4fe3cffd2b379ccb9beb42",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour1spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "5b2a2231fe9f1b0e5cd35898fa70c9da",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour20SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "25de3a13b09b89ac7b6b9582441a0862",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour20spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "89ac974b47bed9cbb9a3787771e2c309",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour21SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "ae08abd7a7315996953780ccd6df8b7d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour21spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "291c7c5d8b430cbef0185f1094b76c21",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour22SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "aa7cb15449c34617d37125e896eb6267",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour22spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "dde5b61ad179d63dd0fc69548602bf20",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour23SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "78e22dc5fb3f893232c8b907c25df5e7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour23spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "54e3a9879ae0ac26831c96b041e175a6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour2SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "c28bccbb44859f99b288cd2a5bec4678",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour2spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "90f3adf4f8da3ee5489a536360a0aa5f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour3SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "d1561d812270d29a2c58d32ae3aead75",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour3spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "6224b98280c712d96fb0ffd72c18d18a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour4SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "b99d469af167c624699a1c9980da4311",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour4spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "ef77884f7705aca2e97c005e31994034",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour5SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "5f39374e020885ba2a41c0473218258b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour5spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "98778b1dfb171daa940261cf1a4b0b3a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour6SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "cb8e18bfff85a7759f07864c1bc2c82a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour6spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "b45f4fc416bd00a6131aee2d5d32e92a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour7SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "cef9744ff2c7728b925fd35b9aaffdda",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour7spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "3c9dc76c9fb2f526e932ec6847716d59",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour8SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "57626722ccd3b35712459dd0a7cf9c64",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour8spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "15267241db94a1c90e3da5c3dc00c08a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour9SprintersPercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "dcaf78769fa5719ece28841707c247a5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3759920384",
+    "translation_key": "Sandbox_WanderingHordes_Hour9spawnrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
+    "source_hash": "67a5af6fd046a6b45cf4321dab13eb19",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationBrandenburgChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188055Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988448Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "13bae90065d10a2b80dea73febc478d9",
     "output_file_stem": "Sandbox"
   },
@@ -120,8 +597,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationEkronChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188059Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988453Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "bed3aaf795479d11f306107a891f76fd",
     "output_file_stem": "Sandbox"
   },
@@ -129,8 +606,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationFallasLakeChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188066Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988459Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "47b3af49e7b4582d2e96fea25e378f5c",
     "output_file_stem": "Sandbox"
   },
@@ -138,8 +615,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationFinalDay",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188072Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988464Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "b7c1d9f3c5b2b86c3ce1a6cbb5942a64",
     "output_file_stem": "Sandbox"
   },
@@ -147,8 +624,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationFinalDay_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988467Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "50fe62a0018b3bad8ae6244f3b62b75f",
     "output_file_stem": "Sandbox"
   },
@@ -156,8 +633,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationFinalForestPassability",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188083Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988475Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "7c8fdb6eff3dfa8406af739890f0d9d1",
     "output_file_stem": "Sandbox"
   },
@@ -165,8 +642,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationFinalHighwayPassability",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188088Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988480Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "32bfbd3c168251f67e14b0e82d909066",
     "output_file_stem": "Sandbox"
   },
@@ -174,8 +651,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationFinalPopDistributionPercent",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188094Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988484Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "5b760535958f5f48ec5d8b86dcc47389",
     "output_file_stem": "Sandbox"
   },
@@ -183,8 +660,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationFinalPopDistributionPercent_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988488Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "d0ee0c7c16ee96688c404454483747ce",
     "output_file_stem": "Sandbox"
   },
@@ -192,8 +669,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationIrvingtonChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188104Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988495Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "3bab24af33094b9a2f8034bb5425b46f",
     "output_file_stem": "Sandbox"
   },
@@ -201,8 +678,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationLouisvilleChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188110Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988502Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "72da3b2729de5b71d2a7196832981cf4",
     "output_file_stem": "Sandbox"
   },
@@ -210,8 +687,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationMarchRidgeChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188114Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988505Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "d3759ed81b9d7bb3883c263cd022ae6b",
     "output_file_stem": "Sandbox"
   },
@@ -219,8 +696,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationMinSpawnChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988510Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "b95faaee85f42e656496f35fbb5a9194",
     "output_file_stem": "Sandbox"
   },
@@ -228,8 +705,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationMinSpawnChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988514Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "f53b9447ef26e9a3407197dd358805d9",
     "output_file_stem": "Sandbox"
   },
@@ -237,8 +714,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationMuldraughChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188129Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988521Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "b7ec23f3b33ce5a402e22bbbeefa2db7",
     "output_file_stem": "Sandbox"
   },
@@ -246,8 +723,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationRiversideChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188136Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988525Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "e8f58c1bd862bb68fd9846c81151e172",
     "output_file_stem": "Sandbox"
   },
@@ -255,8 +732,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationRosewoodChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188141Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988531Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "55fa4067e39994fceb5b3200aa97d367",
     "output_file_stem": "Sandbox"
   },
@@ -264,8 +741,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationStartForestPassability",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188145Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988536Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "e8b2dae37416b456cd353a4bbfd5a713",
     "output_file_stem": "Sandbox"
   },
@@ -273,8 +750,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationStartHighwayPassability",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188154Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988542Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "edbc3cd0a4155e044ba181becfbdeb6b",
     "output_file_stem": "Sandbox"
   },
@@ -282,8 +759,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_MigrationWestPointChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188160Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988549Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "a172c3b0b1132dcce73641a0ef83b1b1",
     "output_file_stem": "Sandbox"
   },
@@ -291,8 +768,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_TurnPassabilityCheck",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188164Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988553Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "31fae70136f048d734716cefbcf1cd4d",
     "output_file_stem": "Sandbox"
   },
@@ -300,8 +777,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_TurnPassabilityCheck_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188170Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988559Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "072d1e29c212fe277a8024e345b922a1",
     "output_file_stem": "Sandbox"
   },
@@ -309,8 +786,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_Wandering",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188175Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988566Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "fe3b0151ec5969f741c17e503d15f9f3",
     "output_file_stem": "Sandbox"
   },
@@ -318,8 +795,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingExitDistance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188181Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988571Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "ef67b2f6d1db4aa8d05af9de6cb6a6bf",
     "output_file_stem": "Sandbox"
   },
@@ -327,8 +804,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingExitDistance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988575Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "c1ee56f89b5276efb4f795dc2b6e8c92",
     "output_file_stem": "Sandbox"
   },
@@ -336,8 +813,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingLargeChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188190Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988582Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "ec5b02ec953ec1714f8551d157e79a80",
     "output_file_stem": "Sandbox"
   },
@@ -345,8 +822,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingLargeMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188195Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988587Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "7dd958119bdd4ba427cde4c618d8d8bf",
     "output_file_stem": "Sandbox"
   },
@@ -354,8 +831,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingLargeMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188200Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988592Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "d44819510660f2b2f82aa170c4ed4bed",
     "output_file_stem": "Sandbox"
   },
@@ -363,8 +840,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingMaxHours",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188205Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988596Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "1f5184018aac659ea75b9d17ea2483cc",
     "output_file_stem": "Sandbox"
   },
@@ -372,8 +849,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingMaxHours_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988599Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "6f3d2159e4562c338d2475122fc68b21",
     "output_file_stem": "Sandbox"
   },
@@ -381,8 +858,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingMediumChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188212Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988604Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "88db84c01f988162fe55aa5719e25175",
     "output_file_stem": "Sandbox"
   },
@@ -390,8 +867,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingMediumMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188216Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988608Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "351234bd9cbbf4ec823af881f717c921",
     "output_file_stem": "Sandbox"
   },
@@ -399,8 +876,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingMediumMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188223Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988615Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "1930db6e4796e4c22eb05c0b265ca181",
     "output_file_stem": "Sandbox"
   },
@@ -408,8 +885,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingSmallChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188229Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988620Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "b5aa430bf3897122fa1d9624a3f3e276",
     "output_file_stem": "Sandbox"
   },
@@ -417,8 +894,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingSmallMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188234Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988625Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "7117dfdd13c55d8de3dcedabda64b3c6",
     "output_file_stem": "Sandbox"
   },
@@ -426,8 +903,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingSmallMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188241Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988630Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "1907ab8deeb445e0248920b87429304d",
     "output_file_stem": "Sandbox"
   },
@@ -435,8 +912,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingSoloChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188247Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988634Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "71aee4fee416d029ed7b4afbbd550e8d",
     "output_file_stem": "Sandbox"
   },
@@ -444,8 +921,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingSoloMax",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188252Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988639Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "bd4fd0198ace66abe94fc83338609be5",
     "output_file_stem": "Sandbox"
   },
@@ -453,8 +930,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingSoloMin",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188256Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988644Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "726610fc2cd70e955a587d2132493743",
     "output_file_stem": "Sandbox"
   },
@@ -462,8 +939,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingSpawnRadiusTiles",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188261Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988650Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "a98964adbe7a52d690a1f82d02bb51cc",
     "output_file_stem": "Sandbox"
   },
@@ -471,8 +948,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingSpread",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188265Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988655Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "a3491fff8cd1817703cea7e9e963bc98",
     "output_file_stem": "Sandbox"
   },
@@ -480,8 +957,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingSpread_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188270Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988660Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "31a596e6ca23525ac29b8570a9035ffa",
     "output_file_stem": "Sandbox"
   },
@@ -489,8 +966,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingTickChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188275Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988665Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "1d5285054ee9b6d2a0a5b9aec3131936",
     "output_file_stem": "Sandbox"
   },
@@ -498,8 +975,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_WanderingTickChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988668Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "dedb0c3a6bbd2331b73765ca0cad3be4",
     "output_file_stem": "Sandbox"
   },
@@ -507,8 +984,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_ZombieSpeedToggle",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988673Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "e3ccc288e6065ead66bb6fabd47a3e8f",
     "output_file_stem": "Sandbox"
   },
@@ -516,8 +993,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_ZombieSpeedToggle_option1",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988677Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "da8cafb9f6c6148ed223cfbf2295947a",
     "output_file_stem": "Sandbox"
   },
@@ -525,8 +1002,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_ZombieSpeedToggle_option2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988682Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "59c3d12020a44f5717581756015c655f",
     "output_file_stem": "Sandbox"
   },
@@ -534,8 +1011,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_ZombieSpeedToggle_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988686Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "e74cbcb1ecf52d0786cda5837a55301d",
     "output_file_stem": "Sandbox"
   },
@@ -543,8 +1020,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_ZombieSprintersPercent",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988690Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "e9722f9ff582719b8cb1047e0e82269d",
     "output_file_stem": "Sandbox"
   },
@@ -552,8 +1029,8 @@
     "mod_id": "3759920384",
     "translation_key": "Sandbox_WanderingHordes_debug",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1188282Z",
-    "last_seen_mod_updated": "2026-08-22T15:28:18.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2988694Z",
+    "last_seen_mod_updated": "2026-09-03T14:39:56.0000000Z",
     "source_hash": "dd20aefcaae87730960d62ebcbcf884a",
     "output_file_stem": "Sandbox"
   }

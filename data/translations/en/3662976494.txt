@@ -1,3 +1,7 @@
+UI_MaskToggle_Hide::en = "Hide UI button",
+UI_MaskToggle_Hide_Tooltip::en = "Hide the on-screen button while keeping the hotkey active.",
+UI_MaskToggle_Hotkey::en = "Toggle mask",
+UI_MaskToggle_Hotkey_Tooltip::en = "Bind a key to equip or unequip the mask.",
 UI_MaskToggle_Lock::en = "Lock UI position",
 UI_MaskToggle_Lock_Tooltip::en = "Prevent dragging and resizing the button",
 UI_MaskToggle_ModOptionsTitle::en = "Mask Toggle UI",

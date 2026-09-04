@@ -1,0 +1,6 @@
+Sandbox_KI5GF::en = "KI5 General Fixes",
+Sandbox_KI5GF::zh-hans::processed::unverified = "KI5通用修复",
+Sandbox_KI5GF_FixKat1Suspension::en = "Fix the '80 MAN KAT1 sinking",
+Sandbox_KI5GF_FixKat1Suspension::zh-hans::processed::unverified = "修复'80 MAN KAT1下陷问题",
+Sandbox_KI5GF_FixKat1Suspension_tooltip::en = "Raises the MAN KAT1's suspension travel and rest length so it climbs back out of the ground instead of staying sunk, and stiffens it so the extra travel does not turn into a bounce. Turn off to leave the truck exactly as KI5 ships it.",
+Sandbox_KI5GF_FixKat1Suspension_tooltip::zh-hans::processed::unverified = "增大MAN KAT1的悬架行程和静止长度, 使其能爬出地面而不是一直陷住, 并调硬悬架, 使多出的行程不会变成弹跳. 关闭此项可让卡车保持KI5出厂时的原样.",

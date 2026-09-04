@@ -1,0 +1,632 @@
+[
+  {
+    "mod_id": "3785873072",
+    "translation_key": "ContextMenu_FTW_Configure",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "3ff1aac6274a27202f609abc83c27d7e",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_AlreadyEquipped",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "a49916b105b6a70399448f20d5b1a94d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Apply",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "69b8e072935ef5a629a8361641e622f2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Attach",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "c1803432e81578bd233c77bc7989805e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Average",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "be31b3f1bf805441a8df28690fde58d0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Bait",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "7cdfeb4e7da36cf1c16e1ba6b035256b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_BaitEffectiveness",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "535bbabe4fe0720d6e4083f95ab1df67",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Broken",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "9ef5df136b623aa99dccab5d1f50207e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Cancel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "5817c60bc2b38f5c3afc159d0cbc1b9c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Change",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "5541103df928e03d36bb903a207eedff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Choose",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "a2897cdab475f867714ca1b7f65873c5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_ChooseBait",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "87c8c2ad4b13118d7ba5366c7705dce6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_ChooseButton",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "40bcd42b2093b52b5ef4ecb2ec835c5e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_ChooseHook",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "309a4ad54e842a3834cbeec87e4e0044",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_ChooseLine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "9fb551b4b5728901b35aa9dd7d576fba",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Close",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "3571111ca8f11483cb85085a86716724",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_CompatibleTackle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "cce515d46556c53768fec9488a20244e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_EffectiveFor",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "c5a57d33656cf5d8b671ba75677ed3fb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Empty",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "5e2dae764adabfa5ad2793a897787d6e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Excellent",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "caed89f6eb01a3ee985eed13cd32a403",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Fresh",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "d2bf58977b29d64bbcdc194977ede3f5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Good",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "5a0c26bb682e1c2bbd25fe6fabb5128a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Hint",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "0c5a0e93051489419cd670dcee61d9f7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Hook",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "a330975c58d082273f0cb1cd7889b0af",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_KeyboardHint",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "a87f5353059667167c91d58e559fdd8e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_LastSetup",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "b33094e9af473accbea8fd3a36597364",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Line",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "066b5f323a4caf864b0007a1134d6322",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_LineCondition",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "66ec83a10a3aa1005d73b03dd6a4654c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Loadout",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "904794af7de4b2cc9ca23994ad5ec054",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_LoadoutEmpty",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "ff6e0fbac60bbe4a0a107dcf54d0c9cb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_LoadoutSaved",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "7f8e32a3ee7b63c9ba7b06d61b32b0ff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Loadouts",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "cb2894e002443fe4a9c04ebd982dda27",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_MainInventory",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "ab3ca8eca74de08cc2ba0930a7b41b30",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Missing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "cea44b51afe8435c65a530b6398b1b26",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_NaturalBait",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "585bf98295bc02cb9073824398daa5f7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_NoWarnings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "b56d1ae5bc283cfe668cafee720764d7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_None",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "7fc665ed3906168dc04adda0d71e9d34",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_NoneAvailable",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "02bc6b2f7b127a8182adb5ad3433dad6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Quality",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "37b11e04e3363b7c7c9c2e12835300d1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_QualityStandard",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "76784fca06e5ddb9d1e51b0074db188d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_QualityStrong",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "e10c9084dea207fd6d978f858ae9f1d9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_QualityUnknown",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "a2571f24dfea02462d5e2a8021611e53",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_QualityWeak",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "94606ebea18200c02bac0f3b8984f7be",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_QueuedChange",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "d0892ebf1e6c17c8a69a0c43b2bc84ce",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_QueuedRemove",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "3c3fd190f765993a42daf2cf1b5a8508",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Remove",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "2b34632f7ba8043270bdf047b8d00f33",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_RepeatLast",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "38cc6e6496280e929029224c8e492a53",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_ReusableLure",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "159dfe76fb33b6c85230db79dc8702d4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_RodCondition",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "4d050b92e71452339f574b33ab6eaca4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_RodNotCarried",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "ff46367ec3e302a296828b3abf4bc903",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Rotten",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "7d92ed8af44db6cf6a359b249c712715",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Save",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "a8f005f4ed2601f31a3282d48d394bc9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_SaveTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "56fc1c9d3b8421304abde2dc37b2b46b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_SelectBaitForRatings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "875141e393df379e39a8a6c25e9062f3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_SetupQueued",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "01a614ae92231364aa791fcd27241fd4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Stale",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "085a44f6b4876f8a5a753891c16fc551",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Strength",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "2371b482c1f51bb7dc48a3e36958dca5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Title",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "a7a3d4e098a25e8a256a6050f32a6f21",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Unavailable",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "41a38a7c67a5eecfaddd51633c118933",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_UnknownContainer",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "ab203f5d870b61a3486195a3172d48e3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Use",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "e4975f0ac5195e030020a8a6b45cfa76",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_WarnLastBait",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "b27e73886c3ff9336f2b51d13820eea9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_WarnLineCondition",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "414cf534f1b374182baa44be216eb430",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_WarnNoBait",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "83fb205e1a31465412c256aec39094e3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_WarnNoSpareHook",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "26d80dbfffdb687b9924f7cbdf31b7c3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_WarnNoSpareLine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "866450bf7204ed6701d39114871c55c9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_WarnRodCondition",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "ddd590e2345d6c39f862d251cbf9d9cd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_WarnRottenBait",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "448eab6bd1ee9209b0af8408ec89ffb5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_Warnings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "1b9e66276457a0427b7c0cbc2e04b010",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3785873072",
+    "translation_key": "UI_FTW_WhileFishing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-18T17:52:45.0000000Z",
+    "source_hash": "597e68132273f0f771d36c918a0177b6",
+    "output_file_stem": "UI"
+  }
+]

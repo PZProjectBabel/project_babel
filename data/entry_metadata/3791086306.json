@@ -1,0 +1,641 @@
+[
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_Base",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "410ba8338c38a968e0ca59da0dbca948",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_Closed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "347cc65bb82e937f8ca96afabbd80d8a",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_FaceShieldDown",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "bbb8a8ae889b2abc3a44ec95b48b6c02",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_FaceShieldUp",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "2b88dc0a0d4609ecc6e7face09af5d48",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_GlassesDown",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "02ee180009184fbe740604dc1496a520",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_GlassesUp",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "2b481429060ffa07760cfa7878893bc0",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "557f93e6428972e0adabe713b684f579",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_LoosenLeft",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "a8d18d095588e2380984d8926f9c57cd",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_LoosenRight",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "1c27721d300292a89cc245975c608ad3",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_NoStrap",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "f79e590c185fddefd19e2936a466f444",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_NoStrapLeft",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "642bcef8c98af755853f6dc9637e5349",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_NoStrapRight",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "f6aac42fc7166761889da80bcfecb51b",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_Open",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "4d517a46e27917b9a03709332dbba9e2",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_Tight",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "789b14879b804f270ba3bfaf50039bcf",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_TightLeft",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "136149e22d733128e08244591b8e8f9b",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ContextMenu_TightRight",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "3a14ba132131c5fa7bfc34eef64ff198",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ConverttoNormalBandaid",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "0af69b3ebd5d765871e07753ffd58451",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "ConverttoWearableBandaid",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "884e6449846a27179981e2106ab3b812",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.2Helmet",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "3eaee8c07530d93adb795bb13c608f6d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.2Helmet_FUN",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "8f7a33f081838319f9ddff7c03573404",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.2Helmet_UN",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "7144de3e21fc0d2393a9f3053387255b",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.BackpackBig",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "42240e6ba3c7b3eb46b2404df26bc133",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.BackpackSmall",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "14fd6c7825c18f5e56befe07afe5ab8d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.HeavyVest",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "596337a73d349db16158faac413ff57c",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.HeavyVest_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "22e11d005caba1b708eda6b9141d2f0f",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Helmet_Base",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "802d5ed1dbf845f770aae6bc1336484f",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Helmet_FaceShield_Down",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "24f5b5324b38433a4a270f05a4e3c2e9",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Helmet_FaceShield_Up",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "813faaaf76cc2fd1b3b36cd88b18067a",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Helmet_Glasses_Down",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "24249ade447eda9c657c57f5f85c4082",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Helmet_Glasses_Up",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "04cb0657a6251547cc332f3430a16c55",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Jacket_Closed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "035652c1d39fc5d63e64e2bbd069750d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Jacket_Open",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "6d3c700dc09d8ce45ec9bfe5244c0e84",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PlateCarrier",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "5d2b563e73aa9717c71d02ba77453751",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PlateCarrierFUN",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "1ac5d4b8038875dcb6553c71b7750749",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PlateCarrierFUN_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "e92f3c549731f5197cf6161092041300",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PlateCarrierUN",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "9e9acc969ed126ef3918467101f587cb",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PlateCarrierUN_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "6c70d8bb6e292326e49621c42390a7b7",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PlateCarrier_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "4c40a094872b82734938db5709eea4d4",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch1Left",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "c5f0f620fa24d1e4260343619d4ca671",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch1Left_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "6d78950d092d3a9b1a162a598bf086b3",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch1Left_NoStrap",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "ca5fa30f528887bd5c6c0c7b97a61b8b",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch1Right",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "6b2e93ed83850f3a1edf1cf618426d45",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch1Right_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "db015e2f1088ace63022ee63660411ae",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch1Right_NoStrap",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "0e58ed7474a54e8b74a54ea7861cc398",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch2Left",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "9087ec2b076a94922d7a214f21169545",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch2Left_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "2ae532c40428943313b529491d45f6d1",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch2Left_NoStrap",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "1a843a3aaccd1f920a8fe355f8974eca",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch2Right",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "8864927607d80672c2e8435a41e07627",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch2Right_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "15ef7e2ac37ac33838850675ff0cf2ce",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.Pouch2Right_NoStrap",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "5ea77874663d7432260c5580bc5b0ef9",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PouchBack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "7082c3f904765cb2942109704d6d2e44",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PouchFront",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "6471c5a38cb0c9222de821d22d81ee62",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PouchMinion_Left",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "b493d91373bfc98c0854ede4daf46679",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PouchMinion_Left_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "b71d5704e8b449dfb5470a2bef676887",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PouchMinion_Left_NoStrap",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "8bde705bf98827fe990c98b756edf54e",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PouchMinion_Right",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "bffcc6c422e56d016631128098aeb5c0",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PouchMinion_Right_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "d489ee54358df1c2cdb5c242f96e1c85",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.PouchMinion_Right_NoStrap",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "fa6991b5ecb2a7b0f306b649e69a44fa",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.TacticalCroppedTankTop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "254a8ae4c459e416c4ce389246474b0c",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.TacticalLeggings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "440c7bb0bdd2234c3e246cc41e8752fe",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.TacticalNoCamoPants_Skinny",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "02b6ff03bbbe88c95b388720fff1f625",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.TacticalNoCamoShirt_Skinny",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "1a21433227f421f208307460c663f907",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.TacticalPants_Mesh",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "7c3b8eff8a92314cfbb160d32aaf1032",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.TacticalPants_Mesh_NoCamo",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "956f5336ff835fe6e8d37d99d31e8080",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.TacticalPants_Skinny",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "5075e9b9c2b23cd920ccbc410810de8c",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.TacticalShirt_Skinny",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "4ab2d9be530a2cfa227f3a3194312c2d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.TacticalShorts_Skinny",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "a160f424b975b4afc8318205f2560d8a",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.TacticalTankTop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "07379c66d8cb96fc11b5696412d99429",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.ThermalShirt_Skinny",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "9bcb25ee15e21e9921ac11592f267edb",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.ThoraxPlateCarrier",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "7978274a155e00fc51e4c142d3798255",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3791086306",
+    "translation_key": "NMS.ThoraxPlateCarrier_Loosen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-29T08:37:01.0000000Z",
+    "source_hash": "242a226f00fcbd096b8512708ac7c5e3",
+    "output_file_stem": "ItemName"
+  }
+]

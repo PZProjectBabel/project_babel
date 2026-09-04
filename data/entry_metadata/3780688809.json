@@ -2,7 +2,7 @@
   {
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_Debug",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-23T03:10:36.1468289Z",
     "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
     "source_hash": "fc135198882eb2e5e71ee13f6d7b41ae",
@@ -11,7 +11,7 @@
   {
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_Debug_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-23T03:10:36.1468298Z",
     "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
     "source_hash": "fcdc5a52a23affce25feb478b0e0eafc",
@@ -21,35 +21,35 @@
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_Desc",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468303Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
-    "source_hash": "1807fa738b902181f74c2a61035bbb42",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
+    "source_hash": "2a4ca9cdb2c549565281de87b71afde7",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_Enabled",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468307Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
-    "source_hash": "8fc7304d8aea5734a962b974e277597a",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
+    "source_hash": "24fb506ca5169abd096011227a9e1235",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_Enabled_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468311Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
-    "source_hash": "52e2ccc7a1fa2132d6463cad13ed1af4",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
+    "source_hash": "c4588ed3bbba6ca7695ef43e837000b6",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_HiddenMenu",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468317Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3185783Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
     "source_hash": "4f7f584813fb0e91597f32a0ee6ea9e8",
     "output_file_stem": "IG_UI"
   },
@@ -57,8 +57,8 @@
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_List",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468321Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3185791Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
     "source_hash": "9c935b11ff02a0cba7fcc7994e8fdbac",
     "output_file_stem": "IG_UI"
   },
@@ -66,26 +66,53 @@
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_ListDesc",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468325Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
-    "source_hash": "a1538f3ae002d6b7d8715fb5464213c8",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
+    "source_hash": "478cfd4285404f8cade57ddc3f420c05",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_List_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468330Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
-    "source_hash": "9c018b844e511653d45cbcea2f35454c",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
+    "source_hash": "3ab649b48d27ab4b38d31e31e9fbf831",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780688809",
+    "translation_key": "IGUI_CMC_MoveDesc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
+    "source_hash": "83688add6c37dcbde598498e705680cb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780688809",
+    "translation_key": "IGUI_CMC_MoveList",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
+    "source_hash": "746365dc7d1d13adc4a3b831ae856f9a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780688809",
+    "translation_key": "IGUI_CMC_MoveList_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
+    "source_hash": "b32bfc3055fefb614d72620aa6a5a87d",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_RemoveList",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468334Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3185802Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
     "source_hash": "840dc46ee6a9cb545e508be3e390a17a",
     "output_file_stem": "IG_UI"
   },
@@ -93,15 +120,15 @@
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_RemoveList_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468338Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
-    "source_hash": "708f0ff07a5893fe042eb5136ee694d8",
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
+    "source_hash": "0ae4cae767c4e71c38ea3961c066d139",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_ShowHidden",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-23T03:10:36.1468341Z",
     "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
     "source_hash": "b3d2a8d25a528ceefe61c90d42d3adca",
@@ -110,7 +137,7 @@
   {
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_ShowHidden_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-23T03:10:36.1468346Z",
     "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
     "source_hash": "245b56b50828af25044c1614cb3dfedc",
@@ -120,8 +147,8 @@
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_SubmenuName",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468350Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3185814Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
     "source_hash": "e13a30b91c567252b7471080f5bb204d",
     "output_file_stem": "IG_UI"
   },
@@ -129,8 +156,8 @@
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_SubmenuName_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468353Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3185818Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
     "source_hash": "f0079186f4c96b74fa3deca3456526e0",
     "output_file_stem": "IG_UI"
   },
@@ -138,9 +165,27 @@
     "mod_id": "3780688809",
     "translation_key": "IGUI_CMC_Title",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468357Z",
-    "last_seen_mod_updated": "2026-08-14T17:33:57.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3185823Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
     "source_hash": "227e396a30c01956b93658b1bc469811",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780688809",
+    "translation_key": "IGUI_CMC_TitleCase",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
+    "source_hash": "3b93f97839a976f354b3bbb4afff677f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780688809",
+    "translation_key": "IGUI_CMC_TitleCase_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-03T00:43:13.0000000Z",
+    "source_hash": "488432f2dd358b3054afee1a385bb9bd",
     "output_file_stem": "IG_UI"
   }
 ]

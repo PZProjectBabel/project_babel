@@ -882,6 +882,12 @@ public partial class LLMTranslatorService
             ["max_tokens"] = _config.llmMaxTokens
         };
 
+        if (IsDeepSeekThinkingModel())
+        {
+            body["reasoning_effort"] = _config.llmReasoningEffort;
+            body["thinking"] = new { type = "enabled" };
+        }
+
         request.Content = new StringContent(Utf8NoBom.SerializeJson(body), Utf8NoBom.Encoding, "application/json");
 
         var apiStart = Stopwatch.GetTimestamp();
@@ -924,6 +930,12 @@ public partial class LLMTranslatorService
         }
 
         throw new InvalidDataException("LLM response missing message content.");
+    }
+
+    private bool IsDeepSeekThinkingModel()
+    {
+        return _config.llmModel.Contains("deepseek", StringComparison.OrdinalIgnoreCase)
+            || _config.llmApiEndpoint.Contains("deepseek", StringComparison.OrdinalIgnoreCase);
     }
 
     // ── Ref: response_parser.py:parse_response + _validate_entry ──

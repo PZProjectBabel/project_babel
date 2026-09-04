@@ -1,3 +1,7 @@
+Base.ChiliFlakes::en = "Spicy",
+Base.ChiliFlakes::ja::processed::unverified = "スパイシー",
+Base.ChiliPowder::en = "Chili Powder",
+Base.ChiliPowder::ja::processed::unverified = "チリパウダー",
 CraftChiliFlakes::en = "Craft Chili Flakes",
 CraftChiliFlakes::ja::processed::unverified = "チリフレークを作る",
 CraftChiliPowder::en = "Craft Chili Powder",

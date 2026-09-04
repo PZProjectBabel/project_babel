@@ -1,0 +1,6 @@
+Sandbox_VVisibleSpeedReload::en = "V'isible Speed Reload - Hardcore",
+Sandbox_VVisibleSpeedReload::fr::processed::unverified = "V'isible Speed Reload - Hardcore",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick::en = "Visible Drop Multiplayer Visual Tick Buffer",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick::fr::processed::unverified = "Tampon de tick visuel multijoueur pour chute visible",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick_tooltip::en = "Controls how many client visual ticks are skipped between multiplayer magazine fall-position updates. 0 is smoothest; higher values reduce visual update frequency.",
+Sandbox_VVisibleSpeedReload_VisibleDropMultiplayerTick_tooltip::fr::processed::unverified = "Détermine combien de ticks visuels client sont ignorés entre les mises à jour multijoueur de la position de chute du chargeur. 0 est le plus fluide ; des valeurs plus élevées réduisent la fréquence des mises à jour visuelles.",

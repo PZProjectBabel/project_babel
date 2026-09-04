@@ -1,3 +1,7 @@
+Base.ChiliFlakes::en = "Spicy",
+Base.ChiliFlakes::fr::processed::unverified = "Épicé",
+Base.ChiliPowder::en = "Chili Powder",
+Base.ChiliPowder::fr::processed::unverified = "Poudre de piment",
 CraftChiliFlakes::en = "Craft Chili Flakes",
 CraftChiliFlakes::fr::processed::unverified = "Fabriquer des flocons de piment",
 CraftChiliPowder::en = "Craft Chili Powder",

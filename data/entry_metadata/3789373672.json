@@ -1,0 +1,2198 @@
+[
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Button_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "c75c189f13df2a34d5369193ebb89e9d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Button_ConditionPatient",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "3fd01a30b5a052c7f2f662c4a64acf7d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Button_Examine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "85fdb65a69c548b38873d4c48480c80d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Button_ExaminePatient",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "08711287d3849b59b4ff2ea80b3223e8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Category_Chronic",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "1b0b3d3b1e717a1991740920232d17a5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Category_Digestive",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "bbe8499b14570c59c6846898e51ab72e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Category_Psychiatric",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b4a0ae8703a350e9d7042a59a479d422",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Category_Respiratory",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "801be3b81dbc3e411e0ccc16d6d4419c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Category_Severe",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "ce0711303e4ed588cc918c4f51acf03b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Category_Wound",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "87c4a9af0f81c0e12e98fd3a463c0a97",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Condition_Title",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "8a84db22841eb7832b7dcb4bd556f1db",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_Cure",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "52336de42109fe4113438b70bab06b6a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_CureAll",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "88b42ec9791ff2f8fdcd38e32677d2f2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_Dump",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "5b31277639b71a078f201f5f315b49f3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_Examine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "c9a1e736f5c25e38bb2ec479fe8dc554",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_Forget",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "78ed867a2a22dbea6f78542b554330af",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_Infect",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "1f962fa4acc884766d8510bf5b66d81a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_LearnPharmacology",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "71c2d711818df51d7add83e7ca7bb088",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_Reveal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "50858d77ab15ccae8703521199622477",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_SkillDown",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "75693b4b149e2da25d2634891a8bce33",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_SkillMax",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "12564bc03e6dfdb2846e0cc11244033f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_SkillMin",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "c5717b45968d700543bc2c69dfb05261",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_SkillUp",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "90a3baf5690410d7f49bec0d27bb2f94",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_SpawnBook",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "954123dad5e071a528c8736266b390fd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_SpawnMeds",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "0854cb938c3f0259e82efb3f21e4a963",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Dbg_Title",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b9547d6902cb767772dca77cc2cb07cb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Arthritis",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "936043f1a02108f78ad3bf4b21c93c47",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Cold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b27732ab4126b587ed11e3f2731b9bbf",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Conjunctivitis",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "165adf9444088d46eb70b2e7e9cff37c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Delusion",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "7b8b3ee582daae997d177bd43de83fb4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Depression",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "163a0e5c8e24bbf0f4d75116cedc396a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Diabetes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "21abca871a5ab532fb865738cd1c7529",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Epilepsy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "3eb2128011ab0cd2f8b6583a7124c264",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Flu",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "4e7e9f38611152ee0ebf5bd0b124590c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Foodpoisoning",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "374ba63ca94ab83cc62557eb485b19d2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Gastroinfection",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "6496d6d30af5b4661a9b5c03f0c9527c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Hallucination",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "01d7de06c4e62e810e8e00285487dda2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Malaria",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "6808d0410550166913f206afe446dd82",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Paranoia",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "aade37d1cb066a3153efe40ee88a8a04",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Plague",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "2e2965eb1631c24267f0bfe533ebc4ef",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Pneumonia",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "cf4bd95c598d7104a9c4ee6201f50dbd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Rabies",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "f233223853bcfa7b81f519f5f8b8b657",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Tetanus",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "597d084ed3ff231154c2efbc9e5712e2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Disease_Woundinfection",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "88000be51167b96a64df2cccfc44be44",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Duration_Days",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "7595e12d43f316116969d40134d589ba",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Duration_Hours",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b3f0b23515896b1f9a1a3be99530e4ad",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Duration_Minutes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b12d4af0c0a4ca0649cd53538eb70c74",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Duration_Now",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "e25c5e02e4ffd5cb3aca8149d2279150",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Header_Immunity",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "1b0adc99c509a45c5b1f0fa1bf281bf2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Header_LastExam",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "4a3c487efdc9d235a37d16c5e69313db",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Header_NoDiseaseMod",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "c3a0118be7ff9ab10ab2013061ca0163",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Header_PharmKnown",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "395005513ae387d6747df27ccf27ab24",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Header_PharmUnknown",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "e29fd2104c89d90e10ca0b83a93606e1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Header_PharmWanted",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "30ae39aaa5df59630583bfc3d3067dac",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Header_Skill",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "05c16d9629a0b1813d95a80f1e71ef40",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Header_XPCooldownReady",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "d6ff80a98eda2c4f7d52cd098e52e275",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Header_XPCooldownWait",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "3aa19a6c12274bf6f37548bd6e788a47",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Immunity_Failing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "0111f7e352443e0bb479e80d4435a27a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Immunity_Fair",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "6ab812f7288de0fdddd31712d98b099f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Immunity_Strong",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "f56ae6cde89ed0601cdee6a289c1f567",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Immunity_Weak",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "5374d7c566156e61b77f606f13e00308",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Note_Examined",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "5243ff857d72a7acd6750e898e8c5b31",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Note_ExaminedClear",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "21ea74e35a64cde436ef1202c89295f1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Note_TreatmentBlind",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "ca9d0236adcf15e3ff30a35e9cfcb9f2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Note_TreatmentHarmed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "4c16ff5f2565a2ef553b11dc663e251a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Note_TreatmentWorked",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "9d4fcceb666c2aafa9d2c1410d866e6a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Note_TreatmentWrong",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b3c3ac00a80473bd3e9a20fd6c261e6d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Patient_ExaminedBy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "022cdbb0e67545943d40fd2a17f4579d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Patient_NotExamined",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "8d529fb245fccaba39f1d6d714e69e43",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Patient_NothingFound",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "fbcae1a011a6c8c34f8070b7947d22d7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Patient_Title",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "dc5bb502417f4ca22b1310eb42009e8f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Report_Advice",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "60b22057f6aa989ea32e958198037316",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Report_Category",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "65426d952bc9b57af088c7f257017fd1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Report_Duration",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "2800c65e6ac5df1b110231293aa40a94",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Report_Empty",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "6dea9de7dab41132fc08fcb6f040e54f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Report_Medication",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "1ab0be06628cbad6d3eb29188f9d67e9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Report_NoAdvice",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "24cc936d2c6ea1f5a3bb748b9463d115",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Report_ToldBy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "89dd54cc62264589ec3140ce0317a3be",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Report_Vague",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "dd58a8481d73615e8461c8bbd0e49bec",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Say_CannotExamine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "ad31fb0af43d3d6787815e06cd076cec",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Say_FoundAndNamed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "4874534ae0cd9e550f46fc2ab490ff47",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Say_FoundSomething",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "53c147da315ec972230216cb3fd55bce",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Say_NothingWrong",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "397bc3fbae97f9e097afd30055cc4e4d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Say_PatientFine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "895f127f551b74aebaebc158e127e1a8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Say_PatientNamed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "2a55e6c8dc3c53bac9898b225bfb2b1e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Say_PatientSomething",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b0274621a5baf1b00f52d4db5882b3ac",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Aching",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "8917b1909382f8d7f0008dc55b34b671",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Agitation",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "4632c62ed5d3338ab31a92c31c098f6a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Apathy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "1a4dd56dc3a03fa08ce0b389a6c8e2b2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_BloodSugarSwings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "fdc34b715f6718740f6c2d73d4ac6990",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_BlurredVision",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "be2babd1f771b53dc3b42511e86301a4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Breathless",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b38a7602f7f7a2b2c207e025c7f1f11a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_BurningEyes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "800b62bf2e37dd38616ddf32d6a31522",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_ChestPain",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "06ba868bc6e868f2dcdfaef2d536b570",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Chills",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b58dbdb665e06e6ba8b5342a72b75b65",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Collapse",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "74a936a3cc841d96f32c527c6668b973",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Confusion",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "4d034b1d928b36bfdf1fb3bfdf468a92",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Cough",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "f726fdfc0981bb1191f810a841dd2106",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Fatigue",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "999811374eb150f25d8e6ca5bc35bbf4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Fever",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "7730a8de3bafdf938786dd8b545f993a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_FeverSpikes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "fb6dacdd8c8c105cdb52334d4d4dc902",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_HighFever",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "01a7a8e88bd1a83caef5f3af24b8e9ba",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_HotWound",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "e3effeee6718dbccad544853e9cef896",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_JawLock",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "4ba4480aa733aa482887b94e70e1e537",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_JointPain",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "d590769b552d04ffd1b4f3974c056c84",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Jumpiness",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "db2d62d61187546beea4cb73ceb1e74a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_LowMood",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "bd32015843edb5534d1dc7e6a73b96b6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_MuscleStiffness",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "0c4b70689d9f55468dd23d09e6641511",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Nausea",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "7c89595eab1d54a8629dd61c122a9773",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_SeeingThings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "68344c31c4800499263e8aea7d9500ca",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Sneezing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "17409c3a15e7da484085addd7a970be0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_SoreThroat",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b29f6ea588610d9972dfff7afe2bf856",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Spasms",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "c1e1c475912935796bc9f31835e737b9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_StomachCramps",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "0c8eba61d9ea9bac7fee0f8a98e03022",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Sweating",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "18b3c7c2d8ac4b52584ab9989a47b0ec",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Swelling",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "673d2a27ff08c7b3de539eee5d12e619",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Thirst",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "9f27a7b524777bfbd05d87fea8c084cc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Sign_Weakness",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "a3ec3f31c57b246fdfb53eea0372ae83",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Treatment_Antibiotic",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "ae14f5550365698699f71699dd348f60",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Treatment_Insulin",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b34b1a02b49842c95c617be1b11b2a61",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Treatment_None",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "bd430c1fa08c167a5a3f2c93c8beeefd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_Treatment_Supportive",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "0e144645e861ebe35fac584349da9c87",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "IGUI_RM_XPNote",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "443317c7c24cff642ed16f90587bfb01",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.GLP1Syringe",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "2332338b6a1e979f94fd5ea69c63782a",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.GlucosePen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "3b722c091375bdfdcd3a6e1439d96133",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.GlucoseSyringeLarge",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "6deda497eb1f4073d3a258662ea039e6",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.GlucoseSyringeSmall",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "912d0e9278b3dd7830d22f73e3547da1",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.InsulinPen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "44c744a7b775c1998a80edb6d1266b8a",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.InsulinSyringeLarge",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "849e42e56b1e354af42e8f0ade2671bc",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.InsulinSyringeSmall",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "fe7073c8b6ad7117d6256b53467296a3",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.MedboxGliflozine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "6813d095ec503f9c97d6fa02a6f3ef67",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.MedboxGlinide",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "be13279ce8d1065eef325c376602f095",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.MedboxGliptine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b9e6fe58a94a00693c43bc39d40b011d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.MedboxGlitazone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "2066fb1671b624ecf38784b3436a7d39",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.MedboxGlucose",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "d2176c0c823ccdf94149628ebe1ecd4b",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RDItems.MedboxMetformin",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "da82f067374cc151595708f37a0888bd",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RMItems.CompoundAntibiotic",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "6637bbf016b1311958cfa7b42a8f357a",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RMItems.GarlicTincture",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "97841b78168c8fa5df18ba5c6ce79bc7",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RMItems.GlucoseSolution",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "217c9201433ba29fa7c6223ea03e89bc",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RMItems.HerbalRemedy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "6359560d7e135453440a56ba44a03fb0",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RMItems.MedicinalSyrup",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "f77ac6427877f1d39d4f31a5bb531f23",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RMItems.PharmaceuticalBase",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "f6c75812284956b6546cdf86d469cc88",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RMItems.Pharmacopoeia",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "adfd21b6fdfadff3d9bd6765112d9cf6",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_BrewHerbalRemedy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "f35e6c894724349bf0a8acc5752b99fc",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_CompoundAntibiotic",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "8a20f457b901dcc4c60b9bd9aab5aab4",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_CompoundGLP1",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "ea49a2356bcdd70b7542ff71a7a20654",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_CompoundGliflozine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "ffafaeb56c60fb7fb6f43804765f66b4",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_CompoundGlinide",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "81403a87d6e2ab1e8ed4a802f9e70bc3",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_CompoundGliptine",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "78c51067ad2a2fa4491ac1eb5d8ca858",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_CompoundGlitazone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "76e160965b8e0fb23c4f42a3561c52cf",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_CompoundMetformin",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "37e4646c46dbb6917cfa1d5fa45d4ae9",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_DrawInsulinSyringeLarge",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "e377f840b3c68176185350c9ebac965d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_DrawInsulinSyringeSmall",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "4bf03952aef32219507b57189dde892e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_FillGlucosePen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "9d1cd3505891900f10c9fa888d6aa468",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_FillGlucoseSyringeLarge",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "f9bcb5be7fad04dc1e1103c6250b39e2",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_FillGlucoseSyringeSmall",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "e1e1b6b0882db72b1a117080d0f6184f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_FillInsulinPen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "5027073b0fff226e40ff4a4525d5f48c",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_MixGlucoseSolution",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "46fc010deeb62af0ed369ca45885e256",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_Pharmacology",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "65f88b948c88a0718a4bc71a311fa3a3",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_PressAntibioticTablets",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "7f87567e18ca080a34528c89d0791542",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_PressCaffeinePills",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "da84ebfbdc09d2ef876a15d5e8bb34f1",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_PressGlucoseTablets",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "6aba99dceb5c8b63cfb887ec7f05687c",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_ReduceMedicinalSyrup",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "1c526ecd2728d4ae01d991f6160dc09a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_RefinePharmaceuticalBase",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "8f863f4939fc1d9d423715f0428c743d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "RM_SteepGarlicTincture",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "decdd97396a5127454efc704889d3242",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RMPage",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "75996481161e0a45d3ccaf0ea7e3f372",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_DiagnosisBaseChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "dc09b5ade076f198e3213b65386d65d6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_DiagnosisBaseChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "dfc0f847a22d6673bb7e850b0bcbf3f9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_EnableComplications",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "bb3e5118e0f3a45e41e7bb8a7bef48a4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_EnableComplications_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "a0bee44ac5eb12dfa218d645bbc5cc32",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_EnableDebug",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "ffec3918c7b274ae7fa289e1d47117a5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_EnableDebug_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "265c2f6c079dca7ba4b9584e4bb4f835",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_EnableMisdiagnosis",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "2e2b6464fa8941d59da8c2c4f0d16d13",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_EnableMisdiagnosis_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "1899447c3b5ba6067e2f3b4c9b101781",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_EnablePharmacologyGate",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "735131dcab590154b6cec3f40de76373",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_EnablePharmacologyGate_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "1db08dd838c9e2d11189c77874406608",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_ExamineTimeMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "d50858989b39b06830fefd831836e10c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_ExamineTimeMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "f789e19b0d7a1a8dfcd90fdf1990aa5a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_PassiveNoticeMinutes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "5dab8683f5a8b5bfb74b71f8b31a6cd7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_PassiveNoticeMinutes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "fc74d7e8271e1e429e913bf713104414",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_TreatmentBonusPerLevel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "29286184c5987dc28945fae569815531",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_TreatmentBonusPerLevel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "5b5036eeb0e7b86e77db3acbd40a3981",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_XPExamineCooldown",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "f5afc728b25e42312ccdece6827f1cbf",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_XPExamineCooldown_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "c7a5f79af66b92ad6c3a80d6226081cc",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_XPExamineNothing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "e865ec16b75d29aeb085ba3366f802ba",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_XPExamineNothing_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "03a806c222d4fe95beef850743951dae",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_XPFindingNamed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "6ef799d9688c29d3c4a87fec3c5eb4f2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_XPFindingNamed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "61b46caa573e4faba3868cfd154d9a1c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_XPFindingUnknown",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "a10b1179cc8d6a841f22e3a1ca154837",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Sandbox_RM_XPFindingUnknown_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "9248a1836205ba7d17ac652053dc7652",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Tooltip_RMItems.CompoundAntibiotic",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "a721a123c17fb9a83e5f53593e8a11ca",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Tooltip_RMItems.GarlicTincture",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "5c881d8dee180e23d78e1e060d6c6f2a",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Tooltip_RMItems.GlucoseSolution",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "d644d868f6311b732680f57a485a24d8",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Tooltip_RMItems.HerbalRemedy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "78b9a4dd52babb0c53ac74da6d8a1c10",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Tooltip_RMItems.MedicinalSyrup",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "cbb06a58233075c273cc14abd63d0f61",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Tooltip_RMItems.PharmaceuticalBase",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "1fa86066367d70373bb7d1ba07793846",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Tooltip_RMItems.Pharmacopoeia",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "52a0eeeaee57cde3a9e2c057fc855e01",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Tooltip_RM_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "2bad11dfafd10e63f667b976de0f4227",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "Tooltip_RM_ExamineDetail",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "dec5500e0839c509289b7d230479799a",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_cantEat",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "2c0af0a5fa940715ebf693e941c53061",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_droppedItems",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "0bbed13fa1ac93e2368478b63d663bff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_feelDizzy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "56131b77c63534b009c1769d69998a0e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_feelSick",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "91d3947506c349960baae25a120973c4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_forgotAction",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "11d3242c1bd4c95f248a6d37d70e785d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasArthritis",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "30adaf1fa7056ab6755a69504fb5ee65",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasCold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "1078cad6e5b782b6264a2b4d5da15d42",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasConjunctivitis",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "9b440f890bbd8e1f29c64d7a90166f6a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasDelusion",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "f5c8bfda167fc9e620f21e8c4e11cc6d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasDepression",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "870839bbab531bda317c7a6c5caa52a4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasEpilepsy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "8b5720685e7a3de0c98927bdd3418250",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasFlu",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "67d8f6a4b2aef589973165f0eac02813",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasFoodpoisoning",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "0e896ffe7bc71c17a4b8966064778fee",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasGastroinfection",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "afe76b642436ee27de328e337ae6a179",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasHallucination",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "60651e1423fac013c3d1d2d6db47dd2b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasMalaria",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "bab6c4caaa2f23569ed7f2272433edb7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasParanoia",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "c85bf53c44136572b6090ddb9f2dee25",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasPlague",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "a6a8e084b779e52a37eb31853323d487",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasRabies",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "88da5f3666aa5bf73ec6564a5211b017",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hasTetanus",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "87fcada60783aa2d71aaa818b6074486",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_hurtingChest",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "0004ea4781fab31b9583e2b8d3b4cbe4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_loosesCold",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b5b477b94a68fb174bb28fc71a34677c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_noHurtingChest",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "81eb9d2187ae045819bbe7b90ef433f7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreArthritis",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "e3d2b6832e7a289525a35ec7c6f545ff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreConjunctivitis",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "f83ece9be650bad2b27458780b492754",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreDelusion",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "e28bd2abdb9c06888db6fc2b23d6f090",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreDepression",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "c502fd1d7ea06f7ff4dd771de2057ecd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreEpilepsy",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "597c91820313727efa187cd753106650",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreFoodpoisoning",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b0b1d3665b827eb4b4c848526af7772f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreGastroinfection",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "23835609b07070ffb4e5bc05cafcda7e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreHallucination",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "20cd075001638142f5b54cd75d049838",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreMalaria",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "988a4a86f0c69d6b72e4d267e833fc88",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreParanoia",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "da6c04dd2af4097d7b576d7d619f3500",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomorePlague",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "693fdcf8c7311039229338fdd4688e18",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreRabies",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "80364fd787e4e8fd2d0418109967a5fc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_nomoreTetanus",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "d78c464569e0246754cb9a8ca1d5e633",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_sugarlevelCriticalHigh",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "839f36531fe36239cf2369a111007f77",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_sugarlevelLow1",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "bc1695e6caf955889a30c25ea608c4b0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_sugarlevelLow2",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "09113371309b27c1b0fd132532ca845f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_sugarlevelLow3",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b94e741a08767da73e9dc6a0c6004185",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_speech_vomitting",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "36937c3aaa7bb0931f5e2c4192e8112a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_trait_RMHypochondriac",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "b72b7166c8d07152376f4dbfd0ba5f22",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_trait_RMHypochondriacDesc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "49982f5661d73a5f3d4ef9bb92c431a8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_trait_RMPharmacology",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "e79108c1101a6c7553f3a837af3fef8d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789373672",
+    "translation_key": "UI_trait_RMPharmacologyDesc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-27T23:28:07.0000000Z",
+    "source_hash": "879ffc2ea83a6c9c8793dac28625bbc2",
+    "output_file_stem": "UI"
+  }
+]

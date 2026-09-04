@@ -1,5 +1,8 @@
 Base.CraftedSilencerMountOn::en = "automatic handguns only.",
+Base.MetalPipeSilencer::en = "",
+Base.Silencer::en = "",
 Base.SilencerMountOn::en = "automatic handguns and automatic rifles.",
+Base.ThugNotebook::en = "",
 IGUI_ContextMenu_AddMetalPipeSilencer::en = "Attach Makeshift Suppressor",
 IGUI_ContextMenu_AddMetalPipeSilencerDescription::en = "Reduces sound radius by 50%% but slightly lowers range",
 IGUI_ContextMenu_AddSilencer::en = "Attach Suppressor",

@@ -1,0 +1,659 @@
+[
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_ContainerTitle_TunaEquipmentRackDrawer",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "ead0925f3b445e8f19e690b24f0b1c7a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Bay_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "a1a86f7b1a363f9c0bf013a79093987a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Bay_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "d07622ef6478819275d0c94a3c2f5e08",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Bay_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "bf18dcb53d017fc07a1a5c83371ecaa3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Bay_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "a58e0d054ffdd5a82cba4443b7171ba6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_BAG",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "8ad46989d24065151abfd83470ab25d0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_CUIRASS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "9e327b9abce121695f764e6b4172cbeb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_ELBOW",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "a8307adbbb5b53b8ced9ad405b9226c1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_ELBOW_L",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "30f005eaa1ff6bd0d9afaccee9b3a6dc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_ELBOW_R",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "51b8a1f452d8f45e7975dabf4bdd73ee",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_FACE",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "fd28b7ea2d554cdf33732def4534dc0a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_FEET",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "5a1d40d60197f5032537dd330db9ca83",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_GLOVES",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "492308f18f118aa81b157b03983639e9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_GORGET",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "6a05e68b28fb7fe16f48548d0cafedf1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_HEAD",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "d8b841a6732cdf355df567decf1e1e66",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_HOLSTER",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "23b2307c3415f2d7f3180ea80c75e76b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_JACKET",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "45d41aa831cfd00b20d8dce03fa9f7cf",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_KNEE",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "b47f1ae62469c761e0c77930e813b8f2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_KNEE_L",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "d50b75a12684edea7e1cb9d92c1cf9a8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_KNEE_R",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "4be9da8b15f6d2de81f17c4af7daa82a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_LEGS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "0f95a7150b792d9fb0afca87068ce226",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_LOOPS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "195f0a014e3eef22693b5cece5f75062",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_PISTOL",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "e816a8ebebb8a659917c68caedbdf9d6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_RIFLE",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "05edf98fa04f529c286b3af04cb663a2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_SHOULDER",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "8b19b128d47f8637b88bc2ed79c78f86",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_SHOULDER_L",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "147b8dccc9edc0cd310051a27373aac0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_SHOULDER_R",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "215f1e521d8b8c578c87bf372f3e7b79",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_SUIT",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "2ba10f82522ce49ecdd9bcbaf7d5542c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_TOP",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "64b6caa1c559a6cf786e203d5bfe00a5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Empty_VEST",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "bba5b4165a7035f3b2bba095f856471a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Piece_armor_rack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "3e4d640ca15118664ef951425565da85",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Piece_armory_rack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "a74809cfc791bc8242c634093e77f5a2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Piece_locker_metal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "049917717fdd4eb3869624e8b1848b5c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Piece_locker_wood",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "0ee00063594c6c757f00d834a73a6a08",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Piece_rack_metal",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "62ccdb41aa6caea4cc814eafe684f9c3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Piece_rack_wood",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "4eda7b20abf992f9312245e56cf07aa3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_QuickEquip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "a12f7d9cd253b7d4b9f31d56248acb77",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_QuickStore",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "c688fcb653ac7010a80c1608f02a96e5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_BAG",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "d976fe8cb5004584315c9db82cfed63d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_CUIRASS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "f1e788e5170363e2c9afbd5f1ed6e5f2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_ELBOW",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "d6b7e5f987ed8586491ac8f3beb4c54d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_ELBOW_L",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "ddb3c2928c5a09cc5539a7da5a9a3780",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_ELBOW_R",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "307785518fac5b26af3307c49f28561c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_FACE",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "083be62576e4ef720c24814314d27d2b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_FEET",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "07eda64e409310c87e118724f0c53d1e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_GLOVES",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "b180ce6bc0d9fe31d1306a1fa33b5292",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_GORGET",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "8051b1221c383d607eed07d254fa9a0b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_HEAD",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "cc0e97e3bec9bbee48582cad544a0c8c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_HOLSTER",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "6f6b70d374488c0086fad5fed1867188",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_JACKET",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "61995945db0ff5250d423a3c6e6d7900",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_KNEE",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "97889bff9b04d7d941b198cf03bedcb4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_KNEE_L",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "780f374c2a29f3443bda501587ea2179",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_KNEE_R",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "d05e67390389dfd459f701ea283e01bd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_LEGS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "f560808b4c050e32b54c7be649c94033",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_LOOPS",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "f6a3a30410910ec2126236e9361867b6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_PISTOL",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "c41782a37664d4d748ff80180ab1f449",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_RIFLE",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "ceadbf2b8dcbfc27d4a6a31665cf60dc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_SHOULDER",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "ee6e951eec6602b94be6333fb092af42",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_SHOULDER_L",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "211ca5b900c09139b4ae3e29d8bc1ab8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_SHOULDER_R",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "fc63c514bb3c4602a69d48c857f9e7fc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_SUIT",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "d2b4869b42f6e032669c715f9847da36",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_TOP",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "f0e3eafc73d5371c37fe94042f226be3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "IGUI_TunaER_Station_VEST",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "7598aa22c9cc67cea00a4d2b849ca0e6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "Tuna_Armor_Rack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "30efa833809c02056b0f6eca58135753",
+    "output_file_stem": "Moveables"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "Tuna_Armory_Equipment_Rack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "7f56563068e80af3a31a0f9ed02839b5",
+    "output_file_stem": "Moveables"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "Tuna_EquipmentRacks.ArmorRack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "88842324f066363e96b0408c101da091",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "Tuna_EquipmentRacks.ArmoryEquipmentRack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "04ddccce910212410cf6ebfe7877aab6",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "Tuna_EquipmentRacks.MetalEquipmentLocker",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "deb9afce64f1ee26c5b04d5e6f9afaf6",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "Tuna_EquipmentRacks.WoodEquipmentLocker",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "5c85e442e744b9ec77ed4c788e6780c3",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "Tuna_Metal_Equipment_Locker",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "5504b95a4c617e1ee88240cbb8c3ff3f",
+    "output_file_stem": "Moveables"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "Tuna_Metal_Equipment_Rack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "cc82d8d3d30d8bbc1a4bea0e9202f143",
+    "output_file_stem": "Moveables"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "Tuna_Wood_Equipment_Locker",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "da4142d015cefb04fef43792e0b7fd63",
+    "output_file_stem": "Moveables"
+  },
+  {
+    "mod_id": "3793403177",
+    "translation_key": "Tuna_Wood_Equipment_Rack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-31T12:48:58.0000000Z",
+    "source_hash": "72392d1a62dc793f5e213fbabde19652",
+    "output_file_stem": "Moveables"
+  }
+]

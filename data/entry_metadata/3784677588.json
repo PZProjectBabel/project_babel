@@ -3,8 +3,8 @@
     "mod_id": "3784677588",
     "translation_key": "IGUI_ContainerTitle_TunaWeaponRackAmmoDrawer",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1498850Z",
-    "last_seen_mod_updated": "2026-08-19T21:42:20.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3210968Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
     "source_hash": "7157c7dcf303dc291fca84416803750b",
     "output_file_stem": "IG_UI"
   },
@@ -12,8 +12,8 @@
     "mod_id": "3784677588",
     "translation_key": "IGUI_TunaWR_Piece_armory",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1498857Z",
-    "last_seen_mod_updated": "2026-08-19T21:42:20.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3210975Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
     "source_hash": "3280390431a92468afcf5a79efa6a8cf",
     "output_file_stem": "IG_UI"
   },
@@ -21,26 +21,44 @@
     "mod_id": "3784677588",
     "translation_key": "IGUI_TunaWR_Piece_cabinet",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1498860Z",
-    "last_seen_mod_updated": "2026-08-19T21:42:20.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3210978Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
     "source_hash": "509aa60ef0daf343dfce4638d21e8aba",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3784677588",
+    "translation_key": "IGUI_TunaWR_Piece_fieldrack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
+    "source_hash": "013adb051f2acb5925b67e4e7dd72ecb",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3784677588",
     "translation_key": "IGUI_TunaWR_Piece_handguncase",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1498865Z",
-    "last_seen_mod_updated": "2026-08-19T21:42:20.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3210983Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
     "source_hash": "fda2f4869610a2c02fe9e2227214a59e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3784677588",
+    "translation_key": "IGUI_TunaWR_Piece_pegboard",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
+    "source_hash": "6b24a76f4759320d337360e563372258",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3784677588",
     "translation_key": "IGUI_TunaWR_Store_HANDGUN",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1498868Z",
-    "last_seen_mod_updated": "2026-08-19T21:42:20.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3210987Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
     "source_hash": "07109b6821431a72d2cd3f43cdcbcc0d",
     "output_file_stem": "IG_UI"
   },
@@ -48,9 +66,63 @@
     "mod_id": "3784677588",
     "translation_key": "IGUI_TunaWR_Store_LONG_GUN",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1498872Z",
-    "last_seen_mod_updated": "2026-08-19T21:42:20.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3210991Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
     "source_hash": "53f713cdb0c29aba3cc48ce129ca48d9",
     "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3784677588",
+    "translation_key": "Tuna_Armory_Cabinet",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
+    "source_hash": "2c6fa40f9350e53703853cf9c95d2f3f",
+    "output_file_stem": "Moveables"
+  },
+  {
+    "mod_id": "3784677588",
+    "translation_key": "Tuna_Armory_Rifle_Rack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
+    "source_hash": "3eec9bec245d338609c46aacc3c7cf1b",
+    "output_file_stem": "Moveables"
+  },
+  {
+    "mod_id": "3784677588",
+    "translation_key": "Tuna_Gun_Cabinet",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
+    "source_hash": "90a6fc3f5ff483a6e127533aa5e191c9",
+    "output_file_stem": "Moveables"
+  },
+  {
+    "mod_id": "3784677588",
+    "translation_key": "Tuna_Handgun_Display_Case",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
+    "source_hash": "1272182d4b3c0550bccf757c37a4b53f",
+    "output_file_stem": "Moveables"
+  },
+  {
+    "mod_id": "3784677588",
+    "translation_key": "Tuna_Rifle_Wall_Rack",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
+    "source_hash": "6182f12e4ef8a21a8a0694bfe1795970",
+    "output_file_stem": "Moveables"
+  },
+  {
+    "mod_id": "3784677588",
+    "translation_key": "Tuna_WeaponRack.Armory",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-25T01:40:23.0000000Z",
+    "source_hash": "ae025abff6b3830b6c20e660425ed68c",
+    "output_file_stem": "ItemName"
   }
 ]

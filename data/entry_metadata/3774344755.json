@@ -1,10 +1,19 @@
 [
   {
     "mod_id": "3774344755",
+    "translation_key": "Base.BarretGatlingGun",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294799Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "c6d7b202213333870d12e16aa585db8e",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3774344755",
     "translation_key": "Base.Buster",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1318569Z",
-    "last_seen_mod_updated": "2026-08-20T18:24:41.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4294809Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
     "source_hash": "4741f92d78ff602cbcb3b9d789f5dc13",
     "output_file_stem": "ItemName"
   },
@@ -12,8 +21,8 @@
     "mod_id": "3774344755",
     "translation_key": "Base.Cerberus",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1318575Z",
-    "last_seen_mod_updated": "2026-08-20T18:24:41.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4294814Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
     "source_hash": "a9fd7705635f0ab744abc2b645a25d63",
     "output_file_stem": "ItemName"
   },
@@ -21,8 +30,8 @@
     "mod_id": "3774344755",
     "translation_key": "Base.Masamune",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1318580Z",
-    "last_seen_mod_updated": "2026-08-20T18:24:41.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4294819Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
     "source_hash": "8c724fc6728053724782e618196ebb8c",
     "output_file_stem": "ItemName"
   },
@@ -30,9 +39,252 @@
     "mod_id": "3774344755",
     "translation_key": "Base.MythrilRod",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1318586Z",
-    "last_seen_mod_updated": "2026-08-20T18:24:41.0000000Z",
+    "last_seen_at": "2026-09-04T02:02:17.4294824Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
     "source_hash": "5f2b98d1a26e4d24da93aa5d6ab8df10",
     "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294831Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "1c84168adfed9556ebc2434bf57264e7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_BusterDropChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294839Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "d9e9e3efc88ff5bbed040f0fb0c08afc",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_BusterDropChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294845Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "c07ebddae70d6cdc3412112c4e1e648c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_BusterKillReward",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294850Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "4ce4c43c67be8bba6e4a766068cfc569",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_BusterKillReward_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294854Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "b5dae21bea3d77426d2cbb7b8fc0da9a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_CerberusDropChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294859Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "2d83b1924d9af79cd58593d96497082c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_CerberusDropChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294864Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "da7dad0c1c634e2252ca4675b1db4ad5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_CerberusKillReward",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294869Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "08ef78911f82a0af3f452ed5a9ee41f1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_CerberusKillReward_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294872Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "ef1ca11c4a66d518594eeae890d20424",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_DropDelayMonths",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294877Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "e3aa6acea582c363fffc98b23f68e021",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_DropDelayMonths_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294881Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "05515e11280aa70ad6257194f75fd5ba",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_EnableKillRewards",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294888Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "528e7c7583b1df87fd06e82835414121",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_EnableKillRewards_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294891Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "ae85a9a1f7148d638e7b812056e717e7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_EnableZombieDrops",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294895Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "6385b24ad8903cec87e8ce392cd8c6f3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_EnableZombieDrops_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294898Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "e5e0f48f46f42be0578bab8a381e3a60",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_GatlingGunDropChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294907Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "a406d94fefaccf205393a4e10d76ab38",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_GatlingGunDropChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294911Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "ff3d53901e43c8edac6449952fbfde8d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_GatlingGunKillReward",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294916Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "250356cad86c6dd2e8499098889b6bdb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_GatlingGunKillReward_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294919Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "f69bcda3ad040ebc81935bbd5be0713d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_MasamuneDropChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294925Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "32776db73004e5c3d371da1a8d16d94d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_MasamuneDropChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294929Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "aa3c2af759dba7caec533769ea5d4fd9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_MasamuneKillReward",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294935Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "bb78123bb7e1540b13a3d35413a1d0cb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_MasamuneKillReward_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294939Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "ffcb1a2f37eebcdd538f4bc057a3776a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_MythrilRodDropChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294942Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "29209e2f048098a41695eb4cbbaad81f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_MythrilRodDropChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294944Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "2139048cbb87e3c8ecee9ddbbae6e2f6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_MythrilRodKillReward",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294949Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "5a8a5401f02b6be49c22f28d9934a80e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3774344755",
+    "translation_key": "Sandbox_BustMasamuneRewards_MythrilRodKillReward_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-04T02:02:17.4294953Z",
+    "last_seen_mod_updated": "2026-09-03T21:40:53.0000000Z",
+    "source_hash": "e36c59f0b4a469bb0c9645dfc84897a3",
+    "output_file_stem": "Sandbox"
   }
 ]

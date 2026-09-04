@@ -1,10 +1,685 @@
 [
   {
     "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_AreaDoneLastLoad",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "b68f7ccfdbb14714b37a5d918aaa7fd3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_AreaTooBig",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "276a329c693c151ee0ebea9c7d29198a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_BushesDone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "3d4c88e318095fe9892993d5b4b050cb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_CantPickAnything",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "1e54507ff00a766ab067ca7237cf96da",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_CantReachKeep",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "0a76819429f838e3d2a186774e6f9f0c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_CantReachStop",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "3c59227599a70ceff9ecf4830f60e2ed",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_CarryingMax",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "e5a741aeb95f6e08000c99f1e959ef69",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_ChooseTool",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "7802f92ea7722437fa51dc2c7e851530",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_ChoppedDone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "657fb662e1dff10ef1d0b9f7963d64f6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Chopping",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "fa277dcef6b9847dbcd11a27ee94d420",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_ClearingBushes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "d45c68be0e4033dd2a3ac140073d0f69",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_ClearingGrass",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "3a4c98a14574473d89a95af92630849c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_CollectDone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "65e6e0a347cd0ea48292539c7cafba56",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_CollectingFrom",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "6103e728fd9586184b70088fb72a940f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_CorpsesDone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "7ea835103b2b5e4e397ac9d676872a55",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_DroppedContinue",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "3e5e8cfc9339c5ef740ad8bc337b9219",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_DroppedHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "9a4057d851babd2cbe886cc689052de3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_GrassDone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "810b9d8fe65f78287dfbc92b291a5c5b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_IconTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "797c2bca34b25a4c064694487f65842b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_InvalidDestination",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "16a468e499a3d2c8e9011adf73ccaac5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_MovingCorpseN",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "3cd49d9f9b99b1b40fac65eeb449729f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_MovingCorpses",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "ccb516a5d44c93d19f050cb0e2761fd6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoAxe",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "6939bd247b7a930d7d0bf7426ff45964",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoBushes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "5769171220652f60cd4507cbdf5b6868",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoCorpses",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "eb872454d83647a6bf17278584c2de39",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoCuttingTool",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "a6f818225070a6298d7040be39c07b33",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoDigTool",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "4f3568c3fc5f86bfe9ff0d740fe35d2f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoGrass",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "55a558418faae23d2161a6b74e83066e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoItems",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "13bce9c0f9f65d78a18cd8873426b616",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoLogs",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "481e5d2f5f0c0d07d57bca95ad5897db",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoRecipe",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "1490b08f28a0778bb419f129836119a6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoSaw",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "7750ae07a903e107ace11ecbfca35992",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoStumpTool",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "63db46e3f03b2fb459f7556306da95e1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoStumps",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "4986e6651165a868b7e633b3a3a4d516",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoTillable",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "5fc4ff52d90c51e6a55c141ec7e59211",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_NoTrees",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "765559635a0154ab8d717140978409cc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_PickDestination",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "f3f2771c22f1400cfe2214885ad0ec7d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_PickFirstCorner",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "fc4f35d27d3687155406f18a29b012c8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_PickOppositeCorner",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "44f5b11a0cf354324bd1b4dbe02796bc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_RemovingStumps",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "5296aa0e809b1ec308415e3a918136cf",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_SawDone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "6a024b7b130f1c2f368b1b66705b09cc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_SawingHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "3680fc5c89baa2d6166dfe45bb7f2b9f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_StopBushes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "35d8308db775e78d48a21635e3b622da",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_StopCollect",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "929112b2a324eff68a9825e931c62cf7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_StopCorpses",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "86a7fc2acb9231b39c09c566f43adbba",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_StopGrass",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "b0c91c77ebeade77614dbf7f02cbc8a3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_StopStumps",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "6a8dec7fa0d3d43d178270402188f483",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_StopTill",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "5a2e5404708072ca6f694fa6eb85e962",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_StopTrees",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "4489ee49f24bea428a3f1d74c37a54d0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_StopWood",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "235117b9cffd8287a48fa49794a680ab",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_StumpsDone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "50a607f6501dfd6f7c0f354832fb4ad9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Subtitle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "cae46f6426d83e9d121f5b404fdffa55",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_TagArea",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "d0706c600e184e4b2d5236888f11012f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_TagAreaSpot",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "e801cdee149a72bc68e9fb07936bb13f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_TillDone",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "e8f1905f5a8d82cc17763e6e45523abe",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tilling",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "dc2d26d5fb401d3320f712edb334998f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Title",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "dbed5eb9dce473dd9408994df69e140c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_TooHeavySawing",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "6218d35ab222dd4146ccbc97cd7a1d21",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Bushes",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "ccbb3f0b3d0479b3ba79cb14065c9d5d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Bushes_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "942dc56a053de34b62ec300b0c29c5b8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Collect",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "56871f427c41160a9d5bc8e5d0c575cd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Collect_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "3abe1354c903e53e8fa3f1e1f6826110",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Corpses",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "135039f32266ab1ed6f954ea9cf51301",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Corpses_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "611de2ef4b1161e27a3dcdaa0d452714",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Grass",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "45b510deece360ed5037d8bbcfa1a4f5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Grass_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "208282db4093cf480f4320a1ab5c9893",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Planks",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "a9f99771681c920f7cc4de62d52a7921",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Planks_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "1c2d9e3430c9b4edd86685c919c6d7f8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Stumps",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "b53dec663bcc37a595a427878c20f246",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Stumps_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "e9d1c74e0bc34296ae80ed6c38f29e79",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Till",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "815e49a4d45cc6dbe4a48e0ef56da00f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Till_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "385d8aac5d722882dde8cc3f5eead364",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Trees",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "24b7375c3f3b66c23d714df533a308e4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_Tool_Trees_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "61e727e15b740078928be6145f3e365b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "IGUI_ZoneTools_WeightWarning",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "73389aaef67b54db5b9b74bd58f4b4fe",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneTools",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378423Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123351Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "1e4ff1f1e209f44fe8f3be9c25c847fd",
     "output_file_stem": "Sandbox"
   },
@@ -12,8 +687,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaBushes",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378431Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123361Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "ae4fe7248a318757e1f970e9bb9b1a99",
     "output_file_stem": "Sandbox"
   },
@@ -21,8 +696,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaBushes_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378434Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123366Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "276aea4076efe3105b930ecd2cdd2358",
     "output_file_stem": "Sandbox"
   },
@@ -30,8 +705,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaCollect",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378440Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123373Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "a3b35f163352125c127ad16bd8862a50",
     "output_file_stem": "Sandbox"
   },
@@ -39,8 +714,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaCollect_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378443Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123379Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "d6c20b0f94da3124d6a3d25da97d0b75",
     "output_file_stem": "Sandbox"
   },
@@ -48,8 +723,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaCorpses",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378450Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123385Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "2f975b4ed22fa18d5949d3fcf394fb55",
     "output_file_stem": "Sandbox"
   },
@@ -57,8 +732,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaCorpses_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378456Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123392Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "a04913140b49d7dabd87dbcd00274aa2",
     "output_file_stem": "Sandbox"
   },
@@ -66,8 +741,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaGrass",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378462Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123396Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "27d01aea43605405951edc3fac780ed8",
     "output_file_stem": "Sandbox"
   },
@@ -75,8 +750,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaGrass_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378467Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123401Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "e3e468f0897cdef1a796e6dbda0b829b",
     "output_file_stem": "Sandbox"
   },
@@ -84,8 +759,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaSize",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378471Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123406Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "b194cee0a9241c2c43c8b4b58405a9ea",
     "output_file_stem": "Sandbox"
   },
@@ -93,17 +768,35 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaSize_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378474Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123410Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "87cb575b207479c76474f7900246f83e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "Sandbox_ZoneToolsMaxAreaStumps",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "86d6c57154c161c8a851fbc8a16efc96",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3777485502",
+    "translation_key": "Sandbox_ZoneToolsMaxAreaStumps_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
+    "source_hash": "924f55773d5a77eef79d9bf5aba68cbd",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaTill",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378478Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123416Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "751edee617c0edcdbeebeb87c233dfae",
     "output_file_stem": "Sandbox"
   },
@@ -111,8 +804,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaTill_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378483Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123422Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "85cb12eaab181f5358ce5c3815fde14e",
     "output_file_stem": "Sandbox"
   },
@@ -120,8 +813,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaTrees",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378487Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123426Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "d23781d2b3d726b781fd5e49d1f2e9e8",
     "output_file_stem": "Sandbox"
   },
@@ -129,8 +822,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaTrees_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378492Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123431Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "5b8b381e8bc10c760f03a50f44929b77",
     "output_file_stem": "Sandbox"
   },
@@ -138,8 +831,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaWood",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378496Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123436Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "76c6c23ed470842acfdd8ed4d6191379",
     "output_file_stem": "Sandbox"
   },
@@ -147,8 +840,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsMaxAreaWood_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378500Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123441Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "270c69dfacb3768910c46cc53e1b5b46",
     "output_file_stem": "Sandbox"
   },
@@ -156,8 +849,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsUseSingleLimit",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378504Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123447Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "b0c5dd72440f1fa62dffc75b37c9a946",
     "output_file_stem": "Sandbox"
   },
@@ -165,8 +858,8 @@
     "mod_id": "3777485502",
     "translation_key": "Sandbox_ZoneToolsUseSingleLimit_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1378509Z",
-    "last_seen_mod_updated": "2026-08-14T19:39:08.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3123452Z",
+    "last_seen_mod_updated": "2026-08-26T09:02:45.0000000Z",
     "source_hash": "65a863d44552f827b5811ab25eb5995a",
     "output_file_stem": "Sandbox"
   }

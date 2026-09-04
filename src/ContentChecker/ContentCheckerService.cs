@@ -266,6 +266,8 @@ public class ContentCheckerService
                     new { role = "system", content = systemPrompt },
                     new { role = "user", content = userPrompt }
                 },
+                reasoning_effort = _config.llmReasoningEffort,
+                thinking = new { type = "enabled" },
                 temperature = _config.llmTemperature,
                 max_tokens = Math.Clamp(_config.llmMaxTokens, 1, 4096)
             }),

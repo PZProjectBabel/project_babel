@@ -1,0 +1,434 @@
+[
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_Awnings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "d981cc084945f2199b9eb4034b1df870",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_Back",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "6e49e0dc952cf769202d3eb198010101",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_CantFindRearLadder",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "0afb8a3bb5c21094b5f471a0df752288",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_CantReachRearLadder",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "5b833ae6a9cb5b4bf35adf646038ecf9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_CloseAllAwnings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "43cab5fd1c31c61216edb20cf7dfb951",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_CloseAllWindows",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "510c6337c96bb9f1e92c70cfc28ac579",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_CloseExtraWindows",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "95f3c8a90ebd160dfdae8b2f2e4f1a62",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_CloseRearAwning",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "f338039996ade413991fb780e2ebe7e0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_CloseSideAwning",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "884a572b51043ff00a92886949b7b9cf",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_Door",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "c293261dddf6728b7da586e0ae78a08c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_DoorLockedNoKey",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "09ccd544708d1b78cccae2956b702273",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_HoldOn",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "67acdcfd32d0239042e260ae54f049bf",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_JumpOffRoof",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "d5974d9072fdfa5e4ebc2fe8536dd9d1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_Ladder",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "d270827049277d3e2b3edd6e414d2b23",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_LockDoor",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "8b58b1d3e0734bd556d99fe36c917406",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_LostFooting",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "f109ec7ad82622920cd3a2bebf7961d3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_NeedRearLadder",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "f0f1cf5f514641c78cdbe25d43eeb41c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_NeedToExitFirst",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "dcc809711aae85ad075b94f45c114e63",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_OpenAllAwnings",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "6c2cf4655112335464a2df07a06f985f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_OpenAllWindows",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "61649bd977c34454156ebce8899a46cf",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_OpenExtraWindows",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "16c047e58d79573ec2f41e288372ab49",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_OpenRearAwning",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "03dc1343faddd63f4cfe0e91b52eab1b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_OpenSideAwning",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "3a951e9ed35b4cf3ee6f2fde6561bb6c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_RVMustBeStopped",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "f166ac3e27c321178188b602cc8f7428",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_RVOptions",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "dfa75c9b3a75ceb0ada993df9f637bcd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_RetractAwningsBeforeDriving",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "7e112a40c1335129996f3556fe51d679",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_SeatDriver",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "5d9ff24da71e92335a3587d91da49b57",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_SeatFrontRight",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "a9a13c9c29454f7fcfeb531562a75a20",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_SeatMiddleLeft",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "9639f40a4b5484bf687c549da2940dc8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_SeatMiddleRight",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "fc3aa494481fb2959a5f1fd9aa590a8b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_SeatRearLeft",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "32ce22efd7fdcdd3f37b202e1820146d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_SeatRearRight",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "ad2124b0a3ccbe22b44700ba6f26ef7f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_SeatShortLabel",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "d6e3b1a60d684f39b03e982b077c11b1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_SmashFrontRightWindow",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "1b717d13d02e3a5212a8042ace8929cf",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_UnlockDoor",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "ebefb5f276bb8f11f525be2f74e571db",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_UseLadder",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "c81762eeddc6acc089210c0aafb5b670",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_Windows",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "4c234e192ace49fdcf541f9524f82ed4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_WindowsAlreadyClosed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "2c1a236b96bdaa19a9191bee0f8000ec",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_WindowsAlreadyOpen",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "3641d807b8ee6dd3ac1e8ce207fb1ab7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_WindowsClosedMany",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "0b510861cf35b22bcc72bde44adcbd04",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_WindowsClosedOne",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "623f9c99dd60b606096d373226fc0156",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_WindowsDidNotComplete",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "f3fbbbd6a8591889e2afeadab01eddda",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_WindowsOpenedMany",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "f68186914ee78866b3b78f3c72ae609b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_WindowsOpenedOne",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "0e478596b04de2e94bc7fde76e365479",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_WindowsSkippedSmashed",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "c5e01d6b13608901bd3cc864ff701d5a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_WindowsSkippedUnavailable",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "d4bf6072ff720669ac5dcf6aace6b9e9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_RollingRefuge_WindowsSkippedUninstalled",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "5f7990c49d7b05ed6225eaddfcdb166e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3788543896",
+    "translation_key": "IGUI_VehicleNameRollingRefuge",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-23T08:45:13.0000000Z",
+    "source_hash": "177a596afe8ad7b48210d6f885dd44d2",
+    "output_file_stem": "IG_UI"
+  }
+]

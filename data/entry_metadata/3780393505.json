@@ -1,10 +1,28 @@
 [
   {
     "mod_id": "3780393505",
+    "translation_key": "IGUI_RNB_Color_dark",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "7051417a543416e10b2ef03a2a9951bb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780393505",
+    "translation_key": "IGUI_RNB_Color_light",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "18f11769f7de9f6ec8753c7705996a72",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780393505",
     "translation_key": "IGUI_RNB_Current",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1467951Z",
-    "last_seen_mod_updated": "2026-08-13T08:47:55.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3184434Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
     "source_hash": "308102071956a12258cd0ebbb90b3689",
     "output_file_stem": "IG_UI"
   },
@@ -12,8 +30,8 @@
     "mod_id": "3780393505",
     "translation_key": "IGUI_RNB_MaleAnatomySize",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1467957Z",
-    "last_seen_mod_updated": "2026-08-13T08:47:55.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3184441Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
     "source_hash": "c05a36282f7b0da2bf0de78a1abb54f8",
     "output_file_stem": "IG_UI"
   },
@@ -21,8 +39,8 @@
     "mod_id": "3780393505",
     "translation_key": "IGUI_RNB_Size_large",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1467961Z",
-    "last_seen_mod_updated": "2026-08-13T08:47:55.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3184446Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
     "source_hash": "971d70f6e51cc60f3cdf9f1d55fd7a22",
     "output_file_stem": "IG_UI"
   },
@@ -30,8 +48,8 @@
     "mod_id": "3780393505",
     "translation_key": "IGUI_RNB_Size_none",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1467964Z",
-    "last_seen_mod_updated": "2026-08-13T08:47:55.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3184451Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
     "source_hash": "f4619b0d8a177769cc304ed86cd196ee",
     "output_file_stem": "IG_UI"
   },
@@ -39,9 +57,99 @@
     "mod_id": "3780393505",
     "translation_key": "IGUI_RNB_Size_small",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1467968Z",
-    "last_seen_mod_updated": "2026-08-13T08:47:55.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.3184455Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
     "source_hash": "120c01ae06c3c6c0a70d8d2176090f0a",
     "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780393505",
+    "translation_key": "UI_RNB_Color_dark",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "c73f2f9b061bdc320f0d6ab8101c6eed",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780393505",
+    "translation_key": "UI_RNB_Color_light",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "a7edfc8dd30cf243ea85bbd001c85a27",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780393505",
+    "translation_key": "UI_RNB_Current",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "b292233089be15bcb7e3afc02752b22d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780393505",
+    "translation_key": "UI_RNB_MaleAnatomySize",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "0f4fbae3705d78870e09a15e5ee98b57",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780393505",
+    "translation_key": "UI_RNB_Size_large",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "1ca0d7ee9e54ee9c070c0d7b5ae4a037",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780393505",
+    "translation_key": "UI_RNB_Size_none",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "a35afa3016dc3175472278c1850fd415",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780393505",
+    "translation_key": "UI_RNB_Size_small",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "aaccfa616766490e3d7485fc924c6513",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780393505",
+    "translation_key": "UI_RNB_WhatsNewBody",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "8ae316e618deea5d93dd51b2347ac37a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780393505",
+    "translation_key": "UI_RNB_WhatsNewDontShow",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "ded3b34a208ce8966f40d2ce8468fc52",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3780393505",
+    "translation_key": "UI_RNB_WhatsNewTitle",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-09-01T05:50:01.0000000Z",
+    "source_hash": "7b545768242ad2b08f331cd64576e0c0",
+    "output_file_stem": "UI"
   }
 ]

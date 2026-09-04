@@ -1,10 +1,46 @@
 [
   {
     "mod_id": "3662976494",
+    "translation_key": "UI_MaskToggle_Hide",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-28T02:55:05.0000000Z",
+    "source_hash": "4c55ae00aa7d40910e51276dafd01218",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3662976494",
+    "translation_key": "UI_MaskToggle_Hide_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-28T02:55:05.0000000Z",
+    "source_hash": "c0ea75a810c47b281459cdc009f7b7a7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3662976494",
+    "translation_key": "UI_MaskToggle_Hotkey",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-28T02:55:05.0000000Z",
+    "source_hash": "e2c55dfd1b326b9f1ae4f60b5ad6af45",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3662976494",
+    "translation_key": "UI_MaskToggle_Hotkey_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
+    "last_seen_mod_updated": "2026-08-28T02:55:05.0000000Z",
+    "source_hash": "e9cec43bb3f9dc58253afe3bae7fa108",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3662976494",
     "translation_key": "UI_MaskToggle_Lock",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0783496Z",
-    "last_seen_mod_updated": "2026-07-30T11:38:39.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2720423Z",
+    "last_seen_mod_updated": "2026-08-28T02:55:05.0000000Z",
     "source_hash": "7a090a657ea306f46faee523dc314504",
     "output_file_stem": "UI"
   },
@@ -12,8 +48,8 @@
     "mod_id": "3662976494",
     "translation_key": "UI_MaskToggle_Lock_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0783505Z",
-    "last_seen_mod_updated": "2026-07-30T11:38:39.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2720432Z",
+    "last_seen_mod_updated": "2026-08-28T02:55:05.0000000Z",
     "source_hash": "36a8e20159ceecc923bbd7994e947214",
     "output_file_stem": "UI"
   },
@@ -21,8 +57,8 @@
     "mod_id": "3662976494",
     "translation_key": "UI_MaskToggle_ModOptionsTitle",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0783509Z",
-    "last_seen_mod_updated": "2026-07-30T11:38:39.0000000Z",
+    "last_seen_at": "2026-09-03T16:48:14.2720438Z",
+    "last_seen_mod_updated": "2026-08-28T02:55:05.0000000Z",
     "source_hash": "5bed44088e4323730b261c1a75272264",
     "output_file_stem": "UI"
   }
