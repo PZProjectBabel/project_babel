@@ -2025,8 +2025,10 @@ public class PlaceholderServiceTests
                 .ToList();
             var requestKinds = new List<string>();
             var keys = entries.Values.Select(entry => entry.translationKey).ToList();
-            var handler = new DynamicHttpMessageHandler((body, _) =>
+            var handler = new DynamicHttpMessageHandler(async (body, _) =>
             {
+                // A real async gap makes the pool's configured concurrency observable.
+                await Task.Delay(10);
                 using var doc = JsonDocument.Parse(body);
                 var prompt = doc.RootElement
                     .GetProperty("messages")[0]
@@ -2035,13 +2037,13 @@ public class PlaceholderServiceTests
                 if (!prompt.Contains("# Translation Entry", StringComparison.Ordinal))
                 {
                     requestKinds.Add("warmup");
-                    return Task.FromResult((HttpStatusCode.OK, LlmChatResponse("Warmup done")));
+                    return (HttpStatusCode.OK, LlmChatResponse("Warmup done"));
                 }
 
                 var key = keys.Single(candidate => prompt.Contains($"\t{candidate}\t", StringComparison.Ordinal));
                 requestKinds.Add(key);
                 var content = $"T1\tTranslated {key}\t0.9";
-                return Task.FromResult((HttpStatusCode.OK, LlmChatResponse(content)));
+                return (HttpStatusCode.OK, LlmChatResponse(content));
             });
             var service = new LLMTranslatorService(config, new HttpClient(handler));
 
@@ -2054,7 +2056,11 @@ public class PlaceholderServiceTests
 
             Assert.True(result.isSuccess);
             Assert.Equal(7, handler.RequestCount);
-            Assert.Equal(1, handler.MaxInFlight);
+            // The configured concurrency (initial=maximum=4) must actually be used: six batches
+            // are pending, so the pool keeps four requests in flight instead of running serially.
+            Assert.Equal(4, handler.MaxInFlight);
+            Assert.Contains("\"initialConcurrency\":4", result.summaryJson);
+            Assert.Contains("\"maximumConcurrency\":4", result.summaryJson);
             Assert.Equal("warmup", requestKinds[0]);
             Assert.Contains("\"warmupRequestCount\":1", result.summaryJson);
             Assert.Contains("\"failedWarmupCount\":0", result.summaryJson);

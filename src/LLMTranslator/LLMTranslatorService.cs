@@ -247,12 +247,11 @@ public partial class LLMTranslatorService
     {
         var plans = translationPlans.ToList();
         var settings = ResolveConcurrencySettings(_config);
-        var serialSettings = settings with { Initial = 1, Maximum = 1, Minimum = 1 };
         var totalWorkItemCount = plans.Sum(plan => plan.WorkItems.Count);
         var totalEmptyWriteCount = plans.Sum(plan => plan.EmptyWrites.Count);
 
         Console.WriteLine(
-            $"  [LLM] Starting serial translation: requests={totalWorkItemCount}, empty={totalEmptyWriteCount}, warmupThreshold={WarmupBatchThreshold}, profile={settings.Profile}");
+            $"  [LLM] Starting translation: requests={totalWorkItemCount}, empty={totalEmptyWriteCount}, warmupThreshold={WarmupBatchThreshold}, profile={settings.Profile}, initialConcurrency={settings.Initial}, maximumConcurrency={settings.Maximum}");
 
         var translatedCount = 0;
         var skippedCount = totalEmptyWriteCount;
@@ -265,7 +264,7 @@ public partial class LLMTranslatorService
         var retriedAttemptCount = 0;
         var maxObservedConcurrency = 0;
         var memoryThrottleCount = 0;
-        var finalConcurrency = serialSettings.Initial;
+        var finalConcurrency = settings.Initial;
         var stopAllPlans = false;
 
         for (var planIndex = 0; planIndex < plans.Count && !stopAllPlans; planIndex++)
@@ -277,7 +276,7 @@ public partial class LLMTranslatorService
             if (plan.HasWarmupPrompt)
             {
                 warmupRequestCount++;
-                var warmup = await ExecuteWarmupAsync(plan, serialSettings);
+                var warmup = await ExecuteWarmupAsync(plan, settings);
                 retriedAttemptCount += Math.Max(0, warmup.AttemptCount - 1);
                 if (!warmup.IsSuccess)
                 {
@@ -314,7 +313,7 @@ public partial class LLMTranslatorService
             }
             else
             {
-                execution = await ExecuteWorkItemsAsync(plan.WorkItems, serialSettings);
+                execution = await ExecuteWorkItemsAsync(plan.WorkItems, settings);
             }
 
             retriedAttemptCount += execution.RetriedAttemptCount;
@@ -401,8 +400,8 @@ public partial class LLMTranslatorService
             requestCount = totalWorkItemCount,
             retriedAttemptCount,
             maxObservedConcurrency,
-            initialConcurrency = serialSettings.Initial,
-            maximumConcurrency = serialSettings.Maximum,
+            initialConcurrency = settings.Initial,
+            maximumConcurrency = settings.Maximum,
             finalConcurrency,
             memoryThrottleCount,
             settings.Profile,
