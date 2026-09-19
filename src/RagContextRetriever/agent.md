@@ -14,4 +14,4 @@ Algorithm:
 3. Score target-language reference embeddings plus normal historical embeddings.
 4. Exclude current entry; skip dimension mismatch; keep above threshold/topK.
 
-Notes: Reference embeddings are target-language dependent. Do not read temp debug files as input.
+Notes: Reference embeddings are target-language dependent. Do not read temp debug files as input. Large queues report `RAG queue` up front and throttled `RAG progress: queried n/total` lines (time window or 5% steps), and the final `RAG summary` splits retrieve time from debug-write time.

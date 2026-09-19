@@ -140,6 +140,8 @@ public partial class LLMTranslatorService
     private const int BatchResultLogInterval = 10;
     private static readonly TimeSpan BatchResultLogIntervalTime = TimeSpan.FromSeconds(30);
     private const int WarmupBatchThreshold = 5;
+    /// <summary>Minimum time between prompt-preparation progress lines for one target language.</summary>
+    private static readonly TimeSpan PromptProgressLogInterval = TimeSpan.FromSeconds(5);
     private const string PromptTailReminder = "只返回符合上述输出规则的纯文本, 不输出任何额外字符。";
     private const long LowAvailableMemoryBytes = 512L * 1024 * 1024;
     private const long CriticalAvailableMemoryBytes = 256L * 1024 * 1024;
@@ -185,15 +187,26 @@ public partial class LLMTranslatorService
             targetLang,
             ResolveTargetLanguageDisplayName(targetLanguage));
         var totalBatches = translationBatches.Count;
-
-        foreach (var batch in translationBatches)
+        var progressStopwatch = Stopwatch.StartNew();
+        var lastProgressLog = TimeSpan.Zero;
+        for (var batchIndex = 0; batchIndex < translationBatches.Count; batchIndex++)
         {
+            var batch = translationBatches[batchIndex];
+
+            // Traversing every batch is fast; only the prompt build/write below is slow.
+            var elapsed = progressStopwatch.Elapsed;
+            if (batchIndex + 1 < totalBatches && elapsed - lastProgressLog >= PromptProgressLogInterval)
+            {
+                Console.WriteLine($"  [LLM] Prompt progress: batch [{batchIndex}/{totalBatches}], requests={plan.WorkItems.Count}, empty={plan.EmptyWriteCount}, elapsed={elapsed.TotalSeconds:F1}s");
+                lastProgressLog = elapsed;
+            }
+
+            if (!batch.translationEntries.Any(entry => NeedsTargetProcessing(entry, targetLang)))
+                continue;
+
             var sourceEntries = batch.translationEntries
                 .Where(entry => NeedsTargetProcessing(entry, targetLang))
                 .ToList();
-
-            if (sourceEntries.Count == 0)
-                continue;
 
             // Empty source text → skip (no LLM call needed, even with RAG)
             var translatable = new List<TranslationEntry>();
@@ -231,6 +244,8 @@ public partial class LLMTranslatorService
                 promptFile.DeleteAfterUse,
                 modInfo));
         }
+
+        Console.WriteLine($"  [LLM] Prompt progress: batch [{totalBatches}/{totalBatches}], requests={plan.WorkItems.Count}, empty={plan.EmptyWriteCount}, elapsed={progressStopwatch.Elapsed.TotalSeconds:F1}s");
 
         if (plan.RequestCount > WarmupBatchThreshold)
         {

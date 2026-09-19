@@ -2523,4 +2523,60 @@ public class RagContextTests
         Assert.True(result.isSuccess);
         Assert.False(ragContextByEntryKey.ContainsKey("1::Query_Key"));
     }
+
+    [Fact]
+    /// <summary>Large RAG queues should report queue size, throttled progress, and summary timings.</summary>
+    public async Task RetrieveContexts_ShouldReportProgressAndSummaryForLargeQueue()
+    {
+        var config = TestConfig.Create();
+        config.ragSimilarityThreshold = 0.1f;
+        var reference = TestTranslations.Entry("Ref_Key", "hello ref");
+        reference.modId = "ref";
+        reference.embeddingVector = [1.0f, 0.0f];
+        reference.translationValues["zh-hans"] = new() { text = "参考", isVerified = true, status = "verified" };
+
+        var queryEntries = new List<TranslationEntry>();
+        for (var i = 0; i < 100; i++)
+        {
+            var entry = TestTranslations.Entry($"Key_{i}", $"hello {i}");
+            entry.embeddingVector = [1.0f, 0.0f];
+            queryEntries.Add(entry);
+        }
+
+        var batches = new List<TranslationBatch>
+        {
+            new()
+            {
+                batchId = 1,
+                modId = "1",
+                translationEntries = queryEntries
+            }
+        };
+        var entries = queryEntries.ToDictionary(entry => $"1::{entry.translationKey}", entry => entry, StringComparer.Ordinal);
+        var ragContextByEntryKey = new Dictionary<string, List<Dictionary<string, object?>>>(StringComparer.Ordinal);
+
+        string consoleText;
+        var originalOut = Console.Out;
+        using var consoleOut = new StringWriter();
+        try
+        {
+            Console.SetOut(consoleOut);
+            Assert.True((await new RagContextRetrieverService(config).RetrieveContextsAsync(
+                new Dictionary<string, TranslationEntry> { ["ref::Ref_Key"] = reference },
+                entries,
+                batches,
+                ragContextByEntryKey)).isSuccess);
+        }
+        finally
+        {
+            Console.SetOut(originalOut);
+            consoleText = consoleOut.ToString();
+        }
+
+        Assert.Contains("RAG queue: queries=100, references=1", consoleText);
+        Assert.Contains("RAG progress: queried 100/100, references=1", consoleText);
+        Assert.Contains("RAG summary: queried=100", consoleText);
+        Assert.Contains("retrieve=", consoleText);
+        Assert.Contains("debugWrite=", consoleText);
+    }
 }

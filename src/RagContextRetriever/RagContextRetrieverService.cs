@@ -1,4 +1,5 @@
 using Common;
+using System.Diagnostics;
 using System.Numerics;
 using System.Runtime.Intrinsics;
 using System.Runtime.Intrinsics.X86;
@@ -11,7 +12,13 @@ namespace RagContextRetriever;
 /// </summary>
 public class RagContextRetrieverService
 {
+    private static readonly TimeSpan ProgressLogInterval = TimeSpan.FromSeconds(2);
+    /// <summary>Progress events per query queue (20 = one line per 5% of the queue).</summary>
+    private const int ProgressEventCount = 20;
     private readonly PipelineConfig _config;
+    private readonly object _progressLogLock = new();
+    private TimeSpan _lastProgressLog;
+    private int _referenceCount;
 
     public RagContextRetrieverService(PipelineConfig config)
     {
@@ -70,6 +77,7 @@ public class RagContextRetrieverService
 
         var referenceEntries = BuildReferences(refTranslationEntryDict.Values, translationEntryDict.Values, targetLang);
         var exactRefEntriesByKey = BuildExactReferenceLookup(refTranslationEntryDict.Values, targetLang);
+        _referenceCount = referenceEntries.Count;
         var queryEntries = translationBatches
             .SelectMany(batch => batch.translationEntries)
             .Where(entry => NeedsTargetProcessing(entry, targetLang)
@@ -78,7 +86,6 @@ public class RagContextRetrieverService
         var contextsByIndex = new List<Dictionary<string, object?>>?[queryEntries.Count];
 
         var queriedCount = 0;
-        var contextCount = 0;
         var dimensionSkippedCount = 0;
 
         if (referenceEntries.Count == 0 && exactRefEntriesByKey.Count == 0)
@@ -88,6 +95,8 @@ public class RagContextRetrieverService
             return Task.FromResult(new TaskResult());
         }
 
+        var progressStopwatch = Stopwatch.StartNew();
+        Console.WriteLine($"  RAG queue: queries={queryEntries.Count}, references={referenceEntries.Count}, topK={Math.Max(0, _config.ragTopK)}, threads={ResolveMaxDegreeOfParallelism()}");
         Parallel.For(
             0,
             queryEntries.Count,
@@ -102,7 +111,7 @@ public class RagContextRetrieverService
             if (queryEmbedding.Length == 0)
             {
                 contextsByIndex[index] = exactContexts;
-                Interlocked.Add(ref contextCount, exactContexts.Count);
+                ShouldLogProgress(queriedCount, queryEntries.Count, progressStopwatch.Elapsed);
                 return;
             }
 
@@ -116,7 +125,7 @@ public class RagContextRetrieverService
             if (candidates.Count == 0)
             {
                 contextsByIndex[index] = exactContexts;
-                Interlocked.Add(ref contextCount, exactContexts.Count);
+                ShouldLogProgress(queriedCount, queryEntries.Count, progressStopwatch.Elapsed);
                 return;
             }
 
@@ -126,16 +135,20 @@ public class RagContextRetrieverService
                 .ToList();
 
             contextsByIndex[index] = contexts;
-            Interlocked.Add(ref contextCount, contexts.Count);
+            ShouldLogProgress(queriedCount, queryEntries.Count, progressStopwatch.Elapsed);
         });
 
+        var contextCount = 0;
         for (var i = 0; i < queryEntries.Count; i++)
         {
             var entry = queryEntries[i];
             var entryKey = BuildEntryKey(entry);
-            ragContextByEntryKey[entryKey] = contextsByIndex[i] ?? [];
+            var contexts = contextsByIndex[i] ?? [];
+            ragContextByEntryKey[entryKey] = contexts;
+            contextCount += contexts.Count;
         }
 
+        var writeStopwatch = Stopwatch.StartNew();
         WriteDebugContexts(ragContextByEntryKey, targetLanguage);
         var summary = new
         {
@@ -145,7 +158,7 @@ public class RagContextRetrieverService
             dimensionSkippedCount,
             ragTopK = Math.Max(0, _config.ragTopK)
         };
-        Console.WriteLine($"  RAG summary: queried={queriedCount}, contexts={contextCount}, references={referenceEntries.Count}, dimSkipped={dimensionSkippedCount}, topK={Math.Max(0, _config.ragTopK)}");
+        Console.WriteLine($"  RAG summary: queried={queriedCount}, contexts={contextCount}, references={referenceEntries.Count}, dimSkipped={dimensionSkippedCount}, topK={Math.Max(0, _config.ragTopK)}, retrieve={progressStopwatch.Elapsed.TotalSeconds:F1}s, debugWrite={writeStopwatch.Elapsed.TotalSeconds:F1}s");
 
         return Task.FromResult(new TaskResult
         {
@@ -343,6 +356,27 @@ public class RagContextRetrieverService
             return Environment.ProcessorCount;
 
         return Math.Clamp(_config.maxJobs, 1, Environment.ProcessorCount);
+    }
+
+    /// <summary>
+    /// Prints throttled retrieval progress from parallel workers: every time window or
+    /// every 5% of the query queue, plus the final completed line.
+    /// </summary>
+    private void ShouldLogProgress(int completedCount, int totalCount, TimeSpan elapsed)
+    {
+        var reachedStep = totalCount > 0
+            && completedCount % Math.Max(1, (totalCount + ProgressEventCount - 1) / ProgressEventCount) == 0;
+        if (completedCount < totalCount && !reachedStep && elapsed - _lastProgressLog < ProgressLogInterval)
+            return;
+
+        lock (_progressLogLock)
+        {
+            if (completedCount < totalCount && !reachedStep && elapsed - _lastProgressLog < ProgressLogInterval)
+                return;
+
+            Console.WriteLine($"  RAG progress: queried {completedCount}/{totalCount}, references={_referenceCount}, elapsed={elapsed.TotalSeconds:F1}s");
+            _lastProgressLog = elapsed;
+        }
     }
 
     private void WriteDebugContexts(Dictionary<string, List<Dictionary<string, object?>>> ragContextByEntryKey, string targetLanguage)

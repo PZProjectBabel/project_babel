@@ -17,4 +17,4 @@ Outputs:
 - writes raw responses to `runTempDir/llm_responses/<target_iso>/...`
 - writes warning files for failed or empty batches
 
-Notes: skip already processed target entries. Warmup is optional and only validates target/model path. Detailed prompt/response wire format lives in code comments.
+Notes: skip already processed target entries. Warmup is optional and only validates target/model path. Detailed prompt/response wire format lives in code comments. Prompt preparation prints throttled `[LLM] Prompt progress` lines (one per 5s window) plus a final completed line before `[LLM] Prepared ...`.
