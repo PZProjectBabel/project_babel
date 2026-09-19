@@ -1414,9 +1414,9 @@ public class ContentCheckerTests
     }
 
     [Fact]
-    public void DownloadBatchConcurrency_ShouldBeEight()
+    public void DownloadBatchConcurrency_ShouldBeOne()
     {
-        Assert.Equal(8, global::PipelineRunner.DownloadBatchConcurrency);
+        Assert.Equal(1, global::PipelineRunner.DownloadBatchConcurrency);
     }
 
     [Fact]

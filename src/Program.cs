@@ -38,8 +38,11 @@ public class PipelineRunner
     private const bool DebugOn = false;
     /// <summary>Maximum number of download/extraction batches handled in one pipeline run.</summary>
     public const int MaxDownloadExtractionBatchesPerRun = 30;
-    /// <summary>Maximum number of SteamCMD-backed download batches that may run concurrently.</summary>
-    public const int DownloadBatchConcurrency = 8;
+    /// <summary>
+    /// Maximum number of SteamCMD-backed download batches that may run concurrently.
+    /// Pinned to 1 so the translation job never runs more than one SteamCMD process at a time.
+    /// </summary>
+    public const int DownloadBatchConcurrency = 1;
     /// <summary>Command-line option that overrides the per-run download/extraction batch limit.</summary>
     public const string MaxDownloadExtractionBatchesArgument = "--max-download-batches";
     /// <summary>Maximum number of mods to process in debug mode.</summary>
@@ -254,7 +257,7 @@ public class PipelineRunner
                 config.pipelineBatchSize,
                 maxDownloadExtractionBatches);
             processedUpdateModIds = downloadBatches.SelectMany(batch => batch).ToList();
-            Console.WriteLine($"Downloading and extracting {updateModIds.Count} updated mod(s) in batches (processing {downloadBatches.Count}/{totalBatches} batch(es) this run; limit={maxDownloadExtractionBatches}; up to {DownloadBatchConcurrency} concurrent downloads; each batch uses an independent SteamCMD copy).");
+            Console.WriteLine($"Downloading and extracting {updateModIds.Count} updated mod(s) in batches (processing {downloadBatches.Count}/{totalBatches} batch(es) this run; limit={maxDownloadExtractionBatches}; max concurrent downloads={DownloadBatchConcurrency}; each batch uses an independent SteamCMD copy).");
             if (processedUpdateModIds.Count < updateModIds.Count)
                 Console.WriteLine($"  [OK] {updateModIds.Count - processedUpdateModIds.Count} mod(s) remain queued for the next pipeline run.");
 
