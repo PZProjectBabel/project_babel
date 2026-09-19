@@ -1,19 +1,298 @@
 [
   {
     "mod_id": "3789069683",
+    "translation_key": "CBB_ATMCuttingSkillLevel",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "cd5c933efd5c6390378281da7b1f661a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_ATMCuttingSkillLevel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "5da418b4ef5912bf84852c1ec5e8d570",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_ATMRelootable",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "826e14d32aa62417c74c3921358b12fe",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_ATMRelootable_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "1bc6cec6dd610e6a6614e7f6841bb9a6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_AllowATMCutting",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "ba58ad69a06ab353d0a899aab4628dda",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_AllowATMCutting_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "ffe826b360b336739ff0eda42d73e3b8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_AllowSafeCutting",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "bc4c8f9e7911826a17e55d5386e014b9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_AllowSafeCutting_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "bf2bd945675ea80180de40d1f7dfb543",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_DepositKeySpawnChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "057a9d1bde702c18e79acf8a8ad09b02",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_DepositKeySpawnChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "2b9ef3b0b98017c7b22b712c002fba31",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_ExtraDepositItems",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "d0d5ddcc41c673ead56110b5d6f2dcac",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_ExtraDepositItems_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "6e4bb39fc2fb630c72189d83f51cace3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_ExtraSafeItems",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "661678456f9a001ce43ec1168d2ff182",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_ExtraSafeItems_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "2f5c3a7049f761f72510bc2f74e5ed68",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_KeySpawnChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "40d40a0e8278a315fe7d9056686246d7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_KeySpawnChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "7f3a2810ef5a9e9bc0077606fc11c393",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_LootMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "c4f2d1c003dca6caaca09488f2875073",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_LootMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "23a0cafcfd325b6c129e5faa7f30c62d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_LootResetHours",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "92199edb28ea8cb8e611bb0cef1706e5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_LootResetHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "ceafc1dcc37a23e7d0712a5fd06df9dd",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_SafeCuttingSkillLevel",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "6f07c3c0990ab91563072a59e5368483",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_SafeCuttingSkillLevel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "3a40814df60ac0b47df1d3dee7deea5e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_UniqueKeys",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "5aebd5bda6589544dc9f3633f4e19430",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "CBB_UniqueKeys_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "c64ee6f172317aee69a4488bdb03ef2b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789069683",
     "translation_key": "CarltonsBetterBanks.BankSafeKeys",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-28T07:35:21.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.5007381Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
     "source_hash": "93495cef776d2d413824cdd1d4db3b17",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3789069683",
+    "translation_key": "IGUI_Carlton_ATMSealed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "de438c95c3726754d579dd9e1969b1b2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "IGUI_Carlton_CutATM",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "a4e8a049e9ae36fe0d7eade893da1653",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "IGUI_Carlton_CutSafe",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "c5f92e0a665e713a3ccc6fbe4a00b47e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "IGUI_Carlton_ForceOpenCrowbar",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "ad13c5af067953b1b9fbc00cb608e4e4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "IGUI_Carlton_OpenWithKey",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "01cfff4a96a20b7450a58532622793b9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "IGUI_Carlton_PryATM",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "82773ff34a638f4645ae548a26281489",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789069683",
+    "translation_key": "IGUI_Carlton_SafeLocked",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
+    "source_hash": "71e9afd1c0e93087a23accd0d675f7ad",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3789069683",
     "translation_key": "IGUI_ContainerTitle_depositbox",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-28T07:35:21.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.5007390Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
     "source_hash": "4894063de121e253266fe66643b4e786",
     "output_file_stem": "IG_UI"
   },
@@ -21,8 +300,8 @@
     "mod_id": "3789069683",
     "translation_key": "IGUI_ContainerTitle_safe",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-28T07:35:21.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.5007394Z",
+    "last_seen_mod_updated": "2026-09-04T21:04:05.0000000Z",
     "source_hash": "032caeb541721b5c649307d12e51fb89",
     "output_file_stem": "IG_UI"
   }

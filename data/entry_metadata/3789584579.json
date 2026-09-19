@@ -3,17 +3,35 @@
     "mod_id": "3789584579",
     "translation_key": "Sandbox_ListenMode",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-29T19:45:34.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.5009624Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
     "source_hash": "b10a17105dd716c66447db98f0f8e258",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_AlternateOverlay",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "5d437740df9df48ff8a870345ce23f6e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_AlternateOverlay_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "3671cd5046d9cabbe652f5f70ccdfd12",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3789584579",
     "translation_key": "Sandbox_ListenMode_CrouchToUse",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-29T19:45:34.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.5009630Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
     "source_hash": "507af3c84fa863f8594d8f805a26fbc3",
     "output_file_stem": "Sandbox"
   },
@@ -21,15 +39,123 @@
     "mod_id": "3789584579",
     "translation_key": "Sandbox_ListenMode_CrouchToUse_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-29T19:45:34.0000000Z",
-    "source_hash": "43f53ee6b45762ecb80773396538f951",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "59346889c7fbb0f4d7d525e6fb957e65",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_DividerDebug",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "4034eeab78fe3a9c1518873b795b1c7e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_DividerDebug_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "af7c26d665c42194eaedcc191ae4ccf8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_DividerOthers",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "dcb389dd700209dca4667054f80bafca",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_DividerOthers_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "b05827c49b76e0d488a29d2044d4973e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_DividerRealism",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "32c0c599db8e3c60fefce22e70d0f76b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_DividerRealism_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "13adb16ea5ebaa0f50a5b235a78e37e5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_DurationAndCooldown",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "e4cf20bd679894f4ad989278b6c49fba",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_DurationAndCooldown_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "a990dc901a633250f9403e8b497ec781",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_EnableListenModeBar",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "588ac0a6142e6abe299e5d8b206754fe",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_EnableListenModeBar_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "73be5f591cbdf53f26ffe03aee276063",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_EnableMoodletPenalty",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "ea8bda460879bad44e79d274651f775d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_EnableMoodletPenalty_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "79c109a29bf04fe5a8e6a970140e4c03",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3789584579",
     "translation_key": "Sandbox_ListenMode_NotTooOPMode",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-09-03T16:48:13.4983102Z",
     "last_seen_mod_updated": "2026-08-29T19:45:34.0000000Z",
     "source_hash": "a3320e7825e631048bc17aba4e1586f9",
@@ -38,7 +164,7 @@
   {
     "mod_id": "3789584579",
     "translation_key": "Sandbox_ListenMode_NotTooOPMode_tooltip",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-09-03T16:48:13.4983102Z",
     "last_seen_mod_updated": "2026-08-29T19:45:34.0000000Z",
     "source_hash": "be005e322e30e30ac5f16c7d24e4427f",
@@ -46,10 +172,28 @@
   },
   {
     "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_RadarPulseMode",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "d63f251cb7c51cfd5daf750f9de3d66c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_RadarPulseMode_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "18942d6872f0c3c3daa5b6565566bec8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
     "translation_key": "Sandbox_ListenMode_ShowActiveRadius",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-29T19:45:34.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.5009643Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
     "source_hash": "789046adccf0e57b8254ca49fe956755",
     "output_file_stem": "Sandbox"
   },
@@ -57,17 +201,161 @@
     "mod_id": "3789584579",
     "translation_key": "Sandbox_ListenMode_ShowActiveRadius_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-29T19:45:34.0000000Z",
-    "source_hash": "ee2818e93367dc47b6342b4f9c6d91a0",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "2a5476020ea81c88b85bcbfabba590be",
     "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "99ddfa3193abe41d367ed02195ef5061",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_Values_option1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "8609973eee6318ab05165e54eefb2de0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_Values_option10",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "dda528e7d526991efa0d2d183a40fb24",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_Values_option11",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "cc7503b0596a29147cc1d886f023477b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_Values_option2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "1d505e0bd2832f672899a82cfcabbfa2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_Values_option3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "887631e35d708af13e7562b17a61519c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_Values_option4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "688bf5b1e4247a99df6868182739dd12",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_Values_option5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "b8369bec8d254e061b3f2a921db93c25",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_Values_option6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "a72fa8a5a031861ed49a56d43e5642d2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_Values_option7",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "0b14b2f11e296893815181ed9f82414b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_Values_option8",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "bce00fa8dece95e5189f5695417bf37b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_Values_option9",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "a6628fd4ce4a3eac3ceaedc5c0a14401",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "Sandbox_ListenMode_SoundVolume_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "ffbcb1ddc762924aefe333f13f6f46e1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "UI_ListenMode_BarActive",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "83ad2e095293123b2aa5c4387ac76b56",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "UI_ListenMode_BarRecharging",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "47e5dbadfb96054783fddcf43c9e37ee",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3789584579",
+    "translation_key": "UI_ListenMode_DeafPhrase",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
+    "source_hash": "44adca9181f379a5bec48b00e0887dfa",
+    "output_file_stem": "UI"
   },
   {
     "mod_id": "3789584579",
     "translation_key": "UI_optionscreen_binding_Instinctive Hearing",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-29T19:45:34.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.5009651Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
     "source_hash": "55e63bcdcf9e3ee104cefbfd9ef260cb",
     "output_file_stem": "UI"
   },
@@ -75,8 +363,8 @@
     "mod_id": "3789584579",
     "translation_key": "UI_optionscreen_binding_InstinctiveHearing_ListenMode",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-29T19:45:34.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.5009656Z",
+    "last_seen_mod_updated": "2026-09-11T23:15:58.0000000Z",
     "source_hash": "b39bcab329038901818bafa83df27aff",
     "output_file_stem": "UI"
   }

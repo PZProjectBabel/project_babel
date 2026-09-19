@@ -10,6 +10,7 @@ Key files:
 - `GitHubActions.cs`: escaped workflow annotations.
 - `WarningFileWriter.cs`: warning JSON files under `warningsTempDir`.
 - `DescriptionCleaner.cs`: Steam description cleanup.
-- `BinaryEmbeddingSerializer.cs`: embedding binary read/write.
+- `BinaryEmbeddingSerializer.cs`: embedding binary read/write and compressed chunk generation under the 30,000,000-byte repository limit.
+- `EmbeddingFileStorage.cs`: canonical unsplit/split embedding filenames and atomic file-set replacement.
 
 Notes: keep dependency-free. `translationValues` keys use ISO. `processed` != `verified`; binary format details stay in code comments, not here.

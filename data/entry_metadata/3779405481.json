@@ -2,7 +2,7 @@
   {
     "mod_id": "3779405481",
     "translation_key": "IGUI_NestedHealthInfo_Healthy",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-23T03:10:36.1427672Z",
     "last_seen_mod_updated": "2026-08-09T20:58:09.0000000Z",
     "source_hash": "6a207323d56752d99cb9dd39a5ca9017",
@@ -11,7 +11,7 @@
   {
     "mod_id": "3779405481",
     "translation_key": "IGUI_NestedHealthInfo_NotHealthy",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-08-23T03:10:36.1427679Z",
     "last_seen_mod_updated": "2026-08-09T20:58:09.0000000Z",
     "source_hash": "d4ca4ecfc6a1581aec014bbdba5c8d13",
@@ -21,8 +21,8 @@
     "mod_id": "3779405481",
     "translation_key": "Sandbox_NestedHealthInfo_DoctorLevel",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1427685Z",
-    "last_seen_mod_updated": "2026-08-09T20:58:09.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6260537Z",
+    "last_seen_mod_updated": "2026-09-13T14:15:50.0000000Z",
     "source_hash": "12f53d8d530a5b23cf5cf5ad0daa5516",
     "output_file_stem": "Sandbox"
   },
@@ -30,8 +30,8 @@
     "mod_id": "3779405481",
     "translation_key": "Sandbox_NestedHealthInfo_DoctorLevel_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1427688Z",
-    "last_seen_mod_updated": "2026-08-09T20:58:09.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6260547Z",
+    "last_seen_mod_updated": "2026-09-13T14:15:50.0000000Z",
     "source_hash": "fc625f1a3bbdf2bfc89f077632515ae2",
     "output_file_stem": "Sandbox"
   },
@@ -39,8 +39,8 @@
     "mod_id": "3779405481",
     "translation_key": "Sandbox_NestedHealthInfo_general",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1427693Z",
-    "last_seen_mod_updated": "2026-08-09T20:58:09.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6260553Z",
+    "last_seen_mod_updated": "2026-09-13T14:15:50.0000000Z",
     "source_hash": "d1e90420a0485d21bbba41a05e576317",
     "output_file_stem": "Sandbox"
   }

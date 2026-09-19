@@ -1,0 +1,6 @@
+UI_MS_Preview::en = "Play",
+UI_MS_Preview::ja::processed::unverified = "再生",
+UI_MS_SmokeAmount::en = "Smoke amount",
+UI_MS_SmokeAmount::ja::processed::unverified = "煙の量",
+UI_MS_SmokeAmount_TT::en = "How much smoke a shot produces. 100 is the default look and the maximum. Lower it for less smoke, 0 for none. Applies to your shots and to other players' shots you can see.",
+UI_MS_SmokeAmount_TT::ja::processed::unverified = "1 発で出る煙の量です。100 が既定の見え方で上限です。減らしたいときは下げ、0 で煙を出しません。自分の発砲と、見えている他プレイヤーの発砲の両方に適用されます。",

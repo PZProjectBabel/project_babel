@@ -1,28 +1,478 @@
 [
   {
     "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_CombinedExhaustion",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "66a259186e5829d2d2e3efa355802ec6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_CustomAnimations",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "3dbe999e0b1cc6a31d3e8d4cab891933",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_CustomAnimations_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "e5fe387cfff2699c1473b80feba836a4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_DoorCrowdBlocked_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "b4ed526ecd102675da950ab687f7ff47",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_DoorCrowdBlocked_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "ad6d363e113c9bd9594eeb7c9194e871",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_DoorCrowdBlocked_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "8b6cf74ea65496644ccfe6918b6f4e25",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_DoorCrowdBlocked_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "3d5aaa79d3df14c162bf443d66d78989",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_DynamicMessages",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "23064f0f34894056fa8b515892a85799",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_DynamicMessages_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "a27d06e4a53314c90cf58bdcaab8ec11",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_EnduranceBlocked",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "ff3df75f151a9c4873297c9e5b56be60",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_EnduranceBlocked_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "8634cb7e68dd5bd1c9a56a650f2d5561",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_EnduranceBlocked_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "d36834f8f9b1c2510bce7a93940a6e6a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_EnduranceBlocked_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "e6a86e8e0124d7a972f18a50956489cc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_EnduranceTiredness",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "4b419c1bb77c1a2ddb12f17d3e1f8a92",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_Exhausted_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "8e4925eb9a1838c69707114f4077563b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_Exhausted_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "9d8414cf29674b254fcb30fb6991944f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_Exhausted_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "5146dde98cb993e7c60e1b08569209e9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_Exhausted_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "56b69b17a21a6929a223a9f95fffd5f3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_Exhausted_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "d2c81efb1ffae442546f5c5f825ae092",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_FacingRequired",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "0118e649ee5a376c2766f182f4d4444c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ForcedOpeningBothArms",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "f043e83369fd3e3740a5719fcddc2773",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ForcedOpeningInjured_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "77f528551ac4f929dfee38bfe25e937a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ForcedOpeningInjured_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "444b52219d4840043a9e3cc3d7ade979",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ForcedOpeningInjured_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "d37a2afb463168809a96f54a62df5277",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ForcedOpeningKey",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "e946ef9fd52c30f9bf7a9e7998857891",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ForcedOpeningKey_Prompt",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "932ae693fb48eb5892f87855942d10d4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ForcedOpeningKey_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "eeedded307e1510f2208a37042abf870",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ForcedOpeningManageable",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "d4645614f6bc780636a4532280045d27",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ForcedOpeningNotNeeded",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "059395bc68765da036e4deecac0c52af",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ForcedOpeningWrongSide",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "34980c6c73cbd375e552c78c25c59569",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
     "translation_key": "IGUI_CyesPushDoors_ImpactFeedback",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468133Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "b9610024423482e6fd0980a74f0ddf84",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "f71c11b90d184723e07f2a37188009aa",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "IGUI_CyesPushDoors_ImpactFeedback_Tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468140Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "1a9c96e79af148c26b80144a3991b6ac",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "9303d67f514faa130628cf025789a8db",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ImpactTargetOutline",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "045827f9a32a9c2832535460898de1b0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ImpactTargetOutlineColor",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "8dd4f1906f5b4e6ebb82d4a70bf5077a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ImpactTargetOutlineColor_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "21cac1a997d0370ce29edf626912c15e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_ImpactTargetOutline_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "33afd60b19c3f5c6b5b4a14d00beda82",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_IncrementMessageColor",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "bc17540a7bbdd0b683797fd8f101ff60",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_IncrementMessageColor_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "30f6b68d08a2f1e91743d3766dab4fa3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_LimitationMessageColor",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "2a4c153b4317799cbd877579d9138767",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_LimitationMessageColor_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "a1291ecc195acd0aef7a53ad8504eb55",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_MouseButton",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "13d04e5b4cf77fd767b00721cbdf17e7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_MouseLeft",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "351fb566646016cca8449d245c872f1b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_MouseMiddle",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "3851ea0e6b8296d96b4fc762906057fa",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_MouseRight",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "5609ff8982fc8a38648efb75babbe61b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_PlayerStrengthBlocked_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "1fb5a6ade38e3f192e118f46e057f11e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_PlayerStrengthBlocked_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "9648b5c9a7628ceda5bac00ec888b229",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_PlayerStrengthBlocked_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "323393d9427fb22f2860faa4920f109c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_SoundEffects",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "3400be7857e659f24ca23f7995b5df77",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_SoundEffects_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "bc3b681a51a1a4ac73564c9037bdb616",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_StandardMessageColor",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "96acd5814be85c28edaa3a62007075e7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_StandardMessageColor_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "bf9329bfe7119bb4274aaf1e153af0e9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "IGUI_CyesPushDoors_Tiredness",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "5d628854e7d4ca4360f4f7f3083a7233",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468145Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919898Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "113f80127236a54df6f4285d7fd82814",
     "output_file_stem": "Sandbox"
   },
@@ -30,8 +480,8 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_AffectCrawlers",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468151Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919908Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "c43eaacf1c0e49ccd2703bfef873b3bd",
     "output_file_stem": "Sandbox"
   },
@@ -39,17 +489,35 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_AffectCrawlers_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468154Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919916Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "e7ddcef0d223fa7c6e32210ddeeb01ae",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "Sandbox_CyesPushDoors_AllowImpactsFromBothSides",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "34a9be121b73916e01105db70f56d09f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "Sandbox_CyesPushDoors_AllowImpactsFromBothSides_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "254fc1b716e736dd8d5eba635c75c9e1",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ArmStrainGainMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468160Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919924Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "62dc06647cd185642856dc48bb296596",
     "output_file_stem": "Sandbox"
   },
@@ -57,17 +525,17 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ArmStrainGainMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468164Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "86c5ef1ae8c27b64335a9572ae7a070e",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "151077d5d7a374537bec8cdf10590d40",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ArmStrainPenaltyMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468168Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919935Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "dc8dd048ce5dbf09869c0772c24cc03a",
     "output_file_stem": "Sandbox"
   },
@@ -75,8 +543,8 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ArmStrainPenaltyMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468174Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919940Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "685eb8166922d9526b6fd5a8665c63a4",
     "output_file_stem": "Sandbox"
   },
@@ -84,26 +552,26 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ArmStrainRecoveryMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468177Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "124c850657d28e274b489e201493a87e",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "7e98cbc55a2cdeba1ec8bd3a1ae8ad53",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ArmStrainRecoveryMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468180Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "b7c9b568538e2ffbdf9d294650756474",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "84922f9645b295123739bf4f674c0bcd",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ArmStrainUsageLimitMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468186Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919958Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "ee6157bfab500e89ca6365bc53b04e37",
     "output_file_stem": "Sandbox"
   },
@@ -111,8 +579,8 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ArmStrainUsageLimitMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468191Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919966Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "d60bbd1cb6ba52228b822a8079ef1407",
     "output_file_stem": "Sandbox"
   },
@@ -120,8 +588,8 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_DamagePlayers",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468193Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919972Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "db665b5e4e01845585f5fd3609d3927e",
     "output_file_stem": "Sandbox"
   },
@@ -129,17 +597,35 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_DamagePlayers_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468198Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "10c8464342a268cff5458628f06f95d5",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "8fea7718a91122cdaa4cd3e03f1585eb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "Sandbox_CyesPushDoors_DoorBlockCapacityMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "225894780612b8a96a14c1aae6a968f9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "Sandbox_CyesPushDoors_DoorBlockCapacityMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "25438c99a8f78436008813ab190d1e96",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_DoorWearMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468203Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919980Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "5f26a5ffe31a3520d6317797b15dd34d",
     "output_file_stem": "Sandbox"
   },
@@ -147,17 +633,71 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_DoorWearMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468206Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "60820f164adf93a9f4034ae35e54faae",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "0eea1ca6e91b0d2b47820c7ed7f527a6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "Sandbox_CyesPushDoors_EnduranceCostMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "6b2aad2617b6da0709753078968c6702",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "Sandbox_CyesPushDoors_EnduranceCostMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "683f6f33b621e0a843a5933893c4bfc5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "Sandbox_CyesPushDoors_ForcedOpeningDoorWearMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "28a9cc27ed68fbf719469176551e7d0a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "Sandbox_CyesPushDoors_ForcedOpeningDoorWearMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "650ecd3effe673088cff9a3618e24408",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "Sandbox_CyesPushDoors_ForcedOpeningFractureRiskMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "507a847af4fadf7b2b4b20f75a32df09",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3780683663",
+    "translation_key": "Sandbox_CyesPushDoors_ForcedOpeningFractureRiskMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "7a59582b6a224345c50a8bd2aa7a11e4",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_GarageArmStrainMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468210Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919991Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "0ceb3df6b75609e3736b831d2ae3b261",
     "output_file_stem": "Sandbox"
   },
@@ -165,8 +705,8 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_GarageArmStrainMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468213Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4919999Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "26f17e0c6e5cc6a2740c6e048023d9fa",
     "output_file_stem": "Sandbox"
   },
@@ -174,8 +714,8 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_GarageDoorWearMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468219Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4920005Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "8faaaf52faaa1bd89a11275c7bf8251e",
     "output_file_stem": "Sandbox"
   },
@@ -183,8 +723,8 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_GarageDoorWearMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468222Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4920009Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "824d4c8457431f094456056dab6b2145",
     "output_file_stem": "Sandbox"
   },
@@ -192,8 +732,8 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_GarageFailureChanceMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468226Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4920014Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "6b2dd98516bdebbc5e669d880e857e0f",
     "output_file_stem": "Sandbox"
   },
@@ -201,17 +741,17 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_GarageFailureChanceMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468229Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "cd064553a35ee2df657eaaa486d4340a",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "c049d4899a437389e0f2ca8d7854e655",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_GlobalImpactFeedback",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468234Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4920024Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "000ba82666a123e63106dbc4fa629f04",
     "output_file_stem": "Sandbox"
   },
@@ -219,35 +759,35 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_GlobalImpactFeedback_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468237Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "d02cd8318a53b66bde9ab261efc64971",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "467afa5ecff53b6f39b91605d9d047db",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_HideIndividualOptions",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468240Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "9246b04e56889ad665edc605fcb395a8",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "03f51555460a8f2c9dfffc0a6b7423c9",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_HideIndividualOptions_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468243Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "e78106621d78c4e12ff6efc05ce4a9fb",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "3613068ff3b2d12f71b8110537833898",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_KnockDownPlayers",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468248Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4920046Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "86886145472229cf4147279c0693bb17",
     "output_file_stem": "Sandbox"
   },
@@ -255,17 +795,17 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_KnockDownPlayers_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468251Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "562715f3e70054e749780a64ae2b9886",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "e0ab814387ed1bf1a65f9e579f6dd39d",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_PlayerKnockdownChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468254Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4920057Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "09c38f73ebd3cc1d44b01c335a5d390b",
     "output_file_stem": "Sandbox"
   },
@@ -273,17 +813,17 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_PlayerKnockdownChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468258Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "a53d40ef7429a4af4e4613565003afec",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "c5d4f51d85239f924023e2555f8e1774",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ZombieDamageMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468262Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4920066Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "bfcaa06df7d49dfddb19144e9640da84",
     "output_file_stem": "Sandbox"
   },
@@ -291,8 +831,8 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ZombieDamageMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468265Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4920072Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "737a120a5bf35963bffb46cb9e04a584",
     "output_file_stem": "Sandbox"
   },
@@ -300,8 +840,8 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ZombieKnockdownChance",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468270Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4920078Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "9e94887ca853781d3f60e7150ddf5bad",
     "output_file_stem": "Sandbox"
   },
@@ -309,17 +849,17 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ZombieKnockdownChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468274Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "83639fb7f10c5ee9bf78cf3fe9f04b36",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "8c5b05d24ff1486ef993951e7c2aab18",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ZombiesAffectedMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468279Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4920090Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
     "source_hash": "930abfb08abeee936892a8fadf213219",
     "output_file_stem": "Sandbox"
   },
@@ -327,9 +867,9 @@
     "mod_id": "3780683663",
     "translation_key": "Sandbox_CyesPushDoors_ZombiesAffectedMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1468284Z",
-    "last_seen_mod_updated": "2026-08-13T05:45:36.0000000Z",
-    "source_hash": "1341b22283cd715354fd1892d07f2453",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T04:03:54.0000000Z",
+    "source_hash": "162fdfb3f66db82df44020a2c75ab4a2",
     "output_file_stem": "Sandbox"
   }
 ]

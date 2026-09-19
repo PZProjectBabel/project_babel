@@ -1,10 +1,73 @@
 [
   {
     "mod_id": "2625625421",
+    "translation_key": "HEADER_IG_UI_EN_isoContainers",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "075082ee11fc82aebb695d46fc355810",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "HEADER_Recipes_EN_isoContainers",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "8fac4a6f4c9b28919fb62394f3e1ef54",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "IGUI_VehicleNameTrailerISOcontainerM1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "e35c67482f6cbc2f7a5468a9f202213f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "IGUI_VehicleNameTrailerISOcontainerM2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "df80d64cf121dd36a465f0eef95014d8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "IGUI_VehicleNameTrailerISOcontainerM3tanker",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "189d069644f6614f911b24849cc126fc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "IGUI_VehicleNameTrailerISOcontainerM4damaged",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "b44694185f0c9d11d8f733a614cc102b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "IGUI_VehicleNameTrailerISOcontainerS2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "ef963df6c08597515dba986f02b0242c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
     "translation_key": "IGUI_VehicleNameisoContainer1",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:22.9302827Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
     "source_hash": "610398e9165a02439c73425b0bda57cf",
     "output_file_stem": "IG_UI"
   },
@@ -12,44 +75,44 @@
     "mod_id": "2625625421",
     "translation_key": "IGUI_VehicleNameisoContainer2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941400Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
-    "source_hash": "85b5e26060b3c2e324dbd4900fe628a0",
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "48761cb6a94d74e89f4c4dce17c42a5a",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2625625421",
     "translation_key": "IGUI_VehicleNameisoContainer3tanker",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941408Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
-    "source_hash": "ed9953ac2c2858b26a574c47bb5312fb",
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "7b4be12173201657174f6116214eefdf",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2625625421",
     "translation_key": "IGUI_VehicleNameisoContainer4",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941414Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
-    "source_hash": "e0abc43123e79131811030f7906c31ce",
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "ca28ecf54aa81010a15650125e554d20",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2625625421",
     "translation_key": "IGUI_VehicleNameisoContainer5",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941419Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
-    "source_hash": "5bd1ef45b1b936c1af8923ef8c5d9cef",
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "f71d256e30b37f52bcc8952c6a125b4d",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2625625421",
     "translation_key": "IGUI_VehiclePartISOTrunk1",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941425Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.4835639Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
     "source_hash": "3e5cea8d37fd2b8a8464814e969d2b5f",
     "output_file_stem": "IG_UI"
   },
@@ -57,8 +120,8 @@
     "mod_id": "2625625421",
     "translation_key": "IGUI_VehiclePartISOTrunk2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941428Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.4835653Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
     "source_hash": "f319799d040fd3441763e1f3219f1c32",
     "output_file_stem": "IG_UI"
   },
@@ -66,8 +129,8 @@
     "mod_id": "2625625421",
     "translation_key": "IGUI_VehiclePartISOTrunk3",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941433Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.4835660Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
     "source_hash": "84f2ed3e2befac50c80d5fc590160ee1",
     "output_file_stem": "IG_UI"
   },
@@ -75,26 +138,125 @@
     "mod_id": "2625625421",
     "translation_key": "IGUI_VehiclePartISOTrunk4",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941439Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.4835668Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
     "source_hash": "98da09903ee21c996d3af4a5b2c12c88",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "IGUI_VehiclePartKI5ISOFrameA",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "831ab54e0b2c61fda25ec9abb1bf0114",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "IGUI_VehiclePartKI5ISOFrameFL",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "4acd22de2c9ba1cf6eb5c2eeb958fc48",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "IGUI_VehiclePartKI5ISOFrameFR",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "bcb31db1bf7bac222fa0e6347ed1801c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "IGUI_VehiclePartKI5ISOFrameRL",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "37ec08d54cdadd728240cd04330fae40",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "IGUI_VehiclePartKI5ISOFrameRR",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "37fbdf5157a2a0ea586103ae66736c62",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2625625421",
     "translation_key": "IGUI_VehiclePartTrunk2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941446Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.4835675Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
     "source_hash": "f17954b1ef5af47382dd84408b2bb754",
     "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "2625625421",
+    "translation_key": "IGUI_VehiclePartTrunkDoorISO2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "341116a241ad81881aff3c067caa1add",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "ISOMakeContainerDoor",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "19deb99239bb58134e60b00d1a9c96d8",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "ISOMakeContainerDoubleDoor",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "50997dc1e6713e66acff890af1f97bbd",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "ISOMakeContainerFrameA",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "0aacded91bc445846fc81da4118f2ac1",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "ISOMakeContainerFrameI",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "02cdb1f562dba61b8616f85992911e5a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "ISOMakeContainerTankerLid",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "150a1cca12e326bbd427f80aac2b6495",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "2625625421",
     "translation_key": "Recipe_ISOMakeContainerDoor",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941452Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.4835684Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
     "source_hash": "3dd67f9fb3b6d93552a008a5db117def",
     "output_file_stem": "Recipes"
   },
@@ -102,8 +264,8 @@
     "mod_id": "2625625421",
     "translation_key": "Recipe_ISOMakeContainerDoubleDoor",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941456Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.4835691Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
     "source_hash": "c5648dc416f42d606b2880fe1ba542a8",
     "output_file_stem": "Recipes"
   },
@@ -111,9 +273,18 @@
     "mod_id": "2625625421",
     "translation_key": "Recipe_ISOMakeContainerTankerLid",
     "is_active": true,
-    "last_seen_at": "2026-08-23T01:39:23.0941465Z",
-    "last_seen_mod_updated": "2026-02-17T18:59:31.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.4835702Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
     "source_hash": "a37d6d221822bc528a861c84cfd7ee9e",
     "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "2625625421",
+    "translation_key": "Sandbox_DAMN_AllowContainerSpawns",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-17T19:25:37.0000000Z",
+    "source_hash": "dacc2ad3d5108b6d17cdc5be4184d4ed",
+    "output_file_stem": "Sandbox"
   }
 ]

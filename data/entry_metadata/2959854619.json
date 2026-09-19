@@ -3,8 +3,8 @@
     "mod_id": "2959854619",
     "translation_key": "ContextMenu_LowerBack",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:35.9707399Z",
-    "last_seen_mod_updated": "2026-08-05T10:18:41.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.4976484Z",
+    "last_seen_mod_updated": "2026-09-04T16:33:13.0000000Z",
     "source_hash": "2f854ecf62e6bf7ef9e14ce92f62aa1f",
     "output_file_stem": "ContextMenu"
   },
@@ -12,9 +12,45 @@
     "mod_id": "2959854619",
     "translation_key": "ContextMenu_OnBack",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:35.9707409Z",
-    "last_seen_mod_updated": "2026-08-05T10:18:41.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.4976499Z",
+    "last_seen_mod_updated": "2026-09-04T16:33:13.0000000Z",
     "source_hash": "6d94ebe0f6bb89e9948817eaed026737",
     "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "2959854619",
+    "translation_key": "UI_AliceDuffel_LegacyCornerWarning",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-04T16:33:13.0000000Z",
+    "source_hash": "b8eba4ebae6013bbec36f9a481a8453d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "2959854619",
+    "translation_key": "UI_AliceDuffel_LegacyMigrationWarning",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-04T16:33:13.0000000Z",
+    "source_hash": "d92054cfeb69f22daa1ea74805447a06",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "2959854619",
+    "translation_key": "UI_optionscreen_binding_Alice's Duffel Bag",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-04T16:33:13.0000000Z",
+    "source_hash": "518cd4631924e75b53debdffa43b6177",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "2959854619",
+    "translation_key": "UI_optionscreen_binding_Duffel Bag Fastening",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-04T16:33:13.0000000Z",
+    "source_hash": "caa07d7598924c6a21d2fa3818bcd0d6",
+    "output_file_stem": "UI"
   }
 ]

@@ -1,10 +1,91 @@
 [
   {
     "mod_id": "3786918614",
+    "translation_key": "UI_Hands_doubleClickGrab",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
+    "source_hash": "6027d9c658cb794e95a92b859bda409a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3786918614",
+    "translation_key": "UI_Hands_doubleClickGrab_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
+    "source_hash": "f1cee7aa26bf3aba808a78a538e9e5b0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3786918614",
+    "translation_key": "UI_Hands_secondaryFirst",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
+    "source_hash": "fa11141ab5634606cc824f2266cbae95",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3786918614",
+    "translation_key": "UI_Hands_secondaryFirst_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
+    "source_hash": "bb3fe6831cda9abc8ae0731e037ee2e6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3786918614",
+    "translation_key": "UI_Hands_southpaw",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
+    "source_hash": "ef2c11255ec35526a6e328aa62d496aa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3786918614",
+    "translation_key": "UI_Hands_southpaw_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
+    "source_hash": "46063755ed44653512d82475f661a0b3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3786918614",
+    "translation_key": "UI_Hands_useAltClick",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
+    "source_hash": "78108cc26de6ac2042e4a6de89586d9d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3786918614",
+    "translation_key": "UI_Hands_useAltClick_tt",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
+    "source_hash": "7fe94e9d7416a3f5c1af4e5a78595662",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3786918614",
+    "translation_key": "UI_optionscreen_binding_Drop Equipped Bags",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
+    "source_hash": "d833d428c9636009f2353c5a6090a558",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3786918614",
     "translation_key": "UI_optionscreen_binding_Equip Hovered To Primary",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-30T08:22:59.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4993904Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
     "source_hash": "f38d52743571b5923edb0e1aee9805ba",
     "output_file_stem": "UI"
   },
@@ -12,8 +93,8 @@
     "mod_id": "3786918614",
     "translation_key": "UI_optionscreen_binding_Equip Hovered To Secondary",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-30T08:22:59.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4993910Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
     "source_hash": "1601d566d1dd2cc9880d104dce45a810",
     "output_file_stem": "UI"
   },
@@ -21,15 +102,15 @@
     "mod_id": "3786918614",
     "translation_key": "UI_optionscreen_binding_Hands",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-30T08:22:59.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4993916Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
     "source_hash": "2c3b814dc02801b812ae02b3b9b527ae",
     "output_file_stem": "UI"
   },
   {
     "mod_id": "3786918614",
     "translation_key": "UI_optionscreen_binding_Hands DEV",
-    "is_active": true,
+    "is_active": false,
     "last_seen_at": "2026-09-03T16:48:13.4983102Z",
     "last_seen_mod_updated": "2026-08-30T08:22:59.0000000Z",
     "source_hash": "d05283916244129c5df5665e95ca1ce4",
@@ -39,8 +120,8 @@
     "mod_id": "3786918614",
     "translation_key": "UI_optionscreen_binding_Place Held Items",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-30T08:22:59.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4993923Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
     "source_hash": "0c462e8d72c5a0ee8435ed102e126df9",
     "output_file_stem": "UI"
   },
@@ -48,8 +129,8 @@
     "mod_id": "3786918614",
     "translation_key": "UI_optionscreen_binding_Place Worn Backpack",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-30T08:22:59.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4993927Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
     "source_hash": "ed147b340b2bf2b43b447916b0698240",
     "output_file_stem": "UI"
   },
@@ -57,8 +138,8 @@
     "mod_id": "3786918614",
     "translation_key": "UI_optionscreen_binding_Stow Held Items",
     "is_active": true,
-    "last_seen_at": "2026-09-03T16:48:13.4983102Z",
-    "last_seen_mod_updated": "2026-08-30T08:22:59.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4993931Z",
+    "last_seen_mod_updated": "2026-09-14T05:59:35.0000000Z",
     "source_hash": "567205615b258ef1b921a561d234c294",
     "output_file_stem": "UI"
   }

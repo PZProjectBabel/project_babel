@@ -1,2 +1,6 @@
 ContextMenu_LowerBack::en = "Lower Back",
 ContextMenu_OnBack::en = "Back",
+UI_AliceDuffel_LegacyCornerWarning::en = "You are using the Legacy version of Alice's DuffelBag Tweak",
+UI_AliceDuffel_LegacyMigrationWarning::en = "<CENTRE> <SIZE:large> <RED> WARNING <RGB:1,1,1> <LINE> <CENTRE> <SIZE:medium> You are using a Legacy version of Alice's DuffelBag Tweak. <LINE> Please disable the legacy version and enable the new version with mod ID: <LINE> <GREEN> AlicesDuffelBagTweak <RGB:1,1,1> <LINE> <LINE> Afterting disabling the Legacy verison, fully restart the game for the changes of the new version to apply! <LINE> Your existing save can transition safely because the item definitions remain the same.",
+UI_optionscreen_binding_Alice's Duffel Bag::en = "Alice's DuffelBag Tweak",
+UI_optionscreen_binding_Duffel Bag Fastening::en = "Duffel Bag Fastening",

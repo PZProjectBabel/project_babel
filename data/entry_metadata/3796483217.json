@@ -1,0 +1,956 @@
+[
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "180b4878fceccf00b95d3e432e1a5cd4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_AbandonWhenCleared",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "e141381bfc12057b1d986a4f16f369d8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_AbandonWhenCleared_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "05bb80ef6d03f797c730aef74dfea33f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Alarm",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "b44284661e46abbb823984eec10f24a9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Alarm_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "4ae0f10afd6027375153191af8d59f76",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BanditGroupSelection",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "6e11046c2eab901c3992d116aebda3a2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BanditGroupSelection_option1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "073dbbadc40fa4a48676db34ac081781",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BanditGroupSelection_option2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "71736847372418b5112053c5c5695cd6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BanditGroupSelection_option3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "dd7e3b2917cea186c32594238a834609",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BanditGroupSelection_option4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "a2c24695e6de30f76a6e1dc4fcf815ed",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BanditGroupSelection_option5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "98fb588f9e198a3dbe168f6e00492795",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BanditGroupSelection_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "9616fa75fb52523eae09ee7092151b3b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BanditGroups",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "6c8de7e9ab5d93088855fc9941a5947c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BanditGroups_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "22ae2302ce12c5143ba33bf351112f2f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BarricadeMaterial",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "174e2e6037b14ac4baabd2a7180332f3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BarricadeMaterial_option1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "e54bcbb0d95dcac54e82c8c7a9aac144",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BarricadeMaterial_option2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "f4d8a391d6e74700e6af440fbe678326",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BarricadeMaterial_option3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "b95ecdb5d5b18f1f764abd4b5d26215b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BarricadeMaterial_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "bfd591e6850fa05ef136a237e3cce236",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BaseMarker",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "2aae727d387f7285495775394cdd591f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_BaseMarker_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "a7a05b8bec459f56456a0479f517e655",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_ClaimChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "0a1066e6985d5d014081d0c56f161e75",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_ClaimChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "cede9e94cfc36c65886e5f08ce460f0f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_ClearedBaseCooldownHours",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "e94f10cc55970530c2c27b922ee18f49",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_ClearedBaseCooldownHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "ff486c9e6505e82f5a5727f29ca8beee",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefenderFirearmChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "c144733c10e2e4a3f7b483c04eb59e61",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefenderFirearmChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "c3c33d6afdf95ae63874424f8dbe1b68",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefenderGear",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "e09f7171cd28b54efcb1f919300df530",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefenderGear_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "25fe4eae8e65c3628a8de6c102f06b7c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefenderLongGunChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "5edeb7bd6eb613b6485e72354aa755d8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefenderLongGunChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "d084151a39d4abe682a1cd94655f92f3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefenderWeaponPolicy",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "c5c676168521d25b1fcd143716176177",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefenderWeaponPolicy_option1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "1e1babcdce66ec828049ec4c058be92a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefenderWeaponPolicy_option2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "66735afffe737d9110004b5a1b1b7892",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefenderWeaponPolicy_option3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "79ff2576f01067bd10903e8c5d99ef92",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefenderWeaponPolicy_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "7fc6effda4deb142724c8ab176e9f07e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefendersPerStage",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "f85cde3ad442034946f00d177da7deb0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_DefendersPerStage_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "3b140709abe60029004c6c94bfaf6208",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Dressing",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "7e00eac4dc5a56e0735a86ff58fbe058",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Dressing_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "a8480165d50ee8ad0aa4f57bab81b95d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_EstablishedChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "6e7dba88d854f9f272dd15f2e871453b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_EstablishedChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "3637ba0b29df87c0cd3b9659f562d025",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_HoursBetweenChecks",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "b6f099b6f4e60f1c49e1445782225d51",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_HoursBetweenChecks_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "6e8f68bb20d1aae01f055adfe402b08e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_HoursPerStage",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "5279b881a1c34fa85459018df63e3865",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_HoursPerStage_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "eda793ad7cd3caea724227ffe557aa2d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_LocalBaseLimit",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "fafc6ee052e2bc0ecd0c3428185dd46a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_LocalBaseLimit_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "c133b17b0f23a642a86cecf44d8ed066",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_LocalBaseRadius",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "79769c943d8a4f3ad0ef6f2c1ada30e6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_LocalBaseRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "e8d7104aa2734ade2b878e6bd7edbc63",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_LootMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "cec4b3d290417a81b5ef7ce1d9da9939",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_LootMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "31d6c4518ea76d4a3acdd927e466e75c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_MaxBaseInhabitants",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "3f4b95474265d808a0cfd193d6a1c1f6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_MaxBaseInhabitants_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "4735b13b1be225b843a500499b1dcb50",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_MaxBases",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "e20572647925ebfaa0d57df97968974a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_MaxBases_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "1e193b43ccca282c9e15d367186c1842",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_MaxTotalInhabitants",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "55fd6988c7c4b10329b4978e18d4997c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_MaxTotalInhabitants_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "e7308cd8c5b63276fd5968697d032b3c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_MinDistanceBetweenBases",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "e965c2de65dfa8cf3d7af8fbecef3637",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_MinDistanceBetweenBases_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "fdf0590865a994333517c67676f7fd3f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_MinDistanceFromPlayers",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "3a1b08929bde42752189bb1c159a82a6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_MinDistanceFromPlayers_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "307b3eb0faded565504e06135035c8fd",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_ModdedGear",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "d4513e1b6a7179ee0ae6663cb79c32e4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_ModdedGear_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "25fe5855ed08c5953ee7f5f219867f42",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_PatrolChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "c389f03b252b3e7359425b38957bbaa3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_PatrolChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "b6bf50bbec43899590561fce92d43ec3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Patrols",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "99026ea90443c082e14884335b88bf62",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Patrols_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "8c8d22dcb00e08f0959dbd817eb6083f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Perimeter",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "4a3605adc2f16e515de98bda21d27a83",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_PerimeterDistance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "f80fbea372fbf87fd37f73ff2ffe2879",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_PerimeterDistance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "c1e3e446f7bc5950a39373ad215c5b59",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_PerimeterStyle",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "a50e2f2b1326b53a527d6afcf1040da8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_PerimeterStyle_option1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "890865ec18afd2427fc153e10d70a58e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_PerimeterStyle_option2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "b6ed3b58ca3610e607b6ca2c272fafd7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_PerimeterStyle_option3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "61b6df84b477db0aced60e82925fe6ef",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_PerimeterStyle_option4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "a27f9144e7aa3b5c8658b779872668a2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_PerimeterStyle_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "6700c15abe6e16d2a1a6755ffffba795",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Perimeter_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "1263d677e7882ad63ffa1cb173b424f9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Power",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "47a5d75c1f11ca8dcedcd4de034c17f7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Power_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "2a970dbec1973bf808a3ae82495a21b3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_RaidChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "009b4547b9b6920a8d0db136c52ef002",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_RaidChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "0303cf5d3c8d86a4cd81763bed94269e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Raids",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "c0396bcd9ce2d0b7435eb60ac5a6eea0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Raids_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "ffcca6bc1cdafd1d7e9cccf59f2ddbf1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_RegrowChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "9464ccb7eca750325d50e1dc1ae4162d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_RegrowChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "f9d6644f7175d492b6194874db2989eb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_RepairBarricades",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "41e2c784ebb3d2f3727d89fd18ed2aab",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_RepairBarricades_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "99c0bacf453c606eca6e1d60a13c0252",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Roadblock",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "f6ebedeabb05df1b94ac2b9d50882a91",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Roadblock_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "478510cc54cd894393987522e3ad1688",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_ShowNotices",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "1b5ed185120763383f6f485d625dc567",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_ShowNotices_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "0d4342053f4e40d9b2bb9c0099585cda",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_StartingBaseAreaSpacing",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "339f5eb1227f73ba045423f8b815a6f9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_StartingBaseAreaSpacing_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "de4f2070904f05fef35c54c51a595df7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_StartingBases",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "766316bb0a3b0daa17da1bf49118391a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_StartingBases_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "01e93385227de17b917f70b27cecd83b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_SupplyRunHours",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "61e0288602f70b5fe84591a0548548f7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_SupplyRunHours_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "7dc5ff156f052e56f7e635e350963a3f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_SupplyRuns",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "f82ac31446ff048c36d491f9fbed1854",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_SupplyRuns_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "e8b924581d33cf42bb8b944793872a4f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Turrets",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "39cf7caf0847d55cb3e7b89fc3768d3e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Turrets_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "7e959d1d1cdc5b23df58ffc64a496cbd",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_VehicleChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "71431948737cc74e75b7ff1ad52382ca",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_VehicleChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "0501bc2aa7efb6ba80a535e50916848a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Vehicles",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "8bc52adbe68d68296b3f996c05d2b4d9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796483217",
+    "translation_key": "Sandbox_NPCBases_Vehicles_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T16:27:08.0000000Z",
+    "source_hash": "664925ad7b95415f7d5485befbf2928b",
+    "output_file_stem": "Sandbox"
+  }
+]

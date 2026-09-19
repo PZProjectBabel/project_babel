@@ -1,20 +1,65 @@
 [
   {
     "mod_id": "3682702613",
+    "translation_key": "SCoolerSystem.ImprovisedCooler",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-18T19:27:18.0000000Z",
+    "source_hash": "5eb4df6c70935f20d302eab55b735916",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3682702613",
+    "translation_key": "SCoolerSystem.IndustrialColdPack",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-18T19:27:18.0000000Z",
+    "source_hash": "8cb24f5529c61531f109346cbf7e92f5",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3682702613",
+    "translation_key": "SCoolerSystem.LargeImprovisedCooler",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-18T19:27:18.0000000Z",
+    "source_hash": "4b8d3ef464c8101fd950eefbb82b846b",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3682702613",
     "translation_key": "SunCS_ImprovisedColdPack",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0817274Z",
-    "last_seen_mod_updated": "2026-04-20T18:05:35.0000000Z",
-    "source_hash": "3b614ea2cf5c844829b85dac7afcf96e",
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-18T19:27:18.0000000Z",
+    "source_hash": "9ffa9227673260a37d255afbf6bcd2a3",
     "output_file_stem": "Recipes"
   },
   {
     "mod_id": "3682702613",
     "translation_key": "SunCS_ImprovisedCooler",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.0817283Z",
-    "last_seen_mod_updated": "2026-04-20T18:05:35.0000000Z",
-    "source_hash": "1fdbddf2dd384334189cbd0d19db6721",
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-18T19:27:18.0000000Z",
+    "source_hash": "6c1c9a9ea8eebe07db6d947f76c9f8a9",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3682702613",
+    "translation_key": "SunCS_IndustrialColdPack",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-18T19:27:18.0000000Z",
+    "source_hash": "0401189653b4f04f62d10ae29ab86cbe",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3682702613",
+    "translation_key": "SunCS_LargeImprovisedCooler",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-18T19:27:18.0000000Z",
+    "source_hash": "710f8cf823b5aea62d9fc1020cb4662e",
     "output_file_stem": "Recipes"
   }
 ]

@@ -1,10 +1,55 @@
 [
   {
     "mod_id": "3750591494",
+    "translation_key": "Sandbox_WoundInfo",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
+    "source_hash": "0253071e0d3670d00cd08772c21755eb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3750591494",
+    "translation_key": "Sandbox_WoundInfo_ShowHealTime",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
+    "source_hash": "0b590797f6640bd6b15d4c2eb1f4f5e4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3750591494",
+    "translation_key": "Sandbox_WoundInfo_ShowHealTime_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
+    "source_hash": "1413c0ce99c94424013b92865f29fe48",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3750591494",
+    "translation_key": "Sandbox_WoundInfo_ShowInfectionImpact",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
+    "source_hash": "5b1ce591bc677a791d720f1dd98e5535",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3750591494",
+    "translation_key": "Sandbox_WoundInfo_ShowInfectionImpact_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
+    "source_hash": "4e45d8e33ac603735c515b48a9721b05",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3750591494",
     "translation_key": "UI_WoundInfo_FullyHealed",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1069408Z",
-    "last_seen_mod_updated": "2026-06-23T23:55:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.5892531Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
     "source_hash": "cbd54a0a9af07b8256ed5d8d53217f6a",
     "output_file_stem": "UI"
   },
@@ -12,8 +57,8 @@
     "mod_id": "3750591494",
     "translation_key": "UI_WoundInfo_GameTimeNote",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1069417Z",
-    "last_seen_mod_updated": "2026-06-23T23:55:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.5892538Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
     "source_hash": "14f037a0f49e85a0492e7d90df5033d1",
     "output_file_stem": "UI"
   },
@@ -21,8 +66,8 @@
     "mod_id": "3750591494",
     "translation_key": "UI_WoundInfo_GlassOutBleed",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1069422Z",
-    "last_seen_mod_updated": "2026-06-23T23:55:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.5892546Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
     "source_hash": "53ae5cd22df02db8fb47a20587b4c54b",
     "output_file_stem": "UI"
   },
@@ -30,17 +75,35 @@
     "mod_id": "3750591494",
     "translation_key": "UI_WoundInfo_GlassOutDeep",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1069426Z",
-    "last_seen_mod_updated": "2026-06-23T23:55:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.5892551Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
     "source_hash": "bfe3950b92f1b9f604104d18b6818ce4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3750591494",
+    "translation_key": "UI_WoundInfo_InfDanger",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
+    "source_hash": "5d1c98b3b7d12810086088a14bc30493",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3750591494",
+    "translation_key": "UI_WoundInfo_InfPain",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
+    "source_hash": "d1d0798e75f8f3948082900926281137",
     "output_file_stem": "UI"
   },
   {
     "mod_id": "3750591494",
     "translation_key": "UI_WoundInfo_Minor",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1069431Z",
-    "last_seen_mod_updated": "2026-06-23T23:55:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.5892556Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
     "source_hash": "62981a0c5f035d74413c3c22c651e0ab",
     "output_file_stem": "UI"
   },
@@ -48,8 +111,8 @@
     "mod_id": "3750591494",
     "translation_key": "UI_WoundInfo_NeedsBandage",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1069437Z",
-    "last_seen_mod_updated": "2026-06-23T23:55:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.5892562Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
     "source_hash": "2108b7a5e805d1cbaafe4d4a3bca472d",
     "output_file_stem": "UI"
   },
@@ -57,8 +120,8 @@
     "mod_id": "3750591494",
     "translation_key": "UI_WoundInfo_NeedsExtraction",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1069442Z",
-    "last_seen_mod_updated": "2026-06-23T23:55:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.5892568Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
     "source_hash": "35a32a1f3d433f74e483452d3edf836e",
     "output_file_stem": "UI"
   },
@@ -66,8 +129,8 @@
     "mod_id": "3750591494",
     "translation_key": "UI_WoundInfo_NeedsTreatment",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1069450Z",
-    "last_seen_mod_updated": "2026-06-23T23:55:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.5892574Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
     "source_hash": "19c5d490caeef9584b7b99383e5e1522",
     "output_file_stem": "UI"
   },
@@ -75,8 +138,8 @@
     "mod_id": "3750591494",
     "translation_key": "UI_WoundInfo_RisingUntreated",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1069457Z",
-    "last_seen_mod_updated": "2026-06-23T23:55:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.5892579Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
     "source_hash": "1ebbc1910db6f656805421d1b1045a6e",
     "output_file_stem": "UI"
   },
@@ -84,8 +147,8 @@
     "mod_id": "3750591494",
     "translation_key": "UI_WoundInfo_Splinted",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1069461Z",
-    "last_seen_mod_updated": "2026-06-23T23:55:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.5892584Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
     "source_hash": "1bd5f83af6287c669092d817ee7ef29c",
     "output_file_stem": "UI"
   },
@@ -93,8 +156,8 @@
     "mod_id": "3750591494",
     "translation_key": "UI_WoundInfo_Unbandaged",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1069466Z",
-    "last_seen_mod_updated": "2026-06-23T23:55:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.5892590Z",
+    "last_seen_mod_updated": "2026-09-16T11:51:14.0000000Z",
     "source_hash": "2aa8f5ed14e4d85d4a8dadfc0aea4c5f",
     "output_file_stem": "UI"
   }

@@ -1,8 +1,1250 @@
 [
   {
     "mod_id": "3787234689",
-    "translation_key": "HEADER_ItemName_EN_ArmasB42",
+    "translation_key": "AbreCaminho",
     "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "8fd087a03a76419c4e270614661301ab",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "AlcancaMorto",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4bae7039b25f9f3ef92cc2f28bff97a2",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArcoModerno",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7997607c8e2b0cd44b91231443f492be",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArcoPrimitivo",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "cd7a8e846d431e0c324b4f5cfec7bd85",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArcoUltra",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "380185fe180e5c6fc7bf77d86cf46c3d",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.CarvedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "442730af610ff5828c70fe052c02a7b8",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.CompoundBowHeavyRed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "feb3644dfc76a3c17f8f6576001dda66",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.CompoundBowWhite",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "b3bec10fd6d186c0ee21cde02aa8f69f",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.FineCarvedBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f2e6e5ea35838ccb307b05f5c4a0184d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.aitormonterobowieknife",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "14d02c12bd6b815eee13f301686caa7b",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.albtacticalkatana",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "52a5fda73b78fca21a7b6abc859e7508",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.aluminiumbaseballbat",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "3b67f633098bb033aa4d8669ac580e10",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.apoc_tactical_longsword",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "efe465c3382fba63a8708e7977aa0978",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.brooklynsmasher",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "13806a5460caabda94d830d9fc35ec46",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.coldsteelspear",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "ccf9aa5513f394b5a5d127a706ecb337",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.crtkkukrimachete",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "a6cb0ab18de17019b8881a3d815672a7",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.defender18machete",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "c91b27af66fa73e1f5492560d4a0aa5c",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.easton_adv_360_baseball_bat",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4760424713a6e43f952f579aa9d2fdac",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.fatmaxbrickhammer",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "259d5804537a334d5b02a58903b855fa",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.fieldshovel",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "72e84ba718e2b68d2c5c2dc7b2932869",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.fiskarsplittingmaul",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "bb562e66de64725e4c19df8c73167ffe",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.gerberdownrangetomahawk",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e552964d4afdea00e4c712f8da66c9e2",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.gerberpackhatchet",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "54000e1224a8e40f65b07dc533840ecc",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.heavybaton",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "665f81e7c60d7985890fda8254c506d6",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.khkcombatknife",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "eabbb0a66620d45367e6f0320e34b31e",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.m48_naginata",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "781793f45b86b96dda27f8013f21a460",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.m48tacticalwarhammer",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "0bc695585d30dcd86716df52827b3fa0",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.north_couloir_ice_axe",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e1377d9b86157867ca46a8c7245d6a64",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.ontariookc10bayonet",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "ea864f06b04561a0ff021ecaa1974275",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.reapertacsickle",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "394e337ce9c144a6e1e1bf7ffeab1ac5",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.reapr_11003_survival_spear",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4aba03683a233e59487253acafd31336",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArmasB42.roughneckgorillasledgehammer",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "751868b53745fa221646a70b70ab5587",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ArrancaToco",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "99075d23b547197a784b0aa0f0940408",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.BoneTippedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4e8fe4b05c73d81cc19b1ab7b0aea1f9",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.BookArchery1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f0021c5d0b926bc6bfb3109f44ccb797",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.BookArchery2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "a51d773e70602aa8e5bfe099e6e8f2ec",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.BookArchery3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "8dbd2ca38c118f7c674bb7b10a1ba398",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.BookArchery4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "32a4f3f2174ab4538753dd235f473e7d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.BookArchery5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "d0fca0495654cafcd2dc4af274abf2b1",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CarbonArrowCrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "6edb4e30f465f189e542d797de5da039",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CarbonArrowPack",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e19343236b529ffdf29c963d06c2c9cd",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CarbonHuntingArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f5dfbb8e788ecdcf0434b186897ff69e",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CarvedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7db19951c88f09ea893f822645ae823d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CarvedBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "c34b8682a3b17b577496974294854151",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowBlack",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "500b28a74ac6fd7dd9db3182b06475e5",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowBlue",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "48242e1acd52d66fbe5422cc6355f71c",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowGreen",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "a463952cf82667ee4cb229204239a64a",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowHeavyBlack",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "22c2bdb8323aa39eb8c8396ee21f1a54",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowHeavyBlue",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "9360a72d40d2a189d0c7ac2622ea0664",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowHeavyGreen",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "eeca81b4fd39b57682ec28a7baee10f1",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowHeavyPink",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "859233fc33a5f407a09e39cfc8d53539",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowHeavyRed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "89c1539ec6682fa0a1f6f809e2d3b145",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowHeavyTan",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e07fac05a411fbfc1035c83873bb1ad1",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowHeavyWhite",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "1ee61ec7d136b494929cff8ecb955c91",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowHeavyYellow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "42ebb4c4ed81993c566c7818e3ed0917",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowPink",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "49a0098f58f1596ae773e5690bdc7c4d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowRed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "c64e10d810c51f2aa7e9e887267e11e7",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowTan",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "5bac531d87d8b124d38e2edda3d61673",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowWhite",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "2a765e91560cf0d343aea6c69fe9a695",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CompoundBowYellow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "176d3f0532741c9103fa25d9299f2251",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.CrudeCarvedBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "cdc143302b0db416865e4ffa784fc951",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.FineCarvedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "064f8e4e14644e5f151bcb9de5c95dfc",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.FineCarvedBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "234674283e60369fad8daa0691876ea8",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.LeatherQuiver",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "974a930f1e68f025bf470a91c87c93f4",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.RadArcheryQuiverArrows_01",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7120c9fada80812f788857450a289722",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.RadArcheryQuiverArrows_02",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "90e383cbcbf95e4031e80c790bb11f70",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.RadArcheryQuiverArrows_03",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "721d360b921b55b1c92b7fd0f04386f1",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.RadArcheryQuiverArrows_04",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "487cc091a45e6b74ba2103edb7542ef9",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.RadArcheryQuiverArrows_05",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "a0012e50f595dccc5e0067d8cd4b4ff0",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.RadArcheryQuiverArrows_07",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "a2370e66ee5e642803b662532539feb4",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.RadArcheryQuiverArrows_10",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "0a10c8d89b4e20bafa1abb832f94150d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.StoneTippedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f6b352aa84e7cf76a5f84854c766a7c2",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Base.TippedCarvedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "29ecf905483e226ae5321db8502da8c2",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "BateFofo",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "af9602bb2bdaad0f5c4d063299b514f4",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CalaBoca",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "9c21e5a9f6c31b74a7dcd3fec4e94107",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsLargeBranch",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e59c02fea279b678a52d5c79866ea713",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsLargeBranch10",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4e2a6088529a961a37f6890588fa4c45",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsLargeBranch15",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "67eb8472effae9569f25810e0d5d896b",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsLargeBranch5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4476bc1591ebfb9efb9e10df5937cae2",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsPlank",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4b561cbcb7076ef00a472370696d2811",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsPlank10",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "5117bcbc8bf1434f78c4ae12b688660c",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsPlank15",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "27d390e333df64a340d9ebe284b2c7ce",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsPlank5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "b84b9b25851fb51bf86e8fc82a591d4f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsScrapWood",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "8c8bf24b232446372d8c6122c54e3af6",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsScrapWood10",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "ab66af173fbb711d15f3b24e9b388b7c",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsScrapWood15",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e2c56fe52ab9f9d277d27c8908c305fe",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsScrapWood5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "b6cc0134eb94c542f18675dba5307e21",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsTreeBranch",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "01915e97188c0a20a8324c7d0a37a49e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsTreeBranch10",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "1a48016c5eca6b70a8fbe70e9737dd61",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsTreeBranch15",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "6d7195353d381bcc07fabdb8dbd0a868",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveArrowsTreeBranch5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "b107c0dc5a7284f33275a2df2160eeee",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "5e07687a925983135d5428dd49464b27",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveCrudeBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "92846642396928ee82820f39edfb1e39",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CarveFineBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "9023c32e63c310f53afa7ed92023ff45",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CavaCova",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "92ad9ca1cb7b77d6a99ee8c9f1d32e24",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CeifaCuca",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "67968e5684dea86fce9a086f00dd0af7",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CraftArcoModerno",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4fcff541e927758eb93c4bcfa9ac14be",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CraftArcoPrimitivo",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "3f8edcced0ec3fd083808a3869d7f03f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CraftArcoUltra",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "5cc171f13662bdff9fbb32b1a5a56cef",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_AbreCaminho",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "5e840f46e2397b2aa230434bb5010801",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_AlcancaMorto",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "0c10e9b316af80ffde59102534b230ab",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_ArrancaToco",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "b185d1fb14a777a708ec66d03c12ce4b",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_BateFofo",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "13f51231fb3b84bed9a296f00a0b3a15",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_CalaBoca",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "426cc6b8b54a921e358f18afb7db1fe8",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_CavaCova",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "8cbe6d89f9200c45dcd2addeccda2148",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_CeifaCuca",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "be70ed5a02731a5d344bf7af1b99130e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_CutucaOnca",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f39926123a87b1b05729782b9d605260",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_EspetaTripa",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "6e9d3f4df4d6892e35f8e5a1399a935f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_FacaBoiadeira",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "fabbce825ad4f0ce6e0de2197afa3c37",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_FatiaMorto",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "46d3a949297f7fbaca7a3332ab6ab6f8",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_FatiaZumbi",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "8e1b7a0521c81db321aa8e1a51fc8440",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_FuraBucho",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "166d4bbacf45175876b76c8933b2aec0",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_FuraLonge",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "88d5427853e89b0596d567a53f0a709a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_LapadaSeca",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4db6a3f0a138f34117956b17457be30c",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_MachadinDeOuro",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "543830be47cd4c10d9b43ec9dbf0256e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_QuebraGalho",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7c504bef1508db1c99ed01f58496afbe",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_QuebraQueixo",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "a0771902074c945aa408bb392047a2b0",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_RachaPeito",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e8fa0a1cbb57dc3ff4e10a2e35422596",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_RasgaBucho",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "0732c13d3aebe74dc957a312872d8c15",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_RompeBunker",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4e4733debc65083225f6911304bec571",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_TacoAmassaCranio",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "fbce5adc66d70c3f7a2b5aecd34c0c92",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Craft_TiraTeima",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "ebfe6c3ae6b400759c5ecee91a867dca",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "CutucaOnca",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "2d3af3a68939559e0fe28ed82318bc83",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "EspetaTripa",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f017fa43eb5377497f6d5658ff075616",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "FacaBoiadeira",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "a14e2f779382656f7a38405f3dcde444",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "FatiaMorto",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "194ec61b03330ba709f5efacf053374b",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "FatiaZumbi",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "2f84c9e639cfc6f1b819d48a94b457a6",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "FletchArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "a7b25acce7fad86cfbfb395b81f0ab49",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "FletchArrows10",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e76d42d9941af8c1a35e20dc2f30da7a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "FletchArrows15",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "aed89b55740c85d5afefbedb400d17b2",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "FletchArrows5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "eb3c2a96cd83a724016d0b299b2a7754",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "FuraBucho",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "bb86038b7076608a1cac76a6d3327183",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "FuraLonge",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f90b25e9d5da86bacc9316329e36c138",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_IG_UI_CN_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "bc4ee6a8364bc8c1a80bcecc3fd48c88",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_IG_UI_EN_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "b58f7472a260de64de37f9688d6a90a0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_IG_UI_IT_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "bf7759b8bd0762a959d9fa73a47babfd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_IG_UI_PTBR_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "01ffefd9ff37a417c05e6030f9b26dbb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_ItemName_CN_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "aff5f24b9f62c091a3a9b5de76d1b636",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_ItemName_EN_ArmasB42",
+    "is_active": false,
     "last_seen_at": "2026-09-04T02:02:17.4415055Z",
     "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
     "source_hash": "33b0e7bffae41f7d08128e110b7479b9",
@@ -10,8 +1252,26 @@
   },
   {
     "mod_id": "3787234689",
-    "translation_key": "HEADER_ItemName_PTBR_ArmasB42",
+    "translation_key": "HEADER_ItemName_EN_RadArchery",
     "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7b47bf335f752d444da3204ba1b72781",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_ItemName_IT_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "74135b8cbb0d6a976b0748e8634f66a7",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_ItemName_PTBR_ArmasB42",
+    "is_active": false,
     "last_seen_at": "2026-09-04T02:02:17.4415064Z",
     "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
     "source_hash": "6b515547b5cae3c68583bb6d68767bea",
@@ -19,55 +1279,379 @@
   },
   {
     "mod_id": "3787234689",
+    "translation_key": "HEADER_ItemName_PTBR_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "5e8a82bb2306ab3b2c0cfdee2d866e82",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_Recipes_CN_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "87a2ffc5c1afec39d2e3f1839b157e06",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_Recipes_EN_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e58ae4d8f34ac404d449868c75411152",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_Recipes_IT_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "effe661707294d6e0548f7bda00d663f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_Recipes_PTBR_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e76fd829daa33268438d23c15b9fbec7",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_Tooltip_CN_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e85dfd55ddaafba36c6d71d7a5b221a2",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_Tooltip_EN_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "cff3bbac8077cf56518c7a58ce5f1059",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_Tooltip_IT_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "53da7a6f2c135b6ea4d128408df9212b",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "HEADER_Tooltip_PTBR_RadArchery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4fff1b52c8932c4cbce7bf4b123d8249",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "IGUI_RadArchery_Nock",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "d7e9100d83b603b59c75516722862b64",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "IGUI_RadArchery_NockInBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "70d9e6efaadbdbd6f05fd228b113b447",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "IGUI_RadArchery_Unnock",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "07851ca1ec5c5b6f95e8149d72afa9c7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "IGUI_perks_Archery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "eae5385e7af9a68b74a2dfbb4751d05e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "IGUI_perks_Archery_Description",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "ac21d84c0eebe27e8a44055c29ab7ca9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.CarvedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "8b4d323dd133b9c0deccf4d0f66471b7",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.CompoundBowHeavyRed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "945739d1d1cf0b0fb6f2b845a86e62a6",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.CompoundBowWhite",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "0f612dbcb11d3bb98ca2e14481e5113b",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.FineCarvedBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "aa235c415789635cd089e3631f69b0c9",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.aitormonterobowieknife",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f2c9ed401cf34ca6f9fd33da552b36d5",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.albtacticalkatana",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "cc6350d334994129e9fb9cda6da4ace8",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.aluminiumbaseballbat",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f93f3c04e187bf40c0b8549a8ee6354b",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
     "translation_key": "ItemName_ArmasB42.apoc_tactical_longsword",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415069Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4996958Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
     "source_hash": "0e30620061b257ea60face1d3139361d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.brooklynsmasher",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "273c0ae56782702ab04df648442da4d6",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.coldsteelspear",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "6244c290dd8f3f632c8c32084b2b0bf6",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.crtkkukrimachete",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7d2cea4aa0dd7aef2bb466e564d191d1",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.defender18machete",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f7c0a991ba5f67e9dbd641668fa82353",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "ItemName_ArmasB42.easton_adv_360_baseball_bat",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415072Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4996966Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
     "source_hash": "feafb12c7d1b173ee46f6309f1146ead",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.fatmaxbrickhammer",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "411965baac34bc7476930fda11a86617",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.fieldshovel",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "a73bd63f1ee4d86021402f26d82b9209",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.fiskarsplittingmaul",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "5ba8d5f82818f455e351efa18c8fe1f5",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.gerberdownrangetomahawk",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "d1f0c65c240b3d07ece6f45730021c27",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.gerberpackhatchet",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "a7cddb458aaf98d11069dfd31e68ffa2",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.heavybaton",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "9dc491673f7c8a441b545ca3b7147e1c",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "ItemName_ArmasB42.khkcombatknife",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415076Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4996971Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
     "source_hash": "6db81232dc48f455a501c77956aa8d96",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.m48_naginata",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "2164e71800b68aa330f1b1682f5d0e9d",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.m48tacticalwarhammer",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "bf5be3612ff4f506e26aa4f2480a84db",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "ItemName_ArmasB42.north_couloir_ice_axe",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415083Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4996979Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
     "source_hash": "3fe4aa75d161fbe5cb3363e027c7e289",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.ontariookc10bayonet",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "821e9b82001bcd75355459bf1caf7ab2",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "ItemName_ArmasB42.reapertacsickle",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415086Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4996982Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
     "source_hash": "0f1edd591b6d8a57c9392b2e122e7731",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.reapr_11003_survival_spear",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f936fafa5624aafe5bef93849d6ea182",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "ItemName_ArmasB42.roughneckgorillasledgehammer",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "49754ee7dcc3944bef53efdc227e62bc",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "ItemName_Base.ArrowWood",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415090Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4996987Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
     "source_hash": "0914d9c8d1161f54f42363b39381fbc6",
     "output_file_stem": "ItemName"
   },
@@ -75,8 +1659,8 @@
     "mod_id": "3787234689",
     "translation_key": "ItemName_Base.BowGolden",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415095Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4996992Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
     "source_hash": "d8b91374a2c12eddbd89c81dbd7857e0",
     "output_file_stem": "ItemName"
   },
@@ -84,8 +1668,8 @@
     "mod_id": "3787234689",
     "translation_key": "ItemName_Base.BowReinforced",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415100Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4996997Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
     "source_hash": "e735ed0082cc1e23c871a23b9f6519ed",
     "output_file_stem": "ItemName"
   },
@@ -93,8 +1677,8 @@
     "mod_id": "3787234689",
     "translation_key": "ItemName_Base.BowWooden",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415102Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4996999Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
     "source_hash": "5649d4b558c7943733b37720a075ff26",
     "output_file_stem": "ItemName"
   },
@@ -102,17 +1686,134 @@
     "mod_id": "3787234689",
     "translation_key": "ItemName_Base.NockedArrowCarved",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415105Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4997004Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
     "source_hash": "537ddbb372eeb50e2a7e95913c8419d6",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3787234689",
+    "translation_key": "LapadaSeca",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "304c09bf90746eddb1c678242df48a66",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "MachadinDeOuro",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "da87ba1f79822c822032edcde7da2952",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "QuebraGalho",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "cc60c8a3e261b34f45ba31e170539682",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "QuebraQueixo",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "231ae28c8a332b3f92a8c338fd19f1c0",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "RachaPeito",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f90c4426a9425602e534a6b58c22c2aa",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "RadArcheryOpenArrowCrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f00282084dd89f7794dbe45e433f925f",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "RadArcheryOpenArrowPack",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7a4a44c9087054f7c84381477f88310e",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "RadArcheryPackArrowCrate",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "1f48b5ce2ae127506a203cc1383f9b35",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "RadArcheryPackArrows",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "15c6e6ef5be402110b57da7c1d5570c5",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "RasgaBucho",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "ac20b46d131dbfb9a516c9f86b1d548a",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "RompeBunker",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "2b1ee6e16b9497711a4af9786b1856d7",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_Archery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "2259ebeff6d71dfdd18ef255128a2c6e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_Archery_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f1e4c12261bc3ed35f1f6b74e52b95d2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415110Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
+    "last_seen_at": "2026-09-19T10:02:45.4997008Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
     "source_hash": "2cf3430f64807ef9f935e5f04396fcc1",
     "output_file_stem": "Sandbox"
   },
@@ -120,522 +1821,1008 @@
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_ArrowRecoverChance",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415114Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "57a77a2cb388f5b7595ca836f92cb68a",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "17c885ee73a21afb93b0d704ffdbbd2c",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_ArrowRecoverChance_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415117Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "7acdcccf33c31a15f6b06573dfec390e",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "dda62c823b3ac97e94685a5ba7b26f2c",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_ArrowWood_Enable",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415120Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "ee8d41d58e0df4d9fe2e478a8831c405",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "beccd3a551b4d084a81623092b2ecf6e",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_ArrowWood_Enable_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415122Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "43203fd17d34cb800bdbeed862c5fbcc",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "2f406c4a718e4dd013f89be627725ad6",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_ArrowWood_SpawnMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415125Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "052d0db1502ba1a505054a9d31307a61",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "c9449e8535a13fafb0f6d11f9f1358b1",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_ArrowWood_SpawnMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415130Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "7a106a5e355060e54076edeed74c15bb",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "de664b5e53fdff6fa0178cece58f041b",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowGolden_DamageMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415136Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "34b3f2c635230cf96341ac91738211d9",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e3d48a4e46cba3d4d23a65419d19a442",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowGolden_DamageMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415139Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "b9bba730ec59e36bdb7252bbb7cb767c",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "994d6327b1529400c4ac415d52715f65",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowGolden_Enable",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415143Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "3bc9d63fa9e9f5fc56e7e1de7966fb25",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f9dfce6bc77429a5f569699d3d6eee00",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowGolden_Enable_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415148Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "21c2a44fc1665d273bc88a9d20e13a3f",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "612d84de6ed18030697b78bb4ebe5809",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowGolden_SpawnMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415151Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "0ab251fc335332e1f84a4ef109f68f4d",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "3b7ffee5aa3762c2a9f56d40d919143b",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowGolden_SpawnMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415155Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "8d74af7d0a7bfe1f67ec2323710f032c",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e462c11d06b299b0ea2cad9f1a41956f",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowReinforced_DamageMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415160Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "b92df3ded408510275d50ef75d81ccfb",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "ad7bea0283102632583fd5dfa3b1a97f",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowReinforced_DamageMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415163Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "a4006b7f6a851a64eeaa920084c0676a",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "29bf3998517f1c87a6256655cfa63d6d",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowReinforced_Enable",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415168Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "793458c68b01ba89fd0b686f0bfcd92e",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "5681f94007a1926e2a4d494a5316e17a",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowReinforced_Enable_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415172Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "acb9737172c7d56e7f369ccf4a44ce12",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4268b3d893d4416df2ab13faa10ed95c",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowReinforced_SpawnMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415178Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "4278db05d679be63d56dc344bb6b61d8",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "970b4a2a9a300d9450600308b2f59297",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowReinforced_SpawnMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415182Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "db4792c8f1343f7802806bf06213bb11",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "2c63737e9ec04376b75cbee465914282",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_ArmasB42_BowStrainFactor",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "c45f5cd2afa7b5afe662988b0d5ea976",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_ArmasB42_BowStrainFactor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "d3ffde875b0392ac2706600a075e21f3",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowWooden_DamageMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415189Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "718325ac641b62e476b12f22149db659",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "30d8d18985070f4e2f85ff079df352c7",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowWooden_DamageMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415192Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "186cd8d8eca52b793b3e7a55c4146ef2",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "8bd09ed9dabd62802555dda2867afbe8",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowWooden_Enable",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415197Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "566f7fc26bae718a4522da3d321789b1",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "957d6e4b599bd384d5ff7afabfba10e4",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowWooden_Enable_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415201Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "5d638d450169c4d5edb0e775dd99dfad",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "b98939d39bc7e89b4519701438c8bbef",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowWooden_SpawnMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415205Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "30cb1869aa8cfdc2dd131fffae5c4c0a",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "376d8c3b435de2632dc26ddc55077fac",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_BowWooden_SpawnMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415207Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "815fe7dd131689bf84a3cb16ef73d2d7",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "b2c3c501c2b59d36cf36a5a45f329ad0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_ArmasB42_CarvedArrowRecovery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "d62bf69c342995a6b46332e231dab397",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_ArmasB42_CarvedArrowRecovery_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "6dc75f8f6e1a6e028dc8882fa33c7a69",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_CeifaCuca_DamageMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415211Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "5d3384179072680461cba68f865c25c1",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "8e227abb3f0ec49a61952b30cc65663e",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_CeifaCuca_DamageMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415215Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "1b0ed83377c4ac6bf605ca067aabd04b",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4aff5d90624951633253f42a58d4c024",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_CeifaCuca_Enable",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415219Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "bc910a0ab9d40b25ab26939f2cbe5579",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f820bba429d6a2640677fbc64ec5bccd",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_CeifaCuca_Enable_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415221Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "476ca51427ec89ee154b5bc44c1d3484",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "40284c390e03e424a75f7b9421aab8f4",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_CeifaCuca_SpawnMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415226Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "f167bc777a1bdd388f44c47b9dd6c4ff",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "2fc2bb825abf0be9915ec8547b1d2f95",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_CeifaCuca_SpawnMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415228Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "509baea7c8175f66c6fe4adcb4f46c8d",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "9ca602da36ffccc3649ffdc83d37e6ce",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FatiaMorto_DamageMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415233Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "114ee1d8ba0800ffcda0eda07cc8a63f",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "763feed053119b5f2c70465ba7855236",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FatiaMorto_DamageMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415238Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "e32ed9171b1957f3cbdcfde4edada70c",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "c9aa56d778e955f3e731640e62ca783e",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FatiaMorto_Enable",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415241Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "b92a01645f8e9f8e7e5fd0f4ee21585b",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "6bf4bc5d44e616f3ef755c12d99e58cc",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FatiaMorto_Enable_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415245Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "03c2f00d5792b15a7f19350ba35819b1",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7d7d39fcdfa1776dc8a00af88ccf61ea",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FatiaMorto_SpawnMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415249Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "53d05d4a563751533b1d9f60c0e62657",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "546e1c868f55073e671732901a9aab73",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FatiaMorto_SpawnMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415254Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "255e71aa636ac14fadfc2e134bd606a9",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "122a5c1aaa93c38a782468c0f2b5757a",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FuraBucho_DamageMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415257Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "ed4c64e04ef4f1307bcd94146182b187",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e25c8ca0246b818a4f0137f1a24d263d",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FuraBucho_DamageMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415260Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "60a04e1e794d82557bb22d6938b741a4",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "aeb984dfc603f2cef3761cdf0a06c908",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FuraBucho_Enable",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415263Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "51af755c575b1d96f3fe14a9fe6f2bf6",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "75b1989ddfad47ecc6b5968f54b42d12",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FuraBucho_Enable_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415266Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "77d910b854e013c16fb568e9424fbc09",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "730ef688d3496d3badc0933490a8f4e0",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FuraBucho_SpawnMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415271Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "2bcc07b167de421299dadd057f401236",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "9f8dad3599bc7cae39807de1b02f5cf7",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_FuraBucho_SpawnMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415273Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "ff097b49aebbdd287bb80ce9cd30f076",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "d5d1d65331b2440f00864b437d58eff0",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_GlobalDamageMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415276Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "4174c3bfa2204401a464ec8f28be8ca9",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "77c08cf6b255a576d7fc69aab78dcf28",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_GlobalDamageMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415279Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "4c2cac42acd92f281998e937e84fbbf8",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "5f27ca7c3bf4aa254a09498cb110a1e2",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_GlobalSpawnMultiplier",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415282Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "4139547cf3ba606682d39bebb30f53e2",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "d629b47a968a03cf6ad1d8239d103df8",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_GlobalSpawnMultiplier_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415286Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "e7e58dbf634325be0ff2ce912df5f8b8",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "3dfa2b7b752a226243d3bbe28c5926d9",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_LapadaSeca_DamageMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415291Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "09acd4468253330fa8c1cbeccebb92dd",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "a903588ac3a278b3e73d3717424a1b5e",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_LapadaSeca_DamageMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415293Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "cace84e6b42937d247fd7943eed77070",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "127aae621146abaa579371593136e5f7",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_LapadaSeca_Enable",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415297Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "d1c0ec8eae9c02d343984bc9806d1aa5",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "9ee0285c9e29fbc6f2837fbba6a7ecf9",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_LapadaSeca_Enable_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415300Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "f197933bdc183b33b0c07b9121724860",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "9c0a1e36d6966ccc77051b9c9b10c0a2",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_LapadaSeca_SpawnMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415303Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "92c322111d2617c79224fc04d6743b9f",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "fff48b3a007412abf0908ce5b1a42747",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_LapadaSeca_SpawnMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415306Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "56fd392cfe6e957d39e1e75de673b671",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "6f73058b45e92a6130d502b9aacfb5c9",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_MachadinDeOuro_DamageMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415309Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "393c6b40e7224caf523280e69baa4184",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "2ced3ce2df2812d37a854476a5faff6c",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_MachadinDeOuro_DamageMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415312Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "e3eb54e883441d3fb13b768afe320df5",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7b5170900f9ace2a2919cb214d450d25",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_MachadinDeOuro_Enable",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415315Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "9fad210530c4238f0000abc5dc3c22ee",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "74f8cc0482f1fe977bb4911c93a2a4ba",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_MachadinDeOuro_Enable_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415318Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "3c8345a87287766b9993414ee60e506d",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "8ed53ed0b945e222f40703ff825c81fd",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_MachadinDeOuro_SpawnMult",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415322Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "d8e74f0575319062fe751185567a2bb0",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "b7ad2e409e05c8e1a15311354a1ac564",
     "output_file_stem": "Sandbox"
   },
   {
     "mod_id": "3787234689",
     "translation_key": "Sandbox_ArmasB42_MachadinDeOuro_SpawnMult_tooltip",
     "is_active": true,
-    "last_seen_at": "2026-09-04T02:02:17.4415326Z",
-    "last_seen_mod_updated": "2026-09-03T23:52:29.0000000Z",
-    "source_hash": "1da3f679db3e3848b570d067171346f7",
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "0fcd0c987639d9038de669da65bfdddb",
     "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_BowStrainFactor",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "0798e093cb79862b33f12c6aad280fc0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_BowStrainFactor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f5377e902305c0e523be7f02c59269d6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_CarvedArrowRecovery",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "00a2f4b18a460b97b477808171ce0aee",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_CarvedArrowRecovery_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f6cd0cec9dfbc01b1f32b931a0d664ca",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_GlobalDamageMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e28f6396feacad8c8df83a6710efb748",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_GlobalDamageMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "6030b3dd54e6c6c719462a8ab1bd77a4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_GlobalSpawnMultiplier",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "0e087848b8ee8a2e7a7ddc491e86fa5b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Sandbox_GlobalSpawnMultiplier_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7e9c726447af3e5d6f1154f195063322",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "SewLeatherQuiver",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "8251376a9cec1fef15ce5db029789dd4",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TacoAmassaCranio",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "c87f356dc86dc4ee7460640269771b24",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowBone",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "476f62b3dcc36297c0f97e8a2de76bb6",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowMetal",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "ad6e54d66cdff22dbf59c3a660674823",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowStone",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "b4397f11ec4a35a1162b822d5546d2f1",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowsBone10",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "17bca0aad5673ff337005e99faa79abc",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowsBone15",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "9fad8a436cd07154ee2152bdfd5c6561",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowsBone5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e588699376967d70e4371ce0c6ebe0d9",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowsMetal10",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "5c38cf4b4d7c18339c7f1a09c32be8d5",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowsMetal15",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e4ae32b5b93de32f1d793f6b6e3efbe0",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowsMetal5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "bd2a41ebcbcc057b8a3c244eed2e20dc",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowsStone10",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "d4f8774540d4eff49ce1c7918a0c1ea2",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowsStone15",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "ccbc2bc98f4099b6c366aa11ead164ef",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TipArrowsStone5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "aac8e0b6b49c205f05ff4376b0030fc2",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "TiraTeima",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7aba515a721b7ba862340fca0a19d7dc",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Tooltip_BoneTippedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e4fa4b4c3cf39de8f8a936819793ea9a",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Tooltip_CarvedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "e45b3a32b9051ae8462cb2c21a3c58cb",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Tooltip_CarvedBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4b0ef36fe03701ff5beff04a1bb53d00",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Tooltip_CompoundBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4828bb0f78577a87e89e3dbc7ce28297",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Tooltip_CompoundBowHeavy",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "1cf2431ae233f25e75c02e3d21d47006",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Tooltip_CrudeCarvedBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f4ed69bce41728ba75821e62a40b99e8",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Tooltip_FineCarvedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "ed2f1c1d011f86898b37e94dc0520b26",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Tooltip_FineCarvedBow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "095d2cc0036397c6e6956a8a19401bd6",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Tooltip_LeatherQuiver",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7659df71da6e800652e03e9b54ba1b62",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Tooltip_StoneTippedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "25ee42ce09420b10003c55008f390a7b",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "Tooltip_TippedCarvedArrow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "30c82da5d94d31dd67d32b445845bd4b",
+    "output_file_stem": "Tooltip"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_prof_Arqueiro",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "44f49c93bad4c1a6cf8757a4b37de858",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_prof_Brigao",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "64569fca5d8121ec3c1111213c82e5d5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_prof_Cacador",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "1a51434571f2e0e0a967e81efa43d9f5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_prof_Espadachim",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "c66cd621ec95732e14f23a981a5ae10d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_profdesc_Arqueiro",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "26844caa3dcf7b71b875a61fbca0bba7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_profdesc_Brigao",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "6697e8db72b484ad457edc52534f25eb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_profdesc_Cacador",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "964688b212fe0443cdd70754088d939c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_profdesc_Espadachim",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "f8e3a367036839477623395898d9ede3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_trait_Arqueiro",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "beda7998b1df420821eb9622ecbc5025",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_trait_ArqueiroDesc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "cf7a644c7748bf395a8c0e637efa827f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_trait_Brigao",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "cdbbb77510d2d5469da018c7de7282fa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_trait_BrigaoDesc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "3ab3662f89e56a735b98859e9e6a9563",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_trait_Cacador",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4bfbed917e61848dc998b1d4b8451dd7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_trait_CacadorDesc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "7cd323d7b2e1b77decc2358dc3436eb0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_trait_Espadachim",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "4938fe3b2b780f84fa0fe5608ac908a2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787234689",
+    "translation_key": "UI_trait_EspadachimDesc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-16T21:50:07.0000000Z",
+    "source_hash": "b5f2ab0ccd163b4048ba64ff30201f4d",
+    "output_file_stem": "UI"
   }
 ]

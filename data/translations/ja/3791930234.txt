@@ -1,0 +1,6 @@
+Sandbox_ItemPipes::en = "Item Pipes",
+Sandbox_ItemPipes::ja::processed::unverified = "アイテムパイプ",
+Sandbox_ItemPipes_TransferSpeed::en = "Transfer Speed (Items per min)",
+Sandbox_ItemPipes_TransferSpeed::ja::processed::unverified = "転送速度（1分あたりのアイテム数）",
+Sandbox_ItemPipes_TransferSpeed_tooltip::en = "How many items the pipes transfer per in-game minute, per container.",
+Sandbox_ItemPipes_TransferSpeed_tooltip::ja::processed::unverified = "パイプがコンテナごとにゲーム内1分あたりに転送するアイテムの数。",

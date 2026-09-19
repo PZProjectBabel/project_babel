@@ -8,10 +8,10 @@ Inputs: `ModInfo` dict, ref modinfo/entries, translation entries, target lang is
 
 Outputs:
 - `data/translations/<target_iso>/<modid>.txt` : `key::base = "text",` + `key::target::processed|unprocessed::verified|unverified = "text",` including empty missing targets
-- `data/embeddings/<modid>.bin` : zstd-compressed binary; per record: int32 keyLen + UTF8 `{key}|{sourceKind}|{targetLang}` + 16B raw hash + Half[384] fp16 vector
+- `data/embeddings/<modid>.bin` or `<modid>.part-####.bin` : zstd-compressed binary; per record: int32 keyLen + UTF8 `{key}|{sourceKind}|{targetLang}` + 32B raw hash + Half[384] fp16 vector. A mod's output is split when a compressed file would exceed 30,000,000 bytes.
 - `data/modinfos.json` : all ModInfo payload array
 - `data/entry_metadata/<modid>.json` : active/source hash state
-- `translation_ref/` : ref-only modinfos, per-mod entry metadata, translations, embeddings (same binary format as data/)
+- `translation_ref/` : ref-only modinfos, per-mod entry metadata, translations, embeddings (same binary format and 30,000,000-byte split rule as data/)
 
 Methods:
 - `WriteDataAsync` : normal data plus optional ref data

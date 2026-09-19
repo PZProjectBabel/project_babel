@@ -1,0 +1,1370 @@
+[
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Active_set",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "389ee3975cf1e3e65160dff817a34160",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_AddGoal",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "f5da1a015e0c4e61ee4df48cecc12a58",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_AutoDoor",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "5b2426d5ce00168296cf306eb0fab80e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_AutoDoor_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "461859dcaf238c8c5b02ca4d71c53b84",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_BAnimalAvoid",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "9b920fc0520c707a2c947865b9d9707b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_BAnimalAvoid_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "1374ef6f7396d610386cdd49fae021dd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ClearGoal",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "e5db2d276cc785a0963033c09cde92db",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_CompatibilityContext",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "2cd6c31868fe2f293d05be7d3f196cf3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_CompatibilityContext_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "50b7e3db712923d9167b5a3c1250a677",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_CtrlParams_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "10aa052b178464a8b9b13cf44400594a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_DelGoal",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "b78384a80015d99b20df902559c15cb7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Dirtroad",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "b228c48033228dbd4d37f9fca9d5af18",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Dirtroad_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "47d7a6f6566ae28105655fcbfa5357a4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_DisableNano",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "a5e0ac51c89c26dcc60117f68832c30a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_DisableNano_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "72ba15ec3d313645f05e3c704544fcd7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_Debug",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "6cf86f8a2d545b4172517a19a0e24bfd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_Debug_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "1948cbee5dcc688bc2e80dd0c27afa31",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_NavLine",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "df3c7add7c516cd00ec24fa848cdbed6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_NavLine_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "299b8aac22e3c64a104934412ce0d787",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_OnlyNavigation",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "6aef413c3a4ef80be31f3a62543ee060",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_OnlyNavigation_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "79dbfe26c89e572f54268ce3a3fa1c25",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_OnlyOnCar",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "038ec5677e5bdfb293b727a112363546",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_OnlyOnCar_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "c68eb34a131b82f6feeafec4634205dc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_RoadLine",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d8dff4bb8abeb024b68e6038b6274f44",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_RoadLine_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "959d603edd7e1b63a41f5362cada2a84",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_Traj",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "a41057ca3eb6040c5b9264d858d35312",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_Traj_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "4b31d659e5f4e6ef591c2e042b439060",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Display_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "4816fac0868ba2da318159693830812d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_End",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "c69b17a9f9d9a0a06a8bf33525f071d5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_EngineLimit",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "3624d249f9337f3b9d9a64464e0eb669",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_EngineLimit_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "48b879df25fa06543db8d2f51376dcc7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Experimental",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d868d0cd9ef391c69779efc8fd965e33",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Experimental_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "9972abd6821cbf145310ad5e8a551ae4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Experimental_tip_check",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d1d91470a4e6ba5a33110e5c062ef75c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Experimental_tip_coroutine",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "8c1502d86a338763f37d9816837c3590",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Experimental_tip_costmap",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "0a0f5243128a84dcf6e674a4bd2f2e6a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Experimental_tip_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "921ec3ff10a3b88a7e14cf4191024d6d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Experimental_tip_fem",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "cdcbec8fc28a76e3e74225b6b4c961a7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Experimental_tip_funcs",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "000b04374f780da5ce3480f3a6f09350",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Experimental_tip_mfac",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "eb10aaa7400a0311d9fc09a0031da1a8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_FPSSlowdown",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "f4a8d256e13edd840f44412d6a2ce928",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_FPSSlowdown_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "13d1ba48c4f0b9c8ccebf0d41a0c407f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_FrenetEx",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "65434950612ca80718d454f72782f486",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_FrenetEx_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d898a3b90aed2994bf4180dcf8db9d59",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help0",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d13127e45e8bd1e6e344109d41d547e9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "ca8b2d524db2f00d17c5bf63e4708b8d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "8082c50cac0a942251fe4fbed215f41d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help21",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "17d88a9207c41d3fe9c38172984d1cce",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "016a7a6522def9d71cc9960754418f45",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help31",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "87e5f5d3a618093d88fea106712ea241",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help32",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "c23edeae0cc075879d4b142930417538",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help33",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "18f27459ed28ca7f6d19eee43de9c6c7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "5bef26c1b5cc2ddf0b20291474aaa151",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help41",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "9940a8342c73eaba2134bf44ea2b34e6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help42",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "09e948a2f7e6eedb84868023e1ff183c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help43",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "319e66bbbf06b8a28afe65345c1b25f5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help44",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "df95ef6812ff7f0931a0e7061aa6775d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "aaafeef538aca7c6aabe12373b99a32d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help51",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "7a9b0ece2d2e60b071be1b6d1365bff3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help52",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "40b1ff3be8a2525a6d2999a75779a803",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help53",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d861af93266ec93f9b13756ab3f8ba68",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "2109207159af0d410a969d2cc3980dec",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help7",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "8b1b21365f37654c6698f5a24d1b78f5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help8",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "198aef71ddc5378179e9281ba3a92268",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help90",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "b2a770c2203c5eb6a6da9a2c8bcc7ccc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help91",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "a7aea9490b627e9a382c4415540c9349",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help92",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "0401866facc2e18aa997ac59f515f63c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Help93",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "71a9f214ca8c6247b341c5986fa3d347",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_HelpA0",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "0e4d7aafbfc3fc677261864e86491be2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_KeepOuter",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "4eb2163eb14657a1d74872e7b1db7766",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_KeepOuter_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "1c107939d9b03ffb3ff90fb85e4be0f2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_KeepRight",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "08a90d3b30827ae5edd168ae66216be0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_KeepRight_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "4a9453d897608ab52b95b2d5b56a5a45",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_LoadModMaps",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "2c15b03844670bd161705abeb7298e72",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_LoadModMaps_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "924b3baff00af0d4b2f051bdb193e8d7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_MotionController",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "7fe410a09e62c2755723d96b055c1ed1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_NoDamage",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "cad303bf62ad2a9d9bfd5404e6f968ce",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_NoDamage_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "e4550fca2fc1f4d9ebd7105ba929ba84",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_NotReady",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "a00358a4c60fa7ac79e60b7feabe5264",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ObstacleBackward",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "6cb6b42c00e5febbc7c528a9b4a1b3f0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ObstacleBackward_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "6a666233d1b4fcf7018248c4d2fd48f5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ObstacleEx",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "a50b5adb4147b65934ba166ca3437b83",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ObstacleEx_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "fdc2d93fce5f70d9852df75d600b8960",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ObstacleForward",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "0edbb183d129cf5b454157a2736efd2c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ObstacleForward_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "74bbed0b6665ac292aad74ec71ac94aa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Passability",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "f423b66c8c846e36a83183ea8086f2b6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Passability_High",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "c6d25568ebefa2022349d1a9b2847c79",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Passability_Low",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d6ed06f8090c1f3d4af2c88138713fe1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Passability_Manual",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "3b1d88271c29e82efadfd9c90cc31607",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Passability_Mid",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "a8f455439b0ff9d1ffe111160a3d6794",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Passability_Weak",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "bffbf0146ca8422647b509f5de08ca81",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Pause",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "1f9972ddb881bd070fe76bfd82e69990",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Pause_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "0266519f0b02efe7ee000d2efe938d8e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Performance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "a161cde921b2687dfe589aef57bec0cc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Performance_Balanced",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "31d1baeda052c545ca00fb3079f3538c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Performance_Basic",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "dcf0b9043a72e76cbe78690b1f700786",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Performance_Extreme",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "ca71c1a70abe16fc4434124b1e6476ed",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Performance_High",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "89d6010ef3e4639f2c784a0147d1bf24",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Performance_Low",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "7a2cf91c8ced2cc6f17ef164e16b7d06",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Performance_Original",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "0d2677c52d69bbb7452c15af3c9739a0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Performance_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "756fe16c68baae9001f4a563e8e3c8b3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Railroad",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "b8b745555b9d6fc9c6f61e2957239ed2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Railroad_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "cbe1d932dcdb5bd02160530b4cd64f58",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ReCalcPath",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "52353ac9667a76c0f269a8baaf412ea2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ReCalcPath_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "5fc44777ec5965c446703a4d0cc7b0e1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_RemoveBackPath",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "0279494ee6c9606051b9b341a595f82f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_RemoveBackPath_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "9db0f09437ec8f99c72e65ee59c52ab0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ResetSteeringParams",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "718fd74f8ae1f620e5745b4250feea5a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ResetSteeringParams_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "6f9d312f7d5a1cc68beed52ddb1d98b4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_RoadStitching",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "c17b6264d849690524a5be9845f85b60",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_RotateSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d9fe71b00c31c2fe7e423caa4235da85",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_RotateSpeed_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d80ccbc6d752169cacaf7a723112075a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_RoutePlanner",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "64b2fdd49c3b07b15db10dec35c9c0f1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_SAnimalAvoid",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "f46c6e7769b0064d4a929708f64a1a20",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_SAnimalAvoid_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "64b1f45eee465a969f8cf9721bdcef29",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Say_Active",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "be95655776e050bcbb35847204bc3655",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Say_Driving",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "b0f029bb15975cd418ec7022d7709e70",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Say_EngineLimit",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "a8c754525729332db59dbf59d1853cb4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Say_ErrPath",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "6c8b7fb6519ba10f2b6c4ac0813e1805",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Say_Failed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "b8214eee990c8fb547b6269698521281",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Say_Finish",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "16888f3ce0e9172e9d3cb0e6740ad744",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Say_LoadPathEnd",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "b3d39f94d17209d73cd53dfe87cab4a6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Say_ReloadPath",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "dd3692b9cd46257c19e4cc979ee21f06",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Say_SpeedZero",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "78863db1a9ee37afb2a3f59c08824477",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Say_TowingLost",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "a6c01e6ce7caef2cd460dceea743844a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Say_deActive",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d43ab32773d8e04036cf60e829ca0f84",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Simplified",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d914edb04c34d10561e055aab8f4110c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Simplified_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "89be90d366c058b26d6e0eb16b4f7cec",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_SlowRate",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "dcfa4995a32e6290eb4adc6c2d964b76",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_SlowRate_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d64531cf5e5c4afe1c7fd26c5f7cc12d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Speed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "fb9404c1fad5e0f69f81a28cc7a3eecc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_SpeedDync",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "683598cd39fcb2e09646276fc57869b6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_SpeedDync_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "26afc4d3f1098497c4813098be03db32",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Speed_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "b820d0230939b0566373a16846403e3c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_Speed_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "78ce23a4f7d1777ca486cb3b03ca2ec1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_TrafficSlowdown",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "9c74dd5cfdeb039712a12cefa35df88a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_TrafficSlowdown_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "745c4bfd3d3d7db83443991273e3c918",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_TrajGenerator",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "9970feb889ee96ec08496d176c90cb69",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_TrajGenerator_CostSearch",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "2a673aba48e0726eec33738bdd487bde",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_TrajGenerator_GapSelection",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "1f3c4a952f633265c09e59577741bb00",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_VehicleEx",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "ade942e36ccb91374fd5f7d2f63e7f7f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_VehicleEx_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "6c97b6220c5a5a8ef0ec16f19ab0eb24",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_WidthEx",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "ea1f6d92fa8d0bd74fe8a94ec53c4a03",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_WidthEx_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "cf9cde7e49137c18250d8e7c0f93499c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_WidthFilter",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "3913467ee070180afa1ad1f97fff4e33",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_WidthFilter_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "08832764af82b6b0e2a24a6a4ee4a62d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ZombieAvoid",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "4c0a9bbc636c56eae21371fdb5e0dbc8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ZombieAvoid_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "5f70b6121a57ad158b8e4ff5b9f24e42",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ZombieSlowdown",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "c5601e78c0978804a287559800970d64",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_ZombieSlowdown_tip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d79b6eab370364938364f07ebe616338",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_deActive_set",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "d287691565b7c20c4612ac665500ef74",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3775160975",
+    "translation_key": "UI_Nav_name",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T11:33:25.0000000Z",
+    "source_hash": "ff7512b0db7b9d9ff3ecd2e25a98acba",
+    "output_file_stem": "UI"
+  }
+]

@@ -1,0 +1,1001 @@
+[
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_Blessed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "a10b9b07b81b3d67617abac26a58bd75",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_Cooldown",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "0a1401ad5f000664b728f3c15b0db7c4",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_FacingE",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "5e1b0528d64cbe03d73bb31fe8edfbeb",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_FacingN",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "2e4da4bf1a51e28638aa0fb5c009de19",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_FacingS",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "96bcce48556f33679c122ce83fdb6789",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_FacingW",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "a123248495a44edce892014e016f86aa",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_InstallCross",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "96003bbf9e769c03ca022a98fa41d550",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_Pray",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "fe456c68538c6b2a381d3bffffc7fde6",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_Sermon",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "f8659d76a6b81012bc38082cef670757",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_SermonCd",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "ac7d951d503d2f206ec67a59941d251a",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_SermonNeed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "4dc7601c1f0eb589bc5e4ab12cf39742",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ContextMenu_DWTB_Spirituality_TakeCross",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "97f4fa2695f5bd46bffde11cce9ca2d5",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "ItemName_DWTB.WoodenCross",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "81203afcd8df8757ec03f5a59bafe239",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "6fc5d39c3416bd2421b3438314987f34",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_BlessedCap",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "5d359b848b2319771d1188e68f1c2f3f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_BlessedCap_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "4d1fcc569958c50bfb35261e65d0982c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_BlessedListenerCooldownMinutes",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "44ec18ed6b788fe610d379b00873e5de",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_BlessedListenerCooldownMinutes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "c8210739652a48d06dad38aa57caeab5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_BlessedMinutes",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "ad9ea14f7e84c8c0ad3b6001fd29d72c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_BlessedMinutes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "4cfc38858a9783754fceda3b51be5433",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_CalmZoneStrength",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "060c2a4504f5c938f5b1c9e022eb1f5d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_CalmZoneStrength_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "bfb4b8180971906720840060ba7a9ce6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_Debug",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "aa9113a6e6599800f56268e6bca8945a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_Debug_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "824862a3061a464e29a904020fe262c0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_Enable",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "0267a7f6bf1edf1f939ada56520b524a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableCarriedFaith",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "eda7c974095403b467c270a13157f314",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableCarriedFaith_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "c4da705608ce148537795966207a90de",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableChurchZone",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "8413d19f60393ec0f321bd006e13298d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableChurchZone_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "de007b6b0ebd3851f5a51d90d6a26b21",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableFaithMoodle",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "31a6bf841994592bd9eef37854841522",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableFaithMoodle_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "f333e4be27a798f4bb56e06b9f22603e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableHallowedMoodle",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "d2fd9dfff8c3e1680d2337bd07c85be5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableHallowedMoodle_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "db167e2021fc8a4bde9274d8f15cf8cd",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableMoveCross",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "1b054d809ee8215c6d7f7ea027e75d2f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableMoveCross_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "74731472ec15da2f671e5731579199db",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnablePrayerAudio",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "7af6124e6840a43b051e385608abcb2e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnablePrayerAudio_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "73b4b3929d9f9adfd3c569cb7926bda5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnablePrayerMoodle",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "1cf34461896297fef81da78a056b9792",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnablePrayerMoodle_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "f1dbd1b3dd3d2e4c07c5e7958286ab9d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableSermon",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "be4ea4312d3ddbbea150064c960391f4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableSermonAudio",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "d8d81f2925f92bf1e3c2cc50f94c2e07",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableSermonAudio_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "2a97d33d2e2d537ca8248ba695b8d101",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableSermon_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "0b31301ecb733fa1cca3b9e24bf2aa7c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableShrineZone",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "7bf9ee715b2fed6cf9d8f89c535554fd",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableShrineZone_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "e38ea3c337848ae3ba598f65bb79023d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableSilentActionText",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "7046a6b574d8f0918e1f822e8f011d4c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_EnableSilentActionText_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "6a5311941f23f2b9afe2cdb02f0710e6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_Enable_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "b177096020ed8b2046b69bafe2a2db76",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_FaithDurationDays",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "39cc17280cd19f6c1447e29f45a4752f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_FaithDurationDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "9af65f0bfc2166fd06aa18b768ecfd7a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_MiracleChancePercent",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "94299fd13ae03af1590e28867596cfe8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_MiracleChancePercent_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "6824995e786e6b0139e83def79f1166e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PanicSuppressCap",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "694d3d1231a16b20688c81da1d67c629",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PanicSuppressCap_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "10f1baa421565eff858218d3d4ae5adc",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayBuffMinutes",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "681b9fc840ff67120e121efd05aeb4ed",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayBuffMinutes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "ae5b47ccb8d8d2738b4c6a18be26da30",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayCooldownMinutes",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "86a8ffa63ff1ecfda7a13ae1b94268e8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayCooldownMinutes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "ae3fb137b68b0c348a29c4e93749524e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayReliefBoredom",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "c3832e1cbe2c3f083805d9a211758c73",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayReliefBoredom_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "a0e3a2f4e07003f490e88878aeee721d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayReliefFear",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "9ec172b479f6059bdcc72d7c4f61e756",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayReliefFear_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "74f4a7e5b4164a0e9aeaf5cbcb89f6bb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayReliefPanic",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "fc30ac95296c1da5c9e5782838ce910b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayReliefPanic_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "10ca3deebb531633da6cb6864b64d2e3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayReliefStress",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "ae7454184ac1a1637ae49910421a35fa",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayReliefStress_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "9a50863082d2e055b1975558ec647f3f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayReliefUnhappiness",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "94fc012a4f1a4a0751790420bc07a5d3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayReliefUnhappiness_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "782ae682018e3e06abe247c4216d7bc8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayTimeTicks",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "710433f9f07dd82ca8abeaa7d336230b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayTimeTicks_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "11883c974546148e7df0841516815009",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayerVoiceMaleOnly",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "c9e39b49644ef1e8bb1792e3af6672d3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PrayerVoiceMaleOnly_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "2a033dfa0d3f1f30181717907b36099b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PreacherPrayThreshold",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "241bab5a775dd37dbf6e19bc350eb8fc",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_PreacherPrayThreshold_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "2fbb49444b964471b4102ddd67053abb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_SermonCooldownMinutes",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "570fdfb2a2e71bee60407bad2261fa84",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_SermonCooldownMinutes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "e766e3cb5ccf6b4683643c4136387e04",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_SermonFatigue",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "0a5a24c4422f3239289d5934874773a4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_SermonFatigue_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "74c929ade6799a9c71c8329c731fa0ff",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_SermonRange",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "073d12196392ad3830525f3defe134f5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_SermonRange_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "689bf9b121519621a82ee287b8d68ff2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_SermonThirst",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "ca56159c9ac8cfbcc1660736d0556835",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_SermonThirst_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "cc9419109a5f274a05e89e418e417703",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_SermonTimeTicks",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "3c13926b073fa0c78fc77be2a93f0db6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "Sandbox_DWTB_Spirituality_SermonTimeTicks_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "96b2abc2130082393e514746a864f1b6",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Faithful_full",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "625cfde1df2524010c059ec00c37698a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Faithful_partial",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "8a4c5ba9e5eb498b96a1814d2201b59f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Hallowed_beside",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "a12bbba2329cc469e360c1a080a9e178",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Hallowed_ground",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "1ad7079806f821c4f890df0fa3a7565e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Hallowed_presence",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "2e96e8d991a5d95de9ed24f034c42295",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_AtPeace",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "fd416010f4f1763285b2935f74b19b3b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_AtPeace_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "29a45ca1834b493cf1349d49c30e0b1e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_Blessed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "eb107f2e3693c625050aa5bec63a4d42",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_Blessed_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "2c538d626c245cb55d6fa99a5a9b0c3c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_Faithful",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "be8c36dc97e212bea5bcc6507f64f12f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_Faithful_days",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "a433713b0214aacf24d8d074b1ed6070",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_Faithful_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "097515224e847b73d4d0b992740c4be6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_Hallowed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "98d18a1fdf14adc0a59bc45fa856edd5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_Hallowed_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "e71555977357b029e75d6dd4d5b5e523",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_Hallowed_you_are",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "a2734b3ceb49894665fd62634eaa329f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_calm_remain",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "e661465c36569a1254e873606cbaab24",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_days_or_fades",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "45634686eb39520e5cf8482159c2a94b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Moodle_min_remain",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "5a844ec566cd012aadd83e887a975c7b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Say_Amen",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "f2357603ba9c6c53a5934963e7bad23f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Say_EarnedPreacher",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "8f66463920522469b1d1ee9cfcfc1523",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Say_Miracle",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "4973538291b7e8f1c4b304ac9da18b31",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Say_Peace",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "4a6d9361d9c2ca1a8254c6b7661dce17",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_DWTB_Say_StillBlessed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "11cc6aae9ade1c63f35cd4374dea446e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_prof_DWTB_Preacher",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "185ce1f596cd05139d631edc1c61b27e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_profdesc_DWTB_Preacher",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "e2a8558a1419b61630ce50db8a6e0aea",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_trait_DWTB_Preacher",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "0a925ceb817592a25b38324c11bdd08e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3781127365",
+    "translation_key": "UI_trait_DWTB_Preacher_desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-08-21T19:21:32.0000000Z",
+    "source_hash": "e452996bd261720c667fb9f38fc3ced3",
+    "output_file_stem": "UI"
+  }
+]

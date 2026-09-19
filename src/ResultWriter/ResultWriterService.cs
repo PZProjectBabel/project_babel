@@ -166,6 +166,7 @@ public class ResultWriterService
             .GroupBy(e => e.modId, StringComparer.Ordinal);
 
         int written = 0;
+        int splitFiles = 0;
         foreach (var modGroup in modGroups)
         {
             var records = new List<BinaryEmbeddingSerializer.Record>();
@@ -175,13 +176,11 @@ public class ResultWriterService
                     records.Add(ToRecord(entry.translationKey, embedding));
             }
 
-            var outputPath = Path.Combine(embeddingsDir, $"{modGroup.Key}.bin");
-            var tmpPath = outputPath + ".tmp";
-            BinaryEmbeddingSerializer.WriteCompressed(tmpPath, records);
-            MoveFileAtomic(tmpPath, outputPath);
+            var outputPaths = EmbeddingFileStorage.WriteSplit(embeddingsDir, modGroup.Key, records);
             written++;
+            splitFiles += outputPaths.Count;
         }
-        Console.WriteLine($"  Written translation_ref/embeddings: {written} ref mod(s)");
+        Console.WriteLine($"  Written translation_ref/embeddings: {written} ref mod(s), {splitFiles} file(s)");
     }
 
     private void WriteRefTranslations(Dictionary<string, TranslationEntry> refTranslationEntryDict)
@@ -260,6 +259,7 @@ public class ResultWriterService
             .GroupBy(e => e.modId, StringComparer.Ordinal);
 
         int written = 0;
+        int splitFiles = 0;
         foreach (var modGroup in modGroups)
         {
             var records = new List<BinaryEmbeddingSerializer.Record>();
@@ -269,13 +269,11 @@ public class ResultWriterService
                     records.Add(ToRecord(entry.translationKey, embedding));
             }
 
-            var outputPath = Path.Combine(embeddingsDir, $"{modGroup.Key}.bin");
-            var tmpPath = outputPath + ".tmp";
-            BinaryEmbeddingSerializer.WriteCompressed(tmpPath, records);
-            MoveFileAtomic(tmpPath, outputPath);
+            var outputPaths = EmbeddingFileStorage.WriteSplit(embeddingsDir, modGroup.Key, records);
             written++;
+            splitFiles += outputPaths.Count;
         }
-        Console.WriteLine($"  Written data/embeddings: {written} mod(s)");
+        Console.WriteLine($"  Written data/embeddings: {written} mod(s), {splitFiles} file(s)");
     }
 
     private static BinaryEmbeddingSerializer.Record ToRecord(string translationKey, TranslationEmbedding emb)

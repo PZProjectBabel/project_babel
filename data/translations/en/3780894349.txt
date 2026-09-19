@@ -1,0 +1,5 @@
+Sandbox_SprinterSpeedRange::en = "Lazy Sprinters",
+Sandbox_SprinterSpeedRange_MaximumPercent::en = "Fastest speed (%%)",
+Sandbox_SprinterSpeedRange_MaximumPercent_tooltip::en = "The fastest movement speed a sprinter can receive. 100 is normal full sprinter speed. If this is lower than Slowest Speed, the mod swaps the two values.",
+Sandbox_SprinterSpeedRange_MinimumPercent::en = "Slowest speed (%%)",
+Sandbox_SprinterSpeedRange_MinimumPercent_tooltip::en = "The slowest movement speed a sprinter can receive. 100 is normal full sprinter speed.",

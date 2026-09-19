@@ -1,0 +1,3899 @@
+[
+  {
+    "mod_id": "3800989007",
+    "translation_key": "Base.Jacket_SheepSkin_Navy",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3cc7f6582dd87787b26a6d95610321bd",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Actions",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "86232e77a3611ccdd3afbcc76cf4afee",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Call",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0a89441940d57564c1374a831d744c4d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_ComeWithMe",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8a30b665241618f2d191d52512ccf61c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Companion",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1326ae15eaa5167e1a2584af05526323",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Goodbye",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a914bd2379d95737d8035796c0725a8f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_HealMe",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c85f335a84b7df452019bd549effa870",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Heal_bandage",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "7d313dff7c9dbf7a829924ae5f6a6f4b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Heal_bullet",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "54dfa9dcd17b4146a62554190a34b896",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Heal_burn",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "cfb33ec0bfbc28e94285da0990dbb10b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Heal_disinfect",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "01b09e1acef1afa344071740261f55b3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Heal_glass",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "7241f6f3e862dafd6ac352327954b0e4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Heal_splint",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "076312adf8ebe2c88d1118e2be037423",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Heal_stitch",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "05679ff83e8004b32a1936f697c00e62",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Heal_unbandage",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d1a609b40d8b91c0400e3dac9afc0d26",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_InvAssign",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ccf0536574380378aa6d89ca82a9d1cc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_InvUnassign",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "dabf087b0f18c3d9c61bb77a1a629891",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_InvUnwear",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f75a2210e2c2eed91699087dd9c5a15d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_InvWear",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e02e9e17c5d69afad05171454462abd0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_NamePrompt",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3dada81168c5977d085705d313cda0dc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Need_Bandage",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1a0cd9486658c8820a840dd4d6ee1117",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Need_BurnBandage",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3d84c56715088ee22d4327d2aa192368",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Need_Disinfectant",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9672415fa0f541d2b47ecde026dbece2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Need_Splint",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a7edf5c0d810fa45e885d96b74e7de5a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Need_Suture",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ca74bf2590a8d0516a915e080513d07f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Need_Tweezers",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "06673a6b839439c98846c61f764815c6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_NotNearby",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "93db59ed86f27978b71e5cea8635041b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_OverheadCyrillic",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c2e10de94bf231de0df623a262287d5c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Rel_Close",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c7d6a371a81f7e903aedf3d9357949ae",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Rel_Cold",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "15a2d2f41dba21cd8e5ab6e0bc148e80",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Rel_Crush",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "27cb51de102ac349a6c5df23e1bdb935",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Rel_Friend",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a811a471e2ced32ee4eefc02fb15857e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Rel_Known",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "6a2f1ee98c9de4e35912c33635945e41",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Rel_Love",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "411888f7d06b6dd7514898a9e2cc2221",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Rel_Pal",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "569bb59c21450c774a2be571eba3ecc1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Rename",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2086c936afb00e8776fe94a67bd70e39",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Rest",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "096c3b5b384b385985e0fedbc2c58bb1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Romance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "75cdd1bba92f22dc9970bfa0e0a9e7be",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_AlreadyClean",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8f87d1d7c3c9d5b88a936b023271a415",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_CantReachWater",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "abcb25012b31e0d2e8afdf3d101f2fca",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Fire_Coming",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4c85813e495b7e043c8af62d522e57b7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Fire_Done",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "93603784c2427464f1c05e16130800ad",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Fire_DoneSelf",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "551bd555f45adc120f617fa4d465427b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Fire_NoWater",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e1b8beec259873a2ac02ab863429cfe7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Follow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4815b02349008cb94ba47421bbbe5aec",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_GoWash",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "034b7285dcb55b18fd95e4259266e5ea",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Goodbye",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4ceb95be1b955215cac2ac51949a9ade",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Heal_Bite",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "38783f09f8b5ecc8d4effcefc35f1cb5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Heal_Done",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "25c155b66202af3796a028573cdb31a0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Heal_DoneMissing",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ad2c279eef80a6ec6156f838b546169f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Heal_Left",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9e807a4e13bc44fcc6dd057ed94df215",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Heal_NoWounds",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "faa3ba3d813acb1e843d2cc8f02046e3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Heal_Nothing",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "fd34e830e8a007be92a9f9736ae3dbb8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Heal_Reach",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1cff13dd1168bc9d76dc32a7c850b19a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Heal_Step",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "43d919160ea86adb794cb40441e476ed",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Heal_Zombie",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f3589ec5e1834481665c5df0fd9276b5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Hello",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0cf0a7c9a8767dc24ae38b6d26549b09",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_NoGuns",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0665a26d91a933216494105f37b787e0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_NoWater",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a374bb970a87f0e3e372f24cf5d8ab5c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Renamed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "32e5526ac66e1538ee00a091fdcd5b4d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Rest",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ff2a23d9e945046ac03c4b6a3ca1815b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Wait",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "66351df12d78aa6eb03b479133e471ca",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_WashLater",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "882c6003f44c3a09bac3b00e886d07a7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Say_Washed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f96f554b161cdcc7ffc747450f4dc976",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_AfterFight_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4b344674717709b4fd3a9a8214b13bec",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_AfterFight_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "dde8021e2290f37566580892f200e669",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_AskAgain_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f16d4c4ecb02471f19e37364b8f926c9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_AskAgain_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "22ca6299f40afcf7c565e7dd9f665ec0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_AskNothing_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "62dac4a95a3eecda4d1e1e9bdfb22edd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_AskNothing_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ebe66391025fce57a84a964fc667f649",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_AskNothing_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "6de28b5a364b1a4a29bac21c9d9c0f5d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Busy_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "da77be5fd32652c230ab341289074c81",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Busy_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "94267078cd138d67bbe84e8ef68566cb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Busy_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1168510997ffbc3fa98afbe22ad612c0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Busy_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "515d41792e13a166d44504c917978ce9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Busy_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "892cff7a9b2c176110fa4aff8b01bfb9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Bad_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9037ecad14db54662e0d31ab1078d45b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Bad_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ecb523b9c43d7ca4435140df93ce8284",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Bad_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d3dfe4762d59d5b1c4630b18414c4bc4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Bad_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "db35567cab306a51d976735fd968b7ac",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Bad_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "351e746cc8b8c3d5383e2935e5adc47f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Bad_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "fdb93582a497a5a65fb31f26d9f1191c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Good_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "973a08965f19abbd6d76e2e234a41ddf",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Good_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d33698c5e19a620d46a620199b491801",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Good_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "66dba7e2b898f96adad5924b001a84eb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Good_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "bf9cc79c85fca5df5fe91c3db4a93e46",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Good_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4f143ca673a05864253965dd4981dea2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Good_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "79d14409267ff3f704b8af3739e4ef2e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Good_7",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "7715ac38a05c499977495e452f734f34",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Good_8",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "570f49a0a6c83db67c668c2b1566f5e7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Chat_Good_9",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b6eef9110aa6ce31b3debe541649728c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Comfort_Bad_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "87e10b242abe98ff18213739db10be3f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Comfort_Bad_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2d1e2ffbb8daa71c8e12f683d634f4ac",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Comfort_Good_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "169c5b38658dcb8531444a6070fee37e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Comfort_Good_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "35e2dbe708fa7483689fbeb47abb93be",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Comfort_Good_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "79ea6862fd3738021a49963384e97b66",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Comfort_Good_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0364c0e72e6bfcda59fd68ce65d19859",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Comfort_Good_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2f089860b5e0d94ca0cf36b9538aa819",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Comfort_Good_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "54b7e146e531d0ef8e95793451ad3dfd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Compliment_Bad_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "73380968905d8e08b9826cb769eaafe0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Compliment_Bad_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "cd9c52a8405234e2ba3f9a03f4974c51",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Compliment_Bad_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0bc90b5821725eacf54aee55b4a3e2ec",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Compliment_Good_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "50e4d384aaeabd05a34afcd252e4335d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Compliment_Good_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3514f54a88adffa81dcffd54a885462c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Compliment_Good_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "cefd046969dd8ee35a49a02ae9655933",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Compliment_Good_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "34b80424e594444833d5085b6dca56de",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Compliment_Good_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "68449d18d9dd18e50940823f3ceeaa4d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Compliment_Good_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "40983056451f7f7530d11eb247d91cbf",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Compliment_Good_7",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "44c579bf1bc3b80334ef6ccc8c4bfee4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBite_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ea1b31451d6fbf0cd427cef9cd580f33",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBite_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2f7fe585982ad752a3a74e332059b065",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBite_Close_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a96bfe5be6cf2b596711b6952eb25335",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBite_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "bc08963a7fc9a509e162cf62d049dca0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBite_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "17661f9d5a0f18fae8c62d5f14734da4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBite_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e00bd3269f90fc2b8cf59243da8accbb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBite_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "802d2d2af4966347248908e34bc58048",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBleedNoBandage_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "11237f2f4cd10aa497848130b6043b09",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBleedNoBandage_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "58f1e781a67cb83f565695a75b871683",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBleedNoBandage_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d93ff99b3beae05a637f32748a3c7f49",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBleedNoBandage_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4cf10a380a009096a0ae1357504239d4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBleed_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b18d34651f3ce2f34222c327dc0db14b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBleed_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ff07f9fab2d42771f531a21378a4cd4e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBleed_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "50c5a58763618927d3710f5239ec0372",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBleed_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3c4f324e38d92eb6e041882a28b1e599",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBleed_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "91e363ad360ecf9d1933ebfd05f622f5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBleed_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2e261d7898ea73a6fca39abfd3668f0c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBulletNoTools_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "bcf7449d56f2cf355f1ed179d6436093",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBulletNoTools_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "cbff3143296e1c7a1c641847f1ccd767",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBulletNoTools_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4c41db5842bc69a27eff44dbfd138be1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBulletNoTools_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "477ad03c80fed9c0f9d72666c59fa854",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBullet_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c3ac397fa8f7751975b5de8c339c2bc1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBullet_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e53f9b5a432c002f4d4560cd0758f0b6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBullet_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2c73707cbaee1fe124bde6fc11614b9d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBullet_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b19af84eeefa119f50cdd4360689643d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBullet_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4def016824ddf9bfacd7b5d3d55e35aa",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBurn_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3291eadeb36bbe75fde76841c568993a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBurn_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9234ab88c822372a58635f459dc62548",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBurn_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3244b9138129c296745870975bfabc52",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvBurn_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8c58fed55f78b68bbc58ce6d83574352",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvCold_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "fc31f84f863e53a45782e4dc53107810",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvCold_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8eeae5ba557d3dd067da0d2a359c0f85",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvCold_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c15e27bac21737c923fa89bbaa555156",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvCold_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0764069da820e0c4ef9897a6b89887f9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvCold_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "fb993e08a7669ae107c432e87f322dcb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvCut_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "92de1ceedfa8d92dadec6a6106335825",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvCut_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c001a540d6e1f0bb41a944e495658855",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvCut_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1f2ef21fd9566bfcc468ef55d6caa5d7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvCut_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a742a1daa702966c7a15b6cb530f7872",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDeepNoSuture_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "7469daffa26d13f2a56f2f0c1cb98264",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDeepNoSuture_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "63c8f565933f32fa9c6fe11804de4cf2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDeepNoSuture_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "67faf1b3fad7ff3a1e8871c49f766b67",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDeepNoSuture_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d3e1116026f9278305dbc3aa3f9b911f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDeepNoSuture_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "fc0b268c063db4aac50210dd770d8db8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDeep_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "73d7d9c4ea7c2544d3e588ca9f1ade77",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDeep_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2b2e5071c6f24fca4e89d0a1c2edfceb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDeep_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2c3f9d39b4730f259b73e0868c06be71",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDeep_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b4087d3a9d959a8575c217280ecc00eb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDeep_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c65721f2ca1ecfe6b5f8cb43fa637a9b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDyingLast_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8f01b1c1c47975057806562b79131e34",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDyingLast_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b9bc2ad2e8c7f35e55ff9cf94f823011",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDyingLast_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8fdd2ffe97e700cbc1938c722475e8c4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDyingLast_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d062b61ca365abd9b60741ec9aac45f5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDyingLast_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1bc4c46960361709f7d54a757a9ab9cb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDyingLast_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "043ff70f5e4b0c18fe779c678cdbe434",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDying_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "db85044874f48050cad4cd7b1c9dabd1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDying_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "74448a60b96bc3c651652014ccf59cae",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDying_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e9e4cafab1ca3497ad2aec9b2c2559d2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDying_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "7aeb8633c0ef715a8d445c037d0e0dbc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDying_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b9ceeaa78f8175bbcafc54b5d5a85dc9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvDying_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "af06686d47b7d9378ecddf20bc1800b9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightBite_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "35ad0758250b4e4bae213768f565e98d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightBite_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3e9144a5b97866aa673fae4e384f5abc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightBite_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "71e864dc3957178b1f8ed15d79a181d2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightBite_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "40383029b74b02607fdfbad8b2017dee",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightBite_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "5553a6711bb2ece1bb94b45e39e90511",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightBite_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4996f77cfd81cc536304b5cbf2fa98f8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightHurt_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ff1a7d53f3024c7a8ae79ff92ef370cb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightHurt_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4385713c5e41a088a0762deb6dd9dba5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightHurt_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "87fe5c30793f6ac36791e9a3a7d75227",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightHurt_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9d16b43fb228f286118b3aaf874dd73d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightHurt_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9e29200de793e24eb53fb0eec7353116",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFightHurt_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2ba298d86b1e2b96ab5315de3126de1c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFractureNoSplint_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "feb1fc894368a0f6cefd49c9e7a97c0e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFractureNoSplint_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "159c58d49a02d5e433ae72cf4f5b6934",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFractureNoSplint_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9d37f9507cae4fbbb9bccd1e38246c18",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFractureNoSplint_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b4f33d263711e210ae1b12487a40f96c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFracture_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "76bdeafa8029ce5a4110068257b7fb61",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFracture_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "413a64a97821cb8a2de4f69ba86375c0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFracture_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a3fd3fac05098d2ac1361407c893b4a8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFracture_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "04739a7409c0120f599b1ec2b7a7fc6d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvFracture_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c162c03221662def29960f24b296d12a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvGlassNoTweezers_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0b5f51c0f2818fd526a4a38e0ae4a5cb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvGlassNoTweezers_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1d34ada308bc706257be87d910257734",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvGlassNoTweezers_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "245d575ec6f150ca52000609f0ef77ca",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvGlassNoTweezers_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "64ca24d9e8369863b9a11dfd567e839b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvGlassNoTweezers_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9788f158c685d94feed511f56beb9d65",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvGlass_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0d2fcb0c00fb8cb2e6c961c0550916ce",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvGlass_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b992a54a8533a979850e6597ece42c9d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvGlass_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "258a8a764f2289b6f83849b7a19215a0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvGlass_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "6fb8c95363d1cf9a55e276a2627592fa",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvGlass_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "261700c6c832c4889d2a6420a51ab2e7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHealthHalf_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "94054063154366931d71a760295a6115",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHealthHalf_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2328d7cebed1df5606cf8565a0a89ed6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHealthHalf_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8abd8b71c9f223505149ecb6c5a992be",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHealthHalf_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f7fb7fab1f697d67c1b609ba64165339",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHealthHalf_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9adef1b884ac896b78e73507fdcee17a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHealthHalf_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "aa851866c526554303b1fdd268858a31",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHungry_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "15fdc7cd123396ae5fcc1cbb4067f3ed",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHungry_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "455b4a0426027f9bc7ef991aab1aa7a1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHungry_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "7b0865c287076b9175f0086a2173c3a8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHungry_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "369fdce0c1da0577ee87ce84b42932c8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHungry_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e275e030da7d5d1f70b96cf6c2062c38",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvHungry_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "bfcd227872370db3606a5932f00dde59",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPainNoPills_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0df0f8d5130bd27cfe64e08d3773e17b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPainNoPills_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2fd5c29849a49f5908c9125ebfc01a80",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPainNoPills_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "48749ba3cdde836afbe163f4e1da936b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPainNoPills_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d41cf186ef973fb2321e8d0ed32fcb5c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPainNoPills_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f36de681770152a258b2faeb2d4555e5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPainNoPills_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0308960c39566e29a0fa19f0bc9f169b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPain_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "150c7880b02031ba4eea00f9798aeed5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPain_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "6c132892b6944ff4666543a484610f3f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPain_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4d84109c6c7c1afeb98e8cb73aca435a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPain_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ce308d67a2948b91c6ed3adad602e47d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPain_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b65ffd4e059a8ec5a1ab8e8a8ebea943",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPain_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c504862ac07148b1a5fcb440affa4760",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPanic_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "dc7869e622fead12ace6d9b8b1862edc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPanic_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e0242104c3c183ac1f2f7595cc840357",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPanic_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1cd03745fa14fd6b4aa411a3da94e3dd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPanic_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0496cce63670a618c37b2b26f737309b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPanic_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "114b47ba08ae759ef8bc1641147858b9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvPanic_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "88cb396d02dad584b55dbc699c7a9ff0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvRested_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4d788ffd9befd4e629127e2af3c9d19e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvRested_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ba848c1ba756e203baac3f5cc9c99f1e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvRested_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1b6bfc66e0dc8f5098f3bf891aa01a0a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSad_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0fa56189ca20ffddd4cd1bf443265326",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSad_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "7434196fb00fc4fd497dbde35e66fedf",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSad_Close_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a2c2d8acf1b397bf142cbb13fd09ad99",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSad_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "814732d2cd6bf2698847d71db37f64dc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSad_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "6d0e73c85b804c0928af5f809f07d0a4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSad_Far_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "eeec6e99d31b3657f5aaf3ad9170189b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSad_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b36ef8798ffe5a9c7c3f73ec2e037a6c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSad_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9dffe8cf30102ec301d913ae0e74eb68",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvScratch_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "85b7fb6e9b5d93c73139f4a60e13854b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvScratch_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "08821263af2b04d2ca842ba747417388",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvScratch_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "88bf2f55c69eecee4dc3efb0616f89c3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvScratch_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1d9419786f5a628eddeaace397bec4a2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvScratch_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8a3986c91fa9f39f456b848e323d14f6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvScratch_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "804feae4ed0ea7f53da80c17844a6c15",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSick_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "985dffaccc2e501d4751c3a3ee6989c7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSick_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1804091f2d86b119c99812067d8fd939",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSick_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "07919ef6d32151f32d9f8815d3874444",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSick_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "461a889bbb76a19d5e06c2083992a108",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSick_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8bc2bd197945ccd6018ad56b823ac830",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvSick_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a19fc51930bfd7f956dc778681dc9a40",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvThirsty_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "6873749a6846d4b55ea9a29203d0d862",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvThirsty_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f0a19364cce8276c0940c5d4b0baaa8c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvThirsty_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d5b46973134c02eed1879e14afb52d9a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvThirsty_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1469a08f03f842ed1e41881f6cfb823e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvThirsty_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c26482e4c08de5bebe8666864f1915c7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvTired_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "adb26c937aa70df989ba3a8538081de1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvTired_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "bac7533c0fdf301f5aac65599428f361",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvTired_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9cef7af4c79184914dffe29010da77a0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvTired_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "7144ab162c8a71fb020441596e01155d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvTired_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "aaf1b0de6fa78f52fa7648e8649f05b2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvTired_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "367cc64080fc29d11eb1bb0645cb767f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvWinded_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a0069feaa5cec3bdac55e32b11eb7d7c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvWinded_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1f9970b824ff4049a29e1fe305999440",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvWinded_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "7d22b9f3bd360cc044ecfd5e1ae4af93",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvWinded_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1f86c7c81daf331500d073c9492d95ea",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_EvWinded_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8a145f2a9e309fbd5717cf3b947c5365",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Flirt_Bad_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "79f6ef5fc665b04bca2ccbb186853d0f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Flirt_Bad_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3a7bdaa3dc56c23fac773c41040861ca",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Flirt_Bad_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "98d7f7b57b5fb6a344b546eb352ece00",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Flirt_Good_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2e6751224c660711bf3108431b5ef8cb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Flirt_Good_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4c29429fea4710607a0c4b6692724d3e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Flirt_Good_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c6d19d591fadec733b2c49b6386afb1c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Flirt_Good_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9a981ae25ed9f28a919b1f052a947a26",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_GiftFood_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f745100d31382010a42acb613a9f42cb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_GiftFood_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "05312d92c71e0cabf783fd6b57e594ca",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_GiftLighter_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a80b758aa7a006131e3a7aff393d9da2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_GiftLighter_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "5c80fc6760ef08e5d75d96d001d301ff",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_GiftSmokes_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0c164c8587e1d8a45ec317c144caaea9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_GiftSmokes_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2deb8c31aeb0606d4f9fe0e4e883b7a5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_GiftWater_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "98bef5807b2aec0723e02e9ac3d670a7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_GiftWater_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d361afc4aab3aeb75b3e7ee25306d1b9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealBite_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "23d7ed087e2da632cd640dbef87dc697",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealBite_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d195c32fa3c31dab91b427c9ec62f76f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealBite_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a19551b998b6304112340eca6e12b58e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDoneMissing_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f041be665841cd043387f5eb41aff483",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDoneMissing_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "6df23e41b17c5b14a9e94c56eff1cc2a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDoneMissing_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f68b3760ca2665789110d5476ab4567c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDone_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "fc662ff4df3f98e4f68c2134fcb0d316",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDone_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "494665957102dda0a230a6184f629d82",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDone_Close_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "672beb29c0781e3adcdc09943921d3da",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDone_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d2f7b44ab402a58bafaf421a362b0016",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDone_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1f2539b1af1813c6c31ba9a512ec6890",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDone_Far_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "40ddf9d9e1816b7494a4ff5e716a60f3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDone_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "7de065256ff632f54cfaaa28abae25c7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDone_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1d9a41ebe77beccce1a7c3889dfae118",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealDone_Near_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "694b8f50d152357b53b33abd03fd26a5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealLeft_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "5610728e4dfdc4d92fbbfbbb06b34d52",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealLeft_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "81b50718b5f4d7f4cfe3060c32fd1c21",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealLeft_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "892f2840542c380de97d9a9957891410",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealLeft_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4755783ea9dc1b76756990c6eb61d00b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealLeft_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "560fcf0a57c1d01f8c77ee90029e63f0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealLeft_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8430052f75701df237cfc420e4d00efe",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e4cf274fe5e653302cb44ca58b15f74a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0cc3a758134a6477f47b046d15c3964e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Close_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a8259ca73eef6e8581a9048bbea2da50",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Close_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0faa2499162b888e5db3549d971e6eb1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e8c01f3db16cae2e9e89676a9e0fe45d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "be638608017f7704bd01fd6425a858d8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Far_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "be0abb556bc65b77e99e2d1b92232a6c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Far_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "80b796bfde1cc53fcc08c8265ec89190",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "183f4b7599263abe159c5760051e4968",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "02d51ea1c942ed90c926e56ea52deac5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Near_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a07007c6d6a95161702446b34a93d032",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNoWounds_Near_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3738aa7567b717dad9cdebf563039c51",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNothing_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d681d20c6efd132d2e1ba22932ba4b4f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNothing_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2143786d5b6a7b5ca86cdd7d1e24c24d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNothing_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9f43399467485523bb3910f92835a604",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNothing_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3e0fdb3fd3646606ae6596effcadac2f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNothing_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e5bf96aa9dca520fe09f5c28ffddc04f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealNothing_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d9c5eea37b6a6e2d03ad11876436c83c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealZombie_Close_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "513d14c19f931dd8552a3d52daf62a30",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealZombie_Close_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d17d7d9066a30b342b70455eeae16518",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealZombie_Far_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "73852356f0f502fa689af96205334532",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealZombie_Far_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "bd4ce33045992803f05395e7494e148b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealZombie_Near_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "6dbf6701fc251e310c4c3c45d680cdde",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_HealZombie_Near_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0fe11a493c14839f9cc3d5754301a21e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Hug_Bad_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "055df451bfbf95e85dc7a06c846c3412",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Hug_Bad_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c1e92417536778203138891f74cf244e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Hug_Good_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d0a081527eafdd5cf69fef9d854c03dd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Hug_Good_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "bfcecd1a8dfcbdb2b2bb40bcfa7e5b99",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Hug_Good_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b5a0262eb69a475e1d67019e0090ede5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Bad_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1c8d1748c1d269ab5ab339438449313e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Bad_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "063e27490513af9a76092f00b00d4198",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Bad_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "147491000e6234b2ff4c75312507ec4a",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Bad_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "90e47e10da56700837eec52ad2f553e6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Bad_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "6f7cbf385232bf921fc4d5399406e71b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Bad_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "233f5e1085f1a0c905a0c73a5fcb58a4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Good_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "50892bbc5919320395ad687abbd4db46",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Good_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b6c65622e1c1defb37a31d8bfc4fbef9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Good_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0aa714cd797c660071aef095377ce807",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Good_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8c0b344834242d2ea23a87fc2328e8c1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Good_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ac0363753e85d1ec2afa0b3bb0939e1b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Good_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4fc1eca65411565f373a0120a825b648",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Joke_Good_7",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "14367947197ebc2c4c4da91834cba47b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkAfterFight_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d8d88987a356648acbd8747ddec1f6c7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkAfterFight_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ebf0759a3de2b9529cb83b081062dfa0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkAfterFight_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "cb860e8f0615d1bfd780249a07ab9c3e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkClose_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "53e13f8a1d9bf44ab365395706018b81",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkClose_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "5b79b93a4feeb504dd6a35f9dfcec761",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkClose_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "189d144d7a13602353e14e885ae57190",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkClose_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "78d2c1316b99d0d3e1b9d659262acc92",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkClose_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "eb63f100ace22b1939e6de38dc858e35",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkClose_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "6f6e3ad1879f4da90b8c2631313c5130",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkClose_7",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3ef42fb3f12338936ef14acb2ffa7dbf",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkClose_8",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4cd69ba2c483698c4cfc0de30128ddd7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkCold_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f34ab7a6e3f87b6c0a9d7b629a0ec555",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkCold_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c7096d2490fa87e11520b9323f8a77f3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkCold_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "11caa06115292752e2929573efb64e47",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkCold_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c58ce1026c63d91e788da34615199ed0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkFriend_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9a5b44a4d1ab0fc05c1dc0d276f0734e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkFriend_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "50f1f67f3ecce6fc8cc4f6c08200cac2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkFriend_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c1b53d69de21ae6cc71f93f82efb12bc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkFriend_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f7eed45f7a476f8d9b9b93ce7d588e34",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkFriend_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "df50f9df1df21463d930d5900fe0fc68",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkFriend_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "59c630a17e2ecd6954b91c11ded92d60",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkFriend_7",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a2408a79e807d9c8f47d15704c4382cc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkFriend_8",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ad08238923a5c011800e32055a423339",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkFriend_9",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "73bd9b943fedc846db3246d6377a1a93",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkHurt_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "788b83a91e51fa7121706d4d83f074b0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkHurt_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4b6411d2c62e9232c5043f06d2557076",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkHurt_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "ab0d17be06f4143b5ed6b020d0d1d6cb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkKnown_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d3324492f346105079b09483f7fbee38",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkKnown_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b9676a28d77253c791478364a73d75f3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkKnown_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "5fc1ddee8897cc91379cfc892ac00b0f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkKnown_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e0d3b45990af0851a0d05de0e512db89",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkKnown_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "045d8f9dece4f967461cc29b58cc7020",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkKnown_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "53aabf98254b3a512b73197b1679c252",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkKnown_7",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "da39a2277956477d57a7567f03cec13e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkKnown_8",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9723797db64aa89c2ba67ab123f59b70",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkKnown_9",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "26bfa15a0ca432ccf7fef50c0cce711b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkLove_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "3781ef2906f6e3b84e471d4e814b81fb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkLove_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "6c1546f17b1105162542a8ec3e24f330",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkLove_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "68705c873bb6857202281bd8ef3340d0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkLove_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "da71d4dc28930564536ca0deea694858",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkLove_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "5b52c5490a81a1f6397046d1a13cbe65",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkLove_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e45db9bf6fd783e2226c6086514477d7",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkNight_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "241d67490625db263127fbc49cce7686",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkNight_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d3af76ab76d33d0ed25ee5ff89410f8e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkNight_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "82af8fd86bccb29b968e3503552c08b9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkNight_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d9339667406e7074f6d85b00ac2fbcfe",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkNight_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c740ac877420bfb9250f72c3ad3cf3cd",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkPal_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8e2c1bab8a366532b3fedfa9055a2ed9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkPal_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "b9af706a89059334d1cc0ed9b0579b27",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkPal_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "e395dd6ab6db37213ca7acda6b993df3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkPal_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "cafb1a27c4da34cf1b428abdc6fea6af",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkPal_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "653f535530a5a7978f2739ad439595ba",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkPal_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "49df54fdffc5f43c26fd8b2982d3e4db",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkPal_7",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "fd9782e237b3bc77c5ddabd561daa834",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkPal_8",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "bff9040e1cae25a1943f7cf8e5d82526",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_RemarkPal_9",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "1df592afd0d256f6eb477ba47037abbe",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Repeat_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "5c986db9e6cfe7c1efb431da46e4991b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Repeat_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8e2441f1998c465140aba9ae2c4f4267",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Repeat_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c2236245a9d6a8a7574a1e9171024c29",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Repeat_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "568b0d92388e5e05d62b90d8a8a38ebe",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Repeat_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "52e0f8d34f97f407e0bc7ec3ae506446",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Thanks_Bad_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d57a6896e2a730752774055b01f1106f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Thanks_Bad_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "7a679a70e8c0beedae00494374680ce4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Thanks_Good_1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "90961d1b8d4ef1d1818096bb754c4ef2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Thanks_Good_2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "9bade98b46fd076da40a86c1590dfd02",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Thanks_Good_3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "efad13c02c90db4e35636a60377e4b89",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Thanks_Good_4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "901088342650b2ca14518f9d356f3d1c",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Thanks_Good_5",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "a3caf00d8c4926cacb0521b8d75508a5",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Thanks_Good_6",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "770a5d08af681aaf65a8211773abddc1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Soc_Thanks_Good_7",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "157bde843eff337026bf3827fc35b9aa",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_StatusAway",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "c87668dac493299778155558cce0afb1",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_StatusHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "dc58943295cd3550b6512d5d563eeea8",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_StatusResting",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "d72105aeca5d5e60811489e2c82c67bc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_StatusWaiting",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "4f69b3363970530c7817e6d87e3f3866",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Talk",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "13dd0f0413448deff22a162bdb51cba4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Talk_Ask",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "114ae0ae118cd3b3a3676c6441d499ca",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Talk_Chat",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "366f0d6873d2de713f932168e25dd050",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Talk_Comfort",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "8730f91f9611e2dc130b5d736ce7b3c3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Talk_Compliment",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "356fd42e16f4b851a0e09ecc356d04fa",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Talk_Flirt",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "f7a405e0199c1d57d154a895adef5f97",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Talk_Hug",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "477434a7b892b65be6f125d023f6227d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Talk_Joke",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "fe4e73c54a402305106c309eb9e5c5ff",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Talk_Thanks",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "0f0c3488b8fe02a715e1ddb736ebccce",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_WaitHere",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "48489e07f91154715c8c4bf832683d50",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3800989007",
+    "translation_key": "IGUI_NotAlone_Wash",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T03:41:00.0000000Z",
+    "source_hash": "2e1a9a5d2410c61818408f8268aaaac9",
+    "output_file_stem": "IG_UI"
+  }
+]

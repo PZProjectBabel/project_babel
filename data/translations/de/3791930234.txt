@@ -1,0 +1,6 @@
+Sandbox_ItemPipes::en = "Item Pipes",
+Sandbox_ItemPipes::de::processed::unverified = "Gegenstandsrohre",
+Sandbox_ItemPipes_TransferSpeed::en = "Transfer Speed (Items per min)",
+Sandbox_ItemPipes_TransferSpeed::de::processed::unverified = "Übertragungsgeschwindigkeit (Gegenstände pro Minute)",
+Sandbox_ItemPipes_TransferSpeed_tooltip::en = "How many items the pipes transfer per in-game minute, per container.",
+Sandbox_ItemPipes_TransferSpeed_tooltip::de::processed::unverified = "Gibt an, wie viele Gegenstände die Rohre pro Spielminute und Behälter übertragen.",

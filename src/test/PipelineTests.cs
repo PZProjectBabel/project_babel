@@ -343,6 +343,93 @@ public class BinaryEmbeddingSerializerTests
         }
     }
 }
+
+public class EmbeddingFileStorageTests
+{
+    [Fact]
+    public void SplitChunks_StayUnderLimitAndPreserveAllRecords()
+    {
+        var records = new List<BinaryEmbeddingSerializer.Record>();
+        for (var i = 0; i < 16; i++)
+        {
+            var vector = new float[BinaryEmbeddingSerializer.EMBEDDING_DIM];
+            for (var j = 0; j < vector.Length; j++)
+                vector[j] = ((i * 31 + j * 17) % 1000) / 1000f;
+
+            records.Add(new BinaryEmbeddingSerializer.Record(
+                $"Key_{i}",
+                "normal_base_text",
+                "",
+                Enumerable.Range(0, BinaryEmbeddingSerializer.HASH_RAW_BYTES)
+                    .Select(value => (byte)(value + i))
+                    .ToArray(),
+                vector));
+        }
+
+        const long maxBytes = 3_000;
+        var chunks = BinaryEmbeddingSerializer.SerializeCompressedChunks(records, maxBytes);
+
+        Assert.True(chunks.Count > 1);
+        Assert.All(chunks, chunk => Assert.InRange(chunk.LongLength, 1, maxBytes));
+
+        var roundTripped = chunks
+            .SelectMany(BinaryEmbeddingSerializer.Decompress)
+            .ToArray();
+        var parsed = BinaryEmbeddingSerializer.Deserialize(roundTripped);
+
+        Assert.Equal(records.Count, parsed.Count);
+        for (var i = 0; i < records.Count; i++)
+        {
+            Assert.Equal(records[i].TranslationKey, parsed[i].TranslationKey);
+            Assert.Equal(records[i].SourceKind, parsed[i].SourceKind);
+            Assert.Equal(records[i].Hash, parsed[i].Hash);
+        }
+    }
+
+    [Fact]
+    public void WriteSplit_UsesPartNamesAndRemovesStaleSibling()
+    {
+        var tempDirectory = Path.Combine(Path.GetTempPath(), "babel_split_test_" + Guid.NewGuid().ToString("N"));
+        Directory.CreateDirectory(tempDirectory);
+        try
+        {
+            var random = new Random(42);
+            var records = Enumerable.Range(0, 16)
+                .Select(i =>
+                {
+                    var vector = new float[BinaryEmbeddingSerializer.EMBEDDING_DIM];
+                    for (var j = 0; j < vector.Length; j++)
+                        vector[j] = (float)(random.NextDouble() * 2 - 1);
+
+                    return new BinaryEmbeddingSerializer.Record(
+                        $"Key_{i}",
+                        "normal_base_text",
+                        "",
+                        new byte[BinaryEmbeddingSerializer.HASH_RAW_BYTES],
+                        vector);
+                })
+                .ToList();
+
+            var firstWrite = EmbeddingFileStorage.WriteSplit(tempDirectory, "123", records, 3_000);
+            Assert.True(firstWrite.Count > 1);
+            Assert.DoesNotContain(Path.Combine(tempDirectory, "123.bin"), firstWrite);
+            Assert.All(firstWrite, path => Assert.True(new FileInfo(path).Length <= 3_000));
+
+            File.WriteAllBytes(Path.Combine(tempDirectory, "123.bin"), [1, 2, 3]);
+            var secondWrite = EmbeddingFileStorage.WriteSplit(tempDirectory, "123", records, 3_000);
+
+            Assert.False(File.Exists(Path.Combine(tempDirectory, "123.bin")));
+            Assert.Equal(firstWrite.Count, secondWrite.Count);
+            Assert.Equal("123", EmbeddingFileStorage.GetModIdFromFileName("123.part-0001.bin"));
+        }
+        finally
+        {
+            if (Directory.Exists(tempDirectory))
+                Directory.Delete(tempDirectory, recursive: true);
+        }
+    }
+}
+
 /// <summary>Tests ConfigReaderService parsing of config.json, secrets, and language files.</summary>
 public class ConfigReaderTests
 {

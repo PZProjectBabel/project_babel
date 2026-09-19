@@ -21,6 +21,13 @@ public static class BinaryEmbeddingSerializer
     /// <summary>Byte count of one fp16 embedding vector (DIM * sizeof(Half)).</summary>
     public const int FP16_VEC_BYTES = EMBEDDING_DIM * 2; // 768
 
+    /// <summary>
+    /// Maximum compressed embedding file size used by the repository layout.
+    /// This is decimal MB so the generated files remain below a 30 MB limit
+    /// regardless of whether the limit is displayed in decimal or binary units.
+    /// </summary>
+    public const long MAX_EMBEDDING_FILE_BYTES = 30_000_000L;
+
     /// <summary>Deserialized embedding record from the binary file format.</summary>
     public readonly record struct Record(
         /// <summary>Translation key for this embedding.</summary>
@@ -134,6 +141,75 @@ public static class BinaryEmbeddingSerializer
         File.WriteAllBytes(filePath, compressed);
     }
 
+    /// <summary>
+    /// Serializes and compresses records into chunks whose compressed payloads
+    /// do not exceed <paramref name="maxCompressedBytes"/>.
+    ///
+    /// Records are never split in the middle. The initial chunk size is chosen
+    /// from the uncompressed record sizes, then checked with the actual zstd
+    /// output. This keeps the normal path linear while still handling
+    /// incompressible payloads safely.
+    /// </summary>
+    public static IReadOnlyList<byte[]> SerializeCompressedChunks(
+        IReadOnlyList<Record> records,
+        long maxCompressedBytes = MAX_EMBEDDING_FILE_BYTES)
+    {
+        if (maxCompressedBytes <= 0)
+            throw new ArgumentOutOfRangeException(nameof(maxCompressedBytes));
+        if (records.Count == 0)
+            return [];
+
+        // Leave room for compression/container overhead. For small test limits
+        // use the limit itself so a single record can still be emitted.
+        var rawChunkBudget = Math.Max(1L, maxCompressedBytes - 1L * 1024 * 1024);
+        var chunks = new List<byte[]>();
+        var start = 0;
+
+        while (start < records.Count)
+        {
+            var end = start;
+            long rawBytes = 0;
+            while (end < records.Count)
+            {
+                var recordBytes = GetSerializedRecordSize(records[end]);
+                if (end > start && rawBytes + recordBytes > rawChunkBudget)
+                    break;
+
+                rawBytes += recordBytes;
+                end++;
+            }
+
+            if (end == start)
+                end++;
+
+            while (true)
+            {
+                var candidate = new Record[end - start];
+                for (var i = 0; i < candidate.Length; i++)
+                    candidate[i] = records[start + i];
+
+                var compressed = Compress(Serialize(candidate));
+                if (compressed.LongLength <= maxCompressedBytes)
+                {
+                    chunks.Add(compressed);
+                    break;
+                }
+
+                if (candidate.Length == 1)
+                {
+                    throw new InvalidOperationException(
+                        $"A single embedding record is larger than the configured file limit of {maxCompressedBytes} bytes.");
+                }
+
+                end = start + Math.Max(1, candidate.Length / 2);
+            }
+
+            start = end;
+        }
+
+        return chunks;
+    }
+
     /// <summary>Reads a compressed .bin file, decompresses it, and returns parsed records.</summary>
     public static List<Record> ReadCompressed(string compressedPath, string tempDir)
     {
@@ -147,6 +223,14 @@ public static class BinaryEmbeddingSerializer
         File.WriteAllBytes(tempPath, raw);
 
         return Deserialize(raw);
+    }
+
+    /// <summary>Returns the exact uncompressed byte count of one serialized record.</summary>
+    public static int GetSerializedRecordSize(Record record)
+    {
+        var keyBytes = System.Text.Encoding.UTF8.GetByteCount(
+            BuildCompositeKey(record.TranslationKey, record.SourceKind, record.TargetLang));
+        return checked(4 + keyBytes + HASH_RAW_BYTES + FP16_VEC_BYTES);
     }
 
     // ── fp16 helpers ──

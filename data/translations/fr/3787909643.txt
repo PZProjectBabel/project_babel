@@ -1,0 +1,6 @@
+UI_MS_Preview::en = "Play",
+UI_MS_Preview::fr::processed::unverified = "Lire",
+UI_MS_SmokeAmount::en = "Smoke amount",
+UI_MS_SmokeAmount::fr::processed::unverified = "Quantité de fumée",
+UI_MS_SmokeAmount_TT::en = "How much smoke a shot produces. 100 is the default look and the maximum. Lower it for less smoke, 0 for none. Applies to your shots and to other players' shots you can see.",
+UI_MS_SmokeAmount_TT::fr::processed::unverified = "Quantité de fumée produite par un tir. 100 correspond à l'apparence par défaut et au maximum. Réduisez-la pour moins de fumée, 0 pour aucune. S'applique à vos tirs et aux tirs des autres joueurs que vous pouvez voir.",

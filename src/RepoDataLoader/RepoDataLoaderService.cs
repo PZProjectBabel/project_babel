@@ -101,9 +101,9 @@ public class RepoDataLoaderService
         if (!Directory.Exists(embDir)) { Console.WriteLine("  data/embeddings/ not found, skip."); return; }
         var tempDir = Path.Combine(_config.runTempDir, "embeddings_decompressed");
         int loaded = 0;
-        foreach (var file in Directory.GetFiles(embDir, "*.bin"))
+        foreach (var file in Directory.GetFiles(embDir, "*.bin").OrderBy(path => path, StringComparer.Ordinal))
         {
-            var modId = Path.GetFileNameWithoutExtension(file);
+            var modId = EmbeddingFileStorage.GetModIdFromFilePath(file);
             var records = BinaryEmbeddingSerializer.ReadCompressed(file, tempDir);
             foreach (var rec in records)
             {
@@ -202,9 +202,9 @@ public class RepoDataLoaderService
         if (!Directory.Exists(embDir)) { Console.WriteLine("  translation_ref/embeddings/ not found, skip."); return; }
         var tempDir = Path.Combine(_config.runTempDir, "embeddings_decompressed");
         int loaded = 0;
-        foreach (var file in Directory.GetFiles(embDir, "*.bin"))
+        foreach (var file in Directory.GetFiles(embDir, "*.bin").OrderBy(path => path, StringComparer.Ordinal))
         {
-            var modId = Path.GetFileNameWithoutExtension(file);
+            var modId = EmbeddingFileStorage.GetModIdFromFilePath(file);
             var records = BinaryEmbeddingSerializer.ReadCompressed(file, tempDir);
             foreach (var rec in records)
             {

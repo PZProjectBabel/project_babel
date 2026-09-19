@@ -1,0 +1,1028 @@
+[
+  {
+    "mod_id": "3796922453",
+    "translation_key": "CHB.IndustrialBoilerManual",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "d353d01dfdc8f14799f488c22b9cb9ad",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "CHB.ResidentialBoilerManual",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "19c261624a08874d4f74d099baf1f3fe",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "ContextMenu_CHB_Boiler",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "81542e286895ac198e3a3f91ae9d0a69",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "ContextMenu_CHB_Connect",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "e6e404bc57a59c174040d016feca2f72",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "ContextMenu_CHB_Disconnect",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "33c55e58b501783727acc0bb3f910c26",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "ContextMenu_CHB_Dismantle",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "66630b25452049d213680b088a7e59b3",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "ContextMenu_CHB_FillWater",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "30d228f36fa7dd55d964e5f10c4444b4",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "ContextMenu_CHB_OpenControl",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "8f43727cafa268c845af20b3ae660947",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "ContextMenu_CHB_PickupBoiler",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "a481198e9b2a65a86f8d6ba73080f1e5",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "ContextMenu_CHB_PlaceBoiler",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "acbaff328ee257d62138d4b22c464b63",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "ContextMenu_CHB_RepairShort",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "6eb9828d3e83e4a0d9ea9ec59428d960",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "ContextMenu_CHB_TurnOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "77bc44b5ede8595a7f7a40c2f56878d0",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "ContextMenu_CHB_TurnOn",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "509758efb08b8135278e1c0a640ea899",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_CompatibilityMode",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "413cc271c3b63b2717e82f730f1346d7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_DeveloperMode",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "d514b9790141d90acfdc9ae4f04c636d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_EnableResidentialSpawn",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "3d2b842dac8bd578c149185b7efc4b70",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_EnableResidentialSpawn_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "b14513d4acb8c305d7afa8ac68461604",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_EnableSystemAging",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "7293363de939180aeb768e012cda9220",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_EnableSystemAging_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "191a55900ac9d4abe37c95518d2ac3f7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_Mode",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "f08446c4413c71c5a46787989ed8f297",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_Mode_option1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "df6f95fd098c1f5b587590fac41f6a36",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_Mode_option2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "f51add2d53ceb120fcb535b4529dda7d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_Mode_option3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "7aef6cd72c7d42672971cf8ce3ecf63a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_Mode_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "040ac0a2499dde0f5b16ee1444719564",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_ResidentialSpawnChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "27514977bf273b88265a09e0718b3cc0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CHB_ResidentialSpawnChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "c47b321a4fb837c1ced92450e4c4625d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "Sandbox_CentralHeatingBoilers",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "668b2b8f9e622b0836b50a88074fec75",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_BoilerItemName",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "0606a231f2bd0e60352f7ccafb0f6fdc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_CannotPlace",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "2876fe2c0e53995081b95cc8096ac1f1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_CompactBoilerItemName",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "ff307787d1cebf30a165a9f5fe4642bd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Condition",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "aced9398aa83e1a510a30455c85e7425",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ConnectConflictNeedConfirm",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "18f25ac38b68efe3b986535e5c7f7cf3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ConnectInvalidBoiler",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "3ec0fc49d445a72d4dd092842c2da1eb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ConnectMustBeIndoors",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "c9f09983dedd282f7ec2289750fcadc7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ConnectNeedIndustrialManual",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "27bac25d8c3c97fc9cea50a647c5578a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ConnectNeedIndustrialSkills",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "a20f9f3b8f52b8d036563058729699f0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ConnectNeedResidentialManual",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "1b91940166eaa0d8197c41268db88b7a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ConnectNeedResidentialSkills",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "fb060c9421bc72c210b4c855ba625e17",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ConnectReplaceConfirm",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "a536b02f58515818c030ba086bfa5b69",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Connected",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "a74254decb412bd9b78bc370fd511f15",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ControlTitle",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "89e4a095a2b3ff93f6b6a72933dd182d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ControlsHeader",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "b06fe7f0c81e27d9dfa3e9be410f6f83",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_DevDenied",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "5a36b140e7a870caec3eae1a194115c8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_DevSpawned",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "30a06d93f6df13a13cf026c23c7312ff",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_DismantleNeedsWrench",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "51ce272a7b6e9322c0c4fcacc863c9fa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Dismantled",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "79814d7cbb4370d529231a166b268a01",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_DoorLeak",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "eaab8282564b43fee77d5288b1c09671",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_EnableResidentialSpawn",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "dec34be1cf4050f8cb16d2f42f6d7ef4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_EnableResidentialSpawn_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "a0ad35f42845bb2101689ade2e7f2ead",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_EnableSystemAging",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "d7aaff2f0bff616e674e679a94425b1e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_EnableSystemAging_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "4c7496bf4ff9c0643f4392f7b6eb1b83",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_FootprintNotFound",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "890f7fc36c38b0979fc460ab86a8ced5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_FuelRate",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "867b5331e1285063986bc332bc29aba2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_HandoffStarted",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "48973ab28b76aae841c0885df0c89f3e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Heating",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "164da30dc08d8f0250c4772ce853d89e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_HeatingZone",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "82f899cb579fbfa4cbba5a39857d5641",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_IndoorTemp",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "01fa07171f972798e0e100c35095338b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Info",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "1dcdd4f29489ffe60aae6cd4bd55a83f",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_InfoLowWater",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "364a644e3e26f68698f1d26b33e8b481",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_InfoNeedsRepair",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "aa5f857590a9345ec09328c61f16dae6",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_InfoOK",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "099bdf202955a98cd4fda15a262e541e",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_InfoUnservedStructureMany",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "96d45b7139f4e48b3f08d1843dcb3391",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_InfoUnservedStructureOne",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "9f24a4efc34bc0f81832748a71a4d1bc",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_MediumBoilerItemName",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "00505d5e978cff7754acad7fe1245ae4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Mode_Comfort",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "c5c6a79dc8f2612518174ddade858617",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Mode_Comfort_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "88553a6002f65000a126f937fc49c9a4",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Mode_Hardcore",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "26a832271d875f9667be6c1ff55f0d48",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Mode_Hardcore_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "4f3c2742eeafddc0b0946976dc0bba23",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Mode_Normal",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "aca9133fae259d5922f3ac6a5c0dbbc7",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Mode_Normal_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "04b0179c029ae0d4eb72e459a08672db",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_No",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "abd8a132b875985dfa4a38e8de419534",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_NoTemplate",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "8e84a7745e3aa31393d46412b1319422",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_NoWater",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "b560575d91089a41492e41399b6f9766",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Off",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "c99a0818ee1e312d01fa1e93f0f14739",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_On",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "58f2941c6f5240623557853bf79894b3",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OperatingModeAlways",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "297909aeb82bf58212c5d787be164d37",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OperatingModeDay",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "000d90a06bbb23ff9abff49add3d22aa",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OperatingModeEcoAlways",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "0c5566011578f96a0c0b2c86c21bc530",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OperatingModeEcoDay",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "4e8e1b412a29e67032149ef370ab1d36",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OperatingModeEcoNight",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "85a6f8786e253037b8a069e06040ee84",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OperatingModeHeader",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "1b92ee9068f1487270ab58c4939eefc2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OperatingModeNight",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "285a41009d6fcf99098e542e4f5ed150",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OptionsCompatibility",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "cc2096986084a60e4760368223fbfbeb",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OptionsCompatibility_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "f3cfdf4312d50d32972902e9e426317b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OptionsDeveloper",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "5890959ed4fd397b4667c6a4381dacd8",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OptionsMode",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "ece3d58aadbd882009c9f47714d2eeba",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OptionsName",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "d0fe2874d86e3d07ad8a86fccdeec576",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OutdoorLoad",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "e951e8608b22d60f76e5540b2dee4917",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_OutdoorTemp",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "49518973fd79b51abb965fecadb1fe8c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_PickedUp",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "87a97e3e732562aa59b925d33f6725e9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_PickupFailed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "d8bec1923efe7f7a6930030e9b3f8596",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Placed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "85df7f61969cf8346b6583ff22366f6d",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Power",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "563f3883b8149d744c2566a047e9474b",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_PowerExternal",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "155bf316b42b42fe2fdfe4505d4a8bc9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_PowerGenerator",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "bd872e87873c8b83431209f2b9e2a2c2",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_PowerGrid",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "b40cc064b005f983d3f7d7cbaba25a27",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_PowerNone",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "8dedc93188e088b952d42e511a062390",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_RepairMissing",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "5a9af5d214f5b244443532b8ee1d7c65",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Repaired",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "9d19d1f9ba38f122af890c70308f4de5",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ResidentialSpawnChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "43b78971e8e93ccfbad9cb04bd84be4a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ResidentialSpawnChance_Tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "62deca7f89a20098b0593cc62935da38",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Standby",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "e8b20bcdfb551f0c6988a38b33c1a030",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Status",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "7838277506ba98c0e13c9736c34f6494",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_SystemWear",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "073392de6fd4245f3f7bdeb589d418bd",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_SystemWearDisabled",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "bf885e258d8bff35a0db81f0fedcfd93",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_SystemWearWaterSuffix",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "89f1b6194cb070a3ac4a2ae23816e7f1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Target",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "6901a6b899f00f2115d8bda5ebc43892",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_ThermostatHeader",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "2300476ff5a9f41977a3ec97f7d0065c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_TooFar",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "339b66bd5d1afa4fa145a2a3e47249b1",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Water",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "902d242c8f5c70b71e6acf26040e0a7c",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_WaterAdded",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "ad660bd63bdaeaee74ae61af663668b9",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "UI_CHB_Yes",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "30488911c814cdd77255288c54af8a3a",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "description",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "aec03fd76b7da00696a9d15d68a20e51",
+    "output_file_stem": "Mod"
+  },
+  {
+    "mod_id": "3796922453",
+    "translation_key": "name",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-13T21:44:19.0000000Z",
+    "source_hash": "c0c165fbd24f9c19d945efcaf3cd440f",
+    "output_file_stem": "Mod"
+  }
+]

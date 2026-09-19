@@ -1,0 +1,281 @@
+[
+  {
+    "mod_id": "3796181970",
+    "translation_key": "ContextMenu_Inject",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "196407651c8cbf5564f12f196e46c529",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "IGUI_SuperheroSerum_InjectionLimitReached",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "1f1b34bc542c2b9947ffbd3c6bd3e66d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "IGUI_SuperheroSerum_NoPowersLeft",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "c4bdade3ead5437a6be0b4623db2fb16",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "IGUI_SuperheroSerum_TempVAlreadyActive",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "c3f3a52c5886c019fda13b4b38cd987e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "IGUI_SuperheroSerum_TempVWoreOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "d061655cdd159d14795e5e80d42942d9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "IGUI_SuperheroSerum_TraitsGranted",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "e12dd9d742b547eb3e1d0cc81a7a0cc2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "ItemName_SuperheroSerum.CompoundV_ThermalVision",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "52079d5f1e7a3bef729b99bc7f165126",
+    "output_file_stem": "SuperheroSerum_CompatItems"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "bdeaa12e95a9bec1489913f16cb1f3e8",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_LootChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "a554bfdb7aa0b559a85889cdaa4e9af4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_LootChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "ee796744f7a24443b65c91c5167b79d5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_OtherContainerChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "2392a572bacc875842df7797cc0cb651",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_OtherContainerChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "bfe8596a5cd6795b29a8a307e7370447",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_SpawnInMedicalMilitary",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "329fd2c8eb3306ab571fe0bfa110b49f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_SpawnInMedicalMilitary_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "4cc7c327d578ecca25ee6d177707c032",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_SpawnInOtherContainers",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "e1a46325fbe9cb98909dffd0cc529e2c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_SpawnInOtherContainers_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "9e6aa99c0de9400eae25ad598d6e9184",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_SpawnOnZombies",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "0ffbe994022ebf92fb63a0dadcd3e3fb",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_SpawnOnZombies_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "8e58cc4517fbc3cd5f2c8875d5d2a8ed",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_VoughtVanMedicalLootRichness",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "1055531f9af5abe7785eb56e0d988528",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_VoughtVanMedicalLootRichness_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "8052324145b3c5d6dc4741b301b015ff",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_VoughtVanSerumChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "3dbde3e718b31b6a46474f0922538ba2",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_VoughtVanSerumChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "feb49e00a54c91545cf21cbd0309dcfd",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_VoughtVanSpawnChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "3e0f05262ed6f4003769c8668fd1bb9e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_VoughtVanSpawnChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "1c9c61ce44c46732d1927a4319b6093f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_ZombieDropChance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "4cd1db60f494accf1ca34c2e114d0f82",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "Sandbox_SuperheroSerum_ZombieDropChance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "c2742265a8d07546c1957a9393562b93",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "SuperheroSerum.SuperheroSyringe",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "ec13af8aaea944847265f5e95f53bb01",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "UI_trait_superheroserum:mild_super_strength",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "1fb816983b3fa8c169782205b0a33a25",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "UI_trait_superheroserum:mild_super_strength_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "bc09ac4fefe27a7cda162203af4847a0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "UI_trait_superheroserum:pure_super_strength",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "9f54daad6c848f47bce5e1f6ce61b174",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3796181970",
+    "translation_key": "UI_trait_superheroserum:pure_super_strength_Desc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-17T15:07:28.0000000Z",
+    "source_hash": "81924e3d9cfb7b6709bd1c18f300499a",
+    "output_file_stem": "UI"
+  }
+]

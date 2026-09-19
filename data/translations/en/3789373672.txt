@@ -1,3 +1,4 @@
+ContextMenu_RM_Debug::en = "Realistic Medicine",
 IGUI_RM_Button_Condition::en = "Medical condition",
 IGUI_RM_Button_ConditionPatient::en = "Medical condition",
 IGUI_RM_Button_Examine::en = "Examine yourself",
@@ -169,7 +170,7 @@ Sandbox_RM_DiagnosisBaseChance_tooltip::en = "The one roll in the whole system. 
 Sandbox_RM_EnableComplications::en = "Wrong medicine has consequences",
 Sandbox_RM_EnableComplications_tooltip::en = "Antibiotics or insulin taken for an illness the patient has not got weaken their immune system and make them nauseous. Supportive care -- rest, fluids, vitamins -- is never harmful, only wasted. Turn off to make a wrong guess cost nothing but the bottle.",
 Sandbox_RM_EnableDebug::en = "Enable debug tools",
-Sandbox_RM_EnableDebug_tooltip::en = "Shows the debug window (F9 by default) and verbose logging. It can infect, cure and set First Aid to any level, so on a server it additionally requires admin access. Also enabled automatically when the game runs with -debug.",
+Sandbox_RM_EnableDebug_tooltip::en = "Adds a debug window to the right-click menu on the ground, and turns on verbose logging. It can infect, cure and set First Aid to any level, so on a server it additionally requires admin access. Also enabled automatically when the game runs with -debug.",
 Sandbox_RM_EnableMisdiagnosis::en = "Allow misdiagnosis",
 Sandbox_RM_EnableMisdiagnosis_tooltip::en = "A failed diagnosis roll gives a confident but wrong answer -- always another illness of the same kind, shown exactly like a correct one, so you only find out when the treatment does not work. Turn off and a failed roll stops at the category instead ('a chest or airway illness'), which is forgiving but never misleading. Also disables the Hypochondriac trait, which has nothing to do without it.",
 Sandbox_RM_EnablePharmacologyGate::en = "Require knowledge of treatments",

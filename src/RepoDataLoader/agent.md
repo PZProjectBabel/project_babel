@@ -9,4 +9,4 @@ Rules:
 - entry metadata: per-mod files under `entry_metadata/`.
 - diff keeps historical keys, marks missing updated-mod keys inactive.
 - source hash uses base text only; missing base text hashes as key-only state and does not follow generated target translations.
-- embeddings: zstd-compressed binary `.bin`; decompress to `runTempDir/embeddings_decompressed/` via `BinaryEmbeddingSerializer.ReadCompressed`; memory fp32, disk fp16.
+- embeddings: zstd-compressed binary `.bin`; large mod caches use `<modid>.part-####.bin` and are merged by mod ID while loading. Decompress to `runTempDir/embeddings_decompressed/` via `BinaryEmbeddingSerializer.ReadCompressed`; memory fp32, disk fp16.

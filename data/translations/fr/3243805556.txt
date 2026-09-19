@@ -1,5 +1,7 @@
 Base.556Clip::en = "STANAG Magazine",
 Base.556Clip::fr::processed::unverified = "Chargeur STANAG",
+Base.9mmMAG30Beretta::en = "Beretta M1938/49 Magazine",
+Base.9mmMAG30Beretta::fr::processed::unverified = "Chargeur Beretta M1938/49",
 Base.AR10::en = "AI ArmaLite AR-10",
 Base.AR10::fr::processed::unverified = "Fusil AI ArmaLite AR-10",
 Base.AR10_Magazine::en = "AR10 Magazine",

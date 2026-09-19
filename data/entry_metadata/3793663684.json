@@ -1,0 +1,479 @@
+[
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Base.CorpsePlowBlade",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "61ccb7fb30d404b75408186dd10c8f53",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "ContextMenu_PlowAngleLeft",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "c22c72cf6bb62fdcba4900127d6d0ca6",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "ContextMenu_PlowAngleRight",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "a7d2d0b44a973b3f6b9bf770f4caa945",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "ContextMenu_PlowCurrent",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "0c0650360c183eeee64ab22322f00b5a",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "ContextMenu_PlowOptions",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "46e1afcb579abbed4f7d635a6c3429e7",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "ContextMenu_PlowRaise",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "49dd3e34b9f5f47e007ee587585d52ac",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "ContextMenu_PlowRaised",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "5ccb33154056b9fdf69966abdf95c590",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "ContextMenu_PlowStraight",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "516372df5916a9e0f8d8d86ac559428b",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "ContextMenu_PlowVee",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "40f8b882518dda44faae0a4f2b0e2893",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_AdjustPlow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "21dc124bc4cf59b7b6c2f55051dc2c9f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_AdjustPlowTitle",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "b80c23d1ed9cbfee27d2cd6476e14272",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_AxisFwd",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "c3e557b0f97c674ee2b864a5f0763f6f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_AxisHeight",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "cc5d5b5366d518a7bdabef1eeb724e4f",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_AxisSide",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "26cdfab473bbc9c175dcfed5f3b51c71",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_Cancel",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "1e6b2e19eaca45832718907bc37c9373",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_DebugClearBlade",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "bde9af3b38fbb2be67bc070b15024cd3",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_DebugInspect",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "151ec00d793ca21aa611fd2935992e9e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_DebugMenu",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "9657256d14cb7c54790ede29020989bc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_DebugRodsOff",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "44ff0b5c6572045be7aa65f2875b12d6",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_DebugRodsOn",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "e02ec9bc84d37ff5f92b64ed28d1de21",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_DebugSpawn",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "71bfd39c26405701ef04c3d78e4e560e",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_DebugSpawnAll",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "30cdea788c97a35dd88e99d427173dc9",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_DebugSpawnFR",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "e9e44286cdb9008ef55a0f718c46b207",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_DebugSpawnLiveries",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "7076dc88201e788e965b29ded788731d",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_DebugSpawnRemove",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "39e50b746fc5e2434d5ffa60de2c4b61",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_Print",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "27fe8c7b43319e88df05c259b33e145b",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_ResetShipped",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "d519ac7c1ac892ff3eac9868624a40d2",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_ResetShippedTooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "067d851b98656c143bcc854f72ca64b0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_Revert",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "3392d1dc367edd1a118d547eb5a1e355",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_SaveClose",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "e17bf06a962c7db560c724859893f4ba",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_TooHeavyDropped",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "b7e069c840bfdd03006b45e4851db7aa",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_TunePlow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "b492990906d818e146d7ce432bf3d9bc",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_TunePlowTitle",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "5177c94e3ba4941f763a7566a2b96259",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_TunePrint",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "05b71fb9ef61bfd793ec2318eab53074",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_TuneReset",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "25f6ae885d61295ed96b9038bcf9eecb",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_TuneRevert",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "9d61bd360ca02e65b010996d0ba10d44",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_PlowAttachment_TuneSave",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "0e684e3741e9c4ed1ddc4fa67a64e2c0",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "IGUI_VehiclePartBlade",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "bd75edce812ad9b0a815c4bfa98551ad",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "MakeCorpsePlowBlade",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "5687d1d71773db5f6819464b0ae28bef",
+    "output_file_stem": "Recipes"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "7e0e89899c7fc287ed62f282c741b09d",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_AllowAdjust",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "dc6df6171ef9a0451188050596a7ebb7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_AllowAdjust_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "8e79d9e9d04a090940f600b8058d1ee5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_AllowPrefit",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "34d064ed1e686ed9bfafa2ed80d8eaa3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_AllowPrefit_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "5b41844a0d3eae363dece84310a95404",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_HeavyDuty",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "54b4582fb72ec2255150ad1e6a5bf9b9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_HeavyDuty_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "2e6b5edef6a71cffe84a4749e2113334",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_Performance",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "b6a02ac8de1bb53630cb99681243bea7",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_Performance_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "7d2add26d40334c245e129240cd90cf3",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_PlayerCollision",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "72f123dbabac084f1af0b519915117ba",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_PlayerCollision_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "c259d8f54a95525fe32e33fbcc1008e5",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_Standard",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "e55c61b8d275f7f917c94499f342829f",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Sandbox_PlowAttachment_Standard_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "8b3f215ad4221e9dfb1077c004fc1108",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3793663684",
+    "translation_key": "Tooltip_CorpsePlowBlade",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-14T18:56:36.0000000Z",
+    "source_hash": "99e16dbfe5c0f87dcc575509e22c87e2",
+    "output_file_stem": "Tooltip"
+  }
+]

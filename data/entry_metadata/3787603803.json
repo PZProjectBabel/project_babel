@@ -1,0 +1,569 @@
+[
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Base.SIG_Snow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "76286ba7caa51e1fd61c7242b7969c51",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "ContextMenu_SunIsGone_GatherSnow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "e4d540439749f594284f68d7b2a4a699",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "ContextMenu_SunIsGone_GatherSnow_Indoors",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "13753baae27fe7de3b5db48343ab4d1a",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "ContextMenu_SunIsGone_MeltSnow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "1fa87e442ca09e6927e6291d6ca797a0",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "ContextMenu_SunIsGone_MeltSnow_NoContainer",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "56f8163ce62a1249859a95cdff95b6dd",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "ContextMenu_SunIsGone_MeltSnow_NoHeat",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "0c3c928d911135f8a3250b5363b74d43",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "IGUI_SunIsGone_BarrelsFreezing",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "0e3db3021327a87bee125c3312350022",
+    "output_file_stem": "IGUI"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "0e92d6d04936a0b84ce3c04c5ea9fb0c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_Aftermath",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "d597022be7b4fba68a31e663a45cb52a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_Aftermath_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "7828dd8add3ee978b189bffd605492a1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ColdBurnsFuel",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "d32956e3f2451cdc9409d35763bbeced",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ColdBurnsFuel_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "aa802482fd711422d645532a78169831",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ColdFloor",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "c124b9c77beccfcd94a2be7d04324e27",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ColdFloor_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "2eb7adb7bba94067b9165455e6b60fee",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ColdKillsZombies",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "faedf5aec3c0feb703d1dd1125e3f679",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ColdKillsZombies_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "511c0e94d8460792125cc59766466ae1",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ColdZombies",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "1b4e26300a001ba79cd45c20cca3ba27",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ColdZombies_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "4f83dd7b3b2059cc257293b0ce3e84ea",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_CutUtilities",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "324d86f3778f31e3be82ac9d327ab097",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_CutUtilities_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "51fe3ba92834d022611b299601adb20c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_Darkness",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "7fc7c1a0a548473e0c2d354bec73b33a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_Darkness_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "b11add21374e100e6ed99248e5fdc36b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_DeadAir",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "64c034f5d13768a94e0780b4947ac554",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_DeadAir_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "78a38e2b93925d698e627053ffaab31b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_DebugLogging",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "528e2b54279969f40fe093734e2d4861",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_DebugLogging_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "dc2ba72bba9c5c34dc565bef103dd9db",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_EmptyPrepDay",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "8988955c54dbfa4829d398b187dd07f0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_EmptyPrepDay_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "e225bf6f2f4a0956d90bdabedadedd14",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_FreezeBarrels",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "5293c08eab4468dbc7b278718daf7b54",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_FreezeBarrels_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "02b7ee0a92cd04efd00df1a1301ab95c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_FuelBurnScale",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "9dffbbba2a5ee688194afbe6838e6f4c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_FuelBurnScale_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "6e3c13d00f2bc52ba13b75e99bcd222a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_HordeDecay",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "f8e00be5a3266b4587f0ad26611648d0",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_HordeDecay_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "96c1719e1b4eaed487c7ff40a6779201",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_HordeFirstNight",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "b0383f979df96c759f84fcc26a6d6531",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_HordeFirstNight_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "b9d023d539dc353b6d8e35a5246e88a9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_MeltSnow",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "ce6b40caca8fc6ba6a963d53bd0fddff",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_MeltSnow_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "cabde1a0d06115d32eb6b9dd597f5864",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_MidnightHordes",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "a11f08724a2b4b40e88aefa7cc94c7ff",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_MidnightHordes_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "d5ed08f0a9b321d263bb0bafec1d3b3b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_MusicIndoorsOnly",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "eb00a99b467554119cebf692f9ec5332",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_MusicIndoorsOnly_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "0fe8c1fc4ffd057246c59d53a48d3824",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_PrepDays",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "9c34d22adee9c78642dc9d4fb4760c5c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_PrepDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "ef81add89c1b82c811c63db0742ff448",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ReturnCount",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "6aaaf3c3948f15a33a50b100e5963bf4",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ReturnCount_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "3a79c9a723cb6a56ddab8612983028c9",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_SilenceBroadcasts",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "6135501ff2cef09a0b94c405a1d99273",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_SilenceBroadcasts_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "d5c720f08c6e104d50c3a8a080bf5642",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_SnowArc",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "99da376741985a665817724bc9b47411",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_SnowArc_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "2eb83675979c9b1a790615ef346dcd0b",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_SnowCoverage",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "50f380f46f4b76cefc11025514f62a47",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_SnowCoverage_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "c88ee2158ff51aa185dabb143cc59018",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_SnowDays",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "58399a2646061ac923db63dc50ea55bd",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_SnowDays_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "16a61b71b1a7869847d9d974b5c8417a",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ThawRadius",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "b22f5ee2befde8906c275aca652d2bfc",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ThawRadius_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "c5a5b1f0ba4adaff4082ebef7b63e40c",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ZombieMinSpeed",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "b5d6e4df927962ac8816ccaf966f7350",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ZombieMinSpeed_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "730ff34052311c9380ed1c2dac5cac92",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ZombiesReturn",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "eefda5f8bfae080533606ef6a9e1a89e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "Sandbox_SunIsGone_ZombiesReturn_tooltip",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "a25cdcbf3434d14c735201a70170bf7e",
+    "output_file_stem": "Sandbox"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "UI_optionscreen_binding_SunIsGone_AdminPanel",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "07873cd509e2ccb132ff5411a23b6ff0",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "UI_optionscreen_binding_SunIsGone_ForceHourZero",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "5a4d9ce4b3ab66ff0f8e92ce1709d010",
+    "output_file_stem": "UI"
+  },
+  {
+    "mod_id": "3787603803",
+    "translation_key": "UI_optionscreen_binding_SunIsGone_ToggleVeil",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T10:02:45.3560970Z",
+    "last_seen_mod_updated": "2026-09-15T15:54:18.0000000Z",
+    "source_hash": "b1c1d8d26d429dd9a27ea366b6f22f9b",
+    "output_file_stem": "UI"
+  }
+]

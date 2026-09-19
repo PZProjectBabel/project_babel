@@ -1,10 +1,82 @@
 [
   {
     "mod_id": "3775549570",
+    "translation_key": "AliceSlings.AliceWeaponSling",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "046aa8ff366d236eae2421532651358e",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "AliceSlings.AliceWeaponSlingAlt",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "7caa59ad4463b722bd8ffcc568fdd3be",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "AliceSlings.AliceWeaponSlingAlt2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "7dc4dacc660199f47d6daf0e1ace082b",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "AliceSlings.AliceWeaponSlingAlt2_Hidden",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "0cf4a8502b70932de973317032fad72b",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "AliceSlings.AliceWeaponSlingAlt_Hidden",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "423499a63cd355ee119631dfa3984ee3",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "AliceSlings.AliceWeaponSlingBack",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "9e929c029c144a120931f98d7c69bc60",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "AliceSlings.AliceWeaponSlingBack_Hidden",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "487a1f2a6126db0b01ebafdf20b3d734",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "AliceSlings.AliceWeaponSling_Hidden",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "cf342e8efb24f83b796eba09336e5eac",
+    "output_file_stem": "ItemName"
+  },
+  {
+    "mod_id": "3775549570",
     "translation_key": "Base.AliceWeaponSling",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344062Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164646Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "0e279c440333db847efdfeb159321f2d",
     "output_file_stem": "ItemName"
   },
@@ -12,8 +84,8 @@
     "mod_id": "3775549570",
     "translation_key": "Base.AliceWeaponSlingAlt",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344071Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164663Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "798cfaa66e94596e824a682532c33b22",
     "output_file_stem": "ItemName"
   },
@@ -21,8 +93,8 @@
     "mod_id": "3775549570",
     "translation_key": "Base.AliceWeaponSlingAlt2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344075Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164669Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "f8cd2a0b5b658d6ddc48a1a02a2f6954",
     "output_file_stem": "ItemName"
   },
@@ -30,26 +102,26 @@
     "mod_id": "3775549570",
     "translation_key": "Base.AliceWeaponSlingAlt2_Hidden",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
-    "source_hash": "13b1c9ca6502d4ce39424d8b479cc1c9",
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "9b0d3403cda6088913ca3c11b1cb6076",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3775549570",
     "translation_key": "Base.AliceWeaponSlingAlt_Hidden",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
-    "source_hash": "4b3a6e947a73045b6977aba1a80d20d7",
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "c548851ee393e6d634e4d618f24de9ff",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3775549570",
     "translation_key": "Base.AliceWeaponSlingBack",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344086Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164685Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "eae01669699ad42f88d6fb66042f7d1e",
     "output_file_stem": "ItemName"
   },
@@ -57,26 +129,26 @@
     "mod_id": "3775549570",
     "translation_key": "Base.AliceWeaponSlingBack_Hidden",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
-    "source_hash": "80bff0910250529a9ab318f1c3ab3a75",
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "e6148415428ceba66b35e2bcf82954b8",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3775549570",
     "translation_key": "Base.AliceWeaponSling_Hidden",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:34.9793548Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
-    "source_hash": "8ddb3f93e2509d91e14c737e658fb8e0",
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "7daa6ec10ef7717c22e6f9dbf1d77d4d",
     "output_file_stem": "ItemName"
   },
   {
     "mod_id": "3775549570",
     "translation_key": "ContextMenu_AliceSlingStyle1",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344095Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164702Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "651add4ee3060ffe453122c2ebc65520",
     "output_file_stem": "ContextMenu"
   },
@@ -84,8 +156,8 @@
     "mod_id": "3775549570",
     "translation_key": "ContextMenu_AliceSlingStyle2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344100Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164710Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "106b5e7cd5e9602bdde3ed0cb48f9197",
     "output_file_stem": "ContextMenu"
   },
@@ -93,8 +165,8 @@
     "mod_id": "3775549570",
     "translation_key": "ContextMenu_AliceSlingStyle3",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344103Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164718Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "097eb0134975a5822f4e8295c1f45b51",
     "output_file_stem": "ContextMenu"
   },
@@ -102,17 +174,71 @@
     "mod_id": "3775549570",
     "translation_key": "ContextMenu_AliceSlingStyle4",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344106Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164724Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "37c16c8193a41a0472c6b30733a6529c",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "ContextMenu_AliceSlings.AliceSlingStyle1",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "3b30ef74dc46f116cd28f73f4bbf1c90",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "ContextMenu_AliceSlings.AliceSlingStyle2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "311ebcb874293f908ae60302589a6151",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "ContextMenu_AliceSlings.AliceSlingStyle3",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "ea7b5d69ac11364a12b177ffa49058e7",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "ContextMenu_AliceSlings.AliceSlingStyle4",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "866cd4383f037629484ce6445b1cf5ee",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "ContextMenu_AliceSlings.AliceWeaponSling_HideTexture",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "6a3e518228b7801f3448251199241835",
+    "output_file_stem": "ContextMenu"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "ContextMenu_AliceSlings.AliceWeaponSling_ShowTexture",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "aa7362bebdb3b032d347e5c01035ba0e",
     "output_file_stem": "ContextMenu"
   },
   {
     "mod_id": "3775549570",
     "translation_key": "ContextMenu_AliceWeaponSling_HideTexture",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344110Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164731Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "bdb9c1260dd8fc5ddb9396f35594fc29",
     "output_file_stem": "ContextMenu"
   },
@@ -120,8 +246,8 @@
     "mod_id": "3775549570",
     "translation_key": "ContextMenu_AliceWeaponSling_ShowTexture",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344114Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164738Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "0db624161abb873ef293a234007746f7",
     "output_file_stem": "ContextMenu"
   },
@@ -129,44 +255,80 @@
     "mod_id": "3775549570",
     "translation_key": "IGUI_HotbarAttachment_AliceSling",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344119Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164746Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "36131398ad315170f133a36a33cc4052",
-    "output_file_stem": "UI"
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3775549570",
     "translation_key": "IGUI_HotbarAttachment_AliceSlingAlt",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344125Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164753Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "13bbff5f241b595449be7491359c0cf9",
-    "output_file_stem": "UI"
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3775549570",
     "translation_key": "IGUI_HotbarAttachment_AliceSlingAlt2",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344130Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164758Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "2de7f90859c2a9e9458b4d433ee01446",
-    "output_file_stem": "UI"
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3775549570",
     "translation_key": "IGUI_HotbarAttachment_AliceSlingBack",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344134Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164763Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "abdef22a1884e95e46d34bcb0e22b52e",
-    "output_file_stem": "UI"
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "IGUI_HotbarAttachment_AliceSlings.AliceSling",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "400937ae1b020f983a647932567f1767",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "IGUI_HotbarAttachment_AliceSlings.AliceSlingAlt",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "a511913ea3fc4eb9189889b69f1414a4",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "IGUI_HotbarAttachment_AliceSlings.AliceSlingAlt2",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "eed76a47339a7351489bedba80e34f86",
+    "output_file_stem": "IG_UI"
+  },
+  {
+    "mod_id": "3775549570",
+    "translation_key": "IGUI_HotbarAttachment_AliceSlings.AliceSlingBack",
+    "is_active": true,
+    "last_seen_at": "2026-09-19T09:08:24.8381265Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
+    "source_hash": "84bc178296e5e52979b33dad3e05c99a",
+    "output_file_stem": "IG_UI"
   },
   {
     "mod_id": "3775549570",
     "translation_key": "MakeAliceWeaponSling",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344139Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164773Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "83d3ceccfe6fd238c6e7e681d0ec12f4",
     "output_file_stem": "Recipes"
   },
@@ -174,8 +336,8 @@
     "mod_id": "3775549570",
     "translation_key": "UI_AliceWeaponSling_DefaultSlot",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344143Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164779Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "4c40f12bd99503cabbbbc2b85e4095f8",
     "output_file_stem": "UI"
   },
@@ -183,8 +345,8 @@
     "mod_id": "3775549570",
     "translation_key": "UI_AliceWeaponSling_Equip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344150Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164785Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "835321c4d9ca142bd9e1d75f04814ab6",
     "output_file_stem": "UI"
   },
@@ -192,8 +354,8 @@
     "mod_id": "3775549570",
     "translation_key": "UI_AliceWeaponSling_MoveTo",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344155Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164791Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "958c68509e6b524f6a25c57d1b3d53bc",
     "output_file_stem": "UI"
   },
@@ -201,8 +363,8 @@
     "mod_id": "3775549570",
     "translation_key": "UI_AliceWeaponSling_Unequip",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344160Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164799Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "5108b634ffcf01e38497ddab2a22f58e",
     "output_file_stem": "UI"
   },
@@ -210,8 +372,8 @@
     "mod_id": "3775549570",
     "translation_key": "UI_optionscreen_binding_Alice's Weapon Sling",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344165Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164806Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "24a5e8d20ca149a8b23f22322548bd14",
     "output_file_stem": "UI"
   },
@@ -219,8 +381,8 @@
     "mod_id": "3775549570",
     "translation_key": "UI_optionscreen_binding_Alice's Weapon Sling Radial Menu",
     "is_active": true,
-    "last_seen_at": "2026-08-23T03:10:36.1344172Z",
-    "last_seen_mod_updated": "2026-08-19T21:33:07.0000000Z",
+    "last_seen_at": "2026-09-19T09:08:25.6164813Z",
+    "last_seen_mod_updated": "2026-09-07T02:12:30.0000000Z",
     "source_hash": "c2624039e564c19f53dd79523b2843c5",
     "output_file_stem": "UI"
   }

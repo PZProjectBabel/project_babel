@@ -37,6 +37,8 @@ config/secrets.json
 # Pipeline runtime data
 temp/*
 !temp/.gitkeep
+# One-time local migration utility; never commit this project.
+temp/EmbeddingMigration/
 
 # Local downloads and archives
 *.zip

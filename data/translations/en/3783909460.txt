@@ -1,0 +1,7 @@
+Sandbox_DeadCrops::en = "Dead Crops",
+Sandbox_DeadCrops_GracePeriodHours::en = "Grace period (hours)",
+Sandbox_DeadCrops_GracePeriodHours_tooltip::en = "Crops discovered within this many in-game hours of world start are safe and won't be rotted. Crops discovered after this period are eligible to rot. Default 0 (mod is active from the very start).",
+Sandbox_DeadCrops_HideDebugLog::en = "Hide Debug Log",
+Sandbox_DeadCrops_HideDebugLog_tooltip::en = "Checking this makes it harder to track behavior, only use this if you are a clean console purist.",
+Sandbox_DeadCrops_RotChance::en = "Chance a discovered crop is rotten (percent)",
+Sandbox_DeadCrops_RotChance_tooltip::en = "Chance, out of 100, that a newly-discovered baked-in crop (after the grace period) is rotted. Default 100.",
