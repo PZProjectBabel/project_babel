@@ -401,7 +401,7 @@ Otomatik çeviri hattı, internetten gelen herhangi bir mod içeriğini işlemek
 **İnceleme Mekanizması**:
 - **Örnekleme Stratejisi**: Her moddan en fazla 1000 temel metin örnek olarak alınır, tüm örneklerin toplam karakter sayısı 60.000'i geçmez. Bu, modun ana içeriğini kapsarken LLM'in bağlam penceresini aşmaz.
 - **Metin Kırpma**: 1600 karakteri aşan tek bir metin kırpılır, inceleme için ilk 1600 karakter korunur. Aşırı uzun metinler genellikle yapılandırma verileridir, doğal dil değildir, kırpma kararı etkilemez.
-- **LLM İncelemesi**: `deepseek-v4-flash` modeli çağrılır, JSON Modu kullanılarak yapılandırılmış inceleme sonucu (karar ve güven düzeyi dahil) çıktılanır.
+- **LLM İncelemesi**: `deepseek-flash` modeli çağrılır, JSON Modu kullanılarak yapılandırılmış inceleme sonucu (karar ve güven düzeyi dahil) çıktılanır.
 - **Önbellek Stratejisi**: İnceleme sonuçları 90 gün boyunca önbellekte tutulur (`contentCheckIntervalDays` tarafından kontrol edilir). Önbellek geçerliyken aynı mod tekrar incelenmez.
 - **Durum Geçişi**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Yapılandırmada `initial=0` veya `maximum=0` olduğunda, boru hattı çalışma
 | Algılama Koşulu | Initial | Maximum | Uygulama Senaryosu |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (öncelikli) | 4 | 32 | CI çalıştırıcı kaynakları (CPU/bellek) sınırlı |
-| model `v4-flash` içeriyor | 128 | 2000 | DeepSeek V4 Flash yüksek eşzamanlılık kapasitesi |
-| model `v4-pro` içeriyor | 64 | 400 | DeepSeek V4 Pro orta eşzamanlılık kapasitesi |
+| model `flash` içeriyor | 128 | 2000 | DeepSeek V4 Flash yüksek eşzamanlılık kapasitesi |
 | Diğer modeller | 16 | 128 | Bilinmeyen modeller için muhafazakar varsayılan |
 
 **Sabit Pencere Modu** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ Tüm çeviri boru hattının temel kontrol dosyası. Tüm alanlar zorunludur, "i
 | Alan | Tip | Varsayılan Değer | Açıklama |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API adresi, OpenAI Chat Completions protokolü ile uyumlu |
-| `model` | string | `deepseek-v4-flash` | Model adı. Değer `v4-flash` veya `v4-pro` içeriyorsa ilgili otomatik eşzamanlılık profili tetiklenir |
+| `model` | string | `deepseek-flash` | Model adı. Değer `flash` içeriyorsa ilgili otomatik eşzamanlılık profili tetiklenir |
 | `temperature` | float | `0.1` | Örnekleme sıcaklığı (0~2). Ne kadar düşük olursa çıktı o kadar kesin olur, çeviri görevleri için ≤0.3 önerilir. |
 | `max_tokens` | int | `380000` | Tek bir API yanıtındaki maksimum token sayısı. Toplam batch çıktısından büyük olmalıdır. |
 | `batch_size` | int | `30` | Her çeviri partisindeki maksimum girdi sayısı. `batch_token_budget` ile birlikte kısıtlanır. |

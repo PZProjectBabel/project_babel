@@ -401,7 +401,7 @@ Automatyczny potok tłumaczeniowy musi przetwarzać dowolne treści modów z int
 **Mechanizm kontroli**:
 - **Strategia próbkowania**: Z każdego modu pobiera się maksymalnie 1000 tekstów bazowych jako próbki kontrolne, a łączna liczba znaków wszystkich próbek nie przekracza 60 000. Pozwala to objąć główną treść moda, nie wychodząc poza okno kontekstu LLM.
 - **Obcinanie tekstu**: Teksty dłuższe niż 1600 znaków są obcinane, pozostawiając pierwsze 1600 znaków do kontroli. Ekstremalnie długie teksty to zazwyczaj dane konfiguracyjne, a nie język naturalny, więc obcięcie nie wpływa na ocenę.
-- **Kontrola LLM**: Wywołuje model `deepseek-v4-flash`, używając JSON Mode do wyjścia strukturyzowanego wniosku kontrolnego (zawierającego wynik i pewność).
+- **Kontrola LLM**: Wywołuje model `deepseek-flash`, używając JSON Mode do wyjścia strukturyzowanego wniosku kontrolnego (zawierającego wynik i pewność).
 - **Strategia cache**: Wyniki kontroli są cache'owane na 90 dni (kontrolowane przez `contentCheckIntervalDays`). W okresie ważności cache, ten sam mod nie będzie ponownie sprawdzany.
 - **状态流转**：`UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Gdy w konfiguracji `initial=0` lub `maximum=0`, potok automatycznie dobiera odpo
 | Warunek wykrycia | Initial | Maximum | Scenariusz zastosowania |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (priorytet) | 4 | 32 | Ograniczone zasoby runnera CI (CPU/pamięć) |
-| model zawiera `v4-flash` | 128 | 2000 | Wysoka wydajność współbieżności DeepSeek V4 Flash |
-| model zawiera `v4-pro` | 64 | 400 | Umiarkowana wydajność współbieżności DeepSeek V4 Pro |
+| model zawiera `flash` | 128 | 2000 | Wysoka wydajność współbieżności DeepSeek V4 Flash |
 | Inne modele | 16 | 128 | Konserwatywna wartość domyślna dla nieznanych modeli |
 
 **Tryb stałego okna** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ Główny plik sterujący całego pipeline'a tłumaczeniowego. Wszystkie pola są
 | Pole | Typ | Wartość domyślna | Opis |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Adres API LLM, zgodny z protokołem OpenAI Chat Completions |
-| `model` | string | `deepseek-v4-flash` | Nazwa modelu. Wartość zawierająca `v4-flash` lub `v4-pro` wyzwoli odpowiedni automatyczny profil współbieżności |
+| `model` | string | `deepseek-flash` | Nazwa modelu. Wartość zawierająca `flash` wyzwoli odpowiedni automatyczny profil współbieżności |
 | `temperature` | float | `0.1` | Temperatura próbkowania (0–2). Im niższa, tym bardziej deterministyczne wyniki; dla tłumaczeń zaleca się ≤0.3 |
 | `max_tokens` | int | `380000` | Maksymalna liczba tokenów w pojedynczej odpowiedzi API. Musi być większa niż łączna wielkość wyjścia batcha |
 | `batch_size` | int | `30` | Maksymalna liczba wpisów w każdej partii tłumaczeniowej. Ograniczona wspólnie przez `batch_token_budget` |

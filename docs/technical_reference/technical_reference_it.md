@@ -401,7 +401,7 @@ La pipeline di traduzione automatica deve gestire qualsiasi contenuto di mod pro
 **Meccanismo di revisione**:
 - **Strategia di campionamento**: Ogni mod preleva al massimo 1000 testi di base come campioni di revisione, con un numero totale di caratteri non superiore a 60.000. In questo modo si coprono i contenuti principali del mod senza superare la finestra di contesto del LLM.
 - **Troncamento del testo**: I testi che superano i 1600 caratteri vengono troncati, conservando i primi 1600 caratteri per la revisione. I testi estremamente lunghi sono solitamente dati di configurazione e non linguaggio naturale, quindi il troncamento non influisce sul giudizio.
-- **Revisione LLM**: Chiama il modello `deepseek-v4-flash` e utilizza la modalità JSON per produrre conclusioni di revisione strutturate (con risultato del giudizio e confidenza).
+- **Revisione LLM**: Chiama il modello `deepseek-flash` e utilizza la modalità JSON per produrre conclusioni di revisione strutturate (con risultato del giudizio e confidenza).
 - **Politica di cache**: I risultati della revisione vengono memorizzati nella cache per 90 giorni (controllato da `contentCheckIntervalDays`). Durante il periodo di validità della cache, lo stesso mod non viene sottoposto a una nuova revisione.
 - **Transizione di stato**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Quando nella configurazione `initial=0` o `maximum=0`, la pipeline seleziona aut
 | Condizione di rilevamento | Initial | Maximum | Scenari applicabili |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (prioritario) | 4 | 32 | Risorse del runner CI limitate (CPU/memoria) |
-| model contenente `v4-flash` | 128 | 2000 | Capacità di alta concorrenza di DeepSeek V4 Flash |
-| model contenente `v4-pro` | 64 | 400 | Capacità di concorrenza media di DeepSeek V4 Pro |
+| model contenente `flash` | 128 | 2000 | Capacità di alta concorrenza di DeepSeek V4 Flash |
 | Altri modelli | 16 | 128 | Valore predefinito conservativo per modelli sconosciuti |
 
 **Modalità finestra fissa** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ File di controllo centrale dell'intera pipeline di traduzione. Tutti i campi son
 | 字段 | 类型 | 默认值 | Descrizione |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Indirizzo API LLM, compatibile con il protocollo OpenAI Chat Completions |
-| `model` | string | `deepseek-v4-flash` | Nome del modello. I valori contenenti `v4-flash` o `v4-pro` attivano il profilo di concorrenza automatica corrispondente |
+| `model` | string | `deepseek-flash` | Nome del modello. I valori contenenti `flash` attivano il profilo di concorrenza automatica corrispondente |
 | `temperature` | float | `0.1` | Temperatura di campionamento (0–2). Più basso è il valore, più deterministica è l'output. Per attività di traduzione si consiglia ≤0.3 |
 | `max_tokens` | int | `380000` | Numero massimo di token per singola risposta API. Deve essere maggiore del totale di output del batch |
 | `batch_size` | int | `30` | Limite massimo di voci per batch di traduzione. Vincolato congiuntamente da `batch_token_budget` |

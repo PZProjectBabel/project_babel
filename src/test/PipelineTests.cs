@@ -439,12 +439,12 @@ public class ConfigReaderTests
 public class LlmConcurrencySettingsTests
 {
     [Fact]
-    /// <summary>Verifies correct concurrency profiles for GitHub Actions, DeepSeek v4-flash, v4-pro, and fallback.</summary>
+    /// <summary>Verifies correct concurrency profiles for GitHub Actions, DeepSeek flash (current and legacy names), and fallback.</summary>
     public void ResolveConcurrencySettings_ShouldUseExpectedProfiles()
     {
         var config = TestConfig.Create();
         config.llmApiEndpoint = "https://api.deepseek.com/chat/completions";
-        config.llmModel = "deepseek-v4-flash";
+        config.llmModel = "deepseek-flash";
 
         var github = LLMTranslatorService.ResolveConcurrencySettings(config, name => name switch
         {
@@ -459,13 +459,24 @@ public class LlmConcurrencySettingsTests
         var flash = LLMTranslatorService.ResolveConcurrencySettings(config, _ => null);
         Assert.Equal(128, flash.Initial);
         Assert.Equal(2000, flash.Maximum);
-        Assert.Equal("deepseek-v4-flash", flash.Profile);
+        Assert.Equal("deepseek-flash", flash.Profile);
 
-        config.llmModel = "deepseek-v4-pro";
-        var pro = LLMTranslatorService.ResolveConcurrencySettings(config, _ => null);
-        Assert.Equal(64, pro.Initial);
-        Assert.Equal(400, pro.Maximum);
-        Assert.Equal("deepseek-v4-pro", pro.Profile);
+        // Retired aliases are still accepted by the API and map to the same Flash profile.
+        foreach (var legacyFlashModel in new[] { "deepseek-v4-flash", "deepseek-v4-flash-vision-exp" })
+        {
+            config.llmModel = legacyFlashModel;
+            var legacyFlash = LLMTranslatorService.ResolveConcurrencySettings(config, _ => null);
+            Assert.Equal(128, legacyFlash.Initial);
+            Assert.Equal(2000, legacyFlash.Maximum);
+            Assert.Equal("deepseek-flash", legacyFlash.Profile);
+        }
+
+        // A DeepSeek endpoint with an unrecognised model falls back to the conservative default.
+        config.llmModel = "deepseek-something-else";
+        var deepseekUnknown = LLMTranslatorService.ResolveConcurrencySettings(config, _ => null);
+        Assert.Equal(16, deepseekUnknown.Initial);
+        Assert.Equal(128, deepseekUnknown.Maximum);
+        Assert.Equal("deepseek-unknown", deepseekUnknown.Profile);
 
         config.llmApiEndpoint = "https://test.example.com/chat/completions";
         config.llmModel = "custom-model";
@@ -1166,7 +1177,7 @@ public class ContentCheckerTests
             Assert.Equal(ContentCheckStatus.ACCEPTED, modInfo["1"].contentCheckStatus);
             Assert.True(modInfo["1"].timeNextContentCheck > DateTime.UtcNow);
             Assert.Equal(1, handler.RequestCount);
-            Assert.Contains("\"model\":\"deepseek-v4-flash\"", handler.LastRequestBody);
+            Assert.Contains("\"model\":\"deepseek-flash\"", handler.LastRequestBody);
             using (var request = JsonDocument.Parse(handler.LastRequestBody))
             {
                 Assert.Equal("low", request.RootElement.GetProperty("reasoning_effort").GetString());
@@ -1786,7 +1797,7 @@ public class PlaceholderServiceTests
     public async Task LlmTranslator_ShouldParseTabSeparatedOutput()
     {
         var config = TestConfig.Create();
-        config.llmModel = "deepseek-v4-flash";
+        config.llmModel = "deepseek-flash";
         config.llmConcurrencyMaxRetries = 0;
         var entries = TestTranslations.Entries("hello");
         var batch = new TranslationBatch

@@ -401,7 +401,7 @@ Den automatiske oversettelsespipelinen må håndtere vilkårlig mod-innhold fra 
 **Kontrollmekanisme**:
 - **Prøvetakingsstrategi**: Maks 1000 basistekster per mod som kontrollprøve, totalt antall tegn ikke over 60 000. Dette dekker modens hovedinnhold uten å overskride LLMs kontekstvindu.
 - **Tekstavkorting**: Enkelttekst over 1600 tegn avkortes, de første 1600 tegn beholdes for kontroll. Ekstremt lange tekster er vanligvis konfigurasjonsdata, ikke naturlig språk, så avkorting påvirker ikke vurderingen.
-- **LLM-kontroll**: Bruker `deepseek-v4-flash`-modellen, med JSON-modus for strukturert kontrollkonklusjon (inkludert resultat og konfidens).
+- **LLM-kontroll**: Bruker `deepseek-flash`-modellen, med JSON-modus for strukturert kontrollkonklusjon (inkludert resultat og konfidens).
 - **Bufringsstrategi**: Kontrollresultater bufres i 90 dager (styrt av `contentCheckIntervalDays`). Innen bufringsperioden vil samme mod ikke kontrolleres på nytt.
 - **Statusflyt**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Når konfigurasjonen `initial=0` eller `maximum=0`, velger rørledningen automat
 | Deteksjonsbetingelse | Initial | Maximum | Anvendelsesscenario |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (prioritert) | 4 | 32 | CI-løper ressurser (CPU/minne) begrenset |
-| modell inneholder `v4-flash` | 128 | 2000 | DeepSeek V4 Flash høy samtidighetskapasitet |
-| modell inneholder `v4-pro` | 64 | 400 | DeepSeek V4 Pro middels samtidighetskapasitet |
+| modell inneholder `flash` | 128 | 2000 | DeepSeek V4 Flash høy samtidighetskapasitet |
 | Andre modeller | 16 | 128 | Konservativ standard for ukjente modeller |
 
 **Fast vindu-modus** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ Kjernekontrollfilen for hele oversettelsesrørledningen. Alle felt er obligatori
 | Felt | Type | Standardverdi | Beskrivelse |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API-adresse, kompatibel med OpenAI Chat Completions-protokoll |
-| `model` | string | `deepseek-v4-flash` | Modellnavn. Verdier som inneholder `v4-flash` eller `v4-pro` vil utløse tilsvarende automatisk samtidighetsprofil |
+| `model` | string | `deepseek-flash` | Modellnavn. Verdier som inneholder `flash` vil utløse tilsvarende automatisk samtidighetsprofil |
 | `temperature` | float | `0.1` | Sampling temperature (0–2). Lower values give more deterministic output, for translation tasks it is recommended ≤0.3 |
 | `max_tokens` | int | `380000` | Maximum number of tokens in a single API response. Must be greater than total batch output |
 | `batch_size` | int | `30` | Upper limit on number of entries per translation batch. Jointly constrained by `batch_token_budget` |

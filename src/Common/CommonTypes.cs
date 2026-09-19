@@ -379,7 +379,7 @@ public class PipelineConfig
 
     // ── LLM settings ──
     public string llmApiEndpoint { get; set; } = "https://api.deepseek.com/chat/completions";
-    public string llmModel { get; set; } = "deepseek-v4-flash";
+    public string llmModel { get; set; } = "deepseek-flash";
     public string llmReasoningEffort { get; set; } = "low";
     public float llmTemperature { get; set; } = 0.1f;
     public int llmMaxTokens { get; set; } = 380000;

@@ -401,7 +401,7 @@ Ang awtomatikong pipeline ng pagsasalin ay kailangang pangasiwaan ang anumang ni
 **Mekanismo ng Pagsusuri**:
 - **Estratehiya ng Sampling**: Bawat mod ay kukuha ng hanggang 1,000 batayang teksto bilang mga sample ng pagsusuri, at ang kabuuang bilang ng mga character ng lahat ng sample ay hindi lalampas sa 60,000. Sa ganitong paraan, nasasakop ang pangunahing nilalaman ng mod, ngunit hindi lalampas sa konteksto window ng LLM.
 - **Pagputol ng Teksto**: Ang isang teksto na lampas sa 1,600 character ay puputulin, at panatilihin ang unang 1,600 character para sa pagsusuri. Ang sobrang haba na teksto ay karaniwang configuration data at hindi natural na wika, kaya ang pagputol ay hindi makakaapekto sa paghusga.
-- **Pagsusuri ng LLM**: Tumawag sa `deepseek-v4-flash` modelo, gamit ang JSON Mode upang mag-output ng naka-strukturang konklusyon ng pagsusuri (naglalaman ng resulta ng paghusga at antas ng kumpiyansa).
+- **Pagsusuri ng LLM**: Tumawag sa `deepseek-flash` modelo, gamit ang JSON Mode upang mag-output ng naka-strukturang konklusyon ng pagsusuri (naglalaman ng resulta ng paghusga at antas ng kumpiyansa).
 - **Estratehiya ng Cache**: Ang resulta ng pagsusuri ay naka-cache sa loob ng 90 araw (kinokontrol ng `contentCheckIntervalDays`). Sa loob ng bisa ng cache, ang parehong mod ay hindi uulitin ang pagsusuri.
 - **Daloy ng Estado**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Kapag ang `initial=0` o `maximum=0` sa configuration, ang pipeline ay awtomatiko
 | Detection Condition | Initial | Maximum | Applicable Scenario |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (priority) | 4 | 32 | Limitadong resources (CPU/memory) ng CI runner |
-| model ay may `v4-flash` | 128 | 2000 | Mataas na kakayahan sa concurrency ng DeepSeek V4 Flash |
-| model ay may `v4-pro` | 64 | 400 | Katamtamang kakayahan sa concurrency ng DeepSeek V4 Pro |
+| model ay may `flash` | 128 | 2000 | Mataas na kakayahan sa concurrency ng DeepSeek V4 Flash |
 | Iba pang modelo | 16 | 128 | Konserbatibong default na halaga para sa hindi kilalang modelo |
 
 **Fixed window mode** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ Ang pangunahing control file ng buong translation pipeline. Lahat ng field ay ki
 | field | uri | default na halaga | Paliwanag |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Address ng LLM API, tugma sa OpenAI Chat Completions protocol |
-| `model` | string | `deepseek-v4-flash` | Pangalan ng modelo. Ang halagang naglalaman ng `v4-flash` o `v4-pro` ay magpapa-trigger ng kaukulang awtomatikong concurrency profile |
+| `model` | string | `deepseek-flash` | Pangalan ng modelo. Ang halagang naglalaman ng `flash` ay magpapa-trigger ng kaukulang awtomatikong concurrency profile |
 | `temperature` | float | `0.1` | Temperatura ng sampling (0~2). Mas mababa, mas tiyak ang output, ang gawaing pagsasalin ay iminumungkahing ≤0.3 |
 | `max_tokens` | int | `380000` | Pinakamataas na bilang ng token para sa iisang tugon ng API. Dapat mas malaki kaysa sa kabuuang output ng batch |
 | `batch_size` | int | `30` | Pinakamataas na bilang ng entry bawat batch ng pagsasalin. Pinamamahalaan kasama ng `batch_token_budget` |

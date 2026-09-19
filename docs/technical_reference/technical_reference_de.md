@@ -401,7 +401,7 @@ Die automatische Übersetzungspipeline muss beliebige Mod-Inhalte aus dem Intern
 **Prüfmechanismus**:
 - **Sammlungsstrategie**: Pro Mod werden maximal 1000 Basis-texte als Prüfstichproben entnommen, die Gesamtzeichenzahl aller Stichproben überschreitet nicht 60.000. Dadurch wird der Hauptinhalt des Mods abgedeckt, ohne das Kontextfenster des LLM zu überschreiten.
 - **Textkürzung**: Einzelne Texte mit mehr als 1600 Zeichen werden gekürzt, die ersten 1600 Zeichen bleiben für die Prüfung erhalten. Extrem lange Texte sind meist Konfigurationsdaten und keine natürliche Sprache, die Kürzung beeinträchtigt die Beurteilung nicht.
-- **LLM-Prüfung**: Aufruf des Modells `deepseek-v4-flash`, Ausgabe strukturierter Prüfergebnisse (mit Entscheidung und Konfidenz) im JSON-Modus.
+- **LLM-Prüfung**: Aufruf des Modells `deepseek-flash`, Ausgabe strukturierter Prüfergebnisse (mit Entscheidung und Konfidenz) im JSON-Modus.
 - **Caching-Strategie**: Prüfergebnisse werden 90 Tage zwischengespeichert (gesteuert durch `contentCheckIntervalDays`). Innerhalb der Gültigkeitsdauer wird derselbe Mod nicht erneut geprüft.
 - **Statusübergang**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Wenn in der Konfiguration `initial=0` oder `maximum=0` ist, wählt die Pipeline 
 | Erkennungsbedingung | Initial | Maximum | Anwendungsszenario |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (priorisiert) | 4 | 32 | Begrenzte Ressourcen (CPU/Arbeitsspeicher) der CI-Runner |
-| Modell enthält `v4-flash` | 128 | 2000 | Hohe Parallelitätsfähigkeit von DeepSeek V4 Flash |
-| Modell enthält `v4-pro` | 64 | 400 | Mittlere Parallelitätsfähigkeit von DeepSeek V4 Pro |
+| Modell enthält `flash` | 128 | 2000 | Hohe Parallelitätsfähigkeit von DeepSeek V4 Flash |
 | Andere Modelle | 16 | 128 | Konservative Standardwerte für unbekannte Modelle |
 
 **Fixierter Fenster-Modus** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ Die zentrale Steuerungsdatei der gesamten Übersetzungspipeline. Alle Felder sin
 | Feld | Typ | Standardwert | Beschreibung |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API-URL, kompatibel mit dem OpenAI Chat Completions-Protokoll |
-| `model` | string | `deepseek-v4-flash` | Modellname. Enthält der Wert `v4-flash` oder `v4-pro`, wird das entsprechende automatische Parallelitätsprofil ausgelöst |
+| `model` | string | `deepseek-flash` | Modellname. Enthält der Wert `flash`, wird das entsprechende automatische Parallelitätsprofil ausgelöst |
 | `temperature` | float | `0.1` | Sampling-Temperatur (0–2). Niedrigere Werte erzeugen deterministischere Ausgaben, für Übersetzungsaufgaben wird ≤0,3 empfohlen. |
 | `max_tokens` | int | `380000` | Maximale Anzahl von Tokens pro API-Antwort. Muss größer als die gesamte Batch-Ausgabe sein. |
 | `batch_size` | int | `30` | Obergrenze der Einträge pro Übersetzungsbatch. Wird gemeinsam mit `batch_token_budget` eingeschränkt. |

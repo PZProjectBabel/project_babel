@@ -401,7 +401,7 @@ Linia automată de traducere trebuie să proceseze orice conținut al modulelor 
 **Mecanism de verificare**:
 - **Strategie de eșantionare**: Se extrag cel mult 1000 de texte de bază per modul ca eșantioane de verificare, iar numărul total de caractere al eșantioanelor nu depășește 60.000. Astfel se acoperă conținutul principal al modulului fără a depăși fereastra de context a LLM-ului.
 - **Trunchiere text**: Textele mai lungi de 1600 de caractere sunt trunchiate, păstrându-se primele 1600 de caractere pentru verificare. Textele extrem de lungi sunt de obicei date de configurare, nu limbaj natural, trunchierea nu afectează judecata.
-- **Verificare LLM**: Se apelează modelul `deepseek-v4-flash`, utilizând JSON Mode pentru a produce concluzii structurate de verificare (inclusiv rezultatul și nivelul de încredere).
+- **Verificare LLM**: Se apelează modelul `deepseek-flash`, utilizând JSON Mode pentru a produce concluzii structurate de verificare (inclusiv rezultatul și nivelul de încredere).
 - **Strategie de cache**: Rezultatele verificării sunt păstrate în cache timp de 90 de zile (controlat de `contentCheckIntervalDays`). În perioada de valabilitate a cache-ului, același modul nu este reverificat.
 - **Flux de stare**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Când în configurație `initial=0` sau `maximum=0`, conducta selectează automa
 | Condiție de detectare | Initial | Maximum | Scenariu aplicabil |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (prioritar) | 4 | 32 | Resurse limitate ale runnerului CI (CPU/memorie) |
-| modelul conține `v4-flash` | 128 | 2000 | Capacitate ridicată de concurență DeepSeek V4 Flash |
-| modelul conține `v4-pro` | 64 | 400 | Capacitate medie de concurență DeepSeek V4 Pro |
+| modelul conține `flash` | 128 | 2000 | Capacitate ridicată de concurență DeepSeek V4 Flash |
 | Alte modele | 16 | 128 | Valoare implicită conservatoare pentru modele necunoscute |
 
 **Modul de fereastră fixă** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ Fișierul central de control al întregii conducte de traducere. Toate câmpuril
 | Câmp | Tip | Valoare implicită | Descriere |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Adresa API LLM, compatibil cu protocolul OpenAI Chat Completions |
-| `model` | string | `deepseek-v4-flash` | Numele modelului. Valorile care conțin `v4-flash` sau `v4-pro` declanșează profilul automat de concurență corespunzător |
+| `model` | string | `deepseek-flash` | Numele modelului. Valorile care conțin `flash` declanșează profilul automat de concurență corespunzător |
 | `temperature` | float | `0.1` | Temperatura de eșantionare (0~2). Cu cât este mai mică, cu atât ieșirea este mai deterministă; pentru sarcini de traducere se recomandă ≤0.3 |
 | `max_tokens` | int | `380000` | Numărul maxim de tokeni pentru un singur răspuns API. Trebuie să fie mai mare decât totalul de ieșire al lotului. |
 | `batch_size` | int | `30` | Numărul maxim de intrări per lot de traducere. Constrâns împreună de `batch_token_budget`. |

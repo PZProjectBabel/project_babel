@@ -1019,7 +1019,7 @@ public sealed partial class DocGeneratorService
 
     private static string ResolveModel() =>
         Environment.GetEnvironmentVariable("LLM_MODEL")
-        ?? "deepseek-v4-flash";
+        ?? "deepseek-flash";
 
     private static string Truncate(string text, int maxLen = 200) =>
         text.Length <= maxLen ? text : text[..maxLen] + "...";

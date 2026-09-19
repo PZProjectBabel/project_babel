@@ -401,7 +401,7 @@ La canalització de traducció automàtica ha de processar qualsevol contingut d
 **Mecanisme de revisió**:
 - **Estratègia de mostreig**: Cada mod pot extreure fins a 1000 textos de referència com a mostra de revisió, i el nombre total de caràcters de totes les mostres no supera els 60.000. Això cobreix el contingut principal del mod sense superar la finestra de context del LLM.
 - **Truncament de text**: Els textos individuals de més de 1600 caràcters es truncaran, conservant els primers 1600 caràcters per a la revisió. Els textos extremadament llargs solen ser dades de configuració i no llenguatge natural, i el truncament no afecta el judici.
-- **Revisió per LLM**: Es crida el model `deepseek-v4-flash` i s'utilitza el mode JSON per emetre conclusions de revisió estructurades (incloent resultats de judici i confiança).
+- **Revisió per LLM**: Es crida el model `deepseek-flash` i s'utilitza el mode JSON per emetre conclusions de revisió estructurades (incloent resultats de judici i confiança).
 - **Estratègia de memòria cau**: Els resultats de la revisió es guarden a la memòria cau durant 90 dies (controlat per `contentCheckIntervalDays`). Durant el període de validesa de la memòria cau, el mateix mod no es revisarà de nou.
 - **Flux d'estats**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Quan la configuració té `initial=0` o `maximum=0`, la canonada selecciona auto
 | Condició de detecció | Initial | Maximum | Escenari d'aplicació |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (prioritari) | 4 | 32 | Recursos limitats de l'executor CI (CPU/memòria) |
-| model conté `v4-flash` | 128 | 2000 | Alta capacitat de concurrència DeepSeek V4 Flash |
-| model conté `v4-pro` | 64 | 400 | Capacitat de concurrència mitjana DeepSeek V4 Pro |
+| model conté `flash` | 128 | 2000 | Alta capacitat de concurrència DeepSeek V4 Flash |
 | Altres models | 16 | 128 | Valor per defecte conservador per a models desconeguts |
 
 **Mode de finestra fixa** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ Fitxer de control central de tot el pipeline de traducció. Tots els camps són 
 | 字段 | 类型 | 默认值 | Descripció |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Adreça de l'API LLM, compatible amb el protocol OpenAI Chat Completions |
-| `model` | string | `deepseek-v4-flash` | Nom del model. Un valor que contingui `v4-flash` o `v4-pro` activarà el perfil de concurrència automàtic corresponent |
+| `model` | string | `deepseek-flash` | Nom del model. Un valor que contingui `flash` activarà el perfil de concurrència automàtic corresponent |
 | `temperature` | float | `0.1` | Temperatura de mostreig (0~2). Com més baixa, més determinista la sortida. Per a tasques de traducció, es recomana ≤0.3 |
 | `max_tokens` | int | `380000` | Nombre màxim de tokens per resposta de l'API. Ha de ser superior al total de sortida del lot |
 | `batch_size` | int | `30` | Límit superior de nombre d'entrades per lot de traducció. Limitat conjuntament per `batch_token_budget` |

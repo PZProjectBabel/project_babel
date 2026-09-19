@@ -13,7 +13,7 @@ public class ContentCheckerService
     private const int MaxSampleCount = 1000;
     private const int MaxSampleChars = 60000;
     private const int MaxSingleTextChars = 1600;
-    private const string ContentCheckModel = "deepseek-v4-flash";
+    private const string ContentCheckModel = "deepseek-flash";
 
     private readonly PipelineConfig _config;
     private readonly HttpClient? _httpClient;

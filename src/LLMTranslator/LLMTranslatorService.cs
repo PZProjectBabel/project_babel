@@ -443,17 +443,14 @@ public partial class LLMTranslatorService
         else if (endpoint.Contains("deepseek", StringComparison.OrdinalIgnoreCase)
             || model.Contains("deepseek", StringComparison.OrdinalIgnoreCase))
         {
-            if (model.Contains("v4-flash", StringComparison.OrdinalIgnoreCase))
+            if (model.Contains("flash", StringComparison.OrdinalIgnoreCase))
             {
+                // Matches the current `deepseek-flash` name plus the retired
+                // `deepseek-v4-flash` / `deepseek-v4-flash-vision-exp` aliases, which are
+                // still accepted by the API and served by the same V4.1 Flash model.
                 autoInitial = 128;
                 autoMaximum = 2000;
-                profile = "deepseek-v4-flash";
-            }
-            else if (model.Contains("v4-pro", StringComparison.OrdinalIgnoreCase))
-            {
-                autoInitial = 64;
-                autoMaximum = 400;
-                profile = "deepseek-v4-pro";
+                profile = "deepseek-flash";
             }
             else
             {

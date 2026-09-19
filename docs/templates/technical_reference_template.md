@@ -330,7 +330,7 @@ common   → 1.0
 **审查机制**：
 - **采样策略**：每个模组最多抽取 1000 条基准文本作为审查样本，所有样本的总字符数不超过 60,000。这样既能覆盖模组的主要内容，又不会超出 LLM 的上下文窗口。
 - **文本截断**：单条超过 1600 字符的文本会被截断，保留前 1600 字符用于审查。极端长的文本通常是配置数据而非自然语言，截断不影响判断。
-- **LLM 审查**：调用 `deepseek-v4-flash` 模型，使用 JSON Mode 输出结构化的审查结论（含判定结果和置信度）。
+- **LLM 审查**：调用 `deepseek-flash` 模型，使用 JSON Mode 输出结构化的审查结论（含判定结果和置信度）。
 - **缓存策略**：审查结果缓存 90 天（由 `contentCheckIntervalDays` 控制）。在缓存有效期内，同一模组不会重复审查。
 - **状态流转**：`UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -449,8 +449,7 @@ DeepSeek API 的速率限制（rate limit）策略并不完全透明，固定的
 | 检测条件 | Initial | Maximum | 适用场景 |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true`（优先） | 4 | 32 | CI 运行器资源（CPU/内存）有限 |
-| model 含 `v4-flash` | 128 | 2000 | DeepSeek V4 Flash 高并发能力 |
-| model 含 `v4-pro` | 64 | 400 | DeepSeek V4 Pro 中等并发能力 |
+| model 含 `flash` | 128 | 2000 | DeepSeek V4 Flash 高并发能力 |
 | 其他模型 | 16 | 128 | 未知模型的保守默认值 |
 
 **固定窗口模式**（`llmFixedConcurrency > 0`）：
@@ -840,7 +839,7 @@ ACCEPTED ──(超过 90 天缓存期)──→ NEEDVERIFICATION (定期重新�
 | 字段 | 类型 | 默认值 | 说明 |
 |------|------|--------|------|
 | `api_endpoint` | string | `{{url_deepseek_api}}` | LLM API 地址，兼容 OpenAI Chat Completions 协议 |
-| `model` | string | `deepseek-v4-flash` | 模型名称。值含 `v4-flash` 或 `v4-pro` 会触发对应的自动并发 profile |
+| `model` | string | `deepseek-flash` | 模型名称。值含 `flash` 会触发对应的自动并发 profile |
 | `temperature` | float | `0.1` | 采样温度 (0~2)。越低输出越确定，翻译任务建议 ≤0.3 |
 | `max_tokens` | int | `380000` | 单次 API 响应的最大 token 数。需大于 batch 输出总量 |
 | `batch_size` | int | `30` | 每个翻译批次的条目数上限。受 `batch_token_budget` 联合约束 |

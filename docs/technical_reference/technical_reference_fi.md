@@ -401,7 +401,7 @@ Automaattisen käännösputken on käsiteltävä mitä tahansa internetistä tul
 **Tarkastusmekanismi**:
 - **Näytteenottostrategia**: Enintään 1000 perustekstiriviä moduulia kohden otetaan tarkastusnäytteiksi, ja kaikkien näytteiden merkkien kokonaismäärä enintään 60 000. Tämä kattaa moduulin pääsisällön eikä ylitä LLM:n konteksti-ikkunaa.
 - **Tekstin katkaisu**: Yli 1600 merkin pituiset tekstit katkaistaan, ja ensimmäiset 1600 merkkiä säilytetään tarkastusta varten. Erittäin pitkät tekstit ovat yleensä määritystietoja eikä luonnollista kieltä, joten katkaisu ei vaikuta arviointiin.
-- **LLM-tarkastus**: Käytetään `deepseek-v4-flash`-mallia, ja tulos tuotetaan JSON-tilassa strukturoituna tarkastuspäätelmänä (sisältäen arvion ja luottamustason).
+- **LLM-tarkastus**: Käytetään `deepseek-flash`-mallia, ja tulos tuotetaan JSON-tilassa strukturoituna tarkastuspäätelmänä (sisältäen arvion ja luottamustason).
 - **Välimuististrategia**: Tarkastustulokset välimuistissa 90 päivää (ohjattu `contentCheckIntervalDays`-parametrilla). Välimuistin voimassaoloaikana samaa moduulia ei tarkasteta uudelleen.
 - **Tilan siirtyminen**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Kun asetuksessa `initial=0` tai `maximum=0`, putki valitsee automaattisesti sopi
 | Tarkistusehto | Initial | Maximum | Soveltuva skenaario |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (ensisijainen) | 4 | 32 | CI-ajurin resurssit (CPU/muisti) rajalliset |
-| malli sisältää `v4-flash` | 128 | 2000 | DeepSeek V4 Flash -korkea rinnakkaisuuskyky |
-| malli sisältää `v4-pro` | 64 | 400 | DeepSeek V4 Pro -keskitaso rinnakkaisuuskyky |
+| malli sisältää `flash` | 128 | 2000 | DeepSeek V4 Flash -korkea rinnakkaisuuskyky |
 | muut mallit | 16 | 128 | Tuntemattomien mallien konservatiivinen oletusarvo |
 
 **Kiinteä ikkunatila** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ Koko käännösputkiston ydintiedosto. Kaikki kentät ovat pakollisia, ellei toi
 | Kenttä | Tyyppi | Oletusarvo | Kuvaus |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API -osoite, yhteensopiva OpenAI Chat Completions -protokollan kanssa |
-| `model` | string | `deepseek-v4-flash` | Mallin nimi. Arvot, jotka sisältävät `v4-flash` tai `v4-pro`, laukaisevat vastaavan automaattisen rinnakkaisuusprofiilin |
+| `model` | string | `deepseek-flash` | Mallin nimi. Arvot, jotka sisältävät `flash`, laukaisevat vastaavan automaattisen rinnakkaisuusprofiilin |
 | `temperature` | float | `0.1` | Näytteenottolämpötila (0–2). Matalampi arvo tekee tulosteesta varmemman, käännöstehtävissä suositellaan ≤0.3 |
 | `max_tokens` | int | `380000` | Maksimi token-määrä yhdessä API-vastauksessa. Täytyy olla suurempi kuin erän kokonaistulostus |
 | `batch_size` | int | `30` | Maksimi kohteiden määrä käännöserässä. Rajoitettu yhdessä `batch_token_budget`:n kanssa |

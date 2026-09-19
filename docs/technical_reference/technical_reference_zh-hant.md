@@ -401,7 +401,7 @@ common   → 1.0
 **審查機制**：
 - **採樣策略**：每個模組最多抽取 1000 條基準文本作為審查樣本，所有樣本的總字符數不超過 60,000。這樣既能覆蓋模組的主要內容，又不會超出 LLM 的上下文窗口。
 - **文本截斷**：單條超過 1600 字符的文本會被截斷，保留前 1600 字符用於審查。極端長的文本通常是配置數據而非自然語言，截斷不影響判斷。
-- **LLM 審查**：調用 `deepseek-v4-flash` 模型，使用 JSON Mode 輸出結構化的審查結論（含判定結果和置信度）。
+- **LLM 審查**：調用 `deepseek-flash` 模型，使用 JSON Mode 輸出結構化的審查結論（含判定結果和置信度）。
 - **緩存策略**：審查結果緩存 90 天（由 `contentCheckIntervalDays` 控制）。在緩存有效期內，同一模組不會重複審查。
 - **狀態流轉**：`UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ AccountFatal（餘額不足/封號）→ 標記 stopScheduling，終止所有後
 | 偵測條件 | Initial | Maximum | 適用場景 |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true`（優先） | 4 | 32 | CI 執行器資源（CPU/記憶體）有限 |
-| model 含 `v4-flash` | 128 | 2000 | DeepSeek V4 Flash 高並行能力 |
-| model 含 `v4-pro` | 64 | 400 | DeepSeek V4 Pro 中等並行能力 |
+| model 含 `flash` | 128 | 2000 | DeepSeek V4 Flash 高並行能力 |
 | 其他模型 | 16 | 128 | 未知模型的保守預設值 |
 
 **固定視窗模式**（`llmFixedConcurrency > 0`）：
@@ -911,7 +910,7 @@ ACCEPTED ──(超過 90 天缓存期)──→ NEEDVERIFICATION (定期重新�
 | 字段 | 类型 | 默认值 | 说明 |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API 位址，相容 OpenAI Chat Completions 協定 |
-| `model` | string | `deepseek-v4-flash` | 模型名稱。值含 `v4-flash` 或 `v4-pro` 會觸發對應的自動併發 profile |
+| `model` | string | `deepseek-flash` | 模型名稱。值含 `flash` 會觸發對應的自動併發 profile |
 | `temperature` | float | `0.1` | 採樣溫度 (0~2)。越低輸出越確定，翻譯任務建議 ≤0.3 |
 | `max_tokens` | int | `380000` | 單次 API 響應的最大 token 數。需大於 batch 輸出總量 |
 | `batch_size` | int | `30` | 每個翻譯批次的條目數上限。受 `batch_token_budget` 聯合約束 |

@@ -401,7 +401,7 @@ The automatic translation pipeline needs to process arbitrary mod content from t
 **Review Mechanism**:
 - **Sampling Strategy**: For each mod, up to 1000 base texts are extracted as review samples, with total characters not exceeding 60,000. This covers the main content of the mod without exceeding the LLM's context window.
 - **Text Truncation**: Texts exceeding 1600 characters are truncated, keeping the first 1600 characters for review. Extremely long texts are usually configuration data rather than natural language, truncation does not affect judgment.
-- **LLM Review**: Invoke the `deepseek-v4-flash` model, use JSON Mode to output structured review conclusions (including judgment result and confidence).
+- **LLM Review**: Invoke the `deepseek-flash` model, use JSON Mode to output structured review conclusions (including judgment result and confidence).
 - **Caching Strategy**: Review results are cached for 90 days (controlled by `contentCheckIntervalDays`). Within the cache period, the same mod will not be re-reviewed.
 - **State Transition**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ When `initial=0` or `maximum=0` in the configuration, the pipeline automatically
 | Detection Condition | Initial | Maximum | Applicable Scenario |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (Priority) | 4 | 32 | CI runner resources (CPU/memory) limited |
-| model contains `v4-flash` | 128 | 2000 | DeepSeek V4 Flash high concurrency capability |
-| model contains `v4-pro` | 64 | 400 | DeepSeek V4 Pro medium concurrency capability |
+| model contains `flash` | 128 | 2000 | DeepSeek V4 Flash high concurrency capability |
 | Other models | 16 | 128 | Conservative defaults for unknown models |
 
 **Fixed Window Mode** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ The core control file of the entire translation pipeline. All fields are require
 | Field | Type | Default | Description |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API endpoint, compatible with OpenAI Chat Completions protocol |
-| `model` | string | `deepseek-v4-flash` | Model name. Values containing `v4-flash` or `v4-pro` will trigger the corresponding automatic concurrency profile |
+| `model` | string | `deepseek-flash` | Model name. Values containing `flash` will trigger the corresponding automatic concurrency profile |
 | `temperature` | float | `0.1` | Sampling temperature (0~2). Lower values make output more deterministic, recommended ≤0.3 for translation tasks |
 | `max_tokens` | int | `380000` | Maximum number of tokens per API response. Must be greater than the total batch output |
 | `batch_size` | int | `30` | Maximum number of entries per translation batch. Jointly constrained by `batch_token_budget` |

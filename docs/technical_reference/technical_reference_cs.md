@@ -401,7 +401,7 @@ Automatický překladový pipeline musí zpracovávat libovolný obsah modů z i
 **Mechanismus kontroly**:
 - **Strategie vzorkování**: Každý mod může mít až 1000 základních textů jako vzorky pro kontrolu, celkový počet znaků všech vzorků nepřesahuje 60 000. Tím je pokryt hlavní obsah modů, aniž by došlo k překročení kontextového okna LLM.
 - **Ořezávání textu**: Jednotlivé texty delší než 1600 znaků jsou oříznuty na prvních 1600 znaků pro kontrolu. Extrémně dlouhé texty jsou obvykle konfigurační data, nikoli přirozený jazyk, ořezání neovlivňuje posouzení.
-- **Kontrola LLM**: Volá model `deepseek-v4-flash`, používá JSON Mode pro výstup strukturovaného závěru kontroly (včetně výsledku a spolehlivosti).
+- **Kontrola LLM**: Volá model `deepseek-flash`, používá JSON Mode pro výstup strukturovaného závěru kontroly (včetně výsledku a spolehlivosti).
 - **Strategie ukládání do mezipaměti**: Výsledky kontroly jsou ukládány na 90 dní (řízeno `contentCheckIntervalDays`). Během platnosti mezipaměti se stejný mod nekontroluje znovu.
 - **Přechod stavů**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Když je v konfiguraci `initial=0` nebo `maximum=0`, pipeline automaticky vybere
 | Podmínka detekce | Initial | Maximum | Scénář použití |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (priorita) | 4 | 32 | Omezené zdroje CI runneru (CPU/paměť) |
-| model obsahuje `v4-flash` | 128 | 2000 | Vysoká souběžnost DeepSeek V4 Flash |
-| model obsahuje `v4-pro` | 64 | 400 | Střední souběžnost DeepSeek V4 Pro |
+| model obsahuje `flash` | 128 | 2000 | Vysoká souběžnost DeepSeek V4 Flash |
 | Ostatní modely | 16 | 128 | Konzervativní výchozí hodnota pro neznámé modely |
 
 **Režim pevného okna** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ Základní řídicí soubor celé překladové pipeline. Všechna pole jsou povi
 | Pole | Typ | Výchozí hodnota | Popis |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Adresa LLM API, kompatibilní s protokolem OpenAI Chat Completions |
-| `model` | string | `deepseek-v4-flash` | Název modelu. Hodnota obsahující `v4-flash` nebo `v4-pro` spustí odpovídající automatický profil souběžnosti |
+| `model` | string | `deepseek-flash` | Název modelu. Hodnota obsahující `flash` spustí odpovídající automatický profil souběžnosti |
 | `temperature` | float | `0.1` | Teplota vzorkování (0–2). Čím nižší, tím je výstup determinističtější, pro překladatelské úlohy se doporučuje ≤0.3 |
 | `max_tokens` | int | `380000` | Maximální počet tokenů v jedné odpovědi API. Musí být větší než celkový výstup dávky |
 | `batch_size` | int | `30` | Horní limit počtu položek v jedné překladové dávce. Omezeno společně s `batch_token_budget` |

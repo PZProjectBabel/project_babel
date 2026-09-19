@@ -401,7 +401,7 @@ De geautomatiseerde vertaalpijplijn moet willekeurige mod-inhoud van internet ve
 **Controlemechanisme**:
 - **Bemonsteringsstrategie**: Maximaal 1000 basisteksten per mod worden geëxtraheerd als controlemonsters, met een totaal aantal tekens van niet meer dan 60.000. Dit dekt de belangrijkste inhoud van de mod en overschrijdt de contextvenster van de LLM niet.
 - **Tekstafkapping**: Teksten langer dan 1600 tekens worden afgekapt, waarbij de eerste 1600 tekens worden bewaard voor controle. Extreem lange teksten zijn meestal configuratiegegevens in plaats van natuurlijke taal; afkapping beïnvloedt de beoordeling niet.
-- **LLM-controle**: Roep het `deepseek-v4-flash` model aan en gebruik JSON-modus om gestructureerde controleconclusies uit te voeren (inclusief beoordelingsresultaat en betrouwbaarheid).
+- **LLM-controle**: Roep het `deepseek-flash` model aan en gebruik JSON-modus om gestructureerde controleconclusies uit te voeren (inclusief beoordelingsresultaat en betrouwbaarheid).
 - **Cachestrategie**: Controleresultaten worden 90 dagen gecachet (geregeld door `contentCheckIntervalDays`). Binnen de geldigheidsperiode wordt dezelfde mod niet opnieuw gecontroleerd.
 - **Statusovergang**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Wanneer in de configuratie `initial=0` of `maximum=0` staat, kiest de pijplijn a
 | Detectieconditie | Initieel | Maximaal | Toepassingsscenario |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (prioriteit) | 4 | 32 | CI-runner resources (CPU/geheugen) beperkt |
-| model bevat `v4-flash` | 128 | 2000 | DeepSeek V4 Flash hoge concurrency capaciteit |
-| model bevat `v4-pro` | 64 | 400 | DeepSeek V4 Pro gemiddelde concurrency capaciteit |
+| model bevat `flash` | 128 | 2000 | DeepSeek V4 Flash hoge concurrency capaciteit |
 | Andere modellen | 16 | 128 | Conservatieve standaard voor onbekende modellen |
 
 **Vast venster modus** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ Het centrale controlebstand van de gehele vertaalpijplijn. Alle velden zijn verp
 | Veld | Type | Standaardwaarde | Beschrijving |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API-adres, compatibel met OpenAI Chat Completions protocol |
-| `model` | string | `deepseek-v4-flash` | Modelnaam. Waarden die `v4-flash` of `v4-pro` bevatten activeren het bijbehorende automatische concurrency-profiel. |
+| `model` | string | `deepseek-flash` | Modelnaam. Waarden die `flash` bevatten activeren het bijbehorende automatische concurrency-profiel. |
 | `temperature` | float | `0.1` | Monstertemperatuur (0~2). Hoe lager, hoe zekerder de uitvoer. Voor vertaaltaken wordt ≤0.3 aanbevolen |
 | `max_tokens` | int | `380000` | Maximaal aantal tokens per API-antwoord. Moet groter zijn dan de totale output van de batch |
 | `batch_size` | int | `30` | Maximumaantal items per vertaalbatch. Gezamenlijk begrensd door `batch_token_budget` |

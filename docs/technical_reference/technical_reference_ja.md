@@ -401,7 +401,7 @@ common   → 1.0
 **審査メカニズム**：
 - **サンプリング戦略**：各Modから最大1000件のベーステキストを審査サンプルとして抽出し、全サンプルの総文字数は60,000文字未満とします。これによりModの主要コンテンツをカバーしつつ、LLMのコンテキストウィンドウを超えません。
 - **テキスト切り捨て**：1件あたり1600文字を超えるテキストは先頭1600文字に切り捨てて審査します。極端に長いテキストは通常、設定データであり自然言語ではないため、切り捨てても判断に影響しません。
-- **LLM審査**：`deepseek-v4-flash` モデルを呼び出し、JSON Modeで構造化された審査結果（判定結果と信頼度を含む）を出力します。
+- **LLM審査**：`deepseek-flash` モデルを呼び出し、JSON Modeで構造化された審査結果（判定結果と信頼度を含む）を出力します。
 - **キャッシュ戦略**：審査結果を90日間キャッシュします（`contentCheckIntervalDays` で制御）。キャッシュ有効期間中は同じModの再審査は行われません。
 - **状態遷移**：`UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ AccountFatal（残高不足・アカウント停止）→ stopScheduling をマ�
 | 検出条件 | Initial | Maximum | 適用シナリオ |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true`（優先） | 4 | 32 | CIランナーのリソース（CPU/メモリ）が限られている場合 |
-| model に `v4-flash` を含む | 128 | 2000 | DeepSeek V4 Flash 高同時実行能力 |
-| model に `v4-pro` を含む | 64 | 400 | DeepSeek V4 Pro 中程度の同時実行能力 |
+| model に `flash` を含む | 128 | 2000 | DeepSeek V4 Flash 高同時実行能力 |
 | その他のモデル | 16 | 128 | 未知モデルの控えめなデフォルト値 |
 
 **固定ウィンドウモード**（`llmFixedConcurrency > 0`）：
@@ -911,7 +910,7 @@ MODを再抽出・再翻訳する必要があるかどうかは、以下のル�
 | フィールド | 型 | デフォルト値 | 説明 |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM APIアドレス、OpenAI Chat Completionsプロトコルと互換性あり |
-| `model` | string | `deepseek-v4-flash` | モデル名。値に`v4-flash`または`v4-pro`が含まれると、対応する自動並列プロファイルがトリガーされます。 |
+| `model` | string | `deepseek-flash` | モデル名。値に`flash`が含まれると、対応する自動並列プロファイルがトリガーされます。 |
 | `temperature` | float | `0.1` | サンプリング温度 (0~2)。低いほど出力が確定的になり、翻訳タスクでは≤0.3が推奨されます。 |
 | `max_tokens` | int | `380000` | 単一APIレスポンスの最大トークン数。バッチ出力の総トークン量より大きくなければなりません。 |
 | `batch_size` | int | `30` | 各翻訳バッチのエントリ数の上限。`batch_token_budget` との組み合わせ制約あり。 |

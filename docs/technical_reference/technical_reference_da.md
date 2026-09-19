@@ -401,7 +401,7 @@ Den automatiske oversættelsespipeline skal håndtere vilkårligt mod-indhold fr
 **Gennemgangsmekanisme**:
 - **Prøveudtagningsstrategi**: Hver mod udtrækker op til 1000 basistekster som prøve, og det samlede antal tegn overstiger ikke 60.000. Dette dækker hovedindholdet af moden uden at overskride LLM's kontekstvindue.
 - **Tekstafkortning**: Tekster over 1600 tegn afkortes, de første 1600 tegn bevares til gennemgang. Ekstremt lange tekster er typisk konfigurationsdata og ikke naturligt sprog, så afkortning påvirker ikke vurderingen.
-- **LLM-gennemgang**: Kald `deepseek-v4-flash`-modellen, brug JSON Mode til at udskrive strukturerede gennemgangskonklusioner (inklusive vurdering og konfidens).
+- **LLM-gennemgang**: Kald `deepseek-flash`-modellen, brug JSON Mode til at udskrive strukturerede gennemgangskonklusioner (inklusive vurdering og konfidens).
 - **Cache-strategi**: Gennemgangsresultater caches i 90 dage (styret af `contentCheckIntervalDays`). Inden for cache-udløb gennemgås den samme mod ikke igen.
 - **Statusovergang**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Når `initial=0` eller `maximum=0` i konfigurationen, vælger pipelinen automati
 | Detektionsbetingelse | Initial | Maximum | Anvendelsesscenarie |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (prioritet) | 4 | 32 | CI runner ressourcer (CPU/hukommelse) begrænset |
-| model indeholder `v4-flash` | 128 | 2000 | DeepSeek V4 Flash høj samtidighedskapacitet |
-| model indeholder `v4-pro` | 64 | 400 | DeepSeek V4 Pro moderat samtidighedskapacitet |
+| model indeholder `flash` | 128 | 2000 | DeepSeek V4 Flash høj samtidighedskapacitet |
 | Andre modeller | 16 | 128 | Konservativ standardværdi for ukendte modeller |
 
 **Fast vinduestilstand** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ Hele oversættelsespipelinens centrale kontrolfil. Alle felter er obligatoriske,
 | Felt | Type | Standardværdi | Beskrivelse |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API-adresse, kompatibel med OpenAI Chat Completions protokol |
-| `model` | string | `deepseek-v4-flash` | Modelnavn. Værdier indeholdende `v4-flash` eller `v4-pro` udløser tilsvarende automatisk concurrency-profil |
+| `model` | string | `deepseek-flash` | Modelnavn. Værdier indeholdende `flash` udløser tilsvarende automatisk concurrency-profil |
 | `temperature` | float | `0.1` | Prøvetagningstemperatur (0–2). Jo lavere, desto mere deterministisk output. For oversættelsesopgaver anbefales ≤0.3 |
 | `max_tokens` | int | `380000` | Maksimalt antal tokens pr. API-svar. Skal være større end batch'ets samlede output |
 | `batch_size` | int | `30` | Øvre grænse for antal elementer pr. oversættelsesbatch. Begrænses i fællesskab af `batch_token_budget` |

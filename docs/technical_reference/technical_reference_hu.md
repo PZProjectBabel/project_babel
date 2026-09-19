@@ -401,7 +401,7 @@ Az automatikus fordítási csővezetéknek bármilyen internetről származó mo
 **Vizsgálati mechanizmus**:
 - **Mintavételi stratégia**: Modonként legfeljebb 1000 alapszöveg mintavételezése, az összes minta teljes karakterszáma nem haladhatja meg a 60 000-et. Ez lefedi a mod fő tartalmát, anélkül, hogy túllépné az LLM kontextusablakát.
 - **Szöveg csonkítás**: Az 1600 karakternél hosszabb egyedi szövegek csonkításra kerülnek, az első 1600 karakter megmarad a vizsgálathoz. A rendkívül hosszú szövegek általában konfigurációs adatok, nem természetes nyelv, a csonkítás nem befolyásolja az ítéletet.
-- **LLM-vizsgálat**: A `deepseek-v4-flash` modell meghívása JSON módban strukturált vizsgálati következtetések (ítélet és megbízhatóság) kiadásához.
+- **LLM-vizsgálat**: A `deepseek-flash` modell meghívása JSON módban strukturált vizsgálati következtetések (ítélet és megbízhatóság) kiadásához.
 - **Gyorsítótár-stratégia**: A vizsgálati eredmények 90 napig gyorsítótárazódnak (a `contentCheckIntervalDays` által szabályozva). A gyorsítótár érvényességi ideje alatt ugyanaz a mod nem kerül újravizsgálatra.
 - **Állapotátmenet**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Amikor a konfigurációban `initial=0` vagy `maximum=0`, a csővezeték a futtat
 | Észlelési feltétel | Initial | Maximum | Alkalmazási forgatókönyv |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (elsődleges) | 4 | 32 | CI futtató erőforrásai (CPU/memória) korlátozott |
-| modell tartalmazza `v4-flash` | 128 | 2000 | DeepSeek V4 Flash magas egyidejűségi képesség |
-| modell tartalmazza `v4-pro` | 64 | 400 | DeepSeek V4 Pro közepes egyidejűségi képesség |
+| modell tartalmazza `flash` | 128 | 2000 | DeepSeek V4 Flash magas egyidejűségi képesség |
 | Egyéb modellek | 16 | 128 | Ismeretlen modell konzervatív alapérték |
 
 **Fix ablak mód** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ A teljes fordítócsővezeték központi vezérlőfájlja. Minden mező kitölt�
 | Mező | Típus | Alapérték | Leírás |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API címe, kompatibilis az OpenAI Chat Completions protokollal. |
-| `model` | string | `deepseek-v4-flash` | Modell neve. Ha az érték `v4-flash`-t vagy `v4-pro`-t tartalmaz, akkor a megfelelő automatikus konkurencia profil aktiválódik. |
+| `model` | string | `deepseek-flash` | Modell neve. Ha az érték `flash`-t tartalmaz, akkor a megfelelő automatikus konkurencia profil aktiválódik. |
 | `temperature` | float | `0.1` | Mintavételi hőmérséklet (0~2). Minél alacsonyabb, annál determinisztikusabb a kimenet, fordítási feladatokhoz ≤0,3 ajánlott. |
 | `max_tokens` | int | `380000` | Egyetlen API-válasz maximális token száma. Nagyobbnak kell lennie, mint a batch kimenet teljes mennyisége. |
 | `batch_size` | int | `30` | Minden fordítási batch bejegyzéseinek felső korlátja. A `batch_token_budget`-tel együttesen korlátozza. |

@@ -401,7 +401,7 @@ common   → 1.0
 **심사 메커니즘**:
 - **샘플링 전략**: 각 모드에서 최대 1000개의 기준 텍스트를 심사 샘플로 추출하며, 모든 샘플의 총 문자 수는 60,000을 초과하지 않습니다. 이렇게 하면 모드의 주요 내용을 포함하면서도 LLM의 컨텍스트 창을 초과하지 않습니다.
 - **텍스트 잘라내기**: 단일 항목이 1600자를 초과하면 잘라내어 처음 1600자를 검사에 사용합니다. 지나치게 긴 텍스트는 일반적으로 자연어가 아닌 설정 데이터이므로 잘라내기가 판단에 영향을 주지 않습니다.
-- **LLM 심사**: `deepseek-v4-flash` 모델을 호출하고 JSON Mode를 사용하여 구조화된 심사 결론(판단 결과 및 신뢰도 포함)을 출력합니다.
+- **LLM 심사**: `deepseek-flash` 모델을 호출하고 JSON Mode를 사용하여 구조화된 심사 결론(판단 결과 및 신뢰도 포함)을 출력합니다.
 - **캐싱 전략**: 심사 결과는 90일 동안 캐시됩니다(`contentCheckIntervalDays`에 의해 제어). 캐시 유효 기간 동안 동일한 모드는 다시 심사되지 않습니다.
 - **상태 흐름**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ AccountFatal(잔액 부족/계정 정지) → stopScheduling 표시, 모든 후�
 | 감지 조건 | Initial | Maximum | 적용 시나리오 |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true`(우선) | 4 | 32 | CI 실행기 리소스(CPU/메모리) 제한 |
-| model에 `v4-flash` 포함 | 128 | 2000 | DeepSeek V4 Flash 높은 동시성 능력 |
-| model에 `v4-pro` 포함 | 64 | 400 | DeepSeek V4 Pro 중간 동시성 능력 |
+| model에 `flash` 포함 | 128 | 2000 | DeepSeek V4 Flash 높은 동시성 능력 |
 | 기타 모델 | 16 | 128 | 알 수 없는 모델의 보수적 기본값 |
 
 **고정 윈도우 모드**(`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ config/ 디렉토리에는 총 5개의 설정 파일이 있으며, 역할에 따
 | 필드 | 유형 | 기본값 | 설명 |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | LLM API 주소, OpenAI Chat Completions 프로토콜 호환 |
-| `model` | string | `deepseek-v4-flash` | 모델 이름. 값에 `v4-flash` 또는 `v4-pro`가 포함되면 해당 자동 동시성 프로필이 트리거됩니다. |
+| `model` | string | `deepseek-flash` | 모델 이름. 값에 `flash`가 포함되면 해당 자동 동시성 프로필이 트리거됩니다. |
 | `temperature` | float | `0.1` | 샘플링 온도(0~2). 낮을수록 출력이 확정적이며, 번역 작업은 ≤0.3을 권장합니다. |
 | `max_tokens` | int | `380000` | 단일 API 응답의 최대 토큰 수. batch 출력 총량보다 커야 합니다. |
 | `batch_size` | int | `30` | 각 번역 배치의 항목 수 상한. `batch_token_budget`과 함께 제약됩니다. |

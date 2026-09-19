@@ -401,7 +401,7 @@ Pipa terjemahan otomatis perlu memproses konten mod sembarang dari internet, yan
 **Mekanisme Pemeriksaan**:
 - **Strategi Sampling**: Setiap mod mengambil maksimal 1000 teks dasar sebagai sampel pemeriksaan, total karakter semua sampel tidak melebihi 60.000. Ini mencakup konten utama mod tanpa melebihi jendela konteks LLM.
 - **Pemotongan Teks**: Teks tunggal yang melebihi 1600 karakter akan dipotong, menyisakan 1600 karakter pertama untuk pemeriksaan. Teks yang sangat panjang biasanya adalah data konfigurasi bukan bahasa alami, pemotongan tidak mempengaruhi penilaian.
-- **Pemeriksaan LLM**: Memanggil model `deepseek-v4-flash`, menggunakan JSON Mode untuk menghasilkan kesimpulan pemeriksaan terstruktur (termasuk hasil penilaian dan kepercayaan).
+- **Pemeriksaan LLM**: Memanggil model `deepseek-flash`, menggunakan JSON Mode untuk menghasilkan kesimpulan pemeriksaan terstruktur (termasuk hasil penilaian dan kepercayaan).
 - **Strategi Cache**: Hasil pemeriksaan di-cache selama 90 hari (dikontrol oleh `contentCheckIntervalDays`). Dalam masa berlaku cache, mod yang sama tidak akan diperiksa ulang.
 - **Aliran Status**: `UNKNOWN → NEEDVERIFICATION → ACCEPTED / REJECTED`
 
@@ -520,8 +520,7 @@ Ketika dalam konfigurasi `initial=0` atau `maximum=0`, pipeline secara otomatis 
 | Kondisi Deteksi | Initial | Maximum | Skenario Penerapan |
 |------|---------|---------|------|
 | `GITHUB_ACTIONS=true` (prioritas) | 4 | 32 | Sumber daya runner CI (CPU/memori) terbatas |
-| model mengandung `v4-flash` | 128 | 2000 | Kemampuan konkurensi tinggi DeepSeek V4 Flash |
-| model mengandung `v4-pro` | 64 | 400 | Kemampuan konkurensi sedang DeepSeek V4 Pro |
+| model mengandung `flash` | 128 | 2000 | Kemampuan konkurensi tinggi DeepSeek V4 Flash |
 | Model lainnya | 16 | 128 | Nilai default konservatif untuk model tidak dikenal |
 
 **Mode Fixed Window** (`llmFixedConcurrency > 0`):
@@ -911,7 +910,7 @@ File kontrol inti dari seluruh pipeline penerjemahan. Semua bidang wajib diisi, 
 | Bidang | Tipe | Nilai Default | Deskripsi |
 |------|------|--------|------|
 | `api_endpoint` | string | `https://api.deepseek.com/chat/completions` | Alamat API LLM, kompatibel dengan protokol OpenAI Chat Completions |
-| `model` | string | `deepseek-v4-flash` | Nama model. Nilai yang mengandung `v4-flash` atau `v4-pro` akan memicu profil konkurensi otomatis yang sesuai |
+| `model` | string | `deepseek-flash` | Nama model. Nilai yang mengandung `flash` akan memicu profil konkurensi otomatis yang sesuai |
 | `temperature` | float | `0.1` | Suhu sampling (0~2). Semakin rendah semakin pasti outputnya, untuk tugas terjemahan disarankan ≤0.3 |
 | `max_tokens` | int | `380000` | Jumlah maksimum token untuk respons API tunggal. Harus lebih besar dari total output batch |
 | `batch_size` | int | `30` | Batas maksimum jumlah entri per batch terjemahan. Dibatasi bersama oleh `batch_token_budget` |
