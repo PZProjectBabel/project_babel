@@ -40,9 +40,9 @@ public class PipelineRunner
     public const int MaxDownloadExtractionBatchesPerRun = 30;
     /// <summary>
     /// Maximum number of SteamCMD-backed download batches that may run concurrently.
-    /// Pinned to 1 so the translation job never runs more than one SteamCMD process at a time.
+    /// Pinned to 2 so the translation job runs at most two SteamCMD processes at a time.
     /// </summary>
-    public const int DownloadBatchConcurrency = 1;
+    public const int DownloadBatchConcurrency = 2;
     /// <summary>Command-line option that overrides the per-run download/extraction batch limit.</summary>
     public const string MaxDownloadExtractionBatchesArgument = "--max-download-batches";
     /// <summary>Maximum number of mods to process in debug mode.</summary>
