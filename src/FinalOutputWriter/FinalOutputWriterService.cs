@@ -96,25 +96,25 @@ public class FinalOutputWriterService
                 group.Add(candidate, conflictWarnings, lang.isoCode);
             }
 
-            // Write to 42.20 first.
-            var outDir4220 = Path.Combine(_finalOutputBase, "42.20", "media", "lua", "shared", "Translate", gameCode);
-            Directory.CreateDirectory(outDir4220);
+            // Write to 42.21 first.
+            var outDir4221 = Path.Combine(_finalOutputBase, "42.21", "media", "lua", "shared", "Translate", gameCode);
+            Directory.CreateDirectory(outDir4221);
 
             foreach (var group in fileGroups.Values.OrderBy(item => item.FileName, StringComparer.Ordinal))
             {
-                var jsonPath = Path.Combine(outDir4220, group.FileName + ".json");
+                var jsonPath = Path.Combine(outDir4221, group.FileName + ".json");
                 var tmpPath = jsonPath + ".tmp";
                 var output = group.ToOutputDictionary();
                 RemoveForbiddenModNameField(group.FileName, output);
                 var json = Utf8NoBom.SerializeIndentedJson(output);
                 Utf8NoBom.WriteAllText(tmpPath, json);
-                RemoveCaseVariantFiles(outDir4220, group.FileName + ".json");
+                RemoveCaseVariantFiles(outDir4221, group.FileName + ".json");
                 MoveFileAtomic(tmpPath, jsonPath);
             }
 
             // Copy to 42 (identical content).
             var outDir42 = Path.Combine(_finalOutputBase, "42", "media", "lua", "shared", "Translate", gameCode);
-            CopyDirectory(outDir4220, outDir42);
+            CopyDirectory(outDir4221, outDir42);
             foreach (var group in fileGroups.Values)
                 RemoveCaseVariantFiles(outDir42, group.FileName + ".json");
 
@@ -135,7 +135,7 @@ public class FinalOutputWriterService
 
     private void EnsureAnimationScanDirectories()
     {
-        foreach (var versionDir in new[] { "common", "42", "42.20" })
+        foreach (var versionDir in new[] { "common", "42", "42.21" })
         {
             var mediaDir = Path.Combine(_finalOutputBase, versionDir, "media");
             Directory.CreateDirectory(Path.Combine(mediaDir, "AnimSets"));

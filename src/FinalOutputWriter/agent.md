@@ -7,10 +7,10 @@ Function: write final mod translation files for PZ mod distribution.
 Inputs: translation entries, ref mod IDs, target languages, base_game_keys dir.
 
 Outputs:
-- `final_outputs/project_babel/contents/mods/project_babel/42.20/media/lua/shared/Translate/<gamecode>/*.json`
+- `final_outputs/project_babel/contents/mods/project_babel/42.21/media/lua/shared/Translate/<gamecode>/*.json`
 - `final_outputs/project_babel/contents/mods/project_babel/42/media/lua/shared/Translate/<gamecode>/*.json`
-- Empty `media/AnimSets` and `media/actiongroups` directories under `common`, `42`, and `42.20` for the B42 animation loader.
-- Both dirs identical; write 42.20 first, copy to 42.
+- Empty `media/AnimSets` and `media/actiongroups` directories under `common`, `42`, and `42.21` for the B42 animation loader.
+- Both dirs identical; write 42.21 first, copy to 42.
 
 Rules:
 - Prefer a validated explicit `TranslationEntry.outputFileStem`; otherwise group by key root

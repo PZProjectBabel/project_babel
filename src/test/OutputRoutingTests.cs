@@ -156,7 +156,7 @@ public sealed class OutputRoutingTests
 
             var outputDir = Path.Combine(
                 tempDir, "final_outputs", "project_babel", "contents", "mods", "project_babel",
-                "42.20", "media", "lua", "shared", "Translate", "CN");
+                "42.21", "media", "lua", "shared", "Translate", "CN");
             var weapons = JsonDocument.Parse(Utf8NoBom.ReadAllText(Path.Combine(outputDir, "Weapons.json"))).RootElement;
             Assert.Equal("AKM", weapons.GetProperty("Base.AKM").GetString());
             var dottedStem = JsonDocument.Parse(Utf8NoBom.ReadAllText(Path.Combine(outputDir, "Base.AKM.json"))).RootElement;
@@ -201,7 +201,7 @@ public sealed class OutputRoutingTests
                 [new LangInfoData { ingameCode = "CN", isoCode = "zh-hans" }]);
             Assert.True(result.isSuccess);
 
-            foreach (var versionDir in new[] { "42.20", "42" })
+            foreach (var versionDir in new[] { "42.21", "42" })
             {
                 var outputPath = Path.Combine(
                     tempDir, "final_outputs", "project_babel", "contents", "mods", "project_babel",
@@ -269,7 +269,7 @@ public sealed class OutputRoutingTests
 
             var outputDir = Path.Combine(
                 tempDir, "final_outputs", "project_babel", "contents", "mods", "project_babel",
-                "42.20", "media", "lua", "shared", "Translate", "CN");
+                "42.21", "media", "lua", "shared", "Translate", "CN");
             var outputFiles = Directory.GetFiles(outputDir, "*.json")
                 .Select(path => Path.GetFileName(path)!)
                 .ToHashSet(StringComparer.Ordinal);
@@ -311,7 +311,7 @@ public sealed class OutputRoutingTests
 
             var outputDir = Path.Combine(
                 tempDir, "final_outputs", "project_babel", "contents", "mods", "project_babel",
-                "42.20", "media", "lua", "shared", "Translate", "CN");
+                "42.21", "media", "lua", "shared", "Translate", "CN");
             Directory.CreateDirectory(outputDir);
             // A previous run on Linux could have left the lower-case spelling;
             // the writer must remove it when emitting the canonical path.
